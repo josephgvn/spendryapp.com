@@ -5,234 +5,478 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - Spendry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        * {
+        :root {
+            --bg: #050507;
+            --surface: #121216;
+            --text-primary: #F5F5F7;
+            --text-secondary: #86868b;
+            --accent: #2997FF;
+            --accent-red: #ff453a;
+            --divider: rgba(255, 255, 255, 0.1);
+            --max-width: 800px;
+        }
+
+        *,
+        *::before,
+        *::after {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text-primary);
             line-height: 1.6;
-            color: #333;
-            max-width: 800px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Ambient Glow */
+        .ambient {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(circle at 50% -20%, rgba(41, 151, 255, 0.08), transparent 40%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        /* Nav */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(5, 5, 7, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--divider);
+            padding: 16px 24px;
+        }
+
+        .nav-content {
+            max-width: var(--max-width);
             margin: 0 auto;
-            padding: 40px 20px;
-            background: #f9f9f9;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .lang-switch button {
+            background: transparent;
+            border: 1px solid var(--divider);
+            color: var(--text-secondary);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .lang-switch button.active {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-primary);
+            border-color: transparent;
+        }
+
+        /* Main Content */
+        main {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 80px 24px 120px;
         }
 
         h1 {
-            color: #1a1a2e;
-            margin-bottom: 10px;
-            font-size: 2em;
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 16px;
+        }
+
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 64px;
+            display: block;
+        }
+
+        section {
+            margin-bottom: 48px;
         }
 
         h2 {
-            color: #16213e;
-            margin: 30px 0 15px;
-            font-size: 1.4em;
-            border-bottom: 2px solid #e94560;
-            padding-bottom: 8px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 24px;
+            letter-spacing: -0.01em;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--divider);
         }
 
         h3 {
-            color: #0f3460;
-            margin: 20px 0 10px;
-            font-size: 1.1em;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 32px 0 16px;
         }
 
         p {
-            margin-bottom: 15px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            font-size: 1.05rem;
         }
 
-        ul,
-        ol {
-            margin: 10px 0 15px 25px;
+        ul {
+            list-style: none;
+            margin-bottom: 24px;
         }
 
         li {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            padding-left: 24px;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: var(--accent);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        .disclaimer-box {
+            background: rgba(255, 69, 58, 0.1);
+            border: 1px solid rgba(255, 69, 58, 0.3);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 32px 0;
+        }
+
+        .disclaimer-title {
+            color: var(--accent-red);
+            font-weight: 700;
+            display: block;
             margin-bottom: 8px;
+            font-size: 1.1rem;
         }
 
-        .update-date {
-            color: #666;
-            font-size: 0.9em;
-            margin-bottom: 30px;
+        .disclaimer-box p {
+            color: #ffb4b0;
+            margin: 0;
+            font-size: 0.95rem;
         }
 
-        .highlight {
-            background: #fff3cd;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 20px 0;
-            border-left: 4px solid #ffc107;
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--divider);
+            padding: 64px 24px;
+            text-align: center;
         }
 
-        .important {
-            background: #f8d7da;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 20px 0;
-            border-left: 4px solid #dc3545;
-        }
-
-        .contact {
-            background: #e8f4f8;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 30px;
+        .footer-content p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
         }
 
         a {
-            color: #e94560;
+            color: var(--accent);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.8;
+        }
+
+        /* Language State */
+        .tr-content {
+            display: none;
+        }
+
+        body.lang-tr .en-content {
+            display: none;
+        }
+
+        body.lang-tr .tr-content {
+            display: block;
         }
     </style>
 </head>
 
-<body>
-    <h1>📜 Terms of Service</h1>
-    <p class="update-date">Last Updated: January 14, 2026</p>
+<body class="lang-en">
+    <div class="ambient"></div>
 
-    <p>Welcome to Spendry! By downloading, installing, or using the Spendry application ("the App"), you agree to be
-        bound by these Terms of Service ("Terms"). Please read them carefully.</p>
+    <nav>
+        <div class="nav-content">
+            <a href="index.html" class="logo">Spendry</a>
+            <div class="lang-switch">
+                <button onclick="setLang('en')" id="btn-en" class="active">EN</button>
+                <button onclick="setLang('tr')" id="btn-tr">TR</button>
+            </div>
+        </div>
+    </nav>
 
-    <h2>1. Acceptance of Terms</h2>
-    <p>By accessing or using Spendry, you confirm that you are at least 13 years old and agree to comply with these
-        Terms. If you do not agree, please do not use the App.</p>
+    <main>
+        <!-- ENGLISH CONTENT -->
+        <div class="en-content">
+            <h1>Terms of Service</h1>
+            <span class="last-updated">Last Updated: January 14, 2026</span>
 
-    <h2>2. Description of Service</h2>
-    <p>Spendry is a personal finance management application that helps you:</p>
-    <ul>
-        <li>Track income and expenses</li>
-        <li>Create and manage budgets</li>
-        <li>Set and monitor savings goals</li>
-        <li>Track debts and payments</li>
-        <li>Monitor investments</li>
-        <li>Manage subscriptions</li>
-        <li>Receive payment reminders</li>
-    </ul>
+            <section>
+                <h2>1. Acceptance of Terms</h2>
+                <p>Welcome to Spendry. By downloading, accessing, or using the Spendry mobile application ("the App"),
+                    you agree to be bound by these Terms of Service. If you do not agree to these terms, simply do not
+                    use the App. We reserve the right to modify these terms at any time, and your continued use of the
+                    App signifies your acceptance of updated terms.</p>
+            </section>
 
-    <h2>3. User Accounts</h2>
-    <p>Spendry does not require account registration. Your data is stored locally on your device and optionally synced
-        via your Apple iCloud account.</p>
+            <section>
+                <h2>2. Description of Service</h2>
+                <p>Spendry is a personal finance management tool that allows you to track expenses, manage budgets, and
+                    monitor debts locally on your iOS device. The App provides:</p>
+                <ul>
+                    <li>Transaction logging and categorization.</li>
+                    <li>Budget tracking and variance analysis.</li>
+                    <li>Debt payoff calculations and tracking.</li>
+                    <li>Financial health insights and visualizations.</li>
+                </ul>
+            </section>
 
-    <h2>4. Free and Premium Services</h2>
+            <section>
+                <h2>3. Usage Tiers</h2>
 
-    <h3>4.1 Free Features</h3>
-    <p>The free version of Spendry includes:</p>
-    <ul>
-        <li>Up to 3 budgets</li>
-        <li>Up to 3 savings goals</li>
-        <li>Up to 3 debt entries</li>
-        <li>Up to 3 investments</li>
-        <li>Up to 3 credit cards</li>
-        <li>Unlimited transactions</li>
-        <li>Basic statistics</li>
-        <li>Small home screen widget</li>
-    </ul>
+                <h3>3.1 Free Tier</h3>
+                <p>The Free version of Spendry allows unlimited transactions but includes limitations on the number of
+                    accounts and entities you can create:</p>
+                <ul>
+                    <li>Max 3 Budgets</li>
+                    <li>Max 3 Savings Goals</li>
+                    <li>Max 3 Active Debts (Loans or Personal Debts)</li>
+                    <li>Max 3 Investment Accounts</li>
+                    <li>Max 3 Credit Cards</li>
+                </ul>
 
-    <h3>4.2 Premium Subscription</h3>
-    <p>Spendry Premium unlocks:</p>
-    <ul>
-        <li>Unlimited budgets, goals, debts, investments, and credit cards</li>
-        <li>Advanced analytics and insights</li>
-        <li>Annual debt reports</li>
-        <li>Medium and large home screen widgets</li>
-        <li>Priority customer support</li>
-    </ul>
+                <h3>3.2 Premium Tier</h3>
+                <p>Spendry Premium unlocks the full potential of the App, removing all limits listed above and granting
+                    access to advanced features such as specific widgets, depth analytics, and annual reports.</p>
+            </section>
 
-    <div class="highlight">
-        <strong>💡 Subscription Information</strong><br>
-        Premium is available as Monthly, Yearly, or Lifetime purchase. Free trial periods may be offered for new
-        subscribers.
-    </div>
+            <section>
+                <h2>4. Billing and Subscriptions</h2>
+                <p>If you choose to purchase Spendry Premium, the following terms apply:</p>
 
-    <h2>5. Payment and Billing</h2>
+                <h3>4.1 Payment</h3>
+                <p>Payment will be charged to your Apple ID account at the confirmation of purchase. Prices are
+                    displayed clearly in the App before purchase.</p>
 
-    <h3>5.1 Subscription Terms</h3>
-    <ul>
-        <li>Payment will be charged to your Apple ID account at confirmation of purchase</li>
-        <li>Subscription automatically renews unless canceled at least 24 hours before the end of the current period
-        </li>
-        <li>Your account will be charged for renewal within 24 hours prior to the end of the current period</li>
-        <li>You can manage and cancel subscriptions in your Apple ID Account Settings</li>
-    </ul>
+                <h3>4.2 Automatic Renewal</h3>
+                <p>Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of
+                    the current period. Your account will be charged for renewal within 24 hours prior to the end of the
+                    current period.</p>
 
-    <h3>5.2 Free Trials</h3>
-    <ul>
-        <li>Free trial periods provide full access to premium features</li>
-        <li>If you cancel before the trial ends, no charges will be made</li>
-        <li>Any unused portion of a free trial will be forfeited when purchasing a subscription</li>
-    </ul>
+                <h3>4.3 Cancellation</h3>
+                <p>You can manage and cancel your subscriptions by going to your App Store Account Settings after
+                    purchase. Deleting the App does not cancel your subscription.</p>
 
-    <h3>5.3 Refunds</h3>
-    <p>All purchases are processed through Apple's App Store. Refund requests must be submitted directly to Apple
-        according to their refund policy.</p>
+                <h3>4.4 Refunds</h3>
+                <p>All billing is handled directly by Apple. We do not have the ability to issue refunds directly.
+                    Refund requests must be submitted to Apple Support.</p>
+            </section>
 
-    <h2>6. User Responsibilities</h2>
-    <p>You agree to:</p>
-    <ul>
-        <li>Use the App only for personal, non-commercial purposes</li>
-        <li>Provide accurate financial information for your own tracking</li>
-        <li>Keep your device and iCloud credentials secure</li>
-        <li>Not attempt to reverse engineer, modify, or distribute the App</li>
-        <li>Not use the App for any illegal or unauthorized purpose</li>
-    </ul>
+            <section>
+                <h2>5. User Data and Responsibility</h2>
+                <p>You are solely responsible for the accuracy of the financial data you enter into the App. Since
+                    Spendry stores data locally:</p>
+                <ul>
+                    <li>You are responsible for backing up your device (e.g., via iCloud Backup) to prevent data loss.
+                    </li>
+                    <li>We cannot recover your data if you delete the app or lose your device without a backup.</li>
+                </ul>
+            </section>
 
-    <h2>7. Data and Privacy</h2>
-    <p>Your use of the App is also governed by our <a href="privacy-policy.html">Privacy Policy</a>. By using Spendry,
-        you consent to the collection and use of information as described therein.</p>
+            <div class="disclaimer-box">
+                <span class="disclaimer-title">DISCLAIMER: NOT FINANCIAL ADVICE</span>
+                <p>Spendry is designed for informational and tracking purposes only. The app, its calculations, and its
+                    insights do not constitute professional financial advice, accounting advice, or tax advice. You
+                    should consult with a qualified financial advisor before making significant financial decisions. We
+                    are not liable for any financial losses incurred based on the use of this App.</p>
+            </div>
 
-    <h2>8. Intellectual Property</h2>
-    <p>All content, features, and functionality of Spendry, including but not limited to design, graphics, logos, and
-        software, are owned by Spendry and protected by intellectual property laws.</p>
+            <section>
+                <h2>6. Intellectual Property</h2>
+                <p>The App, including its code, design, graphics, and interface, is the proprietary property of Spendry
+                    (Yusuf Güven) and is protected by copyright and intellectual property laws. You are granted a
+                    limited, non-exclusive, non-transferable license to use the App for personal use.</p>
+            </section>
 
-    <h2>9. Disclaimer of Warranties</h2>
-    <div class="important">
-        <strong>⚠️ Important Notice</strong><br>
-        Spendry is provided "as is" without warranties of any kind. The App is a personal finance tracking tool and does
-        NOT provide financial advice. Always consult a qualified financial advisor for financial decisions.
-    </div>
+            <section>
+                <h2>7. Limitation of Liability</h2>
+                <p>To the maximum extent permitted by law, Spendry shall not be liable for any indirect, incidental,
+                    special, consequential, or punitive damages, including without limitation, loss of data, profits, or
+                    other intangible losses, resulting from your use or inability to use the App.</p>
+            </section>
 
-    <p>We do not guarantee that:</p>
-    <ul>
-        <li>The App will be error-free or uninterrupted</li>
-        <li>Financial calculations will be 100% accurate</li>
-        <li>The App will meet all your specific requirements</li>
-    </ul>
+            <section>
+                <h2>8. Contact</h2>
+                <p>For any questions regarding these Terms, please contact us at:</p>
+                <p><strong>Email:</strong> <a href="mailto:support@spendryapp.com">support@spendryapp.com</a></p>
+            </section>
+        </div>
 
-    <h2>10. Limitation of Liability</h2>
-    <p>To the maximum extent permitted by law, Spendry shall not be liable for any indirect, incidental, special,
-        consequential, or punitive damages, including but not limited to loss of profits, data, or other intangible
-        losses resulting from:</p>
-    <ul>
-        <li>Your use or inability to use the App</li>
-        <li>Any unauthorized access to or alteration of your data</li>
-        <li>Any financial decisions made based on App data</li>
-    </ul>
+        <!-- TURKISH CONTENT -->
+        <div class="tr-content">
+            <h1>Kullanım Koşulları</h1>
+            <span class="last-updated">Son Güncelleme: 14 Ocak 2026</span>
 
-    <h2>11. Termination</h2>
-    <p>You may stop using Spendry at any time by uninstalling the App. We reserve the right to terminate or suspend
-        access to the App for violations of these Terms.</p>
+            <section>
+                <h2>1. Koşulların Kabulü</h2>
+                <p>Spendry'ye hoş geldiniz. Spendry mobil uygulamasını ("Uygulama") indirerek, erişerek veya kullanarak,
+                    bu Kullanım Koşulları ile bağlı olmayı kabul edersiniz. Bu koşulları kabul etmiyorsanız, Uygulamayı
+                    kullanmayınız. Bu koşulları herhangi bir zamanda değiştirme hakkımız saklıdır; Uygulamayı kullanmaya
+                    devam etmeniz güncellenmiş koşulları kabul ettiğiniz anlamına gelir.</p>
+            </section>
 
-    <h2>12. Changes to Terms</h2>
-    <p>We may modify these Terms at any time. Continued use of the App after changes constitutes acceptance of the new
-        Terms. We will update the "Last Updated" date when changes are made.</p>
+            <section>
+                <h2>2. Hizmet Tanımı</h2>
+                <p>Spendry, iOS cihazınızda harcamaları yerel olarak takip etmenizi, bütçeleri yönetmenizi ve borçları
+                    izlemenizi sağlayan kişisel bir finans yönetim aracıdır. Uygulama şunları sağlar:</p>
+                <ul>
+                    <li>İşlem kaydı ve kategorilendirme.</li>
+                    <li>Bütçe takibi ve sapma analizi.</li>
+                    <li>Borç ödeme hesaplamaları ve takibi.</li>
+                    <li>Finansal sağlık içgörüleri ve görselleştirmeler.</li>
+                </ul>
+            </section>
 
-    <h2>13. Governing Law</h2>
-    <p>These Terms shall be governed by and construed in accordance with the laws of Turkey, without regard to its
-        conflict of law provisions.</p>
+            <section>
+                <h2>3. Kullanım Seviyeleri (Tiers)</h2>
 
-    <h2>14. Contact Information</h2>
-    <div class="contact">
-        <p>For questions about these Terms of Service, please contact us:</p>
-        <p>📧 Email: <a href="mailto:support@spendryapp.com">support@spendryapp.com</a></p>
-    </div>
+                <h3>3.1 Ücretsiz Sürüm</h3>
+                <p>Spendry'nin Ücretsiz sürümü sınırsız işleme izin verir ancak oluşturabileceğiniz hesap ve varlık
+                    sayısında sınırlamalar içerir:</p>
+                <ul>
+                    <li>Maksimum 3 Bütçe</li>
+                    <li>Maksimum 3 Tasarruf Hedefi</li>
+                    <li>Maksimum 3 Aktif Borç (Kredi veya Şahsi)</li>
+                    <li>Maksimum 3 Yatırım Hesabı</li>
+                    <li>Maksimum 3 Kredi Kartı</li>
+                </ul>
 
-    <p style="margin-top: 40px; text-align: center; color: #666; font-size: 0.85em;">
-        © 2026 Spendry. All rights reserved.
-    </p>
+                <h3>3.2 Premium Sürüm</h3>
+                <p>Spendry Premium, yukarıdaki tüm sınırları kaldırarak Uygulamanın tam potansiyelini açar ve özel
+                    widget'lar, derinlemesine analizler ve yıllık raporlar gibi gelişmiş özelliklere erişim sağlar.</p>
+            </section>
+
+            <section>
+                <h2>4. Faturalandırma ve Abonelikler</h2>
+                <p>Spendry Premium satın almayı seçerseniz, aşağıdaki koşullar geçerlidir:</p>
+
+                <h3>4.1 Ödeme</h3>
+                <p>Ödeme, satın alma onayı ile Apple Kimliği hesabınızdan tahsil edilecektir. Fiyatlar, satın almadan
+                    önce Uygulamada açıkça gösterilir.</p>
+
+                <h3>4.2 Otomatik Yenileme</h3>
+                <p>Otomatik yenileme, cari dönemin bitiminden en az 24 saat önce kapatılmadığı sürece abonelikler
+                    otomatik olarak yenilenir. Hesabınız, cari dönemin bitiminden 24 saat önce yenileme için
+                    ücretlendirilir.</p>
+
+                <h3>4.3 İptal</h3>
+                <p>Aboneliklerinizi satın alma işleminden sonra App Store Hesap Ayarlarına giderek yönetebilir ve iptal
+                    edebilirsiniz. Uygulamayı silmek aboneliğinizi iptal etmez.</p>
+
+                <h3>4.4 İadeler</h3>
+                <p>Tüm faturalandırma işlemleri doğrudan Apple tarafından yürütülür. Doğrudan iade yapma yetkimiz
+                    yoktur. İade talepleri Apple Destek'e iletilmelidir.</p>
+            </section>
+
+            <section>
+                <h2>5. Kullanıcı Verileri ve Sorumluluk</h2>
+                <p>Uygulamaya girdiğiniz finansal verilerin doğruluğundan tamamen siz sorumlusunuz. Spendry verileri
+                    yerel olarak sakladığından:</p>
+                <ul>
+                    <li>Veri kaybını önlemek için cihazınızı yedeklemekten (örn. iCloud Yedekleme ile) siz sorumlusunuz.
+                    </li>
+                    <li>Yedekleme olmadan uygulamayı silerseniz veya cihazınızı kaybederseniz verilerinizi kurtaramayız.
+                    </li>
+                </ul>
+            </section>
+
+            <div class="disclaimer-box">
+                <span class="disclaimer-title">YASAL UYARI: FİNANSAL TAVSİYE DEĞİLDİR</span>
+                <p>Spendry yalnızca bilgilendirme ve takip amaçlı tasarlanmıştır. Uygulama, hesaplamaları ve içgörüleri
+                    profesyonel finansal tavsiye, muhasebe tavsiyesi veya vergi tavsiyesi teşkil etmez. Önemli finansal
+                    kararlar almadan önce nitelikli bir finansal danışmana danışmalısınız. Bu Uygulamanın kullanımına
+                    dayalı olarak ortaya çıkan finansal kayıplardan sorumlu değiliz.</p>
+            </div>
+
+            <section>
+                <h2>6. Fikri Mülkiyet</h2>
+                <p>Uygulama, kodları, tasarımı, grafikleri ve arayüzü dahil olmak üzere, Spendry'nin (Yusuf Güven) özel
+                    mülkiyetindedir ve telif hakkı ve fikri mülkiyet yasalarıyla korunmaktadır. Uygulamayı kişisel
+                    kullanım için kullanmanız üzere size sınırlı, münhasır olmayan, devredilemez bir lisans verilmiştir.
+                </p>
+            </section>
+
+            <section>
+                <h2>7. Sorumluluk Sınırlaması</h2>
+                <p>Yasaların izin verdiği azami ölçüde, Spendry, veri kaybı, kar kaybı veya diğer maddi olmayan kayıplar
+                    dahil ancak bunlarla sınırlı olmamak üzere, Uygulamayı kullanımınızdan veya kullanamamanızdan
+                    kaynaklanan dolaylı, arızi, özel veya cezai zararlardan sorumlu tutulamaz.</p>
+            </section>
+
+            <section>
+                <h2>8. İletişim</h2>
+                <p>Bu Koşullar hakkında sorularınız için lütfen şu adresten bizimle iletişime geçin:</p>
+                <p><strong>E-posta:</strong> <a href="mailto:support@spendryapp.com">support@spendryapp.com</a></p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Spendry. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function setLang(lang) {
+            document.body.className = lang === 'tr' ? 'lang-tr' : 'lang-en';
+
+            // Buttons
+            document.querySelectorAll('.lang-switch button').forEach(b => b.classList.remove('active'));
+            document.getElementById('btn-' + lang).classList.add('active');
+
+            // Save preference
+            localStorage.setItem('spendry_legal_lang', lang);
+        }
+
+        // Init
+        const savedLang = localStorage.getItem('spendry_legal_lang');
+        if (savedLang) {
+            setLang(savedLang);
+        } else {
+            // Auto-detect browser lang
+            const userLang = navigator.language || navigator.userLanguage;
+            if (userLang.startsWith('tr')) {
+                setLang('tr');
+            }
+        }
+    </script>
 </body>
 
 </html>

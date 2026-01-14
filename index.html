@@ -4,14 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spendry - Smart Personal Finance</title>
-    <meta name="description"
-        content="Take control of your finances with Spendry. Track expenses, manage budgets, reach your goals, and monitor debts - all in one beautiful app.">
-    <meta name="keywords"
-        content="personal finance, budget tracker, expense tracker, savings goals, debt management, iOS app">
+    <title>Spendry - Your Money, Your Rules</title>
+    <meta name="description" content="The most powerful personal finance app for iOS. Take control.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -20,361 +18,984 @@
         }
 
         :root {
-            --primary: #FF6B35;
-            --primary-dark: #E55A2B;
-            --secondary: #6C5CE7;
-            --dark: #1a1a2e;
-            --darker: #0f0f1a;
-            --light: #f8f9fa;
-            --gray: #6c757d;
+            --bg: #000;
+            --white: #fff;
+            --gray-100: #f5f5f7;
+            --gray-400: #86868b;
+            --gray-600: #424245;
+            --accent: #0A84FF;
+            /* Single accent - Apple Blue */
+            --accent-glow: rgba(10, 132, 255, 0.4);
+            --green: #30D158;
+        }
+
+        html {
+            scroll-behavior: smooth;
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: var(--darker);
-            color: white;
-            line-height: 1.6;
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--white);
+            -webkit-font-smoothing: antialiased;
             overflow-x: hidden;
         }
 
-        /* Hero Section */
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* ANIMATIONS */
+        @keyframes breathing {
+
+            0%,
+            100% {
+                opacity: 0.4;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.6;
+                transform: scale(1.05);
+            }
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-15px) rotate(1deg);
+            }
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(60px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes countUp {
+            from {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(60px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .delay-1 {
+            transition-delay: 0.1s;
+        }
+
+        .delay-2 {
+            transition-delay: 0.2s;
+        }
+
+        .delay-3 {
+            transition-delay: 0.3s;
+        }
+
+        .delay-4 {
+            transition-delay: 0.4s;
+        }
+
+        /* NAV */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 9999;
+            padding: 16px 48px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.4s;
+        }
+
+        nav.scrolled {
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            padding: 12px 48px;
+        }
+
+        .nav-logo {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .lang-btn {
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 100px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .lang-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-cta {
+            background: var(--accent);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 100px;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .nav-cta:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 20px var(--accent-glow);
+        }
+
+        /* HERO */
         .hero {
             min-height: 100vh;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
-            padding: 40px 20px;
-            background: radial-gradient(ellipse at top, rgba(108, 92, 231, 0.15) 0%, transparent 50%),
-                radial-gradient(ellipse at bottom right, rgba(255, 107, 53, 0.1) 0%, transparent 50%),
-                var(--darker);
+            padding: 120px 24px 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Subtle single-color glow */
+        .hero-glow {
+            position: absolute;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, var(--accent-glow), transparent 60%);
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            animation: breathing 6s ease-in-out infinite;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 24px;
+            animation: fadeUp 1s ease forwards;
+        }
+
+        .hero h1 {
+            font-size: clamp(44px, 10vw, 100px);
+            font-weight: 800;
+            line-height: 0.95;
+            letter-spacing: -0.04em;
+            margin-bottom: 28px;
+            animation: fadeUp 1s ease forwards 0.15s;
+            opacity: 0;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(18px, 2.5vw, 24px);
+            font-weight: 400;
+            color: var(--gray-400);
+            max-width: 700px;
+            margin: 0 auto 48px;
+            line-height: 1.6;
+            animation: fadeUp 1s ease forwards 0.3s;
+            opacity: 0;
+        }
+
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--white);
+            color: var(--bg);
+            padding: 18px 40px;
+            border-radius: 100px;
+            font-size: 17px;
+            font-weight: 600;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            animation: fadeUp 1s ease forwards 0.45s;
+            opacity: 0;
+        }
+
+        .hero-cta:hover {
+            transform: scale(1.04);
+            box-shadow: 0 20px 50px rgba(255, 255, 255, 0.15);
+        }
+
+        /* 3D PHONE */
+        .phone-wrapper {
+            margin-top: 80px;
+            perspective: 1000px;
+            animation: fadeUp 1.2s ease forwards 0.6s;
+            opacity: 0;
+        }
+
+        .phone {
+            width: 280px;
+            height: 580px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #1c1c1e, #0a0a0c);
+            border-radius: 44px;
+            padding: 8px;
+            box-shadow:
+                0 0 0 1px rgba(255, 255, 255, 0.08),
+                0 60px 120px -20px rgba(0, 0, 0, 0.7),
+                0 0 80px var(--accent-glow);
+            animation: float 6s ease-in-out infinite;
+            transform-style: preserve-3d;
+        }
+
+        .screen {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            border-radius: 36px;
+            overflow: hidden;
             position: relative;
         }
 
-        .hero::before {
+        .notch {
+            position: absolute;
+            top: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 28px;
+            background: #000;
+            border-radius: 16px;
+            z-index: 10;
+        }
+
+        .screen-content {
+            padding: 58px 14px 14px;
+        }
+
+        .ui-welcome {
+            font-size: 13px;
+            color: var(--gray-400);
+            margin-bottom: 4px;
+        }
+
+        .ui-balance {
+            font-size: 36px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 4px;
+        }
+
+        .ui-change {
+            font-size: 13px;
+            color: var(--green);
+        }
+
+        .ui-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 24px;
+        }
+
+        .ui-tile {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 14px;
+            padding: 14px;
+            transition: all 0.3s;
+        }
+
+        .ui-tile:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: scale(1.02);
+        }
+
+        .ui-tile-icon {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .ui-tile-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: white;
+        }
+
+        .ui-tile-sub {
+            font-size: 11px;
+            color: var(--gray-400);
+            margin-top: 4px;
+        }
+
+        /* POWER STATEMENT */
+        .power-section {
+            padding: 160px 24px;
+            text-align: center;
+            background: linear-gradient(180deg, #000 0%, #050508 100%);
+        }
+
+        .power-section h2 {
+            font-size: clamp(32px, 6vw, 64px);
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
+            max-width: 900px;
+            margin: 0 auto 32px;
+        }
+
+        .power-section p {
+            font-size: 20px;
+            color: var(--gray-400);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: var(--accent);
+        }
+
+        /* FEATURES GRID */
+        .features-section {
+            padding: 120px 24px;
+            background: #000;
+        }
+
+        .features-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .features-header h2 {
+            font-size: clamp(32px, 5vw, 48px);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 16px;
+        }
+
+        .features-header p {
+            font-size: 18px;
+            color: var(--gray-400);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background: linear-gradient(145deg, #111114, #0a0a0c);
+            border-radius: 24px;
+            padding: 40px 32px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
-            bottom: 0;
-            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-            opacity: 0.5;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            max-width: 800px;
-        }
-
-        .logo {
-            font-size: 1.2rem;
-            font-weight: 700;
-            letter-spacing: 2px;
-            margin-bottom: 40px;
-            color: var(--primary);
-        }
-
-        .hero h1 {
-            font-size: clamp(2.5rem, 6vw, 4rem);
-            font-weight: 800;
-            margin-bottom: 24px;
-            background: linear-gradient(135deg, #fff 0%, #a8a8a8 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .hero h1 span {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-        }
-
-        .hero-subtitle {
-            font-size: 1.25rem;
-            color: rgba(255, 255, 255, 0.7);
-            margin-bottom: 40px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .app-store-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
-            background: white;
-            color: var(--dark);
-            padding: 16px 32px;
-            border-radius: 14px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            transition: transform 0.3s, box-shadow 0.3s;
-            box-shadow: 0 10px 40px rgba(255, 107, 53, 0.3);
-        }
-
-        .app-store-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 50px rgba(255, 107, 53, 0.4);
-        }
-
-        .app-store-btn svg {
-            width: 28px;
-            height: 28px;
-        }
-
-        /* Features Section */
-        .features {
-            padding: 100px 20px;
-            background: var(--dark);
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 60px;
-        }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-        }
-
-        .feature-card {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            padding: 40px 30px;
-            text-align: center;
-            transition: transform 0.3s, border-color 0.3s;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            opacity: 0;
+            transition: opacity 0.4s;
         }
 
         .feature-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--primary);
+            transform: translateY(-8px);
+            border-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.5);
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
         }
 
         .feature-icon {
-            width: 70px;
-            height: 70px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 18px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 24px;
-            font-size: 32px;
+            font-size: 48px;
+            margin-bottom: 24px;
+            display: block;
         }
 
-        .feature-card h3 {
-            font-size: 1.3rem;
+        .feature-title {
+            font-size: 22px;
+            font-weight: 700;
             margin-bottom: 12px;
+            letter-spacing: -0.01em;
         }
 
-        .feature-card p {
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 0.95rem;
+        .feature-desc {
+            font-size: 15px;
+            color: var(--gray-400);
+            line-height: 1.6;
         }
 
-        /* Premium Section */
-        .premium {
-            padding: 100px 20px;
-            background: linear-gradient(180deg, var(--dark) 0%, var(--darker) 100%);
+        /* PRIVACY SECTION */
+        .privacy-section {
+            padding: 160px 24px;
+            text-align: center;
+            background: linear-gradient(180deg, #000 0%, #050508 50%, #000 100%);
+            position: relative;
+        }
+
+        .privacy-icon {
+            font-size: 80px;
+            margin-bottom: 32px;
+            display: inline-block;
+        }
+
+        .privacy-section h2 {
+            font-size: clamp(32px, 6vw, 56px);
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 20px;
+        }
+
+        .privacy-section p {
+            font-size: 20px;
+            color: var(--gray-400);
+            max-width: 650px;
+            margin: 0 auto 48px;
+            line-height: 1.6;
+        }
+
+        .privacy-stats {
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+            flex-wrap: wrap;
+        }
+
+        .priv-stat {
             text-align: center;
         }
 
-        .premium-badge {
+        .priv-stat-num {
+            font-size: 56px;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 8px;
+        }
+
+        .priv-stat-label {
+            font-size: 15px;
+            color: var(--gray-400);
+        }
+
+        /* PREMIUM */
+        .premium-section {
+            padding: 160px 24px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .premium-glow {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(10, 132, 255, 0.15), transparent 60%);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .premium-tag {
             display: inline-block;
-            background: linear-gradient(135deg, var(--primary), #FFD93D);
-            color: var(--dark);
-            padding: 8px 20px;
-            border-radius: 30px;
-            font-size: 0.85rem;
+            background: var(--accent);
+            color: white;
+            font-size: 12px;
             font-weight: 700;
+            padding: 8px 20px;
+            border-radius: 100px;
+            margin-bottom: 32px;
+            letter-spacing: 1px;
+        }
+
+        .premium-section h2 {
+            font-size: clamp(36px, 7vw, 64px);
+            font-weight: 800;
+            letter-spacing: -0.03em;
             margin-bottom: 20px;
         }
 
-        .premium h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-
-        .premium p {
-            color: rgba(255, 255, 255, 0.7);
-            max-width: 600px;
-            margin: 0 auto 40px;
+        .premium-section>p {
+            font-size: 20px;
+            color: var(--gray-400);
+            max-width: 500px;
+            margin: 0 auto 48px;
         }
 
         .premium-features {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
-            gap: 20px;
-            max-width: 800px;
-            margin: 0 auto;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-bottom: 48px;
         }
 
-        .premium-feature {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 12px 24px;
-            border-radius: 30px;
-            font-size: 0.9rem;
-        }
-
-        /* Footer */
-        footer {
-            padding: 60px 20px;
-            background: var(--darker);
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .footer-content {
-            max-width: 1200px;
-            margin: 0 auto;
+        .pf {
             display: flex;
-            flex-direction: column;
             align-items: center;
-            text-align: center;
-            gap: 30px;
+            gap: 10px;
+            font-size: 16px;
+            color: var(--white);
         }
 
-        .footer-links {
-            display: flex;
-            gap: 30px;
-            flex-wrap: wrap;
-            justify-content: center;
+        .pf::before {
+            content: '✓';
+            color: var(--green);
+            font-weight: 700;
         }
 
-        .footer-links a {
-            color: rgba(255, 255, 255, 0.6);
-            text-decoration: none;
+        .premium-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--accent);
+            color: white;
+            padding: 20px 48px;
+            border-radius: 100px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.4s;
+            box-shadow: 0 8px 30px var(--accent-glow);
+        }
+
+        .premium-cta:hover {
+            transform: scale(1.04);
+            box-shadow: 0 16px 50px var(--accent-glow);
+        }
+
+        /* FOOTER */
+        footer {
+            padding: 80px 24px 40px;
+            background: var(--bg);
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr repeat(3, 1fr);
+            gap: 60px;
+            max-width: 1000px;
+            margin: 0 auto 60px;
+        }
+
+        .footer-brand h3 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .footer-brand p {
+            font-size: 14px;
+            color: var(--gray-400);
+            line-height: 1.6;
+        }
+
+        .footer-col h4 {
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col li {
+            margin-bottom: 12px;
+        }
+
+        .footer-col a {
+            font-size: 14px;
+            color: var(--gray-400);
             transition: color 0.3s;
         }
 
-        .footer-links a:hover {
-            color: var(--primary);
+        .footer-col a:hover {
+            color: var(--accent);
         }
 
-        .copyright {
-            color: rgba(255, 255, 255, 0.4);
-            font-size: 0.85rem;
+        .footer-bottom {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            color: var(--gray-600);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 24px;
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2.2rem;
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+            .features-grid {
+                grid-template-columns: 1fr;
             }
 
-            .section-title {
-                font-size: 2rem;
+            .privacy-stats {
+                gap: 40px;
             }
 
-            .premium h2 {
-                font-size: 2rem;
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
             }
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 12px 20px;
+            }
+
+            .premium-features {
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+
+        /* LANGUAGE */
+        .tr {
+            display: none;
+        }
+
+        body.lang-tr .en {
+            display: none;
+        }
+
+        body.lang-tr .tr {
+            display: block;
         }
     </style>
 </head>
 
 <body>
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <div class="logo">SPENDRY</div>
-            <h1>Take Control of Your <span>Finances</span></h1>
-            <p class="hero-subtitle">
-                Track expenses, manage budgets, reach your savings goals, and monitor debts — all in one beautiful,
-                intuitive app.
-            </p>
-            <a href="https://apps.apple.com/app/spendry" class="app-store-btn">
-                <svg viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                        d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
-                </svg>
-                Download on App Store
+
+    <nav id="nav">
+        <a href="#" class="nav-logo">Spendry</a>
+        <div class="nav-right">
+            <button class="lang-btn" onclick="toggleLang()">EN / TR</button>
+            <a href="https://apps.apple.com/app/spendry" class="nav-cta">
+                <span class="en">Download</span><span class="tr">İndir</span>
             </a>
         </div>
-    </section>
+    </nav>
 
-    <!-- Features Section -->
-    <section class="features">
-        <div class="container">
-            <h2 class="section-title">Everything You Need</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">💰</div>
-                    <h3>Budget Tracking</h3>
-                    <p>Create custom budgets and monitor your spending in real-time with visual insights.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🎯</div>
-                    <h3>Savings Goals</h3>
-                    <p>Set financial goals and track your progress with beautiful visualizations.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📊</div>
-                    <h3>Smart Analytics</h3>
-                    <p>Deep insights into your spending habits with detailed charts and reports.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">💳</div>
-                    <h3>Debt Management</h3>
-                    <p>Track loans, credit cards, and debts with payment reminders and progress tracking.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📈</div>
-                    <h3>Investment Tracking</h3>
-                    <p>Monitor your investments and see your complete financial picture.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔔</div>
-                    <h3>Smart Reminders</h3>
-                    <p>Never miss a payment with customizable notifications and alerts.</p>
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+            <span class="hero-tag">
+                <span class="en">Personal Finance Reimagined</span>
+                <span class="tr">Kişisel Finans Yeniden Tasarlandı</span>
+            </span>
+            <h1>
+                <span class="en">Your Money.<br>Your Rules.</span>
+                <span class="tr">Senin Paran.<br>Senin Kuralların.</span>
+            </h1>
+            <p class="hero-subtitle">
+                <span class="en">Stop wondering where your money goes. Start commanding it. The most powerful finance
+                    tracker ever built for iPhone.</span>
+                <span class="tr">Paranın nereye gittiğini merak etmeyi bırak. Onu yönetmeye başla. iPhone için
+                    geliştirilmiş en güçlü finans takipçisi.</span>
+            </p>
+            <a href="https://apps.apple.com/app/spendry" class="hero-cta">
+                <svg width="22" height="26" viewBox="0 0 384 512" fill="currentColor">
+                    <path
+                        d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 52.3-11.4 69.5-34.3z" />
+                </svg>
+                <span class="en">Get Started Free</span>
+                <span class="tr">Ücretsiz Başla</span>
+            </a>
+
+            <div class="phone-wrapper">
+                <div class="phone">
+                    <div class="screen">
+                        <div class="notch"></div>
+                        <div class="screen-content">
+                            <div class="ui-welcome">Good morning 👋</div>
+                            <div class="ui-balance">$24,850</div>
+                            <div class="ui-change">↑ +$1,240 this month</div>
+                            <div class="ui-grid">
+                                <div class="ui-tile">
+                                    <div class="ui-tile-icon">📊</div>
+                                    <div class="ui-tile-title">Budgets</div>
+                                    <div class="ui-tile-sub">3 active</div>
+                                </div>
+                                <div class="ui-tile">
+                                    <div class="ui-tile-icon">🎯</div>
+                                    <div class="ui-tile-title">Goals</div>
+                                    <div class="ui-tile-sub">$12.4k saved</div>
+                                </div>
+                                <div class="ui-tile">
+                                    <div class="ui-tile-icon">💳</div>
+                                    <div class="ui-tile-title">Debts</div>
+                                    <div class="ui-tile-sub">$2.1k left</div>
+                                </div>
+                                <div class="ui-tile">
+                                    <div class="ui-tile-icon">📈</div>
+                                    <div class="ui-tile-title">Invest</div>
+                                    <div class="ui-tile-sub">+8.4% YTD</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Premium Section -->
-    <section class="premium">
-        <div class="container">
-            <div class="premium-badge">✨ PREMIUM</div>
-            <h2>Unlock Your Full Potential</h2>
-            <p>Get unlimited access to all features and take your financial management to the next level.</p>
-            <div class="premium-features">
-                <div class="premium-feature">🚀 Unlimited Budgets</div>
-                <div class="premium-feature">📊 Advanced Analytics</div>
-                <div class="premium-feature">📱 Premium Widgets</div>
-                <div class="premium-feature">📄 Detailed Reports</div>
-                <div class="premium-feature">⚡ Priority Support</div>
+    <!-- POWER STATEMENT -->
+    <section class="power-section">
+        <h2 class="reveal">
+            <span class="en">Most people <span class="highlight">lose</span> money<br>because they don't see it.</span>
+            <span class="tr">İnsanların çoğu para <span class="highlight">kaybeder</span><br>çünkü görmezler.</span>
+        </h2>
+        <p class="reveal delay-1">
+            <span class="en">Spendry gives you X-ray vision into every dollar. Track it. Control it. Grow it.</span>
+            <span class="tr">Spendry her kuruşa röntgen bakışı sağlar. Takip et. Kontrol et. Büyüt.</span>
+        </p>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features-section">
+        <div class="features-header reveal">
+            <h2 class="en">Built Different.</h2>
+            <h2 class="tr">Farklı Tasarlandı.</h2>
+            <p class="en">Six powerful tools. One beautiful app. Zero compromises.</p>
+            <p class="tr">Altı güçlü araç. Bir güzel uygulama. Sıfır taviz.</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card reveal">
+                <span class="feature-icon">📊</span>
+                <h3 class="feature-title en">Surgical Budgets</h3>
+                <h3 class="feature-title tr">Cerrahi Bütçeler</h3>
+                <p class="feature-desc en">Create budgets that actually work. Category-level precision. Real-time alerts
+                    before you overspend.</p>
+                <p class="feature-desc tr">Gerçekten çalışan bütçeler oluşturun. Kategori seviyesinde hassasiyet.
+                    Aşmadan önce anlık uyarılar.</p>
+            </div>
+            <div class="feature-card reveal delay-1">
+                <span class="feature-icon">🎯</span>
+                <h3 class="feature-title en">Goal Crusher</h3>
+                <h3 class="feature-title tr">Hedef Ezici</h3>
+                <p class="feature-desc en">Vacation. House. Emergency fund. Set it, track it, crush it. Visual progress
+                    that motivates.</p>
+                <p class="feature-desc tr">Tatil. Ev. Acil durum fonu. Belirle, takip et, ez. Motive eden görsel
+                    ilerleme.</p>
+            </div>
+            <div class="feature-card reveal delay-2">
+                <span class="feature-icon">💳</span>
+                <h3 class="feature-title en">Debt Destroyer</h3>
+                <h3 class="feature-title tr">Borç Yokedici</h3>
+                <p class="feature-desc en">Snowball. Avalanche. Pick your weapon. See exactly when you'll be debt-free.
+                </p>
+                <p class="feature-desc tr">Kar Topu. Çığ. Silahını seç. Borçsuz kalacağın tarihi gör.</p>
+            </div>
+            <div class="feature-card reveal">
+                <span class="feature-icon">📈</span>
+                <h3 class="feature-title en">Wealth Tracker</h3>
+                <h3 class="feature-title tr">Varlık Takipçi</h3>
+                <p class="feature-desc en">Stocks, crypto, real estate. All your assets, one dashboard. Watch your
+                    empire grow.</p>
+                <p class="feature-desc tr">Hisseler, kripto, gayrimenkul. Tüm varlıkların tek panelde. İmparatorluğunun
+                    büyümesini izle.</p>
+            </div>
+            <div class="feature-card reveal delay-1">
+                <span class="feature-icon">🔔</span>
+                <h3 class="feature-title en">Bill Guardian</h3>
+                <h3 class="feature-title tr">Fatura Koruyucu</h3>
+                <p class="feature-desc en">Never pay a late fee again. Smart reminders that actually work. Peace of
+                    mind, automated.</p>
+                <p class="feature-desc tr">Asla gecikme cezası ödeme. Gerçekten çalışan akıllı hatırlatıcılar. Otomatik
+                    huzur.</p>
+            </div>
+            <div class="feature-card reveal delay-2">
+                <span class="feature-icon">⚡️</span>
+                <h3 class="feature-title en">Instant Insights</h3>
+                <h3 class="feature-title tr">Anlık İçgörüler</h3>
+                <p class="feature-desc en">Where did $500 go last week? Spendry knows. Deep analytics that reveal hidden
+                    patterns.</p>
+                <p class="feature-desc tr">Geçen hafta 500$ nereye gitti? Spendry bilir. Gizli kalıpları ortaya çıkaran
+                    derin analizler.</p>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- PRIVACY -->
+    <section class="privacy-section">
+        <div class="privacy-icon reveal">🔒</div>
+        <h2 class="reveal delay-1">
+            <span class="en">Your data never leaves your phone.</span>
+            <span class="tr">Verin telefonundan asla çıkmaz.</span>
+        </h2>
+        <p class="reveal delay-2">
+            <span class="en">No servers. No tracking. No selling. Your financial life stays in your pocket, encrypted
+                and secure.</span>
+            <span class="tr">Sunucu yok. İzleme yok. Satış yok. Finansal hayatın cebinde kalır, şifreli ve
+                güvenli.</span>
+        </p>
+        <div class="privacy-stats reveal delay-3">
+            <div class="priv-stat">
+                <div class="priv-stat-num">0</div>
+                <div class="priv-stat-label en">Cloud Servers</div>
+                <div class="priv-stat-label tr">Bulut Sunucu</div>
+            </div>
+            <div class="priv-stat">
+                <div class="priv-stat-num">0</div>
+                <div class="priv-stat-label en">Data Trackers</div>
+                <div class="priv-stat-label tr">Veri İzleyici</div>
+            </div>
+            <div class="priv-stat">
+                <div class="priv-stat-num">100%</div>
+                <div class="priv-stat-label en">Local Storage</div>
+                <div class="priv-stat-label tr">Yerel Depolama</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PREMIUM -->
+    <section class="premium-section">
+        <div class="premium-glow"></div>
+        <span class="premium-tag reveal">PREMIUM</span>
+        <h2 class="reveal delay-1">
+            <span class="en">Remove All Limits.</span>
+            <span class="tr">Tüm Limitleri Kaldır.</span>
+        </h2>
+        <p class="reveal delay-2">
+            <span class="en">Unlimited everything. Advanced features. Full power.</span>
+            <span class="tr">Sınırsız her şey. Gelişmiş özellikler. Tam güç.</span>
+        </p>
+        <div class="premium-features reveal delay-3">
+            <span class="pf en">Unlimited budgets</span><span class="pf tr">Sınırsız bütçe</span>
+            <span class="pf en">Unlimited goals</span><span class="pf tr">Sınırsız hedef</span>
+            <span class="pf en">All widgets</span><span class="pf tr">Tüm widget'lar</span>
+            <span class="pf en">Export data</span><span class="pf tr">Veri dışa aktar</span>
+        </div>
+        <a href="https://apps.apple.com/app/spendry" class="premium-cta reveal delay-4">
+            <span class="en">Start Free Trial</span>
+            <span class="tr">Ücretsiz Dene</span>
+        </a>
+    </section>
+
     <footer>
-        <div class="footer-content">
-            <div class="logo">SPENDRY</div>
-            <div class="footer-links">
-                <a href="privacy-policy.html">Privacy Policy</a>
-                <a href="terms-of-service.html">Terms of Service</a>
-                <a href="mailto:support@spendryapp.com">Contact Support</a>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>Spendry</h3>
+                <p class="en">Your money, your rules, your future.</p>
+                <p class="tr">Senin paran, senin kuralların, senin geleceğin.</p>
             </div>
-            <p class="copyright">© 2026 Spendry. All rights reserved.</p>
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Premium</a></li>
+                    <li><a href="https://apps.apple.com/app/spendry">Download</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-of-service.html">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="mailto:support@spendryapp.com">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Spendry. All rights reserved.</span>
+            <span>Made with ❤️ in Istanbul</span>
         </div>
     </footer>
+
+    <script>
+        // Language
+        function toggleLang() {
+            const isTR = document.body.classList.contains('lang-tr');
+            document.body.classList.toggle('lang-tr', !isTR);
+            localStorage.setItem('spendry_lang', isTR ? 'en' : 'tr');
+        }
+
+        const saved = localStorage.getItem('spendry_lang');
+        if (saved === 'tr') document.body.classList.add('lang-tr');
+        else if (!saved && navigator.language.startsWith('tr')) document.body.classList.add('lang-tr');
+
+        // Nav scroll
+        window.addEventListener('scroll', () => {
+            document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Reveal on scroll
+        const reveals = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        reveals.forEach(el => revealObserver.observe(el));
+    </script>
+
 </body>
 
 </html>
