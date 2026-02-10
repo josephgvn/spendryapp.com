@@ -10,21 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #050507;
-            --surface: #121216;
-            --text-primary: #F5F5F7;
+            --bg: #000000;
+            --surface: #1c1c1e;
+            --surface-Highlight: #2c2c2e;
+            --text-primary: #FFFFFF;
             --text-secondary: #86868b;
-            --accent: #2997FF;
-            --accent-red: #ff453a;
+            --accent: #0A84FF;
+            --accent-dim: rgba(10, 132, 255, 0.1);
             --divider: rgba(255, 255, 255, 0.1);
             --max-width: 800px;
         }
 
-        *,
-        *::before,
-        *::after {
-            margin: 0;
-            padding: 0;
+        * {
             box-sizing: border-box;
         }
 
@@ -33,164 +30,79 @@
             background: var(--bg);
             color: var(--text-primary);
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
             -webkit-font-smoothing: antialiased;
         }
 
-        /* Ambient Glow */
-        .ambient {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: radial-gradient(circle at 50% -20%, rgba(41, 151, 255, 0.08), transparent 40%);
-            z-index: -1;
-            pointer-events: none;
-        }
-
-        /* Nav */
-        nav {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            background: rgba(5, 5, 7, 0.8);
-            backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--divider);
-            padding: 16px 24px;
-        }
-
-        .nav-content {
+        .container {
             max-width: var(--max-width);
             margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            padding: 100px 24px 120px;
         }
 
-        .logo {
-            font-weight: 600;
-            font-size: 1.1rem;
-            color: var(--text-primary);
-            text-decoration: none;
-        }
-
-        .lang-switch button {
-            background: transparent;
-            border: 1px solid var(--divider);
-            color: var(--text-secondary);
-            padding: 6px 12px;
-            border-radius: 8px;
-            font-size: 0.8rem;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .lang-switch button.active {
-            background: rgba(255, 255, 255, 0.1);
-            color: var(--text-primary);
-            border-color: transparent;
-        }
-
-        /* Main Content */
-        main {
-            max-width: var(--max-width);
-            margin: 0 auto;
-            padding: 80px 24px 120px;
-        }
-
+        /* Typography */
         h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 700;
+            margin-bottom: 8px;
             letter-spacing: -0.02em;
-            margin-bottom: 16px;
+            background: linear-gradient(135deg, #fff 0%, #a5a5a5 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
-        .last-updated {
+        .meta {
             color: var(--text-secondary);
             font-size: 0.9rem;
-            margin-bottom: 64px;
-            display: block;
-        }
-
-        section {
             margin-bottom: 48px;
+            display: block;
+            border-bottom: 1px solid var(--divider);
+            padding-bottom: 32px;
         }
 
         h2 {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             font-weight: 600;
-            color: var(--text-primary);
+            margin-top: 64px;
             margin-bottom: 24px;
-            letter-spacing: -0.01em;
-            padding-bottom: 12px;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
             border-bottom: 1px solid var(--divider);
+            padding-bottom: 12px;
         }
 
         h3 {
             font-size: 1.1rem;
             font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
             color: var(--text-primary);
-            margin: 32px 0 16px;
         }
 
         p {
             color: var(--text-secondary);
-            margin-bottom: 16px;
+            margin-bottom: 24px;
             font-size: 1.05rem;
+            text-align: justify;
         }
 
-        ul {
-            list-style: none;
+        ul,
+        ol {
             margin-bottom: 24px;
+            padding-left: 24px;
+            color: var(--text-secondary);
         }
 
         li {
-            color: var(--text-secondary);
             margin-bottom: 12px;
-            padding-left: 24px;
-            position: relative;
         }
 
-        li::before {
-            content: "•";
-            color: var(--accent);
-            position: absolute;
-            left: 0;
-            font-weight: bold;
-        }
-
-        .disclaimer-box {
-            background: rgba(255, 69, 58, 0.1);
-            border: 1px solid rgba(255, 69, 58, 0.3);
-            padding: 24px;
-            border-radius: 12px;
-            margin: 32px 0;
-        }
-
-        .disclaimer-title {
-            color: var(--accent-red);
-            font-weight: 700;
-            display: block;
-            margin-bottom: 8px;
-            font-size: 1.1rem;
-        }
-
-        .disclaimer-box p {
-            color: #ffb4b0;
-            margin: 0;
-            font-size: 0.95rem;
-        }
-
-        /* Footer */
-        footer {
-            border-top: 1px solid var(--divider);
-            padding: 64px 24px;
-            text-align: center;
-        }
-
-        .footer-content p {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
+        strong {
+            color: var(--text-primary);
+            font-weight: 600;
         }
 
         a {
@@ -201,281 +113,403 @@
 
         a:hover {
             opacity: 0.8;
+            text-decoration: underline;
         }
 
-        /* Language State */
-        .tr-content {
-            display: none;
-        }
-
-        body.lang-tr .en-content {
-            display: none;
-        }
-
-        body.lang-tr .tr-content {
+        .caps {
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.08em;
+            font-weight: 700;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
             display: block;
+            opacity: 0.8;
+        }
+
+        /* Feature Box */
+        .feature-box {
+            background: var(--surface);
+            border: 1px solid var(--divider);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 32px 0;
+        }
+
+        .feature-box h3 {
+            margin-top: 0;
+        }
+
+        .security-note {
+            background: rgba(10, 132, 255, 0.1);
+            border: 1px solid rgba(10, 132, 255, 0.3);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 32px 0;
+        }
+
+        .security-note h3 {
+            color: var(--accent);
+            margin-top: 0;
+        }
+
+        /* Language Toggle - Sticky & Glass */
+        .lang-switch-container {
+            position: fixed;
+            top: 24px;
+            right: 24px;
+            z-index: 100;
+        }
+
+        .lang-switch {
+            background: rgba(28, 28, 30, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            padding: 4px;
+            border-radius: 10px;
+            display: flex;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .lang-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+
+        .lang-btn:hover {
+            color: var(--text-primary);
+        }
+
+        .lang-btn.active {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-primary);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 120px;
+            border-top: 1px solid var(--divider);
+            padding-top: 40px;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Content Visibility */
+        [data-lang="tr"] .en-content {
+            display: none;
+        }
+
+        [data-lang="en"] .tr-content {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 80px 20px 100px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .lang-switch-container {
+                top: auto;
+                bottom: 24px;
+                right: 50%;
+                transform: translateX(50%);
+                width: auto;
+            }
         }
     </style>
 </head>
 
-<body class="lang-en">
-    <div class="ambient"></div>
-
-    <nav>
-        <div class="nav-content">
-            <a href="index.html" class="logo">Spendry</a>
-            <div class="lang-switch">
-                <button onclick="setLang('en')" id="btn-en" class="active">EN</button>
-                <button onclick="setLang('tr')" id="btn-tr">TR</button>
-            </div>
+<body data-lang="en">
+    <div class="lang-switch-container">
+        <div class="lang-switch">
+            <button class="lang-btn active" onclick="setLang('en')">English</button>
+            <button class="lang-btn" onclick="setLang('tr')">Türkçe</button>
         </div>
-    </nav>
+    </div>
 
-    <main>
+    <div class="container">
         <!-- ENGLISH CONTENT -->
         <div class="en-content">
             <h1>Terms of Service</h1>
-            <span class="last-updated">Last Updated: January 14, 2026</span>
+            <span class="meta">Effective Date: February 11, 2026</span>
 
-            <section>
-                <h2>1. Acceptance of Terms</h2>
-                <p>Welcome to Spendry. By downloading, accessing, or using the Spendry mobile application ("the App"),
-                    you agree to be bound by these Terms of Service. If you do not agree to these terms, simply do not
-                    use the App. We reserve the right to modify these terms at any time, and your continued use of the
-                    App signifies your acceptance of updated terms.</p>
-            </section>
+            <p>Welcome to Spendry. By downloading, accessing, or using our mobile application ("App"), you agree to be
+                bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use the
+                App.</p>
 
-            <section>
-                <h2>2. Description of Service</h2>
-                <p>Spendry is a personal finance management tool that allows you to track expenses, manage budgets, and
-                    monitor debts locally on your iOS device. The App provides:</p>
-                <ul>
-                    <li>Transaction logging and categorization.</li>
-                    <li>Budget tracking and variance analysis.</li>
-                    <li>Debt payoff calculations and tracking.</li>
-                    <li>Financial health insights and visualizations.</li>
-                </ul>
-            </section>
+            <h2>1. Valid Agreement & Parties</h2>
+            <p>These Terms constitute a valid and binding legal agreement solely between you ("User", "you") and
+                <strong>Muhammed Yusuf Güven</strong> ("Developer", "we", "us").
+            </p>
+            <p>You acknowledge ensuring that these Terms use Apple's required End User License Agreement (EULA)
+                provisions. You specifically acknowledge that <strong>Apple Inc. ("Apple") is not a party to this
+                    agreement</strong> and is not responsible for the App or the content thereof.</p>
 
-            <section>
-                <h2>3. Usage Tiers</h2>
+            <h2>2. Acknowledgement of Apple's Role</h2>
+            <p>We, the Developer, are solely responsible for the App and its content. Apple has no obligation whatsoever
+                to furnish any maintenance and support services with respect to the App.</p>
+            <p>In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and
+                Apple will refund the purchase price for the App to you. To the maximum extent permitted by applicable
+                law, Apple will have no other warranty obligation whatsoever with respect to the App.</p>
 
-                <h3>3.1 Free Tier</h3>
-                <p>The Free version of Spendry allows unlimited transactions but includes limitations on the number of
-                    accounts and entities you can create:</p>
-                <ul>
-                    <li>Max 3 Budgets</li>
-                    <li>Max 3 Savings Goals</li>
-                    <li>Max 3 Active Debts (Loans or Personal Debts)</li>
-                    <li>Max 3 Investment Accounts</li>
-                    <li>Max 3 Credit Cards</li>
-                </ul>
+            <h2>3. License Grant & Scope</h2>
+            <p>Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable,
+                revocable license to access, download, and use the App for personal, non-commercial purposes on any
+                Apple-branded product that you own or control, and as permitted by the Usage Rules set forth in the
+                Apple Media Services Terms and Conditions.</p>
 
-                <h3>3.2 Premium Tier</h3>
-                <p>Spendry Premium unlocks the full potential of the App, removing all limits listed above and granting
-                    access to advanced features such as specific widgets, depth analytics, and annual reports.</p>
-            </section>
+            <h2>4. Maintenance & Support</h2>
+            <p>The Developer is solely responsible for providing any maintenance and support services with respect to
+                the App as required under applicable law. You acknowledge that Apple has no obligation whatsoever to
+                furnish any maintenance and support services with respect to the App.</p>
 
-            <section>
-                <h2>4. Billing and Subscriptions</h2>
-                <p>If you choose to purchase Spendry Premium, the following terms apply:</p>
-
-                <h3>4.1 Payment</h3>
-                <p>Payment will be charged to your Apple ID account at the confirmation of purchase. Prices are
-                    displayed clearly in the App before purchase.</p>
-
-                <h3>4.2 Automatic Renewal</h3>
-                <p>Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of
-                    the current period. Your account will be charged for renewal within 24 hours prior to the end of the
-                    current period.</p>
-
-                <h3>4.3 Cancellation</h3>
-                <p>You can manage and cancel your subscriptions by going to your App Store Account Settings after
-                    purchase. Deleting the App does not cancel your subscription.</p>
-
-                <h3>4.4 Refunds</h3>
-                <p>All billing is handled directly by Apple. We do not have the ability to issue refunds directly.
-                    Refund requests must be submitted to Apple Support.</p>
-            </section>
-
-            <section>
-                <h2>5. User Data and Responsibility</h2>
-                <p>You are solely responsible for the accuracy of the financial data you enter into the App. Since
-                    Spendry stores data locally:</p>
-                <ul>
-                    <li>You are responsible for backing up your device (e.g., via iCloud Backup) to prevent data loss.
-                    </li>
-                    <li>We cannot recover your data if you delete the app or lose your device without a backup.</li>
-                </ul>
-            </section>
-
-            <div class="disclaimer-box">
-                <span class="disclaimer-title">DISCLAIMER: NOT FINANCIAL ADVICE</span>
-                <p>Spendry is designed for informational and tracking purposes only. The app, its calculations, and its
-                    insights do not constitute professional financial advice, accounting advice, or tax advice. You
-                    should consult with a qualified financial advisor before making significant financial decisions. We
-                    are not liable for any financial losses incurred based on the use of this App.</p>
+            <h2>5. Zero-Knowledge Architecture & Data Liability</h2>
+            <div class="security-note">
+                <h3>🔒 Privacy-First Architecture</h3>
+                <p>Spendry is built on a "Zero-Knowledge" foundation to guarantee your privacy. We do not possess the
+                    keys to decrypt your financial data, nor do we store your data on our central servers. Your data
+                    resides exclusively on your device and your personal iCloud container.</p>
+                <p>Because your data is private to you, <strong>we cannot recover it if you lose access to your device
+                        or Apple ID.</strong> We highly recommend keeping iCloud Backup enabled to prevent data loss.
+                </p>
             </div>
 
-            <section>
-                <h2>6. Intellectual Property</h2>
-                <p>The App, including its code, design, graphics, and interface, is the proprietary property of Spendry
-                    (Yusuf Güven) and is protected by copyright and intellectual property laws. You are granted a
-                    limited, non-exclusive, non-transferable license to use the App for personal use.</p>
-            </section>
+            <h2>6. Subscription Terms</h2>
+            <p>Spendry offers renewable "Spendry Premium" subscriptions via Apple's In-App Purchase system. By
+                purchasing a subscription, you agree to the following terms:</p>
 
-            <section>
-                <h2>7. Limitation of Liability</h2>
-                <p>To the maximum extent permitted by law, Spendry shall not be liable for any indirect, incidental,
-                    special, consequential, or punitive damages, including without limitation, loss of data, profits, or
-                    other intangible losses, resulting from your use or inability to use the App.</p>
-            </section>
+            <h3>6.1 Payment & Billing</h3>
+            <p>Payment will be charged to your Apple ID account at confirmation of purchase. All billing and transaction
+                processing are handled by Apple.</p>
 
-            <section>
-                <h2>8. Contact</h2>
-                <p>For any questions regarding these Terms, please contact us at:</p>
-                <p><strong>Email:</strong> <a href="mailto:support@spendryapp.com">support@spendryapp.com</a></p>
-            </section>
+            <h3>6.2 Automatic Renewal</h3>
+            <p>Your subscription will automatically renew unless auto-renew is turned off at least 24 hours before the
+                end of the current period. Your account will be charged for renewal within 24 hours prior to the end of
+                the current period at the then-current price.</p>
+
+            <h3>6.3 Cancellation</h3>
+            <p>You can manage and cancel your subscriptions by going to your App Store Account Settings after purchase.
+                Deleting the App does not cancel your subscription.</p>
+
+            <h3>6.4 Refunds</h3>
+            <p>All purchases are final. As payments are processed by Apple, we cannot issue refunds directly. Refund
+                requests must be submitted to Apple via <a
+                    href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+            <h2>7. Product Claims</h2>
+            <p>We, not Apple, are responsible for addressing any claims by you or any third party relating to the App or
+                your possession and/or use of that App, including, but not limited to:</p>
+            <ul>
+                <li>(i) Product liability claims;</li>
+                <li>(ii) Any claim that the App fails to conform to any applicable legal or regulatory requirement; and
+                </li>
+                <li>(iii) Claims arising under consumer protection, privacy, or similar legislation.</li>
+            </ul>
+
+            <h2>8. Intellectual Property Claims</h2>
+            <p>In the event of any third-party claim that the App or your possession and use of that App infringes that
+                third party’s intellectual property rights, We, not Apple, will be solely responsible for the
+                investigation, defense, settlement, and discharge of any such intellectual property infringement claim.
+            </p>
+
+            <h2>9. Legal Compliance</h2>
+            <p>You represent and warrant that:</p>
+            <ul>
+                <li>(i) You are not located in a country that is subject to a U.S. Government embargo, or that has been
+                    designated by the U.S. Government as a "terrorist supporting" country; and</li>
+                <li>(ii) You are not listed on any U.S. Government list of prohibited or restricted parties.</li>
+            </ul>
+
+            <h2>10. Third Party Terms of Agreement</h2>
+            <p>You must comply with applicable third-party terms of agreement when using the App (e.g., your wireless
+                data service agreement) to ensure that your use of the App is not in violation of such agreement.</p>
+
+            <h2>11. Third Party Beneficiary</h2>
+            <p>You acknowledge and agree that Apple, and Apple’s subsidiaries, are third-party beneficiaries of these
+                Terms. Upon your acceptance of these Terms, Apple will have the right (and will be deemed to have
+                accepted the right) to enforce these Terms against you as a third-party beneficiary thereof.</p>
+
+            <h2>12. Disclaimer of Warranties</h2>
+            <span class="caps">PLEASE READ CAREFULLY</span>
+            <p>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+                TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, THE DEVELOPER DISCLAIMS ALL WARRANTIES,
+                EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+                PARTICULAR PURPOSE, AND NON-INFRINGEMENT.</p>
+
+            <h2>13. Limitation of Liability</h2>
+            <span class="caps">LIMITATION OF DAMAGES</span>
+            <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY INDIRECT,
+                INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, ARISING OUT
+                OF OR IN CONNECTION WITH THESE TERMS OR THE APP.</p>
+
+            <h2>14. Class Action Waiver</h2>
+            <p>WHERE PERMITTED UNDER THE APPLICABLE LAW, YOU AND THE DEVELOPER AGREE THAT EACH MAY BRING CLAIMS AGAINST
+                THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY
+                PURPORTED CLASS OR REPRESENTATIVE ACTION.</p>
+
+            <h2>15. Contact Information</h2>
+            <p>If you have any questions, complaints, or claims with respect to the App, please contact us at:</p>
+            <p>
+                <strong>Developer:</strong> Muhammed Yusuf Güven<br>
+                <strong>Email:</strong> <a href="mailto:support@spendryapp.com">support@spendryapp.com</a><br>
+                <strong>Website:</strong> <a href="https://spendryapp.com">spendryapp.com</a>
+            </p>
+
+            <div class="footer">
+                &copy; 2026 Spendry. All rights reserved.
+            </div>
         </div>
 
         <!-- TURKISH CONTENT -->
         <div class="tr-content">
             <h1>Kullanım Koşulları</h1>
-            <span class="last-updated">Son Güncelleme: 14 Ocak 2026</span>
+            <span class="meta">Yürürlük Tarihi: 11 Şubat 2026</span>
 
-            <section>
-                <h2>1. Koşulların Kabulü</h2>
-                <p>Spendry'ye hoş geldiniz. Spendry mobil uygulamasını ("Uygulama") indirerek, erişerek veya kullanarak,
-                    bu Kullanım Koşulları ile bağlı olmayı kabul edersiniz. Bu koşulları kabul etmiyorsanız, Uygulamayı
-                    kullanmayınız. Bu koşulları herhangi bir zamanda değiştirme hakkımız saklıdır; Uygulamayı kullanmaya
-                    devam etmeniz güncellenmiş koşulları kabul ettiğiniz anlamına gelir.</p>
-            </section>
+            <p>Spendry'yi indirdiğiniz, eriştiğiniz veya kullandığınız için teşekkür ederiz. Uygulamayı ("Uygulama")
+                kullanarak, bu Kullanım Koşulları ("Koşullar") ile bağlı olmayı kabul etmektesiniz.</p>
 
-            <section>
-                <h2>2. Hizmet Tanımı</h2>
-                <p>Spendry, iOS cihazınızda harcamaları yerel olarak takip etmenizi, bütçeleri yönetmenizi ve borçları
-                    izlemenizi sağlayan kişisel bir finans yönetim aracıdır. Uygulama şunları sağlar:</p>
-                <ul>
-                    <li>İşlem kaydı ve kategorilendirme.</li>
-                    <li>Bütçe takibi ve sapma analizi.</li>
-                    <li>Borç ödeme hesaplamaları ve takibi.</li>
-                    <li>Finansal sağlık içgörüleri ve görselleştirmeler.</li>
-                </ul>
-            </section>
+            <h2>1. Taraflar ve Anlaşma</h2>
+            <p>Bu Koşullar, yalnızca siz ("Kullanıcı") ve <strong>Muhammed Yusuf Güven</strong> ("Geliştirici", "Biz")
+                arasında yasal olarak bağlayıcı bir sözleşmedir.</p>
+            <p>Bu Koşulların, Apple'ın zorunlu kıldığı Son Kullanıcı Lisans Sözleşmesi (EULA) hükümlerini içerdiğini
+                kabul edersiniz. Ayrıca, <strong>Apple Inc. ("Apple") şirketinin bu anlaşmanın bir tarafı
+                    olmadığını</strong> ve Uygulamadan veya içeriğinden sorumlu olmadığını açıkça kabul edersiniz.</p>
 
-            <section>
-                <h2>3. Kullanım Seviyeleri (Tiers)</h2>
+            <h2>2. Apple'ın Rolünün Kabulü</h2>
+            <p>Uygulama ve içeriğinden yalnızca Geliştirici sorumludur. Apple'ın Uygulama ile ilgili herhangi bir bakım
+                ve destek hizmeti sağlama yükümlülüğü yoktur.</p>
+            <p>Uygulamanın herhangi bir garantiye uymaması durumunda, Apple'a bildirimde bulunabilirsiniz ve Apple,
+                Uygulama için ödenen satın alma bedelini size iade edecektir. Geçerli yasaların izin verdiği azami
+                ölçüde, Apple'ın Uygulama ile ilgili başka hiçbir garanti yükümlülüğü olmayacaktır.</p>
 
-                <h3>3.1 Ücretsiz Sürüm</h3>
-                <p>Spendry'nin Ücretsiz sürümü sınırsız işleme izin verir ancak oluşturabileceğiniz hesap ve varlık
-                    sayısında sınırlamalar içerir:</p>
-                <ul>
-                    <li>Maksimum 3 Bütçe</li>
-                    <li>Maksimum 3 Tasarruf Hedefi</li>
-                    <li>Maksimum 3 Aktif Borç (Kredi veya Şahsi)</li>
-                    <li>Maksimum 3 Yatırım Hesabı</li>
-                    <li>Maksimum 3 Kredi Kartı</li>
-                </ul>
+            <h2>3. Lisans Kapsamı</h2>
+            <p>Bu Koşullara uymanız şartıyla, size, sahip olduğunuz veya kontrol ettiğiniz herhangi bir Apple markalı
+                üründe, Apple Medya Hizmetleri Hüküm ve Koşulları'nda belirtilen Kullanım Kuralları'na uygun olarak
+                Uygulamayı kişisel, ticari olmayan amaçlarla kullanmanız için sınırlı, münhasır olmayan, devredilemez
+                bir lisans veriyoruz.</p>
 
-                <h3>3.2 Premium Sürüm</h3>
-                <p>Spendry Premium, yukarıdaki tüm sınırları kaldırarak Uygulamanın tam potansiyelini açar ve özel
-                    widget'lar, derinlemesine analizler ve yıllık raporlar gibi gelişmiş özelliklere erişim sağlar.</p>
-            </section>
+            <h2>4. Bakım ve Destek</h2>
+            <p>Uygulama ile ilgili bakım ve destek hizmetlerini sağlamaktan, geçerli yasalar çerçevesinde yalnızca
+                Geliştirici sorumludur. Apple'ın Uygulama ile ilgili herhangi bir bakım ve destek hizmeti sağlama
+                yükümlülüğü olmadığını kabul edersiniz.</p>
 
-            <section>
-                <h2>4. Faturalandırma ve Abonelikler</h2>
-                <p>Spendry Premium satın almayı seçerseniz, aşağıdaki koşullar geçerlidir:</p>
-
-                <h3>4.1 Ödeme</h3>
-                <p>Ödeme, satın alma onayı ile Apple Kimliği hesabınızdan tahsil edilecektir. Fiyatlar, satın almadan
-                    önce Uygulamada açıkça gösterilir.</p>
-
-                <h3>4.2 Otomatik Yenileme</h3>
-                <p>Otomatik yenileme, cari dönemin bitiminden en az 24 saat önce kapatılmadığı sürece abonelikler
-                    otomatik olarak yenilenir. Hesabınız, cari dönemin bitiminden 24 saat önce yenileme için
-                    ücretlendirilir.</p>
-
-                <h3>4.3 İptal</h3>
-                <p>Aboneliklerinizi satın alma işleminden sonra App Store Hesap Ayarlarına giderek yönetebilir ve iptal
-                    edebilirsiniz. Uygulamayı silmek aboneliğinizi iptal etmez.</p>
-
-                <h3>4.4 İadeler</h3>
-                <p>Tüm faturalandırma işlemleri doğrudan Apple tarafından yürütülür. Doğrudan iade yapma yetkimiz
-                    yoktur. İade talepleri Apple Destek'e iletilmelidir.</p>
-            </section>
-
-            <section>
-                <h2>5. Kullanıcı Verileri ve Sorumluluk</h2>
-                <p>Uygulamaya girdiğiniz finansal verilerin doğruluğundan tamamen siz sorumlusunuz. Spendry verileri
-                    yerel olarak sakladığından:</p>
-                <ul>
-                    <li>Veri kaybını önlemek için cihazınızı yedeklemekten (örn. iCloud Yedekleme ile) siz sorumlusunuz.
-                    </li>
-                    <li>Yedekleme olmadan uygulamayı silerseniz veya cihazınızı kaybederseniz verilerinizi kurtaramayız.
-                    </li>
-                </ul>
-            </section>
-
-            <div class="disclaimer-box">
-                <span class="disclaimer-title">YASAL UYARI: FİNANSAL TAVSİYE DEĞİLDİR</span>
-                <p>Spendry yalnızca bilgilendirme ve takip amaçlı tasarlanmıştır. Uygulama, hesaplamaları ve içgörüleri
-                    profesyonel finansal tavsiye, muhasebe tavsiyesi veya vergi tavsiyesi teşkil etmez. Önemli finansal
-                    kararlar almadan önce nitelikli bir finansal danışmana danışmalısınız. Bu Uygulamanın kullanımına
-                    dayalı olarak ortaya çıkan finansal kayıplardan sorumlu değiliz.</p>
+            <h2>5. Sıfır Bilgi Mimarisi ve Veri Sorumluluğu</h2>
+            <div class="security-note">
+                <h3>🔒 Gizlilik Odaklı Mimari</h3>
+                <p>Spendry, gizliliğinizi garanti altına almak için "Sıfır Bilgi" (Zero-Knowledge) temeli üzerine inşa
+                    edilmiştir. Finansal verilerinizi çözmek için gereken anahtarlara sahip değiliz ve verilerinizi
+                    sunucularımızda saklamayız. Verileriniz yalnızca cihazınızda ve kişisel iCloud alanınızda bulunur.
+                </p>
+                <p>Verileriniz size özel olduğundan, <strong>cihazınıza veya Apple Kimliğinize erişimi kaybederseniz
+                        verilerinizi kurtaramayız.</strong> Veri kaybını önlemek için iCloud Yedekleme özelliğini açık
+                    tutmanızı önemle tavsiye ederiz.</p>
             </div>
 
-            <section>
-                <h2>6. Fikri Mülkiyet</h2>
-                <p>Uygulama, kodları, tasarımı, grafikleri ve arayüzü dahil olmak üzere, Spendry'nin (Yusuf Güven) özel
-                    mülkiyetindedir ve telif hakkı ve fikri mülkiyet yasalarıyla korunmaktadır. Uygulamayı kişisel
-                    kullanım için kullanmanız üzere size sınırlı, münhasır olmayan, devredilemez bir lisans verilmiştir.
-                </p>
-            </section>
+            <h2>6. Abonelik Koşulları</h2>
+            <p>Spendry, Apple'ın Uygulama İçi Satın Alma sistemi üzerinden yenilenebilir "Spendry Premium" abonelikleri
+                sunar. Satın alarak şunları kabul edersiniz:</p>
 
-            <section>
-                <h2>7. Sorumluluk Sınırlaması</h2>
-                <p>Yasaların izin verdiği azami ölçüde, Spendry, veri kaybı, kar kaybı veya diğer maddi olmayan kayıplar
-                    dahil ancak bunlarla sınırlı olmamak üzere, Uygulamayı kullanımınızdan veya kullanamamanızdan
-                    kaynaklanan dolaylı, arızi, özel veya cezai zararlardan sorumlu tutulamaz.</p>
-            </section>
+            <h3>6.1 Ödeme ve Faturalandırma</h3>
+            <p>Ödeme, satın alma onayı ile Apple Kimliği hesabınızdan tahsil edilir. Tüm faturalandırma işlemleri Apple
+                tarafından yönetilir.</p>
 
-            <section>
-                <h2>8. İletişim</h2>
-                <p>Bu Koşullar hakkında sorularınız için lütfen şu adresten bizimle iletişime geçin:</p>
-                <p><strong>E-posta:</strong> <a href="mailto:support@spendryapp.com">support@spendryapp.com</a></p>
-            </section>
+            <h3>6.2 Otomatik Yenileme</h3>
+            <p>Abonelik, cari dönemin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir.
+                Hesabınız, dönemin bitimine 24 saat kala ücretlendirilir.</p>
+
+            <h3>6.3 İptal</h3>
+            <p>Aboneliklerinizi App Store Hesap Ayarlarından yönetebilir ve iptal edebilirsiniz. Uygulamayı silmek
+                aboneliği iptal etmez.</p>
+
+            <h3>6.4 İadeler</h3>
+            <p>Tüm satın alımlar nihaidir. Ödemeler Apple tarafından işlendiğinden, doğrudan iade yapamayız. İade
+                talepleri <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> üzerinden Apple'a
+                iletilmelidir.</p>
+
+            <h2>7. Ürün Talepleri</h2>
+            <p>Uygulama veya Uygulamayı kullanımınızla ilgili, aşağıdakiler dahil ancak bunlarla sınırlı olmamak üzere
+                her türlü talepten Apple değil, biz sorumluyuz:</p>
+            <ul>
+                <li>(i) Ürün sorumluluğu talepleri;</li>
+                <li>(ii) Uygulamanın herhangi bir yasal veya düzenleyici gerekliliğe uymadığı iddiası; ve</li>
+                <li>(iii) Tüketiciyi koruma veya benzeri yasalar kapsamındaki talepler.</li>
+            </ul>
+
+            <h2>8. Fikri Mülkiyet Hakları</h2>
+            <p>Uygulamanın veya kullanımınızın üçüncü bir tarafın fikri mülkiyet haklarını ihlal ettiği iddiası
+                durumunda, söz konusu ihlal iddiasının soruşturulması, savunulması, çözüme kavuşturulması ve
+                giderilmesinden Apple değil, yalnızca biz sorumlu olacağız.</p>
+
+            <h2>9. Yasal Uyumluluk</h2>
+            <p>Şunları beyan ve taahhüt edersiniz:</p>
+            <ul>
+                <li>(i) ABD Hükümeti ambargosuna tabi bir ülkede bulunmuyorsunuz veya ABD Hükümeti tarafından "terörü
+                    destekleyen" ülke olarak belirlenmiş bir ülkede değilsiniz; ve</li>
+                <li>(ii) ABD Hükümeti'nin yasaklı veya kısıtlı taraflar listesinde yer almıyorsunuz.</li>
+            </ul>
+
+            <h2>10. Üçüncü Taraf Anlaşmaları</h2>
+            <p>Uygulamayı kullanırken geçerli üçüncü taraf anlaşmalarına (örneğin, kablosuz veri hizmeti sözleşmeniz)
+                uymayı kabul edersiniz.</p>
+
+            <h2>11. Üçüncü Taraf Yararlanıcı (Third Party Beneficiary)</h2>
+            <p>Apple ve Apple'ın yan kuruluşlarının, bu Koşulların üçüncü taraf yararlanıcıları olduğunu kabul
+                edersiniz. Bu Koşulları kabul etmenizle birlikte, Apple, bu Koşulları size karşı üçüncü taraf
+                yararlanıcı olarak uygulama hakkına sahip olacaktır (ve bu hakkı kabul etmiş sayılacaktır).</p>
+
+            <h2>12. Garanti Reddi</h2>
+            <span class="caps">LÜTFEN DİKKATLİCE OKUYUNUZ</span>
+            <p>UYGULAMA, "OLDUĞU GİBİ" VE "MEVCUT OLDUĞU ŞEKİLDE", HİÇBİR GARANTİ OLMAKSIZIN SUNULMAKTADIR. GELİŞTİRİCİ,
+                TİCARİ ELVERİŞLİLİK VE BELİRLİ BİR AMACA UYGUNLUK DAHİL TÜM GARANTİLERİ REDDEDER.</p>
+
+            <h2>13. Sorumluluk Sınırlaması</h2>
+            <p>YASALARIN İZİN VERDİĞİ ÖLÇÜDE, GELİŞTİRİCİ, UYGULAMANIN KULLANIMINDAN KAYNAKLANAN HİÇBİR DOLAYLI ZARARDAN
+                SORUMLU DEĞİLDİR.</p>
+
+            <h2>14. Toplu Dava Feragatnamesi</h2>
+            <p>YASALARIN İZİN VERDİĞİ HALLERDE, TARAFLAR BİRBİRLERİNE KARŞI YALNIZCA KENDİ ADLARINA DAVA AÇABİLİRLER,
+                HERHANGİ BİR TOPLU DAVANIN PARÇASI OLAMAZLAR.</p>
+
+            <h2>15. İletişim Bilgileri</h2>
+            <p>Uygulama ile ilgili soru, şikayet veya talepleriniz için lütfen iletişime geçin:</p>
+            <p>
+                <strong>Geliştirici:</strong> Muhammed Yusuf Güven<br>
+                <strong>E-posta:</strong> <a href="mailto:support@spendryapp.com">support@spendryapp.com</a><br>
+                <strong>Web Sitesi:</strong> <a href="https://spendryapp.com">spendryapp.com</a>
+            </p>
+
+            <div class="footer">
+                &copy; 2026 Spendry. Tüm hakları saklıdır.
+            </div>
         </div>
-    </main>
-
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2026 Spendry. All rights reserved.</p>
-        </div>
-    </footer>
+    </div>
 
     <script>
         function setLang(lang) {
-            document.body.className = lang === 'tr' ? 'lang-tr' : 'lang-en';
-
-            // Buttons
-            document.querySelectorAll('.lang-switch button').forEach(b => b.classList.remove('active'));
-            document.getElementById('btn-' + lang).classList.add('active');
-
-            // Save preference
-            localStorage.setItem('spendry_legal_lang', lang);
+            document.body.setAttribute('data-lang', lang);
+            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelector(`button[onclick="setLang('${lang}')"]`).classList.add('active');
+            localStorage.setItem('spendry_terms_lang', lang);
         }
 
         // Init
-        const savedLang = localStorage.getItem('spendry_legal_lang');
-        if (savedLang) {
-            setLang(savedLang);
-        } else {
-            // Auto-detect browser lang
-            const userLang = navigator.language || navigator.userLanguage;
-            if (userLang.startsWith('tr')) {
-                setLang('tr');
-            }
-        }
+        const savedLang = localStorage.getItem('spendry_terms_lang') ||
+            (navigator.language.startsWith('tr') ? 'tr' : 'en');
+        setLang(savedLang);
     </script>
 </body>
 

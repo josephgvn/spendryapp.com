@@ -4,28 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy - Spendry</title>
+    <title>Privacy Policy - Spendry</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg: #000000;
-            --surface: #1C1C1E;
-            --surface-hover: #2C2C2E;
-            --text-primary: #F5F5F7;
+            --surface: #1c1c1e;
+            --surface-highlight: #2c2c2e;
+            --text-primary: #FFFFFF;
             --text-secondary: #86868b;
             --accent: #0A84FF;
+            --accent-dim: rgba(10, 132, 255, 0.1);
             --divider: rgba(255, 255, 255, 0.1);
-            --success: #32D74B;
-            --max-width: 980px;
+            --max-width: 800px;
         }
 
-        *,
-        *::before,
-        *::after {
-            margin: 0;
-            padding: 0;
+        * {
             box-sizing: border-box;
         }
 
@@ -34,623 +30,412 @@
             background: var(--bg);
             color: var(--text-primary);
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
             -webkit-font-smoothing: antialiased;
-            overflow-x: hidden;
         }
 
-        /* Ambient Glow */
-        .ambient {
-            position: fixed;
-            top: -20%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 120vw;
-            height: 100vh;
-            background: radial-gradient(circle at center, rgba(10, 132, 255, 0.12), transparent 50%);
-            z-index: -1;
-            pointer-events: none;
-        }
-
-        /* Nav */
-        nav {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            background: rgba(0, 0, 0, 0.8);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--divider);
-            padding: 16px 24px;
-        }
-
-        .nav-content {
+        .container {
             max-width: var(--max-width);
             margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            padding: 100px 24px 120px;
         }
 
-        .logo {
-            font-weight: 700;
-            font-size: 1.2rem;
-            color: var(--text-primary);
-            text-decoration: none;
-            letter-spacing: -0.02em;
-        }
-
-        .lang-switch {
-            display: flex;
-            gap: 4px;
-            background: #1c1c1e;
-            padding: 4px;
-            border-radius: 8px;
-        }
-
-        .lang-switch button {
-            background: transparent;
-            border: none;
-            color: var(--text-secondary);
-            padding: 4px 12px;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .lang-switch button.active {
-            background: #48484a;
-            color: var(--text-primary);
-        }
-
-        /* Header */
-        header {
-            max-width: var(--max-width);
-            margin: 0 auto;
-            padding: 120px 24px 60px;
-            text-align: center;
-        }
-
+        /* Typography */
         h1 {
-            font-size: clamp(3rem, 5vw, 4.5rem);
-            font-weight: 800;
-            letter-spacing: -0.03em;
-            margin-bottom: 24px;
-            background: linear-gradient(135deg, #fff 0%, #a1a1a6 100%);
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #fff 0%, #a5a5a5 100%);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
-        .subtitle {
-            font-size: 1.5rem;
+        .meta {
             color: var(--text-secondary);
-            font-weight: 400;
-            max-width: 600px;
-            margin: 0 auto;
+            font-size: 0.9rem;
+            margin-bottom: 48px;
+            display: block;
+            border-bottom: 1px solid var(--divider);
+            padding-bottom: 32px;
         }
 
-        /* Privacy Highlights (Nutrition Label Style) */
-        .highlights {
-            max-width: var(--max-width);
-            margin: 0 auto 80px;
-            padding: 0 24px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 24px;
-        }
-
-        .highlight-card {
-            background: var(--surface);
-            padding: 32px;
-            border-radius: 20px;
-            border: 1px solid var(--divider);
-            transition: transform 0.3s ease;
-        }
-
-        .highlight-card:hover {
-            transform: translateY(-5px);
-            background: var(--surface-hover);
-        }
-
-        .icon-box {
-            width: 48px;
-            height: 48px;
-            background: rgba(10, 132, 255, 0.1);
-            border-radius: 12px;
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-top: 64px;
+            margin-bottom: 24px;
+            color: var(--text-primary);
             display: flex;
             align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            color: var(--accent);
-            margin-bottom: 20px;
+            border-bottom: 1px solid var(--divider);
+            padding-bottom: 12px;
         }
 
-        .card-title {
-            font-size: 1.25rem;
+        h3 {
+            font-size: 1.1rem;
             font-weight: 600;
+            margin-top: 32px;
             margin-bottom: 12px;
             color: var(--text-primary);
         }
 
-        .card-text {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            line-height: 1.5;
-        }
-
-        /* Main Content */
-        main {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 24px 120px;
-        }
-
-        section {
-            margin-bottom: 64px;
-        }
-
-        h2 {
-            font-size: 2rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: 32px;
-            letter-spacing: -0.02em;
-            border-bottom: 1px solid var(--divider);
-            padding-bottom: 16px;
-        }
-
-        h3 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: var(--text-primary);
-            margin: 40px 0 16px;
-        }
-
         p {
             color: var(--text-secondary);
-            margin-bottom: 20px;
+            margin-bottom: 24px;
             font-size: 1.05rem;
+            text-align: justify;
         }
 
-        ul {
-            list-style: none;
-            margin-bottom: 32px;
-            background: var(--surface);
-            padding: 24px;
-            border-radius: 16px;
+        ul,
+        ol {
+            margin-bottom: 24px;
+            padding-left: 24px;
+            color: var(--text-secondary);
         }
 
         li {
-            color: var(--text-primary);
-            margin-bottom: 16px;
-            padding-left: 28px;
-            position: relative;
+            margin-bottom: 12px;
         }
 
-        li:last-child {
-            margin-bottom: 0;
-        }
-
-        li::before {
-            content: "✓";
-            color: var(--success);
-            position: absolute;
-            left: 0;
-            font-weight: bold;
-        }
-
-        /* Permissions Table */
-        .permissions-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 24px 0;
-            background: var(--surface);
-            border-radius: 16px;
-            overflow: hidden;
-        }
-
-        .permissions-table th {
-            text-align: left;
-            padding: 16px 24px;
-            background: rgba(255, 255, 255, 0.05);
+        strong {
             color: var(--text-primary);
             font-weight: 600;
-            border-bottom: 1px solid var(--divider);
-        }
-
-        .permissions-table td {
-            padding: 16px 24px;
-            color: var(--text-secondary);
-            border-bottom: 1px solid var(--divider);
-            vertical-align: top;
-        }
-
-        .permissions-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .perm-tag {
-            display: inline-block;
-            padding: 4px 12px;
-            background: rgba(10, 132, 255, 0.1);
-            color: var(--accent);
-            border-radius: 100px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            margin-bottom: 4px;
         }
 
         a {
             color: var(--accent);
             text-decoration: none;
-            border-bottom: 1px solid transparent;
-            transition: border-color 0.2s;
+            transition: opacity 0.2s;
         }
 
         a:hover {
-            border-color: var(--accent);
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        /* Feature Box */
+        .feature-box {
+            background: var(--surface);
+            border: 1px solid var(--divider);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 32px 0;
+        }
+
+        .feature-box h3 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .feature-box p {
+            margin-bottom: 0;
+        }
+
+        /* Language Toggle - Sticky & Glass */
+        .lang-switch-container {
+            position: fixed;
+            top: 24px;
+            right: 24px;
+            z-index: 100;
+        }
+
+        .lang-switch {
+            background: rgba(28, 28, 30, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            padding: 4px;
+            border-radius: 10px;
+            display: flex;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .lang-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+
+        .lang-btn:hover {
+            color: var(--text-primary);
+        }
+
+        .lang-btn.active {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-primary);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         }
 
         /* Footer */
-        footer {
+        .footer {
+            margin-top: 120px;
             border-top: 1px solid var(--divider);
-            padding: 64px 24px;
+            padding-top: 40px;
             text-align: center;
-        }
-
-        .footer-content p {
-            font-size: 0.9rem;
             color: var(--text-secondary);
+            font-size: 0.9rem;
         }
 
-        /* Language State */
-        .tr-content {
+        /* Content Visibility */
+        [data-lang="tr"] .en-content {
             display: none;
         }
 
-        body.lang-tr .en-content {
+        [data-lang="en"] .tr-content {
             display: none;
         }
 
-        body.lang-tr .tr-content {
-            display: block;
-        }
-
-        /* Animation */
-        @keyframes fadeUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
+        @media (max-width: 768px) {
+            .container {
+                padding: 80px 20px 100px;
             }
 
-            to {
-                opacity: 1;
-                transform: translateY(0);
+            h1 {
+                font-size: 2rem;
             }
-        }
 
-        header,
-        .highlights,
-        section {
-            animation: fadeUp 0.8s ease forwards;
-        }
-
-        .highlights {
-            animation-delay: 0.2s;
-            opacity: 0;
-        }
-
-        section:nth-child(1) {
-            animation-delay: 0.4s;
-            opacity: 0;
-        }
-
-        section:nth-child(2) {
-            animation-delay: 0.5s;
-            opacity: 0;
-        }
-
-        section:nth-child(3) {
-            animation-delay: 0.6s;
-            opacity: 0;
-        }
-
-        .apple-box {
-            background: linear-gradient(180deg, #1C1C1E 0%, #000000 100%);
-            border: 1px solid #38383A;
-            border-radius: 24px;
-            padding: 40px;
-            text-align: center;
-            margin: 60px 0;
-        }
-
-        .apple-box h3 {
-            margin-top: 0;
-            font-size: 1.5rem;
+            .lang-switch-container {
+                top: auto;
+                bottom: 24px;
+                right: 50%;
+                transform: translateX(50%);
+                width: auto;
+            }
         }
     </style>
 </head>
 
-<body class="lang-en">
-    <div class="ambient"></div>
-
-    <nav>
-        <div class="nav-content">
-            <a href="index.html" class="logo">Spendry</a>
-            <div class="lang-switch">
-                <button onclick="setLang('en')" id="btn-en" class="active">EN</button>
-                <button onclick="setLang('tr')" id="btn-tr">TR</button>
-            </div>
+<body data-lang="en">
+    <div class="lang-switch-container">
+        <div class="lang-switch">
+            <button class="lang-btn active" onclick="setLang('en')">English</button>
+            <button class="lang-btn" onclick="setLang('tr')">Türkçe</button>
         </div>
-    </nav>
-
-    <!-- ENGLISH -->
-    <div class="en-content">
-        <header>
-            <h1>Privacy at the Core.</h1>
-            <p class="subtitle">We believe privacy is a fundamental human right. Spendry is designed to protect your
-                information, not monetize it.</p>
-        </header>
-
-        <div class="highlights">
-            <div class="highlight-card">
-                <div class="icon-box">🔒</div>
-                <div class="card-title">On-Device Processing</div>
-                <p class="card-text">Your financial ledger lives on your iPhone. We do not have servers that process or
-                    store your personal transaction history.</p>
-            </div>
-            <div class="highlight-card">
-                <div class="icon-box">🙈</div>
-                <div class="card-title">We Don't Know You</div>
-                <p class="card-text">We don't collect names, emails, or phone numbers. You use Spendry completely
-                    anonymously.</p>
-            </div>
-            <div class="highlight-card">
-                <div class="icon-box">☁️</div>
-                <div class="card-title">Encrypted Sync</div>
-                <p class="card-text">Sync is handled by Apple's CloudKit. Your data is encrypted in transit and at rest
-                    in your personal iCloud container.</p>
-            </div>
-        </div>
-
-        <main>
-            <section>
-                <h2>1. Our Philosophy</h2>
-                <p>Most financial apps want your data to sell you loans, credit cards, or ads. Spendry is different. We
-                    sell a premium tool, not your data.</p>
-                <p><strong>You are the customer, not the product.</strong></p>
-            </section>
-
-            <section>
-                <h2>2. Data Collection & Permissions</h2>
-                <p>We minimize data collection to the absolute bare minimum required for the app to function. Here is a
-                    transparent breakdown of the permissions we request:</p>
-
-                <table class="permissions-table">
-                    <tr>
-                        <th width="30%">Permission</th>
-                        <th>Why we need it</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span class="perm-tag">Face ID</span><br>
-                            <small>NSFaceIDUsageDescription</small>
-                        </td>
-                        <td>
-                            Used strictly to <strong>unlock the app</strong> locally. We receive a simple "Yes/No" from
-                            the iOS Secure Enclave. We never access your biometric data.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span class="perm-tag">Notifications</span><br>
-                            <small>UserNotifications</small>
-                        </td>
-                        <td>
-                            To send you reminders for bill payments and budget alerts. These are scheduled locally on
-                            your device.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span class="perm-tag">iCloud</span><br>
-                            <small>CloudKit</small>
-                        </td>
-                        <td>
-                            To sync your data across your devices. This happens directly between your device and Apple's
-                            servers.
-                        </td>
-                    </tr>
-                </table>
-            </section>
-
-            <section>
-                <h2>3. Where Your Data Lives</h2>
-                <div class="apple-box">
-                    <h3>📍 On Your iPhone</h3>
-                    <p>Your transactions, debts, and budgets are stored in the secure App Sandbox.</p>
-                </div>
-
-                <h3>3.1 iCloud Synchronization</h3>
-                <p>If you enable iCloud Sync, your data is mirrored to your private iCloud container. Spendry (the
-                    developer) does not have access to this container. Only you, signed in with your Apple ID, can
-                    access it.</p>
-            </section>
-
-            <section>
-                <h2>4. Third-Party Services</h2>
-                <p>We use zero tracking pixels for ads (Facebook, Google Ads, etc.). We use the following minimal
-                    services:</p>
-                <ul>
-                    <li><strong>RevenueCat:</strong> Handles In-App Subscription validation. They receive an anonymous
-                        App User ID to verify your Premium status.</li>
-                    <li><strong>Apple (iCloud/App Store):</strong> Handles app distribution, payments, and crash
-                        reporting (if opted-in via iOS settings).</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>5. Creating a "Burner" Experience</h2>
-                <p>Since we don't require an account sign-up (no email/password), you can delete the app at any time,
-                    and your data is gone from your device instantly. It's that simple.</p>
-            </section>
-
-            <section>
-                <h2>6. Contact Us</h2>
-                <p>If you have questions about our privacy engineering, feel free to reach out.</p>
-                <p><a href="mailto:support@spendryapp.com">support@spendryapp.com</a></p>
-                <p style="margin-top: 40px; font-size: 0.9rem; opacity: 0.6;">Last Updated: January 18, 2026</p>
-            </section>
-        </main>
     </div>
 
-    <!-- TURKISH -->
-    <div class="tr-content">
-        <header>
-            <h1>Gizlilik Merkezde.</h1>
-            <p class="subtitle">Gizliliğin temel bir insan hakkı olduğuna inanıyoruz. Spendry, bilgilerinizi satmak için
-                değil, korumak için tasarlandı.</p>
-        </header>
+    <div class="container">
+        <!-- ENGLISH CONTENT -->
+        <div class="en-content">
+            <h1>Privacy Policy</h1>
+            <span class="meta">Effective Date: February 11, 2026</span>
 
-        <div class="highlights">
-            <div class="highlight-card">
-                <div class="icon-box">🔒</div>
-                <div class="card-title">Cihaz İçi İşlem</div>
-                <p class="card-text">Finansal defteriniz iPhone'unuzda yaşar. Kişisel işlem geçmişinizi işleyen veya
-                    saklayan sunucularımız yoktur.</p>
-            </div>
-            <div class="highlight-card">
-                <div class="icon-box">🙈</div>
-                <div class="card-title">Sizi Tanımıyoruz</div>
-                <p class="card-text">İsim, e-posta veya telefon numarası toplamıyoruz. Spendry'yi tamamen anonim olarak
-                    kullanırsınız.</p>
-            </div>
-            <div class="highlight-card">
-                <div class="icon-box">☁️</div>
-                <div class="card-title">Şifreli Senkronizasyon</div>
-                <p class="card-text">Senkronizasyon Apple CloudKit tarafından yönetilir. Verileriniz, kişisel iCloud
-                    alanınızda şifreli olarak saklanır.</p>
-            </div>
-        </div>
-
-        <main>
-            <section>
-                <h2>1. Felsefemiz</h2>
-                <p>Çoğu finans uygulaması, size kredi veya reklam satmak için verilerinizi ister. Spendry farklıdır. Biz
-                    verilerinizi değil, premium bir araç satıyoruz.</p>
-                <p><strong>Siz ürün değilsiniz, müşterisiniz.</strong></p>
-            </section>
-
-            <section>
-                <h2>2. Veri Toplama ve İzinler</h2>
-                <p>Veri toplamayı uygulamanın çalışması için gereken mutlak minimum düzeye indiriyoruz. İşte talep
-                    ettiğimiz izinlerin şeffaf bir dökümü:</p>
-
-                <table class="permissions-table">
-                    <tr>
-                        <th width="30%">İzin</th>
-                        <th>Neden ihtiyacımız var?</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span class="perm-tag">Face ID</span><br>
-                            <small>NSFaceIDUsageDescription</small>
-                        </td>
-                        <td>
-                            Uygulamayı yerel olarak <strong>kilitlemek için</strong> kullanılır. iOS Güvenli
-                            Bölgesi'nden (Secure Enclave) yalnızca basit bir "Evet/Hayır" sinyali alırız. Biyometrik
-                            verilerinize asla erişmeyiz.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span class="perm-tag">Bildirimler</span><br>
-                            <small>UserNotifications</small>
-                        </td>
-                        <td>
-                            Fatura ödemeleri ve bütçe uyarılarını size hatırlatmak için. Bunlar tamamen cihazınızda
-                            yerel olarak zamanlanır.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span class="perm-tag">iCloud</span><br>
-                            <small>CloudKit</small>
-                        </td>
-                        <td>
-                            Verilerinizi cihazlarınız arasında eşitlemek için. Bu işlem doğrudan cihazınız ve Apple
-                            sunucuları arasında gerçekleşir.
-                        </td>
-                    </tr>
-                </table>
-            </section>
-
-            <section>
-                <h2>3. Verileriniz Nerede?</h2>
-                <div class="apple-box">
-                    <h3>📍 iPhone'unuzda</h3>
-                    <p>İşlemleriniz, borçlarınız ve bütçeleriniz güvenli Uygulama Korumalı Alanı'nda (Sandbox) saklanır.
-                    </p>
-                </div>
-
-                <h3>3.1 iCloud Senkronizasyonu</h3>
-                <p>iCloud Senkronizasyonu'nu açarsanız, verileriniz özel iCloud alanınıza yansıtılır. Spendry
-                    (geliştirici) bu alana erişemez. Yalnızca Apple Kimliğinizle giriş yapmış olan siz erişebilirsiniz.
+            <div class="feature-box">
+                <h3>🔒 Zero-Knowledge Guarantee</h3>
+                <p>Spendry is built on a "Local-First" architecture. We do not maintain servers to store your financial
+                    data. We cannot see, access, or sell your personal information because it never leaves your control.
                 </p>
-            </section>
+            </div>
 
-            <section>
-                <h2>4. Üçüncü Taraf Hizmetleri</h2>
-                <p>Reklamlar için (Facebook, Google Ads vb.) hiçbir izleme pikseli kullanmıyoruz. Yalnızca şu minimal
-                    hizmetleri kullanıyoruz:</p>
-                <ul>
-                    <li><strong>RevenueCat:</strong> Uygulama İçi Abonelik doğrulamasını yönetir. Premium durumunuzu
-                        doğrulamak için anonim bir kullanıcı kimliği alırlar.</li>
-                    <li><strong>Apple (iCloud/App Store):</strong> Uygulama dağıtımı, ödemeler ve (seçtiyseniz) çökme
-                        raporlarını yönetir.</li>
-                </ul>
-            </section>
+            <h2>1. Introduction</h2>
+            <p>Spendry ("we," "our," or "us") respects your privacy and is committed to protecting your personal data.
+                This Privacy Policy explains how your data is collected, used, and stored when you use the Spendry
+                mobile application ("App").</p>
 
-            <section>
-                <h2>5. İletişim</h2>
-                <p>Gizlilik mühendisliğimiz hakkında sorularınız varsa, çekinmeden bize ulaşın.</p>
-                <p><a href="mailto:support@spendryapp.com">support@spendryapp.com</a></p>
-                <p style="margin-top: 40px; font-size: 0.9rem; opacity: 0.6;">Son Güncelleme: 18 Ocak 2026</p>
-            </section>
-        </main>
-    </div>
+            <h2>2. Data Collection & Storage</h2>
+            <p>Our guiding principle is data minimization. We only collect the absolute minimum data required for the
+                App to function.</p>
 
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2026 Spendry. All rights reserved.</p>
+            <h3>2.1 Financial Data</h3>
+            <p>All financial transactions, budgets, debts, and account balances you enter into the App are stored
+                <strong>locally on your device</strong> using Apple's secure Core Data / SwiftData framework. We do not
+                have access to this data.
+            </p>
+
+            <h3>2.2 Usage Data</h3>
+            <p>The App does not collect personally identifiable usage data. We do not use third-party analytics services
+                (like Google Analytics or Firebase) that track your individual behavior.</p>
+
+            <h2>3. iCloud Synchronization</h2>
+            <p>If you enable iCloud synchronization, your data is transferred between your devices using Apple's
+                CloudKit service. This process is governed by:</p>
+            <ul>
+                <li><strong>Encryption:</strong> Data is encrypted by Apple both in transit and at rest on Apple's
+                    servers.</li>
+                <li><strong>Access:</strong> The data is stored in your private iCloud container. Only you, via your
+                    Apple ID, can access it. We (the Developer) do not have access to your iCloud data.</li>
+            </ul>
+
+            <h2>4. Data Retention</h2>
+            <p>Since we do not store your personal data on our servers, we do not have a data retention policy for your
+                financial records. Your data remains on your device (and iCloud) until you choose to delete it.</p>
+
+            <h2>5. Use of Data</h2>
+            <p>We use the data solely to:</p>
+            <ul>
+                <li>Provide and maintain the App's functionality (e.g., calculating your budget).</li>
+                <li>Synchronize your data across your devices (via iCloud).</li>
+                <li>Provide customer support (only if you voluntarily email us screenshots or logs).</li>
+            </ul>
+
+            <h2>6. Disclosure of Data</h2>
+            <p>We do not sell, trade, or rent your personal data to third parties. </p>
+            <p><strong>Law Enforcement:</strong> We may be required to disclose data if required by law. However,
+                because we strictly do not possess your financial data or encryption keys due to our Zero-Knowledge
+                architecture, we generally cannot provide user data in response to legal requests.</p>
+
+            <h2>7. Security</h2>
+            <p>The security of your data is important to us, but remember that no method of transmission over the
+                Internet, or method of electronic storage is 100% secure. We leverage iOS's native security features,
+                including:</p>
+            <ul>
+                <li><strong>Sandboxing:</strong> App data is isolated from other apps on your device.</li>
+                <li><strong>Biometrics:</strong> You can secure app access using Face ID or Touch ID. This processing
+                    happens entirely on-device via the Secure Enclave.</li>
+            </ul>
+
+            <h2>8. Children's Privacy</h2>
+            <p>Our App does not address anyone under the age of 13. We do not knowingly collect personally identifiable
+                information from anyone under the age of 13. If you are a parent or guardian and you are aware that your
+                child has provided us with Personal Data, please contact us.</p>
+
+            <h2>9. Your Data Rights</h2>
+            <p>Under laws like GDPR and CCPA, you have specific rights regarding your data. Since your data is stored
+                locally, you exercise these rights directly on your device:</p>
+            <ul>
+                <li><strong>Right to Access:</strong> You can see all your data simply by opening the App.</li>
+                <li><strong>Right to Rectification:</strong> You can edit any transaction or budget directly within the
+                    App.</li>
+                <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> You can delete all your data by
+                    deleting the App from your device and deleting the "Spendry" data from your iCloud Storage settings.
+                </li>
+            </ul>
+
+            <h2>10. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new
+                Privacy Policy on this page and updating the "Effective Date" at the top.</p>
+
+            <h2>11. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us:</p>
+            <p>
+                <strong>Developer:</strong> Muhammed Yusuf Güven<br>
+                <strong>Email:</strong> <a href="mailto:privacy@spendryapp.com">privacy@spendryapp.com</a>
+            </p>
+
+            <div class="footer">
+                &copy; 2026 Spendry. All rights reserved.
+            </div>
         </div>
-    </footer>
+
+        <!-- TURKISH CONTENT -->
+        <div class="tr-content">
+            <h1>Gizlilik Politikası</h1>
+            <span class="meta">Yürürlük Tarihi: 11 Şubat 2026</span>
+
+            <div class="feature-box">
+                <h3>🔒 Sıfır-Bilgi Garantisi (Zero-Knowledge)</h3>
+                <p>Spendry "Yerel-Öncelikli" (Local-First) bir mimari üzerine kurulmuştur. Finansal verilerinizi
+                    saklamak için sunucu kullanmıyoruz. Verileriniz asla sizin kontrolünüzden çıkmadığı için, kişisel
+                    bilgilerinizi göremeyiz, erişemeyiz veya satamayız.</p>
+            </div>
+
+            <h2>1. Giriş</h2>
+            <p>Spendry ("biz") gizliliğinize saygı duyar ve kişisel verilerinizi korumayı taahhüt eder. Bu Gizlilik
+                Politikası, Spendry mobil uygulamasını ("Uygulama") kullandığınızda verilerinizin nasıl toplandığını,
+                kullanıldığını ve saklandığını açıklar.</p>
+
+            <h2>2. Veri Toplama ve Saklama</h2>
+            <p>Temel ilkemiz "veri minimizasyonu"dur (en az veri). Uygulamanın çalışması için gereken mutlak asgari veri
+                dışında hiçbir şey toplamıyoruz.</p>
+
+            <h3>2.1 Finansal Veriler</h3>
+            <p>Uygulamaya girdiğiniz tüm finansal işlemler, bütçeler, borçlar ve hesap bakiyeleri, Apple'ın güvenli Core
+                Data / SwiftData altyapısı kullanılarak <strong>yerel olarak cihazınızda</strong> saklanır. Bu verilere
+                erişimimiz yoktur.</p>
+
+            <h3>2.2 Kullanım Verileri</h3>
+            <p>Uygulama, kişisel olarak tanımlanabilir kullanım verileri toplamaz. Bireysel davranışlarınızı izleyen
+                üçüncü taraf analiz hizmetleri (Google Analytics veya Firebase gibi) kullanmıyoruz.</p>
+
+            <h2>3. iCloud Senkronizasyonu</h2>
+            <p>iCloud senkronizasyonunu etkinleştirirseniz, verileriniz Apple'ın CloudKit hizmeti kullanılarak
+                cihazlarınız arasında aktarılır. Bu süreç şunlara tabidir:</p>
+            <ul>
+                <li><strong>Şifreleme:</strong> Veriler hem iletim sırasında hem de Apple sunucularında saklanırken
+                    Apple tarafından şifrelenir.</li>
+                <li><strong>Erişim:</strong> Veriler özel iCloud alanınızda saklanır. Yalnızca siz, Apple Kimliğiniz
+                    aracılığıyla erişebilirsiniz. Biz (Geliştirici) iCloud verilerinize erişemeyiz.</li>
+            </ul>
+
+            <h2>4. Veri Saklama</h2>
+            <p>Kişisel verilerinizi sunucularımızda saklamadığımız için, finansal kayıtlarınız için bir veri saklama
+                politikamız yoktur. Verileriniz, siz silmeyi seçene kadar cihazınızda (ve iCloud'da) kalır.</p>
+
+            <h2>5. Verilerin Kullanımı</h2>
+            <p>Verileri yalnızca şu amaçlarla kullanırız:</p>
+            <ul>
+                <li>Uygulamanın işlevselliğini sağlamak (örn. bütçenizi hesaplamak).</li>
+                <li>Verilerinizi cihazlarınız arasında senkronize etmek (iCloud aracılığıyla).</li>
+                <li>Müşteri desteği sağlamak (yalnızca bize gönüllü olarak ekran görüntüsü veya log gönderirseniz).</li>
+            </ul>
+
+            <h2>6. Verilerin Paylaşımı</h2>
+            <p>Kişisel verilerinizi üçüncü taraflara satmayız, takas etmeyiz veya kiralamayız.</p>
+            <p><strong>Yasal Yaptırım:</strong> Yasalar gerektirirse veri ifşa etmemiz gerekebilir. Ancak, Sıfır-Bilgi
+                mimarimiz nedeniyle finansal verilerinize veya şifreleme anahtarlarınıza sahip olmadığımızdan, yasal
+                taleplere yanıt olarak genellikle kullanıcı verisi sağlayamayız.</p>
+
+            <h2>7. Güvenlik</h2>
+            <p>Verilerinizin güvenliği bizim için önemlidir, ancak internet üzerinden hiçbir aktarım yönteminin %100
+                güvenli olmadığını unutmayın. iOS'un yerel güvenlik özelliklerinden yararlanıyoruz:</p>
+            <ul>
+                <li><strong>Sandboxing (Güvenli Alan):</strong> Uygulama verileri, cihazınızdaki diğer uygulamalardan
+                    izole edilir.</li>
+                <li><strong>Biyometri:</strong> Uygulama erişimini Face ID veya Touch ID kullanarak güvenceye
+                    alabilirsiniz. Bu işlem tamamen Secure Enclave ile cihaz üzerinde gerçekleşir.</li>
+            </ul>
+
+            <h2>8. Çocukların Gizliliği</h2>
+            <p>Uygulamamız 13 yaşın altındaki kişilere hitap etmemektedir. 13 yaşın altındaki herhangi birinden bilerek
+                kişisel olarak tanımlanabilir bilgi toplamıyoruz.</p>
+
+            <h2>9. Veri Haklarınız (KVKK)</h2>
+            <p>Verileriniz yerel olarak saklandığından, haklarınızı doğrudan cihazınız üzerinden kullanırsınız:</p>
+            <ul>
+                <li><strong>Erişim Hakkı:</strong> Sadece Uygulamayı açarak tüm verilerinizi görebilirsiniz.</li>
+                <li><strong>Düzeltme Hakkı:</strong> Uygulama içindeki herhangi bir işlemi veya bütçeyi doğrudan
+                    düzenleyebilirsiniz.</li>
+                <li><strong>Silme Hakkı ("Unutulma Hakkı"):</strong> Uygulamayı cihazınızdan silerek ve iCloud Saklama
+                    Alanı ayarlarından "Spendry" verilerini silerek tüm verilerinizi silebilirsiniz.</li>
+            </ul>
+
+            <h2>10. Gizlilik Politikasındaki Değişiklikler</h2>
+            <p>Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Herhangi bir değişikliği bu sayfada yeni Gizlilik
+                Politikasını yayınlayarak ve üstteki "Yürürlük Tarihi"ni güncelleyerek bildireceğiz.</p>
+
+            <h2>11. İletişim</h2>
+            <p>Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen bizimle iletişime geçin:</p>
+            <p>
+                <strong>Geliştirici:</strong> Muhammed Yusuf Güven<br>
+                <strong>E-posta:</strong> <a href="mailto:privacy@spendryapp.com">privacy@spendryapp.com</a>
+            </p>
+
+            <div class="footer">
+                &copy; 2026 Spendry. Tüm hakları saklıdır.
+            </div>
+        </div>
+    </div>
 
     <script>
         function setLang(lang) {
-            document.body.className = lang === 'tr' ? 'lang-tr' : 'lang-en';
-
-            // Buttons
-            document.querySelectorAll('.lang-switch button').forEach(b => b.classList.remove('active'));
-            document.getElementById('btn-' + lang).classList.add('active');
-
-            // Save preference
-            localStorage.setItem('spendry_legal_lang', lang);
+            document.body.setAttribute('data-lang', lang);
+            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelector(`button[onclick="setLang('${lang}')"]`).classList.add('active');
+            localStorage.setItem('spendry_privacy_lang', lang);
         }
 
         // Init
-        const savedLang = localStorage.getItem('spendry_legal_lang');
-        if (savedLang) {
-            setLang(savedLang);
-        } else {
-            // Auto-detect browser lang
-            const userLang = navigator.language || navigator.userLanguage;
-            if (userLang.startsWith('tr')) {
-                setLang('tr');
-            }
-        }
+        const savedLang = localStorage.getItem('spendry_privacy_lang') ||
+            (navigator.language.startsWith('tr') ? 'tr' : 'en');
+        setLang(savedLang);
     </script>
 </body>
 
