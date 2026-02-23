@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Spendry App Store'a Yönlendiriliyor...</title>
+    
+    <meta http-equiv="refresh" content="1; url=APP_STORE_LINKIN_BURAYA" />
+    
+    <script>
+        // Analitik aracının (Google Analytics vb.) tıklamayı kaydedebilmesi için 
+        // yönlendirmeyi yarım saniye (500ms) geciktiriyoruz.
+        setTimeout(function() {
+            window.location.href = "https://apps.apple.com/tr/app/spendry-budget-debt-manager/id6754893380";
+        }, 500);
+    </script>
+</head>
+<body style="font-family: sans-serif; text-align: center; margin-top: 20%;">
+    <p>Spendry App Store sayfasına yönlendiriliyorsunuz...</p>
+    <p>Eğer otomatik yönlendirme gerçekleşmezse <a href="APP_STORE_LINKIN_BURAYA">buraya tıklayın</a>.</p>
+</body>
+</html>
