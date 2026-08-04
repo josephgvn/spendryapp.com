@@ -432,10 +432,33 @@
 </div>
 <script>
   (function(){
-    var body = document.body. Var buttons = document.querySelectorAll('.langbar button'). Function set(lang){
-      body.setAttribute('data-lang', lang). Document.documentElement.setAttribute('lang', lang). Buttons.forEach(function(b){ b.setAttribute('aria-pressed', String(b.dataset.set === lang)); }). Try { history.replaceState(null, '', '#' + lang); } catch(e){}
+    // Rewritten after autocorrect ate the original. Every semicolon in this
+    // block had become a full stop, and a Turkish-locale editor then
+    // capitalised the word after each one: `var` to `Var`, `if` to `İf` with a
+    // dotted capital I. The result was invalid JavaScript, so it threw before
+    // reaching addEventListener and the English button did nothing at all.
+    // Nothing in the page looked wrong, which is why it shipped.
+    var body = document.body;
+    var buttons = document.querySelectorAll('.langbar button');
+    function set(lang) {
+      body.setAttribute('data-lang', lang);
+      document.documentElement.setAttribute('lang', lang);
+      buttons.forEach(function (b) {
+        b.setAttribute('aria-pressed', String(b.dataset.set === lang));
+      });
+      try { history.replaceState(null, '', '#' + lang); } catch (e) {}
     }
-    buttons.forEach(function(b){ b.addEventListener('click', function(){ set(b.dataset.set); }); }). İf (location.hash === '#en') set('en'). Else if (location.hash !== '#tr' && !(navigator.language || '').toLowerCase().startsWith('tr')) set('en'). Var y = document.getElementById('yr'). İf (y) y.textContent = new Date().getFullYear();
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () { set(b.dataset.set); });
+    });
+    if (location.hash === '#en') {
+      set('en');
+    } else if (location.hash !== '#tr'
+               && !(navigator.language || '').toLowerCase().startsWith('tr')) {
+      set('en');
+    }
+    var y = document.getElementById('yr');
+    if (y) y.textContent = new Date().getFullYear();
   })();
 </script>
 </body>
