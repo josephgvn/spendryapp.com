@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kredi Hesaplama 2026: Taksit, Faiz, KKDF ve BSMV | Spendry</title>
+<meta name="description" content="Kredi hesaplama: aylık taksit, toplam geri ödeme, faiz, KKDF ve BSMV. İhtiyaç, taşıt ve konut kredisi için ay ay ödeme tablosu. Ücretsiz, kayıt gerektirmez.">
+<link rel="canonical" href="https://spendryapp.com/tr/kredi-hesaplama/">
+<meta name="apple-itunes-app" content="app-id=6754893380">
+<meta name="theme-color" content="#F5F6FB" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0E1C" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Spendry">
+<meta property="og:title" content="Kredi Hesaplama 2026: Taksit, Faiz, KKDF ve BSMV | Spendry">
+<meta property="og:description" content="Kredi hesaplama: aylık taksit, toplam geri ödeme, faiz, KKDF ve BSMV. İhtiyaç, taşıt ve konut kredisi için ay ay ödeme tablosu. Ücretsiz, kayıt gerektirmez.">
+<meta property="og:url" content="https://spendryapp.com/tr/kredi-hesaplama/">
+<meta property="og:image" content="https://spendryapp.com/assets/img/og-tr.png">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/assets/img/favicon-64.png">
+<link rel="apple-touch-icon" href="/assets/img/icon-180.png">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Kredi hesaplama", "description": "Kredi hesaplama: aylık taksit, toplam geri ödeme, faiz, KKDF ve BSMV. İhtiyaç, taşıt ve konut kredisi için ay ay ödeme tablosu. Ücretsiz, kayıt gerektirmez.", "url": "https://spendryapp.com/tr/kredi-hesaplama/", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TRY"}, "inLanguage": "tr", "isAccessibleForFree": true}</script>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="/tr/"><img src="/assets/img/icon-180.png" alt="" width="30" height="30">Spendry</a>
+  <nav class="nav" aria-label="Bölümler">
+    <a href="/tr/#ozellikler" >Özellikler</a>
+    <a href="/tr/#araclar">Hesaplayıcılar</a>
+    <a href="/tr/#gizlilik">Gizlilik</a>
+  </nav>
+  <a class="lang" href="/" hreflang="en">English</a>
+  <a class="btn btn-primary btn-small" href="https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&amp;ct=web-tr-kredi-nav&amp;mt=8">İndir</a>
+</div></header>
+<main>
+<section class="tool-hero"><div class="wrap">
+  <p class="crumbs"><a href="/tr/">Spendry</a> › <a href="/tr/#araclar">Hesaplayıcılar</a> › Kredi hesaplama</p>
+  <h1>Kredi hesaplama</h1>
+  <p class="lead">Tutarı, aylık faiz oranını ve vadeyi gir; aylık taksiti, toplam faizi ve vergileri gör. Bankalar KKDF ve BSMV'yi her ayın faizine ekler, hesap da öyle yapılır.</p>
+</div></section>
+<section style="padding-top:20px"><div class="wrap">
+  <div class="calc">
+    <form class="panel" id="loan-form" onsubmit="return false">
+      <div class="field"><label>Kredi türü</label>
+        <div class="seg" role="group" aria-label="Kredi türü">
+          <button type="button" data-loan-type="ihtiyac" aria-pressed="true">İhtiyaç</button>
+          <button type="button" data-loan-type="tasit" aria-pressed="false">Taşıt</button>
+          <button type="button" data-loan-type="konut" aria-pressed="false">Konut</button>
+        </div>
+      </div>
+      <div class="field"><label for="loan-amount">Kredi tutarı (TL)</label><input id="loan-amount" type="number" inputmode="decimal" min="0" step="1000" value="100000"></div>
+      <div class="row">
+        <div class="field"><label for="loan-rate">Aylık faiz (%)</label><input id="loan-rate" type="number" inputmode="decimal" min="0" step="0.01" value="3.49"><span class="hint">Örnek oran; bankanın teklifini yaz.</span></div>
+        <div class="field"><label for="loan-term">Vade (ay)</label><input id="loan-term" type="number" inputmode="numeric" min="1" max="480" step="1" value="24"></div>
+      </div>
+      <div class="row">
+        <div class="field"><label for="loan-kkdf">KKDF (%)</label><input id="loan-kkdf" type="number" inputmode="decimal" min="0" step="1" value="15"></div>
+        <div class="field"><label for="loan-bsmv">BSMV (%)</label><input id="loan-bsmv" type="number" inputmode="decimal" min="0" step="1" value="15"></div>
+      </div>
+      <p class="note">2026'da ihtiyaç ve taşıt kredilerinde faizin üstüne %15 KKDF ve %15 BSMV eklenir; konut kredilerinde KKDF alınmaz. Oranları sözleşmenden kontrol et.</p>
+    </form>
+    <div class="panel" aria-live="polite">
+      <div class="result">
+        <div class="big"><div class="k">Aylık taksit</div><div class="v" id="out-payment">-</div></div>
+        <div><div class="k">Toplam geri ödeme</div><div class="v" id="out-total">-</div></div>
+        <div><div class="k">Toplam faiz</div><div class="v" id="out-interest">-</div></div>
+        <div><div class="k">KKDF ve BSMV</div><div class="v" id="out-tax">-</div></div>
+      </div>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Ay</th><th>Taksit</th><th>Anapara</th><th>Faiz</th><th>KKDF</th><th>BSMV</th><th>Kalan</th></tr></thead>
+        <tbody id="loan-rows"></tbody>
+      </table></div>
+      <button type="button" class="btn btn-soft btn-small" id="loan-more">Tüm ayları göster</button>
+    </div>
+  </div>
+</div></section>
+<section style="padding-top:8px"><div class="wrap">
+  <div class="app-cta">
+  <img src="/assets/img/icon-180.png" alt="" width="60" height="60">
+  <div><h3>Spendry ile takip et</h3><p>Krediyi Spendry'ye ekle; her taksitten önce hatırlatma al, kalan borcu ve borçsuz olacağın tarihi gör.</p></div>
+  <a class="btn btn-primary" href="https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&amp;ct=web-tr-kredi&amp;mt=8">App Store'dan indir</a>
+</div>
+</div></section>
+<section><div class="wrap prose">
+  <h2>Kredi taksiti nasıl hesaplanır?</h2>
+  <p>Bankalar eşit taksitli kredilerde her ay aynı tutarı ister. Taksitin bir kısmı faize, bir kısmı anaparaya gider. İlk aylarda faiz payı büyüktür; borç azaldıkça anapara payı artar. Ödeme tablosundaki "Anapara" ve "Faiz" sütunları bunu ay ay gösterir.</p>
+  <p>Türkiye'de ihtiyaç ve taşıt kredilerinde faiz tek başına ödenmez. Her ayın faizinin %15'i kadar KKDF ve %15'i kadar BSMV eklenir. Bu yüzden bankanın ilan ettiği oranla gerçek maliyet arasında fark vardır. Hesaplayıcı bu vergileri faizin üstüne ekleyerek taksiti bulur.</p>
+  <h2>Toplam maliyeti düşürmenin yolları</h2>
+  <ul>
+    <li>Vadeyi kısaltmak toplam faizi azaltır; aylık taksit ise yükselir. Farkı vadeyi değiştirerek hemen görebilirsin.</li>
+    <li>Ara ödeme yapmak kalan anaparayı düşürür. Spendry'de ara ödemeden sonra vadeyi mi taksiti mi düşürmek istediğini seçebilirsin.</li>
+    <li>Birden fazla borcun varsa hangisini önce kapatacağını <a href="/tr/borc-kapatma-hesaplama/">borç kapatma hesaplayıcısıyla</a> karşılaştır.</li>
+  </ul>
+  <p class="note">Hesaplama bilgi amaçlıdır; bankanın sözleşmesindeki tutarlar esastır. Sigorta, dosya masrafı ve benzeri ücretler dahil değildir.</p>
+</div></section>
+</main>
+<footer class="site-foot"><div class="wrap">
+  <span>© 2026 Spendry</span>
+  <a href="/privacy-policy">Gizlilik Politikası</a>
+  <a href="/terms-of-service">Kullanım Koşulları</a>
+  <a href="mailto:support@spendryapp.com">İletişim: support@spendryapp.com</a>
+  <a class="spacer" href="/">English</a>
+</div></footer>
+<script src="/assets/tools.js" defer></script>
+</body>
+</html>

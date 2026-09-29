@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Borç Kapatma Hesaplama: Kar Topu ve Çığ Yöntemi | Spendry</title>
+<meta name="description" content="Borç kapatma hesaplama: kar topu ve çığ yöntemini karşılaştır, borçsuz olacağın ayı ve ödeyeceğin toplam faizi gör. Kredi kartı, kredi ve KMH için ücretsiz.">
+<link rel="canonical" href="https://spendryapp.com/tr/borc-kapatma-hesaplama/">
+<meta name="apple-itunes-app" content="app-id=6754893380">
+<meta name="theme-color" content="#F5F6FB" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0E1C" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Spendry">
+<meta property="og:title" content="Borç Kapatma Hesaplama: Kar Topu ve Çığ Yöntemi | Spendry">
+<meta property="og:description" content="Borç kapatma hesaplama: kar topu ve çığ yöntemini karşılaştır, borçsuz olacağın ayı ve ödeyeceğin toplam faizi gör. Kredi kartı, kredi ve KMH için ücretsiz.">
+<meta property="og:url" content="https://spendryapp.com/tr/borc-kapatma-hesaplama/">
+<meta property="og:image" content="https://spendryapp.com/assets/img/og-tr.png">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/assets/img/favicon-64.png">
+<link rel="apple-touch-icon" href="/assets/img/icon-180.png">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Borç kapatma hesaplama", "description": "Borç kapatma hesaplama: kar topu ve çığ yöntemini karşılaştır, borçsuz olacağın ayı ve ödeyeceğin toplam faizi gör. Kredi kartı, kredi ve KMH için ücretsiz.", "url": "https://spendryapp.com/tr/borc-kapatma-hesaplama/", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TRY"}, "inLanguage": "tr", "isAccessibleForFree": true}</script>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="/tr/"><img src="/assets/img/icon-180.png" alt="" width="30" height="30">Spendry</a>
+  <nav class="nav" aria-label="Bölümler">
+    <a href="/tr/#ozellikler" >Özellikler</a>
+    <a href="/tr/#araclar">Hesaplayıcılar</a>
+    <a href="/tr/#gizlilik">Gizlilik</a>
+  </nav>
+  <a class="lang" href="/" hreflang="en">English</a>
+  <a class="btn btn-primary btn-small" href="https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&amp;ct=web-tr-borc-nav&amp;mt=8">İndir</a>
+</div></header>
+<main>
+<section class="tool-hero"><div class="wrap">
+  <p class="crumbs"><a href="/tr/">Spendry</a> › <a href="/tr/#araclar">Hesaplayıcılar</a> › Borç kapatma</p>
+  <h1>Borç kapatma planı</h1>
+  <p class="lead">Borçlarını gir, her ay ödeyebileceğin ek tutarı yaz. Kar topu ve çığ yönteminde borçsuz olacağın ayı ve ödeyeceğin toplam faizi yan yana gör.</p>
+</div></section>
+<section style="padding-top:20px"><div class="wrap">
+  <div class="calc" id="payoff" data-rate="monthly" data-sample='[{"name": "Kredi kartı", "bal": 45000, "rate": 3.75, "min": 9000, "extra": 3000}, {"name": "İhtiyaç kredisi", "bal": 120000, "rate": 3.49, "min": 7000}, {"name": "KMH", "bal": 15000, "rate": 4.25, "min": 1500}, {"name": "Arkadaşa borç", "bal": 8000, "rate": 0, "min": 1000}]'>
+    <div class="panel">
+      <div class="debts" id="debt-list"></div>
+      <template id="debt-template"><div class="debt">
+        <div class="field"><label>Borç</label><input type="text" data-f="name" maxlength="40"></div>
+        <div class="field"><label>Kalan (TL)</label><input type="number" inputmode="decimal" min="0" data-f="bal"></div>
+        <div class="field"><label>Aylık faiz %</label><input type="number" inputmode="decimal" min="0" step="0.01" data-f="rate"></div>
+        <div class="field"><label>Asgari/taksit</label><input type="number" inputmode="decimal" min="0" data-f="min"></div>
+        <button type="button" class="x" aria-label="Borcu sil">×</button>
+      </div></template>
+      <button type="button" class="btn btn-soft btn-small" id="debt-add">Borç ekle</button>
+      <div class="field"><label for="debt-extra">Her ay ek ödeme (TL)</label><input id="debt-extra" type="number" inputmode="decimal" min="0" value="3000"></div>
+      <p class="note">Örnek borçlar; kendi rakamlarınla değiştir. Faiz aylık oran olarak girilir.</p>
+    </div>
+    <div class="panel" aria-live="polite">
+      <div class="compare"><div class="method" id="res-snowball"></div><div class="method" id="res-avalanche"></div></div>
+      <p class="note" id="payoff-same" hidden></p>
+    </div>
+  </div>
+</div></section>
+<section style="padding-top:8px"><div class="wrap"><div class="app-cta">
+  <img src="/assets/img/icon-180.png" alt="" width="60" height="60">
+  <div><h3>Spendry ile takip et</h3><p>Spendry borçlarını, kredilerini ve kartlarını takip eder; kar topu ya da çığ planıyla borçsuz olacağın tarihi gösterir ve her ödemeden önce hatırlatır.</p></div>
+  <a class="btn btn-primary" href="https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&amp;ct=web-tr-borc&amp;mt=8">App Store'dan indir</a>
+</div></div></section>
+<section><div class="wrap prose">
+  <h2>Kar topu mu, çığ mı?</h2>
+  <p><b>Kar topu</b> yönteminde en küçük borçtan başlarsın. İlk borç çabuk kapanır, kapanan borcun taksiti bir sonrakine eklenir. Motivasyonu yüksek tutar.</p>
+  <p><b>Çığ</b> yönteminde en yüksek faizli borçtan başlarsın. Genellikle toplamda daha az faiz ödersin, ama ilk borcun kapanması daha uzun sürebilir.</p>
+  <p>Hangisinin sana uyduğu borçların dağılımına bağlı. Hesaplayıcı iki yöntemi aynı aylık bütçeyle karşılaştırır: her ay tüm borçların asgari ödemesi yapılır, ek ödeme sıradaki borca gider, kapanan borcun taksiti de sıradakine aktarılır.</p>
+  <h2>Kredi kartında dikkat</h2>
+  <ul>
+    <li>Asgari ödeme borcu kapatmaz; kalan tutara her ay faiz işler. Kartı yalnızca asgariyle ödüyorsan kart borcu listenin başına geçmeli.</li>
+    <li>KMH ve kart için aylık akdi faiz oranları Merkez Bankası'nın açıkladığı üst sınırlara bağlıdır; güncel oranı bankandan kontrol et.</li>
+  </ul>
+  <p class="note">Hesaplama bilgi amaçlıdır. Faiz oranları sabit kabul edilir; gecikme faizi ve ücretler dahil değildir.</p>
+</div></section>
+</main>
+<footer class="site-foot"><div class="wrap">
+  <span>© 2026 Spendry</span>
+  <a href="/privacy-policy">Gizlilik Politikası</a>
+  <a href="/terms-of-service">Kullanım Koşulları</a>
+  <a href="mailto:support@spendryapp.com">İletişim: support@spendryapp.com</a>
+  <a class="spacer" href="/">English</a>
+</div></footer>
+<script src="/assets/tools.js" defer></script>
+</body>
+</html>

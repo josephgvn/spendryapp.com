@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Debt Payoff Calculator: Snowball vs Avalanche | Spendry</title>
+<meta name="description" content="Free debt payoff calculator: compare the snowball and avalanche methods, see your debt-free month and total interest for credit cards and loans. No sign-up.">
+<link rel="canonical" href="https://spendryapp.com/debt-payoff-calculator/">
+<meta name="apple-itunes-app" content="app-id=6754893380">
+<meta name="theme-color" content="#F5F6FB" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0E1C" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Spendry">
+<meta property="og:title" content="Debt Payoff Calculator: Snowball vs Avalanche | Spendry">
+<meta property="og:description" content="Free debt payoff calculator: compare the snowball and avalanche methods, see your debt-free month and total interest for credit cards and loans. No sign-up.">
+<meta property="og:url" content="https://spendryapp.com/debt-payoff-calculator/">
+<meta property="og:image" content="https://spendryapp.com/assets/img/og-en.png">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/assets/img/favicon-64.png">
+<link rel="apple-touch-icon" href="/assets/img/icon-180.png">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Debt payoff calculator", "description": "Free debt payoff calculator: compare the snowball and avalanche methods, see your debt-free month and total interest for credit cards and loans. No sign-up.", "url": "https://spendryapp.com/debt-payoff-calculator/", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "inLanguage": "en", "isAccessibleForFree": true}</script>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="/"><img src="/assets/img/icon-180.png" alt="" width="30" height="30">Spendry</a>
+  <nav class="nav" aria-label="Sections">
+    <a href="/#ozellikler" >Features</a>
+    <a href="/#araclar">Calculators</a>
+    <a href="/#gizlilik">Privacy</a>
+  </nav>
+  <a class="lang" href="/tr/" hreflang="tr">Türkçe</a>
+  <a class="btn btn-primary btn-small" href="https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&amp;ct=web-en-debt-nav&amp;mt=8">Download</a>
+</div></header>
+<main>
+<section class="tool-hero"><div class="wrap">
+  <p class="crumbs"><a href="/">Spendry</a> › Debt payoff calculator</p>
+  <h1>Debt payoff calculator</h1>
+  <p class="lead">Enter your debts and what you can pay on top of the minimums each month. See your debt-free month and total interest with the snowball and avalanche methods side by side.</p>
+</div></section>
+<section style="padding-top:20px"><div class="wrap">
+  <div class="calc" id="payoff" data-rate="yearly" data-sample='[{"name": "Credit card", "bal": 6500, "rate": 24.9, "min": 180, "extra": 250}, {"name": "Car loan", "bal": 14000, "rate": 7.5, "min": 320}, {"name": "Store card", "bal": 2800, "rate": 29.9, "min": 90}, {"name": "Medical bill", "bal": 900, "rate": 0, "min": 50}]'>
+    <div class="panel">
+      <div class="debts" id="debt-list"></div>
+      <template id="debt-template"><div class="debt">
+        <div class="field"><label>Debt</label><input type="text" data-f="name" maxlength="40"></div>
+        <div class="field"><label>Balance ($)</label><input type="number" inputmode="decimal" min="0" data-f="bal"></div>
+        <div class="field"><label>APR %</label><input type="number" inputmode="decimal" min="0" step="0.01" data-f="rate"></div>
+        <div class="field"><label>Minimum</label><input type="number" inputmode="decimal" min="0" data-f="min"></div>
+        <button type="button" class="x" aria-label="Remove debt">×</button>
+      </div></template>
+      <button type="button" class="btn btn-soft btn-small" id="debt-add">Add a debt</button>
+      <div class="field"><label for="debt-extra">Extra payment each month ($)</label><input id="debt-extra" type="number" inputmode="decimal" min="0" value="250"></div>
+      <p class="note">Sample debts; replace them with yours. Enter the annual rate (APR).</p>
+    </div>
+    <div class="panel" aria-live="polite">
+      <div class="compare"><div class="method" id="res-snowball"></div><div class="method" id="res-avalanche"></div></div>
+      <p class="note" id="payoff-same" hidden></p>
+    </div>
+  </div>
+</div></section>
+<section style="padding-top:8px"><div class="wrap"><div class="app-cta">
+  <img src="/assets/img/icon-180.png" alt="" width="60" height="60">
+  <div><h3>Track it in Spendry</h3><p>Spendry tracks your cards, loans and bills, keeps your snowball or avalanche plan up to date and reminds you before each payment.</p></div>
+  <a class="btn btn-primary" href="https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&amp;ct=web-en-debt&amp;mt=8">Download on the App Store</a>
+</div></div></section>
+<section><div class="wrap prose">
+  <h2>Snowball or avalanche?</h2>
+  <p>With the <b>snowball</b> method you pay off the smallest balance first. The first debt disappears quickly and its payment rolls into the next one, which keeps motivation high.</p>
+  <p>With the <b>avalanche</b> method you pay off the highest interest rate first. You usually pay less interest overall, though the first payoff can take longer.</p>
+  <p>The calculator runs both with the same monthly budget: every debt gets its minimum payment, the extra goes to the next debt in line, and a cleared debt's payment rolls over to the next.</p>
+  <p class="note">For information only. Rates are treated as fixed; late fees and charges are not included.</p>
+</div></section>
+</main>
+<footer class="site-foot"><div class="wrap">
+  <span>© 2026 Spendry</span>
+  <a href="/privacy-policy">Privacy Policy</a>
+  <a href="/terms-of-service">Terms of Service</a>
+  <a href="mailto:support@spendryapp.com">Contact: support@spendryapp.com</a>
+  <a class="spacer" href="/tr/">Türkçe</a>
+</div></footer>
+<script src="/assets/tools.js" defer></script>
+</body>
+</html>
