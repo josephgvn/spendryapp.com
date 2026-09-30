@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Budget, Schulden und Erinnerungen für iPhone",
+  "description": "Sehen Sie das Datum Ihrer Schuldenfreiheit, erfassen Sie Karten, Kredite, Rechnungen und Abos. Kein Bank-Login. Kostenlos für iPhone und iPad.",
+  "og_title": "Spendry: Erfahren Sie, wann Sie schuldenfrei sind",
+  "og_alt": "Spendry Widgets für Budgets, Ziele und anstehende Zahlungen"
+ },
+ "nav": {
+  "features": "Funktionen",
+  "lab": "Schuldenabbau",
+  "privacy": "Datenschutz",
+  "tools": "Rechner",
+  "download": "Laden",
+  "skip": "Zum Inhalt springen",
+  "language": "Sprache",
+  "menu": "Menü",
+  "close": "Schließen",
+  "top": "Nach oben"
+ },
+ "cta": {
+  "download": "Laden im App Store",
+  "free": "Kostenlos für iPhone und iPad",
+  "requirements": "Erfordert iOS 17 oder neuer",
+  "trial": "Premium beginnt mit einer Probewoche"
+ },
+ "hero": {
+  "eyebrow": "Budgets und Schuldenabbau für iPhone",
+  "title_1": "Karten, Kredite, Rechnungen.",
+  "title_2": "Alles an einem Ort.",
+  "lead": "Spendry zeigt Abrechnungszeiträume, das Ende jeder Rate und das Datum Ihrer Schuldenfreiheit. Mit Erinnerungen vor jeder Fälligkeit. Ohne Bank-Login.",
+  "secondary": "Funktionsweise ansehen",
+  "chips": [
+   "Kein Bank-Login",
+   "Keine Datenerfassung",
+   "44 Sprachen"
+  ],
+  "scroll": "Scrollen"
+ },
+ "story": [
+  {
+   "title": "Ihr Monat auf einen Blick.",
+   "text": "Kontostand, Einnahmen, Ausgaben und Fälligkeiten direkt beim Öffnen der App."
+  },
+  {
+   "title": "Alle Schulden, eine Zahl.",
+   "text": "Kreditkarten, Kredite, Dispokonto und private Schulden mit dem Monat Ihrer Schuldenfreiheit."
+  },
+  {
+   "title": "Nichts mehr verpassen.",
+   "text": "Eine Erinnerung vor jeder Fälligkeit von Karte, Rechnung und Abo, auch wenn die App geschlossen bleibt."
+  }
+ ],
+ "statement": "Die meisten Finanz-Apps zeigen, wohin Ihr Geld floss. Spendry zeigt, *wann es fällig wird* und *wann Sie schuldenfrei sind*.",
+ "orbit": {
+  "eyebrow": "Alles vereint",
+  "title": "Alles, was Ihre Finanzen bewegt.",
+  "text": "Kreditkarten, Raten, Kredite, Abonnements, Budgets, Ziele und Investitionen. Eine App, ein klares Bild."
+ },
+ "features": {
+  "eyebrow": "Funktionen",
+  "title": "Für Ihren ganzen Monat.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Budgets im Blick",
+    "text": "Setzen Sie Limits pro Kategorie und sehen Sie direkt, wie viel noch übrig ist."
+   },
+   {
+    "key": "goals",
+    "title": "Ziele vor Augen",
+    "text": "Sparen Sie für wichtige Pläne und verfolgen Sie jeden Tag Ihren Fortschritt."
+   },
+   {
+    "key": "stats",
+    "title": "Klare Statistiken",
+    "text": "Wöchentliche und monatliche Auswertungen, nach Kategorien und Tagen gegliedert."
+   },
+   {
+    "key": "add",
+    "title": "In Sekunden erfasst",
+    "text": "Betrag eingeben, Kategorie wählen, fertig. Oder Beleg scannen und übernehmen."
+   },
+   {
+    "key": "invest",
+    "title": "Investitionen live",
+    "text": "Aktien, Krypto, Gold und Währungen mit aktuellen Kursen direkt neben Ihren Ausgaben."
+   },
+   {
+    "key": "themes",
+    "title": "Individuelles Design",
+    "text": "Über fünfzig Farbschemata für den hellen und dunklen Modus."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Die App",
+  "title": "Jeder Bereich in Ihrer Sprache.",
+  "text": "Spendry beherrscht 44 Sprachen mit Ihrer gewohnten Währung und Zahlenformatierung.",
+  "hint": "Zum Drehen ziehen"
+ },
+ "lab": {
+  "eyebrow": "Schuldenabbau",
+  "title": "Wann könnten Sie schuldenfrei sein?",
+  "text": "Verschieben Sie den Regler und beobachten Sie das Ergebnis. Spendry berechnet dies mit Ihren echten Daten und hält Ihren Plan aktuell.",
+  "extra": "Monatlich extra",
+  "method_hint_snowball": "Niedrigster Saldo zuerst",
+  "method_hint_avalanche": "Höchster Zinssatz zuerst",
+  "free_in": "Schuldenfrei in",
+  "interest": "Zinsen gesamt",
+  "saved": "Sie sparen",
+  "debts": [
+   "Kreditkarte",
+   "Autokredit",
+   "Kauf auf Rechnung",
+   "Privatschuld"
+  ],
+  "note": "Beispielangaben. In der App nutzt der Plan Ihre eigenen Zahlen.",
+  "cta": "Vollständigen Rechner öffnen",
+  "rates_note": "Zinssätze gelten pro Jahr.",
+  "sooner": "Monate früher",
+  "minimums": "Nur Mindestraten",
+  "with_plan": "Mit Sonderzahlungen",
+  "method": "Methode"
+ },
+ "reminders": {
+  "eyebrow": "Erinnerungen",
+  "title": "Pünktliche Erinnerungen.",
+  "text": "Selbst wenn die App nie geöffnet wird. Erinnerungen schlummern lassen oder direkt als bezahlt markieren.",
+  "days_left": "Tage übrig",
+  "local_note": "",
+  "samples": {
+   "card": "Visa Card",
+   "loan": "Autokredit",
+   "budget": "Einkäufe",
+   "store": "Kundenkarte"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgets",
+  "title": "Ihre Finanzen auf dem Home-Bildschirm.",
+  "text": "Kontostand, Budgets, Ziele und anstehende Zahlungen sofort im Blick. Ausgabe hinzufügen ohne App-Start."
+ },
+ "automations": {
+  "eyebrow": "Siri und Kurzbefehle",
+  "title": "Einfach automatisch laufen lassen.",
+  "text": "Fragen Sie Siri nach Ihren Ausgaben, diktieren Sie Einträge und nutzen Sie vorgefertigte Abläufe in der Kurzbefehle-App.",
+  "flows": [
+   [
+    "Zahlung mit Apple Pay",
+    "Spendry erfasst die Ausgabe",
+    "Ihr Budget ist sofort aktuell"
+   ],
+   [
+    "Jeden Morgen",
+    "Spendry prüft fällige Posten",
+    "Die nächsten drei Tage im Überblick"
+   ],
+   [
+    "Sonntagabend",
+    "Spendry fasst Ihre Woche zusammen",
+    "Ein kurzer Ausgabenbericht"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Datenschutz",
+  "title": "Ihre Finanzen bleiben privat.",
+  "text": "Kein Bank-Login, kein Nutzerkonto, kein Tracking. Ihre Daten bleiben auf Ihrem iPhone und in Ihrer eigenen iCloud.",
+  "badge": "Keine Datenerfassung",
+  "pillars": [
+   {
+    "title": "Kein Bank-Login",
+    "text": "Spendry verbindet sich nie mit Ihrer Bank. Sie tragen Einträge selbst ein oder importieren Mitteilungen."
+   },
+   {
+    "title": "Keine Datenerfassung",
+    "text": "Keine Werbung, keine Analysen, kein Tracking. Garantiert durch die App Store Datenschutzrichtlinie."
+   },
+   {
+    "title": "Mit Face ID geschützt",
+    "text": "Sichere Synchronisation über Ihre eigene iCloud und Schutz per App-Sperre mit Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Kompakte App, weltweite Reichweite.",
+  "items": [
+   {
+    "value": 44,
+    "label": "Sprachen"
+   },
+   {
+    "value": 175,
+    "label": "Länder und Regionen"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "Themes"
+   },
+   {
+    "value": 0,
+    "label": "Byte Nutzerdaten erfasst"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Häufige Fragen",
+  "items": [
+   {
+    "q": "Ist Spendry kostenlos?",
+    "a": "Ja. Alle Basisfunktionen sind kostenlos. Premium gibt es monatlich, jährlich oder per Einmalkauf. Abonnements starten mit einer Probewoche."
+   },
+   {
+    "q": "Verbindet sich Spendry mit meiner Bank?",
+    "a": "Nein. Die App fragt nie nach Zugangsdaten. Sie tragen Ausgaben selbst ein oder nutzen Kurzbefehle und Mitteilungen."
+   },
+   {
+    "q": "Wo werden meine Daten gespeichert?",
+    "a": "Auf Ihrem iPhone und in Ihrem Apple Account via iCloud. Ihre Einträge erreichen niemals fremde Server und bleiben für uns unsichtbar."
+   },
+   {
+    "q": "Wie funktioniert der Schuldenabbau?",
+    "a": "Erfassen Sie Ihre Schulden mit Saldo und Zinssatz. Spendry sortiert sie nach Schneeball oder Lawine, berechnet Raten und zeigt das Zieldatum."
+   },
+   {
+    "q": "Kann ich Budgets mit Partnern oder Familie teilen?",
+    "a": "Ja. Gemeinsames Budget und Ziele synchronisieren sicher über iCloud, wobei jede Person den eigenen Apple Account nutzt."
+   },
+   {
+    "q": "Auf welchen Geräten läuft Spendry?",
+    "a": "Auf iPhone und iPad mit iOS 17 oder neuer, inklusive voller Unterstützung für Widgets, Siri und Kurzbefehle."
+   },
+   {
+    "q": "Welche Währungen und Sprachen werden unterstützt?",
+    "a": "44 Sprachen und alle wichtigen Währungen. Bei Investitionen oder Fremdwährungskonten lässt sich die jeweilige Währung beibehalten."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Rechner",
+  "title": "Direkt im Browser berechnen.",
+  "text": "Berechnungen laufen lokal auf Ihrem Gerät. Es werden keinerlei Daten übertragen."
+ },
+ "final": {
+  "eyebrow": "Spendry für iPhone",
+  "title": "Jetzt starten. Kostenlos.",
+  "text": "Laden Sie Spendry und sehen Sie in wenigen Minuten das Datum Ihrer Schuldenfreiheit.",
+  "qr": "Mit der iPhone-Kamera scannen"
+ },
+ "footer": {
+  "tagline": "Budgets und Schuldenabbau für iPhone.",
+  "privacy_policy": "Datenschutz",
+  "terms": "Nutzungsbedingungen",
+  "support": "Support",
+  "tools": "Kostenlose Rechner",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay und App Store sind Marken von Apple Inc.",
+  "legal": "Rechtliches"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Schulden-Tilgungsrechner: Schneeball vs. Lawine",
+  "h1": "Schulden-Tilgungsrechner",
+  "description": "Kostenloser Rechner: Vergleichen Sie Schneeball- und Lawinenmethode. Erfahren Sie das Datum Ihrer Schuldenfreiheit und die Zinskosten. Ohne Registrierung.",
+  "lead": "Tragen Sie Ihre Verbindlichkeiten und monatliche Zusatzzahlungen ein. Vergleichen Sie Zinskosten und Laufzeit zwischen Schneeball- und Lawinenmethode.",
+  "name": "Verbindlichkeit",
+  "balance": "Restbetrag",
+  "rate": "Sollzins p. a. %",
+  "minimum": "Mindestrate",
+  "add": "Schuld hinzufügen",
+  "remove": "Entfernen",
+  "extra": "Monatliche Sonderzahlung",
+  "order": "Tilgungsreihenfolge",
+  "free_in": "Schuldenfrei in",
+  "interest": "Zinsen gesamt",
+  "faster": "Schneller",
+  "cheaper": "Weniger Zinsen",
+  "same": "Beide Methoden führen bei diesen Beträgen zum gleichen Ergebnis.",
+  "stuck": "Diese Raten decken die Zinsen nicht. Die Schuld wächst. Erhöhen Sie den Zahlungsbetrag.",
+  "sample": [
+   "Kreditkarte",
+   "Autokredit",
+   "Kauf auf Rechnung",
+   "Arztrechnung"
+  ],
+  "note": "Beispielwerte. Bitte durch eigene Daten ersetzen. Feste Zinssätze angenommen, ohne Gebühren.",
+  "prose": [
+   [
+    "Schneeball oder Lawine?",
+    "Bei der Schneeball-Methode tilgen Sie die kleinste Schuld zuerst. Erste Erfolge stellen sich rasch ein und die freiwerdende Rate stärkt die nächste Tilgung. Bei der Lawinen-Methode zahlen Sie den höchsten Zinssatz zuerst ab, was insgesamt die Zinskosten minimiert, auch wenn der erste Abschluss länger dauern kann."
+   ],
+   [
+    "So funktioniert die Berechnung",
+    "Jede Schuld erhält monatlich ihre Mindestrate. Zusätzliche Zahlungen fließen vollständig in die prioritäre Schuld. Sobald ein Posten beglichen ist, wandert die gesamte Rate zur nächsten Verbindlichkeit. Beide Strategien nutzen das identische Monatsbudget."
+   ],
+   [
+    "Den Plan stets aktuell halten",
+    "Kontostände verändern sich fortlaufend. Spendry verwaltet Ihre Kreditkarten, Kredite und Rechnungen, aktualisiert Ihren Tilgungsplan automatisch und erinnert Sie rechtzeitig vor jedem Fälligkeitstermin."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "50/30/20 Budgetrechner",
+  "h1": "50/30/20 Budgetrechner",
+  "description": "Kostenloser 50/30/20 Rechner: Teilen Sie Ihr monatliches Nettoeinkommen sofort in Grundbedürfnisse, Wünsche und Ersparnisse oder Schuldengilgung auf.",
+  "lead": "Geben Sie Ihr monatliches Nettoeinkommen ein. Die Hälfte deckt Grundbedürfnisse, dreißig Prozent persönliche Wünsche und zwanzig Prozent Sparen und Tilgung.",
+  "income": "Monatliches Nettoeinkommen",
+  "needs": "Grundbedürfnisse",
+  "needs_hint": "Miete, Verträge, Lebensmittel, Mobilität",
+  "wants": "Persönliche Wünsche",
+  "wants_hint": "Restaurants, Shopping, Reisen",
+  "save": "Sparen und Tilgung",
+  "save_hint": "Sparziele und zusätzliche Raten",
+  "prose": [
+   [
+    "Was ist die 50/30/20-Regel?",
+    "Ein bewährtes Prinzip zur Budgetierung: Fünfzig Prozent Ihres Nettoeinkommens fließen in unvermeidbare Fixkosten, dreißig Prozent in Freizeit und persönliche Wünsche, während zwanzig Prozent für den Vermögensaufbau oder die Schuldentilgung reserviert bleiben."
+   ],
+   [
+    "Wann Anpassungen sinnvoll sind",
+    "Macht allein die Miete bereits die Hälfte des Einkommens aus, dient die Formel als Richtwert und nicht als starres Gesetz. Passen Sie die Gewichtung an Ihre Realität an und priorisieren Sie teure Kredite."
+   ],
+   [
+    "Finanzen planvoll automatisieren",
+    "In Spendry erhält jede Kategorie ein Monatsbudget. Verfolgen Sie Ausgaben in Echtzeit und erhalten Sie frühzeitig Warnungen, bevor gesetzte Limits überschritten werden."
+   ]
+  ]
+ }
+}

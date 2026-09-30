@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Budget, schulden aflossen en herinneringen voor iPhone",
+  "description": "Zie wanneer je schuldenvrij bent, volg kaarten, leningen en abonnementen en krijg op tijd een herinnering. Geen bankkoppeling. Gratis voor iPhone en iPad.",
+  "og_title": "Spendry: weet wanneer je schuldenvrij bent",
+  "og_alt": "Spendry widgets voor budgetten, doelen en geplande betalingen"
+ },
+ "nav": {
+  "features": "Functies",
+  "lab": "Schulden aflossen",
+  "privacy": "Privacy",
+  "tools": "Gratis tools",
+  "download": "Download",
+  "skip": "Naar inhoud",
+  "language": "Taal",
+  "menu": "Menu",
+  "close": "Sluit",
+  "top": "Naar boven"
+ },
+ "cta": {
+  "download": "Download in de App Store",
+  "free": "Gratis op iPhone en iPad",
+  "requirements": "Vereist iOS 17 of nieuwer",
+  "trial": "Probeer Premium een week gratis"
+ },
+ "hero": {
+  "eyebrow": "Budget en schulden aflossen voor iPhone",
+  "title_1": "Elke kaart, lening en rekening.",
+  "title_2": "In alle rust op één plek.",
+  "lead": "Spendry toont wanneer elke periode sluit, wanneer termijnen aflopen en de datum waarop je schuldenvrij bent. Met herinneringen vooraf. Zonder bankkoppeling.",
+  "secondary": "Ontdek hoe het werkt",
+  "chips": [
+   "Geen bankkoppeling",
+   "Geen gegevens verzameld",
+   "44 talen"
+  ],
+  "scroll": "Scroll"
+ },
+ "story": [
+  {
+   "title": "Je maand in één oogopslag.",
+   "text": "Saldo, inkomsten, uitgaven en wat eraan komt. Direct bij het openen van de app."
+  },
+  {
+   "title": "Elke schuld, één totaal.",
+   "text": "Creditcards, leningen, krediet en leningen onder vrienden. Inclusief de maand waarin alles weg is."
+  },
+  {
+   "title": "Geen verrassingen meer.",
+   "text": "Een tijdige melding voor elke kaart, factuur en elk abonnement. Zelfs als je de app niet opent."
+  }
+ ],
+ "statement": "Veel apps laten zien waar je geld bleef. Spendry toont *wanneer het weggaat* en *wanneer je helemaal vrij bent*.",
+ "orbit": {
+  "eyebrow": "Alles overzichtelijk bij elkaar",
+  "title": "Alles wat invloed heeft op je geld.",
+  "text": "Creditcards, termijnen, leningen, abonnementen, budgetten, doelen en beleggingen. Eén app, één helder beeld."
+ },
+ "features": {
+  "eyebrow": "Functies",
+  "title": "Gemaakt voor de hele maand.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Budgetten die meebewegen",
+    "text": "Geef elke categorie een limiet en zie hoe deze volloopt terwijl je uitgeeft."
+   },
+   {
+    "key": "goals",
+    "title": "Doelen die motiveren",
+    "text": "Spaar voor wat telt en zie elke dag hoever je bent."
+   },
+   {
+    "key": "stats",
+    "title": "Waar het heen gaat",
+    "text": "Grafieken per week en maand, handig gesorteerd op categorie en dag."
+   },
+   {
+    "key": "add",
+    "title": "Binnen seconden genoteerd",
+    "text": "Typ het bedrag, kies een categorie, klaar. Of gebruik Bon scannen."
+   },
+   {
+    "key": "invest",
+    "title": "Live inzicht in beleggingen",
+    "text": "Aandelen, crypto, goud en valuta met actuele koersen naast je uitgaven."
+   },
+   {
+    "key": "themes",
+    "title": "Maak het helemaal eigen",
+    "text": "Meer dan vijftig thema's, in licht of donker."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "De app",
+  "title": "Elk scherm in jouw eigen taal.",
+  "text": "Spendry spreekt 44 talen, met je eigen munteenheid en getalnotatie.",
+  "hint": "Veeg om te draaien"
+ },
+ "lab": {
+  "eyebrow": "Schulden aflossen",
+  "title": "Wanneer ben jij schuldenvrij?",
+  "text": "Verschuif de regelaar en zie de einddatum direct veranderen. Spendry berekent dit voor je eigen schulden en houdt het plan actueel.",
+  "extra": "Elke maand extra",
+  "method_hint_snowball": "Laagste saldo eerst",
+  "method_hint_avalanche": "Hoogste rente eerst",
+  "free_in": "Schuldenvrij in",
+  "interest": "Totale rente",
+  "saved": "Je bespaart",
+  "debts": [
+   "Creditcard",
+   "Autolening",
+   "Klarna",
+   "Vriend"
+  ],
+  "note": "Voorbeelden van schulden. In de app rekent het plan met jouw eigen bedragen.",
+  "cta": "Open de complete calculator",
+  "rates_note": "Voorbeeldrentes zijn op jaarbasis.",
+  "sooner": "Sneller",
+  "minimums": "Alleen minimale betalingen",
+  "with_plan": "Met extra aflossingen",
+  "method": "Methode"
+ },
+ "reminders": {
+  "eyebrow": "Herinneringen",
+  "title": "Herinneringen precies op tijd.",
+  "text": "Ook als je de app zelden opent. Sluimer een melding of markeer een post direct als betaald.",
+  "days_left": "dagen over",
+  "local_note": "",
+  "samples": {
+   "card": "Visa",
+   "loan": "Autolening",
+   "budget": "Boodschappen",
+   "store": "Klarna"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgets",
+  "title": "Je geldzaken op je beginscherm.",
+  "text": "Saldo, budgetten, doelen en naderende betalingen direct in beeld. Gebruik Uitgave toevoegen zonder de app te openen."
+ },
+ "automations": {
+  "eyebrow": "Siri en Opdrachten",
+  "title": "Laat het vanzelf gaan.",
+  "text": "Vraag Siri wat je hebt uitgegeven, spreek uitgaven in en activeer kant-en-klare automatiseringen in de Opdrachten-app.",
+  "flows": [
+   [
+    "Je betaalt met Apple Pay",
+    "Spendry legt de aankoop vast",
+    "Je budget is direct bijgewerkt"
+   ],
+   [
+    "Elke ochtend",
+    "Spendry controleert betalingen",
+    "De komende drie dagen in één melding"
+   ],
+   [
+    "Zondagavond",
+    "Spendry vat je week samen",
+    "Een kort en helder uitgavenoverzicht"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Privacy",
+  "title": "Jouw geld blijft van jou.",
+  "text": "Geen bankkoppeling, geen account en geen tracking. Je gegevens staan veilig op je iPhone en in je eigen iCloud.",
+  "badge": "Geen gegevens verzameld",
+  "pillars": [
+   {
+    "title": "Geen bankkoppeling",
+    "text": "Spendry maakt nooit verbinding met je bank. Voer uitgaven zelf in of importeer meldingen van je bank."
+   },
+   {
+    "title": "Geen gegevens verzameld",
+    "text": "Geen reclame, geen analyses en geen tracking. Het privacylabel in de App Store bevestigt dit."
+   },
+   {
+    "title": "Beveiligd met Face ID",
+    "text": "Synchroniseer via je eigen iCloud en beveilig de app met App-vergrendeling via Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Compacte app, groot bereik.",
+  "items": [
+   {
+    "value": 44,
+    "label": "talen"
+   },
+   {
+    "value": 175,
+    "label": "landen en regio's"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "thema's"
+   },
+   {
+    "value": 0,
+    "label": "bytes aan gebruikersdata verzameld"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Veelgestelde vragen",
+  "items": [
+   {
+    "q": "Is Spendry gratis?",
+    "a": "Ja. De basisfuncties zijn gratis. Premium is beschikbaar per maand, per jaar of als eenmalige aankoop voor het leven. Abonnementen starten met een gratis proefweek."
+   },
+   {
+    "q": "Maakt Spendry verbinding met mijn bank?",
+    "a": "Nee. De app vraagt nooit om bankinloggegevens. Je voert bedragen zelf in, of importeert ze via bankmeldingen en automatiseringen in de Opdrachten-app."
+   },
+   {
+    "q": "Waar worden mijn gegevens bewaard?",
+    "a": "Op je iPhone en in je eigen iCloud. Gegevens worden nooit naar servers van Spendry verstuurd, waardoor wij er nooit bij kunnen."
+   },
+   {
+    "q": "Hoe werkt het aflosplan voor schulden?",
+    "a": "Voer je schulden in met het saldo en rentepercentage. Spendry rangschikt ze volgens de Snowball- of Avalanche-methode, telt mee wat je maandelijks extra kunt missen en toont de datum waarop je schuldenvrij bent."
+   },
+   {
+    "q": "Kan ik een budget delen met mijn partner of gezin?",
+    "a": "Ja. Een Gedeeld budget en spaardoelen synchroniseren via iCloud, waarbij iedereen gewoon zijn eigen Apple Account gebruikt."
+   },
+   {
+    "q": "Op welke apparaten werkt het?",
+    "a": "Op iPhone en iPad met iOS 17 of nieuwer, compleet met widgets, Siri en de Opdrachten-app."
+   },
+   {
+    "q": "Welke talen en valuta's worden ondersteund?",
+    "a": "44 talen en alle gangbare valuta's. Voor beleggingen en rekeningen in vreemde valuta stel je eenvoudig een aparte munteenheid in."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Gratis tools",
+  "title": "Reken direct in je browser.",
+  "text": "Berekeningen vinden lokaal op je apparaat plaats. Er worden geen gegevens verzonden."
+ },
+ "final": {
+  "eyebrow": "Spendry voor iPhone",
+  "title": "Begin vandaag nog. Gratis.",
+  "text": "Download Spendry en ontdek binnen een paar minuten de datum waarop je schuldenvrij bent.",
+  "qr": "Scan met de camera van je iPhone"
+ },
+ "footer": {
+  "tagline": "Budget en schulden aflossen voor iPhone.",
+  "privacy_policy": "Privacybeleid",
+  "terms": "Voorwaarden",
+  "support": "Ondersteuning",
+  "tools": "Gratis tools",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay en App Store zijn handelsmerken van Apple Inc.",
+  "legal": "Juridisch"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Afloscalculator: Snowball versus Avalanche",
+  "h1": "Calculator voor schulden aflossen",
+  "description": "Gratis afloscalculator: vergelijk Snowball en Avalanche, zie wanneer je schuldenvrij bent en bereken de rente. Zonder registratie.",
+  "lead": "Vul je schulden in en wat je maandelijks extra kunt betalen naast het minimum. Vergelijk de Snowball- en Avalanche-methode direct op rente en einddatum.",
+  "name": "Schuld",
+  "balance": "Openstaand saldo",
+  "rate": "JKP %",
+  "minimum": "Minimale aflossing",
+  "add": "Schuld toevoegen",
+  "remove": "Verwijder",
+  "extra": "Extra betaling per maand",
+  "order": "Aflosvolgorde",
+  "free_in": "Schuldenvrij in",
+  "interest": "Totale rente",
+  "faster": "Sneller",
+  "cheaper": "Minder rente",
+  "same": "Beide methoden geven hetzelfde resultaat met deze bedragen.",
+  "stuck": "Met deze betalingen los je niets af: ze dekken de rente niet. Verhoog de extra aflossing.",
+  "sample": [
+   "Creditcard",
+   "Autolening",
+   "Klarna",
+   "Zorgkosten"
+  ],
+  "note": "Voorbeelden van schulden; vervang ze door je eigen situatie. Rentes zijn vast verondersteld, bijkomende kosten zijn niet meegerekend.",
+  "prose": [
+   [
+    "Snowball of Avalanche?",
+    "Bij de Snowball-methode los je eerst het kleinste saldo af. De eerste schuld is snel weg en het vrijgekomen bedrag schuift door naar de volgende, wat enorm motiveert. Bij de Avalanche-methode pak je eerst de hoogste rente aan. Daarmee bespaar je meestal de meeste rente, al duurt de eerste overwinning vaak wat langer."
+   ],
+   [
+    "Zo werkt de calculator",
+    "Elke maand betaal je voor elke schuld het minimum. Het extra bedrag gaat naar de eerstvolgende schuld. Zodra die is afgelost, schuift het hele bedrag door. Beide methoden gaan uit van hetzelfde maandbudget, waardoor je puur het effect van de volgorde ziet."
+   ],
+   [
+    "Houd je plan actueel",
+    "Saldi veranderen voortdurend. Spendry houdt creditcards, leningen en rekeningen bij, past je Snowball- of Avalanche-plan automatisch aan en waarschuwt je voor elke vervaldatum."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "50/30/20 Budgetcalculator",
+  "h1": "50/30/20 budgetcalculator",
+  "description": "Gratis 50/30/20 budgetcalculator: verdeel je netto-inkomen binnen enkele seconden over vaste lasten, wensen en sparen of aflossen.",
+  "lead": "Vul je maandelijks netto-inkomen in. Vijftig procent gaat naar vaste lasten, dertig procent naar leuke dingen en twintig procent naar sparen of schulden aflossen.",
+  "income": "Netto-inkomen per maand",
+  "needs": "Vaste lasten",
+  "needs_hint": "Huur of hypotheek, rekeningen, boodschappen, vervoer",
+  "wants": "Wensen",
+  "wants_hint": "Uit eten, shoppen, vakanties",
+  "save": "Sparen en aflossen",
+  "save_hint": "Spaardoelen en extra aflossingen",
+  "prose": [
+   [
+    "Wat is de 50/30/20-regel?",
+    "Het is een prettige manier om eenvoudig te budgetteren. Vijftig procent van je nettoloon gaat naar noodzakelijke vaste lasten, dertig procent naar dingen die je zelf kiest en twintig procent naar sparen of het versneld aflossen van schulden."
+   ],
+   [
+    "Wanneer pas je de verdeling aan?",
+    "Als je woonlasten alleen al de helft van je inkomen vragen, is deze regel vooral een richtlijn en geen wet. Pas de verdeling aan zodat hij bij je leven past, en los schulden met een hoge rente altijd als eerste af."
+   ],
+   [
+    "Maak het automatisch",
+    "In Spendry krijgt elke categorie een maandelijks budget dat meeloopt met wat je uitgeeft, inclusief een tijdige waarschuwing voor je over de limiet gaat."
+   ]
+  ]
+ }
+}

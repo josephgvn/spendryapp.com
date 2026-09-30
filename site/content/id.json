@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Anggaran, Bebas Utang, Pengingat Tagihan",
+  "description": "Ketahui tanggal bebas utang Anda, pantau kartu, pinjaman, dan tagihan, serta dapatkan pengingat jatuh tempo. Tanpa login bank. Gratis di iPhone dan iPad.",
+  "og_title": "Spendry: ketahui tanggal bebas utang Anda",
+  "og_alt": "Widget Spendry untuk anggaran, target, dan pembayaran mendatang"
+ },
+ "nav": {
+  "features": "Fitur",
+  "lab": "Pelunasan utang",
+  "privacy": "Privasi",
+  "tools": "Alat gratis",
+  "download": "Unduh",
+  "skip": "Lewati ke konten",
+  "language": "Bahasa",
+  "menu": "Menu",
+  "close": "Tutup",
+  "top": "Kembali ke atas"
+ },
+ "cta": {
+  "download": "Download di App Store",
+  "free": "Gratis di iPhone dan iPad",
+  "requirements": "Memerlukan iOS 17 atau lebih baru",
+  "trial": "Premium dimulai dengan uji coba gratis 1 minggu"
+ },
+ "hero": {
+  "eyebrow": "Anggaran dan pelunasan utang untuk iPhone",
+  "title_1": "Semua kartu dan tagihan.",
+  "title_2": "Rapi dalam satu tempat.",
+  "lead": "Spendry menampilkan tanggal cetak tagihan, akhir cicilan, dan tanggal bebas utang Anda. Pengingat tepat waktu sebelum jatuh tempo. Tanpa login bank.",
+  "secondary": "Lihat cara kerjanya",
+  "chips": [
+   "Tanpa login bank",
+   "Data tidak dikumpulkan",
+   "44 bahasa"
+  ],
+  "scroll": "Gulir"
+ },
+ "story": [
+  {
+   "title": "Bulan Anda sekilas pandang.",
+   "text": "Saldo, pemasukan, pengeluaran, dan tagihan mendatang, begitu Anda membuka aplikasi."
+  },
+  {
+   "title": "Semua utang, satu angka.",
+   "text": "Kartu kredit, pinjaman, akun overdraft, dan utang teman, lengkap dengan perkiraan bulan lunasnya."
+  },
+  {
+   "title": "Tidak ada yang terlewat.",
+   "text": "Pengingat sebelum jatuh tempo kartu, tagihan, dan langganan, meski aplikasi sedang ditutup."
+  }
+ ],
+ "statement": "Banyak aplikasi hanya mencatat uang keluar. Spendry menunjukkan *kapan uang keluar* dan *kapan Anda terbebas dari utang*.",
+ "orbit": {
+  "eyebrow": "Semuanya terhubung",
+  "title": "Kelola seluruh arus uang Anda.",
+  "text": "Kartu kredit, cicilan, pinjaman, langganan, anggaran, target, dan investasi. Satu aplikasi, satu gambaran utuh."
+ },
+ "features": {
+  "eyebrow": "Fitur",
+  "title": "Dirancang untuk sebulan penuh.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Anggaran yang responsif",
+    "text": "Tetapkan batas per kategori dan pantau penggunaannya secara langsung."
+   },
+   {
+    "key": "goals",
+    "title": "Target yang terlihat jelas",
+    "text": "Nabung untuk impian Anda dan lihat perkembangannya setiap hari."
+   },
+   {
+    "key": "stats",
+    "title": "Ke mana uang Anda pergi",
+    "text": "Grafik mingguan dan bulanan, berdasarkan kategori dan hari."
+   },
+   {
+    "key": "add",
+    "title": "Catat dalam sekejap",
+    "text": "Masukkan jumlah, pilih kategori, selesai. Atau cukup pindai struk."
+   },
+   {
+    "key": "invest",
+    "title": "Investasi langsung",
+    "text": "Saham, kripto, emas, dan valas dengan harga terkini, di samping pengeluaran Anda."
+   },
+   {
+    "key": "themes",
+    "title": "Sesuaikan selera Anda",
+    "text": "Lebih dari lima puluh tema dalam mode terang atau gelap."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Aplikasi",
+  "title": "Tiap layar, dalam bahasa Anda.",
+  "text": "Spendry mendukung 44 bahasa, lengkap dengan mata uang dan format angka lokal Anda.",
+  "hint": "Geser untuk memutar"
+ },
+ "lab": {
+  "eyebrow": "Pelunasan utang",
+  "title": "Kapan Anda bisa bebas utang?",
+  "text": "Geser slider dan lihat perubahan bulannya. Spendry menghitungnya dari utang nyata Anda dan menjaga rencana tetap akurat.",
+  "extra": "Tambahan tiap bulan",
+  "method_hint_snowball": "Saldo terkecil lebih dulu",
+  "method_hint_avalanche": "Bunga tertinggi lebih dulu",
+  "free_in": "Bebas utang dalam",
+  "interest": "Total bunga",
+  "saved": "Hemat Anda",
+  "debts": [
+   "Kartu kredit",
+   "Kredit mobil",
+   "Paylater",
+   "Pinjaman teman"
+  ],
+  "note": "Contoh utang. Di aplikasi, simulasi menggunakan data asli Anda.",
+  "cta": "Buka kalkulator lengkap",
+  "rates_note": "Contoh suku bunga per tahun.",
+  "sooner": "Lebih cepat",
+  "minimums": "Hanya pembayaran minimum",
+  "with_plan": "Dengan pembayaran ekstra",
+  "method": "Metode"
+ },
+ "reminders": {
+  "eyebrow": "Pengingat",
+  "title": "Pengingat yang tepat waktu.",
+  "text": "Bahkan tanpa membuka aplikasi. Tunda pengingat atau tandai lunas langsung dari notifikasi.",
+  "days_left": "hari lagi",
+  "local_note": "",
+  "samples": {
+   "card": "Kartu Utama",
+   "loan": "Kredit mobil",
+   "budget": "Belanja",
+   "store": "Paylater"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widget",
+  "title": "Keuangan Anda di Home Screen.",
+  "text": "Saldo, anggaran, target, dan pembayaran mendatang sekilas pandang. Tambah pengeluaran tanpa membuka aplikasi."
+ },
+ "automations": {
+  "eyebrow": "Siri dan Shortcuts",
+  "title": "Biar berjalan otomatis.",
+  "text": "Tanyakan pengeluaran ke Siri, catat dengan suara, dan aktifkan automasi siap pakai di app Shortcuts.",
+  "flows": [
+   [
+    "Anda membayar dengan Apple Pay",
+    "Spendry mencatat transaksi",
+    "Anggaran langsung diperbarui"
+   ],
+   [
+    "Setiap pagi",
+    "Spendry memeriksa tagihan jatuh tempo",
+    "Agenda tiga hari ke depan dalam satu notifikasi"
+   ],
+   [
+    "Minggu malam",
+    "Spendry merangkum pekan Anda",
+    "Laporan pengeluaran ringkas"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Privasi",
+  "title": "Uang Anda, privasi Anda.",
+  "text": "Tanpa login bank, tanpa akun, tanpa pelacakan. Data tersimpan di iPhone dan akun iCloud Anda sendiri.",
+  "badge": "Data Tidak Dikumpulkan",
+  "pillars": [
+   {
+    "title": "Tanpa login bank",
+    "text": "Spendry tidak terhubung ke bank Anda. Catat sendiri transaksi atau impor dari pesan notifikasi bank."
+   },
+   {
+    "title": "Data tidak dikumpulkan",
+    "text": "Bebas iklan, tanpa analitik, tanpa pelacakan. Label privasi App Store membuktikannya."
+   },
+   {
+    "title": "Diamankan Face ID",
+    "text": "Sinkronkan lewat iCloud Anda sendiri dan amankan akses aplikasi dengan Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Aplikasi ringkas, jangkauan luas.",
+  "items": [
+   {
+    "value": 44,
+    "label": "bahasa"
+   },
+   {
+    "value": 175,
+    "label": "negara dan wilayah"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "tema"
+   },
+   {
+    "value": 0,
+    "label": "bita data Anda dikumpulkan"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Pertanyaan",
+  "items": [
+   {
+    "q": "Apakah Spendry gratis?",
+    "a": "Ya. Fitur utama gratis digunakan. Versi Premium tersedia bulanan, tahunan, atau sekali beli Selamanya, dan langganan dimulai dengan uji coba gratis 1 minggu."
+   },
+   {
+    "q": "Apakah Spendry terhubung ke bank saya?",
+    "a": "Tidak. Aplikasi tidak pernah meminta akses akun bank Anda. Anda dapat mencatat mandiri, atau impor dari pesan bank dan automasi Shortcuts."
+   },
+   {
+    "q": "Di mana data saya disimpan?",
+    "a": "Di iPhone dan akun iCloud pribadi Anda. Data Anda tidak pernah dikirim ke server Spendry, jadi kami tidak bisa melihatnya."
+   },
+   {
+    "q": "Bagaimana cara kerja rencana pelunasan utang?",
+    "a": "Masukkan utang beserta saldo dan bunganya. Spendry menyusunnya dengan metode Snowball atau Avalanche, menambahkan dana ekstra bulanan, lalu menunjukkan perkiraan tanggal bebas utang Anda."
+   },
+   {
+    "q": "Bisakah saya berbagi anggaran dengan pasangan atau keluarga?",
+    "a": "Bisa. Anggaran Bersama dan target disinkronkan melalui iCloud, dan setiap orang menggunakan Apple Account milik sendiri."
+   },
+   {
+    "q": "Perangkat mana saja yang didukung?",
+    "a": "iPhone dan iPad dengan iOS 17 atau lebih baru, lengkap dengan widget, Siri, dan Shortcuts."
+   },
+   {
+    "q": "Bahasa dan mata uang apa saja yang didukung?",
+    "a": "44 bahasa dan seluruh mata uang utama dunia. Akun investasi dan valuta asing dapat memakai mata uang aslinya masing-masing."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Alat gratis",
+  "title": "Hitung langsung di browser Anda.",
+  "text": "Perhitungan berjalan di perangkat Anda. Tidak ada data yang dikirim ke mana pun."
+ },
+ "final": {
+  "eyebrow": "Spendry untuk iPhone",
+  "title": "Mulai hari ini. Gratis.",
+  "text": "Unduh Spendry dan ketahui tanggal bebas utang Anda dalam beberapa menit.",
+  "qr": "Pindai dengan kamera iPhone"
+ },
+ "footer": {
+  "tagline": "Anggaran dan pelunasan utang untuk iPhone.",
+  "privacy_policy": "Kebijakan Privasi",
+  "terms": "Ketentuan Layanan",
+  "support": "Dukungan",
+  "tools": "Alat gratis",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay, dan App Store adalah merek dagang Apple Inc.",
+  "legal": "Legal"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Kalkulator Bebas Utang: Snowball vs Avalanche",
+  "h1": "Kalkulator pelunasan utang",
+  "description": "Kalkulator pelunasan utang gratis: bandingkan metode Snowball dan Avalanche, ketahui kapan bebas utang dan total bunga. Tanpa daftar.",
+  "lead": "Masukkan daftar utang dan dana ekstra bulanan di luar cicilan minimum. Bandingkan tanggal bebas utang Anda dan total bunga antara metode Snowball dan Avalanche.",
+  "name": "Utang",
+  "balance": "Saldo",
+  "rate": "Bunga per tahun %",
+  "minimum": "Bayaran minimum",
+  "add": "Tambah utang",
+  "remove": "Hapus",
+  "extra": "Pembayaran ekstra per bulan",
+  "order": "Urutan pelunasan",
+  "free_in": "Bebas utang dalam",
+  "interest": "Total bunga",
+  "faster": "Lebih cepat",
+  "cheaper": "Bunga lebih hemat",
+  "same": "Kedua metode memberi hasil yang sama dengan angka ini.",
+  "stuck": "Pembayaran ini tidak menutup bunga berjalan. Naikkan alokasi pembayaran ekstra.",
+  "sample": [
+   "Kartu kredit",
+   "Kredit mobil",
+   "Paylater",
+   "Biaya rumah sakit"
+  ],
+  "note": "Contoh utang; ganti dengan data Anda. Suku bunga dianggap tetap, biaya administrasi belum termasuk.",
+  "prose": [
+   [
+    "Snowball atau Avalanche?",
+    "Dengan metode Snowball, Anda melunasi saldo terkecil terlebih dahulu. Utang pertama lunas lebih cepat dan anggarannya dialihkan ke utang berikutnya, sehingga motivasi tetap tinggi. Dengan metode Avalanche, Anda memprioritaskan suku bunga tertinggi, yang umumnya lebih menghemat total bunga, meski pelunasan utang pertama memerlukan waktu lebih lama."
+   ],
+   [
+    "Cara kerja kalkulator",
+    "Setiap bulan tiap utang menerima pembayaran minimumnya. Dana ekstra dialokasikan ke utang prioritas teratas, dan saat satu utang lunas, seluruh anggarannya dialihkan ke utang berikutnya. Kedua metode memakai total anggaran bulanan yang sama, sehingga perbedaannya murni pada urutan pelunasan."
+   ],
+   [
+    "Jaga rencana tetap tepat sasaran",
+    "Saldo utang berubah setiap bulan. Spendry memantau kartu kredit, cicilan, dan tagihan Anda, menjaga rencana Snowball atau Avalanche tetap akurat, serta memberi pengingat sebelum tanggal jatuh tempo tiba."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Kalkulator Anggaran 50/30/20",
+  "h1": "Kalkulator anggaran 50/30/20",
+  "description": "Kalkulator anggaran 50/30/20 gratis: bagi penghasilan bulanan ke kebutuhan, keinginan, dan tabungan atau utang dalam sekejap.",
+  "lead": "Masukkan penghasilan bersih bulanan Anda. Alokasikan 50% untuk kebutuhan, 30% untuk keinginan, dan 20% untuk tabungan serta pelunasan utang.",
+  "income": "Gaji bersih bulanan",
+  "needs": "Kebutuhan",
+  "needs_hint": "Sewa rumah, tagihan, belanja dapur, transportasi",
+  "wants": "Keinginan",
+  "wants_hint": "Makan di luar, belanja, liburan",
+  "save": "Tabungan dan utang",
+  "save_hint": "Target tabungan dan pembayaran ekstra",
+  "prose": [
+   [
+    "Apa itu aturan 50/30/20?",
+    "Metode praktis untuk memulai pengelolaan anggaran. Alokasikan 50 persen penghasilan bersih untuk kebutuhan pokok wajib, 30 persen untuk keinginan pribadi, dan 20 persen untuk tabungan masa depan serta percepatan pelunasan utang."
+   ],
+   [
+    "Kapan perlu menyesuaikan angka ini?",
+    "Jika biaya sewa rumah saja sudah menyerap separuh gaji, aturan ini berfungsi sebagai panduan awal, bukan aturan kaku. Sesuaikan pembagian persentase dengan kondisi hidup Anda, dan utamakan melunasi utang berbunga tinggi."
+   ],
+   [
+    "Kelola secara otomatis",
+    "Di Spendry, setiap kategori memiliki batas anggaran bulanan yang terisi otomatis seiring pengeluaran Anda, lengkap dengan peringatan sebelum anggaran terlampaui."
+   ]
+  ]
+ }
+}

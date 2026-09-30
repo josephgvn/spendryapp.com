@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Orçamento e amortização de dívidas no iPhone",
+  "description": "Veja a data em que ficará sem dívidas, controle cartões, contas e assinaturas, e receba lembretes a tempo. Sem login bancário. Grátis para iPhone e iPad.",
+  "og_title": "Spendry: saiba o dia em que ficará sem dívidas",
+  "og_alt": "Widgets do Spendry para orçamentos, metas e pagamentos futuros"
+ },
+ "nav": {
+  "features": "Funcionalidades",
+  "lab": "Amortização",
+  "privacy": "Privacidade",
+  "tools": "Ferramentas",
+  "download": "Descarregar",
+  "skip": "Saltar para conteúdo",
+  "language": "Idioma",
+  "menu": "Menu",
+  "close": "Fechar",
+  "top": "Voltar ao topo"
+ },
+ "cta": {
+  "download": "Descarregar na App Store",
+  "free": "Grátis no iPhone e iPad",
+  "requirements": "Requer o iOS 17 ou posterior",
+  "trial": "O Premium inclui uma semana grátis"
+ },
+ "hero": {
+  "eyebrow": "Orçamento e dívidas no iPhone",
+  "title_1": "Cartões, contas e créditos.",
+  "title_2": "Num só lugar tranquilo.",
+  "lead": "O Spendry mostra quando cada extrato fecha, quando cada parcela termina e a sua data de quitação total. Lembra-o antes do vencimento. Sem login bancário.",
+  "secondary": "Veja como funciona",
+  "chips": [
+   "Sem login bancário",
+   "Dados não recolhidos",
+   "44 idiomas"
+  ],
+  "scroll": "Deslize"
+ },
+ "story": [
+  {
+   "title": "O seu mês num relance.",
+   "text": "Saldo, rendimentos, despesas e o que está por vir, no momento em que abre a app."
+  },
+  {
+   "title": "Todas as dívidas juntas.",
+   "text": "Cartões, créditos, conta de cheque especial e dinheiro emprestado, com o mês em que se livrará de tudo."
+  },
+  {
+   "title": "Nada lhe escapa.",
+   "text": "Um lembrete antes de cada cartão, conta e assinatura vencer, mesmo com a app fechada."
+  }
+ ],
+ "statement": "A maioria das apps mostra para onde o dinheiro foi. O Spendry mostra *quando ele vai sair* e *quando você ficará livre*.",
+ "orbit": {
+  "eyebrow": "Tudo reunido",
+  "title": "Tudo o que mexe com o seu dinheiro.",
+  "text": "Cartões, parcelas, empréstimos, assinaturas, orçamentos, metas e investimentos. Uma só app, uma visão clara."
+ },
+ "features": {
+  "eyebrow": "Funcionalidades",
+  "title": "Criado para o mês inteiro.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Orçamentos práticos",
+    "text": "Defina um limite por categoria e veja-o a preencher à medida que gasta."
+   },
+   {
+    "key": "goals",
+    "title": "Metas visíveis",
+    "text": "Poupe para o que interessa e veja o seu progresso diário."
+   },
+   {
+    "key": "stats",
+    "title": "Para onde tudo vai",
+    "text": "Gráficos semanais e mensais, por categoria e por dia."
+   },
+   {
+    "key": "add",
+    "title": "Adicione num instante",
+    "text": "Introduza o valor, escolha a categoria e já está. Ou use o escanear recibo."
+   },
+   {
+    "key": "invest",
+    "title": "Investimentos em direto",
+    "text": "Ações, cripto, ouro e moedas com cotações em direto, junto dos seus gastos."
+   },
+   {
+    "key": "themes",
+    "title": "Personalize ao seu gosto",
+    "text": "Mais de cinquenta temas, em modo claro ou escuro."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "A aplicação",
+  "title": "Cada ecrã, no seu idioma.",
+  "text": "O Spendry fala 44 idiomas, com a sua moeda e o seu formato numérico.",
+  "hint": "Arraste para rodar"
+ },
+ "lab": {
+  "eyebrow": "Amortização de dívidas",
+  "title": "Quando poderá ficar sem dívidas?",
+  "text": "Mova a barra e veja o mês a mudar. O Spendry calcula tudo com as suas dívidas reais e mantém o plano atualizado.",
+  "extra": "Extra por mês",
+  "method_hint_snowball": "Saldo mais baixo primeiro",
+  "method_hint_avalanche": "Juro mais alto primeiro",
+  "free_in": "Livre de dívidas em",
+  "interest": "Total de juros",
+  "saved": "Você poupa",
+  "debts": [
+   "Cartão de crédito",
+   "Crédito automóvel",
+   "Cartão da loja",
+   "Empréstimo amigo"
+  ],
+  "note": "Dívidas de exemplo. Na app, o plano usa os seus dados reais.",
+  "cta": "Abrir a calculadora completa",
+  "rates_note": "As taxas de exemplo são anuais.",
+  "sooner": "Mais cedo",
+  "minimums": "Apenas pagamentos mínimos",
+  "with_plan": "Com pagamentos extra",
+  "method": "Método"
+ },
+ "reminders": {
+  "eyebrow": "Lembretes",
+  "title": "Lembretes que chegam a tempo.",
+  "text": "Mesmo que nunca abra a app. Adie um lembrete ou marque como pago diretamente na notificação.",
+  "days_left": "dias restantes",
+  "local_note": "",
+  "samples": {
+   "card": "Cartão Millennium",
+   "loan": "Crédito automóvel",
+   "budget": "Supermercado",
+   "store": "Cartão Worten"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgets",
+  "title": "O seu dinheiro no Ecrã principal.",
+  "text": "Saldo, orçamentos, metas e pagamentos futuros num relance. Adicione despesas sem abrir a app."
+ },
+ "automations": {
+  "eyebrow": "Siri e Atalhos",
+  "title": "Deixe o controlo em piloto automático.",
+  "text": "Pergunte à Siri quanto gastou, adicione despesas por voz e ative automações prontas na app Atalhos.",
+  "flows": [
+   [
+    "Paga com Apple Pay",
+    "O Spendry regista a compra",
+    "O seu orçamento fica atualizado"
+   ],
+   [
+    "Todas as manhãs",
+    "O Spendry verifica os vencimentos",
+    "Os próximos três dias numa só notificação"
+   ],
+   [
+    "Domingo à noite",
+    "O Spendry resume a sua semana",
+    "Um breve relatório de despesas"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Privacidade",
+  "title": "O seu dinheiro continua só seu.",
+  "text": "Sem login bancário, sem conta, sem rastreio. Os seus registos ficam no seu iPhone e no seu iCloud.",
+  "badge": "Dados Não Recolhidos",
+  "pillars": [
+   {
+    "title": "Sem login bancário",
+    "text": "O Spendry nunca se liga ao seu banco. Adiciona os registos manualmente ou importa de avisos bancários."
+   },
+   {
+    "title": "Dados não recolhidos",
+    "text": "Sem anúncios, sem analítica, sem rastreio. A ficha de privacidade na App Store confirma isso mesmo."
+   },
+   {
+    "title": "Protegido com Face ID",
+    "text": "Sincronize através do seu iCloud e ative o Bloqueio do App com Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "App leve, grande alcance.",
+  "items": [
+   {
+    "value": 44,
+    "label": "idiomas"
+   },
+   {
+    "value": 175,
+    "label": "países e regiões"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "temas"
+   },
+   {
+    "value": 0,
+    "label": "bytes de dados recolhidos"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Perguntas frequentes",
+  "items": [
+   {
+    "q": "O Spendry é gratuito?",
+    "a": "Sim. As funcionalidades principais são grátis. O Premium está disponível por mês, ano ou compra vitalícia única, e as assinaturas começam com uma semana grátis."
+   },
+   {
+    "q": "O Spendry liga-se ao meu banco?",
+    "a": "Não. Nunca pede credenciais bancárias. Adiciona os registos manualmente ou importa a partir de notificações e da app Atalhos."
+   },
+   {
+    "q": "Onde ficam guardados os meus dados?",
+    "a": "No seu iPhone e na sua própria conta iCloud. Os seus registos nunca são enviados para servidores do Spendry, por isso não temos acesso a eles."
+   },
+   {
+    "q": "Como funciona o plano para amortizar dívidas?",
+    "a": "Adicione as suas dívidas com os saldos e taxas. O Spendry organiza tudo pelo método Bola de Neve ou Avalanche, soma o valor extra mensal e calcula a sua data de quitação total."
+   },
+   {
+    "q": "Posso partilhar um orçamento com a família?",
+    "a": "Sim. O Orçamento compartilhado e as metas sincronizam via iCloud, e cada pessoa utiliza o seu próprio Apple Account."
+   },
+   {
+    "q": "Em que dispositivos posso usar a app?",
+    "a": "No iPhone e iPad com o iOS 17 ou posterior, com suporte para Widgets, Siri e a app Atalhos."
+   },
+   {
+    "q": "Que idiomas e moedas são suportados?",
+    "a": "44 idiomas e todas as moedas principais. Investimentos e contas em moeda estrangeira podem manter a sua respetiva divisa."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Ferramentas grátis",
+  "title": "Faça as contas no navegador.",
+  "text": "Os cálculos são processados no seu dispositivo. Nada é enviado para fora."
+ },
+ "final": {
+  "eyebrow": "Spendry para iPhone",
+  "title": "Comece hoje. É grátis.",
+  "text": "Descarregue o Spendry e descubra a sua data de quitação total em poucos minutos.",
+  "qr": "Aponte a câmara do iPhone"
+ },
+ "footer": {
+  "tagline": "Orçamento e dívidas no iPhone.",
+  "privacy_policy": "Política de Privacidade",
+  "terms": "Termos de Serviço",
+  "support": "Suporte",
+  "tools": "Ferramentas grátis",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay e App Store são marcas comerciais da Apple Inc.",
+  "legal": "Avisos legais"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Calculadora de Dívidas: Bola de Neve vs Avalanche",
+  "h1": "Calculadora de amortização de dívidas",
+  "description": "Calculadora grátis: compare os métodos bola de neve e avalanche, descubra quando ficará sem dívidas e quanto pagará de juros. Sem registo.",
+  "lead": "Indique as suas dívidas e o valor extra que pode amortizar além dos mínimos. Compare lado a lado a data de quitação total e o custo em juros pelos métodos Bola de Neve e Avalanche.",
+  "name": "Dívida",
+  "balance": "Saldo devedor",
+  "rate": "TAEG %",
+  "minimum": "Pagamento mínimo",
+  "add": "Adicionar dívida",
+  "remove": "Remover",
+  "extra": "Pagamento extra mensal",
+  "order": "Ordem de liquidação",
+  "free_in": "Livre de dívidas em",
+  "interest": "Total de juros",
+  "faster": "Mais rápido",
+  "cheaper": "Menos juros",
+  "same": "Ambos os métodos produzem o mesmo resultado com estes valores.",
+  "stuck": "Estes pagamentos não chegam para cobrir os juros e liquidar a dívida. Aumente o valor extra.",
+  "sample": [
+   "Cartão de crédito",
+   "Crédito automóvel",
+   "Cartão da loja",
+   "Despesa de saúde"
+  ],
+  "note": "Dívidas de exemplo; substitua-as pelas suas. Taxas consideradas fixas e sem inclusão de comissões.",
+  "prose": [
+   [
+    "Bola de neve ou avalanche?",
+    "No método Bola de Neve paga primeiro o saldo devedor mais baixo. A primeira dívida desaparece depressa e o valor liberto transita para a seguinte, o que fortalece a motivação. No método Avalanche liquida primeiro a taxa de juro mais alta, o que costuma poupar mais em juros totais, embora a primeira liquidação possa demorar mais tempo."
+   ],
+   [
+    "Como funciona a calculadora",
+    "Em cada mês, cada dívida recebe o seu pagamento mínimo. O montante extra vai para a dívida prioritária e, assim que uma fica paga, essa prestação reverte para a seguinte. Ambos os métodos usam o mesmo orçamento mensal, pelo que a diferença está apenas na ordem de pagamento."
+   ],
+   [
+    "Mantenha o plano atualizado",
+    "Os saldos mudam mês a mês. O Spendry acompanha os seus cartões, empréstimos e contas, mantém o seu plano Bola de Neve ou Avalanche em dia e envia avisos antes do vencimento de cada prestação."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Calculadora de Orçamento 50/30/20",
+  "h1": "Calculadora de orçamento 50/30/20",
+  "description": "Calculadora de orçamento 50/30/20 grátis: divida o seu rendimento líquido em necessidades, desejos e poupança ou dívidas em segundos.",
+  "lead": "Introduza o seu rendimento líquido mensal. Metade destina-se a necessidades, trinta por cento a desejos e vinte por cento a poupança e amortização de dívidas.",
+  "income": "Rendimento líquido mensal",
+  "needs": "Necessidades",
+  "needs_hint": "Renda, contas, compras de casa, transportes",
+  "wants": "Desejos",
+  "wants_hint": "Restaurantes, compras, viagens e lazer",
+  "save": "Poupança e dívidas",
+  "save_hint": "Metas de poupança e amortizações extra",
+  "prose": [
+   [
+    "O que é a regra 50/30/20?",
+    "É uma fórmula simples para organizar o orçamento. Cinquenta por cento do seu salário líquido cobre despesas essenciais, trinta por cento cobre escolhas pessoais e vinte por cento vai para poupança e liquidação de dívidas."
+   ],
+   [
+    "Quando ajustar as percentagens",
+    "Se só a renda consome metade do seu rendimento, a regra serve de guia inicial e não de imposição rígida. Adapte as divisões à sua realidade e priorize sempre o pagamento de dívidas com juros altos."
+   ],
+   [
+    "Controlo automático no dia a dia",
+    "No Spendry, cada categoria tem um orçamento mensal que se preenche à medida que gasta, alertando-o antes de ultrapassar o limite."
+   ]
+  ]
+ }
+}

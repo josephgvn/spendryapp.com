@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Spendry: Budget, Debt Payoff and Bill Reminders for iPhone",
+    "description": "See the day you'll be debt-free, track every card, loan, bill and subscription, and get a reminder before anything is due. No bank login. Free for iPhone and iPad.",
+    "og_title": "Spendry: know the day you'll be debt-free",
+    "og_alt": "Spendry widgets for budgets, goals and upcoming payments"
+  },
+  "nav": {
+    "features": "Features",
+    "lab": "Debt payoff",
+    "privacy": "Privacy",
+    "tools": "Free tools",
+    "download": "Download",
+    "skip": "Skip to content",
+    "language": "Language",
+    "menu": "Menu",
+    "close": "Close",
+    "top": "Back to top"
+  },
+  "cta": {
+    "download": "Download on the App Store",
+    "free": "Free on iPhone and iPad",
+    "requirements": "Requires iOS 17 or later",
+    "trial": "Premium starts with a free week"
+  },
+  "hero": {
+    "eyebrow": "Budget and debt payoff for iPhone",
+    "title_1": "Every card, loan and bill.",
+    "title_2": "In one calm place.",
+    "lead": "Spendry shows when each statement closes, when every installment ends and the day you'll be debt-free. It reminds you before anything is due. No bank login.",
+    "secondary": "See how it works",
+    "chips": [
+      "No bank login",
+      "Data not collected",
+      "44 languages"
+    ],
+    "scroll": "Scroll"
+  },
+  "story": [
+    {
+      "title": "Your month at a glance.",
+      "text": "Balance, income, spending and what's coming up, the moment you open the app."
+    },
+    {
+      "title": "Every debt, one number.",
+      "text": "Cards, loans, overdraft and money between friends, with the month you'll be free of all of it."
+    },
+    {
+      "title": "Nothing slips past you.",
+      "text": "A reminder before every card, bill and subscription is due, even when the app stays closed."
+    }
+  ],
+  "statement": "Most money apps show where your money went. Spendry shows *when it's leaving* and *when you'll be free*.",
+  "orbit": {
+    "eyebrow": "All of it, together",
+    "title": "Everything that moves your money.",
+    "text": "Cards, installments, loans, subscriptions, budgets, goals and investments. One app, one picture."
+  },
+  "features": {
+    "eyebrow": "Features",
+    "title": "Built for the whole month.",
+    "items": [
+      {
+        "key": "budgets",
+        "title": "Budgets that keep up",
+        "text": "Give each category a limit and watch it fill as you spend."
+      },
+      {
+        "key": "goals",
+        "title": "Goals you can see",
+        "text": "Save for what matters and see how close you are, every day."
+      },
+      {
+        "key": "stats",
+        "title": "Where it all goes",
+        "text": "Weekly and monthly charts, by category and by day."
+      },
+      {
+        "key": "add",
+        "title": "Add it in seconds",
+        "text": "Type the amount, pick a category, done. Or scan the receipt."
+      },
+      {
+        "key": "invest",
+        "title": "Investments, live",
+        "text": "Stocks, crypto, gold and currencies with live prices, next to your spending."
+      },
+      {
+        "key": "themes",
+        "title": "Make it yours",
+        "text": "More than fifty themes, in light or dark."
+      }
+    ]
+  },
+  "ring": {
+    "eyebrow": "The app",
+    "title": "Every screen, in your language.",
+    "text": "Spendry speaks 44 languages, with your currency and your number format.",
+    "hint": "Drag to spin"
+  },
+  "lab": {
+    "eyebrow": "Debt payoff",
+    "title": "How soon could you be debt-free?",
+    "text": "Move the slider and watch the month change. Spendry does this with your real debts and keeps the plan up to date.",
+    "extra": "Extra each month",
+    "method_hint_snowball": "Smallest balance first",
+    "method_hint_avalanche": "Highest interest first",
+    "free_in": "Debt-free in",
+    "interest": "Total interest",
+    "saved": "You save",
+    "debts": [
+      "Credit card",
+      "Car loan",
+      "Store card",
+      "Friend"
+    ],
+    "note": "Sample debts. In the app the plan uses your own.",
+    "cta": "Open the full calculator",
+    "rates_note": "Sample rates are yearly.",
+    "sooner": "Sooner",
+    "minimums": "Minimum payments only",
+    "with_plan": "With extra payments",
+    "method": "Method"
+  },
+  "reminders": {
+    "eyebrow": "Reminders",
+    "title": "Reminders that arrive on time.",
+    "text": "Even if you never open the app. Snooze a reminder or mark it paid right from the notification.",
+    "days_left": "days left",
+    "local_note": "",
+    "samples": {
+      "card": "Rewards",
+      "loan": "Car loan",
+      "budget": "Shopping",
+      "store": "Store card"
+    }
+  },
+  "widgets": {
+    "eyebrow": "Widgets",
+    "title": "Your money on your Home Screen.",
+    "text": "Balance, budgets, goals and upcoming payments at a glance. Add an expense without opening the app."
+  },
+  "automations": {
+    "eyebrow": "Siri and Shortcuts",
+    "title": "Let it run on its own.",
+    "text": "Ask Siri what you spent, add expenses by voice, and turn on ready-made automations in the Shortcuts app.",
+    "flows": [
+      [
+        "You pay with Apple Pay",
+        "Spendry logs the purchase",
+        "Your budget is up to date"
+      ],
+      [
+        "Every morning",
+        "Spendry checks what's due",
+        "The next three days, in one notification"
+      ],
+      [
+        "Sunday evening",
+        "Spendry sums up your week",
+        "A short spending report"
+      ]
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Privacy",
+    "title": "Your money stays yours.",
+    "text": "No bank login, no account, no tracking. Your records live on your iPhone and in your own iCloud.",
+    "badge": "Data Not Collected",
+    "pillars": [
+      {
+        "title": "No bank login",
+        "text": "Spendry never connects to your bank. You add entries yourself or import them from bank messages."
+      },
+      {
+        "title": "Data not collected",
+        "text": "No ads, no analytics, no tracking. The App Store privacy label says the same."
+      },
+      {
+        "title": "Locked with Face ID",
+        "text": "Sync through your own iCloud and lock the app with Face ID."
+      }
+    ]
+  },
+  "stats": {
+    "title": "Small app, big reach.",
+    "items": [
+      {
+        "value": 44,
+        "label": "languages"
+      },
+      {
+        "value": 175,
+        "label": "countries and regions"
+      },
+      {
+        "value": 50,
+        "suffix": "+",
+        "label": "themes"
+      },
+      {
+        "value": 0,
+        "label": "bytes of your data collected"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {
+        "q": "Is Spendry free?",
+        "a": "Yes. The core features are free. Premium is monthly, yearly or a one-time Lifetime purchase, and subscriptions start with a free week."
+      },
+      {
+        "q": "Does Spendry connect to my bank?",
+        "a": "No. It never asks for a bank login. You add entries yourself, or import them from bank messages and Shortcuts automations."
+      },
+      {
+        "q": "Where is my data stored?",
+        "a": "On your iPhone and in your own iCloud account. Your records are never sent to Spendry's servers, so we can't see them."
+      },
+      {
+        "q": "How does the debt payoff plan work?",
+        "a": "Add your debts with their balances and rates. Spendry orders them with the snowball or avalanche method, adds what you can pay on top each month and shows the month you'll be debt-free."
+      },
+      {
+        "q": "Can I share a budget with my partner or family?",
+        "a": "Yes. Shared budgets and goals sync through iCloud, and everyone uses their own Apple Account."
+      },
+      {
+        "q": "Which devices does it work on?",
+        "a": "iPhone and iPad with iOS 17 or later, with widgets, Siri and Shortcuts."
+      },
+      {
+        "q": "Which languages and currencies does it support?",
+        "a": "44 languages and every major currency. Investments and foreign currency accounts can keep their own currency."
+      }
+    ]
+  },
+  "tools_teaser": {
+    "eyebrow": "Free tools",
+    "title": "Try the math in your browser.",
+    "text": "Calculations run on your device. Nothing is sent anywhere."
+  },
+  "final": {
+    "eyebrow": "Spendry for iPhone",
+    "title": "Start today. It's free.",
+    "text": "Download Spendry and see the day you'll be debt-free in a few minutes.",
+    "qr": "Scan with your iPhone camera"
+  },
+  "footer": {
+    "tagline": "Budget and debt payoff for iPhone.",
+    "privacy_policy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "support": "Support",
+    "tools": "Free tools",
+    "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay and App Store are trademarks of Apple Inc.",
+    "legal": "Legal"
+  },
+  "debt_tool": {
+    "slug": "debt-payoff-calculator",
+    "title": "Debt Payoff Calculator: Snowball vs Avalanche",
+    "h1": "Debt payoff calculator",
+    "description": "Free debt payoff calculator: compare the snowball and avalanche methods and see the month you'll be debt-free and the interest you'll pay. No sign-up.",
+    "lead": "Enter your debts and what you can pay on top of the minimums each month. See your debt-free month and total interest with the snowball and avalanche methods side by side.",
+    "name": "Debt",
+    "balance": "Balance",
+    "rate": "APR %",
+    "minimum": "Minimum payment",
+    "add": "Add a debt",
+    "remove": "Remove",
+    "extra": "Extra payment each month",
+    "order": "Payoff order",
+    "free_in": "Debt-free in",
+    "interest": "Total interest",
+    "faster": "Faster",
+    "cheaper": "Less interest",
+    "same": "Both methods give the same result with these numbers.",
+    "stuck": "These payments never clear the debt: they don't cover the interest. Raise the extra payment.",
+    "sample": [
+      "Credit card",
+      "Car loan",
+      "Store card",
+      "Medical bill"
+    ],
+    "note": "Sample debts; replace them with yours. Rates are treated as fixed, fees are not included.",
+    "prose": [
+      [
+        "Snowball or avalanche?",
+        "With the snowball method you pay off the smallest balance first. The first debt disappears quickly and its payment rolls into the next one, which keeps motivation high. With the avalanche method you pay off the highest interest rate first, which usually costs less interest overall, though the first payoff can take longer."
+      ],
+      [
+        "How the calculator works",
+        "Every month each debt gets its minimum payment. The extra goes to the next debt in line, and a cleared debt's payment rolls over to the next. Both methods use the same monthly budget, so the difference you see is only the order."
+      ],
+      [
+        "Keep the plan up to date",
+        "Balances change every month. Spendry tracks your cards, loans and bills, keeps your snowball or avalanche plan current and reminds you before each payment is due."
+      ]
+    ]
+  },
+  "budget_tool": {
+    "slug": "budget-calculator",
+    "title": "50/30/20 Budget Calculator",
+    "h1": "50/30/20 budget calculator",
+    "description": "Free 50/30/20 budget calculator: split your monthly income into needs, wants, and savings or debt payments in seconds.",
+    "lead": "Enter your monthly take-home pay. Half goes to needs, thirty percent to wants and twenty percent to savings and paying off debt.",
+    "income": "Monthly take-home pay",
+    "needs": "Needs",
+    "needs_hint": "Rent, bills, groceries, transport",
+    "wants": "Wants",
+    "wants_hint": "Eating out, shopping, trips",
+    "save": "Savings and debt",
+    "save_hint": "Savings goals and extra payments",
+    "prose": [
+      [
+        "What is the 50/30/20 rule?",
+        "It's a simple way to start a budget. Fifty percent of what you take home covers the things you must pay, thirty percent the things you choose, and twenty percent goes to savings and paying down debt."
+      ],
+      [
+        "When to change the numbers",
+        "If rent alone takes half of your income, the rule is a starting point, not a verdict. Move the split to fit your life, and pay off high-interest debt first."
+      ],
+      [
+        "Make it automatic",
+        "In Spendry each category gets a monthly budget that fills as you spend, with a warning before you go over."
+      ]
+    ]
+  },
+  "not_found": {
+    "title": "This page took a day off.",
+    "text": "The link may be old. Everything else is right where you left it.",
+    "home": "Back to Spendry"
+  }
+}

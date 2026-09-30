@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Orçamento, Dívidas e Lembretes no iPhone",
+  "description": "Veja o dia da sua quitação total, controle cartões, contas e boletos, com lembretes pontuais. Sem login de banco. Grátis no iPhone e iPad.",
+  "og_title": "Spendry: veja o dia da sua quitação total",
+  "og_alt": "Widgets do Spendry para orçamentos, metas e contas a pagar"
+ },
+ "nav": {
+  "features": "Recursos",
+  "lab": "Dívidas",
+  "privacy": "Privacidade",
+  "tools": "Ferramentas",
+  "download": "Baixar",
+  "skip": "Pular pro conteúdo",
+  "language": "Idioma",
+  "menu": "Menu",
+  "close": "Fechar",
+  "top": "Voltar ao topo"
+ },
+ "cta": {
+  "download": "Baixar na App Store",
+  "free": "Grátis no iPhone e iPad",
+  "requirements": "Requer o iOS 17 ou posterior",
+  "trial": "O Premium começa com uma semana grátis"
+ },
+ "hero": {
+  "eyebrow": "Orçamento e dívidas no iPhone",
+  "title_1": "Cartões, contas e faturas.",
+  "title_2": "Com total tranquilidade.",
+  "lead": "O Spendry mostra quando a fatura fecha, o fim das parcelas e sua data de quitação total. Você recebe lembretes antes do vencimento. Sem login bancário.",
+  "secondary": "Veja como funciona",
+  "chips": [
+   "Sem login de banco",
+   "Dados não coletados",
+   "44 idiomas"
+  ],
+  "scroll": "Role para ver mais"
+ },
+ "story": [
+  {
+   "title": "Seu mês num relance.",
+   "text": "Saldo, entradas, gastos e previsões assim que você abre o app."
+  },
+  {
+   "title": "Todas as dívidas juntas.",
+   "text": "Cartões, empréstimos, cheque especial e amigos, com o mês exato em que você quita tudo."
+  },
+  {
+   "title": "Nada passa batido.",
+   "text": "Um lembrete antes de cada fatura, boleto ou assinatura vencer, mesmo com o app fechado."
+  }
+ ],
+ "statement": "Muitos apps mostram para onde seu dinheiro foi. O Spendry mostra *quando ele sai* e *quando você estará livre*.",
+ "orbit": {
+  "eyebrow": "Tudo num só lugar",
+  "title": "Tudo o que move seu dinheiro.",
+  "text": "Cartões, parcelas, empréstimos, assinaturas, orçamentos, metas e investimentos. Um só app, visão completa."
+ },
+ "features": {
+  "eyebrow": "Recursos",
+  "title": "Feito para o mês todo.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Orçamentos que acompanham",
+    "text": "Defina limites por categoria e veja o progresso conforme você gasta."
+   },
+   {
+    "key": "goals",
+    "title": "Metas que você vê",
+    "text": "Guarde para o que importa e acompanhe seu progresso a cada dia."
+   },
+   {
+    "key": "stats",
+    "title": "Para onde vai o dinheiro",
+    "text": "Gráficos semanais e mensais, organizados por categoria e por dia."
+   },
+   {
+    "key": "add",
+    "title": "Lance em segundos",
+    "text": "Digite o valor, escolha a categoria e pronto. Ou use Escanear recibo."
+   },
+   {
+    "key": "invest",
+    "title": "Investimentos ao vivo",
+    "text": "Ações, cripto, ouro e moedas em tempo real, logo ao lado dos seus gastos."
+   },
+   {
+    "key": "themes",
+    "title": "Do seu jeito",
+    "text": "Mais de cinquenta temas disponíveis nos modos claro e escuro."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "O app",
+  "title": "Tudo no seu idioma.",
+  "text": "O Spendry fala 44 idiomas, com a sua moeda e a formatação local que você já usa.",
+  "hint": "Arraste para girar"
+ },
+ "lab": {
+  "eyebrow": "Dívidas",
+  "title": "Quando você quita tudo?",
+  "text": "Mova a barra e veja o mês mudar. O Spendry faz isso com suas dívidas reais e mantém o plano atualizado.",
+  "extra": "Extra por mês",
+  "method_hint_snowball": "Menor saldo primeiro",
+  "method_hint_avalanche": "Juros mais altos primeiro",
+  "free_in": "Quitação total em",
+  "interest": "Total de juros",
+  "saved": "Você economiza",
+  "debts": [
+   "Cartão de crédito",
+   "Financiamento do carro",
+   "Cartão da loja",
+   "Empréstimo de amigo"
+  ],
+  "note": "Dívidas de exemplo. No app, o plano usa os seus valores reais.",
+  "cta": "Abrir calculadora completa",
+  "rates_note": "Taxas de exemplo ao ano.",
+  "sooner": "Mais rápido",
+  "minimums": "Apenas pagamentos mínimos",
+  "with_plan": "Com pagamentos extras",
+  "method": "Método"
+ },
+ "reminders": {
+  "eyebrow": "Lembretes",
+  "title": "Avisos sempre pontuais.",
+  "text": "Mesmo se você não abrir o app. Adie o aviso ou marque como pago direto da notificação.",
+  "days_left": "dias restantes",
+  "local_note": "",
+  "samples": {
+   "card": "Cartão Black",
+   "loan": "Financiamento",
+   "budget": "Mercado",
+   "store": "Cartão da loja"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgets",
+  "title": "Seu saldo na Tela de Início.",
+  "text": "Saldo, orçamentos, metas e pagamentos próximos num relance. Use Adicionar Despesa sem nem abrir o app."
+ },
+ "automations": {
+  "eyebrow": "Siri e Atalhos",
+  "title": "Deixe rodar no piloto automático.",
+  "text": "Pergunte seus gastos para a Siri, adicione despesas por voz e use automações prontas no app Atalhos.",
+  "flows": [
+   [
+    "Você paga com o Apple Pay",
+    "O Spendry anota a despesa",
+    "Seu orçamento fica em dia"
+   ],
+   [
+    "Toda manhã",
+    "O Spendry vê o que vence",
+    "Os próximos três dias em um só aviso"
+   ],
+   [
+    "Domingo à noite",
+    "O Spendry soma sua semana",
+    "Um resumo rápido dos gastos"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Privacidade",
+  "title": "Seu dinheiro, seus dados.",
+  "text": "Sem login de banco, sem conta, sem rastreamento. Seus registros ficam no seu iPhone e no seu próprio iCloud.",
+  "badge": "Dados Não Coletados",
+  "pillars": [
+   {
+    "title": "Sem login de banco",
+    "text": "O Spendry nunca acessa sua conta. Você lança os gastos manualmente ou importa de notificações bancárias."
+   },
+   {
+    "title": "Dados não coletados",
+    "text": "Sem anúncios, sem telemetria, sem rastreadores. O rótulo de privacidade da App Store comprova isso."
+   },
+   {
+    "title": "Protegido por Face ID",
+    "text": "Sincronize pelo seu próprio iCloud e ative o Bloqueio do App usando o Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "App leve, alcance global.",
+  "items": [
+   {
+    "value": 44,
+    "label": "idiomas"
+   },
+   {
+    "value": 175,
+    "label": "países e regiões"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "temas"
+   },
+   {
+    "value": 0,
+    "label": "bytes de dados coletados"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Perguntas frequentes",
+  "items": [
+   {
+    "q": "O Spendry é gratuito?",
+    "a": "Sim. Os recursos principais são grátis. O Premium tem opções mensal, anual ou vitalícia, e assinaturas incluem uma semana grátis."
+   },
+   {
+    "q": "O Spendry se conecta ao meu banco?",
+    "a": "Não. O app nunca pede sua senha bancária. Você faz os lançamentos à mão ou importa por mensagens do banco e automações do app Atalhos."
+   },
+   {
+    "q": "Onde meus dados ficam salvos?",
+    "a": "No seu iPhone e na sua conta do iCloud. Seus registros nunca passam por servidores do Spendry, então não temos acesso a nada."
+   },
+   {
+    "q": "Como funciona o plano de quitação de dívidas?",
+    "a": "Cadastre suas dívidas com saldos e taxas. O Spendry organiza tudo pelo método Bola de Neve ou Avalanche, soma o valor extra mensal e calcula sua data de quitação total."
+   },
+   {
+    "q": "Posso compartilhar o orçamento com parceiro ou família?",
+    "a": "Sim. O Orçamento compartilhado e as metas sincronizam via iCloud, e cada pessoa usa sua própria Apple Account."
+   },
+   {
+    "q": "Em quais aparelhos o app funciona?",
+    "a": "No iPhone e iPad com iOS 17 ou posterior, com suporte a Widgets, Siri e Atalhos."
+   },
+   {
+    "q": "Quais idiomas e moedas são aceitos?",
+    "a": "44 idiomas e todas as principais moedas do mundo. Investimentos e contas internacionais podem ficar na moeda de origem."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Ferramentas",
+  "title": "Faça as contas no navegador.",
+  "text": "Os cálculos rodam direto no seu aparelho. Nada é enviado para a internet."
+ },
+ "final": {
+  "eyebrow": "Spendry para iPhone",
+  "title": "Comece hoje. É grátis.",
+  "text": "Baixe o Spendry e descubra sua data de quitação total em poucos minutos.",
+  "qr": "Aponte a câmera do iPhone"
+ },
+ "footer": {
+  "tagline": "Orçamento e quitação de dívidas para iPhone.",
+  "privacy_policy": "Política de Privacidade",
+  "terms": "Termos de Uso",
+  "support": "Suporte",
+  "tools": "Ferramentas",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay e App Store são marcas registradas da Apple Inc.",
+  "legal": "Informações legais"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Calculadora de Dívidas: Bola de Neve ou Avalanche",
+  "h1": "Calculadora de quitação de dívidas",
+  "description": "Calculadora grátis de dívidas: compare Bola de Neve e Avalanche. Veja sua data de quitação total e quanto vai pagar de juros. Sem cadastro.",
+  "lead": "Informe suas dívidas e o valor que pode pagar além do mínimo a cada mês. Compare os métodos Bola de Neve e Avalanche lado a lado para ver prazos e juros.",
+  "name": "Dívida",
+  "balance": "Saldo devedor",
+  "rate": "Taxa anual %",
+  "minimum": "Pagamento mínimo",
+  "add": "Adicionar dívida",
+  "remove": "Remover",
+  "extra": "Pagamento extra por mês",
+  "order": "Ordem de pagamento",
+  "free_in": "Quitação total em",
+  "interest": "Total de juros",
+  "faster": "Mais rápido",
+  "cheaper": "Menos juros",
+  "same": "Os dois métodos trazem o mesmo resultado para estes números.",
+  "stuck": "Esses pagamentos não amortizam a dívida: eles não cobrem os juros. Aumente o valor extra.",
+  "sample": [
+   "Cartão de crédito",
+   "Financiamento do carro",
+   "Cartão da loja",
+   "Despesa médica"
+  ],
+  "note": "Dívidas de exemplo; substitua pelas suas. Taxas consideradas fixas, tarifas não inclusas.",
+  "prose": [
+   [
+    "Bola de Neve ou Avalanche?",
+    "No método Bola de Neve você quita primeiro o menor saldo. A primeira dívida some rápido e o valor dela se soma à próxima, o que mantém sua motivação alta. No método Avalanche você prioriza a dívida com os maiores juros, o que costuma economizar mais dinheiro no total, embora a primeira quitação possa demorar mais."
+   ],
+   [
+    "Como a calculadora funciona",
+    "A cada mês, toda dívida recebe o pagamento mínimo. O extra vai para a prioridade da fila, e quando uma dívida acaba, o valor dela é transferido para a seguinte. Os dois métodos usam o mesmo orçamento mensal, mudando apenas a ordem de prioridade."
+   ],
+   [
+    "Mantenha seu plano atualizado",
+    "Os saldos mudam todo mês. O Spendry acompanha seus cartões, parcelas e contas, mantém seu plano Bola de Neve ou Avalanche em dia e avisa você antes de cada vencimento."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Calculadora de Orçamento 50/30/20",
+  "h1": "Calculadora de orçamento 50/30/20",
+  "description": "Calculadora 50/30/20 gratuita: divida sua renda líquida em necessidades, desejos e investimentos ou dívidas em poucos segundos.",
+  "lead": "Informe sua renda líquida mensal. Metade vai para necessidades básicas, trinta por cento para desejos pessoais e vinte por cento para poupar ou quitar dívidas.",
+  "income": "Renda líquida mensal",
+  "needs": "Necessidades",
+  "needs_hint": "Aluguel, contas, mercado, transporte",
+  "wants": "Desejos",
+  "wants_hint": "Restaurantes, compras, viagens",
+  "save": "Poupança e dívidas",
+  "save_hint": "Metas de reserva e pagamentos extras",
+  "prose": [
+   [
+    "O que é a regra 50/30/20?",
+    "É um jeito prático de começar a planejar seu dinheiro. Metade da renda líquida cobre os custos essenciais da rotina, trinta por cento banca suas escolhas de lazer e vinte por cento vai para poupar ou amortizar dívidas."
+   ],
+   [
+    "Quando ajustar os valores",
+    "Se só o aluguel consome metade da renda, a regra deve servir como ponto de partida, não como sentença. Ajuste as proporções para a sua realidade e foque em quitar dívidas caras primeiro."
+   ],
+   [
+    "Automatize sua rotina",
+    "No Spendry, cada categoria ganha um teto mensal que vai se preenchendo conforme você gasta, com alertas pontuais antes de ultrapassar o limite."
+   ]
+  ]
+ }
+}

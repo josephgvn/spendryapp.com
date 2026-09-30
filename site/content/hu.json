@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Költségvetés és adósságtörlesztés iPhone-ra",
+  "description": "Tudd meg, mikor leszel adósságmentes. Kövesd a kártyáidat, hiteleidet és számláidat határidős emlékeztetőkkel. Nincs banki bejelentkezés. Ingyenes iOS-re.",
+  "og_title": "Spendry: tudd meg, mikor leszel adósságmentes",
+  "og_alt": "Spendry widgetek költségvetésekhez, célokhoz és fizetésekhez"
+ },
+ "nav": {
+  "features": "Funkciók",
+  "lab": "Törlesztés",
+  "privacy": "Adatvédelem",
+  "tools": "Eszközök",
+  "download": "Letöltés",
+  "skip": "Ugrás a tartalomra",
+  "language": "Nyelv",
+  "menu": "Menü",
+  "close": "Bezárás",
+  "top": "Vissza a tetejére"
+ },
+ "cta": {
+  "download": "Letölthető az App Store-ból",
+  "free": "Ingyenes iPhone-ra és iPadre",
+  "requirements": "iOS 17 vagy újabb szükséges",
+  "trial": "A Prémium egy ingyenes héttel indul"
+ },
+ "hero": {
+  "eyebrow": "Költségvetés és törlesztés iPhone-ra",
+  "title_1": "Kártyák, hitelek, számlák.",
+  "title_2": "Minden egy helyen.",
+  "lead": "A Spendry mutatja a fordulónapokat, a részletek végét és az adósságmentesség pontos dátumát. Mindig időben figyelmeztet. Banki bejelentkezés nélkül.",
+  "secondary": "Hogyan működik?",
+  "chips": [
+   "Nincs banki belépés",
+   "Nem gyűjt adatot",
+   "44 nyelv"
+  ],
+  "scroll": "Görgess"
+ },
+ "story": [
+  {
+   "title": "A teljes hónapod egy helyen.",
+   "text": "Egyenleg, bevételek, kiadások és a közelgő tételek azonnal, amint megnyitod az appot."
+  },
+  {
+   "title": "Minden adósság egyetlen számban.",
+   "text": "Kártyák, hitelek, folyószámlahitel és kölcsönök barátoknak, a teljes mentesség hónapjával."
+  },
+  {
+   "title": "Semmi sem kerülheti el a figyelmed.",
+   "text": "Időben kapsz emlékeztetőt minden számla és előfizetés előtt, még akkor is, ha az app zárva van."
+  }
+ ],
+ "statement": "A legtöbb pénzügyi app csak azt mutatja, hova ment el a pénz. A Spendry azt mutatja meg, *mikor esedékes a kifizetés* és *mikor leszel teljesen szabad*.",
+ "orbit": {
+  "eyebrow": "Minden együtt",
+  "title": "Minden, ami mozgatja a pénzed.",
+  "text": "Kártyák, részletek, hitelek, előfizetések, költségvetések, célok és befektetések. Egy app, egy tiszta kép."
+ },
+ "features": {
+  "eyebrow": "Funkciók",
+  "title": "Az egész hónapra tervezve.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Alkalmazkodó keretek",
+    "text": "Állíts be keretet kategóriánként, és lásd a fogyását, ahogy költesz."
+   },
+   {
+    "key": "goals",
+    "title": "Kézzelfogható célok",
+    "text": "Gyűjts a fontos dolgokra, és lásd a napi haladást."
+   },
+   {
+    "key": "stats",
+    "title": "Kiadások áttekintése",
+    "text": "Heti és havi diagramok kategóriák és napok szerinti bontásban."
+   },
+   {
+    "key": "add",
+    "title": "Hozzáadás másodpercek alatt",
+    "text": "Írd be az összeget, válassz kategóriát, és kész. Vagy olvasd be a nyugtát."
+   },
+   {
+    "key": "invest",
+    "title": "Élő befektetések",
+    "text": "Részvények, kriptó, arany és devizák élő árfolyammal, a kiadásaid mellett."
+   },
+   {
+    "key": "themes",
+    "title": "Tedd egyedivé",
+    "text": "Több mint ötven téma világos és sötét módban."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Az app",
+  "title": "Minden képernyő a te nyelveden.",
+  "text": "A Spendry 44 nyelven beszél, a saját pénznemeddel és számformátumoddal.",
+  "hint": "Húzd az elforgatáshoz"
+ },
+ "lab": {
+  "eyebrow": "Adósságok",
+  "title": "Mikor lehetsz adósságmentes?",
+  "text": "Mozgasd a csúszkát, és nézd, hogyan változik a hónap. A Spendry a saját tartozásaiddal számol, és naprakészen tartja a tervedet.",
+  "extra": "Havi plusz törlesztés",
+  "method_hint_snowball": "Legkisebb egyenleg először",
+  "method_hint_avalanche": "Legmagasabb kamat először",
+  "free_in": "Adósságmentesség ekkorra",
+  "interest": "Összes kamat",
+  "saved": "Megtakarítás",
+  "debts": [
+   "Hitelkártya",
+   "Autóhitel",
+   "Áruhitel",
+   "Baráti kölcsön"
+  ],
+  "note": "Példatartozások. Az appban a saját adataiddal tervezhetsz.",
+  "cta": "Nyisd meg a teljes kalkulátort",
+  "rates_note": "A példakamatok éves szintre vonatkoznak.",
+  "sooner": "Ennyivel korábban",
+  "minimums": "Csak minimum fizetések",
+  "with_plan": "Plusz törlesztéssel",
+  "method": "Módszer"
+ },
+ "reminders": {
+  "eyebrow": "Emlékeztetők",
+  "title": "Emlékeztetők, amik időben érkeznek.",
+  "text": "Akkor is, ha meg sem nyitod az appot. Halaszd el vagy jelöld meg fizetettként közvetlenül az értesítésből.",
+  "days_left": "nap van hátra",
+  "local_note": "",
+  "samples": {
+   "card": "Főkártya",
+   "loan": "Autóhitel",
+   "budget": "Bevásárlás",
+   "store": "Áruhitel"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgetek",
+  "title": "A pénzügyeid a Főképernyőn.",
+  "text": "Egyenleg, költségvetések, célok és fizetések egyetlen pillantással. Kiadást is rögzíthetsz anélkül, hogy megnyitnád az appot."
+ },
+ "automations": {
+  "eyebrow": "Siri és Parancsok",
+  "title": "Működjön magától.",
+  "text": "Kérdezd meg Sirit a kiadásaidról, rögzíts tételeket hanggal, és indíts kész automatizálásokat a Parancsok appban.",
+  "flows": [
+   [
+    "Fizetsz az Apple Pay segítségével",
+    "A Spendry rögzíti a vásárlást",
+    "A költségvetésed máris frissült"
+   ],
+   [
+    "Minden reggel",
+    "A Spendry ellenőrzi a határidőket",
+    "A következő három nap egyetlen értesítésben"
+   ],
+   [
+    "Vasárnap este",
+    "A Spendry összegzi a hetedet",
+    "Rövid heti kiadási összefoglaló"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Adatvédelem",
+  "title": "A pénzed a te magánügyed.",
+  "text": "Nincs banki bejelentkezés, nincs fiók, nincs nyomkövetés. Az adataid az iPhone készülékeden és a saját iCloud fiókodban maradnak.",
+  "badge": "Az app nem gyűjt adatokat",
+  "pillars": [
+   {
+    "title": "Nincs banki belépés",
+    "text": "A Spendry soha nem kapcsolódik a bankodhoz. Az adatokat magad rögzíted, vagy beimportálhatod banki üzenetekből."
+   },
+   {
+    "title": "Nem gyűjt adatot",
+    "text": "Nincsenek hirdetések, nincs analitika és nincs nyomkövetés. Az App Store adatvédelmi címkéje is ezt igazolja."
+   },
+   {
+    "title": "Face ID védelem",
+    "text": "Szinkronizálj a saját iCloudodon keresztül, és zárold az appot Face ID használatával."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Kis app, hatalmas elérés.",
+  "items": [
+   {
+    "value": 44,
+    "label": "nyelv"
+   },
+   {
+    "value": 175,
+    "label": "ország és régió"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "téma"
+   },
+   {
+    "value": 0,
+    "label": "bájt gyűjtött adat rólad"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Kérdések",
+  "items": [
+   {
+    "q": "Ingyenes a Spendry?",
+    "a": "Igen. Az alapfunkciók teljesen ingyenesek. A Prémium havi, éves vagy egyszeri örökös licenc formájában érhető el, és az előfizetések egy ingyenes próbahéttel indulnak."
+   },
+   {
+    "q": "Kapcsolódik a Spendry a bankomhoz?",
+    "a": "Nem. Soha nem kér banki bejelentkezést. A tételeket magad adod hozzá, vagy banki értesítésekből és a Parancsok automatizálásaiból importálhatod."
+   },
+   {
+    "q": "Hol tárolódnak az adataim?",
+    "a": "Az iPhone készülékeden és a saját iCloud fiókodban. Az adataid soha nem kerülnek a Spendry szervereire, így mi sem láthatjuk őket."
+   },
+   {
+    "q": "Hogyan működik az adósságtörlesztési terv?",
+    "a": "Add meg a tartozásaidat az egyenlegekkel és kamatokkal. A Spendry a hógolyó vagy a lavina módszerrel sorba rendezi őket, beszámítja a havi plusz összeget, és megmutatja a teljes mentesség hónapját."
+   },
+   {
+    "q": "Megoszthatok költségvetést a párommal vagy a családommal?",
+    "a": "Igen. A közös költségvetések és célok az iCloudon keresztül szinkronizálódnak, és mindenki a saját Apple Account azonosítóját használja."
+   },
+   {
+    "q": "Milyen eszközökön működik?",
+    "a": "iOS 17 vagy újabb rendszert futtató iPhone és iPad készülékeken, widgetekkel, Siri támogatással és a Parancsok integrációval."
+   },
+   {
+    "q": "Milyen nyelveket és pénznemeket támogat?",
+    "a": "44 nyelvet és az összes főbb pénznemet. A befektetések és a devizaszámlák megtarthatják a saját devizanemüket."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Ingyenes eszközök",
+  "title": "Próbáld ki a böngészőben.",
+  "text": "A számítások közvetlenül az eszközödön futnak. Semmilyen adat nem kerül továbbításra."
+ },
+ "final": {
+  "eyebrow": "Spendry iPhone-ra",
+  "title": "Kezdd el ma. Ingyenes.",
+  "text": "Töltsd le a Spendry appot, és tudd meg percek alatt az adósságmentességed pontos napját.",
+  "qr": "Olvasd be az iPhone kamerájával"
+ },
+ "footer": {
+  "tagline": "Költségvetés és adósságtörlesztés iPhone-ra.",
+  "privacy_policy": "Adatvédelmi irányelvek",
+  "terms": "Felhasználási feltételek",
+  "support": "Támogatás",
+  "tools": "Ingyenes eszközök",
+  "trademark": "Az Apple, az iPhone, az iPad, a Siri, a Face ID, az iCloud, az Apple Pay és az App Store az Apple Inc. védjegyei.",
+  "legal": "Jogi nyilatkozat"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Adósságtörlesztési kalkulátor: Hógolyó vs Lavina",
+  "h1": "Adósságtörlesztési kalkulátor",
+  "description": "Ingyenes törlesztési kalkulátor: hasonlítsd össze a hógolyó és a lavina módszert. Lásd az adósságmentesség dátumát és a teljes kamatot. Regisztráció nélkül.",
+  "lead": "Add meg a tartozásaidat és a minimumokon felül vállalt havi plusz összeget. Hasonlítsd össze egymás mellett a hógolyó és a lavina módszer szerinti dátumot és a kamatokat.",
+  "name": "Tartozás",
+  "balance": "Egyenleg",
+  "rate": "THM %",
+  "minimum": "Minimum fizetés",
+  "add": "Tartozás hozzáadása",
+  "remove": "Törlés",
+  "extra": "Plusz havi törlesztés",
+  "order": "Törlesztési sorrend",
+  "free_in": "Adósságmentesség ekkorra",
+  "interest": "Összes kamat",
+  "faster": "Gyorsabb",
+  "cheaper": "Kevesebb kamat",
+  "same": "Mindkét módszer ugyanazt az eredményt adja ezekkel a számokkal.",
+  "stuck": "Ezek a fizetések sosem törlesztik a tartozást, mert még a kamatokat sem fedezik. Növeld a havi plusz összeget.",
+  "sample": [
+   "Hitelkártya",
+   "Autóhitel",
+   "Áruhitel",
+   "Egészségügyi kiadás"
+  ],
+  "note": "Példatartozások; helyettesítsd őket a sajátjaiddal. A kamatok fixek, az egyéb díjakat nem tartalmazza a számítás.",
+  "prose": [
+   [
+    "Hógolyó vagy lavina?",
+    "A hógolyó módszernél a legkisebb egyenlegű tartozást törleszted először. Az első tartozás gyorsan eltűnik, a felszabaduló összeget pedig átirányítod a következőre, ami segít fenntartani a motivációt. A lavina módszernél a legmagasabb kamatú adóssággal kezdesz, így általában kevesebb kamatot fizetsz összesen, bár az első adósság kifizetése tovább tarthat."
+   ],
+   [
+    "Hogyan működik a kalkulátor?",
+    "Minden hónapban minden tartozás megkapja a minimum összeget. A plusz törlesztés a soron következő tartozásra megy, és a kifizetett adósság teljes havi részlete átkerül a következőre. Mindkét módszer ugyanazzal a havi kerettel dolgozik, így a különbséget pusztán a kifizetések sorrendje adja."
+   ],
+   [
+    "Tartsd naprakészen a tervedet",
+    "Az egyenlegek havonta változnak. A Spendry nyilvántartja a kártyáidat, hiteleidet és számláidat, naprakészen vezeti a hógolyó vagy lavina tervedet, és időben figyelmeztet minden esedékes fizetés előtt."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "50/30/20 költségvetési kalkulátor",
+  "h1": "50/30/20 költségvetési kalkulátor",
+  "description": "Ingyenes 50/30/20 kalkulátor: oszd fel havi bevételedet szükségletekre, vágyakra, megtakarításokra és törlesztésre másodpercek alatt.",
+  "lead": "Add meg a nettó havi jövedelmedet. A fele a szükségletekre, harminc százaléka a vágyakra, húsz százaléka pedig megtakarításra és adósságtörlesztésre megy.",
+  "income": "Havi nettó jövedelem",
+  "needs": "Szükségletek",
+  "needs_hint": "Lakhatás, számlák, élelmiszer, utazás",
+  "wants": "Vágyak",
+  "wants_hint": "Éttermek, vásárlás, hobbik, utazás",
+  "save": "Megtakarítás és adósság",
+  "save_hint": "Megtakarítási célok és plusz törlesztések",
+  "prose": [
+   [
+    "Mi az az 50/30/20 szabály?",
+    "Egyszerű és átlátható módja a pénzügyi tervezésnek. A nettó bevételed ötven százaléka fedezi a létszükségleteket, harminc százaléka a személyes igényeket, húsz százaléka pedig a jövőbeli célokat és a tartozások rendezését szolgálja."
+   ],
+   [
+    "Mikor érdemes módosítani?",
+    "Ha a lakhatás önmagában elviszi a bevételed felét, a szabály támpontként szolgál, nem szigorú törvényként. Alakítsd a saját életedhez, és a magas kamatozású adósságok törlesztését vedd előre."
+   ],
+   [
+    "Tedd automatikussá",
+    "A Spendry appban minden kategóriához egyedi havi keretet rendelhetsz, amely a költéseiddel arányosan telik, és még a túllépés előtt figyelmeztetést küld."
+   ]
+  ]
+ }
+}

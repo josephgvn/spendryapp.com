@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Rozpočty, splácení dluhů a účty pro iPhone",
+  "description": "Zjistěte den, kdy budete bez dluhů. Mějte přehled o kartách, půjčkách i předplatných s včasným upozorněním. Bez přihlašování do banky. Zdarma pro iPhone a iPad.",
+  "og_title": "Spendry: Zjistěte den, kdy budete bez dluhů",
+  "og_alt": "Widgety Spendry pro rozpočty, cíle a nadcházející platby"
+ },
+ "nav": {
+  "features": "Funkce",
+  "lab": "Splácení dluhů",
+  "privacy": "Soukromí",
+  "tools": "Nástroje zdarma",
+  "download": "Stáhnout",
+  "skip": "Přejít k obsahu",
+  "language": "Jazyk",
+  "menu": "Nabídka",
+  "close": "Zavřít",
+  "top": "Zpět nahoru"
+ },
+ "cta": {
+  "download": "Stáhnout v App Storu",
+  "free": "Zdarma pro iPhone a iPad",
+  "requirements": "Vyžaduje iOS 17 nebo novější",
+  "trial": "Předplatné začíná týdnem zdarma"
+ },
+ "hero": {
+  "eyebrow": "Rozpočty a splácení dluhů pro iPhone",
+  "title_1": "Karty, půjčky i účty.",
+  "title_2": "V naprostém klidu.",
+  "lead": "Spendry vám ukáže konec zúčtovacího období, poslední splátku i den, kdy budete zcela bez dluhů. Na každou platbu vás včas upozorní. Bez přihlašování do banky.",
+  "secondary": "Jak to funguje",
+  "chips": [
+   "Bez přístupu k bance",
+   "Nesbíráme žádná data",
+   "44 jazyků"
+  ],
+  "scroll": "Posunout"
+ },
+ "story": [
+  {
+   "title": "Váš měsíc přehledně.",
+   "text": "Zůstatek, příjmy, výdaje i nadcházející platby hned při otevření aplikace."
+  },
+  {
+   "title": "Všechny dluhy v jednom.",
+   "text": "Karty, půjčky, kontokorent i půjčky od přátel. Včetně přesného měsíce, kdy vše splatíte."
+  },
+  {
+   "title": "Nic vám neunikne.",
+   "text": "Upozornění před splatností každé karty, účtu i předplatného. I když aplikaci neotevřete."
+  }
+ ],
+ "statement": "Většina aplikací ukazuje, kam peníze odešly. Spendry vám ukáže, *kdy odejdou* a *kdy budete bez dluhů*.",
+ "orbit": {
+  "eyebrow": "Všechno pohromadě",
+  "title": "Vše, co hýbe vašimi penězi.",
+  "text": "Karty, splátky, půjčky, předplatná, rozpočty, cíle i investice. Jedna aplikace, ucelený obraz."
+ },
+ "features": {
+  "eyebrow": "Funkce",
+  "title": "Připraveno na celý měsíc.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Rozpočty v reálném čase",
+    "text": "Nastavte limit pro každou kategorii a sledujte, jak se postupně plní."
+   },
+   {
+    "key": "goals",
+    "title": "Cíle stále na očích",
+    "text": "Šetřete na to, co má smysl, a sledujte každodenní posun."
+   },
+   {
+    "key": "stats",
+    "title": "Kam peníze mizí",
+    "text": "Týdenní a měsíční grafy přehledně podle kategorií i jednotlivých dnů."
+   },
+   {
+    "key": "add",
+    "title": "Zápis během vteřiny",
+    "text": "Zadejte částku, zvolte kategorii a je to. Nebo stačí naskenovat účtenku."
+   },
+   {
+    "key": "invest",
+    "title": "Aktuální investice",
+    "text": "Akcie, krypto, zlato i měny s živými kurzy přímo vedle vašich výdajů."
+   },
+   {
+    "key": "themes",
+    "title": "Vzhled podle vás",
+    "text": "Více než padesát barevných motivů ve světlém i tmavém režimu."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Aplikace",
+  "title": "Každá obrazovka ve vaší řeči.",
+  "text": "Spendry hovoří 44 jazyky, v českých korunách a s formátem čísel, na který jste zvyklí.",
+  "hint": "Otočte tažením"
+ },
+ "lab": {
+  "eyebrow": "Splácení dluhů",
+  "title": "Za jak dlouho můžete být bez dluhů?",
+  "text": "Posuňte jezdcem a sledujte, jak se datum posouvá. Spendry stejný výpočet provede s vašimi skutečnými dluhy a plán udrží aktuální.",
+  "extra": "Měsíčně navíc",
+  "method_hint_snowball": "Nejprve nejmenší zůstatek",
+  "method_hint_avalanche": "Nejprve nejvyšší úrok",
+  "free_in": "Bez dluhů za",
+  "interest": "Úroky celkem",
+  "saved": "Ušetříte",
+  "debts": [
+   "Kreditní karta",
+   "Půjčka na auto",
+   "Kontokorent",
+   "Půjčka od známého"
+  ],
+  "note": "Ukázkové dluhy. V aplikaci plán pracuje s vašimi údaji.",
+  "cta": "Otevřít podrobnou kalkulačku",
+  "rates_note": "Ukázkové sazby jsou roční.",
+  "sooner": "Dříve o",
+  "minimums": "Pouze minimální splátky",
+  "with_plan": "Se splátkami navíc",
+  "method": "Metoda"
+ },
+ "reminders": {
+  "eyebrow": "Připomínky",
+  "title": "Upozornění, která chodí včas.",
+  "text": "I když aplikaci vůbec neotevřete. Platbu můžete odložit nebo označit za zaplacenou přímo z oznámení.",
+  "days_left": "dní zbývá",
+  "local_note": "",
+  "samples": {
+   "card": "Kreditka",
+   "loan": "Půjčka na auto",
+   "budget": "Nákupy",
+   "store": "Nákup na splátky"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgety",
+  "title": "Vaše finance na ploše.",
+  "text": "Zůstatek, rozpočty, cíle i nadcházející platby na ploše vašeho telefonu. Přidejte výdaj bez nutnosti otevírat aplikaci."
+ },
+ "automations": {
+  "eyebrow": "Siri a Zkratky",
+  "title": "Nechte rutinu na telefonu.",
+  "text": "Zeptejte se Siri, kolik jste utratili, zapisujte výdaje hlasem a spusťte připravené postupy v aplikaci Zkratky.",
+  "flows": [
+   [
+    "Zaplatíte přes Apple Pay",
+    "Spendry nákup zaznamená",
+    "Rozpočet zůstává aktuální"
+   ],
+   [
+    "Každé ráno",
+    "Spendry zkontroluje splatnosti",
+    "Přehled na tři dny v jednom oznámení"
+   ],
+   [
+    "V neděli večer",
+    "Spendry shrne uplynulý týden",
+    "Stručný přehled vašich výdajů"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Soukromí",
+  "title": "Vaše finance patří jen vám.",
+  "text": "Žádné přihlašování do banky, žádný účet, žádné sledování. Záznamy zůstávají bezpečně ve vašem iPhone a na vašem vlastním iCloudu.",
+  "badge": "Data nesbíráme",
+  "pillars": [
+   {
+    "title": "Bez přístupu k bance",
+    "text": "Spendry se k bance nikdy nepřipojuje. Záznamy zadáváte sami nebo z bankovních zpráv."
+   },
+   {
+    "title": "Data nesbíráme",
+    "text": "Žádné reklamy, žádná analytika ani sledování. Potvrzuje to i štítek soukromí v App Storu."
+   },
+   {
+    "title": "Zabezpečeno přes Face ID",
+    "text": "Synchronizace přes váš vlastní iCloud s možností uzamknout aplikaci pomocí Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Malá aplikace, velký dosah.",
+  "items": [
+   {
+    "value": 44,
+    "label": "jazyků"
+   },
+   {
+    "value": 175,
+    "label": "zemí a oblastí"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "motivů"
+   },
+   {
+    "value": 0,
+    "label": "bajtů nasbíraných dat"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Časté dotazy",
+  "items": [
+   {
+    "q": "Je Spendry zdarma?",
+    "a": "Ano. Základní funkce můžete používat bezplatně. Verze Premium je k dispozici jako měsíční, roční nebo doživotní platba a předplatné začíná týdnem zdarma."
+   },
+   {
+    "q": "Připojuje se Spendry k mé bance?",
+    "a": "Ne. Přihlašovací údaje k bance po vás nikdy chtít nebude. Položky zadáváte sami, případně je importujete ze zpráv z banky či přes zkratky."
+   },
+   {
+    "q": "Kde jsou má data uložená?",
+    "a": "Přímo ve vašem iPhone a na vašem soukromém účtu iCloud. Informace se na servery Spendry nikdy neodesílají, takže k nim nemáme přístup."
+   },
+   {
+    "q": "Jak funguje plán splácení dluhů?",
+    "a": "Zadáte dluhy, jejich zůstatky a úrokové sazby. Spendry je seřadí metodou sněhové koule nebo laviny, započítá částku navíc a spočítá přesný měsíc doplacení."
+   },
+   {
+    "q": "Mohu rozpočet sdílet s partnerem nebo rodinou?",
+    "a": "Ano. Sdílené rozpočty a cíle se synchronizují přes iCloud, přičemž každý používá svůj vlastní Apple Account."
+   },
+   {
+    "q": "Na kterých zařízeních aplikace funguje?",
+    "a": "Na iPhone a iPadu se systémem iOS 17 nebo novějším. Podporuje widgety, Siri i aplikaci Zkratky."
+   },
+   {
+    "q": "Jaké jazyky a měny aplikace podporuje?",
+    "a": "Podporuje 44 jazyků a všechny hlavní měny. U investic a cizoměnných účtů můžete snadno ponechat jejich původní měnu."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Nástroje zdarma",
+  "title": "Vyzkoušejte si výpočty v prohlížeči.",
+  "text": "Vše se počítá přímo ve vašem zařízení. Žádná data se nikam neposílají."
+ },
+ "final": {
+  "eyebrow": "Spendry pro iPhone",
+  "title": "Začněte dnes. Je to zdarma.",
+  "text": "Stáhněte si Spendry a během několika minut zjistěte přesný den, kdy se zbavíte všech dluhů.",
+  "qr": "Naskenujte fotoaparátem iPhone"
+ },
+ "footer": {
+  "tagline": "Rozpočty a splácení dluhů pro iPhone.",
+  "privacy_policy": "Zásady ochrany soukromí",
+  "terms": "Podmínky služby",
+  "support": "Podpora",
+  "tools": "Nástroje zdarma",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay a App Store jsou ochranné známky společnosti Apple Inc.",
+  "legal": "Právní informace"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Kalkulačka splácení dluhů: Sněhová koule vs. Lavina",
+  "h1": "Kalkulačka splácení dluhů",
+  "description": "Kalkulačka splácení dluhů zdarma: porovnejte metody sněhové koule a laviny. Zjistěte měsíc doplacení i celkový úrok. Bez registrace.",
+  "lead": "Zadejte své dluhy a částku, kterou zvládnete měsíčně platit nad rámec minimálních splátek. Porovnejte výsledné datum a úroky u metody sněhové koule i laviny.",
+  "name": "Dluh",
+  "balance": "Zůstatek",
+  "rate": "RPSN %",
+  "minimum": "Minimální splátka",
+  "add": "Přidat dluh",
+  "remove": "Odstranit",
+  "extra": "Měsíční splátka navíc",
+  "order": "Pořadí splácení",
+  "free_in": "Bez dluhů za",
+  "interest": "Úroky celkem",
+  "faster": "Rychlejší",
+  "cheaper": "Nižší úroky",
+  "same": "Obě metody přinášejí při těchto částkách stejný výsledek.",
+  "stuck": "S těmito splátkami se dluhů nezbavíte, nepokryjí ani úroky. Zvyšte mimořádnou splátku.",
+  "sample": [
+   "Kreditní karta",
+   "Půjčka na auto",
+   "Spotřebitelský úvěr",
+   "Neuhrazený účet"
+  ],
+  "note": "Ukázkové dluhy, nahraďte je vlastními. Úrokové sazby počítáme jako pevné, poplatky nejsou zahrnuty.",
+  "prose": [
+   [
+    "Sněhová koule, nebo lavina?",
+    "U metody sněhové koule splácíte nejdříve nejmenší dluh. První závazek rychle zmizí a uvolněná částka přejde na další, což posiluje motivaci. U metody laviny splácíte nejdříve dluh s nejvyšším úrokem, což obvykle ušetří více na úrocích, i když první úspěch může trvat déle."
+   ],
+   [
+    "Jak kalkulačka funguje",
+    "Každý měsíc jde na každý dluh minimální splátka. Částka navíc směřuje na první dluh v pořadí. Po jeho doplacení se celá platba přesune na další. Obě metody vycházejí ze stejného měsíčního rozpočtu, rozdíl je pouze v pořadí."
+   ],
+   [
+    "Mějte plán stále aktuální",
+    "Výše zůstatků se každý měsíc mění. Spendry hlídá vaše karty, půjčky i účty, udržuje plán sněhové koule či laviny čerstvý a včas vás upozorní na každou splátku."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Rozpočtová kalkulačka 50/30/20",
+  "h1": "Rozpočtová kalkulačka 50/30/20",
+  "description": "Bezplatná rozpočtová kalkulačka 50/30/20: rozdělte svůj čistý měsíční příjem na nutné výdaje, radosti a úspory nebo splátky během pár vteřin.",
+  "lead": "Zadejte svůj čistý měsíční příjem. Polovina pokryje nezbytné výdaje, třicet procent vaše přání a dvacet procent směřuje na úspory a splácení dluhů.",
+  "income": "Čistý měsíční příjem",
+  "needs": "Nutné výdaje",
+  "needs_hint": "Bydlení, účty, jídlo, doprava",
+  "wants": "Osobní spotřeba",
+  "wants_hint": "Restaurace, nákupy, zábava",
+  "save": "Úspory a dluhy",
+  "save_hint": "Spoření, rezervy a mimořádné splátky",
+  "prose": [
+   [
+    "Co je pravidlo 50/30/20?",
+    "Jde o jednoduchý základ pro sestavení rozpočtu. Padesát procent čistého příjmu pokryje nezbytné platby, třicet procent věci pro radost a dvacet procent odložíte stranou na úspory nebo doplacení dluhů."
+   ],
+   [
+    "Kdy poměr upravit",
+    "Pokud jen za bydlení dáte polovinu svých příjmů, berte pravidlo jako odrazový můstek, nikoli dogma. Přizpůsobte rozdělení svému životu a nejdříve se zbavte drahých dluhů."
+   ],
+   [
+    "Nastavte si automatiku",
+    "Ve Spendry získá každá kategorie svůj měsíční rozpočet, který se postupně plní. Pokud se budete blížit limitu, aplikace vás včas varuje."
+   ]
+  ]
+ }
+}

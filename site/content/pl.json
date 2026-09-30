@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Budżet, spłata długów i rachunki na iPhone",
+  "description": "Sprawdź datę spłaty długów, kontroluj karty, kredyty i rachunki. Przypomnienia przed terminem. Bez logowania do banku. Za darmo na iPhone i iPad.",
+  "og_title": "Spendry: poznaj datę spłaty swoich długów",
+  "og_alt": "Widżety Spendry dla budżetów, celów i nadchodzących płatności"
+ },
+ "nav": {
+  "features": "Funkcje",
+  "lab": "Długi",
+  "privacy": "Prywatność",
+  "tools": "Kalkulatory",
+  "download": "Pobierz",
+  "skip": "Przejdź do treści",
+  "language": "Język",
+  "menu": "Menu",
+  "close": "Zamknij",
+  "top": "Na górę"
+ },
+ "cta": {
+  "download": "Pobierz w App Store",
+  "free": "Za darmo na iPhone i iPad",
+  "requirements": "Wymaga systemu iOS 17 lub nowszego",
+  "trial": "Wersja Premium z darmowym tygodniem na start"
+ },
+ "hero": {
+  "eyebrow": "Budżet i spłata długów na iPhone",
+  "title_1": "Karty, kredyty i rachunki.",
+  "title_2": "W jednym miejscu.",
+  "lead": "Spendry pokazuje koniec cyklu karty, ostatnią ratę i dzień wolności od długów. Przypomina o płatnościach przed terminem. Bez logowania do banku.",
+  "secondary": "Zobacz, jak działa",
+  "chips": [
+   "Bez danych banku",
+   "Zero śledzenia",
+   "44 języki"
+  ],
+  "scroll": "Przewiń"
+ },
+ "story": [
+  {
+   "title": "Twój miesiąc na tacy.",
+   "text": "Saldo, dochody, wydatki i nadchodzące płatności zaraz po otwarciu aplikacji."
+  },
+  {
+   "title": "Każdy dług, jedna suma.",
+   "text": "Karty, kredyty, debet i pożyczki od znajomych wraz z miesiącem całkowitej spłaty."
+  },
+  {
+   "title": "Nic Ci nie umknie.",
+   "text": "Przypomnienie przed terminem każdej karty, rachunku i subskrypcji, nawet gdy nie otwierasz aplikacji."
+  }
+ ],
+ "statement": "Większość aplikacji pokazuje, gdzie podziały się pieniądze. Spendry pokazuje, *kiedy znikną z konta* i *kiedy uwolnisz się od długów*.",
+ "orbit": {
+  "eyebrow": "Wszystko w jednym",
+  "title": "Wszystko, co porusza Twój portfel.",
+  "text": "Karty kredytowe, raty, kredyty, subskrypcje, budżety, cele i inwestycje. Jedna aplikacja, pełen obraz."
+ },
+ "features": {
+  "eyebrow": "Funkcje",
+  "title": "Stworzona na cały miesiąc.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Budżety zawsze na bieżąco",
+    "text": "Ustal limit dla każdej kategorii i obserwuj, jak zapełnia się przy zakupach."
+   },
+   {
+    "key": "goals",
+    "title": "Widoczne cele",
+    "text": "Oszczędzaj na to, co ważne, i codziennie sprawdzaj, ile brakuje do celu."
+   },
+   {
+    "key": "stats",
+    "title": "Gdzie uciekają pieniądze",
+    "text": "Tygodniowe i miesięczne wykresy z podziałem na kategorie i poszczególne dni."
+   },
+   {
+    "key": "add",
+    "title": "Zapis w kilka sekund",
+    "text": "Wpisz kwotę, wybierz kategorię i gotowe. Albo po prostu zeskanuj paragon."
+   },
+   {
+    "key": "invest",
+    "title": "Inwestycje na żywo",
+    "text": "Akcje, krypto, złoto i waluty z kursami na żywo, tuż obok Twoich wydatków."
+   },
+   {
+    "key": "themes",
+    "title": "Dopasuj do siebie",
+    "text": "Ponad pięćdziesiąt motywów w wersji jasnej i ciemnej."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Aplikacja",
+  "title": "Wszystko w Twoim języku.",
+  "text": "Spendry mówi w 44 językach, z Twoją walutą i lokalnym formatem liczb.",
+  "hint": "Przesuń, aby obrócić"
+ },
+ "lab": {
+  "eyebrow": "Długi",
+  "title": "Kiedy spłacisz wszystkie długi?",
+  "text": "Przesuń suwak i zobacz, jak przyspiesza spłata. W aplikacji Spendry przelicza to na Twoich rzeczywistych danych.",
+  "extra": "Co miesiąc ekstra",
+  "method_hint_snowball": "Najpierw najmniejszy dług",
+  "method_hint_avalanche": "Najpierw najwyższe odsetki",
+  "free_in": "Koniec długów za",
+  "interest": "Suma odsetek",
+  "saved": "Oszczędzasz",
+  "debts": [
+   "Karta kredytowa",
+   "Kredyt na auto",
+   "Raty na sprzęt",
+   "Pożyczka od znajomego"
+  ],
+  "note": "Przykładowe długi. W aplikacji plan opiera się na Twoich danych.",
+  "cta": "Otwórz pełny kalkulator",
+  "rates_note": "Oprocentowanie podano w skali roku.",
+  "sooner": "Szybciej o",
+  "minimums": "Tylko spłaty minimalne",
+  "with_plan": "Z dodatkową spłatą",
+  "method": "Metoda"
+ },
+ "reminders": {
+  "eyebrow": "Przypomnienia",
+  "title": "Powiadomienia zawsze na czas.",
+  "text": "Nawet jeśli nie otwierasz aplikacji. Odłóż przypomnienie lub oznacz rachunek jako opłacony bezpośrednio z powiadomienia.",
+  "days_left": "dni do końca",
+  "local_note": "",
+  "samples": {
+   "card": "Karta Visa",
+   "loan": "Kredyt na auto",
+   "budget": "Zakupy",
+   "store": "Raty Allegro"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widżety",
+  "title": "Finanse na ekranie początkowym.",
+  "text": "Stan konta, budżety, cele i nadchodzące rachunki w zasięgu wzroku. Dodaj wydatek bez otwierania aplikacji."
+ },
+ "automations": {
+  "eyebrow": "Siri i Skróty",
+  "title": "Niech wszystko działa samo.",
+  "text": "Zapytaj Siri o wydatki, dodawaj wpisy głosem i włącz gotowe automatyzacje w aplikacji Skróty.",
+  "flows": [
+   [
+    "Płacisz przez Apple Pay",
+    "Spendry zapisuje wydatek",
+    "Twój budżet jest aktualny"
+   ],
+   [
+    "Każdego ranka",
+    "Spendry sprawdza terminy",
+    "Najbliższe trzy dni w jednym powiadomieniu"
+   ],
+   [
+    "W niedzielę wieczorem",
+    "Spendry podsumowuje tydzień",
+    "Krótki raport z Twoich wydatków"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Prywatność",
+  "title": "Pieniądze to Twoja sprawa.",
+  "text": "Bez logowania do banku, bez konta i bez śledzenia. Twoje dane zostają na Twoim iPhone i w Twoim iCloud.",
+  "badge": "Dane nie są zbierane",
+  "pillars": [
+   {
+    "title": "Bez danych banku",
+    "text": "Spendry nie łączy się z bankiem. Wydatki wpisujesz samodzielnie lub importujesz z powiadomień bankowych."
+   },
+   {
+    "title": "Dane nie są zbierane",
+    "text": "Zero reklam, zero analityki i zero śledzenia. Etykieta prywatności w App Store potwierdza to samo."
+   },
+   {
+    "title": "Ochrona przez Face ID",
+    "text": "Synchronizacja przez Twoje prywatne konto iCloud i blokada aplikacji za pomocą Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Niewielka aplikacja, wielki zasięg.",
+  "items": [
+   {
+    "value": 44,
+    "label": "języki"
+   },
+   {
+    "value": 175,
+    "label": "krajów i regionów"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "motywów"
+   },
+   {
+    "value": 0,
+    "label": "bajtów pobranych danych"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Pytania",
+  "items": [
+   {
+    "q": "Czy Spendry jest bezpłatne?",
+    "a": "Tak. Podstawowe funkcje są darmowe. Wersja Premium jest dostępna co miesiąc, co rok lub na stałe, a subskrypcje zaczynają się darmowym tygodniem próbnym."
+   },
+   {
+    "q": "Czy Spendry łączy się z moim bankiem?",
+    "a": "Nie. Nigdy nie prosi o login do banku. Dane wprowadzasz samodzielnie lub importujesz z powiadomień i przez aplikację Skróty."
+   },
+   {
+    "q": "Gdzie są zapisywane moje dane?",
+    "a": "Na Twoim iPhone i w Twoim prywatnym iCloud. Żadne wpisy nie trafiają na serwery Spendry, więc nikt poza Tobą ich nie widzi."
+   },
+   {
+    "q": "Jak działa plan spłaty długów?",
+    "a": "Wpisz swoje długi, ich kwoty i oprocentowanie. Spendry ułoży je według metody kuli śnieżnej lub lawiny, uwzględni miesięczną nadpłatę i wyliczy dokładny miesiąc wolności od zadłużenia."
+   },
+   {
+    "q": "Czy mogę dzielić budżet z partnerem lub rodziną?",
+    "a": "Tak. Wspólny budżet i cele synchronizują się przez iCloud, a każda osoba korzysta z własnego Apple Account."
+   },
+   {
+    "q": "Na jakich urządzeniach działa aplikacja?",
+    "a": "Na iPhone i iPad z systemem iOS 17 lub nowszym. Obsługuje widżety, Siri oraz Skróty."
+   },
+   {
+    "q": "Jakie języki i waluty są obsługiwane?",
+    "a": "44 języki i wszystkie główne waluty świata. Konta walutowe i inwestycje mogą zachować swoją własną walutę."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Kalkulatory",
+  "title": "Sprawdź liczby w przeglądarce.",
+  "text": "Wszystkie obliczenia odbywają się na Twoim urządzeniu. Nic nie jest nigdzie wysyłane."
+ },
+ "final": {
+  "eyebrow": "Spendry na iPhone",
+  "title": "Zacznij dziś. Za darmo.",
+  "text": "Pobierz Spendry i już za chwilę sprawdź datę całkowitej spłaty długu.",
+  "qr": "Zeskanuj aparatem iPhone"
+ },
+ "footer": {
+  "tagline": "Budżet i spłata długów na iPhone.",
+  "privacy_policy": "Polityka prywatności",
+  "terms": "Regulamin",
+  "support": "Wsparcie",
+  "tools": "Kalkulatory",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay i App Store są znakami towarowymi firmy Apple Inc.",
+  "legal": "Informacje prawne"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Kalkulator spłaty długów: Kula śnieżna czy Lawina",
+  "h1": "Kalkulator spłaty długów",
+  "description": "Darmowy kalkulator spłaty długów: porównaj metodę kuli śnieżnej i lawiny. Sprawdź datę spłaty i kwotę odsetek bez rejestracji.",
+  "lead": "Wpisz swoje długi i kwotę, jaką możesz dopłacać co miesiąc. Porównaj datę spłaty oraz sumę odsetek dla metody kuli śnieżnej i lawiny.",
+  "name": "Dług",
+  "balance": "Kwota długu",
+  "rate": "RRSO %",
+  "minimum": "Spłata minimalna",
+  "add": "Dodaj dług",
+  "remove": "Usuń",
+  "extra": "Dodatkowa kwota co miesiąc",
+  "order": "Kolejność spłaty",
+  "free_in": "Koniec długów za",
+  "interest": "Suma odsetek",
+  "faster": "Szybciej",
+  "cheaper": "Mniej odsetek",
+  "same": "Przy tych liczbach obie metody dają ten sam wynik.",
+  "stuck": "Te wpłaty nie pokrywają nawet odsetek. Dług nie zniknie bez zwiększenia wpłaty.",
+  "sample": [
+   "Karta kredytowa",
+   "Kredyt na auto",
+   "Raty na sprzęt",
+   "Rachunek medyczny"
+  ],
+  "note": "Przykładowe dane. Zastąp je własnymi kwotami. Oprocentowanie jest stałe i nie uwzględnia dodatkowych prowizji.",
+  "prose": [
+   [
+    "Kula śnieżna czy metoda lawiny?",
+    "W metodzie kuli śnieżnej spłacasz najpierw najmniejszy dług. Pierwsze zobowiązanie znika błyskawicznie, a zwolniona kwota przechodzi na kolejne, co daje potężny zastrzyk motywacji. W metodzie lawiny spłacasz najpierw dług o najwyższym oprocentowaniu, co zazwyczaj pozwala zaoszczędzić najwięcej na odsetkach, choć na pierwszy sukces czeka się dłużej."
+   ],
+   [
+    "Jak działa ten kalkulator",
+    "W każdym miesiącu każdy dług otrzymuje spłatę minimalną. Dodatkowa kwota trafia w całości na pierwszy dług z listy. Po jego spłaceniu cała ta suma przechodzi na kolejny. Obie metody korzystają z tego samego budżetu, a różnica wynika wyłącznie z kolejności spłat."
+   ],
+   [
+    "Trzymaj plan pod kontrolą",
+    "Wysokość długu zmienia się z miesiąca na miesiąc. Spendry śledzi Twoje karty, kredyty i rachunki, aktualizuje plan spłaty i przypomina o każdym nadchodzącym terminie."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Kalkulator budżetu 50/30/20",
+  "h1": "Kalkulator budżetu 50/30/20",
+  "description": "Darmowy kalkulator budżetu 50/30/20: podziel pensję na potrzeby, zachcianki i oszczędności w kilka sekund.",
+  "lead": "Wpisz swój miesięczny dochód na rękę. Połowa idzie na stałe potrzeby, trzydzieści procent na zachcianki, a dwadzieścia na oszczędności i spłatę długów.",
+  "income": "Dochód na rękę",
+  "needs": "Potrzeby",
+  "needs_hint": "Czynsz, rachunki, jedzenie, dojazdy",
+  "wants": "Zachcianki",
+  "wants_hint": "Wyjścia, zakupy, podróże",
+  "save": "Oszczędności i długi",
+  "save_hint": "Cele oszczędnościowe i nadpłaty",
+  "prose": [
+   [
+    "Na czym polega reguła 50/30/20?",
+    "To prosty sposób na uporządkowanie domowego budżetu. Pięćdziesiąt procent pensji netto pokrywa opłaty konieczne do życia, trzydzieści procent idzie na przyjemności, a dwadzieścia trafia na budowanie poduszki i szybszą spłatę zadłużenia."
+   ],
+   [
+    "Kiedy warto zmienić te proporcje",
+    "Jeśli sam wynajem pochłania połowę zarobków, potraktuj regułę jako punkt wyjścia, a nie sztywny nakaz. Dostosuj podział do własnej sytuacji i w pierwszej kolejności pozbądź się wysoko oprocentowanych długów."
+   ],
+   [
+    "Zautomatyzuj swoje wydatki",
+    "W Spendry każda kategoria ma swój miesięczny limit, który zapełnia się przy każdym zakupie, z ostrzeżeniem zanim przekroczysz budżet."
+   ]
+  ]
+ }
+}

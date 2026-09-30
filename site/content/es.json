@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Presupuestos, deudas y facturas en iPhone",
+  "description": "Descubre cuándo saldrás de deudas, controla tarjetas, préstamos y facturas, y recibe recordatorios a tiempo. Sin conectar tu banco. Gratis para iPhone e iPad.",
+  "og_title": "Spendry: descubre cuándo dirás adiós a tus deudas",
+  "og_alt": "Widgets de Spendry para presupuestos, metas y próximos pagos"
+ },
+ "nav": {
+  "features": "Funciones",
+  "lab": "Plan de deudas",
+  "privacy": "Privacidad",
+  "tools": "Herramientas",
+  "download": "Descargar",
+  "skip": "Ir al contenido",
+  "language": "Idioma",
+  "menu": "Menú",
+  "close": "Cerrar",
+  "top": "Volver arriba"
+ },
+ "cta": {
+  "download": "Consíguelo en el App Store",
+  "free": "Gratis en iPhone e iPad",
+  "requirements": "Requiere iOS 17 o posterior",
+  "trial": "Premium incluye una semana gratis"
+ },
+ "hero": {
+  "eyebrow": "Presupuestos y deudas en iPhone",
+  "title_1": "Tarjetas, préstamos y pagos.",
+  "title_2": "Todo en calma.",
+  "lead": "Spendry te muestra cuándo cierran tus tarjetas, cuándo terminas de pagar cada cuota y tu fecha para estar libre de deudas. Con avisos puntuales y sin conectar tu banco.",
+  "secondary": "Descubre cómo funciona",
+  "chips": [
+   "Sin acceso a tu banco",
+   "Sin rastreo de datos",
+   "44 idiomas"
+  ],
+  "scroll": "Baja"
+ },
+ "story": [
+  {
+   "title": "Tu mes en un vistazo.",
+   "text": "Saldo, ingresos, gastos y próximos vencimientos nada más abrir la app."
+  },
+  {
+   "title": "Tus deudas, una sola cifra.",
+   "text": "Tarjetas, préstamos, sobregiros y préstamos entre amigos, con el mes exacto en que te librarás de todo."
+  },
+  {
+   "title": "Que no se te pase nada.",
+   "text": "Un aviso antes de que venza cada tarjeta, recibo o suscripción, incluso con la app cerrada."
+  }
+ ],
+ "statement": "La mayoría de apps te dicen adónde fue tu dinero. Spendry te muestra *cuándo va a salir* y *cuándo serás libre*.",
+ "orbit": {
+  "eyebrow": "Todo en su lugar",
+  "title": "Todo lo que mueve tu dinero.",
+  "text": "Tarjetas, cuotas, préstamos, suscripciones, presupuestos, metas e inversiones. Una sola app, una visión clara."
+ },
+ "features": {
+  "eyebrow": "Funciones",
+  "title": "Pensada para todo el mes.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Presupuestos al día",
+    "text": "Fija un límite por categoría y mira cómo se llena con tus gastos."
+   },
+   {
+    "key": "goals",
+    "title": "Metas que ves crecer",
+    "text": "Ahorra para lo importante y comprueba cada día cuánto te falta."
+   },
+   {
+    "key": "stats",
+    "title": "Adónde va tu dinero",
+    "text": "Gráficas semanales y mensuales, por categoría y día a día."
+   },
+   {
+    "key": "add",
+    "title": "Añade gastos al vuelo",
+    "text": "Pon el importe, elige categoría y listo. O escanea el tique."
+   },
+   {
+    "key": "invest",
+    "title": "Inversiones en vivo",
+    "text": "Bolsa, cripto, oro y divisas a tiempo real, junto a tus gastos."
+   },
+   {
+    "key": "themes",
+    "title": "Hazla tuya",
+    "text": "Más de cincuenta temas, en modo claro u oscuro."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "La app",
+  "title": "En tu idioma, de principio a fin.",
+  "text": "Spendry habla 44 idiomas, con tu moneda y tu formato habitual.",
+  "hint": "Arrastra para girar"
+ },
+ "lab": {
+  "eyebrow": "Deudas",
+  "title": "¿Cuándo te librarás de tus deudas?",
+  "text": "Mueve el control y mira cómo cambia la fecha. Spendry calcula tu plan con tus deudas reales y lo mantiene al día.",
+  "extra": "Aporte extra al mes",
+  "method_hint_snowball": "Saldo más bajo primero",
+  "method_hint_avalanche": "Interés más alto primero",
+  "free_in": "Libre de deudas en",
+  "interest": "Intereses totales",
+  "saved": "Te ahorras",
+  "debts": [
+   "Tarjeta de crédito",
+   "Préstamo del coche",
+   "Tarjeta comercial",
+   "Préstamo de un amigo"
+  ],
+  "note": "Deudas de ejemplo. En la app usarás las tuyas.",
+  "cta": "Abrir la calculadora completa",
+  "rates_note": "Los intereses de ejemplo son anuales.",
+  "sooner": "Antes",
+  "minimums": "Solo pagos mínimos",
+  "with_plan": "Con pagos extra",
+  "method": "Método"
+ },
+ "reminders": {
+  "eyebrow": "Recordatorios",
+  "title": "Avisos que llegan a tiempo.",
+  "text": "Aunque no abras la app. Pospón el aviso o márcalo como pagado desde la propia notificación.",
+  "days_left": "días restantes",
+  "local_note": "",
+  "samples": {
+   "card": "Tarjeta Oro",
+   "loan": "Préstamo del coche",
+   "budget": "Supermercado",
+   "store": "Tarjeta comercial"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgets",
+  "title": "Tus finanzas en la pantalla de inicio.",
+  "text": "Saldo, presupuestos, metas y pagos pendientes en un vistazo. Registra un gasto sin abrir la app."
+ },
+ "automations": {
+  "eyebrow": "Siri y Atajos",
+  "title": "Deja que funcione sola.",
+  "text": "Pregunta a Siri cuánto has gastado, anota pagos con la voz y activa automatizaciones listas para usar en Atajos.",
+  "flows": [
+   [
+    "Pagas con Apple Pay",
+    "Spendry anota el gasto",
+    "Tu presupuesto queda al día"
+   ],
+   [
+    "Cada mañana",
+    "Spendry revisa los vencimientos",
+    "Tus próximos tres días en un aviso"
+   ],
+   [
+    "Domingo por la tarde",
+    "Spendry resume tu semana",
+    "Un informe breve de tus gastos"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Privacidad",
+  "title": "Tu dinero, solo tuyo.",
+  "text": "Sin vincular cuentas, sin registros, sin rastreo. Tus datos se quedan en tu iPhone y en tu iCloud.",
+  "badge": "Datos no recopilados",
+  "pillars": [
+   {
+    "title": "Sin acceso a tu banco",
+    "text": "Spendry nunca se conecta a tu banco. Añades los gastos tú o los importas desde notificaciones bancarias."
+   },
+   {
+    "title": "Datos no recopilados",
+    "text": "Sin anuncios, sin analíticas ni rastreo. Así lo confirma la etiqueta de privacidad del App Store."
+   },
+   {
+    "title": "Protegido con Face ID",
+    "text": "Sincroniza tus datos mediante tu propio iCloud y protege la app con Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "App ligera, gran alcance.",
+  "items": [
+   {
+    "value": 44,
+    "label": "idiomas"
+   },
+   {
+    "value": 175,
+    "label": "países y regiones"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "temas"
+   },
+   {
+    "value": 0,
+    "label": "bytes recopilados de tus datos"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Preguntas frecuentes",
+  "items": [
+   {
+    "q": "¿Spendry es gratis?",
+    "a": "Sí. Las funciones básicas son gratuitas. Premium se ofrece en suscripción mensual, anual o compra única de por vida, e incluye una semana de prueba gratis."
+   },
+   {
+    "q": "¿Spendry se conecta a mi banco?",
+    "a": "No. Nunca te pedirá tus claves bancarias. Añades las entradas tú o las importas con notificaciones y automatizaciones de Atajos."
+   },
+   {
+    "q": "¿Dónde se guardan mis datos?",
+    "a": "En tu iPhone y en tu cuenta de iCloud. Jamás se envían a servidores de Spendry, por lo que nadie más puede verlos."
+   },
+   {
+    "q": "¿Cómo funciona el plan para pagar deudas?",
+    "a": "Añade tus deudas con su saldo e intereses. Spendry las organiza mediante el método Bola de Nieve o Avalancha, suma lo que puedas aportar cada mes y calcula tu fecha para estar libre de deudas."
+   },
+   {
+    "q": "¿Puedo compartir presupuestos con mi pareja o familia?",
+    "a": "Sí. Los presupuestos compartidos y las metas se sincronizan por iCloud, y cada persona usa su propia Apple Account."
+   },
+   {
+    "q": "¿En qué dispositivos funciona?",
+    "a": "En iPhone e iPad con iOS 17 o posterior, con compatibilidad para widgets, Siri y Atajos."
+   },
+   {
+    "q": "¿Qué idiomas y monedas admite?",
+    "a": "Admite 44 idiomas y las principales monedas del mundo. Las inversiones y cuentas en divisa extranjera pueden mantener su propia moneda."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Herramientas gratuitas",
+  "title": "Haz tus cálculos en el navegador.",
+  "text": "Las operaciones se realizan en tu propio dispositivo. Nada sale de ahí."
+ },
+ "final": {
+  "eyebrow": "Spendry para iPhone",
+  "title": "Empieza hoy. Es gratis.",
+  "text": "Descarga Spendry y descubre en pocos minutos el día en que saldrás de deudas.",
+  "qr": "Escanea con la cámara de tu iPhone"
+ },
+ "footer": {
+  "tagline": "Presupuestos y amortización de deudas para iPhone.",
+  "privacy_policy": "Política de privacidad",
+  "terms": "Condiciones del servicio",
+  "support": "Soporte",
+  "tools": "Herramientas gratuitas",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay y App Store son marcas comerciales de Apple Inc.",
+  "legal": "Aviso legal"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Calculadora de deudas: Bola de nieve vs Avalancha",
+  "h1": "Calculadora para pagar deudas",
+  "description": "Calculadora gratis para pagar deudas: compara Bola de Nieve y Avalancha, descubre cuándo terminarás y los intereses que pagarás. Sin registro.",
+  "lead": "Introduce tus deudas y el importe extra que puedes aportar a los mínimos cada mes. Compara cuándo serás libre y cuánto pagarás de intereses con Bola de Nieve y Avalancha.",
+  "name": "Deuda",
+  "balance": "Saldo pendiente",
+  "rate": "TIN %",
+  "minimum": "Pago mínimo",
+  "add": "Añadir deuda",
+  "remove": "Eliminar",
+  "extra": "Pago extra mensual",
+  "order": "Orden de pago",
+  "free_in": "Libre de deudas en",
+  "interest": "Intereses totales",
+  "faster": "Más rápido",
+  "cheaper": "Menos intereses",
+  "same": "Ambos métodos dan el mismo resultado con estas cifras.",
+  "stuck": "Con estos pagos nunca liquidarás la deuda: no cubren ni los intereses. Aumenta el pago extra.",
+  "sample": [
+   "Tarjeta de crédito",
+   "Préstamo del coche",
+   "Tarjeta comercial",
+   "Factura médica"
+  ],
+  "note": "Deudas de ejemplo; cámbialas por las tuyas. Se consideran tipos fijos y no incluye comisiones.",
+  "prose": [
+   [
+    "¿Bola de Nieve o Avalancha?",
+    "Con el método Bola de Nieve liquidas primero la deuda de menor saldo. Al cancelarla rápido, ese pago pasa a la siguiente y la motivación se mantiene alta. Con el método Avalancha liquidas primero la del interés más alto, ahorrando más en intereses en total, aunque el primer cierre tarde algo más."
+   ],
+   [
+    "Cómo funciona la calculadora",
+    "Cada mes cubres el pago mínimo de cada deuda. La cantidad extra se destina a la primera de la lista y, al cancelarla, su cuota íntegra pasa a la siguiente. Los dos métodos usan el mismo presupuesto mensual: solo varía el orden de pago."
+   ],
+   [
+    "Mantén el plan al día",
+    "Los saldos cambian mes a mes. Spendry lleva el seguimiento de tus tarjetas, préstamos y recibos, mantiene al día tu plan Bola de Nieve o Avalancha y te avisa antes de cada pago."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Calculadora de presupuesto 50/30/20",
+  "h1": "Calculadora de presupuesto 50/30/20",
+  "description": "Calculadora 50/30/20 gratis: divide tus ingresos netos en necesidades, deseos y ahorro o amortización de deudas en segundos.",
+  "lead": "Introduce tus ingresos mensuales netos. El 50 % se destina a necesidades, el 30 % a caprichos y el 20 % a ahorrar o liquidar deudas.",
+  "income": "Sueldo neto mensual",
+  "needs": "Necesidades",
+  "needs_hint": "Alquiler, facturas, comida, transporte",
+  "wants": "Deseos",
+  "wants_hint": "Restaurantes, compras, ocio y viajes",
+  "save": "Ahorro y deudas",
+  "save_hint": "Metas de ahorro y pagos adicionales",
+  "prose": [
+   [
+    "¿Qué es la regla 50/30/20?",
+    "Una forma sencilla de ordenar tus finanzas. El 50 % de tus ingresos netos cubre los gastos básicos, el 30 % aquello que eliges disfrutar y el 20 % se guarda para ahorrar o quitarte deudas de encima."
+   ],
+   [
+    "Cuándo ajustar los porcentajes",
+    "Si solo el alquiler ya se lleva la mitad de lo que ganas, la regla es una guía inicial, no una obligación. Adapta los porcentajes a tu realidad y salda primero las deudas con mayor interés."
+   ],
+   [
+    "Ponlo en piloto automático",
+    "En Spendry cada categoría tiene un presupuesto mensual que se actualiza a medida que gastas, con avisos directos antes de pasarte del límite."
+   ]
+  ]
+ }
+}

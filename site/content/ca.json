@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: pressupostos i control de deutes a l'iPhone",
+  "description": "Descobreix quan t'alliberaràs dels deutes. Controla targetes, préstecs i factures amb recordatoris puntuals. Sense accés al banc. De franc per a iPhone i iPad.",
+  "og_title": "Spendry: el dia que t'alliberaràs dels deutes",
+  "og_alt": "Widgets de Spendry per a pressupostos, objectius i pagaments pendents"
+ },
+ "nav": {
+  "features": "Funcions",
+  "lab": "Pagar deutes",
+  "privacy": "Privadesa",
+  "tools": "Eines gratuïtes",
+  "download": "Descarrega",
+  "skip": "Ves al contingut",
+  "language": "Idioma",
+  "menu": "Menú",
+  "close": "Tanca",
+  "top": "Torna a dalt"
+ },
+ "cta": {
+  "download": "Descarrega-ho a l'App Store",
+  "free": "Gratis a l'iPhone i l'iPad",
+  "requirements": "Cal iOS 17 o posterior",
+  "trial": "Premium inclou una setmana de prova"
+ },
+ "hero": {
+  "eyebrow": "Pressupostos i deutes per a l'iPhone",
+  "title_1": "Targetes, préstecs, factures.",
+  "title_2": "Tot sota control.",
+  "lead": "Spendry et mostra quan tanca cada extracte, quan s'acaba cada termini i el dia exacte que no tindràs deutes. Recordatoris a temps, sense connectar-se al banc.",
+  "secondary": "Descobreix com funciona",
+  "chips": [
+   "Sense dades bancàries",
+   "Dades no recopilades",
+   "44 idiomes"
+  ],
+  "scroll": "Llisca"
+ },
+ "story": [
+  {
+   "title": "El teu mes d'un cop d'ull.",
+   "text": "Saldo, ingressos, despeses i propers pagaments tan bon punt obris l'aplicació."
+  },
+  {
+   "title": "Tots els deutes en un número.",
+   "text": "Targetes, préstecs, descoberts i diners entre amics, amb el mes exacte que ho pagaràs tot."
+  },
+  {
+   "title": "Que no se t'escapi res.",
+   "text": "Un recordatori abans de cada venciment de targeta, factura o subscripció, fins i tot amb l'app tancada."
+  }
+ ],
+ "statement": "La majoria d'apps mostren on han anat els diners. Spendry t'ensenya *quan marxaran* i *quan te n'alliberaràs*.",
+ "orbit": {
+  "eyebrow": "Tot junt en un sol lloc",
+  "title": "Tot el que mou els teus diners.",
+  "text": "Targetes, terminis, préstecs, subscripcions, pressupostos, objectius i inversions. Una sola app, una visió clara."
+ },
+ "features": {
+  "eyebrow": "Funcions",
+  "title": "Pensat per a tot el mes.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Pressupostos al teu ritme",
+    "text": "Defineix un límit per categoria i mira com s'omple mentre gastes."
+   },
+   {
+    "key": "goals",
+    "title": "Objectius que pots veure",
+    "text": "Estalvia per al que t'importa i comprova com t'hi acostes cada dia."
+   },
+   {
+    "key": "stats",
+    "title": "On van els diners",
+    "text": "Gràfics setmanals i mensuals, per categoria i per dia."
+   },
+   {
+    "key": "add",
+    "title": "Afegeix-ho en segons",
+    "text": "Escriu l'import, tria la categoria i llestos. O escaneja el tiquet."
+   },
+   {
+    "key": "invest",
+    "title": "Inversions en directe",
+    "text": "Accions, criptomonedes, or i divises a temps real, al costat de les teves despeses."
+   },
+   {
+    "key": "themes",
+    "title": "Fes-te-la teva",
+    "text": "Més de cinquanta temes, en mode clar o fosc."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "L'aplicació",
+  "title": "Tota l'app en la teva llengua.",
+  "text": "Spendry parla 44 idiomes, amb la teva moneda i el teu format numèric habitual.",
+  "hint": "Arrossega per girar"
+ },
+ "lab": {
+  "eyebrow": "Pagar deutes",
+  "title": "Quan podries pagar-ho tot?",
+  "text": "Mou el control lliscant i mira com s'avança la data. Spendry ho calcula amb els teus deutes reals i manté el pla al dia.",
+  "extra": "Extra cada mes",
+  "method_hint_snowball": "El saldo més baix primer",
+  "method_hint_avalanche": "L'interès més alt primer",
+  "free_in": "Sense deutes el",
+  "interest": "Interessos totals",
+  "saved": "T'estalvies",
+  "debts": [
+   "Targeta de crèdit",
+   "Préstec del cotxe",
+   "Targeta comercial",
+   "Amic"
+  ],
+  "note": "Deutes d'exemple. A l'aplicació, el pla utilitza els teus.",
+  "cta": "Obre la calculadora completa",
+  "rates_note": "Els tipus d'exemple són anuals.",
+  "sooner": "Abans",
+  "minimums": "Només quotes mínimes",
+  "with_plan": "Amb pagaments extra",
+  "method": "Mètode"
+ },
+ "reminders": {
+  "eyebrow": "Recordatoris",
+  "title": "Avisos que arriben a temps.",
+  "text": "Fins i tot si no obres mai l'aplicació. Pospobla o marca com a pagat directament des de la notificació.",
+  "days_left": "dies restants",
+  "local_note": "",
+  "samples": {
+   "card": "Targeta or",
+   "loan": "Cotxe",
+   "budget": "Supermercat",
+   "store": "Targeta botiga"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgets",
+  "title": "Els teus diners a la pantalla d'inici.",
+  "text": "Saldo, pressupostos, objectius i pagaments pendents a simple vista. Afegeix una despesa sense obrir l'app."
+ },
+ "automations": {
+  "eyebrow": "Siri i Dreceres",
+  "title": "Deixa que funcioni sol.",
+  "text": "Pregunta a Siri quant has gastat, afegeix despeses amb la veu i activa automatitzacions llestes per utilitzar a l'app Dreceres.",
+  "flows": [
+   [
+    "Pagues amb Apple Pay",
+    "Spendry anota la compra",
+    "El teu pressupost queda al dia"
+   ],
+   [
+    "Cada matí",
+    "Spendry comprova què venç",
+    "Els propers tres dies en una notificació"
+   ],
+   [
+    "Diumenge al vespre",
+    "Spendry resumeix la setmana",
+    "Un breu informe de despeses"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Privadesa",
+  "title": "Els teus diners, només teus.",
+  "text": "Sense credencials bancàries, sense comptes i sense rastreig. Tot es queda al teu iPhone i al teu compte d'iCloud.",
+  "badge": "Dades no recopilades",
+  "pillars": [
+   {
+    "title": "Sense dades bancàries",
+    "text": "Spendry mai es connecta al teu banc. Afegeixes els moviments a mà o important notificacions bancàries."
+   },
+   {
+    "title": "Dades no recopilades",
+    "text": "Sense anuncis, sense analítiques i sense rastreig. L'etiqueta de privadesa de l'App Store ho certifica."
+   },
+   {
+    "title": "Protegit amb Face ID",
+    "text": "Sincronitza amb el teu propi iCloud i bloqueja l'accés amb Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Petita app, gran abast.",
+  "items": [
+   {
+    "value": 44,
+    "label": "idiomes"
+   },
+   {
+    "value": 175,
+    "label": "països i regions"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "temes"
+   },
+   {
+    "value": 0,
+    "label": "bytes recopilats de les teves dades"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Preguntes freqüents",
+  "items": [
+   {
+    "q": "Spendry és gratuïta?",
+    "a": "Sí. Les funcions bàsiques són gratuïtes. La versió Premium s'ofereix mensual, anual o de compra vitalícia única, i les subscripcions comencen amb una setmana de prova gratuïta."
+   },
+   {
+    "q": "Spendry es connecta al meu banc?",
+    "a": "No. Mai et demanarà dades d'accés bancari. Afegeixes els apunts manualment o els importes des de missatges del banc o automatitzacions de Dreceres."
+   },
+   {
+    "q": "On es guarden les meves dades?",
+    "a": "Al teu iPhone i al teu propi compte d'iCloud. Els registres mai s'envien als servidors de Spendry, de manera que ningú més pot veure'ls."
+   },
+   {
+    "q": "Com funciona el pla per pagar deutes?",
+    "a": "Afegeix els teus deutes amb el saldo i els interessos. Spendry els ordena amb el mètode de la bola de neu o de l'allau, hi suma el que puguis aportar de més cada mes i et calcula la data final exacta."
+   },
+   {
+    "q": "Puc compartir un pressupost en parella o en família?",
+    "a": "Sí. Els pressupostos compartits i els objectius es sincronitzen mitjançant iCloud, i cadascú utilitza el seu propi compte d'Apple Account."
+   },
+   {
+    "q": "Amb quins dispositius és compatible?",
+    "a": "Amb iPhone i iPad amb iOS 17 o posterior, amb compatibilitat per a widgets, Siri i Dreceres."
+   },
+   {
+    "q": "Quins idiomes i monedes admet?",
+    "a": "44 idiomes i les principals divises mundials. Les inversions i els comptes en moneda estrangera poden conservar la seva pròpia divisa."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Eines gratuïtes",
+  "title": "Fes els càlculs al teu navegador.",
+  "text": "Els càlculs es processen directament al teu dispositiu. Res no s'envia a cap servidor."
+ },
+ "final": {
+  "eyebrow": "Spendry per a l'iPhone",
+  "title": "Comença avui. És de franc.",
+  "text": "Descarrega Spendry i descobreix en pocs minuts el dia que t'alliberaràs dels deutes.",
+  "qr": "Escaneja amb la càmera de l'iPhone"
+ },
+ "footer": {
+  "tagline": "Pressupostos i control de deutes per a l'iPhone.",
+  "privacy_policy": "Política de privadesa",
+  "terms": "Condicions del servei",
+  "support": "Suport",
+  "tools": "Eines gratuïtes",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay i App Store són marques comercials d'Apple Inc.",
+  "legal": "Avís legal"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Calculadora de deutes: bola de neu vs allau",
+  "h1": "Calculadora per amortitzar deutes",
+  "description": "Calculadora gratuïta de deutes: compara la bola de neu i l'allau. Consulta quan acabaràs de pagar i els interessos totals sense registrar-te.",
+  "lead": "Introdueix els teus deutes i el que puguis pagar de més cada mes. Compara costat a costat el mes que pagaràs l'últim cèntim i el total d'interessos amb la bola de neu o l'allau.",
+  "name": "Deute",
+  "balance": "Saldo pendent",
+  "rate": "TAE %",
+  "minimum": "Quota mínima",
+  "add": "Afegeix un deute",
+  "remove": "Elimina",
+  "extra": "Pagament extra cada mes",
+  "order": "Ordre d'amortització",
+  "free_in": "Sense deutes el",
+  "interest": "Interessos totals",
+  "faster": "Més ràpid",
+  "cheaper": "Menys interessos",
+  "same": "Tots dos mètodes donen el mateix resultat amb aquestes xifres.",
+  "stuck": "Aquests pagaments no amortitzen el deute: no cobreixen els interessos. Augmenta la quantitat extra.",
+  "sample": [
+   "Targeta de crèdit",
+   "Préstec del cotxe",
+   "Targeta botiga",
+   "Factura mèdica"
+  ],
+  "note": "Deutes d'exemple; substitueix-los pels teus. Tipus d'interès considerats fixos, sense comissions.",
+  "prose": [
+   [
+    "Bola de neu o allau?",
+    "Amb el mètode de la bola de neu liquides primer el saldo més petit. El primer deute desapareix de pressa i la seva quota s'afegeix al següent, fet que ajuda a mantenir la motivació alta. Amb el mètode de l'allau attaques abans el deute amb el tipus d'interès més elevat, cosa que sol estalviar més diners en interessos globals, encara que trigaràs més a tancar el primer."
+   ],
+   [
+    "Com funciona la calculadora",
+    "Cada mes cada deute rep la seva quota mínima. La quantitat extra es destina al primer deute de la llista, i un cop liquidat, el seu import s'acumula al següent. Tots dos mètodes fan servir el mateix pressupost mensual, de manera que la diferència rau únicament en l'ordre de prioritat."
+   ],
+   [
+    "Mantingues el teu pla al dia",
+    "Els saldos canvien mes a mes. Spendry fa el seguiment de les teves targetes, préstecs i factures, manté actualitzat el pla de bola de neu o allau i t'avisa abans del venciment de cada quota."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Calculadora de pressupost 50/30/20",
+  "h1": "Calculadora de pressupost 50/30/20",
+  "description": "Calculadora gratuïta de la regla 50/30/20: divideix els teus ingressos nets en necessitats, capricis i estalvi o deutes en segons.",
+  "lead": "Indica els teus ingressos mensuals nets. El cinquanta per cent es destina a necessitats, el trenta a desitjos personals i el vint a estalvi i pagament de deutes.",
+  "income": "Ingressos nets mensuals",
+  "needs": "Necessitats",
+  "needs_hint": "Lloguer, factures, alimentació, transport",
+  "wants": "Capricis",
+  "wants_hint": "Restaurants, compres, viatges",
+  "save": "Estalvi i deutes",
+  "save_hint": "Objectius d'estalvi i quotes extres",
+  "prose": [
+   [
+    "Què és la regla 50/30/20?",
+    "És una manera molt senzilla d'estructurar un pressupost. La meitat dels teus ingressos nets cobreix allò obligatori, un trenta per cent és per a despeses personals que tries fer, i el vint per cent restant es dedica a estalviar o liquidar deutes pendents."
+   ],
+   [
+    "Quan convé ajustar les xifres",
+    "Si només el lloguer ja s'emporta la meitat del que guanyes, la regla serveix de guia inicial, no pas d'obligació estricta. Modifica els percentatges per adaptar-los a la teva realitat i prioritza pagar primer els deutes amb interessos alts."
+   ],
+   [
+    "Fes-ho automàtic",
+    "A Spendry cada categoria té un pressupost mensual que es va omplint a mesura que gastes, amb alertes preventives abans de sobrepassar el límit."
+   ]
+  ]
+ }
+}

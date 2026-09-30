@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Buget, achitare datorii și mementouri pe iPhone",
+  "description": "Află data când scapi de datorii, ține evidența cardurilor, creditelor și facturilor. Primești memento la scadență. Fără acces bancar. Gratuit pe iPhone și iPad.",
+  "og_title": "Spendry: află data la care vei scăpa de datorii",
+  "og_alt": "Widgeturi Spendry pentru bugete, obiective și plăți viitoare"
+ },
+ "nav": {
+  "features": "Funcționalități",
+  "lab": "Achitare datorii",
+  "privacy": "Confidențialitate",
+  "tools": "Instrumente",
+  "download": "Descarcă",
+  "skip": "Sari la conținut",
+  "language": "Limbă",
+  "menu": "Meniu",
+  "close": "Închide",
+  "top": "Sus"
+ },
+ "cta": {
+  "download": "Descărcați de pe App Store",
+  "free": "Gratuit pe iPhone și iPad",
+  "requirements": "Necesită iOS 17 sau o versiune ulterioară",
+  "trial": "Abonamentul Premium începe cu o săptămână gratuită"
+ },
+ "hero": {
+  "eyebrow": "Buget și achitare datorii pentru iPhone",
+  "title_1": "Carduri, credite, facturi.",
+  "title_2": "Toate într-un singur loc.",
+  "lead": "Spendry îți arată când se încheie perioada de grație, când se termină fiecare rată și data la care vei scăpa de datorii. Primești memento înainte de orice scadență. Fără acces bancar.",
+  "secondary": "Vezi cum funcționează",
+  "chips": [
+   "Fără acces bancar",
+   "Nu colectăm date",
+   "44 de limbi"
+  ],
+  "scroll": "Derulează"
+ },
+ "story": [
+  {
+   "title": "Luna ta dintr-o privire.",
+   "text": "Sold, venituri, cheltuieli și ce urmează să plătești, din clipa în care deschizi aplicația."
+  },
+  {
+   "title": "Fiecare datorie, o sumă.",
+   "text": "Carduri, credite, overdraft și bani împrumutați, plus luna exactă în care vei scăpa de toate."
+  },
+  {
+   "title": "Nimic nu îți scapă.",
+   "text": "Un memento înainte de fiecare scadență la card, factură sau abonament, chiar dacă aplicația rămâne închisă."
+  }
+ ],
+ "statement": "Cele mai multe aplicații îți arată unde s-au dus banii. Spendry îți arată *când pleacă* și *când vei fi liber*.",
+ "orbit": {
+  "eyebrow": "Toate la un loc",
+  "title": "Tot ce îți pune banii în mișcare.",
+  "text": "Carduri de credit, rate, credite, abonamente, bugete, obiective și investiții. O singură aplicație, o imagine clară."
+ },
+ "features": {
+  "eyebrow": "Funcționalități",
+  "title": "Gândit pentru întreaga lună.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Bugete ținute sub control",
+    "text": "Setează o limită pentru fiecare categorie și vezi cum se umple pe măsură ce cheltui."
+   },
+   {
+    "key": "goals",
+    "title": "Obiective ușor de urmărit",
+    "text": "Economisește pentru ce contează și vezi zilnic cât de aproape ești de țintă."
+   },
+   {
+    "key": "stats",
+    "title": "Unde se duc banii",
+    "text": "Grafice săptămânale și lunare, organizate pe categorii și pe zile."
+   },
+   {
+    "key": "add",
+    "title": "Adaugi în câteva secunde",
+    "text": "Scrii suma, alegi categoria, gata. Sau folosește funcția Scanează chitanța."
+   },
+   {
+    "key": "invest",
+    "title": "Investiții în timp real",
+    "text": "Acțiuni, criptomonede, aur și valute cu prețuri live, chiar lângă cheltuielile tale."
+   },
+   {
+    "key": "themes",
+    "title": "Exact pe gustul tău",
+    "text": "Peste cincizeci de teme vizuale, în mod luminos sau întunecat."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Aplicația",
+  "title": "Fiecare ecran, pe limba ta.",
+  "text": "Spendry funcționează în 44 de limbi, cu moneda ta și formatul tău numeric.",
+  "hint": "Trage pentru a roti"
+ },
+ "lab": {
+  "eyebrow": "Achitare datorii",
+  "title": "Cât de repede poți scăpa de datorii?",
+  "text": "Trage de glisor și vezi cum se schimbă luna. Spendry face asta cu datoriile tale reale și ține planul actualizat.",
+  "extra": "Sumă în plus lunar",
+  "method_hint_snowball": "Cel mai mic sold mai întâi",
+  "method_hint_avalanche": "Cea mai mare dobândă mai întâi",
+  "free_in": "Scapi de datorii în",
+  "interest": "Total dobânzi",
+  "saved": "Economisești",
+  "debts": [
+   "Card de credit",
+   "Credit auto",
+   "Card magazin",
+   "Prieten"
+  ],
+  "note": "Datorii demonstrative. În aplicație planul folosește datoriile tale reale.",
+  "cta": "Deschide calculatorul complet",
+  "rates_note": "Dobânzile exemplificate sunt anuale.",
+  "sooner": "Mai repede",
+  "minimums": "Doar plățile minime",
+  "with_plan": "Cu plăți suplimentare",
+  "method": "Metodă"
+ },
+ "reminders": {
+  "eyebrow": "Mementouri",
+  "title": "Mementouri care sosesc la timp.",
+  "text": "Chiar dacă nu deschizi aplicația niciodată. Amână o notificare sau marcheaz-o plătită direct din ea.",
+  "days_left": "zile rămase",
+  "local_note": "",
+  "samples": {
+   "card": "Card cumpărături",
+   "loan": "Credit auto",
+   "budget": "Supermarket",
+   "store": "Card magazin"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgeturi",
+  "title": "Banii tăi pe ecranul principal.",
+  "text": "Soldul, bugetele, obiectivele și plățile viitoare dintr-o privire. Folosește Adaugă cheltuială fără să deschizi aplicația."
+ },
+ "automations": {
+  "eyebrow": "Siri și Scurtături",
+  "title": "Lasă totul să meargă de la sine.",
+  "text": "Întreab-o pe Siri cât ai cheltuit, adaugă sume prin voce și activează automatizări gata făcute în aplicația Scurtături.",
+  "flows": [
+   [
+    "Plătești cu Apple Pay",
+    "Spendry înregistrează plata",
+    "Bugetul tău este la zi"
+   ],
+   [
+    "În fiecare dimineață",
+    "Spendry verifică plățile scadente",
+    "Următoarele trei zile, într-o singură notificare"
+   ],
+   [
+    "Duminică seara",
+    "Spendry face bilanțul săptămânii",
+    "Un scurt raport de cheltuieli"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Confidențialitate",
+  "title": "Banii tăi rămân doar ai tăi.",
+  "text": "Fără cont bancar conectat, fără profil creat, fără urmărire. Datele tale rămân pe iPhone și în contul tău personal iCloud.",
+  "badge": "Date necolectate",
+  "pillars": [
+   {
+    "title": "Fără acces bancar",
+    "text": "Spendry nu se conectează niciodată la banca ta. Adaugi manual sau imporți din mesajele băncii."
+   },
+   {
+    "title": "Date necolectate",
+    "text": "Fără reclame, fără analitice, fără urmărire. Eticheta de confidențialitate din App Store confirmă asta."
+   },
+   {
+    "title": "Protejat cu Face ID",
+    "text": "Sincronizezi prin propriul iCloud și securizezi aplicația prin Blocare aplicație cu Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Aplicație mică, impact uriaș.",
+  "items": [
+   {
+    "value": 44,
+    "label": "de limbi"
+   },
+   {
+    "value": 175,
+    "label": "de țări și regiuni"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "de teme"
+   },
+   {
+    "value": 0,
+    "label": "octeți colectați din datele tale"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Întrebări frecvente",
+  "items": [
+   {
+    "q": "Spendry este gratuită?",
+    "a": "Da. Funcționalitățile de bază sunt gratuite. Varianta Premium este disponibilă lunar, anual sau printr-o achiziție unică pe viață, iar abonamentele încep cu o săptămână gratuită."
+   },
+   {
+    "q": "Se conectează Spendry la banca mea?",
+    "a": "Nu. Nu îți cere niciodată datele de conectare bancară. Adaugi tranzacțiile manual sau le imporți din mesajele primite de la bancă și automatizări prin Scurtături."
+   },
+   {
+    "q": "Unde sunt stocate datele mele?",
+    "a": "Pe dispozitivul tău iPhone și în propriul cont iCloud. Înregistrările tale nu ajung niciodată pe serverele Spendry, așa că noi nu le putem vedea."
+   },
+   {
+    "q": "Cum funcționează planul de achitare a datoriilor?",
+    "a": "Introduci datoriile cu soldul și dobânda fiecăreia. Spendry le ordonează prin metoda Bulgăre de zăpadă sau Avalanșă, adaugă suma suplimentară pe care o poți plăti lunar și îți arată Data la care vei scăpa de datorii."
+   },
+   {
+    "q": "Pot împărți un buget cu partenerul sau familia?",
+    "a": "Da. Funcția Buget comun și obiectivele se sincronizează prin iCloud, iar fiecare persoană își folosește propriul Apple Account."
+   },
+   {
+    "q": "Pe ce dispozitive funcționează?",
+    "a": "Pe iPhone și iPad cu iOS 17 sau o versiune ulterioară, cu suport complet pentru widgeturi, Siri și Scurtături."
+   },
+   {
+    "q": "Ce limbi și monede sunt acceptate?",
+    "a": "44 de limbi și toate monedele principale. Secțiunea Investiții și conturile în valută își pot păstra propria monedă."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Instrumente gratuite",
+  "title": "Fă calculele direct în browser.",
+  "text": "Calculele rulează direct pe dispozitivul tău. Nimic nu este trimis pe vreun server."
+ },
+ "final": {
+  "eyebrow": "Spendry pentru iPhone",
+  "title": "Începe azi. Este gratuit.",
+  "text": "Descarcă Spendry și află în câteva minute data exactă când vei scăpa de datorii.",
+  "qr": "Scanează cu camera de pe iPhone"
+ },
+ "footer": {
+  "tagline": "Buget și achitare datorii pentru iPhone.",
+  "privacy_policy": "Politica de confidențialitate",
+  "terms": "Termeni și condiții",
+  "support": "Asistență",
+  "tools": "Instrumente gratuite",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay și App Store sunt mărci comerciale ale Apple Inc.",
+  "legal": "Informații legale"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Calculator achitare datorii: Bulgăre vs Avalanșă",
+  "h1": "Calculator pentru achitarea datoriilor",
+  "description": "Calculator gratuit: compară metodele Bulgăre de zăpadă și Avalanșă, află luna în care scapi de datorii și dobânda totală. Fără cont.",
+  "lead": "Introdu datoriile și suma pe care o poți achita lunar peste plata minimă. Compară metodele Bulgăre de zăpadă și Avalanșă pentru a vedea data finală și costul total al dobânzilor.",
+  "name": "Datorie",
+  "balance": "Sold rămas",
+  "rate": "DAE %",
+  "minimum": "Plată minimă",
+  "add": "Adaugă o datorie",
+  "remove": "Șterge",
+  "extra": "Plată suplimentară în fiecare lună",
+  "order": "Ordinea de plată",
+  "free_in": "Scapi de datorii în",
+  "interest": "Total dobânzi",
+  "faster": "Mai rapid",
+  "cheaper": "Dobândă mai mică",
+  "same": "Ambele metode oferă același rezultat pentru aceste valori.",
+  "stuck": "Aceste plăți nu sting datoria: nu acoperă nici dobânda. Mărește plata suplimentară.",
+  "sample": [
+   "Card de credit",
+   "Credit auto",
+   "Card magazin",
+   "Cheltuieli medicale"
+  ],
+  "note": "Datorii demonstrative: înlocuiește-le cu ale tale. Dobânzile sunt considerate fixe, comisioanele nu sunt incluse.",
+  "prose": [
+   [
+    "Bulgăre de zăpadă sau avalanșă?",
+    "Prin metoda Bulgăre de zăpadă achiți mai întâi cel mai mic sold. Prima datorie dispare rapid, iar rata ei se transferă către următoarea, menținându-ți motivația ridicată. Prin metoda Avalanșă achiți mai întâi datoria cu cea mai mare dobândă, ceea ce reduce costul total al dobânzilor, chiar dacă închiderea primei datorii poate dura mai mult."
+   ],
+   [
+    "Cum funcționează calculatorul",
+    "În fiecare lună, fiecare datorie primește plata minimă. Suma suplimentară merge către prima datorie din listă, iar plata unei datorii stinse este transferată automat către următoarea. Ambele metode folosesc același buget lunar, singura diferență fiind ordinea achitării."
+   ],
+   [
+    "Păstrează planul actualizat",
+    "Soldurile se modifică lună de lună. Spendry ține evidența cardurilor, creditelor și facturilor tale, menține la zi planul tău prin metoda bulgărelui sau a avalanșei și îți trimite un memento înainte de fiecare scadență."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Calculator de buget 50/30/20",
+  "h1": "Calculator de buget 50/30/20",
+  "description": "Calculator gratuit 50/30/20: împarte venitul lunar net în nevoi, dorințe, economii sau datorii în doar câteva secunde.",
+  "lead": "Introdu venitul tău lunar net. Jumătate merge către nevoi, treizeci la sută către dorințe, iar douăzeci la sută către economii și achitarea datoriilor.",
+  "income": "Venit lunar net",
+  "needs": "Nevoi",
+  "needs_hint": "Chirie, facturi, alimente, transport",
+  "wants": "Dorințe",
+  "wants_hint": "Restaurante, cumpărături, călătorii",
+  "save": "Economii și datorii",
+  "save_hint": "Obiective de economisire și plăți extra",
+  "prose": [
+   [
+    "Ce este regula 50/30/20?",
+    "Este o metodă simplă pentru a începe organizarea banilor. Cincizeci la sută din venitul net acoperă cheltuielile obligatorii, treizeci la sută lucrurile pe care le alegi pentru tine, iar douăzeci la sută merg către economii și stingerea datoriilor."
+   ],
+   [
+    "Când ar trebui să adaptezi procentele",
+    "Dacă doar chiria consumă jumătate din venit, regula reprezintă doar un punct de plecare, nu o sentință. Ajustează procentele după realitatea ta și achită mai întâi datoriile cu dobândă mare."
+   ],
+   [
+    "Fă totul automat",
+    "În Spendry, fiecare categorie primește un buget lunar care se completează pe măsură ce cheltui, cu alerte înainte de a depăși limita."
+   ]
+  ]
+ }
+}

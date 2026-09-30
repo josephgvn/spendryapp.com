@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry : budget et suivi de dettes pour iPhone",
+  "description": "Voyez le jour où vous n'aurez plus de dettes. Suivez cartes, prêts et factures avec rappels sans lier votre banque. Gratuit sur iPhone et iPad.",
+  "og_title": "Spendry : votre libération des dettes",
+  "og_alt": "Widgets Spendry pour les budgets, objectifs et paiements à venir"
+ },
+ "nav": {
+  "features": "Fonctionnalités",
+  "lab": "Dettes",
+  "privacy": "Confidentialité",
+  "tools": "Outils gratuits",
+  "download": "Télécharger",
+  "skip": "Aller au contenu",
+  "language": "Langue",
+  "menu": "Menu",
+  "close": "Fermer",
+  "top": "Haut de page"
+ },
+ "cta": {
+  "download": "Télécharger dans l'App Store",
+  "free": "Gratuit sur iPhone et iPad",
+  "requirements": "Nécessite iOS 17 ou une version ultérieure",
+  "trial": "Essai gratuit d'une semaine avec Premium"
+ },
+ "hero": {
+  "eyebrow": "Budget et dettes sur iPhone",
+  "title_1": "Cartes, prêts et factures.",
+  "title_2": "En toute sérénité.",
+  "lead": "Spendry affiche la fin de vos relevés, l'échéance de vos mensualités et le jour exact où vous n'aurez plus de dettes. Recevez un rappel avant chaque date limite. Sans accès bancaire requis.",
+  "secondary": "Découvrir l'app",
+  "chips": [
+   "Sans accès bancaire",
+   "Données non recueillies",
+   "44 langues"
+  ],
+  "scroll": "Défiler"
+ },
+ "story": [
+  {
+   "title": "Votre mois en un coup d'œil.",
+   "text": "Solde, revenus, dépenses et paiements à venir, dès l'ouverture de l'app."
+  },
+  {
+   "title": "Chaque dette en un chiffre.",
+   "text": "Cartes, prêts, découverts et prêts entre proches, avec le mois où tout sera payé."
+  },
+  {
+   "title": "Aucun oubli.",
+   "text": "Un rappel avant l'échéance de chaque carte, facture et abonnement, même l'app fermée."
+  }
+ ],
+ "statement": "La plupart des apps montrent où est allé votre argent. Spendry montre *quand il part* et *quand vous serez libéré*.",
+ "orbit": {
+  "eyebrow": "Tout au même endroit",
+  "title": "Toutes vos finances réunies.",
+  "text": "Cartes de crédit, mensualités, prêts, abonnements, budgets, objectifs et investissements. Une seule app pour une vue d'ensemble claire."
+ },
+ "features": {
+  "eyebrow": "Fonctionnalités",
+  "title": "Pensé pour le mois entier.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Budgets en temps réel",
+    "text": "Fixez une limite par catégorie et suivez son évolution en temps réel."
+   },
+   {
+    "key": "goals",
+    "title": "Objectifs visibles",
+    "text": "Épargnez pour vos projets et voyez vos progrès chaque jour."
+   },
+   {
+    "key": "stats",
+    "title": "Vos dépenses analysées",
+    "text": "Graphiques hebdomadaires et mensuels, par catégorie et par jour."
+   },
+   {
+    "key": "add",
+    "title": "Ajout en quelques secondes",
+    "text": "Entrez le montant, choisissez la catégorie et voilà. Ou utilisez Scanner le reçu."
+   },
+   {
+    "key": "invest",
+    "title": "Investissements en direct",
+    "text": "Actions, cryptos, métaux et devises en direct, à côté de vos dépenses."
+   },
+   {
+    "key": "themes",
+    "title": "Personnalisation totale",
+    "text": "Plus de cinquante thèmes au choix, en mode clair ou sombre."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "L'application",
+  "title": "Chaque écran dans votre langue.",
+  "text": "Spendry est disponible en 44 langues, avec votre devise et vos formats de chiffres locaux.",
+  "hint": "Glisser pour tourner"
+ },
+ "lab": {
+  "eyebrow": "Dettes",
+  "title": "Quand serez-vous libéré de vos dettes?",
+  "text": "Déplacez le curseur et voyez le mois s'ajuster. Spendry calcule le tout avec vos vraies dettes et maintient votre plan à jour.",
+  "extra": "Montant de plus par mois",
+  "method_hint_snowball": "Plus petit solde d'abord",
+  "method_hint_avalanche": "Taux le plus haut d'abord",
+  "free_in": "Libéré des dettes en",
+  "interest": "Intérêts totaux",
+  "saved": "Économies",
+  "debts": [
+   "Carte de crédit",
+   "Prêt auto",
+   "Carte de magasin",
+   "Prêt d'un ami"
+  ],
+  "note": "Exemples fictifs. Dans l'application, le plan utilise vos propres données.",
+  "cta": "Ouvrir la calculatrice complète",
+  "rates_note": "Les taux donnés en exemple sont annuels.",
+  "sooner": "Plus rapide",
+  "minimums": "Paiements minimums seulement",
+  "with_plan": "Avec paiements de plus",
+  "method": "Méthode"
+ },
+ "reminders": {
+  "eyebrow": "Rappels",
+  "title": "Des rappels qui arrivent à temps.",
+  "text": "Même sans ouvrir l'application. Reportez un rappel ou cochez un paiement réglé directement depuis la notification.",
+  "days_left": "jours restants",
+  "local_note": "",
+  "samples": {
+   "card": "Carte Récompenses",
+   "loan": "Prêt auto",
+   "budget": "Épicerie",
+   "store": "Carte du magasin"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgets",
+  "title": "Vos finances sur l'écran d'accueil.",
+  "text": "Solde, budgets, objectifs et prochains paiements en un coup d'œil. Utilisez Ajouter une dépense sans même ouvrir l'app."
+ },
+ "automations": {
+  "eyebrow": "Siri et Raccourcis",
+  "title": "Laissez faire la routine.",
+  "text": "Demandez vos dépenses à Siri, ajoutez des montants à la voix et activez des automatisations prêtes à l'emploi dans l'app Raccourcis.",
+  "flows": [
+   [
+    "Vous payez avec Apple Pay",
+    "Spendry enregistre la dépense",
+    "Votre budget se met à jour"
+   ],
+   [
+    "Chaque matin",
+    "Spendry vérifie les échéances",
+    "Les trois prochains jours en un rappel"
+   ],
+   [
+    "Le dimanche soir",
+    "Spendry fait le bilan de la semaine",
+    "Un rapport concis de vos dépenses"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Confidentialité",
+  "title": "Votre argent reste privé.",
+  "text": "Aucun identifiant bancaire, aucun compte, aucun suivi. Vos données restent sur votre iPhone et dans votre propre iCloud.",
+  "badge": "Données non recueillies",
+  "pillars": [
+   {
+    "title": "Sans accès bancaire",
+    "text": "Spendry ne se connecte jamais à votre banque. Entrez vos dépenses manuellement ou importez-les depuis vos avis bancaires."
+   },
+   {
+    "title": "Données non recueillies",
+    "text": "Aucune publicité, aucune mesure d'audience, aucun pistage. L'étiquette de confidentialité de l'App Store le garantit."
+   },
+   {
+    "title": "Verrouillé avec Face ID",
+    "text": "Synchronisez via votre compte iCloud personnel et protégez l'accès grâce au Verrouillage de l'application avec Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Petite app, vaste portée.",
+  "items": [
+   {
+    "value": 44,
+    "label": "langues"
+   },
+   {
+    "value": 175,
+    "label": "pays et régions"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "thèmes"
+   },
+   {
+    "value": 0,
+    "label": "octet de données recueilli"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Questions",
+  "items": [
+   {
+    "q": "Spendry est-elle gratuite?",
+    "a": "Oui. Les fonctionnalités de base sont gratuites. L'abonnement Premium est offert au mois, à l'année ou à vie en achat unique, avec une première semaine d'essai gratuite."
+   },
+   {
+    "q": "Spendry se connecte-t-elle à ma banque?",
+    "a": "Non. L'application ne vous demandera jamais vos identifiants bancaires. Vous ajoutez vos transactions vous-même, ou par l'app Raccourcis et vos avis bancaires."
+   },
+   {
+    "q": "Où sont stockées mes données?",
+    "a": "Sur votre iPhone et dans votre propre compte iCloud. Vos dossiers ne passent jamais par les serveurs de Spendry, nous ne pouvons donc rien voir."
+   },
+   {
+    "q": "Comment fonctionne le plan de remboursement?",
+    "a": "Ajoutez vos dettes avec soldes et taux d'intérêt. Spendry les ordonne selon la méthode Boule de neige ou Avalanche, calcule vos versements de plus et indique Votre date de libération des dettes."
+   },
+   {
+    "q": "Puis-je partager un budget avec mon ou ma partenaire?",
+    "a": "Oui. La fonction Budget partagé synchronise vos données via iCloud, chacun utilisant son propre Apple Account."
+   },
+   {
+    "q": "Sur quels appareils fonctionne l'application?",
+    "a": "Sur iPhone et iPad avec iOS 17 ou une version ultérieure, avec prise en charge des widgets, de Siri et de l'app Raccourcis."
+   },
+   {
+    "q": "Quelles sont les langues et devises prises en charge?",
+    "a": "44 langues et les principales devises. Vos investissements et vos comptes en monnaie étrangère peuvent conserver leur propre devise."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Outils gratuits",
+  "title": "Faites les calculs dans votre navigateur.",
+  "text": "Les calculs s'exécutent sur votre appareil. Aucune donnée n'est envoyée ailleurs."
+ },
+ "final": {
+  "eyebrow": "Spendry pour iPhone",
+  "title": "Commencez dès aujourd'hui.",
+  "text": "Téléchargez Spendry et voyez en quelques minutes quand vous n'aurez plus aucune dette.",
+  "qr": "Scannez avec l'appareil photo de votre iPhone"
+ },
+ "footer": {
+  "tagline": "Budget et remboursement de dettes pour iPhone.",
+  "privacy_policy": "Politique de confidentialité",
+  "terms": "Conditions d'utilisation",
+  "support": "Soutien",
+  "tools": "Outils gratuits",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay et App Store sont des marques de commerce d'Apple Inc.",
+  "legal": "Mentions légales"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Calculatrice de dettes : boule de neige ou avalanche",
+  "h1": "Calculatrice de remboursement de dettes",
+  "description": "Calculatrice gratuite : comparez les méthodes boule de neige et avalanche. Voyez quand vous serez libéré de vos dettes et les intérêts payés. Sans inscription.",
+  "lead": "Entrez vos dettes et le montant que vous pouvez verser de plus chaque mois. Comparez côte à côte les méthodes Boule de neige et Avalanche pour voir votre date finale et les intérêts sauvés.",
+  "name": "Dette",
+  "balance": "Solde",
+  "rate": "Taux annuel %",
+  "minimum": "Paiement minimum",
+  "add": "Ajouter une dette",
+  "remove": "Supprimer",
+  "extra": "Paiement de plus par mois",
+  "order": "Ordre de paiement",
+  "free_in": "Libéré des dettes en",
+  "interest": "Intérêts totaux",
+  "faster": "Plus rapide",
+  "cheaper": "Moins d'intérêts",
+  "same": "Les deux méthodes donnent le même résultat avec ces montants.",
+  "stuck": "Ces paiements ne suffisent pas à rembourser la dette : ils ne couvrent pas les intérêts. Augmentez le paiement de plus.",
+  "sample": [
+   "Carte de crédit",
+   "Prêt auto",
+   "Carte de magasin",
+   "Compte médical"
+  ],
+  "note": "Dettes fictives : remplacez-les par les vôtres. Les taux sont fixes et les frais divers ne sont pas inclus.",
+  "prose": [
+   [
+    "Boule de neige ou avalanche?",
+    "Avec la méthode Boule de neige, vous remboursez le plus petit solde en premier. La première dette disparaît vite et sa mensualité s'ajoute à la suivante, ce qui aide à garder sa motivation. Avec la méthode Avalanche, vous ciblez le taux le plus élevé en premier. Vous économisez généralement plus d'intérêts, même si le premier remboursement prend plus de temps."
+   ],
+   [
+    "Comment fonctionne la calculatrice",
+    "Chaque mois, chaque dette reçoit son paiement minimum. Le montant de plus va à la dette prioritaire. Dès qu'une dette est réglée, la somme totale est reportée sur la suivante. Les deux approches emploient le même budget mensuel total, seul l'ordre de priorité change."
+   ],
+   [
+    "Gardez votre plan à jour",
+    "Les soldes changent chaque mois. Spendry suit vos cartes de crédit, prêts et factures, actualise votre stratégie Boule de neige ou Avalanche et vous rappelle chaque paiement avant l'échéance."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Calculatrice de budget 50/30/20",
+  "h1": "Calculatrice de budget 50/30/20",
+  "description": "Calculatrice de budget 50/30/20 gratuite : répartissez votre revenu net mensuel entre besoins, envies, épargne et remboursement de dettes en quelques secondes.",
+  "lead": "Entrez votre revenu net mensuel. La moitié pour vos besoins vitaux, trente pour cent pour vos envies et vingt pour cent pour l'épargne et vos dettes.",
+  "income": "Revenu net mensuel",
+  "needs": "Besoins",
+  "needs_hint": "Loyer, factures, épicerie, transport",
+  "wants": "Envies",
+  "wants_hint": "Restaurants, loisirs, sorties, voyages",
+  "save": "Épargne et dettes",
+  "save_hint": "Objectifs d'épargne et paiements de plus",
+  "prose": [
+   [
+    "Qu'est-ce que la règle 50/30/20?",
+    "C'est une façon simple de structurer son budget. Cinquante pour cent de votre revenu net couvre les dépenses incontournables, trente pour cent va aux loisirs et vingt pour cent sert à bâtir votre épargne ou à payer vos dettes."
+   ],
+   [
+    "Quand ajuster ces proportions?",
+    "Si le loyer gruge déjà la moitié de votre paie, cette formule sert de point de départ, pas de règle absolue. Ajustez la répartition selon votre situation et visez en priorité les dettes aux taux les plus élevés."
+   ],
+   [
+    "Passez en mode automatique",
+    "Dans Spendry, chaque catégorie dispose d'un budget mensuel qui se remplit au fil de vos achats, avec une alerte préventive avant de dépasser votre limite."
+   ]
+  ]
+ }
+}

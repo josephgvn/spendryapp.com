@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Budjetit, velkojen maksu ja laskumuistutukset",
+  "description": "Näe velattomuuspäiväsi, seuraa kortteja, lainoja, laskuja ja tilauksia. Saat muistutuksen ennen eräpäivää. Ei pankkitunnuksia. Ilmainen iPhonelle ja iPadille.",
+  "og_title": "Spendry: tiedä velattomuuspäiväsi",
+  "og_alt": "Spendry-widgetit budjeteille, tavoitteille ja tuleville maksuille"
+ },
+ "nav": {
+  "features": "Ominaisuudet",
+  "lab": "Velkojen maksu",
+  "privacy": "Tietosuoja",
+  "tools": "Ilmaiset työkalut",
+  "download": "Lataa",
+  "skip": "Siirry sisältöön",
+  "language": "Kieli",
+  "menu": "Valikko",
+  "close": "Sulje",
+  "top": "Takaisin ylös"
+ },
+ "cta": {
+  "download": "Lataa App Storesta",
+  "free": "Ilmainen iPhonelle ja iPadille",
+  "requirements": "Vaatii iOS 17:n tai uudemman",
+  "trial": "Premium alkaa ilmaisella viikolla"
+ },
+ "hero": {
+  "eyebrow": "Budjetointi ja velkojen maksu iPhonelle",
+  "title_1": "Kaikki kortit ja laskut.",
+  "title_2": "Yhdessä selkeässä paikassa.",
+  "lead": "Spendry näyttää luottokauden päättymisen, osamaksujen keston ja velattomuuspäiväsi. Saat muistutuksen ennen jokaista eräpäivää. Ei pankkitunnuksia.",
+  "secondary": "Katso miten se toimii",
+  "chips": [
+   "Ei pankkitunnuksia",
+   "Tietoja ei kerätä",
+   "44 kieltä"
+  ],
+  "scroll": "Vieritä"
+ },
+ "story": [
+  {
+   "title": "Kuukautesi yhdellä silmäyksellä.",
+   "text": "Saldo, tulot, menot ja tulevat maksut heti, kun avaat sovelluksen."
+  },
+  {
+   "title": "Kaikki velat, yksi luku.",
+   "text": "Kortit, lainat, tilinylitykset ja velat ystäville, sekä kuukausi, jolloin olet täysin vapaa."
+  },
+  {
+   "title": "Mikään ei pääse unohtumaan.",
+   "text": "Muistutus ennen korttien, laskujen ja tilausten eräpäiviä, vaikka sovellus olisi suljettuna."
+  }
+ ],
+ "statement": "Useimmat taloussovellukset näyttävät, mihin rahasi menivät. Spendry näyttää, *milloin ne lähtevät* ja *milloin olet velaton*.",
+ "orbit": {
+  "eyebrow": "Kaikki yhdessä",
+  "title": "Kaikki mikä liikuttaa rahojasi.",
+  "text": "Luottokortit, osamaksut, lainat, tilaukset, budjetit, tavoitteet ja sijoitukset. Yksi sovellus, selkeä kokonaiskuva."
+ },
+ "features": {
+  "eyebrow": "Ominaisuudet",
+  "title": "Rakennettu koko kuukaudelle.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Ajan tasalla pysyvät budjetit",
+    "text": "Aseta kategorialle raja ja seuraa sen täyttymistä, kun kulutat."
+   },
+   {
+    "key": "goals",
+    "title": "Selkeät tavoitteet",
+    "text": "Säästä tärkeisiin asioihin ja näe edistymisesi joka päivä."
+   },
+   {
+    "key": "stats",
+    "title": "Mihin rahat menevät",
+    "text": "Viikko- ja kuukausikaaviot kategorioittain ja päivittäin."
+   },
+   {
+    "key": "add",
+    "title": "Lisää sekunneissa",
+    "text": "Kirjoita summa, valitse kategoria, valmis. Tai skannaa kuitti."
+   },
+   {
+    "key": "invest",
+    "title": "Sijoitukset reaaliajassa",
+    "text": "Osakkeet, krypto, kulta ja valuutat reaaliaikaisin hinnoin menojesi vieressä."
+   },
+   {
+    "key": "themes",
+    "title": "Tee siitä omasi",
+    "text": "Yli viisikymmentä teemaa, vaaleana ja tummana."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Sovellus",
+  "title": "Kaikki näkymät omalla kielelläsi.",
+  "text": "Spendry tukee 44 kieltä sekä omaa valuuttaasi ja numeromuotoasi.",
+  "hint": "Pyöritä vetämällä"
+ },
+ "lab": {
+  "eyebrow": "Velkojen maksu",
+  "title": "Kuinka pian voisit olla velaton?",
+  "text": "Siirrä liukusäädintä ja katso kuukauden muuttuvan. Spendry tekee tämän omilla veloillasi ja pitää suunnitelman ajan tasalla.",
+  "extra": "Ylimääräistä kuukaudessa",
+  "method_hint_snowball": "Pienin saldo ensin",
+  "method_hint_avalanche": "Korkein korko ensin",
+  "free_in": "Velaton:",
+  "interest": "Korot yhteensä",
+  "saved": "Säästät",
+  "debts": [
+   "Luottokortti",
+   "Autolaina",
+   "Klarna-lasku",
+   "Ystävälle"
+  ],
+  "note": "Esimerkkivelat. Sovelluksessa suunnitelma käyttää omia tietojasi.",
+  "cta": "Avaa koko laskin",
+  "rates_note": "Esimerkkikorot ovat vuosikorkoja.",
+  "sooner": "Nopeammin",
+  "minimums": "Vain vähimmäismaksut",
+  "with_plan": "Ylimääräisillä maksuilla",
+  "method": "Menetelmä"
+ },
+ "reminders": {
+  "eyebrow": "Muistutukset",
+  "title": "Muistutukset, jotka saapuvat ajoissa.",
+  "text": "Vaikka et koskaan avaisi sovellusta. Torkuta muistutus tai merkitse se maksetuksi suoraan ilmoituksesta.",
+  "days_left": "päivää jäljellä",
+  "local_note": "",
+  "samples": {
+   "card": "Ostoskottikortti",
+   "loan": "Autolaina",
+   "budget": "Ruokaostokset",
+   "store": "Kanta-asiakastili"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgetit",
+  "title": "Rahasi Koti-valikossa.",
+  "text": "Saldo, budjetit, tavoitteet ja tulevat maksut yhdellä silmäyksellä. Lisää meno avaamatta sovellusta."
+ },
+ "automations": {
+  "eyebrow": "Siri ja Pikakomennot",
+  "title": "Anna sen toimia itsekseen.",
+  "text": "Kysy Siriltä menojasi, lisää kuluja äänellä ja ota käyttöön valmiit automaatiot Pikakomennot-sovelluksessa.",
+  "flows": [
+   [
+    "Maksat käyttäen Apple Payta",
+    "Spendry kirjaa ostoksen",
+    "Budjettisi pysyy ajan tasalla"
+   ],
+   [
+    "Joka aamu",
+    "Spendry tarkistaa erääntyvät",
+    "Seuraavat kolme päivää yhdessä ilmoituksessa"
+   ],
+   [
+    "Sunnuntai-iltana",
+    "Spendry summaa viikkosi",
+    "Lyhyt kulutusraportti"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Tietosuoja",
+  "title": "Rahasi pysyvät ominasi.",
+  "text": "Ei pankkitunnuksia, ei tiliä, ei seurantaa. Tietosi pysyvät iPhonessasi ja omassa iCloudissasi.",
+  "badge": "Tietoja ei kerätä",
+  "pillars": [
+   {
+    "title": "Ei pankkitunnuksia",
+    "text": "Spendry ei koskaan yhdistä pankkiisi. Lisäät tiedot itse tai tuot ne pankin viesteistä."
+   },
+   {
+    "title": "Tietoja ei kerätä",
+    "text": "Ei mainoksia, ei analytiikkaa, ei seurantaa. App Storen tietosuojamerkintä kertoo saman."
+   },
+   {
+    "title": "Lukittu Face ID:llä",
+    "text": "Synkronoi oman iCloudisi kautta ja lukitse sovellus Face ID:llä."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Pieni sovellus, laaja tuki.",
+  "items": [
+   {
+    "value": 44,
+    "label": "kieltä"
+   },
+   {
+    "value": 175,
+    "label": "maata ja aluetta"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "teemaa"
+   },
+   {
+    "value": 0,
+    "label": "tavua tietojasi kerätty"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Usein kysyttyä",
+  "items": [
+   {
+    "q": "Onko Spendry ilmainen?",
+    "a": "Kyllä. Keskeiset ominaisuudet ovat ilmaisia. Premium on saatavilla kuukausi- tai vuositilauksena tai kertamaksulla koko eliniäksi, ja tilaukset alkavat ilmaisella viikolla."
+   },
+   {
+    "q": "Yhdistääkö Spendry pankkiini?",
+    "a": "Ei. Se ei koskaan kysy pankkitunnuksia. Lisäät tiedot itse tai tuot ne pankin viesteistä ja Pikakomennot-automaatioilla."
+   },
+   {
+    "q": "Missä tietoni säilytetään?",
+    "a": "iPhonessasi ja omalla iCloud-tililläsi. Tietojasi ei koskaan lähetetä Spendryn palvelimille, joten emme voi nähdä niitä."
+   },
+   {
+    "q": "Miten velkojen maksusuunnitelma toimii?",
+    "a": "Lisää velkasi, niiden saldot ja korot. Spendry järjestää ne Lumipallo- tai Lumivyöry-menetelmällä, lisää kuukausittaisen lisämaksusi ja näyttää velattomuuspäiväsi."
+   },
+   {
+    "q": "Voinko jakaa budjetin kumppanini tai perheeni kanssa?",
+    "a": "Kyllä. Jaetut budjetit ja tavoitteet synkronoituvat iCloudin kautta, ja jokainen käyttää omaa Apple Accountiaan."
+   },
+   {
+    "q": "Millä laitteilla se toimii?",
+    "a": "iPhonella ja iPadilla, joissa on iOS 17 tai uudempi. Tukee widgettejä, Siriä ja Pikakomennot-sovellusta."
+   },
+   {
+    "q": "Mitä kieliä ja valuuttoja sovellus tukee?",
+    "a": "44 kieltä ja kaikkia yleisimpiä valuuttoja. Sijoitukset ja ulkomaan valuutan tilit voivat käyttää omaa valuuttaansa."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Ilmaiset työkalut",
+  "title": "Kokeile laskutoimituksia selaimessa.",
+  "text": "Laskelmat tehdään suoraan laitteellasi. Mitään tietoja ei lähetetä eteenpäin."
+ },
+ "final": {
+  "eyebrow": "Spendry iPhonelle",
+  "title": "Aloita heti. Se on ilmainen.",
+  "text": "Lataa Spendry ja näe velattomuuspäiväsi muutamassa minuutissa.",
+  "qr": "Skannaa iPhonen kameralla"
+ },
+ "footer": {
+  "tagline": "Budjetointi ja velkojen maksu iPhonelle.",
+  "privacy_policy": "Tietosuojakäytäntö",
+  "terms": "Käyttöehdot",
+  "support": "Tuki",
+  "tools": "Ilmaiset työkalut",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay ja App Store ovat Apple Inc:n tavaramerkkejä.",
+  "legal": "Lakisääteiset tiedot"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Velan maksulaskin: Lumipallo vs Lumivyöry",
+  "h1": "Velkojen maksulaskin",
+  "description": "Ilmainen velan maksulaskin: vertaa lumipallo- ja lumivyörymenetelmiä. Näe velattomuuspäiväsi ja maksettavat korot ilman rekisteröitymistä.",
+  "lead": "Syötä velkasi ja summa, jonka voit maksaa kuukausittain vähimmäismaksujen päälle. Näe velattomuuspäiväsi ja maksettavat kokonaiskorot rinnakkain Lumipallo- ja Lumivyöry-menetelmillä.",
+  "name": "Velka",
+  "balance": "Saldo",
+  "rate": "Todellinen vuosikorko %",
+  "minimum": "Vähimmäismaksu",
+  "add": "Lisää velka",
+  "remove": "Poista",
+  "extra": "Ylimääräinen lyhennys kuukaudessa",
+  "order": "Maksujärjestys",
+  "free_in": "Velaton:",
+  "interest": "Korot yhteensä",
+  "faster": "Nopeampi",
+  "cheaper": "Pienemmät korot",
+  "same": "Molemmat menetelmät antavat saman tuloksen näillä luvuilla.",
+  "stuck": "Nämä maksut eivät koskaan lyhennä velkaa: ne eivät kata korkoja. Nosta ylimääräistä lyhennystä.",
+  "sample": [
+   "Luottokortti",
+   "Autolaina",
+   "Klarna-lasku",
+   "Lääkärilasku"
+  ],
+  "note": "Esimerkkivelat; korvaa ne omillasi. Korot lasketaan kiinteinä, mahdollisia kuluja ei ole huomioitu.",
+  "prose": [
+   [
+    "Lumipallo vai lumivyöry?",
+    "Lumipallomenetelmässä maksat pienimmän saldon ensin pois. Ensimmäinen velka häviää nopeasti ja sen kuukausierä siirtyy seuraavaan, mikä pitää motivaation korkealla. Lumivyörymenetelmässä maksat ensin korkeakorkoisimman velan pois. Tämä säästää yleensä eniten korkokuluissa, vaikka ensimmäisen velan kuittaamiseen voi mennä pidempään."
+   ],
+   [
+    "Miten laskin toimii",
+    "Joka kuukausi kullekin velalle maksetaan sen vähimmäismaksu. Ylimääräinen summa ohjataan järjestyksessä ensimmäiselle velalle, ja maksetun velan lyhennysosa siirtyy seuraavalle. Molemmat menetelmät käyttävät samaa kuukausibudjettia, joten näkemäsi ero johtuu ainoastaan velkojen maksujärjestyksestä."
+   ],
+   [
+    "Pidä suunnitelma ajan tasalla",
+    "Saldot muuttuvat joka kuukausi. Spendry seuraa korttejasi, lainojasi ja laskujasi, pitää lumipallo- tai lumivyörysuunnitelmasi ajan tasalla ja muistuttaa sinua ennen jokaista eräpäivää."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "50/30/20-budjettilaskin",
+  "h1": "50/30/20-budjettilaskin",
+  "description": "Ilmainen 50/30/20-budjettilaskin: jaa kuukausitulosi tarpeisiin, toiveisiin sekä säästöihin ja velkoihin sekunneissa.",
+  "lead": "Syötä kuukausittaiset nettotulosi. Puolet menee välttämättömiin tarpeisiin, kolmekymmentä prosenttia toiveisiin ja kaksikymmentä prosenttia säästöihin sekä velkojen lyhentämiseen.",
+  "income": "Kuukausittaiset nettotulot",
+  "needs": "Tarpeet",
+  "needs_hint": "Vuokra, laskut, ruoka, liikkuminen",
+  "wants": "Toiveet",
+  "wants_hint": "Ravintolat, ostokset, matkat",
+  "save": "Säästöt ja velat",
+  "save_hint": "Säästötavoitteet ja lisälyhennykset",
+  "prose": [
+   [
+    "Mikä on 50/30/20-sääntö?",
+    "Se on yksinkertainen tapa aloittaa budjetointi. Viisikymmentä prosenttia nettotuloistasi kattaa välttämättömät menot, kolmekymmentä prosenttia omat valinnat ja vapaa-ajan, ja kaksikymmentä prosenttia ohjataan säästöihin sekä velkojen maksuun."
+   ],
+   [
+    "Milloin muuttaa lukuja",
+    "Jos pelkkä vuokra vie puolet tuloistasi, sääntö on vain suuntaa-antava aloituspiste. Muuta jakoa elämäntilanteeseesi sopivaksi ja maksa korkeakorkoiset velat ensin."
+   ],
+   [
+    "Tee siitä automaattista",
+    "Spendryssä kukin kategoria saa kuukausibudjetin, joka täyttyy kulutuksesi mukaan, ja saat varoituksen ennen rajan ylittymistä."
+   ]
+  ]
+ }
+}

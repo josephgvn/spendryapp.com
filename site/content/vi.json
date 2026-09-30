@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Ngân sách, trả nợ và nhắc hóa đơn cho iPhone",
+  "description": "Biết ngày bạn hết nợ, quản lý thẻ, khoản vay, hóa đơn và nhận lời nhắc trước hạn. Không cần đăng nhập ngân hàng. Miễn phí trên iPhone và iPad.",
+  "og_title": "Spendry: Biết ngày bạn hết nợ",
+  "og_alt": "Tiện ích Spendry cho ngân sách, mục tiêu và khoản thanh toán sắp tới"
+ },
+ "nav": {
+  "features": "Tính năng",
+  "lab": "Trả nợ",
+  "privacy": "Quyền riêng tư",
+  "tools": "Công cụ miễn phí",
+  "download": "Tải về",
+  "skip": "Chuyển đến nội dung",
+  "language": "Ngôn ngữ",
+  "menu": "Menu",
+  "close": "Đóng",
+  "top": "Lên đầu trang"
+ },
+ "cta": {
+  "download": "Tải về trên App Store",
+  "free": "Miễn phí trên iPhone và iPad",
+  "requirements": "Yêu cầu iOS 17 trở lên",
+  "trial": "Bản Premium bắt đầu với một tuần miễn phí"
+ },
+ "hero": {
+  "eyebrow": "Ngân sách và trả nợ cho iPhone",
+  "title_1": "Mọi thẻ, khoản vay, hóa đơn.",
+  "title_2": "Gọn gàng ở một nơi.",
+  "lead": "Spendry cho biết ngày chốt sao kê, ngày hết hạn trả góp và ngày bạn hết nợ. Ứng dụng nhắc bạn trước hạn thanh toán. Không cần đăng nhập ngân hàng.",
+  "secondary": "Xem cách hoạt động",
+  "chips": [
+   "Không đăng nhập bank",
+   "Dữ liệu không thu thập",
+   "44 ngôn ngữ"
+  ],
+  "scroll": "Cuộn xuống"
+ },
+ "story": [
+  {
+   "title": "Bao quát cả tháng.",
+   "text": "Số dư, thu nhập, chi tiêu và các khoản sắp tới ngay khi bạn mở ứng dụng."
+  },
+  {
+   "title": "Mọi khoản nợ, một con số.",
+   "text": "Thẻ tín dụng, khoản vay, thấu chi và tiền nợ bạn bè, kèm tháng bạn sẽ sạch nợ."
+  },
+  {
+   "title": "Không bỏ lỡ điều gì.",
+   "text": "Nhắc nhở trước hạn thẻ, hóa đơn và gói đăng ký, ngay cả khi bạn không mở app."
+  }
+ ],
+ "statement": "Đa số ứng dụng chỉ cho biết tiền đã đi đâu. Spendry cho bạn biết *khi nào tiền rời ví* và *khi nào bạn hết nợ*.",
+ "orbit": {
+  "eyebrow": "Tất cả trong một",
+  "title": "Mọi dòng tiền của bạn.",
+  "text": "Thẻ tín dụng, trả góp, khoản vay, gói đăng ký, ngân sách, mục tiêu và đầu tư. Một ứng dụng, một bức tranh toàn cảnh."
+ },
+ "features": {
+  "eyebrow": "Tính năng",
+  "title": "Thiết kế cho cả tháng.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Ngân sách linh hoạt",
+    "text": "Đặt hạn mức cho từng danh mục và theo dõi mức chi tiêu tăng dần."
+   },
+   {
+    "key": "goals",
+    "title": "Mục tiêu rõ ràng",
+    "text": "Tiết kiệm cho dự định quan trọng và thấy mục tiêu đến gần hơn mỗi ngày."
+   },
+   {
+    "key": "stats",
+    "title": "Dòng tiền đi về đâu",
+    "text": "Biểu đồ tuần và tháng theo từng danh mục và từng ngày."
+   },
+   {
+    "key": "add",
+    "title": "Thêm trong vài giây",
+    "text": "Nhập số tiền, chọn danh mục là xong. Hoặc chỉ cần quét biên lai."
+   },
+   {
+    "key": "invest",
+    "title": "Đầu tư trực tiếp",
+    "text": "Cổ phiếu, tiền điện tử, vàng và ngoại tệ với giá trực tiếp, ngay cạnh chi tiêu."
+   },
+   {
+    "key": "themes",
+    "title": "Tùy biến theo ý bạn",
+    "text": "Hơn năm mươi giao diện sáng và tối."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Ứng dụng",
+  "title": "Mọi màn hình, bằng tiếng Việt.",
+  "text": "Spendry hỗ trợ 44 ngôn ngữ, cùng đơn vị tiền tệ và định dạng số quen thuộc của bạn.",
+  "hint": "Kéo để xoay"
+ },
+ "lab": {
+  "eyebrow": "Trả nợ",
+  "title": "Bao lâu nữa bạn sẽ hết nợ?",
+  "text": "Kéo thanh trượt và xem tháng hết nợ thay đổi. Spendry tính toán trên nợ thực tế của bạn và luôn cập nhật kế hoạch.",
+  "extra": "Trả thêm mỗi tháng",
+  "method_hint_snowball": "Dư nợ nhỏ nhất trước",
+  "method_hint_avalanche": "Lãi suất cao nhất trước",
+  "free_in": "Sạch nợ sau",
+  "interest": "Tổng tiền lãi",
+  "saved": "Bạn tiết kiệm được",
+  "debts": [
+   "Thẻ tín dụng",
+   "Vay mua xe",
+   "Thẻ trả góp",
+   "Vay bạn bè"
+  ],
+  "note": "Khoản nợ ví dụ. Trong ứng dụng, kế hoạch sẽ dùng số liệu thật của bạn.",
+  "cta": "Mở máy tính đầy đủ",
+  "rates_note": "Lãi suất ví dụ tính theo năm.",
+  "sooner": "Sớm hơn",
+  "minimums": "Chỉ trả mức tối thiểu",
+  "with_plan": "Có trả thêm",
+  "method": "Phương pháp"
+ },
+ "reminders": {
+  "eyebrow": "Nhắc nhở",
+  "title": "Nhắc nhở luôn đúng giờ.",
+  "text": "Kể cả khi bạn không mở app. Bạn có thể hoãn thông báo hoặc đánh dấu đã trả ngay từ lời nhắc.",
+  "days_left": "ngày còn lại",
+  "local_note": "",
+  "samples": {
+   "card": "Thẻ hoàn tiền",
+   "loan": "Khoản vay mua xe",
+   "budget": "Mua sắm",
+   "store": "Thẻ siêu thị"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Tiện ích",
+  "title": "Tài chính trên Màn hình chính.",
+  "text": "Số dư, ngân sách, mục tiêu và các khoản sắp tới ngay trong tầm mắt. Thêm chi phí mà không cần mở ứng dụng."
+ },
+ "automations": {
+  "eyebrow": "Siri và Phím tắt",
+  "title": "Vận hành hoàn toàn tự động.",
+  "text": "Hỏi Siri về mức chi tiêu, ghi nhận chi phí bằng giọng nói và bật các tự động hóa có sẵn trong ứng dụng Phím tắt.",
+  "flows": [
+   [
+    "Bạn thanh toán bằng Apple Pay",
+    "Spendry ghi lại giao dịch",
+    "Ngân sách của bạn được cập nhật"
+   ],
+   [
+    "Mỗi buổi sáng",
+    "Spendry kiểm tra khoản sắp tới hạn",
+    "Ba ngày tới gọn trong một thông báo"
+   ],
+   [
+    "Tối Chủ nhật",
+    "Spendry tổng kết tuần của bạn",
+    "Báo cáo chi tiêu ngắn gọn"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Quyền riêng tư",
+  "title": "Tiền của bạn, dữ liệu của bạn.",
+  "text": "Không đăng nhập ngân hàng, không tài khoản, không theo dõi. Bản ghi của bạn chỉ lưu trên iPhone và iCloud của chính bạn.",
+  "badge": "Dữ liệu không được thu thập",
+  "pillars": [
+   {
+    "title": "Không cần đăng nhập bank",
+    "text": "Spendry không bao giờ kết nối ngân hàng. Bạn tự nhập số liệu hoặc nhập từ tin nhắn ngân hàng."
+   },
+   {
+    "title": "Không thu thập dữ liệu",
+    "text": "Không quảng cáo, không phân tích theo dõi. Nhãn bảo mật trên App Store cam kết điều này."
+   },
+   {
+    "title": "Bảo vệ bằng Face ID",
+    "text": "Đồng bộ qua iCloud cá nhân và bảo mật ứng dụng bằng Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Ứng dụng nhỏ, độ phủ lớn.",
+  "items": [
+   {
+    "value": 44,
+    "label": "ngôn ngữ"
+   },
+   {
+    "value": 175,
+    "label": "quốc gia và khu vực"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "giao diện"
+   },
+   {
+    "value": 0,
+    "label": "byte dữ liệu bị thu thập"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Câu hỏi thường gặp",
+  "items": [
+   {
+    "q": "Spendry có miễn phí không?",
+    "a": "Có. Các tính năng cốt lõi đều miễn phí. Bản Premium có gói tháng, năm hoặc trọn đời, bắt đầu với một tuần dùng thử miễn phí."
+   },
+   {
+    "q": "Spendry có kết nối tài khoản ngân hàng không?",
+    "a": "Không. Ứng dụng không yêu cầu đăng nhập ngân hàng. Bạn tự ghi chép hoặc nhập tự động từ tin nhắn ngân hàng và Phím tắt."
+   },
+   {
+    "q": "Dữ liệu của tôi được lưu ở đâu?",
+    "a": "Dữ liệu nằm trên iPhone và tài khoản iCloud của bạn. Thông tin không bao giờ gửi về máy chủ Spendry nên chúng tôi không thể xem."
+   },
+   {
+    "q": "Kế hoạch trả nợ hoạt động thế nào?",
+    "a": "Nhập các khoản nợ kèm số dư và lãi suất. Spendry sắp xếp theo phương pháp Tuyết lăn (Snowball) hoặc Tuyết lở (Avalanche), cộng thêm phần bạn có thể trả thêm để tính ngày bạn hết nợ."
+   },
+   {
+    "q": "Tôi có thể chia sẻ ngân sách với người thân không?",
+    "a": "Có. Ngân sách chung và mục tiêu được đồng bộ qua iCloud, mỗi người dùng Apple Account của riêng mình."
+   },
+   {
+    "q": "Ứng dụng hỗ trợ thiết bị nào?",
+    "a": "iPhone và iPad chạy iOS 17 trở lên, hỗ trợ tiện ích, Siri và Phím tắt."
+   },
+   {
+    "q": "Ứng dụng hỗ trợ những ngôn ngữ và tiền tệ nào?",
+    "a": "44 ngôn ngữ và mọi loại tiền tệ phổ biến. Các khoản đầu tư và tài khoản ngoại tệ có thể giữ nguyên đơn vị tiền tệ riêng."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Công cụ miễn phí",
+  "title": "Tính toán ngay trên trình duyệt.",
+  "text": "Mọi phép tính diễn ra trên thiết bị của bạn. Không có dữ liệu nào bị gửi đi."
+ },
+ "final": {
+  "eyebrow": "Spendry cho iPhone",
+  "title": "Bắt đầu ngay hôm nay. Miễn phí.",
+  "text": "Tải Spendry và biết ngày bạn hết nợ chỉ sau vài phút.",
+  "qr": "Quét bằng camera iPhone"
+ },
+ "footer": {
+  "tagline": "Ngân sách và trả nợ cho iPhone.",
+  "privacy_policy": "Chính sách quyền riêng tư",
+  "terms": "Điều khoản dịch vụ",
+  "support": "Hỗ trợ",
+  "tools": "Công cụ miễn phí",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay và App Store là thương hiệu của Apple Inc.",
+  "legal": "Pháp lý"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Tính trả nợ: Snowball và Avalanche",
+  "h1": "Công cụ tính kế hoạch trả nợ",
+  "description": "Máy tính trả nợ miễn phí: so sánh phương pháp Tuyết lăn và Tuyết lở, xem ngày sạch nợ và tiền lãi. Không cần đăng ký.",
+  "lead": "Nhập các khoản nợ và số tiền bạn có thể trả thêm ngoài mức tối thiểu mỗi tháng. So sánh ngày sạch nợ và tổng tiền lãi giữa hai phương pháp Tuyết lăn và Tuyết lở.",
+  "name": "Khoản nợ",
+  "balance": "Dư nợ",
+  "rate": "Lãi suất năm %",
+  "minimum": "Khoản trả tối thiểu",
+  "add": "Thêm khoản nợ",
+  "remove": "Xóa",
+  "extra": "Số tiền trả thêm mỗi tháng",
+  "order": "Thứ tự trả nợ",
+  "free_in": "Sạch nợ sau",
+  "interest": "Tổng tiền lãi",
+  "faster": "Nhanh hơn",
+  "cheaper": "Ít lãi hơn",
+  "same": "Cả hai phương pháp đều cho kết quả như nhau với các con số này.",
+  "stuck": "Các mức trả này không thể xóa hết nợ vì chưa đủ bù tiền lãi. Hãy tăng số tiền trả thêm.",
+  "sample": [
+   "Thẻ tín dụng",
+   "Vay mua xe",
+   "Trả góp điện thoại",
+   "Tiền viện phí"
+  ],
+  "note": "Khoản nợ ví dụ, hãy thay bằng số liệu của bạn. Lãi suất tính cố định và chưa gồm các loại phí.",
+  "prose": [
+   [
+    "Tuyết lăn hay Tuyết lở?",
+    "Với phương pháp Tuyết lăn (Snowball), bạn ưu tiên trả khoản nợ có số dư nhỏ nhất trước. Khoản nợ đầu tiên hết nhanh giúp bạn có thêm tiền dồn vào khoản kế tiếp, duy trì động lực rất tốt. Với phương pháp Tuyết lở (Avalanche), bạn ưu tiên trả khoản có lãi suất cao nhất trước. Cách này thường giúp bạn tiết kiệm được nhiều tiền lãi hơn, dù có thể mất nhiều thời gian hơn để dứt điểm món nợ đầu tiên."
+   ],
+   [
+    "Cách công cụ tính toán",
+    "Mỗi tháng, mỗi khoản nợ đều được thanh toán mức tối thiểu. Phần tiền trả thêm sẽ dành cho khoản nợ ưu tiên tiếp theo, và khoản tiền từ món nợ đã xong sẽ dồn cho món tiếp theo. Cả hai phương pháp đều dùng chung một hạn mức chi trả mỗi tháng, khác biệt duy nhất nằm ở thứ tự thanh toán."
+   ],
+   [
+    "Luôn cập nhật kế hoạch",
+    "Dư nợ thay đổi theo từng tháng. Spendry giúp bạn theo dõi thẻ, khoản vay và hóa đơn, duy trì kế hoạch Tuyết lăn hoặc Tuyết lở liên tục và gửi lời nhắc trước ngày đến hạn."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Công cụ tính ngân sách 50/30/20",
+  "h1": "Công cụ tính ngân sách 50/30/20",
+  "description": "Máy tính ngân sách 50/30/20 miễn phí: phân bổ thu nhập vào nhu cầu, mong muốn và tiết kiệm hoặc trả nợ trong vài giây.",
+  "lead": "Nhập thu nhập thực nhận mỗi tháng. 50% dành cho nhu cầu thiết yếu, 30% cho mong muốn cá nhân và 20% cho tiết kiệm hoặc trả nợ.",
+  "income": "Thu nhập thực nhận mỗi tháng",
+  "needs": "Nhu cầu thiết yếu",
+  "needs_hint": "Tiền nhà, hóa đơn, ăn uống, đi lại",
+  "wants": "Sở thích cá nhân",
+  "wants_hint": "Ăn ngoài, mua sắm, du lịch",
+  "save": "Tiết kiệm và trả nợ",
+  "save_hint": "Mục tiêu tiết kiệm và tiền trả nợ thêm",
+  "prose": [
+   [
+    "Quy tắc 50/30/20 là gì?",
+    "Đây là phương pháp lập ngân sách đơn giản và hiệu quả. 50% thu nhập thực nhận dành cho các khoản chi bắt buộc, 30% cho các nhu cầu cá nhân bạn tự chọn, và 20% dành cho tiết kiệm cùng việc thanh toán các khoản nợ."
+   ],
+   [
+    "Khi nào nên điều chỉnh tỷ lệ?",
+    "Nếu riêng tiền thuê nhà đã chiếm một nửa thu nhập, quy tắc này chỉ là gợi ý ban đầu chứ không bắt buộc. Bạn hoàn toàn có thể điều chỉnh tỷ lệ sao cho phù hợp với thực tế và ưu tiên trả hết các khoản nợ lãi suất cao trước."
+   ],
+   [
+    "Vận hành hoàn toàn tự động",
+    "Trong Spendry, mỗi danh mục đều có hạn mức ngân sách tháng tăng dần theo mức bạn tiêu, kèm cảnh báo nhắc nhở trước khi bạn chi tiêu quá giới hạn."
+   ]
+  ]
+ }
+}

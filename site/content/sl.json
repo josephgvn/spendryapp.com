@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Proračuni, dolgovi in opomniki za iPhone",
+  "description": "Preverite datum odplačila vseh dolgov, spremljajte kartice, račune in naročnine ter prejmite opomnik pred rokom. Brez prijave v banko. Brezplačno za iPhone.",
+  "og_title": "Spendry: izvedite datum odplačila vseh dolgov",
+  "og_alt": "Pripomočki Spendry za proračune, cilje in prihajajoča plačila"
+ },
+ "nav": {
+  "features": "Funkcije",
+  "lab": "Dolgovi",
+  "privacy": "Zasebnost",
+  "tools": "Brezplačna orodja",
+  "download": "Prenos",
+  "skip": "Skoči na vsebino",
+  "language": "Jezik",
+  "menu": "Meni",
+  "close": "Zapri",
+  "top": "Na vrh"
+ },
+ "cta": {
+  "download": "Prenesite iz trgovine App Store",
+  "free": "Brezplačno za iPhone in iPad",
+  "requirements": "Zahteva iOS 17 ali novejši",
+  "trial": "Premium vključuje brezplačen teden"
+ },
+ "hero": {
+  "eyebrow": "Proračun in odplačilo dolgov za iPhone",
+  "title_1": "Vsaka kartica, kredit, račun.",
+  "title_2": "Na enem mirnem mestu.",
+  "lead": "Spendry prikazuje zapadlost obračunov, konec obrokov in dan, ko boste brez dolgov. Pravočasno vas opomni pred vsakim plačilom. Brez prijave v banko.",
+  "secondary": "Oglejte si delovanje",
+  "chips": [
+   "Brez prijave v banko",
+   "Podatki se ne zbirajo",
+   "44 jezikov"
+  ],
+  "scroll": "Pomaknite se navzdol"
+ },
+ "story": [
+  {
+   "title": "Vaš mesec na enem mestu.",
+   "text": "Stanje, prihodki, odhodki in prihajajoče obveznosti takoj, ko odprete aplikacijo."
+  },
+  {
+   "title": "Vsi dolgovi, ena številka.",
+   "text": "Kartice, krediti, limit in dolgovi med prijatelji, skupaj z mesecem popolne svobode."
+  },
+  {
+   "title": "Nič vam ne uide.",
+   "text": "Opomnik pred rokom vsake kartice, računa in naročnine, tudi ko je aplikacija zaprta."
+  }
+ ],
+ "statement": "Večina finančnih aplikacij kaže, kam je denar šel. Spendry kaže, *kdaj odhaja* in *kdaj boste brez dolgov*.",
+ "orbit": {
+  "eyebrow": "Vse na enem mestu",
+  "title": "Vse, kar premika vaš denar.",
+  "text": "Kartice, obroki, krediti, naročnine, proračuni, cilji in naložbe. Ena aplikacija, celovita slika."
+ },
+ "features": {
+  "eyebrow": "Funkcije",
+  "title": "Ustvarjeno za cel mesec.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Proračuni z vami",
+    "text": "Določite omejitev za vsako kategorijo in spremljajte porabo."
+   },
+   {
+    "key": "goals",
+    "title": "Jasno vidni cilji",
+    "text": "Varčujte za pomembne stvari in vsak dan spremljajte napredek."
+   },
+   {
+    "key": "stats",
+    "title": "Kam gre vaš denar",
+    "text": "Tedenski in mesečni grafikoni po kategorijah ter dnevih."
+   },
+   {
+    "key": "add",
+    "title": "Vnos v nekaj sekundah",
+    "text": "Vnesite znesek, izberite kategorijo in končano. Ali skenirajte račun."
+   },
+   {
+    "key": "invest",
+    "title": "Naložbe v živo",
+    "text": "Delnice, kriptovalute, zlato in valute s tečaji v živo ob vaši porabi."
+   },
+   {
+    "key": "themes",
+    "title": "Po vaši meri",
+    "text": "Več kot petdeset barvnih tem v svetlem ali temnem načinu."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Aplikacija",
+  "title": "Vsak zaslon v vašem jeziku.",
+  "text": "Spendry govori 44 jezikov ter podpira vašo valuto in zapis številk.",
+  "hint": "Povlecite za vrtenje"
+ },
+ "lab": {
+  "eyebrow": "Dolgovi",
+  "title": "Kdaj boste brez dolgov?",
+  "text": "Premaknite drsnik in opazujte spremembo meseca. Spendry to izračuna za vaše prave dolgove in načrt redno posodablja.",
+  "extra": "Dodatno vsak mesec",
+  "method_hint_snowball": "Najprej najmanjši znesek",
+  "method_hint_avalanche": "Najprej najvišja obrestna mera",
+  "free_in": "Brez dolgov v",
+  "interest": "Skupne obresti",
+  "saved": "Vaš prihranek",
+  "debts": [
+   "Kreditna kartica",
+   "Avtomobilski kredit",
+   "Kartica trgovine",
+   "Prijatelj"
+  ],
+  "note": "Primeri dolgov. V aplikaciji načrt upošteva vaše prave podatke.",
+  "cta": "Odpri celotni kalkulator",
+  "rates_note": "Navedene obrestne mere so letne.",
+  "sooner": "Hitreje",
+  "minimums": "Samo minimalna plačila",
+  "with_plan": "Z dodatnimi vplačili",
+  "method": "Metoda"
+ },
+ "reminders": {
+  "eyebrow": "Opomniki",
+  "title": "Opomniki, ki pridejo pravočasno.",
+  "text": "Tudi če aplikacije sploh ne odprete. Preložite opomnik ali označite račun kot plačan neposredno v obvestilu.",
+  "days_left": "dni do roka",
+  "local_note": "",
+  "samples": {
+   "card": "Zlata kartica",
+   "loan": "Avtomobilski kredit",
+   "budget": "Nakupovanje",
+   "store": "Kartica trgovine"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Pripomočki",
+  "title": "Vaše finance na začetnem zaslonu.",
+  "text": "Stanje, proračuni, cilji in prihajajoča plačila na prvi pogled. Dodajte odhodek, ne da bi odprli aplikacijo."
+ },
+ "automations": {
+  "eyebrow": "Siri in Bližnjice",
+  "title": "Naj vse deluje samodejno.",
+  "text": "Vprašajte Siri o svoji porabi, dodajajte odhodke z glasom in vklopite pripravljene avtomatizacije v aplikaciji Bližnjice.",
+  "flows": [
+   [
+    "Plačate z Apple Pay",
+    "Spendry zabeleži nakup",
+    "Vaš proračun je posodobljen"
+   ],
+   [
+    "Vsako jutro",
+    "Spendry preveri obveznosti",
+    "Naslednji trije dnevi v enem obvestilu"
+   ],
+   [
+    "V nedeljo zvečer",
+    "Spendry povzame vaš teden",
+    "Kratko poročilo o porabi"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Zasebnost",
+  "title": "Vaš denar ostaja vaš.",
+  "text": "Brez prijave v banko, brez uporabniškega računa, brez sledenja. Vaši podatki ostanejo v vašem telefonu iPhone in vaši shrambi iCloud.",
+  "badge": "Podatki se ne zbirajo",
+  "pillars": [
+   {
+    "title": "Brez prijave v banko",
+    "text": "Spendry se nikoli ne povezuje z vašo banko. Vnose dodate sami ali jih uvozite iz bančnih sporočil."
+   },
+   {
+    "title": "Podatki se ne zbirajo",
+    "text": "Brez oglasov, brez analitike, brez sledenja. Enako potrjuje oznaka zasebnosti v trgovini App Store."
+   },
+   {
+    "title": "Zaklenjeno s Face ID",
+    "text": "Sinhronizirajte prek lastne shrambe iCloud in zaščitite aplikacijo s Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Majhna aplikacija, velik doseg.",
+  "items": [
+   {
+    "value": 44,
+    "label": "jezikov"
+   },
+   {
+    "value": 175,
+    "label": "držav in regij"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "barvnih tem"
+   },
+   {
+    "value": 0,
+    "label": "bajtov vaših zbranih podatkov"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Vprašanja",
+  "items": [
+   {
+    "q": "Ali je Spendry brezplačen?",
+    "a": "Da. Vse osnovne funkcije so brezplačne. Premium je na voljo mesečno, letno ali z enkratnim doživljenjskim nakupom, naročnine pa se začnejo z brezplačnim tednom."
+   },
+   {
+    "q": "Ali se Spendry povezuje z mojo banko?",
+    "a": "Ne. Nikoli ne zahteva bančne prijave. Vnose dodajate sami ali pa jih uvozite iz bančnih sporočil in avtomatizacij v Bližnjicah."
+   },
+   {
+    "q": "Kje so shranjeni moji podatki?",
+    "a": "V vašem telefonu iPhone in v vašem računu iCloud. Vaši podatki se nikoli ne pošiljajo na strežnike Spendry, zato do njih nimamo dostopa."
+   },
+   {
+    "q": "Kako deluje načrt odplačevanja dolgov?",
+    "a": "Vnesite dolgove, njihove zneske in obrestne mere. Spendry jih uredi po metodi snežne kepe ali snežnega plaza, prišteje znesek, ki ga lahko namenite zraven, ter izračuna mesec poplačila."
+   },
+   {
+    "q": "Ali lahko delim proračun s partnerjem ali družino?",
+    "a": "Da. Skupni proračuni in cilji se usklajujejo prek storitve iCloud, pri čemer vsakdo uporablja svoj Apple Account."
+   },
+   {
+    "q": "Na katerih napravah deluje aplikacija?",
+    "a": "Na napravah iPhone in iPad s sistemom iOS 17 ali novejšim, s podporo za pripomočke, Siri in Bližnjice."
+   },
+   {
+    "q": "Katere jezike in valute podpira?",
+    "a": "Podpira 44 jezikov in vse glavne valute. Naložbe in računi v tujih valutah lahko ohranijo svojo izvorno valuto."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Brezplačna orodja",
+  "title": "Preizkusite izračun v brskalniku.",
+  "text": "Izračuni potekajo neposredno v vaši napravi. Podatki se nikamor ne pošiljajo."
+ },
+ "final": {
+  "eyebrow": "Spendry za iPhone",
+  "title": "Začnite danes. Brezplačno.",
+  "text": "Prenesite Spendry in v nekaj minutah izveste datum, ko boste povsem brez dolgov.",
+  "qr": "Skenirajte s kamero telefona iPhone"
+ },
+ "footer": {
+  "tagline": "Proračun in odplačilo dolgov za iPhone.",
+  "privacy_policy": "Pravilnik o zasebnosti",
+  "terms": "Pogoji uporabe",
+  "support": "Podpora",
+  "tools": "Brezplačna orodja",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay in App Store so blagovne znamke družbe Apple Inc.",
+  "legal": "Pravne informacije"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Kalkulator odplačila dolga: snežna kepa in plaz",
+  "h1": "Kalkulator odplačila dolgov",
+  "description": "Brezplačni kalkulator za poplačilo dolgov. Primerjajte metodi snežne kepe in snežnega plaza ter preverite datum brez dolgov. Brez registracije.",
+  "lead": "Vnesite svoje dolgove in znesek, ki ga lahko vsak mesec plačate poleg minimalnih obrokov. Primerjajte mesec poplačila in skupne obresti po obeh metodah.",
+  "name": "Dolg",
+  "balance": "Znesek dolga",
+  "rate": "OM %",
+  "minimum": "Minimalni obrok",
+  "add": "Dodaj dolg",
+  "remove": "Odstrani",
+  "extra": "Dodatno plačilo vsak mesec",
+  "order": "Vrstni red odplačevanja",
+  "free_in": "Brez dolgov v",
+  "interest": "Skupne obresti",
+  "faster": "Hitreje",
+  "cheaper": "Manj obresti",
+  "same": "Obe metodi prineseta enak rezultat pri teh številkah.",
+  "stuck": "S temi plačili dolga ne boste odplačali, saj ne pokrijejo niti obresti. Povečajte dodatno plačilo.",
+  "sample": [
+   "Kreditna kartica",
+   "Avtomobilski kredit",
+   "Kartica trgovine",
+   "Zdravstveni račun"
+  ],
+  "note": "Primeri dolgov. Zamenjajte jih s svojimi. Obrestne mere veljajo kot fiksne, stroški niso vključeni.",
+  "prose": [
+   [
+    "Snežna kepa ali snežni plaz?",
+    "Pri metodi snežne kepe najprej odplačate najmanjši dolg. Prvi dolg hitro izgine, njegov znesek pa prenesete na naslednjega, kar prinaša izjemno motivacijo. Pri metodi snežnega plaza najprej odplačate dolg z najvišjo obrestno mero, s čimer običajno prihranite največ pri obrestih, čeprav prvo poplačilo traja dlje."
+   ],
+   [
+    "Kako kalkulator deluje",
+    "Vsak mesec je za vsak dolg plačan minimalni obrok. Celoten dodatni znesek gre za prednostni dolg na seznamu. Ko je ta odplačan, se celotno plačilo prenese na naslednjega. Obe metodi uporabljata enak mesečni proračun, zato razlika izhaja zgolj iz vrstnega reda."
+   ],
+   [
+    "Ohranite načrt vedno posodobljen",
+    "Stanja se spreminjajo vsak mesec. Spendry spremlja vaše kartice, kredite in račune, ohranja vaš načrt snežne kepe ali plaza posodobljen ter vas pravočasno opozori pred vsakim rokom."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Kalkulator proračuna 50/30/20",
+  "h1": "Kalkulator proračuna 50/30/20",
+  "description": "Brezplačni kalkulator 50/30/20: razdelite svoj mesečni neto dohodek na nujne potrebe, želje ter varčevanje in odplačilo dolgov v nekaj sekundah.",
+  "lead": "Vnesite svoj mesečni neto dohodek. Polovica gre za nujne potrebe, trideset odstotkov za želje in dvajset odstotkov za varčevanje ter odplačevanje dolgov.",
+  "income": "Mesečni neto dohodek",
+  "needs": "Nujne potrebe",
+  "needs_hint": "Najemnina, računi, hrana, prevoz",
+  "wants": "Želje",
+  "wants_hint": "Restavracije, nakupi, izleti",
+  "save": "Prihranki in dolgovi",
+  "save_hint": "Varčevalni cilji in dodatna plačila",
+  "prose": [
+   [
+    "Kaj je pravilo 50/30/20?",
+    "To je preprost način za oblikovanje proračuna. Petdeset odstotkov neto dohodka pokriva nujne življenjske stroške, trideset odstotkov je namenjenih stvarem po vaši izbiri, dvajset odstotkov pa gre za prihranke in hitrejše odplačevanje dolgov."
+   ],
+   [
+    "Kdaj prilagoditi razmerje",
+    "Če samo najemnina vzame polovico vaših dohodkov, je pravilo le izhodišče in ne togo pravilo. Razmerje prilagodite svojemu življenju ter se najprej osredotočite na poplačilo dolgov z visokimi obrestmi."
+   ],
+   [
+    "Naj vse teče samodejno",
+    "V Spendryju vsaka kategorija dobi svoj mesečni proračun, ki se polni z vašo porabo, aplikacija pa vas pravočasno opozori, preden jo presežete."
+   ]
+  ]
+ }
+}

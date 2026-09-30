@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Budsjetter, gjeldsnedbetaling og påminnelser",
+  "description": "Se din gjeldfrie dato, hold oversikt over kort, lån og regninger, og få påminnelser i tide. Uten bankinnlogging. Gratis for iPhone og iPad.",
+  "og_title": "Spendry: finn din gjeldfrie dato",
+  "og_alt": "Spendry-widgets for budsjetter, mål og kommende betalinger"
+ },
+ "nav": {
+  "features": "Funksjoner",
+  "lab": "Gjeldsnedbetaling",
+  "privacy": "Personvern",
+  "tools": "Gratis verktøy",
+  "download": "Last ned",
+  "skip": "Hopp til innhold",
+  "language": "Språk",
+  "menu": "Meny",
+  "close": "Lukk",
+  "top": "Til toppen"
+ },
+ "cta": {
+  "download": "Last ned fra App Store",
+  "free": "Gratis på iPhone og iPad",
+  "requirements": "Krever iOS 17 eller nyere",
+  "trial": "Premium starter med en gratis uke"
+ },
+ "hero": {
+  "eyebrow": "Budsjetter og gjeldsnedbetaling for iPhone",
+  "title_1": "Kort, lån og regninger.",
+  "title_2": "Samlet på ett rolig sted.",
+  "lead": "Spendry viser når fakturaer forfaller, når avdrag er ferdige, og din gjeldfrie dato. Du får påminnelser før noe forfaller. Uten bankinnlogging.",
+  "secondary": "Se hvordan det fungerer",
+  "chips": [
+   "Ingen bankinnlogging",
+   "Data samles ikke inn",
+   "44 språk"
+  ],
+  "scroll": "Rull ned"
+ },
+ "story": [
+  {
+   "title": "Måneden din i ett blikk.",
+   "text": "Saldo, inntekt, forbruk og kommende forfall, med en gang du åpner appen."
+  },
+  {
+   "title": "All gjeld i ett tall.",
+   "text": "Kredittkort, lån, kassekreditt og vennegjeld, med måneden du blir helt gjeldfri."
+  },
+  {
+   "title": "Full kontroll på alt.",
+   "text": "Få en påminnelse før kort, regninger og abonnementer forfaller, selv når appen er lukket."
+  }
+ ],
+ "statement": "De fleste apper viser hva du brukte. Spendry viser *når pengene forsvinner* og *når du blir gjeldfri*.",
+ "orbit": {
+  "eyebrow": "Alt på ett sted",
+  "title": "Alt som påvirker økonomien din.",
+  "text": "Kredittkort, avdrag, lån, abonnementer, budsjetter, mål og investeringer. Én app, full oversikt."
+ },
+ "features": {
+  "eyebrow": "Funksjoner",
+  "title": "Laget for hele måneden.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Budsjetter som holder tritt",
+    "text": "Sett en grense for hver kategori og se den fylles opp mens du handler."
+   },
+   {
+    "key": "goals",
+    "title": "Mål du faktisk ser",
+    "text": "Spar til det som betyr noe, og se fremgangen din hver eneste dag."
+   },
+   {
+    "key": "stats",
+    "title": "Hvor pengene går",
+    "text": "Uke- og månedsdiagrammer, fordelt på kategori og dag for dag."
+   },
+   {
+    "key": "add",
+    "title": "Legg til på sekunder",
+    "text": "Tast inn beløpet, velg kategori, ferdig. Eller skann kvittering."
+   },
+   {
+    "key": "invest",
+    "title": "Investeringer i sanntid",
+    "text": "Aksjer, krypto, gull og valuta med live kurser, rett ved siden av forbruket."
+   },
+   {
+    "key": "themes",
+    "title": "Gjør den til din egen",
+    "text": "Over femti fargetemaer, i både lys og mørk drakt."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Appen",
+  "title": "Hver skjerm, på ditt språk.",
+  "text": "Spendry snakker 44 språk, med din valuta og ditt tallformat.",
+  "hint": "Dra for å rotere"
+ },
+ "lab": {
+  "eyebrow": "Gjeldsnedbetaling",
+  "title": "Når kan du bli gjeldfri?",
+  "text": "Dra i glidebryteren og se måneden endre seg. Spendry regner på din faktiske gjeld og holder planen oppdatert.",
+  "extra": "Ekstra hver måned",
+  "method_hint_snowball": "Laveste saldo først",
+  "method_hint_avalanche": "Høyeste rente først",
+  "free_in": "Gjeldfri om",
+  "interest": "Totale renter",
+  "saved": "Du sparer",
+  "debts": [
+   "Kredittkort",
+   "Billån",
+   "Klarna",
+   "Vennelån"
+  ],
+  "note": "Eksempler på gjeld. I appen bruker planen dine egne tall.",
+  "cta": "Åpne hele kalkulatoren",
+  "rates_note": "Eksempelrentene er årlige.",
+  "sooner": "Raskere",
+  "minimums": "Kun minimumsbeløp",
+  "with_plan": "Med ekstra innbetalinger",
+  "method": "Metode"
+ },
+ "reminders": {
+  "eyebrow": "Påminnelser",
+  "title": "Påminnelser i tide.",
+  "text": "Selv om du aldri åpner appen. Utsett eller merk som betalt direkte fra varselet.",
+  "days_left": "dager igjen",
+  "local_note": "",
+  "samples": {
+   "card": "SAS EuroBonus",
+   "loan": "Billån",
+   "budget": "Shopping",
+   "store": "Klarna"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgets",
+  "title": "Økonomien på Hjem-skjermen.",
+  "text": "Saldo, budsjetter, mål og kommende betalinger i et blikk. Legg til utgift uten å åpne appen."
+ },
+ "automations": {
+  "eyebrow": "Siri og Snarveier",
+  "title": "La den styre seg selv.",
+  "text": "Spør Siri hva du har brukt, legg til utgifter med stemmen, og aktiver ferdige automatiseringer i Snarveier-appen.",
+  "flows": [
+   [
+    "Du betaler med Apple Pay",
+    "Spendry fører utgiften",
+    "Budsjettet ditt oppdateres"
+   ],
+   [
+    "Hver morgen",
+    "Spendry sjekker forfall",
+    "De neste tre dagene i ett varsel"
+   ],
+   [
+    "Søndag kveld",
+    "Spendry oppsummerer uken",
+    "En rask rapport over forbruket"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Personvern",
+  "title": "Dine penger forblir dine.",
+  "text": "Ingen bankinnlogging, ingen konto, ingen sporing. Dataene dine bor på din iPhone og i din egen iCloud.",
+  "badge": "Data samles ikke inn",
+  "pillars": [
+   {
+    "title": "Ingen bankinnlogging",
+    "text": "Spendry kobler seg aldri til banken din. Du legger inn alt selv eller henter fra bankvarsler."
+   },
+   {
+    "title": "Data samles ikke inn",
+    "text": "Ingen reklame, ingen analyse, ingen sporing. App Store-etiketten bekrefter det samme."
+   },
+   {
+    "title": "Låst med Face ID",
+    "text": "Synkroniser via din egen iCloud og lås appen trygt med Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Liten app, stor rekkevidde.",
+  "items": [
+   {
+    "value": 44,
+    "label": "språk"
+   },
+   {
+    "value": 175,
+    "label": "land og regioner"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "fargetemaer"
+   },
+   {
+    "value": 0,
+    "label": "byte med brukerdata samlet inn"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Spørsmål og svar",
+  "items": [
+   {
+    "q": "Er Spendry gratis?",
+    "a": "Ja. Kjernefunksjonene er helt gratis. Premium tilbys månedlig, årlig eller som et engangskjøp for Livstid, og abonnementer starter med en gratis uke."
+   },
+   {
+    "q": "Kobler Spendry seg til banken min?",
+    "a": "Nei. Appen ber aldri om bankinnlogging. Du legger inn utgiftene selv, eller importerer via bankvarsler og Snarveier-automatiseringer."
+   },
+   {
+    "q": "Hvor lagres dataene mine?",
+    "a": "På din iPhone og i din egen iCloud-konto. Dataene dine sendes aldri til Spendrys servere, så vi har aldri innsyn i dem."
+   },
+   {
+    "q": "Hvordan fungerer nedbetalingsplanen?",
+    "a": "Legg inn gjelden din med saldo og rente. Spendry sorterer med snøball- eller snøskredmetoden, legger til det du kan betale ekstra per måned og viser måneden du blir gjeldfri."
+   },
+   {
+    "q": "Kan jeg dele budsjett med partner eller familie?",
+    "a": "Ja. Delt budsjett og sparemål synkroniseres via iCloud, og alle bruker sin egen Apple Account."
+   },
+   {
+    "q": "Hvilke enheter fungerer den på?",
+    "a": "iPhone og iPad med iOS 17 eller nyere, med støtte for widgets, Siri og Snarveier."
+   },
+   {
+    "q": "Hvilke språk og valutaer støttes?",
+    "a": "44 språk og alle store valutaer. Investeringer og kontoer i utenlandsk valuta kan beholde sin opprinnelige valuta."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Gratis verktøy",
+  "title": "Prøv regnestykket i nettleseren.",
+  "text": "Beregningene skjer lokalt på enheten din. Ingenting sendes bort."
+ },
+ "final": {
+  "eyebrow": "Spendry for iPhone",
+  "title": "Start i dag. Det er gratis.",
+  "text": "Last ned Spendry og se din gjeldfrie dato i løpet av få minutter.",
+  "qr": "Skann med kameraet på din iPhone"
+ },
+ "footer": {
+  "tagline": "Budsjetter og gjeldsnedbetaling for iPhone.",
+  "privacy_policy": "Personvernerklæring",
+  "terms": "Brukervilkår",
+  "support": "Kundestøtte",
+  "tools": "Gratis verktøy",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay og App Store er varemerker for Apple Inc.",
+  "legal": "Juridisk"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Gjeldskalkulator: Snøball vs Snøskred",
+  "h1": "Gjeldsnedbetalingskalkulator",
+  "description": "Gratis gjeldskalkulator: sammenlign snøball og snøskred. Se måneden du blir gjeldfri og hvor mye rente du sparer. Uten registrering.",
+  "lead": "Fyll inn gjelden din og hva du kan betale utover minimumsbeløpet hver måned. Sammenlign snøball og snøskred side om side for å se din gjeldfrie dato.",
+  "name": "Gjeld",
+  "balance": "Saldo",
+  "rate": "Eff. rente %",
+  "minimum": "Minimumsbeløp",
+  "add": "Legg til gjeld",
+  "remove": "Fjern",
+  "extra": "Ekstra innbetaling per måned",
+  "order": "Rekkefølge for nedbetaling",
+  "free_in": "Gjeldfri om",
+  "interest": "Totale renter",
+  "faster": "Raskere",
+  "cheaper": "Mindre renter",
+  "same": "Begge metodene gir samme resultat med disse tallene.",
+  "stuck": "Disse innbetalingene sletter aldri gjelden: de dekker ikke rentene. Øk det ekstra beløpet.",
+  "sample": [
+   "Kredittkort",
+   "Billån",
+   "Klarna",
+   "Tannlegeregning"
+  ],
+  "note": "Eksempler på gjeld. Bytt dem ut med dine egne. Rentene regnes som faste, gebyrer er ikke inkludert.",
+  "prose": [
+   [
+    "Snøball eller snøskred?",
+    "Med snøballmetoden betaler du ned den minste saldoen først. Det første lånet forsvinner raskt og frigjør penger til det neste, noe som holder motivasjonen oppe. Med snøskredmetoden betaler du ned lånet med høyest rente først. Det gir som regel de laveste totale rentekostnadene, selv om det første lånet kan ta litt lenger tid å kvitte seg med."
+   ],
+   [
+    "Slik fungerer kalkulatoren",
+    "Hver måned betales minimumsbeløpet på alle lån. Det ekstra beløpet går til det første prioriterte lånet, og når et lån er nedbetalt, overføres hele beløpet til neste. Begge metoder bruker nøyaktig samme månedlige ramme, så forskjellen du ser skyldes kun rekkefølgen."
+   ],
+   [
+    "Hold planen oppdatert",
+    "Saldoer endrer seg hver måned. Spendry holder oversikt over kort, lån og regninger, oppdaterer planen din fortløpende og minner deg på hver forfallsdato."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "50/30/20 Budsjetteringskalkulator",
+  "h1": "50/30/20 budsjettkalkulator",
+  "description": "Gratis 50/30/20 budsjettkalkulator: fordel nettolønnen din på nødvendigheter, ønsker og sparing eller gjeld på sekunder.",
+  "lead": "Tast inn utbetalt månedslønn. Halvparten går til faste nødvendigheter, tretti prosent til personlige ønsker, og tjue prosent til sparing og ekstra gjeldsnedbetaling.",
+  "income": "Utbetalt månedslønn",
+  "needs": "Nødvendigheter",
+  "needs_hint": "Husleie, regninger, mat, transport",
+  "wants": "Ønsker",
+  "wants_hint": "Restauranter, shopping, opplevelser",
+  "save": "Sparing og gjeld",
+  "save_hint": "Sparemål og ekstra gjeldsnedbetaling",
+  "prose": [
+   [
+    "Hva er 50/30/20-regelen?",
+    "Det er en enkel modell for å få orden på økonomien. Femti prosent av det du får utbetalt går til det du må betale, tretti prosent til ting du velger selv, og tjue prosent går til sparing og nedbetaling av gjeld."
+   ],
+   [
+    "Når bør du justere tallene?",
+    "Hvis boligen din alene sluker halve lønnen, er regelen en rettesnor og ingen fasit. Tilpass fordelingen slik at den passer ditt liv, og prioriter alltid dyr gjeld først."
+   ],
+   [
+    "Gjør det automatisk",
+    "I Spendry får hver kategori et månedlig budsjett som fylles opp etter hvert som du handler, med varsling før du overskrider grensen."
+   ]
+  ]
+ }
+}

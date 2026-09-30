@@ -1,0 +1,330 @@
+{
+ "meta": {
+  "title": "Spendry: Bajet, Bebas Hutang & Peringatan Bil iPhone",
+  "description": "Ketahui tarikh anda bebas hutang, pantau kad, pinjaman, bil dan langganan. Dapatkan peringatan sebelum tamat tempoh. Tanpa log masuk bank. Percuma di iPhone.",
+  "og_title": "Spendry: ketahui tarikh anda bebas hutang",
+  "og_alt": "Widget Spendry untuk bajet, matlamat dan bayaran akan datang"
+ },
+ "nav": {
+  "features": "Ciri",
+  "lab": "Bayar Hutang",
+  "privacy": "Privasi",
+  "tools": "Alat Percuma",
+  "download": "Muat Turun",
+  "skip": "Langkau ke teks",
+  "language": "Bahasa",
+  "menu": "Menu",
+  "close": "Tutup",
+  "top": "Ke atas"
+ },
+ "cta": {
+  "download": "Muat turun di App Store",
+  "free": "Percuma di iPhone dan iPad",
+  "requirements": "Memerlukan iOS 17 atau lebih baharu",
+  "trial": "Premium bermula dengan seminggu percuma"
+ },
+ "hero": {
+  "eyebrow": "Bajet dan bayar hutang untuk iPhone",
+  "title_1": "Semua kad, pinjaman, bil.",
+  "title_2": "Kini di satu tempat.",
+  "lead": "Spendry menunjukkan tarikh penyata ditutup, ansuran selesai dan tarikh anda bebas hutang. Peringatan dihantar tepat pada masanya. Tanpa log masuk bank.",
+  "secondary": "Lihat cara ia berfungsi",
+  "chips": [
+   "Tanpa log masuk bank",
+   "Data tidak dikumpul",
+   "44 bahasa"
+  ],
+  "scroll": "Skrol"
+ },
+ "story": [
+  {
+   "title": "Kewangan bulanan sepintas lalu.",
+   "text": "Baki, pendapatan, perbelanjaan dan komitmen akan datang, sebaik sahaja aplikasi dibuka."
+  },
+  {
+   "title": "Semua hutang, satu jumlah.",
+   "text": "Kad kredit, pinjaman, overdraf dan wang dipinjam rakan, lengkap dengan bulan anda bebas sepenuhnya."
+  },
+  {
+   "title": "Tiada yang terlepas.",
+   "text": "Peringatan sebelum tarikh matang kad, bil dan langganan, walaupun aplikasi tidak dibuka."
+  }
+ ],
+ "statement": "Kebanyakan aplikasi menunjukkan wang yang telah pergi. Spendry menunjukkan *bila ia keluar* dan *tarikh anda bebas hutang*.",
+ "orbit": {
+  "eyebrow": "Semuanya teratur",
+  "title": "Setiap aliran wang anda.",
+  "text": "Kad kredit, ansuran, pinjaman, langganan, bajet, matlamat dan pelaburan. Satu aplikasi untuk gambaran lengkap."
+ },
+ "features": {
+  "eyebrow": "Ciri",
+  "title": "Bersedia sepanjang bulan.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Bajet yang peka",
+    "text": "Tetapkan had setiap kategori dan pantau penggunaannya secara masa nyata."
+   },
+   {
+    "key": "goals",
+    "title": "Matlamat yang jelas",
+    "text": "Simpan untuk impian anda dan lihat kemajuan setiap hari."
+   },
+   {
+    "key": "stats",
+    "title": "Ke mana wang anda pergi",
+    "text": "Carta mingguan dan bulanan mengikut kategori dan hari."
+   },
+   {
+    "key": "add",
+    "title": "Tambah dalam saat",
+    "text": "Masukkan jumlah, pilih kategori, selesai. Atau imbas resit."
+   },
+   {
+    "key": "invest",
+    "title": "Pelaburan masa nyata",
+    "text": "Saham, kripto, emas dan mata wang dengan harga langsung bersebelahan belanja."
+   },
+   {
+    "key": "themes",
+    "title": "Gaya pilihan anda",
+    "text": "Lebih 50 tema dalam mod cerah atau gelap."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Aplikasi",
+  "title": "Setiap paparan, dalam bahasa anda.",
+  "text": "Spendry menyokong 44 bahasa, lengkap dengan mata wang dan format nombor tempatan anda.",
+  "hint": "Seret untuk putar"
+ },
+ "lab": {
+  "eyebrow": "Bayar hutang",
+  "title": "Bila anda boleh bebas hutang?",
+  "text": "Gerakkan gelangsar dan lihat perubahan bulan. Spendry menggunakan hutang sebenar anda dan mengemas kini pelan secara automatik.",
+  "extra": "Bayaran ekstra bulanan",
+  "method_hint_snowball": "Baki terendah dahulu",
+  "method_hint_avalanche": "Kadar faedah tertinggi dahulu",
+  "free_in": "Bebas hutang dalam",
+  "interest": "Jumlah faedah",
+  "saved": "Anda jimat",
+  "debts": [
+   "Kad kredit",
+   "Pinjaman kereta",
+   "Kad beli-belah",
+   "Kawan"
+  ],
+  "note": "Contoh hutang. Dalam aplikasi, pelan dijana daripada rekod anda sendiri.",
+  "cta": "Buka kalkulator penuh",
+  "rates_note": "Kadar contoh ialah kadar tahunan.",
+  "sooner": "Lebih awal",
+  "minimums": "Bayaran minimum sahaja",
+  "with_plan": "Dengan bayaran ekstra",
+  "method": "Kaedah"
+ },
+ "reminders": {
+  "eyebrow": "Peringatan",
+  "title": "Peringatan tiba tepat masa.",
+  "text": "Walaupun aplikasi tidak dibuka. Tangguhkan atau tandakan sudah bayar terus dari pemberitahuan.",
+  "days_left": "hari lagi",
+  "local_note": "",
+  "samples": {
+   "card": "Kad Mata Ganjaran",
+   "loan": "Pinjaman kereta",
+   "budget": "Beli-belah",
+   "store": "Kad Aeon"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widget",
+  "title": "Wang anda di Home Screen.",
+  "text": "Baki, bajet, matlamat dan bayaran akan datang sepintas lalu. Tambah perbelanjaan tanpa membuka aplikasi."
+ },
+ "automations": {
+  "eyebrow": "Siri dan Shortcuts",
+  "title": "Biarkan ia berjalan sendiri.",
+  "text": "Tanya Siri tentang belanja anda, catat guna suara, dan gunakan pengautomatan sedia ada dalam aplikasi Shortcuts.",
+  "flows": [
+   [
+    "Anda bayar dengan Apple Pay",
+    "Spendry mencatat perbelanjaan",
+    "Bajet anda dikemas kini"
+   ],
+   [
+    "Setiap pagi",
+    "Spendry menyemak tarikh matang",
+    "Komitmen tiga hari, dalam satu pemberitahuan"
+   ],
+   [
+    "Ahad malam",
+    "Spendry merumuskan minggu anda",
+    "Laporan ringkas perbelanjaan"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Privasi",
+  "title": "Wang anda, data anda.",
+  "text": "Tanpa log masuk bank, akaun atau penjejakan. Data anda kekal di iPhone dan akaun iCloud peribadi.",
+  "badge": "Data Tidak Dikumpul",
+  "pillars": [
+   {
+    "title": "Tanpa log masuk bank",
+    "text": "Spendry tidak sesekali menyambung ke bank. Tambah entri sendiri atau import daripada mesej bank."
+   },
+   {
+    "title": "Data tidak dikumpul",
+    "text": "Tiada iklan, analitik mahupun penjejakan. Dilindungi label privasi rasmi App Store."
+   },
+   {
+    "title": "Kunci dengan Face ID",
+    "text": "Segerakkan melalui iCloud anda dan amankan aplikasi dengan Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Aplikasi kecil, manfaat besar.",
+  "items": [
+   {
+    "value": 44,
+    "label": "bahasa"
+   },
+   {
+    "value": 175,
+    "label": "negara dan rantau"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "tema"
+   },
+   {
+    "value": 0,
+    "label": "bait data anda dikumpul"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Soalan Lazim",
+  "items": [
+   {
+    "q": "Adakah Spendry percuma?",
+    "a": "Ya. Ciri asas adalah percuma. Pelan Premium tersedia secara bulanan, tahunan atau pembelian Hayat sekali gus, dengan tempoh percubaan seminggu percuma."
+   },
+   {
+    "q": "Adakah Spendry bersambung dengan bank saya?",
+    "a": "Tidak. Aplikasi tidak meminta log masuk bank. Anda masukkan entri secara manual, atau import daripada mesej bank dan pengautomatan Shortcuts."
+   },
+   {
+    "q": "Di manakah data saya disimpan?",
+    "a": "Di dalam iPhone dan akaun iCloud anda sendiri. Data anda tidak dihantar ke pelayan Spendry, jadi pihak kami tidak dapat melihatnya."
+   },
+   {
+    "q": "Bagaimanakah pelan bayar hutang berfungsi?",
+    "a": "Masukkan baki dan kadar hutang. Spendry menyusunnya mengikut kaedah Snowball atau Avalanche, menambah jumlah ekstra bulanan dan meramalkan tarikh anda bebas hutang."
+   },
+   {
+    "q": "Bolehkah saya berkongsi bajet bersama pasangan atau keluarga?",
+    "a": "Ya. Belanjawan Dikongsi dan matlamat disegerakkan melalui iCloud, dan setiap orang menggunakan Apple Account masing-masing."
+   },
+   {
+    "q": "Peranti manakah yang disokong?",
+    "a": "iPhone dan iPad dengan iOS 17 atau lebih baharu, lengkap dengan sokongan Widget, Siri dan Shortcuts."
+   },
+   {
+    "q": "Bahasa dan mata wang apa yang disokong?",
+    "a": "44 bahasa dan semua mata wang utama dunia. Akaun pelaburan dan mata wang asing boleh menggunakan format mata wang tersendiri."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Alat percuma",
+  "title": "Cuba kiraan di pelayar web anda.",
+  "text": "Semua pengiraan berlaku pada peranti anda. Tiada data dihantar ke mana-mana."
+ },
+ "final": {
+  "eyebrow": "Spendry untuk iPhone",
+  "title": "Mula hari ini. Percuma.",
+  "text": "Muat turun Spendry dan ketahui tarikh anda bebas hutang dalam masa beberapa minit sahaja.",
+  "qr": "Imbas dengan kamera iPhone"
+ },
+ "footer": {
+  "tagline": "Bajet dan bayar hutang untuk iPhone.",
+  "privacy_policy": "Dasar Privasi",
+  "terms": "Syarat Perkhidmatan",
+  "support": "Sokongan",
+  "tools": "Alat percuma",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay dan App Store ialah tanda dagangan Apple Inc.",
+  "legal": "Undang-undang"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Kalkulator Bebas Hutang: Snowball vs Avalanche",
+  "h1": "Kalkulator bayar hutang",
+  "description": "Kalkulator bebas hutang percuma: banding kaedah Snowball dan Avalanche, ketahui tarikh selesai serta penjimatan faedah. Tanpa daftar.",
+  "lead": "Masukkan baki hutang dan bayaran ekstra bulanan selain bayaran minimum. Lihat perbandingan tarikh bebas hutang dan jumlah faedah antara kaedah Snowball dan Avalanche secara jelas.",
+  "name": "Hutang",
+  "balance": "Baki",
+  "rate": "Kadar Faedah Setahun %",
+  "minimum": "Bayaran minimum",
+  "add": "Tambah hutang",
+  "remove": "Padam",
+  "extra": "Bayaran ekstra bulanan",
+  "order": "Susunan bayaran",
+  "free_in": "Bebas hutang dalam",
+  "interest": "Jumlah faedah",
+  "faster": "Lebih cepat",
+  "cheaper": "Kurang faedah",
+  "same": "Kedua-dua kaedah memberikan keputusan yang sama.",
+  "stuck": "Bayaran ini tidak mampu melunaskan hutang kerana tidak menampung faedah. Sila tingkatkan bayaran ekstra.",
+  "sample": [
+   "Kad kredit",
+   "Pinjaman kereta",
+   "Kad ansuran perabot",
+   "Bil perubatan"
+  ],
+  "note": "Contoh hutang: gantikan dengan hutang anda. Kadar faedah dikira tetap tanpa yuran tambahan.",
+  "prose": [
+   [
+    "Snowball atau Avalanche?",
+    "Dengan kaedah Snowball, anda melunaskan baki terkecil dahulu. Hutang pertama selesai pantas dan bayarannya dialihkan ke hutang seterusnya untuk membina momentum. Kaedah Avalanche pula mendahulukan faedah tertinggi, yang lazimnya menjimatkan lebih banyak faedah keseluruhan, walaupun mengambil masa lebih lama untuk hutang pertama selesai."
+   ],
+   [
+    "Cara kalkulator berfungsi",
+    "Setiap bulan hutang menerima bayaran minimum. Wang ekstra disalurkan ke sasaran utama, dan bayaran dari hutang yang telah selesai dialihkan ke hutang seterusnya. Kedua-dua kaedah menggunakan bajet bulanan sama, jadi perbezaan berpunca daripada susunan penyelesaian."
+   ],
+   [
+    "Kekalkan pelan yang sentiasa terkini",
+    "Baki hutang berubah setiap bulan. Spendry menjejak kad, pinjaman dan bil anda, memastikan pelan Snowball atau Avalanche sentiasa tepat, serta memberi peringatan sebelum setiap bayaran matang."
+   ]
+  ]
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Kalkulator Bajet 50/30/20",
+  "h1": "Kalkulator bajet 50/30/20",
+  "description": "Kalkulator bajet 50/30/20 percuma: bahagikan pendapatan bulanan kepada keperluan, kehendak, dan simpanan atau hutang dengan pantas.",
+  "lead": "Masukkan gaji bersih bulanan anda. Separuh untuk keperluan, tiga puluh peratus untuk kehendak, dan dua puluh peratus untuk simpanan serta bayaran hutang.",
+  "income": "Gaji bersih bulanan",
+  "needs": "Keperluan",
+  "needs_hint": "Sewa, bil, barangan dapur, tambang",
+  "wants": "Kehendak",
+  "wants_hint": "Makan luar, beli-belah, percutian",
+  "save": "Simpanan dan hutang",
+  "save_hint": "Matlamat simpanan dan bayaran ekstra",
+  "prose": [
+   [
+    "Apakah formula 50/30/20?",
+    "Ia cara mudah memulakan bajet. Lima puluh peratus daripada gaji bersih menampung perkara wajib, tiga puluh peratus untuk perkara pilihan, dan dua puluh peratus untuk membina simpanan serta melangsaikan hutang."
+   ],
+   [
+    "Bila perlu ubah pembahagian",
+    "Jika sewa rumah sahaja sudah separuh pendapatan, peraturan ini hanyalah panduan awal. Laraskan peratusan mengikut situasi hidup anda, dan utamakan hutang berkadar faedah tinggi terlebih dahulu."
+   ],
+   [
+    "Jadikan ia automatik",
+    "Di Spendry, setiap kategori mempunyai bajet bulanan tersendiri yang menjejak belanja anda, lengkap dengan amaran sebelum bajet terlebih guna."
+   ]
+  ]
+ }
+}
