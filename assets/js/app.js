@@ -748,33 +748,48 @@
     idle(() => {
       if (location.hash.length > 1) while (scenes.length) scenes.shift().build();   // a deep link needs every pin above it (measured just below)
       settle();
-      warmFonts();
+      watchRows();
+      setTimeout(warmFonts, 6000);
       scenes.forEach((sc) => when([sc.el], "150% 0px 150% 0px", () => buildTo(sc)));
       setTimeout(() => { const more = () => { if (!scenes.length) return; buildTo(scenes[0]); idle(more); }; idle(more); }, 8000);
       if (d.readyState === "complete") goHash(); else addEventListener("load", goHash, { once: true });
     });
   };
-  // Names of the languages and amounts in many scripts: each script needs its own system font, and laying out twenty
-  // of them at once is a long freeze. The rows stay out of layout (CSS) until the page is idle; then they are emptied
-  // and refilled a few names at a time, each few laid out in its own short moment.
+  // Names of the languages and amounts in many scripts: each script needs its own system font, and loading one can
+  // take a tenth of a second or more on a slow machine. The rows stay out of layout (CSS) until the reader has been
+  // still for a while some seconds after opening the page; then they are refilled two names at a time, each pair laid
+  // out in its own moment. Coming close to a row fills it at once.
   const many = qa(".mq, .langs");
+  let lastScroll = 0;
+  addEventListener("scroll", () => { lastScroll = performance.now(); }, { passive: true });
+  const queue = [];
+  const flush = (row) => {
+    const job = queue.find((j) => j.row === row);
+    if (!job) return;
+    job.kids.splice(0).forEach((k) => job.box.appendChild(k));
+    queue.splice(queue.indexOf(job), 1);
+  };
+  // Coming close: a row that is still waiting is shown whole, one that is being refilled gets the rest at once.
+  const nearRows = (sec) => many.filter((r) => sec.contains(r)).forEach((row) => { if (row.classList.contains("near")) flush(row); else row.classList.add("near"); });
+  const watchRows = () => when(many.map((el) => el.closest("section, footer") || el), "120% 0px 120% 0px", nearRows);
   const warmFonts = () => {
-    if (!many.length) return;
-    const queue = many.map((row) => {
+    many.filter((row) => !row.classList.contains("near")).forEach((row) => {
       const box = row.classList.contains("mq") ? q(".mq-track", row) : row;
       const kids = [...box.children];
       kids.forEach((k) => k.remove());
-      return [box, kids];
+      queue.push({ row, box, kids });
+      row.classList.add("near");
     });
-    many.forEach((row) => row.classList.add("near"));
     const step = (deadline) => {
-      while (queue.length && deadline.timeRemaining() > 6) {
-        const [box, kids] = queue[0];
-        for (let k = 0; k < 4 && kids.length; k++) box.appendChild(kids.shift());
-        void box.offsetWidth;
-        if (!kids.length) queue.shift();
+      if (!queue.length) return;
+      if (performance.now() - lastScroll < 900) { setTimeout(() => idle(step), 900); return; }
+      if (deadline.timeRemaining() > 12) {
+        const job = queue[0];
+        for (let k = 0; k < 2 && job.kids.length; k++) job.box.appendChild(job.kids.shift());
+        void job.box.offsetWidth;
+        if (!job.kids.length) queue.shift();
       }
-      if (queue.length) idle(step);
+      idle(step);
     };
     idle(step);
   };
