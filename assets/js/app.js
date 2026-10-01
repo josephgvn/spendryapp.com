@@ -657,14 +657,14 @@
       const zoom = wide ? 1.38 : 1.24;
       const lift = (i, at) => {
         tl.set(inC, { transformOrigin: `${centers[i][0]}% ${centers[i][1]}%` }, at)
-          .fromTo(inC, { scale: 1 }, { scale: zoom, duration: 1, ease: "power3.inOut", immediateRender: false }, at)
+          .fromTo(inC, { scale: 1 }, { scale: zoom, duration: 1, ease: "power3.inOut", immediateRender: false, force3D: false }, at)
           .to(lifts[i], { autoAlpha: 1, duration: .01 }, at + .35)
           .fromTo(lifts[i], { scale: 1, yPercent: 0, boxShadow: "0 0 0 rgba(10,15,40,0)" },
             { scale: 1.06, yPercent: -6, boxShadow: "0 40px 80px -20px rgba(10,15,40,.45), 0 0 0 1px rgba(10,15,40,.06)", duration: .8, ease: "power3.out", immediateRender: false }, at + .35)
           .to(dim, { opacity: 1, duration: .8 }, at + .35)
           .to(lifts[i], { scale: 1, yPercent: 0, boxShadow: "0 0 0 rgba(10,15,40,0)", duration: .6, ease: "power2.inOut" }, at + 1.45)
           .to(dim, { opacity: 0, duration: .6 }, at + 1.45)
-          .to(inC, { scale: 1, duration: .8, ease: "power3.inOut" }, at + 1.45)
+          .to(inC, { scale: 1, duration: .8, ease: "power3.inOut", force3D: false }, at + 1.45)
           .to(lifts[i], { autoAlpha: 0, duration: .01 }, at + 2.05);
       };
       const toast = q(".toast", stage);
@@ -839,7 +839,9 @@
       dy = (a.top + a.height / 2) - (b.top + b.height / 2);
       sf = Math.min(1, (c.height - 70) / a.height, (innerWidth - 32) / a.width);
       const room = c.bottom - head.bottom - 30;
-      s0 = Math.min(2.3, (innerWidth * .86) / b.width, (room * .9) / b.height);
+      // Never past the widget picture's own pixels (they are drawn at 3x), so the close-up stays sharp.
+      const sharp = ((focus.naturalWidth || 1092) * 1.2) / (b.width * Math.max(1, devicePixelRatio || 1));
+      s0 = Math.max(1.05, Math.min(sharp, 2.3, (innerWidth * .86) / b.width, (room * .9) / b.height));
       y0 = (head.bottom + room / 2) - (c.top + c.height / 2);
     };
     measure();
@@ -847,7 +849,7 @@
       scrollTrigger: { trigger: ".wid", pin: ".wid-pin", start: "top top", end: () => `+=${Math.round(innerHeight * 1.6)}`, scrub: .8,
         invalidateOnRefresh: true, onRefreshInit: measure },
     });
-    tl.fromTo(wall, { scale: () => s0, x: () => dx * s0, y: () => dy * s0 + y0 }, { scale: () => sf, x: 0, y: 0, duration: 1, ease: "power2.inOut" }, 0)
+    tl.fromTo(wall, { scale: () => s0, x: () => dx * s0, y: () => dy * s0 + y0 }, { scale: () => sf, x: 0, y: 0, duration: 1, ease: "power2.inOut", force3D: false }, 0)
       .to(copyW, { autoAlpha: 0, y: -50, duration: .22, ease: "power2.in" }, .12)
       .fromTo(others, { autoAlpha: 0, scale: .7 }, { autoAlpha: 1, scale: 1, duration: .5, stagger: { each: .03, from: "random" }, ease: "power2.out" }, .25)
       .from(".wid-bg img", { scale: 1.4, rotate: 10, duration: 1, ease: "none" }, 0)
