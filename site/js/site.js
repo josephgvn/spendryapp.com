@@ -460,6 +460,7 @@
     d.addEventListener("visibilitychange", start);
     if (fine) addEventListener("pointermove", (ev) => { mouse.tx = ev.clientX / innerWidth - .5; mouse.ty = .5 - ev.clientY / innerHeight; }, { passive: true });
     canvas.classList.add("on");
+    canvas.parentElement.classList.add("webgl-on");
     return { canvas, setVisible: (yes) => { visible = yes; start(); }, setSpread: (s) => { spread = s; } };
   }
 
@@ -756,22 +757,28 @@
   if (wall) {
     const focus = q(".wp", wall);
     const others = qa(".w", wall).filter((w) => w !== focus && getComputedStyle(w).display !== "none");
-    const box = q(".wall-box");
-    let dx = 0, dy = 0, s0 = 2.2, sf = 1;
+    const box = q(".wall-box"), copyW = q(".wid-copy");
+    let dx = 0, dy = 0, s0 = 2.2, sf = 1, y0 = 0;
+    // The whole screen is the stage: it opens on one widget below the title, the title steps aside,
+    // and the Home Screen fills the view.
     const measure = () => {
       G.set(wall, { clearProps: "transform" });
       const a = wall.getBoundingClientRect(), b = focus.getBoundingClientRect(), c = box.getBoundingClientRect();
+      const head = copyW.getBoundingClientRect();
       dx = (a.left + a.width / 2) - (b.left + b.width / 2);
       dy = (a.top + a.height / 2) - (b.top + b.height / 2);
-      sf = Math.min(1, (c.height - 44) / a.height, (innerWidth - 32) / a.width);
-      s0 = Math.min(2.3, (innerWidth * .86) / b.width, (c.height * .9) / b.height);
+      sf = Math.min(1, (c.height - 70) / a.height, (innerWidth - 32) / a.width);
+      const room = c.bottom - head.bottom - 30;
+      s0 = Math.min(2.3, (innerWidth * .86) / b.width, (room * .9) / b.height);
+      y0 = (head.bottom + room / 2) - (c.top + c.height / 2);
     };
     measure();
     const tl = G.timeline({
-      scrollTrigger: { trigger: ".wid", pin: ".wid-pin", start: "top top", end: () => `+=${Math.round(innerHeight * 1.5)}`, scrub: .8,
+      scrollTrigger: { trigger: ".wid", pin: ".wid-pin", start: "top top", end: () => `+=${Math.round(innerHeight * 1.6)}`, scrub: .8,
         invalidateOnRefresh: true, onRefreshInit: measure },
     });
-    tl.fromTo(wall, { scale: () => s0, x: () => dx * s0, y: () => dy * s0 }, { scale: () => sf, x: 0, y: 0, duration: 1, ease: "power2.inOut" }, 0)
+    tl.fromTo(wall, { scale: () => s0, x: () => dx * s0, y: () => dy * s0 + y0 }, { scale: () => sf, x: 0, y: 0, duration: 1, ease: "power2.inOut" }, 0)
+      .to(copyW, { autoAlpha: 0, y: -50, duration: .22, ease: "power2.in" }, .12)
       .fromTo(others, { autoAlpha: 0, scale: .7 }, { autoAlpha: 1, scale: 1, duration: .5, stagger: { each: .03, from: "random" }, ease: "power2.out" }, .25)
       .from(".wid-bg img", { scale: 1.4, rotate: 10, duration: 1, ease: "none" }, 0)
       .to({}, { duration: .2 });

@@ -683,7 +683,7 @@ def widgets_html(lang, c):
     return f"""
 <section class="wid" data-theme="dark">
 <div class="wid-pin">
-<div class="wid-bg" aria-hidden="true"><img src="/assets/brand/ribbon.webp" alt="" loading="lazy"></div>
+<div class="wid-bg" aria-hidden="true"><img src="/assets/brand/ribbon-soft.webp" alt="" loading="lazy"></div>
 <div class="wrap wid-copy">{head(c, 'widgets', 'head-dark')}</div>
 <div class="wall-box"><div class="wall">{tiles}</div></div>
 </div>
