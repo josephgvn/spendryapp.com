@@ -579,20 +579,27 @@
           onUpdate: (self) => {
             setNav(self.progress > .11 ? "light" : "dark");
             if (aurora) aurora.setVisible(self.progress < .2 && self.isActive || self.progress < .05);
-            const step = self.progress < .42 ? 0 : self.progress < .7 ? 1 : 2;
+            const step = self.progress < .41 ? 0 : self.progress < .71 ? 1 : 2;
             dots.forEach((dot, i) => dot.classList.toggle("on", i <= step));
           },
         },
       });
+      // Each step: the camera moves in on the screen's main card, the card lifts off the screen, then all settles back.
+      const zoom = wide ? 1.38 : 1.24;
       const lift = (i, at) => {
-        tl.to(lifts[i], { autoAlpha: 1, duration: .01 }, at)
+        tl.set(inC, { transformOrigin: `${centers[i][0]}% ${centers[i][1]}%` }, at)
+          .fromTo(inC, { scale: 1 }, { scale: zoom, duration: 1, ease: "power3.inOut", immediateRender: false }, at)
+          .to(lifts[i], { autoAlpha: 1, duration: .01 }, at + .35)
           .fromTo(lifts[i], { scale: 1, yPercent: 0, boxShadow: "0 0 0 rgba(10,15,40,0)" },
-            { scale: 1.1, yPercent: -8, boxShadow: "0 40px 80px -20px rgba(10,15,40,.45), 0 0 0 1px rgba(10,15,40,.06)", duration: .8, ease: "power3.out" }, at)
-          .to(dim, { opacity: 1, duration: .8 }, at)
-          .to(lifts[i], { scale: 1, yPercent: 0, boxShadow: "0 0 0 rgba(10,15,40,0)", duration: .6, ease: "power2.inOut" }, at + 1.3)
-          .to(dim, { opacity: 0, duration: .6 }, at + 1.3)
-          .to(lifts[i], { autoAlpha: 0, duration: .01 }, at + 1.9);
+            { scale: 1.06, yPercent: -6, boxShadow: "0 40px 80px -20px rgba(10,15,40,.45), 0 0 0 1px rgba(10,15,40,.06)", duration: .8, ease: "power3.out", immediateRender: false }, at + .35)
+          .to(dim, { opacity: 1, duration: .8 }, at + .35)
+          .to(lifts[i], { scale: 1, yPercent: 0, boxShadow: "0 0 0 rgba(10,15,40,0)", duration: .6, ease: "power2.inOut" }, at + 1.45)
+          .to(dim, { opacity: 0, duration: .6 }, at + 1.45)
+          .to(inC, { scale: 1, duration: .8, ease: "power3.inOut" }, at + 1.45)
+          .to(lifts[i], { autoAlpha: 0, duration: .01 }, at + 2.05);
       };
+      const toast = q(".toast", stage);
+      if (toast) tl.to(toast, { autoAlpha: 0, y: -30, duration: .4 }, 0);
       tl.to(copy, { y: -90, autoAlpha: 0, duration: 1.1, ease: "power2.in" }, 0)
         .to(cue, { autoAlpha: 0, scale: .6, duration: .5 }, 0)
         .to(pl, { xPercent: -150, z: -700, rotationY: rtl ? -60 : 60, autoAlpha: 0, duration: 1.4, ease: "power2.in" }, 0)
@@ -609,18 +616,18 @@
       tl.to(ring, { opacity: 1, duration: .6 }, 1.3)
         .fromTo(caps[0], { autoAlpha: 0, y: 50 }, { autoAlpha: 1, y: 0, duration: .8, ease: "power3.out" }, 1.4)
         .to(ringBar, { strokeDashoffset: 163.4 * (2 / 3), duration: .8 }, 1.4);
-      lift(0, 2.2);
-      tl.to(caps[0], { autoAlpha: 0, y: -50, duration: .6, ease: "power2.in" }, 4.2)
-        .to(scr[1], { clipPath: `circle(150% at ${centers[1][0]}% ${centers[1][1]}%)`, duration: 1.1, ease: "power2.inOut" }, 4.3)
-        .fromTo(caps[1], { autoAlpha: 0, y: 50 }, { autoAlpha: 1, y: 0, duration: .8, ease: "power3.out" }, 4.8)
-        .to(ringBar, { strokeDashoffset: 163.4 / 3, duration: .8 }, 4.8);
-      lift(1, 5.6);
-      tl.to(caps[1], { autoAlpha: 0, y: -50, duration: .6, ease: "power2.in" }, 7.6)
-        .to(scr[2], { clipPath: `circle(150% at ${centers[2][0]}% ${centers[2][1]}%)`, duration: 1.1, ease: "power2.inOut" }, 7.7)
-        .fromTo(caps[2], { autoAlpha: 0, y: 50 }, { autoAlpha: 1, y: 0, duration: .8, ease: "power3.out" }, 8.2)
-        .to(ringBar, { strokeDashoffset: 0, duration: .8 }, 8.2);
-      lift(2, 9);
-      tl.to({}, { duration: .8 }, 10.9);
+      lift(0, 2.1);
+      tl.to(caps[0], { autoAlpha: 0, y: -50, duration: .6, ease: "power2.in" }, 4.4)
+        .to(scr[1], { clipPath: `circle(150% at ${centers[1][0]}% ${centers[1][1]}%)`, duration: 1.1, ease: "power2.inOut" }, 4.5)
+        .fromTo(caps[1], { autoAlpha: 0, y: 50 }, { autoAlpha: 1, y: 0, duration: .8, ease: "power3.out" }, 5)
+        .to(ringBar, { strokeDashoffset: 163.4 / 3, duration: .8 }, 5);
+      lift(1, 5.8);
+      tl.to(caps[1], { autoAlpha: 0, y: -50, duration: .6, ease: "power2.in" }, 8.1)
+        .to(scr[2], { clipPath: `circle(150% at ${centers[2][0]}% ${centers[2][1]}%)`, duration: 1.1, ease: "power2.inOut" }, 8.2)
+        .fromTo(caps[2], { autoAlpha: 0, y: 50 }, { autoAlpha: 1, y: 0, duration: .8, ease: "power3.out" }, 8.7)
+        .to(ringBar, { strokeDashoffset: 0, duration: .8 }, 8.7);
+      lift(2, 9.5);
+      tl.to({}, { duration: .8 }, 11.6);
       return () => { setNav("dark"); };
     });
   }
