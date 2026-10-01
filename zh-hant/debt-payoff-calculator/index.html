@@ -122,9 +122,8 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="64x64" href="/assets/brand/favicon-64.png">
 <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/site.css?v=84f1774a10">
-<script>(function(h){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");setTimeout(function(){if(!h.classList.contains("ready"))h.classList.remove("motion")},4500)})(document.documentElement)</script>
-<script src="/assets/js/app.js?v=2ad93f7e80" defer></script>
+<link rel="stylesheet" href="/assets/css/site.css?v=d091de52c5">
+<script>(function(h,w){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");var still=function(){h.classList.remove("motion");[].forEach.call(document.querySelectorAll("img[data-src]"),function(i){if(i.dataset.srcset)i.srcset=i.dataset.srcset;i.src=i.dataset.src})};var go=function(){if(go.done)return;go.done=1;var s=document.createElement("script");s.src="/assets/js/app.js?v=03d3df64d1";s.onerror=still;document.body.appendChild(s);setTimeout(function(){if(!h.classList.contains("ready"))still()},6000)};w.addEventListener("load",function(){var i=document.querySelector("img[fetchpriority=high]"),P=w.PerformanceObserver,next=function(){requestAnimationFrame(function(){setTimeout(go,0)})};if(!i){go();return}if(P&&P.supportedEntryTypes&&P.supportedEntryTypes.indexOf("largest-contentful-paint")>=0){var t=setTimeout(go,1500);new P(function(l){l.getEntries().forEach(function(e){if(e.element===i){clearTimeout(t);setTimeout(go,0)}})}).observe({type:"largest-contentful-paint",buffered:true})}else if(i.decode)i.decode().then(next,next);else next()});w.addEventListener("DOMContentLoaded",function(){setTimeout(go,2500)})})(document.documentElement,window)</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "債務還清計算機", "description": "免費債務還清計算機: 比較滾雪球法與雪崩法，掌握您還清債務的日期與利息支出。免註冊。", "url": "https://spendryapp.com/zh-hant/debt-payoff-calculator/", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "inLanguage": "zh-Hant", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "@id": "https://spendryapp.com/#org", "name": "Spendry", "url": "https://spendryapp.com/", "logo": "https://spendryapp.com/assets/brand/icon-512.png", "email": "support@spendryapp.com", "sameAs": ["https://apps.apple.com/app/id6754893380"]}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Spendry", "item": "https://spendryapp.com/zh-hant/"}, {"@type": "ListItem", "position": 2, "name": "債務還清計算機", "item": "https://spendryapp.com/zh-hant/debt-payoff-calculator/"}]}</script>
 </head>
@@ -150,17 +149,17 @@
 <section class="tool-hero" data-theme="dark">
 <div class="aurora-css" aria-hidden="true"></div>
 <div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="/zh-hant/">Spendry</a><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg><a href="/zh-hant/#tools">免費工具</a></nav>
-<h1 class="title title-lg" data-split>債務還清計算機</h1><p class="sub" data-rise>輸入各項債務以及每月除了最低應繳外能多負擔的金額。並列比較滾雪球法與雪崩法的還清月份與總利息支出。</p></div>
+<h1 class="title title-lg" data-split>債務還清計算機</h1><p class="sub" data-rise="now">輸入各項債務以及每月除了最低應繳外能多負擔的金額。並列比較滾雪球法與雪崩法的還清月份與總利息支出。</p></div>
 </section>
 <section class="tool-body" data-theme="light"><div class="wrap">
 <div class="calc" id="payoff" data-payoff='{&quot;period&quot;: &quot;year&quot;, &quot;extra&quot;: 8000, &quot;step&quot;: 800, &quot;debts&quot;: [{&quot;name&quot;: &quot;信用卡&quot;, &quot;bal&quot;: 170000, &quot;rate&quot;: 24.9, &quot;min&quot;: 4800}, {&quot;name&quot;: &quot;汽車貸款&quot;, &quot;bal&quot;: 460000, &quot;rate&quot;: 7.9, &quot;min&quot;: 11000}, {&quot;name&quot;: &quot;分期聯名卡&quot;, &quot;bal&quot;: 42000, &quot;rate&quot;: 29.9, &quot;min&quot;: 1400}, {&quot;name&quot;: &quot;醫療費用&quot;, &quot;bal&quot;: 26000, &quot;rate&quot;: 0, &quot;min&quot;: 1600}], &quot;labels&quot;: {&quot;name&quot;: &quot;債務名稱&quot;, &quot;balance&quot;: &quot;餘額&quot;, &quot;rate&quot;: &quot;年利率 %&quot;, &quot;minimum&quot;: &quot;最低還款金額&quot;, &quot;remove&quot;: &quot;移除&quot;, &quot;free_in&quot;: &quot;距離無債一身輕還有&quot;, &quot;interest&quot;: &quot;總利息支出&quot;, &quot;order&quot;: &quot;還款順序&quot;, &quot;faster&quot;: &quot;速度更快&quot;, &quot;cheaper&quot;: &quot;省更多利息&quot;, &quot;same&quot;: &quot;依此數據計算，兩種策略結果相同。&quot;, &quot;stuck&quot;: &quot;以目前還款金額無法還清債務，連利息都無法涵蓋。請提高額外還款金額。&quot;, &quot;snowball&quot;: &quot;滾雪球法&quot;, &quot;avalanche&quot;: &quot;雪崩法&quot;, &quot;debt&quot;: &quot;債務名稱&quot;}}'>
-<div class="panel calc-in" data-rise>
+<div class="panel calc-in" data-rise="now">
 <div class="debt-list"></div>
 <button type="button" class="btn-soft" data-add><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg>新增債務</button>
 <label class="field"><span>每月可額外多還的金額</span><input type="number" inputmode="decimal" min="0" step="800" value="8000" data-extra><small>在最低應繳金額之外，你每月能額外用來還債的資金。多還一點，就能越快還清債務。</small></label>
 <p class="note">以上為範例債務，請替換為你的實際資料。計算以固定利率為準，未計入其他手續費。</p>
 </div>
-<div class="panel calc-out" data-rise aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
+<div class="panel calc-out" data-rise="now" aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
 </div></div></section>
 <section class="tool-cta" data-theme="light"><div class="wrap"><div class="cta-card" data-rise>
 <div class="cta-shot"><img class="shot" src="/assets/img/zh-Hant/screen-06.webp" srcset="/assets/img/zh-Hant/screen-06-m.webp 603w, /assets/img/zh-Hant/screen-06.webp 1206w" sizes="(max-width: 700px) 50vw, 260px" width="1206" height="2622" alt="Spendry" decoding="async" loading="lazy"></div>

@@ -31,9 +31,8 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="64x64" href="/assets/brand/favicon-64.png">
 <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/site.css?v=84f1774a10">
-<script>(function(h){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");setTimeout(function(){if(!h.classList.contains("ready"))h.classList.remove("motion")},4500)})(document.documentElement)</script>
-<script src="/assets/js/app.js?v=2ad93f7e80" defer></script>
+<link rel="stylesheet" href="/assets/css/site.css?v=d091de52c5">
+<script>(function(h,w){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");var still=function(){h.classList.remove("motion");[].forEach.call(document.querySelectorAll("img[data-src]"),function(i){if(i.dataset.srcset)i.srcset=i.dataset.srcset;i.src=i.dataset.src})};var go=function(){if(go.done)return;go.done=1;var s=document.createElement("script");s.src="/assets/js/app.js?v=03d3df64d1";s.onerror=still;document.body.appendChild(s);setTimeout(function(){if(!h.classList.contains("ready"))still()},6000)};w.addEventListener("load",function(){var i=document.querySelector("img[fetchpriority=high]"),P=w.PerformanceObserver,next=function(){requestAnimationFrame(function(){setTimeout(go,0)})};if(!i){go();return}if(P&&P.supportedEntryTypes&&P.supportedEntryTypes.indexOf("largest-contentful-paint")>=0){var t=setTimeout(go,1500);new P(function(l){l.getEntries().forEach(function(e){if(e.element===i){clearTimeout(t);setTimeout(go,0)}})}).observe({type:"largest-contentful-paint",buffered:true})}else if(i.decode)i.decode().then(next,next);else next()});w.addEventListener("DOMContentLoaded",function(){setTimeout(go,2500)})})(document.documentElement,window)</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Kredi hesaplama", "description": "Kredi hesaplama: aylık taksit, toplam geri ödeme, faiz, KKDF ve BSMV. İhtiyaç, taşıt ve konut kredisi için ay ay ödeme tablosu. Ücretsiz, kayıt gerektirmez.", "url": "https://spendryapp.com/tr/kredi-hesaplama/", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "inLanguage": "tr", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "@id": "https://spendryapp.com/#org", "name": "Spendry", "url": "https://spendryapp.com/", "logo": "https://spendryapp.com/assets/brand/icon-512.png", "email": "support@spendryapp.com", "sameAs": ["https://apps.apple.com/app/id6754893380"]}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Spendry", "item": "https://spendryapp.com/tr/"}, {"@type": "ListItem", "position": 2, "name": "Kredi hesaplama", "item": "https://spendryapp.com/tr/kredi-hesaplama/"}]}</script>
 </head>
@@ -59,11 +58,11 @@
 <section class="tool-hero" data-theme="dark">
 <div class="aurora-css" aria-hidden="true"></div>
 <div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="/tr/">Spendry</a><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg><a href="/tr/#tools">Ücretsiz araçlar</a></nav>
-<h1 class="title title-lg" data-split>Kredi hesaplama</h1><p class="sub" data-rise>Tutarı, aylık faiz oranını ve vadeyi gir; aylık taksiti, toplam faizi ve vergileri gör. Bankalar KKDF ve BSMV&#x27;yi her ayın faizine ekler, hesap da öyle yapılır.</p></div>
+<h1 class="title title-lg" data-split>Kredi hesaplama</h1><p class="sub" data-rise="now">Tutarı, aylık faiz oranını ve vadeyi gir; aylık taksiti, toplam faizi ve vergileri gör. Bankalar KKDF ve BSMV&#x27;yi her ayın faizine ekler, hesap da öyle yapılır.</p></div>
 </section>
 <section class="tool-body" data-theme="light"><div class="wrap">
 <div class="calc" id="loan" data-labels='{&quot;show_all&quot;: &quot;Tüm ayları göster&quot;, &quot;show_less&quot;: &quot;İlk 12 ayı göster&quot;}'>
-<form class="panel" data-rise onsubmit="return false">
+<form class="panel" data-rise="now" onsubmit="return false">
 <div class="field"><span>Kredi türü</span><div class="seg seg-3" role="radiogroup" aria-label="Kredi türü"><i class="seg-thumb" aria-hidden="true"></i><button type="button" role="radio" aria-checked="true" data-loan-type="ihtiyac">İhtiyaç</button><button type="button" role="radio" aria-checked="false" data-loan-type="tasit">Taşıt</button><button type="button" role="radio" aria-checked="false" data-loan-type="konut">Konut</button></div></div>
 <label class="field"><span>Kredi tutarı</span><input type="number" inputmode="decimal" min="0" step="1000" value="100000" data-f="amount"></label>
 <div class="row"><label class="field"><span>Aylık faiz %</span><input type="number" inputmode="decimal" min="0" step="0.01" value="3.49" data-f="rate"><small>Örnek oran; bankanın teklifini yaz.</small></label>
@@ -72,7 +71,7 @@
 <label class="field"><span>BSMV %</span><input type="number" inputmode="decimal" min="0" step="1" value="15" data-f="bsmv"></label></div>
 <p class="note">2026&#x27;da ihtiyaç ve taşıt kredilerinde faizin üstüne %15 KKDF ve %15 BSMV eklenir; konut kredilerinde KKDF alınmaz. Oranları sözleşmenden kontrol et.</p>
 </form>
-<div class="panel" data-rise aria-live="polite">
+<div class="panel" data-rise="now" aria-live="polite">
 <div class="loan-top"><div class="big"><span>Aylık taksit</span><b data-o="payment">&nbsp;</b></div>
 <dl class="figs"><div><dt>Toplam geri ödeme</dt><dd data-o="total">&nbsp;</dd></div><div><dt>Toplam faiz</dt><dd data-o="interest">&nbsp;</dd></div><div><dt>KKDF ve BSMV</dt><dd data-o="tax">&nbsp;</dd></div></dl></div>
 <div class="table-wrap"><table><thead><tr><th>Ay</th><th>Taksit</th><th>Anapara</th><th>Faiz</th><th>KKDF</th><th>BSMV</th><th>Kalan</th></tr></thead><tbody data-rows></tbody></table></div>

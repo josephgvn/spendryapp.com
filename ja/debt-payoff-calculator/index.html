@@ -122,9 +122,8 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="64x64" href="/assets/brand/favicon-64.png">
 <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/site.css?v=84f1774a10">
-<script>(function(h){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");setTimeout(function(){if(!h.classList.contains("ready"))h.classList.remove("motion")},4500)})(document.documentElement)</script>
-<script src="/assets/js/app.js?v=2ad93f7e80" defer></script>
+<link rel="stylesheet" href="/assets/css/site.css?v=d091de52c5">
+<script>(function(h,w){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");var still=function(){h.classList.remove("motion");[].forEach.call(document.querySelectorAll("img[data-src]"),function(i){if(i.dataset.srcset)i.srcset=i.dataset.srcset;i.src=i.dataset.src})};var go=function(){if(go.done)return;go.done=1;var s=document.createElement("script");s.src="/assets/js/app.js?v=03d3df64d1";s.onerror=still;document.body.appendChild(s);setTimeout(function(){if(!h.classList.contains("ready"))still()},6000)};w.addEventListener("load",function(){var i=document.querySelector("img[fetchpriority=high]"),P=w.PerformanceObserver,next=function(){requestAnimationFrame(function(){setTimeout(go,0)})};if(!i){go();return}if(P&&P.supportedEntryTypes&&P.supportedEntryTypes.indexOf("largest-contentful-paint")>=0){var t=setTimeout(go,1500);new P(function(l){l.getEntries().forEach(function(e){if(e.element===i){clearTimeout(t);setTimeout(go,0)}})}).observe({type:"largest-contentful-paint",buffered:true})}else if(i.decode)i.decode().then(next,next);else next()});w.addEventListener("DOMContentLoaded",function(){setTimeout(go,2500)})})(document.documentElement,window)</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "借入返済シミュレーター", "description": "無料の借入返済シミュレーター。スノーボール方式とアバランチ方式を比較し、完済予定月と支払利息の差を確認できます。登録不要。", "url": "https://spendryapp.com/ja/debt-payoff-calculator/", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "inLanguage": "ja", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "@id": "https://spendryapp.com/#org", "name": "Spendry", "url": "https://spendryapp.com/", "logo": "https://spendryapp.com/assets/brand/icon-512.png", "email": "support@spendryapp.com", "sameAs": ["https://apps.apple.com/app/id6754893380"]}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Spendry", "item": "https://spendryapp.com/ja/"}, {"@type": "ListItem", "position": 2, "name": "借入返済シミュレーター", "item": "https://spendryapp.com/ja/debt-payoff-calculator/"}]}</script>
 </head>
@@ -150,17 +149,17 @@
 <section class="tool-hero" data-theme="dark">
 <div class="aurora-css" aria-hidden="true"></div>
 <div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="/ja/">Spendry</a><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg><a href="/ja/#tools">無料ツール</a></nav>
-<h1 class="title title-lg" data-split>借入返済シミュレーター</h1><p class="sub" data-rise>現在の借入内容と、毎月の最低返済額に上乗せできる金額を入力してください。スノーボール方式とアバランチ方式を並べて、完済時期や総利息の違いを比較できます。</p></div>
+<h1 class="title title-lg" data-split>借入返済シミュレーター</h1><p class="sub" data-rise="now">現在の借入内容と、毎月の最低返済額に上乗せできる金額を入力してください。スノーボール方式とアバランチ方式を並べて、完済時期や総利息の違いを比較できます。</p></div>
 </section>
 <section class="tool-body" data-theme="light"><div class="wrap">
 <div class="calc" id="payoff" data-payoff='{&quot;period&quot;: &quot;year&quot;, &quot;extra&quot;: 38000, &quot;step&quot;: 4000, &quot;debts&quot;: [{&quot;name&quot;: &quot;クレジットカード&quot;, &quot;bal&quot;: 780000, &quot;rate&quot;: 24.9, &quot;min&quot;: 22000}, {&quot;name&quot;: &quot;マイカーローン&quot;, &quot;bal&quot;: 2200000, &quot;rate&quot;: 7.9, &quot;min&quot;: 50000}, {&quot;name&quot;: &quot;ショッピングリボ&quot;, &quot;bal&quot;: 200000, &quot;rate&quot;: 29.9, &quot;min&quot;: 6800}, {&quot;name&quot;: &quot;医療ローン&quot;, &quot;bal&quot;: 120000, &quot;rate&quot;: 0, &quot;min&quot;: 7500}], &quot;labels&quot;: {&quot;name&quot;: &quot;債務名&quot;, &quot;balance&quot;: &quot;借入残高&quot;, &quot;rate&quot;: &quot;実質年率 %&quot;, &quot;minimum&quot;: &quot;最低返済額&quot;, &quot;remove&quot;: &quot;削除&quot;, &quot;free_in&quot;: &quot;完済予定時期&quot;, &quot;interest&quot;: &quot;支払利息の合計&quot;, &quot;order&quot;: &quot;返済の優先順位&quot;, &quot;faster&quot;: &quot;より早く完済&quot;, &quot;cheaper&quot;: &quot;利息をより節約&quot;, &quot;same&quot;: &quot;この条件ではどちらの方式でも同じ結果になります。&quot;, &quot;stuck&quot;: &quot;現在の返済額では利息分に満たないため、完済できません。毎月の増額返済額を増やしてください。&quot;, &quot;snowball&quot;: &quot;スノーボール&quot;, &quot;avalanche&quot;: &quot;アバランチ&quot;, &quot;debt&quot;: &quot;債務名&quot;}}'>
-<div class="panel calc-in" data-rise>
+<div class="panel calc-in" data-rise="now">
 <div class="debt-list"></div>
 <button type="button" class="btn-soft" data-add><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg>債務を追加</button>
 <label class="field"><span>毎月の追加返済額</span><input type="number" inputmode="decimal" min="0" step="4000" value="38000" data-extra><small>最低返済額に上乗せして返済に充てられる金額です。金額を増やすほど、より早く完済できます。</small></label>
 <p class="note">サンプルの数値です。ご自身の借入情報に変更してご利用ください。金利は固定金利として計算され、各種手数料は含まれません。</p>
 </div>
-<div class="panel calc-out" data-rise aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
+<div class="panel calc-out" data-rise="now" aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
 </div></div></section>
 <section class="tool-cta" data-theme="light"><div class="wrap"><div class="cta-card" data-rise>
 <div class="cta-shot"><img class="shot" src="/assets/img/ja/screen-06.webp" srcset="/assets/img/ja/screen-06-m.webp 603w, /assets/img/ja/screen-06.webp 1206w" sizes="(max-width: 700px) 50vw, 260px" width="1206" height="2622" alt="Spendry" decoding="async" loading="lazy"></div>

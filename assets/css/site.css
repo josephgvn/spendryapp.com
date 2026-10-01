@@ -127,7 +127,7 @@ html:lang(ml) .title, html:lang(ta) .title, html:lang(te) .title, html:lang(kn) 
   color: #fff; display: grid; place-items: center; padding: 90px 20px 40px; overflow-y: auto; opacity: 0; visibility: hidden;
   transition: opacity .4s, visibility 0s .4s;
 }
-.lang-panel[hidden] { display: grid; }
+.lang-panel[hidden] { display: none; }
 .lang-panel.open { opacity: 1; visibility: visible; transition: opacity .4s, visibility 0s; }
 .lang-in { width: min(980px, 100%); }
 .lang-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 26px; }
@@ -224,7 +224,7 @@ html:not(.motion) .scr-1, html:not(.motion) .scr-2 { display: none; }
 /* ---------- languages and currencies ---------- */
 .marquee { background: var(--paper); padding: var(--pad) 0 clamp(20px, 3vw, 40px); overflow: hidden; }
 .marquee .head { margin-bottom: clamp(24px, 3vw, 40px); }
-.mq { overflow: hidden; white-space: nowrap; }
+.mq { overflow: hidden; white-space: nowrap; contain-intrinsic-block-size: calc(clamp(34px, 5.4vw, 84px) * 1.18); }
 .mq-track { display: inline-flex; align-items: center; gap: clamp(22px, 3vw, 44px); font-size: clamp(34px, 5.4vw, 84px); font-weight: 780; letter-spacing: -.03em; line-height: 1.18; }
 .mq-a .mq-track span { color: var(--ink); }
 .mq-a .mq-track span:nth-child(4n+3) { color: var(--blue); }
@@ -481,7 +481,7 @@ html:not(.motion) .wall { position: relative; left: auto; top: auto; translate: 
 .foot ul { display: grid; gap: 10px; }
 .foot a:hover { color: #fff; }
 .foot-langs { padding: 36px 0; border-bottom: 1px solid rgba(255, 255, 255, .08); }
-.langs { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; }
+.langs { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; contain-intrinsic-block-size: 150px; }
 .langs a { color: #8f98c0; }
 .langs a[aria-current] { color: #fff; }
 .foot-end { display: grid; gap: 8px; padding: 28px 0 36px; font-size: 13px; color: #6f78a0; }
@@ -599,9 +599,32 @@ tbody tr:nth-child(2n) { background: #fafbff; }
 .nf .sub { color: #b0b9dc; }
 .btn-ghost-dark { color: #fff; }
 
-/* ---------- entrance states (only with motion; the script clears them) ---------- */
-.motion [data-rise] { opacity: 0; transform: translateY(24px); }
-.motion .hero-copy [data-hero] { opacity: 0; }
-.motion .hero-title .ln-in { transform: translateY(105%); }
-.motion .phones { opacity: 0; }
+/* ---------- entrance (only with motion) ----------
+   The first screen arrives by itself with CSS, so it is drawn in the first frame without waiting for the script.
+   Further down, [data-rise] waits for the script to say it is in view (.in), then lets go of its transition (.done). */
+@keyframes rise-line { from { transform: translateY(105%); } to { transform: none; } }
+@keyframes rise-in { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: none; } }
+@keyframes phone-up { from { transform: translateY(12%); } to { transform: none; } }
+@keyframes side-l { from { opacity: 0; transform: translateX(45%); } to { opacity: .9; transform: none; } }
+@keyframes side-r { from { opacity: 0; transform: translateX(-45%); } to { opacity: .9; transform: none; } }
+.motion [data-rise]:not([data-rise="now"]) { opacity: 0; transform: translateY(24px); }
+.motion [data-rise].in { opacity: 1; transform: none; }
+.motion [data-rise].in:not(.done) { transition: opacity 1s var(--ease) var(--d, 0s), transform 1s var(--ease) var(--d, 0s); }
+.motion [data-rise="now"], .motion .tool-hero .crumbs, .motion .nf-code { animation: rise-in 1s var(--ease) .15s both; }
+.motion .hero-title .ln-in { animation: rise-line 1.3s var(--ease) .1s both; }
+.motion .hero-title .ln-2 .ln-in { animation-delay: .2s; }
+.motion .hero-copy [data-hero] { animation: rise-in 1s var(--ease) .35s both; }
+.motion .hero-copy .lead { animation-delay: .43s; }
+.motion .hero-copy .hero-cta { animation-delay: .51s; }
+.motion .hero-copy .facts { animation-delay: .59s; }
+.motion .ph-c { animation: phone-up 1.5s var(--ease) .15s both; }
+/* The side phones and the two cards wait until the script has put them in place. */
+.motion .pw-l, .motion .pw-r, .motion .fw { visibility: hidden; }
+.motion .stage.set .pw-l, .motion .stage.set .pw-r, .motion .stage.set .fw { visibility: visible; }
+.motion .stage.set .ph-l { animation: side-l 1.5s var(--ease) both; }
+.motion .stage.set .ph-r { animation: side-r 1.5s var(--ease) both; }
+.motion .float { opacity: 0; }
+/* Rows of names and amounts in many scripts are left out of layout until the script has warmed their fonts or
+   they come near the screen (.near): laying out twenty scripts at once is the slowest thing on the page. */
+.motion .mq:not(.near), .motion .langs:not(.near) { content-visibility: hidden; }
 @media print { .nav, .to-top, .lang-panel, .aurora, .aurora-css, .grain, .dock { display: none !important; } .motion [data-rise], .motion [data-hero] { opacity: 1 !important; transform: none !important; } }

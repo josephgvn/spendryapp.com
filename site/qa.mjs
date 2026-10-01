@@ -82,7 +82,7 @@ const scrollCode = (to, steps) => `
 const checkCode = `
   const out = {};
   out.overflowX = document.documentElement.scrollWidth - innerWidth;
-  out.brokenImages = [...document.images].filter((i) => i.complete && i.naturalWidth === 0 && i.loading !== "lazy").map((i) => i.src.split("/").slice(-2).join("/")).slice(0, 8);
+  out.brokenImages = [...document.images].filter((i) => i.complete && i.naturalWidth === 0 && i.loading !== "lazy" && !i.dataset.src).map((i) => i.src.split("/").slice(-2).join("/")).slice(0, 8);
   const wide = [];
   document.querySelectorAll("body *").forEach((e) => {
     const r = e.getBoundingClientRect();

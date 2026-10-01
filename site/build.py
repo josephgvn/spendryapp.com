@@ -213,12 +213,17 @@ def img_dir(lang):
     return lang if os.path.isdir(os.path.join(ROOT, "assets", "img", lang)) else "en"
 
 
-def screen(lang, n, alt, sizes="(max-width: 700px) 60vw, 360px", cls="shot", eager=False, fetch_high=False):
+def screen(lang, n, alt, sizes="(max-width: 700px) 60vw, 360px", cls="shot", eager=False, fetch_high=False, later=False):
+    """later: the address waits in data-src until the script shows the picture (first-screen pictures that start
+    hidden), so it doesn't compete with the main phone while the page loads."""
     d = img_dir(lang)
     loading = 'fetchpriority="high"' if fetch_high else ('loading="eager"' if eager else 'loading="lazy"')
-    return (f'<img class="{cls}" src="/assets/img/{d}/screen-{n}.webp" srcset="/assets/img/{d}/screen-{n}-m.webp 603w, '
+    pre = "data-" if later else ""
+    near = " data-near" if later == "near" else ""   # comes when the reader gets close (site.js), not right away
+    dec = "" if fetch_high else 'decoding="async"'      # the main picture is decoded with the page, not after it
+    return (f'<img class="{cls}" {pre}src="/assets/img/{d}/screen-{n}.webp" {pre}srcset="/assets/img/{d}/screen-{n}-m.webp 603w, '
             f'/assets/img/{d}/screen-{n}.webp 1206w" sizes="{sizes}" width="1206" height="2622" alt="{e(alt)}" '
-            f'decoding="async" {loading}>')
+            f'{dec}{near} {"" if later else loading}>')
 
 
 def card_style(lang, n):
@@ -230,10 +235,11 @@ def card_style(lang, n):
             f"height:{(y1 - y0) / H * 100:.3f}%")
 
 
-def card(lang, n, cls="lift", eager=False):
+def card(lang, n, cls="lift", eager=False, later=False):
     d = img_dir(lang)
-    return (f'<img class="{cls}" src="/assets/img/{d}/card-{n}.webp" alt="" style="{card_style(lang, n)}" '
-            f'decoding="async" {LAZY_ATTR if not eager else ""}>')
+    pre = "data-" if later else ""
+    return (f'<img class="{cls}" {pre}src="/assets/img/{d}/card-{n}.webp" alt="" style="{card_style(lang, n)}" '
+            f'decoding="async" {LAZY_ATTR if not (eager or later) else ""}>')
 
 
 def widget(lang, name, cls):
@@ -406,8 +412,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
 <link rel="icon" type="image/png" sizes="64x64" href="/assets/brand/favicon-64.png">
 <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
 {preload}<link rel="stylesheet" href="/assets/css/site.css?v={v_css}">
-<script>(function(h){{h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");setTimeout(function(){{if(!h.classList.contains("ready"))h.classList.remove("motion")}},4500)}})(document.documentElement)</script>
-<script src="/assets/js/app.js?v={v_js}" defer></script>
+<script>(function(h,w){{h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");var still=function(){{h.classList.remove("motion");[].forEach.call(document.querySelectorAll("img[data-src]"),function(i){{if(i.dataset.srcset)i.srcset=i.dataset.srcset;i.src=i.dataset.src}})}};var go=function(){{if(go.done)return;go.done=1;var s=document.createElement("script");s.src="/assets/js/app.js?v={v_js}";s.onerror=still;document.body.appendChild(s);setTimeout(function(){{if(!h.classList.contains("ready"))still()}},6000)}};w.addEventListener("load",function(){{var i=document.querySelector("img[fetchpriority=high]"),P=w.PerformanceObserver,next=function(){{requestAnimationFrame(function(){{setTimeout(go,0)}})}};if(!i){{go();return}}if(P&&P.supportedEntryTypes&&P.supportedEntryTypes.indexOf("largest-contentful-paint")>=0){{var t=setTimeout(go,1500);new P(function(l){{l.getEntries().forEach(function(e){{if(e.element===i){{clearTimeout(t);setTimeout(go,0)}}}})}}).observe({{type:"largest-contentful-paint",buffered:true}})}}else if(i.decode)i.decode().then(next,next);else next()}});w.addEventListener("DOMContentLoaded",function(){{setTimeout(go,2500)}})}})(document.documentElement,window)</script>
 {ld}
 </head>
 <body class="{body_class}">
@@ -523,8 +528,8 @@ def stage_html(lang, c, t):
     screens, lifts = [], []
     for i, (n, term) in enumerate(STORY):
         screens.append(f'<div class="scr scr-{i}">'
-                       f'{screen(lang, n, "Spendry: " + t[term], "(max-width: 700px) 70vw, 420px", eager=i == 0, fetch_high=i == 0)}</div>')
-        lifts.append(f'<span class="slot" style="{card_style(lang, n)}"></span>' + card(lang, n, f"lift lift-{i}", eager=True))
+                       f'{screen(lang, n, "Spendry: " + t[term], "(max-width: 700px) 70vw, 420px", eager=i == 0, fetch_high=i == 0, later=i > 0)}</div>')
+        lifts.append(f'<span class="slot" style="{card_style(lang, n)}"></span>' + card(lang, n, f"lift lift-{i}", later=True))
     caps = "".join(
         f'<div class="cap cap-{i}"><p class="cap-k"><span class="cap-n">{i + 1}/{len(STORY)}</span>{e(t[term])}</p>'
         f'<h2 class="cap-t">{e(s["title"])}</h2><p class="cap-p">{e(s["text"])}</p></div>'
@@ -543,11 +548,11 @@ def stage_html(lang, c, t):
 <p class="facts" data-hero>{facts}</p>
 </div></div>
 <div class="phones">
-<div class="pw pw-l" aria-hidden="true"><div class="phone ph-l">{screen(lang, "06", "", "(max-width: 700px) 40vw, 300px", eager=True)}</div></div>
-<div class="pw pw-r" aria-hidden="true"><div class="phone ph-r">{screen(lang, "07", "", "(max-width: 700px) 40vw, 300px", eager=True)}</div></div>
+<div class="pw pw-l" aria-hidden="true"><div class="phone ph-l">{screen(lang, "06", "", "(max-width: 700px) 40vw, 300px", later=True)}<noscript>{screen(lang, "06", "", "(max-width: 700px) 40vw, 300px")}</noscript></div></div>
+<div class="pw pw-r" aria-hidden="true"><div class="phone ph-r">{screen(lang, "07", "", "(max-width: 700px) 40vw, 300px", later=True)}<noscript>{screen(lang, "07", "", "(max-width: 700px) 40vw, 300px")}</noscript></div></div>
 <div class="pw pw-c"><div class="phone ph-c"><div class="screens">{''.join(screens)}</div></div><div class="lifts" aria-hidden="true">{''.join(lifts)}</div></div>
-<div class="fw fw-1" aria-hidden="true"><div class="fp"><img class="float" src="/assets/img/{d}/card-06.webp" alt="" decoding="async"></div></div>
-<div class="fw fw-2" aria-hidden="true"><div class="fp"><img class="float" src="/assets/img/{d}/card-07.webp" alt="" decoding="async"></div></div>
+<div class="fw fw-1" aria-hidden="true"><div class="fp"><img class="float" data-src="/assets/img/{d}/card-06.webp" alt="" decoding="async"></div></div>
+<div class="fw fw-2" aria-hidden="true"><div class="fp"><img class="float" data-src="/assets/img/{d}/card-07.webp" alt="" decoding="async"></div></div>
 </div>
 <div class="caps">{caps}</div>
 </div>
@@ -579,7 +584,8 @@ def showcase_html(lang, c, t):
     for k, col in enumerate(WALL):
         phones = "".join(
             f'<figure class="scp{" scp-focus" if (k, j) == (2, 0) else ""}"><div class="scp-screen">'
-            f'{screen(lang, n, "Spendry: " + t[term], "(max-width: 700px) 92vw, 640px")}</div>'
+            f'{screen(lang, n, "Spendry: " + t[term], "(max-width: 760px) 34vw, 640px", later="near")}'
+            f'<noscript>{screen(lang, n, "", "(max-width: 760px) 34vw, 640px")}</noscript></div>'
             f'<figcaption>{e(t[term])}</figcaption></figure>' for j, (n, term) in enumerate(col))
         cols.append(f'<div class="sc-col sc-col-{k}">{phones}</div>')
     return f"""
@@ -790,7 +796,7 @@ def tool_frame(lang, c, h1, lead, inner, prose, cta_text, note=""):
 <section class="tool-hero" data-theme="dark">
 <div class="aurora-css" aria-hidden="true"></div>
 <div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<a href="{home}#tools">{e(c['nav']['tools'])}</a></nav>
-<h1 class="title title-lg" data-split>{e(h1)}</h1><p class="sub" data-rise>{e(lead)}</p></div>
+<h1 class="title title-lg" data-split>{e(h1)}</h1><p class="sub" data-rise="now">{e(lead)}</p></div>
 </section>
 <section class="tool-body" data-theme="light"><div class="wrap">{inner}</div></section>
 <section class="tool-cta" data-theme="light"><div class="wrap"><div class="cta-card" data-rise>
@@ -811,13 +817,13 @@ def debt_tool_page(lang, c, languages):
               "avalanche": t["strategy_avalanche"], "debt": D["name"]}
     inner = f"""
 <div class="calc" id="payoff" data-payoff='{e(json.dumps({"period": data["period"], "extra": data["extra"], "step": data["step"], "debts": data["debts"], "labels": labels}, ensure_ascii=False))}'>
-<div class="panel calc-in" data-rise>
+<div class="panel calc-in" data-rise="now">
 <div class="debt-list"></div>
 <button type="button" class="btn-soft" data-add>{icon('plus')}{e(D['add'])}</button>
 <label class="field"><span>{e(D['extra'])}</span><input type="number" inputmode="decimal" min="0" step="{data['step']}" value="{data['extra']}" data-extra><small>{e(D.get('extra_hint', ''))}</small></label>
 <p class="note">{e(D['note'])}</p>
 </div>
-<div class="panel calc-out" data-rise aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
+<div class="panel calc-out" data-rise="now" aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
 </div>"""
     body = tool_frame(lang, c, D["h1"], D["lead"], inner, D["prose"], c["lab"]["text"])
     url = f"{BASE_URL}/{prefix(lang)}{D['slug']}/"
@@ -841,10 +847,10 @@ def budget_tool_page(lang, c, languages):
                    for name, p, k in parts)
     inner = f"""
 <div class="calc calc-split" id="split">
-<div class="panel" data-rise><label class="field field-lg"><span>{e(B['income'])}</span><input type="number" inputmode="decimal" min="0" step="{step}" value="{income}" data-income></label>
+<div class="panel" data-rise="now"><label class="field field-lg"><span>{e(B['income'])}</span><input type="number" inputmode="decimal" min="0" step="{step}" value="{income}" data-income></label>
 <div class="donut"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="d d-n" cx="60" cy="60" r="48"/><circle class="d d-w" cx="60" cy="60" r="48"/><circle class="d d-s" cx="60" cy="60" r="48"/></svg><span>50 · 30 · 20</span></div>
 {template}</div>
-<div class="panel" data-rise aria-live="polite"><ul class="split-list">{rows}</ul></div>
+<div class="panel" data-rise="now" aria-live="polite"><ul class="split-list">{rows}</ul></div>
 </div>"""
     body = tool_frame(lang, c, B["h1"], B["lead"], inner, B["prose"], c["features"]["items"][0]["text"])
     url = f"{BASE_URL}/{prefix(lang)}{B['slug']}/"
@@ -860,7 +866,7 @@ def loan_tool_page(lang, c):
                     for i, (k, n) in enumerate(zip(("ihtiyac", "tasit", "konut"), T["types"])))
     inner = f"""
 <div class="calc" id="loan" data-labels='{e(json.dumps({"show_all": T["show_all"], "show_less": T["show_less"]}, ensure_ascii=False))}'>
-<form class="panel" data-rise onsubmit="return false">
+<form class="panel" data-rise="now" onsubmit="return false">
 <div class="field"><span>{e(T['type'])}</span><div class="seg seg-3" role="radiogroup" aria-label="{e(T['type'])}"><i class="seg-thumb" aria-hidden="true"></i>{types}</div></div>
 <label class="field"><span>{e(T['amount'])}</span><input type="number" inputmode="decimal" min="0" step="1000" value="100000" data-f="amount"></label>
 <div class="row"><label class="field"><span>{e(T['rate'])}</span><input type="number" inputmode="decimal" min="0" step="0.01" value="3.49" data-f="rate"><small>{e(T['rate_hint'])}</small></label>
@@ -869,7 +875,7 @@ def loan_tool_page(lang, c):
 <label class="field"><span>{e(T['bsmv'])}</span><input type="number" inputmode="decimal" min="0" step="1" value="15" data-f="bsmv"></label></div>
 <p class="note">{e(T['tax_note'])}</p>
 </form>
-<div class="panel" data-rise aria-live="polite">
+<div class="panel" data-rise="now" aria-live="polite">
 <div class="loan-top"><div class="big"><span>{e(T['payment'])}</span><b data-o="payment">&nbsp;</b></div>
 <dl class="figs"><div><dt>{e(T['total'])}</dt><dd data-o="total">&nbsp;</dd></div><div><dt>{e(T['interest'])}</dt><dd data-o="interest">&nbsp;</dd></div><div><dt>{e(T['tax'])}</dt><dd data-o="tax">&nbsp;</dd></div></dl></div>
 <div class="table-wrap"><table><thead><tr>{cols}</tr></thead><tbody data-rows></tbody></table></div>
@@ -903,14 +909,14 @@ def not_found_page(c, languages):
     body = f"""
 <section class="nf" data-theme="dark">
 <div class="aurora-css" aria-hidden="true"></div>
-<div class="wrap nf-in"><p class="nf-code">404</p><h1 class="title title-lg" data-split>{e(N['title'])}</h1><p class="sub" data-rise>{e(N['text'])}</p>
-<a class="btn-ghost btn-ghost-dark" href="/" data-rise>{e(N['home'])}{icon('arrow')}</a></div>
+<div class="wrap nf-in"><p class="nf-code">404</p><h1 class="title title-lg" data-split>{e(N['title'])}</h1><p class="sub" data-rise="now">{e(N['text'])}</p>
+<a class="btn-ghost btn-ghost-dark" href="/" data-rise="now">{e(N['home'])}{icon('arrow')}</a></div>
 </section>"""
     return page("en", c, "", "Spendry", N["text"], body, [], languages, "page-nf", not_found=True)
 
 
 # ---------------------------------------------------------------- bundle
-VENDOR = ["gsap.min.js", "ScrollTrigger.min.js", "SplitText.min.js", "DrawSVGPlugin.min.js", "CustomEase.min.js", "lenis.min.js"]
+VENDOR = ["gsap.min.js", "ScrollTrigger.min.js", "SplitText.min.js", "CustomEase.min.js", "lenis.min.js"]
 
 
 def bundle():

@@ -74,9 +74,8 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="64x64" href="/assets/brand/favicon-64.png">
 <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/site.css?v=84f1774a10">
-<script>(function(h){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");setTimeout(function(){if(!h.classList.contains("ready"))h.classList.remove("motion")},4500)})(document.documentElement)</script>
-<script src="/assets/js/app.js?v=2ad93f7e80" defer></script>
+<link rel="stylesheet" href="/assets/css/site.css?v=d091de52c5">
+<script>(function(h,w){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");var still=function(){h.classList.remove("motion");[].forEach.call(document.querySelectorAll("img[data-src]"),function(i){if(i.dataset.srcset)i.srcset=i.dataset.srcset;i.src=i.dataset.src})};var go=function(){if(go.done)return;go.done=1;var s=document.createElement("script");s.src="/assets/js/app.js?v=03d3df64d1";s.onerror=still;document.body.appendChild(s);setTimeout(function(){if(!h.classList.contains("ready"))still()},6000)};w.addEventListener("load",function(){var i=document.querySelector("img[fetchpriority=high]"),P=w.PerformanceObserver,next=function(){requestAnimationFrame(function(){setTimeout(go,0)})};if(!i){go();return}if(P&&P.supportedEntryTypes&&P.supportedEntryTypes.indexOf("largest-contentful-paint")>=0){var t=setTimeout(go,1500);new P(function(l){l.getEntries().forEach(function(e){if(e.element===i){clearTimeout(t);setTimeout(go,0)}})}).observe({type:"largest-contentful-paint",buffered:true})}else if(i.decode)i.decode().then(next,next);else next()});w.addEventListener("DOMContentLoaded",function(){setTimeout(go,2500)})})(document.documentElement,window)</script>
 
 </head>
 <body class="page-nf">
@@ -100,8 +99,8 @@
 
 <section class="nf" data-theme="dark">
 <div class="aurora-css" aria-hidden="true"></div>
-<div class="wrap nf-in"><p class="nf-code">404</p><h1 class="title title-lg" data-split>This page took a day off.</h1><p class="sub" data-rise>The link may be old. Everything else is right where you left it.</p>
-<a class="btn-ghost btn-ghost-dark" href="/" data-rise>Back to Spendry<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+<div class="wrap nf-in"><p class="nf-code">404</p><h1 class="title title-lg" data-split>This page took a day off.</h1><p class="sub" data-rise="now">The link may be old. Everything else is right where you left it.</p>
+<a class="btn-ghost btn-ghost-dark" href="/" data-rise="now">Back to Spendry<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
 </section>
 </main>
 <footer class="foot" data-theme="dark">

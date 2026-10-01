@@ -18,6 +18,24 @@
   const G = window.gsap;
   const ST = window.ScrollTrigger;
 
+  // First-screen pictures that start hidden wait in data-src (see build.py screen(later)); the script arrives after
+  // the page has loaded, so now they can come.
+  const swapIn = (img) => {
+    if (img.dataset.srcset) { img.srcset = img.dataset.srcset; img.removeAttribute("data-srcset"); }
+    img.src = img.dataset.src;
+    img.removeAttribute("data-src");
+  };
+  qa("img[data-src]:not([data-near])").forEach(swapIn);
+  // The wall of screens loads when the reader is getting close: before the story is pinned it sits so near the top
+  // that the browser's own lazy loading would fetch it with the first screen.
+  const nearImgs = qa("img[data-src][data-near]");
+  if (nearImgs.length) {
+    if (window.IntersectionObserver) {
+      const io = new IntersectionObserver((entries) => entries.forEach((en) => { if (en.isIntersecting) { io.unobserve(en.target); swapIn(en.target); } }), { rootMargin: "1400px 0px 1400px 0px" });
+      requestAnimationFrame(() => setTimeout(() => nearImgs.forEach((img) => io.observe(img)), 1200));
+    } else nearImgs.forEach(swapIn);
+  }
+
   // ---------------------------------------------------------------- numbers and dates in the page's language
   const nf = (o) => { try { return new Intl.NumberFormat(locale, o); } catch (err) { return new Intl.NumberFormat("en-US", o); } };
   const money0 = nf({ style: "currency", currency, maximumFractionDigits: 0, minimumFractionDigits: 0 });
@@ -248,19 +266,21 @@
   }
 
   // ---------------------------------------------------------------- the money row: one amount, many currencies
+  // Filled in only when it comes near the screen: laying out twenty scripts' digits is the costliest text on the page.
   const moneyRow = q("[data-money]");
-  if (moneyRow) {
+  const moneyText = () => {
     const rates = { USD: 1, EUR: .92, JPY: 150, GBP: .79, TRY: 41, BRL: 5.4, INR: 84, KRW: 1380, CAD: 1.37, SAR: 3.75, CNY: 7.2, PLN: 4, SEK: 10.5, MXN: 18, IDR: 16000, THB: 35, ILS: 3.7, VND: 25000, UAH: 41.5, CHF: .88 };
     const list = [[locale, currency], ["en-US", "USD"], ["de-DE", "EUR"], ["ja-JP", "JPY"], ["en-GB", "GBP"], ["tr-TR", "TRY"], ["pt-BR", "BRL"],
       ["hi-IN", "INR"], ["ko-KR", "KRW"], ["fr-CA", "CAD"], ["ar-SA", "SAR"], ["zh-CN", "CNY"], ["pl-PL", "PLN"], ["sv-SE", "SEK"], ["es-MX", "MXN"],
       ["id-ID", "IDR"], ["th-TH", "THB"], ["he-IL", "ILS"], ["de-CH", "CHF"], ["uk-UA", "UAH"]];
     const seen = new Set();
-    const html = list.filter(([, c]) => !seen.has(c) && seen.add(c)).map(([l, c]) => {
+    return list.filter(([, c]) => !seen.has(c) && seen.add(c)).map(([l, c]) => {
       const v = 3612.29 * (rates[c] || 1);
-      let s;
-      try { s = new Intl.NumberFormat(l, { style: "currency", currency: c, maximumFractionDigits: v > 9999 ? 0 : 2 }).format(v); } catch (err) { s = `${c} ${Math.round(v)}`; }
-      return `<span>${s}</span><i></i>`;
-    }).join("");
+      try { return new Intl.NumberFormat(l, { style: "currency", currency: c, maximumFractionDigits: v > 9999 ? 0 : 2 }).format(v); } catch (err) { return `${c} ${Math.round(v)}`; }
+    });
+  };
+  if (moneyRow) {
+    const html = moneyText().map((s) => `<span>${s}</span><i></i>`).join("");
     moneyRow.innerHTML = html + html;
   }
 
@@ -284,70 +304,100 @@
   const ease = window.CustomEase ? window.CustomEase.create("spendry", "M0,0 C0.16,1 0.3,1 1,1") : "expo.out";
 
   if (!motion) {
-    qa("[data-rise], .hero-copy [data-hero], .phones").forEach((el) => { el.style.opacity = 1; el.style.transform = "none"; });
-    qa(".hero-title .ln-in").forEach((el) => { el.style.transform = "none"; });
+    qa("[data-rise]").forEach((el) => el.classList.add("in", "done"));
     root.classList.add("ready");
     return;
   }
 
-  // ---------------------------------------------------------------- smooth scrolling
-  let lenis = null;
-  if (window.Lenis) {
-    lenis = new window.Lenis({ lerp: .09, smoothWheel: true, wheelMultiplier: 1, touchMultiplier: 1.4, syncTouch: false });
-    window.__lenis = lenis;
-    lenis.on("scroll", ST.update);
-    G.ticker.add((time) => lenis.raf(time * 1000));
-    G.ticker.lagSmoothing(0);
-    qa('a[href^="#"], a[href*="/#"]').forEach((a) => a.addEventListener("click", (ev) => {
-      if (a.hasAttribute("data-story")) return;
-      const url = new URL(a.href, location.href);
-      if (url.pathname !== location.pathname || !url.hash) return;
-      const target = url.hash === "#main" ? 0 : q(url.hash);
-      if (target === null) return;
-      ev.preventDefault();
-      lenis.scrollTo(target, { offset: 0, duration: 1.6 });
-    }));
-  }
-  ST.config({ ignoreMobileResize: true });
-  if (!fine && d.body.classList.contains("page-home") && ST.normalizeScroll) ST.normalizeScroll(true);
+  /* Start-up is kept small on purpose: the first screen animates with CSS, things further down are watched with
+     IntersectionObservers (no layout reads), and the scroll-linked parts are built one by one when the page is idle,
+     then measured once. Slow phones and page-speed tests count every long task at load. */
+  ST.config({ ignoreMobileResize: true, autoRefreshEvents: "visibilitychange,resize" });
+  const jobs = [];
+  const later = (fn) => jobs.push(fn);
+  // Calls fn once for each element when it comes within `margin` of the screen.
+  const when = (els, margin, fn) => {
+    const list = els.filter(Boolean);
+    if (!list.length) return null;
+    const io = new IntersectionObserver((entries) => entries.forEach((en) => {
+      if (!en.isIntersecting) return;
+      io.unobserve(en.target);
+      fn(en.target, en);
+    }), { rootMargin: margin });
+    list.forEach((el) => io.observe(el));
+    return io;
+  };
+  const AHEAD = "0px 0px 35% 0px";       // get ready a little before it shows
+  const AT = (pct) => `0px 0px -${pct}% 0px`; // play when its top passes this far up the screen
 
   // ---------------------------------------------------------------- nav: hides going down, comes back going up; dark or light
   const nav = q("[data-nav]");
   let lastY = scrollY;
   const setNav = (theme) => nav.classList.toggle("light", theme === "light");
+  const themed = qa("[data-theme]");
+  let bands = [];
+  const measureThemes = () => {
+    bands = themed.map((sec) => { const r = sec.getBoundingClientRect(); return { a: r.top + scrollY, b: r.bottom + scrollY, t: sec.dataset.theme }; });
+  };
+  const navTheme = () => {
+    const y = scrollY + 36;
+    for (const band of bands) if (y >= band.a && y < band.b) { setNav(band.t); return; }
+  };
   addEventListener("scroll", () => {
     const y = scrollY;
     const langOpen = langBtn && langBtn.getAttribute("aria-expanded") === "true";
     if (!langOpen) nav.classList.toggle("away", y > 160 && y > lastY + 2);
     if (y < lastY - 2 || y < 160) nav.classList.remove("away");
     lastY = y;
+    navTheme();
   }, { passive: true });
+  if (d.body.classList.contains("page-tool") || d.body.classList.contains("page-nf")) setNav("dark");
 
   // ---------------------------------------------------------------- shared reveals: titles line by line, the rest rises
+  let riseK = 0, riseFrame = 0;
+  when(qa('[data-rise]:not([data-rise="now"])'), AT(10), (el) => {
+    // the ones that arrive together go one after another
+    if (!riseFrame) riseFrame = requestAnimationFrame(() => { riseK = 0; riseFrame = 0; });
+    el.style.setProperty("--d", `${(riseK++ * .07).toFixed(2)}s`);
+    el.classList.add("in");
+    setTimeout(() => el.classList.add("done"), 1100 + riseK * 70);
+  });
   const splitReady = window.SplitText && !root.classList.contains("no-split");
-  qa("[data-split]").forEach((el) => {
-    if (el.closest(".stage")) return;
-    if (splitReady) {
-      window.SplitText.create(el, {
-        type: "lines", mask: "lines", linesClass: "split-line", autoSplit: true,
-        onSplit: (self) => G.from(self.lines, { yPercent: 105, duration: 1.1, ease, stagger: .08,
-          scrollTrigger: { trigger: el, start: "top 88%", once: true } }),
-      });
-    } else {
-      G.from(el, { y: 40, opacity: 0, duration: 1.1, ease, scrollTrigger: { trigger: el, start: "top 88%", once: true } });
-    }
-  });
-  ST.batch("[data-rise]", {
-    start: "top 90%", once: true,
-    onEnter: (els) => G.to(els, { opacity: 1, y: 0, duration: 1, ease, stagger: .07, overwrite: true }),
-  });
+  const titles = qa("[data-split]").filter((el) => !el.closest(".stage"));
+  const splits = new Map();
+  const prepTitle = (el) => {
+    if (splits.has(el)) return;
+    if (!splitReady) { splits.set(el, null); G.set(el, { y: 40, opacity: 0 }); return; }
+    splits.set(el, window.SplitText.create(el, {
+      type: "lines", mask: "lines", linesClass: "split-line", autoSplit: true,
+      onSplit: (self) => (el.dataset.played ? null : G.set(self.lines, { yPercent: 105 })),
+    }));
+  };
+  const playTitle = (el) => {
+    prepTitle(el);
+    el.dataset.played = "1";
+    const sp = splits.get(el);
+    if (sp) G.to(sp.lines, { yPercent: 0, duration: 1.1, ease, stagger: .08 });
+    else G.to(el, { y: 0, opacity: 1, duration: 1.1, ease });
+  };
+  // A title that is already on screen when the page opens is left as it is (it was drawn in the first frame).
+  const openingTitles = new Set();
+  if (titles.length) {
+    const first = new IntersectionObserver((entries) => {
+      entries.forEach((en) => { if (en.isIntersecting) openingTitles.add(en.target); });
+      first.disconnect();
+      const rest = titles.filter((el) => !openingTitles.has(el));
+      when(rest, AHEAD, prepTitle);
+      when(rest, AT(12), playTitle);
+    });
+    titles.forEach((el) => first.observe(el));
+  }
 
   // ---------------------------------------------------------------- hero and story
   const stage = q(".stage");
   if (stage) {
     const pin = q(".stage-pin", stage);
     const phones = q(".phones", stage), pc = q(".pw-c", stage), pl = q(".pw-l", stage), pr = q(".pw-r", stage);
-    const inC = q(".ph-c", stage), inL = q(".ph-l", stage), inR = q(".ph-r", stage);
     const floats = qa(".fw", stage), floatPar = qa(".fp", stage), floatImg = qa(".float", stage);
     const copy = q(".hero-copy", stage), caps = qa(".cap", stage);
     const scr = qa(".scr", stage), lifts = qa(".lift", stage), slots = qa(".slot", stage);
@@ -357,17 +407,10 @@
     G.set(floats[1], { xPercent: 30, yPercent: -150, rotation: 5 });
     G.set(lifts, { autoAlpha: 0 });
     G.set(scr.slice(1), { xPercent: 100 * dir });
-
-    // Arrival: the headline rises line by line, the phones come up and the two cards settle beside them.
-    G.timeline({ defaults: { ease } })
-      .to(qa(".hero-title .ln-in", stage), { y: 0, duration: 1.3, stagger: .1 }, .1)
-      .to(qa("[data-hero]", copy), { opacity: 1, duration: 1, stagger: .08 }, .35)
-      .fromTo(qa("[data-hero]", copy), { y: 20 }, { y: 0, duration: 1, stagger: .08 }, .35)
-      .to(phones, { opacity: 1, duration: .8 }, .15)
-      .from(inC, { yPercent: 16, duration: 1.5, force3D: false }, .15)
-      .from(inL, { xPercent: 45, opacity: 0, duration: 1.5, force3D: false }, .4)
-      .from(inR, { xPercent: -45, opacity: 0, duration: 1.5, force3D: false }, .4)
-      .from(floatImg, { y: 46, opacity: 0, duration: 1.2, stagger: .15 }, .85);
+    stage.classList.add("set");
+    // The headline, the words and the middle phone came in with CSS; the two cards settle beside the phone.
+    const since = performance.now() / 1000;
+    G.fromTo(floatImg, { y: 46, opacity: 0 }, { y: 0, opacity: 1, duration: 1.2, ease, stagger: .15, delay: Math.max(.2, .85 - since) });
     G.to(floatImg, { yPercent: -5, duration: 3.2, ease: "sine.inOut", yoyo: true, repeat: -1, stagger: 1.1, delay: 2 });
     if (fine) {
       const fx = floatPar.map((f) => G.quickTo(f, "x", { duration: 1.4, ease: "power3.out" }));
@@ -401,49 +444,51 @@
       G.delayedCall(3.2, function loop() { show(); G.delayedCall(7.5, loop); });
     }
 
-    const mm = G.matchMedia();
-    mm.add({ wide: "(min-width: 900px)", narrow: "(max-width: 899px)" }, (ctx) => {
-      const { wide } = ctx.conditions;
-      const tl = G.timeline({
-        defaults: { ease: "power2.inOut" },
-        scrollTrigger: { trigger: stage, pin, start: "top top", end: () => `+=${Math.round(innerHeight * (wide ? 3.2 : 3))}`, scrub: .8, invalidateOnRefresh: true, anticipatePin: 1 },
+    later(() => {
+      const mm = G.matchMedia();
+      mm.add({ wide: "(min-width: 900px)", narrow: "(max-width: 899px)" }, (ctx) => {
+        const { wide } = ctx.conditions;
+        const tl = G.timeline({
+          defaults: { ease: "power2.inOut" },
+          scrollTrigger: { trigger: stage, pin, start: "top top", end: () => `+=${Math.round(innerHeight * (wide ? 3.2 : 3))}`, scrub: .8, invalidateOnRefresh: true, anticipatePin: 1 },
+        });
+        if (toast) tl.to(toast, { opacity: 0, y: -30, duration: .4 }, 0);
+        tl.to(copy, { y: -80, opacity: 0, duration: 1, ease: "power2.in" }, 0)
+          .to(pl, { xPercent: -140, opacity: 0, duration: 1.2, ease: "power2.in", force3D: false }, 0)
+          .to(pr, { xPercent: 140, opacity: 0, duration: 1.2, ease: "power2.in", force3D: false }, 0)
+          .to(floats[0], { x: "-=240", y: "+=160", opacity: 0, duration: 1, ease: "power2.in" }, 0)
+          .to(floats[1], { x: "+=240", y: "-=160", opacity: 0, duration: 1, ease: "power2.in" }, 0);
+        if (!wide) {
+          tl.to(phones, { y: () => innerHeight * .35 - (phones.offsetTop + phones.offsetHeight / 2), duration: 1.3 }, .1)
+            .to(pc, { scale: () => Math.min(.8, (innerHeight * .56) / (pc.offsetHeight || 1)), duration: 1.3, force3D: false }, .1);
+        }
+        const capIn = (i, at) => tl.fromTo(caps[i], { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8, ease: "power3.out", immediateRender: false }, at);
+        const capOut = (i, at) => tl.to(caps[i], { opacity: 0, y: -40, duration: .6, ease: "power2.in" }, at);
+        // The step's main card comes forward out of the phone, towards the words, and goes back.
+        const pop = (i, at) => {
+          tl.set(lifts[i], { autoAlpha: 1 }, at)
+            .fromTo(slots[i], { opacity: 0 }, { opacity: 1, duration: .4, immediateRender: false }, at + .15)
+            .to(slots[i], { opacity: 0, duration: .4 }, at + 1.75)
+            .fromTo(lifts[i], { scale: 1, xPercent: 0, yPercent: 0, boxShadow: "0 0 0 0 rgba(0,0,0,0)" },
+              { scale: wide ? 1.22 : 1.1, xPercent: wide ? -26 * dir : 0, yPercent: wide ? -4 : -8,
+                boxShadow: "0 50px 80px -30px rgba(0,0,0,.8)", duration: .9, ease: "power3.out", immediateRender: false, force3D: false }, at)
+            .to(lifts[i], { scale: 1, xPercent: 0, yPercent: 0, boxShadow: "0 0 0 0 rgba(0,0,0,0)", duration: .7, force3D: false }, at + 1.5)
+            .set(lifts[i], { autoAlpha: 0 }, at + 2.25);
+        };
+        // Moving to the next step: the screens slide inside the phone, like swiping between tabs.
+        const push = (a, b, at) => {
+          tl.to(scr[a], { xPercent: -100 * dir, duration: 1, ease: "power3.inOut" }, at)
+            .fromTo(scr[b], { xPercent: 100 * dir }, { xPercent: 0, duration: 1, ease: "power3.inOut", immediateRender: false }, at);
+        };
+        capIn(0, 1);
+        pop(0, 1.7);
+        capOut(0, 4.1); push(0, 1, 4.1); capIn(1, 4.7);
+        pop(1, 5.3);
+        capOut(1, 7.7); push(1, 2, 7.7); capIn(2, 8.3);
+        pop(2, 8.9);
+        tl.to({}, { duration: .6 }, 11.1);
+        return () => { G.set(caps, { clearProps: "all" }); };
       });
-      if (toast) tl.to(toast, { opacity: 0, y: -30, duration: .4 }, 0);
-      tl.to(copy, { y: -80, opacity: 0, duration: 1, ease: "power2.in" }, 0)
-        .to(pl, { xPercent: -140, opacity: 0, duration: 1.2, ease: "power2.in", force3D: false }, 0)
-        .to(pr, { xPercent: 140, opacity: 0, duration: 1.2, ease: "power2.in", force3D: false }, 0)
-        .to(floats[0], { x: "-=240", y: "+=160", opacity: 0, duration: 1, ease: "power2.in" }, 0)
-        .to(floats[1], { x: "+=240", y: "-=160", opacity: 0, duration: 1, ease: "power2.in" }, 0);
-      if (!wide) {
-        tl.to(phones, { y: () => innerHeight * .35 - (phones.offsetTop + phones.offsetHeight / 2), duration: 1.3 }, .1)
-          .to(pc, { scale: () => Math.min(.8, (innerHeight * .56) / (pc.offsetHeight || 1)), duration: 1.3, force3D: false }, .1);
-      }
-      const capIn = (i, at) => tl.fromTo(caps[i], { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8, ease: "power3.out", immediateRender: false }, at);
-      const capOut = (i, at) => tl.to(caps[i], { opacity: 0, y: -40, duration: .6, ease: "power2.in" }, at);
-      // The step's main card comes forward out of the phone, towards the words, and goes back.
-      const pop = (i, at) => {
-        tl.set(lifts[i], { autoAlpha: 1 }, at)
-          .fromTo(slots[i], { opacity: 0 }, { opacity: 1, duration: .4, immediateRender: false }, at + .15)
-          .to(slots[i], { opacity: 0, duration: .4 }, at + 1.75)
-          .fromTo(lifts[i], { scale: 1, xPercent: 0, yPercent: 0, boxShadow: "0 0 0 0 rgba(0,0,0,0)" },
-            { scale: wide ? 1.22 : 1.1, xPercent: wide ? -26 * dir : 0, yPercent: wide ? -4 : -8,
-              boxShadow: "0 50px 80px -30px rgba(0,0,0,.8)", duration: .9, ease: "power3.out", immediateRender: false, force3D: false }, at)
-          .to(lifts[i], { scale: 1, xPercent: 0, yPercent: 0, boxShadow: "0 0 0 0 rgba(0,0,0,0)", duration: .7, force3D: false }, at + 1.5)
-          .set(lifts[i], { autoAlpha: 0 }, at + 2.25);
-      };
-      // Moving to the next step: the screens slide inside the phone, like swiping between tabs.
-      const push = (a, b, at) => {
-        tl.to(scr[a], { xPercent: -100 * dir, duration: 1, ease: "power3.inOut" }, at)
-          .fromTo(scr[b], { xPercent: 100 * dir }, { xPercent: 0, duration: 1, ease: "power3.inOut", immediateRender: false }, at);
-      };
-      capIn(0, 1);
-      pop(0, 1.7);
-      capOut(0, 4.1); push(0, 1, 4.1); capIn(1, 4.7);
-      pop(1, 5.3);
-      capOut(1, 7.7); push(1, 2, 7.7); capIn(2, 8.3);
-      pop(2, 8.9);
-      tl.to({}, { duration: .6 }, 11.1);
-      return () => { G.set(caps, { clearProps: "all" }); };
     });
   }
 
@@ -451,15 +496,20 @@
   const tracks = qa(".mq-track");
   if (tracks.length) {
     const pos = tracks.map(() => 0);
-    let vel = 0, visible = false;
-    ST.create({ trigger: ".marquee", start: "top bottom", end: "bottom top", onToggle: (s) => { visible = s.isActive; }, onUpdate: (s) => { vel = s.getVelocity(); } });
-    const setters = tracks.map((t) => G.quickSetter(t, "xPercent"));
+    let vel = 0, visible = false, lastS = scrollY;
+    const io = new IntersectionObserver((entries) => { visible = entries[entries.length - 1].isIntersecting; });
+    io.observe(q(".marquee"));
+    // Plain style writes: GSAP would read each row's transform first, and reading anything inside a row that is
+    // still left out of layout makes the browser lay it out (with all its fonts) on the spot.
+    const setters = tracks.map((t) => (v) => { t.style.transform = `translate3d(${v.toFixed(3)}%,0,0)`; });
     G.ticker.add((time, dt) => {
-      if (!visible) return;
-      vel *= .9;
+      const y = scrollY;
+      if (!visible) { lastS = y; return; }
+      vel = Math.max(Math.abs(y - lastS) / Math.max(dt, 1) * 1000, vel * .9);
+      lastS = y;
       tracks.forEach((t, i) => {
         const way = (i ? -1 : 1) * dir;
-        const speed = (.0005 + Math.min(Math.abs(vel) / 1500000, .0015)) * dt;
+        const speed = (.0005 + Math.min(vel / 1500000, .0015)) * dt;
         pos[i] = (pos[i] - speed * way) % 50;
         if (pos[i] > 0) pos[i] -= 50;
         setters[i](pos[i]);
@@ -469,7 +519,7 @@
 
   // ---------------------------------------------------------------- statement: words light up with the scroll
   const words = q(".words");
-  if (words) {
+  if (words) later(() => {
     const ws = qa(".w", words);
     let lit = -1;
     ST.create({
@@ -481,7 +531,7 @@
         ws.forEach((w, i) => w.classList.toggle("on", i < n));
       },
     });
-  }
+  });
 
   // ---------------------------------------------------------------- the wall of screens and the wall of widgets: from one to all
   const zoomOut = (section, pinSel, wallSel, focusSel, copySel, othersSel, opts) => {
@@ -515,37 +565,65 @@
       .to({}, { duration: .2 });
   };
   const walls = G.matchMedia();
-  walls.add("(min-width: 761px)", () => {
+  // The two walls are pinned scenes further down: they are built when the reader comes near them (or after the page
+  // has been quiet for a while), so opening the page doesn't pay for them.
+  const scenes = [];
+  const scene = (sel, build) => { const el = q(sel); if (el) scenes.push({ el, build }); };
+  scene(".showcase", () => walls.add("(min-width: 761px)", () => {
     zoomOut(".showcase", ".sc-pin", ".sc-wall", ".scp-focus .scp-screen", ".sc-copy", ".scp",
       { focusY: .24, margin: 70, natural: 1206, max: 3, wide: .62, tall: .5, length: 1.7 });
+  }));
+  scene(".wid", () => walls.add("(min-width: 761px)", () => {
     zoomOut(".wid", ".wid-pin", ".wall", ".wp", ".wid-copy", ".w",
       { focusY: .5, margin: 70, natural: 1092, max: 2.3, wide: .86, tall: 1, length: 1.6 });
-  });
+  }));
+  // Builds every scene down to this one, in page order, then measures once.
+  const buildTo = (target) => {
+    if (!scenes.includes(target)) return;
+    let sc;
+    do { sc = scenes.shift(); sc.build(); } while (sc !== target);
+    ST.sort();
+    ST.refresh();
+  };
+  const buildAll = () => { if (scenes.length) buildTo(scenes[scenes.length - 1]); };
+  // Going to a part of the page through a link: every pin above it has to exist first, or the place moves on the way.
+  d.addEventListener("click", (ev) => {
+    const a = ev.target.closest ? ev.target.closest('a[href*="#"]') : null;
+    if (!a || a.hasAttribute("data-story")) return;
+    const url = new URL(a.href, location.href);
+    if (url.pathname === location.pathname && url.hash.length > 1 && url.hash !== "#main") buildAll();
+  }, true);
   walls.add("(max-width: 760px)", () => {
     [[".sc-wall", ".scp"], [".wall", ".w"]].forEach(([wallSel, itemSel]) => {
       const wall = q(wallSel);
       if (!wall) return;
       const items = qa(itemSel, wall).filter((w) => getComputedStyle(w).display !== "none");
-      G.from(items, { y: 40, opacity: 0, duration: 1, ease, stagger: .06, scrollTrigger: { trigger: wall, start: "top 85%", once: true } });
+      when([wall], AHEAD, () => G.set(items, { y: 40, opacity: 0 }));
+      when([wall], AT(15), () => G.to(items, { y: 0, opacity: 1, duration: 1, ease, stagger: .06 }));
     });
   });
 
   // ---------------------------------------------------------------- lab: numbers and the line draw when it comes into view
-  if (lab) ST.create({ trigger: lab, start: "top 78%", once: true, onEnter: () => labIntro && labIntro() });
+  if (lab) when([lab], AT(22), () => labIntro && labIntro());
 
   // ---------------------------------------------------------------- reminders: notifications arrive one by one
   if (lock) {
-    G.timeline({ scrollTrigger: { trigger: lock, start: "top 72%", once: true } })
-      .from(lock, { y: 80, opacity: 0, duration: 1.3, ease })
-      .add(() => playNotes && playNotes(), .5);
+    when([lock], AHEAD, () => G.set(lock, { y: 80, opacity: 0 }));
+    when([lock], AT(28), () => {
+      G.timeline().fromTo(lock, { y: 80, opacity: 0 }, { y: 0, opacity: 1, duration: 1.3, ease })
+        .add(() => playNotes && playNotes(), .5);
+    });
   }
 
   // ---------------------------------------------------------------- automations: each step lights the next
   qa(".flow").forEach((flow) => {
-    const wideFlow = matchMedia("(min-width: 900px)").matches;
-    G.timeline({ scrollTrigger: { trigger: flow, start: "top 88%", once: true } })
-      .from(qa(".step", flow), { opacity: 0, y: 14, duration: .7, stagger: .3, ease })
-      .from(qa(".wire", flow), { [wideFlow ? "scaleX" : "scaleY"]: 0, duration: .5, stagger: .3, ease: "power2.inOut" }, .25);
+    const prop = matchMedia("(min-width: 900px)").matches ? "scaleX" : "scaleY";
+    when([flow], AHEAD, () => { G.set(qa(".step", flow), { opacity: 0, y: 14 }); G.set(qa(".wire", flow), { [prop]: 0 }); });
+    when([flow], AT(12), () => {
+      G.timeline()
+        .fromTo(qa(".step", flow), { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: .7, stagger: .3, ease })
+        .fromTo(qa(".wire", flow), { [prop]: 0 }, { [prop]: 1, duration: .5, stagger: .3, ease: "power2.inOut" }, .25);
+    });
   });
 
   // ---------------------------------------------------------------- numbers count up
@@ -553,29 +631,23 @@
   if (st) {
     const els = qa("[data-count]", st);
     els.forEach((el) => { const end = Number(el.dataset.count); el.textContent = plainN.format(end > 0 ? 0 : 1024); });
-    ST.create({
-      trigger: st, start: "top 85%", once: true,
-      onEnter: () => els.forEach((el) => {
-        const end = Number(el.dataset.count), c = { v: end > 0 ? 0 : 1024 };
-        G.to(c, { v: end, duration: 1.8, ease: "power3.out", onUpdate: () => { el.textContent = plainN.format(Math.round(c.v)); } });
-      }),
-    });
+    when([st], AT(15), () => els.forEach((el) => {
+      const end = Number(el.dataset.count), c = { v: end > 0 ? 0 : 1024 };
+      G.to(c, { v: end, duration: 1.8, ease: "power3.out", onUpdate: () => { el.textContent = plainN.format(Math.round(c.v)); } });
+    }));
   }
 
   // ---------------------------------------------------------------- finale and footer
   const finalIcon = q(".final-icon");
-  if (finalIcon) G.from(finalIcon, { scale: .8, opacity: 0, duration: 1.2, ease, scrollTrigger: { trigger: ".final", start: "top 70%", once: true } });
+  if (finalIcon) {
+    when([q(".final")], AHEAD, () => G.set(finalIcon, { scale: .8, opacity: 0 }));
+    when([q(".final")], AT(30), () => G.fromTo(finalIcon, { scale: .8, opacity: 0 }, { scale: 1, opacity: 1, duration: 1.2, ease }));
+  }
   const mark = q(".foot-mark");
-  if (mark) G.from(mark, { yPercent: 50, opacity: 0, ease: "none", scrollTrigger: { trigger: ".foot", start: "top 85%", end: "bottom bottom", scrub: true } });
-  qa(".tool-hero, .nf").forEach((hero) => G.from(qa(".crumbs, .nf-code", hero), { y: 20, opacity: 0, duration: 1, ease }));
-
-  // ---------------------------------------------------------------- nav colour follows the section under it
-  qa("[data-theme]").forEach((sec) => {
-    ST.create({ trigger: sec, start: "top 36px", end: "bottom 36px", onToggle: (self) => { if (self.isActive) setNav(sec.dataset.theme); } });
-  });
-  if (d.body.classList.contains("page-tool") || d.body.classList.contains("page-nf")) setNav("dark");
+  if (mark) later(() => G.from(mark, { yPercent: 50, opacity: 0, ease: "none", scrollTrigger: { trigger: ".foot", start: "top 85%", end: "bottom bottom", scrub: true } }));
 
   // "See how it works" goes to the first step of the story, not past it.
+  let lenis = null;
   qa("[data-story]").forEach((a) => a.addEventListener("click", (ev) => {
     const s = stage && ST.getAll().find((t) => t.pin && t.trigger === stage);
     if (!s) return;
@@ -584,7 +656,30 @@
     if (lenis) lenis.scrollTo(y, { duration: 2 }); else scrollTo({ top: y, behavior: "smooth" });
   }));
 
-  // Arriving at /#lab and the like: pinned sections add height above, so go there again once they are set up.
+  // ---------------------------------------------------------------- smooth scrolling (first of the idle jobs)
+  jobs.unshift(() => {
+    if (!fine && d.body.classList.contains("page-home") && ST.normalizeScroll) ST.normalizeScroll(true);
+    if (!window.Lenis) return;
+    lenis = new window.Lenis({ lerp: .09, smoothWheel: true, wheelMultiplier: 1, touchMultiplier: 1.4, syncTouch: false });
+    window.__lenis = lenis;
+    lenis.on("scroll", ST.update);
+    // Pins change the page's height; Lenis keeps its own idea of how far it can scroll, so it is told every time.
+    ST.addEventListener("refresh", () => lenis.resize());
+    G.ticker.add((time) => lenis.raf(time * 1000));
+    G.ticker.lagSmoothing(0);
+    qa('a[href^="#"], a[href*="/#"]').forEach((a) => a.addEventListener("click", (ev) => {
+      if (a.hasAttribute("data-story")) return;
+      const url = new URL(a.href, location.href);
+      if (url.pathname !== location.pathname || !url.hash) return;
+      const target = url.hash === "#main" ? 0 : q(url.hash);
+      if (target === null) return;
+      ev.preventDefault();
+      // to the section's own top edge: the sections are full bleed and leave room for the nav themselves
+      lenis.scrollTo(target === 0 ? 0 : target.getBoundingClientRect().top + scrollY, { duration: 1.6 });
+    }));
+  });
+
+  // Arriving at /#widgets and the like: pinned sections add height above, so go there again once they are set up.
   const goHash = () => {
     if (!location.hash || location.hash.length < 2) return;
     let t = null;
@@ -592,11 +687,49 @@
     if (!t) return;
     if (lenis) lenis.scrollTo(t, { immediate: true, force: true }); else t.scrollIntoView();
   };
-  // Triggers were made section by section, not in page order: sort them so every pinned section's extra height
-  // is counted for the ones below it, then measure again.
-  const settle = () => { ST.sort(); ST.refresh(); };
-  settle();
+  // Triggers are made top to bottom, then measured once: every pinned section's extra height is counted for the
+  // ones below it. The nav's colour bands are measured after them.
+  const settle = () => { ST.sort(); ST.refresh(); measureThemes(); navTheme(); };
+  ST.addEventListener("refresh", () => { measureThemes(); navTheme(); });
+  const idle = window.requestIdleCallback ? (fn) => requestIdleCallback(fn, { timeout: 400 }) : (fn) => setTimeout(() => fn({ timeRemaining: () => 10, didTimeout: false }), 30);
+  const work = (deadline) => {
+    do { const job = jobs.shift(); if (job) job(); } while (jobs.length && deadline.timeRemaining() > 12);
+    if (jobs.length) { idle(work); return; }
+    idle(() => {
+      if (location.hash.length > 1) while (scenes.length) scenes.shift().build();   // a deep link needs every pin above it (measured just below)
+      settle();
+      warmFonts();
+      scenes.forEach((sc) => when([sc.el], "150% 0px 150% 0px", () => buildTo(sc)));
+      setTimeout(() => { const more = () => { if (!scenes.length) return; buildTo(scenes[0]); idle(more); }; idle(more); }, 8000);
+      if (d.readyState === "complete") goHash(); else addEventListener("load", goHash, { once: true });
+    });
+  };
+  // Names of the languages and amounts in many scripts: each script needs its own system font, and laying out twenty
+  // of them at once is a long freeze. The rows stay out of layout (CSS) until the page is idle; then they are emptied
+  // and refilled a few names at a time, each few laid out in its own short moment.
+  const many = qa(".mq, .langs");
+  const warmFonts = () => {
+    if (!many.length) return;
+    const queue = many.map((row) => {
+      const box = row.classList.contains("mq") ? q(".mq-track", row) : row;
+      const kids = [...box.children];
+      kids.forEach((k) => k.remove());
+      return [box, kids];
+    });
+    many.forEach((row) => row.classList.add("near"));
+    const step = (deadline) => {
+      while (queue.length && deadline.timeRemaining() > 6) {
+        const [box, kids] = queue[0];
+        for (let k = 0; k < 4 && kids.length; k++) box.appendChild(kids.shift());
+        void box.offsetWidth;
+        if (!kids.length) queue.shift();
+      }
+      if (queue.length) idle(step);
+    };
+    idle(step);
+  };
+  measureThemes();
+  navTheme();
   root.classList.add("ready");
-  addEventListener("load", () => { settle(); goHash(); });
-  if (d.fonts && d.fonts.ready) d.fonts.ready.then(settle);
+  requestAnimationFrame(() => setTimeout(() => idle(work), 0));
 })();

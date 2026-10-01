@@ -122,9 +122,8 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="64x64" href="/assets/brand/favicon-64.png">
 <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/site.css?v=84f1774a10">
-<script>(function(h){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");setTimeout(function(){if(!h.classList.contains("ready"))h.classList.remove("motion")},4500)})(document.documentElement)</script>
-<script src="/assets/js/app.js?v=2ad93f7e80" defer></script>
+<link rel="stylesheet" href="/assets/css/site.css?v=d091de52c5">
+<script>(function(h,w){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");var still=function(){h.classList.remove("motion");[].forEach.call(document.querySelectorAll("img[data-src]"),function(i){if(i.dataset.srcset)i.srcset=i.dataset.srcset;i.src=i.dataset.src})};var go=function(){if(go.done)return;go.done=1;var s=document.createElement("script");s.src="/assets/js/app.js?v=03d3df64d1";s.onerror=still;document.body.appendChild(s);setTimeout(function(){if(!h.classList.contains("ready"))still()},6000)};w.addEventListener("load",function(){var i=document.querySelector("img[fetchpriority=high]"),P=w.PerformanceObserver,next=function(){requestAnimationFrame(function(){setTimeout(go,0)})};if(!i){go();return}if(P&&P.supportedEntryTypes&&P.supportedEntryTypes.indexOf("largest-contentful-paint")>=0){var t=setTimeout(go,1500);new P(function(l){l.getEntries().forEach(function(e){if(e.element===i){clearTimeout(t);setTimeout(go,0)}})}).observe({type:"largest-contentful-paint",buffered:true})}else if(i.decode)i.decode().then(next,next);else next()});w.addEventListener("DOMContentLoaded",function(){setTimeout(go,2500)})})(document.documentElement,window)</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "부채 상환 계산기", "description": "무료 부채 상환 계산기: 스노볼과 애벌랜치 방식을 비교하고 부채 상환 완료 예정일과 총 이자를 확인하세요. 가입 불필요.", "url": "https://spendryapp.com/ko/debt-payoff-calculator/", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "inLanguage": "ko", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "@id": "https://spendryapp.com/#org", "name": "Spendry", "url": "https://spendryapp.com/", "logo": "https://spendryapp.com/assets/brand/icon-512.png", "email": "support@spendryapp.com", "sameAs": ["https://apps.apple.com/app/id6754893380"]}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Spendry", "item": "https://spendryapp.com/ko/"}, {"@type": "ListItem", "position": 2, "name": "부채 상환 계산기", "item": "https://spendryapp.com/ko/debt-payoff-calculator/"}]}</script>
 </head>
@@ -150,17 +149,17 @@
 <section class="tool-hero" data-theme="dark">
 <div class="aurora-css" aria-hidden="true"></div>
 <div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="/ko/">Spendry</a><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg><a href="/ko/#tools">무료 도구</a></nav>
-<h1 class="title title-lg" data-split>부채 상환 계산기</h1><p class="sub" data-rise>부채 정보와 매달 최소 상환액 외에 추가로 갚을 수 있는 금액을 입력하세요. 스노볼과 애벌랜치 방식을 나란히 비교해 부채 상환 완료 예정일과 총 이자를 확인할 수 있어요.</p></div>
+<h1 class="title title-lg" data-split>부채 상환 계산기</h1><p class="sub" data-rise="now">부채 정보와 매달 최소 상환액 외에 추가로 갚을 수 있는 금액을 입력하세요. 스노볼과 애벌랜치 방식을 나란히 비교해 부채 상환 완료 예정일과 총 이자를 확인할 수 있어요.</p></div>
 </section>
 <section class="tool-body" data-theme="light"><div class="wrap">
 <div class="calc" id="payoff" data-payoff='{&quot;period&quot;: &quot;year&quot;, &quot;extra&quot;: 340000, &quot;step&quot;: 30000, &quot;debts&quot;: [{&quot;name&quot;: &quot;신용카드&quot;, &quot;bal&quot;: 7200000, &quot;rate&quot;: 24.9, &quot;min&quot;: 210000}, {&quot;name&quot;: &quot;자동차 대출&quot;, &quot;bal&quot;: 20000000, &quot;rate&quot;: 7.9, &quot;min&quot;: 460000}, {&quot;name&quot;: &quot;백화점 카드&quot;, &quot;bal&quot;: 1800000, &quot;rate&quot;: 29.9, &quot;min&quot;: 62000}, {&quot;name&quot;: &quot;병원비&quot;, &quot;bal&quot;: 1100000, &quot;rate&quot;: 0, &quot;min&quot;: 69000}], &quot;labels&quot;: {&quot;name&quot;: &quot;부채 항목&quot;, &quot;balance&quot;: &quot;잔액&quot;, &quot;rate&quot;: &quot;연이율 %&quot;, &quot;minimum&quot;: &quot;최소 상환액&quot;, &quot;remove&quot;: &quot;삭제&quot;, &quot;free_in&quot;: &quot;부채 상환 완료까지&quot;, &quot;interest&quot;: &quot;총 이자&quot;, &quot;order&quot;: &quot;상환 순서&quot;, &quot;faster&quot;: &quot;더 빠른 상환&quot;, &quot;cheaper&quot;: &quot;이자 절감&quot;, &quot;same&quot;: &quot;이 금액에서는 두 방식의 결과가 같아요.&quot;, &quot;stuck&quot;: &quot;이 상환액으로는 원금을 갚을 수 없어요. 이자조차 감당하기 어렵습니다. 추가 상환액을 늘려보세요.&quot;, &quot;snowball&quot;: &quot;스노볼&quot;, &quot;avalanche&quot;: &quot;애벌랜치&quot;, &quot;debt&quot;: &quot;부채 항목&quot;}}'>
-<div class="panel calc-in" data-rise>
+<div class="panel calc-in" data-rise="now">
 <div class="debt-list"></div>
 <button type="button" class="btn-soft" data-add><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg>부채 추가</button>
 <label class="field"><span>매달 추가로 상환할 금액</span><input type="number" inputmode="decimal" min="0" step="30000" value="340000" data-extra><small>최소 상환액 외에 빚을 갚는 데 추가로 보탤 수 있는 금액이에요. 더 많이 낼수록 빚을 더 빨리 갚을 수 있어요.</small></label>
 <p class="note">예시 데이터예요. 본인의 부채로 변경해 보세요. 금리는 고정금리로 가정하며 수수료는 포함되지 않아요.</p>
 </div>
-<div class="panel calc-out" data-rise aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
+<div class="panel calc-out" data-rise="now" aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
 </div></div></section>
 <section class="tool-cta" data-theme="light"><div class="wrap"><div class="cta-card" data-rise>
 <div class="cta-shot"><img class="shot" src="/assets/img/ko/screen-06.webp" srcset="/assets/img/ko/screen-06-m.webp 603w, /assets/img/ko/screen-06.webp 1206w" sizes="(max-width: 700px) 50vw, 260px" width="1206" height="2622" alt="Spendry" decoding="async" loading="lazy"></div>
