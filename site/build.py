@@ -405,7 +405,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
 <link rel="icon" type="image/png" sizes="64x64" href="/assets/brand/favicon-64.png">
 <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
 {preload}<link rel="stylesheet" href="/assets/css/site.css?v={v_css}">
-<script>document.documentElement.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("motion")</script>
+<script>(function(h){{h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");setTimeout(function(){{if(!h.classList.contains("ready"))h.classList.remove("motion")}},4500)}})(document.documentElement)</script>
 <script src="/assets/js/app.js?v={v_js}" defer></script>
 {ld}
 </head>
