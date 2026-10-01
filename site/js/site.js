@@ -908,7 +908,11 @@
     if (!t) return;
     if (lenis) lenis.scrollTo(t, { immediate: true, force: true }); else t.scrollIntoView();
   };
+  // Triggers were made section by section, not in page order: sort them so every pinned section's extra height
+  // is counted for the ones below it, then measure again.
+  const settle = () => { ST.sort(); ST.refresh(); };
+  settle();
   root.classList.add("ready");
-  addEventListener("load", () => { ST.refresh(); goHash(); });
-  if (d.fonts && d.fonts.ready) d.fonts.ready.then(() => ST.refresh());
+  addEventListener("load", () => { settle(); goHash(); });
+  if (d.fonts && d.fonts.ready) d.fonts.ready.then(settle);
 })();
