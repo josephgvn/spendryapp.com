@@ -326,11 +326,12 @@ def ring_text(text, times, r=44, lang="en"):
             f'<text><textPath href="#rt{r}{times}"{fit}>{e(label)}</textPath></text></svg>')
 
 
-def head(c, key, cls="", tag="h2", idx=None):
+def head(c, key, cls="", tag="h2"):
+    """A section title and its line of text. No labels or badges above it: the title says what the section is."""
     s = c[key]
-    return (f'<div class="head {cls}"><p class="eyebrow" data-rise>{e(s["eyebrow"])}</p>'
-            f'<{tag} class="title" data-split>{inline(s["title"])}</{tag}>'
-            f'<p class="sub" data-rise>{e(s["text"])}</p></div>')
+    sub = f'<p class="sub" data-rise>{e(s["text"])}</p>' if s.get("text") else ""
+    return f'<div class="head {cls}"><{tag} class="title" data-split>{inline(s["title"])}</{tag}>{sub}</div>'
+
 
 
 def store_button(c, lang, place, cls="btn-store"):
@@ -508,61 +509,49 @@ def tool_ld(lang, name, description, url, crumbs):
 
 # ---------------------------------------------------------------- home page sections
 STORY = [("01", "tab_home"), ("06", "debts_title"), ("07", "tab_reminders")]
-FEATURE_SHOTS = {"budgets": ("04", "pie"), "goals": ("05", "flag"), "stats": ("03", "chart"), "add": ("02", "plus"),
-                 "invest": ("08", "trend"), "themes": ("10", "palette")}
-RING = [("01", "tab_home"), ("02", "add_expense"), ("03", "statistics_title"), ("04", "budgets"), ("05", "goals"),
-        ("06", "debts_title"), ("07", "tab_reminders"), ("08", "investments"), ("09", "assistant_title"), ("10", "appearance")]
-ORBIT_INNER = [("credit_cards", "card"), ("installments", "calendar"), ("loans_label", "bank"),
-               ("subscriptions", "repeat"), ("bills", "doc"), ("overdraft_account_label", "gauge")]
-ORBIT_OUTER = [("budgets", "pie"), ("goals", "flag"), ("investments", "trend"), ("shared_budget_info_title", "people"),
-               ("scan_receipt", "scan"), ("w_gallery_title", "grid"), ("health_score", "heart"), ("automations_title", "bolt"),
-               ("net_worth", "tag"), ("app_lock", "lock")]
+# The wall of screens: five columns of two phones each; the middle column's first phone is where the camera starts.
+WALL = [[("08", "investments"), ("10", "appearance")], [("05", "goals"), ("02", "add_expense")],
+        [("04", "budgets"), ("01", "tab_home")], [("03", "statistics_title"), ("07", "tab_reminders")],
+        [("09", "assistant_title"), ("06", "debts_title")]]
 WIDGETS = [("budget", "s", "wb"), ("health", "s", "wh"), ("balance", "m", "wbal"), ("overview", "l", "wo"),
            ("payments", "m", "wp"), ("goal", "s", "wg"), ("debt", "s", "wd"), ("cashflow", "m", "wc"),
            ("networth", "s", "wn"), ("spending", "s", "ws")]
-FLOW_ICONS = [("wallet", "check"), ("sun", "bell"), ("moon", "chart")]
-TR_FLOW_ICONS = [("message", "check"), ("sun", "bell"), ("moon", "chart")]
 
 
 def stage_html(lang, c, t):
     h = c["hero"]
-    chips = "".join(f'<li>{icon(ic)}{e(x)}</li>' for x, ic in zip(h["chips"], ("nobank", "eyeoff", "globe")))
-    screens = []
+    screens, lifts = [], []
     for i, (n, term) in enumerate(STORY):
-        screens.append(f'<div class="scr scr-{i}" data-card="{e(card_style(lang, n))}">'
-                       f'{screen(lang, n, "Spendry: " + t[term], "(max-width: 700px) 70vw, 420px", eager=i == 0, fetch_high=i == 0)}'
-                       f'{card(lang, n, "lift", eager=True)}</div>')
+        screens.append(f'<div class="scr scr-{i}">'
+                       f'{screen(lang, n, "Spendry: " + t[term], "(max-width: 700px) 70vw, 420px", eager=i == 0, fetch_high=i == 0)}</div>')
+        lifts.append(f'<span class="slot" style="{card_style(lang, n)}"></span>' + card(lang, n, f"lift lift-{i}", eager=True))
     caps = "".join(
-        f'<div class="cap cap-{i}"><p class="cap-k"><span class="cap-n">0{i + 1}</span>{e(t[term])}</p>'
+        f'<div class="cap cap-{i}"><p class="cap-k"><span class="cap-n">{i + 1}/{len(STORY)}</span>{e(t[term])}</p>'
         f'<h2 class="cap-t">{e(s["title"])}</h2><p class="cap-p">{e(s["text"])}</p></div>'
         for i, ((n, term), s) in enumerate(zip(STORY, c["story"])))
-    dots = "".join(f'<circle class="dot dot-{i}" cx="{30 + 26 * math.cos(math.radians(-90 + i * 120)):.2f}" '
-                   f'cy="{30 + 26 * math.sin(math.radians(-90 + i * 120)):.2f}" r="3"/>' for i in range(3))
     d = img_dir(lang)
+    facts = " · ".join(e(x) for x in h["chips"])
     return f"""
 <section class="stage" id="top" data-theme="dark">
 <div class="stage-pin">
 <canvas class="aurora" aria-hidden="true"></canvas>
 <div class="aurora-css" aria-hidden="true"><i></i><i></i><i></i></div>
 <div class="grain" aria-hidden="true"></div>
-<div class="wash" aria-hidden="true"></div>
 <div class="hero-copy">
-<p class="eyebrow eyebrow-dark" data-hero><span class="pulse-dot"></span>{e(h['eyebrow'])}</p>
-<h1 class="hero-title"><span class="ln"><span class="ln-in">{e(h['title_1'])}</span></span><span class="ln ln-grad"><span class="ln-in">{e(h['title_2'])}</span></span></h1>
+<p class="kicker" data-hero>{e(h['eyebrow'])}</p>
+<h1 class="hero-title"><span class="ln"><span class="ln-in">{e(h['title_1'])}</span></span><span class="ln ln-2"><span class="ln-in">{e(h['title_2'])}</span></span></h1>
 <p class="lead" data-hero>{e(h['lead'])}</p>
 <div class="hero-cta" data-hero>{store_button(c, lang, 'hero')}<a class="btn-ghost" href="#story-end" data-story>{e(h['secondary'])}{icon('down')}</a></div>
-<ul class="chips" data-hero>{chips}</ul>
+<p class="facts" data-hero>{facts}</p>
 </div>
 <div class="phones">
 <div class="pw pw-l" aria-hidden="true"><div class="phone ph-l">{screen(lang, "06", "", "(max-width: 700px) 40vw, 300px", eager=True)}</div></div>
 <div class="pw pw-r" aria-hidden="true"><div class="phone ph-r">{screen(lang, "07", "", "(max-width: 700px) 40vw, 300px", eager=True)}</div></div>
-<div class="pw pw-c"><div class="phone ph-c"><div class="screens">{''.join(screens)}</div><div class="dim" aria-hidden="true"></div></div></div>
+<div class="pw pw-c"><div class="phone ph-c"><div class="screens">{''.join(screens)}</div></div><div class="lifts" aria-hidden="true">{''.join(lifts)}</div></div>
 <div class="fw fw-1" aria-hidden="true"><div class="fp"><img class="float" src="/assets/img/{d}/card-06.webp" alt="" decoding="async"></div></div>
 <div class="fw fw-2" aria-hidden="true"><div class="fp"><img class="float" src="/assets/img/{d}/card-07.webp" alt="" decoding="async"></div></div>
 </div>
 <div class="caps">{caps}</div>
-<svg class="story-ring" viewBox="0 0 60 60" aria-hidden="true"><circle class="track" cx="30" cy="30" r="26"/><circle class="bar" cx="30" cy="30" r="26"/>{dots}</svg>
-<a class="scroll-cue" href="#story-end" data-story aria-label="{e(h['scroll'])}">{ring_text(h['scroll'], 2, 44, lang)}{icon('down')}</a>
 </div>
 </section>
 <div id="story-end"></div>"""
@@ -571,10 +560,12 @@ def stage_html(lang, c, t):
 def marquee_html(lang, c):
     names = [LANGS[x][0] for x in LANGS]
     row = "".join(f'<span>{e(n)}</span><i></i>' for n in names)
+    R = c["ring"]
     return f"""
-<section class="marquee" data-theme="light" aria-hidden="true">
-<div class="mq mq-a"><div class="mq-track" data-money></div></div>
-<div class="mq mq-b"><div class="mq-track">{row}{row}</div></div>
+<section class="marquee" data-theme="light">
+<div class="wrap"><div class="head head-center"><h2 class="title" data-split>{e(R['title'])}</h2><p class="sub" data-rise>{e(R['text'])}</p></div></div>
+<div class="mq mq-a" aria-hidden="true"><div class="mq-track" data-money></div></div>
+<div class="mq mq-b" aria-hidden="true"><div class="mq-track">{row}{row}</div></div>
 </section>"""
 
 
@@ -585,75 +576,67 @@ def statement_html(lang, c):
 </section>"""
 
 
-def orbit_html(lang, c, t):
-    def pills(items, ring):
-        n = len(items)
-        return "".join(f'<li class="po" style="--a:{360 / n * i:.2f}deg"><span class="pill">{icon(ic)}<span>{e(t[k])}</span></span></li>'
-                       for i, (k, ic) in enumerate(items))
+def showcase_html(lang, c, t):
+    cols = []
+    for k, col in enumerate(WALL):
+        phones = "".join(
+            f'<figure class="scp{" scp-focus" if (k, j) == (2, 0) else ""}"><div class="scp-screen">'
+            f'{screen(lang, n, "Spendry: " + t[term], "(max-width: 700px) 92vw, 640px")}</div>'
+            f'<figcaption>{e(t[term])}</figcaption></figure>' for j, (n, term) in enumerate(col))
+        cols.append(f'<div class="sc-col sc-col-{k}">{phones}</div>')
     return f"""
-<section class="orbit curve" id="features" data-theme="dark">
-<div class="bgc" aria-hidden="true"></div>
-<div class="wrap orbit-grid">
-{head(c, 'orbit', 'head-dark')}
-<div class="orbit-stage">
-<svg class="orbit-lines" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="30"/><circle cx="50" cy="50" r="46"/><circle class="o-dash" cx="50" cy="50" r="38"/></svg>
-<div class="orbit-core"><span class="halo"></span><span class="halo"></span><img src="/assets/brand/icon-192.webp" alt="Spendry" width="96" height="96"></div>
-<ul class="ring-in">{pills(ORBIT_INNER, 0)}</ul>
-<ul class="ring-out">{pills(ORBIT_OUTER, 1)}</ul>
-</div>
+<section class="showcase" id="features" data-theme="dark">
+<div class="sc-pin">
+<div class="sc-bg" aria-hidden="true"><img src="/assets/brand/ribbon-soft.webp" alt="" loading="lazy"></div>
+<div class="wrap sc-copy">{head(c, 'orbit', 'head-dark')}</div>
+<div class="sc-box"><div class="sc-wall">{''.join(cols)}</div></div>
 </div>
 </section>"""
 
 
-def bento_html(lang, c, t):
-    tiles = []
-    for i, item in enumerate(c["features"]["items"]):
-        n, ic = FEATURE_SHOTS[item["key"]]
-        tiles.append(f'<article class="tile tile-{item["key"]}" data-tilt><div class="tile-copy"><span class="tile-ic">{icon(ic)}</span>'
-                     f'<h3>{e(item["title"])}</h3><p>{e(item["text"])}</p></div>'
-                     f'<div class="tile-shot">{screen(lang, n, "Spendry: " + item["title"], "(max-width: 700px) 70vw, 340px")}</div>'
-                     f'<span class="glare" aria-hidden="true"></span></article>')
-    f = c["features"]
+def features_html(lang, c):
+    F = c["features"]
+    items = "".join(f'<li data-rise><h3>{e(x["title"])}</h3><p>{e(x["text"])}</p></li>' for x in F["items"])
     return f"""
-<section class="bento" data-theme="light">
-<div class="wrap">
-<div class="head"><p class="eyebrow" data-rise>{e(f['eyebrow'])}</p><h2 class="title" data-split>{e(f['title'])}</h2></div>
-<div class="tiles">{''.join(tiles)}</div>
-</div>
+<section class="features" data-theme="light">
+<div class="wrap"><h2 class="title title-sm" data-split>{e(F['title'])}</h2><ul class="fl">{items}</ul></div>
 </section>"""
 
 
 def lab_html(lang, c, t):
     L = c["lab"]
     data = lab_data(lang, c)
-    rows = "".join(f'<li style="--k:{i}"><i class="sw"></i><span class="dn">{e(d["name"])}</span><b data-bal="{i}"></b><em data-rate="{i}"></em></li>'
+    rows = "".join(f'<li><i class="sw"></i><span class="dn">{e(d["name"])}</span><b data-bal="{i}"></b><em data-rate="{i}"></em></li>'
                    for i, d in enumerate(data["debts"]))
     labels = {"snowball": t["strategy_snowball"], "avalanche": t["strategy_avalanche"],
               "hint_snowball": L["method_hint_snowball"], "hint_avalanche": L["method_hint_avalanche"]}
     return f"""
 <section class="lab" id="lab" data-theme="light">
-<div class="wrap lab-grid">
-<div class="lab-copy">{head(c, 'lab')}<p class="lab-free" data-rise>{icon('sparkles')}<span>{e(t['debt_free_date'])}</span></p></div>
-<div class="lab-panel" data-lab='{e(json.dumps({**data, "labels": labels}, ensure_ascii=False))}'>
-<div class="lab-top">
-<div class="gauge"><svg viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#36c6ff"/><stop offset=".55" stop-color="#2e6bff"/><stop offset="1" stop-color="#8e5cf0"/></linearGradient></defs><circle class="g-track" cx="60" cy="60" r="52"/><circle class="g-base" cx="60" cy="60" r="52"/><circle class="g-bar" cx="60" cy="60" r="52"/></svg>
-<div class="g-in" aria-live="polite"><span class="k">{e(L['free_in'])}</span><b class="g-month">&nbsp;</b><span class="g-dur">&nbsp;</span></div></div>
+<div class="wrap">
+{head(c, 'lab')}
+<div class="lab-panel" data-rise data-lab='{e(json.dumps({**data, "labels": labels}, ensure_ascii=False))}'>
+<div class="lab-main" aria-live="polite">
+<p class="lab-k">{e(L['free_in'])}</p>
+<p class="g-month">&nbsp;</p>
+<p class="g-dur">&nbsp;</p>
 <dl class="figs">
 <div><dt>{e(L['interest'])}</dt><dd data-o="interest">&nbsp;</dd></div>
 <div class="good"><dt>{e(L['saved'])}</dt><dd data-o="saved">&nbsp;</dd></div>
 <div class="good"><dt>{e(L['sooner'])}</dt><dd data-o="sooner">&nbsp;</dd></div>
 </dl>
-</div>
-<div class="chart"><svg viewBox="0 0 600 180" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="ga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e6bff" stop-opacity=".32"/><stop offset="1" stop-color="#2e6bff" stop-opacity="0"/></linearGradient></defs><path class="c-min" d=""/><path class="c-area" d=""/><path class="c-line" d=""/></svg><div class="c-marks"></div>
-<div class="c-legend"><span class="lg-plan">{e(L['with_plan'])}</span><span class="lg-min">{e(L['minimums'])}</span></div></div>
 <div class="controls">
 <label class="range"><span>{e(L['extra'])}</span><output data-o="extra">&nbsp;</output><input type="range" min="0" max="{data['max']}" step="{data['step']}" value="{data['extra']}" aria-label="{e(L['extra'])}"></label>
 <div class="seg" role="radiogroup" aria-label="{e(L['method'])}"><i class="seg-thumb" aria-hidden="true"></i><button type="button" role="radio" aria-checked="false" data-m="snowball">{e(t['strategy_snowball'])}</button><button type="button" role="radio" aria-checked="true" data-m="avalanche">{e(t['strategy_avalanche'])}</button></div>
 <p class="m-hint">{e(L['method_hint_avalanche'])}</p>
 </div>
+</div>
+<div class="lab-side">
+<div class="chart"><svg viewBox="0 0 600 200" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="ga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e6bff" stop-opacity=".22"/><stop offset="1" stop-color="#2e6bff" stop-opacity="0"/></linearGradient></defs><path class="c-min" d=""/><path class="c-area" d=""/><path class="c-line" d=""/></svg><div class="c-marks"></div></div>
+<div class="c-legend"><span class="lg-plan">{e(L['with_plan'])}</span><span class="lg-min">{e(L['minimums'])}</span></div>
 <ul class="debts">{rows}</ul>
 <p class="lab-note">{e(L['note'])} {e(L['rates_note'])}</p>
 <a class="link-arrow" href="{home_url(lang)}{c['debt_tool']['slug']}/">{e(L['cta'])}{icon('arrow')}</a>
+</div>
 </div>
 </div>
 </section>"""
@@ -662,16 +645,13 @@ def lab_html(lang, c, t):
 def reminders_html(lang, c, t):
     R = c["reminders"]
     data = reminder_data(lang, c)
-    note = f'<p class="rem-note" data-rise>{icon("calendar")}{e(R["local_note"])}</p>' if R.get("local_note") else ""
+    note = f'<p class="rem-note" data-rise>{e(R["local_note"])}</p>' if R.get("local_note") else ""
     return f"""
 <section class="rem" data-theme="dark">
-<div class="bgc" aria-hidden="true"></div>
+<div class="rem-bg" aria-hidden="true"></div>
 <div class="wrap rem-grid">
-<div class="rem-copy">{head(c, 'reminders', 'head-dark')}
-<div class="count" data-rise><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="c-track" cx="60" cy="60" r="52"/><circle class="c-bar" cx="60" cy="60" r="52"/></svg><div><b class="c-num">3</b><span>{e(R['days_left'])}</span></div></div>
-{note}</div>
+<div class="rem-copy">{head(c, 'reminders', 'head-dark')}{note}</div>
 <div class="lock" aria-hidden="true" data-rem='{e(json.dumps(data, ensure_ascii=False))}'>
-<div class="lock-glow"></div>
 <div class="lock-time"><span class="lock-date">&nbsp;</span><span class="lock-clock">9:41</span></div>
 <ol class="notes"></ol>
 </div>
@@ -680,7 +660,6 @@ def reminders_html(lang, c, t):
 
 
 def widgets_html(lang, c):
-    W = c["widgets"]
     tiles = "".join(widget(lang, name, f"w-{size} {cls}") for name, size, cls in WIDGETS)
     return f"""
 <section class="wid" data-theme="dark">
@@ -692,67 +671,40 @@ def widgets_html(lang, c):
 </section>"""
 
 
-def ring_html(lang, c, t):
-    R = c["ring"]
-    items = "".join(f'<figure class="rs" style="--i:{i}" data-name="{e(t[term])}">{screen(lang, n, "Spendry: " + t[term], "(max-width: 700px) 42vw, 250px")}<span class="shade"></span></figure>'
-                    for i, (n, term) in enumerate(RING))
-    return f"""
-<section class="ring curve" data-theme="dark">
-<div class="bgc" aria-hidden="true"></div>
-<div class="ring-pin">
-<div class="wrap ring-head">{head(c, 'ring', 'head-dark head-center')}</div>
-<div class="ring-stage" data-qa-ok><div class="ring-rot">{items}</div></div>
-<div class="ring-foot"><span class="ring-name">{e(t['tab_home'])}</span><span class="ring-hint">{icon('arrows')}{e(R['hint'])}</span></div>
-</div>
-</section>"""
-
-
 def automations_html(lang, c, t):
     A = c["automations"]
-    icons = TR_FLOW_ICONS if lang == "tr" else FLOW_ICONS
     flows = []
-    for (a, b, cc), (i1, i3) in zip(A["flows"], icons):
-        flows.append(f'<li class="flow"><div class="node"><span class="n-ic">{icon(i1)}</span><p>{e(a)}</p></div>'
-                     f'<i class="wire" aria-hidden="true"><b></b></i>'
-                     f'<div class="node node-app"><img src="/assets/brand/icon-96.webp" alt="" width="48" height="48"><p>{e(b)}</p></div>'
-                     f'<i class="wire" aria-hidden="true"><b></b></i>'
-                     f'<div class="node node-out"><span class="n-ic">{icon(i3)}</span><p>{e(cc)}</p></div></li>')
+    for a, b, cc in A["flows"]:
+        flows.append(f'<li class="flow"><p class="step">{e(a)}</p><i class="wire" aria-hidden="true"></i>'
+                     f'<p class="step step-app"><img src="/assets/brand/icon-96.webp" alt="" width="40" height="40">{e(b)}</p>'
+                     f'<i class="wire" aria-hidden="true"></i><p class="step step-out">{e(cc)}</p></li>')
     return f"""
 <section class="auto" data-theme="light">
-<div class="wrap">{head(c, 'automations', 'head-center')}
+<div class="wrap">{head(c, 'automations')}
 <ol class="flows">{''.join(flows)}</ol>
-<p class="auto-foot" data-rise>{icon('sparkles')}{e(t['automations_title'])} · Siri · {e(t['w_gallery_title'])}</p>
 </div>
 </section>"""
 
 
 def privacy_html(lang, c):
     P = c["privacy"]
-    pillars = "".join(f'<li data-rise><span class="p-ic">{icon(ic)}</span><h3>{e(p["title"])}</h3><p>{e(p["text"])}</p></li>'
-                      for p, ic in zip(P["pillars"], ("nobank", "eyeoff", "faceid")))
+    claims = "".join(f'<li data-rise><h3>{e(p["title"])}</h3><p>{e(p["text"])}</p></li>' for p in P["pillars"])
     return f"""
-<section class="priv curve" id="privacy" data-theme="dark">
-<div class="bgc" aria-hidden="true"></div>
-<div class="wrap">
-<div class="priv-hero" aria-hidden="true"><span class="pr"></span><span class="pr"></span><span class="pr"></span><span class="pr"></span><div class="priv-core">{icon('shield')}</div></div>
-{head(c, 'privacy', 'head-dark head-center')}
-<div class="dnc"><span class="dnc-ic">{icon('eyeoff')}</span><div><b>{e(P['badge'])}</b></div></div>
-<ul class="pillars">{pillars}</ul>
+<section class="priv" id="privacy" data-theme="dark">
+<div class="wrap priv-grid">
+{head(c, 'privacy', 'head-dark')}
+<ul class="claims">{claims}</ul>
 </div>
 </section>"""
 
 
 def stats_html(lang, c):
     S = c["stats"]
-    items = []
-    for i, it in enumerate(S["items"]):
-        v = it["value"]
-        items.append(f'<li><div class="st-ring"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="s-track" cx="60" cy="60" r="54"/>'
-                     f'<circle class="s-bar" cx="60" cy="60" r="54" data-f="{[0.88, 0.96, 0.72, 1][i]}" style="stroke-dashoffset:{339.3 * (1 - [0.88, 0.96, 0.72, 1][i]):.1f}"/></svg>'
-                     f'<b><span data-count="{v}">{v}</span>{e(it.get("suffix", ""))}</b></div><p>{e(it["label"])}</p></li>')
+    items = "".join(f'<li data-rise><b><span data-count="{it["value"]}">{it["value"]}</span>{e(it.get("suffix", ""))}</b><p>{e(it["label"])}</p></li>'
+                    for it in S["items"])
     return f"""
 <section class="stats" data-theme="light">
-<div class="wrap"><h2 class="title title-sm" data-split>{e(S['title'])}</h2><ul class="st">{''.join(items)}</ul></div>
+<div class="wrap"><ul class="st">{items}</ul></div>
 </section>"""
 
 
@@ -762,19 +714,15 @@ def faq_html(lang, c):
                     f'<div class="qa-a"><p>{e(q["a"])}</p></div></details>' for q in F["items"])
     return f"""
 <section class="faq" data-theme="light">
-<div class="wrap faq-grid"><div><h2 class="title" data-split>{e(F['title'])}</h2></div><div class="qas">{items}</div></div>
+<div class="wrap faq-grid"><div><h2 class="title title-sm" data-split>{e(F['title'])}</h2></div><div class="qas">{items}</div></div>
 </section>"""
 
 
 def tools_html(lang, c):
-    T = c["tools_teaser"]
     home = home_url(lang)
-    cards = [(c["debt_tool"], "trend"), (c["budget_tool"], "pie")]
-    if lang == "tr":
-        cards.append((c["loan_tool"], "bank"))
-    items = "".join(f'<li data-rise><a class="tool" href="{home}{x["slug"]}/" data-tilt><span class="t-ic">{icon(ic)}</span>'
-                    f'<h3>{e(x["h1"])}</h3><p>{e(x["description"])}</p><span class="t-go">{icon("arrow")}</span></a></li>'
-                    for x, ic in cards)
+    cards = [c["debt_tool"], c["budget_tool"]] + ([c["loan_tool"]] if lang == "tr" else [])
+    items = "".join(f'<li data-rise><a class="tool" href="{home}{x["slug"]}/"><h3>{e(x["h1"])}</h3><p>{e(x["description"])}</p>'
+                    f'<span class="t-go">{icon("arrow")}</span></a></li>' for x in cards)
     return f"""
 <section class="tools" id="tools" data-theme="light">
 <div class="wrap">{head(c, 'tools_teaser')}
@@ -789,13 +737,12 @@ def final_html(lang, c):
     qr_html = f'<div class="qr" aria-hidden="true"><div class="qr-code">{qr}</div><p>{e(F["qr"])}</p></div>' if qr else ""
     return f"""
 <section class="final" data-theme="dark">
-<div class="final-bg" aria-hidden="true"><canvas class="aurora aurora-2"></canvas><div class="aurora-css"><i></i><i></i><i></i></div></div>
+<div class="final-bg" aria-hidden="true"><img src="/assets/brand/ribbon-soft.webp" alt="" loading="lazy"></div>
 <div class="wrap final-in">
-<div class="final-icon"><span class="burst"></span><span class="burst"></span><img src="/assets/brand/icon-512.webp" alt="Spendry" width="160" height="160" loading="lazy"></div>
-<p class="eyebrow eyebrow-dark" data-rise>{e(F['eyebrow'])}</p>
+<img class="final-icon" src="/assets/brand/icon-512.webp" alt="Spendry" width="128" height="128" loading="lazy">
 <h2 class="title title-xl" data-split>{e(F['title'])}</h2>
 <p class="sub" data-rise>{e(F['text'])}</p>
-<div class="final-cta" data-rise><div class="spin-wrap">{ring_text(c['cta']['free'], 2, 46, lang)}{store_button(c, lang, 'final')}</div>{qr_html}</div>
+<div class="final-cta" data-rise>{store_button(c, lang, 'final')}{qr_html}</div>
 <p class="final-meta" data-rise>{e(c['cta']['requirements'])} · {e(c['cta']['trial'])}</p>
 </div>
 </section>"""
@@ -822,10 +769,10 @@ def qr_svg(lang):
 def home_page(lang, c, languages):
     t = TERMS.get(lang, TERMS["en"])
     body = "".join([
-        stage_html(lang, c, t), marquee_html(lang, c), statement_html(lang, c), orbit_html(lang, c, t),
-        bento_html(lang, c, t), lab_html(lang, c, t), reminders_html(lang, c, t), widgets_html(lang, c),
-        ring_html(lang, c, t), automations_html(lang, c, t), privacy_html(lang, c), stats_html(lang, c),
-        faq_html(lang, c), tools_html(lang, c), final_html(lang, c),
+        stage_html(lang, c, t), marquee_html(lang, c), statement_html(lang, c), showcase_html(lang, c, t),
+        features_html(lang, c), lab_html(lang, c, t), reminders_html(lang, c, t), widgets_html(lang, c),
+        automations_html(lang, c, t), privacy_html(lang, c), stats_html(lang, c), faq_html(lang, c),
+        tools_html(lang, c), final_html(lang, c),
     ])
     url = f"{BASE_URL}/{prefix(lang)}"
     d = img_dir(lang)
