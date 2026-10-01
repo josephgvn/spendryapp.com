@@ -111,7 +111,7 @@
   "debts": [
    "Kreditkort",
    "Billån",
-   "Klarna",
+   "Delbetalning",
    "Vän"
   ],
   "note": "Exempelskulder. I appen utgår planen helt från dina egna siffror.",
@@ -129,10 +129,10 @@
   "days_left": "dagar kvar",
   "local_note": "",
   "samples": {
-   "card": "SAS EuroBonus",
+   "card": "Huvudkort",
    "loan": "Billån",
    "budget": "Shopping",
-   "store": "Klarna"
+   "store": "Butikskort"
   }
  },
  "widgets": {
@@ -280,7 +280,7 @@
   "sample": [
    "Kreditkort",
    "Billån",
-   "Klarna",
+   "Delbetalning",
    "Privatlån"
   ],
   "note": "Exempelskulder. Byt ut dem mot dina egna. Räntan räknas som fast, eventuella avgifter ingår inte.",

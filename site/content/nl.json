@@ -111,7 +111,7 @@
   "debts": [
    "Creditcard",
    "Autolening",
-   "Klarna",
+   "Achteraf betalen",
    "Vriend"
   ],
   "note": "Voorbeelden van schulden. In de app rekent het plan met jouw eigen bedragen.",
@@ -129,10 +129,10 @@
   "days_left": "dagen over",
   "local_note": "",
   "samples": {
-   "card": "Visa",
+   "card": "Hoofdkaart",
    "loan": "Autolening",
    "budget": "Boodschappen",
-   "store": "Klarna"
+   "store": "Winkelkaart"
   }
  },
  "widgets": {
@@ -280,7 +280,7 @@
   "sample": [
    "Creditcard",
    "Autolening",
-   "Klarna",
+   "Achteraf betalen",
    "Zorgkosten"
   ],
   "note": "Voorbeelden van schulden; vervang ze door je eigen situatie. Rentes zijn vast verondersteld, bijkomende kosten zijn niet meegerekend.",

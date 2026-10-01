@@ -129,10 +129,10 @@
   "days_left": "dias restantes",
   "local_note": "",
   "samples": {
-   "card": "Cartão Millennium",
+   "card": "Cartão principal",
    "loan": "Crédito automóvel",
    "budget": "Supermercado",
-   "store": "Cartão Worten"
+   "store": "Cartão de loja"
   }
  },
  "widgets": {

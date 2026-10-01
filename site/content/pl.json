@@ -129,10 +129,10 @@
   "days_left": "dni do końca",
   "local_note": "",
   "samples": {
-   "card": "Karta Visa",
+   "card": "Karta główna",
    "loan": "Kredyt na auto",
    "budget": "Zakupy",
-   "store": "Raty Allegro"
+   "store": "Raty w sklepie"
   }
  },
  "widgets": {

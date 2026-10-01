@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+"""Tells Bing, Yandex, Naver and Seznam (IndexNow) that every page in sitemap.xml changed.
+
+    python3 site/indexnow.py
+
+The key is the name of the <key>.txt file at the site root (public by design: it only proves the site is ours)."""
+import glob
+import json
+import os
+import re
+import urllib.request
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+keys = [os.path.basename(p)[:-4] for p in glob.glob(os.path.join(ROOT, "*.txt")) if re.fullmatch(r"[0-9a-f]{32}\.txt", os.path.basename(p))]
+key = keys[0]
+urls = re.findall(r"<loc>(.*?)</loc>", open(os.path.join(ROOT, "sitemap.xml"), encoding="utf-8").read())
+body = {"host": "spendryapp.com", "key": key, "keyLocation": f"https://spendryapp.com/{key}.txt", "urlList": urls}
+req = urllib.request.Request("https://api.indexnow.org/indexnow", data=json.dumps(body).encode(),
+                             headers={"Content-Type": "application/json; charset=utf-8"})
+with urllib.request.urlopen(req, timeout=60) as r:
+    print(r.status, len(urls), "urls")

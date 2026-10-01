@@ -10,7 +10,7 @@
   "lab": "Schuldenabbau",
   "privacy": "Datenschutz",
   "tools": "Rechner",
-  "download": "Laden",
+  "download": "Herunterladen",
   "skip": "Zum Inhalt springen",
   "language": "Sprache",
   "menu": "Menü",
@@ -129,7 +129,7 @@
   "days_left": "Tage übrig",
   "local_note": "",
   "samples": {
-   "card": "Visa Card",
+   "card": "Hauptkarte",
    "loan": "Autokredit",
    "budget": "Einkäufe",
    "store": "Kundenkarte"

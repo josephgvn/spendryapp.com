@@ -111,7 +111,7 @@
   "debts": [
    "Luottokortti",
    "Autolaina",
-   "Klarna-lasku",
+   "Osamaksu",
    "Ystävälle"
   ],
   "note": "Esimerkkivelat. Sovelluksessa suunnitelma käyttää omia tietojasi.",
@@ -280,7 +280,7 @@
   "sample": [
    "Luottokortti",
    "Autolaina",
-   "Klarna-lasku",
+   "Osamaksu",
    "Lääkärilasku"
   ],
   "note": "Esimerkkivelat; korvaa ne omillasi. Korot lasketaan kiinteinä, mahdollisia kuluja ei ole huomioitu.",
