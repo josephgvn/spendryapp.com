@@ -312,14 +312,18 @@ def words(lang, text):
     return "".join(out)
 
 
-def ring_text(text, times, r=44):
-    """Text set around a circle (the scroll cue and the download ring)."""
+COMPLEX = {"ar", "he", "ur", "hi", "bn", "gu", "kn", "ml", "mr", "or", "pa", "ta", "te", "th"}
+
+
+def ring_text(text, times, r=44, lang="en"):
+    """Text set around a circle (the scroll cue and the download ring). Scripts whose letters join or stack keep their
+    natural spacing; the others are spread to close the circle exactly."""
     circumference = 2 * 3.14159265 * r
     label = (" · ".join([text] * times)) + " · "
+    fit = "" if lang in COMPLEX else f' textLength="{circumference - 1:.1f}" lengthAdjust="spacing"'
     return (f'<svg class="ring-text" viewBox="0 0 100 100" aria-hidden="true"><defs><path id="rt{r}{times}" '
             f'd="M50,50 m-{r},0 a{r},{r} 0 1,1 {2 * r},0 a{r},{r} 0 1,1 -{2 * r},0"/></defs>'
-            f'<text><textPath href="#rt{r}{times}" textLength="{circumference - 1:.1f}" lengthAdjust="spacingAndGlyphs">'
-            f'{e(label)}</textPath></text></svg>')
+            f'<text><textPath href="#rt{r}{times}"{fit}>{e(label)}</textPath></text></svg>')
 
 
 def head(c, key, cls="", tag="h2", idx=None):
@@ -544,7 +548,7 @@ def stage_html(lang, c, t):
 <p class="eyebrow eyebrow-dark" data-hero><span class="pulse-dot"></span>{e(h['eyebrow'])}</p>
 <h1 class="hero-title"><span class="ln"><span class="ln-in">{e(h['title_1'])}</span></span><span class="ln ln-grad"><span class="ln-in">{e(h['title_2'])}</span></span></h1>
 <p class="lead" data-hero>{e(h['lead'])}</p>
-<div class="hero-cta" data-hero>{store_button(c, lang, 'hero')}<a class="btn-ghost" href="#story-end">{e(h['secondary'])}{icon('down')}</a></div>
+<div class="hero-cta" data-hero>{store_button(c, lang, 'hero')}<a class="btn-ghost" href="#story-end" data-story>{e(h['secondary'])}{icon('down')}</a></div>
 <ul class="chips" data-hero>{chips}</ul>
 </div>
 <div class="phones">
@@ -556,7 +560,7 @@ def stage_html(lang, c, t):
 </div>
 <div class="caps">{caps}</div>
 <svg class="story-ring" viewBox="0 0 60 60" aria-hidden="true"><circle class="track" cx="30" cy="30" r="26"/><circle class="bar" cx="30" cy="30" r="26"/>{dots}</svg>
-<a class="scroll-cue" href="#story-end" aria-label="{e(h['scroll'])}">{ring_text(h['scroll'], 2)}{icon('down')}</a>
+<a class="scroll-cue" href="#story-end" data-story aria-label="{e(h['scroll'])}">{ring_text(h['scroll'], 2, 44, lang)}{icon('down')}</a>
 </div>
 </section>
 <div id="story-end"></div>"""
@@ -789,7 +793,7 @@ def final_html(lang, c):
 <p class="eyebrow eyebrow-dark" data-rise>{e(F['eyebrow'])}</p>
 <h2 class="title title-xl" data-split>{e(F['title'])}</h2>
 <p class="sub" data-rise>{e(F['text'])}</p>
-<div class="final-cta" data-rise><div class="spin-wrap">{ring_text(c['cta']['free'], 2, 46)}{store_button(c, lang, 'final')}</div>{qr_html}</div>
+<div class="final-cta" data-rise><div class="spin-wrap">{ring_text(c['cta']['free'], 2, 46, lang)}{store_button(c, lang, 'final')}</div>{qr_html}</div>
 <p class="final-meta" data-rise>{e(c['cta']['requirements'])} · {e(c['cta']['trial'])}</p>
 </div>
 </section>"""

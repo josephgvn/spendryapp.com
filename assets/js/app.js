@@ -304,6 +304,7 @@
       q("p", li).textContent = n.b;
       return li;
     };
+    window.__spendryNotes = { notes, make };
     const date = q(".lock-date", lock);
     date.textContent = new Intl.DateTimeFormat(locale, { weekday: "long", day: "numeric", month: "long" }).format(new Date());
     if (!motion || !G) {
@@ -384,6 +385,7 @@
     G.ticker.add((time) => lenis.raf(time * 1000));
     G.ticker.lagSmoothing(0);
     qa('a[href^="#"], a[href*="/#"]').forEach((a) => a.addEventListener("click", (ev) => {
+      if (a.hasAttribute("data-story")) return;
       const url = new URL(a.href, location.href);
       if (url.pathname !== location.pathname || !url.hash) return;
       const target = url.hash === "#main" ? 0 : q(url.hash);
@@ -600,6 +602,27 @@
       });
     }
     G.to(floatImg, { yPercent: -6, duration: 3.2, ease: "sine.inOut", yoyo: true, repeat: -1, stagger: 1.1 });
+
+    // Now and then one of the app's own notifications drops in above the phone, as it would on a Lock Screen.
+    const N = window.__spendryNotes;
+    if (N && N.notes.length) {
+      const toast = d.createElement("div");
+      toast.className = "toast";
+      toast.setAttribute("aria-hidden", "true");
+      phones.appendChild(toast);
+      const order = [2, 3, 1, 4];
+      let k = 0;
+      const show = () => {
+        if (scrollY > innerHeight * .15 || d.hidden) return;
+        toast.innerHTML = "";
+        const card = N.make(N.notes[order[k++ % order.length]]);
+        toast.appendChild(card);
+        G.timeline()
+          .fromTo(card, { y: -46, scale: .86, autoAlpha: 0, filter: "blur(8px)" }, { y: 0, scale: 1, autoAlpha: 1, filter: "blur(0px)", duration: .9, ease: "back.out(1.4)" })
+          .to(card, { y: -24, scale: .94, autoAlpha: 0, duration: .6, ease: "power2.in" }, "+=3.4");
+      };
+      G.delayedCall(3.4, function loop() { show(); G.delayedCall(7.5, loop); });
+    }
 
     const mm = G.matchMedia();
     mm.add({ wide: "(min-width: 900px)", narrow: "(max-width: 899px)" }, (ctx) => {
@@ -897,13 +920,34 @@
       .from(q(".qr", final), { x: rtl ? -40 : 40, autoAlpha: 0, duration: 1.2, ease }, .7);
   }
 
+  // The big name in the footer rises into place.
+  const mark = q(".foot-mark");
+  if (mark) G.from(mark, { yPercent: 55, opacity: 0, ease: "none", scrollTrigger: { trigger: ".foot", start: "top 85%", end: "bottom bottom", scrub: true } });
+
   // Tool pages: the hero ribbons, the panels.
   qa(".tool-hero, .nf").forEach((hero) => {
     G.from(qa(".crumbs, .nf-code", hero), { y: 20, autoAlpha: 0, duration: 1, ease });
   });
 
+  // "See how it works" and the scroll cue go to the first step of the story, not past it.
+  qa("[data-story]").forEach((a) => a.addEventListener("click", (ev) => {
+    const st = stage && ST.getAll().find((t) => t.pin && t.trigger === stage);
+    if (!st) return;
+    ev.preventDefault();
+    const y = st.start + (st.end - st.start) * .2;
+    if (lenis) lenis.scrollTo(y, { duration: 2.2 }); else scrollTo({ top: y, behavior: "smooth" });
+  }));
+
+  // Arriving at /#lab and the like: the pinned sections add height above, so go there again once they are set up.
+  const goHash = () => {
+    if (!location.hash || location.hash.length < 2) return;
+    let t = null;
+    try { t = q(location.hash); } catch (err) { return; }
+    if (!t) return;
+    if (lenis) lenis.scrollTo(t, { immediate: true, force: true }); else t.scrollIntoView();
+  };
   root.classList.add("ready");
-  addEventListener("load", () => ST.refresh());
+  addEventListener("load", () => { ST.refresh(); goHash(); });
   if (d.fonts && d.fonts.ready) d.fonts.ready.then(() => ST.refresh());
 })();
 ;
