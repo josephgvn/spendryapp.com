@@ -13,6 +13,7 @@ import copy
 import datetime
 import math
 import hashlib
+import time
 import html
 import json
 import os
@@ -753,17 +754,31 @@ def final_html(lang, c):
 
 
 def qr_svg(lang):
+    """The QR is made in memory; the file in assets/qr is only rewritten when it changes (iCloud can time out on a
+    file it is still fetching, and the page doesn't need the file anyway)."""
     path = os.path.join(ROOT, "assets", "qr", f"{lang}.svg")
+    svg = None
     try:
+        import io
         import segno
-        os.makedirs(os.path.dirname(path), exist_ok=True)
-        q = segno.make(store_url(lang, "qr"), error="m")
-        q.save(path, kind="svg", scale=1, border=0, dark="#070a1a", xmldecl=False, svgns=True, nl=False)
+        buf = io.BytesIO()
+        segno.make(store_url(lang, "qr"), error="m").save(buf, kind="svg", scale=1, border=0, dark="#070a1a",
+                                                          xmldecl=False, svgns=True, nl=False)
+        svg = buf.getvalue().decode("utf-8")
+        try:
+            old = open(path, encoding="utf-8").read() if os.path.exists(path) else None
+            if old != svg:
+                os.makedirs(os.path.dirname(path), exist_ok=True)
+                with open(path, "w", encoding="utf-8") as f:
+                    f.write(svg)
+        except OSError as err:
+            print(f"qr {lang}: kept the old file ({err})")
     except ImportError:
         pass
-    if not os.path.exists(path):
-        return ""
-    svg = open(path, encoding="utf-8").read()
+    if svg is None:
+        if not os.path.exists(path):
+            return ""
+        svg = open(path, encoding="utf-8").read()
     m = re.search(r'width="(\d+)" height="(\d+)"', svg)
     if m:
         svg = svg.replace(m.group(0), f'viewBox="0 0 {m.group(1)} {m.group(2)}" shape-rendering="crispEdges"', 1)
@@ -931,10 +946,18 @@ def bundle():
 
 
 def write(path, text):
+    """iCloud can time out on a file it is still fetching: wait and try again a few times before giving up."""
     full = os.path.join(ROOT, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
-    with open(full, "w", encoding="utf-8") as f:
-        f.write(text)
+    for attempt in range(5):
+        try:
+            with open(full, "w", encoding="utf-8") as f:
+                f.write(text)
+            return
+        except TimeoutError:
+            if attempt == 4:
+                raise
+            time.sleep(10)
 
 
 def main():
