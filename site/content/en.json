@@ -269,7 +269,7 @@
     "minimum": "Minimum payment",
     "add": "Add a debt",
     "remove": "Remove",
-    "extra": "Extra payment each month",
+    "extra": "Extra you can pay each month",
     "order": "Payoff order",
     "free_in": "Debt-free in",
     "interest": "Total interest",
@@ -297,13 +297,14 @@
         "Keep the plan up to date",
         "Balances change every month. Spendry tracks your cards, loans and bills, keeps your snowball or avalanche plan current and reminds you before each payment is due."
       ]
-    ]
+    ],
+    "extra_hint": "Money you can put toward your debts on top of the minimum payments. The more you add, the sooner you are debt-free."
   },
   "budget_tool": {
     "slug": "budget-calculator",
-    "title": "50/30/20 Budget Calculator",
-    "h1": "50/30/20 budget calculator",
-    "description": "Free 50/30/20 budget calculator: split your monthly income into needs, wants, and savings or debt payments in seconds.",
+    "title": "Monthly Budget Calculator: Needs, Wants and Savings",
+    "h1": "Monthly budget calculator",
+    "description": "Free monthly budget calculator: split your take-home pay into needs, wants, and savings or debt payments in seconds. No sign-up.",
     "lead": "Enter your monthly take-home pay. Half goes to needs, thirty percent to wants and twenty percent to savings and paying off debt.",
     "income": "Monthly take-home pay",
     "needs": "Needs",

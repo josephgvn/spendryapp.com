@@ -269,7 +269,7 @@
   "minimum": "Mindestrate",
   "add": "Schuld hinzufügen",
   "remove": "Entfernen",
-  "extra": "Monatliche Sonderzahlung",
+  "extra": "Zusätzlicher monatlicher Betrag",
   "order": "Tilgungsreihenfolge",
   "free_in": "Schuldenfrei in",
   "interest": "Zinsen gesamt",
@@ -297,13 +297,14 @@
     "Den Plan stets aktuell halten",
     "Kontostände verändern sich fortlaufend. Spendry verwaltet Ihre Kreditkarten, Kredite und Rechnungen, aktualisiert Ihren Tilgungsplan automatisch und erinnert Sie rechtzeitig vor jedem Fälligkeitstermin."
    ]
-  ]
+  ],
+  "extra_hint": "Geld, das Sie zusätzlich zu den Mindestraten für Ihre Schulden aufbringen können. Je mehr Sie tilgen, desto schneller sind Sie schuldenfrei."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "50/30/20 Budgetrechner",
-  "h1": "50/30/20 Budgetrechner",
-  "description": "Kostenloser 50/30/20 Rechner: Teilen Sie Ihr monatliches Nettoeinkommen sofort in Grundbedürfnisse, Wünsche und Ersparnisse oder Schuldengilgung auf.",
+  "title": "Monatlicher Budgetrechner: Fixkosten, Wünsche & Sparen",
+  "h1": "Monatlicher Budgetrechner",
+  "description": "Kostenloser monatlicher Budgetrechner: Teilen Sie Ihr Nettoeinkommen in Fixkosten, Wünsche und Ersparnisse oder Tilgung auf. Ohne Anmeldung.",
   "lead": "Geben Sie Ihr monatliches Nettoeinkommen ein. Die Hälfte deckt Grundbedürfnisse, dreißig Prozent persönliche Wünsche und zwanzig Prozent Sparen und Tilgung.",
   "income": "Monatliches Nettoeinkommen",
   "needs": "Grundbedürfnisse",

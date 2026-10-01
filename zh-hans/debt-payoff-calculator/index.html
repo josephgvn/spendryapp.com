@@ -122,9 +122,9 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="64x64" href="/assets/brand/favicon-64.png">
 <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/site.css?v=24d0480324">
+<link rel="stylesheet" href="/assets/css/site.css?v=84f1774a10">
 <script>(function(h){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");setTimeout(function(){if(!h.classList.contains("ready"))h.classList.remove("motion")},4500)})(document.documentElement)</script>
-<script src="/assets/js/app.js?v=1ec717cfcf" defer></script>
+<script src="/assets/js/app.js?v=2ad93f7e80" defer></script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "债务还清计算器", "description": "免费债务还清计算器：对比滚雪球与滚雪崩策略，预测还清债务的具体月份与总利息支出。无需注册。", "url": "https://spendryapp.com/zh-hans/debt-payoff-calculator/", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "inLanguage": "zh-Hans", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "@id": "https://spendryapp.com/#org", "name": "Spendry", "url": "https://spendryapp.com/", "logo": "https://spendryapp.com/assets/brand/icon-512.png", "email": "support@spendryapp.com", "sameAs": ["https://apps.apple.com/app/id6754893380"]}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Spendry", "item": "https://spendryapp.com/zh-hans/"}, {"@type": "ListItem", "position": 2, "name": "债务还清计算器", "item": "https://spendryapp.com/zh-hans/debt-payoff-calculator/"}]}</script>
 </head>
@@ -134,7 +134,7 @@
 <header class="nav" data-nav>
 <div class="nav-in">
 <a class="brand" href="/zh-hans/" aria-label="Spendry"><img src="/assets/brand/ribbon-128.webp" alt="" width="30" height="26"><span>Spendry</span></a>
-<nav class="nav-links" aria-label="菜单"><a href="/zh-hans/#features">功能</a><a href="/zh-hans/#lab">还清债务</a><a href="/zh-hans/#privacy">隐私</a><a href="/zh-hans/#tools">免费工具</a></nav>
+<nav class="nav-links" aria-label="菜单"><a href="/zh-hans/#features">功能</a><a href="/zh-hans/#privacy">隐私</a><a href="/zh-hans/#tools">免费工具</a></nav>
 <div class="nav-end">
 <button class="lang-btn" type="button" aria-expanded="false" aria-controls="langs" aria-label="语言"><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg><span>ZH</span></button>
 <a class="btn-nav" href="https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&ct=web-zh-hans-nav&mt=8" rel="noopener">下载</a>
@@ -148,7 +148,7 @@
 <main id="main">
 
 <section class="tool-hero" data-theme="dark">
-<canvas class="aurora aurora-3" aria-hidden="true"></canvas><div class="aurora-css" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="aurora-css" aria-hidden="true"></div>
 <div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="/zh-hans/">Spendry</a><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg><a href="/zh-hans/#tools">免费工具</a></nav>
 <h1 class="title title-lg" data-split>债务还清计算器</h1><p class="sub" data-rise>输入各项欠款以及每月在最低还款之外可多支付的金额。直观对比滚雪球与滚雪崩策略下的还清月份与利息总额。</p></div>
 </section>
@@ -157,7 +157,7 @@
 <div class="panel calc-in" data-rise>
 <div class="debt-list"></div>
 <button type="button" class="btn-soft" data-add><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg>添加债务</button>
-<label class="field"><span>每月额外还款</span><input type="number" inputmode="decimal" min="0" step="200" value="1800" data-extra></label>
+<label class="field"><span>每月额外还款金额</span><input type="number" inputmode="decimal" min="0" step="200" value="1800" data-extra><small>在最低还款额之外，你每月可额外用于还债的资金。多还一点，就能越早摆脱债务。</small></label>
 <p class="note">示例债务，请替换为你自己的实际数据。利率按固定利率计算，不含手续费。</p>
 </div>
 <div class="panel calc-out" data-rise aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
@@ -173,8 +173,8 @@
 <div class="foot-top">
 <div class="foot-brand"><a class="brand" href="/zh-hans/"><img src="/assets/brand/ribbon-128.webp" alt="" width="30" height="26"><span>Spendry</span></a><p>iPhone 预算与债务还清工具。</p><a class="btn-store btn-store-sm" href="https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&ct=web-zh-hans-footer&mt=8" data-magnetic rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.37 1.43c0 1.14-.42 2.2-1.12 3-.76.88-1.99 1.56-3 1.48-.13-1.1.42-2.25 1.1-3 .77-.86 2.08-1.5 3.02-1.48ZM20.9 17.1c-.55 1.27-.82 1.84-1.53 2.96-1 1.56-2.4 3.5-4.15 3.52-1.55.01-1.95-1.01-4.06-1-2.1.01-2.54 1.02-4.1 1-1.74-.02-3.07-1.77-4.07-3.33-2.8-4.35-3.1-9.46-1.37-12.18 1.23-1.93 3.17-3.06 5-3.06 1.86 0 3.03 1.02 4.57 1.02 1.5 0 2.4-1.02 4.56-1.02 1.63 0 3.36.89 4.59 2.42-4.03 2.21-3.38 7.97.56 9.67Z"/></svg><span>App Store 下载</span></a></div>
 <div class="foot-cols">
-<div><h4>Spendry</h4><ul><li><a href="/zh-hans/#features">功能</a></li><li><a href="/zh-hans/#lab">还清债务</a></li><li><a href="/zh-hans/#privacy">隐私</a></li><li><a href="mailto:support@spendryapp.com">支持</a></li></ul></div>
-<div><h4>免费工具</h4><ul><li><a href="/zh-hans/debt-payoff-calculator/">债务还清计算器</a></li><li><a href="/zh-hans/budget-calculator/">50/30/20 预算计算器</a></li></ul></div>
+<div><h4>Spendry</h4><ul><li><a href="/zh-hans/#features">功能</a></li><li><a href="/zh-hans/#privacy">隐私</a></li><li><a href="mailto:support@spendryapp.com">支持</a></li></ul></div>
+<div><h4>免费工具</h4><ul><li><a href="/zh-hans/debt-payoff-calculator/">债务还清计算器</a></li><li><a href="/zh-hans/budget-calculator/">月度预算计算器</a></li></ul></div>
 <div><h4>法律信息</h4><ul><li><a href="/privacy-policy.html">隐私政策</a></li><li><a href="/terms-of-service.html">服务条款</a></li></ul></div>
 </div>
 </div>

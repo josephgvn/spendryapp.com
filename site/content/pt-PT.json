@@ -269,7 +269,7 @@
   "minimum": "Pagamento mínimo",
   "add": "Adicionar dívida",
   "remove": "Remover",
-  "extra": "Pagamento extra mensal",
+  "extra": "Valor extra que pode pagar por mês",
   "order": "Ordem de liquidação",
   "free_in": "Livre de dívidas em",
   "interest": "Total de juros",
@@ -297,13 +297,14 @@
     "Mantenha o plano atualizado",
     "Os saldos mudam mês a mês. O Spendry acompanha os seus cartões, empréstimos e contas, mantém o seu plano Bola de Neve ou Avalanche em dia e envia avisos antes do vencimento de cada prestação."
    ]
-  ]
+  ],
+  "extra_hint": "Dinheiro que pode destinar às suas dívidas além dos pagamentos mínimos. Quanto mais acrescentar, mais depressa fica livre de dívidas."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Calculadora de Orçamento 50/30/20",
-  "h1": "Calculadora de orçamento 50/30/20",
-  "description": "Calculadora de orçamento 50/30/20 grátis: divida o seu rendimento líquido em necessidades, desejos e poupança ou dívidas em segundos.",
+  "title": "Calculadora de Orçamento: Necessidades, Desejos e Poupança",
+  "h1": "Calculadora de orçamento mensal",
+  "description": "Calculadora de orçamento mensal gratuita: divida o seu salário líquido em necessidades, desejos e poupança ou dívidas em segundos. Sem registo.",
   "lead": "Introduza o seu rendimento líquido mensal. Metade destina-se a necessidades, trinta por cento a desejos e vinte por cento a poupança e amortização de dívidas.",
   "income": "Rendimento líquido mensal",
   "needs": "Necessidades",

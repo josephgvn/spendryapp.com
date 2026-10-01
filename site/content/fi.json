@@ -297,13 +297,14 @@
     "Pidä suunnitelma ajan tasalla",
     "Saldot muuttuvat joka kuukausi. Spendry seuraa korttejasi, lainojasi ja laskujasi, pitää lumipallo- tai lumivyörysuunnitelmasi ajan tasalla ja muistuttaa sinua ennen jokaista eräpäivää."
    ]
-  ]
+  ],
+  "extra_hint": "Rahaa, jonka voit käyttää velkojen maksuun minimilyhennysten lisäksi. Mitä enemmän maksat, sitä nopeammin vapaudut veloista."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "50/30/20-budjettilaskin",
-  "h1": "50/30/20-budjettilaskin",
-  "description": "Ilmainen 50/30/20-budjettilaskin: jaa kuukausitulosi tarpeisiin, toiveisiin sekä säästöihin ja velkoihin sekunneissa.",
+  "title": "Kuukausibudjettilaskuri: tarpeet, toiveet ja säästöt",
+  "h1": "Kuukausibudjettilaskuri",
+  "description": "Ilmainen kuukausibudjettilaskuri: jaa nettotulosi tarpeisiin, toiveisiin sekä säästöihin tai velkoihin sekunneissa. Ei rekisteröitymistä.",
   "lead": "Syötä kuukausittaiset nettotulosi. Puolet menee välttämättömiin tarpeisiin, kolmekymmentä prosenttia toiveisiin ja kaksikymmentä prosenttia säästöihin sekä velkojen lyhentämiseen.",
   "income": "Kuukausittaiset nettotulot",
   "needs": "Tarpeet",

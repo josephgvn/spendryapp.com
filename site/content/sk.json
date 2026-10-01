@@ -269,7 +269,7 @@
   "minimum": "Minimálna splátka",
   "add": "Pridať dlh",
   "remove": "Odstrániť",
-  "extra": "Mesačne navyše",
+  "extra": "Suma navyše každý mesiac",
   "order": "Poradie splácania",
   "free_in": "Dátum, kedy budete bez dlhov",
   "interest": "Úroky spolu",
@@ -297,13 +297,14 @@
     "Majte plán stále aktuálny",
     "Zostatky sa menia každý mesiac. Spendry prehľadne sleduje vaše kreditné karty, úvery aj faktúry, udržiava váš plán splácania aktuálny a upozorní vás pred každou splatnosťou."
    ]
-  ]
+  ],
+  "extra_hint": "Peniaze, ktoré môžete použiť na splátky dlhov nad rámec minimálnych splátok. Čím viac pridáte, tým skôr sa zbavíte dlhov."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Rozpočtová kalkulačka 50/30/20",
-  "h1": "Rozpočtová kalkulačka 50/30/20",
-  "description": "Bezplatná kalkulačka rozpočtu 50/30/20: rozdeľte svoj čistý príjem na potreby, túžby a úspory či splátky dlhov za pár sekúnd.",
+  "title": "Kalkulačka mesačného rozpočtu: Potreby, želania a úspory",
+  "h1": "Kalkulačka mesačného rozpočtu",
+  "description": "Bezplatná kalkulačka mesačného rozpočtu: rozdeľte si čistý príjem na potreby, želania a úspory či splátky dlhov za pár sekúnd. Bez registrácie.",
   "lead": "Zadajte svoj mesačný čistý príjem. Polovica pokrýva nevyhnutné potreby, tridsať percent osobné túžby a dvadsať percent smeruje na sporenie a splácanie dlhov.",
   "income": "Mesačný čistý príjem",
   "needs": "Potreby",

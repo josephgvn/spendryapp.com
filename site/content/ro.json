@@ -269,7 +269,7 @@
   "minimum": "Plată minimă",
   "add": "Adaugă o datorie",
   "remove": "Șterge",
-  "extra": "Plată suplimentară în fiecare lună",
+  "extra": "Cât poți plăti în plus lunar",
   "order": "Ordinea de plată",
   "free_in": "Scapi de datorii în",
   "interest": "Total dobânzi",
@@ -297,13 +297,14 @@
     "Păstrează planul actualizat",
     "Soldurile se modifică lună de lună. Spendry ține evidența cardurilor, creditelor și facturilor tale, menține la zi planul tău prin metoda bulgărelui sau a avalanșei și îți trimite un memento înainte de fiecare scadență."
    ]
-  ]
+  ],
+  "extra_hint": "Bani pe care îi poți plăti în plus față de sumele minime. Cu cât adaugi mai mult, cu atât scapi mai repede de datorii."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Calculator de buget 50/30/20",
-  "h1": "Calculator de buget 50/30/20",
-  "description": "Calculator gratuit 50/30/20: împarte venitul lunar net în nevoi, dorințe, economii sau datorii în doar câteva secunde.",
+  "title": "Calculator de buget lunar: nevoi, dorințe și economii",
+  "h1": "Calculator de buget lunar",
+  "description": "Calculator gratuit de buget lunar: împarte-ți venitul net în nevoi, dorințe și economii sau datorii în câteva secunde. Fără cont.",
   "lead": "Introdu venitul tău lunar net. Jumătate merge către nevoi, treizeci la sută către dorințe, iar douăzeci la sută către economii și achitarea datoriilor.",
   "income": "Venit lunar net",
   "needs": "Nevoi",

@@ -269,7 +269,7 @@
   "minimum": "Rata minima",
   "add": "Aggiungi un debito",
   "remove": "Rimuovi",
-  "extra": "Importo extra mensile",
+  "extra": "Extra che puoi pagare ogni mese",
   "order": "Ordine di rimborso",
   "free_in": "La data in cui sarai senza debiti",
   "interest": "Interessi totali",
@@ -297,13 +297,14 @@
     "Mantieni il piano aggiornato",
     "I saldi cambiano ogni mese. Spendry controlla carte, prestiti e fatture, aggiorna il tuo piano palla di neve o valanga e ti avvisa prima di ogni scadenza."
    ]
-  ]
+  ],
+  "extra_hint": "Soldi da destinare ai tuoi debiti oltre alle rate minime. Più aggiungi, prima ti liberi dai debiti."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Calcolatore Budget 50/30/20",
-  "h1": "Calcolatore budget 50/30/20",
-  "description": "Calcolatore budget 50/30/20 gratuito: dividi subito le tue entrate mensili tra necessità, svago, risparmi e debiti.",
+  "title": "Calcolatore del budget mensile: bisogni, desideri e risparmi",
+  "h1": "Calcolatore del budget mensile",
+  "description": "Calcolatore gratuito del budget mensile: dividi lo stipendio tra bisogni, desideri e risparmi o debiti in pochi secondi. Senza registrazione.",
   "lead": "Inserisci le tue entrate nette mensili. Il 50% va alle spese necessarie, il 30% ai desideri e il 20% a risparmi e rimborso debiti.",
   "income": "Stipendio netto mensile",
   "needs": "Necessità",

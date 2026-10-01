@@ -269,7 +269,7 @@
   "minimum": "Minimalna uplata",
   "add": "Dodaj dug",
   "remove": "Ukloni",
-  "extra": "Dodatna uplata svakog mjeseca",
+  "extra": "Dodatni iznos koji možete plaćati svaki mjesec",
   "order": "Redoslijed otplate",
   "free_in": "Bez dugova za",
   "interest": "Ukupna kamata",
@@ -297,13 +297,14 @@
     "Održavajte plan ažurnim",
     "Stanja se mijenjaju svakog mjeseca. Spendry prati vaše kartice, zajmove i račune, održava plan otplate aktualnim i šalje podsjetnik prije svakog dospijeća."
    ]
-  ]
+  ],
+  "extra_hint": "Novac koji možete usmjeriti na dugove povrh minimalnih uplata. Što više dodate, prije ćete se riješiti dugova."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Kalkulator proračuna 50/30/20",
-  "h1": "Kalkulator proračuna 50/30/20",
-  "description": "Besplatni kalkulator 50/30/20: rasporedite mjesečne prihode na potrebe, želje, štednju ili otplatu dugova u nekoliko sekundi.",
+  "title": "Kalkulator mjesečnog budžeta: potrebe, želje i štednja",
+  "h1": "Kalkulator mjesečnog budžeta",
+  "description": "Besplatni kalkulator mjesečnog budžeta: rasporedite neto plaću na potrebe, želje i štednju ili otplatu dugova u nekoliko sekundi. Bez registracije.",
   "lead": "Unesite svoj mjesečni neto prihod. Polovica ide na potrebe, trideset posto na želje, a dvadeset posto na štednju i otplatu dugova.",
   "income": "Mjesečni neto prihod",
   "needs": "Potrebe",

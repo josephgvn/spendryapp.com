@@ -269,7 +269,7 @@
   "minimum": "Mensualité minimale",
   "add": "Ajouter une dette",
   "remove": "Supprimer",
-  "extra": "Paiement mensuel supplémentaire",
+  "extra": "Montant supplémentaire par mois",
   "order": "Ordre de remboursement",
   "free_in": "Libéré des dettes en",
   "interest": "Total des intérêts",
@@ -297,13 +297,14 @@
     "Gardez votre plan à jour",
     "Vos soldes évoluent constamment. Spendry suit vos cartes, mensualités et factures, actualise votre méthode Boule de neige ou Avalanche et vous avertit avant chaque échéance."
    ]
-  ]
+  ],
+  "extra_hint": "Ce que vous pouvez verser en plus des mensualités minimales. Plus vous en ajoutez, plus vite vous serez libéré de vos dettes."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Calculateur de budget 50/30/20",
-  "h1": "Calculateur de budget 50/30/20",
-  "description": "Calculateur gratuit de budget 50/30/20 : répartissez vos revenus mensuels entre besoins, envies, épargne et dettes en quelques secondes.",
+  "title": "Calculateur de budget mensuel : besoins, envies et épargne",
+  "h1": "Calculateur de budget mensuel",
+  "description": "Calculateur de budget mensuel gratuit : répartissez votre revenu net entre besoins, envies, épargne et dettes en quelques secondes. Sans inscription.",
   "lead": "Saisissez votre revenu net mensuel. La moitié pour vos besoins vitaux, trente pour cent pour vos loisirs et vingt pour cent pour l'épargne ou vos dettes.",
   "income": "Revenu mensuel net",
   "needs": "Besoins",

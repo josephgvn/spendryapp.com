@@ -269,7 +269,7 @@
   "minimum": "Khoản trả tối thiểu",
   "add": "Thêm khoản nợ",
   "remove": "Xóa",
-  "extra": "Số tiền trả thêm mỗi tháng",
+  "extra": "Khoản bạn có thể trả thêm mỗi tháng",
   "order": "Thứ tự trả nợ",
   "free_in": "Sạch nợ sau",
   "interest": "Tổng tiền lãi",
@@ -297,13 +297,14 @@
     "Luôn cập nhật kế hoạch",
     "Dư nợ thay đổi theo từng tháng. Spendry giúp bạn theo dõi thẻ, khoản vay và hóa đơn, duy trì kế hoạch Tuyết lăn hoặc Tuyết lở liên tục và gửi lời nhắc trước ngày đến hạn."
    ]
-  ]
+  ],
+  "extra_hint": "Số tiền bạn có thể trả nợ ngoài mức thanh toán tối thiểu. Càng trả nhiều, bạn càng sớm sạch nợ."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Công cụ tính ngân sách 50/30/20",
-  "h1": "Công cụ tính ngân sách 50/30/20",
-  "description": "Máy tính ngân sách 50/30/20 miễn phí: phân bổ thu nhập vào nhu cầu, mong muốn và tiết kiệm hoặc trả nợ trong vài giây.",
+  "title": "Tính ngân sách tháng: Nhu cầu, sở thích, tiết kiệm",
+  "h1": "Công cụ tính ngân sách hàng tháng",
+  "description": "Công cụ tính ngân sách tháng miễn phí: chia thu nhập thực nhận thành nhu cầu, sở thích và tiết kiệm hoặc trả nợ chỉ trong vài giây. Không cần đăng ký.",
   "lead": "Nhập thu nhập thực nhận mỗi tháng. 50% dành cho nhu cầu thiết yếu, 30% cho mong muốn cá nhân và 20% cho tiết kiệm hoặc trả nợ.",
   "income": "Thu nhập thực nhận mỗi tháng",
   "needs": "Nhu cầu thiết yếu",

@@ -269,7 +269,7 @@
     "minimum": "Asgari/taksit",
     "add": "Borç ekle",
     "remove": "Sil",
-    "extra": "Her ay ek ödeme",
+    "extra": "Her ay fazladan ödeyebileceğin tutar",
     "order": "Kapanma sırası",
     "free_in": "Borçsuz",
     "interest": "Toplam faiz",
@@ -297,13 +297,14 @@
         "Kredi kartında dikkat",
         "Asgari ödeme borcu kapatmaz, kalan tutara her ay faiz işler. KMH ve kart için aylık faiz oranları Merkez Bankası'nın açıkladığı üst sınırlara bağlıdır; güncel oranı bankandan kontrol et."
       ]
-    ]
+    ],
+    "extra_hint": "Asgari ödemelerin üstüne borçlarına ayırabildiğin para. Ne kadar çok eklersen o kadar erken borçsuz kalırsın."
   },
   "budget_tool": {
     "slug": "gelir-gider-tablosu",
-    "title": "Gelir Gider Tablosu: Ücretsiz Şablon ve 50/30/20 Hesaplayıcı",
+    "title": "Gelir Gider Tablosu: Ücretsiz Şablon ve Aylık Bütçe Hesaplayıcı",
     "h1": "Gelir gider tablosu",
-    "description": "Gelir gider tablosu nasıl tutulur? Ücretsiz aylık bütçe şablonu (Excel, Numbers ve Google E-Tablolar ile açılır) ve 50/30/20 bütçe hesaplayıcısı.",
+    "description": "Gelir gider tablosu nasıl tutulur? Ücretsiz aylık bütçe şablonu (Excel, Numbers ve Google E-Tablolar ile açılır) ve aylık bütçe hesaplayıcısı.",
     "lead": "Ay sonunu getirmenin ilk adımı paranın nereye gittiğini görmek. Şablonu indir ya da gelirini 50/30/20 kuralına göre böl.",
     "income": "Aylık net gelir",
     "needs": "Zorunlu giderler",

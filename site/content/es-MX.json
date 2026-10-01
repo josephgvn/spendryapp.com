@@ -269,7 +269,7 @@
   "minimum": "Pago mínimo",
   "add": "Añadir deuda",
   "remove": "Eliminar",
-  "extra": "Pago extra cada mes",
+  "extra": "Extra que puedes pagar cada mes",
   "order": "Orden de liquidación",
   "free_in": "Libre de deudas en",
   "interest": "Interés total",
@@ -297,13 +297,14 @@
     "Mantén el plan al día",
     "Los saldos cambian mes con mes. Spendry organiza tus tarjetas, créditos y cuentas por pagar, actualiza tu estrategia de Bola de Nieve o Avalancha y te recuerda las fechas límite antes de cada pago."
    ]
-  ]
+  ],
+  "extra_hint": "Dinero que puedes destinar a tus deudas además de los pagos mínimos. Entre más aportes, más rápido saldrás de deudas."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Calculadora de Presupuesto 50/30/20",
-  "h1": "Calculadora de presupuesto 50/30/20",
-  "description": "Calculadora gratis 50/30/20: distribuye tus ingresos mensuales en necesidades, deseos y ahorro o pago de deudas en segundos.",
+  "title": "Calculadora de presupuesto mensual: necesidades, gustos y ahorro",
+  "h1": "Calculadora de presupuesto mensual",
+  "description": "Calculadora de presupuesto mensual gratis: divide tu sueldo neto en necesidades, gustos y ahorro o deudas en segundos. Sin registrarte.",
   "lead": "Ingresa tus ingresos mensuales netos. Destina la mitad a tus necesidades, el treinta por ciento a tus gustos y el veinte por ciento a ahorrar y pagar deudas.",
   "income": "Ingreso mensual neto",
   "needs": "Necesidades",

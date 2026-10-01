@@ -269,7 +269,7 @@
   "minimum": "Mindstebeløb",
   "add": "Tilføj gæld",
   "remove": "Fjern",
-  "extra": "Ekstra afdrag hver måned",
+  "extra": "Ekstra du kan betale hver måned",
   "order": "Afbetalingsrækkefølge",
   "free_in": "Gældfri om",
   "interest": "Renter i alt",
@@ -297,13 +297,14 @@
     "Hold planen opdateret",
     "Saldi ændrer sig hver måned. Spendry holder styr på kort, lån og regninger, opdaterer din snebold- eller lavineplan løbende og minder dig om betalingerne i god tid."
    ]
-  ]
+  ],
+  "extra_hint": "Penge du kan betale af på din gæld med ud over minimumsbetalingerne. Jo mere du tilføjer, jo hurtigere bliver du gældfri."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "50/30/20 Budgetberegner",
-  "h1": "50/30/20 budgetberegner",
-  "description": "Gratis 50/30/20 budgetberegner: Del din udbetalte løn op i faste behov, fornøjelser og opsparing på få sekunder.",
+  "title": "Månedlig budgetberegner: Behov, ønsker og opsparing",
+  "h1": "Månedlig budgetberegner",
+  "description": "Gratis månedlig budgetberegner: Fordel din udbetalte løn på behov, ønsker og opsparing eller afdrag på få sekunder. Helt uden oprettelse.",
   "lead": "Indtast din udbetalte månedsløn. Halvdelen går til faste behov, tredive procent til fornøjelser og tyve procent til opsparing og afdrag på gæld.",
   "income": "Udbetalt månedsløn",
   "needs": "Behov",

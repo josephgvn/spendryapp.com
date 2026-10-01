@@ -269,7 +269,7 @@
   "minimum": "Minimalni obrok",
   "add": "Dodaj dolg",
   "remove": "Odstrani",
-  "extra": "Dodatno plačilo vsak mesec",
+  "extra": "Dodatni znesek vsak mesec",
   "order": "Vrstni red odplačevanja",
   "free_in": "Brez dolgov v",
   "interest": "Skupne obresti",
@@ -297,13 +297,14 @@
     "Ohranite načrt vedno posodobljen",
     "Stanja se spreminjajo vsak mesec. Spendry spremlja vaše kartice, kredite in račune, ohranja vaš načrt snežne kepe ali plaza posodobljen ter vas pravočasno opozori pred vsakim rokom."
    ]
-  ]
+  ],
+  "extra_hint": "Denar, ki ga lahko namenite za odplačilo dolgov poleg minimalnih obrokov. Več ko dodate, prej boste brez dolgov."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Kalkulator proračuna 50/30/20",
-  "h1": "Kalkulator proračuna 50/30/20",
-  "description": "Brezplačni kalkulator 50/30/20: razdelite svoj mesečni neto dohodek na nujne potrebe, želje ter varčevanje in odplačilo dolgov v nekaj sekundah.",
+  "title": "Kalkulator mesečnega proračuna: potrebe, želje in prihranki",
+  "h1": "Kalkulator mesečnega proračuna",
+  "description": "Brezplačni kalkulator proračuna: razdelite neto plačo na potrebe, želje ter prihranke ali odplačilo dolgov v nekaj sekundah. Brez registracije.",
   "lead": "Vnesite svoj mesečni neto dohodek. Polovica gre za nujne potrebe, trideset odstotkov za želje in dvajset odstotkov za varčevanje ter odplačevanje dolgov.",
   "income": "Mesečni neto dohodek",
   "needs": "Nujne potrebe",

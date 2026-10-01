@@ -269,7 +269,7 @@
   "minimum": "Minimumsbeløp",
   "add": "Legg til gjeld",
   "remove": "Fjern",
-  "extra": "Ekstra innbetaling per måned",
+  "extra": "Ekstra du kan betale hver måned",
   "order": "Rekkefølge for nedbetaling",
   "free_in": "Gjeldfri om",
   "interest": "Totale renter",
@@ -297,13 +297,14 @@
     "Hold planen oppdatert",
     "Saldoer endrer seg hver måned. Spendry holder oversikt over kort, lån og regninger, oppdaterer planen din fortløpende og minner deg på hver forfallsdato."
    ]
-  ]
+  ],
+  "extra_hint": "Penger du kan bruke på gjelden utover minstebeløpene. Jo mer du legger til, desto raskere blir du gjeldfri."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "50/30/20 Budsjetteringskalkulator",
-  "h1": "50/30/20 budsjettkalkulator",
-  "description": "Gratis 50/30/20 budsjettkalkulator: fordel nettolønnen din på nødvendigheter, ønsker og sparing eller gjeld på sekunder.",
+  "title": "Månedlig budsjettkalkulator: Behov, ønsker og sparing",
+  "h1": "Månedlig budsjettkalkulator",
+  "description": "Gratis budsjettkalkulator: Fordel nettolønnen din på behov, ønsker og sparing eller nedbetaling av gjeld på sekunder. Helt uten registrering.",
   "lead": "Tast inn utbetalt månedslønn. Halvparten går til faste nødvendigheter, tretti prosent til personlige ønsker, og tjue prosent til sparing og ekstra gjeldsnedbetaling.",
   "income": "Utbetalt månedslønn",
   "needs": "Nødvendigheter",

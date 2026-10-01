@@ -269,7 +269,7 @@
   "minimum": "Minimální splátka",
   "add": "Přidat dluh",
   "remove": "Odstranit",
-  "extra": "Měsíční splátka navíc",
+  "extra": "Kolik můžete měsíčně platit navíc",
   "order": "Pořadí splácení",
   "free_in": "Bez dluhů za",
   "interest": "Úroky celkem",
@@ -297,13 +297,14 @@
     "Mějte plán stále aktuální",
     "Výše zůstatků se každý měsíc mění. Spendry hlídá vaše karty, půjčky i účty, udržuje plán sněhové koule či laviny čerstvý a včas vás upozorní na každou splátku."
    ]
-  ]
+  ],
+  "extra_hint": "Peníze, které můžete poslat na své dluhy nad rámec minimálních splátek. Čím víc přidáte, tím dříve budete bez dluhů."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Rozpočtová kalkulačka 50/30/20",
-  "h1": "Rozpočtová kalkulačka 50/30/20",
-  "description": "Bezplatná rozpočtová kalkulačka 50/30/20: rozdělte svůj čistý měsíční příjem na nutné výdaje, radosti a úspory nebo splátky během pár vteřin.",
+  "title": "Kalkulačka měsíčního rozpočtu: potřeby, přání a úspory",
+  "h1": "Kalkulačka měsíčního rozpočtu",
+  "description": "Bezplatná kalkulačka měsíčního rozpočtu: rozdělte si čistý příjem na potřeby, přání a úspory nebo splátky dluhů během chvilky. Bez registrace.",
   "lead": "Zadejte svůj čistý měsíční příjem. Polovina pokryje nezbytné výdaje, třicet procent vaše přání a dvacet procent směřuje na úspory a splácení dluhů.",
   "income": "Čistý měsíční příjem",
   "needs": "Nutné výdaje",

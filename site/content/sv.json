@@ -269,7 +269,7 @@
   "minimum": "Lägsta belopp att betala",
   "add": "Lägg till skuld",
   "remove": "Ta bort",
-  "extra": "Extra betalning varje månad",
+  "extra": "Extra du kan betala varje månad",
   "order": "Avbetalningsordning",
   "free_in": "Skuldfri om",
   "interest": "Total ränta",
@@ -297,13 +297,14 @@
     "Håll planen uppdaterad",
     "Saldon ändras varje månad. Spendry håller koll på dina kort, lån och räkningar, uppdaterar din avbetalningsplan automatiskt och påminner dig i god tid innan något ska betalas."
    ]
-  ]
+  ],
+  "extra_hint": "Pengar du kan lägga på dina skulder utöver minimibeloppet. Ju mer du betalar, desto snabbare blir du skuldfri."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "50/30/20 Budgetkalkylator",
-  "h1": "50/30/20 budgetkalkylator",
-  "description": "Gratis 50/30/20 budgetkalkylator: dela upp din inkomst i fasta utgifter, nöjen och sparande eller skulder på några sekunder.",
+  "title": "Månadsbudgetkalkylator: Behov, nöjen och sparande",
+  "h1": "Kalkylator för månadsbudget",
+  "description": "Gratis kalkylator för månadsbudget: fördela lönen efter skatt på behov, nöjen och sparande eller skulder på sekunder. Utan registrering.",
   "lead": "Fyll i din inkomst efter skatt. Hälften går till fasta utgifter, trettio procent till nöjen och tjugo procent till sparande och att betala av skulder.",
   "income": "Inkomst efter skatt per månad",
   "needs": "Fasta utgifter",

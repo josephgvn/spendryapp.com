@@ -269,7 +269,7 @@
   "minimum": "Bayaran minimum",
   "add": "Tambah hutang",
   "remove": "Padam",
-  "extra": "Bayaran ekstra bulanan",
+  "extra": "Bayaran tambahan setiap bulan",
   "order": "Susunan bayaran",
   "free_in": "Bebas hutang dalam",
   "interest": "Jumlah faedah",
@@ -297,13 +297,14 @@
     "Kekalkan pelan yang sentiasa terkini",
     "Baki hutang berubah setiap bulan. Spendry menjejak kad, pinjaman dan bil anda, memastikan pelan Snowball atau Avalanche sentiasa tepat, serta memberi peringatan sebelum setiap bayaran matang."
    ]
-  ]
+  ],
+  "extra_hint": "Wang tambahan untuk hutang anda selain bayaran minimum. Lebih banyak anda bayar, lebih cepat anda bebas daripada hutang."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Kalkulator Bajet 50/30/20",
-  "h1": "Kalkulator bajet 50/30/20",
-  "description": "Kalkulator bajet 50/30/20 percuma: bahagikan pendapatan bulanan kepada keperluan, kehendak, dan simpanan atau hutang dengan pantas.",
+  "title": "Kalkulator Bajet Bulanan: Keperluan, Kehendak dan Simpanan",
+  "h1": "Kalkulator bajet bulanan",
+  "description": "Kalkulator bajet bulanan percuma: bahagikan gaji bersih anda kepada keperluan, kehendak, dan simpanan atau hutang dalam beberapa saat. Tanpa pendaftaran.",
   "lead": "Masukkan gaji bersih bulanan anda. Separuh untuk keperluan, tiga puluh peratus untuk kehendak, dan dua puluh peratus untuk simpanan serta bayaran hutang.",
   "income": "Gaji bersih bulanan",
   "needs": "Keperluan",

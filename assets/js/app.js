@@ -371,6 +371,7 @@
     }));
   }
   ST.config({ ignoreMobileResize: true });
+  if (!fine && d.body.classList.contains("page-home") && ST.normalizeScroll) ST.normalizeScroll(true);
 
   // ---------------------------------------------------------------- nav: hides going down, comes back going up; dark or light
   const nav = q("[data-nav]");
@@ -383,93 +384,6 @@
     if (y < lastY - 2 || y < 160) nav.classList.remove("away");
     lastY = y;
   }, { passive: true });
-
-  // ---------------------------------------------------------------- the flowing ribbons (WebGL), paused when out of sight
-  const auroras = qa("canvas.aurora").map((canvas) => ribbons(canvas)).filter(Boolean);
-  function ribbons(canvas) {
-    const gl = canvas.getContext("webgl", { antialias: false, alpha: false, powerPreference: "low-power", preserveDrawingBuffer: false });
-    if (!gl) return null;
-    const small = innerWidth < 900;
-    const LINES = small ? 16 : 26;
-    const vs = "attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}";
-    const fs = `precision mediump float;uniform vec2 R;uniform float T;uniform vec2 M;
-      vec3 pal(float t){t=abs(fract(t*.5)*2.-1.);
-        return t<.5?mix(vec3(.22,.8,1.),vec3(.2,.45,1.),t*2.):mix(vec3(.2,.45,1.),vec3(.58,.42,1.),(t-.5)*2.);}
-      float band(vec2 p,float k,float t,out float glow){
-        float c=.13*sin(p.x*1.1+t*.3+k*2.4)+.05*sin(p.x*2.3-t*.41+k*1.3)+p.x*.3-.06-k*.3;
-        float th=p.x*1.35-t*.36+k*2.2;
-        float w=.2+.04*sin(p.x*.9+t*.21+k);
-        float acc=0.;
-        for(int j=0;j<${LINES};j++){
-          float f=float(j)/${LINES - 1}.;
-          float o=(f-.5)*2.*w;
-          float y=c+o*cos(th);
-          float dz=(f-.5)*2.*sin(th);
-          float dd=abs(p.y-y);
-          acc+=(smoothstep(.003,0.,dd)*.6+.0011/(dd+.003))*(.55+.45*dz);
-        }
-        glow=exp(-pow((p.y-c)/((w*abs(cos(th))+.02)*1.6),2.));
-        return acc;
-      }
-      void main(){
-        vec2 p=(gl_FragCoord.xy-.5*R)/R.y;
-        p+=M*.03;
-        float t=T;
-        vec3 col=vec3(.016,.024,.07);
-        col+=vec3(.03,.06,.2)*smoothstep(1.4,0.,length(p-vec2(.55,.35)));
-        col+=vec3(.12,.04,.22)*.55*smoothstep(1.2,0.,length(p-vec2(-.8,-.45)));
-        float ga,gb;
-        float a=band(p,0.,t,ga);
-        col+=pal(.1+p.x*.25+t*.02)*(a*.17+ga*.06);
-        float b=band(p,1.,t*.85+4.,gb);
-        col+=pal(.9+p.x*.2-t*.015)*(b*.09+gb*.03);
-        col=1.-exp(-col*1.6);
-        col*=smoothstep(1.9,.4,length(p*vec2(.7,1.)));
-        gl_FragColor=vec4(col,1.);
-      }`;
-    const sh = (type, src) => { const s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); return gl.getShaderParameter(s, gl.COMPILE_STATUS) ? s : null; };
-    const v = sh(gl.VERTEX_SHADER, vs), f = sh(gl.FRAGMENT_SHADER, fs);
-    if (!v || !f) return null;
-    const pr = gl.createProgram();
-    gl.attachShader(pr, v); gl.attachShader(pr, f); gl.linkProgram(pr);
-    if (!gl.getProgramParameter(pr, gl.LINK_STATUS)) return null;
-    gl.useProgram(pr);
-    const buf = gl.createBuffer();
-    gl.bindBuffer(gl.ARRAY_BUFFER, buf);
-    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
-    const loc = gl.getAttribLocation(pr, "p");
-    gl.enableVertexAttribArray(loc);
-    gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
-    const uR = gl.getUniformLocation(pr, "R"), uT = gl.getUniformLocation(pr, "T"), uM = gl.getUniformLocation(pr, "M");
-    const scale = small ? .5 : .62;
-    const mouse = { x: 0, y: 0, tx: 0, ty: 0 };
-    let visible = false, running = false, last = 0;
-    const t0 = performance.now();
-    const size = () => {
-      const w = Math.max(1, Math.round(canvas.clientWidth * scale)), h = Math.max(1, Math.round(canvas.clientHeight * scale));
-      if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; gl.viewport(0, 0, w, h); }
-    };
-    const frame = (now) => {
-      if (!visible || d.hidden) { running = false; return; }
-      running = true;
-      if (small && now - last < 30) { requestAnimationFrame(frame); return; }
-      last = now;
-      size();
-      mouse.x += (mouse.tx - mouse.x) * .05; mouse.y += (mouse.ty - mouse.y) * .05;
-      gl.uniform2f(uR, canvas.width, canvas.height);
-      gl.uniform1f(uT, (now - t0) / 1000);
-      gl.uniform2f(uM, mouse.x, mouse.y);
-      gl.drawArrays(gl.TRIANGLES, 0, 3);
-      requestAnimationFrame(frame);
-    };
-    const start = () => { if (!running && visible) requestAnimationFrame(frame); };
-    new IntersectionObserver(([en]) => { visible = en.isIntersecting; start(); }).observe(canvas);
-    d.addEventListener("visibilitychange", start);
-    if (fine) addEventListener("pointermove", (ev) => { mouse.tx = ev.clientX / innerWidth - .5; mouse.ty = .5 - ev.clientY / innerHeight; }, { passive: true });
-    canvas.classList.add("on");
-    canvas.parentElement.classList.add("webgl-on");
-    return { canvas };
-  }
 
   // ---------------------------------------------------------------- shared reveals: titles line by line, the rest rises
   const splitReady = window.SplitText && !root.classList.contains("no-split");
@@ -566,7 +480,7 @@
         tl.to(phones, { y: () => innerHeight * .35 - (phones.offsetTop + phones.offsetHeight / 2), duration: 1.3 }, .1)
           .to(pc, { scale: () => Math.min(.8, (innerHeight * .56) / (pc.offsetHeight || 1)), duration: 1.3, force3D: false }, .1);
       }
-      const capIn = (i, at) => tl.fromTo(caps[i], { opacity: 0, y: 40, visibility: "visible" }, { opacity: 1, y: 0, duration: .8, ease: "power3.out", immediateRender: false }, at);
+      const capIn = (i, at) => tl.fromTo(caps[i], { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8, ease: "power3.out", immediateRender: false }, at);
       const capOut = (i, at) => tl.to(caps[i], { opacity: 0, y: -40, duration: .6, ease: "power2.in" }, at);
       // The step's main card comes forward out of the phone, towards the words, and goes back.
       const pop = (i, at) => {
@@ -662,10 +576,21 @@
       .fromTo(others, { opacity: 0, scale: .8 }, { opacity: 1, scale: 1, duration: .5, stagger: { each: .03, from: "random" }, ease: "power2.out", force3D: false }, .22)
       .to({}, { duration: .2 });
   };
-  zoomOut(".showcase", ".sc-pin", ".sc-wall", ".scp-focus .scp-screen", ".sc-copy", ".scp",
-    { focusY: .24, margin: 70, natural: 1206, max: 3, wide: .62, tall: .5, length: 1.7 });
-  zoomOut(".wid", ".wid-pin", ".wall", ".wp", ".wid-copy", ".w",
-    { focusY: .5, margin: 70, natural: 1092, max: 2.3, wide: .86, tall: 1, length: 1.6 });
+  const walls = G.matchMedia();
+  walls.add("(min-width: 761px)", () => {
+    zoomOut(".showcase", ".sc-pin", ".sc-wall", ".scp-focus .scp-screen", ".sc-copy", ".scp",
+      { focusY: .24, margin: 70, natural: 1206, max: 3, wide: .62, tall: .5, length: 1.7 });
+    zoomOut(".wid", ".wid-pin", ".wall", ".wp", ".wid-copy", ".w",
+      { focusY: .5, margin: 70, natural: 1092, max: 2.3, wide: .86, tall: 1, length: 1.6 });
+  });
+  walls.add("(max-width: 760px)", () => {
+    [[".sc-wall", ".scp"], [".wall", ".w"]].forEach(([wallSel, itemSel]) => {
+      const wall = q(wallSel);
+      if (!wall) return;
+      const items = qa(itemSel, wall).filter((w) => getComputedStyle(w).display !== "none");
+      G.from(items, { y: 40, opacity: 0, duration: 1, ease, stagger: .06, scrollTrigger: { trigger: wall, start: "top 85%", once: true } });
+    });
+  });
 
   // ---------------------------------------------------------------- lab: numbers and the line draw when it comes into view
   if (lab) ST.create({ trigger: lab, start: "top 78%", once: true, onEnter: () => labIntro && labIntro() });

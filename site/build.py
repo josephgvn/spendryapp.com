@@ -416,7 +416,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
 <header class="nav" data-nav>
 <div class="nav-in">
 <a class="brand" href="{home}" aria-label="Spendry"><img src="/assets/brand/ribbon-128.webp" alt="" width="30" height="26"><span>Spendry</span></a>
-<nav class="nav-links" aria-label="{e(nav['menu'])}"><a href="{home}#features">{e(nav['features'])}</a><a href="{home}#lab">{e(nav['lab'])}</a><a href="{home}#privacy">{e(nav['privacy'])}</a><a href="{home}#tools">{e(nav['tools'])}</a></nav>
+<nav class="nav-links" aria-label="{e(nav['menu'])}"><a href="{home}#features">{e(nav['features'])}</a><a href="{home}#privacy">{e(nav['privacy'])}</a><a href="{home}#tools">{e(nav['tools'])}</a></nav>
 <div class="nav-end">
 <button class="lang-btn" type="button" aria-expanded="false" aria-controls="langs" aria-label="{e(nav['language'])}">{icon('globe')}<span>{e(lang.split('-')[0].upper())}</span></button>
 <a class="btn-nav" href="{store_url(lang, 'nav')}" rel="noopener">{e(nav['download'])}</a>
@@ -435,7 +435,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
 <div class="foot-top">
 <div class="foot-brand"><a class="brand" href="{home}"><img src="/assets/brand/ribbon-128.webp" alt="" width="30" height="26"><span>Spendry</span></a><p>{e(c['footer']['tagline'])}</p>{store_button(c, lang, 'footer', 'btn-store btn-store-sm')}</div>
 <div class="foot-cols">
-<div><h4>Spendry</h4><ul><li><a href="{home}#features">{e(nav['features'])}</a></li><li><a href="{home}#lab">{e(nav['lab'])}</a></li><li><a href="{home}#privacy">{e(nav['privacy'])}</a></li><li><a href="mailto:{SUPPORT_EMAIL}">{e(c['footer']['support'])}</a></li></ul></div>
+<div><h4>Spendry</h4><ul><li><a href="{home}#features">{e(nav['features'])}</a></li><li><a href="{home}#privacy">{e(nav['privacy'])}</a></li><li><a href="mailto:{SUPPORT_EMAIL}">{e(c['footer']['support'])}</a></li></ul></div>
 <div><h4>{e(c['footer']['tools'])}</h4><ul>{tool_links(lang, c)}</ul></div>
 <div><h4>{e(c['footer']['legal'])}</h4><ul><li><a href="/privacy-policy.html">{e(c['footer']['privacy_policy'])}</a></li><li><a href="/terms-of-service.html">{e(c['footer']['terms'])}</a></li></ul></div>
 </div>
@@ -534,16 +534,14 @@ def stage_html(lang, c, t):
     return f"""
 <section class="stage" id="top" data-theme="dark">
 <div class="stage-pin">
-<canvas class="aurora" aria-hidden="true"></canvas>
-<div class="aurora-css" aria-hidden="true"><i></i><i></i><i></i></div>
-<div class="grain" aria-hidden="true"></div>
-<div class="hero-copy">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="hero-col"><div class="hero-copy">
 <p class="kicker" data-hero>{e(h['eyebrow'])}</p>
 <h1 class="hero-title"><span class="ln"><span class="ln-in">{e(h['title_1'])}</span></span><span class="ln ln-2"><span class="ln-in">{e(h['title_2'])}</span></span></h1>
 <p class="lead" data-hero>{e(h['lead'])}</p>
 <div class="hero-cta" data-hero>{store_button(c, lang, 'hero')}<a class="btn-ghost" href="#story-end" data-story>{e(h['secondary'])}{icon('down')}</a></div>
 <p class="facts" data-hero>{facts}</p>
-</div>
+</div></div>
 <div class="phones">
 <div class="pw pw-l" aria-hidden="true"><div class="phone ph-l">{screen(lang, "06", "", "(max-width: 700px) 40vw, 300px", eager=True)}</div></div>
 <div class="pw pw-r" aria-hidden="true"><div class="phone ph-r">{screen(lang, "07", "", "(max-width: 700px) 40vw, 300px", eager=True)}</div></div>
@@ -587,7 +585,7 @@ def showcase_html(lang, c, t):
     return f"""
 <section class="showcase" id="features" data-theme="dark">
 <div class="sc-pin">
-<div class="sc-bg" aria-hidden="true"><img src="/assets/brand/ribbon-soft.webp" alt="" loading="lazy"></div>
+<div class="sc-bg" aria-hidden="true"></div>
 <div class="wrap sc-copy">{head(c, 'orbit', 'head-dark')}</div>
 <div class="sc-box"><div class="sc-wall">{''.join(cols)}</div></div>
 </div>
@@ -664,7 +662,7 @@ def widgets_html(lang, c):
     return f"""
 <section class="wid" data-theme="dark">
 <div class="wid-pin">
-<div class="wid-bg" aria-hidden="true"><img src="/assets/brand/ribbon-soft.webp" alt="" loading="lazy"></div>
+<div class="wid-bg" aria-hidden="true"></div>
 <div class="wrap wid-copy">{head(c, 'widgets', 'head-dark')}</div>
 <div class="wall-box"><div class="wall">{tiles}</div></div>
 </div>
@@ -737,7 +735,7 @@ def final_html(lang, c):
     qr_html = f'<div class="qr" aria-hidden="true"><div class="qr-code">{qr}</div><p>{e(F["qr"])}</p></div>' if qr else ""
     return f"""
 <section class="final" data-theme="dark">
-<div class="final-bg" aria-hidden="true"><img src="/assets/brand/ribbon-soft.webp" alt="" loading="lazy"></div>
+<div class="final-bg" aria-hidden="true"></div>
 <div class="wrap final-in">
 <img class="final-icon" src="/assets/brand/icon-512.webp" alt="Spendry" width="128" height="128" loading="lazy">
 <h2 class="title title-xl" data-split>{e(F['title'])}</h2>
@@ -770,7 +768,7 @@ def home_page(lang, c, languages):
     t = TERMS.get(lang, TERMS["en"])
     body = "".join([
         stage_html(lang, c, t), marquee_html(lang, c), statement_html(lang, c), showcase_html(lang, c, t),
-        features_html(lang, c), lab_html(lang, c, t), reminders_html(lang, c, t), widgets_html(lang, c),
+        features_html(lang, c), reminders_html(lang, c, t), widgets_html(lang, c),
         automations_html(lang, c, t), privacy_html(lang, c), stats_html(lang, c), faq_html(lang, c),
         tools_html(lang, c), final_html(lang, c),
     ])
@@ -790,7 +788,7 @@ def tool_frame(lang, c, h1, lead, inner, prose, cta_text, note=""):
     prose_html = "".join(f'<h2>{e(h)}</h2><p>{e(p)}</p>' for h, p in prose) + (f'<p class="note">{e(note)}</p>' if note else "")
     return f"""
 <section class="tool-hero" data-theme="dark">
-<canvas class="aurora aurora-3" aria-hidden="true"></canvas><div class="aurora-css" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="aurora-css" aria-hidden="true"></div>
 <div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<a href="{home}#tools">{e(c['nav']['tools'])}</a></nav>
 <h1 class="title title-lg" data-split>{e(h1)}</h1><p class="sub" data-rise>{e(lead)}</p></div>
 </section>
@@ -816,7 +814,7 @@ def debt_tool_page(lang, c, languages):
 <div class="panel calc-in" data-rise>
 <div class="debt-list"></div>
 <button type="button" class="btn-soft" data-add>{icon('plus')}{e(D['add'])}</button>
-<label class="field"><span>{e(D['extra'])}</span><input type="number" inputmode="decimal" min="0" step="{data['step']}" value="{data['extra']}" data-extra></label>
+<label class="field"><span>{e(D['extra'])}</span><input type="number" inputmode="decimal" min="0" step="{data['step']}" value="{data['extra']}" data-extra><small>{e(D.get('extra_hint', ''))}</small></label>
 <p class="note">{e(D['note'])}</p>
 </div>
 <div class="panel calc-out" data-rise aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
@@ -904,7 +902,7 @@ def not_found_page(c, languages):
     N = c["not_found"]
     body = f"""
 <section class="nf" data-theme="dark">
-<canvas class="aurora aurora-3" aria-hidden="true"></canvas><div class="aurora-css" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="aurora-css" aria-hidden="true"></div>
 <div class="wrap nf-in"><p class="nf-code">404</p><h1 class="title title-lg" data-split>{e(N['title'])}</h1><p class="sub" data-rise>{e(N['text'])}</p>
 <a class="btn-ghost btn-ghost-dark" href="/" data-rise>{e(N['home'])}{icon('arrow')}</a></div>
 </section>"""

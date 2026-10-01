@@ -269,7 +269,7 @@
   "minimum": "Quota mínima",
   "add": "Afegeix un deute",
   "remove": "Elimina",
-  "extra": "Pagament extra cada mes",
+  "extra": "Extra que pots pagar cada mes",
   "order": "Ordre d'amortització",
   "free_in": "Sense deutes el",
   "interest": "Interessos totals",
@@ -297,13 +297,14 @@
     "Mantingues el teu pla al dia",
     "Els saldos canvien mes a mes. Spendry fa el seguiment de les teves targetes, préstecs i factures, manté actualitzat el pla de bola de neu o allau i t'avisa abans del venciment de cada quota."
    ]
-  ]
+  ],
+  "extra_hint": "Diners que pots destinar als teus deutes a més dels pagaments mínims. Com més aportis, abans t'alliberaràs dels deutes."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Calculadora de pressupost 50/30/20",
-  "h1": "Calculadora de pressupost 50/30/20",
-  "description": "Calculadora gratuïta de la regla 50/30/20: divideix els teus ingressos nets en necessitats, capricis i estalvi o deutes en segons.",
+  "title": "Calculadora de pressupost: necessitats, desitjos i estalvi",
+  "h1": "Calculadora de pressupost mensual",
+  "description": "Calculadora gratuïta de pressupost mensual: reparteix el teu sou net entre necessitats, capricis i estalvi o deutes en segons. Sense registre.",
   "lead": "Indica els teus ingressos mensuals nets. El cinquanta per cent es destina a necessitats, el trenta a desitjos personals i el vint a estalvi i pagament de deutes.",
   "income": "Ingressos nets mensuals",
   "needs": "Necessitats",

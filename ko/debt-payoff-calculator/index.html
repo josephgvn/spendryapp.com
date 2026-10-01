@@ -122,9 +122,9 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="64x64" href="/assets/brand/favicon-64.png">
 <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/site.css?v=24d0480324">
+<link rel="stylesheet" href="/assets/css/site.css?v=84f1774a10">
 <script>(function(h){h.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)h.classList.add("motion");setTimeout(function(){if(!h.classList.contains("ready"))h.classList.remove("motion")},4500)})(document.documentElement)</script>
-<script src="/assets/js/app.js?v=1ec717cfcf" defer></script>
+<script src="/assets/js/app.js?v=2ad93f7e80" defer></script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "부채 상환 계산기", "description": "무료 부채 상환 계산기: 스노볼과 애벌랜치 방식을 비교하고 부채 상환 완료 예정일과 총 이자를 확인하세요. 가입 불필요.", "url": "https://spendryapp.com/ko/debt-payoff-calculator/", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "inLanguage": "ko", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "@id": "https://spendryapp.com/#org", "name": "Spendry", "url": "https://spendryapp.com/", "logo": "https://spendryapp.com/assets/brand/icon-512.png", "email": "support@spendryapp.com", "sameAs": ["https://apps.apple.com/app/id6754893380"]}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Spendry", "item": "https://spendryapp.com/ko/"}, {"@type": "ListItem", "position": 2, "name": "부채 상환 계산기", "item": "https://spendryapp.com/ko/debt-payoff-calculator/"}]}</script>
 </head>
@@ -134,7 +134,7 @@
 <header class="nav" data-nav>
 <div class="nav-in">
 <a class="brand" href="/ko/" aria-label="Spendry"><img src="/assets/brand/ribbon-128.webp" alt="" width="30" height="26"><span>Spendry</span></a>
-<nav class="nav-links" aria-label="메뉴"><a href="/ko/#features">기능</a><a href="/ko/#lab">부채 상환</a><a href="/ko/#privacy">개인정보 보호</a><a href="/ko/#tools">무료 도구</a></nav>
+<nav class="nav-links" aria-label="메뉴"><a href="/ko/#features">기능</a><a href="/ko/#privacy">개인정보 보호</a><a href="/ko/#tools">무료 도구</a></nav>
 <div class="nav-end">
 <button class="lang-btn" type="button" aria-expanded="false" aria-controls="langs" aria-label="언어"><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg><span>KO</span></button>
 <a class="btn-nav" href="https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&ct=web-ko-nav&mt=8" rel="noopener">다운로드</a>
@@ -148,7 +148,7 @@
 <main id="main">
 
 <section class="tool-hero" data-theme="dark">
-<canvas class="aurora aurora-3" aria-hidden="true"></canvas><div class="aurora-css" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="aurora-css" aria-hidden="true"></div>
 <div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="/ko/">Spendry</a><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg><a href="/ko/#tools">무료 도구</a></nav>
 <h1 class="title title-lg" data-split>부채 상환 계산기</h1><p class="sub" data-rise>부채 정보와 매달 최소 상환액 외에 추가로 갚을 수 있는 금액을 입력하세요. 스노볼과 애벌랜치 방식을 나란히 비교해 부채 상환 완료 예정일과 총 이자를 확인할 수 있어요.</p></div>
 </section>
@@ -157,7 +157,7 @@
 <div class="panel calc-in" data-rise>
 <div class="debt-list"></div>
 <button type="button" class="btn-soft" data-add><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg>부채 추가</button>
-<label class="field"><span>매달 추가 상환액</span><input type="number" inputmode="decimal" min="0" step="30000" value="340000" data-extra></label>
+<label class="field"><span>매달 추가로 상환할 금액</span><input type="number" inputmode="decimal" min="0" step="30000" value="340000" data-extra><small>최소 상환액 외에 빚을 갚는 데 추가로 보탤 수 있는 금액이에요. 더 많이 낼수록 빚을 더 빨리 갚을 수 있어요.</small></label>
 <p class="note">예시 데이터예요. 본인의 부채로 변경해 보세요. 금리는 고정금리로 가정하며 수수료는 포함되지 않아요.</p>
 </div>
 <div class="panel calc-out" data-rise aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
@@ -173,8 +173,8 @@
 <div class="foot-top">
 <div class="foot-brand"><a class="brand" href="/ko/"><img src="/assets/brand/ribbon-128.webp" alt="" width="30" height="26"><span>Spendry</span></a><p>iPhone을 위한 예산 및 부채 상환 관리.</p><a class="btn-store btn-store-sm" href="https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&ct=web-ko-footer&mt=8" data-magnetic rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.37 1.43c0 1.14-.42 2.2-1.12 3-.76.88-1.99 1.56-3 1.48-.13-1.1.42-2.25 1.1-3 .77-.86 2.08-1.5 3.02-1.48ZM20.9 17.1c-.55 1.27-.82 1.84-1.53 2.96-1 1.56-2.4 3.5-4.15 3.52-1.55.01-1.95-1.01-4.06-1-2.1.01-2.54 1.02-4.1 1-1.74-.02-3.07-1.77-4.07-3.33-2.8-4.35-3.1-9.46-1.37-12.18 1.23-1.93 3.17-3.06 5-3.06 1.86 0 3.03 1.02 4.57 1.02 1.5 0 2.4-1.02 4.56-1.02 1.63 0 3.36.89 4.59 2.42-4.03 2.21-3.38 7.97.56 9.67Z"/></svg><span>App Store에서 다운로드 하기</span></a></div>
 <div class="foot-cols">
-<div><h4>Spendry</h4><ul><li><a href="/ko/#features">기능</a></li><li><a href="/ko/#lab">부채 상환</a></li><li><a href="/ko/#privacy">개인정보 보호</a></li><li><a href="mailto:support@spendryapp.com">지원</a></li></ul></div>
-<div><h4>무료 도구</h4><ul><li><a href="/ko/debt-payoff-calculator/">부채 상환 계산기</a></li><li><a href="/ko/budget-calculator/">50/30/20 예산 계산기</a></li></ul></div>
+<div><h4>Spendry</h4><ul><li><a href="/ko/#features">기능</a></li><li><a href="/ko/#privacy">개인정보 보호</a></li><li><a href="mailto:support@spendryapp.com">지원</a></li></ul></div>
+<div><h4>무료 도구</h4><ul><li><a href="/ko/debt-payoff-calculator/">부채 상환 계산기</a></li><li><a href="/ko/budget-calculator/">월간 예산 계산기</a></li></ul></div>
 <div><h4>법적 고지</h4><ul><li><a href="/privacy-policy.html">개인정보 처리방침</a></li><li><a href="/terms-of-service.html">이용약관</a></li></ul></div>
 </div>
 </div>

@@ -297,13 +297,14 @@
     "Trzymaj plan pod kontrolą",
     "Wysokość długu zmienia się z miesiąca na miesiąc. Spendry śledzi Twoje karty, kredyty i rachunki, aktualizuje plan spłaty i przypomina o każdym nadchodzącym terminie."
    ]
-  ]
+  ],
+  "extra_hint": "Pieniądze, które możesz przeznaczyć na spłatę ponad raty minimalne. Im więcej wpłacisz, tym szybciej pozbędziesz się długów."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Kalkulator budżetu 50/30/20",
-  "h1": "Kalkulator budżetu 50/30/20",
-  "description": "Darmowy kalkulator budżetu 50/30/20: podziel pensję na potrzeby, zachcianki i oszczędności w kilka sekund.",
+  "title": "Kalkulator budżetu: potrzeby, zachcianki i oszczędności",
+  "h1": "Kalkulator budżetu miesięcznego",
+  "description": "Darmowy kalkulator budżetu: w kilka sekund podziel pensję na potrzeby, zachcianki i oszczędności lub spłatę długów. Bez rejestracji.",
   "lead": "Wpisz swój miesięczny dochód na rękę. Połowa idzie na stałe potrzeby, trzydzieści procent na zachcianki, a dwadzieścia na oszczędności i spłatę długów.",
   "income": "Dochód na rękę",
   "needs": "Potrzeby",

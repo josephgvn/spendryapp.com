@@ -269,7 +269,7 @@
   "minimum": "Minimum fizetés",
   "add": "Tartozás hozzáadása",
   "remove": "Törlés",
-  "extra": "Plusz havi törlesztés",
+  "extra": "Plusz törlesztés havonta",
   "order": "Törlesztési sorrend",
   "free_in": "Adósságmentesség ekkorra",
   "interest": "Összes kamat",
@@ -297,13 +297,14 @@
     "Tartsd naprakészen a tervedet",
     "Az egyenlegek havonta változnak. A Spendry nyilvántartja a kártyáidat, hiteleidet és számláidat, naprakészen vezeti a hógolyó vagy lavina tervedet, és időben figyelmeztet minden esedékes fizetés előtt."
    ]
-  ]
+  ],
+  "extra_hint": "A kötelező minimumon felüli összeg, amit törlesztésre fordítasz. Minél többet adsz hozzá, annál hamarabb leszel adósságmentes."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "50/30/20 költségvetési kalkulátor",
-  "h1": "50/30/20 költségvetési kalkulátor",
-  "description": "Ingyenes 50/30/20 kalkulátor: oszd fel havi bevételedet szükségletekre, vágyakra, megtakarításokra és törlesztésre másodpercek alatt.",
+  "title": "Havi költségvetés-kalkulátor: Szükséglet, vágy, megtakarítás",
+  "h1": "Havi költségvetés-kalkulátor",
+  "description": "Ingyenes havi költségvetés-kalkulátor: oszd fel a nettó béred szükségletekre, vágyakra és megtakarításra másodpercek alatt, regisztráció nélkül.",
   "lead": "Add meg a nettó havi jövedelmedet. A fele a szükségletekre, harminc százaléka a vágyakra, húsz százaléka pedig megtakarításra és adósságtörlesztésre megy.",
   "income": "Havi nettó jövedelem",
   "needs": "Szükségletek",

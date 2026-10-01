@@ -269,7 +269,7 @@
   "minimum": "Bayaran minimum",
   "add": "Tambah utang",
   "remove": "Hapus",
-  "extra": "Pembayaran ekstra per bulan",
+  "extra": "Tambahan yang bisa Anda bayar tiap bulan",
   "order": "Urutan pelunasan",
   "free_in": "Bebas utang dalam",
   "interest": "Total bunga",
@@ -297,13 +297,14 @@
     "Jaga rencana tetap tepat sasaran",
     "Saldo utang berubah setiap bulan. Spendry memantau kartu kredit, cicilan, dan tagihan Anda, menjaga rencana Snowball atau Avalanche tetap akurat, serta memberi pengingat sebelum tanggal jatuh tempo tiba."
    ]
-  ]
+  ],
+  "extra_hint": "Uang yang bisa Anda alokasikan untuk utang di luar pembayaran minimum. Semakin banyak yang Anda tambah, semakin cepat Anda bebas utang."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "Kalkulator Anggaran 50/30/20",
-  "h1": "Kalkulator anggaran 50/30/20",
-  "description": "Kalkulator anggaran 50/30/20 gratis: bagi penghasilan bulanan ke kebutuhan, keinginan, dan tabungan atau utang dalam sekejap.",
+  "title": "Kalkulator Anggaran Bulanan: Kebutuhan, Keinginan & Tabungan",
+  "h1": "Kalkulator anggaran bulanan",
+  "description": "Kalkulator anggaran bulanan gratis: bagi gaji bersih Anda untuk kebutuhan, keinginan, dan tabungan atau utang dalam hitungan detik. Tanpa daftar.",
   "lead": "Masukkan penghasilan bersih bulanan Anda. Alokasikan 50% untuk kebutuhan, 30% untuk keinginan, dan 20% untuk tabungan serta pelunasan utang.",
   "income": "Gaji bersih bulanan",
   "needs": "Kebutuhan",

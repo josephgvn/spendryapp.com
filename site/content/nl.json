@@ -269,7 +269,7 @@
   "minimum": "Minimale aflossing",
   "add": "Schuld toevoegen",
   "remove": "Verwijder",
-  "extra": "Extra betaling per maand",
+  "extra": "Wat je maandelijks extra kunt betalen",
   "order": "Aflosvolgorde",
   "free_in": "Schuldenvrij in",
   "interest": "Totale rente",
@@ -297,13 +297,14 @@
     "Houd je plan actueel",
     "Saldi veranderen voortdurend. Spendry houdt creditcards, leningen en rekeningen bij, past je Snowball- of Avalanche-plan automatisch aan en waarschuwt je voor elke vervaldatum."
    ]
-  ]
+  ],
+  "extra_hint": "Geld dat je bovenop de minimale aflossing betaalt. Hoe meer je toevoegt, hoe sneller je schuldenvrij bent."
  },
  "budget_tool": {
   "slug": "budget-calculator",
-  "title": "50/30/20 Budgetcalculator",
-  "h1": "50/30/20 budgetcalculator",
-  "description": "Gratis 50/30/20 budgetcalculator: verdeel je netto-inkomen binnen enkele seconden over vaste lasten, wensen en sparen of aflossen.",
+  "title": "Maandelijkse budgetcalculator: behoeften, wensen en sparen",
+  "h1": "Maandelijkse budgetcalculator",
+  "description": "Gratis budgetcalculator: verdeel direct je netto-inkomen over behoeften, wensen en sparen of aflossen. Binnen enkele seconden, zonder account.",
   "lead": "Vul je maandelijks netto-inkomen in. Vijftig procent gaat naar vaste lasten, dertig procent naar leuke dingen en twintig procent naar sparen of schulden aflossen.",
   "income": "Netto-inkomen per maand",
   "needs": "Vaste lasten",
