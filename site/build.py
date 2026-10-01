@@ -369,6 +369,8 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
         f'<a href="/{prefix(x)}{"" if not_found else path}" hreflang="{x}" lang="{x}" data-lang="{x.lower()}"'
         f'{CURRENT_ATTR if x == lang else ""}>{e(LANGS[x][0])}</a>' for x in languages)
     v_css, v_js = version("assets/css/site.css"), version("assets/js/app.js")
+    dock = (f'<a class="dock" href="{store_url(lang, "dock")}" rel="noopener"><img src="/assets/brand/icon-96.webp" alt="" width="34" height="34">'
+            f'<span><b>Spendry</b><small>{e(c["cta"]["free"])}</small></span><i>{e(c["nav"]["download"])}</i></a>\n') if body_class == "page-home" else ""
     split = "no-split" if lang in NO_SPACES or direction == "rtl" or lang in ("hi", "bn", "gu", "kn", "ml", "mr", "or", "pa", "ta", "te") else ""
     nav = c["nav"]
     return f"""<!doctype html>
@@ -442,7 +444,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
 </div>
 <div class="foot-mark" aria-hidden="true">Spendry</div>
 </footer>
-<a class="to-top" href="#main" aria-label="{e(nav['top'])}"><svg viewBox="0 0 48 48" aria-hidden="true"><circle class="track" cx="24" cy="24" r="21"/><circle class="bar" cx="24" cy="24" r="21"/></svg>{icon('up')}</a>
+{dock}<a class="to-top" href="#main" aria-label="{e(nav['top'])}"><svg viewBox="0 0 48 48" aria-hidden="true"><circle class="track" cx="24" cy="24" r="21"/><circle class="bar" cx="24" cy="24" r="21"/></svg>{icon('up')}</a>
 </body>
 </html>
 """

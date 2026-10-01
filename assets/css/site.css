@@ -357,7 +357,12 @@ html:not(.motion) .words .w { opacity: 1; }
   .ring-in .pill { padding: 0; width: 38px; height: 38px; justify-content: center; border-radius: 50%; }
   .ring-in .pill span { display: none; }
   .ring-in .pill .ic { width: 18px; height: 18px; }
-  .ring-out .po { transform: rotate(calc(var(--a) + var(--rot2))) translateX(39cqw) rotate(calc(-1 * (var(--a) + var(--rot2)))); }
+  .ring-out .po { transform: rotate(calc(var(--a) + var(--rot2))) translateX(41cqw) rotate(calc(-1 * (var(--a) + var(--rot2)))); }
+  .ring-in .po { transform: rotate(calc(var(--a) + var(--rot))) translateX(24cqw) rotate(calc(-1 * (var(--a) + var(--rot)))); }
+  .orbit-lines circle:nth-child(1) { r: 24px; }
+  .orbit-lines circle:nth-child(2) { r: 41px; }
+  .orbit-lines circle:nth-child(3) { r: 32.5px; }
+  .orbit-core { width: 19cqw; }
 }
 
 /* ---------- bento ---------- */
@@ -809,3 +814,22 @@ html.motion.ready [data-rise], html.motion.ready .hero-copy [data-hero], html.mo
 .cursor.hover b { transform: scale(0); }
 .cursor.drag i { transform: scale(2.4); background: rgba(255, 255, 255, .08); border-color: rgba(255, 255, 255, .5); }
 .cursor.down i { transform: scale(.8); }
+
+/* ---------- the download dock on phones ---------- */
+.dock { display: none; }
+@media (max-width: 899px) {
+  .dock {
+    position: fixed; z-index: 45; left: 12px; right: 76px; bottom: max(12px, env(safe-area-inset-bottom)); display: flex; align-items: center; gap: 10px;
+    padding: 8px 8px 8px 10px; border-radius: 22px; color: #fff; background: rgba(12, 16, 44, .82); border: 1px solid rgba(255, 255, 255, .14);
+    backdrop-filter: blur(18px) saturate(1.6); -webkit-backdrop-filter: blur(18px) saturate(1.6); box-shadow: 0 16px 40px -14px rgba(0, 0, 0, .6);
+    transform: translateY(140%); transition: transform .6s var(--ease);
+  }
+  [dir="rtl"] .dock { left: 76px; right: 12px; padding: 8px 10px 8px 8px; }
+  .dock.show { transform: none; }
+  .dock img { width: 34px; height: 34px; border-radius: 9px; flex: none; }
+  .dock span { display: grid; line-height: 1.15; min-width: 0; flex: 1; }
+  .dock b { font-size: 15px; font-weight: 700; }
+  .dock small { font-size: 12px; color: #aab3d6; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .dock i { font-style: normal; flex: none; height: 38px; padding: 0 16px; display: grid; place-items: center; border-radius: 14px; background: var(--grad); font-weight: 700; font-size: 14px; white-space: nowrap; }
+  .to-top { width: 48px; height: 48px; bottom: max(14px, env(safe-area-inset-bottom)); inset-inline-end: 14px; }
+}

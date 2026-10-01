@@ -346,7 +346,13 @@
   // ---------------------------------------------------------------- to top
   const toTop = q(".to-top");
   const stageEl = q(".stage");
+  const dock = q(".dock"), finalSec = q(".final");
   const updateTop = () => {
+    if (dock) {
+      const after = stageEl ? stageEl.offsetTop + stageEl.offsetHeight - innerHeight * .5 : innerHeight;
+      const before = finalSec ? finalSec.offsetTop - innerHeight * .9 : Infinity;
+      dock.classList.toggle("show", scrollY > after && scrollY < before);
+    }
     if (!toTop) return;
     const max = d.documentElement.scrollHeight - innerHeight;
     const after = stageEl ? stageEl.offsetTop + stageEl.offsetHeight : innerHeight * 1.2;
