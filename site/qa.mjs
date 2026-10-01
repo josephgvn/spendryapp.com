@@ -5,7 +5,7 @@
 //              "scrollTo": 1200 | ".selector" | {"sel": ".hero", "p": 0.5} (pinned section progress),
 //              "steps": 30 (scroll there frame by frame, like a person),
 //              "js": "optional async code; a returned value is printed",
-//              "full": false (whole page), "check": true (overflow, broken images, errors)}]
+//              "full": false (whole page), "check": true (overflow, broken images, errors), "pdf": "out.pdf"}]
 // Page errors and console errors are printed with the job they belong to.
 import { spawn } from "node:child_process";
 import { readFileSync, writeFileSync, mkdtempSync, mkdirSync } from "node:fs";
@@ -135,6 +135,12 @@ for (const raw of jobs) {
   if (raw.check) {
     const r = await evaluate(checkCode);
     console.log(current, "CHECK", JSON.stringify(r.value || r.error));
+  }
+  if (raw.pdf) {
+    mkdirSync(dirname(raw.pdf), { recursive: true });
+    const r = await send("Page.printToPDF", { printBackground: true, preferCSSPageSize: true, marginTop: 0, marginBottom: 0, marginLeft: 0, marginRight: 0 });
+    if (r.result?.data) writeFileSync(raw.pdf, Buffer.from(r.result.data, "base64"));
+    else console.log(current, "pdf failed", JSON.stringify(r.error || {}));
   }
   if (raw.out) {
     mkdirSync(dirname(raw.out), { recursive: true });
