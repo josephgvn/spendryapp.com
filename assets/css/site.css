@@ -278,6 +278,18 @@ html:not(.motion) .scroll-cue, html:not(.motion) .story-ring, html:not(.motion) 
   html:not(.motion) .phones { height: 60vh; bottom: auto; }
 }
 @media (max-width: 899px) and (max-height: 700px) { .chips { display: none; } }
+@media (min-width: 900px) { .hero-copy { top: calc(50% + 36px); } }
+@media (min-width: 900px) and (max-height: 820px) {
+  .hero-title { font-size: clamp(40px, min(5.2vw, 9.6vh), 80px); }
+  .hero-copy { gap: 18px; }
+  .hero-copy .lead { font-size: 16px; }
+  .hero-copy .btn-store, .hero-copy .btn-ghost { height: 52px; }
+}
+@media (min-width: 900px) and (max-height: 690px) { .hero-copy .chips { display: none; } .hero-copy .eyebrow { display: none; } }
+@media (min-width: 600px) and (max-width: 899px) {
+  .phones { bottom: -14%; --ph: min(54svh, 640px); }
+  .hero-copy { inset-inline-end: 34%; }
+}
 
 /* ---------- marquee ---------- */
 .marquee { background: var(--paper); padding: clamp(40px, 6vw, 80px) 0 clamp(20px, 3vw, 40px); overflow: hidden; display: grid; gap: 6px; }
@@ -537,7 +549,7 @@ html:not(.motion) .wall { position: relative; left: auto; top: auto; translate: 
 .ring-pin { position: relative; height: 100vh; height: 100svh; min-height: 640px; display: grid; grid-template-rows: auto minmax(0, 1fr) auto; padding: 100px 0 30px; }
 html:not(.motion) .ring-pin { height: auto; }
 .ring-head .head { margin-bottom: 10px; }
-.ring-stage { position: relative; perspective: 1500px; perspective-origin: 50% 30%; min-height: 330px; cursor: grab; touch-action: pan-y; --sw: clamp(130px, min(16vw, 20svh), 240px); --R: calc(var(--sw) * 1.72); }
+.ring-stage { position: relative; perspective: 1500px; perspective-origin: 50% 30%; min-height: max(300px, calc(var(--sw) * 2.35)); cursor: grab; touch-action: pan-y; --sw: clamp(130px, min(16vw, 20svh), 240px); --R: calc(var(--sw) * 1.72); }
 .ring-stage:active { cursor: grabbing; }
 .ring-rot { position: absolute; left: 50%; top: 50%; width: 0; height: 0; transform-style: preserve-3d; transform: translateZ(calc(var(--R) * -1)) rotateY(var(--ry, 0deg)); }
 .rs { position: absolute; margin: 0; width: var(--sw); left: calc(var(--sw) / -2); top: calc(var(--sw) * -1.087); border-radius: calc(var(--sw) * .13); overflow: hidden; transform: rotateY(calc(var(--i) * 36deg)) translateZ(var(--R)); backface-visibility: hidden; -webkit-backface-visibility: hidden; box-shadow: 0 0 0 1px rgba(255, 255, 255, .14), 0 40px 70px -30px rgba(0, 0, 0, .8); }
@@ -547,7 +559,7 @@ html:not(.motion) .ring-pin { height: auto; }
 .ring-name { font-size: clamp(22px, 2.4vw, 30px); font-weight: 750; letter-spacing: -.02em; }
 .ring-hint { display: inline-flex; align-items: center; gap: 8px; color: #8f98c0; font-size: 14px; }
 .ring-hint .ic { width: 18px; height: 18px; }
-@media (max-width: 700px) { .ring-stage { --sw: min(150px, 19svh); min-height: 320px; } }
+@media (max-width: 700px) { .ring-stage { --sw: min(150px, 19svh); } }
 
 /* ---------- automations ---------- */
 .auto { background: var(--paper); padding: var(--pad) 0; }

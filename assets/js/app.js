@@ -674,7 +674,9 @@
       if (wide) {
         tl.to(pc, { scale: 1.06, duration: 1.4 }, .2);
       } else {
-        tl.to(phones, { y: () => -innerHeight * .64, duration: 1.4 }, .1).to(pc, { scale: .8, duration: 1.4 }, .1);
+        // Up from the bottom edge to the upper part of the screen, measured from the layout (transforms aside).
+        tl.to(phones, { y: () => innerHeight * .35 - (phones.offsetTop + phones.offsetHeight / 2), duration: 1.4 }, .1)
+          .to(pc, { scale: () => Math.min(.8, (innerHeight * .56) / (pc.offsetHeight || 1)), duration: 1.4 }, .1);
       }
       tl.to(ring, { opacity: 1, duration: .6 }, 1.3)
         .fromTo(caps[0], { autoAlpha: 0, y: 50 }, { autoAlpha: 1, y: 0, duration: .8, ease: "power3.out" }, 1.4)
