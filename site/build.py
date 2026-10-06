@@ -365,8 +365,10 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
     ld = "\n".join(f'<script type="application/ld+json">{json.dumps(item, ensure_ascii=False)}</script>' for item in jsonld)
     choose = ""
     if lang == "en" and path == "" and not not_found:
+        # Bing Webmaster Tools ownership (public by design, like the IndexNow key)
+        choose += '<meta name="msvalidate.01" content="B3BCA2357834263A43302B36640A0635">\n'
         codes = json.dumps([prefix(x).rstrip("/") for x in languages if x != "en"])
-        choose = ("<script>(function(){var codes=" + codes + ",saved;try{saved=localStorage.getItem('spendry-lang')}catch(e){}"
+        choose += ("<script>(function(){var codes=" + codes + ",saved;try{saved=localStorage.getItem('spendry-lang')}catch(e){}"
                   "if(saved==='en')return;function pick(tag){var t=String(tag||'').toLowerCase();if(!t)return null;"
                   "if(t.indexOf('zh')===0)return /hant|tw|hk|mo/.test(t)?'zh-hant':'zh-hans';"
                   "if(t.indexOf('pt')===0)return t.indexOf('pt-pt')===0||t.indexOf('pt-ao')===0?'pt-pt':'pt-br';"
