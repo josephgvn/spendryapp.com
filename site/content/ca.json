@@ -327,5 +327,676 @@
     "A Spendry cada categoria té un pressupost mensual que es va omplint a mesura que gastes, amb alertes preventives abans de sobrepassar el límit."
    ]
   ]
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Mètode bola de neu o allau: com liquidar deutes abans",
+   "description": "La bola de neu prioritza el saldo petit; l'allau, l'interès alt. Descobreix com funcionen, quin estalvia més interessos i com aplicar-los pas a pas.",
+   "h1": "Mètode bola de neu o allau: quin hauries de fer servir?",
+   "intro": [
+    "Tots dos mètodes paguen la quota mínima de cada deute i destinen tots els diners extra a un de sol. L'única diferència és quin deute rep els diners extra primer.",
+    "La bola de neu comença pel saldo més baix, de manera que tanques un deute de pressa i mantens la motivació. L'allau comença pel tipus d'interès més alt, de manera que pagues menys interessos en total."
+   ],
+   "steps_title": "Segueix un pla per pagar deutes a Spendry",
+   "steps": [
+    "Afegeix cada targeta, préstec i compra a terminis amb el seu saldo, tipus d'interès i pagament mínim.",
+    "Obre Deutes i tria el mètode de la bola de neu o de l'allau.",
+    "Indica quant pots pagar cada mes a més dels imports mínims.",
+    "Spendry ordena els teus deutes i et mostra el mes que quedaràs lliure de deutes, amb un recordatori abans de cada pagament."
+   ],
+   "example_title": "Un exemple",
+   "example": "Tres deutes: 1.200 al 24%, 4.000 al 18% i 9.000 al 9%, amb 300 extra cada mes. L'allau liquida primer la targeta al 24% i estalvia més en interessos. La bola de neu liquida primer el saldo de 1.200, de manera que un deute desapareix en pocs mesos. Les dates finals sovint només es porten un mes o dos de diferència.",
+   "tip": "Si les dues dates són properes, tria el mètode que et resulti més fàcil de seguir. El millor pla és aquell que no abandones.",
+   "faq": [
+    {
+     "q": "Quin mètode estalvia més diners?",
+     "a": "L'allau, perquè redueix abans el deute més car. La quantitat exacta depèn de la diferència entre els tipus d'interès."
+    },
+    {
+     "q": "Puc canviar de mètode més endavant?",
+     "a": "Sí. Pots canviar de mètode a Spendry en qualsevol moment i el pla i la teva data d'alliberament de deutes s'actualitzen a l'instant."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Com liquidar el deute de targetes: 4 hàbits clau",
+   "description": "Passos pràctics per pagar el deute de targetes de crèdit abans: paga més del mínim, ataca l'interès alt, evita retards i frena noves despeses.",
+   "h1": "Com liquidar el deute de les targetes de crèdit més ràpidament",
+   "intro": [
+    "El deute de les targetes de crèdit creix perquè els interessos es calculen cada mes sobre el saldo pendent. Cada pagament extra redueix la quantitat sobre la qual s'apliquen aquests interessos.",
+    "Quatre hàbits marquen la diferència: pagar més del mínim, no pagar mai tard, destinar els diners extra a l'interès més alt i no afegir compres que no puguis pagar del tot."
+   ],
+   "steps_title": "Fes-ho amb Spendry",
+   "steps": [
+    "Afegeix les teves targetes amb el saldo, el tipus d'interès, el dia de tancament de l'extracte i el dia de pagament.",
+    "Defineix un import mensual per sobre dels pagaments mínims i tria el mètode de l'allau.",
+    "Activa els recordatoris per tenir cada data de pagament controlada, fins i tot amb l'aplicació tancada.",
+    "Consulta Deutes cada mes per veure com baixa el saldo i com s'acosta la data d'alliberament de deutes."
+   ],
+   "example_title": "Un exemple",
+   "example": "Un saldo de 3.000 al 22% pot trigar més de deu anys a liquidar-se amb pagaments mínims d'un 2,5%. Una quantitat fixa de 175 cada mes el liquida en menys de dos anys.",
+   "tip": "Quan rebis un reemborsament o un ingrés extra, destina'n una part a la targeta amb l'interès més alt. Un sol pagament addicional pot retallar mesos de deute.",
+   "faq": [
+    {
+     "q": "Hauria de pagar primer l'interès més alt o el saldo més petit?",
+     "a": "L'interès més alt estalvia més diners en interessos. El saldo més petit et dona una victòria ràpida. Spendry et mostra la data d'alliberament de deutes per a tots dos mètodes perquè puguis comparar."
+    },
+    {
+     "q": "Puc continuar utilitzant la targeta mentre la pago?",
+     "a": "Només per a compres que puguis pagar del tot abans de la data de venciment. Els saldos nous allunyen la data en què quedaràs lliure de deutes."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Què passa si només pagues el mínim de la targeta?",
+   "description": "Pagar només el mínim evita penalitzacions, però gairebé tot són interessos. Descobreix quant costa de veritat i com t'ajuda aportar una mica més.",
+   "h1": "Què passa si només pagues la quota mínima",
+   "intro": [
+    "Pagar la quota mínima manté el compte al dia, però una gran part se'n va en interessos. A mesura que el saldo baixa, la quota mínima també es redueix, i el deute es pot allargar durant anys.",
+    "Pagar una petita quantitat fixa extra canvia del tot la situació: una part més gran de cada pagament redueix el deute real, i la data final s'avança anys."
+   ],
+   "steps_title": "Calcula els teus números",
+   "steps": [
+    "Fes servir la calculadora gratuïta de pagament de targetes d'aquest web per comparar les quotes mínimes amb una quota mensual fixa.",
+    "A Spendry, afegeix la targeta amb el seu tipus d'interès i el pagament mínim.",
+    "Defineix un import extra que puguis mantenir cada mes i comprova com s'avança la teva data d'alliberament de deutes."
+   ],
+   "example_title": "Un exemple",
+   "example": "Un saldo de 3.000 al 22% amb quotes mínimes d'un 2,5% pot trigar més de deu anys a liquidar-se i costar més en interessos que l'import original. Una quota fixa de 175 cada mes el liquida en menys de dos anys.",
+   "tip": "Si ara mateix no pots pagar més, domicilia el pagament mínim al teu banc per no pagar mai tard, i afegeix diners extra quan puguis.",
+   "faq": [
+    {
+     "q": "Pagar només el mínim perjudica el meu historial de crèdit?",
+     "a": "Pagar puntualment almenys el mínim manté el compte al dia. Ara bé, un saldo pendent elevat pot afectar negativament la teva capacitat d'endeutament, per la qual cosa reduir-lo sempre ajuda."
+    },
+    {
+     "q": "Com es calcula el pagament mínim?",
+     "a": "Depèn de cada entitat bancària: normalment és un petit percentatge del saldo pendent o una quantitat fixa mínima, el que sigui més alt. L'extracte de la targeta en mostra l'import exacte."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Data de tancament i data de pagament: quan pagar?",
+   "description": "La data de tancament tanca el període de facturació; la de pagament és l'últim dia per abonar-lo. Descobreix les diferències i quan et convé pagar.",
+   "h1": "Data de tancament o data de pagament: quan hauries de pagar?",
+   "intro": [
+    "La data de tancament de la teva targeta és el dia que es tanca el període de facturació i es calcula l'extracte. La data de pagament arriba unes setmanes més tard i és l'últim dia per pagar aquest import sense recàrrecs.",
+    "Si pagues la totalitat de l'extracte abans de la data de pagament, la majoria de targetes no cobren interessos per les compres. Si en pagues menys, s'aplicaran interessos sobre la part restant."
+   ],
+   "steps_title": "No et descuidis cap pagament amb Spendry",
+   "steps": [
+    "Afegeix la targeta amb el seu dia de tancament i el seu dia de pagament.",
+    "Spendry et mostra els imports pendents a la pantalla Inici i a la pantalla Recordatoris.",
+    "Rep un recordatori abans de la data de pagament i marca'l com a pagat o posposa'l directament des de la notificació."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Les compres fetes just després de la data de tancament de l'extracte són les que triguen més a vèncer, ja que passen a la factura del mes següent.",
+   "faq": [
+    {
+     "q": "Què passa si la data de pagament cau en cap de setmana?",
+     "a": "Molts bancs la traslladen al següent dia hàbil, però les condicions varien. Pagar un o dos dies abans és sempre l'opció més segura."
+    },
+    {
+     "q": "Puc pagar abans de la data de tancament de l'extracte?",
+     "a": "Sí. Pagar abans redueix el saldo final que apareixerà al teu extracte."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "Com gestionar pagaments a terminis a l'iPhone",
+   "description": "Controla les teves compres a terminis: quant et queda per pagar, quantes quotes falten i el proper venciment, amb recordatoris puntuals.",
+   "h1": "Com fer el seguiment dels pagaments a terminis al teu iPhone",
+   "intro": [
+    "Dividir una compra en terminis sembla inofensiu, però acumular diversos plans alhora pot endur-se una part important dels teus ingressos mensuals gairebé sense adonar-te'n.",
+    "Fer el seguiment de cada pla amb les quotes pendents et permet veure la despesa mensual real i el mes exacte en què acabaràs de pagar."
+   ],
+   "steps_title": "Gestiona les compres a terminis a Spendry",
+   "steps": [
+    "Afegeix una compra a terminis amb l'import total, el nombre de quotes i la data del primer pagament.",
+    "Consulta cada pla amb l'import ja pagat, el que queda pendent i la data del proper cobrament.",
+    "Rep un recordatori abans de cada pagament i consulta els terminis integrats en la teva data d'alliberament de deutes, al costat de les targetes i els préstecs."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Abans de finançar una nova compra, suma les quotes que ja pagues actualment. Si el total supera el que pots assumir en un mes ajustat, espera una mica.",
+   "faq": [
+    {
+     "q": "Les compres a terminis compten per a la data d'alliberament de deutes?",
+     "a": "Sí. Spendry les inclou juntament amb les teves targetes i préstecs perquè tinguis una visió completa i real."
+    },
+    {
+     "q": "Puc fer el seguiment de terminis sense interessos?",
+     "a": "Sí. Només has de deixar el tipus d'interès a zero i Spendry anirà descomptant les quotes pendents."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "Com no oblidar cap factura: recordatoris a l'iPhone",
+   "description": "Crea recordatoris per a factures, targetes i subscripcions. Rep un avís abans del venciment i marca el pagament com a fet amb un sol toc.",
+   "h1": "Com no descuidar-te mai del pagament d'una factura",
+   "intro": [
+    "Els recàrrecs per demora i els interessos solen deure's a descuits, no a la falta de diners. Un recordatori uns quants dies abans de cada venciment evita la majoria d'aquests problemes.",
+    "El secret és tenir totes les factures en un sol lloc: lloguer, subministraments, telèfon, targetes, préstecs i subscripcions."
+   ],
+   "steps_title": "Configura-ho a Spendry",
+   "steps": [
+    "Afegeix cada factura i subscripció amb el seu import, la data de venciment i la freqüència de cobrament.",
+    "Tria amb quants dies d'antelació vols rebre el recordatori abans de la data de venciment.",
+    "Els recordatoris arriben fins i tot amb l'aplicació tancada. Marca un pagament com a pagat o posposa'l directament des de la notificació."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Afegeix el giny de propers pagaments a la pantalla d'inici per tenir a la vista les factures de la setmana que ve cada vegada que desbloquegis el telèfon.",
+   "faq": [
+    {
+     "q": "Rebré recordatoris si no obro mai l'aplicació?",
+     "a": "Sí. Spendry els programa al teu iPhone, de manera que arriben puntualment encara que no obris l'aplicació."
+    },
+    {
+     "q": "Puc veure tot el que venç aquesta setmana?",
+     "a": "Sí. La pantalla Recordatoris llista els propers venciments, i una automatització matinal opcional et resumeix les despeses dels propers tres dies en una sola notificació."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "Controla i redueix les teves subscripcions a l'iPhone",
+   "description": "Descobreix quant et costen les teves subscripcions al mes i a l'any, rep alertes abans de cada renovació i decideix quines vols cancel·lar.",
+   "h1": "Com controlar i retallar les teves subscripcions",
+   "intro": [
+    "Subscriure's a un servei és molt fàcil, però oblidar-se'n també. Uns quants càrrecs petits cada mes poden convertir-se en una despesa anual molt important.",
+    "Veure l'import total, tant mensual com anual, sol ser suficient per detectar-ne dues o tres que ja no fas servir."
+   ],
+   "steps_title": "Fes el seguiment de les teves subscripcions a Spendry",
+   "steps": [
+    "Afegeix cada subscripció amb el seu preu i el cicle de facturació: setmanal, mensual o anual.",
+    "Spendry et mostra la despesa total mensual i anual, així com la propera data de renovació.",
+    "Rep un recordatori abans de cada renovació per poder cancel·lar el servei a temps."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Fes servir la calculadora de despeses de subscripcions d'aquest web: introdueix el que pagues i descobreix el cost anual en pocs segons.",
+   "faq": [
+    {
+     "q": "Spendry cancel·la les subscripcions per mi?",
+     "a": "No. Spendry mai no es connecta als teus comptes bancaris. T'avisa abans de la renovació perquè puguis cancel·lar-la tu directament amb el proveïdor."
+    },
+    {
+     "q": "Puc gestionar també subscripcions anuals?",
+     "a": "Sí. Spendry admet cicles setmanals, mensuals i anuals, i calcula automàticament el seu pes en el teu total mensual."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "Com fer un pressupost mensual que funcioni de veritat",
+   "description": "Una guia senzilla per crear un pressupost mensual: comença pels ingressos, cobreix necessitats, posa límits a la despesa i estalvia abans de gastar.",
+   "h1": "Com fer un pressupost mensual que funcioni",
+   "intro": [
+    "Un pressupost és un pla per als teus diners abans que comenci el mes. Comença pels teus ingressos nets i decideix a què destinaràs cada part.",
+    "Un punt de partida habitual és reservar prop de la meitat per a necessitats bàsiques com l'habitatge i les factures, un terç per a despeses personals i la resta per a l'estalvi i el pagament de deutes. Adapta-ho a la teva realitat."
+   ],
+   "steps_title": "Crea el teu pressupost a Spendry",
+   "steps": [
+    "Afegeix els teus ingressos mensuals.",
+    "Crea pressupostos per a les categories en què gastes més diners, cadascun amb el seu límit.",
+    "Els pressupostos s'omplen a mesura que afegeixes despeses, i Spendry t'avisa abans d'arribar al límit establert.",
+    "A final de mes, revisa els gràfics i ajusta els límits per al mes que ve."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Fes servir la calculadora gratuïta de pressupost mensual d'aquest web per distribuir els teus ingressos abans de fixar els teus límits.",
+   "faq": [
+    {
+     "q": "Quantes categories hauria de tenir un pressupost?",
+     "a": "Comença amb entre cinc i vuit categories bàsiques, com ara habitatge, factures, alimentació, transport, oci, compres i estalvi. Afegeix-ne més només quan realment ho necessitis."
+    },
+    {
+     "q": "Què passa si supero el límit d'un pressupost?",
+     "a": "Pots compensar-ho passant diners d'una altra categoria o tenir-ho en compte per al mes següent. Un pressupost és una eina viva que s'ajusta contínuament, no pas un examen."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Com saber la data per liquidar deutes",
+   "description": "La data d'alliberament de deutes és quan pagues l'últim deute. Descobreix com calcular-la i com avançar-la fent pagaments extres.",
+   "h1": "Com saber quan et quedaràs sense deutes",
+   "intro": [
+    "La teva data d'alliberament de deutes és el mes en què l'últim saldo arriba a zero. Depèn del que deus, dels tipus d'interès i de la quantitat que pagues cada mes.",
+    "Conèixer la data converteix un objectiu vague en un termini concret, i et mostra exactament el valor de cada pagament extra."
+   ],
+   "steps_title": "Troba la teva data a Spendry",
+   "steps": [
+    "Afegeix tots els teus deutes: targetes, préstecs, terminis, descoberts i diners que deus a amics.",
+    "Introdueix cada saldo pendent, el tipus d'interès i el pagament mensual.",
+    "Spendry calcula el mes en què et quedaràs sense deutes i l'actualitza cada vegada que fas un pagament o afegeixes una despesa."
+   ],
+   "example_title": "Prova-ho ara mateix",
+   "example": "La calculadora gratuïta de liquidació de deutes d'aquesta web funciona igual: afegeix els teus deutes i un import extra mensual, i consulta la teva data tant amb el mètode de bola de neu com amb el d'allau.",
+   "tip": "Revisa la data després de cada nòmina. Veure com s'acosta és la millor motivació possible.",
+   "faq": [
+    {
+     "q": "Per què canvia la meva data per liquidar deutes?",
+     "a": "S'avança quan fas pagaments extres i s'allunya quan sumes nous deutes o pagues menys. Spendry la recalcula cada vegada."
+    },
+    {
+     "q": "Puc incloure diners que dec a un amic?",
+     "a": "Sí. Afegeix-ho com un deute personal sense interessos."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "Controlar despeses sense connectar el banc",
+   "description": "No cal donar les claus del banc per anotar despeses. Afegeix compres en segons, escaneja tiquets i guarda les dades al teu iPhone.",
+   "h1": "Com controlar les despeses sense connectar el teu banc",
+   "intro": [
+    "Moltes aplicacions de finances et demanen l'accés al banc. Si prefereixes mantenir la teva privacitat, pots controlar cada despesa dedicant-hi pocs segons al dia.",
+    "Anotar les despeses pel teu compte també et fa ser més conscient del que gastes, que sovint és la clau de l'estalvi."
+   ],
+   "steps_title": "Com ho fa Spendry",
+   "steps": [
+    "Afegeix una despesa en segons: escriu l'import i tria una categoria, o escaneja el tiquet.",
+    "Activa l'automatització d'Apple Pay a l'app Dreceres, i els pagaments amb targeta es guardaran sols amb el nom del comerç.",
+    "Les teves dades es queden al teu iPhone i se sincronitzen amb el teu propi iCloud. Spendry mai no hi té accés."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Afegeix la despesa just en el moment de pagar. Si ho deixes per a més tard, és fàcil oblidar-se'n.",
+   "faq": [
+    {
+     "q": "És segur sense connectar el banc?",
+     "a": "No hi ha cap contrasenya bancària que es pugui filtrar. Spendry guarda les teves dades al teu dispositiu i al teu iCloud, i pots protegir l'app amb Face ID."
+    },
+    {
+     "q": "Puc importar moviments?",
+     "a": "Sí. Pots importar-los a partir de notificacions bancàries o amb automatitzacions de Dreceres, sense donar accés al teu banc."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Widgets de pressupost per a l'iPhone",
+   "description": "Consulta el saldo, pressupostos, fites i pagaments pendents a la pantalla d'inici i de bloqueig, i afegeix despeses a l'instant.",
+   "h1": "Widgets de pressupost per a la pantalla d'inici de l'iPhone",
+   "intro": [
+    "Un widget et permet tenir els teus diners a la vista sense obrir cap aplicació. Un cop d'ull a la pantalla d'inici et diu què et queda de pressupost i quins pagaments s'acosten.",
+    "Spendry té widgets per al saldo, pressupostos, fites, deutes, flux de caixa i propers pagaments, amb mides pensades per a la pantalla d'inici i la pantalla de bloqueig."
+   ],
+   "steps_title": "Afegeix un widget de Spendry",
+   "steps": [
+    "Mantingues premuda una zona buida de la pantalla d'inici, toca Edita i després Afegeix un widget.",
+    "Cerca Spendry i tria el widget i la mida que vulguis.",
+    "Mantingues premut el widget i toca Edita el widget per triar quin pressupost, fita o compte vols que mostri."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Posa el widget de propers pagaments a la primera pàgina de la pantalla d'inici. Les dates de venciment són el que més fàcilment s'oblida.",
+   "faq": [
+    {
+     "q": "Puc afegir una despesa des d'un widget?",
+     "a": "Sí. El widget per afegir despeses s'obre directament a la pantalla per crear-ne una de nova, així que anotar una compra només costa dos segons."
+    },
+    {
+     "q": "Els widgets s'actualitzen sols?",
+     "a": "Sí. Es van actualitzant a mesura que afegeixes registres i al llarg del dia."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "Com estalviar per a un objectiu i aconseguir-lo",
+   "description": "Defineix un import i una data, estalvia cada mes i segueix el teu progrés. Un mètode fàcil per a un viatge, un cotxe o fons d'emergència.",
+   "h1": "Com estalviar per a un objectiu i assolir-lo",
+   "intro": [
+    "Un objectiu amb una xifra i una data és molt més fàcil d'aconseguir que un simple desig. Divideix el que necessites entre els mesos que tens, i sabràs quant has d'estalviar cada mes.",
+    "Separar els diners just després de cobrar la nòmina, abans de començar a gastar, fa que l'estalvi sigui automàtic."
+   ],
+   "steps_title": "Estalvia amb Spendry",
+   "steps": [
+    "Crea un objectiu amb l'import que necessites i la data límit.",
+    "Afegeix-hi diners cada vegada que estalviïs, i Spendry et mostrarà com t'hi vas acostant.",
+    "Comparteix un objectiu amb la teva parella o família a través d'iCloud per estalviar plegats."
+   ],
+   "example_title": "Un exemple",
+   "example": "Per estalviar 6.000 en 12 mesos, necessites 500 al mes. Si ja tens 1.200 d'estalvis, la quota baixa a 400.",
+   "tip": "Comença creant un fons d'emergència equivalent a un mes de despeses, i després fes-lo créixer fins a tres mesos.",
+   "faq": [
+    {
+     "q": "De quant ha de ser un fons d'emergència?",
+     "a": "L'objectiu habitual sol ser d'entre tres i sis mesos de despeses bàsiques. Pots començar amb un mes i anar ampliant-lo."
+    },
+    {
+     "q": "Puc estalviar per a més d'un objectiu alhora?",
+     "a": "Sí. Pots crear tants objectius com vulguis i seguir el progrés de cadascun d'ells."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "Com controlar un préstec i el seu cost real",
+   "description": "Controla préstecs de cotxe, personals i hipoteques: capital pendent, quotes restants, interessos i data final, amb recordatoris.",
+   "h1": "Com seguir un préstec i saber quant pagues en realitat",
+   "intro": [
+    "La quota mensual d'un préstec amaga dues coses: quina part són interessos i quantes quotes et queden. Tenir-ho clar et mostra el cost real del que pagues.",
+    "Al principi d'un préstec gairebé tot són interessos; més endavant, la major part redueix el capital. Per això, amortitzar diners al principi és el que més estalvia."
+   ],
+   "steps_title": "Porta el control a Spendry",
+   "steps": [
+    "Afegeix el préstec amb l'import total, el tipus d'interès, el termini i el dia del primer pagament.",
+    "Consulta el saldo pendent, les quotes que et falten i el mes en què acabaràs de pagar-lo.",
+    "Rep un recordatori abans de cada quota i inclou el préstec al teu pla per liquidar deutes."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Fes servir la calculadora gratuïta de préstecs d'aquesta web per calcular la quota mensual i els interessos totals abans de signar res.",
+   "faq": [
+    {
+     "q": "Val la pena amortitzar un préstec abans d'hora?",
+     "a": "Si el tipus d'interès és alt i no hi ha comissió per cancel·lació anticipada, amortitzar t'estalvia molts interessos. Revisa abans les condicions del teu contracte."
+    },
+    {
+     "q": "Puc fer el seguiment d'una hipoteca?",
+     "a": "Sí. Afegeix-la com un préstec amb el seu tipus d'interès i termini corresponents."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "Com calcular el teu valor net a l'iPhone",
+   "description": "El valor net és el que tens menys el que deus. Controla estalvis, inversions, or i deutes en un sol lloc i mira com creix el teu patrimoni.",
+   "h1": "Com fer el seguiment del teu valor net",
+   "intro": [
+    "El teu valor net és tot el que tens menys tot el que deus. És la xifra definitiva que t'indica si la teva salut financera va pel bon camí.",
+    "Mirar-lo un cop al mes és suficient per veure l'evolució, fins i tot si un mes en concret no ha anat tan bé."
+   ],
+   "steps_title": "Porta el control a Spendry",
+   "steps": [
+    "Afegeix els teus comptes i fons d'estalvi.",
+    "Afegeix les teves inversions: les accions, criptomonedes, or i divises mostren preus en temps real.",
+    "Afegeix els teus deutes. Spendry et calcula el teu valor net i la seva evolució al llarg del temps."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Treure't deutes de sobre fa créixer el teu valor net exactament igual que estalviar diners.",
+   "faq": [
+    {
+     "q": "He d'incloure el meu habitatge o el cotxe?",
+     "a": "Pots fer-ho, però molta gent prefereix comptar només diners líquids, inversions i deutes, que són les coses que canvien mes a mes."
+    },
+    {
+     "q": "Amb quina freqüència s'actualitzen les inversions?",
+     "a": "Spendry mostra cotitzacions en directe per a accions, criptomonedes, metalls preciosos i divises."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "Com compartir un pressupost en parella",
+   "description": "Comparteix un pressupost o una fita d'estalvi amb la teva parella o família amb iCloud. Tothom anota despeses sense compartir contrasenyes.",
+   "h1": "Com compartir un pressupost amb la teva parella",
+   "intro": [
+    "Parlar de diners és molt més fàcil quan tots dos veieu els mateixos números. Un pressupost compartit mostra què s'ha gastat i què queda, sense retrets ni complicacions.",
+    "Mantingueu les despeses personals per separat i compartiu només el que pagueu entre tots dos, com el lloguer, la compra o les vacances."
+   ],
+   "steps_title": "Comparteix-ho a Spendry",
+   "steps": [
+    "Crea un pressupost o un objectiu i tria l'opció de compartir-lo.",
+    "Convida la teva parella o familiars mitjançant l'opció de compartir d'iCloud.",
+    "Tothom pot afegir despeses, i els canvis apareixeran automàticament a cada dispositiu."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Acordeu quines categories voleu compartir abans de començar, i reviseu-les plegats un cop al mes.",
+   "faq": [
+    {
+     "q": "La meva parella podrà veure totes les meves despeses?",
+     "a": "No. Només veurà allò que decideixis compartir. La resta dels teus pressupostos i comptes continuaran sent privats."
+    },
+    {
+     "q": "Necessitem tenir Spendry tots dos?",
+     "a": "Sí. Cadascú fa servir Spendry al seu propi iPhone, i el pressupost compartit se sincronitza mitjançant iCloud."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Registra compres d'Apple Pay amb Dreceres",
+   "description": "Utilitza una automatització de Dreceres per anotar cada compra d'Apple Pay a Spendry i mantén els teus pressupostos sempre al dia.",
+   "h1": "Registra les compres d'Apple Pay automàticament",
+   "intro": [
+    "L'app Dreceres pot executar una acció cada vegada que fas un pagament amb Apple Pay. Spendry l'aprofita per desar la compra per tu.",
+    "Els teus pressupostos es mantenen al dia sense haver d'escriure res, i només has de triar la categoria si vols."
+   ],
+   "steps_title": "Com activar-ho",
+   "steps": [
+    "A Spendry, ves a Automatitzacions i selecciona l'automatització per a Apple Pay.",
+    "Segueix els passos indicats per afegir-la a l'app Dreceres.",
+    "Paga amb Apple Pay com de costum. La compra sortirà a Spendry amb el nom de la botiga."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Activa també l'automatització dels diumenges al vespre per rebre un petit resum del que has gastat durant la setmana.",
+   "faq": [
+    {
+     "q": "Això dona accés al meu banc a Spendry?",
+     "a": "No. L'automatització només llegeix les dades que el teu iPhone ja mostra en pagar, com l'import i el comerç. No cal cap contrasenya bancària."
+    },
+    {
+     "q": "Puc canviar la categoria més endavant?",
+     "a": "Sí. Pots editar la despesa a Spendry quan vulguis."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Guies de diners: pressupostos, deutes i factures",
+  "description": "Guies curtes i pràctiques sobre pressupostos, com liquidar deutes, targetes de crèdit, terminis, subscripcions i no oblidar cap pagament.",
+  "h1": "Guies de diners",
+  "lead": "Guies curtes i pràctiques sobre pressupostos, com liquidar deutes i com no oblidar cap pagament."
+ },
+ "guide_labels": {
+  "nav": "Guies",
+  "tip": "Consell",
+  "faq": "Preguntes",
+  "more": "Més guies",
+  "all": "Totes les guies",
+  "tools": "Calculadores gratuïtes",
+  "cta": "Controla-ho tot en un sol lloc. Descarrega Spendry de franc a l'App Store.",
+  "topic_debt": "Deutes i targetes de crèdit",
+  "topic_bills": "Factures i subscripcions",
+  "topic_budget": "Pressupostos i estalvi",
+  "topic_iphone": "Al teu iPhone"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Calculadora de targetes de crèdit: quan trigaràs?",
+  "description": "Calculadora gratuïta de pagament de targetes. Introdueix el saldo, el tipus d'interès i la quota per veure la data final, els interessos i el cost mínim.",
+  "h1": "Calculadora per pagar la targeta de crèdit",
+  "lead": "Descobreix quant trigaràs a liquidar la targeta i quants interessos pagaràs en comparació amb pagar només el mínim.",
+  "balance": "Saldo pendent",
+  "rate": "Tipus d'interès anual (%)",
+  "payment": "La teva quota mensual",
+  "min_pct": "Pagament mínim (% del saldo)",
+  "months": "Pagat en",
+  "interest": "Total d'interessos",
+  "date": "Sense deutes",
+  "fixed": "Amb la teva quota",
+  "minimum": "Només el pagament mínim",
+  "never": "Aquesta quota no cobreix els interessos mensuals. Puja-la per poder liquidar la targeta.",
+  "saved": "T'estalvies en interessos",
+  "prose": [
+   [
+    "Com funciona el càlcul",
+    "Cada mes, la calculadora suma un mes d'interessos al saldo i en resta la teva quota, fins que el deute arriba a zero. La comparació amb el pagament mínim recalcula la quota mínima cada mes a partir del saldo pendent."
+   ],
+   [
+    "Per què es triga tant pagant només el mínim",
+    "El pagament mínim baixa a mesura que es redueix el deute, de manera que la quota gairebé mai no supera els interessos. Una quota fixa fa que la mateixa quantitat redueixi el deute cada mes."
+   ],
+   [
+    "Fes-ho realitat",
+    "Spendry manté el teu pla en marxa: afegeix les teves targetes, defineix què pots pagar cada mes i rep un recordatori abans de cada data de venciment."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Calculadora de préstecs: quota mensual i interessos",
+  "description": "Calculadora gratuïta de préstecs per a cotxe, personals o hipoteques. Consulta la quota mensual, els interessos totals i el quadre d'amortització complet.",
+  "h1": "Calculadora de préstecs",
+  "lead": "Introdueix l'import, el tipus d'interès anual i el termini per veure la quota mensual, els interessos totals i cada pagament.",
+  "amount": "Import del préstec",
+  "rate": "Tipus d'interès anual (%)",
+  "term": "Termini (mesos)",
+  "payment": "Quota mensual",
+  "total": "Total a retornar",
+  "interest": "Total d'interessos",
+  "month": "Mes",
+  "principal": "Capital",
+  "interest_col": "Interessos",
+  "balance": "Saldo pendent",
+  "show_all": "Mostra tots els pagaments",
+  "show_less": "Mostra'n menys",
+  "prose": [
+   [
+    "Com es calcula la quota",
+    "És un préstec amb amortització estàndard: la mateixa quota cada mes, amb interessos calculats sobre el saldo pendent. Al principi pagues sobretot interessos; al final, sobretot capital."
+   ],
+   [
+    "Redueix el cost total",
+    "Un termini més curt o un tipus d'interès més baix és el que redueix més els interessos totals. Fer amortitzacions anticipades al principi també ajuda, si la teva entitat ho permet sense comissions."
+   ],
+   [
+    "Porta el control després de signar",
+    "Afegeix el préstec a Spendry per veure els pagaments que et queden, el mes en què acabaràs i un recordatori abans de cada pagament."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Calculadora d'estalvi: quant estalviar cada mes",
+  "description": "Calculadora gratuïta d'objectius d'estalvi. Posa el teu objectiu, el que ja tens i el termini per saber quant estalviar al mes, amb interessos opcionals.",
+  "h1": "Calculadora d'objectius d'estalvi",
+  "lead": "Calcula quant has de guardar cada mes per assolir el teu objectiu a temps.",
+  "goal": "Objectiu d'estalvi",
+  "have": "Estalviat fins ara",
+  "months": "Mesos per aconseguir-ho",
+  "rate": "Interès anual dels estalvis (%)",
+  "monthly": "Estalvia cada mes",
+  "weekly": "Això és, aproximadament, cada setmana",
+  "total_in": "Aportació pròpia",
+  "earned": "Interessos guanyats",
+  "done": "Ja has assolit aquest objectiu.",
+  "prose": [
+   [
+    "Com funciona",
+    "La calculadora reparteix el que et falta per estalviar entre els mesos disponibles. Amb un tipus d'interès, els diners que guardes generen interessos cada mes, de manera que has d'aportar una mica menys."
+   ],
+   [
+    "Fes-ho més fàcil",
+    "Estalvia just després de cobrar la nòmina i tracta l'estalvi com una factura més. Tenir un objectiu compartit amb la teva parella pot fer que ho aconsegueixis abans."
+   ],
+   [
+    "Segueix el teu progrés",
+    "Crea l'objectiu a Spendry i mira com t'hi acostes cada vegada que hi afegeixes diners."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Calculadora de subscripcions: quant pagues a l'any",
+  "description": "Calculadora de subscripcions de franc. Afegeix el preu i el cicle de cobrament de cadascuna per veure el cost mensual, anual i a cinc anys vista.",
+  "h1": "Calculadora del cost de les subscripcions",
+  "lead": "Afegeix les teves subscripcions i descobreix el total real mensual i anual.",
+  "name": "Subscripció",
+  "price": "Preu",
+  "cycle": "Facturació",
+  "weekly": "Setmanal",
+  "monthly": "Mensual",
+  "yearly": "Anual",
+  "add": "Afegeix una subscripció",
+  "remove": "Elimina",
+  "per_month": "Al mes",
+  "per_year": "A l'any",
+  "five_years": "En 5 anys",
+  "samples": [
+   "Música en streaming",
+   "Vídeo en streaming",
+   "Emmagatzematge al núvol",
+   "Gimnàs",
+   "App de notícies"
+  ],
+  "prose": [
+   [
+    "Per què importa el total anual",
+    "Una quota mensual petita sembla inofensiva. Multiplicada per dotze, i per cada subscripció que tens, sovint es converteix en una de les teves despeses fixes més grans."
+   ],
+   [
+    "Què fer amb aquesta xifra",
+    "Ordena-les per preu i pregunta't: la vaig fer servir el mes passat? Cancel·la les que no utilitzis i posa't un recordatori abans de la renovació de les que vulguis mantenir."
+   ],
+   [
+    "No et descuidis cap renovació",
+    "Spendry fa el seguiment de les teves subscripcions, les suma al teu total mensual i t'avisa abans de cada renovació."
+   ]
+  ]
  }
 }

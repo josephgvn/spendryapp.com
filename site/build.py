@@ -347,13 +347,16 @@ def store_button(c, lang, place, cls="btn-store"):
 
 
 # ---------------------------------------------------------------- page frame
-def page(lang, c, path, title, description, body, jsonld, languages, body_class="", not_found=False, preload="", og_title=None):
+def page(lang, c, path, title, description, body, jsonld, languages, body_class="", not_found=False, preload="", og_title=None,
+         paths=None, og_type="website"):
+    """paths: the page's path in each language, when it isn't the same everywhere (Turkish slugs)."""
     name, og_locale, direction = LANGS[lang][:3]
+    paths = paths or {code: path for code in languages}
     full = prefix(lang) + path
     url = f"{BASE_URL}/{full}"
     alternates = "\n".join(
-        f'<link rel="alternate" hreflang="{code}" href="{BASE_URL}/{prefix(code)}{path}">' for code in languages
-    ) + f'\n<link rel="alternate" hreflang="x-default" href="{BASE_URL}/{path}">'
+        f'<link rel="alternate" hreflang="{code}" href="{BASE_URL}/{prefix(code)}{paths[code]}">' for code in languages if code in paths
+    ) + f'\n<link rel="alternate" hreflang="x-default" href="{BASE_URL}/{paths.get("en", path)}">'
     robots = "noindex" if not_found else "index, follow, max-image-preview:large, max-snippet:-1"
     links = "" if not_found else f'<link rel="canonical" href="{url}">\n{alternates}'
     og_alt = "\n".join(f'<meta property="og:locale:alternate" content="{LANGS[x][1]}">' for x in languages if x != lang)
@@ -374,7 +377,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
                   "for(var i=0;i<wanted.length;i++){var code=pick(wanted[i]);"
                   "if(code){if(code!=='en'&&codes.indexOf(code)>=0)location.replace('/'+code+'/'+location.search+location.hash);return}}})()</script>\n")
     lang_links = "".join(
-        f'<a href="/{prefix(x)}{"" if not_found else path}" hreflang="{x}" lang="{x}" data-lang="{x.lower()}"'
+        f'<a href="/{prefix(x)}{"" if not_found else paths.get(x, "")}" hreflang="{x}" lang="{x}" data-lang="{x.lower()}"'
         f'{CURRENT_ATTR if x == lang else ""}>{e(LANGS[x][0])}</a>' for x in languages)
     v_css, v_js = version("assets/css/site.css"), version("assets/js/app.js")
     dock = (f'<a class="dock" href="{store_url(lang, "dock")}" rel="noopener"><img src="/assets/brand/icon-96.webp" alt="" width="34" height="34">'
@@ -390,7 +393,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
 <meta name="description" content="{e(description)}">
 <meta name="robots" content="{robots}">
 {links}
-<meta property="og:type" content="website">
+<meta property="og:type" content="{og_type}">
 <meta property="og:site_name" content="Spendry">
 <meta property="og:title" content="{e(og_title or title)}">
 <meta property="og:description" content="{e(description)}">
@@ -422,9 +425,9 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
 <header class="nav" data-nav>
 <div class="nav-in">
 <a class="brand" href="{home}" aria-label="Spendry"><img src="/assets/brand/ribbon-128.webp" alt="" width="30" height="26"><span>Spendry</span></a>
-<nav class="nav-links" aria-label="{e(nav['menu'])}"><a href="{home}#features">{e(nav['features'])}</a><a href="{home}#privacy">{e(nav['privacy'])}</a><a href="{home}#tools">{e(nav['tools'])}</a></nav>
+<nav class="nav-links" aria-label="{e(nav['menu'])}"><a href="{home}#features">{e(nav['features'])}</a><a href="{home}#privacy">{e(nav['privacy'])}</a><a href="{home}#tools">{e(nav['tools'])}</a><a href="{home}{c['guides_index']['slug']}/">{e(c['guide_labels']['nav'])}</a></nav>
 <div class="nav-end">
-<button class="lang-btn" type="button" aria-expanded="false" aria-controls="langs" aria-label="{e(nav['language'])}">{icon('globe')}<span>{e(lang.split('-')[0].upper())}</span></button>
+<button class="lang-btn" type="button" aria-expanded="false" aria-controls="langs" aria-label="{e(nav['language'])} ({e(lang.split('-')[0].upper())})">{icon('globe')}<span>{e(lang.split('-')[0].upper())}</span></button>
 <a class="btn-nav" href="{store_url(lang, 'nav')}" rel="noopener">{e(nav['download'])}</a>
 </div>
 </div>
@@ -443,6 +446,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
 <div class="foot-cols">
 <div><h4>Spendry</h4><ul><li><a href="{home}#features">{e(nav['features'])}</a></li><li><a href="{home}#privacy">{e(nav['privacy'])}</a></li><li><a href="mailto:{SUPPORT_EMAIL}">{e(c['footer']['support'])}</a></li></ul></div>
 <div><h4>{e(c['footer']['tools'])}</h4><ul>{tool_links(lang, c)}</ul></div>
+<div><h4>{e(c['guide_labels']['nav'])}</h4><ul>{guide_links(lang, c)}</ul></div>
 <div><h4>{e(c['footer']['legal'])}</h4><ul><li><a href="/privacy-policy.html">{e(c['footer']['privacy_policy'])}</a></li><li><a href="/terms-of-service.html">{e(c['footer']['terms'])}</a></li></ul></div>
 </div>
 </div>
@@ -457,12 +461,68 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
 """
 
 
+TOOL_KEYS = {"debt": "debt_tool", "budget": "budget_tool", "cc": "cc_tool", "savings": "savings_tool", "subs": "subs_tool"}
+TOOL_ORDER = ["debt", "cc", "budget", "loan", "savings", "subs"]
+# Guides by topic (English slugs, the guides' "key"); the first six of FEATURED are on the home page and in the footer.
+TOPICS = [("topic_debt", ["debt-snowball-vs-avalanche", "pay-off-credit-card-debt-faster", "minimum-payment-trap", "debt-free-date",
+                          "track-installment-payments", "track-loans"]),
+          ("topic_bills", ["statement-date-vs-due-date", "never-miss-a-bill", "track-subscriptions"]),
+          ("topic_budget", ["make-a-monthly-budget", "track-spending-without-bank-login", "save-for-a-goal", "track-net-worth",
+                            "shared-budget-with-partner"]),
+          ("topic_iphone", ["budget-widgets-iphone", "log-apple-pay-purchases-automatically"])]
+FEATURED = ["debt-snowball-vs-avalanche", "pay-off-credit-card-debt-faster", "never-miss-a-bill", "make-a-monthly-budget",
+            "track-subscriptions", "debt-free-date"]
+GUIDES_PUBLISHED = "2026-10-07"
+CONTENT = {}
+
+
+def tool_info(lang, c, key):
+    """A calculator's path, name and description in this language (Turkish has its own loan calculator)."""
+    T = c["loan_tool"] if key == "loan" and lang == "tr" else c["loan_calc" if key == "loan" else TOOL_KEYS[key]]
+    return T["slug"] + "/", T["h1"], T["description"]
+
+
+def paths_for(key, languages):
+    """A page's path in every language, for hreflang links, the language menu and the sitemap."""
+    out = {}
+    for x in languages:
+        c = CONTENT[x]
+        if key == "home":
+            out[x] = ""
+        elif key == "guides":
+            out[x] = c["guides_index"]["slug"] + "/"
+        elif key.startswith("guide:"):
+            out[x] = f'{c["guides_index"]["slug"]}/{c["guides"][int(key[6:])]["slug"]}/'
+        else:
+            out[x] = tool_info(x, c, key)[0]
+    return out
+
+
 def tool_links(lang, c):
     home = home_url(lang)
-    items = [(c["debt_tool"]["slug"], c["debt_tool"]["h1"]), (c["budget_tool"]["slug"], c["budget_tool"]["h1"])]
-    if lang == "tr":
-        items.append((c["loan_tool"]["slug"], c["loan_tool"]["h1"]))
-    return "".join(f'<li><a href="{home}{slug}/">{e(title)}</a></li>' for slug, title in items)
+    return "".join(f'<li><a href="{home}{p}">{e(h)}</a></li>' for p, h, _ in (tool_info(lang, c, k) for k in TOOL_ORDER))
+
+
+def guide_links(lang, c):
+    base = f'{home_url(lang)}{c["guides_index"]["slug"]}/'
+    items = [g for g in c["guides"] if g["key"] in FEATURED[:5]]
+    return "".join(f'<li><a href="{base}{g["slug"]}/">{e(g["h1"])}</a></li>' for g in items) + \
+        f'<li><a href="{base}">{e(c["guide_labels"]["all"])}</a></li>'
+
+
+def card_list(items):
+    return "".join(f'<li data-rise><a class="tool" href="{href}"><h3>{e(h)}</h3><p>{e(d)}</p>'
+                   f'<span class="t-go">{icon("arrow")}</span></a></li>' for href, h, d in items)
+
+
+def tool_cards(lang, c, keys=TOOL_ORDER):
+    home = home_url(lang)
+    return card_list([(home + p, h, d) for p, h, d in (tool_info(lang, c, k) for k in keys)])
+
+
+def guide_cards(lang, c, items):
+    base = f'{home_url(lang)}{c["guides_index"]["slug"]}/'
+    return card_list([(f'{base}{g["slug"]}/', g["h1"], g["description"]) for g in items])
 
 
 # ---------------------------------------------------------------- JSON-LD
@@ -725,13 +785,22 @@ def faq_html(lang, c):
 
 def tools_html(lang, c):
     home = home_url(lang)
-    cards = [c["debt_tool"], c["budget_tool"]] + ([c["loan_tool"]] if lang == "tr" else [])
-    items = "".join(f'<li data-rise><a class="tool" href="{home}{x["slug"]}/"><h3>{e(x["h1"])}</h3><p>{e(x["description"])}</p>'
-                    f'<span class="t-go">{icon("arrow")}</span></a></li>' for x in cards)
     return f"""
 <section class="tools" id="tools" data-theme="light">
 <div class="wrap">{head(c, 'tools_teaser')}
-<ul class="tool-list n{len(cards)}">{items}</ul>
+<ul class="tool-list n3">{tool_cards(lang, c)}</ul>
+</div>
+</section>"""
+
+
+def guides_html(lang, c):
+    I, L = c["guides_index"], c["guide_labels"]
+    items = [g for g in c["guides"] if g["key"] in FEATURED]
+    return f"""
+<section class="tools guides-teaser" data-theme="light">
+<div class="wrap"><div class="head"><h2 class="title" data-split>{e(I['h1'])}</h2><p class="sub" data-rise>{e(I['lead'])}</p></div>
+<ul class="tool-list n3">{guide_cards(lang, c, items)}</ul>
+<p class="more-link" data-rise><a class="link-arrow" href="{home_url(lang)}{I['slug']}/">{e(L['all'])}{icon('arrow')}</a></p>
 </div>
 </section>"""
 
@@ -791,7 +860,7 @@ def home_page(lang, c, languages):
         stage_html(lang, c, t), marquee_html(lang, c), statement_html(lang, c), showcase_html(lang, c, t),
         features_html(lang, c), reminders_html(lang, c, t), widgets_html(lang, c),
         automations_html(lang, c, t), privacy_html(lang, c), stats_html(lang, c), faq_html(lang, c),
-        tools_html(lang, c), final_html(lang, c),
+        tools_html(lang, c), guides_html(lang, c), final_html(lang, c),
     ])
     url = f"{BASE_URL}/{prefix(lang)}"
     d = img_dir(lang)
@@ -804,7 +873,36 @@ def home_page(lang, c, languages):
 
 
 # ---------------------------------------------------------------- tool pages
-def tool_frame(lang, c, h1, lead, inner, prose, cta_text, note=""):
+def crumbs_ld(crumbs):
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": u} for i, (n, u) in enumerate(crumbs)]}
+
+
+def cta_html(lang, c, text, shot="06", place="tool"):
+    return f"""
+<section class="tool-cta" data-theme="light"><div class="wrap"><div class="cta-card" data-rise>
+<div class="cta-shot">{screen(lang, shot, "Spendry", "(max-width: 700px) 50vw, 260px")}</div>
+<div class="cta-copy"><img src="/assets/brand/icon-96.webp" alt="" width="56" height="56"><p>{e(text)}</p>{store_button(c, lang, place)}</div>
+</div></div></section>"""
+
+
+def more_guides_html(lang, c, items, title):
+    if not items:
+        return ""
+    return f"""
+<section class="tools more-guides" data-theme="light"><div class="wrap"><h2 class="title title-sm" data-split>{e(title)}</h2>
+<ul class="tool-list n3">{guide_cards(lang, c, items)}</ul>
+<p class="more-link" data-rise><a class="link-arrow" href="{home_url(lang)}{c['guides_index']['slug']}/">{e(c['guide_labels']['all'])}{icon('arrow')}</a></p></div></section>"""
+
+
+def tool_guides(c, key):
+    """Guides that use this calculator, then the featured ones, three in all."""
+    items = [g for g in c["guides"] if g.get("tool") == key]
+    items += [g for g in c["guides"] if g["key"] in FEATURED and g not in items]
+    return items[:3]
+
+
+def tool_frame(lang, c, h1, lead, inner, prose, cta_text, note="", shot="06", key=""):
     home = home_url(lang)
     prose_html = "".join(f'<h2>{e(h)}</h2><p>{e(p)}</p>' for h, p in prose) + (f'<p class="note">{e(note)}</p>' if note else "")
     return f"""
@@ -814,14 +912,12 @@ def tool_frame(lang, c, h1, lead, inner, prose, cta_text, note=""):
 <h1 class="title title-lg" data-split>{e(h1)}</h1><p class="sub" data-rise="now">{e(lead)}</p></div>
 </section>
 <section class="tool-body" data-theme="light"><div class="wrap">{inner}</div></section>
-<section class="tool-cta" data-theme="light"><div class="wrap"><div class="cta-card" data-rise>
-<div class="cta-shot">{screen(lang, "06", "Spendry", "(max-width: 700px) 50vw, 260px")}</div>
-<div class="cta-copy"><img src="/assets/brand/icon-96.webp" alt="" width="56" height="56"><p>{e(cta_text)}</p>{store_button(c, lang, 'tool')}</div>
-</div></div></section>
-<section class="tool-prose" data-theme="light"><div class="wrap prose" data-rise>{prose_html}</div></section>"""
+{cta_html(lang, c, cta_text, shot)}
+<section class="tool-prose" data-theme="light"><div class="wrap prose" data-rise>{prose_html}</div></section>
+{more_guides_html(lang, c, tool_guides(c, key), c["guide_labels"]["more"]) if key else ""}"""
 
 
-def debt_tool_page(lang, c, languages):
+def debt_tool_page(lang, c, languages, paths=None):
     D = c["debt_tool"]
     t = TERMS.get(lang, TERMS["en"])
     data = lab_data(lang, {**c, "lab": {**c["lab"], "debts": D["sample"]}})
@@ -840,14 +936,14 @@ def debt_tool_page(lang, c, languages):
 </div>
 <div class="panel calc-out" data-rise="now" aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
 </div>"""
-    body = tool_frame(lang, c, D["h1"], D["lead"], inner, D["prose"], c["lab"]["text"])
+    body = tool_frame(lang, c, D["h1"], D["lead"], inner, D["prose"], c["lab"]["text"], key="debt")
     url = f"{BASE_URL}/{prefix(lang)}{D['slug']}/"
     return page(lang, c, f"{D['slug']}/", D["title"] + " | Spendry", D["description"], body,
                 tool_ld(lang, D["h1"], D["description"], url, [("Spendry", f"{BASE_URL}/{prefix(lang)}"), (D["h1"], url)]),
-                languages, "page-tool")
+                languages, "page-tool", paths=paths)
 
 
-def budget_tool_page(lang, c, languages):
+def budget_tool_page(lang, c, languages, paths=None):
     B = c["budget_tool"]
     fx = LANGS[lang][5]
     income = 40000 if lang == "tr" else nice(4000 * fx, 2)
@@ -867,14 +963,14 @@ def budget_tool_page(lang, c, languages):
 {template}</div>
 <div class="panel" data-rise="now" aria-live="polite"><ul class="split-list">{rows}</ul></div>
 </div>"""
-    body = tool_frame(lang, c, B["h1"], B["lead"], inner, B["prose"], c["features"]["items"][0]["text"])
+    body = tool_frame(lang, c, B["h1"], B["lead"], inner, B["prose"], c["features"]["items"][0]["text"], shot="04", key="budget")
     url = f"{BASE_URL}/{prefix(lang)}{B['slug']}/"
     return page(lang, c, f"{B['slug']}/", B["title"] + " | Spendry", B["description"], body,
                 tool_ld(lang, B["h1"], B["description"], url, [("Spendry", f"{BASE_URL}/{prefix(lang)}"), (B["h1"], url)]),
-                languages, "page-tool")
+                languages, "page-tool", paths=paths)
 
 
-def loan_tool_page(lang, c):
+def loan_tool_page(lang, c, languages=("tr",), paths=None):
     T = c["loan_tool"]
     cols = "".join(f"<th>{e(x)}</th>" for x in T["columns"])
     types = "".join(f'<button type="button" role="radio" aria-checked="{"true" if i == 0 else "false"}" data-loan-type="{k}">{e(n)}</button>'
@@ -897,11 +993,205 @@ def loan_tool_page(lang, c):
 <button type="button" class="btn-soft" data-more>{e(T['show_all'])}</button>
 </div>
 </div>"""
-    body = tool_frame(lang, c, T["h1"], T["lead"], inner, T["prose"], c["lab"]["text"], T["note"])
+    body = tool_frame(lang, c, T["h1"], T["lead"], inner, T["prose"], c["lab"]["text"], T["note"], key="loan")
     url = f"{BASE_URL}/tr/{T['slug']}/"
     return page("tr", c, f"{T['slug']}/", T["title"] + " | Spendry", T["description"], body,
                 tool_ld("tr", T["h1"], T["description"], url, [("Spendry", f"{BASE_URL}/tr/"), (T["h1"], url)]),
-                ["tr"], "page-tool")
+                list(languages), "page-tool", paths=paths)
+
+
+# ---------------------------------------------------------------- guides
+def related(c, g, n=3):
+    """Guides on the same topic first, then the ones after it in the list."""
+    topic = next((keys for _, keys in TOPICS if g["key"] in keys), [])
+    i = c["guides"].index(g)
+    order = [x for x in c["guides"][i + 1:] + c["guides"][:i] if x["key"] in topic]
+    order += [x for x in c["guides"][i + 1:] + c["guides"][:i] if x not in order]
+    return order[:n]
+
+
+def qa_list(items):
+    return "".join(f'<details class="qa" data-rise><summary><span>{e(q["q"])}</span><i aria-hidden="true"></i></summary>'
+                   f'<div class="qa-a"><p>{e(q["a"])}</p></div></details>' for q in items)
+
+
+def short_title(title):
+    return title + " | Spendry" if len(title) < 56 else title
+
+
+def guide_page(lang, c, i, languages, paths):
+    g, L, I = c["guides"][i], c["guide_labels"], c["guides_index"]
+    home = home_url(lang)
+    index = f"{home}{I['slug']}/"
+    path = f"{I['slug']}/{g['slug']}/"
+    url = f"{BASE_URL}/{prefix(lang)}{path}"
+    shot = f"{BASE_URL}/assets/img/{img_dir(lang)}/screen-{g['screen']}.webp"
+    steps = "".join(f"<li data-rise>{e(s)}</li>" for s in g["steps"])
+    example = f'<div class="ex" data-rise><h2>{e(g["example_title"])}</h2><p>{e(g["example"])}</p></div>' if g.get("example") else ""
+    tool = ""
+    if g.get("tool"):
+        p, h, d = tool_info(lang, c, g["tool"])
+        tool = f'<a class="tool tool-in" href="{home}{p}" data-rise><h3>{e(h)}</h3><p>{e(d)}</p><span class="t-go">{icon("arrow")}</span></a>'
+    body = f"""
+<section class="tool-hero guide-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap guide-top"><div class="guide-copy"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<a href="{index}">{e(L['nav'])}</a></nav>
+<h1 class="title title-lg" data-split>{e(g['h1'])}</h1><p class="sub" data-rise="now">{e(g['intro'][0])}</p></div>
+<div class="guide-phone" data-rise="now">{screen(lang, g['screen'], g['h1'], "(max-width: 900px) 230px, 300px", fetch_high=True)}</div></div>
+</section>
+<section class="guide-body" data-theme="light"><div class="wrap">
+<article class="prose guide">
+<p class="lede" data-rise>{e(g['intro'][1])}</p>
+<h2 data-rise>{e(g['steps_title'])}</h2>
+<ol class="steps">{steps}</ol>
+{example}
+<div class="tip" data-rise><b>{e(L['tip'])}</b><p>{e(g['tip'])}</p></div>
+{tool}
+<h2 data-rise>{e(L['faq'])}</h2>
+<div class="qas">{qa_list(g['faq'])}</div>
+</article></div></section>
+{cta_html(lang, c, L['cta'], "01" if g['screen'] != "01" else "06", "guide")}
+{more_guides_html(lang, c, related(c, g), L['more'])}"""
+    org = {"@type": "Organization", "name": "Spendry", "url": BASE_URL + "/"}
+    ld = [{"@context": "https://schema.org", "@type": "TechArticle", "headline": g["h1"], "description": g["description"],
+           "inLanguage": lang, "url": url, "mainEntityOfPage": url, "image": shot, "datePublished": GUIDES_PUBLISHED,
+           "dateModified": BUILD_DATE, "author": org, "publisher": organization_ld()},
+          {"@context": "https://schema.org", "@type": "HowTo", "name": g["steps_title"], "inLanguage": lang, "image": shot,
+           "step": [{"@type": "HowToStep", "position": n + 1, "text": s} for n, s in enumerate(g["steps"])]},
+          faq_ld(g["faq"]),
+          crumbs_ld([("Spendry", f"{BASE_URL}/{prefix(lang)}"), (L["nav"], f"{BASE_URL}/{prefix(lang)}{I['slug']}/"), (g["h1"], url)])]
+    return page(lang, c, path, short_title(g["title"]), g["description"], body, ld, languages, "page-tool page-guide",
+                paths=paths, og_type="article")
+
+
+def guides_index_page(lang, c, languages, paths):
+    I, L = c["guides_index"], c["guide_labels"]
+    home = home_url(lang)
+    by_key = {g["key"]: g for g in c["guides"]}
+    topics = "".join(f'<div class="topic"><h2 class="title title-sm" data-split>{e(L[t])}</h2>'
+                     f'<ul class="tool-list n3">{guide_cards(lang, c, [by_key[k] for k in keys if k in by_key])}</ul></div>'
+                     for t, keys in TOPICS)
+    body = f"""
+<section class="tool-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<span>{e(L['nav'])}</span></nav>
+<h1 class="title title-lg" data-split>{e(I['h1'])}</h1><p class="sub" data-rise="now">{e(I['lead'])}</p></div>
+</section>
+<section class="guide-list" data-theme="light"><div class="wrap">{topics}
+<div class="topic"><h2 class="title title-sm" data-split>{e(L['tools'])}</h2><ul class="tool-list n3">{tool_cards(lang, c)}</ul></div>
+</div></section>
+{cta_html(lang, c, L['cta'], "01", "guide")}"""
+    url = f"{BASE_URL}/{prefix(lang)}{I['slug']}/"
+    ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": I["h1"], "description": I["description"], "url": url,
+           "inLanguage": lang, "publisher": organization_ld(),
+           "mainEntity": {"@type": "ItemList", "itemListElement": [
+               {"@type": "ListItem", "position": n + 1, "url": f"{url}{g['slug']}/", "name": g["h1"]} for n, g in enumerate(c["guides"])]}},
+          crumbs_ld([("Spendry", f"{BASE_URL}/{prefix(lang)}"), (I["h1"], url)])]
+    return page(lang, c, f"{I['slug']}/", short_title(I["title"]), I["description"], body, ld, languages, "page-tool page-guides",
+                paths=paths)
+
+
+# ---------------------------------------------------------------- newer calculators
+def calc_page(lang, c, key, T, inner, shot, languages, paths):
+    body = tool_frame(lang, c, T["h1"], T["lead"], inner, T["prose"], c["guide_labels"]["cta"], shot=shot, key=key)
+    url = f"{BASE_URL}/{prefix(lang)}{T['slug']}/"
+    return page(lang, c, f"{T['slug']}/", short_title(T["title"]), T["description"], body,
+                tool_ld(lang, T["h1"], T["description"], url, [("Spendry", f"{BASE_URL}/{prefix(lang)}"), (T["h1"], url)]),
+                languages, "page-tool", paths=paths)
+
+
+def num(label, f, value, step, extra="", cls="field"):
+    return (f'<label class="{cls}"><span>{e(label)}</span><input type="number" inputmode="decimal" min="0" step="{step}" '
+            f'value="{value}" data-f="{f}"{extra}></label>')
+
+
+def cc_tool_page(lang, c, languages, paths):
+    T = c["cc_tool"]
+    tr = lang == "tr"
+    fx = LANGS[lang][5] or 1
+    # Turkish cards: monthly rates and a minimum of 20% of the statement.
+    v = ({"balance": 30000, "rate": 3.5, "payment": 7500, "min": 20, "floor": 100, "period": "month", "step": 500} if tr else
+         {"balance": nice(3000 * fx), "rate": 22, "payment": nice(175 * fx), "min": 2.5, "floor": nice(25 * fx), "period": "year",
+          "step": nice(25 * fx, 1)})
+    labels = {k: T[k] for k in ("interest", "date", "fixed", "minimum", "never")}
+    inner = f"""
+<div class="calc" id="ccpay" data-c='{e(json.dumps({"period": v["period"], "floor": v["floor"], "labels": labels}, ensure_ascii=False))}'>
+<form class="panel" data-rise="now" onsubmit="return false">
+{num(T['balance'], 'balance', v['balance'], v['step'], cls="field field-lg")}
+<div class="row">{num(T['rate'], 'rate', v['rate'], "0.01")}{num(T['min_pct'], 'min', v['min'], "0.5")}</div>
+{num(T['payment'], 'payment', v['payment'], v['step'])}
+</form>
+<div class="panel" data-rise="now" aria-live="polite">
+<div class="compare"><div class="method best" data-res="fixed"></div><div class="method" data-res="min"></div></div>
+<div class="saved"><span>{e(T['saved'])}</span><b data-o="saved">&nbsp;</b></div>
+<figure class="chart-line" aria-hidden="true"><svg viewBox="0 0 600 220"><path class="axis" d="M0 211H600"/><path class="p-min" pathLength="1" d="M0 10"/><path class="p-fix" pathLength="1" d="M0 10"/></svg>
+<div class="ends"><span data-o="start">&nbsp;</span><span data-o="end">&nbsp;</span></div>
+<figcaption><span class="lg lg-fix">{e(T['fixed'])}</span><span class="lg lg-min">{e(T['minimum'])}</span></figcaption></figure>
+</div>
+</div>"""
+    return calc_page(lang, c, "cc", T, inner, "06", languages, paths)
+
+
+def loan_calc_page(lang, c, languages, paths):
+    T = c["loan_calc"]
+    fx = LANGS[lang][5] or 1
+    cols = "".join(f"<th>{e(x)}</th>" for x in (T["month"], T["principal"], T["interest_col"], T["balance"]))
+    inner = f"""
+<div class="calc" id="loancalc" data-c='{e(json.dumps({"show_all": T["show_all"], "show_less": T["show_less"]}, ensure_ascii=False))}'>
+<form class="panel" data-rise="now" onsubmit="return false">
+{num(T['amount'], 'amount', nice(20000 * fx), nice(500 * fx, 1), cls="field field-lg")}
+<div class="row">{num(T['rate'], 'rate', 7.5, "0.01")}{num(T['term'], 'term', 48, 1, ' max="600" inputmode="numeric"')}</div>
+</form>
+<div class="panel" data-rise="now" aria-live="polite">
+<div class="loan-top"><div class="big"><span>{e(T['payment'])}</span><b data-o="payment">&nbsp;</b></div>
+<div class="share" aria-hidden="true"><i></i></div>
+<dl class="figs"><div class="lg-p"><dt>{e(T['principal'])}</dt><dd data-o="principal">&nbsp;</dd></div><div class="lg-i"><dt>{e(T['interest'])}</dt><dd data-o="interest">&nbsp;</dd></div><div><dt>{e(T['total'])}</dt><dd data-o="total">&nbsp;</dd></div></dl></div>
+<div class="table-wrap"><table><thead><tr>{cols}</tr></thead><tbody data-rows></tbody></table></div>
+<button type="button" class="btn-soft" data-more>{e(T['show_all'])}</button>
+</div>
+</div>"""
+    return calc_page(lang, c, "loan", T, inner, "06", languages, paths)
+
+
+def savings_page(lang, c, languages, paths):
+    T = c["savings_tool"]
+    tr = lang == "tr"
+    fx = LANGS[lang][5] or 1
+    goal, have, step = (100000, 20000, 1000) if tr else (nice(6000 * fx), nice(1200 * fx), nice(100 * fx, 1))
+    inner = f"""
+<div class="calc" id="saving">
+<form class="panel" data-rise="now" onsubmit="return false">
+{num(T['goal'], 'goal', goal, step, cls="field field-lg")}
+<div class="row">{num(T['have'], 'have', have, step)}{num(T['months'], 'months', 12, 1, ' max="600" inputmode="numeric"')}</div>
+{num(T['rate'], 'rate', 0 if tr else 3, "0.1")}
+</form>
+<div class="panel" data-rise="now" aria-live="polite">
+<p class="reached" hidden>{e(T['done'])}</p>
+<div class="loan-top sv-res"><div class="big"><span>{e(T['monthly'])}</span><b data-o="monthly">&nbsp;</b></div>
+<div class="stack" aria-hidden="true"><i class="s-have"></i><i class="s-in"></i><i class="s-int"></i></div>
+<dl class="figs"><div class="lg-h"><dt>{e(T['have'])}</dt><dd data-o="have">&nbsp;</dd></div><div class="lg-p"><dt>{e(T['total_in'])}</dt><dd data-o="total_in">&nbsp;</dd></div><div class="lg-g"><dt>{e(T['earned'])}</dt><dd data-o="earned">&nbsp;</dd></div><div><dt>{e(T['weekly'])}</dt><dd data-o="weekly">&nbsp;</dd></div></dl></div>
+</div>
+</div>"""
+    return calc_page(lang, c, "savings", T, inner, "05", languages, paths)
+
+
+def subs_page(lang, c, languages, paths):
+    T = c["subs_tool"]
+    fx = LANGS[lang][5] or 1
+    prices = [100, 230, 40, 1500, 600] if lang == "tr" else [nice(p * fx, 2) for p in (11, 15, 3, 40, 70)]
+    items = [{"name": n, "price": p, "cycle": cy} for n, p, cy in zip(T["samples"], prices, "mmmmy")]
+    labels = {k: T[k] for k in ("name", "price", "cycle", "weekly", "monthly", "yearly", "remove")}
+    inner = f"""
+<div class="calc" id="subs" data-c='{e(json.dumps({"items": items, "labels": labels}, ensure_ascii=False))}'>
+<div class="panel" data-rise="now"><div class="sub-list"></div>
+<button type="button" class="btn-soft" data-add>{icon('plus')}{e(T['add'])}</button></div>
+<div class="panel" data-rise="now" aria-live="polite">
+<div class="loan-top"><div class="big"><span>{e(T['per_year'])}</span><b data-o="year">&nbsp;</b></div>
+<dl class="figs"><div><dt>{e(T['per_month'])}</dt><dd data-o="month">&nbsp;</dd></div><div><dt>{e(T['five_years'])}</dt><dd data-o="five">&nbsp;</dd></div></dl></div>
+<ul class="sub-bars"></ul>
+</div>
+</div>"""
+    return calc_page(lang, c, "subs", T, inner, "07", languages, paths)
 
 
 def csv_template(c):
@@ -960,40 +1250,54 @@ def write(path, text):
             time.sleep(10)
 
 
+def sitemap(name, urls):
+    write(name, '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+          'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + "\n".join(urls) + "\n</urlset>\n")
+
+
 def main():
     bundle()
     content = load_content()
+    CONTENT.update(content)
     only = [x for x in os.environ.get("LANGS", "").split(",") if x]
     languages = [x for x in LANGS if x in content]
     build = [x for x in languages if not only or x in only]
-    urls = []
+    keys = ["home", "guides", "debt", "cc", "budget", "loan", "savings", "subs"] + [f"guide:{i}" for i in range(len(content["en"]["guides"]))]
+    P = {k: paths_for(k, languages) for k in keys}
     for lang in build:
         c = content[lang]
-        write(f"{prefix(lang)}index.html", home_page(lang, c, languages))
-        write(f"{prefix(lang)}{c['debt_tool']['slug']}/index.html", debt_tool_page(lang, c, languages))
-        write(f"{prefix(lang)}{c['budget_tool']['slug']}/index.html", budget_tool_page(lang, c, languages))
+        out = lambda key, html: write(f"{prefix(lang)}{P[key][lang]}index.html", html)
+        out("home", home_page(lang, c, languages))
+        out("debt", debt_tool_page(lang, c, languages, P["debt"]))
+        out("budget", budget_tool_page(lang, c, languages, P["budget"]))
+        out("cc", cc_tool_page(lang, c, languages, P["cc"]))
+        out("savings", savings_page(lang, c, languages, P["savings"]))
+        out("subs", subs_page(lang, c, languages, P["subs"]))
         if lang == "tr":
-            write(f"tr/{c['loan_tool']['slug']}/index.html", loan_tool_page(lang, c))
+            out("loan", loan_tool_page(lang, c, languages, P["loan"]))
             csv_template(c)
+        else:
+            out("loan", loan_calc_page(lang, c, languages, P["loan"]))
+        out("guides", guides_index_page(lang, c, languages, P["guides"]))
+        for i in range(len(c["guides"])):
+            out(f"guide:{i}", guide_page(lang, c, i, languages, P[f"guide:{i}"]))
     write("404.html", not_found_page(content["en"], languages))
-    # Sitemap: every page with its language versions.
-    entries = []
-    for key in ("", "debt", "budget"):
-        for lang in languages:
-            c = content[lang]
-            path = {"": "", "debt": f"{c['debt_tool']['slug']}/", "budget": f"{c['budget_tool']['slug']}/"}[key]
-            alts = "".join(
-                f'<xhtml:link rel="alternate" hreflang="{x}" href="{BASE_URL}/{prefix(x)}'
-                f'{ {"": "", "debt": content[x]["debt_tool"]["slug"] + "/", "budget": content[x]["budget_tool"]["slug"] + "/"}[key] }"/>'
-                for x in languages)
-            entries.append(f"<url><loc>{BASE_URL}/{prefix(lang)}{path}</loc><lastmod>{BUILD_DATE}</lastmod>{alts}</url>")
-    entries.append(f"<url><loc>{BASE_URL}/tr/{content['tr']['loan_tool']['slug']}/</loc><lastmod>{BUILD_DATE}</lastmod></url>")
-    for extra in ("privacy-policy.html", "terms-of-service.html"):
-        entries.append(f"<url><loc>{BASE_URL}/{extra}</loc></url>")
-    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
-          'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + "\n".join(entries) + "\n</urlset>\n")
+    # Sitemaps: one per language, every page with its language versions, under one index.
+    files = []
+    for lang in languages:
+        urls = []
+        for k in keys:
+            alts = "".join(f'<xhtml:link rel="alternate" hreflang="{x}" href="{BASE_URL}/{prefix(x)}{P[k][x]}"/>' for x in languages)
+            alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{BASE_URL}/{P[k]["en"]}"/>'
+            urls.append(f"<url><loc>{BASE_URL}/{prefix(lang)}{P[k][lang]}</loc><lastmod>{BUILD_DATE}</lastmod>{alts}</url>")
+        if lang == "en":
+            urls += [f"<url><loc>{BASE_URL}/{x}</loc></url>" for x in ("privacy-policy.html", "terms-of-service.html")]
+        files.append(f"sitemaps/{lang.lower()}.xml")
+        sitemap(files[-1], urls)
+    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+          "\n".join(f"<sitemap><loc>{BASE_URL}/{f}</loc><lastmod>{BUILD_DATE}</lastmod></sitemap>" for f in files) + "\n</sitemapindex>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /site/\n\nSitemap: {BASE_URL}/sitemap.xml\n")
-    print("built", len(build), "languages")
+    print("built", len(build), "languages,", len(keys), "pages each")
 
 
 if __name__ == "__main__":

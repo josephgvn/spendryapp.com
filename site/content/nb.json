@@ -327,5 +327,676 @@
     "I Spendry får hver kategori et månedlig budsjett som fylles opp etter hvert som du handler, med varsling før du overskrider grensen."
    ]
   ]
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Snøball vs. snøskred: Hva nedbetaler gjeld raskest?",
+   "description": "Snøball tar minste saldo først, snøskred høyeste rente. Se forskjellen, hva som sparer mest renter, og hvordan du følger metodene.",
+   "h1": "Gjeldssnøball vs. snøskred: Hvilken bør du velge?",
+   "intro": [
+    "Begge metoder betaler minstebeløpet på all gjeld og legger alt ekstra inn mot én utvalgt post. Forskjellen er bare hvilken gjeld som får ekstrapengene først.",
+    "Snøballmetoden starter med den minste saldoen, slik at du raskt blir kvitt en gjeldspost og holder motivasjonen oppe. Snøskredmetoden starter med den høyeste renten, slik at du betaler minst mulig renter totalt."
+   ],
+   "steps_title": "Følg en nedbetalingsplan i Spendry",
+   "steps": [
+    "Legg til hvert kort, lån og avdrag med saldo, rente og minstebeløp.",
+    "Åpne Gjeld og velg metoden Snøball eller Snøskred.",
+    "Skriv inn hvor mye ekstra du kan betale utover minstebeløpene hver måned.",
+    "Spendry sorterer gjelden din og viser måneden du blir gjeldfri, med påminnelse før hver betaling."
+   ],
+   "example_title": "Et eksempel",
+   "example": "Tre gjeldsposter: 1 200 til 24 %, 4 000 til 18 % og 9 000 til 9 %, med 300 ekstra hver måned. Snøskred fjerner kortet på 24 % først og koster minst i renter. Snøball fjerner saldoen på 1 200 først, slik at en hel gjeldspost forsvinner på få måneder. Sluttdatoene skiller ofte bare en måned eller to.",
+   "tip": "Hvis datoene er nesten like, velg metoden du klarer å holde deg til. Den beste planen er den du faktisk følger.",
+   "faq": [
+    {
+     "q": "Hvilken metode sparer mest penger?",
+     "a": "Snøskred, fordi den dyreste gjelden krymper først. Hvor mye du sparer, avhenger av hvor stor forskjell det er på rentene dine."
+    },
+    {
+     "q": "Kan jeg bytte metode senere?",
+     "a": "Ja. Du kan bytte metode i Spendry når som helst, og planen og datoen for gjeldfrihet oppdateres med en gang."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Bli kvitt kredittkortgjeld raskere: 4 gode vaner",
+   "description": "Enkle grep for å nedbetale kredittkortgjeld raskere: betal mer enn minstebeløpet, kutt rentetoppen og unngå nye renter.",
+   "h1": "Slik nedbetaler du kredittkortgjeld raskere",
+   "intro": [
+    "Kredittkortgjeld vokser fordi rentene legges til hver måned på beløpet som gjenstår. Hver ekstra innbetaling gjør saldoen som renteberegnes mindre.",
+    "Fire vaner utgjør den største forskjellen: betal mer enn minstebeløpet, betal alltid i tide, rett ekstrapenger mot den høyeste renten, og stopp nye kjøp du ikke kan betale fullt ut."
+   ],
+   "steps_title": "Gjør det med Spendry",
+   "steps": [
+    "Legg inn kortene dine med saldo, rentesats, fakturadato og forfallsdato.",
+    "Sett et fast månedsbeløp over minstebeløpene, og velg snøskredmetoden.",
+    "Slå på påminnelser så du rekker hvert forfall, selv når appen er lukket.",
+    "Sjekk Gjeld hver måned for å se at saldoen synker og at Din gjeldfrie dato nærmer seg."
+   ],
+   "example_title": "Et eksempel",
+   "example": "En saldo på 3 000 til 22 % rente tar godt over ti år med minstebeløp på rundt 2,5 %. Et fast beløp på 175 hver måned fjerner gjelden på under to år.",
+   "tip": "Når du får skattepenger eller en bonus, legg en del inn på kortet med høyest rente. Én ekstra innbetaling kan kutte måneder av planen.",
+   "faq": [
+    {
+     "q": "Bør jeg betale høyeste rente eller laveste saldo først?",
+     "a": "Høyeste rente sparer mest penger. Laveste saldo gir en rask seier. Spendry viser sluttdatoen for begge deler, slik at du kan sammenligne."
+    },
+    {
+     "q": "Bør jeg fortsette å bruke kortet mens jeg betaler ned?",
+     "a": "Bare til kjøp du kan betale i sin helhet før forfall. Nye rentebærende kjøp skyver datoen for gjeldfrihet lenger unna."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Kredittkort: Fellen ved å bare betale minstebeløp",
+   "description": "Å betale kun minstebeløpet holder kortet i orden, men mesteparten går til renter. Se hvor lenge det tar og hva litt ekstra utgjør.",
+   "h1": "Hva skjer om du bare betaler minstebeløpet?",
+   "intro": [
+    "Minstebeløpet hindrer gebyrer og betalingsanmerkninger, men en stor del går rett til renter. Etter hvert som saldoen synker, blir minstebeløpet lavere, og gjelden kan dra ut i årevis.",
+    "Et lite ekstra beløp hver måned endrer alt: mer av betalingen går til selve gjelden, og sluttdatoen rykker mange år nærmere."
+   ],
+   "steps_title": "Se dine egne tall",
+   "steps": [
+    "Bruk vår gratis kredittkortkalkulator her på siden for å sammenligne minstebeløp med et fast månedsbeløp.",
+    "Legg inn kortet i Spendry med rentesats og minstebeløp.",
+    "Sett et fast ekstrabeløp du klarer hver måned, og se datoen for gjeldfrihet oppdatere seg."
+   ],
+   "example_title": "Et eksempel",
+   "example": "En saldo på 3 000 til 22 % rente med minstebeløp på rundt 2,5 % kan ta mer enn ti år å betale ned, og koste mer i renter enn den opprinnelige gjelden. Et fast beløp på 175 hver måned fjerner den på under to år.",
+   "tip": "Hvis du ikke kan betale mer akkurat nå, sett opp minstebeløpet som en fast betaling i nettbanken så du aldri er for sen, og betal ekstra når du har mulighet.",
+   "faq": [
+    {
+     "q": "Skader det kredittverdigheten å bare betale minstebeløpet?",
+     "a": "Å betale minstebeløpet i tide holder kontoen ajour. Høy gjeldsgrad kan likevel telle negativt, så det lønner seg å betale ned på saldoen."
+    },
+    {
+     "q": "Hvordan beregnes minstebeløpet?",
+     "a": "Det varierer fra bank til bank: som oftest en fast prosentsats av saldoen eller et fast minstebeløp, avhengig av hva som er høyest. Fakturaen viser det nøyaktige beløpet."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Fakturadato vs. forfallsdato på kredittkort: Når betale?",
+   "description": "Fakturadatoen avslutter perioden din, forfallsdatoen er siste frist. Slik fungerer forskjellene og slik unngår du unødvendige renter.",
+   "h1": "Fakturadato vs. forfallsdato: Når bør du betale?",
+   "intro": [
+    "Kortets fakturadato er dagen perioden avsluttes og regningen beregnes. Forfallsdatoen kommer noen uker senere, og er siste frist for å betale regningen i tide.",
+    "Betaler du hele fakturabeløpet innen forfall, slipper du renter på varekjøp hos de fleste kort. Betaler du mindre, løper det renter på restbeløpet."
+   ],
+   "steps_title": "Glem aldri et forfall med Spendry",
+   "steps": [
+    "Legg til kortet med fakturadato og forfallsdato.",
+    "Spendry viser hva som forfaller på Hjem-skjermen og under Påminnelser.",
+    "Få et varsel før forfallsdatoen, og marker som betalt eller utsett direkte fra varselet."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Kjøp du gjør like etter fakturadatoen gir lengst rentefri kreditt, fordi beløpet først havner på neste måneds regning.",
+   "faq": [
+    {
+     "q": "Hva skjer om forfallsdatoen er i en helg?",
+     "a": "Mange banker flytter fristen til neste virkedag, men reglene varierer. Å betale en dag eller to i forveien er alltid det tryggeste valget."
+    },
+    {
+     "q": "Kan jeg betale før fakturadatoen?",
+     "a": "Ja. Betaler du tidlig, reduserer du saldoen på din neste faktura."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "Holde oversikt over delbetaling og avdrag på iPhone",
+   "description": "Samle alle delbetalinger på ett sted: restbeløp, gjenværende terminer og neste forfall, med faste påminnelser før hver betaling.",
+   "h1": "Slik holder du oversikt over delbetalinger på iPhone",
+   "intro": [
+    "Å dele opp en betaling kan virke rimelig i øyeblikket, men flere parallelle avdrag kan fort ta en stor del av månedsbudsjettet uten at du merker det.",
+    "Når du følger hver nedbetalingsplan med gjenværende avdrag, ser du den reelle månedskostnaden og måneden du blir ferdig."
+   ],
+   "steps_title": "Hold oversikt over avdrag i Spendry",
+   "steps": [
+    "Legg til et avdrag med totalbeløp, antall betalinger og første forfallsdato.",
+    "Se alle planer med hva som er betalt, hva som gjenstår og neste forfallsdato.",
+    "Få en påminnelse før hver betaling, og se avdragene inkludert i Din gjeldfrie dato sammen med kort og lån."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Før du starter en ny delbetaling, legg sammen det du allerede betaler på. Hvis totalen blir for tung i en stram måned, bør du vente.",
+   "faq": [
+    {
+     "q": "Telles avdrag med i datoen for når jeg er gjeldfri?",
+     "a": "Ja. Spendry inkluderer dem sammen med kort og lån, slik at du får hele det økonomiske bildet."
+    },
+    {
+     "q": "Kan jeg spore rentefrie delbetalinger?",
+     "a": "Ja. La renten stå på null, så teller Spendry ganske enkelt ned avdragene for deg."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "Aldri gå glipp av en regning: Påminnelser på iPhone",
+   "description": "Få faste påminnelser for regninger, kort og abonnementer. Få varsel før forfall og marker som betalt med ett enkelt trykk.",
+   "h1": "Slik unngår du forsinkede regninger",
+   "intro": [
+    "Purregebyrer og forsinkelsesrenter skyldes som oftest glemsel, ikke mangel på penger. En påminnelse noen dager før forfall løser det meste.",
+    "Nøkkelen er å samle alle utgifter på ett sted: husleie, strøm, mobil, kredittkort, lån og abonnementer."
+   ],
+   "steps_title": "Sett det opp i Spendry",
+   "steps": [
+    "Legg til hver regning og hvert abonnement med beløp, forfallsdato og intervall.",
+    "Velg hvor mange dager før forfallsdatoen du vil ha en påminnelse.",
+    "Påminnelsene kommer opp selv om appen er lukket. Marker som betalt eller utsett direkte fra varselet."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Legg til en widget for kommende betalinger på Hjem-skjermen, så har du full oversikt over neste ukes regninger hver gang du låser opp telefonen.",
+   "faq": [
+    {
+     "q": "Får jeg påminnelser selv om jeg aldri åpner appen?",
+     "a": "Ja. Spendry planlegger dem lokalt på din iPhone, så de varsles selv om appen ikke er i bruk."
+    },
+    {
+     "q": "Kan jeg se alt som forfaller denne uken?",
+     "a": "Ja. Skjermen Påminnelser viser hva som kommer, og en valgfri morgenautomatisering kan oppsummere de neste tre dagene i ett enkelt varsel."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "Oversikt over abonnementer på iPhone: Kutt kostnader",
+   "description": "Finn ut hva abonnementene dine koster hver måned og hvert år. Få varsel før fornyelse og finn ut hva du trygt kan si opp.",
+   "h1": "Slik får du oversikt og kutter i abonnementer",
+   "intro": [
+    "Abonnementer er enkle å starte, men like enkle å glemme. Mange små månedlige trekk blir til sammen store summer i løpet av et år.",
+    "Å se totalsummen, både per måned og per år, er ofte nok til å oppdage to eller tre tjenester du egentlig ikke bruker lenger."
+   ],
+   "steps_title": "Hold oversikt over abonnementer i Spendry",
+   "steps": [
+    "Legg til hvert abonnement med pris og betalingsintervall: ukentlig, månedlig eller årlig.",
+    "Spendry viser månedlig og årlig totalsum samt neste fornyelsesdato.",
+    "Få en påminnelse før hver fornyelse, så du rekker å si opp i tide."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Prøv vår abonnementskalkulator her på siden: legg inn faste trekk og se totalsummen per år på få sekunder.",
+   "faq": [
+    {
+     "q": "Sier Spendry opp abonnementene for meg?",
+     "a": "Nei. Spendry kobler seg aldri til bankkontoene dine. Appen minner deg på fornyelsen, så du selv kan si opp hos leverandøren."
+    },
+    {
+     "q": "Kan jeg også legge inn årlige abonnementer?",
+     "a": "Ja. Spendry håndterer ukentlige, månedlige og årlige perioder, og regner alt om til et månedlig snitt."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "Sette opp månedsbudsjett: En enkel guide som fungerer",
+   "description": "En enkel måte å lage et månedsbudsjett på: ta utgangspunkt i inntekten, dekk faste utgifter først, sett sparemål og hold budsjettet.",
+   "h1": "Slik lager du et månedsbudsjett som fungerer",
+   "intro": [
+    "Et budsjett er en plan for inntekten din før måneden starter. Begynn med det du får utbetalt etter skatt, og bestem deretter hvor pengene skal gå.",
+    "Et godt utgangspunkt er omtrent halvparten til faste behov som bolig og regninger, en tredjedel til ønsker, og resten til sparing og nedbetaling av gjeld. Tilpass det til din hverdag."
+   ],
+   "steps_title": "Bygg det i Spendry",
+   "steps": [
+    "Legg inn din månedlige inntekt.",
+    "Opprett budsjetter for kategoriene du bruker mest penger på, med en fast beløpsgrense for hver.",
+    "Budsjettene fylles opp etter hvert som du legger inn utgifter, og Spendry varsler deg før en grense nås.",
+    "På slutten av måneden sjekker du grafene og justerer grensene for neste måned."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Bruk den gratis budsjettkalkulatoren her på nettsiden for å fordele inntekten din før du setter grensene.",
+   "faq": [
+    {
+     "q": "Hvor mange kategorier bør et budsjett ha?",
+     "a": "Start med fem til åtte, for eksempel bolig, regninger, dagligvarer, transport, restaurantbesøk, shopping og sparing. Legg bare til flere hvis du trenger det."
+    },
+    {
+     "q": "Hva gjør jeg hvis jeg overskrider et budsjett?",
+     "a": "Flytt penger fra en annen kategori, eller ta lærdommen med deg inn i neste måned. Et budsjett er en rettesnor du justerer underveis, ikke en fasit."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Bli gjeldfri: Slik finner du datoen din | Spendry",
+   "description": "Din gjeldfrie dato er måneden du er helt gjeldfri. Se hvordan du regner den ut, og hvordan ekstra innbetalinger gjør deg gjeldfri raskere.",
+   "h1": "Slik finner du din gjeldfrie dato",
+   "intro": [
+    "Din gjeldfrie dato er måneden da den siste saldoen din når null. Den avhenger av hva du skylder, rentene og hvor mye du betaler hver måned.",
+    "Når du kjenner datoen, blir et vagt mål til en fast tidsfrist. Samtidig ser du nøyaktig hva en ekstra innbetaling er verdt."
+   ],
+   "steps_title": "Finn datoen din i Spendry",
+   "steps": [
+    "Legg til all gjeld: kredittkort, lån, avdrag, kassekreditt og penger du skylder venner.",
+    "Skriv inn saldo, rente og månedlig betaling for hver post.",
+    "Spendry regner ut måneden du blir gjeldfri, og oppdaterer den hver gang du betaler eller legger til ny gjeld."
+   ],
+   "example_title": "Prøv det nå",
+   "example": "Den gratis gjeldsnedbetalingskalkulatoren på denne siden fungerer på samme måte: Legg inn gjelden din og et ekstra månedlig beløp, og se datoen din med både snøball- og snøskredmetoden.",
+   "tip": "Sjekk datoen etter hver lønning. Å se at den rykker nærmere, er den beste motivasjonen du kan få.",
+   "faq": [
+    {
+     "q": "Hvorfor endrer den gjeldfrie datoen seg?",
+     "a": "Den rykker nærmere når du betaler ekstra, og lenger unna når du får ny gjeld eller betaler mindre. Spendry regner den ut på nytt hver gang."
+    },
+    {
+     "q": "Kan jeg ta med penger jeg skylder en venn?",
+     "a": "Ja. Legg det til som en personlig gjeld uten renter."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "Spor forbruk uten bankinnlogging på iPhone",
+   "description": "Du trenger ikke gi en app bankinnloggingen din. Før utgifter på sekunder, skann kvitteringer og behold dataene på din egen iPhone.",
+   "h1": "Slik fører du forbruk uten bankinnlogging",
+   "intro": [
+    "Mange økonomiapper ber om bankinnloggingen din. Hvis du vil holde den for deg selv, kan du likevel ha full oversikt på noen få sekunder om dagen.",
+    "Når du fører utgiftene selv, legger du også merke til hva du faktisk bruker. Det er ofte hele poenget med å føre regnskap."
+   ],
+   "steps_title": "Slik fungerer det i Spendry",
+   "steps": [
+    "Legg til utgift på noen sekunder: Skriv inn beløpet og velg kategori, eller skann kvittering.",
+    "Slå på den ferdige Apple Pay-automatiseringen i Snarveier-appen, så lagres kortbetalinger automatisk med butikkens navn.",
+    "Oppføringene dine blir værende på din iPhone og synkroniseres via din egen iCloud. Spendry ser dem aldri."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Legg inn utgiften med en gang du betaler. Venter du til senere, er det lett å glemme kjøpet.",
+   "faq": [
+    {
+     "q": "Er det trygt uten banktilkobling?",
+     "a": "Det finnes ingen bankinnlogging som kan lekke. Spendry lagrer oppføringene dine på enheten din og i iCloud, og du kan låse appen med Face ID."
+    },
+    {
+     "q": "Kan jeg importere transaksjoner?",
+     "a": "Ja. Importer dem fra bankmeldinger eller med automatiseringer i Snarveier, helt uten å dele bankinnlogging."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Budsjett-widgets for Hjem-skjerm på iPhone",
+   "description": "Se saldo, budsjetter, mål og kommende regninger på Hjem-skjermen og Låst skjerm. Legg til en utgift uten å åpne appen.",
+   "h1": "Budsjett-widgets for Hjem-skjermen på iPhone",
+   "intro": [
+    "En widget holder oversikten over pengene dine synlig uten at du må åpne en app. Ett blikk på Hjem-skjermen viser hva du har igjen i budsjettet, og hva som forfaller neste gang.",
+    "Spendry har widgets for saldo, budsjetter, mål, gjeld, kontantstrøm og kommende betalinger, i størrelser for både Hjem-skjermen og Låst skjerm."
+   ],
+   "steps_title": "Legg til en Spendry-widget",
+   "steps": [
+    "Trykk og hold på et tomt område på Hjem-skjermen, trykk på Rediger og deretter på Legg til widget.",
+    "Søk etter Spendry og velg en widget og en størrelse.",
+    "Trykk og hold på widgeten, og trykk på Rediger widget for å velge hvilket budsjett, mål eller hvilken konto den skal vise."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Plasser widgeten for kommende betalinger på den første siden på Hjem-skjermen. Forfallsdatoer er det enkleste å glemme.",
+   "faq": [
+    {
+     "q": "Kan jeg legge til en utgift direkte fra en widget?",
+     "a": "Ja. Snarveiswidgeten åpner direkte en ny utgift, slik at registreringen bare tar noen få sekunder."
+    },
+    {
+     "q": "Oppdaterer widgetene seg automatisk?",
+     "a": "Ja. De oppdateres etter hvert som du legger inn nye oppføringer, og jevnlig gjennom dagen."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "Slik sparer du til et mål og når det",
+   "description": "Sett et målbeløp og en dato, spar et fast beløp hver måned og følg fremgangen. En enkel metode for ferie, bil eller bufferkonto.",
+   "h1": "Slik sparer du til et mål og når det",
+   "intro": [
+    "Et mål med et fast beløp og en dato er mye lettere å nå enn et vagt ønske. Del beløpet du trenger på antall måneder du har, så vet du nøyaktig hva du må spare hver måned.",
+    "Sparer du med en gang lønnen kommer, før du begynner å bruke penger, går sparingen helt av seg selv."
+   ],
+   "steps_title": "Spar med Spendry",
+   "steps": [
+    "Opprett et mål med beløpet du trenger og datoen du vil nå det innen.",
+    "Legg til penger i målet hver gang du sparer, så viser Spendry hvor nær du er.",
+    "Del et mål med partneren din eller familien via iCloud og spar sammen."
+   ],
+   "example_title": "Et eksempel",
+   "example": "For å spare 6 000 på 12 måneder trenger du 500 i måneden. Har du allerede spart 1 200, synker beløpet til 400.",
+   "tip": "Start med en bufferkonto tilsvarende én måneds utgifter, og bygg den deretter opp til tre måneder.",
+   "faq": [
+    {
+     "q": "Hvor stor bør en bufferkonto være?",
+     "a": "Tre til seks måneders faste utgifter er et vanlig råd. Start med én måned, og bygg videre derfra."
+    },
+    {
+     "q": "Kan jeg spare til flere mål samtidig?",
+     "a": "Ja. Opprett så mange mål du vil, og følg utviklingen for hvert enkelt."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "Spor lån og se hva du egentlig betaler",
+   "description": "Hold oversikt over billån, forbrukslån og boliglån: restgjeld, gjenstående avdrag, renter og sluttdato, med påminnelse før hver betaling.",
+   "h1": "Slik sporer du et lån og ser hva du egentlig betaler",
+   "intro": [
+    "Det månedlige terminbeløpet på et lån skjuler to viktige ting: hvor mye som er renter, og hvor mange betalinger du har igjen. Å følge med på begge deler viser den reelle kostnaden.",
+    "Tidlig i lånets løpetid går mesteparten av innbetalingen til renter, mens mer går til selve avdraget senere. Derfor sparer du mest renter ved å betale ekstra tidlig."
+   ],
+   "steps_title": "Følg lånet i Spendry",
+   "steps": [
+    "Legg inn lånet med lånebeløp, rente, løpetid og dato for første innbetaling.",
+    "Se restgjelden, hvor mange avdrag som gjenstår, og måneden lånet er nedbetalt.",
+    "Få en påminnelse før hver forfallsdato, og ta lånet med i planen din for å bli gjeldfri."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Bruk den gratis lånekalkulatoren på denne siden for å se terminbeløpet og de totale rentekostnadene før du signerer.",
+   "faq": [
+    {
+     "q": "Lønner det seg å nedbetale et lån raskere?",
+     "a": "Hvis renten er høy og det ikke koster noe å innfri lånet tidlig, sparer du renteutgifter på å betale ekstra. Sjekk lånevilkårene dine først."
+    },
+    {
+     "q": "Kan jeg legge inn et boliglån?",
+     "a": "Ja. Legg det inn som et lån med rente og løpetid."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "Spor nettoformue på iPhone | Spendry",
+   "description": "Nettoformue er alt du eier minus det du skylder. Hold oversikt over sparing, investeringer, gull og gjeld på ett sted, og se formuen vokse.",
+   "h1": "Slik sporer du nettoformuen din",
+   "intro": [
+    "Nettoformue er alt du eier minus alt du skylder. Det er det ene tallet som viser om privatøkonomien din beveger seg i riktig retning over tid.",
+    "Det holder å sjekke tallet én gang i måneden for å se den langsiktige trenden, selv om en enkeltmåned skulle svinge."
+   ],
+   "steps_title": "Hold oversikten i Spendry",
+   "steps": [
+    "Legg inn bankkontoer og sparepenger.",
+    "Legg inn investeringene dine: Aksjer, krypto, gull og valutaer vises med sanntidskurser.",
+    "Legg inn gjelden din. Spendry regner ut nettoformuen din og viser hvordan den utvikler seg over tid."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Å betale ned på gjeld øker nettoformuen din på nøyaktig samme måte som sparing.",
+   "faq": [
+    {
+     "q": "Bør jeg ta med boligen eller bilen min?",
+     "a": "Du kan gjøre det, men mange velger å bare spore kontanter, investeringer og gjeld, siden disse verdiene endrer seg fra måned til måned."
+    },
+    {
+     "q": "Hvor ofte oppdateres investeringskursene?",
+     "a": "Spendry viser oppdaterte kurser for aksjer, krypto, edle metaller og valutaer."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "Delt budsjett med partner på iPhone",
+   "description": "Del et budsjett eller et sparemål med partneren din via iCloud. Begge legger inn utgifter og ser de samme tallene, uten felles innlogging.",
+   "h1": "Slik deler du et budsjett med partneren din",
+   "intro": [
+    "Det er enklere å snakke om penger når begge ser de samme tallene. Et delt budsjett viser hva dere har brukt og hva som er igjen, uten at noen trenger å passe på den andre.",
+    "Hold personlige utgifter for dere selv, og del bare det dere betaler sammen, som husleie, dagligvarer og ferier."
+   ],
+   "steps_title": "Del det i Spendry",
+   "steps": [
+    "Opprett et budsjett eller et mål, og velg å dele det.",
+    "Inviter partneren din eller familien via iCloud-deling.",
+    "Begge kan legge inn utgifter, og endringene dukker opp på alles enheter med en gang."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Bli enige om hvilke kategorier dere vil dele før dere starter, og gå gjennom dem sammen én gang i måneden.",
+   "faq": [
+    {
+     "q": "Kan partneren min se alle mine personlige utgifter?",
+     "a": "Nei. De ser bare det du velger å dele. Dine andre budsjetter og kontoer forblir helt private."
+    },
+    {
+     "q": "Må begge to ha Spendry?",
+     "a": "Ja. Begge bruker Spendry på sin egen iPhone, og det delte budsjettet synkroniseres automatisk via iCloud."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Registrer Apple Pay-kjøp automatisk med Snarveier",
+   "description": "Bruk en ferdig automatisering i Snarveier til å logge Apple Pay-kjøp i Spendry, slik at budsjettene dine oppdateres automatisk.",
+   "h1": "Registrer Apple Pay-kjøp automatisk",
+   "intro": [
+    "Snarveier-appen kan utføre en handling hver gang du betaler med Apple Pay. Spendry bruker dette til å lagre kjøpet for deg med en gang.",
+    "Budsjettene dine holder seg oppdaterte uten at du må skrive inn noe, og du velger kategori bare hvis du vil."
+   ],
+   "steps_title": "Slik slår du det på",
+   "steps": [
+    "Åpne Automatiseringer i Spendry, og velg automatiseringen for Apple Pay.",
+    "Følg instruksjonene for å legge den til i Snarveier-appen.",
+    "Betal med Apple Pay som vanlig. Kjøpet dukker opp i Spendry sammen med butikkens navn."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Legg også til søndagskveldsautomatiseringen for å få en kjapp oppsummering av ukens forbruk.",
+   "faq": [
+    {
+     "q": "Får Spendry tilgang til banken min med dette?",
+     "a": "Nei. Automatiseringen sender bare kjøpsdetaljene som din iPhone allerede viser, som beløp og butikk. Det finnes ingen bankinnlogging."
+    },
+    {
+     "q": "Kan jeg endre kategori på et kjøp senere?",
+     "a": "Ja. Du kan redigere utgiften i Spendry når som helst."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Pengeguider: Budsjetter, nedbetaling av gjeld og regninger",
+  "description": "Korte, praktiske guider om budsjettering, nedbetaling av gjeld, kredittkort, avdrag, abonnementer og det å aldri gå glipp av en regning.",
+  "h1": "Pengeguider",
+  "lead": "Korte, praktiske guider om budsjettering, nedbetaling av gjeld og det å aldri gå glipp av en betaling."
+ },
+ "guide_labels": {
+  "nav": "Guider",
+  "tip": "Tips",
+  "faq": "Spørsmål",
+  "more": "Flere guider",
+  "all": "Alle guider",
+  "tools": "Gratis kalkulatorer",
+  "cta": "Hold oversikt over alt på ett sted. Last ned Spendry gratis på App Store.",
+  "topic_debt": "Gjeld og kredittkort",
+  "topic_bills": "Regninger og abonnementer",
+  "topic_budget": "Budsjettering og sparing",
+  "topic_iphone": "På din iPhone"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Kredittkortkalkulator: Hvor lang tid tar det?",
+  "description": "Gratis kredittkortkalkulator. Legg inn saldo, rente og månedsbeløp for å se din gjeldfrie dato, totale renter og hva minstebeløpet koster.",
+  "h1": "Kredittkortkalkulator",
+  "lead": "Se hvor lang tid det tar å nedbetale et kort og hvor mye renter du betaler, sammenlignet med å bare betale minstebeløpet.",
+  "balance": "Kortsaldo",
+  "rate": "Årlig rente (%)",
+  "payment": "Ditt månedsbeløp",
+  "min_pct": "Minstebeløp (% av saldo)",
+  "months": "Nedbetalt om",
+  "interest": "Totale renter",
+  "date": "Din gjeldfrie dato",
+  "fixed": "Med ditt månedsbeløp",
+  "minimum": "Kun minstebeløp",
+  "never": "Dette beløpet dekker ikke de månedlige rentene. Øk beløpet for å betale ned kortet.",
+  "saved": "Du sparer i renter",
+  "prose": [
+   [
+    "Slik fungerer beregningen",
+    "Hver måned legger kalkulatoren til en måneds rente på saldoen og trekker fra betalingen din, helt til saldoen når null. Sammenligningen med minstebeløpet regner ut nytt minstebeløp hver måned fra den gjenværende saldoen."
+   ],
+   [
+    "Hvorfor minstebeløp tar så lang tid",
+    "Minstebeløpet faller når saldoen faller, så betalingen kommer aldri særlig i forkant av rentene. Et fast beløp sørger for at det samme beløpet jobber med saldoen hver måned."
+   ],
+   [
+    "Gjør det til virkelighet",
+    "Spendry holder planen i gang: legg til kortene dine, bestem hva du kan betale hver måned og få en påminnelse før hver forfallsdato."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Lånekalkulator: Månedlig avdrag og totale renter",
+  "description": "Gratis lånekalkulator for billån, forbrukslån og boliglån. Se månedlig beløp, totale renter og hele nedbetalingsplanen.",
+  "h1": "Lånekalkulator",
+  "lead": "Legg inn lånebeløp, årlig rente og løpetid for å se månedlig beløp, totale renter og hver innbetaling.",
+  "amount": "Lånebeløp",
+  "rate": "Årlig rente (%)",
+  "term": "Løpetid (måneder)",
+  "payment": "Månedlig beløp",
+  "total": "Totalt tilbakebetalt",
+  "interest": "Totale renter",
+  "month": "Måned",
+  "principal": "Avdrag",
+  "interest_col": "Rente",
+  "balance": "Saldo",
+  "show_all": "Vis alle innbetalinger",
+  "show_less": "Vis færre",
+  "prose": [
+   [
+    "Slik beregnes innbetalingen",
+    "Dette er et standard annuitetslån: samme beløp hver måned, med renter beregnet ut fra gjenværende saldo. Tidlige innbetalinger er mest renter, senere innbetalinger er mest avdrag."
+   ],
+   [
+    "Reduser den totale kostnaden",
+    "Kortere løpetid eller lavere rente kutter de totale rentene mest. Ekstra innbetalinger tidlig i lånet hjelper også, hvis långiveren tillater det uten gebyr."
+   ],
+   [
+    "Hold oversikt etter at du har signert",
+    "Legg lånet til i Spendry for å se gjenværende innbetalinger, siste måned og en påminnelse før hver betaling."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Sparemålskalkulator: Hvor mye du bør spare hver måned",
+  "description": "Gratis sparemålskalkulator. Legg inn målet ditt, hva du har og tidsfristen for å se hvor mye du må spare hver måned, med valgfri rente.",
+  "h1": "Sparemålskalkulator",
+  "lead": "Finn ut hvor mye du må sette til side hver måned for å nå målet ditt i tide.",
+  "goal": "Sparemål",
+  "have": "Spart hittil",
+  "months": "Måneder til målet",
+  "rate": "Årlig sparerente (%)",
+  "monthly": "Spar hver måned",
+  "weekly": "Det er omtrent ukentlig",
+  "total_in": "Du setter inn",
+  "earned": "Renteinntekter",
+  "done": "Du har allerede nådd dette målet.",
+  "prose": [
+   [
+    "Slik fungerer det",
+    "Kalkulatoren fordeler det som gjenstår av målet ditt over månedene du har. Med en rente gir pengene du sparer avkastning hver måned, slik at du må sette inn litt mindre selv."
+   ],
+   [
+    "Gjør det enklere",
+    "Spar rett etter lønningsdag og behandle det som en regning. Et delt mål med partneren din kan få det til å gå raskere."
+   ],
+   [
+    "Følg fremgangen din",
+    "Opprett målet i Spendry og se hvor nær du er hver gang du legger til penger."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Abonnementskalkulator: Hva du betaler i året",
+  "description": "Gratis abonnementskalkulator. Legg inn abonnementene dine med pris og intervall for å se hva de koster hver måned, hvert år og over fem år.",
+  "h1": "Abonnementskalkulator",
+  "lead": "Før opp abonnementene dine og se den virkelige månedlige og årlige totalsummen.",
+  "name": "Abonnement",
+  "price": "Pris",
+  "cycle": "Fakturering",
+  "weekly": "Ukentlig",
+  "monthly": "Månedlig",
+  "yearly": "Årlig",
+  "add": "Legg til abonnement",
+  "remove": "Fjern",
+  "per_month": "Per måned",
+  "per_year": "Per år",
+  "five_years": "Over 5 år",
+  "samples": [
+   "Musikkstrømming",
+   "Videostrømming",
+   "Skylagring",
+   "Treningssenter",
+   "Nyhetsapp"
+  ],
+  "prose": [
+   [
+    "Hvorfor den årlige totalsummen betyr noe",
+    "En lav månedssum ser uskyldig ut. Ganget med tolv, og med alle abonnementene du har, viser det seg ofte å være en av de største faste utgiftene dine."
+   ],
+   [
+    "Hva du bør gjøre med tallet",
+    "Sorter etter pris og spør deg selv for hvert enkelt: brukte jeg det forrige måned? Avslutt det du ikke bruker, og sett en påminnelse før fornyelsene du beholder."
+   ],
+   [
+    "Aldri gå glipp av en fornyelse",
+    "Spendry holder oversikt over abonnementene dine, legger dem til i månedssummen din og minner deg på dem før hver fornyelse."
+   ]
+  ]
  }
 }

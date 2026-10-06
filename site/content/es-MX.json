@@ -327,5 +327,676 @@
     "En Spendry cada categoría cuenta con un presupuesto mensual que se actualiza con cada compra, avisándote a tiempo antes de que gastes de más."
    ]
   ]
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Bola de nieve vs. avalancha: ¿cuál liquida deudas más rápido?",
+   "description": "La bola de nieve paga primero el saldo menor y la avalancha el interés más alto. Descubre cuál te ahorra más dinero y cómo aplicarlas.",
+   "h1": "Bola de nieve vs. avalancha: ¿cuál deberías usar?",
+   "intro": [
+    "Ambos métodos pagan el mínimo en cada deuda y destinan todo el dinero extra a una sola. La única diferencia es a cuál deuda le das ese dinero extra primero.",
+    "La bola de nieve empieza por el saldo más pequeño para liquidar una deuda rápido y mantenerte motivado. La avalancha empieza por la tasa de interés más alta para pagar menos intereses en total."
+   ],
+   "steps_title": "Sigue un plan de pagos en Spendry",
+   "steps": [
+    "Agrega cada tarjeta, préstamo y cuota con su saldo, tasa de interés y pago mínimo.",
+    "Abre Deudas y elige el método de Bola de Nieve o Avalancha.",
+    "Indica cuánto puedes pagar al mes además de los pagos mínimos.",
+    "Spendry ordena tus deudas y calcula el mes en que quedarás libre de deudas, con un recordatorio antes de cada pago."
+   ],
+   "example_title": "Un ejemplo",
+   "example": "Tres deudas: 1,200 al 24%, 4,000 al 18% y 9,000 al 9%, con 300 extra cada mes. La avalancha liquida primero la tarjeta del 24% y ahorra más intereses. La bola de nieve liquida primero el saldo de 1,200, por lo que una deuda desaparece en pocos meses. La meta final suele estar a solo uno o dos meses de diferencia.",
+   "tip": "Si las fechas finales son muy cercanas, elige el método que te sea más fácil seguir. El mejor plan es el que cumples mes con mes.",
+   "faq": [
+    {
+     "q": "¿Qué método ahorra más dinero?",
+     "a": "La avalancha, porque reduces primero la deuda más cara. El ahorro depende de qué tan distintas sean tus tasas de interés."
+    },
+    {
+     "q": "¿Puedo cambiar de método después?",
+     "a": "Sí. Puedes cambiar de método en Spendry cuando quieras y el plan, junto con Tu fecha para estar libre de deudas, se actualizarán al instante."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Cómo pagar tarjetas de crédito más rápido: 4 hábitos",
+   "description": "Pasos prácticos para liquidar tarjetas de crédito rápido: paga más del mínimo, ataca la tasa más alta, no te retrases y frena compras extras.",
+   "h1": "Cómo liquidar las deudas de tus tarjetas de crédito más rápido",
+   "intro": [
+    "La deuda de tarjeta de crédito crece porque los intereses se calculan cada mes sobre el saldo pendiente. Cada abono extra reduce la base sobre la que se cobran intereses.",
+    "Cuatro hábitos marcan la diferencia: paga más del mínimo, nunca pagues tarde, enfoca el dinero extra en la tasa más alta y deja de hacer compras que no puedas liquidar en el mes."
+   ],
+   "steps_title": "Logralo con Spendry",
+   "steps": [
+    "Agrega tus tarjetas con su saldo, tasa de interés, fecha de corte y fecha límite de pago.",
+    "Fija un monto mensual superior a los mínimos y elige el método Avalancha.",
+    "Activa los recordatorios para no olvidar ningún pago, incluso con la app cerrada.",
+    "Revisa la pestaña Deudas cada mes para ver cómo baja tu saldo y cómo se acerca Tu fecha para estar libre de deudas."
+   ],
+   "example_title": "Un ejemplo",
+   "example": "Un saldo de 3,000 al 22% tarda más de diez años si solo cubres mínimos de alrededor del 2.5%. Un pago fijo de 175 cada mes lo liquida en menos de dos años.",
+   "tip": "Si recibes un dinero extra o aguinaldo, abónalo a la tarjeta con la tasa de interés más alta. Un solo pago extra puede ahorrarte meses de deudas.",
+   "faq": [
+    {
+     "q": "¿Debo pagar primero la tasa más alta o el saldo menor?",
+     "a": "La tasa más alta te ahorra más intereses. El saldo menor te da una victoria rápida para motivarte. Spendry te muestra Tu fecha para estar libre de deudas con ambos métodos para que los compares."
+    },
+    {
+     "q": "¿Conviene usar la tarjeta mientras la estoy pagando?",
+     "a": "Solo para gastos que puedas pagar por completo antes de la fecha límite de pago. Si sumas nuevos saldos, retrasarás tu meta."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Pagar el mínimo de la tarjeta de crédito: qué pasa",
+   "description": "El pago mínimo mantiene tu cuenta al corriente, pero casi todo se va a intereses. Descubre cuánto tardas y cómo ayuda dar un poco más.",
+   "h1": "Qué pasa cuando solo pagas el mínimo de tu tarjeta",
+   "intro": [
+    "El pago mínimo mantiene tu tarjeta al corriente y sin comisiones por atraso, pero gran parte se va a intereses. Conforme el saldo baja, el mínimo también, y la deuda puede alargarse años.",
+    "Sumar un monto fijo cambia el panorama: una mayor parte del pago reduce el saldo real y tu meta final se adelanta varios años."
+   ],
+   "steps_title": "Calcula tus propios números",
+   "steps": [
+    "Usa la calculadora gratuita en esta página para comparar los pagos mínimos contra una mensualidad fija.",
+    "En Spendry, agrega la tarjeta con su tasa y pago mínimo.",
+    "Define un monto extra constante cada mes y mira cómo se actualiza Tu fecha para estar libre de deudas."
+   ],
+   "example_title": "Un ejemplo",
+   "example": "Un saldo de 3,000 al 22% con pagos mínimos del 2.5% puede tardar más de diez años en liquidarse y costar más en intereses que la deuda inicial. Un abono fijo de 175 al mes lo liquida en menos de dos años.",
+   "tip": "Si no puedes pagar más por ahora, programa el pago mínimo automático en tu banco para no atrasarte nunca, y abona extras cuando te sea posible.",
+   "faq": [
+    {
+     "q": "¿Pagar solo el mínimo afecta mi historial crediticio?",
+     "a": "Pagar a tiempo mantiene tu cuenta al corriente. Sin embargo, mantener un saldo alto eleva tu nivel de endeudamiento, por lo que pagar más ayuda a tu puntaje."
+    },
+    {
+     "q": "¿Cómo se calcula el pago mínimo?",
+     "a": "Depende del banco: suele ser un porcentaje del saldo o un monto base establecido, lo que resulte mayor. Puedes ver el cálculo exacto en tu estado de cuenta."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Fecha de corte vs. fecha de pago: cuándo pagar",
+   "description": "La fecha de corte cierra tus compras del mes; la fecha de pago es el límite para liquidar. Aprende cómo funcionan para pagar a tiempo.",
+   "h1": "Fecha de corte vs. fecha límite de pago: ¿cuándo te conviene pagar?",
+   "intro": [
+    "La fecha de corte de tu tarjeta es el día en que cierra tu periodo de compras y se calcula tu saldo. La fecha límite de pago es unas semanas después y marca el último día para pagar a tiempo.",
+    "Si pagas el total de tu saldo al corte antes de la fecha límite, la mayoría de las tarjetas no te cobran intereses. Si pagas menos, se aplicarán intereses sobre lo que reste."
+   ],
+   "steps_title": "No te pases de la fecha de pago con Spendry",
+   "steps": [
+    "Agrega tu tarjeta con su día de corte y su fecha límite de pago.",
+    "Spendry te muestra tus próximos vencimientos en Inicio y en Recordatorios.",
+    "Recibe un aviso antes de tu fecha límite y marca la cuenta como pagada o posponla directo desde la notificación."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Las compras realizadas justo después de tu fecha de corte tienen el mayor plazo de financiamiento, ya que entran hasta el siguiente estado de cuenta.",
+   "faq": [
+    {
+     "q": "¿Qué pasa si la fecha límite de pago cae en fin de semana?",
+     "a": "Muchos bancos lo pasan al siguiente día hábil, pero las políticas pueden variar. Lo más seguro es pagar uno o dos días antes."
+    },
+    {
+     "q": "¿Puedo pagar antes de mi fecha de corte?",
+     "a": "Sí. Pagar antes ayuda a que tu estado de cuenta cierre con un saldo menor."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "Cómo controlar tus pagos en cuotas en tu iPhone",
+   "description": "Lleva el control de tus compras a meses en un solo lugar: saldo pendiente, pagos restantes y vencimientos, con recordatorios a tiempo.",
+   "h1": "Cómo llevar el control de tus pagos a meses en tu iPhone",
+   "intro": [
+    "Comprar a meses o cuotas parece cómodo, pero juntar varios planes al mismo tiempo puede absorber gran parte de tus ingresos sin que te des cuenta.",
+    "Registrar cada plan con sus cuotas pendientes te permite ver tu gasto mensual real y la fecha exacta en la que terminarás de pagar."
+   ],
+   "steps_title": "Controla tus cuotas en Spendry",
+   "steps": [
+    "Agrega una cuota con el monto total, el número de mensualidades y la fecha del primer abono.",
+    "Consulta cada plan con lo que llevas pagado, el saldo pendiente y la próxima fecha de pago.",
+    "Recibe un aviso antes de cada vencimiento y consulta tus cuotas dentro de Tu fecha para estar libre de deudas, junto a tus tarjetas y préstamos."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Antes de sacar algo más a meses, suma lo que ya pagas. Si el total supera tu presupuesto en un mes difícil, es mejor esperar.",
+   "faq": [
+    {
+     "q": "¿Las compras en cuotas se incluyen en la fecha libre de deudas?",
+     "a": "Sí. Spendry las integra con tus tarjetas y préstamos para darte una fecha real y completa."
+    },
+    {
+     "q": "¿Puedo registrar compras a meses sin intereses?",
+     "a": "Sí. Solo deja la tasa en cero y Spendry llevará la cuenta regresiva de los pagos de forma automática."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "Cómo no olvidar pagar tus servicios: alertas en iPhone",
+   "description": "Programa recordatorios para tus servicios, tarjetas y suscripciones. Recibe alertas antes de la fecha límite y paga a tiempo con un toque.",
+   "h1": "Cómo evitar recargos y no olvidar el pago de tus servicios",
+   "intro": [
+    "Los recargos e intereses casi siempre ocurren por descuidos o falta de tiempo, no por falta de dinero. Una alerta unos días antes de cada fecha límite resuelve el problema.",
+    "La clave es concentrar todos tus pagos en un solo lugar: renta, servicios del hogar, plan del celular, tarjetas, préstamos y suscripciones."
+   ],
+   "steps_title": "Configúralo en Spendry",
+   "steps": [
+    "Agrega cada factura y suscripción con su monto, fecha de vencimiento y periodicidad.",
+    "Elige con cuántos días de anticipación prefieres recibir la notificación.",
+    "Las alertas llegan aunque la app esté cerrada. Puedes marcar el pago como hecho o posponerlo directo desde la notificación."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Agrega el widget de próximos pagos a tu Pantalla de inicio para tener las cuentas de la semana a la vista cada vez que desbloqueas tu teléfono.",
+   "faq": [
+    {
+     "q": "¿Me llegarán las alertas si no abro la app?",
+     "a": "Sí. Spendry programa las notificaciones directamente en tu iPhone para que te lleguen aunque no entres a la app."
+    },
+    {
+     "q": "¿Puedo revisar todo lo que vence esta semana?",
+     "a": "Sí. En Recordatorios verás tus próximas fechas, y puedes usar una automatización matutina opcional para revisar tus gastos de los próximos tres días."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "Controla y cancela suscripciones en tu iPhone",
+   "description": "Descubre cuánto gastas al mes y al año en suscripciones, recibe avisos antes de que renueven y elimina las que ya no utilizas.",
+   "h1": "Cómo controlar y reducir tus suscripciones",
+   "intro": [
+    "Es muy fácil contratar suscripciones y olvidarse de ellas. Varios cobros pequeños al mes pueden sumar un gasto fuerte al final del año.",
+    "Ver la suma de lo que pagas al mes y al año suele ser suficiente para notar dos o tres servicios que ya no necesitas."
+   ],
+   "steps_title": "Controla tus suscripciones en Spendry",
+   "steps": [
+    "Agrega cada suscripción con su costo y frecuencia: semanal, mensual o anual.",
+    "Spendry calcula el total mensual y anual, además de recordarte la próxima fecha de cobro.",
+    "Recibe un aviso antes de cada renovación para que puedas cancelar a tiempo si ya no la quieres."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Prueba la calculadora de costo de suscripciones en esta web: anota lo que pagas y conoce tu gasto anual en segundos.",
+   "faq": [
+    {
+     "q": "¿Spendry cancela las suscripciones por mí?",
+     "a": "No. Spendry no se vincula con tus cuentas bancarias. Te manda una alerta antes de la renovación para que tú canceles con el proveedor del servicio."
+    },
+    {
+     "q": "¿Puedo registrar suscripciones anuales?",
+     "a": "Sí. Spendry admite cobros semanales, mensuales y anuales, integrándolos en tu gasto promedio mensual."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "Cómo hacer un presupuesto mensual que sí funcione",
+   "description": "Una guía fácil para armar tu presupuesto: parte de tus ingresos reales, cubre necesidades, pon topes de gasto y ahorra con claridad.",
+   "h1": "Cómo hacer un presupuesto mensual que realmente funcione",
+   "intro": [
+    "Un presupuesto es un plan para tus ingresos antes de que empiece el mes. Parte de lo que ganas después de impuestos y decide qué camino tomará cada peso.",
+    "Una buena base es destinar la mitad a necesidades como renta y servicios, un tercio a gustos personales y el resto a ahorro o liquidación de deudas. Adáptalo a lo que tú necesitas."
+   ],
+   "steps_title": "Organízalo en Spendry",
+   "steps": [
+    "Registra tu ingreso mensual neto.",
+    "Crea presupuestos con un límite claro para tus categorías de gasto más comunes.",
+    "Tus presupuestos se actualizan conforme sumas gastos, y Spendry te avisa antes de que llegues al tope establecido.",
+    "Al cierre del mes, revisa tus gráficos y ajusta tus límites para el mes siguiente."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Usa la calculadora gratuita de presupuesto mensual en este sitio para organizar tus ingresos antes de definir tus límites de gasto.",
+   "faq": [
+    {
+     "q": "¿Cuántas categorías conviene incluir en un presupuesto?",
+     "a": "Empieza con unas cinco a ocho: vivienda, servicios, súper, transporte, salidas a comer, compras y ahorro. Abre más solo si realmente te hace falta."
+    },
+    {
+     "q": "¿Qué pasa si me paso de mi presupuesto?",
+     "a": "Reasigna dinero de otra categoría o ajusta tus metas el mes entrante. Un presupuesto es una guía flexible para tomar mejores decisiones, no un castigo."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Calcula tu fecha para salir de deudas en iPhone",
+   "description": "Tu fecha para estar libre de deudas es cuando pagas tu último saldo. Descubre cómo calcularla y cómo adelantar pagos para llegar antes.",
+   "h1": "Cómo calcular tu fecha para salir de deudas",
+   "intro": [
+    "Tu fecha para estar libre de deudas es el mes en el que tu último saldo llega a cero. Depende de lo que debes, las tasas de interés y cuánto pagas cada mes.",
+    "Tener una fecha clara convierte un deseo en una meta real, y te muestra el impacto exacto de dar un pago extra."
+   ],
+   "steps_title": "Calcula tu fecha en Spendry",
+   "steps": [
+    "Añade todas tus deudas: tarjetas, préstamos, compras a meses, cuentas en sobregiro y dinero que le debas a conocidos.",
+    "Ingresa cada saldo, la tasa de interés y tu pago mensual.",
+    "Spendry calcula el mes exacto en el que saldrás de deudas y lo actualiza cada vez que abonas o agregas un saldo nuevo."
+   ],
+   "example_title": "Pruébalo ahora",
+   "example": "La calculadora gratis para pagar deudas en este sitio funciona igual: pon tus deudas, suma un pago extra mensual y compara los métodos Bola de Nieve y Avalancha.",
+   "tip": "Revisa tu fecha después de cada quincena. Ver cómo se acerca el día es la mejor motivación.",
+   "faq": [
+    {
+     "q": "Por qué cambia mi fecha para estar libre de deudas?",
+     "a": "Se adelanta cuando das pagos extra y se aleja si sumas deudas o pagas menos del mínimo. Spendry la recalcula en automático."
+    },
+    {
+     "q": "Puedo incluir dinero que le debo a un amigo?",
+     "a": "Sí. Agrégalo como una deuda personal sin intereses."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "Cómo registrar gastos sin conectar tu banco",
+   "description": "No necesitas dar las claves de tu banco para registrar gastos. Añade compras al instante, escanea tickets y cuida tus datos en tu iPhone.",
+   "h1": "Cómo registrar gastos sin conectar tu banco",
+   "intro": [
+    "Muchas aplicaciones de finanzas te piden el usuario y la contraseña de tu banco. Si prefieres no compartirlos, puedes llevar el control de tus gastos en unos segundos al día.",
+    "Anotar tus compras tú mismo también te hace más consciente de lo que gastas, que al final es la meta de llevar un presupuesto."
+   ],
+   "steps_title": "Cómo funciona en Spendry",
+   "steps": [
+    "Registra un gasto en segundos: pon el monto y elige la categoría, o usa Escanear recibo.",
+    "Activa la automatización para Apple Pay con la app Atajos, y tus compras con tarjeta se guardarán solas con el nombre del comercio.",
+    "Tus datos se quedan en tu iPhone y se sincronizan con tu propio iCloud. Spendry nunca tiene acceso a ellos."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Apunta tus compras justo al pagar. Si lo dejas para después, es muy fácil que se te olviden.",
+   "faq": [
+    {
+     "q": "Es seguro si no conecto mi banco?",
+     "a": "Totalmente. Al no ingresar tus contraseñas bancarias no hay riesgo de fugas. Spendry guarda tus registros en tu dispositivo y en iCloud, y puedes activar el Bloqueo de la aplicación con Face ID."
+    },
+    {
+     "q": "Puedo importar movimientos?",
+     "a": "Sí. Puedes importar datos desde las alertas de tu banco o mediante automatizaciones con Atajos, sin dar tus contraseñas."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Widgets de presupuesto para iPhone y pantalla de inicio",
+   "description": "Consulta tu saldo, presupuestos, metas y pagos pendientes en la pantalla de inicio y la pantalla bloqueada, sin abrir la app.",
+   "h1": "Widgets de presupuesto para la pantalla de inicio",
+   "intro": [
+    "Un widget te permite ver tu dinero de un vistazo sin abrir la app. Basta mirar tu pantalla de inicio para saber cuánto te queda en el presupuesto y qué pagos vienen.",
+    "Spendry incluye Widgets para tu saldo, presupuestos, metas, deudas, flujo de dinero y pagos próximos, con varios tamaños para la pantalla de inicio y la pantalla bloqueada."
+   ],
+   "steps_title": "Cómo agregar un widget de Spendry",
+   "steps": [
+    "Mantén presionada una zona vacía de la pantalla de inicio, toca Editar y luego Agregar widget.",
+    "Busca Spendry y elige el tipo de widget y su tamaño.",
+    "Mantén presionado el widget y toca Editar widget para seleccionar qué presupuesto, meta o cuenta quieres ver."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Pon el widget de pagos próximos en tu primera pantalla de inicio. Las fechas límite de pago son lo primero que se suele olvidar.",
+   "faq": [
+    {
+     "q": "Puedo registrar un gasto desde un widget?",
+     "a": "Sí. El widget para agregar gastos te lleva directo a la pantalla de captura, así anotas cualquier compra en segundos."
+    },
+    {
+     "q": "Los widgets se actualizan solos?",
+     "a": "Sí. Se van actualizando conforme anotas gastos y a lo largo de todo el día."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "Cómo ahorrar para una meta y cumplirla de verdad",
+   "description": "Fija un monto y una fecha, ahorra una cantidad fija cada mes y mide tu avance. Ideal para un viaje, un auto o tu fondo de emergencia.",
+   "h1": "Cómo ahorrar para una meta y lograrla",
+   "intro": [
+    "Una meta con una cantidad y una fecha clara es mucho más fácil de alcanzar que un simple deseo. Divide el total entre los meses que tienes y sabrás tu ahorro mensual.",
+    "Separar ese dinero apenas cobras tu quincena, antes de empezar a gastar, vuelve el hábito automático."
+   ],
+   "steps_title": "Ahorra con Spendry",
+   "steps": [
+    "Crea una meta con la cantidad total y la fecha en la que quieres alcanzarla.",
+    "Abona dinero cada vez que ahorres y Spendry te mostrará qué tan cerca estás.",
+    "Comparte una meta con tu pareja o familia por iCloud para juntar dinero entre los dos."
+   ],
+   "example_title": "Un ejemplo",
+   "example": "Para juntar 6,000 en 12 meses necesitas 500 al mes. Si ya tienes 1,200 ahorrados, solo te tocará poner 400 cada mes.",
+   "tip": "Empieza reuniendo un mes de tus gastos fijos en tu fondo de emergencia, y luego llévalo a tres meses.",
+   "faq": [
+    {
+     "q": "De cuánto debe ser un fondo de emergencia?",
+     "a": "Lo ideal suele ser entre tres y seis meses de tus gastos indispensables. Empieza con un mes y ve aumentando poco a poco."
+    },
+    {
+     "q": "Puedo ahorrar para varias metas a la vez?",
+     "a": "Sí. Puedes crear todas las metas que quieras y revisar el progreso de cada una por separado."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "Controla tus préstamos y cuánto pagas de intereses",
+   "description": "Lleva el control de créditos de auto, nómina o hipotecas: saldo pendiente, mensualidades restantes, intereses y fecha de fin con alertas de pago.",
+   "h1": "Cómo llevar el control de tus préstamos reales",
+   "intro": [
+    "La mensualidad de un préstamo oculta dos cosas: cuánto se va a intereses y cuántos pagos te faltan. Llevar la cuenta de ambas cifras te deja ver su costo real.",
+    "Al principio de un crédito casi todo tu pago se va a intereses; más adelante la mayor parte reduce el capital. Por eso dar abonos extra al inicio ahorra tanto dinero."
+   ],
+   "steps_title": "Llévalo en Spendry",
+   "steps": [
+    "Registra el préstamo con el monto, la tasa de interés, el plazo y la fecha del primer abono.",
+    "Revisa tu saldo pendiente, las mensualidades que te quedan y el mes en que liquidas.",
+    "Recibe un recordatorio antes de cada fecha de pago y suma tu crédito al plan para salir de deudas."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Prueba la calculadora de préstamos gratuita de este sitio para conocer tu mensualidad y los intereses totales antes de firmar.",
+   "faq": [
+    {
+     "q": "Conviene liquidar un préstamo antes de tiempo?",
+     "a": "Si el interés es alto y tu contrato no cobra penalización por prepago, dar pagos a capital te ahorrará muchos intereses. Revisa siempre las condiciones."
+    },
+    {
+     "q": "Puedo llevar el control de mi crédito hipotecario?",
+     "a": "Sí. Puedes darlo de alta como un préstamo con su tasa de interés y su plazo en años."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "Cómo calcular tu patrimonio neto en iPhone",
+   "description": "Tu patrimonio neto es lo que tienes menos lo que debes. Junta ahorros, inversiones, oro y deudas en un solo lugar y ve crecer tu dinero.",
+   "h1": "Cómo calcular y seguir tu patrimonio neto",
+   "intro": [
+    "El patrimonio neto es la suma de todo lo que tienes menos todo lo que debes. Es el indicador definitivo para comprobar si tus finanzas van por buen camino.",
+    "Revisarlo una vez al mes es suficiente para notar la tendencia, incluso si algún mes en particular no fue tan bueno."
+   ],
+   "steps_title": "Llévalo en Spendry",
+   "steps": [
+    "Registra tus cuentas bancarias y tus ahorros.",
+    "Agrega tus inversiones: acciones, criptomonedas, metales y divisas con precios actualizados en vivo.",
+    "Suma tus deudas. Spendry calcula tu patrimonio neto y te muestra cómo progresa en el tiempo."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Pagar tus deudas aumenta tu patrimonio neto exactamente igual que meter dinero al ahorro.",
+   "faq": [
+    {
+     "q": "Debo incluir el valor de mi casa o mi auto?",
+     "a": "Puedes hacerlo, aunque muchas personas prefieren registrar solo su efectivo, inversiones y deudas, que son los saldos que cambian mes a mes."
+    },
+    {
+     "q": "Cada cuánto se actualizan los precios de las inversiones?",
+     "a": "Spendry consulta los precios en vivo de acciones, criptomonedas, metales y tipos de cambio."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "Cómo llevar un presupuesto en pareja con iPhone",
+   "description": "Comparte presupuestos o metas de ahorro en pareja o familia con iCloud. Cada quien anota sus gastos sin compartir usuarios ni contraseñas.",
+   "h1": "Cómo compartir un presupuesto con tu pareja",
+   "intro": [
+    "Hablar de dinero es mucho más fácil cuando los dos ven los mismos números. Un presupuesto compartido muestra cuánto se ha gastado y cuánto queda, sin reclamos.",
+    "Mantén tus gastos personales aparte y comparte únicamente los gastos del hogar, como la renta, el súper y las vacaciones."
+   ],
+   "steps_title": "Compártelo en Spendry",
+   "steps": [
+    "Crea un presupuesto o una meta y selecciona la opción de compartir.",
+    "Invita a tu pareja o a tu familia usando las funciones para compartir de iCloud.",
+    "Cualquiera puede registrar gastos y los cambios se sincronizan en los dispositivos de ambos."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Pónganse de acuerdo en qué categorías van a compartir antes de empezar, y revisen los números juntos una vez al mes.",
+   "faq": [
+    {
+     "q": "Mi pareja puede ver todos mis gastos personales?",
+     "a": "No. Solo verá las categorías que decidas compartir. El resto de tus cuentas y presupuestos son totalmente privados."
+    },
+    {
+     "q": "Ambos necesitamos tener Spendry?",
+     "a": "Sí. Cada uno utiliza Spendry desde su propio iPhone y el presupuesto compartido se actualiza solito mediante iCloud."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Registra pagos con Apple Pay en automático con Atajos",
+   "description": "Aprovecha las automatizaciones de Atajos para guardar tus compras de Apple Pay en Spendry y mantén tu presupuesto al día sin escribir.",
+   "h1": "Registra compras con Apple Pay en automático",
+   "intro": [
+    "La app Atajos puede ejecutar una acción cada vez que pagas con Apple Pay. Spendry la aprovecha para anotar la compra por ti al instante.",
+    "Tus presupuestos se mantienen al día sin necesidad de capturar nada a mano, y tú decides si le agregas una categoría después."
+   ],
+   "steps_title": "Cómo activarlo",
+   "steps": [
+    "En Spendry, entra a Automatizaciones y elige la automatización para Apple Pay.",
+    "Sigue las instrucciones en pantalla para configurarla dentro de la app Atajos.",
+    "Paga con Apple Pay como siempre. El gasto aparecerá en Spendry junto con el nombre del negocio."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Activa también el reporte del domingo por la noche para ver un resumen rápido de lo que gastaste en la semana.",
+   "faq": [
+    {
+     "q": "Esto le da acceso a Spendry a mi cuenta de banco?",
+     "a": "No. La automatización solo toma los datos que tu iPhone ya muestra en pantalla, como el monto y el nombre de la tienda. No usas contraseñas bancarias."
+    },
+    {
+     "q": "Puedo cambiarle la categoría después?",
+     "a": "Sí. Puedes editar cualquier gasto dentro de Spendry cuando quieras."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Guías de dinero: presupuestos, deudas y facturas",
+  "description": "Guías prácticas para presupuestos, pago de deudas, tarjetas de crédito, cuotas, suscripciones y no retrasarte en ningún pago.",
+  "h1": "Guías sobre dinero",
+  "lead": "Guías cortas y prácticas para armar tu presupuesto, pagar deudas y no olvidar ningún pago."
+ },
+ "guide_labels": {
+  "nav": "Guías",
+  "tip": "Consejo",
+  "faq": "Preguntas frecuentes",
+  "more": "Más guías",
+  "all": "Todas las guías",
+  "tools": "Calculadoras gratis",
+  "cta": "Controla todo en un solo lugar. Descarga Spendry gratis en el App Store.",
+  "topic_debt": "Deudas y tarjetas de crédito",
+  "topic_bills": "Facturas y suscripciones",
+  "topic_budget": "Presupuestos y ahorro",
+  "topic_iphone": "En tu iPhone"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Calculadora de tarjeta de crédito: ¿cuándo terminas?",
+  "description": "Calculadora gratis para pagar tarjetas de crédito. Pon tu saldo, tasa y pago mensual para ver cuándo liquidas y cuánto pagas de intereses.",
+  "h1": "Calculadora para pagar tarjetas de crédito",
+  "lead": "Calcula cuánto tardarás en liquidar tu tarjeta y los intereses que pagarás frente a cubrir solo el pago mínimo.",
+  "balance": "Saldo de la tarjeta",
+  "rate": "Tasa de interés anual (%)",
+  "payment": "Tu pago mensual",
+  "min_pct": "Pago mínimo (% del saldo)",
+  "months": "Se liquida en",
+  "interest": "Total de intereses",
+  "date": "Libre de deudas",
+  "fixed": "Con tu pago mensual",
+  "minimum": "Solo pagos mínimos",
+  "never": "Este pago no cubre los intereses del mes. Auméntalo para poder liquidar la tarjeta.",
+  "saved": "Ahorras en intereses",
+  "prose": [
+   [
+    "Cómo funciona el cálculo",
+    "Cada mes la calculadora suma los intereses correspondientes al saldo y resta tu pago, hasta que el balance llega a cero. La opción de pago mínimo recalcula el monto mensual según el saldo que queda."
+   ],
+   [
+    "Por qué tardas tanto pagando el mínimo",
+    "El mínimo baja conforme baja tu saldo, así que casi no amortizas capital frente a los intereses. Un pago fijo mantiene el mismo esfuerzo reduciendo la deuda cada mes."
+   ],
+   [
+    "Hazlo realidad",
+    "Spendry mantiene tu plan en marcha: añade tus tarjetas, define cuánto puedes pagar al mes y recibe un recordatorio antes de tu fecha límite de pago."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Calculadora de préstamos: pago mensual e intereses",
+  "description": "Calculadora gratis de préstamos personales, de auto e hipotecas. Revisa tu pago mensual, los intereses totales y tu tabla de amortización.",
+  "h1": "Calculadora de préstamos",
+  "lead": "Escribe el monto, la tasa anual y el plazo para calcular la mensualidad, los intereses totales y cada pago.",
+  "amount": "Monto del préstamo",
+  "rate": "Tasa de interés anual (%)",
+  "term": "Plazo (meses)",
+  "payment": "Pago mensual",
+  "total": "Total a pagar",
+  "interest": "Total de intereses",
+  "month": "Mes",
+  "principal": "Capital",
+  "interest_col": "Intereses",
+  "balance": "Saldo",
+  "show_all": "Ver todos los pagos",
+  "show_less": "Ver menos",
+  "prose": [
+   [
+    "Cómo se calcula el pago",
+    "Es un préstamo tradicional con amortización: la misma mensualidad cada periodo, calculando intereses sobre el saldo pendiente. Al inicio pagas más intereses y al final abonas más a capital."
+   ],
+   [
+    "Reduce el costo total",
+    "Un plazo más corto o una tasa más baja bajan los intereses totales. Hacer aportaciones a capital al inicio también ayuda, si tu banco o prestamista lo permite sin penalización."
+   ],
+   [
+    "Lleva el control después de firmar",
+    "Agrega el préstamo a Spendry para ver cuántos pagos te faltan, la fecha de término y recibir un recordatorio antes de cada vencimiento."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Calculadora de ahorro: cuánto juntar cada mes",
+  "description": "Calculadora gratis para metas de ahorro. Ingresa tu objetivo, lo que llevas y tu fecha límite para ver cuánto ahorrar al mes con rendimientos.",
+  "h1": "Calculadora de metas de ahorro",
+  "lead": "Descubre cuánto dinero guardar cada mes para cumplir tu meta a tiempo.",
+  "goal": "Monto de la meta",
+  "have": "Ahorrado hasta hoy",
+  "months": "Meses para lograrlo",
+  "rate": "Rendimiento anual del ahorro (%)",
+  "monthly": "Ahorro al mes",
+  "weekly": "Eso equivale por semana a",
+  "total_in": "Lo que aportas",
+  "earned": "Intereses ganados",
+  "done": "Ya alcanzaste esta meta.",
+  "prose": [
+   [
+    "Cómo funciona",
+    "La calculadora divide lo que te falta para la meta entre los meses disponibles. Si agregas una tasa de rendimiento, el dinero ahorrado genera intereses cada mes, por lo que aportas un poco menos."
+   ],
+   [
+    "Hazlo más sencillo",
+    "Aparta el dinero en cuanto cobres tu sueldo, justo como si fuera una factura. Compartir una meta con tu pareja te ayuda a llegar mucho más rápido."
+   ],
+   [
+    "Sigue tu avance",
+    "Crea la meta en Spendry y revisa qué tan cerca estás cada vez que añades dinero."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Calculadora de suscripciones: cuánto gastas al año",
+  "description": "Calculadora gratis de suscripciones. Agrega tus servicios, costo y periodicidad para ver el total que pagas al mes, al año y en cinco años.",
+  "h1": "Calculadora de costo de suscripciones",
+  "lead": "Haz una lista de tus suscripciones y conoce el gasto real que representan al mes y al año.",
+  "name": "Suscripción",
+  "price": "Precio",
+  "cycle": "Cobro",
+  "weekly": "Semanal",
+  "monthly": "Mensual",
+  "yearly": "Anual",
+  "add": "Añadir suscripción",
+  "remove": "Eliminar",
+  "per_month": "Al mes",
+  "per_year": "Al año",
+  "five_years": "En 5 años",
+  "samples": [
+   "Música por streaming",
+   "Video por streaming",
+   "Almacenamiento en la nube",
+   "Membresía del gimnasio",
+   "App de noticias"
+  ],
+  "prose": [
+   [
+    "Por qué importa el total anual",
+    "Un cobro mensual pequeño parece inofensivo. Multiplicado por doce y por todos tus servicios activos, suele convertirse en una de tus mayores fugas de dinero."
+   ],
+   [
+    "Qué hacer con esta cifra",
+    "Ordena por costo y pregúntate si de verdad usaste el servicio el mes pasado. Cancela lo que no ocupes y agenda un aviso antes de las renovaciones que quieras conservar."
+   ],
+   [
+    "No olvides ninguna renovación",
+    "Spendry lleva el registro de tus suscripciones, las integra a tu gasto mensual y te avisa antes de que se cobre cada renovación."
+   ]
+  ]
  }
 }

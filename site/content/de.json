@@ -327,5 +327,676 @@
     "In Spendry erhält jede Kategorie ein Monatsbudget. Verfolgen Sie Ausgaben in Echtzeit und erhalten Sie frühzeitig Warnungen, bevor gesetzte Limits überschritten werden."
    ]
   ]
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Schneeball vs. Lawine: Schulden schneller tilgen",
+   "description": "Schneeball tilgt kleinste Beträge zuerst, Lawine höchste Zinsen. Erfahren Sie, welche Methode mehr spart und wie Sie Ihren Plan umsetzen.",
+   "h1": "Schulden-Schneeball vs. Lawine: Welche Methode passt zu Ihnen?",
+   "intro": [
+    "Beide Methoden zahlen bei allen Schulden die Mindestrate und stecken jeden zusätzlichen Euro in eine einzige Schuld. Der Unterschied liegt darin, welche Schuld zuerst getilgt wird.",
+    "Die Schneeball-Methode beginnt beim kleinsten Betrag: So tilgen Sie schnell eine erste Schuld und bleiben motiviert. Die Lawinen-Methode startet mit dem höchsten Zinssatz, wodurch Sie insgesamt am meisten Zinsen sparen."
+   ],
+   "steps_title": "Tilgungsplan in Spendry umsetzen",
+   "steps": [
+    "Fügen Sie jede Karte, jeden Kredit und jede Rate mit Restbetrag, Zinssatz und Mindestrate hinzu.",
+    "Öffnen Sie Schulden und wählen Sie die Schneeball- oder die Lawinen-Methode.",
+    "Geben Sie an, wie viel Sie jeden Monat zusätzlich zu den Mindestraten zahlen möchten.",
+    "Spendry sortiert Ihre Schulden und zeigt Ihnen das Datum Ihrer Schuldenfreiheit, inklusive Erinnerung vor jeder Zahlung."
+   ],
+   "example_title": "Ein Beispiel",
+   "example": "Drei Verbindlichkeiten: 1.200 bei 24 %, 4.000 bei 18 % und 9.000 bei 9 %, dazu 300 zusätzlich jeden Monat. Die Lawine tilgt die 24-%-Karte zuerst und spart die meisten Zinsen. Der Schneeball tilgt die 1.200 zuerst, sodass eine Schuld schon nach wenigen Monaten verschwindet. Häufig liegen die Enddaten nur ein bis zwei Monate auseinander.",
+   "tip": "Liegen die Daten nah beieinander, wählen Sie die Methode, die Sie durchhalten. Der beste Plan ist der, den Sie konsequent verfolgen.",
+   "faq": [
+    {
+     "q": "Welche Methode spart mehr Geld?",
+     "a": "Die Lawinen-Methode, da die teuerste Schuld zuerst schrumpft. Wie viel Sie sparen, hängt vom Zinsunterschied Ihrer Schulden ab."
+    },
+    {
+     "q": "Kann ich die Methode später wechseln?",
+     "a": "Ja. Ändern Sie die Methode jederzeit in Spendry. Der Plan und das Datum Ihrer Schuldenfreiheit passen sich sofort an."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Kreditkartenschulden schneller tilgen: 4 Tipps",
+   "description": "So zahlen Sie Kreditkartenschulden schneller ab: mehr als die Mindestrate zahlen, Zinsen senken, Fristen wahren und neue Schulden vermeiden.",
+   "h1": "Wie Sie Kreditkartenschulden schneller tilgen",
+   "intro": [
+    "Kreditkartenschulden wachsen, weil jeden Monat Zinsen auf den verbleibenden Betrag anfallen. Jede zusätzliche Zahlung verkleinert den Saldo, auf den Zinsen berechnet werden.",
+    "Vier Gewohnheiten machen den größten Unterschied: zahlen Sie mehr als das Minimum, zahlen Sie immer pünktlich, richten Sie Extrageld auf die höchsten Zinsen und vermeiden Sie neue Ausgaben, die Sie nicht sofort ausgleichen können."
+   ],
+   "steps_title": "So funktioniert es mit Spendry",
+   "steps": [
+    "Tragen Sie Ihre Kreditkarten mit Saldo, Zinssatz, Abrechnungstag und Fälligkeitstag ein.",
+    "Legen Sie einen monatlichen Betrag über der Mindestrate fest und wählen Sie Lawine.",
+    "Aktivieren Sie Erinnerungen, damit jede Fälligkeit abgedeckt ist, selbst wenn die App geschlossen ist.",
+    "Prüfen Sie jeden Monat Schulden, um zu sehen, wie der Saldo sinkt und das Datum Ihrer Schuldenfreiheit näher rückt."
+   ],
+   "example_title": "Ein Beispiel",
+   "example": "Ein Saldo von 3.000 bei 22 % Zinsen dauert mit Mindestraten von etwa 2,5 % über zehn Jahre. Ein fester Betrag von 175 jeden Monat tilgt die Schuld in unter zwei Jahren.",
+   "tip": "Fließt eine Rückzahlung oder ein Bonus ein, zahlen Sie einen Teil davon auf die Karte mit dem höchsten Zinssatz ein. Eine Sonderzahlung kann Monate einsparen.",
+   "faq": [
+    {
+     "q": "Sollte ich zuerst die höchsten Zinsen oder die kleinste Schuld abzahlen?",
+     "a": "Der höchste Zinssatz spart die meisten Zinsen. Die kleinste Schuld schenkt Ihnen ein schnelles Erfolgserlebnis. Spendry berechnet das Datum Ihrer Schuldenfreiheit für beide Varianten zum Vergleich."
+    },
+    {
+     "q": "Sollte ich die Karte weiter nutzen, während ich tilge?",
+     "a": "Nur für Ausgaben, die Sie bis zum Fälligkeitstag vollständig begleichen können. Neue Salden verschieben Ihr Zieldatum nach hinten."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Kreditkarte: Die Falle der Mindestzahlung erklärt",
+   "description": "Wer nur die Mindestrate zahlt, zahlt vor allem Zinsen. Erfahren Sie, warum die Tilgung Jahre dauert und wie kleine Mehrbeträge helfen.",
+   "h1": "Was passiert, wenn Sie nur die Mindestrate zahlen",
+   "intro": [
+    "Die Mindestzahlung verhindert Mahngebühren, fließt jedoch zu einem großen Teil in die Zinsen. Sinkt der Saldo, sinkt auch die Mindestrate, sodass sich die Tilgung über Jahre hinziehen kann.",
+    "Ein kleiner fester Zusatzbetrag verändert alles: Mehr von jeder Zahlung erreicht die eigentliche Schuld, und das Enddatum rückt um Jahre näher."
+   ],
+   "steps_title": "Ihre Zahlen im Überblick",
+   "steps": [
+    "Nutzen Sie unseren kostenlosen Tilgungsrechner auf dieser Seite, um Mindestraten mit einem festen Monatsbetrag zu vergleichen.",
+    "Tragen Sie die Karte in Spendry mit Zinssatz und Mindestrate ein.",
+    "Legen Sie einen monatlichen Zusatzbetrag fest, den Sie dauerhaft leisten können, und verfolgen Sie das Datum Ihrer Schuldenfreiheit."
+   ],
+   "example_title": "Ein Beispiel",
+   "example": "Ein Saldo von 3.000 bei 22 % mit Mindestraten von etwa 2,5 % kann über zehn Jahre dauern und mehr Zinsen kosten als die ursprüngliche Schuld. Ein fester Betrag von 175 jeden Monat tilgt ihn in unter zwei Jahren.",
+   "tip": "Können Sie aktuell nicht mehr zahlen, richten Sie die Mindestrate als Dauerauftrag oder Lastschrift bei Ihrer Bank ein, um Verzug zu vermeiden. Zahlen Sie extra, sobald es geht.",
+   "faq": [
+    {
+     "q": "Schadet es meiner Bonität, wenn ich nur das Minimum zahle?",
+     "a": "Solange Sie die Mindestrate pünktlich zahlen, bleibt das Konto ordnungsgemäß geführt. Ein dauerhaft hoher Saldo kann die Bonität dennoch belasten; eine zügige Tilgung hilft."
+    },
+    {
+     "q": "Wie wird die Mindestrate berechnet?",
+     "a": "Das hängt von der Bank ab: meist ein kleiner Prozentsatz des Saldos oder ein Mindestbetrag, je nachdem, was höher ist. Ihre Abrechnung nennt die genaue Zahl."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Abrechnungstag vs. Fälligkeitstag bei Kreditkarten",
+   "description": "Der Abrechnungstag schließt den Zeitraum ab, der Fälligkeitstag ist die Zahlungsfrist. So funktionieren beide Daten und so vermeiden Sie Zinsen.",
+   "h1": "Abrechnungstag vs. Fälligkeitstag: Wann sollten Sie zahlen?",
+   "intro": [
+    "Der Abrechnungstag Ihrer Kreditkarte ist der Tag, an dem der Abrechnungszeitraum endet und die Rechnung erstellt wird. Der Fälligkeitstag folgt einige Wochen später und ist der letzte Tag für eine pünktliche Zahlung.",
+    "Begleichen Sie den gesamten Rechnungsbetrag bis zum Fälligkeitstag, fallen bei den meisten Karten keine Zinsen für Einkäufe an. Zahlen Sie weniger, werden Zinsen auf den Restbetrag fällig."
+   ],
+   "steps_title": "Keine Fälligkeit verpassen mit Spendry",
+   "steps": [
+    "Fügen Sie die Karte mit Abrechnungstag und Fälligkeitstag hinzu.",
+    "Spendry zeigt anstehende Zahlungen auf Home und im Bereich Erinnerungen an.",
+    "Erhalten Sie vor dem Fälligkeitstag eine Erinnerung und markieren Sie die Zahlung direkt aus der Mitteilung als bezahlt oder stellen Sie sie zurück."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Einkäufe kurz nach dem Abrechnungstag haben das längste Zahlungsziel, da sie erst auf der folgenden Abrechnung erscheinen.",
+   "faq": [
+    {
+     "q": "Was passiert, wenn der Fälligkeitstag auf ein Wochenende fällt?",
+     "a": "Viele Banken buchen am nächsten Werktag ab. Ein bis zwei Tage früher zu zahlen ist der sicherste Weg."
+    },
+    {
+     "q": "Kann ich vor dem Abrechnungstag zahlen?",
+     "a": "Ja. Eine frühe Zahlung senkt den Saldo, der auf Ihrer nächsten Abrechnung ausgewiesen wird."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "Ratenzahlungen auf dem iPhone im Blick behalten",
+   "description": "Alle Ratenkäufe an einem Ort: Restbetrag, verbleibende Raten und Fälligkeiten übersichtlich verwalten, mit pünktlichen Erinnerungen.",
+   "h1": "Wie Sie Ratenzahlungen auf Ihrem iPhone verwalten",
+   "intro": [
+    "Einen Kauf in Raten aufzuteilen wirkt im ersten Moment günstig. Laufen jedoch mehrere Ratenkäufe parallel, binden sie unbemerkt einen großen Teil Ihres Monatsbudgets.",
+    "Wenn Sie jeden Ratenplan mit den verbleibenden Zahlungen erfassen, sehen Sie die tatsächliche Monatsbelastung und den Monat, in dem Sie fertig sind."
+   ],
+   "steps_title": "Raten in Spendry erfassen",
+   "steps": [
+    "Fügen Sie eine Rate mit Gesamtbetrag, Anzahl der Raten und erstem Zahlungsdatum hinzu.",
+    "Sehen Sie für jeden Plan, was bezahlt ist, was noch offen ist und wann die nächste Rate fällig wird.",
+    "Erhalten Sie vor jeder Zahlung eine Erinnerung und sehen Sie Ihre Raten neben Kreditkarten und Krediten im Datum Ihrer Schuldenfreiheit."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Rechnen Sie vor einem neuen Ratenkauf Ihre bestehenden Raten zusammen. Übersteigt die Summe das, was Sie in einem knappen Monat zahlen können, warten Sie lieber.",
+   "faq": [
+    {
+     "q": "Zählen Raten in das Datum meiner Schuldenfreiheit hinein?",
+     "a": "Ja. Spendry berücksichtigt sie gemeinsam mit Ihren Kreditkarten und Krediten, damit Sie das vollständige Bild sehen."
+    },
+    {
+     "q": "Kann ich zinsfreie Raten erfassen?",
+     "a": "Ja. Belassen Sie den Zinssatz bei null. Spendry zählt die Raten ganz einfach monatlich herunter."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "Rechnungen nie mehr vergessen: Erinnerungen am iPhone",
+   "description": "Erinnerungen für Rechnungen, Kreditkarten und Abos einrichten. Rechtzeitig benachrichtigt werden und Zahlungen mit einem Fingertipp abhaken.",
+   "h1": "Wie Sie nie wieder eine Rechnung vergessen",
+   "intro": [
+    "Mahngebühren und Verzugszinsen entstehen meistens aus Vergesslichkeit, nicht aus Geldmangel. Eine Erinnerung wenige Tage vor dem Fälligkeitstag löst das Problem.",
+    "Der Schlüssel liegt darin, alle Rechnungen an einem Ort zu bündeln: Miete, Nebenkosten, Mobilfunk, Karten, Kredite und Abonnements."
+   ],
+   "steps_title": "So richten Sie es in Spendry ein",
+   "steps": [
+    "Fügen Sie Rechnungen und Abonnements mit Betrag, Fälligkeitstag und Intervall hinzu.",
+    "Wählen Sie, wie viele Tage vor Fälligkeit Sie erinnert werden möchten.",
+    "Erinnerungen kommen auch bei geschlossener App. Markieren Sie eine Zahlung direkt aus der Mitteilung als bezahlt oder stellen Sie sie zurück."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Fügen Sie das Widgets für anstehende Zahlungen zu Ihrem Home-Bildschirm hinzu. So sehen Sie die Rechnungen der nächsten Woche bei jedem Entsperren.",
+   "faq": [
+    {
+     "q": "Erhalte ich Erinnerungen, wenn ich die App nicht öffne?",
+     "a": "Ja. Spendry plant Mitteilungen direkt auf Ihrem iPhone ein. Sie treffen auch ein, wenn die App geschlossen bleibt."
+    },
+    {
+     "q": "Kann ich sehen, was diese Woche fällig ist?",
+     "a": "Ja. Der Bereich Erinnerungen zeigt alle anstehenden Posten. Eine optionale Morgen-Automation fasst die nächsten drei Tage zusammen."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "Abonnements verwalten und kündigen auf dem iPhone",
+   "description": "Ermitteln Sie die wahren Kosten Ihrer Abos pro Monat und Jahr, erhalten Sie Kündigungserinnerungen und trennen Sie sich von Unnötigem.",
+   "h1": "Wie Sie Abonnements im Blick behalten und kündigen",
+   "intro": [
+    "Abonnements sind schnell abgeschlossen und geraten leicht in Vergessenheit. Einige kleine Monatsbeträge summieren sich rasch zu einer beachtlichen Jahressumme.",
+    "Die Gesamtkosten pro Monat und Jahr vor Augen zu haben reicht meist aus, um zwei oder drei ungenutzte Abos aufzuspüren."
+   ],
+   "steps_title": "Abonnements in Spendry verwalten",
+   "steps": [
+    "Tragen Sie jedes Abonnement mit Preis und Zahlungsintervall ein: wöchentlich, monatlich oder jährlich.",
+    "Spendry zeigt Ihnen die Summe pro Monat und Jahr sowie das nächste Verlängerungsdatum.",
+    "Erhalten Sie rechtzeitig vor jeder Verlängerung eine Erinnerung, um bei Bedarf fristgerecht zu kündigen."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Nutzen Sie unseren Abo-Kosten-Rechner auf dieser Seite: Tragen Sie Ihre Abos ein und sehen Sie das Jahresergebnis in Sekunden.",
+   "faq": [
+    {
+     "q": "Kündigt Spendry Abonnements für mich?",
+     "a": "Nein. Spendry greift nicht auf Ihre Konten zu. Die App erinnert Sie rechtzeitig, damit Sie direkt beim Anbieter kündigen können."
+    },
+    {
+     "q": "Kann ich auch jährliche Abonnements erfassen?",
+     "a": "Ja. Spendry unterstützt wöchentliche, monatliche und jährliche Intervalle und rechnet alles in Ihre Monatsgesamtsumme um."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "Monatsbudget erstellen: Ein Leitfaden, der hilft",
+   "description": "So erstellen Sie ein Monatsbudget: Einkommen planen, Fixkosten decken, Ausgabenlimits setzen und sparen, bevor Sie Geld ausgeben.",
+   "h1": "Wie Sie ein monatliches Budget erstellen, das funktioniert",
+   "intro": [
+    "Ein Budget ist ein Plan für Ihr Einkommen vor Monatsbeginn. Starten Sie mit Ihrem Nettoverdienst und weisen Sie jedem Teilbereich eine Aufgabe zu.",
+    "Ein bewährter Ansatz: rund die Hälfte für Fixkosten wie Miete und Rechnungen, etwa ein Drittel für Wünsche und der Rest für Ersparnisse und Tilgung. Passen Sie die Werte an Ihren Alltag an."
+   ],
+   "steps_title": "Budget in Spendry anlegen",
+   "steps": [
+    "Tragen Sie Ihr monatliches Einkommen ein.",
+    "Erstellen Sie Budgets für Ihre wichtigsten Ausgabenkategorien, jeweils mit eigenem Limit.",
+    "Budgets füllen sich mit Ihren Ausgaben, und Spendry warnt Sie rechtzeitig vor Erreichen des Limits.",
+    "Prüfen Sie am Monatsende die Statistiken und passen Sie die Limits für den Folgemonat an."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Nutzen Sie den kostenlosen Monatsbudget-Rechner auf dieser Seite, um Ihr Einkommen vor dem Festlegen der Limits aufzuteilen.",
+   "faq": [
+    {
+     "q": "Wie viele Kategorien sollte ein Budget enthalten?",
+     "a": "Beginnen Sie mit fünf bis acht Bereichen wie Wohnen, Rechnungen, Lebensmittel, Mobilität, Restaurant, Freizeit und Sparen. Weitere Kategorien ergänzen Sie nach Bedarf."
+    },
+    {
+     "q": "Was mache ich, wenn ich ein Budget überschreite?",
+     "a": "Gleichen Sie den Betrag über eine andere Kategorie aus oder nehmen Sie die Erfahrung mit in den nächsten Monat. Ein Budget ist ein flexibler Plan, keine Prüfung."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Schuldenfrei werden: Datum berechnen und Schulden abbauen",
+   "description": "Erfahren Sie, wann Sie schuldenfrei sind. Berechnen Sie Ihr Datum der Schuldenfreiheit und beschleunigen Sie die Tilgung mit Sondertilgungen.",
+   "h1": "So finden Sie das Datum Ihrer Schuldenfreiheit",
+   "intro": [
+    "Das Datum Ihrer Schuldenfreiheit ist der Monat, in dem Ihre letzte Restschuld bei null liegt. Es richtet sich nach Ihren Gesamtschulden, den Zinssätzen und Ihrer monatlichen Rate.",
+    "Ein festes Datum verwandelt einen vagen Wunsch in ein klares Ziel. Sie sehen sofort, wie viel Zeit Ihnen jede Sondertilgung spart."
+   ],
+   "steps_title": "Ihr Datum in Spendry ermitteln",
+   "steps": [
+    "Erfassen Sie alle Schulden: Kreditkarten, Kredite, Raten, Dispokonto und private Schulden.",
+    "Geben Sie den jeweiligen Restbetrag, den Zinssatz und die monatliche Rate ein.",
+    "Spendry berechnet den Monat Ihrer Schuldenfreiheit automatisch und aktualisiert ihn bei jeder Zahlung oder neuen Ausgabe."
+   ],
+   "example_title": "Jetzt ausprobieren",
+   "example": "Der kostenlose Schuldenrechner auf dieser Seite funktioniert genauso: Fügen Sie Ihre Schulden und eine zusätzliche monatliche Rate hinzu. Vergleichen Sie Ihr Ergebnis mit der Schneeball- und der Lawine-Methode.",
+   "tip": "Prüfen Sie das Datum nach jedem Gehaltseingang. Zu sehen, wie der Tag näher rückt, motiviert am meisten.",
+   "faq": [
+    {
+     "q": "Warum verschiebt sich das Datum meiner Schuldenfreiheit?",
+     "a": "Es rückt näher, wenn Sie Sondertilgungen leisten. Es verschiebt sich nach hinten, wenn neue Schulden hinzukommen oder Raten sinken. Spendry rechnet das jedes Mal neu durch."
+    },
+    {
+     "q": "Kann ich Schulden bei Freunden eintragen?",
+     "a": "Ja. Tragen Sie diese einfach als persönlichen Kredit ohne Zinsen ein."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "Ausgaben erfassen ohne Bankverbindung: Haushaltsbuch-App",
+   "description": "Erfassen Sie Ihre Ausgaben ohne Online-Banking-Zugriff. Belege scannen, Ausgaben in Sekunden festhalten und alle Daten sicher auf dem iPhone behalten.",
+   "h1": "Ausgaben erfassen ohne Bankverbindung",
+   "intro": [
+    "Viele Finanz-Apps verlangen die Zugangsdaten zu Ihrem Bankkonto. Wenn Sie Ihre Finanzen lieber privat halten möchten, erfassen Sie jede Ausgabe einfach selbst. Das dauert nur wenige Sekunden am Tag.",
+    "Wer Ausgaben selbst einträgt, achtet bewusster auf sein Geld. Genau darum geht es bei einem erfolgreichen Budget."
+   ],
+   "steps_title": "So funktioniert es mit Spendry",
+   "steps": [
+    "Ausgabe hinzufügen in Sekunden: Betrag eingeben, Kategorie wählen oder Beleg scannen.",
+    "Aktivieren Sie die fertige Apple Pay Automation in der Kurzbefehle-App. Kartenzahlungen werden dann automatisch mit dem Namen des Händlers gespeichert.",
+    "Ihre Daten bleiben sicher auf Ihrem iPhone und synchronisieren sich über Ihre eigene iCloud. Spendry hat darauf keinen Zugriff."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Tragen Sie Ausgaben direkt beim Bezahlen ein. Wer wartet, vergisst Einkäufe schnell.",
+   "faq": [
+    {
+     "q": "Ist das ohne Bankverbindung sicher?",
+     "a": "Es gibt keine Bankdaten, die gestohlen werden könnten. Spendry sichert Ihre Einträge nur auf Ihrem Gerät und in Ihrer iCloud. Schützen Sie die App zusätzlich mit der App-Sperre über Face ID."
+    },
+    {
+     "q": "Kann ich Umsätze importieren?",
+     "a": "Ja. Sie können Umsätze aus Benachrichtigungen oder über Kurzbefehle-Automationen übernehmen, ganz ohne Bankzugang."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Budget-Widgets für das iPhone: Home-Bildschirm & Sperrbildschirm",
+   "description": "Behalten Sie Kontostand, Budgets, Ziele und anstehende Rechnungen auf dem Home-Bildschirm und Sperrbildschirm im Blick. Schnelle Ausgabenerfassung.",
+   "h1": "Budget-Widgets für Ihren iPhone Home-Bildschirm",
+   "intro": [
+    "Ein Widget hält Ihre Finanzen im Blick, ohne dass Sie eine App öffnen müssen. Ein kurzer Blick auf den Home-Bildschirm zeigt Ihnen das verbleibende Budget und die nächsten Fälligkeiten.",
+    "Spendry bietet Widgets für Kontostand, Budgets, Ziele, Schulden, Cashflow und fällige Zahlungen, passend für den Home-Bildschirm und den Sperrbildschirm."
+   ],
+   "steps_title": "Spendry Widget hinzufügen",
+   "steps": [
+    "Halten Sie einen leeren Bereich auf dem Home-Bildschirm gedrückt, tippen Sie auf Bearbeiten und dann auf Widget hinzufügen.",
+    "Suchen Sie nach Spendry und wählen Sie das gewünschte Widget und die Größe aus.",
+    "Halten Sie das Widget gedrückt und tippen Sie auf Widget bearbeiten, um das gewünschte Budget, Ziel oder Konto festzulegen."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Platzieren Sie das Widget für anstehende Rechnungen auf Ihrer ersten Seite. Fällige Termine vergisst man sonst am leichtesten.",
+   "faq": [
+    {
+     "q": "Kann ich Ausgaben direkt über ein Widget eintragen?",
+     "a": "Ja. Das Schnellerfassungs-Widget öffnet direkt die Eingabemaske, sodass das Eintragen nur Sekunden dauert."
+    },
+    {
+     "q": "Aktualisieren sich die Widgets automatisch?",
+     "a": "Ja. Sie aktualisieren sich mit jedem neuen Eintrag und regelmäßig über den Tag verteilt."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "Sparziele erreichen: Richtig sparen mit System und Plan",
+   "description": "Legen Sie Zielbetrag und Datum fest, sparen Sie monatlich einen festen Betrag und behalten Sie den Überblick. Ideal für Notgroschen, Urlaub oder Auto.",
+   "h1": "Sparziele setzen und erfolgreich erreichen",
+   "intro": [
+    "Ein konkretes Ziel mit Betrag und Datum lässt sich leichter erreichen als ein vager Wunsch. Teilen Sie den Wunschbetrag durch die Anzahl der Monate, und Ihre monatliche Sparrate steht fest.",
+    "Sparen Sie direkt am Zahltag, bevor Sie Geld ausgeben. So läuft Ihr Sparplan von ganz allein."
+   ],
+   "steps_title": "Ziele erreichen mit Spendry",
+   "steps": [
+    "Erstellen Sie unter Ziele ein Sparziel mit Betrag und Wunschdatum.",
+    "Buchen Sie jeden Sparbetrag ein. Spendry zeigt Ihnen genau, wie nah Sie Ihrem Ziel schon sind.",
+    "Teilen Sie Sparziele über iCloud mit Partner oder Familie, um gemeinsam darauf hinzusparen."
+   ],
+   "example_title": "Ein Rechenbeispiel",
+   "example": "Um 6.000 in 12 Monaten zu sparen, benötigen Sie monatlich 500. Haben Sie bereits 1.200 gespart, sinkt die Rate auf 400 im Monat.",
+   "tip": "Bauen Sie zuerst einen Notgroschen in Höhe von einem Monatsbudget auf und erweitern Sie ihn später auf drei Monate.",
+   "faq": [
+    {
+     "q": "Wie hoch sollte ein Notgroschen sein?",
+     "a": "Drei bis sechs Monatsausgaben für Fixkosten gelten als Richtwert. Beginnen Sie mit einem Monatsbetrag und bauen Sie diesen Schritt für Schritt aus."
+    },
+    {
+     "q": "Kann ich für mehrere Ziele gleichzeitig sparen?",
+     "a": "Ja. Sie können beliebig viele Sparziele anlegen und den Fortschritt für jedes einzelne verfolgen."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "Kredit überwachen: Restschuld, Zinsen und Laufzeit im Blick",
+   "description": "Autokredit, Ratenkredit oder Baufinanzierung im Blick behalten: Restschuld, Zinskosten, Raten und Laufzeitende übersichtlich mit Erinnerungen planen.",
+   "h1": "Kredite im Blick behalten und echte Kosten erkennen",
+   "intro": [
+    "Die monatliche Kreditrate verdeckt oft zweierlei: wie hoch der Zinsanteil ist und wie viele Raten noch offen sind. Wer beides erfasst, sieht die tatsächlichen Kosten.",
+    "Zu Beginn fließt der Großteil der Rate in die Zinsen, später in die Tilgung. Deshalb sparen frühe Sondertilgungen das meiste Geld."
+   ],
+   "steps_title": "Kredite erfassen in Spendry",
+   "steps": [
+    "Erfassen Sie unter Kredite die Kreditsumme, den Zinssatz, die Laufzeit und die erste Rate.",
+    "Sehen Sie die verbleibende Restschuld, offene Raten und das genaue Datum der letzten Zahlung.",
+    "Erhalten Sie Erinnerungen vor jeder Rate und binden Sie den Kredit in Ihren Tilgungsplan ein."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Nutzen Sie den kostenlosen Kreditrechner auf dieser Website, um Monatsrate und Zinskosten vor dem Abschluss zu prüfen.",
+   "faq": [
+    {
+     "q": "Lohnt sich eine vorzeitige Kreditablösung?",
+     "a": "Bei hohen Zinsen und ohne teure Vorfälligkeitsentschädigung sparen Sondertilgungen bares Geld. Prüfen Sie vorher Ihren Kreditvertrag."
+    },
+    {
+     "q": "Kann ich eine Baufinanzierung eintragen?",
+     "a": "Ja. Tragen Sie das Immobiliendarlehen einfach als Kredit mit Zinssatz und Laufzeit ein."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "Nettovermögen auf dem iPhone berechnen und verfolgen",
+   "description": "Nettovermögen ist Vermögen minus Schulden. Erfassen Sie Ersparnisse, Investitionen, Gold und Kredite an einem Ort und verfolgen Sie das Wachstum.",
+   "h1": "So erfassen Sie Ihr Nettovermögen",
+   "intro": [
+    "Ihr Nettovermögen ist der Gesamtwert Ihres Vermögens abzüglich aller Verbindlichkeiten. Es ist die wichtigste Kennzahl, um zu sehen, ob sich Ihre Finanzen in die richtige Richtung entwickeln.",
+    "Ein monatlicher Blick genügt, um den langfristigen Trend zu erkennen, selbst wenn ein einzelner Monat schwächer ausfällt."
+   ],
+   "steps_title": "Nettovermögen erfassen in Spendry",
+   "steps": [
+    "Erfassen Sie Ihre Konten und Ersparnisse.",
+    "Fügen Sie Ihre Investitionen hinzu: Bei Aktien, Krypto, Gold und Währungen sehen Sie aktuelle Kurse.",
+    "Erfassen Sie Ihre Schulden. Spendry ermittelt Ihr Nettovermögen und die Entwicklung im Zeitverlauf."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Schulden tilgen steigert Ihr Nettovermögen genauso wie Geld sparen.",
+   "faq": [
+    {
+     "q": "Sollte ich meine Immobilie oder mein Auto dazurechnen?",
+     "a": "Das ist möglich. Viele erfassen jedoch nur Barvermögen, Investitionen und Schulden, da sich diese Werte monatlich verändern."
+    },
+    {
+     "q": "Wie oft aktualisieren sich die Kurse?",
+     "a": "Spendry aktualisiert die Kurse für Aktien, Krypto, Edelmetalle und Währungen fortlaufend."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "Gemeinsames Budget für Paare: Haushaltsbuch teilen per iCloud",
+   "description": "Teilen Sie ein Haushaltsbuch oder Sparziel mit Ihrem Partner über iCloud. Alle tragen Ausgaben ein, sehen die gleichen Zahlen, ganz ohne geteilten Login.",
+   "h1": "Gemeinsames Budget mit dem Partner führen",
+   "intro": [
+    "Finanzgespräche verlaufen entspannter, wenn beide die gleichen Zahlen kennen. Ein gemeinsames Budget zeigt sofort, was ausgegeben wurde und was übrig bleibt, ganz ohne Vorwürfe.",
+    "Trennen Sie persönliche Ausgaben und teilen Sie nur, was Sie gemeinsam bezahlen: etwa Miete, Lebensmittel oder den Urlaub."
+   ],
+   "steps_title": "Budget teilen in Spendry",
+   "steps": [
+    "Erstellen Sie ein Budget oder Ziel und wählen Sie die Freigabeoption.",
+    "Laden Sie Ihren Partner oder Familienmitglieder über die iCloud-Freigabe ein.",
+    "Jeder kann Ausgaben eintragen, und Anpassungen erscheinen sofort auf allen Geräten."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Legen Sie gemeinsame Kategorien vorab fest und besprechen Sie diese einmal im Monat zusammen.",
+   "faq": [
+    {
+     "q": "Sieht mein Partner alle meine Ausgaben?",
+     "a": "Nein. Sichtbar ist nur das, was Sie teilen. Ihre übrigen Budgets und Konten bleiben komplett privat."
+    },
+    {
+     "q": "Brauchen beide Spendry?",
+     "a": "Ja. Jede Person nutzt Spendry auf dem eigenen iPhone. Das gemeinsame Budget gleicht sich über iCloud ab."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Apple Pay Einkäufe automatisch erfassen mit Kurzbefehlen",
+   "description": "Nutzen Sie eine fertige Kurzbefehle-Automation, um Apple Pay Zahlungen direkt in Spendry zu speichern: Budgets aktuell halten, ganz ohne Eintippen.",
+   "h1": "Apple Pay Einkäufe automatisch erfassen",
+   "intro": [
+    "Die Kurzbefehle-App kann bei jeder Apple Pay Zahlung automatisch eine Aktion ausführen. Spendry nutzt dies, um den Betrag direkt für Sie zu speichern.",
+    "Ihre Budgets bleiben immer aktuell, ohne dass Sie etwas tippen müssen. Die Kategorie wählen Sie nur aus, wenn Sie möchten."
+   ],
+   "steps_title": "So aktivieren Sie die Funktion",
+   "steps": [
+    "Öffnen Sie in Spendry den Bereich Automation und wählen Sie die Apple Pay Automation.",
+    "Folgen Sie den Anweisungen zur Einrichtung in der Kurzbefehle-App.",
+    "Bezahlen Sie wie gewohnt mit Apple Pay. Die Ausgabe erscheint direkt in Spendry mit dem Namen des Geschäfts."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Aktivieren Sie auch die Automation für Sonntagabend, um eine kurze Wochenübersicht Ihrer Ausgaben zu erhalten.",
+   "faq": [
+    {
+     "q": "Erhält Spendry dadurch Zugriff auf mein Bankkonto?",
+     "a": "Nein. Die Automation überträgt lediglich die Zahlungsdaten, die Ihr iPhone ohnehin anzeigt, wie Betrag und Händler. Es gibt keine Bankverbindung."
+    },
+    {
+     "q": "Kann ich die Kategorie nachträglich anpassen?",
+     "a": "Ja. Sie können die Ausgabe in Spendry jederzeit bearbeiten."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Finanz-Ratgeber: Budget, Schulden und Rechnungen",
+  "description": "Praktische Ratgeber zu Budget, Schuldenabbau, Kreditkarten, Raten und Abonnements. Verpassen Sie keine Zahlung mehr.",
+  "h1": "Finanz-Ratgeber",
+  "lead": "Kurze, praktische Ratgeber zu Budget, Schuldenabbau und pünktlichen Zahlungen."
+ },
+ "guide_labels": {
+  "nav": "Ratgeber",
+  "tip": "Tipp",
+  "faq": "Häufige Fragen",
+  "more": "Weitere Ratgeber",
+  "all": "Alle Ratgeber",
+  "tools": "Kostenlose Rechner",
+  "cta": "Alles an einem Ort im Blick. Laden Sie Spendry kostenlos im App Store.",
+  "topic_debt": "Schulden und Kreditkarten",
+  "topic_bills": "Rechnungen und Abonnements",
+  "topic_budget": "Budget und Sparen",
+  "topic_iphone": "Auf Ihrem iPhone"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Kreditkarten-Rechner: Wann sind Sie schuldenfrei?",
+  "description": "Kostenloser Rechner für Kreditkartenschulden. Saldo, Zinssatz und Rate eingeben: Rückzahlungsdauer, Gesamtzinsen und Mindestbetrag vergleichen.",
+  "h1": "Kreditkarten-Rechner",
+  "lead": "Sehen Sie, wie lange die Rückzahlung dauert und wie viel Zinsen Sie zahlen, verglichen mit der reinen Mindestzahlung.",
+  "balance": "Kartensaldo",
+  "rate": "Jahreszins (%)",
+  "payment": "Ihre monatliche Rate",
+  "min_pct": "Mindestzahlung (% vom Saldo)",
+  "months": "Schuldenfrei in",
+  "interest": "Gesamtzinsen",
+  "date": "Datum Ihrer Schuldenfreiheit",
+  "fixed": "Mit fester Rate",
+  "minimum": "Nur Mindestzahlung",
+  "never": "Diese Rate deckt die Monatszinsen nicht ab. Erhöhen Sie den Betrag, um die Karte auszugleichen.",
+  "saved": "Gesparte Zinsen",
+  "prose": [
+   [
+    "So funktioniert die Berechnung",
+    "Jeden Monat schlägt der Rechner die Monatszinsen auf den Saldo auf und zieht Ihre Zahlung ab, bis der Betrag null erreicht. Beim Vergleich mit der Mindestzahlung wird das monatliche Minimum jeweils aus dem Restbetrag neu ermittelt."
+   ],
+   [
+    "Warum Mindestzahlungen so lange dauern",
+    "Die Mindestzahlung sinkt mit dem Saldo, sodass Sie kaum mehr als die anfallenden Zinsen tilgen. Eine feste monatliche Rate tilgt die eigentliche Schuld dagegen Monat für Monat gleichbleibend."
+   ],
+   [
+    "Den Plan in die Tat umsetzen",
+    "Spendry hält Ihren Plan auf Kurs: Fügen Sie Ihre Kreditkarten hinzu, legen Sie die monatliche Rate fest und erhalten Sie rechtzeitig vor jeder Fälligkeit eine Erinnerung."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Kreditrechner: Monatsrate und Zinsen berechnen",
+  "description": "Kostenloser Kreditrechner für Ratenkredite, Autokredite und Baufinanzierung. Monatsrate, Zinskosten und Tilgungsplan auf einen Blick.",
+  "h1": "Kreditrechner",
+  "lead": "Geben Sie Kreditbetrag, Zinssatz und Laufzeit ein, um Monatsrate, Gesamtzinsen und alle Zahlungen zu sehen.",
+  "amount": "Kreditbetrag",
+  "rate": "Jahreszins (%)",
+  "term": "Laufzeit (Monate)",
+  "payment": "Monatliche Rate",
+  "total": "Gesamtbetrag",
+  "interest": "Gesamtzinsen",
+  "month": "Monat",
+  "principal": "Tilgung",
+  "interest_col": "Zinsen",
+  "balance": "Restschuld",
+  "show_all": "Alle Zahlungen anzeigen",
+  "show_less": "Weniger anzeigen",
+  "prose": [
+   [
+    "So wird die Rate berechnet",
+    "Dies ist ein klassisches Annuitätendarlehen: Die monatliche Rate bleibt gleich, während die Zinsen auf die verbleibende Restschuld berechnet werden. Anfangs zahlen Sie überwiegend Zinsen, später überwiegt der Tilgungsanteil."
+   ],
+   [
+    "So senken Sie die Gesamtkosten",
+    "Eine kürzere Laufzeit oder ein niedrigerer Zins verringern die Gesamtzinsen am stärksten. Auch Sondertilgungen zu Beginn helfen deutlich, sofern Ihre Bank diese kostenlos erlaubt."
+   ],
+   [
+    "Nach dem Abschluss den Überblick behalten",
+    "Erfassen Sie Kredite in Spendry, um die offenen Raten, das Laufzeitende und Erinnerungen vor jeder Fälligkeit direkt im Blick zu haben."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Sparziel-Rechner: Wie viel monatlich sparen?",
+  "description": "Kostenloser Sparziel-Rechner. Zielbetrag, Startkapital und Frist eingeben: Berechnen Sie Ihre monatliche Sparrate mit Zinsen.",
+  "h1": "Sparziel-Rechner",
+  "lead": "Ermitteln Sie, wie viel Sie jeden Monat zur Seite legen müssen, um Ihr Ziel rechtzeitig zu erreichen.",
+  "goal": "Zielbetrag",
+  "have": "Bereits gespart",
+  "months": "Monate bis zum Ziel",
+  "rate": "Jährlicher Sparzins (%)",
+  "monthly": "Monatlich sparen",
+  "weekly": "Das sind wöchentlich etwa",
+  "total_in": "Eigene Einzahlungen",
+  "earned": "Erhaltene Zinsen",
+  "done": "Sie haben dieses Ziel bereits erreicht.",
+  "prose": [
+   [
+    "So funktioniert es",
+    "Der Rechner verteilt den noch fehlenden Betrag auf die verbleibenden Monate. Gibt es Zinsen, erwirtschaftet das Ersparte monatliche Erträge, sodass Sie selbst etwas weniger einzahlen müssen."
+   ],
+   [
+    "So fällt das Sparen leichter",
+    "Legen Sie das Geld direkt am Zahltag zurück, genau wie eine feste Rechnung. Ein gemeinsames Sparziel mit Partnerin oder Partner motiviert zusätzlich."
+   ],
+   [
+    "Fortschritt verfolgen",
+    "Erstellen Sie das Sparziel in Spendry unter Ziele und sehen Sie bei jeder Einzahlung, wie Sie dem Ziel näher kommen."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Abo-Rechner: Jährliche Kosten im Überblick",
+  "description": "Kostenloser Abo-Kosten-Rechner. Erfassen Sie Ihre Abonnements mit Preis und Abrechnung: Kosten pro Monat, Jahr und über 5 Jahre.",
+  "h1": "Abo-Kosten-Rechner",
+  "lead": "Erfassen Sie Ihre Abonnements und sehen Sie die tatsächlichen Gesamtkosten im Monat und im Jahr.",
+  "name": "Abonnement",
+  "price": "Preis",
+  "cycle": "Abrechnung",
+  "weekly": "Wöchentlich",
+  "monthly": "Monatlich",
+  "yearly": "Jährlich",
+  "add": "Abo hinzufügen",
+  "remove": "Entfernen",
+  "per_month": "Pro Monat",
+  "per_year": "Pro Jahr",
+  "five_years": "Über 5 Jahre",
+  "samples": [
+   "Musik-Streaming",
+   "Video-Streaming",
+   "Cloud-Speicher",
+   "Fitnessstudio",
+   "Nachrichten-App"
+  ],
+  "prose": [
+   [
+    "Warum die Jahressumme so wichtig ist",
+    "Ein kleiner Monatsbetrag wirkt unscheinbar. Mal zwölf gerechnet und über alle Abos summiert, entsteht schnell einer der größten regelmäßigen Ausgabenposten."
+   ],
+   [
+    "Was Sie mit dem Ergebnis tun können",
+    "Sortieren Sie nach Kosten und prüfen Sie jedes Abo: Habe ich es im letzten Monat wirklich genutzt? Kündigen Sie Unnötiges und setzen Sie sich Erinnerungen vor anstehenden Verlängerungen."
+   ],
+   [
+    "Keine Verlängerung mehr übersehen",
+    "Spendry erfasst Ihre Abonnements, bindet sie in Budgets ein und erinnert Sie rechtzeitig vor jedem Abrechnungstag."
+   ]
+  ]
  }
 }

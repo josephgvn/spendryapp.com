@@ -327,5 +327,676 @@
     "A Spendry appban minden kategóriához egyedi havi keretet rendelhetsz, amely a költéseiddel arányosan telik, és még a túllépés előtt figyelmeztetést küld."
    ]
   ]
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Hógolyó vagy lavina módszer: melyikkel törlesztesz gyorsabban?",
+   "description": "A hógolyó a legkisebb tartozást veszi előre, a lavina a legmagasabb kamatot. Nézd meg a különbséget, spórolj a kamatokon, és kövesd a tervet lépésről lépésre.",
+   "h1": "Hógolyó vagy lavina módszer: melyiket érdemes választanod?",
+   "intro": [
+    "Mindkét módszernél minden tartozásra befizeted a minimális összeget, a fennmaradó pluszpénzt pedig egyetlen célra fordítod. A különbség csupán annyi, hogy melyik adósság kapja meg először a többletet.",
+    "A Hógolyó módszer a legkisebb összegű tartozással kezd, így gyorsan lezárhatsz egy tételt, és megmarad a lendületed. A Lavina módszer a legmagasabb kamatozású adósságra fókuszál, amivel összességében a legkevesebb kamatot fizeted ki."
+   ],
+   "steps_title": "Törlesztési terv követése a Spendryben",
+   "steps": [
+    "Add meg az egyes kártyákat, hiteleket és részleteket az egyenlegükkel, a kamatlábukkal és a minimális fizetendő összeggel.",
+    "Nyisd meg az Adósságok képernyőt, és válaszd a Hógolyó vagy a Lavina stratégiát.",
+    "Írd be, mekkora pluszösszeget tudsz havonta a minimumokon felül törlesztésre fordítani.",
+    "A Spendry sorba rendezi a tartozásaidat, kiszámolja a hónapot, amikor elérkezik az adósságmentesség dátuma, és minden fizetés előtt emlékeztet."
+   ],
+   "example_title": "Egy példa",
+   "example": "Három tartozás: 1 200 24%-on, 4 000 18%-on és 9 000 9%-on, havi 300 pluszbefizetéssel. A Lavina a 24%-os kártyát rendezi le először, így ezen spórolsz a legtöbb kamatot. A Hógolyó az 1 200 összegű tartozást zárja le leghamarabb, így az egyik tétel már néhány hónap után eltűnik. A célvonalak gyakran csak egy vagy két hónap eltérést mutatnak.",
+   "tip": "Ha a két dátum közel esik egymáshoz, válaszd azt a módszert, amit szívesebben tartasz be. A legjobb terv mindig az, amit végigviszel.",
+   "faq": [
+    {
+     "q": "Melyik módszerrel spórolhatok a legtöbbet?",
+     "a": "A Lavina módszerrel, mert a legdrágább tartozás csökken leghamarabb. A megtakarítás nagysága attól függ, mekkora az eltérés a kamatlábaid között."
+    },
+    {
+     "q": "Válthatok módszert később?",
+     "a": "Igen. A Spendryben bármikor átválthatod a stratégiát, és a terv, valamint az adósságmentesség dátuma azonnal frissül."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Hitelkártya-tartozás gyorsabb visszafizetése: 4 bevált szokás",
+   "description": "Gyakorlati tippek a hitelkártya gyorsabb törlesztéséhez: fizess a minimum felett, célozd a legmagasabb kamatot, kerülj el minden késést és új tartozást.",
+   "h1": "Hogyan fizetheted vissza gyorsabban a hitelkártya-tartozást?",
+   "intro": [
+    "A hitelkártya-tartozás azért nő könnyen, mert a kamatot minden hónapban a fennmaradó összegre számítják fel. Minden egyes pluszbefizetés csökkenti azt az egyenleget, ami után kamatot fizetsz.",
+    "Négy szokás hozza a legnagyobb változást: fizess többet a minimumnál, soha ne késs el a fizetéssel, irányítsd a pluszpénzt a legmagasabb kamatra, és ne vásárolj olyan dolgokat, amiket nem tudsz egy összegben kifizetni."
+   ],
+   "steps_title": "Így csináld a Spendryvel",
+   "steps": [
+    "Add hozzá a kártyáidat az egyenlegükkel, a kamatlábukkal, a zárónappal és az esedékességi nappal együtt.",
+    "Állíts be egy havi összeget a minimumokon felül, és válaszd a Lavina módszert.",
+    "Kapcsold be az emlékeztetőket, hogy minden esedékesség időben meglegyen, még akkor is, ha az alkalmazás nincs megnyitva.",
+    "Nézd meg havonta az Adósságok képernyőt, kövesd az egyenleg csökkenését, és figyeld, ahogy közeledik az adósságmentesség dátuma."
+   ],
+   "example_title": "Egy példa",
+   "example": "Egy 3 000 összegű egyenleg 22%-os kamat mellett bőven tíz évbe telik a nagyjából 2,5%-os minimumfizetésekkel. Egy fix, havi 175 összegű befizetéssel viszont kevesebb mint két év alatt letudható.",
+   "tip": "Amikor visszatérítés vagy prémium érkezik, tedd egy részét a legmagasabb kamatozású kártyára. Egyetlen extra befizetés is hónapokkal rövidítheti le a törlesztést.",
+   "faq": [
+    {
+     "q": "A legmagasabb kamatot vagy a legkisebb tartozást fizessem előbb?",
+     "a": "A legmagasabb kamattal spórolhatsz a legtöbbet. A legkisebb tartozás lezárása viszont gyors sikert és lendületet ad. A Spendry mindkét esetben kiszámolja a dátumot, így össze tudod hasonlítani őket."
+    },
+    {
+     "q": "Használhatom a kártyát törlesztés közben?",
+     "a": "Csak olyan vásárlásokra, amiket a fizetési határidő előtt teljes egészében ki tudsz egyenlíteni. Az új egyenlegek csak kitolják a tartozásmentesség napját."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Mi történik, ha csak a minimumot fizeted a hitelkártyán?",
+   "description": "A minimális összeggel elkerülöd a késést, de szinte minden kamatra megy el. Tudd meg, mennyi ideig tart a törlesztés, és hogyan segít egy kis pluszpénz.",
+   "h1": "Mi történik, ha csak a minimumot fizeted?",
+   "intro": [
+    "A minimális összeg befizetésével elkerülöd a késedelmi díjakat, de a pénz nagy része tisztán kamatra megy el. Ahogy csökken a tartozás, úgy csökken a kötelező minimum is, így az adósság akár éveken át elhúzódhat.",
+    "Egy csekély, fix pluszösszeg teljesen átírja a helyzetet: a befizetések nagyobb része jut a tőketartozásra, és a lezárás évekre lecsökken."
+   ],
+   "steps_title": "Nézd meg a saját számaidat",
+   "steps": [
+    "Használd az oldalon található ingyenes kalkulátort a kötelező minimum és a fix havi törlesztés összehasonlításához.",
+    "A Spendryben add hozzá a kártyát a kamatlábbal és a minimális fizetendő összeggel együtt.",
+    "Állíts be egy akkora extra összeget, amit minden hónapban kényelmesen tudsz tartani, és nézd meg, hogyan változik az adósságmentesség dátuma."
+   ],
+   "example_title": "Egy példa",
+   "example": "Egy 3 000 összegű egyenleg 22%-os kamaton, nagyjából 2,5%-os kötelező minimummal számolva több mint tíz évig tarthat, és a kamatokra többet fizethetsz ki, mint az eredeti tartozás. Ezzel szemben havi fix 175 befizetésével két éven belül teljesen adósságmentes lehetsz.",
+   "tip": "Ha jelenleg nem tudsz többet fizetni, állítsd be a minimumra az automatikus banki megbízást, hogy soha ne késs el, és amikor csak tudsz, fizess be egy kicsivel többet.",
+   "faq": [
+    {
+     "q": "Ront a hitelképességemen, ha csak a minimumot fizetem?",
+     "a": "Ha a minimumot időben befizeted, a számlád rendezett marad. A tartósan magas egyenleg viszont ronthat a megítéléseden, így a tartozás lefaragása mindenképpen segít."
+    },
+    {
+     "q": "Hogyan számolják ki a minimális fizetendő összeget?",
+     "a": "Banktól függ: általában az egyenleg meghatározott százaléka vagy egy előre rögzített minimumösszeg, attól függően, melyik a magasabb. A pontos értéket a számlakivonatodon találod."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Zárónap és fizetési határidő: mikor érdemes törleszteni?",
+   "description": "A zárónap lezárja a számlázási időszakot, a fizetési határidőig pedig késedelmi díj nélkül rendezheted az egyenleget. Mutatjuk a részleteket.",
+   "h1": "Zárónap és esedékesség: mikor érdemes fizetni?",
+   "intro": [
+    "A hitelkártya zárónapján zárul le az aktuális elszámolási időszak, ekkor állapítják meg az elszámolt összeget. A fizetési határidő általában néhány héttel később jön el, ez az utolsó nap a számla határidőre történő kiegyenlítésére.",
+    "Ha a záróegyenleget teljes egészében befizeted az esedékességig, a legtöbb kártya esetében nem számítanak fel kamatot a vásárlásokra. Ha kevesebbet fizetsz be, a kamat a fennmaradó részre vonatkozik."
+   ],
+   "steps_title": "Ne késs le egy határidőt sem a Spendryvel",
+   "steps": [
+    "Add hozzá a kártyádat a zárónappal és a fizetési határidővel együtt.",
+    "A Spendry a Kezdőlap felületen és az Emlékeztetők képernyőn is pontosan jelzi az esedékes tételeket.",
+    "Kapj emlékeztetőt még az esedékesség előtt, és jelöld meg fizetettként vagy halaszd el közvetlenül az értesítésből."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "A közvetlenül a zárónap után végzett vásárlásoknál van a legtöbb időd a visszafizetésre, mivel azok már a következő havi számlára kerülnek rá.",
+   "faq": [
+    {
+     "q": "Mi történik, ha a határidő hétvégére esik?",
+     "a": "Sok bank a következő munkanapra tolja a határidőt, de a szabályok eltérhetnek. Ha egy-két nappal előbb utalsz, biztosan nem csúszol ki az időből."
+    },
+    {
+     "q": "Fizethetek még a zárónap előtt?",
+     "a": "Igen. Ha hamarabb törlesztesz, a következő számlakivonatodon már eleve alacsonyabb egyenleg fog szerepelni."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "Részletfizetések követése egyszerűen iPhone-on",
+   "description": "Tartsd kézben az összes részletet egy helyen: mennyi van még hátra, hány részlet maradt, mikor esedékes a következő, emlékeztetővel minden fizetés előtt.",
+   "h1": "Hogyan kövesd a részletfizetéseket az iPhone-odon?",
+   "intro": [
+    "Egy vásárlást részletekre bontani kényelmesnek tűnik, de több párhuzamos konstrukció észrevétlenül lekötheti a havi bevételeid jelentős részét.",
+    "Ha az összes tervet nyomon követed a hátralévő részletekkel együtt, pontosan látod a valós havi terhet és azt is, mikor érsz a végére."
+   ],
+   "steps_title": "Kövesd a részleteket a Spendryben",
+   "steps": [
+    "Vegyél fel egy új részletfizetést a teljes összeggel, a részletek számával és az első törlesztés dátumával.",
+    "Lásd az összes konstrukciót egyben: a már kifizetett részt, a fennmaradó összeget és a következő esedékességet.",
+    "Kapj emlékeztetőt minden törlesztés előtt, és lásd a részleteket az adósságmentesség dátuma kiszámításánál a kártyáid és a hiteleid mellett."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Mielőtt új részletfizetést vállalsz, add össze a már meglévő tételeket. Ha az összeg túl sok lenne egy nehezebb hónapban, érdemes várni a vásárlással.",
+   "faq": [
+    {
+     "q": "Beleszámítanak a részletek az adósságmentesség dátumába?",
+     "a": "Igen. A Spendry a kártyák és hitelek mellett ezeket is kalkulálja, így a dátum a teljes képet mutatja."
+    },
+    {
+     "q": "Tudok kamatmentes részletfizetést is rögzíteni?",
+     "a": "Igen. Hagyd a kamatlábat nullán, és a Spendry egyszerűen csak visszaszámolja a hátralévő részleteket."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "Számlafizetés határidőre: állíts be emlékeztetőket iPhone-on",
+   "description": "Állíts be emlékeztetőt minden számlára, kártyára és előfizetésre. Kapj értesítést a határidő előtt, és pipáld ki egyetlen koppintással.",
+   "h1": "Hogyan ne késs el soha egyetlen számlával sem?",
+   "intro": [
+    "A késedelmi díjak és a kamatok hátterében a leggyakrabban a feledékenység áll, nem a pénzhiány. Egy néhány nappal korábbi emlékeztető szinte teljesen megoldja ezt a gondot.",
+    "A titok nyitja az, hogy minden tételt egyetlen helyen tarts nyilván: lakbért, rezsit, telefonszámlát, kártyákat, hiteleket és előfizetéseket."
+   ],
+   "steps_title": "Állítsd be a Spendryben",
+   "steps": [
+    "Add meg az egyes számlákat és előfizetéseket az összeggel, az esedékességi nappal és az ismétlődés gyakoriságával.",
+    "Állítsd be, hány nappal a fizetési határidő előtt szeretnél emlékeztetőt kapni.",
+    "Az értesítések akkor is megérkeznek, ha az alkalmazás nincs megnyitva. A fizetést közvetlenül az értesítésből rendezettnek jelölheted vagy el is halaszthatod."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Tedd ki a közelgő kifizetések widgetet a Főképernyőre, így a telefon minden feloldásakor azonnal látod a következő hét esedékes számláit.",
+   "faq": [
+    {
+     "q": "Kapok emlékeztetőt akkor is, ha nem nyitom meg az appot?",
+     "a": "Igen. A Spendry az iPhone rendszerén ütemezi az értesítéseket, így azok az app megnyitása nélkül is pontosan megérkeznek."
+    },
+    {
+     "q": "Megnézhetem az összes ezen a héten esedékes tételt?",
+     "a": "Igen. Az Emlékeztetők képernyő listázza a közelgő fizetéseket, egy opcionális reggeli automatizálás pedig egyetlen értesítésben összegzi a következő három napot."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "Előfizetések kezelése és lemondása iPhone-on",
+   "description": "Nézd meg, mennyibe kerülnek az előfizetéseid havonta és évente. Kapj emlékeztetőt a megújulás előtt, és dönts a lemondásukról.",
+   "h1": "Hogyan kövesd és csökkentsd az előfizetéseidet?",
+   "intro": [
+    "Előfizetést indítani nagyon egyszerű, megfeledkezni róla még könnyebb. Néhány apróbb havi tétel év végére komoly kiadássá duzzadhat.",
+    "Ha tisztán látod a végösszeget havi és éves szinten, általában azonnal találsz két vagy három olyan szolgáltatást, amit már rég nem használsz."
+   ],
+   "steps_title": "Kövesd az előfizetéseket a Spendryben",
+   "steps": [
+    "Add hozzá az egyes előfizetéseket az összeggel és az elszámolási időszakkal: heti, havi vagy éves bontásban.",
+    "A Spendry kiszámolja a havi és az éves összesítést, valamint jelzi a következő megújulási dátumot.",
+    "Kapj emlékeztetőt minden megújulás előtt, hogy még időben le tudd mondani, ha már nincs rá szükséged."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Próbáld ki az oldalon található előfizetés-kalkulátort: írd be, mit fizetsz, és másodpercek alatt látni fogod az éves összeget.",
+   "faq": [
+    {
+     "q": "A Spendry le is mondja helyettem az előfizetéseket?",
+     "a": "Nem. A Spendry soha nem kapcsolódik a fiókjaidhoz. Időben emlékeztet a megújulásra, így a szolgáltatónál magad mondhatod le a csomagot."
+    },
+    {
+     "q": "Éves előfizetéseket is tudok rögzíteni?",
+     "a": "Igen. A Spendry kezeli a heti, a havi és az éves időszakokat is, és mindet beleszámolja a havi összesítésbe."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "Havi költségvetés készítése lépésről lépésre",
+   "description": "Egyszerű havi költségvetés: indulj a bevételeidből, fedezd a kötelezőket, állíts be limiteket a költésekre, és tegyél félre még a hó elején.",
+   "h1": "Hogyan készíts jól működő havi költségvetést?",
+   "intro": [
+    "A költségvetés nem más, mint a bevételeid előre megtervezése még a hónap kezdete előtt. Indulj ki a nettó keresetedből, majd határozd meg, melyik rész hová kerüljön.",
+    "Gyakori kiindulópont, hogy a jövedelem fele a szükségletekre megy, például lakhatásra és számlákra, nagyjából harmada a szabadon választható dolgokra, a maradék pedig a megtakarításra és az adósságok rendezésére. Igazítsd bátran a saját életedhez."
+   ],
+   "steps_title": "Építsd fel a Spendryben",
+   "steps": [
+    "Add meg a havi jövedelmedet.",
+    "Hozz létre költségvetést a legfontosabb kiadási kategóriákra, mindegyikhez saját keretösszeggel.",
+    "A keretek a kiadások rögzítésével párhuzamosan telnek, a Spendry pedig figyelmeztet, mielőtt elérnéd a limitet.",
+    "A hónap végén nézd át a grafikonokat, és szükség szerint alakítsd át a következő havi limiteket."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Használd az ingyenes havi költségvetés-kalkulátort a weboldalon a jövedelmed felosztásához, még mielőtt beállítanád a limiteket a telefonodon.",
+   "faq": [
+    {
+     "q": "Hány kategóriát érdemes felvenni a költségvetésbe?",
+     "a": "Kezdésnek elég öt-nyolc kategória, mint például lakhatás, számlák, élelmiszer, közlekedés, étterem, vásárlás és megtakarítás. Csak akkor vegyél fel újakat, ha valóban szükséges."
+    },
+    {
+     "q": "Mi a teendő, ha túllépem a keretet?",
+     "a": "Csoportosíts át pénzt egy másik kategóriából, vagy vond le a tanulságot a következő hónapra. A költségvetés egy alakítható terv, nem pedig egy számonkérés."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Az adósságmentesség dátuma: számold ki és hozd közelebb",
+   "description": "Az adósságmentesség dátuma az a hónap, amikor az utolsó hiteled is elfogy. Így számolhatod ki, és így hozhatod előre extra törlesztéssel.",
+   "h1": "Hogyan számold ki az adósságmentesség dátumát",
+   "intro": [
+    "Az adósságmentesség dátuma az a hónap, amikor az utolsó tartozásod egyenlege is eléri a nullát. Ez a fennálló tartozásoktól, a kamatoktól és a havi törlesztőrészletektől függ.",
+    "Ha ismered ezt a konkrét dátumot, a homályos cél valódi határidővé válik, és pontosan látod majd, mennyit ér minden egyes extra befizetés."
+   ],
+   "steps_title": "Számold ki a dátumot a Spendryben",
+   "steps": [
+    "Vedd fel az összes tartozásodat: hitelkártyák, hitelek, részletek, folyószámlahitel-számla és a barátoknak járó pénzek.",
+    "Add meg az egyes egyenlegeket, a kamatokat és a havi törlesztőrészleteket.",
+    "A Spendry kiszámolja az adósságmentesség hónapját, és minden törlesztéskor vagy új tételnél automatikusan frissíti."
+   ],
+   "example_title": "Próbáld ki most",
+   "example": "Az oldalon található ingyenes adósságtörlesztési kalkulátor pontosan így működik: add meg a hiteleidet és a havi extra összeget, majd nézd meg a dátumot a Hógolyó és a Lavina módszerrel is.",
+   "tip": "Minden fizetésnap után nézd meg a dátumot. Látni, ahogy közelebb kerül, a létező legjobb motiváció.",
+   "faq": [
+    {
+     "q": "Miért változik az adósságmentesség dátuma?",
+     "a": "Közelebb kerül, ha többet törlesztesz, és távolabbra tolódik, ha új hitelt veszel fel vagy kevesebbet fizetsz. A Spendry minden alkalommal újraszámolja."
+    },
+    {
+     "q": "Beírhatom azt a pénzt is, amivel egy barátomnak tartozom?",
+     "a": "Igen. Vedd fel kamatmentes magántartozásként."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "Kiadások követése banki bejelentkezés nélkül",
+   "description": "Nem kell megadnod a banki adataidat a pénzkövetéshez. Rögzíts kiadásokat másodpercek alatt, olvass be nyugtát, és tartsd az adataidat az iPhone-odon.",
+   "h1": "Hogyan kövesd a kiadásaidat banki adatok megadása nélkül",
+   "intro": [
+    "Sok pénzügyi app kéri a banki bejelentkezési adataidat. Ha ezt inkább megtartanád magadnak, napi pár másodperc ráfordítással így is pontosan követhetsz minden kiadást.",
+    "Ha magad rögzíted a tételeket, sokkal jobban odafigyelsz a költéseidre, ami valójában a költségkövetés igazi célja."
+   ],
+   "steps_title": "Így működik a Spendryben",
+   "steps": [
+    "Kiadás hozzáadása pár másodperc alatt: írd be az összeget és válassz kategóriát, vagy használd a Nyugta beolvasása funkciót.",
+    "Kapcsold be az előre elkészített Apple Pay automatizálást a Parancsok appban, és a kártyás vásárlások automatikusan mentésre kerülnek az üzlet nevével.",
+    "Az adataid az iPhone-odon maradnak, és a saját iCloud-fiókodon keresztül szinkronizálódnak. A Spendry soha nem látja őket."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Mindig közvetlenül a fizetés után rögzítsd a tételt. Ha későbbre halasztod, könnyen elfelejtődik egy-egy vásárlás.",
+   "faq": [
+    {
+     "q": "Biztonságos a banki kapcsolat nélkül?",
+     "a": "Nem szivároghat ki banki bejelentkezési adat, hiszen meg sem adod. A Spendry a készülékeden és az iCloudban tárolja a bejegyzéseket, és bekapcsolható az Alkalmazás zárolása Face ID használatával."
+    },
+    {
+     "q": "Tudok tranzakciókat importálni?",
+     "a": "Igen. Importálhatsz tételeket banki üzenetekből vagy a Parancsok automatizálásaival, a banki hozzáférés megosztása nélkül."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Költségvetés-widgetek iPhone Főképernyőre és Zárolási képernyőre",
+   "description": "Kövesd az egyenleged, a költségvetéseket, célokat és fizetendő számlákat a Főképernyőn és a Zárolási képernyőn, appnyitás nélkül.",
+   "h1": "Költségvetés-widgetek az iPhone Főképernyőjére",
+   "intro": [
+    "A widgetekkel anélkül tarthatod szem előtt a pénzügyeidet, hogy megnyitnád az appot. Elég egy pillantás a Főképernyőre, és máris látod a keretedet vagy a közelgő fizetnivalókat.",
+    "A Spendry az egyenleghez, költségvetésekhez, célokhoz, adósságokhoz, pénzáramláshoz és esedékes fizetésekhez is kínál különféle méretű widgeteket a Főképernyőre és a Zárolási képernyőre."
+   ],
+   "steps_title": "Spendry-widget hozzáadása",
+   "steps": [
+    "Érintsd meg hosszan a Főképernyő egy üres területét, majd koppints a Szerkesztés és a Widget hozzáadása gombra.",
+    "Keresd meg a Spendry appot, és válaszd ki a kívánt widgetet és méretet.",
+    "Tartsd hosszan az ujjad a widgeten, és koppints a Widget szerkesztése lehetőségre a megjelenítendő költségvetés, cél vagy számla kiválasztásához."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Tedd a közelgő fizetések widgetet a Főképernyő első oldalára. A fizetési határidőkről a legkönnyebb megfeledkezni.",
+   "faq": [
+    {
+     "q": "Tudok kiadást rögzíteni widgetből?",
+     "a": "Igen. A hozzáadás widget rögtön az új kiadás képernyőt nyitja meg, így a vásárlás rögzítése mindössze pár másodperc."
+    },
+    {
+     "q": "Automatikusan frissülnek a widgetek?",
+     "a": "Igen. Új bejegyzés rögzítésekor és a nap folyamán önállóan frissülnek."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "Megtakarítási célok elérése lépésről lépésre",
+   "description": "Tűzz ki egy célt és határidőt, tegyél félre fix összeget havonta, és kövesd a haladást. Egyszerű módszer utazásra, autóra vagy vésztartalékra.",
+   "h1": "Hogyan tűzz ki megtakarítási célt és érd el sikeresen",
+   "intro": [
+    "Egy konkrét összeggel és határidővel ellátott célt sokkal könnyebb elérni, mint egy puszta vágyat. Oszd el a szükséges összeget a rendelkezésre álló hónapokkal, és pontosan megkapod a havi összeget.",
+    "Ha rögtön fizetésnapkor félreteszel, még mielőtt költeni kezdenél, a megtakarítás teljesen automatikussá válik."
+   ],
+   "steps_title": "Takarékoskodj a Spendryvel",
+   "steps": [
+    "Hozz létre egy célt a kívánt összeggel és a céldátummal.",
+    "Minden félretett összeg után rögzítsd a befizetést, a Spendry pedig azonnal mutatja, hol tartasz.",
+    "Oszd meg a célt a pároddal vagy a családoddal az iCloudon keresztül, és gyűjtsetek rá együtt."
+   ],
+   "example_title": "Egy példa",
+   "example": "6 000 megtakarításához 12 hónap alatt havi 500 szükséges. Ha 1 200 már összegyűlt, a havi összeg 400-ra csökken.",
+   "tip": "Kezdd egy egyhavi kiadást fedező vésztartalékkal, majd növeld fokozatosan háromhavira.",
+   "faq": [
+    {
+     "q": "Mekkora legyen a vésztartalék?",
+     "a": "Általában 3-6 havi alapvető megélhetési kiadás a javasolt összeg. Kezdd egyhavi tartalékkal, és építsd fel innen lépésről lépésre."
+    },
+    {
+     "q": "Gyűjthetek egyszerre több célra is?",
+     "a": "Igen. Tetszőleges számú célt létrehozhatsz, és mindegyik haladását külön követheted."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "Hitelek követése: lásd pontosan, mennyit fizetsz",
+   "description": "Autóhitel, személyi kölcsön és lakáshitel követése: fennmaradó tőke, hátralévő részletek, kamatok és lejárati dátum, törlesztési emlékeztetőkkel.",
+   "h1": "Hogyan kövesd a hiteleidet, és lásd a valós költségeket",
+   "intro": [
+    "A havi törlesztőrészlet két dolgot rejt el: mennyi belőle a kamat, és hány részlet van még hátra. Ha mindkettőt nyomon követed, látni fogod a hitel valódi árát.",
+    "A futamidő elején a törlesztőrészlet legnagyobb része kamat, később viszont egyre több megy a tőketartozás csökkentésére. Ezért takarít meg a legtöbb kamatot az időben elindított előtörlesztés."
+   ],
+   "steps_title": "Kövesd a Spendryben",
+   "steps": [
+    "Vedd fel a hitelt az összeg, a kamatláb, a futamidő és az első törlesztés dátumának megadásával.",
+    "Kövesd a fennmaradó egyenleget, a hátralévő részleteket és a lejárati hónapot.",
+    "Kérj emlékeztetőt minden esedékesség előtt, és kapcsold be a hitelt az adósságmentességi tervedbe."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Mielőtt aláírnád a hitelszerződést, számold ki a havi részletet és a teljes visszafizetendő kamatot az oldal ingyenes hitelkalkulátorával.",
+   "faq": [
+    {
+     "q": "Érdemes előtörleszteni a hitelt?",
+     "a": "Ha magas a kamat és alacsony az előtörlesztési díj, az extra befizetéssel rengeteg kamatot spórolhatsz. Mindig ellenőrizd a hitelszerződésed feltételeit."
+    },
+    {
+     "q": "Követhetek lakáshitelt is?",
+     "a": "Igen. Vedd fel hitelként a kamat és a futamidő megadásával."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "Nettó vagyon követése iPhone-on: növeld a vagyonod",
+   "description": "A nettó vagyon az eszközeid és a tartozásaid különbsége. Kövesd a megtakarításokat, befektetéseket, aranyat és hiteleket egy helyen.",
+   "h1": "Hogyan kövesd a nettó vagyonodat",
+   "intro": [
+    "A nettó vagyon minden tulajdonod és minden adósságod különbsége. Ez az az egyetlen szám, amely pontosan megmutatja, jó irányba tartanak-e a pénzügyeid.",
+    "Havonta egyszer bőven elég ellenőrizni, így akkor is látod a hosszabb távú tendenciát, ha egy adott hónap éppen gyengébben sikerült."
+   ],
+   "steps_title": "Kövesd a Spendryben",
+   "steps": [
+    "Add meg a számláidat és a megtakarításaidat.",
+    "Vedd fel a befektetéseidet: a részvények, kriptovaluták, arany és devizák élő árfolyammal frissülnek.",
+    "Add hozzá a hiteleidet. A Spendry kiszámolja a nettó vagyont, és diagramon mutatja az időbeli alakulását."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "A hitelek visszafizetése éppúgy növeli a nettó vagyonodat, mint a félretett pénz.",
+   "faq": [
+    {
+     "q": "Számoljam bele az ingatlant vagy az autót is?",
+     "a": "Beleszámolhatod, de sokan csak a készpénzt, a befektetéseket és a hiteleket veszik fel, mivel ezek értéke hónapról hónapra közvetlenül változik."
+    },
+    {
+     "q": "Milyen gyakran frissülnek a befektetési árfolyamok?",
+     "a": "A Spendry élő piaci árfolyamokat jelenít meg a részvényekhez, kriptókhoz, nemesfémekhez és devizákhoz."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "Közös költségvetés a pároddal: egyszerű pénzügyek",
+   "description": "Ossz meg költségvetést vagy megtakarítási célt a pároddal iCloudon keresztül. Mindenki látja a számokat közös bejelentkezés nélkül.",
+   "h1": "Hogyan vezessetek közös költségvetést a pároddal",
+   "intro": [
+    "A pénzügyi megbeszélések sokkal gördülékenyebbek, ha mindketten ugyanazokat a számokat látjátok. A közös költségvetés pontosan mutatja a költéseket és a keretet, anélkül, hogy bárki számonkérésnek érezné.",
+    "A saját kiadásaitokat tartsátok külön, és csak a közös költségeket vigyétek fel közösen, például a lakbért, a bevásárlást vagy az utazásokat."
+   ],
+   "steps_title": "Oszd meg a Spendryben",
+   "steps": [
+    "Hozz létre egy költségvetést vagy célt, és válaszd a megosztási lehetőséget.",
+    "Hívd meg a párodat vagy a családtagjaidat az iCloud-megosztás segítségével.",
+    "Mindenki rögzíthet kiadásokat, és a módosítások azonnal megjelennek minden készüléken."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Mielőtt elkezdenétek, egyezzetek meg a közös kategóriákban, és havonta egyszer nézzétek át együtt az eredményeket.",
+   "faq": [
+    {
+     "q": "Látja a párom az összes saját kiadásomat?",
+     "a": "Nem. Kizárólag a megosztott elemeket látja. A többi költségvetésed és számlád teljesen privát marad."
+    },
+    {
+     "q": "Mindkettőnknek szüksége van a Spendryre?",
+     "a": "Igen. Mindkét fél a saját iPhone-ján használja a Spendryt, és a közös költségvetés az iCloudon keresztül szinkronizál."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Apple Pay vásárlások mentése Parancsok segítségével",
+   "description": "Használj kész Parancsok automatizálást az Apple Pay költések Spendrybe mentéséhez, így a költségvetésed gépelés nélkül is naprakész marad.",
+   "h1": "Apple Pay vásárlások automatikus rögzítése",
+   "intro": [
+    "A Parancsok app minden Apple Pay fizetés után képes automatikusan elindítani egy műveletet. A Spendry ezzel a módszerrel azonnal elmenti neked a vásárlást.",
+    "A költségvetéseid így pötyögés nélkül is folyamatosan naprakészek maradnak, kategóriát pedig csak akkor kell megadnod, ha szeretnél."
+   ],
+   "steps_title": "Kapcsold be az automatizálást",
+   "steps": [
+    "A Spendryben nyisd meg az Automatizálások menüpontot, és válaszd az Apple Pay automatizálást.",
+    "Kövesd a lépéseket a beállításhoz a Parancsok appban.",
+    "Fizess az Apple Pay segítségével a megszokott módon. A vásárlás rögtön megjelenik a Spendryben az üzlet nevével."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Állítsd be a vasárnap esti automatizálást is, és kapj egy gyors összesítőt a heti kiadásaidról.",
+   "faq": [
+    {
+     "q": "Hozzáférést kap ezzel a Spendry a bankszámlámhoz?",
+     "a": "Nem. Az automatizálás csak azokat a vásárlási adatokat veszi át, amelyeket az iPhone egyébként is jelez, például az összeget és az üzlet nevét. Nincs szükség banki bejelentkezésre."
+    },
+    {
+     "q": "Módosíthatom a kategóriát utólag?",
+     "a": "Igen. A kiadást bármikor utólag is módosíthatod a Spendryben."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Pénzügyi útmutatók: Költségvetés és adósságok",
+  "description": "Gyakorlati útmutatók költségvetéshez, adósságrendezéshez, hitelekhez és előfizetésekhez, hogy soha ne késs el egy befizetéssel.",
+  "h1": "Pénzügyi útmutatók",
+  "lead": "Rövid, hasznos útmutatók a költségvetés tervezéséhez, az adósságok törlesztéséhez és a pontos fizetéshez."
+ },
+ "guide_labels": {
+  "nav": "Útmutatók",
+  "tip": "Tipp",
+  "faq": "Kérdések",
+  "more": "További útmutatók",
+  "all": "Összes útmutató",
+  "tools": "Ingyenes kalkulátorok",
+  "cta": "Kövesd mindezt egy helyen. Töltsd le ingyen a Spendry alkalmazást az App Store áruházból.",
+  "topic_debt": "Adósságok és hitelkártyák",
+  "topic_bills": "Számlák és előfizetések",
+  "topic_budget": "Költségvetés és megtakarítás",
+  "topic_iphone": "Az iPhone-odon"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Hitelkártya törlesztési kalkulátor: Mennyi idő?",
+  "description": "Ingyenes hitelkártya-kalkulátor. Számold ki a törlesztés idejét, a kamatokat és a minimális fizetés valós költségét.",
+  "h1": "Hitelkártya törlesztési kalkulátor",
+  "lead": "Nézd meg, mennyi idő alatt fizetheted vissza a hitelkártyád, és mennyi kamatot spórolhatsz a minimális összeghez képest.",
+  "balance": "Kártyatartozás",
+  "rate": "Éves kamatláb (%)",
+  "payment": "Havi törlesztőrészlet",
+  "min_pct": "Minimális törlesztés (a tartozás %-a)",
+  "months": "Törlesztési idő",
+  "interest": "Teljes kamat",
+  "date": "Az adósságmentesség dátuma",
+  "fixed": "A te részleteddel",
+  "minimum": "Csak minimális törlesztés",
+  "never": "Ez az összeg nem fedezi a havi kamatot. Emeld meg a törlesztést a tartozás rendezéséhez.",
+  "saved": "Megtakarított kamat",
+  "prose": [
+   [
+    "Hogyan működik a számítás",
+    "A kalkulátor minden hónapban hozzáadja a havi kamatot a tartozáshoz, majd levonja a törlesztődet, amíg az egyenleg el nem éri a nullát. A minimális törlesztés összehasonlítása minden hónapban újra kiszámolja az összeget a fennmaradó tartozás alapján."
+   ],
+   [
+    "Miért tart olyan sokáig a minimális törlesztés",
+    "A minimális összeg a tartozás csökkenésével együtt csökken, így a befizetés alig fedezi a tőkét a kamat mellett. A fix összegű törlesztéssel viszont havonta ugyanakkora rész dolgozik a tőketartozás lefaragásán."
+   ],
+   [
+    "Valósítsd meg a tervet",
+    "A Spendry segít a megvalósításban: add hozzá a Hitelkártyák kártyáidat, állítsd be a havi keretet, és kérj emlékeztetőt minden fizetési határidő előtt."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Hiteltörlesztési kalkulátor: Havi részlet és kamat",
+  "description": "Ingyenes hitelkalkulátor személyi kölcsönhöz és autóhitelhez. Számold ki a havi törlesztőrészletet, a teljes kamatot és a törlesztési tervet.",
+  "h1": "Hiteltörlesztési kalkulátor",
+  "lead": "Add meg az összeget, az éves kamatot és a futamidőt a havi törlesztőrészlet, a teljes kamat és az egyes részletek kiszámításához.",
+  "amount": "Hitelösszeg",
+  "rate": "Éves kamatláb (%)",
+  "term": "Futamidő (hónap)",
+  "payment": "Havi törlesztőrészlet",
+  "total": "Teljes visszafizetendő összeg",
+  "interest": "Teljes kamat",
+  "month": "Hónap",
+  "principal": "Tőke",
+  "interest_col": "Kamat",
+  "balance": "Fennmaradó tartozás",
+  "show_all": "Összes részlet mutatása",
+  "show_less": "Kevesebb mutatása",
+  "prose": [
+   [
+    "Hogyan számoljuk a törlesztőrészletet",
+    "Ez egy klasszikus annuitásos hitelszámítás: minden hónapban azonos az összeg, a kamat pedig a fennmaradó tőketartozásra számolódik. A futamidő elején főleg kamatot fizetsz, később pedig döntően a tőkét törleszted."
+   ],
+   [
+    "Hogyan csökkentheted az összköltséget",
+    "A rövidebb futamidő vagy az alacsonyabb kamat vágja vissza leginkább a kamatköltségeket. A korai előtörlesztés szintén rengeteget segít, ha a bankod díjmentesen engedi."
+   ],
+   [
+    "Kövesd a részleteket a szerződés után is",
+    "Vidd fel a Hitelek közé a Spendry alkalmazásban, hogy mindig lásd a hátralévő részleteket, a záró dátumot és a következő fizetési emlékeztetőt."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Megtakarítási kalkulátor: Havi félretett összeg",
+  "description": "Ingyenes megtakarítási kalkulátor. Számold ki, mennyit kell havonta félretenned a célod eléréséhez a határidő és az elvárt kamat alapján.",
+  "h1": "Megtakarítási cél kalkulátor",
+  "lead": "Számold ki pontosan, mennyit kell havonta félretenned, hogy időben elérd a célodat.",
+  "goal": "Célösszeg",
+  "have": "Eddig megtakarítva",
+  "months": "Hónapok száma a célig",
+  "rate": "Éves megtakarítási kamat (%)",
+  "monthly": "Havonta félreteendő",
+  "weekly": "Ez hetente körülbelül",
+  "total_in": "Saját befizetésed",
+  "earned": "Jóváírt kamat",
+  "done": "Ezt a célt már elérted.",
+  "prose": [
+   [
+    "Hogyan működik",
+    "A kalkulátor elosztja a még hiányzó összeget a rendelkezésre álló hónapok között. Ha kamattal is számolsz, a félretett pénzed havonta kamatozik, így kevesebb saját befizetésre lesz szükséged."
+   ],
+   [
+    "Hogyan teheted könnyebbé",
+    "Tegyél félre rögtön fizetésnapkor, és kezeld úgy, mint egy kötelező számlát. Egy közös cél a pároddal még gyorsabbá teheti a gyűjtést."
+   ],
+   [
+    "Kövesd a haladást",
+    "Hozd létre a Célok között a Spendry alkalmazásban, és nézd meg minden befizetés után, mennyivel kerültél közelebb hozzá."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Előfizetés kalkulátor: Éves kiadások számítása",
+  "description": "Ingyenes előfizetés-kalkulátor. Írd össze az előfizetéseidet, és nézd meg, mennyit visznek el havonta, évente és 5 év alatt.",
+  "h1": "Előfizetés kalkulátor",
+  "lead": "Írd össze az előfizetéseidet, és lásd tisztán a valós havi és éves kiadásokat.",
+  "name": "Előfizetés",
+  "price": "Ár",
+  "cycle": "Számlázási gyakoriság",
+  "weekly": "Heti",
+  "monthly": "Havi",
+  "yearly": "Éves",
+  "add": "Előfizetés hozzáadása",
+  "remove": "Törlés",
+  "per_month": "Havonta",
+  "per_year": "Évente",
+  "five_years": "5 év alatt",
+  "samples": [
+   "Zenei streaming",
+   "Videós streaming",
+   "Felhőtárhely",
+   "Edzőtermi bérlet",
+   "Híroldal előfizetés"
+  ],
+  "prose": [
+   [
+    "Miért fontos az éves összeg",
+    "Egy kisebb havi díj elsőre észrevétlennek tűnik. Tizenkettővel beszorozva, és az összes előfizetésedet összeadva azonban kiderülhet, hogy ez az egyik legnagyobb rendszeres kiadásod."
+   ],
+   [
+    "Mit érdemes tenned az eredménnyel",
+    "Rendezd a listát ár szerint, és tedd fel a kérdést mindegyiknél: használtam az elmúlt hónapban? Mondd le, amire nincs szükséged, és állíts be emlékeztetőt a megmaradók megújítása előtt."
+   ],
+   [
+    "Ne érjen váratlan megújulás",
+    "A Spendry rendszerezi az Előfizetések listáját, hozzáadja őket a havi kerethez, és időben figyelmeztet minden levonás előtt."
+   ]
+  ]
  }
 }

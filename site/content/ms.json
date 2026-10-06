@@ -327,5 +327,676 @@
     "Di Spendry, setiap kategori mempunyai bajet bulanan tersendiri yang menjejak belanja anda, lengkap dengan amaran sebelum bajet terlebih guna."
    ]
   ]
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Snowball vs Avalanche: Kaedah Mana Selesaikan Hutang Cepat?",
+   "description": "Snowball langsaikan baki terkecil dahulu, avalanche kadar faedah tertinggi. Ketahui perbezaan, penjimatan faedah dan cara mengamalkannya.",
+   "h1": "Snowball vs. avalanche: kaedah mana patut anda pilih?",
+   "intro": [
+    "Kedua-dua kaedah membayar jumlah minimum untuk setiap hutang dan menumpukan semua wang lebihan kepada satu hutang sahaja. Bezanya cuma hutang mana yang menerima wang lebihan dahulu.",
+    "Snowball bermula dengan baki paling kecil supaya anda cepat melangsaikan hutang dan kekal bersemangat. Avalanche bermula dengan kadar faedah tertinggi supaya anda membayar jumlah faedah paling rendah secara keseluruhan."
+   ],
+   "steps_title": "Ikuti pelan pelunasan hutang dalam Spendry",
+   "steps": [
+    "Tambah setiap kad, pinjaman dan ansuran bersama baki, kadar faedah dan bayaran minimum.",
+    "Buka Hutang dan pilih kaedah Snowball atau Avalanche.",
+    "Masukkan jumlah bayaran tambahan yang anda mampu bayar melebihi bayaran minimum setiap bulan.",
+    "Spendry menyusun hutang anda dan memaparkan bulan anda bebas hutang, lengkap dengan peringatan sebelum setiap bayaran."
+   ],
+   "example_title": "Contoh situasi",
+   "example": "Tiga hutang: 1,200 pada 24%, 4,000 pada 18% dan 9,000 pada 9%, dengan wang lebihan 300 setiap bulan. Kaedah avalanche menyelesaikan kad 24% dahulu dan menjimatkan paling banyak faedah. Kaedah snowball menyelesaikan baki 1,200 dahulu, jadi satu hutang selesai dalam masa beberapa bulan. Tarikh selesai kedua-duanya selalunya hanya berbeza sebulan atau dua bulan.",
+   "tip": "Jika kedua-dua tarikh hampir sama, pilih kaedah yang paling mudah untuk anda teruskan. Pelan terbaik ialah pelan yang anda konsisten bayar.",
+   "faq": [
+    {
+     "q": "Kaedah mana yang paling menjimatkan wang?",
+     "a": "Kaedah avalanche, kerana hutang dengan faedah paling mahal diselesaikan dahulu. Jumlah penjimatan bergantung pada jurang perbezaan kadar faedah anda."
+    },
+    {
+     "q": "Bolehkah saya menukar kaedah kemudian?",
+     "a": "Boleh. Tukar kaedah dalam Spendry pada bila-bila masa dan pelan serta tarikh anda bebas hutang akan dikemas kini serta-merta."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Cara Selesaikan Hutang Kad Kredit Cepat: 4 Tabiat Berkesan",
+   "description": "Langkah praktikal langsaikan hutang kad kredit: bayar lebih dari minimum, tumpu faedah tertinggi, jangan lewat bayar dan henti baki baharu.",
+   "h1": "Cara selesaikan hutang kad kredit dengan lebih cepat",
+   "intro": [
+    "Hutang kad kredit bertambah kerana faedah dicaj setiap bulan ke atas baki yang tinggal. Setiap bayaran tambahan akan mengurangkan baki pokok yang dikenakan faedah.",
+    "Empat tabiat ini membawa perubahan terbesar: bayar melebihi bayaran minimum, jangan sesekali lewat bayar, tumpukan wang lebihan pada faedah tertinggi, dan henti menambah pembelian yang anda tidak mampu bayar penuh."
+   ],
+   "steps_title": "Lakukan bersama Spendry",
+   "steps": [
+    "Tambah kad anda bersama baki, kadar faedah, tarikh penyata dan tarikh matang.",
+    "Tetapkan jumlah bulanan melebihi bayaran minimum dan pilih kaedah Avalanche.",
+    "Hidupkan peringatan supaya tiada tarikh matang yang terlepas, walaupun aplikasi ditutup.",
+    "Semak Hutang setiap bulan untuk melihat baki berkurangan dan tarikh anda bebas hutang semakin dekat."
+   ],
+   "example_title": "Contoh situasi",
+   "example": "Baki 3,000 pada kadar 22% mengambil masa lebih sepuluh tahun jika hanya membayar bayaran minimum sekitar 2.5%. Bayaran tetap 175 setiap bulan menyelesaikannya dalam masa kurang dua tahun.",
+   "tip": "Apabila menerima pulangan tunai atau bonus, salurkan sebahagian daripadanya ke kad dengan kadar faedah tertinggi. Satu bayaran tambahan boleh memendekkan tempoh pelan selama beberapa bulan.",
+   "faq": [
+    {
+     "q": "Patutkah saya bayar kadar tertinggi atau baki terkecil dahulu?",
+     "a": "Kadar faedah tertinggi menjimatkan lebih banyak faedah. Baki terkecil memberi dorongan semangat lebih awal. Spendry menunjukkan tarikh anda bebas hutang untuk kedua-dua kaedah supaya anda boleh membandingkannya."
+    },
+    {
+     "q": "Bolehkah saya terus guna kad semasa membayarnya?",
+     "a": "Hanya untuk pembelian yang anda mampu bayar penuh sebelum tarikh matang. Baki baharu akan melambatkan lagi tarikh anda bebas hutang."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Kesan Bayar Minimum Kad Kredit: Elak Perangkap Faedah",
+   "description": "Bayar minimum mengelak rekod buruk, tetapi kebanyakannya untuk faedah. Ketahui tempoh sebenar hutang selesai dan manfaat bayaran tambahan.",
+   "h1": "Apa yang berlaku jika anda hanya bayar jumlah minimum",
+   "intro": [
+    "Bayaran minimum memastikan akaun anda kekal baik, tetapi sebahagian besar wang itu digunakan untuk membayar faedah. Apabila baki berkurangan, bayaran minimum turut mengecil, menyebabkan hutang berlarutan bertahun-tahun.",
+    "Bayaran tambahan tetap yang kecil mengubah segalanya: lebih banyak wang digunakan untuk membayar baki pokok, dan tarikh selesai dipercepatkan bertahun-tahun."
+   ],
+   "steps_title": "Kira angka anda sendiri",
+   "steps": [
+    "Gunakan kalkulator pelunasan kad kredit percuma di laman ini untuk membandingkan bayaran minimum dengan jumlah bulanan tetap.",
+    "Dalam Spendry, tambah kad bersama kadar faedah dan bayaran minimum.",
+    "Tetapkan jumlah tambahan yang mampu anda bayar setiap bulan dan lihat tarikh anda bebas hutang dikemas kini."
+   ],
+   "example_title": "Contoh situasi",
+   "example": "Baki 3,000 pada kadar 22% dengan bayaran minimum sekitar 2.5% boleh mengambil masa lebih sepuluh tahun untuk langsai dan kos faedahnya melebihi baki asal. Bayaran tetap 175 setiap bulan menyelesaikannya dalam masa kurang dua tahun.",
+   "tip": "Jika anda belum mampu membayar lebih buat masa ini, sediakan bayaran minimum secara automatik dengan bank supaya tidak terlewat, dan tambah bayaran apabila ada wang lebihan.",
+   "faq": [
+    {
+     "q": "Adakah bayar jumlah minimum menjejaskan skor kredit saya?",
+     "a": "Membayar sekurang-kurangnya jumlah minimum tepat pada masanya memastikan akaun kekal baik. Namun, baki hutang yang tinggi masih boleh membebankan profil kredit anda, jadi mengurangkannya amat membantu."
+    },
+    {
+     "q": "Bagaimanakah bayaran minimum dikira?",
+     "a": "Ia bergantung pada bank: biasanya peratusan kecil daripada baki atau jumlah minimum asas, mengikut mana yang lebih tinggi. Penyata anda menunjukkan jumlah yang tepat."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Tarikh Penyata vs Tarikh Matang Kad Kredit: Bila Perlu Bayar?",
+   "description": "Tarikh penyata menutup kitaran bil; tarikh matang ialah hari akhir bayar tanpa caj lewat. Fahami perbezaannya dan masa terbaik membuat bayaran.",
+   "h1": "Tarikh penyata vs. tarikh matang: bila anda perlu bayar?",
+   "intro": [
+    "Tarikh penyata kad anda ialah hari kitaran pengebilan ditutup dan penyata dikira. Tarikh matang tiba beberapa minggu kemudian dan merupakan hari terakhir untuk membayar bil tersebut tepat pada masanya.",
+    "Bayar baki penyata penuh sebelum tarikh matang dan kebanyakan kad tidak akan mengenakan faedah ke atas pembelian. Jika bayar kurang, faedah akan dikenakan ke atas baki yang tinggal."
+   ],
+   "steps_title": "Jangan terlepas tarikh matang bersama Spendry",
+   "steps": [
+    "Tambah kad bersama tarikh penyata dan tarikh matang.",
+    "Spendry memaparkan baki perlu dibayar pada skrin Utama dan skrin Peringatan.",
+    "Terima peringatan sebelum tarikh matang, kemudian tandakan sudah dibayar atau tangguhkan terus daripada pemberitahuan."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Pembelian yang dibuat sejurus selepas tarikh penyata mempunyai tempoh paling lama sebelum perlu dibayar, kerana ia akan dimasukkan ke dalam penyata seterusnya.",
+   "faq": [
+    {
+     "q": "Bagaimana jika tarikh matang jatuh pada hujung minggu?",
+     "a": "Banyak bank membawanya ke hari bekerja berikutnya, namun peraturan setiap bank berbeza. Membayar sehari atau dua hari lebih awal adalah pilihan paling selamat."
+    },
+    {
+     "q": "Bolehkah saya bayar sebelum tarikh penyata?",
+     "a": "Boleh. Membayar lebih awal mengurangkan baki hutang yang akan tertera pada penyata anda yang seterusnya."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "Cara Pantau Bayaran Ansuran di iPhone: Panduan Mudah",
+   "description": "Kumpul semua ansuran di satu tempat: baki tinggal, bilangan bayaran dan tarikh matang seterusnya, lengkap dengan peringatan sebelum bayaran.",
+   "h1": "Cara memantau bayaran ansuran pada iPhone anda",
+   "intro": [
+    "Membahagikan pembelian kepada ansuran terasa ringan, tetapi beberapa pelan serentak boleh mengambil sebahagian besar pendapatan bulanan anda tanpa disedari.",
+    "Memantau setiap pelan bersama baki bayaran menunjukkan jumlah komitmen bulanan sebenar dan bulan pelan anda akan selesai."
+   ],
+   "steps_title": "Pantau ansuran dalam Spendry",
+   "steps": [
+    "Tambah ansuran dengan jumlah keseluruhan, bilangan bayaran dan tarikh bayaran pertama.",
+    "Lihat setiap pelan bersama jumlah yang telah dibayar, baki yang tinggal dan tarikh bayaran seterusnya.",
+    "Terima peringatan sebelum setiap bayaran, dan lihat ansuran dalam tarikh anda bebas hutang bersama kad kredit dan pinjaman anda."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Sebelum memulakan pelan ansuran baharu, jumlahkan semua pelan yang sedang dibayar. Jika jumlahnya membebankan perbelanjaan bulanan anda, tangguhkan dahulu.",
+   "faq": [
+    {
+     "q": "Adakah ansuran diambil kira dalam tarikh anda bebas hutang?",
+     "a": "Ya. Spendry memasukkannya bersama kad kredit dan pinjaman anda, jadi tarikh tersebut menunjukkan gambaran kewangan yang lengkap."
+    },
+    {
+     "q": "Bolehkah saya memantau ansuran tanpa faedah?",
+     "a": "Boleh. Biarkan kadar faedah pada angka sifar dan Spendry akan mengira baki bayaran yang tinggal secara automatik."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "Cara Tak Terlepas Bayar Bil: Peringatan Bil di iPhone",
+   "description": "Tetapkan peringatan bil, kad dan langganan agar tiada bayaran lewat. Terima pemberitahuan sebelum tarikh matang dan tandakan selesai segera.",
+   "h1": "Cara mengelak daripada terlepas bayaran bil",
+   "intro": [
+    "Caj lewat bayar dan faedah selalunya berpunca daripada terlupa, bukannya kekurangan wang. Peringatan beberapa hari sebelum setiap tarikh matang menyelesaikan masalah ini.",
+    "Kuncinya adalah mengumpulkan semua bil di satu tempat: sewa, utiliti, telefon, kad kredit, pinjaman dan langganan."
+   ],
+   "steps_title": "Sediakannya dalam Spendry",
+   "steps": [
+    "Tambah setiap bil dan langganan bersama jumlah, tarikh matang dan kekerapan ulangannya.",
+    "Pilih berapa hari sebelum tarikh matang anda ingin menerima peringatan.",
+    "Peringatan tetap dihantar walaupun aplikasi ditutup. Tandakan bayaran sebagai sudah dibayar atau tangguhkan terus daripada pemberitahuan."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Tambah widget bayaran akan datang ke Skrin Utama anda supaya bil minggu hadapan sentiasa kelihatan setiap kali anda membuka kunci telefon.",
+   "faq": [
+    {
+     "q": "Adakah saya menerima peringatan jika saya tidak membuka aplikasi?",
+     "a": "Ya. Spendry menjadualkannya terus pada iPhone anda, jadi peringatan tetap masuk walaupun aplikasi tidak dibuka."
+    },
+    {
+     "q": "Bolehkah saya melihat semua bayaran yang perlu dibayar minggu ini?",
+     "a": "Boleh. Skrin Peringatan menyenaraikan bayaran akan datang, dan pengautomatan waktu pagi pilihan boleh merumuskan bayaran tiga hari seterusnya dalam satu pemberitahuan."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "Cara Pantau dan Kurangkan Langganan pada iPhone",
+   "description": "Ketahui kos sebenar langganan anda setiap bulan dan tahun, terima peringatan sebelum pembaharuan dan pilih langganan untuk dibatalkan.",
+   "h1": "Cara memantau dan mengurangkan langganan anda",
+   "intro": [
+    "Langganan mudah dimulakan dan mudah dilupakan. Beberapa caj kecil setiap bulan boleh bertukar menjadi jumlah tahunan yang besar.",
+    "Melihat jumlah keseluruhan, secara bulanan dan tahunan, biasanya mencukupi untuk membantu anda mengenal pasti dua atau tiga langganan yang tidak lagi digunakan."
+   ],
+   "steps_title": "Pantau langganan dalam Spendry",
+   "steps": [
+    "Tambah setiap langganan bersama harga dan kitaran pengebilan: mingguan, bulanan atau tahunan.",
+    "Spendry memaparkan jumlah bulanan dan tahunan serta tarikh pembaharuan seterusnya.",
+    "Terima peringatan sebelum setiap pembaharuan supaya anda sempat membatalkannya jika tidak diperlukan."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Cuba kalkulator kos langganan di laman ini: senaraikan langganan anda dan lihat jumlah kos tahunan dalam beberapa saat.",
+   "faq": [
+    {
+     "q": "Adakah Spendry membatalkan langganan untuk saya?",
+     "a": "Tidak. Spendry tidak pernah bersambung ke akaun perbankan anda. Aplikasi ini memberi peringatan sebelum pembaharuan supaya anda boleh membatalkannya sendiri dengan penyedia perkhidmatan."
+    },
+    {
+     "q": "Bolehkah saya memantau langganan tahunan juga?",
+     "a": "Boleh. Spendry menyokong kitaran mingguan, bulanan dan tahunan serta mengira kosnya ke dalam jumlah bulanan anda."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "Cara Buat Bajet Bulanan yang Berkesan: Panduan Lengkap",
+   "description": "Cara mudah bina bajet bulanan: mulakan daripada pendapatan, utamakan keperluan, tetapkan had belanja dan simpan sebelum berbelanja.",
+   "h1": "Cara membuat bajet bulanan yang benar-benar berkesan",
+   "intro": [
+    "Bajet ialah pelan untuk pendapatan anda sebelum bulan bermula. Mulakan dengan pendapatan bersih selepas potongan, kemudian tentukan ke mana setiap bahagian wang dibelanjakan.",
+    "Panduan asas yang popular ialah sekitar separuh untuk keperluan seperti sewa dan bil, sekitar sepertiga untuk kehendak, dan bakinya untuk simpanan serta bayaran hutang. Sesuaikan mengikut keperluan hidup anda."
+   ],
+   "steps_title": "Bina bajet anda dalam Spendry",
+   "steps": [
+    "Tambah pendapatan bulanan anda.",
+    "Cipta bajet untuk kategori perbelanjaan utama anda, masing-masing dengan had perbelanjaan.",
+    "Bajet akan terisi secara automatik apabila anda menambah perbelanjaan, dan Spendry memberi amaran sebelum sesuatu had dicapai.",
+    "Pada hujung bulan, semak carta perbelanjaan dan laraskan had bajet untuk bulan hadapan."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Gunakan kalkulator bajet bulanan percuma di laman ini untuk membahagikan pendapatan anda sebelum menetapkan had perbelanjaan.",
+   "faq": [
+    {
+     "q": "Berapa banyak kategori yang patut ada dalam bajet?",
+     "a": "Mulakan dengan lima hingga lapan kategori, seperti tempat tinggal, bil, barangan runcit, pengangkutan, makan di luar, membeli-belah dan simpanan. Tambah kategori lain hanya jika perlu."
+    },
+    {
+     "q": "Bagaimana jika perbelanjaan saya melebihi bajet?",
+     "a": "Pindahkan baki daripada kategori lain, atau jadikan ia panduan untuk bulan seterusnya. Bajet ialah pelan yang boleh diubah suai mengikut keadaan, bukan satu ujian."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Kira Tarikh Bebas Hutang Anda dan Selesaikannya",
+   "description": "Tarikh anda bebas hutang ialah bulan baki terakhir selesai. Ketahui cara mengira dan mempercepatkannya dengan bayaran lebih.",
+   "h1": "Cara mengetahui tarikh anda bebas hutang",
+   "intro": [
+    "Tarikh anda bebas hutang ialah bulan baki terakhir anda menjadi sifar. Ia bergantung pada jumlah hutang, kadar faedah dan bayaran bulanan anda.",
+    "Mengetahui tarikh ini mengubah matlamat biasa menjadi sasaran yang jelas, serta menunjukkan kesan bayaran tambahan."
+   ],
+   "steps_title": "Dapatkan tarikh anda dalam Spendry",
+   "steps": [
+    "Masukkan semua hutang anda: kad kredit, pinjaman, ansuran, akaun overdraf dan wang yang dipinjam daripada rakan.",
+    "Masukkan baki, kadar faedah dan bayaran bulanan bagi setiap hutang.",
+    "Spendry mengira bulan anda bebas hutang dan mengemas kininya setiap kali anda membuat bayaran atau menambah hutang baharu."
+   ],
+   "example_title": "Cuba sekarang",
+   "example": "Kalkulator pelunasan hutang percuma di laman ini berfungsi dengan cara yang sama: masukkan hutang dan bayaran bulanan tambahan, lalu lihat tarikh anda mengikut kaedah Snowball dan Avalanche.",
+   "tip": "Semak tarikh ini setiap kali selepas hari gaji. Melihat tarikhnya semakin hampir memberi motivasi yang terbaik.",
+   "faq": [
+    {
+     "q": "Mengapakah tarikh bebas hutang saya berubah?",
+     "a": "Ia menjadi lebih cepat jika anda membayar lebih, dan bertambah lambat jika anda menambah hutang baharu atau membayar kurang. Spendry mengira semula setiap kali."
+    },
+    {
+     "q": "Bolehkah saya masukkan hutang rakan?",
+     "a": "Boleh. Tambahkan sebagai hutang peribadi tanpa faedah."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "Kira Perbelanjaan Tanpa Pautkan Akaun Bank",
+   "description": "Jejak perbelanjaan tanpa berkongsi log masuk bank. Tambah belanja dalam beberapa saat, imbas resit dan simpan data pada iPhone anda.",
+   "h1": "Cara menjejak perbelanjaan tanpa pautkan akaun bank",
+   "intro": [
+    "Banyak aplikasi kewangan meminta log masuk bank anda. Jika anda mahukan privasi, anda masih boleh menjejak setiap perbelanjaan dalam masa beberapa saat sehari.",
+    "Merekod perbelanjaan sendiri juga membuatkan anda lebih sedar tentang apa yang anda belanjakan, iaitu tujuan utama menjejak wang."
+   ],
+   "steps_title": "Cara Spendry melakukannya",
+   "steps": [
+    "Tambah perbelanjaan dalam beberapa saat: masukkan jumlah dan pilih kategori, atau gunakan imbas resit.",
+    "Aktifkan automasi Apple Pay dalam aplikasi Shortcuts, dan bayaran kad akan disimpan secara automatik bersama nama kedai.",
+    "Rekod anda kekal pada iPhone anda dan disegerakkan melalui iCloud anda sendiri. Spendry tidak akan dapat melihatnya."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Tambah perbelanjaan sebaik sahaja anda membayar. Jika ditangguhkan, rekod perbelanjaan mudah terlupa.",
+   "faq": [
+    {
+     "q": "Adakah ia selamat tanpa sambungan bank?",
+     "a": "Tiada maklumat log masuk bank yang boleh bocor. Spendry menyimpan data pada peranti dan iCloud anda, serta anda boleh mengaktifkan Kunci Aplikasi dengan Face ID."
+    },
+    {
+     "q": "Bolehkah saya mengimport transaksi?",
+     "a": "Boleh. Import transaksi daripada mesej bank atau menggunakan pengautomatan Shortcuts, tanpa berkongsi maklumat bank."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Widget Bajet untuk iPhone: Skrin Utama dan Kunci",
+   "description": "Lihat baki, bajet, matlamat dan bayaran akan datang pada Skrin Utama dan Skrin Kunci, serta tambah belanja tanpa buka aplikasi.",
+   "h1": "Widget bajet untuk Skrin Utama iPhone anda",
+   "intro": [
+    "Widget memastikan kewangan anda sentiasa kelihatan tanpa perlu membuka aplikasi. Sekali imbas pada Skrin Utama, anda tahu baki bajet dan apa yang perlu dibayar seterusnya.",
+    "Spendry menyediakan widget untuk baki, bajet, matlamat, hutang, aliran tunai dan bayaran akan datang, dalam pelbagai saiz untuk Skrin Utama dan Skrin Kunci."
+   ],
+   "steps_title": "Tambah widget Spendry",
+   "steps": [
+    "Sentuh dan tahan kawasan kosong pada Skrin Utama, kemudian ketik Edit dan Tambah Widget.",
+    "Cari Spendry dan pilih widget serta saiz yang diingini.",
+    "Sentuh dan tahan widget, kemudian ketik Edit Widget untuk memilih bajet, matlamat atau akaun yang ingin dipaparkan."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Letakkan widget bayaran akan datang pada halaman pertama Skrin Utama anda. Tarikh akhir bayaran adalah perkara paling mudah terlupa.",
+   "faq": [
+    {
+     "q": "Bolehkah saya menambah perbelanjaan daripada widget?",
+     "a": "Boleh. Widget tambah terus membuka halaman perbelanjaan baharu, jadi merekod pembelian hanya mengambil masa beberapa saat."
+    },
+    {
+     "q": "Adakah widget dikemas kini secara automatik?",
+     "a": "Ya. Widget disegarkan semula setiap kali anda menambah rekod dan sepanjang hari."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "Cara Menyimpan Wang untuk Capai Matlamat Anda",
+   "description": "Tetapkan sasaran dan tarikh, simpan amaun tetap setiap bulan dan jejak kemajuan. Kaedah mudah untuk percutian, kereta atau dana kecemasan.",
+   "h1": "Cara menyimpan wang dan mencapai matlamat anda",
+   "intro": [
+    "Matlamat dengan jumlah wang dan tarikh sasaran lebih mudah dicapai berbanding angan-angan. Bahagikan jumlah yang diperlukan dengan bilangan bulan, dan anda tahu jumlah simpanan bulanan.",
+    "Menyimpan terus selepas menerima gaji, sebelum anda mula berbelanja, menjadikan pelan simpanan berjalan secara automatik."
+   ],
+   "steps_title": "Menyimpan dengan Spendry",
+   "steps": [
+    "Cipta matlamat dengan jumlah sasaran dan tarikh yang anda ingin capai.",
+    "Tambah jumlah simpanan setiap kali anda menyimpan, dan Spendry menunjukkan sejauh mana anda telah capai.",
+    "Kongsi matlamat dengan pasangan atau keluarga melalui iCloud dan simpan wang bersama-sama."
+   ],
+   "example_title": "Satu contoh",
+   "example": "Untuk menyimpan 6,000 dalam masa 12 bulan, anda perlukan 500 sebulan. Jika anda sudah ada 1,200, anda hanya perlukan 400 sebulan.",
+   "tip": "Mulakan dengan dana kecemasan untuk satu bulan perbelanjaan, kemudian tingkatkan kepada tiga bulan.",
+   "faq": [
+    {
+     "q": "Berapakah jumlah dana kecemasan yang patut ada?",
+     "a": "Tiga hingga enam bulan perbelanjaan asas adalah sasaran biasa. Mulakan dengan satu bulan dahulu dan bina secara berperingkat."
+    },
+    {
+     "q": "Bolehkah saya menyimpan untuk lebih daripada satu matlamat?",
+     "a": "Boleh. Cipta seberapa banyak matlamat yang anda mahu dan pantau kemajuan setiap satu daripadanya."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "Kira dan Jejak Pinjaman serta Jumlah Faedah Sebenar",
+   "description": "Jejak pinjaman kereta, peribadi dan perumahan: baki bayaran, faedah dan tarikh selesai pinjaman, berserta peringatan setiap bayaran.",
+   "h1": "Cara menjejak pinjaman dan kos sebenar yang dibayar",
+   "intro": [
+    "Bayaran bulanan pinjaman menyembunyikan dua perkara: berapa banyak faedah, dan berapa banyak baki bayaran yang tinggal. Menjejak kedua-duanya menunjukkan kos sebenar pinjaman.",
+    "Pada awal pinjaman, sebahagian besar bayaran pergi kepada faedah. Kemudiannya, ia mengurangkan baki pokok. Sebab itu bayaran tambahan pada peringkat awal paling menjimatkan."
+   ],
+   "steps_title": "Jejak dalam Spendry",
+   "steps": [
+    "Tambah pinjaman dengan jumlah pinjaman, kadar faedah, tempoh dan tarikh bayaran pertama.",
+    "Lihat baki hutang, baki bilangan bayaran dan bulan ia akan selesai sepenuhnya.",
+    "Dapatkan peringatan sebelum setiap tarikh bayaran dan masukkan pinjaman ke dalam pelan bebas hutang anda."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Gunakan kalkulator pinjaman percuma di laman ini untuk melihat bayaran bulanan dan jumlah faedah sebelum anda menandatangani perjanjian.",
+   "faq": [
+    {
+     "q": "Patutkah saya selesaikan pinjaman lebih awal?",
+     "a": "Jika kadar faedah tinggi dan tiada penalti penyelesaian awal, bayaran lebih menjimatkan faedah. Semak terma pinjaman anda terlebih dahulu."
+    },
+    {
+     "q": "Bolehkah saya menjejak pinjaman perumahan?",
+     "a": "Boleh. Tambahkannya sebagai pinjaman lengkap bersama kadar faedah dan tempohnya."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "Kira dan Jejak Nilai Bersih Anda di iPhone",
+   "description": "Nilai bersih ialah harta tolak hutang. Jejak simpanan, pelaburan, emas dan hutang di satu tempat dan lihat nilainya meningkat.",
+   "h1": "Cara menjejak nilai bersih anda",
+   "intro": [
+    "Nilai bersih ialah semua yang anda miliki ditolak semua hutang anda. Ini adalah satu angka penting yang menunjukkan sama ada kedudukan kewangan anda semakin baik.",
+    "Menyemaknya sebulan sekali sudah memadai untuk melihat perkembangannya, walaupun ada bulan yang kurang memberangsangkan."
+   ],
+   "steps_title": "Jejak dalam Spendry",
+   "steps": [
+    "Masukkan akaun dan simpanan anda.",
+    "Masukkan pelaburan anda: saham, kripto, emas dan mata wang asing memaparkan harga langsung.",
+    "Masukkan hutang anda. Spendry menunjukkan nilai bersih anda dan perubahannya dari semasa ke semasa."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Membayar hutang meningkatkan nilai bersih anda sama seperti menyimpan wang.",
+   "faq": [
+    {
+     "q": "Patutkah saya memasukkan rumah atau kereta?",
+     "a": "Anda boleh memasukkannya, tetapi ramai orang hanya menjejak tunai, pelaburan dan hutang kerana nilainya berubah setiap bulan."
+    },
+    {
+     "q": "Berapa kerap harga pelaburan dikemas kini?",
+     "a": "Spendry memaparkan harga langsung untuk saham, kripto, logam berharga dan mata wang."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "Kongsi Bajet Bulanan Bersama Pasangan Anda",
+   "description": "Kongsi bajet atau simpanan bersama pasangan atau keluarga melalui iCloud. Rekod perbelanjaan bersama tanpa perlu berkongsi akaun log masuk.",
+   "h1": "Cara berkongsi bajet bersama pasangan anda",
+   "intro": [
+    "Perbincangan tentang wang menjadi lebih mudah apabila anda berdua melihat angka yang sama. Belanjawan dikongsi memaparkan apa yang telah dibelanjakan dan baki yang tinggal secara telus.",
+    "Asingkan perbelanjaan peribadi dan kongsi hanya perbelanjaan bersama, seperti sewa, barang dapur dan percutian."
+   ],
+   "steps_title": "Kongsi dalam Spendry",
+   "steps": [
+    "Cipta bajet atau matlamat dan pilih untuk berkongsinya.",
+    "Jemput pasangan atau keluarga anda melalui perkongsian iCloud.",
+    "Semua orang boleh menambah perbelanjaan, dan perubahan akan dipaparkan pada peranti masing-masing."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Persetujui kategori yang ingin dikongsi sebelum bermula, kemudian semak bersama sebulan sekali.",
+   "faq": [
+    {
+     "q": "Adakah pasangan saya dapat melihat semua perbelanjaan saya?",
+     "a": "Tidak. Mereka hanya melihat apa yang anda kongsi. Bajet dan akaun peribadi anda yang lain kekal sulit."
+    },
+    {
+     "q": "Adakah kami berdua perlu menggunakan Spendry?",
+     "a": "Ya. Setiap orang menggunakan Spendry pada iPhone masing-masing, dan bajet yang dikongsi akan disegerakkan melalui iCloud."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Rekod Belanja Apple Pay Automatik Guna Shortcuts",
+   "description": "Gunakan automasi Shortcuts untuk merekod setiap bayaran Apple Pay dalam Spendry secara automatik tanpa perlu menaip.",
+   "h1": "Rekod perbelanjaan Apple Pay secara automatik",
+   "intro": [
+    "Aplikasi Shortcuts boleh menjalankan tindakan secara automatik setiap kali anda membuat bayaran dengan Apple Pay. Spendry menggunakannya untuk menyimpan rekod pembelian bagi pihak anda.",
+    "Bajet anda sentiasa dikemas kini tanpa perlu ditaip, dan anda hanya perlu memilih kategori jika mahu."
+   ],
+   "steps_title": "Cara mengaktifkannya",
+   "steps": [
+    "Dalam Spendry, buka Pengautomatan dan pilih automasi Apple Pay.",
+    "Ikuti langkah yang dipaparkan untuk menambahnya ke dalam aplikasi Shortcuts.",
+    "Buat bayaran dengan Apple Pay seperti biasa. Pembelian akan muncul dalam Spendry bersama nama kedai."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Aktifkan juga automasi petang Ahad untuk mendapatkan ringkasan perbelanjaan mingguan anda.",
+   "faq": [
+    {
+     "q": "Adakah ini memberi Spendry akses kepada akaun bank saya?",
+     "a": "Tidak. Automasi ini hanya mengambil butiran pembelian yang sudah dipaparkan oleh iPhone anda, seperti jumlah dan nama kedai. Tiada maklumat log masuk bank digunakan."
+    },
+    {
+     "q": "Bolehkah saya menukar kategori kemudian?",
+     "a": "Boleh. Anda boleh mengedit perbelanjaan tersebut dalam Spendry pada bila-bila masa."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Panduan Wang: Bajet, Bayar Hutang dan Bil",
+  "description": "Panduan ringkas dan praktikal untuk bajet, bayar hutang, kad kredit, ansuran, langganan dan elak terlepas bayaran.",
+  "h1": "Panduan wang",
+  "lead": "Panduan ringkas dan praktikal untuk bajet, bayar hutang dan elak terlepas sebarang bayaran."
+ },
+ "guide_labels": {
+  "nav": "Panduan",
+  "tip": "Tip",
+  "faq": "Soalan",
+  "more": "Lagi panduan",
+  "all": "Semua panduan",
+  "tools": "Kalkulator percuma",
+  "cta": "Pantau segalanya di satu tempat. Muat turun Spendry percuma di App Store.",
+  "topic_debt": "Hutang dan kad kredit",
+  "topic_bills": "Bil dan langganan",
+  "topic_budget": "Bajet dan simpanan",
+  "topic_iphone": "Pada iPhone anda"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Kalkulator Kad Kredit: Berapa Lama Untuk Selesai?",
+  "description": "Kalkulator bayar hutang kad kredit percuma. Masukkan baki, kadar faedah dan bayaran bulanan untuk lihat tarikh bebas hutang dan kos bayaran minimum.",
+  "h1": "Kalkulator selesai hutang kad kredit",
+  "lead": "Ketahui tempoh untuk langsaikan kad kredit dan jumlah faedah, berbanding hanya membayar jumlah minimum.",
+  "balance": "Baki kad",
+  "rate": "Kadar faedah tahunan (%)",
+  "payment": "Bayaran bulanan anda",
+  "min_pct": "Bayaran minimum (% daripada baki)",
+  "months": "Selesai dalam",
+  "interest": "Jumlah faedah",
+  "date": "Tarikh anda bebas hutang",
+  "fixed": "Dengan bayaran anda",
+  "minimum": "Bayaran minimum sahaja",
+  "never": "Bayaran ini tidak menampung faedah bulanan. Tingkatkan bayaran untuk selesaikan hutang kad.",
+  "saved": "Faedah yang anda jimatkan",
+  "prose": [
+   [
+    "Cara pengiraan berfungsi",
+    "Setiap bulan kalkulator menambah faedah bulanan pada baki dan menolak bayaran anda, sehingga baki menjadi sifar. Perbandingan bayaran minimum mengira semula jumlah minimum setiap bulan daripada baki yang tinggal."
+   ],
+   [
+    "Sebab bayaran minimum mengambil masa lama",
+    "Jumlah minimum berkurang apabila baki berkurang, jadi bayaran tidak dapat mengatasi pertambahan faedah dengan ketara. Bayaran tetap memastikan amaun yang sama mengurangkan baki pokok setiap bulan."
+   ],
+   [
+    "Jadikannya kenyataan",
+    "Spendry memastikan pelan anda berjalan lancar: tambah kad anda, tetapkan jumlah bayaran bulanan dan terima peringatan sebelum tarikh matang."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Kalkulator Pinjaman: Bayaran Bulanan dan Faedah",
+  "description": "Kalkulator pinjaman percuma untuk kereta, peribadi dan perumahan. Lihat bayaran bulanan, jumlah faedah dan jadual bayaran penuh.",
+  "h1": "Kalkulator pinjaman",
+  "lead": "Masukkan jumlah, kadar tahunan dan tempoh untuk melihat bayaran bulanan, jumlah faedah serta setiap bayaran.",
+  "amount": "Jumlah pinjaman",
+  "rate": "Kadar faedah tahunan (%)",
+  "term": "Tempoh (bulan)",
+  "payment": "Bayaran bulanan",
+  "total": "Jumlah bayaran balik",
+  "interest": "Jumlah faedah",
+  "month": "Bulan",
+  "principal": "Prinsipal",
+  "interest_col": "Faedah",
+  "balance": "Baki",
+  "show_all": "Papar semua bayaran",
+  "show_less": "Papar kurang",
+  "prose": [
+   [
+    "Cara bayaran dikira",
+    "Ini ialah pinjaman pelunasan standard: bayaran bulanan yang sama, dengan faedah dikenakan ke atas baki pinjaman. Bayaran awal kebanyakannya menampung faedah; bayaran kemudian mengurangkan prinsipal."
+   ],
+   [
+    "Kurangkan jumlah kos",
+    "Tempoh yang lebih pendek atau kadar lebih rendah mengurangkan jumlah faedah paling banyak. Bayaran tambahan pada awal pinjaman juga membantu, jika pemberi pinjaman membenarkannya tanpa caj."
+   ],
+   [
+    "Pantau selepas anda menandatangani",
+    "Tambah pinjaman ke Spendry untuk melihat baki bayaran, bulan terakhir dan terima peringatan sebelum setiap bayaran."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Kalkulator Simpanan: Jumlah Perlu Disimpan Sebulan",
+  "description": "Kalkulator matlamat simpanan percuma. Masukkan sasaran, baki sedia ada dan tempoh untuk kira simpanan bulanan, termasuk faedah.",
+  "h1": "Kalkulator matlamat simpanan",
+  "lead": "Kira jumlah yang perlu diketepikan setiap bulan untuk mencapai sasaran anda mengikut masa.",
+  "goal": "Jumlah sasaran",
+  "have": "Sudah disimpan",
+  "months": "Bulan untuk capai",
+  "rate": "Faedah simpanan tahunan (%)",
+  "monthly": "Simpan setiap bulan",
+  "weekly": "Kira-kira jumlah ini setiap minggu",
+  "total_in": "Simpanan anda",
+  "earned": "Faedah diperoleh",
+  "done": "Anda telah mencapai matlamat ini.",
+  "prose": [
+   [
+    "Cara ia berfungsi",
+    "Kalkulator membahagikan baki sasaran anda mengikut bilangan bulan yang ada. Dengan kadar faedah, simpanan anda menjana pulangan setiap bulan, jadi anda hanya perlu menyimpan sedikit kurang."
+   ],
+   [
+    "Jadikan ia lebih mudah",
+    "Simpan sebaik sahaja menerima gaji dan anggap ia seperti komitmen bil. Matlamat yang dikongsi bersama pasangan boleh mempercepatkan lagi pencapaian anda."
+   ],
+   [
+    "Pantau kemajuan anda",
+    "Cipta matlamat di Spendry dan lihat sejauh mana anda telah capai setiap kali menambah simpanan."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Kalkulator Langganan: Jumlah Bayaran Setahun",
+  "description": "Kalkulator langganan percuma. Senaraikan langganan mengikut harga dan kitaran bil untuk lihat kos bulanan, tahunan dan 5 tahun.",
+  "h1": "Kalkulator kos langganan",
+  "lead": "Senaraikan langganan anda dan lihat jumlah sebenar setiap bulan dan setiap tahun.",
+  "name": "Langganan",
+  "price": "Harga",
+  "cycle": "Kitaran bil",
+  "weekly": "Mingguan",
+  "monthly": "Bulanan",
+  "yearly": "Tahunan",
+  "add": "Tambah langganan",
+  "remove": "Padam",
+  "per_month": "Sebulan",
+  "per_year": "Setahun",
+  "five_years": "Lebih 5 tahun",
+  "samples": [
+   "Penstriman muzik",
+   "Penstriman video",
+   "Storan awan",
+   "Keahlian gim",
+   "Aplikasi berita"
+  ],
+  "prose": [
+   [
+    "Sebab jumlah tahunan penting",
+    "Harga bulanan yang kecil nampak tidak membebankan. Didarabkan dengan dua belas, dan untuk setiap langganan yang anda ada, ia sering kali menjadi antara perbelanjaan tetap terbesar anda."
+   ],
+   [
+    "Tindakan terhadap angka ini",
+    "Susun mengikut harga dan tanya diri anda: adakah saya menggunakannya bulan lepas? Batalkan yang tidak perlu, dan tetapkan peringatan sebelum pembaharuan bagi langganan yang ingin dikekalkan."
+   ],
+   [
+    "Elak terlepas pembaharuan",
+    "Spendry menjejaki langganan anda, memasukkannya ke dalam jumlah bulanan dan mengingatkan anda sebelum setiap pembaharuan."
+   ]
+  ]
  }
 }

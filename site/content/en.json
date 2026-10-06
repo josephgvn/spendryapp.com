@@ -1,336 +1,1007 @@
 {
-  "meta": {
-    "title": "Spendry: Budget, Debt Payoff and Bill Reminders for iPhone",
-    "description": "See the day you'll be debt-free, track every card, loan, bill and subscription, and get a reminder before anything is due. No bank login. Free for iPhone and iPad.",
-    "og_title": "Spendry: know the day you'll be debt-free",
-    "og_alt": "Spendry widgets for budgets, goals and upcoming payments"
-  },
-  "nav": {
-    "features": "Features",
-    "lab": "Debt payoff",
-    "privacy": "Privacy",
-    "tools": "Free tools",
-    "download": "Download",
-    "skip": "Skip to content",
-    "language": "Language",
-    "menu": "Menu",
-    "close": "Close",
-    "top": "Back to top"
-  },
-  "cta": {
-    "download": "Download on the App Store",
-    "free": "Free on iPhone and iPad",
-    "requirements": "Requires iOS 17 or later",
-    "trial": "Premium starts with a free week"
-  },
-  "hero": {
-    "eyebrow": "Budget and debt payoff for iPhone",
-    "title_1": "Every card, loan and bill.",
-    "title_2": "In one calm place.",
-    "lead": "Spendry shows when each statement closes, when every installment ends and the day you'll be debt-free. It reminds you before anything is due. No bank login.",
-    "secondary": "See how it works",
-    "chips": [
-      "No bank login",
-      "Data not collected",
-      "44 languages"
-    ],
-    "scroll": "Scroll"
-  },
-  "story": [
-    {
-      "title": "Your month at a glance.",
-      "text": "Balance, income, spending and what's coming up, the moment you open the app."
-    },
-    {
-      "title": "Every debt, one number.",
-      "text": "Cards, loans, overdraft and money between friends, with the month you'll be free of all of it."
-    },
-    {
-      "title": "Nothing slips past you.",
-      "text": "A reminder before every card, bill and subscription is due, even when the app stays closed."
-    }
+ "meta": {
+  "title": "Spendry: Budget, Debt Payoff and Bill Reminders for iPhone",
+  "description": "See the day you'll be debt-free, track every card, loan, bill and subscription, and get a reminder before anything is due. No bank login. Free for iPhone and iPad.",
+  "og_title": "Spendry: know the day you'll be debt-free",
+  "og_alt": "Spendry widgets for budgets, goals and upcoming payments"
+ },
+ "nav": {
+  "features": "Features",
+  "lab": "Debt payoff",
+  "privacy": "Privacy",
+  "tools": "Free tools",
+  "download": "Download",
+  "skip": "Skip to content",
+  "language": "Language",
+  "menu": "Menu",
+  "close": "Close",
+  "top": "Back to top"
+ },
+ "cta": {
+  "download": "Download on the App Store",
+  "free": "Free on iPhone and iPad",
+  "requirements": "Requires iOS 17 or later",
+  "trial": "Premium starts with a free week"
+ },
+ "hero": {
+  "eyebrow": "Budget and debt payoff for iPhone",
+  "title_1": "Every card, loan and bill.",
+  "title_2": "In one calm place.",
+  "lead": "Spendry shows when each statement closes, when every installment ends and the day you'll be debt-free. It reminds you before anything is due. No bank login.",
+  "secondary": "See how it works",
+  "chips": [
+   "No bank login",
+   "Data not collected",
+   "44 languages"
   ],
-  "statement": "Most money apps show where your money went. Spendry shows *when it's leaving* and *when you'll be free*.",
-  "orbit": {
-    "eyebrow": "All of it, together",
-    "title": "Everything that moves your money.",
-    "text": "Cards, installments, loans, subscriptions, budgets, goals and investments. One app, one picture."
+  "scroll": "Scroll"
+ },
+ "story": [
+  {
+   "title": "Your month at a glance.",
+   "text": "Balance, income, spending and what's coming up, the moment you open the app."
   },
-  "features": {
-    "eyebrow": "Features",
-    "title": "Built for the whole month.",
-    "items": [
-      {
-        "key": "budgets",
-        "title": "Budgets that keep up",
-        "text": "Give each category a limit and watch it fill as you spend."
-      },
-      {
-        "key": "goals",
-        "title": "Goals you can see",
-        "text": "Save for what matters and see how close you are, every day."
-      },
-      {
-        "key": "stats",
-        "title": "Where it all goes",
-        "text": "Weekly and monthly charts, by category and by day."
-      },
-      {
-        "key": "add",
-        "title": "Add it in seconds",
-        "text": "Type the amount, pick a category, done. Or scan the receipt."
-      },
-      {
-        "key": "invest",
-        "title": "Investments, live",
-        "text": "Stocks, crypto, gold and currencies with live prices, next to your spending."
-      },
-      {
-        "key": "themes",
-        "title": "Make it yours",
-        "text": "More than fifty themes, in light or dark."
-      }
-    ]
+  {
+   "title": "Every debt, one number.",
+   "text": "Cards, loans, overdraft and money between friends, with the month you'll be free of all of it."
   },
-  "ring": {
-    "eyebrow": "The app",
-    "title": "Every screen, in your language.",
-    "text": "Spendry speaks 44 languages, with your currency and your number format.",
-    "hint": "Drag to spin"
-  },
-  "lab": {
-    "eyebrow": "Debt payoff",
-    "title": "How soon could you be debt-free?",
-    "text": "Move the slider and watch the month change. Spendry does this with your real debts and keeps the plan up to date.",
-    "extra": "Extra each month",
-    "method_hint_snowball": "Smallest balance first",
-    "method_hint_avalanche": "Highest interest first",
-    "free_in": "Debt-free in",
-    "interest": "Total interest",
-    "saved": "You save",
-    "debts": [
-      "Credit card",
-      "Car loan",
-      "Store card",
-      "Friend"
-    ],
-    "note": "Sample debts. In the app the plan uses your own.",
-    "cta": "Open the full calculator",
-    "rates_note": "Sample rates are yearly.",
-    "sooner": "Sooner",
-    "minimums": "Minimum payments only",
-    "with_plan": "With extra payments",
-    "method": "Method"
-  },
-  "reminders": {
-    "eyebrow": "Reminders",
-    "title": "Reminders that arrive on time.",
-    "text": "Even if you never open the app. Snooze a reminder or mark it paid right from the notification.",
-    "days_left": "days left",
-    "local_note": "",
-    "samples": {
-      "card": "Rewards",
-      "loan": "Car loan",
-      "budget": "Shopping",
-      "store": "Store card"
-    }
-  },
-  "widgets": {
-    "eyebrow": "Widgets",
-    "title": "Your money on your Home Screen.",
-    "text": "Balance, budgets, goals and upcoming payments at a glance. Add an expense without opening the app."
-  },
-  "automations": {
-    "eyebrow": "Siri and Shortcuts",
-    "title": "Let it run on its own.",
-    "text": "Ask Siri what you spent, add expenses by voice, and turn on ready-made automations in the Shortcuts app.",
-    "flows": [
-      [
-        "You pay with Apple Pay",
-        "Spendry logs the purchase",
-        "Your budget is up to date"
-      ],
-      [
-        "Every morning",
-        "Spendry checks what's due",
-        "The next three days, in one notification"
-      ],
-      [
-        "Sunday evening",
-        "Spendry sums up your week",
-        "A short spending report"
-      ]
-    ]
-  },
-  "privacy": {
-    "eyebrow": "Privacy",
-    "title": "Your money stays yours.",
-    "text": "No bank login, no account, no tracking. Your records live on your iPhone and in your own iCloud.",
-    "badge": "Data Not Collected",
-    "pillars": [
-      {
-        "title": "No bank login",
-        "text": "Spendry never connects to your bank. You add entries yourself or import them from bank messages."
-      },
-      {
-        "title": "Data not collected",
-        "text": "No ads, no analytics, no tracking. The App Store privacy label says the same."
-      },
-      {
-        "title": "Locked with Face ID",
-        "text": "Sync through your own iCloud and lock the app with Face ID."
-      }
-    ]
-  },
-  "stats": {
-    "title": "Small app, big reach.",
-    "items": [
-      {
-        "value": 44,
-        "label": "languages"
-      },
-      {
-        "value": 175,
-        "label": "countries and regions"
-      },
-      {
-        "value": 50,
-        "suffix": "+",
-        "label": "themes"
-      },
-      {
-        "value": 0,
-        "label": "bytes of your data collected"
-      }
-    ]
-  },
-  "faq": {
-    "title": "Questions",
-    "items": [
-      {
-        "q": "Is Spendry free?",
-        "a": "Yes. The core features are free. Premium is monthly, yearly or a one-time Lifetime purchase, and subscriptions start with a free week."
-      },
-      {
-        "q": "Does Spendry connect to my bank?",
-        "a": "No. It never asks for a bank login. You add entries yourself, or import them from bank messages and Shortcuts automations."
-      },
-      {
-        "q": "Where is my data stored?",
-        "a": "On your iPhone and in your own iCloud account. Your records are never sent to Spendry's servers, so we can't see them."
-      },
-      {
-        "q": "How does the debt payoff plan work?",
-        "a": "Add your debts with their balances and rates. Spendry orders them with the snowball or avalanche method, adds what you can pay on top each month and shows the month you'll be debt-free."
-      },
-      {
-        "q": "Can I share a budget with my partner or family?",
-        "a": "Yes. Shared budgets and goals sync through iCloud, and everyone uses their own Apple Account."
-      },
-      {
-        "q": "Which devices does it work on?",
-        "a": "iPhone and iPad with iOS 17 or later, with widgets, Siri and Shortcuts."
-      },
-      {
-        "q": "Which languages and currencies does it support?",
-        "a": "44 languages and every major currency. Investments and foreign currency accounts can keep their own currency."
-      }
-    ]
-  },
-  "tools_teaser": {
-    "eyebrow": "Free tools",
-    "title": "Try the math in your browser.",
-    "text": "Calculations run on your device. Nothing is sent anywhere."
-  },
-  "final": {
-    "eyebrow": "Spendry for iPhone",
-    "title": "Start today. It's free.",
-    "text": "Download Spendry and see the day you'll be debt-free in a few minutes.",
-    "qr": "Scan with your iPhone camera"
-  },
-  "footer": {
-    "tagline": "Budget and debt payoff for iPhone.",
-    "privacy_policy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "support": "Support",
-    "tools": "Free tools",
-    "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay and App Store are trademarks of Apple Inc.",
-    "legal": "Legal"
-  },
-  "debt_tool": {
-    "slug": "debt-payoff-calculator",
-    "title": "Debt Payoff Calculator: Snowball vs Avalanche",
-    "h1": "Debt payoff calculator",
-    "description": "Free debt payoff calculator: compare the snowball and avalanche methods and see the month you'll be debt-free and the interest you'll pay. No sign-up.",
-    "lead": "Enter your debts and what you can pay on top of the minimums each month. See your debt-free month and total interest with the snowball and avalanche methods side by side.",
-    "name": "Debt",
-    "balance": "Balance",
-    "rate": "APR %",
-    "minimum": "Minimum payment",
-    "add": "Add a debt",
-    "remove": "Remove",
-    "extra": "Extra you can pay each month",
-    "order": "Payoff order",
-    "free_in": "Debt-free in",
-    "interest": "Total interest",
-    "faster": "Faster",
-    "cheaper": "Less interest",
-    "same": "Both methods give the same result with these numbers.",
-    "stuck": "These payments never clear the debt: they don't cover the interest. Raise the extra payment.",
-    "sample": [
-      "Credit card",
-      "Car loan",
-      "Store card",
-      "Medical bill"
-    ],
-    "note": "Sample debts; replace them with yours. Rates are treated as fixed, fees are not included.",
-    "prose": [
-      [
-        "Snowball or avalanche?",
-        "With the snowball method you pay off the smallest balance first. The first debt disappears quickly and its payment rolls into the next one, which keeps motivation high. With the avalanche method you pay off the highest interest rate first, which usually costs less interest overall, though the first payoff can take longer."
-      ],
-      [
-        "How the calculator works",
-        "Every month each debt gets its minimum payment. The extra goes to the next debt in line, and a cleared debt's payment rolls over to the next. Both methods use the same monthly budget, so the difference you see is only the order."
-      ],
-      [
-        "Keep the plan up to date",
-        "Balances change every month. Spendry tracks your cards, loans and bills, keeps your snowball or avalanche plan current and reminds you before each payment is due."
-      ]
-    ],
-    "extra_hint": "Money you can put toward your debts on top of the minimum payments. The more you add, the sooner you are debt-free."
-  },
-  "budget_tool": {
-    "slug": "budget-calculator",
-    "title": "Monthly Budget Calculator: Needs, Wants and Savings",
-    "h1": "Monthly budget calculator",
-    "description": "Free monthly budget calculator: split your take-home pay into needs, wants, and savings or debt payments in seconds. No sign-up.",
-    "lead": "Enter your monthly take-home pay. Half goes to needs, thirty percent to wants and twenty percent to savings and paying off debt.",
-    "income": "Monthly take-home pay",
-    "needs": "Needs",
-    "needs_hint": "Rent, bills, groceries, transport",
-    "wants": "Wants",
-    "wants_hint": "Eating out, shopping, trips",
-    "save": "Savings and debt",
-    "save_hint": "Savings goals and extra payments",
-    "prose": [
-      [
-        "What is the 50/30/20 rule?",
-        "It's a simple way to start a budget. Fifty percent of what you take home covers the things you must pay, thirty percent the things you choose, and twenty percent goes to savings and paying down debt."
-      ],
-      [
-        "When to change the numbers",
-        "If rent alone takes half of your income, the rule is a starting point, not a verdict. Move the split to fit your life, and pay off high-interest debt first."
-      ],
-      [
-        "Make it automatic",
-        "In Spendry each category gets a monthly budget that fills as you spend, with a warning before you go over."
-      ]
-    ]
-  },
-  "not_found": {
-    "title": "This page took a day off.",
-    "text": "The link may be old. Everything else is right where you left it.",
-    "home": "Back to Spendry"
+  {
+   "title": "Nothing slips past you.",
+   "text": "A reminder before every card, bill and subscription is due, even when the app stays closed."
   }
+ ],
+ "statement": "Most money apps show where your money went. Spendry shows *when it's leaving* and *when you'll be free*.",
+ "orbit": {
+  "eyebrow": "All of it, together",
+  "title": "Everything that moves your money.",
+  "text": "Cards, installments, loans, subscriptions, budgets, goals and investments. One app, one picture."
+ },
+ "features": {
+  "eyebrow": "Features",
+  "title": "Built for the whole month.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Budgets that keep up",
+    "text": "Give each category a limit and watch it fill as you spend."
+   },
+   {
+    "key": "goals",
+    "title": "Goals you can see",
+    "text": "Save for what matters and see how close you are, every day."
+   },
+   {
+    "key": "stats",
+    "title": "Where it all goes",
+    "text": "Weekly and monthly charts, by category and by day."
+   },
+   {
+    "key": "add",
+    "title": "Add it in seconds",
+    "text": "Type the amount, pick a category, done. Or scan the receipt."
+   },
+   {
+    "key": "invest",
+    "title": "Investments, live",
+    "text": "Stocks, crypto, gold and currencies with live prices, next to your spending."
+   },
+   {
+    "key": "themes",
+    "title": "Make it yours",
+    "text": "More than fifty themes, in light or dark."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "The app",
+  "title": "Every screen, in your language.",
+  "text": "Spendry speaks 44 languages, with your currency and your number format.",
+  "hint": "Drag to spin"
+ },
+ "lab": {
+  "eyebrow": "Debt payoff",
+  "title": "How soon could you be debt-free?",
+  "text": "Move the slider and watch the month change. Spendry does this with your real debts and keeps the plan up to date.",
+  "extra": "Extra each month",
+  "method_hint_snowball": "Smallest balance first",
+  "method_hint_avalanche": "Highest interest first",
+  "free_in": "Debt-free in",
+  "interest": "Total interest",
+  "saved": "You save",
+  "debts": [
+   "Credit card",
+   "Car loan",
+   "Store card",
+   "Friend"
+  ],
+  "note": "Sample debts. In the app the plan uses your own.",
+  "cta": "Open the full calculator",
+  "rates_note": "Sample rates are yearly.",
+  "sooner": "Sooner",
+  "minimums": "Minimum payments only",
+  "with_plan": "With extra payments",
+  "method": "Method"
+ },
+ "reminders": {
+  "eyebrow": "Reminders",
+  "title": "Reminders that arrive on time.",
+  "text": "Even if you never open the app. Snooze a reminder or mark it paid right from the notification.",
+  "days_left": "days left",
+  "local_note": "",
+  "samples": {
+   "card": "Rewards",
+   "loan": "Car loan",
+   "budget": "Shopping",
+   "store": "Store card"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widgets",
+  "title": "Your money on your Home Screen.",
+  "text": "Balance, budgets, goals and upcoming payments at a glance. Add an expense without opening the app."
+ },
+ "automations": {
+  "eyebrow": "Siri and Shortcuts",
+  "title": "Let it run on its own.",
+  "text": "Ask Siri what you spent, add expenses by voice, and turn on ready-made automations in the Shortcuts app.",
+  "flows": [
+   [
+    "You pay with Apple Pay",
+    "Spendry logs the purchase",
+    "Your budget is up to date"
+   ],
+   [
+    "Every morning",
+    "Spendry checks what's due",
+    "The next three days, in one notification"
+   ],
+   [
+    "Sunday evening",
+    "Spendry sums up your week",
+    "A short spending report"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Privacy",
+  "title": "Your money stays yours.",
+  "text": "No bank login, no account, no tracking. Your records live on your iPhone and in your own iCloud.",
+  "badge": "Data Not Collected",
+  "pillars": [
+   {
+    "title": "No bank login",
+    "text": "Spendry never connects to your bank. You add entries yourself or import them from bank messages."
+   },
+   {
+    "title": "Data not collected",
+    "text": "No ads, no analytics, no tracking. The App Store privacy label says the same."
+   },
+   {
+    "title": "Locked with Face ID",
+    "text": "Sync through your own iCloud and lock the app with Face ID."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Small app, big reach.",
+  "items": [
+   {
+    "value": 44,
+    "label": "languages"
+   },
+   {
+    "value": 175,
+    "label": "countries and regions"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "themes"
+   },
+   {
+    "value": 0,
+    "label": "bytes of your data collected"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Questions",
+  "items": [
+   {
+    "q": "Is Spendry free?",
+    "a": "Yes. The core features are free. Premium is monthly, yearly or a one-time Lifetime purchase, and subscriptions start with a free week."
+   },
+   {
+    "q": "Does Spendry connect to my bank?",
+    "a": "No. It never asks for a bank login. You add entries yourself, or import them from bank messages and Shortcuts automations."
+   },
+   {
+    "q": "Where is my data stored?",
+    "a": "On your iPhone and in your own iCloud account. Your records are never sent to Spendry's servers, so we can't see them."
+   },
+   {
+    "q": "How does the debt payoff plan work?",
+    "a": "Add your debts with their balances and rates. Spendry orders them with the snowball or avalanche method, adds what you can pay on top each month and shows the month you'll be debt-free."
+   },
+   {
+    "q": "Can I share a budget with my partner or family?",
+    "a": "Yes. Shared budgets and goals sync through iCloud, and everyone uses their own Apple Account."
+   },
+   {
+    "q": "Which devices does it work on?",
+    "a": "iPhone and iPad with iOS 17 or later, with widgets, Siri and Shortcuts."
+   },
+   {
+    "q": "Which languages and currencies does it support?",
+    "a": "44 languages and every major currency. Investments and foreign currency accounts can keep their own currency."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Free tools",
+  "title": "Try the math in your browser.",
+  "text": "Calculations run on your device. Nothing is sent anywhere."
+ },
+ "final": {
+  "eyebrow": "Spendry for iPhone",
+  "title": "Start today. It's free.",
+  "text": "Download Spendry and see the day you'll be debt-free in a few minutes.",
+  "qr": "Scan with your iPhone camera"
+ },
+ "footer": {
+  "tagline": "Budget and debt payoff for iPhone.",
+  "privacy_policy": "Privacy Policy",
+  "terms": "Terms of Service",
+  "support": "Support",
+  "tools": "Free tools",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay and App Store are trademarks of Apple Inc.",
+  "legal": "Legal"
+ },
+ "debt_tool": {
+  "slug": "debt-payoff-calculator",
+  "title": "Debt Payoff Calculator: Snowball vs Avalanche",
+  "h1": "Debt payoff calculator",
+  "description": "Free debt payoff calculator: compare the snowball and avalanche methods and see the month you'll be debt-free and the interest you'll pay. No sign-up.",
+  "lead": "Enter your debts and what you can pay on top of the minimums each month. See your debt-free month and total interest with the snowball and avalanche methods side by side.",
+  "name": "Debt",
+  "balance": "Balance",
+  "rate": "APR %",
+  "minimum": "Minimum payment",
+  "add": "Add a debt",
+  "remove": "Remove",
+  "extra": "Extra you can pay each month",
+  "order": "Payoff order",
+  "free_in": "Debt-free in",
+  "interest": "Total interest",
+  "faster": "Faster",
+  "cheaper": "Less interest",
+  "same": "Both methods give the same result with these numbers.",
+  "stuck": "These payments never clear the debt: they don't cover the interest. Raise the extra payment.",
+  "sample": [
+   "Credit card",
+   "Car loan",
+   "Store card",
+   "Medical bill"
+  ],
+  "note": "Sample debts; replace them with yours. Rates are treated as fixed, fees are not included.",
+  "prose": [
+   [
+    "Snowball or avalanche?",
+    "With the snowball method you pay off the smallest balance first. The first debt disappears quickly and its payment rolls into the next one, which keeps motivation high. With the avalanche method you pay off the highest interest rate first, which usually costs less interest overall, though the first payoff can take longer."
+   ],
+   [
+    "How the calculator works",
+    "Every month each debt gets its minimum payment. The extra goes to the next debt in line, and a cleared debt's payment rolls over to the next. Both methods use the same monthly budget, so the difference you see is only the order."
+   ],
+   [
+    "Keep the plan up to date",
+    "Balances change every month. Spendry tracks your cards, loans and bills, keeps your snowball or avalanche plan current and reminds you before each payment is due."
+   ]
+  ],
+  "extra_hint": "Money you can put toward your debts on top of the minimum payments. The more you add, the sooner you are debt-free."
+ },
+ "budget_tool": {
+  "slug": "budget-calculator",
+  "title": "Monthly Budget Calculator: Needs, Wants and Savings",
+  "h1": "Monthly budget calculator",
+  "description": "Free monthly budget calculator: split your take-home pay into needs, wants, and savings or debt payments in seconds. No sign-up.",
+  "lead": "Enter your monthly take-home pay. Half goes to needs, thirty percent to wants and twenty percent to savings and paying off debt.",
+  "income": "Monthly take-home pay",
+  "needs": "Needs",
+  "needs_hint": "Rent, bills, groceries, transport",
+  "wants": "Wants",
+  "wants_hint": "Eating out, shopping, trips",
+  "save": "Savings and debt",
+  "save_hint": "Savings goals and extra payments",
+  "prose": [
+   [
+    "What is the 50/30/20 rule?",
+    "It's a simple way to start a budget. Fifty percent of what you take home covers the things you must pay, thirty percent the things you choose, and twenty percent goes to savings and paying down debt."
+   ],
+   [
+    "When to change the numbers",
+    "If rent alone takes half of your income, the rule is a starting point, not a verdict. Move the split to fit your life, and pay off high-interest debt first."
+   ],
+   [
+    "Make it automatic",
+    "In Spendry each category gets a monthly budget that fills as you spend, with a warning before you go over."
+   ]
+  ]
+ },
+ "not_found": {
+  "title": "This page took a day off.",
+  "text": "The link may be old. Everything else is right where you left it.",
+  "home": "Back to Spendry"
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Debt Snowball vs Avalanche: Which Pays Off Debt Faster?",
+   "description": "The snowball pays the smallest balance first, the avalanche the highest rate. See how they differ, which saves more interest and how to follow either one.",
+   "h1": "Debt snowball vs. avalanche: which one should you use?",
+   "intro": [
+    "Both methods pay the minimum on every debt and put everything extra toward one of them. The only difference is which debt gets the extra money first.",
+    "The snowball starts with the smallest balance, so you close a debt quickly and stay motivated. The avalanche starts with the highest interest rate, so you pay the least interest in total."
+   ],
+   "steps_title": "Follow a payoff plan in Spendry",
+   "steps": [
+    "Add each card, loan and installment with its balance, interest rate and minimum payment.",
+    "Open Debts and choose the snowball or the avalanche method.",
+    "Enter how much you can pay on top of the minimums each month.",
+    "Spendry orders your debts and shows the month you'll be debt-free, with a reminder before every payment."
+   ],
+   "example_title": "An example",
+   "example": "Three debts: 1,200 at 24%, 4,000 at 18% and 9,000 at 9%, with 300 extra each month. The avalanche clears the 24% card first and pays the least interest. The snowball clears the 1,200 balance first, so one debt disappears within a few months. The finish lines are often only a month or two apart.",
+   "tip": "If the two dates are close, pick the method you will stick with. The best plan is the one you keep paying.",
+   "faq": [
+    {
+     "q": "Which method saves the most money?",
+     "a": "The avalanche, because the most expensive debt shrinks first. How much it saves depends on how far apart your rates are."
+    },
+    {
+     "q": "Can I switch methods later?",
+     "a": "Yes. Change the method in Spendry at any time and the plan and the debt-free date update right away."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "How to Pay Off Credit Card Debt Faster: 4 Habits That Work",
+   "description": "Practical steps to pay off credit card debt faster: pay more than the minimum, aim extra money at the highest rate, never pay late and stop new balances.",
+   "h1": "How to pay off credit card debt faster",
+   "intro": [
+    "Credit card debt grows because interest is charged every month on what is left. Every extra payment shrinks the balance that interest is calculated on.",
+    "Four habits make the biggest difference: pay more than the minimum, never pay late, aim extra money at the highest rate, and stop adding purchases you can't pay in full."
+   ],
+   "steps_title": "Do it with Spendry",
+   "steps": [
+    "Add your cards with their balance, interest rate, statement day and due day.",
+    "Set a monthly amount above the minimums and choose the avalanche method.",
+    "Turn on reminders so every due date is covered, even when the app is closed.",
+    "Check Debts each month to watch the balance fall and the debt-free date move closer."
+   ],
+   "example_title": "An example",
+   "example": "A balance of 3,000 at 22% takes well over ten years with minimum payments of about 2.5%. A fixed 175 each month clears it in under two years.",
+   "tip": "When a refund or a bonus comes in, put part of it on the card with the highest rate. One extra payment can take months off the plan.",
+   "faq": [
+    {
+     "q": "Should I pay the highest rate or the smallest balance first?",
+     "a": "The highest rate saves the most interest. The smallest balance gives you a quick win. Spendry shows the debt-free date for both, so you can compare."
+    },
+    {
+     "q": "Should I keep using the card while paying it off?",
+     "a": "Only for purchases you can pay in full before the due date. New balances push your debt-free date further away."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "What Happens If You Only Pay the Minimum on a Credit Card",
+   "description": "Paying only the minimum keeps your card in good standing, but most of it goes to interest. See how long it really takes and how a small extra payment helps.",
+   "h1": "What happens if you only pay the minimum",
+   "intro": [
+    "The minimum payment keeps your account in good standing, but a large part of it goes to interest. As the balance falls, the minimum falls with it, so the debt can drag on for years.",
+    "A small fixed amount on top changes the picture: more of each payment reaches the balance, and the end date moves years closer."
+   ],
+   "steps_title": "See your own numbers",
+   "steps": [
+    "Use the free credit card payoff calculator on this site to compare minimum payments with a fixed monthly amount.",
+    "In Spendry, add the card with its rate and minimum payment.",
+    "Set an extra amount you can keep up every month and watch the debt-free date update."
+   ],
+   "example_title": "An example",
+   "example": "A balance of 3,000 at 22% with minimums of about 2.5% can take more than ten years to clear and cost more in interest than the original balance. A fixed 175 each month clears it in under two years.",
+   "tip": "If you can't pay more right now, set up the minimum as an automatic payment with your bank so you are never late, and add extra when you can.",
+   "faq": [
+    {
+     "q": "Does paying only the minimum hurt my credit?",
+     "a": "Paying at least the minimum on time keeps the account in good standing. A high balance can still weigh on your credit, so paying it down helps."
+    },
+    {
+     "q": "How is the minimum payment calculated?",
+     "a": "It depends on the bank: usually a small percentage of the balance or a fixed floor, whichever is higher. Your statement shows the exact amount."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Credit Card Statement Date vs Due Date: When Should You Pay?",
+   "description": "The statement date closes your billing period; the due date is the last day to pay without a late fee. Here is how the two work and when to pay.",
+   "h1": "Statement date vs. due date: when should you pay?",
+   "intro": [
+    "Your card's statement date is the day the billing period closes and the bill is calculated. The due date comes a few weeks later and is the last day to pay that bill on time.",
+    "Pay the full statement balance by the due date and most cards charge no interest on purchases. Pay less, and interest applies to what is left."
+   ],
+   "steps_title": "Never miss a due date with Spendry",
+   "steps": [
+    "Add the card with its statement day and due day.",
+    "Spendry shows what is due on the Home screen and on the Reminders screen.",
+    "Get a reminder before the due date, then mark it paid or snooze it right from the notification."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Purchases made just after the statement date have the longest time before they are due, because they land on the next bill.",
+   "faq": [
+    {
+     "q": "What if the due date falls on a weekend?",
+     "a": "Many banks move it to the next business day, but rules differ. Paying a day or two early is the safe choice."
+    },
+    {
+     "q": "Can I pay before the statement date?",
+     "a": "Yes. Paying early lowers the balance on your next statement."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "How to Track Installment Payments on iPhone",
+   "description": "Keep every installment plan in one place: what is left, how many payments remain and when the next one is due, with a reminder before each one.",
+   "h1": "How to track installment payments on your iPhone",
+   "intro": [
+    "Splitting a purchase into installments feels light, but a few plans at once can take a big share of every month without you noticing.",
+    "Tracking each plan with its remaining payments shows the real monthly total and the month you will be done."
+   ],
+   "steps_title": "Track installments in Spendry",
+   "steps": [
+    "Add an installment with the total amount, the number of payments and the first payment date.",
+    "See every plan with what is paid, what is left and the next payment date.",
+    "Get a reminder before each payment, and see installments in your debt-free date next to your cards and loans."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Before starting a new installment plan, add up the plans you already pay. If the total is more than you can cover in a tight month, wait.",
+   "faq": [
+    {
+     "q": "Do installments count toward my debt-free date?",
+     "a": "Yes. Spendry includes them with your cards and loans, so the date shows the full picture."
+    },
+    {
+     "q": "Can I track interest-free installments?",
+     "a": "Yes. Leave the rate at zero and Spendry simply counts down the payments."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "How to Never Miss a Bill Payment: Reminders on iPhone",
+   "description": "Set reminders for every bill, card and subscription so nothing is paid late. Get a notification before the due date and mark it paid in one tap.",
+   "h1": "How to never miss a bill payment",
+   "intro": [
+    "Late fees and interest usually come from forgetting, not from a lack of money. A reminder a few days before each due date fixes most of it.",
+    "The trick is to keep every bill in one place: rent, utilities, phone, cards, loans and subscriptions."
+   ],
+   "steps_title": "Set it up in Spendry",
+   "steps": [
+    "Add each bill and subscription with its amount, its due date and how often it repeats.",
+    "Choose how many days before the due date you want to be reminded.",
+    "Reminders arrive even when the app is closed. Mark a payment as paid or snooze it right from the notification."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Add the upcoming payments widget to your Home Screen, so the next week's bills are in sight every time you unlock your phone.",
+   "faq": [
+    {
+     "q": "Will I get reminders if I never open the app?",
+     "a": "Yes. Spendry schedules them on your iPhone, so they arrive even if the app stays closed."
+    },
+    {
+     "q": "Can I see everything that is due this week?",
+     "a": "Yes. The Reminders screen lists what is coming up, and an optional morning automation sums up the next three days in one notification."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "How to Track and Cut Subscriptions on iPhone",
+   "description": "Find out what your subscriptions really cost each month and each year, get a reminder before every renewal and decide which ones to cancel.",
+   "h1": "How to track and cut your subscriptions",
+   "intro": [
+    "Subscriptions are easy to start and easy to forget. A few small monthly charges can add up to a large yearly bill.",
+    "Seeing the total, monthly and yearly, is usually enough to find two or three you no longer use."
+   ],
+   "steps_title": "Track subscriptions in Spendry",
+   "steps": [
+    "Add each subscription with its price and billing cycle: weekly, monthly or yearly.",
+    "Spendry shows the monthly and yearly total and the next renewal date.",
+    "Get a reminder before each renewal, so you can cancel in time."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Try the subscription cost calculator on this site: list what you pay and see the yearly total in seconds.",
+   "faq": [
+    {
+     "q": "Does Spendry cancel subscriptions for me?",
+     "a": "No. Spendry never connects to your accounts. It reminds you before the renewal so you can cancel with the provider."
+    },
+    {
+     "q": "Can I track yearly subscriptions too?",
+     "a": "Yes. Spendry handles weekly, monthly and yearly cycles and counts them in your monthly total."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "How to Make a Monthly Budget That Actually Works",
+   "description": "A simple way to build a monthly budget: start from your income, cover needs first, set limits for spending and save before you spend.",
+   "h1": "How to make a monthly budget that works",
+   "intro": [
+    "A budget is a plan for your income before the month starts. Begin with what you earn after tax, then decide where each part goes.",
+    "A common starting point is about half for needs like rent and bills, about a third for wants, and the rest for saving and paying off debt. Adjust it to your life."
+   ],
+   "steps_title": "Build it in Spendry",
+   "steps": [
+    "Add your monthly income.",
+    "Create budgets for the categories you spend on most, each with a limit.",
+    "Budgets fill up as you add expenses, and Spendry warns you before a limit is reached.",
+    "At the end of the month, look at the charts and adjust next month's limits."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Use the free monthly budget calculator on this site to split your income before you set your limits.",
+   "faq": [
+    {
+     "q": "How many categories should a budget have?",
+     "a": "Start with five to eight, such as housing, bills, groceries, transport, eating out, shopping and saving. Add more only when you need them."
+    },
+    {
+     "q": "What if I go over a budget?",
+     "a": "Move money from another category, or carry the lesson into next month. A budget is a plan you adjust, not a test."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "How to Find Your Debt-Free Date (and Bring It Closer)",
+   "description": "Your debt-free date is the month your last debt is paid off. Here is how to work it out and how extra payments move it closer.",
+   "h1": "How to find your debt-free date",
+   "intro": [
+    "Your debt-free date is the month your last balance reaches zero. It depends on what you owe, the interest rates and how much you pay each month.",
+    "Knowing the date turns a vague goal into a deadline, and shows exactly what an extra payment is worth."
+   ],
+   "steps_title": "Get your date in Spendry",
+   "steps": [
+    "Add all your debts: cards, loans, installments, overdraft and money you owe friends.",
+    "Enter each balance, rate and monthly payment.",
+    "Spendry works out the month you will be debt-free and updates it every time you pay or add something new."
+   ],
+   "example_title": "Try it now",
+   "example": "The free debt payoff calculator on this site works the same way: add your debts and an extra monthly amount, and see your date with both the snowball and the avalanche methods.",
+   "tip": "Look at the date after each payday. Seeing it move closer is the best motivation there is.",
+   "faq": [
+    {
+     "q": "Why does my debt-free date change?",
+     "a": "It moves closer when you pay extra and further away when you add new debt or pay less. Spendry recalculates it each time."
+    },
+    {
+     "q": "Can I include money I owe a friend?",
+     "a": "Yes. Add it as a personal debt without interest."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "How to Track Spending Without Linking Your Bank",
+   "description": "You don't need to give an app your bank login to track spending. Add expenses in seconds, scan receipts and keep your data on your own iPhone.",
+   "h1": "How to track spending without linking your bank",
+   "intro": [
+    "Many money apps ask for your bank login. If you would rather keep it private, you can still track every expense with a few seconds a day.",
+    "Adding expenses yourself also makes you notice what you spend, which is often the point of tracking."
+   ],
+   "steps_title": "How Spendry does it",
+   "steps": [
+    "Add an expense in seconds: type the amount and pick a category, or scan the receipt.",
+    "Turn on the ready-made Apple Pay automation in the Shortcuts app, and card payments are saved for you with the store's name.",
+    "Your records stay on your iPhone and sync through your own iCloud. Spendry never sees them."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Add an expense right when you pay. Doing it later is how purchases get forgotten.",
+   "faq": [
+    {
+     "q": "Is it safe without a bank connection?",
+     "a": "There is no bank login to leak. Spendry keeps your records on your device and in your iCloud, and you can lock the app with Face ID."
+    },
+    {
+     "q": "Can I import transactions?",
+     "a": "Yes. Import them from bank messages or with Shortcuts automations, without sharing a bank login."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Budget Widgets for Your iPhone Home Screen and Lock Screen",
+   "description": "See your balance, budgets, goals and upcoming payments on your Home Screen and Lock Screen, and add an expense without opening the app.",
+   "h1": "Budget widgets for your iPhone Home Screen",
+   "intro": [
+    "A widget keeps your money in sight without opening an app. One look at your Home Screen tells you what is left in a budget and what is due next.",
+    "Spendry has widgets for your balance, budgets, goals, debts, cash flow and upcoming payments, in sizes for the Home Screen and the Lock Screen."
+   ],
+   "steps_title": "Add a Spendry widget",
+   "steps": [
+    "Touch and hold an empty area of your Home Screen, then tap Edit and Add Widget.",
+    "Search for Spendry and choose a widget and a size.",
+    "Touch and hold the widget and tap Edit Widget to choose which budget, goal or account it shows."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Put the upcoming payments widget on your first Home Screen page. Due dates are the easiest thing to forget.",
+   "faq": [
+    {
+     "q": "Can I add an expense from a widget?",
+     "a": "Yes. The add widget opens straight to a new expense, so logging a purchase takes a few seconds."
+    },
+    {
+     "q": "Do the widgets update on their own?",
+     "a": "Yes. They refresh as you add entries and through the day."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "How to Save for a Goal and Actually Reach It",
+   "description": "Set a target and a date, save a fixed amount each month and track your progress. A simple method for a trip, a car or an emergency fund.",
+   "h1": "How to save for a goal and reach it",
+   "intro": [
+    "A goal with an amount and a date is easier to reach than a wish. Divide what you need by the months you have, and you know your monthly amount.",
+    "Saving right after payday, before you spend, makes the plan automatic."
+   ],
+   "steps_title": "Save with Spendry",
+   "steps": [
+    "Create a goal with the amount and the date you want to reach it by.",
+    "Add to it whenever you save, and Spendry shows how close you are.",
+    "Share a goal with your partner or family through iCloud and save for it together."
+   ],
+   "example_title": "An example",
+   "example": "To save 6,000 in 12 months, you need 500 a month. If 1,200 is already saved, it drops to 400.",
+   "tip": "Start with an emergency fund of one month of expenses, then grow it to three.",
+   "faq": [
+    {
+     "q": "How much should an emergency fund be?",
+     "a": "Three to six months of essential expenses is a common target. Start with one month and build from there."
+    },
+    {
+     "q": "Can I save for more than one goal?",
+     "a": "Yes. Create as many goals as you like and follow each one's progress."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "How to Track a Loan and See What You Really Pay",
+   "description": "Track car loans, personal loans and mortgages: the remaining balance, payments left, interest and the month the loan ends, with a reminder before each payment.",
+   "h1": "How to track a loan and see what you really pay",
+   "intro": [
+    "A loan's monthly payment hides two things: how much of it is interest, and how many payments are left. Tracking both shows the real cost.",
+    "Early in a loan most of each payment is interest; later most of it reduces the balance. That is why extra payments early on save the most."
+   ],
+   "steps_title": "Track it in Spendry",
+   "steps": [
+    "Add the loan with the amount, the interest rate, the term and the first payment date.",
+    "See the remaining balance, the payments left and the month it ends.",
+    "Get a reminder before each payment and include the loan in your debt-free plan."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Use the free loan calculator on this site to see the monthly payment and the total interest before you sign.",
+   "faq": [
+    {
+     "q": "Should I pay off a loan early?",
+     "a": "If the rate is high and there is no early repayment fee, extra payments save interest. Check your loan terms first."
+    },
+    {
+     "q": "Can I track a mortgage?",
+     "a": "Yes. Add it as a loan with its rate and term."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "How to Track Your Net Worth on iPhone",
+   "description": "Net worth is what you own minus what you owe. Track savings, investments, gold and debts in one place and watch the number grow.",
+   "h1": "How to track your net worth",
+   "intro": [
+    "Net worth is everything you own minus everything you owe. It is the single number that shows whether your money is moving in the right direction.",
+    "Checking it once a month is enough to see the trend, even when a single month looks bad."
+   ],
+   "steps_title": "Track it in Spendry",
+   "steps": [
+    "Add your accounts and savings.",
+    "Add your investments: stocks, crypto, gold and currencies show live prices.",
+    "Add your debts. Spendry shows your net worth and how it changes over time."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Paying off debt raises your net worth just like saving does.",
+   "faq": [
+    {
+     "q": "Should I include my home or my car?",
+     "a": "You can, but many people track only cash, investments and debts, because those change from month to month."
+    },
+    {
+     "q": "How often do investment prices update?",
+     "a": "Spendry shows live prices for stocks, crypto, metals and currencies."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "How to Share a Budget With Your Partner",
+   "description": "Share a budget or a savings goal with your partner or family through iCloud. Everyone adds expenses and sees the same numbers, with no shared login.",
+   "h1": "How to share a budget with your partner",
+   "intro": [
+    "Money talks go better when both of you see the same numbers. A shared budget shows what has been spent and what is left, without anyone keeping score.",
+    "Keep personal spending separate and share only what you pay for together, like rent, groceries and holidays."
+   ],
+   "steps_title": "Share it in Spendry",
+   "steps": [
+    "Create a budget or a goal and choose to share it.",
+    "Invite your partner or family through iCloud sharing.",
+    "Everyone can add expenses, and changes appear on every device."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Agree on the categories you share before you start, then look at them together once a month.",
+   "faq": [
+    {
+     "q": "Does my partner see all my spending?",
+     "a": "No. They see only what you share. Your other budgets and accounts stay private."
+    },
+    {
+     "q": "Do we both need Spendry?",
+     "a": "Yes. Each person uses Spendry on their own iPhone, and the shared budget syncs through iCloud."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Log Apple Pay Purchases Automatically With Shortcuts",
+   "description": "Use a ready-made Shortcuts automation to log every Apple Pay purchase in Spendry, so your budgets stay up to date without typing.",
+   "h1": "Log Apple Pay purchases automatically",
+   "intro": [
+    "The Shortcuts app can run an action every time you pay with Apple Pay. Spendry uses it to save the purchase for you.",
+    "Your budgets stay current without typing, and you add a category only if you want to."
+   ],
+   "steps_title": "Turn it on",
+   "steps": [
+    "In Spendry, open Automations and choose the Apple Pay automation.",
+    "Follow the steps to add it in the Shortcuts app.",
+    "Pay with Apple Pay as usual. The purchase appears in Spendry with the store's name."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Add the Sunday evening automation too, for a short report of your week's spending.",
+   "faq": [
+    {
+     "q": "Does this give Spendry access to my bank?",
+     "a": "No. The automation passes only the purchase details your iPhone already shows, such as the amount and the store. There is no bank login."
+    },
+    {
+     "q": "Can I change the category later?",
+     "a": "Yes. Edit the expense in Spendry at any time."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Money Guides: Budgets, Debt Payoff and Bills",
+  "description": "Short, practical guides to budgeting, paying off debt, credit cards, installments, subscriptions and never missing a payment.",
+  "h1": "Money guides",
+  "lead": "Short, practical guides to budgeting, paying off debt and never missing a payment."
+ },
+ "guide_labels": {
+  "nav": "Guides",
+  "tip": "Tip",
+  "faq": "Questions",
+  "more": "More guides",
+  "all": "All guides",
+  "tools": "Free calculators",
+  "cta": "Track it all in one place. Download Spendry free on the App Store.",
+  "topic_debt": "Debt and credit cards",
+  "topic_bills": "Bills and subscriptions",
+  "topic_budget": "Budgeting and saving",
+  "topic_iphone": "On your iPhone"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Credit Card Payoff Calculator: How Long Will It Take?",
+  "description": "Free credit card payoff calculator. Enter your balance, rate and monthly payment to see your payoff date, the total interest and what paying only the minimum costs.",
+  "h1": "Credit card payoff calculator",
+  "lead": "See how long it takes to pay off a card and how much interest you pay, compared with paying only the minimum.",
+  "balance": "Card balance",
+  "rate": "Annual interest rate (%)",
+  "payment": "Your monthly payment",
+  "min_pct": "Minimum payment (% of balance)",
+  "months": "Paid off in",
+  "interest": "Total interest",
+  "date": "Debt-free",
+  "fixed": "With your payment",
+  "minimum": "Minimum payments only",
+  "never": "This payment doesn't cover the monthly interest. Raise it to pay the card off.",
+  "saved": "You save in interest",
+  "prose": [
+   [
+    "How the calculation works",
+    "Each month the calculator adds a month of interest to the balance and subtracts your payment, until the balance reaches zero. The minimum payment comparison recalculates the minimum every month from the remaining balance."
+   ],
+   [
+    "Why minimum payments take so long",
+    "The minimum falls as the balance falls, so the payment never gets ahead of the interest by much. A fixed payment keeps the same amount working on the balance every month."
+   ],
+   [
+    "Make it real",
+    "Spendry keeps the plan going: add your cards, set what you can pay each month and get a reminder before every due date."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Loan Calculator: Monthly Payment and Total Interest",
+  "description": "Free loan calculator for car loans, personal loans and mortgages. See the monthly payment, the total interest and the full payment schedule.",
+  "h1": "Loan calculator",
+  "lead": "Enter the amount, the annual rate and the term to see the monthly payment, the total interest and every payment.",
+  "amount": "Loan amount",
+  "rate": "Annual interest rate (%)",
+  "term": "Term (months)",
+  "payment": "Monthly payment",
+  "total": "Total repaid",
+  "interest": "Total interest",
+  "month": "Month",
+  "principal": "Principal",
+  "interest_col": "Interest",
+  "balance": "Balance",
+  "show_all": "Show all payments",
+  "show_less": "Show fewer",
+  "prose": [
+   [
+    "How the payment is calculated",
+    "This is a standard amortizing loan: the same payment every month, with interest charged on the remaining balance. Early payments are mostly interest; later ones are mostly principal."
+   ],
+   [
+    "Lower the total cost",
+    "A shorter term or a lower rate cuts the total interest the most. Extra payments early in the loan also help, if your lender allows them without a fee."
+   ],
+   [
+    "Keep track after you sign",
+    "Add the loan to Spendry to see the payments left, the end month and a reminder before every payment."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Savings Goal Calculator: How Much to Save Each Month",
+  "description": "Free savings goal calculator. Enter your goal, what you already have and your deadline to see how much to save each month, with optional interest.",
+  "h1": "Savings goal calculator",
+  "lead": "Work out how much to put aside each month to reach your goal on time.",
+  "goal": "Goal amount",
+  "have": "Saved so far",
+  "months": "Months to reach it",
+  "rate": "Annual interest on savings (%)",
+  "monthly": "Save each month",
+  "weekly": "That is about, each week",
+  "total_in": "You put in",
+  "earned": "Interest earned",
+  "done": "You have already reached this goal.",
+  "prose": [
+   [
+    "How it works",
+    "The calculator spreads what is left of your goal over the months you have. With an interest rate, the money you save earns interest each month, so you need to put in a little less."
+   ],
+   [
+    "Make it easier",
+    "Save right after payday and treat it like a bill. A shared goal with your partner can make it faster."
+   ],
+   [
+    "Track your progress",
+    "Create the goal in Spendry and see how close you are every time you add to it."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Subscription Cost Calculator: What You Pay in a Year",
+  "description": "Free subscription calculator. List your subscriptions with their price and billing cycle and see what they cost each month, each year and over five years.",
+  "h1": "Subscription cost calculator",
+  "lead": "List your subscriptions and see the real monthly and yearly total.",
+  "name": "Subscription",
+  "price": "Price",
+  "cycle": "Billing",
+  "weekly": "Weekly",
+  "monthly": "Monthly",
+  "yearly": "Yearly",
+  "add": "Add a subscription",
+  "remove": "Remove",
+  "per_month": "Per month",
+  "per_year": "Per year",
+  "five_years": "Over 5 years",
+  "samples": [
+   "Music streaming",
+   "Video streaming",
+   "Cloud storage",
+   "Gym membership",
+   "News app"
+  ],
+  "prose": [
+   [
+    "Why the yearly total matters",
+    "A small monthly price looks harmless. Multiplied by twelve, and by every subscription you have, it often turns out to be one of your biggest regular costs."
+   ],
+   [
+    "What to do with the number",
+    "Sort by price and ask of each one: did I use it last month? Cancel what you don't, and set a reminder before the renewals you keep."
+   ],
+   [
+    "Never miss a renewal",
+    "Spendry tracks your subscriptions, adds them to your monthly total and reminds you before each renewal."
+   ]
+  ]
+ }
 }

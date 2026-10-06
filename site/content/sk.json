@@ -327,5 +327,676 @@
     "V Spendry má každá kategória svoj mesačný rozpočet. Ten sa postupne napĺňa podľa vašich výdavkov a včas vás varuje, skôr než limit prekročíte."
    ]
   ]
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Snehová guľa vs lavína: Ako splatiť dlhy rýchlejšie?",
+   "description": "Snehová guľa spláca najmenší dlh, lavína najvyšší úrok. Zistite rozdiely, ušetrite na úrokoch a vyberte si správny postup.",
+   "h1": "Snehová guľa alebo lavína: Ktorú metódu si vybrať?",
+   "intro": [
+    "Obe metódy platia minimálnu splátku na každom dlhu a všetky peniaze navyše posielajú na jeden z nich. Jediný rozdiel je v tom, ktorý dlh dostane peniaze navyše ako prvý.",
+    "Snehová guľa začína najmenším zostatkom, takže dlh splatíte rýchlo a udržíte si motiváciu. Lavína začína najvyšším úrokom, vďaka čomu zaplatíte celkovo najmenej na úrokoch."
+   ],
+   "steps_title": "Postupujte podľa plánu v Spendry",
+   "steps": [
+    "Pridajte každú kartu, úver a splátku so zostatkom, úrokovou sadzbou a minimálnou splátkou.",
+    "Otvorte Dlhy a vyberte si metódu Snehová guľa alebo Lavína.",
+    "Zadajte sumu, ktorú môžete platiť každý mesiac navyše k minimálnym splátkam.",
+    "Spendry usporiada vaše dlhy a ukáže mesiac, kedy budete bez dlhov, spolu s pripomienkou pred každou platbou."
+   ],
+   "example_title": "Príklad",
+   "example": "Tri dlhy: 1 200 pri 24 %, 4 000 pri 18 % a 9 000 pri 9 %, s 300 navyše každý mesiac. Lavína najprv splatí kartu s 24 % a ušetrí najviac na úrokoch. Snehová guľa najprv vymaže zostatok 1 200, takže jeden dlh zmizne už za pár mesiacov. Cieľové dátumy sa často líšia len o mesiac alebo dva.",
+   "tip": "Ak sú oba dátumy blízko seba, vyberte si metódu, pri ktorej vydržíte. Najlepší plán je ten, ktorý naozaj dodržíte.",
+   "faq": [
+    {
+     "q": "Ktorá metóda ušetrí najviac peňazí?",
+     "a": "Lavína, pretože najdrahší dlh klesá ako prvý. Koľko ušetríte, závisí od rozdielu medzi vašimi úrokovými sadzbami."
+    },
+    {
+     "q": "Môžem metódy neskôr zmeniť?",
+     "a": "Áno. Metódu môžete v Spendry kedykoľvek prepnúť a plán aj Dátum, kedy budete bez dlhov sa okamžite aktualizujú."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Ako rýchlejšie splatiť kreditnú kartu: 4 návyky",
+   "description": "Praktické tipy, ako splatiť kreditné karty: plaťte viac ako minimum, mierte na najvyšší úrok, plaťte včas a nezvyšujte dlh.",
+   "h1": "Ako rýchlejšie splatiť dlh na kreditnej karte",
+   "intro": [
+    "Dlh na kreditnej karte rastie, pretože úrok sa počíta každý mesiac z toho, čo vám zostáva doplatiť. Každá platba navyše znižuje zostatok, z ktorého sa úrok počíta.",
+    "Štyri návyky prinesú najväčší rozdiel: plaťte viac ako minimum, nikdy neplaťte neskoro, smerujte peniaze navyše na najvyšší úrok a nepridávajte nákupy, ktoré neviete hneď vyrovnať."
+   ],
+   "steps_title": "Využite na to Spendry",
+   "steps": [
+    "Pridajte svoje karty so zostatkom, úrokovou sadzbou, dňom vyúčtovania a dňom splatnosti.",
+    "Nastavte mesačnú sumu nad rámec minima a zvoľte metódu Lavína.",
+    "Zapnite si pripomienky, aby ste stihli každú splatnosť, aj keď je aplikácia zatvorená.",
+    "Každý mesiac otvorte Dlhy, sledujte klesajúci zostatok a blížiaci sa cieľ."
+   ],
+   "example_title": "Príklad",
+   "example": "Zostatok 3 000 pri 22 % trvá pri minimálnych splátkach okolo 2,5 % viac ako desať rokov. Pevná suma 175 mesačne ho splatí za menej ako dva roky.",
+   "tip": "Keď dostanete preplatok alebo odmenu v práci, pošlite časť peňazí na kartu s najvyšším úrokom. Jedna mimoriadna platba dokáže skrátiť splácanie o celé mesiace.",
+   "faq": [
+    {
+     "q": "Mám najprv splácať najvyšší úrok alebo najmenší zostatok?",
+     "a": "Najvyšší úrok ušetrí najviac peňazí. Najmenší zostatok vám dodá rýchly pocit úspechu. Spendry zobrazuje Dátum, kedy budete bez dlhov pre obe možnosti, takže ich môžete ľahko porovnať."
+    },
+    {
+     "q": "Môžem kartu ďalej používať, kým ju splácam?",
+     "a": "Len na nákupy, ktoré zvládnete zaplatiť v plnej výške pred dňom splatnosti. Nové dlhy posúvajú váš konečný dátum do diaľky."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Pasca minimálnej splátky na kreditnej karte",
+   "description": "Minimálna splátka udrží účet bez sankcií, no väčšina ide na úroky. Pozrite sa, ako dlho trvá splácanie a ako pomôže malá suma navyše.",
+   "h1": "Čo sa stane, ak platíte len minimálnu splátku",
+   "intro": [
+    "Minimálna splátka vás chráni pred pokutami, ale veľká časť z nej ide iba na úroky. Keď zostatok klesá, znižuje sa aj minimálna splátka, takže sa splácanie môže ťahať dlhé roky.",
+    "Malá pevná suma navyše úplne zmení situáciu: z každej platby ide viac na samotný dlh a konečný termín sa posunie o celé roky bližšie."
+   ],
+   "steps_title": "Pozrite sa na svoje vlastné čísla",
+   "steps": [
+    "Použite bezplatnú kalkulačku splácania kreditnej karty na tomto webe a porovnajte minimálne splátky s pevnou mesačnou sumou.",
+    "V Spendry pridajte kartu s jej úrokovou sadzbou a minimálnou splátkou.",
+    "Nastavte si sumu navyše, ktorú zvládnete platiť každý mesiac, a sledujte, ako sa upraví Dátum, kedy budete bez dlhov."
+   ],
+   "example_title": "Príklad",
+   "example": "Zostatok 3 000 pri 22 % s minimálnou splátkou okolo 2,5 % môže trvať viac ako desať rokov a na úrokoch zaplatíte viac ako bol pôvodný dlh. Pevná suma 175 každý mesiac ho vymaže za menej ako dva roky.",
+   "tip": "Ak teraz nemôžete platiť viac, nastavte si v banke trvalý príkaz na minimálnu splátku, aby ste nikdy nemeškali, a pošlite viac vždy, keď sa dá.",
+   "faq": [
+    {
+     "q": "Zhorší platenie minimálnej splátky môj úverový register?",
+     "a": "Včasné zaplatenie aspoň minimálnej sumy udržiava úver bez záznamov o omeškaní. Vysoký zostatok na karte však stále zaťažuje vašu bonitu, preto pomáha dlh postupne znižovať."
+    },
+    {
+     "q": "Ako sa počíta minimálna splátka?",
+     "a": "Závisí to od banky: zvyčajne je to malé percento zo zostatku alebo pevná minimálna čiastka podľa toho, čo je vyššie. Presnú sumu nájdete vo svojom výpise."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Dátum vyúčtovania a splatnosti: Kedy zaplatiť?",
+   "description": "Dátum vyúčtovania uzatvára obdobie, deň splatnosti je posledný termín na platbu. Zistite, ako oba fungujú a kedy je najlepšie platiť.",
+   "h1": "Dátum vyúčtovania a dátum splatnosti: Kedy platiť?",
+   "intro": [
+    "Dátum vyúčtovania je deň, kedy banka uzavrie zúčtovacie obdobie a vystaví účet. Deň splatnosti prichádza o niekoľko týždňov neskôr a je to posledný termín na včasné zaplatenie.",
+    "Ak uhradíte celý dlh z výpisu do dňa splatnosti, väčšina kariet vám za nákupy neúčtuje žiadny úrok. Ak zaplatíte menej, úročí sa všetko, čo na karte zostane."
+   ],
+   "steps_title": "Nezmeškajte splatnosť vďaka Spendry",
+   "steps": [
+    "Pridajte kartu s jej dňom vyúčtovania a dňom splatnosti.",
+    "Spendry vám na obrazovke Domov a na obrazovke Pripomienky prehľadne ukáže, čo treba zaplatiť.",
+    "Dostanete pripomienku pred termínom splatnosti a platbu môžete označiť ako zaplatenú alebo odložiť priamo z hlásenia."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Nákupy urobené tesne po dátume vyúčtovania majú najdlhšiu lehotu do splatnosti, pretože sa objavia až na ďalšom výpise.",
+   "faq": [
+    {
+     "q": "Čo ak dátum splatnosti padne na víkend?",
+     "a": "Mnoho bánk posúva termín na nasledujúci pracovný deň, no podmienky sa líšia. Zaplatiť o deň alebo dva skôr je vždy istota."
+    },
+    {
+     "q": "Môžem platiť ešte pred dátumom vyúčtovania?",
+     "a": "Áno. Predčasnou platbou znížite zostatok, ktorý sa objaví na vašom ďalšom výpise."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "Ako sledovať nákupy na splátky na iPhone",
+   "description": "Majte všetky nákupy na splátky na jednom mieste: zostatok, počet platieb aj najbližší termín s praktickou pripomienkou.",
+   "h1": "Ako sledovať nákupy na splátky na iPhone",
+   "intro": [
+    "Rozdelenie nákupu na menšie splátky vyzerá lákavo, ale niekoľko splátok naraz vám môže nepozorovane odčerpať veľkú časť mesačného rozpočtu.",
+    "Keď si každú splátku zaznamenáte s počtom zostávajúcich mesiacov, uvidíte skutočné výdavky a presný termín, kedy budete mať všetko z krku."
+   ],
+   "steps_title": "Sledujte splátky v Spendry",
+   "steps": [
+    "Pridajte nákup na splátky s celkovou sumou, počtom platieb a dátumom prvej splátky.",
+    "Pozrite si každý nákup: koľko je zaplatené, koľko zostáva a kedy odchádza ďalšia platba.",
+    "Dostanete pripomienku pred každou platbou a splátky uvidíte zarátané aj v údaji Dátum, kedy budete bez dlhov vedľa kariet a úverov."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Pred kúpou ďalšej veci na splátky si spočítajte tie, ktoré už platíte. Ak je celková suma vyššia, než zvládnete v horšom mesiaci, radšej počkajte.",
+   "faq": [
+    {
+     "q": "Počítajú sa splátky do dátumu, kedy budem bez dlhov?",
+     "a": "Áno. Spendry ich počíta spoločne s kartami a úvermi, takže vidíte úplný prehľad."
+    },
+    {
+     "q": "Môžem sledovať aj splátky bez navýšenia?",
+     "a": "Áno. Nechajte úrok na nule a Spendry vám bude jednoducho odpočítavať jednotlivé platby."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "Ako nezabudnúť na účty: Pripomienky na iPhone",
+   "description": "Nastavte si pripomienky na účty, karty a predplatné. Získajte upozornenie pred termínom splatnosti a označte platbu za vybavenú jedným ťuknutím.",
+   "h1": "Ako nezabudnúť na žiadnu platbu",
+   "intro": [
+    "Poplatky z omeškania a úroky zvyčajne vznikajú zo zábudlivosti, nie z nedostatku peňazí. Upozornenie niekoľko dní pred termínom splatnosti väčšinu týchto problémov vyrieši.",
+    "Základom je mať všetky platby pokope: nájom, energie, paušál, karty, úvery aj pravidelné predplatné."
+   ],
+   "steps_title": "Nastavte si prehľad v Spendry",
+   "steps": [
+    "Pridajte každú platbu a predplatné so sumou, dňom splatnosti a intervalom opakovania.",
+    "Zvoľte si, koľko dní vopred chcete dostať pripomienku.",
+    "Pripomienky prídu, aj keď je aplikácia zatvorená. Platbu označíte ako uhradenú alebo odložíte priamo z hlásenia."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Pridajte si widget s nadchádzajúcimi platbami na plochu, aby ste mali účty na najbližší týždeň na očiach pri každom odomknutí telefónu.",
+   "faq": [
+    {
+     "q": "Dostanem pripomienku, aj keď aplikáciu neotvorím?",
+     "a": "Áno. Spendry plánuje upozornenia priamo v systéme iPhone, takže prídu aj vtedy, keď aplikáciu vôbec neotvoríte."
+    },
+    {
+     "q": "Môžem vidieť všetky platby na tento týždeň?",
+     "a": "Áno. Obrazovka Pripomienky zoradí všetko, čo sa blíži, a voliteľná ranná automatizácia vám zhrnie najbližšie tri dni v jednom hlásení."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "Ako sledovať a zrušiť predplatné na iPhone",
+   "description": "Zistite, koľko vás predplatné stojí mesačne a ročne. Získajte pripomienku pred obnovením a rozhodnite sa, ktoré služby zrušiť.",
+   "h1": "Ako mať predplatné pod kontrolou a ušetriť",
+   "intro": [
+    "Predplatné si človek aktivuje ľahko, no ešte ľahšie naň zabudne. Niekoľko menších mesačných poplatkov sa za rok nazbiera do prekvapivo vysokej sumy.",
+    "Stačí vidieť celkový súčet za mesiac a rok, aby ste okamžite našli dve či tri služby, ktoré už vôbec nepoužívate."
+   ],
+   "steps_title": "Sledujte predplatné v Spendry",
+   "steps": [
+    "Pridajte každé predplatné s cenou a obdobím: týždenne, mesačne alebo ročne.",
+    "Spendry spočíta celkovú sumu na mesiac aj rok a ukáže dátum najbližšej platby.",
+    "Dostanete pripomienku pred každou platbou, aby ste službu stihli včas zrušiť."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Vyskúšajte kalkulačku predplatného na tomto webe: zadajte svoje platby a za pár sekúnd uvidíte ročný súčet.",
+   "faq": [
+    {
+     "q": "Zruší Spendry predplatné za mňa?",
+     "a": "Nie. Spendry sa nepripája k vašim účtom. Upozorní vás pred obnovením, aby ste predplatné mohli sami zrušiť u poskytovateľa."
+    },
+    {
+     "q": "Môžem sledovať aj ročné platby?",
+     "a": "Áno. Spendry zvláda týždenné, mesačné aj ročné platby a správne ich prepočíta do vášho mesačného rozpočtu."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "Ako vytvoriť mesačný rozpočet, ktorý funguje",
+   "description": "Jednoduchý návod na mesačný rozpočet: vychádzajte z príjmu, pokryte nutné výdavky, nastavte si limity a odkladajte peniaze vopred.",
+   "h1": "Ako si vytvoriť fungujúci mesačný rozpočet",
+   "intro": [
+    "Rozpočet je plán pre vaše peniaze ešte predtým, ako mesiac začne. Začnite čistým príjmom a vopred sa rozhodnite, kam jednotlivé čiastky pôjdu.",
+    "Overené pravidlo hovorí: zhruba polovica na nutné výdavky ako bývanie a účty, tretina na osobné veci a zvyšok na sporenie a splácanie dlhov. Prispôsobte si to podľa seba."
+   ],
+   "steps_title": "Vytvorte si ho v Spendry",
+   "steps": [
+    "Zadajte svoj mesačný príjem.",
+    "Vytvorte rozpočty pre kategórie, kde míňate najviac, a každej určite limit.",
+    "Rozpočty sa plnia pri zapisovaní výdavkov a Spendry vás včas varuje pred vyčerpaním limitu.",
+    "Na konci mesiaca skontrolujte grafy a upravte si limity na ďalší mesiac."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Použite bezplatnú kalkulačku mesačného rozpočtu na tomto webe a rozdeľte si príjem ešte pred nastavením limitov.",
+   "faq": [
+    {
+     "q": "Koľko kategórií by mal rozpočet mať?",
+     "a": "Začnite s piatimi až ôsmimi: napríklad bývanie, účty, potraviny, doprava, reštaurácie, nákupy a sporenie. Ďalšie pridávajte, len ak ich naozaj potrebujete."
+    },
+    {
+     "q": "Čo ak prekročím rozpočet?",
+     "a": "Presuňte peniaze z inej kategórie alebo sa poučte do ďalšieho mesiaca. Rozpočet je živý plán na úpravu, nie písomka v škole."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Kedy budete bez dlhov: Zistite svoj dátum",
+   "description": "Dátum, kedy budete bez dlhov, je mesiac poslednej splátky. Pozrite sa, ako ho vypočítať a ako ho mimoriadne splátky priblížia.",
+   "h1": "Ako zistiť dátum, kedy budete bez dlhov",
+   "intro": [
+    "Váš dátum, kedy budete bez dlhov, je mesiac, kedy váš posledný zostatok klesne na nulu. Závisí od dlžnej sumy, úrokov a mesačných splátok.",
+    "Presný termín zmení neurčitý cieľ na jasný plán a ukáže vám skutočnú silu každej mimoriadnej splátky."
+   ],
+   "steps_title": "Zistite svoj dátum v Spendry",
+   "steps": [
+    "Pridajte všetky svoje záväzky: kreditné karty, úvery, splátky, prečerpanie aj pôžičky od známych.",
+    "Zadajte zostatok, úrokovú sadzbu a mesačnú splátku.",
+    "Spendry vypočíta mesiac, kedy budete bez dlhov, a prepočíta ho po každej platbe či novom dlhu."
+   ],
+   "example_title": "Vyskúšajte si to",
+   "example": "Bezplatná kalkulačka splácania dlhov na tomto webe funguje rovnako: zadajte svoje dlhy, sumu navyše a porovnajte metódy Snehová guľa a Lavína.",
+   "tip": "Pozrite sa na tento dátum po každej výplate. Vidieť, ako sa približuje, je najlepšia motivácia.",
+   "faq": [
+    {
+     "q": "Prečo sa môj dátum mení?",
+     "a": "Približuje sa, keď pošlete peniaze navyše, a posúva sa ďalej, ak pridáte nový dlh alebo zaplatíte menej. Spendry ho zakaždým prepočíta."
+    },
+    {
+     "q": "Môžem pridať aj pôžičku od kamaráta?",
+     "a": "Áno. Zadajte ju ako osobný dlh s nulovým úrokom."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "Ako sledovať výdavky bez pripojenia banky",
+   "description": "Nemusíte zadávať prihlasovacie údaje do banky. Zapisujte výdavky za pár sekúnd, skenujte bločky a majte dáta bezpečne v iPhone.",
+   "h1": "Ako sledovať výdavky bez pripojenia banky",
+   "intro": [
+    "Mnoho finančných aplikácií vyžaduje prístup k vášmu bankovému účtu. Ak si ceníte súkromie, výdavky zvládnete sledovať aj bez toho za pár sekúnd denne.",
+    "Vďaka manuálnemu zapisovaniu navyše presne vnímate, kam vaše peniaze odchádzajú."
+   ],
+   "steps_title": "Ako to funguje v Spendry",
+   "steps": [
+    "Pridajte výdavok za pár sekúnd: zadajte sumu, vyberte kategóriu alebo zvoľte možnosť Skenovať bloček.",
+    "Zapnite si pripravenú Apple Pay automatizáciu v aplikácii Skratky a platby kartou sa uložia automaticky aj s názvom obchodu.",
+    "Vaše záznamy zostávajú bezpečne v iPhone a synchronizujú sa cez váš iCloud. Spendry k nim nemá prístup."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Zadajte nákup hneď pri platení. Neskôr sa na drobné výdavky ľahko zabudne.",
+   "faq": [
+    {
+     "q": "Je to bezpečné bez pripojenia banky?",
+     "a": "Nehrozí žiadny únik bankových údajov. Spendry uchováva dáta iba vo vašom zariadení a na vašom účte iCloud. Aplikáciu si navyše môžete zabezpečiť cez Face ID."
+    },
+    {
+     "q": "Môžem transakcie importovať?",
+     "a": "Áno. Výdavky možno pridávať cez bankové notifikácie alebo pomocou automatizácií v aplikácii Skratky, úplne bez prihlasovania do banky."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Widgety rozpočtu na plochu a zamknutú obrazovku",
+   "description": "Majte zostatok, rozpočty, ciele a platby stále na očiach na ploche aj na zamknutej obrazovke iPhonu. Výdavok pridáte za sekundu.",
+   "h1": "Widgety rozpočtu pre plochu vášho iPhonu",
+   "intro": [
+    "Vďaka widgetom vidíte stav svojich financií bez otvárania aplikácie. Stačí letmý pohľad na plochu a viete, koľko vám v rozpočte zostáva.",
+    "Spendry ponúka widgety pre zostatky, rozpočty, ciele, dlhy a nadchádzajúce platby v rôznych veľkostiach pre plochu aj zamknutú obrazovku."
+   ],
+   "steps_title": "Ako pridať Spendry widget",
+   "steps": [
+    "Podržte prst na prázdnom mieste na ploche, klepnite na Upraviť a potom na Pridať widget.",
+    "Vyhľadajte Spendry a vyberte si widget a jeho veľkosť.",
+    "Podržte prst na pridanom widgete, zvoľte Upraviť widget a nastavte, ktorý rozpočet, cieľ alebo účet má zobrazovať."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Umiestnite si widget nadchádzajúcich platieb na prvú stranu plochy. Na termíny splatnosti sa zabúda najľahšie.",
+   "faq": [
+    {
+     "q": "Môžem pridať výdavok priamo z widgetu?",
+     "a": "Áno. Widget pre rýchle pridanie otvorí priamo formulár na nový záznam, takže nákup zapíšete za pár sekúnd."
+    },
+    {
+     "q": "Aktualizujú sa widgety automaticky?",
+     "a": "Áno. Údaje sa obnovujú priebežne počas dňa a po každom pridaní výdavku."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "Ako šetriť na finančný cieľ a dosiahnuť ho",
+   "description": "Stanovte si sumu a dátum, odkladajte pevnú čiastku mesačne a sledujte svoj pokrok. Jednoduchá cesta k rezerve, dovolenke či autu.",
+   "h1": "Ako úspešne šetriť na svoje ciele",
+   "intro": [
+    "Cieľ s jasnou sumou a termínom dosiahnete oveľa ľahšie než len obyčajné prianie. Vydeľte cieľovú sumu počtom mesiacov a viete, koľko odložiť z výplaty.",
+    "Odložte si peniaze hneď po príchode výplaty, ešte pred platením ostatných vecí. Šetrenie tak pôjde samo."
+   ],
+   "steps_title": "Šetrite so Spendry",
+   "steps": [
+    "Vytvorte si cieľ, zadajte požadovanú sumu a termín, do kedy ju chcete nasporiť.",
+    "Zaznamenajte každú odloženú sumu a Spendry vám ukáže, ako blízko k cieľu ste.",
+    "Zdieľajte cieľ s partnerom alebo rodinou cez iCloud a šetrite spoločne."
+   ],
+   "example_title": "Príklad z praxe",
+   "example": "Ak chcete našetriť 6 000 za 12 mesiacov, stačí odkladať 500 mesačne. Ak už máte odložených 1 200, mesačná suma klesne na 400.",
+   "tip": "Začnite finančnou rezervou vo výške jedného mesačného výdavku a postupne ju zvýšte na tri mesiace.",
+   "faq": [
+    {
+     "q": "Aká veľká by mala byť finančná rezerva?",
+     "a": "Zvyčajne sa odporúča rezerva vo výške troch až šiestich mesiacov nevyhnutných výdavkov. Začnite jedným mesiacom a postupne pridávajte."
+    },
+    {
+     "q": "Môžem šetriť na viacero cieľov naraz?",
+     "a": "Áno. Vytvorte si ľubovoľný počet cieľov a sledujte pokrok pri každom z nich samostatne."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "Prehľad o úvere: Zistite, koľko preplatíte",
+   "description": "Majte pod kontrolou pôžičky, leasing aj hypotéku: zostatok, počet splátok, úroky a koniec splácania s upozornením pred každou splátkou.",
+   "h1": "Ako sledovať úver a zistiť skutočné preplatenie",
+   "intro": [
+    "Bežná mesačná splátka skrýva dôležité detaily: akú časť tvorí čistý úrok a koľko splátok vám ešte zostáva. Skutočnú cenu pôžičky odhalí až podrobný prehľad.",
+    "Na začiatku splácania tvorí väčšinu splátky úrok, neskôr istina. Preto vám mimoriadna splátka hneď v úvode ušetrí najviac peňazí."
+   ],
+   "steps_title": "Sledujte svoje úvery v Spendry",
+   "steps": [
+    "Zadajte úver, výšku sumy, úrokovú sadzbu, dobu splácania a dátum prvej splátky.",
+    "Získajte prehľad o zostatku istiny, počte zostávajúcich splátok a presnom mesiaci ukončenia.",
+    "Nechajte si posielať pripomienky pred splatnosťou a zaraďte úver do plánu splácania dlhov."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Využite našu bezplatnú úverovú kalkulačku na webe a spočítajte si splátku aj celkové preplatenie ešte pred podpisom zmluvy.",
+   "faq": [
+    {
+     "q": "Oplatí sa splatiť úver predčasne?",
+     "a": "Ak máte vyšší úrok a predčasné splatenie je bez poplatku, mimoriadnou splátkou výrazne ušetríte na úrokoch. Najprv si overte zmluvné podmienky."
+    },
+    {
+     "q": "Môžem v aplikácii sledovať aj hypotéku?",
+     "a": "Áno. Stačí ju pridať ako úver s príslušnou sadzbou a dobou splácania."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "Ako sledovať čisté imanie na iPhone",
+   "description": "Čisté imanie je váš majetok očistený o dlhy. Sledujte úspory, investície, zlato aj pôžičky na jednom mieste a sledujte svoj rast.",
+   "h1": "Ako jednoducho sledovať svoje čisté imanie",
+   "intro": [
+    "Čisté imanie predstavuje rozdiel medzi hodnotou všetkého, čo vlastníte, a tým, čo dlhujete. Je to hlavný ukazovateľ vášho finančného zdravia.",
+    "Stačí ho skontrolovať raz za mesiac a hneď vidíte dlhodobý trend, aj keď bol niektorý mesiac náročnejší."
+   ],
+   "steps_title": "Sledujte ho v Spendry",
+   "steps": [
+    "Pridajte svoje bankové účty a úspory.",
+    "Evidujte investície: akcie, krypto, zlato aj meny majú k dispozícii aktuálne trhové kurzy.",
+    "Zadajte svoje dlhy. Spendry spočíta vaše čisté imanie a ukáže jeho vývoj v čase."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Splácanie dlhov zvyšuje vaše čisté imanie úplne rovnako ako sporenie.",
+   "faq": [
+    {
+     "q": "Mám započítať aj vlastné bývanie alebo auto?",
+     "a": "Môžete, ale veľa ľudí sleduje len hotovosť, investície a dlhy, pretože ich hodnota sa mení každý mesiac."
+    },
+    {
+     "q": "Ako často sa aktualizujú ceny investícií?",
+     "a": "Spendry zobrazuje živé trhové ceny pre akcie, kryptomeny, drahé kovy aj meny."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "Ako viesť spoločný rodinný rozpočet s partnerom",
+   "description": "Zdieľajte rozpočet alebo cieľ s partnerom cez iCloud. Zapisujte výdavky spoločne v reálnom čase a bez spoločného prihlasovania.",
+   "h1": "Ako viesť spoločný rozpočet s partnerom",
+   "intro": [
+    "Rozhovory o peniazoch sú príjemnejšie, keď obaja vychádzate z rovnakých čísel. Zdieľaný rozpočet ukáže, koľko ste minuli a koľko ešte zostáva.",
+    "Osobné výdavky si nechajte oddelené a zdieľajte len spoločné náklady, ako je bývanie, nákupy potravín či dovolenka."
+   ],
+   "steps_title": "Zdieľanie v Spendry",
+   "steps": [
+    "Vytvorte si rozpočet alebo cieľ a zvoľte možnosť zdieľania.",
+    "Pozvite partnera alebo člena rodiny cez zdieľanie iCloud.",
+    "Každý môže zapisovať výdavky a všetky zmeny sa okamžite prejavia na oboch zariadeniach."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Pred začiatkom sa dohodnite na spoločných kategóriách a raz za mesiac si k nim spoločne sadnite.",
+   "faq": [
+    {
+     "q": "Uvidí partner všetky moje osobné výdavky?",
+     "a": "Nie. Vidí len to, čo výslovne zdieľate. Vaše ostatné rozpočty a účty zostávajú súkromné."
+    },
+    {
+     "q": "Musíme mať Spendry nainštalovaný obaja?",
+     "a": "Áno. Každý používa aplikáciu na svojom iPhone a dáta sa synchronizujú prostredníctvom služby iCloud."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Automatické zapisovanie platieb cez Apple Pay",
+   "description": "Využite pripravenú automatizáciu v aplikácii Skratky a ukladajte Apple Pay platby do Spendry bez nutnosti manuálneho prepisovania.",
+   "h1": "Automatické zaznamenávanie platieb cez Apple Pay",
+   "intro": [
+    "Aplikácia Skratky dokáže spustiť akciu po každej platbe cez Apple Pay. Spendry to využije a výdavok automaticky zaeviduje za vás.",
+    "Rozpočty tak máte neustále aktuálne bez ručného zapisovania, kategóriu doplníte len vtedy, keď chcete."
+   ],
+   "steps_title": "Ako funkciu zapnúť",
+   "steps": [
+    "V aplikácii Spendry otvorte Automatizácie a vyberte automatizáciu pre Apple Pay.",
+    "Podľa jednoduchého návodu ju pridajte do aplikácie Skratky.",
+    "Plaťte cez Apple Pay ako zvyčajne. Nákup sa automaticky objaví v Spendry aj s názvom obchodu."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Zapnite si aj nedeľnú večernú automatizáciu, ktorá vám pripraví rýchly súhrn výdavkov za uplynulý týždeň.",
+   "faq": [
+    {
+     "q": "Získa tým Spendry prístup k môjmu bankovému účtu?",
+     "a": "Nie. Automatizácia pracuje len s údajmi o platbe z vášho iPhonu, ako je suma a obchodník. K žiadnym bankovým heslám prístup nemá."
+    },
+    {
+     "q": "Môžem kategóriu výdavku neskôr upraviť?",
+     "a": "Áno. Každý výdavok môžete v Spendry kedykoľvek otvoriť a zmeniť."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Finančné návody: Rozpočty, splácanie dlhov a účty",
+  "description": "Krátke a praktické návody na rozpočty, splácanie dlhov, kreditné karty, splátky, predplatné a včasné platby bez stresu.",
+  "h1": "Finančné návody",
+  "lead": "Krátke a praktické návody na rozpočty, splácanie dlhov a včasné úhrady bez stresu."
+ },
+ "guide_labels": {
+  "nav": "Návody",
+  "tip": "Tip",
+  "faq": "Otázky",
+  "more": "Ďalšie návody",
+  "all": "Všetky návody",
+  "tools": "Kalkulačky zadarmo",
+  "cta": "Majte všetko pod kontrolou na jednom mieste. Stiahnite si Spendry zadarmo v App Store.",
+  "topic_debt": "Dlhy a kreditné karty",
+  "topic_bills": "Faktúry a predplatné",
+  "topic_budget": "Rozpočty a sporenie",
+  "topic_iphone": "Vo vašom iPhone"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Kalkulačka kreditnej karty: Ako dlho potrvá splácanie?",
+  "description": "Kalkulačka splácania kreditnej karty zadarmo. Zistite dátum splatenia, celkové úroky a cenu minimálnych splátok podľa zostatku a sadzby.",
+  "h1": "Kalkulačka splácania kreditnej karty",
+  "lead": "Zistite, ako dlho trvá splatiť kreditnú kartu a koľko preplatíte na úrokoch v porovnaní s minimálnou splátkou.",
+  "balance": "Zostatok na karte",
+  "rate": "Ročná úroková sadzba (%)",
+  "payment": "Vaša mesačná splátka",
+  "min_pct": "Minimálna splátka (% zo zostatku)",
+  "months": "Splatené za",
+  "interest": "Úroky spolu",
+  "date": "Dátum, kedy budete bez dlhov",
+  "fixed": "S vašou splátkou",
+  "minimum": "Iba minimálne splátky",
+  "never": "Táto splátka nepokryje ani mesačný úrok. Zvýšte ju, aby ste kartu vôbec splatili.",
+  "saved": "Ušetríte na úrokoch",
+  "prose": [
+   [
+    "Ako výpočet funguje",
+    "Kalkulačka každý mesiac pripočíta k zostatku mesačný úrok a odpočíta vašu splátku, kým nie je zostatok na nule. Porovnanie s minimálnou splátkou prepočítava minimum nanovo každý mesiac z aktuálneho dlhu."
+   ],
+   [
+    "Prečo minimálne splátky trvajú tak dlho",
+    "Minimálna splátka klesá spolu so zostatkom, takže takmer vôbec neprevyšuje samotné úroky. Pevná splátka naopak znižuje istinu každý mesiac rovnakou sumou."
+   ],
+   [
+    "Premeňte plán na realitu",
+    "Spendry udrží váš plán v chode. Pridajte svoje Kreditné karty, nastavte si sumu, ktorú zvládnete mesačne platiť, a pred každou splatnosťou dostanete pripomienku."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Úverová kalkulačka: Mesačná splátka a celkový úrok",
+  "description": "Úverová kalkulačka zadarmo pre pôžičky, autoúvery a hypotéky. Vypočítajte si mesačnú splátku, celkové preplatenie a splátkový kalendár.",
+  "h1": "Úverová kalkulačka",
+  "lead": "Zadajte výšku úveru, ročnú úrokovú sadzbu a lehotu splatnosti. Zistite mesačnú splátku, celkový úrok a rozpis platieb.",
+  "amount": "Výška úveru",
+  "rate": "Ročná úroková sadzba (%)",
+  "term": "Doba splácania (mesiace)",
+  "payment": "Mesačná splátka",
+  "total": "Celkovo zaplatíte",
+  "interest": "Úroky spolu",
+  "month": "Mesiac",
+  "principal": "Istina",
+  "interest_col": "Úrok",
+  "balance": "Zostatok",
+  "show_all": "Zobraziť všetky splátky",
+  "show_less": "Zobraziť menej",
+  "prose": [
+   [
+    "Ako sa počíta splátka",
+    "Ide o klasický anuitný úver: každý mesiac platíte rovnakú sumu a úrok sa počíta zo zostatku istiny. Na začiatku platíte najmä úroky, neskôr tvorí väčšinu splátky istina."
+   ],
+   [
+    "Ako znížiť celkové náklady",
+    "Kratšia doba splácania alebo nižší úrok ušetria na preplatení najviac. Ak to zmluva umožňuje bez poplatku, výrazne pomôžu aj mimoriadne splátky hneď v úvode."
+   ],
+   [
+    "Prehľad po podpise zmluvy",
+    "Pridajte si pôžičku do sekcie Úvery v Spendry. Uvidíte počet zostávajúcich splátok, mesiac konečného splatenia a pred každou platbou vám príde upozornenie."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Kalkulačka sporenia: Koľko mesačne odkladať",
+  "description": "Kalkulačka sporenia zadarmo. Zadajte cieľovú sumu, doterajšie úspory a termín. Zistite, koľko musíte mesačne odložiť aj so zhodnotením.",
+  "h1": "Kalkulačka sporenia",
+  "lead": "Zistite, koľko si musíte každý mesiac odložiť, aby ste svoj cieľ dosiahli načas.",
+  "goal": "Cieľová suma",
+  "have": "Nasporené doteraz",
+  "months": "Počet mesiacov na dosiahnutie",
+  "rate": "Ročný úrok na úsporách (%)",
+  "monthly": "Ušetriť každý mesiac",
+  "weekly": "To je približne týždenne",
+  "total_in": "Vložíte zo svojho",
+  "earned": "Získané úroky",
+  "done": "Tento cieľ ste už dosiahli.",
+  "prose": [
+   [
+    "Ako to funguje",
+    "Kalkulačka rozpočíta chýbajúcu sumu na počet mesiacov, ktoré máte k dispozícii. Ak rátate aj s úrokom, peniaze zarábajú každý mesiac samy, takže z vlastného vrecka vložíte o niečo menej."
+   ],
+   [
+    "Ako si to uľahčiť",
+    "Odložte si peniaze hneď po výplate a berte to ako bežný výdavok. Spoločný cieľ s partnerom vám pomôže dosiahnuť výsledok ešte rýchlejšie."
+   ],
+   [
+    "Sledujte svoj pokrok",
+    "Vytvorte si cieľ v záložke Ciele v Spendry. Pri každom vklade presne uvidíte, o koľko ste bližšie k úspechu."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Kalkulačka predplatného: Koľko platíte ročne?",
+  "description": "Kalkulačka predplatného zadarmo. Spočítajte si poplatky za služby a zistite, koľko vás stoja mesačne, ročne a za celých päť rokov.",
+  "h1": "Kalkulačka nákladov na predplatné",
+  "lead": "Spíšte si svoje predplatné a zistite skutočný mesačný aj ročný účet.",
+  "name": "Názov služby",
+  "price": "Cena",
+  "cycle": "Fakturácia",
+  "weekly": "Týždenne",
+  "monthly": "Mesačne",
+  "yearly": "Ročne",
+  "add": "Pridať predplatné",
+  "remove": "Odstrániť",
+  "per_month": "Za mesiac",
+  "per_year": "Za rok",
+  "five_years": "Za 5 rokov",
+  "samples": [
+   "Hudobná služba",
+   "Streamovanie videa",
+   "Cloudové úložisko",
+   "Permanentka do fitka",
+   "Spravodajská aplikácia"
+  ],
+  "prose": [
+   [
+    "Prečo záleží na ročnom súčte",
+    "Pár eur mesačne vyzerá neškodne. Keď ich však vynásobíte dvanástimi a spočítate všetky aktívne služby, často zistíte, že ide o jeden z vašich najväčších pravidelných výdavkov."
+   ],
+   [
+    "Čo s výsledným číslom",
+    "Zoraďte si položky podľa ceny a pri každej sa opýtajte: využil som to minulý mesiac? Čo nepoužívate, zrušte. Pri službách, ktoré si necháte, si nastavte pripomienku pred ďalšou platbou."
+   ],
+   [
+    "Nezmeškajte obnovenie",
+    "V aplikácii Spendry nájdete sekciu Predplatné, ktorá všetko zráta do mesačného prehľadu a pred každou platbou vás včas upozorní."
+   ]
+  ]
  }
 }

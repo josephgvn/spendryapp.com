@@ -327,5 +327,676 @@
     "Su Spendry ogni categoria ha un budget mensile che si compila mentre spendi, avvisandoti prima di superare la soglia stabilita."
    ]
   ]
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Palla di neve o valanga: come estinguere i debiti?",
+   "description": "Palla di neve o valanga: scopri le differenze tra i metodi, quale fa risparmiare più interessi e come azzerare i tuoi debiti velocemente.",
+   "h1": "Palla di neve o valanga: quale metodo scegliere?",
+   "intro": [
+    "Entrambi i metodi prevedono di pagare la rata minima su ogni debito e destinare tutto l'importo extra a uno solo di essi. L'unica differenza è a quale debito dare la precedenza.",
+    "Il metodo palla di neve parte dal debito con il saldo più basso, così estingui rapidamente una posizione e mantieni alta la motivazione. Il metodo valanga parte invece dal tasso di interesse più alto, permettendoti di pagare meno interessi in totale."
+   ],
+   "steps_title": "Segui un piano di rientro in Spendry",
+   "steps": [
+    "Aggiungi ogni carta, prestito e rata con il relativo saldo residuo, tasso di interesse e pagamento minimo.",
+    "Apri Debiti e seleziona il metodo Palla di neve o Valanga.",
+    "Inserisci l'importo extra che puoi versare ogni mese oltre alle rate minime.",
+    "Spendry ordina i tuoi debiti e mostra il mese in cui sarai senza debiti, inviandoti un promemoria prima di ogni scadenza."
+   ],
+   "example_title": "Un esempio pratico",
+   "example": "Tre debiti: 1.200 al 24%, 4.000 al 18% e 9.000 al 9%, con 300 extra ogni mese. Il metodo valanga estingue prima la carta al 24% e riduce al minimo gli interessi. Il metodo palla di neve estingue prima il saldo di 1.200, eliminando un debito in pochi mesi. Il traguardo finale dista spesso solo uno o due mesi tra i due approcci.",
+   "tip": "Se le due date sono vicine, scegli il metodo che riesci a seguire con più costanza. Il piano migliore è quello che porti a termine.",
+   "faq": [
+    {
+     "q": "Quale metodo fa risparmiare di più?",
+     "a": "Il metodo valanga, perché riduce per primo il debito più costoso. Il risparmio effettivo dipende da quanto sono distanti i tassi di interesse."
+    },
+    {
+     "q": "Posso cambiare metodo in seguito?",
+     "a": "Sì. Puoi cambiare metodo in Spendry in qualsiasi momento: il piano e la data in cui sarai senza debiti si aggiorneranno subito."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Come estinguere i debiti della carta di credito",
+   "description": "Consigli pratici per estinguere i debiti della carta di credito: paga più del minimo, punta sul tasso più alto ed evita nuovi saldi a debito.",
+   "h1": "Come pagare più velocemente i debiti della carta di credito",
+   "intro": [
+    "Il debito della carta di credito cresce perché gli interessi maturano ogni mese sulla quota residua. Ogni versamento extra riduce la base su cui vengono calcolati gli interessi.",
+    "Quattro abitudini fanno davvero la differenza: paga più della rata minima, non pagare mai in ritardo, concentra i fondi extra sul tasso più alto ed evita nuovi acquisti che non puoi saldare per intero."
+   ],
+   "steps_title": "Fallo con Spendry",
+   "steps": [
+    "Aggiungi le tue carte con saldo, tasso di interesse, giorno dell'estratto conto e data di scadenza.",
+    "Imposta una quota mensile superiore ai minimi e seleziona il metodo Valanga.",
+    "Attiva i promemoria per non perdere alcuna scadenza, anche quando l'app è chiusa.",
+    "Controlla la schermata Debiti ogni mese per vedere il saldo scendere e la data in cui sarai senza debiti avvicinarsi."
+   ],
+   "example_title": "Un esempio pratico",
+   "example": "Un debito residuo di 3.000 al 22% richiede oltre dieci anni se paghi solo la rata minima di circa il 2,5%. Versando una quota fissa di 175 al mese lo azzeri in meno di due anni.",
+   "tip": "Quando ricevi un rimborso o un bonus, versane una parte sulla carta con il tasso più alto. Un solo versamento extra può anticipare la fine del piano di diversi mesi.",
+   "faq": [
+    {
+     "q": "Conviene pagare prima il tasso più alto o il debito più piccolo?",
+     "a": "Il tasso più alto riduce gli interessi totali. Il debito più piccolo offre una vittoria psicologica immediata. Spendry calcola per entrambi la data in cui sarai senza debiti, così puoi confrontarli."
+    },
+    {
+     "q": "Posso continuare a usare la carta mentre ripago il debito?",
+     "a": "Solo per acquisti che puoi saldare per intero prima della scadenza. Creare nuovo debito allontana la data finale."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Pagare solo la rata minima: rischi e conseguenze",
+   "description": "Pagare solo la rata minima evita il ritardo, ma copre quasi solo interessi. Scopri quanto tempo ci vuole e il vantaggio di una piccola somma extra.",
+   "h1": "Cosa succede se paghi solo la rata minima",
+   "intro": [
+    "Il pagamento minimo evita insoluti con la banca, ma gran parte della somma serve a coprire gli interessi. Man mano che il saldo scende, anche il minimo si riduce, trascinando il debito per anni.",
+    "Aggiungere una piccola somma fissa cambia del tutto lo scenario: una quota maggiore va a ridurre il capitale e la data di chiusura si avvicina di anni."
+   ],
+   "steps_title": "Calcola la tua situazione reale",
+   "steps": [
+    "Usa il calcolatore gratuito su questo sito per confrontare il pagamento minimo con una rata fissa mensile.",
+    "In Spendry, aggiungi la carta con il relativo tasso di interesse e la rata minima.",
+    "Imposta un importo extra sostenibile ogni mese e guarda la data in cui sarai senza debiti aggiornarsi in tempo reale."
+   ],
+   "example_title": "Un esempio pratico",
+   "example": "Un debito di 3.000 al 22% con rate minime di circa il 2,5% può richiedere più di dieci anni per essere estinto e costare più di interessi che di capitale iniziale. Versando una cifra fissa di 175 al mese lo estingui in meno di due anni.",
+   "tip": "Se al momento non puoi versare di più, imposta il pagamento minimo automatico sul conto per non avere ritardi e aggiungi somme extra appena ne hai la possibilità.",
+   "faq": [
+    {
+     "q": "Pagare solo il minimo peggiora il mio merito creditizio?",
+     "a": "Pagare almeno il minimo puntualmente mantiene la posizione regolare. Tuttavia, un utilizzo costantemente elevato del plafond può pesare sulla tua affidabilità creditizia, perciò rimborsare il capitale aiuta sempre."
+    },
+    {
+     "q": "Come viene calcolata la rata minima?",
+     "a": "Dipende dall'istituto: in genere è una piccola percentuale del saldo o un importo minimo fisso, a seconda di quale sia il più alto. Trovi la cifra esatta nel tuo estratto conto."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Estratto conto e data di scadenza: differenze",
+   "description": "La data dell'estratto conto chiude il periodo contabile, la data di scadenza è l'ultimo giorno utile per pagare. Ecco come funzionano e quando saldare.",
+   "h1": "Data dell'estratto conto e data di scadenza: quando pagare?",
+   "intro": [
+    "La data di chiusura dell'estratto conto è il giorno in cui si conclude il ciclo contabile e viene calcolato il totale da saldare. La data di scadenza cade qualche settimana dopo ed è l'ultimo giorno utile per pagare senza penali.",
+    "Saldando l'intero importo dell'estratto conto entro la scadenza, la maggior parte delle carte non applica interessi sugli acquisti. Se versi un importo inferiore, gli interessi matureranno sulla parte restante."
+   ],
+   "steps_title": "Non perdere nessuna scadenza con Spendry",
+   "steps": [
+    "Aggiungi la carta inserendo il giorno di chiusura dell'estratto conto e la data di scadenza.",
+    "Spendry mostra le prossime uscite nella schermata Home e nella schermata Promemoria.",
+    "Ricevi una notifica prima della scadenza, per poi segnare la spesa come pagata o posticiparla direttamente dall'avviso."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Le spese effettuate subito dopo la chiusura dell'estratto conto hanno il tempo di rimborso più lungo, perché rientreranno nel conto del mese successivo.",
+   "faq": [
+    {
+     "q": "Cosa succede se la scadenza cade nel fine settimana?",
+     "a": "Molte banche posticipano l'addebito al primo giorno lavorativo utile, ma le regole possono variare. Pagare con uno o due giorni di anticipo è sempre la scelta più sicura."
+    },
+    {
+     "q": "Posso saldare prima della chiusura dell'estratto conto?",
+     "a": "Sì. Versare una somma in anticipo riduce il saldo conteggiato nel prossimo estratto conto."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "Come gestire e monitorare le rate su iPhone",
+   "description": "Organizza i tuoi pagamenti a rate in un unico posto: importo residuo, rate rimaste e prossime scadenze, con promemoria puntuali su iPhone.",
+   "h1": "Come monitorare i pagamenti a rate su iPhone",
+   "intro": [
+    "Dividere un acquisto a rate sembra comodo, ma gestire diversi piani contemporaneamente può assorbire una fetta importante delle entrate senza che tu te ne accorga.",
+    "Monitorare ogni piano con il numero di rate rimanenti ti mostra il reale carico mensile e la data esatta in cui avrai finito di pagare."
+   ],
+   "steps_title": "Monitora le rate con Spendry",
+   "steps": [
+    "Aggiungi una rata con importo totale, numero di pagamenti e data della prima rata.",
+    "Visualizza ogni piano con la somma già pagata, il debito residuo e la prossima scadenza.",
+    "Ricevi una notifica prima di ogni addebito e visualizza le rate nel calcolo della data in cui sarai senza debiti, insieme a carte e prestiti."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Prima di rateizzare un nuovo acquisto, somma le rate che stai già pagando. Se il totale supera quanto puoi sostenere in un mese difficile, aspetta.",
+   "faq": [
+    {
+     "q": "Le rate rientrano nella data in cui sarò senza debiti?",
+     "a": "Sì. Spendry le include insieme a carte di credito e prestiti, offrendoti un quadro completo."
+    },
+    {
+     "q": "Posso monitorare anche le rate a tasso zero?",
+     "a": "Sì. Basta impostare il tasso a zero e Spendry scalerà semplicemente le rate rimanenti a ogni scadenza."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "Promemoria bollette e spese su iPhone: come fare",
+   "description": "Imposta promemoria per bollette, carte e abbonamenti. Ricevi un avviso prima della scadenza e segna come pagato con un tocco sul tuo iPhone.",
+   "h1": "Come non dimenticare mai la scadenza di una bolletta",
+   "intro": [
+    "More e interessi per ritardato pagamento derivano quasi sempre da una distrazione, non dalla mancanza di soldi. Un promemoria qualche giorno prima della scadenza risolve il problema alla radice.",
+    "La soluzione ideale è raggruppare ogni voce in un unico posto: affitto, utenze, telefono, carte di credito, prestiti e abbonamenti."
+   ],
+   "steps_title": "Configura le scadenze su Spendry",
+   "steps": [
+    "Aggiungi ogni spesa o abbonamento con importo, data di scadenza e frequenza di rinnovo.",
+    "Scegli con quanti giorni di anticipo desideri ricevere l'avviso.",
+    "I promemoria arrivano anche con l'app chiusa. Segna la spesa come pagata o posticipala direttamente dalla notifica."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Aggiungi il widget dei prossimi pagamenti alla schermata Home, così avrai le scadenze dei prossimi sette giorni sempre sott'occhio a ogni sblocco del telefono.",
+   "faq": [
+    {
+     "q": "Ricevo i promemoria anche se non apro l'app?",
+     "a": "Sì. Spendry programma gli avvisi direttamente sul tuo iPhone, quindi arriveranno puntuali anche se l'app non è aperta."
+    },
+    {
+     "q": "Posso vedere tutte le spese previste per questa settimana?",
+     "a": "Sì. La schermata Promemoria elenca le uscite imminenti, e con un'automazione mattutina facoltativa ricevi un riepilogo dei tre giorni successivi in una sola notifica."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "Gestione abbonamenti su iPhone: traccia e taglia",
+   "description": "Scopri quanto spendi davvero in abbonamenti ogni mese e all'anno. Ricevi un avviso prima dei rinnovi e decidi cosa cancellare con il tuo iPhone.",
+   "h1": "Come monitorare e ridurre le spese per gli abbonamenti",
+   "intro": [
+    "Attivare un abbonamento è immediato, dimenticarsene lo è altrettanto. Piccoli importi mensili possono trasformarsi a fine anno in una spesa importante.",
+    "Vedere il costo complessivo, su base mensile e annuale, basta quasi sempre per individuare due o tre servizi che non usi più."
+   ],
+   "steps_title": "Controlla gli abbonamenti con Spendry",
+   "steps": [
+    "Aggiungi ogni servizio con il relativo costo e ciclo di rinnovo: settimanale, mensile o annuale.",
+    "Spendry calcola la spesa totale mensile e annuale e indica la data del prossimo rinnovo.",
+    "Ricevi una notifica prima di ogni rinnovo automatico, così puoi disdire in tempo utile."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Usa il calcolatore del costo degli abbonamenti su questo sito: inserisci i servizi attivi e scopri il totale annuo in pochi secondi.",
+   "faq": [
+    {
+     "q": "Spendry può cancellare gli abbonamenti al posto mio?",
+     "a": "No. Spendry non si collega ai tuoi conti bancari né ai tuoi profili. Ti avvisa prima della scadenza in modo che tu possa cancellare l'abbonamento direttamente con il fornitore."
+    },
+    {
+     "q": "Posso monitorare anche i piani annuali?",
+     "a": "Sì. Spendry supporta rinnovi settimanali, mensili e annuali, includendoli in modo proporzionale nel totale mensile."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "Come creare un budget mensile efficace",
+   "description": "Un metodo semplice per gestire il budget: parti dalle entrate, copri i bisogni primari, fissa tetti di spesa e risparmia prima di spendere.",
+   "h1": "Come creare un budget mensile che funziona davvero",
+   "intro": [
+    "Un budget è un piano per organizzare le tue entrate prima che il mese abbia inizio. Parti dal tuo stipendio netto e decidi in anticipo come distribuire ogni euro.",
+    "Un buon punto di partenza consiste nel destinare circa metà entrate alle spese necessarie come casa e bollette, circa un terzo ai desideri personali e il resto a risparmi o estinzione debiti. Adattalo poi al tuo stile di vita."
+   ],
+   "steps_title": "Costruisci il tuo piano su Spendry",
+   "steps": [
+    "Inserisci le tue entrate mensili.",
+    "Crea budget dedicati per le categorie in cui spendi di più, assegnando un tetto massimo a ciascuna.",
+    "Le barre del budget si aggiornano via via che registri le uscite, e Spendry ti avvisa prima di superare il limite.",
+    "A fine mese, consulta i grafici e perfeziona i limiti di spesa per il mese successivo."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Usa il calcolatore gratuito di budget mensile su questo sito per ripartire le tue entrate prima di impostare le soglie nell'app.",
+   "faq": [
+    {
+     "q": "Quante categorie dovrebbe includere un budget?",
+     "a": "Inizia con cinque o otto voci principali, come casa, bollette, spesa alimentare, trasporti, ristoranti, shopping e risparmio. Aggiungine altre solo se ne senti il bisogno."
+    },
+    {
+     "q": "Cosa fare se supero il budget stabilito?",
+     "a": "Puoi spostare risorse da un'altra voce di spesa o fare tesoro dell'esperienza per il mese prossimo. Il budget è una guida flessibile, non un esame."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Come trovare la data in cui sarai senza debiti",
+   "description": "La data in cui sarai senza debiti indica quando estinguerai tutto. Scopri come calcolarla e come avvicinarla con pagamenti extra.",
+   "h1": "Come trovare la data in cui sarai senza debiti",
+   "intro": [
+    "La data in cui sarai senza debiti corrisponde al mese in cui il tuo ultimo saldo arrivera a zero. Dipende da quanto devi, dai tassi di interesse e da quanto paghi ogni mese.",
+    "Conoscere questa data trasforma un obiettivo vago in una scadenza precisa e ti mostra esattamente il valore di ogni pagamento extra."
+   ],
+   "steps_title": "Trova la tua data su Spendry",
+   "steps": [
+    "Aggiungi tutti i tuoi debiti: carte, prestiti, rate, fido sul conto e somme che devi restituire ad amici.",
+    "Inserisci ogni saldo residuo, il tasso e la rata mensile.",
+    "Spendry calcola il mese esatto in cui estinguerai i debiti e lo aggiorna a ogni pagamento o nuovo inserimento."
+   ],
+   "example_title": "Fai una prova",
+   "example": "Il calcolatore gratuito per estinguere i debiti su questo sito funziona nello stesso modo: aggiungi i debiti, imposta un importo mensile extra e scopri la tua data con il metodo a palla di neve o a valanga.",
+   "tip": "Controlla la data dopo ogni stipendio. Vederla avvicinarsi e la motivazione migliore che ci sia.",
+   "faq": [
+    {
+     "q": "Perche la mia data senza debiti cambia?",
+     "a": "Si avvicina quando versi importi extra e si allontana se aggiungi nuovi debiti o paghi di meno. Spendry la ricalcola ogni volta."
+    },
+    {
+     "q": "Posso inserire un debito verso un amico?",
+     "a": "Si. Aggiungilo come debito personale a tasso zero."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "Come gestire le spese senza collegare la banca",
+   "description": "Non serve dare l'accesso bancario a un'app. Registra le spese al volo, scansiona scontrini e tieni i tuoi dati personali sul tuo iPhone.",
+   "h1": "Come gestire le spese senza collegare la banca",
+   "intro": [
+    "Molte app finanziarie chiedono l'accesso al tuo conto bancario. Se preferisci la riservatezza, puoi comunque monitorare ogni spesa dedicandoci pochi secondi al giorno.",
+    "Registrare le uscite a mano ti rende piu consapevole di cio che spendi, che e spesso il vero scopo di un bilancio."
+   ],
+   "steps_title": "Come funziona con Spendry",
+   "steps": [
+    "Aggiungi una spesa in pochi secondi: digita l'importo e scegli la categoria, oppure usa la funzione scansiona scontrino.",
+    "Attiva l'automazione pronta per Apple Pay nell'app Comandi Rapidi e gli acquisti con carta verranno salvati in automatico con il nome del negozio.",
+    "I tuoi dati restano sul tuo iPhone e si sincronizzano sul tuo spazio iCloud personale. Spendry non li vede mai."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Aggiungi la spesa appena paghi. Rimandare al dopo e il motivo per cui ci si dimentica degli acquisti.",
+   "faq": [
+    {
+     "q": "E sicuro senza la connessione bancaria?",
+     "a": "Non ci sono credenziali bancarie da violare. Spendry conserva i tuoi dati solo sul dispositivo e su iCloud, e puoi usare il blocco app con Face ID."
+    },
+    {
+     "q": "Posso importare le transazioni?",
+     "a": "Si. Puoi importarle dai messaggi bancari o con le automazioni di Comandi Rapidi, sempre senza condividere le password del conto."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Widget del budget per iPhone: Schermata Home e Blocco",
+   "description": "Guarda saldo, budget, obiettivi e pagamenti in arrivo sulla Schermata Home e di blocco, e inserisci le spese senza aprire l'app.",
+   "h1": "Widget del budget per la Schermata Home di iPhone",
+   "intro": [
+    "Un widget ti permette di tenere d'occhio i tuoi soldi senza nemmeno aprire l'app. Ti basta un'occhiata alla Schermata Home per sapere quanto ti resta nel budget e quali pagamenti si avvicinano.",
+    "Spendry include widget per saldo, budget, obiettivi, debiti, flusso di cassa e pagamenti in arrivo, con formati ideali sia per la Schermata Home sia per la schermata di blocco."
+   ],
+   "steps_title": "Come aggiungere un widget di Spendry",
+   "steps": [
+    "Tieni premuta un'area vuota della Schermata Home, poi tocca Modifica e seleziona Aggiungi widget.",
+    "Cerca Spendry e scegli il tipo di widget e la dimensione che preferisci.",
+    "Tieni premuto il widget e tocca Modifica widget per scegliere quale budget, obiettivo o conto mostrare."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Metti il widget dei pagamenti in scadenza sulla tua prima Schermata Home. Le scadenze sono la cosa piu facile da scordare.",
+   "faq": [
+    {
+     "q": "Posso aggiungere una spesa direttamente da un widget?",
+     "a": "Si. Il widget per aggiungere apre subito la schermata di inserimento della spesa, cosi registrare un acquisto richiede pochi secondi."
+    },
+    {
+     "q": "I widget si aggiornano da soli?",
+     "a": "Si. Si aggiornano automaticamente quando inserisci nuovi dati e nell'arco della giornata."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "Come risparmiare per un obiettivo e raggiungerlo",
+   "description": "Fissa cifra e scadenza, accantona una quota al mese e monitora i progressi. Un metodo semplice per viaggi, auto o fondo emergenza.",
+   "h1": "Come risparmiare per un obiettivo e raggiungerlo",
+   "intro": [
+    "Un obiettivo con una somma e una data precisa e molto piu facile da realizzare di un semplice desiderio. Dividi la cifra totale per i mesi disponibili e troverai la quota mensile da mettere da parte.",
+    "Risparmiare subito dopo lo stipendio, prima ancora di spendere, rende il piano automatico ed efficace."
+   ],
+   "steps_title": "Risparmia con Spendry",
+   "steps": [
+    "Crea un obiettivo con l'importo desiderato e la data entro cui vuoi raggiungerlo.",
+    "Aggiungi fondi ogni volta che risparmi: Spendry ti mostrera subito quanto manca al traguardo.",
+    "Condividi un obiettivo con il partner o la famiglia tramite iCloud per risparmiare insieme."
+   ],
+   "example_title": "Un esempio pratico",
+   "example": "Per risparmiare 6.000 in 12 mesi devi mettere via 500 al mese. Se hai gia da parte 1.200, la quota scende a 400.",
+   "tip": "Inizia creando un fondo di emergenza pari a un mese di spese, poi fallo crescere fino a tre mesi.",
+   "faq": [
+    {
+     "q": "A quanto dovrebbe ammontare un fondo di emergenza?",
+     "a": "Una buona regola e coprire tra i tre e i sei mesi di spese essenziali. Inizia con un mese e aumenta a poco a poco."
+    },
+    {
+     "q": "Posso risparmiare per piu obiettivi insieme?",
+     "a": "Si. Puoi creare tutti gli obiettivi che desideri e seguire l'avanzamento di ciascuno."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "Monitorare un prestito e capire quanto paghi davvero",
+   "description": "Gestisci prestiti auto, personali e mutui: debito residuo, rate rimaste, interessi e data finale, con promemoria prima di ogni rata.",
+   "h1": "Come monitorare un prestito e capire cosa paghi davvero",
+   "intro": [
+    "La rata mensile di un prestito nasconde due dati essenziali: quanti interessi stai pagando e quante rate mancano davvero. Monitorare entrambi ti rivela il costo reale.",
+    "All'inizio di un finanziamento la maggior parte della rata copre gli interessi, mentre verso la fine abbatte soprattutto il capitale. Ecco perche versare quote extra nei primi tempi fa risparmiare di piu."
+   ],
+   "steps_title": "Gestisci il prestito su Spendry",
+   "steps": [
+    "Aggiungi il prestito con l'importo totale, il tasso di interesse, la durata e la data della prima rata.",
+    "Controlla il debito residuo, il numero di rate mancanti e il mese in cui finirai di pagare.",
+    "Ricevi un promemoria prima di ogni scadenza e inserisci il finanziamento nel tuo piano per azzerare i debiti."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Usa il calcolatore gratuito per prestiti su questo sito per verificare rata mensile e interessi totali prima di firmare.",
+   "faq": [
+    {
+     "q": "Conviene estinguere un prestito in anticipo?",
+     "a": "Se il tasso e alto e non sono previste penali di estinzione, fare versamenti extra riduce gli interessi. Controlla prima le condizioni contrattuali."
+    },
+    {
+     "q": "Posso inserire anche un mutuo?",
+     "a": "Si. Puoi aggiungerlo come prestito impostando tasso di interesse e durata."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "Come calcolare il patrimonio netto su iPhone",
+   "description": "Il patrimonio netto e cio che possiedi meno cio che devi. Monitora risparmi, investimenti, oro e debiti in un unico posto.",
+   "h1": "Come calcolare il tuo patrimonio netto",
+   "intro": [
+    "Il patrimonio netto corrisponde al totale di cio che possiedi a cui sottrai tutti i tuoi debiti. E l'unica cifra che indica con certezza se le tue finanze si stanno muovendo nella direzione giusta.",
+    "Basta controllarlo una volta al mese per vedere la tendenza complessiva, anche quando un singolo mese si chiude in perdita."
+   ],
+   "steps_title": "Monitoralo con Spendry",
+   "steps": [
+    "Aggiungi i tuoi conti correnti e i tuoi risparmi.",
+    "Inserisci i tuoi investimenti: per azioni, criptovalute, oro e valute i corsi si aggiornano in tempo reale.",
+    "Aggiungi i tuoi debiti. Spendry calcola il patrimonio netto e registra la sua evoluzione nel tempo."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Estinguere un debito aumenta il tuo patrimonio netto esattamente come mettere soldi da parte.",
+   "faq": [
+    {
+     "q": "Ha senso includere la casa di proprieta o l'auto?",
+     "a": "Puoi farlo, ma molti preferiscono limitarsi a liquidita, investimenti e debiti, perche variano ogni mese."
+    },
+    {
+     "q": "Con che frequenza si aggiornano i valori degli investimenti?",
+     "a": "Spendry fornisce quotazioni in tempo reale per azioni, crypto, metalli preziosi e valute."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "Come gestire un budget condiviso con il partner",
+   "description": "Condividi un budget o un obiettivo di risparmio con il partner via iCloud. Inserite entrambi le spese senza bisogno di credenziali comuni.",
+   "h1": "Come condividere un budget con il partner",
+   "intro": [
+    "Parlare di soldi diventa piu semplice quando entrambi vedete gli stessi numeri. Un budget condiviso mostra subito quanto e stato speso e quanto resta disponibile, senza rinfacciarsi nulla.",
+    "Tieni separate le spese personali e condividi solo le uscite comuni, come l'affitto, la spesa al supermercato o le vacanze."
+   ],
+   "steps_title": "Condividilo con Spendry",
+   "steps": [
+    "Crea un budget o un obiettivo e scegli l'opzione di condivisione.",
+    "Invita il partner o la famiglia usando la condivisione di iCloud.",
+    "Tutti possono inserire spese, e le modifiche compaiono in tempo reale su ogni dispositivo."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Concordate insieme le categorie comuni prima di iniziare, poi fate il punto della situazione una volta al mese.",
+   "faq": [
+    {
+     "q": "Il mio partner puo vedere tutte le mie spese personali?",
+     "a": "No. Vedra soltanto gli elementi che decidi di condividere. I tuoi conti e i tuoi altri budget rimangono privati."
+    },
+    {
+     "q": "Dobbiamo avere entrambi Spendry?",
+     "a": "Si. Ognuno usa Spendry sul proprio iPhone e il budget condiviso si sincronizza tramite iCloud."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Registrare le spese con Apple Pay e Comandi Rapidi",
+   "description": "Usa un'automazione pronta in Comandi Rapidi per salvare ogni acquisto Apple Pay su Spendry. I tuoi budget si aggiornano senza fatica.",
+   "h1": "Registra le spese con Apple Pay in automatico",
+   "intro": [
+    "L'app Comandi Rapidi puo eseguire un'azione ogni volta che paghi con Apple Pay. Spendry sfrutta questa funzione per annotare la spesa al posto tuo.",
+    "I tuoi budget restano sempre aggiornati senza dover digitare nulla, e se vuoi puoi assegnare la categoria in un secondo momento."
+   ],
+   "steps_title": "Come attivarla",
+   "steps": [
+    "Su Spendry, apri la sezione Automazioni e scegli l'automazione per Apple Pay.",
+    "Segui i passaggi guidati per aggiungerla all'app Comandi Rapidi.",
+    "Paga con Apple Pay come fai sempre. La transazione comparira subito su Spendry con il nome dell'esercente."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Attiva anche l'automazione della domenica sera per ricevere un breve riepilogo di quanto hai speso nella settimana.",
+   "faq": [
+    {
+     "q": "Questo passaggio concede a Spendry l'accesso al mio conto bancario?",
+     "a": "No. L'automazione trasmette solo i dettagli della spesa gia visibili su iPhone, come cifra e negozio. Nessuna password bancaria viene condivisa."
+    },
+    {
+     "q": "Posso modificare la categoria piu avanti?",
+     "a": "Si. Puoi modificare la spesa su Spendry in qualsiasi momento."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Guide alla finanza: Budget, Debiti e Spese",
+  "description": "Guide pratiche su budget, estinzione debiti, carte di credito, rate, abbonamenti e scadenze da non dimenticare.",
+  "h1": "Guide alla finanza personale",
+  "lead": "Guide brevi e pratiche per gestire il budget, estinguere i debiti e non saltare mai un pagamento."
+ },
+ "guide_labels": {
+  "nav": "Guide",
+  "tip": "Consiglio",
+  "faq": "Domande frequenti",
+  "more": "Altre guide",
+  "all": "Tutte le guide",
+  "tools": "Calcolatori gratuiti",
+  "cta": "Tieni tutto sotto controllo in un unico posto. Scarica Spendry gratis su App Store.",
+  "topic_debt": "Debiti e carte di credito",
+  "topic_bills": "Fatture e abbonamenti",
+  "topic_budget": "Budget e risparmio",
+  "topic_iphone": "Sul tuo iPhone"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Calcolo Rientro Carta di Credito: Quanto Ci Vuole?",
+  "description": "Calcolatore gratuito per carte di credito. Inserisci saldo, tasso e rata per scoprire la data finale, gli interessi e il costo del rimborso minimo.",
+  "h1": "Calcolo estinzione carta di credito",
+  "lead": "Scopri quanto tempo serve per azzerare la carta e quanti interessi paghi, rispetto al pagamento della sola rata minima.",
+  "balance": "Saldo della carta",
+  "rate": "Tasso di interesse annuo (%)",
+  "payment": "La tua rata mensile",
+  "min_pct": "Rata minima (% del saldo)",
+  "months": "Estinta in",
+  "interest": "Interessi totali",
+  "date": "Data saldo zero",
+  "fixed": "Con la tua rata fissa",
+  "minimum": "Solo con la rata minima",
+  "never": "Questa rata non copre gli interessi mensili. Aumentala per riuscire a estinguere il debito.",
+  "saved": "Interessi risparmiati",
+  "prose": [
+   [
+    "Come funziona il calcolo",
+    "Ogni mese il calcolatore aggiunge gli interessi maturati al saldo e sottrae la tua rata, fino ad arrivare a zero. Il confronto con la rata minima ricalcola ogni mese la quota minima in base al debito residuo."
+   ],
+   [
+    "Perche la rata minima richiede cosi tanto tempo",
+    "La rata minima diminuisce insieme al saldo residuo, quindi riesce a stento a intaccare gli interessi. Una rata mensile fissa, invece, mantiene costante l'importo destinato a ridurre il capitale."
+   ],
+   [
+    "Metti in pratica il piano",
+    "Spendry ti aiuta a rispettare il percorso: aggiungi le tue carte di credito, imposta quanto versare ogni mese e ricevi un promemoria prima di ogni scadenza."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Calcolo Rata Prestito: Piano di Ammortamento",
+  "description": "Calcolatore gratuito per prestiti auto, personali e mutui. Calcola la rata mensile, il totale degli interessi e il piano di ammortamento completo.",
+  "h1": "Calcolo rata prestito",
+  "lead": "Inserisci l'importo, il tasso annuo e la durata per calcolare la rata mensile, gli interessi complessivi e tutte le scadenze.",
+  "amount": "Importo del prestito",
+  "rate": "Tasso di interesse annuo (%)",
+  "term": "Durata (mesi)",
+  "payment": "Rata mensile",
+  "total": "Totale rimborsato",
+  "interest": "Interessi totali",
+  "month": "Mese",
+  "principal": "Quota capitale",
+  "interest_col": "Quota interessi",
+  "balance": "Debito residuo",
+  "show_all": "Mostra tutte le rate",
+  "show_less": "Mostra meno",
+  "prose": [
+   [
+    "Come viene calcolata la rata",
+    "Si tratta di un prestito con ammortamento standard alla francese: rata fissa ogni mese e interessi calcolati sul debito residuo. All'inizio la rata e composta soprattutto da interessi, verso la fine quasi solo da capitale."
+   ],
+   [
+    "Come ridurre il costo complessivo",
+    "Una durata piu breve o un tasso di interesse piu basso riducono subito il totale degli interessi. Anche versare quote extra all'inizio aiuta parecchio, se il contratto lo consente senza penali."
+   ],
+   [
+    "Tieni tutto sotto controllo dopo la firma",
+    "Aggiungi il finanziamento su Spendry per vedere le rate rimanenti, la data dell'ultima rata e ricevere una notifica prima di ogni addebito."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Calcolo Obiettivo di Risparmio: Quota Mensile",
+  "description": "Calcolatore gratuito per i tuoi risparmi. Inserisci obiettivo, cifra attuale e scadenza per calcolare quanto mettere da parte ogni mese con interessi.",
+  "h1": "Calcolo obiettivo di risparmio",
+  "lead": "Calcola quanto mettere da parte ogni mese per raggiungere il tuo traguardo nei tempi previsti.",
+  "goal": "Cifra da raggiungere",
+  "have": "Risparmi attuali",
+  "months": "Mesi a disposizione",
+  "rate": "Rendimento annuo del risparmio (%)",
+  "monthly": "Da risparmiare ogni mese",
+  "weekly": "Pari a circa, ogni settimana",
+  "total_in": "Capitale versato da te",
+  "earned": "Interessi maturati",
+  "done": "Hai gia raggiunto questo traguardo.",
+  "prose": [
+   [
+    "Come funziona",
+    "Il calcolatore suddivide la cifra mancante per i mesi a disposizione. Se inserisci un tasso di rendimento, i soldi accantonati maturano interessi mese dopo mese, riducendo la quota che devi versare di tasca tua."
+   ],
+   [
+    "Come renderlo piu semplice",
+    "Metti via la cifra appena ricevi lo stipendio, trattandola come una spesa fissa non negoziabile. Condividere l'obiettivo con il partner puo aiutarti ad arrivare al traguardo ancora prima."
+   ],
+   [
+    "Segui i tuoi progressi",
+    "Crea l'obiettivo su Spendry e guarda quanto ti manca ogni volta che aggiungi una nuova somma."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Calcolo Costo Abbonamenti: Spesa Totale Annua",
+  "description": "Calcolatore gratuito abbonamenti. Inserisci servizi, prezzi e rinnovi per scoprire il costo mensile, annuale e su cinque anni.",
+  "h1": "Calcolo costo abbonamenti",
+  "lead": "Elenca i tuoi servizi attivi e scopri la spesa reale ogni mese e ogni anno.",
+  "name": "Nome abbonamento",
+  "price": "Prezzo",
+  "cycle": "Frequenza di rinnovo",
+  "weekly": "Settimanale",
+  "monthly": "Mensile",
+  "yearly": "Annuale",
+  "add": "Aggiungi abbonamento",
+  "remove": "Rimuovi",
+  "per_month": "Al mese",
+  "per_year": "All'anno",
+  "five_years": "In 5 anni",
+  "samples": [
+   "Musica in streaming",
+   "Piattaforma video",
+   "Spazio cloud",
+   "Abbonamento palestra",
+   "App di notizie"
+  ],
+  "prose": [
+   [
+    "Perche il totale annuo fa la differenza",
+    "Un piccolo costo mensile sembra innocuo. Moltiplicato per dodici mesi, e sommato a tutti gli altri servizi attivi, diventa spesso una delle voci di spesa fisse piu pesanti nel bilancio."
+   ],
+   [
+    "Cosa fare con questa cifra",
+    "Ordina le voci per importo e chiediti per ciascuna: l'ho usata davvero nell'ultimo mese? Disdici cio che non serve e imposta un avviso prima del rinnovo per i servizi che vuoi tenere."
+   ],
+   [
+    "Non dimenticare mai un rinnovo",
+    "Spendry organizza tutti i tuoi abbonamenti, calcola l'impatto sul budget mensile e ti avvisa per tempo prima di ciascun addebito."
+   ]
+  ]
  }
 }

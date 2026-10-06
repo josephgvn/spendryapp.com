@@ -1,388 +1,1026 @@
 {
-  "meta": {
-    "title": "Spendry: Gelir Gider, Kredi Kartı, Taksit ve Borç Takibi",
-    "description": "Kredi kartı ekstrelerini, taksitleri, KMH'yi ve borçlarını tek yerde takip et, borçsuz olacağın günü gör, son ödeme gününden önce hatırlatma al. Banka şifresi istemez. iPhone için ücretsiz.",
-    "og_title": "Spendry: borçsuz olacağın günü bil",
-    "og_alt": "Bütçe, hedef ve yaklaşan ödeme widget'larıyla Spendry"
-  },
-  "nav": {
-    "features": "Özellikler",
-    "lab": "Borç kapatma",
-    "privacy": "Gizlilik",
-    "tools": "Ücretsiz araçlar",
-    "download": "İndir",
-    "skip": "İçeriğe geç",
-    "language": "Dil",
-    "menu": "Menü",
-    "close": "Kapat",
-    "top": "Başa dön"
-  },
-  "cta": {
-    "download": "App Store'dan indir",
-    "free": "iPhone ve iPad'de ücretsiz",
-    "requirements": "iOS 17 ve üzeri",
-    "trial": "Premium bir haftalık ücretsiz denemeyle başlar"
-  },
-  "hero": {
-    "eyebrow": "Gelir gider, kredi kartı ve borç takibi",
-    "title_1": "Kartın, taksitin, borcun.",
-    "title_2": "Hepsi tek yerde.",
-    "lead": "Spendry hangi ekstrenin ne zaman kesildiğini, hangi taksitin hangi ay bittiğini ve borçsuz olacağın günü gösterir. Son ödeme gününden önce hatırlatır. Banka şifresi istemez.",
-    "secondary": "Nasıl çalışır",
-    "chips": [
-      "Banka şifresi yok",
-      "Veri toplanmaz",
-      "44 dil"
-    ],
-    "scroll": "Kaydır"
-  },
-  "story": [
-    {
-      "title": "Ayın tek bakışta.",
-      "text": "Bakiye, gelir, gider ve yaklaşan ödemeler, uygulamayı açtığın anda önünde."
-    },
-    {
-      "title": "Bütün borçların, tek rakam.",
-      "text": "Kartlar, krediler, KMH ve arkadaşlarla aranızdaki borçlar; hepsinden kurtulacağın ayla birlikte."
-    },
-    {
-      "title": "Hiçbir ödeme kaçmaz.",
-      "text": "Her kart, fatura ve abonelikten önce hatırlatma. Uygulamayı hiç açmasan bile."
-    }
+ "meta": {
+  "title": "Spendry: Gelir Gider, Kredi Kartı, Taksit ve Borç Takibi",
+  "description": "Kredi kartı ekstrelerini, taksitleri, KMH'yi ve borçlarını tek yerde takip et, borçsuz olacağın günü gör, son ödeme gününden önce hatırlatma al. Banka şifresi istemez. iPhone için ücretsiz.",
+  "og_title": "Spendry: borçsuz olacağın günü bil",
+  "og_alt": "Bütçe, hedef ve yaklaşan ödeme widget'larıyla Spendry"
+ },
+ "nav": {
+  "features": "Özellikler",
+  "lab": "Borç kapatma",
+  "privacy": "Gizlilik",
+  "tools": "Ücretsiz araçlar",
+  "download": "İndir",
+  "skip": "İçeriğe geç",
+  "language": "Dil",
+  "menu": "Menü",
+  "close": "Kapat",
+  "top": "Başa dön"
+ },
+ "cta": {
+  "download": "App Store'dan indir",
+  "free": "iPhone ve iPad'de ücretsiz",
+  "requirements": "iOS 17 ve üzeri",
+  "trial": "Premium bir haftalık ücretsiz denemeyle başlar"
+ },
+ "hero": {
+  "eyebrow": "Gelir gider, kredi kartı ve borç takibi",
+  "title_1": "Kartın, taksitin, borcun.",
+  "title_2": "Hepsi tek yerde.",
+  "lead": "Spendry hangi ekstrenin ne zaman kesildiğini, hangi taksitin hangi ay bittiğini ve borçsuz olacağın günü gösterir. Son ödeme gününden önce hatırlatır. Banka şifresi istemez.",
+  "secondary": "Nasıl çalışır",
+  "chips": [
+   "Banka şifresi yok",
+   "Veri toplanmaz",
+   "44 dil"
   ],
-  "statement": "Çoğu para uygulaması paranın nereye gittiğini gösterir. Spendry *ne zaman gideceğini* ve *ne zaman özgür kalacağını* gösterir.",
-  "orbit": {
-    "eyebrow": "Hepsi bir arada",
-    "title": "Paranı hareket ettiren her şey.",
-    "text": "Kartlar, taksitler, krediler, abonelikler, bütçeler, hedefler ve yatırımlar. Tek uygulama, tek resim."
+  "scroll": "Kaydır"
+ },
+ "story": [
+  {
+   "title": "Ayın tek bakışta.",
+   "text": "Bakiye, gelir, gider ve yaklaşan ödemeler, uygulamayı açtığın anda önünde."
   },
-  "features": {
-    "eyebrow": "Özellikler",
-    "title": "Bütün ay için tasarlandı.",
-    "items": [
-      {
-        "key": "budgets",
-        "title": "Seninle yürüyen bütçeler",
-        "text": "Her kategoriye bir sınır koy, harcadıkça dolduğunu gör."
-      },
-      {
-        "key": "goals",
-        "title": "Gözünün önünde hedefler",
-        "text": "Önemli olan için biriktir, her gün ne kadar yaklaştığını gör."
-      },
-      {
-        "key": "stats",
-        "title": "Paran nereye gidiyor",
-        "text": "Kategoriye ve güne göre haftalık ve aylık grafikler."
-      },
-      {
-        "key": "add",
-        "title": "Saniyeler içinde ekle",
-        "text": "Tutarı yaz, kategoriyi seç, bitti. İstersen fişi tara ya da banka SMS'ini yapıştır."
-      },
-      {
-        "key": "invest",
-        "title": "Yatırımlar, anlık",
-        "text": "Hisse, kripto, altın ve döviz anlık fiyatlarla, harcamalarının yanında."
-      },
-      {
-        "key": "themes",
-        "title": "Tamamen sana göre",
-        "text": "Açık ya da koyu, elliden fazla tema."
-      }
-    ]
+  {
+   "title": "Bütün borçların, tek rakam.",
+   "text": "Kartlar, krediler, KMH ve arkadaşlarla aranızdaki borçlar; hepsinden kurtulacağın ayla birlikte."
   },
-  "ring": {
-    "eyebrow": "Uygulama",
-    "title": "Her ekran, kendi dilinde.",
-    "text": "Spendry 44 dil konuşur; senin para biriminle, senin sayı biçiminle.",
-    "hint": "Çevirmek için sürükle"
-  },
-  "lab": {
-    "eyebrow": "Borç kapatma",
-    "title": "Ne kadar sürede borçsuz kalabilirsin?",
-    "text": "Kaydırıcıyı oynat, ayın değiştiğini gör. Spendry bunu senin gerçek borçlarınla yapar ve planı her ay günceller.",
-    "extra": "Her ay ek ödeme",
-    "method_hint_snowball": "Önce en küçük borç",
-    "method_hint_avalanche": "Önce en yüksek faiz",
-    "free_in": "Borçsuz",
-    "interest": "Toplam faiz",
-    "saved": "Kazancın",
-    "debts": [
-      "Kredi kartı",
-      "İhtiyaç kredisi",
-      "KMH",
-      "Arkadaşa borç"
-    ],
-    "note": "Örnek borçlar. Uygulamada plan senin borçlarınla hesaplanır.",
-    "cta": "Tam hesaplayıcıyı aç",
-    "rates_note": "Örnek faizler aylık.",
-    "sooner": "Daha erken",
-    "minimums": "Sadece asgari ödeme",
-    "with_plan": "Ek ödemeyle",
-    "method": "Yöntem"
-  },
-  "reminders": {
-    "eyebrow": "Hatırlatmalar",
-    "title": "Zamanında gelen hatırlatmalar.",
-    "text": "Uygulamayı hiç açmasan bile. Hatırlatmayı ertele ya da doğrudan bildirimden ödendi olarak işaretle.",
-    "days_left": "gün kaldı",
-    "local_note": "Son ödeme günü hafta sonuna ya da bayrama denk gelirse ilk iş gününe göre hatırlatır.",
-    "samples": {
-      "card": "Bonus",
-      "loan": "Taşıt kredisi",
-      "budget": "Alışveriş",
-      "store": "KMH"
-    }
-  },
-  "widgets": {
-    "eyebrow": "Widget'lar",
-    "title": "Paran, Ana Ekranında.",
-    "text": "Bakiye, bütçeler, hedefler ve yaklaşan ödemeler bir bakışta. Uygulamayı açmadan harcama ekle."
-  },
-  "automations": {
-    "eyebrow": "Siri ve Kestirmeler",
-    "title": "Bırak kendi kendine çalışsın.",
-    "text": "Siri'ye ne harcadığını sor, sesle harcama ekle, Kestirmeler uygulamasındaki hazır otomasyonları aç.",
-    "flows": [
-      [
-        "Bankadan harcama SMS'i gelir",
-        "Spendry tutarı ve iş yerini okur",
-        "Harcama kendiliğinden eklenir"
-      ],
-      [
-        "Her sabah",
-        "Spendry ödenecekleri kontrol eder",
-        "Önümüzdeki üç gün, tek bildirimde"
-      ],
-      [
-        "Pazar akşamı",
-        "Spendry haftanı özetler",
-        "Kısa bir harcama raporu"
-      ]
-    ]
-  },
-  "privacy": {
-    "eyebrow": "Gizlilik",
-    "title": "Paran sana ait, verin de.",
-    "text": "Banka şifresi yok, hesap yok, takip yok. Kayıtların iPhone'unda ve kendi iCloud'unda durur.",
-    "badge": "Veri Toplanmıyor",
-    "pillars": [
-      {
-        "title": "Banka şifresi yok",
-        "text": "Spendry bankana bağlanmaz. Kayıtları sen eklersin ya da banka mesajlarından içeri alırsın."
-      },
-      {
-        "title": "Veri toplanmaz",
-        "text": "Reklam, analiz ve takip yok. App Store'daki gizlilik etiketi de bunu söyler."
-      },
-      {
-        "title": "Face ID ile kilitli",
-        "text": "Kendi iCloud'un üzerinden eşitle, uygulamayı Face ID ile kilitle."
-      }
-    ]
-  },
-  "stats": {
-    "title": "Küçük uygulama, geniş dünya.",
-    "items": [
-      {
-        "value": 44,
-        "label": "dil"
-      },
-      {
-        "value": 175,
-        "label": "ülke ve bölge"
-      },
-      {
-        "value": 50,
-        "suffix": "+",
-        "label": "tema"
-      },
-      {
-        "value": 0,
-        "label": "bayt verin toplanır"
-      }
-    ]
-  },
-  "faq": {
-    "title": "Sık sorulanlar",
-    "items": [
-      {
-        "q": "Spendry ücretsiz mi?",
-        "a": "Evet, temel özellikler ücretsiz. Premium aylık, yıllık ya da tek seferlik (Ömür Boyu) alınabilir; abonelikler bir haftalık ücretsiz denemeyle başlar."
-      },
-      {
-        "q": "Bankama bağlanıyor mu?",
-        "a": "Hayır. Banka şifresi istemez. Kayıtları kendin eklersin ya da banka SMS'lerinden ve Kestirmeler otomasyonlarından içeri alırsın."
-      },
-      {
-        "q": "Verilerim nerede duruyor?",
-        "a": "iPhone'unda ve kendi iCloud hesabında. Kayıtların Spendry'nin sunucularına gönderilmez, biz göremeyiz."
-      },
-      {
-        "q": "Borç kapatma planı nasıl çalışıyor?",
-        "a": "Borçlarını kalan tutar ve faiziyle ekle. Spendry onları kar topu ya da çığ yöntemiyle sıralar, her ay ek ödeyebileceğini katar ve borçsuz olacağın ayı gösterir."
-      },
-      {
-        "q": "Eşimle ya da ailemle ortak bütçe tutabilir miyim?",
-        "a": "Evet. Ortak bütçeler ve hedefler iCloud üzerinden eşitlenir; herkes kendi Apple Hesabı'nı kullanır."
-      },
-      {
-        "q": "Hangi cihazlarda çalışır?",
-        "a": "iOS 17 ve üzeri iPhone ve iPad'de; widget'lar, Siri ve Kestirmeler desteğiyle."
-      },
-      {
-        "q": "Türkiye'ye özel neler var?",
-        "a": "KMH ve taksit takibi, ekstre kesim ve son ödeme günleri, hafta sonu ve bayrama göre kayan ödeme günleri, banka SMS'inden kayıt."
-      }
-    ]
-  },
-  "tools_teaser": {
-    "eyebrow": "Ücretsiz araçlar",
-    "title": "Hesabı tarayıcında dene.",
-    "text": "Hesaplar cihazında yapılır, hiçbir bilgi bir yere gönderilmez."
-  },
-  "final": {
-    "eyebrow": "iPhone için Spendry",
-    "title": "Bugün başla. Ücretsiz.",
-    "text": "Spendry'yi indir, birkaç dakikada borçsuz olacağın günü gör.",
-    "qr": "iPhone kameranla tara"
-  },
-  "footer": {
-    "tagline": "iPhone için gelir gider ve borç takibi.",
-    "privacy_policy": "Gizlilik Politikası",
-    "terms": "Kullanım Koşulları",
-    "support": "Destek",
-    "tools": "Ücretsiz araçlar",
-    "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay ve App Store, Apple Inc.'in ticari markalarıdır.",
-    "legal": "Yasal"
-  },
-  "debt_tool": {
-    "slug": "borc-kapatma-hesaplama",
-    "title": "Borç Kapatma Hesaplama: Kar Topu ve Çığ Yöntemi",
-    "h1": "Borç kapatma hesaplama",
-    "description": "Borç kapatma hesaplama: kar topu ve çığ yöntemini karşılaştır, borçsuz olacağın ayı ve ödeyeceğin toplam faizi gör. Kredi kartı, kredi ve KMH için ücretsiz.",
-    "lead": "Borçlarını gir, her ay ödeyebileceğin ek tutarı yaz. Kar topu ve çığ yönteminde borçsuz olacağın ayı ve ödeyeceğin toplam faizi yan yana gör.",
-    "name": "Borç",
-    "balance": "Kalan tutar",
-    "rate": "Aylık faiz %",
-    "minimum": "Asgari/taksit",
-    "add": "Borç ekle",
-    "remove": "Sil",
-    "extra": "Her ay fazladan ödeyebileceğin tutar",
-    "order": "Kapanma sırası",
-    "free_in": "Borçsuz",
-    "interest": "Toplam faiz",
-    "faster": "Daha hızlı",
-    "cheaper": "Daha az faiz",
-    "same": "Bu rakamlarla iki yöntem aynı sonucu veriyor.",
-    "stuck": "Bu ödemelerle borç bitmiyor: aylık ödeme faizi karşılamıyor. Ek ödemeyi artır.",
-    "sample": [
-      "Kredi kartı",
-      "İhtiyaç kredisi",
-      "KMH",
-      "Arkadaşa borç"
-    ],
-    "note": "Örnek borçlar; kendi rakamlarınla değiştir. Faiz aylık oran olarak girilir ve sabit kabul edilir.",
-    "prose": [
-      [
-        "Kar topu mu, çığ mı?",
-        "Kar topu yönteminde en küçük borçtan başlarsın. İlk borç çabuk kapanır, kapanan borcun taksiti bir sonrakine eklenir; motivasyonu yüksek tutar. Çığ yönteminde en yüksek faizli borçtan başlarsın; genellikle toplamda daha az faiz ödersin, ama ilk borcun kapanması daha uzun sürebilir."
-      ],
-      [
-        "Hesaplayıcı nasıl çalışır",
-        "Her ay bütün borçların asgari ödemesi yapılır, ek ödeme sıradaki borca gider ve kapanan borcun taksiti sıradakine aktarılır. İki yöntem de aynı aylık bütçeyi kullanır; gördüğün fark yalnızca sıradan gelir."
-      ],
-      [
-        "Kredi kartında dikkat",
-        "Asgari ödeme borcu kapatmaz, kalan tutara her ay faiz işler. KMH ve kart için aylık faiz oranları Merkez Bankası'nın açıkladığı üst sınırlara bağlıdır; güncel oranı bankandan kontrol et."
-      ]
-    ],
-    "extra_hint": "Asgari ödemelerin üstüne borçlarına ayırabildiğin para. Ne kadar çok eklersen o kadar erken borçsuz kalırsın."
-  },
-  "budget_tool": {
-    "slug": "gelir-gider-tablosu",
-    "title": "Gelir Gider Tablosu: Ücretsiz Şablon ve Aylık Bütçe Hesaplayıcı",
-    "h1": "Gelir gider tablosu",
-    "description": "Gelir gider tablosu nasıl tutulur? Ücretsiz aylık bütçe şablonu (Excel, Numbers ve Google E-Tablolar ile açılır) ve aylık bütçe hesaplayıcısı.",
-    "lead": "Ay sonunu getirmenin ilk adımı paranın nereye gittiğini görmek. Şablonu indir ya da gelirini 50/30/20 kuralına göre böl.",
-    "income": "Aylık net gelir",
-    "needs": "Zorunlu giderler",
-    "needs_hint": "Kira, faturalar, market, ulaşım",
-    "wants": "İstekler",
-    "wants_hint": "Dışarıda yemek, alışveriş, tatil",
-    "save": "Birikim ve borç",
-    "save_hint": "Birikim hedefleri ve ek ödemeler",
-    "template": "Aylık gelir gider şablonunu indir (CSV)",
-    "template_note": "Şablon Excel, Numbers ve Google E-Tablolar ile açılır.",
-    "prose": [
-      [
-        "Gelir gider tablosu nasıl tutulur?",
-        "Önce geliri yaz: maaş, ek iş, kira geliri. Sonra kira, aidat, faturalar, kredi taksitleri ve abonelikler gibi sabit giderleri ay başında ayır. Market, yemek, ulaşım gibi değişken giderleri günü gününe ekle; ay sonuna bırakınca çoğu unutulur."
-      ],
-      [
-        "Kredi kartını ekstre gününe göre düşün",
-        "Kartla yapılan alışveriş bu ay değil, ekstrenin son ödeme gününde cebinden çıkar. Taksitli alışverişler de sonraki aylara yayılır. Spendry bunu senin yerine takip eder."
-      ],
-      [
-        "Enflasyon döneminde bütçe",
-        "Fiyatlar hızlı değiştiğinde yüzdelerle düşünmek rakamlarla düşünmekten kolaydır. 50/30/20 bir başlangıç noktası; kira ya da kredi taksiti gelirin yarısını geçiyorsa oranları kendine göre ayarla ve önce yüksek faizli borçları kapat."
-      ]
-    ]
-  },
-  "loan_tool": {
-    "slug": "kredi-hesaplama",
-    "title": "Kredi Hesaplama 2026: Taksit, Faiz, KKDF ve BSMV",
-    "h1": "Kredi hesaplama",
-    "description": "Kredi hesaplama: aylık taksit, toplam geri ödeme, faiz, KKDF ve BSMV. İhtiyaç, taşıt ve konut kredisi için ay ay ödeme tablosu. Ücretsiz, kayıt gerektirmez.",
-    "lead": "Tutarı, aylık faiz oranını ve vadeyi gir; aylık taksiti, toplam faizi ve vergileri gör. Bankalar KKDF ve BSMV'yi her ayın faizine ekler, hesap da öyle yapılır.",
-    "type": "Kredi türü",
-    "types": [
-      "İhtiyaç",
-      "Taşıt",
-      "Konut"
-    ],
-    "amount": "Kredi tutarı",
-    "rate": "Aylık faiz %",
-    "rate_hint": "Örnek oran; bankanın teklifini yaz.",
-    "term": "Vade (ay)",
-    "kkdf": "KKDF %",
-    "bsmv": "BSMV %",
-    "tax_note": "2026'da ihtiyaç ve taşıt kredilerinde faizin üstüne %15 KKDF ve %15 BSMV eklenir; konut kredilerinde KKDF alınmaz. Oranları sözleşmenden kontrol et.",
-    "payment": "Aylık taksit",
-    "total": "Toplam geri ödeme",
-    "interest": "Toplam faiz",
-    "tax": "KKDF ve BSMV",
-    "columns": [
-      "Ay",
-      "Taksit",
-      "Anapara",
-      "Faiz",
-      "KKDF",
-      "BSMV",
-      "Kalan"
-    ],
-    "show_all": "Tüm ayları göster",
-    "show_less": "İlk 12 ayı göster",
-    "prose": [
-      [
-        "Kredi taksiti nasıl hesaplanır?",
-        "Bankalar eşit taksitli kredilerde her ay aynı tutarı ister. Taksitin bir kısmı faize, bir kısmı anaparaya gider. İlk aylarda faiz payı büyüktür; borç azaldıkça anapara payı artar."
-      ],
-      [
-        "KKDF ve BSMV",
-        "İhtiyaç ve taşıt kredilerinde faiz tek başına ödenmez: her ayın faizinin %15'i kadar KKDF ve %15'i kadar BSMV eklenir. Bankanın ilan ettiği oranla gerçek maliyet arasındaki fark buradan gelir."
-      ],
-      [
-        "Toplam maliyeti düşürmenin yolları",
-        "Vadeyi kısaltmak toplam faizi azaltır, aylık taksiti yükseltir. Ara ödeme kalan anaparayı düşürür. Birden fazla borcun varsa hangisini önce kapatacağını borç kapatma hesaplayıcısıyla karşılaştır."
-      ]
-    ],
-    "note": "Hesaplama bilgi amaçlıdır; bankanın sözleşmesindeki tutarlar esastır. Sigorta ve dosya masrafı dahil değildir."
-  },
-  "not_found": {
-    "title": "Bu sayfa bugün izinli.",
-    "text": "Bağlantı eski olabilir. Geri kalan her şey bıraktığın yerde.",
-    "home": "Spendry'ye dön"
+  {
+   "title": "Hiçbir ödeme kaçmaz.",
+   "text": "Her kart, fatura ve abonelikten önce hatırlatma. Uygulamayı hiç açmasan bile."
   }
+ ],
+ "statement": "Çoğu para uygulaması paranın nereye gittiğini gösterir. Spendry *ne zaman gideceğini* ve *ne zaman özgür kalacağını* gösterir.",
+ "orbit": {
+  "eyebrow": "Hepsi bir arada",
+  "title": "Paranı hareket ettiren her şey.",
+  "text": "Kartlar, taksitler, krediler, abonelikler, bütçeler, hedefler ve yatırımlar. Tek uygulama, tek resim."
+ },
+ "features": {
+  "eyebrow": "Özellikler",
+  "title": "Bütün ay için tasarlandı.",
+  "items": [
+   {
+    "key": "budgets",
+    "title": "Seninle yürüyen bütçeler",
+    "text": "Her kategoriye bir sınır koy, harcadıkça dolduğunu gör."
+   },
+   {
+    "key": "goals",
+    "title": "Gözünün önünde hedefler",
+    "text": "Önemli olan için biriktir, her gün ne kadar yaklaştığını gör."
+   },
+   {
+    "key": "stats",
+    "title": "Paran nereye gidiyor",
+    "text": "Kategoriye ve güne göre haftalık ve aylık grafikler."
+   },
+   {
+    "key": "add",
+    "title": "Saniyeler içinde ekle",
+    "text": "Tutarı yaz, kategoriyi seç, bitti. İstersen fişi tara ya da banka SMS'ini yapıştır."
+   },
+   {
+    "key": "invest",
+    "title": "Yatırımlar, anlık",
+    "text": "Hisse, kripto, altın ve döviz anlık fiyatlarla, harcamalarının yanında."
+   },
+   {
+    "key": "themes",
+    "title": "Tamamen sana göre",
+    "text": "Açık ya da koyu, elliden fazla tema."
+   }
+  ]
+ },
+ "ring": {
+  "eyebrow": "Uygulama",
+  "title": "Her ekran, kendi dilinde.",
+  "text": "Spendry 44 dil konuşur; senin para biriminle, senin sayı biçiminle.",
+  "hint": "Çevirmek için sürükle"
+ },
+ "lab": {
+  "eyebrow": "Borç kapatma",
+  "title": "Ne kadar sürede borçsuz kalabilirsin?",
+  "text": "Kaydırıcıyı oynat, ayın değiştiğini gör. Spendry bunu senin gerçek borçlarınla yapar ve planı her ay günceller.",
+  "extra": "Her ay ek ödeme",
+  "method_hint_snowball": "Önce en küçük borç",
+  "method_hint_avalanche": "Önce en yüksek faiz",
+  "free_in": "Borçsuz",
+  "interest": "Toplam faiz",
+  "saved": "Kazancın",
+  "debts": [
+   "Kredi kartı",
+   "İhtiyaç kredisi",
+   "KMH",
+   "Arkadaşa borç"
+  ],
+  "note": "Örnek borçlar. Uygulamada plan senin borçlarınla hesaplanır.",
+  "cta": "Tam hesaplayıcıyı aç",
+  "rates_note": "Örnek faizler aylık.",
+  "sooner": "Daha erken",
+  "minimums": "Sadece asgari ödeme",
+  "with_plan": "Ek ödemeyle",
+  "method": "Yöntem"
+ },
+ "reminders": {
+  "eyebrow": "Hatırlatmalar",
+  "title": "Zamanında gelen hatırlatmalar.",
+  "text": "Uygulamayı hiç açmasan bile. Hatırlatmayı ertele ya da doğrudan bildirimden ödendi olarak işaretle.",
+  "days_left": "gün kaldı",
+  "local_note": "Son ödeme günü hafta sonuna ya da bayrama denk gelirse ilk iş gününe göre hatırlatır.",
+  "samples": {
+   "card": "Bonus",
+   "loan": "Taşıt kredisi",
+   "budget": "Alışveriş",
+   "store": "KMH"
+  }
+ },
+ "widgets": {
+  "eyebrow": "Widget'lar",
+  "title": "Paran, Ana Ekranında.",
+  "text": "Bakiye, bütçeler, hedefler ve yaklaşan ödemeler bir bakışta. Uygulamayı açmadan harcama ekle."
+ },
+ "automations": {
+  "eyebrow": "Siri ve Kestirmeler",
+  "title": "Bırak kendi kendine çalışsın.",
+  "text": "Siri'ye ne harcadığını sor, sesle harcama ekle, Kestirmeler uygulamasındaki hazır otomasyonları aç.",
+  "flows": [
+   [
+    "Bankadan harcama SMS'i gelir",
+    "Spendry tutarı ve iş yerini okur",
+    "Harcama kendiliğinden eklenir"
+   ],
+   [
+    "Her sabah",
+    "Spendry ödenecekleri kontrol eder",
+    "Önümüzdeki üç gün, tek bildirimde"
+   ],
+   [
+    "Pazar akşamı",
+    "Spendry haftanı özetler",
+    "Kısa bir harcama raporu"
+   ]
+  ]
+ },
+ "privacy": {
+  "eyebrow": "Gizlilik",
+  "title": "Paran sana ait, verin de.",
+  "text": "Banka şifresi yok, hesap yok, takip yok. Kayıtların iPhone'unda ve kendi iCloud'unda durur.",
+  "badge": "Veri Toplanmıyor",
+  "pillars": [
+   {
+    "title": "Banka şifresi yok",
+    "text": "Spendry bankana bağlanmaz. Kayıtları sen eklersin ya da banka mesajlarından içeri alırsın."
+   },
+   {
+    "title": "Veri toplanmaz",
+    "text": "Reklam, analiz ve takip yok. App Store'daki gizlilik etiketi de bunu söyler."
+   },
+   {
+    "title": "Face ID ile kilitli",
+    "text": "Kendi iCloud'un üzerinden eşitle, uygulamayı Face ID ile kilitle."
+   }
+  ]
+ },
+ "stats": {
+  "title": "Küçük uygulama, geniş dünya.",
+  "items": [
+   {
+    "value": 44,
+    "label": "dil"
+   },
+   {
+    "value": 175,
+    "label": "ülke ve bölge"
+   },
+   {
+    "value": 50,
+    "suffix": "+",
+    "label": "tema"
+   },
+   {
+    "value": 0,
+    "label": "bayt verin toplanır"
+   }
+  ]
+ },
+ "faq": {
+  "title": "Sık sorulanlar",
+  "items": [
+   {
+    "q": "Spendry ücretsiz mi?",
+    "a": "Evet, temel özellikler ücretsiz. Premium aylık, yıllık ya da tek seferlik (Ömür Boyu) alınabilir; abonelikler bir haftalık ücretsiz denemeyle başlar."
+   },
+   {
+    "q": "Bankama bağlanıyor mu?",
+    "a": "Hayır. Banka şifresi istemez. Kayıtları kendin eklersin ya da banka SMS'lerinden ve Kestirmeler otomasyonlarından içeri alırsın."
+   },
+   {
+    "q": "Verilerim nerede duruyor?",
+    "a": "iPhone'unda ve kendi iCloud hesabında. Kayıtların Spendry'nin sunucularına gönderilmez, biz göremeyiz."
+   },
+   {
+    "q": "Borç kapatma planı nasıl çalışıyor?",
+    "a": "Borçlarını kalan tutar ve faiziyle ekle. Spendry onları kar topu ya da çığ yöntemiyle sıralar, her ay ek ödeyebileceğini katar ve borçsuz olacağın ayı gösterir."
+   },
+   {
+    "q": "Eşimle ya da ailemle ortak bütçe tutabilir miyim?",
+    "a": "Evet. Ortak bütçeler ve hedefler iCloud üzerinden eşitlenir; herkes kendi Apple Hesabı'nı kullanır."
+   },
+   {
+    "q": "Hangi cihazlarda çalışır?",
+    "a": "iOS 17 ve üzeri iPhone ve iPad'de; widget'lar, Siri ve Kestirmeler desteğiyle."
+   },
+   {
+    "q": "Türkiye'ye özel neler var?",
+    "a": "KMH ve taksit takibi, ekstre kesim ve son ödeme günleri, hafta sonu ve bayrama göre kayan ödeme günleri, banka SMS'inden kayıt."
+   }
+  ]
+ },
+ "tools_teaser": {
+  "eyebrow": "Ücretsiz araçlar",
+  "title": "Hesabı tarayıcında dene.",
+  "text": "Hesaplar cihazında yapılır, hiçbir bilgi bir yere gönderilmez."
+ },
+ "final": {
+  "eyebrow": "iPhone için Spendry",
+  "title": "Bugün başla. Ücretsiz.",
+  "text": "Spendry'yi indir, birkaç dakikada borçsuz olacağın günü gör.",
+  "qr": "iPhone kameranla tara"
+ },
+ "footer": {
+  "tagline": "iPhone için gelir gider ve borç takibi.",
+  "privacy_policy": "Gizlilik Politikası",
+  "terms": "Kullanım Koşulları",
+  "support": "Destek",
+  "tools": "Ücretsiz araçlar",
+  "trademark": "Apple, iPhone, iPad, Siri, Face ID, iCloud, Apple Pay ve App Store, Apple Inc.'in ticari markalarıdır.",
+  "legal": "Yasal"
+ },
+ "debt_tool": {
+  "slug": "borc-kapatma-hesaplama",
+  "title": "Borç Kapatma Hesaplama: Kar Topu ve Çığ Yöntemi",
+  "h1": "Borç kapatma hesaplama",
+  "description": "Borç kapatma hesaplama: kar topu ve çığ yöntemini karşılaştır, borçsuz olacağın ayı ve ödeyeceğin toplam faizi gör. Kredi kartı, kredi ve KMH için ücretsiz.",
+  "lead": "Borçlarını gir, her ay ödeyebileceğin ek tutarı yaz. Kar topu ve çığ yönteminde borçsuz olacağın ayı ve ödeyeceğin toplam faizi yan yana gör.",
+  "name": "Borç",
+  "balance": "Kalan tutar",
+  "rate": "Aylık faiz %",
+  "minimum": "Asgari/taksit",
+  "add": "Borç ekle",
+  "remove": "Sil",
+  "extra": "Her ay fazladan ödeyebileceğin tutar",
+  "order": "Kapanma sırası",
+  "free_in": "Borçsuz",
+  "interest": "Toplam faiz",
+  "faster": "Daha hızlı",
+  "cheaper": "Daha az faiz",
+  "same": "Bu rakamlarla iki yöntem aynı sonucu veriyor.",
+  "stuck": "Bu ödemelerle borç bitmiyor: aylık ödeme faizi karşılamıyor. Ek ödemeyi artır.",
+  "sample": [
+   "Kredi kartı",
+   "İhtiyaç kredisi",
+   "KMH",
+   "Arkadaşa borç"
+  ],
+  "note": "Örnek borçlar; kendi rakamlarınla değiştir. Faiz aylık oran olarak girilir ve sabit kabul edilir.",
+  "prose": [
+   [
+    "Kar topu mu, çığ mı?",
+    "Kar topu yönteminde en küçük borçtan başlarsın. İlk borç çabuk kapanır, kapanan borcun taksiti bir sonrakine eklenir; motivasyonu yüksek tutar. Çığ yönteminde en yüksek faizli borçtan başlarsın; genellikle toplamda daha az faiz ödersin, ama ilk borcun kapanması daha uzun sürebilir."
+   ],
+   [
+    "Hesaplayıcı nasıl çalışır",
+    "Her ay bütün borçların asgari ödemesi yapılır, ek ödeme sıradaki borca gider ve kapanan borcun taksiti sıradakine aktarılır. İki yöntem de aynı aylık bütçeyi kullanır; gördüğün fark yalnızca sıradan gelir."
+   ],
+   [
+    "Kredi kartında dikkat",
+    "Asgari ödeme borcu kapatmaz, kalan tutara her ay faiz işler. KMH ve kart için aylık faiz oranları Merkez Bankası'nın açıkladığı üst sınırlara bağlıdır; güncel oranı bankandan kontrol et."
+   ]
+  ],
+  "extra_hint": "Asgari ödemelerin üstüne borçlarına ayırabildiğin para. Ne kadar çok eklersen o kadar erken borçsuz kalırsın."
+ },
+ "budget_tool": {
+  "slug": "gelir-gider-tablosu",
+  "title": "Gelir Gider Tablosu: Ücretsiz Şablon ve Aylık Bütçe Hesaplayıcı",
+  "h1": "Gelir gider tablosu",
+  "description": "Gelir gider tablosu nasıl tutulur? Ücretsiz aylık bütçe şablonu (Excel, Numbers ve Google E-Tablolar ile açılır) ve aylık bütçe hesaplayıcısı.",
+  "lead": "Ay sonunu getirmenin ilk adımı paranın nereye gittiğini görmek. Şablonu indir ya da gelirini 50/30/20 kuralına göre böl.",
+  "income": "Aylık net gelir",
+  "needs": "Zorunlu giderler",
+  "needs_hint": "Kira, faturalar, market, ulaşım",
+  "wants": "İstekler",
+  "wants_hint": "Dışarıda yemek, alışveriş, tatil",
+  "save": "Birikim ve borç",
+  "save_hint": "Birikim hedefleri ve ek ödemeler",
+  "template": "Aylık gelir gider şablonunu indir (CSV)",
+  "template_note": "Şablon Excel, Numbers ve Google E-Tablolar ile açılır.",
+  "prose": [
+   [
+    "Gelir gider tablosu nasıl tutulur?",
+    "Önce geliri yaz: maaş, ek iş, kira geliri. Sonra kira, aidat, faturalar, kredi taksitleri ve abonelikler gibi sabit giderleri ay başında ayır. Market, yemek, ulaşım gibi değişken giderleri günü gününe ekle; ay sonuna bırakınca çoğu unutulur."
+   ],
+   [
+    "Kredi kartını ekstre gününe göre düşün",
+    "Kartla yapılan alışveriş bu ay değil, ekstrenin son ödeme gününde cebinden çıkar. Taksitli alışverişler de sonraki aylara yayılır. Spendry bunu senin yerine takip eder."
+   ],
+   [
+    "Enflasyon döneminde bütçe",
+    "Fiyatlar hızlı değiştiğinde yüzdelerle düşünmek rakamlarla düşünmekten kolaydır. 50/30/20 bir başlangıç noktası; kira ya da kredi taksiti gelirin yarısını geçiyorsa oranları kendine göre ayarla ve önce yüksek faizli borçları kapat."
+   ]
+  ]
+ },
+ "loan_tool": {
+  "slug": "kredi-hesaplama",
+  "title": "Kredi Hesaplama 2026: Taksit, Faiz, KKDF ve BSMV",
+  "h1": "Kredi hesaplama",
+  "description": "Kredi hesaplama: aylık taksit, toplam geri ödeme, faiz, KKDF ve BSMV. İhtiyaç, taşıt ve konut kredisi için ay ay ödeme tablosu. Ücretsiz, kayıt gerektirmez.",
+  "lead": "Tutarı, aylık faiz oranını ve vadeyi gir; aylık taksiti, toplam faizi ve vergileri gör. Bankalar KKDF ve BSMV'yi her ayın faizine ekler, hesap da öyle yapılır.",
+  "type": "Kredi türü",
+  "types": [
+   "İhtiyaç",
+   "Taşıt",
+   "Konut"
+  ],
+  "amount": "Kredi tutarı",
+  "rate": "Aylık faiz %",
+  "rate_hint": "Örnek oran; bankanın teklifini yaz.",
+  "term": "Vade (ay)",
+  "kkdf": "KKDF %",
+  "bsmv": "BSMV %",
+  "tax_note": "2026'da ihtiyaç ve taşıt kredilerinde faizin üstüne %15 KKDF ve %15 BSMV eklenir; konut kredilerinde KKDF alınmaz. Oranları sözleşmenden kontrol et.",
+  "payment": "Aylık taksit",
+  "total": "Toplam geri ödeme",
+  "interest": "Toplam faiz",
+  "tax": "KKDF ve BSMV",
+  "columns": [
+   "Ay",
+   "Taksit",
+   "Anapara",
+   "Faiz",
+   "KKDF",
+   "BSMV",
+   "Kalan"
+  ],
+  "show_all": "Tüm ayları göster",
+  "show_less": "İlk 12 ayı göster",
+  "prose": [
+   [
+    "Kredi taksiti nasıl hesaplanır?",
+    "Bankalar eşit taksitli kredilerde her ay aynı tutarı ister. Taksitin bir kısmı faize, bir kısmı anaparaya gider. İlk aylarda faiz payı büyüktür; borç azaldıkça anapara payı artar."
+   ],
+   [
+    "KKDF ve BSMV",
+    "İhtiyaç ve taşıt kredilerinde faiz tek başına ödenmez: her ayın faizinin %15'i kadar KKDF ve %15'i kadar BSMV eklenir. Bankanın ilan ettiği oranla gerçek maliyet arasındaki fark buradan gelir."
+   ],
+   [
+    "Toplam maliyeti düşürmenin yolları",
+    "Vadeyi kısaltmak toplam faizi azaltır, aylık taksiti yükseltir. Ara ödeme kalan anaparayı düşürür. Birden fazla borcun varsa hangisini önce kapatacağını borç kapatma hesaplayıcısıyla karşılaştır."
+   ]
+  ],
+  "note": "Hesaplama bilgi amaçlıdır; bankanın sözleşmesindeki tutarlar esastır. Sigorta ve dosya masrafı dahil değildir."
+ },
+ "not_found": {
+  "title": "Bu sayfa bugün izinli.",
+  "text": "Bağlantı eski olabilir. Geri kalan her şey bıraktığın yerde.",
+  "home": "Spendry'ye dön"
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "borc-kartopu-ve-cig-yontemi",
+   "title": "Kar Topu mu Çığ mı? Borç Kapatma Yöntemleri Karşılaştırması",
+   "description": "Kar topu en küçük borcu, çığ en yüksek faizli borcu önce kapatır. Farklarını, hangisinin daha az faiz ödettiğini ve nasıl uygulanacağını gör.",
+   "h1": "Kar topu mu, çığ mı: borcunu hangi yöntemle kapatmalısın?",
+   "intro": [
+    "İki yöntemde de her borcun asgari tutarını ödersin, artan parayı ise tek bir borca yatırırsın. Tek fark, fazladan paranın önce hangi borca gideceği.",
+    "Kar topu en küçük bakiyeden başlar; bir borcu hızla kapatırsın, motivasyonun yüksek kalır. Çığ en yüksek faizli borçtan başlar; toplamda en az faizi ödersin."
+   ],
+   "steps_title": "Spendry'de borç kapatma planı",
+   "steps": [
+    "Her kartını, kredini ve taksitini bakiyesi, faiz oranı ve asgari ödemesiyle ekle.",
+    "Borçlar ekranını aç, Kar Topu ya da Çığ yöntemini seç.",
+    "Her ay asgari tutarların üstüne ne kadar ödeyebileceğini yaz.",
+    "Spendry borçlarını sıralar, borçsuz olacağın ayı gösterir ve her ödemeden önce hatırlatır."
+   ],
+   "example_title": "Bir örnek",
+   "example": "Üç borç: aylık %4,25 faizli 12.000 TL kart borcu, aylık %3,75 faizli 9.000 TL ikinci kart ve aylık %3,5 faizli 40.000 TL ihtiyaç kredisi; her ay 3.000 TL fazladan ödeme. Çığ önce %4,25'lik kartı kapatır ve en az faizi ödetir. Kar topu önce 9.000 TL'lik kartı bitirir, böylece bir borç birkaç ayda listeden düşer. Bitiş tarihleri çoğu zaman yalnızca bir iki ay farklıdır.",
+   "tip": "İki tarih birbirine yakınsa sürdürebileceğin yöntemi seç. En iyi plan, ödemeye devam ettiğin plandır.",
+   "faq": [
+    {
+     "q": "Hangi yöntem daha az faiz ödetir?",
+     "a": "Çığ, çünkü en pahalı borç önce küçülür. Ne kadar fark edeceği, faiz oranlarının birbirinden ne kadar ayrıldığına bağlıdır."
+    },
+    {
+     "q": "Yöntemi sonradan değiştirebilir miyim?",
+     "a": "Evet. Spendry'de yöntemi istediğin zaman değiştir; plan ve borçsuz olacağın tarih hemen güncellenir."
+    }
+   ],
+   "screen": "06",
+   "tool": "debt"
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "kredi-karti-borcu-nasil-kapatilir",
+   "title": "Kredi Kartı Borcu Nasıl Kapatılır? İşe Yarayan 4 Alışkanlık",
+   "description": "Kredi kartı borcunu daha hızlı kapatmanın yolları: asgariden fazla öde, fazlayı en yüksek faize yönlendir, hiç gecikme ve yeni borç ekleme.",
+   "h1": "Kredi kartı borcu daha hızlı nasıl kapatılır?",
+   "intro": [
+    "Kredi kartı borcu büyür, çünkü kalan tutara her ay faiz işler. Yaptığın her fazla ödeme, faizin hesaplandığı tutarı küçültür.",
+    "Dört alışkanlık en büyük farkı yaratır: asgari tutardan fazlasını öde, hiç gecikme, fazla parayı en yüksek faizli karta yönlendir ve tamamını ödeyemeyeceğin harcamaları karta ekleme."
+   ],
+   "steps_title": "Spendry ile uygula",
+   "steps": [
+    "Kartlarını bakiyesi, faiz oranı, hesap kesim günü ve son ödeme günüyle ekle.",
+    "Asgari tutarların üstünde bir aylık ödeme belirle ve Çığ yöntemini seç.",
+    "Hatırlatmaları aç; uygulama kapalıyken bile hiçbir son ödeme tarihini kaçırmazsın.",
+    "Her ay Borçlar ekranında bakiyenin düştüğünü ve borçsuz olacağın tarihin yaklaştığını gör."
+   ],
+   "example_title": "Bir örnek",
+   "example": "Aylık %3,5 faizli 20.000 TL kart borcu: yalnızca %20 asgari ödemeyle yaklaşık 27 ayda biter ve 4.200 TL civarında faiz ödersin. Her ay sabit 5.000 TL ödersen 5 ayda biter, faiz 1.900 TL civarında kalır.",
+   "tip": "Bir prim ya da iade geldiğinde bir kısmını en yüksek faizli karta yatır. Tek bir fazla ödeme bile planı aylarca kısaltabilir.",
+   "faq": [
+    {
+     "q": "Önce en yüksek faizli borcu mu, en küçük borcu mu kapatmalıyım?",
+     "a": "En yüksek faizli borç en çok tasarrufu sağlar. En küçük borç ise hızlı bir başarı hissi verir. Spendry iki yöntemde de borçsuz olacağın tarihi gösterir, karşılaştırabilirsin."
+    },
+    {
+     "q": "Borcu kapatırken kartı kullanmaya devam etmeli miyim?",
+     "a": "Yalnızca son ödeme tarihinden önce tamamını ödeyebileceğin harcamalar için. Yeni borçlar, borçsuz olacağın tarihi uzaklaştırır."
+    }
+   ],
+   "screen": "06",
+   "tool": "cc"
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "asgari-odeme-tuzagi",
+   "title": "Kredi Kartında Sadece Asgari Ödeme Yaparsan Ne Olur?",
+   "description": "Asgari ödeme seni gecikmeden korur ama kalan borca her ay faiz işler. Borcun gerçekte ne kadar sürdüğünü ve küçük bir ek ödemenin farkını gör.",
+   "h1": "Sadece asgari ödeme yaparsan ne olur?",
+   "intro": [
+    "Asgari tutarı ödemek kartının gecikmeye düşmesini önler, ama ödemediğin kısma her ay faiz işler. Asgari ödeme, kart limitine göre genellikle dönem borcunun %20'si ya da %40'ıdır.",
+    "Asgari tutarın üstüne eklediğin küçük ama düzenli bir ödeme, faize giden parayı azaltır ve bitiş tarihini aylarca öne çeker."
+   ],
+   "steps_title": "Kendi rakamlarını gör",
+   "steps": [
+    "Bu sitedeki ücretsiz kredi kartı borç hesaplama aracıyla asgari ödemeyi sabit bir aylık ödemeyle karşılaştır.",
+    "Spendry'de kartını faiz oranı ve asgari ödeme tutarıyla ekle.",
+    "Her ay sürdürebileceğin bir ek tutar belirle ve borçsuz olacağın tarihin güncellendiğini izle."
+   ],
+   "example_title": "Bir örnek",
+   "example": "Aylık %3,5 faizli 30.000 TL kart borcu ve %20 asgari ödeme: borç yaklaşık 29 ayda biter, toplam faiz 6.300 TL civarında olur. Her ay sabit 7.500 TL ödersen 5 ayda biter, faiz 2.900 TL civarında kalır.",
+   "tip": "Şu an daha fazlasını ödeyemiyorsan asgari tutar için bankanda otomatik ödeme talimatı ver; böylece hiç gecikmezsin. Fırsat buldukça ek ödeme yap.",
+   "faq": [
+    {
+     "q": "Sadece asgari ödeme yapmak kredi notumu düşürür mü?",
+     "a": "Asgari tutarı zamanında ödemek gecikme kaydı oluşmasını önler. Yine de yüksek kart borcu kredi notunu olumsuz etkileyebilir, bu yüzden borcu azaltmak işine yarar."
+    },
+    {
+     "q": "Asgari ödeme tutarı nasıl hesaplanır?",
+     "a": "Dönem borcunun bir yüzdesidir ve oran kart limitine göre değişir. Kesin tutar hesap özetinde yazar."
+    }
+   ],
+   "screen": "06",
+   "tool": "cc"
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "hesap-kesim-tarihi-ve-son-odeme-tarihi",
+   "title": "Hesap Kesim Tarihi ve Son Ödeme Tarihi: Ne Zaman Ödemeli?",
+   "description": "Hesap kesim tarihi dönemi kapatır, son ödeme tarihi faiz ödemeden ödeyebileceğin son gündür. Farkını ve kart borcunu ne zaman ödemen gerektiğini öğren.",
+   "h1": "Hesap kesim tarihi ve son ödeme tarihi: ne zaman ödemelisin?",
+   "intro": [
+    "Kartının hesap kesim tarihi, dönemin kapandığı ve ekstrenin hesaplandığı gündür. Son ödeme tarihi genellikle on gün kadar sonra gelir ve o ekstreyi zamanında ödeyebileceğin son gündür.",
+    "Dönem borcunun tamamını son ödeme tarihine kadar ödersen alışverişlerine faiz işlemez. Daha azını ödersen kalan tutara faiz işler."
+   ],
+   "steps_title": "Spendry ile hiçbir son ödeme tarihini kaçırma",
+   "steps": [
+    "Kartı hesap kesim günü ve son ödeme günüyle ekle.",
+    "Spendry ödenecekleri Ana Sayfa'da ve Hatırlatmalar ekranında gösterir.",
+    "Son ödeme tarihinden önce hatırlatma al, sonra bildirimden doğrudan ödendi olarak işaretle ya da ertele."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Hesap kesim tarihinden hemen sonra yaptığın alışverişler bir sonraki ekstreye girer, bu yüzden ödemesi en geç gelenler onlardır.",
+   "faq": [
+    {
+     "q": "Son ödeme tarihi hafta sonuna denk gelirse ne olur?",
+     "a": "Bankalar çoğu zaman ilk iş gününe kaydırır, ama kurallar değişebilir. Bir iki gün erken ödemek en güvenlisidir."
+    },
+    {
+     "q": "Hesap kesim tarihinden önce ödeme yapabilir miyim?",
+     "a": "Evet. Erken ödeme bir sonraki ekstredeki borcu azaltır."
+    }
+   ],
+   "screen": "07",
+   "tool": ""
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "taksit-takibi",
+   "title": "Taksit Takibi: iPhone'da Tüm Taksitlerini Tek Yerde Gör",
+   "description": "Her taksitli alışverişi tek yerde takip et: ne kadar kaldığını, kaç taksit kaldığını ve sıradakinin ne zaman olduğunu gör, her ödemeden önce hatırlatma al.",
+   "h1": "iPhone'da taksitler nasıl takip edilir?",
+   "intro": [
+    "Bir alışverişi taksitlere bölmek hafif gelir, ama aynı anda süren birkaç taksit fark etmeden her ayın büyük bir kısmını alabilir.",
+    "Her taksiti kalan ödemeleriyle takip etmek gerçek aylık toplamı ve hepsinin biteceği ayı gösterir."
+   ],
+   "steps_title": "Spendry'de taksit takibi",
+   "steps": [
+    "Taksiti toplam tutar, taksit sayısı ve ilk ödeme tarihiyle ekle.",
+    "Her taksitte ne kadar ödendiğini, ne kadar kaldığını ve sıradaki ödeme tarihini gör.",
+    "Her ödemeden önce hatırlatma al; taksitler kartların ve kredilerinle birlikte borçsuz olacağın tarihe dahil edilir."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Yeni bir taksite başlamadan önce zaten ödediğin taksitleri topla. Toplam, sıkışık bir ayda karşılayabileceğinden fazlaysa bekle.",
+   "faq": [
+    {
+     "q": "Taksitler borçsuz olacağım tarihe dahil mi?",
+     "a": "Evet. Spendry taksitleri kartların ve kredilerinle birlikte hesaba katar, böylece tarih resmin tamamını gösterir."
+    },
+    {
+     "q": "Faizsiz taksitleri de takip edebilir miyim?",
+     "a": "Evet. Faiz oranını sıfır bırak, Spendry kalan taksitleri saymaya devam eder."
+    }
+   ],
+   "screen": "06",
+   "tool": ""
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "fatura-odemelerini-unutmamak",
+   "title": "Fatura Ödemelerini Unutmamak İçin iPhone Hatırlatmaları",
+   "description": "Her fatura, kart ve abonelik için hatırlatma kur, hiçbir şeyi geç ödeme. Son ödeme tarihinden önce bildirim al, tek dokunuşla ödendi olarak işaretle.",
+   "h1": "Hiçbir fatura ödemesini nasıl kaçırmazsın?",
+   "intro": [
+    "Gecikme faizi ve ücretleri çoğu zaman paranın yetmemesinden değil, unutmaktan doğar. Her son ödeme tarihinden birkaç gün önce gelen bir hatırlatma bunun büyük kısmını çözer.",
+    "Püf noktası her ödemeyi tek yerde tutmak: kira, elektrik, su, doğalgaz, telefon, kartlar, krediler ve abonelikler."
+   ],
+   "steps_title": "Spendry'de kur",
+   "steps": [
+    "Her faturayı ve aboneliği tutarı, son ödeme tarihi ve ne sıklıkla tekrarladığıyla ekle.",
+    "Son ödeme tarihinden kaç gün önce hatırlatılmak istediğini seç.",
+    "Hatırlatmalar uygulama kapalıyken de gelir. Ödemeyi bildirimden doğrudan ödendi olarak işaretle ya da ertele."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Yaklaşan ödemeler widget'ını ana ekrana ekle; telefonunun kilidini her açtığında haftanın ödemelerini görürsün.",
+   "faq": [
+    {
+     "q": "Uygulamayı hiç açmasam da hatırlatma alır mıyım?",
+     "a": "Evet. Spendry hatırlatmaları iPhone'unda planlar, uygulama kapalı kalsa bile gelirler."
+    },
+    {
+     "q": "Bu hafta ödenecek her şeyi görebilir miyim?",
+     "a": "Evet. Hatırlatmalar ekranı yaklaşan ödemeleri listeler; istersen sabah çalışan bir otomasyon önümüzdeki üç günü tek bildirimde özetler."
+    }
+   ],
+   "screen": "07",
+   "tool": ""
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "abonelik-takibi",
+   "title": "Abonelik Takibi: Aboneliklerin Gerçekte Ne Kadar Tutuyor?",
+   "description": "Aboneliklerinin aylık ve yıllık gerçek maliyetini gör, her yenilemeden önce hatırlatma al ve hangilerini iptal edeceğine karar ver.",
+   "h1": "Abonelikler nasıl takip edilir ve azaltılır?",
+   "intro": [
+    "Aboneliklere başlamak da onları unutmak da kolaydır. Birkaç küçük aylık ödeme, yılda büyük bir tutara ulaşabilir.",
+    "Toplamı aylık ve yıllık olarak görmek, artık kullanmadığın iki üç aboneliği bulmak için genellikle yeter."
+   ],
+   "steps_title": "Spendry'de abonelik takibi",
+   "steps": [
+    "Her aboneliği fiyatı ve ödeme döngüsüyle ekle: haftalık, aylık ya da yıllık.",
+    "Spendry aylık ve yıllık toplamı ve sıradaki yenileme tarihini gösterir.",
+    "Her yenilemeden önce hatırlatma al, böylece zamanında iptal edebilirsin."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Bu sitedeki abonelik maliyeti hesaplama aracını dene: ödediklerini listele, yıllık toplamı saniyeler içinde gör.",
+   "faq": [
+    {
+     "q": "Spendry aboneliklerimi benim yerime iptal eder mi?",
+     "a": "Hayır. Spendry hesaplarına hiç bağlanmaz. Yenilemeden önce hatırlatır, iptali hizmeti aldığın yerde sen yaparsın."
+    },
+    {
+     "q": "Yıllık abonelikleri de takip edebilir miyim?",
+     "a": "Evet. Spendry haftalık, aylık ve yıllık döngüleri destekler ve hepsini aylık toplamına katar."
+    }
+   ],
+   "screen": "07",
+   "tool": "subs"
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "aylik-butce-nasil-yapilir",
+   "title": "Aylık Bütçe Nasıl Yapılır? İşe Yarayan Basit Bir Yöntem",
+   "description": "Aylık bütçe hazırlamanın basit yolu: gelirinden başla, önce zorunlu giderleri karşıla, harcamalara limit koy ve harcamadan önce biriktir.",
+   "h1": "İşe yarayan bir aylık bütçe nasıl yapılır?",
+   "intro": [
+    "Bütçe, ay başlamadan önce gelirin için yaptığın bir plandır. Eline geçen net gelirle başla, sonra her parçanın nereye gideceğine karar ver.",
+    "Yaygın bir başlangıç noktası: yaklaşık yarısı kira ve faturalar gibi ihtiyaçlara, üçte biri isteklere, kalanı birikime ve borç ödemeye. Kendi hayatına göre uyarla."
+   ],
+   "steps_title": "Spendry'de oluştur",
+   "steps": [
+    "Aylık gelirini ekle.",
+    "En çok harcadığın kategoriler için bütçeler oluştur ve her birine bir limit koy.",
+    "Gider ekledikçe bütçeler dolar; Spendry limit dolmadan önce seni uyarır.",
+    "Ay sonunda grafiklere bak ve gelecek ayın limitlerini ayarla."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Limitlerini belirlemeden önce bu sitedeki ücretsiz gelir gider tablosuyla gelirini böl.",
+   "faq": [
+    {
+     "q": "Bir bütçede kaç kategori olmalı?",
+     "a": "Beş ile sekiz arasında başla: kira, faturalar, market, ulaşım, dışarıda yemek, alışveriş ve birikim gibi. Yenilerini yalnızca ihtiyaç duyunca ekle."
+    },
+    {
+     "q": "Bir bütçeyi aşarsam ne olur?",
+     "a": "Başka bir kategoriden para kaydır ya da dersini gelecek aya taşı. Bütçe bir sınav değil, düzenleyerek ilerlediğin bir plandır."
+    }
+   ],
+   "screen": "04",
+   "tool": "budget"
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "borctan-kurtulma-tarihi",
+   "title": "Borçtan Kurtulma Tarihi: Ne Zaman Borçsuz Olacaksın?",
+   "description": "Borçsuz olacağın tarih, son borcunun kapandığı aydır. Nasıl hesaplandığını ve ek ödemelerin bu tarihi nasıl öne çektiğini öğren.",
+   "h1": "Borçsuz olacağın tarih nasıl hesaplanır?",
+   "intro": [
+    "Borçsuz olacağın tarih, son borcunun sıfırlandığı aydır. Ne kadar borcun olduğuna, faiz oranlarına ve her ay ne kadar ödediğine bağlıdır.",
+    "Tarihi bilmek belirsiz bir hedefi net bir son tarihe çevirir ve bir ek ödemenin tam olarak neye değdiğini gösterir."
+   ],
+   "steps_title": "Tarihini Spendry'de öğren",
+   "steps": [
+    "Tüm borçlarını ekle: kartlar, krediler, taksitler, ek hesap (KMH) ve arkadaşlarına olan borçlar.",
+    "Her borcun bakiyesini, faiz oranını ve aylık ödemesini gir.",
+    "Spendry borçsuz olacağın ayı hesaplar ve her ödeme yaptığında ya da yeni bir borç eklediğinde günceller."
+   ],
+   "example_title": "Hemen dene",
+   "example": "Bu sitedeki ücretsiz borç kapatma hesaplama aracı aynı şekilde çalışır: borçlarını ve aylık ek tutarı gir, kar topu ve çığ yöntemleriyle tarihini gör.",
+   "tip": "Her maaş gününden sonra tarihe bak. Yaklaştığını görmek en iyi motivasyondur.",
+   "faq": [
+    {
+     "q": "Borçsuz olacağım tarih neden değişiyor?",
+     "a": "Fazladan ödediğinde yaklaşır, yeni borç eklediğinde ya da daha az ödediğinde uzaklaşır. Spendry her seferinde yeniden hesaplar."
+    },
+    {
+     "q": "Bir arkadaşıma olan borcu da ekleyebilir miyim?",
+     "a": "Evet. Faizsiz kişisel borç olarak ekle."
+    }
+   ],
+   "screen": "06",
+   "tool": "debt"
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "banka-baglamadan-harcama-takibi",
+   "title": "Banka Hesabını Bağlamadan Harcama Takibi Nasıl Yapılır?",
+   "description": "Harcamalarını takip etmek için bir uygulamaya banka şifreni vermen gerekmez. Giderleri saniyeler içinde ekle, fiş tara, verilerin iPhone'unda kalsın.",
+   "h1": "Bankanı bağlamadan harcamalarını nasıl takip edersin?",
+   "intro": [
+    "Birçok bütçe uygulaması banka giriş bilgilerini ister. Bunları kendine saklamak istersen günde birkaç saniyeyle yine her gideri takip edebilirsin.",
+    "Giderleri kendin eklemek neye para harcadığını fark etmeni de sağlar; takip etmenin asıl amacı çoğu zaman budur."
+   ],
+   "steps_title": "Spendry bunu nasıl yapar",
+   "steps": [
+    "Saniyeler içinde gider ekle: tutarı yaz ve bir kategori seç ya da fişi tara.",
+    "Kestirmeler uygulamasında hazır Apple Pay otomasyonunu aç; kartla yaptığın ödemeler mağaza adıyla birlikte kendiliğinden kaydedilir.",
+    "Kayıtların iPhone'unda kalır ve kendi iCloud hesabın üzerinden eşzamanlanır. Spendry onları hiç görmez."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Gideri ödediğin anda ekle. Sonraya bırakınca harcamalar unutulur.",
+   "faq": [
+    {
+     "q": "Banka bağlantısı olmadan güvenli mi?",
+     "a": "Sızabilecek bir banka şifresi yok. Spendry kayıtlarını cihazında ve kendi iCloud hesabında tutar; uygulamayı Face ID ile kilitleyebilirsin."
+    },
+    {
+     "q": "İşlemleri içe aktarabilir miyim?",
+     "a": "Evet. Banka mesajlarından ya da Kestirmeler otomasyonlarıyla, banka şifresi paylaşmadan aktarabilirsin."
+    }
+   ],
+   "screen": "02",
+   "tool": ""
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "iphone-butce-widgetlari",
+   "title": "iPhone Ana Ekranı ve Kilitli Ekran İçin Bütçe Widget'ları",
+   "description": "Bakiyeni, bütçelerini, hedeflerini ve yaklaşan ödemelerini ana ekranda ve kilitli ekranda gör, uygulamayı açmadan gider ekle.",
+   "h1": "iPhone ana ekranı için bütçe widget'ları",
+   "intro": [
+    "Bir widget, uygulama açmadan paranı göz önünde tutar. Ana ekrana bir bakış, bir bütçede ne kaldığını ve sıradaki ödemeyi söyler.",
+    "Spendry'de bakiye, bütçeler, hedefler, borçlar, nakit akışı ve yaklaşan ödemeler için widget'lar var; ana ekran ve kilitli ekran için farklı boyutlarda."
+   ],
+   "steps_title": "Spendry widget'ı ekle",
+   "steps": [
+    "Ana ekranda boş bir alana dokunup basılı tut, sonra Düzenle'ye ve Araç Takımı Ekle'ye dokun.",
+    "Spendry'yi ara, bir widget ve bir boyut seç.",
+    "Widget'a dokunup basılı tut ve hangi bütçeyi, hedefi ya da hesabı göstereceğini seçmek için Araç Takımını Düzenle'ye dokun."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Yaklaşan ödemeler widget'ını ana ekranın ilk sayfasına koy. En kolay unutulan şey son ödeme tarihleridir.",
+   "faq": [
+    {
+     "q": "Widget'tan gider ekleyebilir miyim?",
+     "a": "Evet. Gider ekleme widget'ı doğrudan yeni bir gider açar, bir harcamayı kaydetmek birkaç saniye sürer."
+    },
+    {
+     "q": "Widget'lar kendiliğinden güncellenir mi?",
+     "a": "Evet. Kayıt ekledikçe ve gün boyunca yenilenirler."
+    }
+   ],
+   "screen": "01",
+   "tool": ""
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "hedef-icin-birikim",
+   "title": "Bir Hedef İçin Nasıl Birikim Yapılır? Basit Bir Yöntem",
+   "description": "Bir hedef ve tarih belirle, her ay sabit bir tutar biriktir ve ilerlemeni takip et. Tatil, araba ya da acil durum fonu için basit bir yöntem.",
+   "h1": "Bir hedef için nasıl birikim yapılır?",
+   "intro": [
+    "Tutarı ve tarihi belli bir hedefe ulaşmak bir dilekten kolaydır. İhtiyacın olanı kalan ay sayısına böl, aylık tutarını bulursun.",
+    "Maaş yatar yatmaz, harcamadan önce biriktirmek planı kendiliğinden işler hale getirir."
+   ],
+   "steps_title": "Spendry ile biriktir",
+   "steps": [
+    "Tutarı ve ulaşmak istediğin tarihi girerek bir hedef oluştur.",
+    "Her biriktirdiğinde hedefe ekle; Spendry ne kadar yaklaştığını gösterir.",
+    "Bir hedefi iCloud üzerinden eşinle ya da ailenle paylaş ve birlikte biriktirin."
+   ],
+   "example_title": "Bir örnek",
+   "example": "12 ayda 60.000 TL biriktirmek için ayda 5.000 TL gerekir. 12.000 TL zaten birikmişse bu tutar 4.000 TL'ye düşer.",
+   "tip": "Bir aylık giderin kadar bir acil durum fonuyla başla, sonra onu üç aya çıkar.",
+   "faq": [
+    {
+     "q": "Acil durum fonu ne kadar olmalı?",
+     "a": "Zorunlu giderlerinin üç ile altı aylık tutarı yaygın bir hedeftir. Bir ayla başla ve oradan büyüt."
+    },
+    {
+     "q": "Birden fazla hedef için biriktirebilir miyim?",
+     "a": "Evet. İstediğin kadar hedef oluştur ve her birinin ilerlemesini takip et."
+    }
+   ],
+   "screen": "05",
+   "tool": "savings"
+  },
+  {
+   "key": "track-loans",
+   "slug": "kredi-takibi",
+   "title": "Kredi Takibi: Gerçekte Ne Kadar Ödediğini Gör",
+   "description": "Taşıt, ihtiyaç ve konut kredilerini takip et: kalan borç, kalan taksitler, faiz ve kredinin biteceği ay; her taksitten önce hatırlatma al.",
+   "h1": "Kredi nasıl takip edilir, gerçekte ne kadar ödersin?",
+   "intro": [
+    "Kredinin aylık taksiti iki şeyi gizler: ne kadarının faiz olduğunu ve kaç taksit kaldığını. İkisini de takip etmek gerçek maliyeti gösterir.",
+    "Kredinin başında taksitin büyük kısmı faizdir; sonlara doğru çoğu anaparayı azaltır. Bu yüzden erken yapılan ara ödemeler en çok tasarrufu sağlar."
+   ],
+   "steps_title": "Spendry'de takip et",
+   "steps": [
+    "Krediyi tutarı, faiz oranı, vadesi ve ilk ödeme tarihiyle ekle.",
+    "Kalan borcu, kalan taksitleri ve kredinin biteceği ayı gör.",
+    "Her taksitten önce hatırlatma al ve krediyi borç kapatma planına dahil et."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "İmzalamadan önce bu sitedeki ücretsiz kredi hesaplama aracıyla aylık taksiti, toplam faizi, KKDF ve BSMV'yi gör.",
+   "faq": [
+    {
+     "q": "Krediyi erken kapatmalı mıyım?",
+     "a": "Faiz yüksekse ve erken ödeme ücreti düşükse ara ödemeler faizden tasarruf ettirir. Önce kredi sözleşmene bak."
+    },
+    {
+     "q": "Konut kredisini de takip edebilir miyim?",
+     "a": "Evet. Faiz oranı ve vadesiyle kredi olarak ekle."
+    }
+   ],
+   "screen": "06",
+   "tool": "loan"
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "net-varlik-takibi",
+   "title": "Net Varlık Takibi: iPhone'da Net Değerini Gör",
+   "description": "Net değer, sahip olduklarından borçların çıkınca kalan tutardır. Birikimlerini, yatırımlarını, altınını ve borçlarını tek yerde takip et.",
+   "h1": "Net değerini nasıl takip edersin?",
+   "intro": [
+    "Net değer, sahip olduğun her şeyden borçlarının çıkarılmasıyla kalan tutardır. Paranın doğru yöne gidip gitmediğini gösteren tek rakamdır.",
+    "Ayda bir bakmak, tek bir ay kötü görünse bile gidişatı görmek için yeter."
+   ],
+   "steps_title": "Spendry'de takip et",
+   "steps": [
+    "Hesaplarını ve birikimlerini ekle.",
+    "Yatırımlarını ekle: hisse senetleri, kripto paralar, altın ve dövizler anlık fiyatlarla görünür.",
+    "Borçlarını ekle. Spendry net değerini ve zaman içindeki değişimini gösterir."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Borç ödemek de birikim yapmak gibi net değerini artırır.",
+   "faq": [
+    {
+     "q": "Evimi ya da arabamı da eklemeli miyim?",
+     "a": "Ekleyebilirsin, ama birçok kişi yalnızca aydan aya değişen nakdi, yatırımları ve borçları takip eder."
+    },
+    {
+     "q": "Yatırım fiyatları ne sıklıkla güncellenir?",
+     "a": "Spendry hisse senetleri, kripto paralar, değerli metaller ve dövizler için anlık fiyatlar gösterir."
+    }
+   ],
+   "screen": "08",
+   "tool": ""
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "esinle-ortak-butce",
+   "title": "Eşinle Ortak Bütçe Nasıl Yapılır? iCloud ile Paylaşım",
+   "description": "Bir bütçeyi ya da birikim hedefini iCloud üzerinden eşinle veya ailenle paylaş. Herkes gider ekler, aynı rakamları görür, ortak şifre gerekmez.",
+   "h1": "Eşinle ortak bütçe nasıl yapılır?",
+   "intro": [
+    "İkiniz de aynı rakamları gördüğünüzde para konuşmaları daha kolay geçer. Ortak bir bütçe, kimse hesap tutmadan neyin harcandığını ve ne kaldığını gösterir.",
+    "Kişisel harcamaları ayrı tut, yalnızca birlikte ödediklerinizi paylaş: kira, market, tatil gibi."
+   ],
+   "steps_title": "Spendry'de paylaş",
+   "steps": [
+    "Bir bütçe ya da hedef oluştur ve paylaşmayı seç.",
+    "Eşini ya da aileni iCloud paylaşımıyla davet et.",
+    "Herkes gider ekleyebilir, değişiklikler her cihazda görünür."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Başlamadan önce hangi kategorileri paylaşacağınızda anlaşın, sonra ayda bir birlikte bakın.",
+   "faq": [
+    {
+     "q": "Eşim tüm harcamalarımı görür mü?",
+     "a": "Hayır. Yalnızca paylaştıklarını görür. Diğer bütçelerin ve hesapların gizli kalır."
+    },
+    {
+     "q": "İkimizin de Spendry'ye ihtiyacı var mı?",
+     "a": "Evet. Herkes Spendry'yi kendi iPhone'unda kullanır, ortak bütçe iCloud üzerinden eşzamanlanır."
+    }
+   ],
+   "screen": "04",
+   "tool": ""
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "apple-pay-harcamalarini-otomatik-kaydetme",
+   "title": "Apple Pay Harcamalarını Kestirmeler ile Otomatik Kaydet",
+   "description": "Hazır bir Kestirmeler otomasyonuyla her Apple Pay alışverişini Spendry'ye kaydet; bütçelerin yazı yazmadan güncel kalsın.",
+   "h1": "Apple Pay harcamalarını otomatik olarak kaydet",
+   "intro": [
+    "Kestirmeler uygulaması, Apple Pay ile her ödeme yaptığında bir işlem çalıştırabilir. Spendry bunu alışverişi senin yerine kaydetmek için kullanır.",
+    "Bütçelerin yazı yazmadan güncel kalır; istersen yalnızca bir kategori seçersin."
+   ],
+   "steps_title": "Otomasyonu aç",
+   "steps": [
+    "Spendry'de Otomasyonlar'ı aç ve Apple Pay otomasyonunu seç.",
+    "Kestirmeler uygulamasına eklemek için adımları izle.",
+    "Her zamanki gibi Apple Pay ile öde. Alışveriş mağaza adıyla birlikte Spendry'de görünür."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Haftanın harcamalarını kısa bir raporla görmek için pazar akşamı otomasyonunu da ekle.",
+   "faq": [
+    {
+     "q": "Bu, Spendry'ye bankama erişim verir mi?",
+     "a": "Hayır. Otomasyon yalnızca iPhone'unun zaten gösterdiği alışveriş bilgilerini, yani tutarı ve mağazayı aktarır. Banka şifresi yok."
+    },
+    {
+     "q": "Kategoriyi sonradan değiştirebilir miyim?",
+     "a": "Evet. Gideri Spendry'de istediğin zaman düzenle."
+    }
+   ],
+   "screen": "02",
+   "tool": ""
+  }
+ ],
+ "guides_index": {
+  "slug": "rehberler",
+  "title": "Para Rehberleri: Bütçe, Borç Kapatma ve Faturalar",
+  "description": "Bütçe yapma, borç kapatma, kredi kartları, taksitler, abonelikler ve hiçbir ödemeyi kaçırmamak üzerine kısa ve pratik rehberler.",
+  "h1": "Para rehberleri",
+  "lead": "Bütçe yapma, borç kapatma ve hiçbir ödemeyi kaçırmamak üzerine kısa ve pratik rehberler."
+ },
+ "guide_labels": {
+  "nav": "Rehberler",
+  "tip": "İpucu",
+  "faq": "Sorular",
+  "more": "Diğer rehberler",
+  "all": "Tüm rehberler",
+  "tools": "Ücretsiz hesaplama araçları",
+  "cta": "Hepsini tek yerde takip et. Spendry'yi App Store'dan ücretsiz indir.",
+  "topic_debt": "Borç ve kredi kartları",
+  "topic_bills": "Faturalar ve abonelikler",
+  "topic_budget": "Bütçe ve birikim",
+  "topic_iphone": "iPhone'unda"
+ },
+ "cc_tool": {
+  "slug": "kredi-karti-borc-hesaplama",
+  "title": "Kredi Kartı Borç Hesaplama: Borcum Ne Zaman Biter?",
+  "description": "Ücretsiz kredi kartı borç hesaplama: borcunu, aylık faizi ve ödemeni gir; borcun ne zaman biteceğini, toplam faizi ve asgari ödemenin maliyetini gör.",
+  "h1": "Kredi kartı borç hesaplama",
+  "lead": "Kart borcunun ne zaman biteceğini ve ne kadar faiz ödeyeceğini gör, yalnızca asgari ödeme yapmakla karşılaştır.",
+  "balance": "Kart borcu",
+  "rate": "Aylık akdi faiz (%)",
+  "payment": "Aylık ödemen",
+  "min_pct": "Asgari ödeme oranı (%)",
+  "months": "Biter",
+  "interest": "Toplam faiz",
+  "date": "Borçsuz",
+  "fixed": "Senin ödemenle",
+  "minimum": "Yalnızca asgari ödeme",
+  "never": "Bu ödeme aylık faizi karşılamıyor. Borcu kapatmak için tutarı artır.",
+  "saved": "Faizden kazancın",
+  "prose": [
+   [
+    "Hesaplama nasıl yapılır?",
+    "Araç her ay kalan borca bir aylık faiz ekler ve ödemeni düşer, borç sıfırlanana kadar. Asgari ödeme karşılaştırmasında asgari tutar her ay kalan borçtan yeniden hesaplanır. Gerçek ekstrede vergiler ve yeni harcamalar sonucu değiştirebilir."
+   ],
+   [
+    "Asgari ödeme neden bu kadar uzun sürer?",
+    "Borç azaldıkça asgari tutar da azalır, bu yüzden ödeme faizin pek önüne geçemez. Sabit bir ödeme ise her ay aynı tutarın borcu azaltmasını sağlar."
+   ],
+   [
+    "Planı gerçeğe dönüştür",
+    "Spendry planı sürdürür: kartlarını ekle, her ay ne kadar ödeyebileceğini belirle ve her son ödeme tarihinden önce hatırlatma al."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "birikim-hesaplama",
+  "title": "Birikim Hesaplama: Hedefe Ulaşmak İçin Ayda Ne Kadar?",
+  "description": "Ücretsiz birikim hesaplama aracı. Hedefini, birikmiş paranı ve süreni gir; her ay ne kadar biriktirmen gerektiğini getirisiyle birlikte gör.",
+  "h1": "Birikim hesaplama",
+  "lead": "Hedefine zamanında ulaşmak için her ay ne kadar kenara koyman gerektiğini hesapla.",
+  "goal": "Hedef tutar",
+  "have": "Şu ana kadar biriken",
+  "months": "Kaç ayda",
+  "rate": "Yıllık getiri oranı (%)",
+  "monthly": "Her ay biriktir",
+  "weekly": "Haftalık yaklaşık",
+  "total_in": "Senin koyacağın",
+  "earned": "Getiri",
+  "done": "Bu hedefe zaten ulaştın.",
+  "prose": [
+   [
+    "Nasıl çalışır?",
+    "Araç, hedefinden kalan tutarı elindeki aylara yayar. Bir getiri oranı girersen biriktirdiğin para her ay getiri kazanır, böylece biraz daha az koyman gerekir."
+   ],
+   [
+    "Kolaylaştır",
+    "Maaş yatar yatmaz biriktir ve bunu bir fatura gibi gör. Eşinle paylaştığın bir hedef daha hızlı ilerleyebilir."
+   ],
+   [
+    "İlerlemeni takip et",
+    "Hedefi Spendry'de oluştur ve her eklediğinde ne kadar yaklaştığını gör."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "abonelik-maliyeti-hesaplama",
+  "title": "Abonelik Hesaplama: Aboneliklerine Yılda Ne Ödüyorsun?",
+  "description": "Ücretsiz abonelik hesaplama aracı. Aboneliklerini fiyatı ve ödeme döngüsüyle listele; aylık, yıllık ve beş yıllık toplamını gör.",
+  "h1": "Abonelik maliyeti hesaplama",
+  "lead": "Aboneliklerini listele, gerçek aylık ve yıllık toplamı gör.",
+  "name": "Abonelik",
+  "price": "Fiyat",
+  "cycle": "Döngü",
+  "weekly": "Haftalık",
+  "monthly": "Aylık",
+  "yearly": "Yıllık",
+  "add": "Abonelik ekle",
+  "remove": "Kaldır",
+  "per_month": "Aylık",
+  "per_year": "Yıllık",
+  "five_years": "5 yılda",
+  "samples": [
+   "Müzik",
+   "Dizi ve film",
+   "Bulut depolama",
+   "Spor salonu",
+   "Haber uygulaması"
+  ],
+  "prose": [
+   [
+    "Yıllık toplam neden önemli?",
+    "Küçük bir aylık fiyat zararsız görünür. On ikiyle ve sahip olduğun her abonelikle çarpınca çoğu zaman en büyük düzenli giderlerinden biri çıkar."
+   ],
+   [
+    "Bu rakamla ne yapmalı?",
+    "Fiyata göre sırala ve her biri için sor: geçen ay kullandım mı? Kullanmadıklarını iptal et, tuttukların için yenilemeden önce hatırlatma kur."
+   ],
+   [
+    "Hiçbir yenilemeyi kaçırma",
+    "Spendry aboneliklerini takip eder, aylık toplamına ekler ve her yenilemeden önce hatırlatır."
+   ]
+  ]
+ }
 }

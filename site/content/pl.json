@@ -327,5 +327,676 @@
     "W Spendry każda kategoria ma swój miesięczny limit, który zapełnia się przy każdym zakupie, z ostrzeżeniem zanim przekroczysz budżet."
    ]
   ]
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Kula śnieżna czy lawina: jak szybciej spłacić długi?",
+   "description": "Kula śnieżna spłaca najmniejszy dług, a lawina najwyższe odsetki. Zobacz różnice, oszczędności na odsetkach i wybierz metodę dla siebie.",
+   "h1": "Kula śnieżna czy metoda lawiny: co wybrać?",
+   "intro": [
+    "W obu metodach płacisz kwoty minimalne za każdy dług, a każdą nadwyżkę kierujesz na jeden wybrany. Różnica polega tylko na tym, który dług spłacasz jako pierwszy.",
+    "Kula śnieżna zaczyna od najmniejszego długu, dzięki czemu szybko zamykasz pierwsze zobowiązanie i zyskujesz motywację. Metoda lawiny zaczyna od najwyższego oprocentowania, co pozwala zapłacić najmniej odsetek."
+   ],
+   "steps_title": "Spłacaj długi według planu w Spendry",
+   "steps": [
+    "Dodaj każdą kartę, kredyt i ratę, wpisując saldo, oprocentowanie oraz spłatę minimalną.",
+    "Otwórz Długi i wybierz metodę: Kula śnieżna lub Metoda lawiny.",
+    "Wpisz, ile możesz dopłacać co miesiąc ponad wymagane minima.",
+    "Spendry uporządkuje Twoje długi i wskaże miesiąc, w którym nadejdzie Data całkowitej spłaty długu, przypominając o każdej płatności."
+   ],
+   "example_title": "Przykład",
+   "example": "Trzy długi: 1 200 przy 24%, 4 000 przy 18% i 9 000 przy 9%, z dopłatą 300 miesięcznie. Metoda lawiny najpierw likwiduje kartę z 24% i generuje najmniej odsetek. Kula śnieżna najpierw spłaca kwotę 1 200, więc jeden dług znika już po kilku miesiącach. Ostateczne daty zakończenia spłaty różnią się często zaledwie o miesiąc lub dwa.",
+   "tip": "Jeśli obie daty są blisko siebie, wybierz metodę, przy której łatwiej Ci wytrwać. Najlepszy plan to ten, który faktycznie realizujesz.",
+   "faq": [
+    {
+     "q": "Która metoda pozwala zaoszczędzić najwięcej?",
+     "a": "Metoda lawiny, ponieważ najszybciej maleje najdroższy dług. Wysokość oszczędności zależy od różnic w oprocentowaniu Twoich zobowiązań."
+    },
+    {
+     "q": "Czy mogę zmienić metodę w trakcie spłaty?",
+     "a": "Tak. W każdej chwili możesz zmienić strategię w Spendry, a plan i Data całkowitej spłaty długu natychmiast się zaktualizują."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Jak szybciej spłacić kartę kredytową: 4 nawyki",
+   "description": "Skuteczne sposoby na spłatę karty kredytowej: płać więcej niż minimum, spłacaj najdroższy dług, unikaj opóźnień i wstrzymaj nowe wydatki.",
+   "h1": "Jak szybciej spłacić dług na karcie kredytowej",
+   "intro": [
+    "Dług na karcie kredytowej rośnie, bo odsetki są naliczane co miesiąc od pozostałej kwoty. Każda dodatkowa wpłata zmniejsza kapitał, od którego bank liczy kolejne koszty.",
+    "Największą różnicę dają cztery nawyki: płać więcej niż wymagane minimum, nigdy się nie spóźniaj, wpłacaj nadwyżki na najwyżej oprocentowaną kartę i przestań kupować na kredyt rzeczy, których nie możesz od razu spłacić."
+   ],
+   "steps_title": "Zrób to ze Spendry",
+   "steps": [
+    "Dodaj swoje karty kredytowe wraz z saldem, oprocentowaniem, dniem wyciągu i terminem płatności.",
+    "Ustal miesięczną kwotę powyżej spłat minimalnych i wybierz opcję Metoda lawiny.",
+    "Włącz przypomnienia, aby nie przegapić żadnego terminu, nawet gdy aplikacja jest zamknięta.",
+    "Zaglądaj co miesiąc w Długi, aby patrzeć, jak spada saldo, a Data całkowitej spłaty długu jest coraz bliżej."
+   ],
+   "example_title": "Przykład",
+   "example": "Spłata długu 3 000 przy oprocentowaniu 22% samymi spłatami minimalnymi na poziomie około 2,5% zajmie ponad dziesięć lat. Stała wpłata 175 każdego miesiąca pozwala zamknąć go w niespełna dwa lata.",
+   "tip": "Gdy otrzymasz zwrot podatku lub premię, wpłać część na kartę z najwyższym oprocentowaniem. Jedna większa wpłata może skrócić spłatę o całe miesiące.",
+   "faq": [
+    {
+     "q": "Lepiej spłacać najpierw najwyższe oprocentowanie czy najmniejszy dług?",
+     "a": "Najwyższe oprocentowanie pozwala zaoszczędzić najwięcej na odsetkach. Najmniejszy dług daje szybki sukces psychologiczny. Spendry wylicza datę całkowitej spłaty dla obu metod, więc łatwo je porównasz."
+    },
+    {
+     "q": "Czy warto używać karty w trakcie jej spłacania?",
+     "a": "Tylko do zakupów, które spłacisz w całości przed terminem płatności. Nowe zadłużenie tylko oddala moment całkowitej wolności od długów."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Pułapka spłaty minimalnej na karcie kredytowej",
+   "description": "Spłata minimalna chroni przed karami, ale większość kwoty to odsetki. Zobacz, ile trwa spłata i jak pomaga nawet niewielka dopłata.",
+   "h1": "Co się dzieje, gdy spłacasz tylko kwotę minimalną",
+   "intro": [
+    "Spłata minimalna chroni Cię przed karami za zwłokę, ale jej lwia część pokrywa same odsetki. Gdy zadłużenie spada, kwota minimalna maleje wraz z nim, przez co spłata może ciągnąć się latami.",
+    "Nawet mała, stała dopłata zmienia wszystko: większa część wpłaty zmniejsza właściwy dług, a ostateczny termin spłaty skraca się o całe lata."
+   ],
+   "steps_title": "Sprawdź swoje liczby",
+   "steps": [
+    "Skorzystaj z darmowego kalkulatora spłaty karty kredytowej na tej stronie, aby porównać spłaty minimalne ze stałą kwotą miesięczną.",
+    "W aplikacji Spendry dodaj kartę, podając jej oprocentowanie i spłatę minimalną.",
+    "Ustaw dodatkową kwotę, którą możesz regularnie dopłacać, i zobacz, jak przesuwa się Data całkowitej spłaty długu."
+   ],
+   "example_title": "Przykład",
+   "example": "Dług w wysokości 3 000 przy oprocentowaniu 22% i spłatach minimalnych rzędu 2,5% może zająć ponad dziesięć lat, a odsetki przekroczą początkową kwotę długu. Stała spłata 175 miesięcznie zamyka sprawę w mniej niż dwa lata.",
+   "tip": "Jeśli nie możesz teraz płacić więcej, ustaw w banku automatyczną spłatę minimalną, by uniknąć opóźnień, a dodatkowe kwoty dopłacaj przy każdej okazji.",
+   "faq": [
+    {
+     "q": "Czy spłacanie tylko kwoty minimalnej psuje historię kredytową?",
+     "a": "Terminowe wpłacanie kwoty minimalnej utrzymuje konto w należytym porządku. Jednak wysokie wykorzystanie limitu wciąż wpływa na ocenę punktową, dlatego warto zmniejszać zadłużenie."
+    },
+    {
+     "q": "Jak wyliczana jest spłata minimalna?",
+     "a": "Zależy to od banku: zwykle jest to niewielki procent salda zadłużenia lub ustalona kwota minimalna, zależnie od tego, co jest wyższe. Dokładną kwotę znajdziesz na wyciągu."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Dzień wyciągu a termin spłaty: kiedy płacić?",
+   "description": "Dzień wyciągu zamyka okres rozliczeniowy, a termin spłaty to ostateczny dzień na płatność. Dowiedz się, jak to działa i kiedy spłacać kartę.",
+   "h1": "Dzień wyciągu a termin spłaty: kiedy regulować kartę?",
+   "intro": [
+    "Dzień wyciągu karty to moment, w którym zamyka się okres rozliczeniowy i bank podsumowuje wydatki. Termin płatności przypada kilkadziesiąt dni później i jest to ostatni moment na bezodsetkową spłatę.",
+    "Jeśli spłacisz całe saldo z wyciągu do tego dnia, większość banków nie naliczy żadnych odsetek od zakupów. Jeśli wpłacisz mniej, odsetki zostaną naliczone od pozostałej kwoty."
+   ],
+   "steps_title": "Nie przegap żadnego terminu ze Spendry",
+   "steps": [
+    "Dodaj kartę, podając dzień wystawienia wyciągu oraz ostateczny termin płatności.",
+    "Spendry pokazuje nadchodzące płatności na ekranie Główna oraz w sekcji Przypomnienia.",
+    "Odbierz przypomnienie przed terminem i oznacz wydatek jako opłacony albo odłóż go bezpośrednio z powiadomienia."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Zakupy zrobione zaraz po dniu wyciągu mają najdłuższy okres bezodsetkowy, ponieważ trafią dopiero na kolejny wyciąg.",
+   "faq": [
+    {
+     "q": "Co zrobić, jeśli termin spłaty przypada w weekend?",
+     "a": "Wiele banków przesuwa go na kolejny dzień roboczy, ale zasady bywają różne. Najbezpieczniej jest przelać środki dzień lub dwa wcześniej."
+    },
+    {
+     "q": "Czy mogę spłacić kartę jeszcze przed dniem wyciągu?",
+     "a": "Tak. Wcześniejsza wpłata obniży saldo, które pojawi się na Twoim kolejnym wyciągu."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "Jak kontrolować raty na iPhone: prosty sposób",
+   "description": "Wszystkie raty w jednym miejscu: kwota do spłaty, liczba pozostałych rat i terminy płatności. Wygodne przypomnienia przed każdą ratą.",
+   "h1": "Jak kontrolować płatności ratalne na iPhone",
+   "intro": [
+    "Rozłożenie zakupu na raty wydaje się wygodne, ale kilka planów ratalnych naraz potrafi niepostrzeżenie pochłonąć znaczną część miesięcznego budżetu.",
+    "Śledzenie każdej raty i liczby pozostałych płatności pozwala zobaczyć prawdziwe miesięczne obciążenie oraz dokładny moment zakończenia spłaty."
+   ],
+   "steps_title": "Kontroluj Raty w Spendry",
+   "steps": [
+    "Dodaj ratę, wpisując całkowitą kwotę, liczbę płatności oraz datę pierwszej raty.",
+    "Przeglądaj plany z informacją o kwocie spłaconej, kwocie pozostałej oraz dacie kolejnej płatności.",
+    "Otrzymuj przypomnienia przed każdą płatnością i sprawdzaj, jak Raty wpływają na parametr Data całkowitej spłaty długu obok kart i kredytów."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Zanim weźmiesz nowe zakupy na raty, zsumuj te, które już spłacasz. Jeśli w trudniejszym miesiącu zabraknie na nie środków, lepiej wstrzymać się z zakupem.",
+   "faq": [
+    {
+     "q": "Czy raty wliczają się w wyliczenie, jakim jest Data całkowitej spłaty długu?",
+     "a": "Tak. Spendry uwzględnia je razem z kartami i kredytami, dając pełny obraz Twoich finansów."
+    },
+    {
+     "q": "Czy mogę śledzić raty 0%?",
+     "a": "Tak. Ustaw oprocentowanie na zero, a Spendry po prostu odliczy kolejne zapłacone raty."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "Jak nie zapomnieć o rachunkach: powiadomienia",
+   "description": "Ustaw przypomnienia o rachunkach, kartach i subskrypcjach na iPhone. Otrzymuj powiadomienia przed terminem i oznaczaj spłatę jednym stuknięciem.",
+   "h1": "Jak nigdy nie spóźnić się z opłaceniem rachunku",
+   "intro": [
+    "Kary za zwłokę i karne odsetki najczęściej wynikają ze zwykłego zapomnienia, a nie z braku pieniędzy. Przypomnienie na kilka dni przed terminem rozwiązuje ten problem.",
+    "Kluczem jest zebranie wszystkich opłat w jednym miejscu: czynsz, media, telefon, karty kredytowe, kredyty i subskrypcje."
+   ],
+   "steps_title": "Ustaw to w Spendry",
+   "steps": [
+    "Dodaj każdy rachunek i subskrypcję, podając kwotę, termin płatności oraz częstotliwość powtórzeń.",
+    "Wybierz, ile dni przed terminem chcesz otrzymać powiadomienie.",
+    "Przypomnienia działają nawet wtedy, gdy aplikacja jest zamknięta. Możesz oznaczyć płatność jako uregulowaną albo ją odłożyć prosto z powiadomienia."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Dodaj widżet nadchodzących płatności na początkowy ekran początkowy, aby mieć rachunki na najbliższy tydzień na oku przy każdym odblokowaniu telefonu.",
+   "faq": [
+    {
+     "q": "Czy dostanę przypomnienia, jeśli nie otwieram aplikacji?",
+     "a": "Tak. Spendry planuje powiadomienia w systemie iPhone, więc dotrą one nawet wtedy, gdy aplikacja nie jest uruchomiona."
+    },
+    {
+     "q": "Czy mogę sprawdzić wszystkie opłaty przypadające na ten tydzień?",
+     "a": "Tak. Ekran Przypomnienia pokazuje najbliższe terminy, a poranna automatyzacja może podsumować płatności z kolejnych trzech dni w jednym powiadomieniu."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "Jak kontrolować i ograniczyć subskrypcje na iPhone",
+   "description": "Sprawdź, ile kosztują Twoje subskrypcje miesięcznie i rocznie. Otrzymuj powiadomienia przed odnowieniem i łatwo zrezygnuj ze zbędnych usług.",
+   "h1": "Jak kontrolować i ograniczać subskrypcje",
+   "intro": [
+    "Subskrypcje łatwo uruchomić i równie łatwo o nich zapomnieć. Kilka z pozoru drobnych miesięcznych opłat składa się na sporą sumę w skali roku.",
+    "Wystarczy spojrzeć na łączne zestawienie wydatków w ujęciu miesięcznym i rocznym, aby szybko wskazać dwie lub trzy usługi, z których już nie korzystasz."
+   ],
+   "steps_title": "Śledź Subskrypcje w Spendry",
+   "steps": [
+    "Dodaj każdą subskrypcję, podając jej koszt i cykl rozliczeniowy: tygodniowy, miesięczny lub roczny.",
+    "Spendry zsumuje Twoje koszty w ujęciu miesięcznym i rocznym oraz pokaże datę kolejnego odnowienia.",
+    "Odbierz przypomnienie przed kolejną opłatą, aby zrezygnować z usługi w odpowiednim momencie."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Wypróbuj darmowy kalkulator kosztów subskrypcji na tej stronie: wpisz swoje opłaty i w kilka sekund sprawdź roczną sumę.",
+   "faq": [
+    {
+     "q": "Czy Spendry anuluje subskrypcje w moim imieniu?",
+     "a": "Nie. Spendry nie łączy się z Twoimi kontami bankowymi. Aplikacja przypomina o odnowieniu, dzięki czemu możesz anulować usługę bezpośrednio u dostawcy."
+    },
+    {
+     "q": "Czy mogę śledzić subskrypcje rozliczane rocznie?",
+     "a": "Tak. Spendry obsługuje cykle tygodniowe, miesięczne oraz roczne i automatycznie uwzględnia je w miesięcznym podsumowaniu."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "Jak stworzyć działający budżet domowy na miesiąc",
+   "description": "Prosty sposób na budżet domowy: wyjdź od dochodów, zabezpiecz stałe opłaty, ustal limity wydatków i odkładaj oszczędności na początku miesiąca.",
+   "h1": "Jak stworzyć budżet miesięczny, który działa",
+   "intro": [
+    "Budżet to plan na Twoje dochody przygotowany przed rozpoczęciem miesiąca. Zacznij od kwoty, którą zarabiasz na rękę, a potem zaplanuj, na co trafi każda część.",
+    "Dobrym punktem wyjścia jest przeznaczenie około połowy dochodu na stałe opłaty, około jednej trzeciej na bieżące przyjemności, a reszty na oszczędności i spłatę długów. Dopasuj te proporcje do swojego stylu życia."
+   ],
+   "steps_title": "Zbuduj budżet w Spendry",
+   "steps": [
+    "Wpisz swój miesięczny dochód.",
+    "Stwórz Budżety dla najważniejszych kategorii wydatków i przypisz im limity.",
+    "Paski budżetów zapełniają się, gdy dodajesz wydatki, a Spendry ostrzeże Cię, zanim przekroczysz limit.",
+    "Pod koniec miesiąca sprawdź Statystyki na wykresach i dopasuj limity na kolejny miesiąc."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Skorzystaj z darmowego kalkulatora budżetu miesięcznego na tej stronie, aby podzielić swoje dochody przed ustawieniem limitów.",
+   "faq": [
+    {
+     "q": "Ile kategorii powinien mieć budżet?",
+     "a": "Na początek wystarczy od pięciu do ośmiu: mieszkanie, rachunki, zakupy spożywcze, transport, wyjścia, zakupy i oszczędności. Dodawaj kolejne tylko wtedy, gdy naprawdę ich potrzebujesz."
+    },
+    {
+     "q": "Co zrobić, jeśli przekroczę założony budżet?",
+     "a": "Przesuń brakującą kwotę z innej kategorii lub wyciągnij wnioski na kolejny miesiąc. Budżet to plan, który możesz na bieżąco modyfikować, a nie sztywny egzamin."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Kiedy spłacisz długi: jak wyliczyć datę spłaty",
+   "description": "Data całkowitej spłaty długu to miesiąc, w którym zniknie Twój ostatni dług. Sprawdź, jak ją obliczyć i jak nadpłaty przyspieszają ten dzień.",
+   "h1": "Jak sprawdzić datę całkowitej spłaty długu",
+   "intro": [
+    "Data całkowitej spłaty długu to miesiąc, w którym Twoje saldo spadnie do zera. Zależy od wielkości długu, oprocentowania i kwot, które wpłacasz co miesiąc.",
+    "Gdy znasz konkretny termin, mglisty cel zamienia się w plan. Widzisz też dokładnie, co daje każda dodatkowa nadpłata."
+   ],
+   "steps_title": "Sprawdź datę w Spendry",
+   "steps": [
+    "Dodaj wszystkie zobowiązania: Karty kredytowe, Kredyty, Raty, Konto z debetem i prywatne pożyczki.",
+    "Wpisz kwoty zadłużenia, oprocentowanie i miesięczne raty.",
+    "Spendry wyliczy miesiąc, w którym znikną Twoje Długi, i zaktualizuje go przy każdej spłacie."
+   ],
+   "example_title": "Wypróbuj teraz",
+   "example": "Darmowy kalkulator spłaty długów na tej stronie działa tak samo: dodaj swoje zobowiązania oraz kwotę nadpłaty i sprawdź datę dla strategii Kula śnieżna oraz Metoda lawiny.",
+   "tip": "Sprawdzaj tę datę po każdej wypłacie. Widok przybliżającego się terminu daje ogromną motywację.",
+   "faq": [
+    {
+     "q": "Dlaczego moja data spłaty się zmienia?",
+     "a": "Termin przybliża się, gdy robisz nadpłaty, a oddala, gdy rośnie zadłużenie lub płacisz mniej. Spendry przelicza go na bieżąco."
+    },
+    {
+     "q": "Czy mogę dodać pożyczkę od znajomego?",
+     "a": "Tak. Wpisz ją jako dług prywatny bez oprocentowania."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "Kontrola wydatków bez logowania do banku",
+   "description": "Nie musisz podawać danych do banku, aby kontrolować finanse. Zapisuj wydatki w kilka sekund, skanuj paragony i trzymaj dane na iPhone.",
+   "h1": "Jak kontrolować wydatki bez łączenia z bankiem",
+   "intro": [
+    "Wiele aplikacji finansowych wymaga logowania do banku. Jeśli wolisz zachować prywatność, możesz kontrolować każdy wydatek, poświęcając kilka sekund dziennie.",
+    "Samodzielne wpisywanie sprawia też, że od razu zauważasz, na co idą pieniądze. A o to przecież chodzi."
+   ],
+   "steps_title": "Jak działa to w Spendry",
+   "steps": [
+    "Zapisz wydatek w kilka sekund: wpisz kwotę i wybierz kategorię albo użyj opcji Skanuj paragon.",
+    "Włącz gotową automatyzację Apple Pay w aplikacji Shortcuts, a płatności kartą zapiszą się same wraz z nazwą sklepu.",
+    "Twoje dane zostają na Twoim iPhone i synchronizują się przez Twój własny iCloud. Spendry nie ma do nich dostępu."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Zapisuj wydatek od razu po zapłaceniu. Odkładanie tego na później sprawia, że zakupy łatwo ulatują z pamięci.",
+   "faq": [
+    {
+     "q": "Czy to bezpieczne bez łączenia z bankiem?",
+     "a": "Nie podajesz loginu do banku, więc nic nie wycieknie. Spendry trzyma dane na Twoim urządzeniu i w iCloud, a dostęp chroni Blokada aplikacji przez Face ID."
+    },
+    {
+     "q": "Czy mogę importować transakcje?",
+     "a": "Tak. Możesz dodawać je z powiadomień bankowych lub przez automatyzacje w Shortcuts, zupełnie bez logowania do banku."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Widżety budżetu na iPhone: ekran początkowy",
+   "description": "Sprawdzaj saldo, budżety, cele i nadchodzące rachunki na ekranie początkowym i ekranie blokady. Zapisuj wydatki bez otwierania aplikacji.",
+   "h1": "Widżety budżetu na ekran początkowy iPhone",
+   "intro": [
+    "Widżet pozwala trzymać rękę na pulsie bez otwierania aplikacji. Wystarczy rzut oka na ekran początkowy, aby sprawdzić, ile zostało w budżecie i co trzeba opłacić.",
+    "Spendry oferuje widżety pokazujące saldo, Budżety, Cele, Długi, przepływy i rachunki, w wersjach na ekran początkowy oraz ekran blokady."
+   ],
+   "steps_title": "Dodaj widżet Spendry",
+   "steps": [
+    "Dotknij i przytrzymaj pusty obszar na ekranie początkowym, stuknij Edycja, a potem Dodaj widżet.",
+    "Wyszukaj Spendry, a następnie wybierz widżet i jego rozmiar.",
+    "Dotknij i przytrzymaj dodany widżet i stuknij Edycja widżetu, aby wybrać budżet, cel lub konto."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Umieść widżet z nadchodzącymi płatnościami na pierwszej stronie ekranu początkowego. Terminy rachunków najłatwiej przeoczyć.",
+   "faq": [
+    {
+     "q": "Czy mogę dodać wydatek prosto z widżetu?",
+     "a": "Tak. Widżet szybkiego dodawania otwiera od razu ekran Dodaj wydatek, więc zapisanie zakupu zajmuje chwilę."
+    },
+    {
+     "q": "Czy widżety odświeżają się automatycznie?",
+     "a": "Tak. Aktualizują się w ciągu dnia i po każdym dodaniu wpisu."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "Jak oszczędzać na cel i wreszcie go osiągnąć",
+   "description": "Ustal kwotę i termin, odkładaj co miesiąc stałą sumę i śledź postępy. Prosty sposób na wakacje, auto lub poduszkę finansową.",
+   "h1": "Jak oszczędzać na cel i osiągnąć sukces",
+   "intro": [
+    "Konkretny cel z kwotą i datą osiąga się znacznie łatwiej niż zwykłe marzenie. Podziel potrzebną sumę przez liczbę miesięcy i wiesz dokładnie, ile odkładać.",
+    "Odkładanie pieniędzy od razu po wypłacie, zanim zaczniesz wydawać, zamienia oszczędzanie w nawyk."
+   ],
+   "steps_title": "Oszczędzaj ze Spendry",
+   "steps": [
+    "Utwórz cel, wpisując potrzebną kwotę oraz termin realizacji.",
+    "Dopisuj wpłaty przy każdej oszczędzonej sumie, a Spendry pokaże, jak blisko celu jesteś.",
+    "Udostępnij cel partnerowi lub rodzinie przez iCloud, aby oszczędzać wspólnie."
+   ],
+   "example_title": "Przykład",
+   "example": "Aby odłożyć 6 000 w 12 miesięcy, potrzebujesz 500 miesięcznie. Jeśli masz już 1 200 oszczędności, wystarczy 400 miesięcznie.",
+   "tip": "Zacznij od poduszki finansowej równej wydatkom z jednego miesiąca, a potem powiększ ją do trzech miesięcy.",
+   "faq": [
+    {
+     "q": "Ile powinna wynosić poduszka finansowa?",
+     "a": "Zwykle celuje się w kwotę od 3 do 6 miesięcy niezbędnych wydatków. Zacznij od jednego miesiąca i stopniowo ją buduj."
+    },
+    {
+     "q": "Czy mogę oszczędzać na kilka celów naraz?",
+     "a": "Tak. Możesz stworzyć tyle celów, ile chcesz, i wygodnie śledzić postępy każdego z nich."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "Kontrola kredytu: sprawdź odsetki i koszty",
+   "description": "Śledź kredyt na auto, gotówkowy i hipoteczny: saldo, liczbę rat, odsetki i datę końca spłaty, z przypomnieniem przed każdą ratą.",
+   "h1": "Jak kontrolować kredyt i poznać jego prawdziwy koszt",
+   "intro": [
+    "Miesięczna rata ukrywa dwie ważne rzeczy: ile z niej to same odsetki i ile płatności jeszcze zostało. Śledzenie obu pokazuje prawdziwy koszt długu.",
+    "Na początku spłaty większość raty stanowią odsetki, z czasem rośnie spłacany kapitał. Właśnie dlatego wcześniejsze nadpłaty dają największe oszczędności."
+   ],
+   "steps_title": "Śledź kredyt w Spendry",
+   "steps": [
+    "Wpisz Kredyty, podając pożyczoną kwotę, oprocentowanie, okres spłaty i datę pierwszej raty.",
+    "Sprawdzaj pozostałe saldo, liczbę rat do spłaty i dokładny miesiąc zakończenia.",
+    "Otrzymuj Przypomnienia przed każdą płatnością i uwzględnij kredyt w planie wychodzenia z długów."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Skorzystaj z darmowego kalkulatora kredytowego na naszej stronie, aby sprawdzić ratę i łączny koszt odsetek przed podpisaniem umowy.",
+   "faq": [
+    {
+     "q": "Czy warto nadpłacać kredyt?",
+     "a": "Gdy oprocentowanie jest wysokie, a bank nie pobiera prowizji za wcześniejszą spłatę, nadpłaty obniżają koszt odsetek. Sprawdź najpierw warunki umowy."
+    },
+    {
+     "q": "Czy mogę śledzić kredyt hipoteczny?",
+     "a": "Tak. Wpisz go w Kredyty, podając oprocentowanie oraz liczbę rat."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "Wartość netto: jak liczyć swój majątek na iPhone",
+   "description": "Wartość netto to Twój majątek minus długi. Zapisuj oszczędności, inwestycje, złoto i zobowiązania w jednym miejscu i patrz, jak rosną.",
+   "h1": "Jak kontrolować swoją wartość netto",
+   "intro": [
+    "Wartość netto to wszystko, co posiadasz, pomniejszone o to, co musisz oddać. To jedna konkretna liczba, która pokazuje, czy Twoje finanse idą w dobrą stronę.",
+    "Wystarczy sprawdzić ją raz w miesiącu, aby widzieć ogólny trend, nawet gdy w pojedynczym miesiącu wydasz więcej."
+   ],
+   "steps_title": "Śledź majątek w Spendry",
+   "steps": [
+    "Wpisz konta bankowe i oszczędności.",
+    "Dodaj Inwestycje: akcje, kryptowaluty, złoto i waluty z kursami na żywo.",
+    "Dodaj swoje Długi. Spendry wyliczy pozycję Wartość netto i pokaże jej zmiany na wykresie."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Spłacanie długów podnosi Twoją wartość netto dokładnie tak samo, jak powiększanie oszczędności.",
+   "faq": [
+    {
+     "q": "Czy wpisywać mieszkanie lub samochód?",
+     "a": "Możesz, ale wiele osób wpisuje tylko oszczędności, inwestycje i zobowiązania, bo to one zmieniają się z miesiąca na miesiąc."
+    },
+    {
+     "q": "Jak często aktualizują się kursy inwestycji?",
+     "a": "Spendry pobiera bieżące wyceny akcji, kryptowalut, metali i walut na żywo."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "Wspólny budżet z partnerem: jak zarządzać",
+   "description": "Prowadź budżet lub cele oszczędnościowe z partnerem przez iCloud. Każdy dodaje wydatki i widzi te same kwoty, bez wspólnego konta.",
+   "h1": "Jak prowadzić wspólny budżet z partnerem",
+   "intro": [
+    "Rozmowy o pieniądzach są prostsze, gdy oboje widzicie te same liczby. Wspólny budżet pokazuje wydatki i wolne środki, bez wzajemnego rozliczania każdego grosza.",
+    "Własne zakupy trzymaj oddzielnie, a dzielcie tylko to, za co płacicie razem: czynsz, zakupy spożywcze czy wyjazdy."
+   ],
+   "steps_title": "Prowadźcie finanse w Spendry",
+   "steps": [
+    "Utwórz budżet lub cel i wybierz Wspólny budżet.",
+    "Wyślij zaproszenie partnerowi lub rodzinie przez udostępnianie w iCloud.",
+    "Każdy może wpisywać wydatki, a zmiany od razu widać na każdym urządzeniu."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Ustalcie wspólne kategorie przed startem, a potem raz w miesiącu spokojnie przejrzyjcie podsumowanie.",
+   "faq": [
+    {
+     "q": "Czy partner widzi wszystkie moje wydatki?",
+     "a": "Nie. Widzi tylko to, co wspólnie dzielicie. Twoje prywatne konta i budżety zostają ukryte."
+    },
+    {
+     "q": "Czy oboje musimy mieć Spendry?",
+     "a": "Tak. Każda osoba korzysta ze Spendry na swoim iPhone, a dane synchronizują się przez iCloud."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Automatyczne wydatki z Apple Pay i Shortcuts",
+   "description": "Wykorzystaj gotową automatyzację Shortcuts, by zapisywać zakupy z Apple Pay w Spendry. Twoje budżety będą zawsze aktualne.",
+   "h1": "Automatyczne zapisywanie zakupów z Apple Pay",
+   "intro": [
+    "Aplikacja Shortcuts potrafi uruchomić zadanie po każdej płatności przez Apple Pay. Spendry wykorzystuje to, aby zapisać Twój zakup.",
+    "Dzięki temu Twoje Budżety są zawsze aktualne bez ręcznego wpisywania, a kategorię możesz wybrać tylko wtedy, gdy chcesz."
+   ],
+   "steps_title": "Jak to włączyć",
+   "steps": [
+    "W Spendry wejdź w Automatyzacje i wybierz opcję dla Apple Pay.",
+    "Postępuj zgodnie ze wskazówkami, aby dodać regułę w aplikacji Shortcuts.",
+    "Płać przez Apple Pay tak jak zwykle. Wydatek pojawi się w Spendry razem z nazwą sklepu."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Włącz też niedzielne podsumowanie, aby otrzymać krótki raport z wydatkami z całego tygodnia.",
+   "faq": [
+    {
+     "q": "Czy aplikacja zyskuje dostęp do konta w banku?",
+     "a": "Nie. Automatyzacja przekazuje wyłącznie podstawowe dane transakcji, które Twój iPhone już zna, jak kwota i nazwa sklepu. Nie podajesz loginu do banku."
+    },
+    {
+     "q": "Czy mogę potem zmienić kategorię?",
+     "a": "Tak. W każdej chwili możesz edytować wpis bezpośrednio w Spendry."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Poradniki finansowe: budżet, spłata długów i rachunki",
+  "description": "Praktyczne poradniki o budżecie, spłacie długów, kartach kredytowych, ratach i subskrypcjach. Płać zawsze na czas.",
+  "h1": "Poradniki finansowe",
+  "lead": "Krótkie, praktyczne poradniki o budżecie, spłacie długów i płaceniu rachunków na czas."
+ },
+ "guide_labels": {
+  "nav": "Poradniki",
+  "tip": "Wskazówka",
+  "faq": "Pytania",
+  "more": "Więcej poradników",
+  "all": "Wszystkie poradniki",
+  "tools": "Darmowe kalkulatory",
+  "cta": "Kontroluj finanse w jednym miejscu. Pobierz bezpłatnie Spendry z App Store.",
+  "topic_debt": "Długi i karty kredytowe",
+  "topic_bills": "Rachunki i subskrypcje",
+  "topic_budget": "Budżet i oszczędzanie",
+  "topic_iphone": "Na Twoim iPhone"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Kalkulator spłaty karty kredytowej: ile to potrwa?",
+  "description": "Darmowy kalkulator spłaty karty kredytowej. Wpisz zadłużenie, oprocentowanie oraz ratę i sprawdź odsetki oraz koszt spłaty minimalnej.",
+  "h1": "Kalkulator spłaty karty kredytowej",
+  "lead": "Zobacz, ile czasu zajmie spłata karty i ile wydasz na odsetki w porównaniu ze spłatą tylko kwoty minimalnej.",
+  "balance": "Zadłużenie na karcie",
+  "rate": "Roczne oprocentowanie (%)",
+  "payment": "Twoja miesięczna wpłata",
+  "min_pct": "Spłata minimalna (% zadłużenia)",
+  "months": "Czas do spłaty",
+  "interest": "Łączne odsetki",
+  "date": "Data całkowitej spłaty długu",
+  "fixed": "Z Twoją stałą wpłatą",
+  "minimum": "Tylko spłata minimalna",
+  "never": "Ta wpłata nie pokrywa nawet miesięcznych odsetek. Zwiększ kwotę, aby spłacić kartę.",
+  "saved": "Oszczędzasz na odsetkach",
+  "prose": [
+   [
+    "Jak działa kalkulator",
+    "W każdym miesiącu kalkulator dolicza miesięczne odsetki do salda i odejmuje Twoją wpłatę, aż dług spadnie do zera. Wariant spłaty minimalnej przelicza wymaganą kwotę co miesiąc na podstawie pozostałego zadłużenia."
+   ],
+   [
+    "Dlaczego spłata minimalna trwa tak długo",
+    "Wraz ze spadkiem długu maleje też kwota minimalna, więc spłata ledwo pokrywa odsetki. Stała kwota wpłacana co miesiąc pozwala znacznie szybciej zmniejszać rzeczywisty dług."
+   ],
+   [
+    "Przejdź do działania",
+    "Spendry ułatwia realizację planu: dodaj swoje karty, ustal miesięczną kwotę do spłaty i odbieraj przypomnienie przed każdym terminem płatności."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Kalkulator kredytowy: rata i łączne odsetki",
+  "description": "Darmowy kalkulator kredytowy: kredyt gotówkowy, samochodowy i hipoteczny. Oblicz miesięczną ratę, sumę odsetek i harmonogram spłat.",
+  "h1": "Kalkulator kredytowy",
+  "lead": "Wpisz kwotę, roczne oprocentowanie i okres spłaty, aby poznać wysokość raty, łączne odsetki i pełny harmonogram.",
+  "amount": "Kwota kredytu",
+  "rate": "Roczne oprocentowanie (%)",
+  "term": "Okres spłaty (miesiące)",
+  "payment": "Rata miesięczna",
+  "total": "Łącznie do spłaty",
+  "interest": "Łączne odsetki",
+  "month": "Miesiąc",
+  "principal": "Kapitał",
+  "interest_col": "Odsetki",
+  "balance": "Pozostało do spłaty",
+  "show_all": "Pokaż wszystkie raty",
+  "show_less": "Pokaż mniej",
+  "prose": [
+   [
+    "Jak wyliczana jest rata",
+    "To standardowy kredyt z równymi ratami: co miesiąc płacisz tę samą kwotę, a odsetki naliczane są od aktualnego salda zadłużenia. Pierwsze raty składają się głównie z odsetek, a kolejne z kapitału."
+   ],
+   [
+    "Jak obniżyć całkowity koszt",
+    "Krótszy okres spłaty lub niższe oprocentowanie najbardziej zmniejszają sumę odsetek. Pomaga też nadpłacanie kredytu na początku, o ile bank nie pobiera za to prowizji."
+   ],
+   [
+    "Kontroluj kredyt na bieżąco",
+    "Dodaj kredyt do Spendry, aby widzieć liczbę pozostałych rat, datę ostatniej spłaty i dostawać przypomnienie przed każdym terminem."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Kalkulator celu oszczędnościowego: ile odkładać?",
+  "description": "Darmowy kalkulator oszczędności. Wpisz cel, obecne oszczędności i czas, aby wyliczyć miesięczną kwotę do odłożenia, także z odsetkami.",
+  "h1": "Kalkulator celu oszczędnościowego",
+  "lead": "Sprawdź, ile musisz odkładać co miesiąc, aby osiągnąć swój cel finansowy na czas.",
+  "goal": "Kwota celu",
+  "have": "Już odłożone",
+  "months": "Liczba miesięcy",
+  "rate": "Oprocentowanie oszczędności w skali roku (%)",
+  "monthly": "Odkładaj co miesiąc",
+  "weekly": "Czyli tygodniowo około",
+  "total_in": "Twoje wpłaty",
+  "earned": "Zarobione odsetki",
+  "done": "Ten cel został już przez Ciebie osiągnięty.",
+  "prose": [
+   [
+    "Jak to działa",
+    "Kalkulator dzieli brakującą kwotę przez liczbę miesięcy. Jeśli dodasz oprocentowanie, odkładane pieniądze pracują na siebie z miesiąca na miesiąc, więc z własnej kieszeni wpłacasz odrobinę mniej."
+   ],
+   [
+    "Jak ułatwić sobie oszczędzanie",
+    "Odkładaj pieniądze od razu po wypłacie i traktuj tę kwotę jak stały rachunek. Wspólny cel z partnerem może dodatkowo przyspieszyć realizację planu."
+   ],
+   [
+    "Śledź postępy",
+    "Dodaj cel w Spendry i sprawdzaj, ile brakuje do finiszu przy każdej kolejnej wpłacie."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Kalkulator kosztów subskrypcji: ile płacisz rocznie?",
+  "description": "Darmowy kalkulator subskrypcji. Wypisz swoje usługi, ich ceny oraz cykle rozliczeń i zobacz łączny koszt w skali miesiąca, roku i 5 lat.",
+  "h1": "Kalkulator kosztów subskrypcji",
+  "lead": "Wypisz swoje subskrypcje i przekonaj się, ile naprawdę wydajesz na nie w skali miesiąca i całego roku.",
+  "name": "Subskrypcja",
+  "price": "Cena",
+  "cycle": "Rozliczenie",
+  "weekly": "Tygodniowo",
+  "monthly": "Miesięcznie",
+  "yearly": "Rocznie",
+  "add": "Dodaj subskrypcję",
+  "remove": "Usuń",
+  "per_month": "Miesięcznie",
+  "per_year": "Rocznie",
+  "five_years": "W ciągu 5 lat",
+  "samples": [
+   "Streaming muzyki",
+   "Serwis wideo",
+   "Dysk w chmurze",
+   "Karnet na siłownię",
+   "Aplikacja z wiadomościami"
+  ],
+  "prose": [
+   [
+    "Dlaczego warto sprawdzić sumę roczną",
+    "Niewielka kwota miesięczna wydaje się niegroźna. Jednak pomnożona przez dwanaście miesięcy i przez wszystkie aktywne usługi okazuje się często jednym z Twoich największych stałych wydatków."
+   ],
+   [
+    "Co zrobić z tym wynikiem",
+    "Posortuj opłaty od najwyższej i zadaj sobie pytanie: czy w zeszłym miesiącu z tego korzystałem? Zrezygnuj ze zbędnych usług, a dla pozostałych ustaw przypomnienia przed datą odnowienia."
+   ],
+   [
+    "Kontroluj każde odnowienie",
+    "Spendry pilnuje Twoich subskrypcji, wlicza je do miesięcznego budżetu i wysyła przypomnienie przed kolejną opłatą."
+   ]
+  ]
  }
 }

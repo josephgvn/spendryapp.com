@@ -327,5 +327,676 @@
     "Di Spendry, setiap kategori memiliki batas anggaran bulanan yang terisi otomatis seiring pengeluaran Anda, lengkap dengan peringatan sebelum anggaran terlampaui."
    ]
   ]
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Debt Snowball vs Avalanche: Mana yang Lebih Cepat?",
+   "description": "Snowball melunasi saldo terkecil lebih dulu, avalanche bunga tertinggi. Lihat perbedaannya, metode paling hemat bunga, dan cara menggunakannya.",
+   "h1": "Debt snowball vs. avalanche: metode mana yang sebaiknya Anda gunakan?",
+   "intro": [
+    "Kedua metode ini sama-sama membayar tagihan minimum untuk semua utang dan mengalokasikan sisa dana ke salah satu utang. Perbedaannya hanya ada pada utang mana yang diselesaikan terlebih dahulu.",
+    "Snowball dimulai dari saldo terkecil agar utang cepat lunas dan Anda tetap termotivasi. Avalanche dimulai dari bunga tertinggi agar total bunga yang dibayar menjadi paling sedikit."
+   ],
+   "steps_title": "Jalankan rencana pelunasan di Spendry",
+   "steps": [
+    "Tambahkan setiap kartu, pinjaman, dan cicilan lengkap dengan saldo, suku bunga, dan pembayaran minimumnya.",
+    "Buka Utang lalu pilih metode Snowball atau Avalanche.",
+    "Masukkan jumlah dana ekstra yang bisa Anda bayarkan di atas pembayaran minimum setiap bulan.",
+    "Spendry menyusun urutan utang dan menampilkan perkiraan bulan Anda bebas utang, lengkap dengan pengingat sebelum jatuh tempo."
+   ],
+   "example_title": "Contoh kasus",
+   "example": "Tiga utang: 1.200 dengan bunga 24%, 4.000 dengan bunga 18%, dan 9.000 dengan bunga 9%, dengan dana ekstra 300 per bulan. Metode avalanche melunasi kartu berbunga 24% lebih dulu dan paling hemat bunga. Metode snowball melunasi saldo 1.200 terlebih dahulu, sehingga satu utang lunas dalam beberapa bulan. Selisih waktu selesai kedua metode ini biasanya hanya satu atau dua bulan.",
+   "tip": "Jika kedua tanggal pelunasan berdekatan, pilih metode yang paling mudah Anda jalani secara konsisten. Rencana terbaik adalah rencana yang terus Anda bayar.",
+   "faq": [
+    {
+     "q": "Metode mana yang paling hemat uang?",
+     "a": "Avalanche, karena utang dengan bunga paling mahal berkurang lebih dulu. Seberapa banyak Anda berhemat tergantung pada selisih bunga antarutang."
+    },
+    {
+     "q": "Bisakah saya berganti metode nanti?",
+     "a": "Bisa. Ubah metodenya di Spendry kapan saja, rencana serta tanggal bebas utang Anda akan langsung diperbarui."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Cara Cepat Melunasi Utang Kartu Kredit: 4 Kebiasaan",
+   "description": "Langkah praktis melunasi utang kartu kredit: bayar lebih dari minimum, fokus bunga tertinggi, hindari terlambat bayar, dan setop transaksi baru.",
+   "h1": "Cara cepat melunasi utang kartu kredit",
+   "intro": [
+    "Utang kartu kredit terus membengkak karena bunga dihitung setiap bulan dari sisa saldo. Setiap pembayaran ekstra langsung memotong pokok saldo pembentuk bunga.",
+    "Empat kebiasaan berikut memberikan dampak paling besar: bayar lebih dari minimum, jangan pernah telat bayar, alokasikan dana ekstra ke bunga tertinggi, dan berhenti berbelanja barang yang tidak bisa dibayar lunas."
+   ],
+   "steps_title": "Lakukan bersama Spendry",
+   "steps": [
+    "Tambahkan kartu Anda beserta saldo, suku bunga, tanggal cetak tagihan, dan tanggal jatuh tempo.",
+    "Tentukan nominal bulanan di atas pembayaran minimum dan pilih metode Avalanche.",
+    "Aktifkan pengingat agar tanggal jatuh tempo tidak terlewat, bahkan saat aplikasi sedang ditutup.",
+    "Pantau menu Utang setiap bulan untuk melihat saldo yang terus berkurang dan tanggal bebas utang Anda yang makin dekat."
+   ],
+   "example_title": "Contoh kasus",
+   "example": "Saldo 3.000 dengan bunga 22% butuh waktu lebih dari sepuluh tahun jika hanya membayar minimum sekitar 2,5%. Pembayaran tetap 175 setiap bulan bisa melunasinya dalam waktu kurang dari dua tahun.",
+   "tip": "Saat ada dana pengembalian atau bonus masuk, gunakan sebagian untuk membayar kartu dengan bunga tertinggi. Satu pembayaran ekstra bisa memangkas waktu berbulan-bulan.",
+   "faq": [
+    {
+     "q": "Sebaiknya saya melunasi bunga tertinggi atau saldo terkecil lebih dulu?",
+     "a": "Bunga tertinggi paling menghemat biaya. Saldo terkecil memberi dorongan semangat lebih cepat. Spendry menampilkan tanggal bebas utang Anda untuk kedua opsi agar mudah dibandingkan."
+    },
+    {
+     "q": "Bolehkah kartu kredit tetap dipakai saat proses pelunasan?",
+     "a": "Hanya untuk transaksi yang sanggup Anda lunasi penuh sebelum jatuh tempo. Saldo baru akan memundurkan tanggal bebas utang Anda."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Akibat Hanya Bayar Pembayaran Minimum Kartu Kredit",
+   "description": "Hanya bayar minimum menjaga akun tetap lancar, namun sebagian besar dana habis untuk bunga. Lihat perhitungannya dan manfaat bayar ekstra.",
+   "h1": "Apa yang terjadi jika Anda hanya membayar tagihan minimum",
+   "intro": [
+    "Pembayaran minimum menjaga riwayat kredit Anda tetap aman, tetapi sebagian besar uang terpakai untuk melunasi bunga. Saat saldo berkurang, nilai minimum ikut turun, sehingga utang bisa bertahan bertahun-tahun.",
+    "Menambahkan dana tetap dalam jumlah kecil bisa mengubah segalanya: saldo pokok terpotong lebih banyak, dan utang lunas bertahun-tahun lebih cepat."
+   ],
+   "steps_title": "Lihat simulasi angka Anda",
+   "steps": [
+    "Gunakan kalkulator pelunasan kartu kredit gratis di situs ini untuk membandingkan pembayaran minimum dengan cicilan tetap.",
+    "Di Spendry, masukkan kartu kredit beserta suku bunga dan nilai pembayaran minimumnya.",
+    "Tentukan dana ekstra yang sanggup Anda bayarkan setiap bulan dan lihat pembaruan tanggal bebas utang Anda."
+   ],
+   "example_title": "Contoh kasus",
+   "example": "Saldo 3.000 dengan bunga 22% dan pembayaran minimum sekitar 2,5% bisa memakan waktu lebih dari sepuluh tahun untuk lunas, dengan total bunga melebihi saldo awal. Pembayaran tetap 175 setiap bulan menyelesaikannya dalam waktu kurang dari dua tahun.",
+   "tip": "Jika belum sanggup membayar ekstra, pasang autodebet pembayaran minimum di rekening bank agar tidak telat, lalu tambahkan dana pelunasan saat ada rezeki lebih.",
+   "faq": [
+    {
+     "q": "Apakah hanya membayar minimum merusak skor kredit saya?",
+     "a": "Membayar minimal tepat waktu menjaga riwayat akun tetap aman. Namun rasio penggunaan batas kredit yang tinggi tetap bisa membebani skor kredit Anda, sehingga melunasinya adalah langkah terbaik."
+    },
+    {
+     "q": "Bagaimana pembayaran minimum dihitung?",
+     "a": "Tergantung ketentuan bank: biasanya persentase kecil dari saldo atau nominal minimum tertentu, diambil mana yang lebih besar. Rincian tepatnya tercantum pada lembar tagihan Anda."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Tanggal Cetak Tagihan vs Jatuh Tempo Kartu Kredit",
+   "description": "Tanggal cetak tagihan menutup periode pembukuan, tanggal jatuh tempo adalah batas akhir bayar. Pahami cara kerjanya dan waktu terbaik membayar.",
+   "h1": "Tanggal cetak tagihan vs. jatuh tempo: kapan sebaiknya membayar?",
+   "intro": [
+    "Tanggal cetak tagihan adalah hari saat periode transaksi bulanan kartu kredit Anda ditutup dan total tagihan dihitung. Tanggal jatuh tempo tiba beberapa minggu setelahnya dan menjadi batas akhir pembayaran tagihan tepat waktu.",
+    "Lunasi seluruh tagihan sebelum tanggal jatuh tempo agar transaksi belanja tidak terkena bunga. Jika membayar sebagian, bunga akan dihitung dari sisa saldo."
+   ],
+   "steps_title": "Hindari telat bayar bersama Spendry",
+   "steps": [
+    "Tambahkan kartu beserta tanggal cetak tagihan dan tanggal jatuh tempo.",
+    "Spendry merangkum tagihan yang harus dibayar di layar Beranda dan Pengingat.",
+    "Dapatkan notifikasi sebelum jatuh tempo, lalu tandai lunas atau tunda langsung dari notifikasi."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Transaksi yang dilakukan tepat setelah tanggal cetak tagihan memiliki tenggat pembayaran paling panjang karena baru masuk pada tagihan berikutnya.",
+   "faq": [
+    {
+     "q": "Bagaimana jika jatuh tempo bertepatan dengan hari libur?",
+     "a": "Banyak bank memindahkannya ke hari kerja berikutnya, tetapi aturannya bisa berbeda. Membayar satu atau dua hari lebih awal adalah langkah paling aman."
+    },
+    {
+     "q": "Bolehkah saya membayar sebelum tanggal cetak tagihan?",
+     "a": "Bisa. Membayar lebih awal akan memperkecil saldo total pada lembar tagihan berikutnya."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "Cara Mencatat dan Mengelola Cicilan di iPhone",
+   "description": "Pantau semua cicilan di satu tempat: sisa saldo, sisa tenor, dan jadwal pembayaran berikutnya, lengkap dengan pengingat jatuh tempo.",
+   "h1": "Cara mencatat pembayaran cicilan di iPhone Anda",
+   "intro": [
+    "Membeli barang dengan cicilan terasa ringan pada awalnya, tetapi beberapa cicilan sekaligus bisa menguras anggaran bulanan tanpa disadari.",
+    "Mencatat setiap cicilan beserta sisa tenornya membantu Anda melihat pengeluaran bulanan yang sebenarnya dan mengetahui kapan cicilan akan tuntas."
+   ],
+   "steps_title": "Kelola cicilan di Spendry",
+   "steps": [
+    "Tambahkan cicilan dengan memasukkan total nominal, jumlah tenor, dan tanggal pembayaran pertama.",
+    "Pantau setiap tagihan: bagian yang sudah terbayar, sisa pokok, dan tanggal pembayaran berikutnya.",
+    "Terima pengingat sebelum jatuh tempo, dan lihat jadwal cicilan dalam tanggal bebas utang Anda berdampingan dengan kartu dan pinjaman."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Sebelum mengambil cicilan baru, jumlahkan seluruh cicilan yang sedang berjalan. Tunda jika totalnya terasa memberatkan saat kondisi keuangan sedang ketat.",
+   "faq": [
+    {
+     "q": "Apakah cicilan dihitung ke dalam tanggal bebas utang saya?",
+     "a": "Ya. Spendry menggabungkannya bersama kartu kredit dan pinjaman Anda, sehingga proyeksi tanggal pelunasan terlihat utuh."
+    },
+    {
+     "q": "Bisakah saya mencatat cicilan tanpa bunga atau 0%?",
+     "a": "Bisa. Cukup atur suku bunga di angka nol, dan Spendry akan menghitung mundur sisa tenor pembayaran Anda."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "Cara Agar Tidak Lupa Bayar Tagihan: Pengingat iPhone",
+   "description": "Pasang pengingat untuk tagihan, kartu, dan langganan agar tidak telat. Dapatkan notifikasi sebelum jatuh tempo dan tandai lunas dengan satu ketukan.",
+   "h1": "Cara agar tidak pernah melewatkan pembayaran tagihan",
+   "intro": [
+    "Denda keterlambatan dan beban bunga sering kali muncul karena lupa, bukan karena ketiadaan dana. Pengingat beberapa hari sebelum tanggal jatuh tempo bisa mencegah masalah ini.",
+    "Kuncinya adalah mengumpulkan semua tagihan di satu tempat: sewa rumah, listrik, pulsa, kartu kredit, pinjaman, dan langganan bulanan."
+   ],
+   "steps_title": "Atur jadwalnya di Spendry",
+   "steps": [
+    "Tambahkan setiap tagihan dan langganan beserta nominal, batas jatuh tempo, dan periode pengulangannya.",
+    "Pilih berapa hari sebelum jatuh tempo Anda ingin menerima pengingat.",
+    "Notifikasi tetap muncul meski aplikasi sedang ditutup. Anda bisa langsung menandai sudah dibayar atau menundanya dari notifikasi."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Pasang widget pembayaran mendatang di Layar Utama iPhone Anda agar tagihan minggu ini selalu terlihat setiap kali Anda membuka ponsel.",
+   "faq": [
+    {
+     "q": "Apakah saya tetap mendapat pengingat jika jarang membuka aplikasi?",
+     "a": "Ya. Spendry menjadwalkan notifikasi langsung di sistem iPhone Anda, sehingga pengingat tetap aktif meski aplikasi tidak dibuka."
+    },
+    {
+     "q": "Bisakah saya melihat semua tagihan yang jatuh tempo minggu ini?",
+     "a": "Bisa. Layar Pengingat merinci semua tagihan mendatang, dan automasi pagi opsional akan merangkum agenda tiga hari ke depan dalam satu notifikasi."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "Cara Melacak dan Berhenti Langganan di iPhone",
+   "description": "Ketahui total biaya langganan bulanan dan tahunan, pasang pengingat perpanjangan otomatis, dan tentukan langganan yang perlu dibatalkan.",
+   "h1": "Cara melacak dan memangkas biaya langganan Anda",
+   "intro": [
+    "Layanan berlangganan sangat mudah didaftarkan tetapi sering kali terlupakan. Tagihan kecil bulanan tanpa terasa bisa menumpuk menjadi beban besar setiap tahunnya.",
+    "Melihat total biaya dalam skala bulanan dan tahunan biasanya langsung membantu Anda menemukan layanan yang sudah tidak digunakan."
+   ],
+   "steps_title": "Kelola langganan di Spendry",
+   "steps": [
+    "Tambahkan tiap langganan beserta harga dan siklus tagihannya: mingguan, bulanan, atau tahunan.",
+    "Spendry menghitung total biaya per bulan dan tahun, serta jadwal perpanjangan berikutnya.",
+    "Dapatkan pengingat sebelum perpanjangan otomatis berlangsung, sehingga Anda sempat membatalkannya."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Gunakan kalkulator biaya langganan gratis di situs ini: masukkan layanan Anda dan lihat total pengeluaran tahunan dalam sekejap.",
+   "faq": [
+    {
+     "q": "Apakah Spendry bisa membatalkan langganan saya secara otomatis?",
+     "a": "Tidak. Spendry tidak pernah mengakses akun finansial Anda. Aplikasi ini mengingatkan Anda sebelum tanggal perpanjangan agar Anda bisa membatalkannya ke pihak penyedia layanan."
+    },
+    {
+     "q": "Bisakah saya mencatat langganan bertempo tahunan?",
+     "a": "Bisa. Spendry mendukung siklus mingguan, bulanan, serta tahunan dan memasukkannya ke dalam kalkulasi rata-rata bulanan Anda."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "Cara Membuat Anggaran Bulanan yang Mudah Dijalankan",
+   "description": "Panduan praktis menyusun anggaran bulanan: mulai dari pemasukan, prioritaskan kebutuhan pokok, tetapkan batas belanja, dan sisihkan tabungan di awal.",
+   "h1": "Cara menyusun anggaran bulanan yang berhasil dijalankan",
+   "intro": [
+    "Anggaran adalah rencana pengelolaan uang sebelum bulan berjalan dimulai. Mulailah dari pendapatan bersih setelah pajak, lalu tentukan pos alokasinya masing-masing.",
+    "Panduan umumnya adalah sekitar separuh untuk kebutuhan pokok seperti tempat tinggal dan tagihan, sepertiga untuk keinginan, dan sisanya untuk tabungan serta pelunasan utang. Sesuaikan dengan kondisi Anda."
+   ],
+   "steps_title": "Kelola anggaran di Spendry",
+   "steps": [
+    "Masukkan total pemasukan bulanan Anda.",
+    "Buat pos Anggaran untuk kategori yang paling sering Anda gunakan, lengkap dengan batas maksimalnya.",
+    "Nilai anggaran akan terisi otomatis seiring Anda mencatat pengeluaran, dan Spendry memberi peringatan saat batas pengeluaran hampir tercapai.",
+    "Di akhir bulan, evaluasi grafik pengeluaran dan sesuaikan batas anggaran untuk bulan berikutnya."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Manfaatkan kalkulator anggaran bulanan gratis di situs ini untuk membagi porsi pendapatan Anda sebelum menentukan batas pengeluaran.",
+   "faq": [
+    {
+     "q": "Berapa banyak kategori anggaran yang ideal?",
+     "a": "Mulailah dengan lima sampai delapan kategori, seperti tempat tinggal, tagihan, belanja dapur, transportasi, makan di luar, belanja pribadi, dan tabungan. Tambahkan kategori baru hanya saat diperlukan."
+    },
+    {
+     "q": "Bagaimana jika pengeluaran saya melebihi batas anggaran?",
+     "a": "Pindahkan sisa dana dari kategori lain, atau jadikan evaluasi untuk bulan depan. Anggaran adalah rencana fleksibel yang bisa disesuaikan, bukan ujian."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Cara Mengetahui Tanggal Bebas Utang Anda",
+   "description": "Tanggal bebas utang Anda adalah bulan saat utang lunas. Ketahui cara menghitungnya dan bagaimana pembayaran ekstra mempercepatnya.",
+   "h1": "Cara mengetahui tanggal bebas utang Anda",
+   "intro": [
+    "Tanggal bebas utang Anda adalah bulan saat sisa saldo utang menjadi nol. Tanggal ini bergantung pada jumlah utang, bunga, dan besarnya pembayaran Anda tiap bulan.",
+    "Mengetahui tanggal pasti mengubah target yang samar menjadi batas waktu yang jelas, serta memperlihatkan manfaat nyata dari setiap pembayaran tambahan."
+   ],
+   "steps_title": "Dapatkan tanggal Anda di Spendry",
+   "steps": [
+    "Masukkan semua utang Anda: kartu kredit, pinjaman, cicilan, overdraft, dan pinjaman ke teman.",
+    "Tuliskan saldo, suku bunga, dan pembayaran bulanan untuk setiap utang.",
+    "Spendry menghitung perkiraan bulan Anda bebas utang dan memperbaruinya setiap kali Anda membayar atau menambah data baru."
+   ],
+   "example_title": "Coba sekarang",
+   "example": "Kalkulator pelunasan utang gratis di situs ini bekerja dengan cara yang sama: tambahkan utang serta pembayaran ekstra bulanan, lalu lihat hasilnya lewat metode Snowball maupun Avalanche.",
+   "tip": "Cek tanggal bebas utang setiap habis gajian. Melihat tanggalnya makin maju adalah dorongan semangat terbaik.",
+   "faq": [
+    {
+     "q": "Mengapa tanggal bebas utang saya bisa berubah?",
+     "a": "Tanggalnya makin cepat jika Anda membayar lebih, dan makin mundur jika Anda berutang lagi atau membayar lebih sedikit. Spendry akan menghitung ulang setiap saat."
+    },
+    {
+     "q": "Bolehkah memasukkan utang ke teman?",
+     "a": "Bisa. Masukkan saja sebagai utang pribadi tanpa bunga."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "Catat Pengeluaran Tanpa Sambung Rekening Bank",
+   "description": "Tak perlu akses bank untuk catat pengeluaran. Tambah transaksi sekejap, pindai struk, dan simpan data aman di iPhone Anda.",
+   "h1": "Cara mencatat pengeluaran tanpa menghubungkan bank",
+   "intro": [
+    "Banyak aplikasi keuangan meminta akses akun bank Anda. Jika ingin privasi tetap terjaga, Anda tetap bisa mencatat pengeluaran hanya dengan beberapa detik sehari.",
+    "Mencatat sendiri secara rutin juga membuat Anda lebih sadar atas uang yang keluar, yang sering kali menjadi tujuan utama dari pencatatan keuangan."
+   ],
+   "steps_title": "Cara kerja di Spendry",
+   "steps": [
+    "Tambah pengeluaran dalam hitungan detik: masukkan nominal dan pilih kategori, atau cukup pindai struk belanja.",
+    "Aktifkan automasi Apple Pay siap pakai di aplikasi Shortcuts, lalu transaksi kartu Anda akan tersimpan otomatis lengkap dengan nama tokonya.",
+    "Catatan keuangan Anda tetap aman di iPhone dan tersinkronisasi lewat akun iCloud pribadi. Spendry tidak akan pernah melihatnya."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Catat pengeluaran tepat saat Anda membayar. Menundanya sering kali membuat transaksi terlupakan.",
+   "faq": [
+    {
+     "q": "Apakah aman tanpa koneksi bank?",
+     "a": "Sangat aman karena tidak ada data bank yang dibagikan. Spendry menyimpan data Anda di perangkat dan iCloud pribadi, serta bisa dikunci dengan Face ID."
+    },
+    {
+     "q": "Bisakah saya mengimpor transaksi?",
+     "a": "Bisa. Anda dapat mengimpor dari pesan notifikasi bank atau menggunakan automasi Shortcuts, tanpa perlu membagikan akses login bank."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Widget Anggaran untuk Layar Utama iPhone",
+   "description": "Pantau saldo, anggaran, target, dan tagihan langsung dari Layar Utama serta Layar Terkunci. Tambah pengeluaran tanpa buka aplikasi.",
+   "h1": "Widget anggaran untuk Layar Utama iPhone Anda",
+   "intro": [
+    "Widget membantu Anda memantau keuangan tanpa harus membuka aplikasi. Cukup lirik Layar Utama untuk mengetahui sisa anggaran dan tagihan yang akan jatuh tempo.",
+    "Spendry menyediakan widget untuk saldo, anggaran, target, utang, arus kas, dan tagihan mendatang, dengan pilihan ukuran untuk Layar Utama dan Layar Terkunci."
+   ],
+   "steps_title": "Cara memasang widget Spendry",
+   "steps": [
+    "Sentuh dan tahan area kosong di Layar Utama, lalu ketuk Edit dan Tambah Widget.",
+    "Cari Spendry, lalu pilih jenis widget serta ukuran yang Anda inginkan.",
+    "Sentuh dan tahan widget tersebut, lalu ketuk Edit Widget untuk memilih anggaran, target, atau akun yang ingin ditampilkan."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Pasang widget tagihan yang akan datang di halaman pertama Layar Utama. Tanggal jatuh tempo adalah hal yang paling sering terlewat.",
+   "faq": [
+    {
+     "q": "Bisakah mencatat pengeluaran langsung dari widget?",
+     "a": "Bisa. Widget pencatatan langsung membuka menu transaksi baru, jadi mencatat belanja hanya butuh beberapa detik."
+    },
+    {
+     "q": "Apakah widget diperbarui secara otomatis?",
+     "a": "Ya. Widget akan otomatis memuat ulang saat Anda menambah catatan dan secara berkala sepanjang hari."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "Cara Menabung Capai Target Keuangan Anda",
+   "description": "Tentukan target dan tanggalnya, sisihkan dana tetap tiap bulan, lalu pantau kemajuannya. Cara mudah untuk liburan atau dana darurat.",
+   "h1": "Cara menabung untuk mencapai target keuangan",
+   "intro": [
+    "Target dengan nominal dan batas waktu yang jelas jauh lebih mudah diraih daripada sekadar harapan. Cukup bagi nominal yang dibutuhkan dengan sisa bulan yang ada, maka Anda tahu berapa yang harus disisihkan tiap bulan.",
+    "Menyisihkan uang tepat setelah gajian, sebelum mulai berbelanja, membuat rencana menabung Anda berjalan otomatis."
+   ],
+   "steps_title": "Menabung bersama Spendry",
+   "steps": [
+    "Buat target dengan menentukan nominal dan tanggal pencapaian yang diinginkan.",
+    "Tambahkan nominal setiap kali Anda menyisihkan uang, dan Spendry akan menunjukkan seberapa dekat Anda dengan tujuan itu.",
+    "Bagikan target dengan pasangan atau keluarga lewat iCloud untuk menabung bersama."
+   ],
+   "example_title": "Contoh perhitungan",
+   "example": "Untuk menabung 6.000 dalam 12 bulan, Anda butuh 500 per bulan. Jika sudah terkumpul 1.200, Anda cukup menyisihkan 400 per bulan.",
+   "tip": "Mulailah dengan menyiapkan dana darurat sebesar satu bulan pengeluaran, lalu tingkatkan bertahap hingga tiga bulan.",
+   "faq": [
+    {
+     "q": "Berapa besar dana darurat yang ideal?",
+     "a": "Tiga hingga enam bulan pengeluaran rutin adalah patokan umum. Mulailah dari satu bulan dulu, lalu kembangkan bertahap."
+    },
+    {
+     "q": "Bisakah menabung untuk beberapa target sekaligus?",
+     "a": "Bisa. Anda bebas membuat target sebanyak yang diinginkan dan memantau perkembangannya masing-masing."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "Cara Melacak Pinjaman dan Total Bunga",
+   "description": "Pantau cicilan mobil, KTA, dan KPR: sisa pokok, jumlah pembayaran, bunga, dan waktu lunas, lengkap dengan pengingat jatuh tempo.",
+   "h1": "Cara melacak pinjaman dan melihat biaya aslinya",
+   "intro": [
+    "Cicilan bulanan sering kali menyamarkan dua hal: porsi bunga di dalamnya dan sisa kali pembayaran. Memantau keduanya memperlihatkan biaya pinjaman yang sebenarnya.",
+    "Di awal masa pinjaman, sebagian besar cicilan dialokasikan untuk membayar bunga, baru kemudian untuk pokok utang. Itulah alasan mengapa melunasi lebih awal bisa sangat menghemat bunga."
+   ],
+   "steps_title": "Pantau pinjaman di Spendry",
+   "steps": [
+    "Masukkan pinjaman beserta plafon, suku bunga, tenor, dan tanggal pembayaran pertama.",
+    "Lihat sisa saldo pokok, sisa kali cicilan, dan bulan pinjaman akan lunas.",
+    "Dapatkan pengingat sebelum jatuh tempo dan masukkan pinjaman ini ke rencana bebas utang Anda."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Gunakan kalkulator pinjaman gratis di situs ini untuk melihat simulasi cicilan bulanan dan total bunga sebelum tanda tangan kontrak.",
+   "faq": [
+    {
+     "q": "Apakah sebaiknya pinjaman dilunasi lebih awal?",
+     "a": "Jika bunganya tinggi dan tidak ada penalti pelunasan dipercepat, membayar lebih awal bisa memangkas bunga. Pastikan cek syarat pinjaman Anda terlebih dahulu."
+    },
+    {
+     "q": "Bisakah memantau KPR di aplikasi ini?",
+     "a": "Bisa. Cukup masukkan sebagai pinjaman lengkap dengan bunga dan tenornya."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "Cara Menghitung Kekayaan Bersih di iPhone",
+   "description": "Kekayaan bersih adalah total aset dikurangi utang. Pantau tabungan, investasi, emas, dan utang di satu tempat secara praktis.",
+   "h1": "Cara memantau kekayaan bersih Anda",
+   "intro": [
+    "Kekayaan bersih adalah seluruh aset yang Anda miliki dikurangi total kewajiban utang. Ini adalah tolok ukur utama yang menunjukkan apakah kondisi finansial Anda bergerak ke arah yang benar.",
+    "Mengeceknya sebulan sekali sudah cukup untuk melihat tren pertumbuhan, bahkan saat kondisi keuangan di bulan tertentu sedang kurang baik."
+   ],
+   "steps_title": "Pantau di Spendry",
+   "steps": [
+    "Masukkan rekening bank dan tabungan Anda.",
+    "Tambahkan aset investasi: saham, kripto, emas, dan mata uang asing akan menampilkan harga pasar terkini.",
+    "Masukkan utang Anda. Spendry akan menghitung total kekayaan bersih dan menampilkan perubahannya dari waktu ke waktu."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Melunasi utang sama nilainya dengan menambah tabungan dalam meningkatkan kekayaan bersih Anda.",
+   "faq": [
+    {
+     "q": "Haruskah rumah atau mobil pribadi dimasukkan?",
+     "a": "Bisa saja, tetapi banyak orang memilih hanya mencatat uang tunai, investasi, dan utang karena nilainya yang lebih dinamis tiap bulan."
+    },
+    {
+     "q": "Seberapa sering harga investasi diperbarui?",
+     "a": "Spendry menampilkan pembaruan harga pasar langsung untuk saham, kripto, logam mulia, dan mata uang asing."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "Cara Mengatur Anggaran Bersama Pasangan",
+   "description": "Kelola anggaran atau target tabungan bersama pasangan via iCloud. Catat pengeluaran bersama dengan transparan tanpa berbagi akun.",
+   "h1": "Cara mengatur anggaran bersama pasangan",
+   "intro": [
+    "Diskusi soal uang jadi lebih nyaman saat kedua pihak melihat data yang sama. Anggaran bersama memperlihatkan pengeluaran dan sisa dana secara terbuka, tanpa perlu saling mencurigai.",
+    "Tetap pisahkan pengeluaran pribadi dan cukup bagikan pos pengeluaran bersama, seperti uang sewa, belanja dapur, atau liburan."
+   ],
+   "steps_title": "Bagikan lewat Spendry",
+   "steps": [
+    "Buat anggaran atau target baru, lalu pilih opsi untuk membagikannya.",
+    "Undang pasangan atau keluarga Anda melalui fitur berbagi iCloud.",
+    "Semua orang dapat mencatat pengeluaran, dan setiap perubahan langsung muncul di perangkat masing-masing."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Sepakati kategori pengeluaran bersama sebelum mulai, lalu sempatkan evaluasi berdua sebulan sekali.",
+   "faq": [
+    {
+     "q": "Apakah pasangan bisa melihat semua pengeluaran saya?",
+     "a": "Tidak. Mereka hanya melihat pos yang Anda bagikan. Kategori dan rekening pribadi Anda lainnya tetap privat."
+    },
+    {
+     "q": "Apakah kami berdua harus memakai Spendry?",
+     "a": "Ya. Masing-masing menggunakan Spendry di iPhone pribadinya, dan data anggaran bersama akan tersinkronisasi lewat iCloud."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Catat Transaksi Apple Pay Otomatis via Shortcuts",
+   "description": "Gunakan automasi Shortcuts untuk mencatat transaksi Apple Pay di Spendry secara otomatis. Anggaran rapi tanpa perlu mengetik manual.",
+   "h1": "Catat transaksi Apple Pay secara otomatis",
+   "intro": [
+    "Aplikasi Shortcuts dapat menjalankan perintah otomatis setiap kali Anda bertransaksi dengan Apple Pay. Spendry memanfaatkannya untuk langsung menyimpan data belanja Anda.",
+    "Anggaran Anda selalu diperbarui tanpa perlu mengetik manual, dan Anda cukup menambahkan kategori jika memang diinginkan."
+   ],
+   "steps_title": "Cara mengaktifkannya",
+   "steps": [
+    "Buka Spendry, masuk ke menu Automasi, lalu pilih automasi Apple Pay.",
+    "Ikuti petunjuk untuk menambahkannya ke aplikasi Shortcuts.",
+    "Gunakan Apple Pay seperti biasa saat berbelanja. Transaksi akan langsung tercatat di Spendry beserta nama tokonya."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Pasang juga automasi hari Minggu malam untuk menerima rangkuman singkat pengeluaran mingguan Anda.",
+   "faq": [
+    {
+     "q": "Apakah cara ini memberi Spendry akses ke rekening bank saya?",
+     "a": "Tidak. Automasi ini hanya meneruskan rincian transaksi yang sudah tampil di iPhone Anda, seperti nominal dan nama toko. Tidak ada akses ke akun bank Anda."
+    },
+    {
+     "q": "Bisakah saya mengganti kategorinya nanti?",
+     "a": "Bisa. Anda bebas mengedit rincian pengeluaran di Spendry kapan saja."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Panduan Keuangan: Anggaran, Lunasi Utang & Tagihan",
+  "description": "Panduan praktis mengatur anggaran, melunasi utang kartu kredit, cicilan, langganan, dan cara tepat waktu bayar tagihan.",
+  "h1": "Panduan keuangan",
+  "lead": "Panduan singkat dan praktis untuk mengatur anggaran, melunasi utang, dan membayar tagihan tepat waktu."
+ },
+ "guide_labels": {
+  "nav": "Panduan",
+  "tip": "Tips",
+  "faq": "Pertanyaan",
+  "more": "Panduan lainnya",
+  "all": "Semua panduan",
+  "tools": "Kalkulator gratis",
+  "cta": "Pantau semua dalam satu tempat. Unduh Spendry gratis di App Store.",
+  "topic_debt": "Utang dan kartu kredit",
+  "topic_bills": "Tagihan dan langganan",
+  "topic_budget": "Anggaran dan menabung",
+  "topic_iphone": "Di iPhone Anda"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Kalkulator Pelunasan Kartu Kredit: Kapan Lunas?",
+  "description": "Kalkulator pelunasan kartu kredit gratis. Hitung tanggal lunas, total bunga, dan risiko jika hanya bayar minimum payment.",
+  "h1": "Kalkulator pelunasan kartu kredit",
+  "lead": "Ketahui berapa lama waktu untuk melunasi kartu kredit dan total bunga yang dibayar, dibandingkan jika hanya membayar minimum payment.",
+  "balance": "Sisa tagihan kartu kredit",
+  "rate": "Suku bunga tahunan (%)",
+  "payment": "Pembayaran bulanan Anda",
+  "min_pct": "Pembayaran minimum (% dari tagihan)",
+  "months": "Lunas dalam",
+  "interest": "Total bunga",
+  "date": "Tanggal bebas utang Anda",
+  "fixed": "Dengan pembayaran Anda",
+  "minimum": "Hanya pembayaran minimum",
+  "never": "Nominal ini tidak menutup bunga bulanan. Naikkan pembayaran agar kartu kredit lunas.",
+  "saved": "Bunga yang Anda hemat",
+  "prose": [
+   [
+    "Cara kerja perhitungan",
+    "Setiap bulan kalkulator menambahkan bunga bulanan ke saldo tagihan dan mengurangi pembayaran Anda, sampai saldo menjadi nol. Simulasi pembayaran minimum menghitung ulang nilai minimum setiap bulan dari sisa saldo."
+   ],
+   [
+    "Mengapa pembayaran minimum butuh waktu lama",
+    "Nominal pembayaran minimum ikut mengecil saat saldo berkurang, sehingga porsi pokok utang hampir tidak terpotong banyak dari bunga. Pembayaran tetap menjaga nominal yang sama untuk memotong pokok utang setiap bulan."
+   ],
+   [
+    "Wujudkan rencana Anda",
+    "Spendry membantu rencana Anda tetap berjalan: masukkan kartu Anda, tentukan jumlah yang bisa dibayar tiap bulan, dan dapatkan pengingat sebelum jatuh tempo."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Kalkulator Pinjaman: Cicilan Bulanan & Bunga",
+  "description": "Kalkulator pinjaman gratis untuk KKB, KTA, dan KPR. Cek cicilan bulanan, total bunga, dan jadwal angsuran lengkap.",
+  "h1": "Kalkulator pinjaman",
+  "lead": "Masukkan jumlah pinjaman, bunga tahunan, dan tenor untuk melihat cicilan bulanan, total bunga, serta rincian angsuran.",
+  "amount": "Jumlah pinjaman",
+  "rate": "Suku bunga tahunan (%)",
+  "term": "Tenor (bulan)",
+  "payment": "Cicilan per bulan",
+  "total": "Total pembayaran",
+  "interest": "Total bunga",
+  "month": "Bulan",
+  "principal": "Pokok",
+  "interest_col": "Bunga",
+  "balance": "Sisa pinjaman",
+  "show_all": "Tampilkan semua angsuran",
+  "show_less": "Tampilkan lebih sedikit",
+  "prose": [
+   [
+    "Cara cicilan dihitung",
+    "Ini adalah pinjaman amortisasi standar: besar cicilan sama setiap bulan, dengan bunga dihitung dari sisa pokok pinjaman. Pembayaran di awal sebagian besar membayar bunga, sedangkan pembayaran di akhir lebih banyak memotong pokok."
+   ],
+   [
+    "Kurangi total biaya",
+    "Tenor yang lebih singkat atau suku bunga yang lebih rendah paling ampuh memangkas total bunga. Membayar ekstra di awal pinjaman juga sangat membantu, jika penyedia pinjaman mengizinkannya tanpa denda penalti."
+   ],
+   [
+    "Pantau setelah akad pinjaman",
+    "Tambahkan pinjaman ke Spendry untuk melihat sisa cicilan, bulan pelunasan, dan dapatkan pengingat sebelum waktu pembayaran tiba."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Kalkulator Target Menabung: Sisihkan Tiap Bulan",
+  "description": "Kalkulator target menabung gratis. Tentukan target, dana awal, dan batas waktu untuk menghitung jumlah tabungan bulanan.",
+  "h1": "Kalkulator target menabung",
+  "lead": "Hitung berapa banyak uang yang harus disisihkan setiap bulan agar target Anda tercapai tepat waktu.",
+  "goal": "Nominal target",
+  "have": "Terkumpul saat ini",
+  "months": "Bulan untuk mencapainya",
+  "rate": "Bunga tabungan per tahun (%)",
+  "monthly": "Tabung setiap bulan",
+  "weekly": "Kira-kira setiap minggu",
+  "total_in": "Uang yang Anda tabung",
+  "earned": "Bunga yang diperoleh",
+  "done": "Target ini sudah tercapai.",
+  "prose": [
+   [
+    "Cara kerjanya",
+    "Kalkulator membagi sisa target Anda dengan sisa bulan yang tersedia. Jika ada imbal hasil atau bunga, uang yang Anda simpan akan berkembang setiap bulan, sehingga nominal yang perlu Anda setor bisa sedikit lebih kecil."
+   ],
+   [
+    "Membuatnya lebih mudah",
+    "Sisihkan uang segera setelah gajian dan perlakukan seperti tagihan. Membuat target bersama pasangan juga bisa membuatnya tercapai lebih cepat."
+   ],
+   [
+    "Pantau progres Anda",
+    "Buat Target di Spendry dan lihat seberapa dekat langkah Anda setiap kali menyetor tabungan."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Kalkulator Langganan: Total Biaya Setahun",
+  "description": "Kalkulator langganan gratis. Catat langganan Anda dan lihat total biaya bulanan, tahunan, serta estimasi lima tahun.",
+  "h1": "Kalkulator biaya langganan",
+  "lead": "Catat semua langganan Anda dan ketahui total pengeluaran bulanan serta tahunan yang sebenarnya.",
+  "name": "Nama langganan",
+  "price": "Harga",
+  "cycle": "Periode",
+  "weekly": "Mingguan",
+  "monthly": "Bulanan",
+  "yearly": "Tahunan",
+  "add": "Tambah langganan",
+  "remove": "Hapus",
+  "per_month": "Per bulan",
+  "per_year": "Per tahun",
+  "five_years": "Selama 5 tahun",
+  "samples": [
+   "Streaming musik",
+   "Streaming video",
+   "Penyimpanan cloud",
+   "Keanggotaan gym",
+   "Aplikasi berita"
+  ],
+  "prose": [
+   [
+    "Mengapa total tahunan sangat penting",
+    "Biaya bulanan yang kecil terlihat ringan. Namun jika dikalikan dua belas, dan dijumlahkan dengan semua langganan yang ada, biayanya sering kali menjadi salah satu pengeluaran rutin terbesar Anda."
+   ],
+   [
+    "Langkah setelah mengetahui totalnya",
+    "Urutkan berdasarkan biaya dan tanyakan pada diri sendiri: apakah saya menggunakannya bulan lalu? Batalkan yang tidak terpakai, lalu pasang pengingat sebelum periode perpanjangan berikutnya."
+   ],
+   [
+    "Hindari perpanjangan otomatis tanpa sadar",
+    "Spendry memantau semua Langganan Anda, memasukkannya ke total pengeluaran bulanan, dan mengingatkan Anda sebelum waktu perpanjangan tiba."
+   ]
+  ]
  }
 }

@@ -327,5 +327,676 @@
     "În Spendry, fiecare categorie primește un buget lunar care se completează pe măsură ce cheltui, cu alerte înainte de a depăși limita."
    ]
   ]
+ },
+ "guides": [
+  {
+   "key": "debt-snowball-vs-avalanche",
+   "slug": "debt-snowball-vs-avalanche",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Bulgăre de zăpadă vs avalanșă: cum scapi de datorii?",
+   "description": "Metoda bulgărelui achită datoria mică, avalanșa dobânda mare. Vezi diferențele, cum economisești la dobândă și ce plan ți se potrivește.",
+   "h1": "Bulgăre de zăpadă vs avalanșă: ce metodă să alegi?",
+   "intro": [
+    "Ambele metode presupun plata sumei minime pentru fiecare datorie și direcționarea banilor rămași către una singură. Diferența constă în datoria pe care o achiți prima.",
+    "Metoda bulgărelui de zăpadă începe cu cel mai mic sold, ca să scapi rapid de o datorie și să rămâi motivat. Avalanșa începe cu cea mai mare dobândă, astfel încât să plătești cel mai puțin pe termen lung."
+   ],
+   "steps_title": "Urmează un plan de plată în Spendry",
+   "steps": [
+    "Adaugă fiecare card, credit și rată, împreună cu soldul, dobânda și plata minimă.",
+    "Deschide ecranul Datorii și alege metoda bulgărelui de zăpadă sau avalanșa.",
+    "Introdu suma pe care o poți plăti în plus în fiecare lună, peste minime.",
+    "Spendry îți ordonează datoriile și îți arată luna în care vei scăpa de ele, cu un memento înainte de fiecare scadență."
+   ],
+   "example_title": "Un exemplu",
+   "example": "Trei datorii: 1.200 la 24%, 4.000 la 18% și 9.000 la 9%, cu 300 în plus în fiecare lună. Avalanșa achită mai întâi cardul cu dobândă de 24% și economisește cei mai mulți bani. Bulgărele de zăpadă stinge mai întâi soldul de 1.200, așa că scapi de o primă datorie în câteva luni. Datele finale diferă adesea doar cu o lună sau două.",
+   "tip": "Dacă cele două date sunt apropiate, alege metoda pe care o poți urma constant. Cel mai bun plan este cel pe care îl respecți lună de lună.",
+   "faq": [
+    {
+     "q": "Care metodă mă ajută să economisesc cei mai mulți bani?",
+     "a": "Avalanșa, pentru că elimini mai repede datoria cea mai costisitoare. Suma economisită depinde de diferența dintre ratele dobânzilor tale."
+    },
+    {
+     "q": "Pot schimba metoda mai târziu?",
+     "a": "Da. Poți schimba strategia oricând în Spendry, iar planul și data la care vei scăpa de datorii se vor actualiza automat."
+    }
+   ]
+  },
+  {
+   "key": "pay-off-credit-card-debt-faster",
+   "slug": "pay-off-credit-card-debt-faster",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Cum să scapi rapid de datoriile de pe cardul de credit",
+   "description": "Pași practici ca să achiți cardul de credit mai repede: plătește peste minim, vizează dobânda mare, nu întârzia și oprește cumpărăturile noi.",
+   "h1": "Cum să scapi mai repede de datoriile de pe card",
+   "intro": [
+    "Datoria de pe cardul de credit crește deoarece dobânda se aplică lunar la suma rămasă. Fiecare plată suplimentară reduce direct soldul la care se calculează această dobândă.",
+    "Patru obiceiuri fac cea mai mare diferență: plătește mai mult decât minimul, nu întârzia niciodată, direcționează banii în plus către cea mai mare dobândă și evită cheltuielile pe care nu le poți acoperi integral."
+   ],
+   "steps_title": "Fă acest lucru cu Spendry",
+   "steps": [
+    "Adaugă-ți cardurile cu soldul curent, dobânda, data emiterii extrasului și scadența.",
+    "Setează o sumă lunară peste plata minimă și alege strategia Avalanșă.",
+    "Activează mementourile ca să nu ratezi nicio scadență, chiar și când aplicația este închisă.",
+    "Verifică ecranul Datorii în fiecare lună ca să vezi cum scade soldul și cum te apropii de data finală."
+   ],
+   "example_title": "Un exemplu",
+   "example": "Pentru un sold de 3.000 cu o dobândă de 22%, plata minimă de aproximativ 2,5% poate prelungi datoria pe mai bine de zece ani. O sumă fixă de 175 pe lună o stinge în mai puțin de doi ani.",
+   "tip": "Când primești o primă sau o sumă neprevăzută, direcționează o parte către cardul cu cea mai mare dobândă. O singură plată suplimentară poate scurta planul cu câteva luni.",
+   "faq": [
+    {
+     "q": "Ar trebui să achit mai întâi dobânda cea mai mare sau soldul cel mai mic?",
+     "a": "Cea mai mare dobândă te ajută să economisești mai mult. Soldul cel mai mic îți oferă o victorie rapidă. Spendry îți afișează data la care vei scăpa de datorii pentru ambele opțiuni, ca să poți compara."
+    },
+    {
+     "q": "Pot continua să folosesc cardul în timp ce îl achit?",
+     "a": "Doar pentru cheltuieli pe care le poți acoperi integral înainte de scadență. Soldurile noi vor amâna data la care scapi definitiv de datorii."
+    }
+   ]
+  },
+  {
+   "key": "minimum-payment-trap",
+   "slug": "minimum-payment-trap",
+   "screen": "06",
+   "tool": "cc",
+   "title": "Ce se întâmplă dacă plătești doar suma minimă pe card",
+   "description": "Plata sumei minime te scapă de penalități, dar acoperă mai mult dobânda. Vezi cât durează rambursarea și cum te ajută o sumă fixă în plus.",
+   "h1": "Ce se întâmplă dacă plătești doar minimul obligatoriu",
+   "intro": [
+    "Suma minimă de plată menține contul într-o stare bună, dar mare parte din ea acoperă doar dobânda. Pe măsură ce soldul scade, minimul scade și el, ceea ce poate prelungi datoria pe mulți ani.",
+    "O sumă fixă adăugată lunar schimbă complet situația: o parte mai mare ajunge direct în soldul datoriei, iar data finală se apropie cu ani buni."
+   ],
+   "steps_title": "Calculează-ți propriile sume",
+   "steps": [
+    "Folosește calculatorul gratuit de rambursare a cardului de credit de pe acest site ca să compari plata minimă cu o sumă lunară fixă.",
+    "În Spendry, adaugă cardul împreună cu rata dobânzii și suma minimă datorată.",
+    "Setează o sumă suplimentară pe care o poți susține lunar și urmărește noua dată de finalizare."
+   ],
+   "example_title": "Un exemplu",
+   "example": "Un sold de 3.000 cu dobândă de 22% și plăți minime de aproximativ 2,5% poate necesita mai mult de zece ani pentru a fi stins, costând în dobânzi mai mult decât datoria inițială. O sumă fixă de 175 în fiecare lună achită totul în sub doi ani.",
+   "tip": "Dacă nu poți plăti mai mult în acest moment, configurează plata automată a sumei minime prin bancă ca să eviți penalitățile, și adaugă sume în plus ori de câte ori ai posibilitatea.",
+   "faq": [
+    {
+     "q": "Dacă plătesc doar suma minimă, îmi afectează scorul de credit?",
+     "a": "Plata la timp a sumei minime păstrează istoricul curat. Totuși, un grad mare de îndatorare pe card îți poate reduce scorul, așa că rambursarea lui rapidă este mereu benefică."
+    },
+    {
+     "q": "Cum se calculează plata minimă?",
+     "a": "Depinde de bancă: de obicei este un procent mic din sold sau o sumă fixă de bază, oricare dintre ele este mai mare. Extrasul tău de cont arată valoarea exactă."
+    }
+   ]
+  },
+  {
+   "key": "statement-date-vs-due-date",
+   "slug": "statement-date-vs-due-date",
+   "screen": "07",
+   "tool": "",
+   "title": "Data extrasului vs data scadenței: când să plătești?",
+   "description": "Data extrasului închide perioada de facturare, iar data scadenței este ultima zi de plată. Află cum funcționează și când e bine să achiți.",
+   "h1": "Data extrasului vs data scadenței: când trebuie să plătești?",
+   "intro": [
+    "Data extrasului este ziua în care se încheie perioada de facturare și se calculează suma datorată. Data scadenței este stabilită câteva săptămâni mai târziu și reprezintă ultima zi în care poți achita la timp.",
+    "Dacă achiți integral suma din extras până la scadență, majoritatea cardurilor nu percep dobândă pentru cumpărături. Dacă plătești mai puțin, se va aplica dobândă la diferența rămasă."
+   ],
+   "steps_title": "Nu rata nicio scadență cu Spendry",
+   "steps": [
+    "Adaugă cardul cu ziua emiterii extrasului și ziua de scadență.",
+    "Spendry îți arată plățile scadente direct în ecranul Acasă și în ecranul Mementouri.",
+    "Primești o notificare înainte de scadență, de unde poți marca plata ca efectuată sau o poți amâna."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Cumpărăturile făcute imediat după data emiterii extrasului beneficiază de cea mai lungă perioadă de grație, deoarece vor apărea abia pe următorul extras.",
+   "faq": [
+    {
+     "q": "Ce se întâmplă dacă data scadenței pică în weekend?",
+     "a": "Multe bănci mută scadența în următoarea zi lucrătoare, dar regulile pot varia. Cel mai sigur este să plătești cu o zi sau două înainte."
+    },
+    {
+     "q": "Pot plăti înainte de data extrasului?",
+     "a": "Da. Dacă plătești mai devreme, reduci soldul total care va apărea pe următorul tău extras de cont."
+    }
+   ]
+  },
+  {
+   "key": "track-installment-payments",
+   "slug": "track-installment-payments",
+   "screen": "06",
+   "tool": "",
+   "title": "Cum să ții evidența ratelor direct pe iPhone",
+   "description": "Gestionează toate ratele într-un singur loc: cât mai ai de plată, numărul de rate rămase și data scadenței, cu mementouri pentru fiecare.",
+   "h1": "Cum să ții evidența ratelor lunare pe iPhone",
+   "intro": [
+    "Împărțirea unei achiziții în rate pare convenabilă, dar mai multe planuri active pot consuma pe nesimțite o mare parte din bugetul lunar.",
+    "Dacă ții evidența fiecărei rate rămase, vezi exact totalul de plată în fiecare lună și data exactă la care vei scăpa de ele."
+   ],
+   "steps_title": "Urmărește-ți ratele în Spendry",
+   "steps": [
+    "Adaugă o rată cu valoarea totală, numărul de plăți și data primei scadențe.",
+    "Vezi clar fiecare plan activ, sumele achitate, restul de plată și data următoarei scadențe.",
+    "Primești un memento înainte de fiecare plată și vezi ratele integrate în data la care vei scăpa de datorii, alături de carduri și credite."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Înainte de a cumpăra ceva nou în rate, adună toate plățile lunare actuale. Dacă suma depășește ce poți susține într-o lună mai dificilă, mai așteaptă puțin.",
+   "faq": [
+    {
+     "q": "Sunt ratele incluse în data la care voi scăpa de datorii?",
+     "a": "Da. Spendry le adaugă alături de carduri și credite, oferindu-ți o imagine completă asupra tuturor datoriilor."
+    },
+    {
+     "q": "Pot urmări și ratele fără dobândă?",
+     "a": "Da. Setează dobânda la zero, iar Spendry va contoriza automat plățile rămase până la final."
+    }
+   ]
+  },
+  {
+   "key": "never-miss-a-bill",
+   "slug": "never-miss-a-bill",
+   "screen": "07",
+   "tool": "",
+   "title": "Cum să nu uiți de facturi: mementouri pe iPhone",
+   "description": "Setează mementouri pentru facturi, carduri și abonamente ca să eviți penalitățile. Primești notificări și marchezi plata cu o singură atingere.",
+   "h1": "Cum să nu mai uiți niciodată de plata facturilor",
+   "intro": [
+    "Penalitățile de întârziere și dobânzile apar cel mai des din neatenție, nu din lipsa banilor. O notificare primită cu câteva zile înainte de scadență rezolvă aproape orice problemă.",
+    "Secretul este să aduni toate plățile la un loc: chirie, utilități, telefon, carduri de credit, rate și abonamente."
+   ],
+   "steps_title": "Configurează totul în Spendry",
+   "steps": [
+    "Adaugă fiecare factură și abonament cu suma datorată, scadența și frecvența de repetare.",
+    "Alege cu câte zile înainte de scadență vrei să primești memento-ul.",
+    "Notificările sosesc chiar dacă aplicația este închisă. Poți marca plata ca efectuată sau o poți amâna direct din notificare."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Adaugă widgetul pentru plăți viitoare pe ecranul principal, ca să vezi facturile din săptămâna următoare de fiecare dată când deblochezi telefonul.",
+   "faq": [
+    {
+     "q": "Voi primi mementouri dacă nu deschid aplicația?",
+     "a": "Da. Spendry le programează direct pe iPhone-ul tău, așa că le vei primi chiar dacă aplicația nu rulează."
+    },
+    {
+     "q": "Pot vedea toate plățile scadente în această săptămână?",
+     "a": "Da. Ecranul Mementouri afișează toate plățile viitoare, iar o automatizare matinală opțională îți poate trimite un rezumat pentru următoarele trei zile într-o singură notificare."
+    }
+   ]
+  },
+  {
+   "key": "track-subscriptions",
+   "slug": "track-subscriptions",
+   "screen": "07",
+   "tool": "subs",
+   "title": "Cum să gestionezi și să reduci abonamentele pe iPhone",
+   "description": "Află cât te costă abonamentele lunar și anual, primește mementouri înainte de reînnoire și renunță la serviciile de care nu mai ai nevoie.",
+   "h1": "Cum să ții evidența abonamentelor și să reduci costurile",
+   "intro": [
+    "Este foarte ușor să începi un abonament și la fel de ușor să uiți de el. Câteva sume mici plătite lunar se pot transforma într-o cheltuială anuală considerabilă.",
+    "Când vezi totalul lunar și anual adunat la un loc, este mult mai simplu să identifici două sau trei servicii pe care nu le mai folosești."
+   ],
+   "steps_title": "Urmărește-ți abonamentele în Spendry",
+   "steps": [
+    "Adaugă fiecare abonament cu prețul său și ciclul de facturare: săptămânal, lunar sau anual.",
+    "Spendry îți calculează automat totalul lunar și anual, afișând și data următoarei plăți.",
+    "Primești un memento înainte de fiecare reînnoire, ca să poți anula serviciul la timp."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Folosește calculatorul de cost al abonamentelor de pe acest site: adaugă sumele plătite și descoperă totalul anual în doar câteva secunde.",
+   "faq": [
+    {
+     "q": "Poate Spendry să anuleze abonamentele în locul meu?",
+     "a": "Nu. Spendry nu se conectează la conturile tale bancare. Aplicația îți trimite o notificare înainte de reînnoire, astfel încât să poți anula abonamentul direct la furnizor."
+    },
+    {
+     "q": "Pot include și abonamentele cu plată anuală?",
+     "a": "Da. Spendry acceptă cicluri săptămânale, lunare și anuale, integrându-le corect în totalul tău lunar."
+    }
+   ]
+  },
+  {
+   "key": "make-a-monthly-budget",
+   "slug": "make-a-monthly-budget",
+   "screen": "04",
+   "tool": "budget",
+   "title": "Cum să faci un buget lunar simplu și eficient",
+   "description": "O metodă clară pentru bugetul lunar: pornește de la venituri, acoperă nevoile de bază, setează limite de cheltuieli și economisește din timp.",
+   "h1": "Cum să construiești un buget lunar care funcționează",
+   "intro": [
+    "Un buget este un plan pentru banii tăi stabilit înainte de începutul fiecărei luni. Pornește de la venitul net și stabilește dinainte destinația fiecărei sume.",
+    "O regulă de pornire utilă alocă jumătate din venituri pentru nevoi precum chiria și facturile, o treime pentru dorințe, iar restul pentru economii și plata datoriilor. Adaptează formula după stilul tău de viață."
+   ],
+   "steps_title": "Creează-ți bugetul în Spendry",
+   "steps": [
+    "Adaugă venitul tău lunar.",
+    "Creează bugete pentru categoriile pe care cheltuiești cel mai des, fiecare având o limită clară.",
+    "Bugetele se completează pe măsură ce adaugi cheltuieli, iar Spendry te avertizează înainte de a atinge o limită.",
+    "La sfârșitul lunii, analizează statisticile și ajustează limitele pentru luna următoare."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Folosește calculatorul gratuit de buget lunar de pe acest site pentru a-ți împărți venitul înainte de a stabili limitele în aplicație.",
+   "faq": [
+    {
+     "q": "Câte categorii ar trebui să aibă un buget?",
+     "a": "Începe cu cinci până la opt categorii de bază, cum ar fi locuință, facturi, cumpărături, transport, ieșiri în oraș și economii. Adaugă altele noi doar dacă este cu adevărat nevoie."
+    },
+    {
+     "q": "Ce fac dacă depășesc o limită de buget?",
+     "a": "Poți muta bani dintr-o altă categorie sau poți învăța din această experiență pentru luna viitoare. Bugetul este un ghid flexibil pe care îl ajustezi pe parcurs, nu un test rigid."
+    }
+   ]
+  },
+  {
+   "key": "debt-free-date",
+   "slug": "debt-free-date",
+   "screen": "06",
+   "tool": "debt",
+   "title": "Află data la care scapi de datorii | Spendry",
+   "description": "Află luna în care achiți ultima datorie. Vezi cum o calculezi și cum plățile anticipate grăbesc data la care scapi de datorii.",
+   "h1": "Cum afli data la care scapi de datorii",
+   "intro": [
+    "Data la care vei scăpa de datorii este luna în care ultimul tău sold ajunge la zero. Depinde de sumele datorate, dobânzi și plățile lunare.",
+    "Când știi data exactă, un obiectiv vag devine un termen clar. În plus, vezi imediat cât contează fiecare plată anticipată."
+   ],
+   "steps_title": "Află data ta în Spendry",
+   "steps": [
+    "Adaugă datoriile: carduri de credit, credite, rate, cont overdraft sau bani împrumutați de la prieteni.",
+    "Introdu soldul, dobânda și plata lunară pentru fiecare.",
+    "Spendry calculează luna în care scapi de datorii și o actualizează automat la fiecare plată nouă."
+   ],
+   "example_title": "Încearcă acum",
+   "example": "Calculatorul gratuit de pe acest site funcționează la fel: adaugă datoriile și o sumă suplimentară lunară, apoi compară metodele Bulgăre de zăpadă și Avalanșă.",
+   "tip": "Verifică data după fiecare salariu. Să o vezi cum se apropie este cea mai bună motivație.",
+   "faq": [
+    {
+     "q": "De ce se schimbă data estimată?",
+     "a": "Se apropie când plătești în plus și se amână dacă adaugi datorii noi sau achiți mai puțin. Spendry recalculează totul automat."
+    },
+    {
+     "q": "Pot include un împrumut de la un prieten?",
+     "a": "Da. Adaugă suma ca datorie personală, cu dobândă zero."
+    }
+   ]
+  },
+  {
+   "key": "track-spending-without-bank-login",
+   "slug": "track-spending-without-bank-login",
+   "screen": "02",
+   "tool": "",
+   "title": "Evidența cheltuielilor fără conectare bancară",
+   "description": "Nu trebuie să dai acces la contul bancar. Notează cheltuieli rapid, scanează bonuri și păstrează datele în siguranță pe propriul iPhone.",
+   "h1": "Cum ții evidența cheltuielilor fără acces la contul bancar",
+   "intro": [
+    "Multe aplicații financiare cer datele de conectare la bancă. Dacă preferi confidențialitatea, poți ține evidența cheltuielilor în doar câteva secunde pe zi.",
+    "Când notezi cheltuielile manual, devii mult mai atent la ceea ce cumperi. Acesta este cel mai mare avantaj."
+   ],
+   "steps_title": "Cum funcționează în Spendry",
+   "steps": [
+    "Adaugă o cheltuială în câteva secunde: introdu suma și alege categoria, sau scanează chitanța.",
+    "Activează automatizarea Apple Pay din aplicația Scurtături, iar plățile cu cardul se salvează automat cu numele magazinului.",
+    "Datele rămân pe dispozitivul tău iPhone și se sincronizează prin propriul iCloud. Spendry nu are acces la ele."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Adaugă cheltuiala imediat ce ai plătit. Dacă amâni, este ușor să uiți de ea.",
+   "faq": [
+    {
+     "q": "Este sigur fără conectare bancară?",
+     "a": "Nu există date bancare care să poată fi expuse. Spendry păstrează datele pe dispozitiv și în iCloud, și poți activa Blocare aplicație cu Face ID."
+    },
+    {
+     "q": "Pot importa tranzacțiile?",
+     "a": "Da. Le poți prelua din mesajele de la bancă sau prin automatizări în Scurtături, fără să oferi acces la contul bancar."
+    }
+   ]
+  },
+  {
+   "key": "budget-widgets-iphone",
+   "slug": "budget-widgets-iphone",
+   "screen": "01",
+   "tool": "",
+   "title": "Widgeturi de buget pentru iPhone | Spendry",
+   "description": "Vezi soldul, bugete, obiective și plăți viitoare direct pe ecranul principal și ecranul de blocare. Adaugă cheltuieli pe loc.",
+   "h1": "Widgeturi de buget pentru ecranul principal pe iPhone",
+   "intro": [
+    "Un widget îți arată situația banilor fără să deschizi aplicația. O privire pe ecranul principal îți spune cât mai ai din buget și ce plată urmează.",
+    "Spendry oferă widgeturi pentru sold, bugete, obiective, datorii, flux de numerar și plăți viitoare, pe ecranul principal și pe ecranul de blocare."
+   ],
+   "steps_title": "Adaugă un widget Spendry",
+   "steps": [
+    "Apasă lung pe o zonă liberă de pe ecranul principal, apoi atinge Editați și Adăugați un widget.",
+    "Caută Spendry și alege tipul de widget și dimensiunea dorită.",
+    "Apasă lung pe widget și atinge Editați widgetul pentru a alege ce buget, obiectiv sau cont să afișeze."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Pune widgetul pentru plăți viitoare pe prima pagină din ecranul principal. Facturile sunt cel mai ușor de uitat.",
+   "faq": [
+    {
+     "q": "Pot adăuga o cheltuială direct dintr-un widget?",
+     "a": "Da. Widgetul de adăugare deschide direct ecranul Adaugă cheltuială, așa că totul durează doar câteva secunde."
+    },
+    {
+     "q": "Widgeturile se actualizează singure?",
+     "a": "Da. Se actualizează automat când adaugi înregistrări și pe parcursul întregii zile."
+    }
+   ]
+  },
+  {
+   "key": "save-for-a-goal",
+   "slug": "save-for-a-goal",
+   "screen": "05",
+   "tool": "savings",
+   "title": "Cum să economisești bani pentru un obiectiv",
+   "description": "Alege suma și data, pune bani deoparte lunar și urmărește progresul. Metoda simplă pentru vacanțe, mașină sau fondul de urgență.",
+   "h1": "Cum să economisești bani pentru un obiectiv clar",
+   "intro": [
+    "Un obiectiv cu sumă și dată clară este mult mai ușor de atins. Împarte suma necesară la numărul de luni rămase și afli exact cât ai de pus deoparte.",
+    "Economisește imediat după salariu, înainte de alte cheltuieli. Așa transformi totul într-un obicei automat."
+   ],
+   "steps_title": "Economisește cu Spendry",
+   "steps": [
+    "Creează un obiectiv cu suma dorită și data până la care vrei să îl atingi.",
+    "Adaugă bani de fiecare dată când economisești, iar Spendry îți arată cât mai ai până la final.",
+    "Partajează un obiectiv cu partenerul sau familia prin iCloud și economisiți împreună."
+   ],
+   "example_title": "Un exemplu simplu",
+   "example": "Pentru a strânge 6.000 în 12 luni, pui deoparte 500 pe lună. Dacă ai deja 1.200 economisiți, suma scade la 400 pe lună.",
+   "tip": "Începe cu un fond de urgență care să acopere cheltuielile pe o lună, apoi crește-l la trei luni.",
+   "faq": [
+    {
+     "q": "Cât ar trebui să fie fondul de urgență?",
+     "a": "Între trei și șase luni de cheltuieli de bază. Începe cu echivalentul unei luni și construiește treptat."
+    },
+    {
+     "q": "Pot economisi pentru mai multe obiective simultan?",
+     "a": "Da. Creează oricâte obiective dorești și urmărește evoluția fiecăruia în parte."
+    }
+   ]
+  },
+  {
+   "key": "track-loans",
+   "slug": "track-loans",
+   "screen": "06",
+   "tool": "loan",
+   "title": "Evidența creditelor: cât plătești cu adevărat",
+   "description": "Credite auto, de nevoi personale și ipotecare: sold rămas, rate, dobânzi și data finală, cu memento înainte de scadență.",
+   "h1": "Cum ții evidența unui credit și cât plătești în realitate",
+   "intro": [
+    "Rata lunară ascunde două detalii importante: cât reprezintă dobânda și câte rate au mai rămas. Monitorizarea ambelor îți arată costul real.",
+    "La începutul creditului, mare parte din rată este dobândă. Spre final, plătești mai mult din sold. De aceea plățile anticipate la început aduc cele mai mari economii."
+   ],
+   "steps_title": "Gestionează creditul în Spendry",
+   "steps": [
+    "Adaugă creditul cu valoarea totală, dobânda, perioada și data primei plăți.",
+    "Vezi soldul rămas, numărul de rate rămase și luna în care scapi de credit.",
+    "Primești un memento înainte de fiecare scadență și incluzi creditul în planul pentru eliminarea datoriilor."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Folosește calculatorul gratuit de credite de pe acest site pentru a verifica rata lunară și dobânda totală înainte de semnare.",
+   "faq": [
+    {
+     "q": "Merită să rambursez un credit anticipat?",
+     "a": "Dacă dobânda este mare și nu ai comision de rambursare anticipată, economisești bani la dobândă. Verifică întâi contractul de credit."
+    },
+    {
+     "q": "Pot include un credit ipotecar?",
+     "a": "Da. Adaugă-l în secțiunea Credite cu dobânda și durata corespunzătoare."
+    }
+   ]
+  },
+  {
+   "key": "track-net-worth",
+   "slug": "track-net-worth",
+   "screen": "08",
+   "tool": "",
+   "title": "Cum îți calculezi valoarea netă pe iPhone",
+   "description": "Valoarea netă înseamnă activele minus datoriile. Urmărește economii, investiții, aur și datorii într-un singur loc pe iPhone.",
+   "h1": "Cum ții evidența valorii nete",
+   "intro": [
+    "Valoarea netă reprezintă tot ce deții minus tot ce datorezi. Este cifra de bază care îți arată dacă situația ta financiară merge în direcția corectă.",
+    "O verificare pe lună este suficientă pentru a vedea evoluția, chiar dacă într-o lună cifrele scad temporar."
+   ],
+   "steps_title": "Urmărește totul în Spendry",
+   "steps": [
+    "Adaugă conturile curente și economiile.",
+    "Adaugă activele: acțiuni, criptomonede, aur și valute, toate cu prețuri actualizate în timp real.",
+    "Adaugă datoriile. Spendry îți afișează valoarea netă și evoluția ei în timp."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Plata datoriilor îți crește valoarea netă la fel de mult ca economisirea.",
+   "faq": [
+    {
+     "q": "Ar trebui să includ locuința sau mașina?",
+     "a": "Poți face asta, dar mulți aleg să includă doar banii disponibili, investițiile și datoriile, pentru că acestea variază lună de lună."
+    },
+    {
+     "q": "Cât de des se actualizează cotațiile investițiilor?",
+     "a": "Spendry afișează prețuri în timp real pentru acțiuni, cripto, metale prețioase și valute."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-with-partner",
+   "slug": "shared-budget-with-partner",
+   "screen": "04",
+   "tool": "",
+   "title": "Cum gestionezi un buget comun în cuplu",
+   "description": "Partajează un buget sau un obiectiv cu partenerul prin iCloud. Adăugați cheltuieli și vedeți soldul la comun, fără conturi împărțite.",
+   "h1": "Cum împarți un buget cu partenerul",
+   "intro": [
+    "Discuțiile despre bani sunt mai simple când amândoi vedeți aceleași cifre. Un buget comun arată clar ce s-a cheltuit și ce sumă a mai rămas.",
+    "Păstrează cheltuielile personale separate și împarte doar costurile comune, cum ar fi chiria, cumpărăturile pentru casă sau vacanțele."
+   ],
+   "steps_title": "Partajează în Spendry",
+   "steps": [
+    "Creează un buget sau un obiectiv și alege opțiunea de partajare.",
+    "Trimite o invitație partenerului sau familiei prin partajarea iCloud.",
+    "Fiecare poate adăuga cheltuieli, iar actualizările apar automat pe ambele dispozitive."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Stabiliți categoriile comune înainte de a începe, apoi analizați cheltuielile împreună o dată pe lună.",
+   "faq": [
+    {
+     "q": "Partenerul meu va vedea toate cheltuielile mele?",
+     "a": "Nu. Vede doar elementele partajate. Celelalte bugete și conturi personale rămân strict private."
+    },
+    {
+     "q": "Avem amândoi nevoie de Spendry?",
+     "a": "Da. Fiecare folosește Spendry pe propriul iPhone, iar datele comune se sincronizează prin iCloud."
+    }
+   ]
+  },
+  {
+   "key": "log-apple-pay-purchases-automatically",
+   "slug": "log-apple-pay-purchases-automatically",
+   "screen": "02",
+   "tool": "",
+   "title": "Înregistrează automat plăți Apple Pay | Spendry",
+   "description": "Folosește o automatizare gata configurată în Scurtături pentru a salva plățile Apple Pay în Spendry, fără tastare manuală.",
+   "h1": "Înregistrează automat plățile Apple Pay",
+   "intro": [
+    "Aplicația Scurtături poate rula o acțiune de fiecare dată când plătești cu Apple Pay. Spendry o folosește pentru a salva plata în mod automat.",
+    "Bugetele tale rămân la zi fără să tastezi nimic. Adaugi o categorie doar dacă dorești asta."
+   ],
+   "steps_title": "Cum activezi funcția",
+   "steps": [
+    "În Spendry, deschide Automatizări și alege automatizarea pentru Apple Pay.",
+    "Urmează instrucțiunile pentru a o adăuga în aplicația Scurtături.",
+    "Plătește cu Apple Pay ca de obicei. Cheltuiala apare în Spendry cu numele magazinului."
+   ],
+   "example_title": "",
+   "example": "",
+   "tip": "Activează și automatizarea de duminică seara pentru un raport rapid al cheltuielilor din săptămâna respectivă.",
+   "faq": [
+    {
+     "q": "Are Spendry acces la contul meu bancar prin această funcție?",
+     "a": "Nu. Automatizarea transmite doar detaliile pe care iPhone le afișează deja, cum sunt suma și comerciantul. Nu există acces la banca ta."
+    },
+    {
+     "q": "Pot schimba categoria mai târziu?",
+     "a": "Da. Poți edita orice cheltuială din Spendry oricând dorești."
+    }
+   ]
+  }
+ ],
+ "guides_index": {
+  "slug": "guides",
+  "title": "Ghiduri financiare: Bugete, Datorii și Facturi",
+  "description": "Ghiduri practice despre bugete, plata datoriilor, carduri de credit, rate, abonamente și cum să nu ratezi nicio plată.",
+  "h1": "Ghiduri financiare",
+  "lead": "Ghiduri scurte și practice despre bugete, plata datoriilor și cum să nu ratezi nicio scadență."
+ },
+ "guide_labels": {
+  "nav": "Ghiduri",
+  "tip": "Sfat",
+  "faq": "Întrebări frecvente",
+  "more": "Mai multe ghiduri",
+  "all": "Toate ghidurile",
+  "tools": "Calculatoare gratuite",
+  "cta": "Urmărește totul într-un singur loc. Descarcă gratuit Spendry din App Store.",
+  "topic_debt": "Datorii și carduri de credit",
+  "topic_bills": "Facturi și abonamente",
+  "topic_budget": "Bugete și economii",
+  "topic_iphone": "Pe iPhone-ul tău"
+ },
+ "cc_tool": {
+  "slug": "credit-card-payoff-calculator",
+  "title": "Calculator card de credit: Cât durează plata?",
+  "description": "Calculează rambursarea cardului de credit. Introdu soldul, dobânda și plata lunară pentru a afla costul total și data finală.",
+  "h1": "Calculator rambursare card de credit",
+  "lead": "Află în cât timp scapi de datoria de pe cardul de credit și câtă dobândă plătești, comparativ cu plata sumei minime.",
+  "balance": "Sold curent pe card",
+  "rate": "Dobândă anuală (%)",
+  "payment": "Rata lunară propusă",
+  "min_pct": "Plată minimă (% din sold)",
+  "months": "Achitat în",
+  "interest": "Total dobândă",
+  "date": "Data la care vei scăpa de datorii",
+  "fixed": "Cu plata ta fixă",
+  "minimum": "Doar plata minimă",
+  "never": "Această sumă nu acoperă dobânda lunară. Mărește plata pentru a achita cardul.",
+  "saved": "Economisești la dobândă",
+  "prose": [
+   [
+    "Cum funcționează calculul",
+    "În fiecare lună, calculatorul adaugă dobânda lunară la sold și scade plata ta, până când datoria ajunge la zero. Comparația cu plata minimă recalculează suma datorată în fiecare lună pe baza soldului rămas."
+   ],
+   [
+    "De ce durează atât de mult plata minimă",
+    "Suma minimă de plată scade odată cu soldul, așa că acoperi foarte greu dobânda acumulată. O plată lunară fixă păstrează același ritm și reduce principalul mult mai repede."
+   ],
+   [
+    "Treci la fapte",
+    "Spendry te ajută să respecți planul. Adaugă opțiunea Carduri de credit, alege cât poți plăti în fiecare lună și primești Mementouri înainte de fiecare scadență."
+   ]
+  ]
+ },
+ "loan_calc": {
+  "slug": "loan-calculator",
+  "title": "Calculator rate: Rată lunară și dobândă",
+  "description": "Calculator gratuit pentru credite de nevoi personale sau ipotecare. Află rata lunară, dobânda totală și scadențarul complet.",
+  "h1": "Calculator de credite",
+  "lead": "Introdu suma împrumutată, dobânda anuală și perioada pentru a calcula rata lunară, dobânda totală și scadențarul complet.",
+  "amount": "Valoare credit",
+  "rate": "Dobândă anuală (%)",
+  "term": "Perioadă (luni)",
+  "payment": "Rată lunară",
+  "total": "Total de rambursat",
+  "interest": "Total dobândă",
+  "month": "Luna",
+  "principal": "Principal",
+  "interest_col": "Dobândă",
+  "balance": "Sold rămas",
+  "show_all": "Arată toate plățile",
+  "show_less": "Arată mai puține",
+  "prose": [
+   [
+    "Cum se calculează rata",
+    "Acesta este un credit standard cu rate egale: plătești aceeași sumă lunar, iar dobânda este calculată la soldul rămas. La început plătești mai multă dobândă, iar spre final achiți mai mult din principal."
+   ],
+   [
+    "Cum reduci costul total",
+    "O perioadă mai scurtă sau o dobândă mai mică reduc cel mai mult costul total. Plățile anticipate la începutul creditului ajută enorm, dacă banca îți permite rambursarea fără comisioane mari."
+   ],
+   [
+    "Ține evidența după semnare",
+    "Adaugă împrumutul la secțiunea Credite din Spendry pentru a vedea numărul de Rate rămase, data finală și pentru a primi o notificare înainte de fiecare scadență."
+   ]
+  ]
+ },
+ "savings_tool": {
+  "slug": "savings-goal-calculator",
+  "title": "Calculator economii: Cât să pui deoparte?",
+  "description": "Calculează cât trebuie să economisești lunar pentru obiectivul tău. Introdu suma dorită, ce ai strâns deja și termenul limită.",
+  "h1": "Calculator pentru obiective de economii",
+  "lead": "Află exact cât trebuie să pui deoparte în fiecare lună pentru a-ți atinge obiectivul la timp.",
+  "goal": "Suma dorită",
+  "have": "Economisit deja",
+  "months": "Luni până la termen",
+  "rate": "Dobândă anuală la economii (%)",
+  "monthly": "De economisit lunar",
+  "weekly": "Aproximativ pe săptămână",
+  "total_in": "Bani depuși de tine",
+  "earned": "Dobândă acumulată",
+  "done": "Ai atins deja acest obiectiv.",
+  "prose": [
+   [
+    "Cum funcționează",
+    "Calculatorul împarte suma rămasă la numărul de luni disponibile. Dacă adaugi și o dobândă, banii economisiți generează randament lunar, așa că va trebui să depui puțin mai puțin."
+   ],
+   [
+    "Cum îți faci viața mai ușoară",
+    "Pune banii deoparte imediat după ziua de salariu, ca și cum ar fi una dintre Facturi. Un Buget comun alături de partener te poate ajuta să ajungi mai repede la țintă."
+   ],
+   [
+    "Urmărește-ți progresul",
+    "Creează secțiunea Obiective în Spendry și vezi cât mai ai până la capăt de fiecare dată când adaugi bani."
+   ]
+  ]
+ },
+ "subs_tool": {
+  "slug": "subscription-cost-calculator",
+  "title": "Calculator abonamente: Cât plătești pe an?",
+  "description": "Calculează costul real al abonamentelor tale. Vezi cât cheltuiești în fiecare lună, în fiecare an și pe o perioadă de 5 ani.",
+  "h1": "Calculator cost abonamente",
+  "lead": "Notează toate serviciile la care ești abonat și descoperă costul lor total, lunar și anual.",
+  "name": "Abonament",
+  "price": "Preț",
+  "cycle": "Facturare",
+  "weekly": "Săptămânal",
+  "monthly": "Lunar",
+  "yearly": "Anual",
+  "add": "Adaugă un abonament",
+  "remove": "Șterge",
+  "per_month": "Pe lună",
+  "per_year": "Pe an",
+  "five_years": "În 5 ani",
+  "samples": [
+   "Streaming muzică",
+   "Streaming video",
+   "Spațiu stocare cloud",
+   "Abonament sală",
+   "Aplicație de știri"
+  ],
+  "prose": [
+   [
+    "De ce contează totalul anual",
+    "O sumă mică plătită lunar pare nesemnificativă. Înmulțită cu 12 și adunată pentru fiecare serviciu în parte, devine rapid una dintre cele mai mari cheltuieli din bugetul tău."
+   ],
+   [
+    "Ce poți face cu rezultatul",
+    "Sortează lista după preț și întreabă-te: am folosit acest serviciu luna trecută? Anulează ce nu folosești și pune un memento înainte de data de reînnoire pentru cele pe care le păstrezi."
+   ],
+   [
+    "Fără reînnoiri neașteptate",
+    "Spendry monitorizează secțiunea Abonamente, le include în totalul lunar din Bugete și îți trimite Mementouri înainte de fiecare plată recurentă."
+   ]
+  ]
  }
 }

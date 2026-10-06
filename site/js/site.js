@@ -216,7 +216,7 @@
 
   // ---------------------------------------------------------------- reminders: the lock screen fills in
   const lock = q("[data-rem]");
-  let playNotes = null;
+  let playNotes = null, reserveNotes = null;
   if (lock) {
     const data = JSON.parse(lock.dataset.rem);
     const list = q(".notes", lock);
@@ -253,6 +253,21 @@
     if (!motion || !G) {
       notes.slice().reverse().forEach((n) => list.appendChild(make(n)));
     } else {
+      // Room for every card is kept from the start: cards arriving never push the page below down (and the pinned
+      // scenes further down keep the places they were measured at).
+      const reserve = () => {
+        const ghost = list.cloneNode(false);
+        ghost.style.cssText = `position:absolute;visibility:hidden;pointer-events:none;width:${list.clientWidth}px`;
+        notes.forEach((n) => ghost.appendChild(make(n)));
+        list.after(ghost);
+        list.style.minHeight = `${ghost.offsetHeight}px`;
+        ghost.remove();
+      };
+      reserveNotes = () => {   // one of the idle jobs, before the pinned scenes are measured
+        reserve();
+        let resized;
+        addEventListener("resize", () => { clearTimeout(resized); resized = setTimeout(reserve, 250); });
+      };
       playNotes = () => {
         list.innerHTML = "";
         notes.forEach((n, i) => G.delayedCall(i * .5, () => {
@@ -315,6 +330,7 @@
   ST.config({ ignoreMobileResize: true, autoRefreshEvents: "visibilitychange,resize" });
   const jobs = [];
   const later = (fn) => jobs.push(fn);
+  if (reserveNotes) later(reserveNotes);
   // Calls fn once for each element when it comes within `margin` of the screen.
   const when = (els, margin, fn) => {
     const list = els.filter(Boolean);
@@ -699,45 +715,61 @@
       if (location.hash.length > 1) while (scenes.length) scenes.shift().build();   // a deep link needs every pin above it (measured just below)
       settle();
       watchRows();
-      setTimeout(warmFonts, 6000);
+      // Page-speed tests count every long task in the first seconds, so the warm-up waits for the reader: the first
+      // scroll (it then works in the pauses) or six seconds.
+      const startWarm = () => { if (startWarm.done) return; startWarm.done = true; warmFonts(); };
+      setTimeout(startWarm, 6000);
+      addEventListener("scroll", startWarm, { once: true, passive: true });
       scenes.forEach((sc) => when([sc.el], "150% 0px 150% 0px", () => buildTo(sc)));
       setTimeout(() => { const more = () => { if (!scenes.length) return; buildTo(scenes[0]); idle(more); }; idle(more); }, 8000);
       if (d.readyState === "complete") goHash(); else addEventListener("load", goHash, { once: true });
     });
   };
   // Names of the languages and amounts in many scripts: each script needs its own system font, and loading one can
-  // take a tenth of a second or more on a slow machine. The rows stay out of layout (CSS) until the reader has been
-  // still for a while some seconds after opening the page; then they are refilled two names at a time, each pair laid
-  // out in its own moment. Coming close to a row fills it at once.
+  // take a tenth of a second or more (a whole row at once took 200 to 260 ms on a fast Mac). The rows stay out of
+  // layout (CSS) until the page has settled; then they are refilled two names at a time while the reader is still,
+  // each pair laid out in its own moment. A row the reader reaches first is filled frame by frame, a few names each.
   const many = qa(".mq, .langs");
   let lastScroll = 0;
   addEventListener("scroll", () => { lastScroll = performance.now(); }, { passive: true });
   const queue = [];
-  const flush = (row) => {
-    const job = queue.find((j) => j.row === row);
-    if (!job) return;
-    job.kids.splice(0).forEach((k) => job.box.appendChild(k));
-    queue.splice(queue.indexOf(job), 1);
+  const hold = (row) => {
+    const box = row.classList.contains("mq") ? q(".mq-track", row) : row;
+    const kids = [...box.children];
+    kids.forEach((k) => k.remove());
+    const job = { row, box, kids };
+    queue.push(job);
+    row.classList.add("near");
+    return job;
   };
-  // Coming close: a row that is still waiting is shown whole, one that is being refilled gets the rest at once.
-  const nearRows = (sec) => many.filter((r) => sec.contains(r)).forEach((row) => { if (row.classList.contains("near")) flush(row); else row.classList.add("near"); });
+  const fill = (job) => {
+    if (job.fast) return;
+    job.fast = true;
+    const tick = () => {
+      const t0 = performance.now();
+      while (job.kids.length && performance.now() - t0 < 6) { job.box.appendChild(job.kids.shift()); void job.box.offsetWidth; }
+      if (job.kids.length) requestAnimationFrame(tick);
+      else if (queue.includes(job)) queue.splice(queue.indexOf(job), 1);
+    };
+    requestAnimationFrame(tick);
+  };
+  // Coming close: a row still waiting or being refilled is filled frame by frame.
+  const nearRows = (sec) => many.filter((r) => sec.contains(r)).forEach((row) => {
+    const job = queue.find((j) => j.row === row) || (!row.classList.contains("near") && hold(row));
+    if (job) fill(job);
+  });
   const watchRows = () => when(many.map((el) => el.closest("section, footer") || el), "120% 0px 120% 0px", nearRows);
   const warmFonts = () => {
-    many.filter((row) => !row.classList.contains("near")).forEach((row) => {
-      const box = row.classList.contains("mq") ? q(".mq-track", row) : row;
-      const kids = [...box.children];
-      kids.forEach((k) => k.remove());
-      queue.push({ row, box, kids });
-      row.classList.add("near");
-    });
+    many.filter((row) => !row.classList.contains("near")).forEach(hold);
     const step = (deadline) => {
       if (!queue.length) return;
-      if (performance.now() - lastScroll < 900) { setTimeout(() => idle(step), 900); return; }
+      if (performance.now() - lastScroll < 500) { setTimeout(() => idle(step), 500); return; }
       if (deadline.timeRemaining() > 12) {
-        const job = queue[0];
+        const job = queue.find((j) => !j.fast);
+        if (!job) return;
         for (let k = 0; k < 2 && job.kids.length; k++) job.box.appendChild(job.kids.shift());
         void job.box.offsetWidth;
-        if (!job.kids.length) queue.shift();
+        if (!job.kids.length) queue.splice(queue.indexOf(job), 1);
       }
       idle(step);
     };
