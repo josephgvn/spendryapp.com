@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beş Vakit Destek / Support</title>
+<meta name="description" content="Beş Vakit: namaz vakitleri, ezan, Kur'an, zikirmatik, kıble ve günlük ayet. Destek ve iletişim. Prayer times, adhan, Quran and tasbih app support.">
+<style>
+  :root{
+    --bg:#f5f6f8; --surface:#fff; --ink:#141922; --ink-2:#4d5567; --ink-3:#818a9c;
+    --line:#e3e6ec; --accent:#16795a; --accent-soft:#e6f4ee; --fill:#fff3cd; --fill-ink:#7a5b00;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#0c1017; --surface:#141a24; --ink:#e8ebf1; --ink-2:#a2abbd; --ink-3:#6f7889;
+           --line:#232b39; --accent:#4fc59c; --accent-soft:#10241d; --fill:#2e2611; --fill-ink:#e8c76a; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);line-height:1.65;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:820px;margin:0 auto;padding:0 20px 80px}
+  header{padding:52px 0 26px;border-bottom:1px solid var(--line);margin-bottom:34px}
+  .brand{display:flex;align-items:center;gap:11px;margin-bottom:20px}
+  .brand .name{font-size:17px;font-weight:800;letter-spacing:-.02em}
+  h1{font-size:clamp(26px,4.6vw,36px);margin:0 0 10px;font-weight:800;letter-spacing:-.025em;text-wrap:balance}
+  .meta{color:var(--ink-3);font-size:13px;display:flex;gap:16px;flex-wrap:wrap;margin-top:14px}
+  .meta b{color:var(--ink-2);font-weight:600}
+  .langbar{display:flex;gap:6px;margin-top:22px}
+  .langbar button{font:inherit;font-size:13px;font-weight:600;padding:7px 15px;border-radius:8px;
+    border:1px solid var(--line);background:var(--surface);color:var(--ink-2);cursor:pointer}
+  .langbar button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+  .lede{font-size:16px;color:var(--ink-2);max-width:64ch}
+  h2{font-size:19px;margin:42px 0 12px;font-weight:700;letter-spacing:-.015em;scroll-margin-top:20px}
+  h2 .num{color:var(--accent);font-variant-numeric:tabular-nums;margin-right:9px;font-weight:800}
+  h3{font-size:15px;margin:26px 0 8px;font-weight:700;color:var(--ink)}
+  p{margin:0 0 13px;max-width:70ch}
+  ul,ol{margin:0 0 14px;padding-left:22px;max-width:70ch}
+  li{margin-bottom:7px}
+  a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px}
+  .tablewrap{overflow-x:auto;margin:0 0 18px;border:1px solid var(--line);border-radius:11px;background:var(--surface)}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:520px}
+  th,td{text-align:left;padding:11px 13px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-weight:700;font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);
+     background:var(--bg)}
+  tr:last-child td{border-bottom:0}
+  td code{font-family:var(--mono);font-size:12px;background:var(--bg);padding:1px 5px;border-radius:4px}
+  .box{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);
+    border-radius:10px;padding:15px 17px;margin:0 0 18px}
+  .box p:last-child{margin-bottom:0}
+  .box.plain{border-left-color:var(--line)}
+  .fill{background:var(--fill);color:var(--fill-ink);padding:1px 7px;border-radius:5px;font-weight:600;
+    font-size:.94em;border:1px dashed rgba(0,0,0,.14)}
+  footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--line);color:var(--ink-3);font-size:12.5px}
+  [lang]:not([lang="tr"]):not([lang="en"]){display:none}
+  body[data-lang="tr"] section[lang="en"]{display:none}
+  body[data-lang="en"] section[lang="tr"]{display:none}
+  @media print{ .langbar{display:none} body[data-lang] section{display:block !important} }
+</style>
+</head>
+<body data-lang="tr">
+<div class="wrap">
+
+<header>
+  <div class="brand"><span class="name">Beş Vakit</span></div>
+  <h1>Destek<br><span style="font-weight:600;color:var(--ink-3);font-size:.62em">Support</span></h1>
+  <div class="langbar">
+    <button type="button" data-set="tr" aria-pressed="true">Türkçe</button>
+    <button type="button" data-set="en" aria-pressed="false">English</button>
+  </div>
+</header>
+
+<section lang="tr">
+<p class="lede">Beş Vakit; namaz vakitleri ve ezan bildirimleri, Kur'an-ı Kerim ve mealleri, zikirmatik, kıble pusulası, namaz, kaza ve oruç takibi, Elif-Ba dersleri ve her gün bir ayet, hadis ve dua sunan bir iPhone uygulamasıdır.</p>
+<h2>Bize ulaş</h2>
+<p>Soru, öneri ve hata bildirimleri için <a href="mailto:support@spendryapp.com">support@spendryapp.com</a> adresine yazabilirsin. Genellikle iki iş günü içinde yanıt veririz.</p>
+<h2>Sık sorulanlar</h2>
+<ul>
+  <li><strong>Vakitler hangi yönteme göre?</strong> Varsayılan yöntem Diyanet takvimine göre ayarlıdır. Ayarlar &gt; Namaz vakitleri bölümünden başka hesaplama yöntemleri ve dakika düzeltmeleri seçebilirsin.</li>
+  <li><strong>Bildirimler gelmiyor.</strong> iPhone Ayarları &gt; Bildirimler &gt; Beş Vakit bölümünde bildirimlerin açık olduğundan ve Odak modlarının uygulamayı engellemediğinden emin ol.</li>
+  <li><strong>Pro üyeliğimi nasıl geri yüklerim?</strong> Ayarlar &gt; Beş Vakit Pro ekranındaki Satın alımları geri yükle düğmesine dokun.</li>
+  <li><strong>Aboneliği nasıl iptal ederim?</strong> iPhone Ayarları &gt; Apple Hesabı &gt; Abonelikler bölümünden yönetebilirsin.</li>
+</ul>
+<h2>Yasal</h2>
+<ul>
+  <li><a href="https://spendryapp.com/besvakit-privacy-policy">Gizlilik Politikası</a></li>
+  <li><a href="https://spendryapp.com/besvakit-terms-of-service">Kullanım Koşulları</a></li>
+</ul>
+</section>
+
+<section lang="en">
+<p class="lede">Beş Vakit is an iPhone app with prayer times and adhan notifications, the Holy Quran with Turkish translations, a tasbih counter, a Qibla compass, prayer, qada and fasting trackers, Alif-Ba lessons and a daily verse, hadith and supplication.</p>
+<h2>Contact us</h2>
+<p>For questions, suggestions and bug reports, write to <a href="mailto:support@spendryapp.com">support@spendryapp.com</a>. We usually reply within two business days.</p>
+<h2>FAQ</h2>
+<ul>
+  <li><strong>Which method is used for prayer times?</strong> The default follows Turkey's Diyanet calendar. You can choose other calculation methods and minute adjustments in Settings &gt; Prayer times.</li>
+  <li><strong>Notifications don't arrive.</strong> Make sure notifications are on in iPhone Settings &gt; Notifications &gt; Beş Vakit and that no Focus mode blocks the app.</li>
+  <li><strong>How do I restore Pro?</strong> Tap Restore purchases on the Beş Vakit Pro screen in Settings.</li>
+  <li><strong>How do I cancel a subscription?</strong> In iPhone Settings &gt; Apple Account &gt; Subscriptions.</li>
+</ul>
+<h2>Legal</h2>
+<ul>
+  <li><a href="https://spendryapp.com/besvakit-privacy-policy">Privacy Policy</a></li>
+  <li><a href="https://spendryapp.com/besvakit-terms-of-service">Terms of Use</a></li>
+</ul>
+</section>
+
+<footer>
+  <p>© <span id="yr">2026</span> Beş Vakit · Muhammed Yusuf Güven</p>
+</footer>
+
+</div>
+<script>
+  (function(){
+    // Rewritten after autocorrect ate the original. Every semicolon in this
+    // block had become a full stop, and a Turkish-locale editor then
+    // capitalised the word after each one: `var` to `Var`, `if` to `İf` with a
+    // dotted capital I. The result was invalid JavaScript, so it threw before
+    // reaching addEventListener and the English button did nothing at all.
+    // Nothing in the page looked wrong, which is why it shipped.
+    var body = document.body;
+    var buttons = document.querySelectorAll('.langbar button');
+    function set(lang) {
+      body.setAttribute('data-lang', lang);
+      document.documentElement.setAttribute('lang', lang);
+      buttons.forEach(function (b) {
+        b.setAttribute('aria-pressed', String(b.dataset.set === lang));
+      });
+      try { history.replaceState(null, '', '#' + lang); } catch (e) {}
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () { set(b.dataset.set); });
+    });
+    if (location.hash === '#en') {
+      set('en');
+    } else if (location.hash !== '#tr'
+               && !(navigator.language || '').toLowerCase().startsWith('tr')) {
+      set('en');
+    }
+    var y = document.getElementById('yr');
+    if (y) y.textContent = new Date().getFullYear();
+  })();
+</script>
+</body>
+</html>
