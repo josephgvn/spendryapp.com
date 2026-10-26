@@ -362,7 +362,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
     url = f"{BASE_URL}/{full}"
     alternates = "\n".join(
         f'<link rel="alternate" hreflang="{code}" href="{BASE_URL}/{prefix(code)}{paths[code]}">' for code in languages if code in paths
-    ) + f'\n<link rel="alternate" hreflang="x-default" href="{BASE_URL}/{paths.get("en", path)}">'
+    ) + (f'\n<link rel="alternate" hreflang="x-default" href="{BASE_URL}/{paths["en"]}">' if "en" in paths else "")
     robots = "noindex" if not_found else "index, follow, max-image-preview:large, max-snippet:-1"
     links = "" if not_found else f'<link rel="canonical" href="{url}">\n{alternates}'
     og_alt = "\n".join(f'<meta property="og:locale:alternate" content="{LANGS[x][1]}">' for x in languages if x != lang)
@@ -1194,6 +1194,7 @@ def guide_page(lang, c, i, languages, paths):
 {example}
 <div class="tip" data-rise><b>{e(L['tip'])}</b><p>{e(g['tip'])}</p></div>
 {tool}
+{amounts_block(lang, c) if g.get('amounts') and lang in PAYOFF_LANGS else ''}
 <h2 data-rise>{e(L['faq'])}</h2>
 <div class="qas">{qa_list(g['faq'])}</div>
 </article></div></section>
@@ -1269,9 +1270,12 @@ def cc_tool_page(lang, c, languages, paths):
     v = ({"balance": 30000, "rate": 3.75, "payment": 7500, "min": 20, "floor": 100, "period": "month", "step": 500} if tr else
          {"balance": nice(3000 * fx), "rate": 22, "payment": nice(175 * fx), "min": 2.5, "floor": nice(25 * fx), "period": "year",
           "step": nice(25 * fx, 1)})
+    if lang == "en":
+        # US cards: 1% of the balance plus the month's interest, at least $25 (the common formula at large issuers)
+        v["min"] = 1
     labels = {k: T[k] for k in ("interest", "date", "fixed", "minimum", "never")}
     inner = f"""
-<div class="calc" id="ccpay" data-c='{e(json.dumps({"period": v["period"], "floor": v["floor"], "labels": labels, **TR_CARD_RULES} if tr else {"period": v["period"], "floor": v["floor"], "labels": labels}, ensure_ascii=False))}'>
+<div class="calc" id="ccpay" data-c='{e(json.dumps({"period": v["period"], "floor": v["floor"], "labels": labels, **TR_CARD_RULES} if tr else {"period": v["period"], "floor": v["floor"], "labels": labels, "plusInterest": lang == "en"}, ensure_ascii=False))}'>
 <form class="panel" data-rise="now" onsubmit="return false">
 {num(T['balance'], 'balance', v['balance'], v['step'], cls="field field-lg")}
 <div class="row">{num(T['rate'], 'rate', v['rate'], "0.01")}{num(T['min_pct'], 'min', v['min'], "0.5")}</div>
@@ -1286,7 +1290,17 @@ def cc_tool_page(lang, c, languages, paths):
 <figcaption><span class="lg lg-fix">{e(T['fixed'])}</span><span class="lg lg-min">{e(T['minimum'])}</span></figcaption></figure>
 </div>
 </div>"""
+    if lang in PAYOFF_LANGS:
+        inner += amounts_block(lang, c)
     return calc_page(lang, c, "cc", T, inner, "06", languages, paths)
+
+
+def amounts_block(lang, c):
+    """Links to the balance-by-balance pages, under the card calculator and in the minimum payment guide."""
+    P = c["payoff_amounts"]
+    home = home_url(lang)
+    return (f'<div class="amount-links" data-rise><h2><a href="{home}{P["slug"]}/">{e(P["hub"]["h1"])}</a></h2>'
+            f'<p>{e(P["hub"]["links_text"])}</p><ul class="amounts">{amount_links(lang, P)}</ul></div>')
 
 
 def loan_calc_page(lang, c, languages, paths):
@@ -1349,6 +1363,275 @@ def subs_page(lang, c, languages, paths):
 </div>
 </div>"""
     return calc_page(lang, c, "subs", T, inner, "07", languages, paths)
+
+
+# ---------------------------------------------------------------- how long a card balance takes, balance by balance
+# English: US cards (APR, a minimum of 2.5% of the balance or $25, the calculator's defaults). Turkish: 2026 rules
+# (TR_CARD_RULES: the central bank's ceiling for each month's balance plus KKDF and BSMV; a 20% minimum up to a 100,000 TL
+# limit, 40% above). Every number on these pages comes from the same month-by-month loop as the calculator.
+PAYOFF_LANGS = ("en", "tr")
+
+
+def card_ceiling(bal):
+    (low, r1), (mid, r2), (_, r3) = TR_CARD_RULES["tiers"]
+    return r1 if bal < low else r2 if bal <= mid else r3
+
+
+def card_run(lang, B, pay_for, apr=None):
+    """(months, interest) for paying `pay_for(balance, interest)` every month, or None when it never clears it."""
+    bal, months, paid = float(B), 0, 0.0
+    while bal > 0.005:
+        if lang == "tr":
+            i = bal * card_ceiling(bal) / 100 * (1 + TR_CARD_RULES["tax"])
+        else:
+            i = bal * apr / 1200
+        pay = min(pay_for(bal, i), bal + i)
+        if pay <= i + 1e-9 or months >= 1200:
+            return None
+        bal, paid, months = max(0.0, bal + i - pay), paid + pay, months + 1
+    return months, paid - B
+
+
+def card_minimum(lang, B):
+    """The minimum payment for a balance as a rule (balance, interest) -> payment, and its share of the balance."""
+    if lang == "tr":
+        share = 0.40 if B > 100000 else 0.20
+        return (lambda b, i: max(b * share, 100)), share
+    return (lambda b, i: max(b * 0.01 + i, 25)), 0.01
+
+
+def payment_for_months(lang, B, n, apr=None):
+    """The fixed monthly payment that clears B in n months (whole units, rounded up)."""
+    if lang != "tr":
+        r = apr / 1200
+        return math.ceil(B * r / (1 - (1 + r) ** -n))
+    lo, hi = B / n, B
+    for _ in range(60):
+        mid = (lo + hi) / 2
+        res = card_run(lang, B, lambda b, i: mid)
+        lo, hi = (lo, mid) if res and res[0] <= n else (mid, hi)
+    return math.ceil(hi)
+
+
+def money_text(lang, v):
+    v = round(v)
+    return f"{v:,}".replace(",", ".") + " TL" if lang == "tr" else f"${v:,}"
+
+
+def months_text(lang, m, P):
+    y, mo = divmod(m, 12)
+    if lang == "tr":
+        return " ".join(x for x in (f"{y} yıl" if y else "", f"{mo} ay" if mo else "") if x)
+    parts = [f"{y} {P['year'] if y == 1 else P['years']}" if y else "", f"{mo} {P['month'] if mo == 1 else P['months']}" if mo else ""]
+    return f" {P['and']} ".join(x for x in parts if x)
+
+
+def amount_path(P, amount):
+    return f"{P['slug']}/{P['amount_slug'].format(n=amount)}/"
+
+
+def amount_numbers(lang, P, amount):
+    """Everything a balance page says, worked out once."""
+    apr = P.get("typical_rate")
+    minimum, share = card_minimum(lang, amount)
+    mn = card_run(lang, amount, minimum, apr)
+    n = {"amount": money_text(lang, amount), "min_pct": round(share * 100), "min_time": months_text(lang, mn[0], P),
+         "min_interest": money_text(lang, mn[1])}
+    for months in (6, 12, 18, 24, 36, 48, 60):
+        pay = payment_for_months(lang, amount, months, apr)
+        res = card_run(lang, amount, lambda b, i: max(pay, minimum(b, i)), apr)
+        n[f"p{months}"], n[f"i{months}"] = money_text(lang, pay), money_text(lang, res[1])
+        n[f"_p{months}"], n[f"_i{months}"] = pay, res[1]
+    n["saved"] = money_text(lang, mn[1] - n["_i24"])
+    n["saved12"] = money_text(lang, mn[1] - n["_i12"])
+    # Keep paying the first month's minimum while the required minimum shrinks with the balance
+    first_min = minimum(amount, amount * (card_ceiling(amount) / 100 * (1 + TR_CARD_RULES["tax"]) if lang == "tr" else apr / 1200))
+    fm = card_run(lang, amount, lambda b, i: max(first_min, minimum(b, i)), apr)
+    n.update({"first_min": money_text(lang, first_min), "_first_min": math.ceil(first_min), "fm_time": months_text(lang, fm[0], P),
+              "fm_interest": money_text(lang, fm[1]), "fm_saved": money_text(lang, mn[1] - fm[1])})
+    n["min_sfx"] = {20: "'si", 40: "'ı"}.get(n["min_pct"], "")
+    if lang == "tr":
+        first = amount * card_ceiling(amount) / 100
+        n["first_interest"] = money_text(lang, first * (1 + TR_CARD_RULES["tax"]))
+        n["first_rate"] = f"%{card_ceiling(amount):.2f}".replace(".", ",")
+    return n
+
+
+def payment_options(lang, P, amount):
+    """Round monthly payments to try against a balance: shares of it, rounded the way people pick a payment."""
+    if lang == "tr":
+        unit = 100 if amount < 30000 else 500 if amount < 150000 else 1000
+    else:
+        unit = 5 if amount < 2000 else 25 if amount < 20000 else 50
+    out = []
+    for share in P["pay_shares"]:
+        v = max(unit, round(amount * share / 100 / unit) * unit)
+        if v not in out:
+            out.append(v)
+    return out
+
+
+def amount_links(lang, P, current=None):
+    home = home_url(lang)
+    return "".join(f'<li><a href="{home}{amount_path(P, a)}"{CURRENT_ATTR if a == current else ""}>{e(money_text(lang, a))}</a></li>'
+                   for a in P["amounts"])
+
+
+def calc_link(lang, c, amount, pay):
+    home = home_url(lang)
+    rate = c["payoff_amounts"].get("typical_rate")
+    return f'{home}{tool_info(lang, c, "cc")[0]}?balance={amount}&payment={pay}' + (f"&rate={rate}" if rate else "")
+
+
+def payoff_hub_page(lang, c, languages):
+    P = c["payoff_amounts"]
+    H = P["hub"]
+    home = home_url(lang)
+    path = P["slug"] + "/"
+    url = f"{BASE_URL}/{prefix(lang)}{path}"
+    rows = []
+    for a in P["amounts"]:
+        n = amount_numbers(lang, P, a)
+        cell = lambda plan: (H["cell_min"].format(time=n["min_time"], interest=n["min_interest"]) if plan == "min" else
+                             H["cell_min"].format(time=n["fm_time"], interest=n["fm_interest"]) if plan == "fm" else
+                             H["cell_pay"].format(pay=n[plan], interest=n["i" + plan[1:]]))
+        rows.append(f'<tr><th scope="row"><a href="{home}{amount_path(P, a)}">{e(n["amount"])}</a></th>'
+                    + "".join(f'<td data-label="{e(col)}">{e(cell(plan))}</td>' for col, plan in zip(H["columns"][1:], H["plans"])) + "</tr>")
+    th = "".join(f'<th scope="col">{e(x)}</th>' for x in H["columns"])
+    ex = amount_numbers(lang, P, P["example"])
+    fill = lambda s: s.format(**ex)
+    faq = [{"q": fill(x["q"]), "a": fill(x["a"])} for x in H["faq"]]
+    cc_path, cc_h1, _ = tool_info(lang, c, "cc")
+    body = f"""
+<section class="tool-hero guide-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<a href="{home}{cc_path}">{e(cc_h1)}</a></nav>
+<h1 class="title title-lg" data-split>{e(H['h1'])}</h1><p class="sub" data-rise="now">{e(H['lead'])}</p></div>
+</section>
+<section class="guide-body" data-theme="light"><div class="wrap">
+<article class="prose guide payoff">
+<h2>{e(H['table_title'])}</h2>
+<div class="cmp-wrap"><table class="cmp"><thead><tr>{th}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+<p class="note">{e(H['notes'])}</p>
+{guide_prose([{**x, "p": [fill(t) for t in x.get("p", [])], "list": [fill(t) for t in x.get("list", [])]} for x in H['sections']])}
+<a class="tool tool-in" href="{home}{cc_path}" data-rise><h3>{e(cc_h1)}</h3><p>{e(H['calc_text'])}</p><span class="t-go">{icon("arrow")}</span></a>
+<h2>{e(c['guide_labels']['faq'])}</h2>
+<div class="qas">{qa_list(faq)}</div>
+</article></div></section>
+{cta_html(lang, c, c['guide_labels']['cta'], "06", "payoff")}"""
+    ld = [{"@context": "https://schema.org", "@type": "Article", "headline": H["h1"], "description": H["description"], "inLanguage": lang,
+           "url": url, "mainEntityOfPage": url, "dateModified": BUILD_DATE, "author": {"@type": "Organization", "name": "Spendry", "url": BASE_URL + "/"},
+           "publisher": organization_ld()}, faq_ld(faq),
+          crumbs_ld([("Spendry", f"{BASE_URL}/{prefix(lang)}"), (cc_h1, f"{BASE_URL}/{prefix(lang)}{cc_path}"), (H["h1"], url)])]
+    return page(lang, c, path, short_title(H["title"]), H["description"], body, ld, languages, "page-tool page-guide page-payoff",
+                paths={lang: path}, og_type="article")
+
+
+def payoff_amount_page(lang, c, languages, amount):
+    P = c["payoff_amounts"]
+    A = P["page"]
+    home = home_url(lang)
+    path = amount_path(P, amount)
+    url = f"{BASE_URL}/{prefix(lang)}{path}"
+    hub = f"{home}{P['slug']}/"
+    n = amount_numbers(lang, P, amount)
+    fill = lambda s: s.format(**n)
+    # Monthly payment against time and interest (English: three APRs; Turkish: the 2026 rules, one column pair)
+    rows = []
+    minimum, _ = card_minimum(lang, amount)
+    for pay in payment_options(lang, P, amount):
+        cells = []
+        for rate in (P["rates"] or [None]):
+            res = card_run(lang, amount, lambda b, i: max(pay, minimum(b, i)), rate)
+            text = A["never"] if res is None else A["cell"].format(time=months_text(lang, res[0], P), interest=money_text(lang, res[1]))
+            cells.append(f'<td data-label="{e(A["t1_cols"][len(cells) + 1])}">{e(text)}</td>')
+        # A payment below the first month's minimum can only be a floor under the shrinking minimum
+        label = A.get("row_atleast", "{pay}") if pay < n["_first_min"] else A.get("row_fixed", "{pay}")
+        rows.append(f'<tr><th scope="row">{e(label.format(pay=money_text(lang, pay)))}</th>{"".join(cells)}</tr>')
+    t1 = "".join(f'<th scope="col">{e(x)}</th>' for x in A["t1_cols"])
+    t2_cols = A.get("t2_cols", ["", "", ""])
+    t2_rows = "".join(f'<tr><th scope="row">{e(months_text(lang, m, P))}</th><td data-label="{e(t2_cols[1])}">{e(n[f"p{m}"])}</td>'
+                      f'<td data-label="{e(t2_cols[2])}">{e(n[f"i{m}"])}</td></tr>' for m in P["targets"])
+    t2 = "".join(f'<th scope="col">{e(x)}</th>' for x in A.get("t2_cols", []))
+    t2_html = (f'<h2>{e(fill(A["t2_title"]))}</h2><p>{e(fill(A["t2_sub"]))}</p>\n<div class="cmp-wrap"><table class="cmp"><thead><tr>{t2}'
+               f'</tr></thead><tbody>{t2_rows}</tbody></table></div>') if P["targets"] else ""
+    faq = [{"q": fill(x["q"]), "a": fill(x["a"])} for x in A["faq"]]
+    cc_path, cc_h1, _ = tool_info(lang, c, "cc")
+    faster = '<ul class="ticks">' + "".join(f"<li>{e(fill(x))}</li>" for x in A["faster"]) + "</ul>"
+    body = f"""
+<section class="tool-hero guide-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<a href="{hub}">{e(P['hub']['h1'])}</a></nav>
+<h1 class="title title-lg" data-split>{e(fill(A['h1']))}</h1><p class="sub" data-rise="now">{e(fill(A['lead']))}</p></div>
+</section>
+<section class="guide-body" data-theme="light"><div class="wrap">
+<article class="prose guide payoff">
+<div class="ex answer" data-rise><h2>{e(A['answer_title'])}</h2><p>{e(fill(A['answer']))}</p></div>
+<h2>{e(A['t1_title'])}</h2><p>{e(fill(A['t1_sub']))}</p>
+<div class="cmp-wrap"><table class="cmp"><thead><tr>{t1}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+{t2_html}
+<h2>{e(A['min_title'])}</h2><p>{e(fill(A['min_text']))}</p>
+<a class="tool tool-in" href="{e(calc_link(lang, c, amount, n['_' + P.get('calc_plan', 'p24')]))}" data-rise><h3>{e(A['calc_title'])}</h3><p>{e(fill(A['calc_text']))}</p><span class="t-go">{icon("arrow")}</span></a>
+<h2>{e(fill(A['faster_title']))}</h2>{faster}
+<h2>{e(c['guide_labels']['faq'])}</h2>
+<div class="qas">{qa_list(faq)}</div>
+<h2>{e(A['more_title'])}</h2>
+<ul class="amounts">{amount_links(lang, P, amount)}</ul>
+<p class="note">{e(A['notes'])}</p>
+</article></div></section>
+{cta_html(lang, c, c['guide_labels']['cta'], "06", "payoff")}"""
+    ld = [{"@context": "https://schema.org", "@type": "Article", "headline": fill(A["h1"]), "description": fill(A["description"]),
+           "inLanguage": lang, "url": url, "mainEntityOfPage": url, "dateModified": BUILD_DATE,
+           "author": {"@type": "Organization", "name": "Spendry", "url": BASE_URL + "/"}, "publisher": organization_ld()},
+          faq_ld(faq),
+          crumbs_ld([("Spendry", f"{BASE_URL}/{prefix(lang)}"), (P["hub"]["h1"], f"{BASE_URL}/{prefix(lang)}{P['slug']}/"),
+                     (n["amount"], url)])]
+    return page(lang, c, path, short_title(fill(A["title"])), fill(A["description"]), body, ld, languages,
+                "page-tool page-guide page-payoff", paths={lang: path}, og_type="article")
+
+
+def llms_txt(content):
+    """A plain summary of the site for AI assistants (llmstxt.org): what Spendry is and where the useful pages are."""
+    en, tr = content["en"], content["tr"]
+    def tools(lang, c):
+        return "\n".join(f"- [{h}]({BASE_URL}/{prefix(lang)}{p}): {d}" for p, h, d in (tool_info(lang, c, k) for k in TOOL_ORDER))
+    def guides(lang, c):
+        slug = c["guides_index"]["slug"]
+        return "\n".join(f"- [{g['h1']}]({BASE_URL}/{prefix(lang)}{slug}/{g['slug']}/): {g['description']}" for g in c["guides"])
+    def balances(lang, c):
+        P = c["payoff_amounts"]
+        return (f"- [{P['hub']['h1']}]({BASE_URL}/{prefix(lang)}{P['slug']}/): {P['hub']['description']}\n" +
+                "\n".join(f"- [{money_text(lang, a)}]({BASE_URL}/{prefix(lang)}{amount_path(P, a)})" for a in P["amounts"]))
+    return f"""# Spendry
+
+> {en['meta']['description']}
+
+Spendry is a personal finance app for iPhone, iPad and Mac, made by an independent developer. It tracks budgets, credit
+cards, loans, installments, overdrafts, bills, subscriptions, savings goals and investments, shows the date you will be
+debt-free and reminds you before payments are due. It never asks for a bank login: you add your accounts and records
+yourself, and your data stays on your devices and in your own iCloud. The site's calculators are free, run in the browser
+and send nothing anywhere. The site is in 47 languages; English is at {BASE_URL}/ and Turkish at {BASE_URL}/tr/.
+
+## Free calculators
+{tools('en', en)}
+
+## How long credit card debt takes, balance by balance
+{balances('en', en)}
+
+## Guides
+{guides('en', en)}
+
+## Türkçe (Turkish)
+{tools('tr', tr)}
+{balances('tr', tr)}
+{guides('tr', tr)}
+
+## App
+- [Spendry on the App Store]({store_url('en', 'llms')})
+- [Privacy policy]({BASE_URL}/privacy-policy.html)
+- [Terms of service]({BASE_URL}/terms-of-service.html)
+- Support: support@spendryapp.com
+"""
 
 
 def csv_template(c):
@@ -1436,6 +1719,10 @@ def main():
         else:
             out("loan", loan_calc_page(lang, c, languages, P["loan"]))
         out("guides", guides_index_page(lang, c, languages, P["guides"]))
+        if lang in PAYOFF_LANGS:
+            write(f"{prefix(lang)}{c['payoff_amounts']['slug']}/index.html", payoff_hub_page(lang, c, languages))
+            for amount in c["payoff_amounts"]["amounts"]:
+                write(f"{prefix(lang)}{amount_path(c['payoff_amounts'], amount)}index.html", payoff_amount_page(lang, c, languages, amount))
         for i in range(len(c["guides"])):
             out(f"guide:{i}", guide_page(lang, c, i, languages, P[f"guide:{i}"]))
     write("404.html", not_found_page(content["en"], languages))
@@ -1447,6 +1734,10 @@ def main():
             alts = "".join(f'<xhtml:link rel="alternate" hreflang="{x}" href="{BASE_URL}/{prefix(x)}{P[k][x]}"/>' for x in languages)
             alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{BASE_URL}/{P[k]["en"]}"/>'
             urls.append(f"<url><loc>{BASE_URL}/{prefix(lang)}{P[k][lang]}</loc><lastmod>{BUILD_DATE}</lastmod>{alts}</url>")
+        if lang in PAYOFF_LANGS:
+            Pa = content[lang]["payoff_amounts"]
+            urls += [f"<url><loc>{BASE_URL}/{prefix(lang)}{x}</loc><lastmod>{BUILD_DATE}</lastmod></url>"
+                     for x in [Pa["slug"] + "/"] + [amount_path(Pa, a) for a in Pa["amounts"]]]
         if lang == "en":
             urls += [f"<url><loc>{BASE_URL}/{x}</loc></url>" for x in ("privacy-policy.html", "terms-of-service.html")]
         files.append(f"sitemaps/{lang.lower()}.xml")
@@ -1454,6 +1745,7 @@ def main():
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
           "\n".join(f"<sitemap><loc>{BASE_URL}/{f}</loc><lastmod>{BUILD_DATE}</lastmod></sitemap>" for f in files) + "\n</sitemapindex>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /site/\n\nSitemap: {BASE_URL}/sitemap.xml\n")
+    write("llms.txt", llms_txt(content))
     print("built", len(build), "languages,", len(keys), "pages each")
 
 

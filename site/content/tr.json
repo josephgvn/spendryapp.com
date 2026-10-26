@@ -773,7 +773,8 @@
     }
    ],
    "screen": "06",
-   "tool": "cc"
+   "tool": "cc",
+   "amounts": true
   },
   {
    "key": "minimum-payment-trap",
@@ -963,7 +964,8 @@
       "Asgari tutar için otomatik ödeme talimatı ver; böylece hiç gecikmeye düşmezsin."
      ]
     }
-   ]
+   ],
+   "amounts": true
   },
   {
    "key": "statement-date-vs-due-date",
@@ -1749,5 +1751,150 @@
    "final_title": "Her yenilemeyi önceden bil.",
    "final_text": "Spendry'yi indir, aboneliklerini ekle; her yenilemeden önce haber versin."
   }
+ },
+ "payoff_amounts": {
+  "slug": "kredi-karti-borcu-kac-ayda-biter",
+  "amount_slug": "{n}-tl",
+  "amounts": [
+   10000,
+   20000,
+   25000,
+   30000,
+   40000,
+   50000,
+   75000,
+   100000,
+   150000,
+   200000,
+   250000,
+   300000
+  ],
+  "rates": [],
+  "typical_rate": null,
+  "pay_shares": [
+   5,
+   10,
+   15,
+   20,
+   30,
+   50
+  ],
+  "targets": [],
+  "example": 50000,
+  "year": "yıl",
+  "years": "yıl",
+  "month": "ay",
+  "months": "ay",
+  "and": "",
+  "hub": {
+   "title": "Kredi Kartı Borcu Kaç Ayda Biter? 2026 Ödeme Tablosu",
+   "description": "Kart borcun kaç ayda biter, ne kadar faiz ödersin? 10.000 TL ile 300.000 TL arası borçlar için asgari ödeme ve sabit ödeme tablosu; 2026 faiz tavanları, KKDF ve BSMV dahil.",
+   "h1": "Kredi kartı borcu kaç ayda biter?",
+   "lead": "Borcun ne zaman biteceği üç şeye bağlı: borç tutarı, faiz ve her ay ne kadar ödediğin. Aşağıdaki tablo sık görülen borçlar için 2026 kurallarıyla hesaplandı.",
+   "table_title": "Borç tutarına göre bitiş süreleri",
+   "columns": [
+    "Kart borcu",
+    "Sadece asgari öde",
+    "İlk ayın asgarisini her ay öde"
+   ],
+   "cell_pay": "ayda {pay}, faiz ve vergi {interest}",
+   "cell_min": "{time}, faiz ve vergi {interest}",
+   "notes": "Varsayımlar: kartla yeni harcama yapılmıyor; faiz Merkez Bankası'nın 1 Kasım 2026 tavanında (dönem borcuna göre %3,25, %3,75 ya da %4,25); faize %15 KKDF ve %15 BSMV ekleniyor. Asgari ödeme 100.000 TL'ye kadar olan borçlarda %20, daha büyük borçlarda %40 alındı, çünkü bu borçlar 100.000 TL'nin üstünde bir limit gerektirir. Asgari tutarın altında ödeme yapılamaz; ilk ayın asgarisini her ay ödemek, asgari düştükçe ödemeyi düşürmemek demektir.",
+   "sections": [
+    {
+     "h": "Borcun ne zaman biteceğini ne belirler?",
+     "p": [
+      "Kart borcuna her ay kalan tutar üzerinden akdi faiz işler, faize KKDF ve BSMV eklenir. Ödemenin yalnızca faizi ve vergiyi aşan kısmı borcu azaltır. {amount} borca ilk ay yaklaşık {first_interest} faiz ve vergi işler; ödemen bunun ne kadar üstündeyse borç o kadar hızlı biter."
+     ]
+    },
+    {
+     "h": "Sadece asgari ödemek neden bu kadar sürer?",
+     "p": [
+      "Asgari tutar borcun yüzdesidir; borç azaldıkça asgari de azalır. İlk aylarda hızlı inen borç, sonlara doğru küçük taksitlerle aylarca sürer. {amount} borç yalnızca asgariyle {min_time} sürer ve {min_interest} faiz ve vergi ödersin. İlk ayın asgarisi olan {first_min}'yi her ay ödemeye devam edersen {fm_time} içinde biter ve {fm_interest} ödersin."
+     ]
+    },
+    {
+     "h": "Kart borcunu daha hızlı kapatmanın yolları",
+     "list": [
+      "Asgari tutar düştükçe sen düşürme: ilk ay ödediğin tutarı her ay ödemeye devam et.",
+      "Borcu kapatana kadar kartı yeni harcamalar için kullanma.",
+      "Birden fazla kartın varsa fazlasını önce en yüksek faizli karta yatır.",
+      "İkramiye ve vergi iadesi gibi ek gelirleri doğrudan karta yatır.",
+      "Daha düşük faizli bir krediyle kapatmanın toplam maliyetini vergiler dahil karşılaştır."
+     ]
+    }
+   ],
+   "calc_text": "Kendi borcunu, faizini ve ödemeni gir; borçsuz olacağın ayı gör ve sadece asgari ödemeyle karşılaştır.",
+   "faq": [
+    {
+     "q": "Kredi kartı borcu kaç ayda biter?",
+     "a": "Borca, faize ve ödemene bağlıdır. %20 asgari ödemeyle {amount} borç {min_time} sürer; ilk ayın asgarisi olan {first_min}'yi her ay ödersen {fm_time} içinde biter."
+    },
+    {
+     "q": "Asgari tutarın altında ödeme yapabilir miyim?",
+     "a": "Hayır. Asgari tutarın altında ödersen gecikmeye düşersin ve ödenmeyen kısma gecikme faizi işler. Asgariden fazlasını istediğin kadar ödeyebilirsin."
+    },
+    {
+     "q": "Asgari ödemeyle kart borcu biter mi?",
+     "a": "Biter, ama yavaş. %20 asgari ödemeyle {amount} borç {min_time} sürer ve faize ve vergiye {min_interest} gider. Bu sürede kartla yeni harcama yapmadığın varsayılır."
+    },
+    {
+     "q": "Kart borcunu hızlı kapatmak ne kadar kazandırır?",
+     "a": "{amount} borçta ilk ayın asgarisini her ay ödemeye devam edersen, sadece asgari ödemeye göre faiz ve vergiden yaklaşık {fm_saved} tasarruf edersin."
+    }
+   ],
+   "plans": [
+    "min",
+    "fm"
+   ],
+   "links_text": "Borcuna yakın tutarı seç; asgari ödemeyle ve daha fazla ödeyerek ne zaman biteceğini, faiz ve vergiyi gör."
+  },
+  "page": {
+   "title": "{amount} Kredi Kartı Borcu Kaç Ayda Biter? Ödeme Tablosu",
+   "description": "{amount} kart borcu sadece asgari ödemeyle {min_time} sürer, ilk asgariyi her ay ödersen {fm_time}. Aylık ödemeye göre süre, faiz ve vergi tablosu; 2026 kurallarıyla.",
+   "h1": "{amount} kredi kartı borcu kaç ayda biter?",
+   "lead": "Sadece asgari ödersen {min_time} sürer; ilk ayın asgarisi olan {first_min}'yi her ay ödersen {fm_time} içinde biter. Aşağıda her seçeneğin süresi ve faiz ile vergi maliyeti var.",
+   "answer_title": "Kısa cevap",
+   "answer": "Sadece %{min_pct} asgari ödersen {amount} borç {min_time} sürer ve {min_interest} faiz ve vergi ödersin. İlk ayın asgarisi olan {first_min}'yi her ay ödemeye devam edersen {fm_time} içinde biter, faiz ve vergi {fm_interest} olur.",
+   "t1_title": "Aylık ödemeye göre süre ve maliyet",
+   "t1_sub": "{amount} borcun farklı ödemelerle ne kadar sürdüğü ve toplam faiz ile vergisi. Asgari tutarın altında ödeme yapılamadığı için küçük tutarlar, düşen asgarinin altına inmeyen bir taban olarak hesaplandı.",
+   "t1_cols": [
+    "Her ay ödediğin",
+    "Süre, faiz ve vergi"
+   ],
+   "cell": "{time}, {interest}",
+   "never": "Bitmez: ödeme faizi karşılamıyor",
+   "min_title": "Sadece asgari ödersen",
+   "min_text": "Bu borç için asgari ödeme dönem borcunun %{min_pct}{min_sfx} alındı. {amount} borç yalnızca asgariyle {min_time} sürer, faiz ve vergi toplamı {min_interest} olur. İlk ayın asgarisi olan {first_min}'yi her ay ödemeye devam edersen {fm_time} içinde biter ve {fm_saved} daha az ödersin.",
+   "calc_title": "Kendi rakamlarınla dene",
+   "calc_text": "Ücretsiz hesaplayıcıyı {amount} ve ayda {first_min} dolu olarak aç; faizi, asgari oranı ya da ödemeni değiştir.",
+   "faster_title": "{amount} borcu daha hızlı kapatmak için",
+   "faster": [
+    "Asgari tutar düştükçe sen düşürme: her ay en az {first_min} öde.",
+    "Borç bitene kadar kartı yeni harcamalar için kullanma.",
+    "İkramiye ve vergi iadesi gibi ek gelirleri doğrudan karta yatır.",
+    "Birden fazla kartın varsa fazlasını önce en yüksek faizli karta yatır.",
+    "Asgari tutar için otomatik ödeme talimatı ver; gecikme faizine hiç düşme."
+   ],
+   "more_title": "Diğer borç tutarları",
+   "notes": "Varsayımlar: faiz Merkez Bankası'nın 1 Kasım 2026 tavanında ve borç küçüldükçe kademesi değişiyor; faize %15 KKDF ve %15 BSMV ekleniyor; kartla yeni harcama ve ek ücret yok. Kendi kartının oranı hesap özetinde yazar.",
+   "faq": [
+    {
+     "q": "{amount} kredi kartı borcu için ayda ne kadar ödemeliyim?",
+     "a": "İlk ay en az asgari tutarı, yani {first_min} ödemen gerekir. Bu tutarı her ay ödemeye devam edersen borç {fm_time} içinde biter; asgari tutar düştükçe sen de daha az ödersen {min_time} sürer."
+    },
+    {
+     "q": "{amount} borç asgari ödemeyle kaç ayda biter?",
+     "a": "Asgari ödeme %{min_pct} ise yaklaşık {min_time} sürer ve {min_interest} faiz ve vergi ödersin. Bu sürede kartla yeni harcama yapmadığın varsayılır."
+    },
+    {
+     "q": "{amount} kart borcuna ne kadar faiz işler?",
+     "a": "İlk ay yaklaşık {first_interest} faiz ve vergi işler ({first_rate} akdi faiz, KKDF ve BSMV dahil). Toplam faiz ve vergi, sadece asgari ödersen {min_interest}, ilk ayın asgarisini her ay ödersen {fm_interest} olur."
+    }
+   ],
+   "row_atleast": "Asgari, ama en az {pay}",
+   "row_fixed": "Her ay {pay}"
+  },
+  "calc_plan": "first_min"
  }
 }

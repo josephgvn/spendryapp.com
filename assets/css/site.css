@@ -791,3 +791,28 @@ tbody tr:nth-child(2n) { background: #fafbff; }
 .ticks li { position: relative; padding-inline-start: 30px; color: var(--ink-2); font-size: 17px; }
 .ticks li::before { content: ""; position: absolute; inset-inline-start: 3px; top: .42em; width: 13px; height: 7px; border-inline-start: 2.5px solid var(--green); border-bottom: 2.5px solid var(--green); transform: rotate(-45deg); }
 [dir="rtl"] .ticks li::before { transform: rotate(45deg); }
+
+/* Balance by balance payoff pages */
+.payoff .answer { margin: 6px 0 10px; }
+.payoff .answer p { font-size: 18px; color: var(--ink); }
+.payoff .amounts { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 10px 20px; margin: 4px 0 8px; }
+.payoff .amounts a { font-weight: 650; font-variant-numeric: tabular-nums; }
+.payoff .amounts a[aria-current] { color: var(--ink-3); pointer-events: none; }
+.payoff .cmp td, .payoff .cmp th { font-variant-numeric: tabular-nums; }
+.payoff .cmp th a { font-weight: 700; }
+.amount-links { margin-top: clamp(28px, 4vw, 44px); display: grid; gap: 8px; }
+.amount-links h2 { font-size: clamp(20px, 2.2vw, 26px); letter-spacing: var(--tight-2); }
+.amount-links h2 a { color: inherit; }
+.amount-links p { color: var(--ink-2); }
+.amount-links .amounts { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 10px 20px; margin-top: 6px; }
+.amount-links .amounts a { font-weight: 650; font-variant-numeric: tabular-nums; }
+/* On a phone the balance tables read as one block per row, each value with its column's name */
+@media (max-width: 560px) {
+  .payoff .cmp thead { display: none; }
+  .payoff .cmp, .payoff .cmp tbody, .payoff .cmp tr, .payoff .cmp tbody th, .payoff .cmp td { display: block; width: 100%; }
+  .payoff .cmp tr { padding: 14px 16px; border-bottom: 1px solid var(--line); }
+  .payoff .cmp tbody tr:last-child { border-bottom: 0; }
+  .payoff .cmp tbody th { padding: 0 0 6px; font-size: 17px; width: auto; }
+  .payoff .cmp td { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; padding: 4px 0; text-align: end; }
+  .payoff .cmp td::before { content: attr(data-label); flex: 0 0 auto; max-width: 48%; text-align: start; color: var(--ink-3); font-weight: 600; font-size: 13px; }
+}

@@ -625,7 +625,8 @@
      "q": "Should I keep using the card while paying it off?",
      "a": "Only for purchases you can pay in full before the due date. New balances push your debt-free date further away."
     }
-   ]
+   ],
+   "amounts": true
   },
   {
    "key": "minimum-payment-trap",
@@ -657,7 +658,8 @@
      "q": "How is the minimum payment calculated?",
      "a": "It depends on the bank: usually a small percentage of the balance or a fixed floor, whichever is higher. Your statement shows the exact amount."
     }
-   ]
+   ],
+   "amounts": true
   },
   {
    "key": "statement-date-vs-due-date",
@@ -1106,7 +1108,7 @@
   "balance": "Card balance",
   "rate": "Annual interest rate (%)",
   "payment": "Your monthly payment",
-  "min_pct": "Minimum payment (% of balance)",
+  "min_pct": "Minimum payment (% of balance, plus interest)",
   "months": "Paid off in",
   "interest": "Total interest",
   "date": "Debt-free",
@@ -1558,5 +1560,175 @@
    "final_title": "Know every renewal in advance.",
    "final_text": "Download Spendry, add your subscriptions and get a heads-up before each renewal."
   }
+ },
+ "payoff_amounts": {
+  "slug": "how-long-to-pay-off-credit-card-debt",
+  "amount_slug": "{n}",
+  "amounts": [
+   1000,
+   2000,
+   3000,
+   4000,
+   5000,
+   6000,
+   7000,
+   8000,
+   9000,
+   10000,
+   12000,
+   15000,
+   20000,
+   25000,
+   30000,
+   40000,
+   50000
+  ],
+  "rates": [
+   20,
+   24,
+   29
+  ],
+  "typical_rate": 24,
+  "pay_shares": [
+   4,
+   5,
+   7.5,
+   10,
+   15,
+   20
+  ],
+  "targets": [
+   12,
+   18,
+   24,
+   36,
+   48
+  ],
+  "example": 5000,
+  "year": "year",
+  "years": "years",
+  "month": "month",
+  "months": "months",
+  "and": "and",
+  "hub": {
+   "title": "How Long to Pay Off Credit Card Debt? Tables From $1,000 to $50,000",
+   "description": "How long it takes to pay off $1,000 to $50,000 of credit card debt: the monthly payment to be debt-free in one or three years, and what minimum payments cost.",
+   "h1": "How long does it take to pay off credit card debt?",
+   "lead": "It comes down to three numbers: what you owe, the APR and what you pay each month. These tables answer it for common balances at a 24% APR.",
+   "table_title": "Payoff times for common balances",
+   "columns": [
+    "Balance",
+    "Debt-free in 1 year",
+    "Debt-free in 3 years",
+    "Minimum payments only"
+   ],
+   "cell_pay": "{pay} a month, {interest} interest",
+   "cell_min": "{time}, {interest} interest",
+   "notes": "Assumptions: a 24% APR charged monthly, no new purchases, and a minimum payment of 1% of the balance plus the month's interest, or $25 if that is more, the formula most large US issuers use. Your card's terms may differ, so check your statement or try your own numbers in the calculator.",
+   "sections": [
+    {
+     "h": "What decides how long it takes",
+     "p": [
+      "Each month your card adds interest: the balance times the APR divided by 12. Only the part of your payment above that interest shrinks the debt. At a 24% APR a $5,000 balance is charged about $100 of interest a month, so a $150 payment lowers it by only about $50.",
+      "That is why a slightly bigger payment makes such a difference: every extra dollar goes straight to the balance."
+     ]
+    },
+    {
+     "h": "Why minimum payments take so long",
+     "p": [
+      "The minimum is a small share of the balance, so it shrinks as the balance shrinks and most of it goes to interest. Paying only the minimum on {amount} at a 24% APR takes {min_time} and costs {min_interest} in interest."
+     ]
+    },
+    {
+     "h": "How to get out of credit card debt faster",
+     "list": [
+      "Pick a fixed monthly payment you can keep, and keep paying it even when the minimum drops.",
+      "Stop adding new purchases to the card while you pay it down.",
+      "With more than one card, put extra money on the highest-APR card first (the avalanche method).",
+      "Send windfalls like tax refunds and bonuses straight to the balance.",
+      "Compare a lower-rate loan or balance transfer by its total cost, fees included."
+     ]
+    }
+   ],
+   "calc_text": "Enter your own balance, APR and payment to see your debt-free date and compare it with paying only the minimum.",
+   "faq": [
+    {
+     "q": "How long does it take to pay off a credit card?",
+     "a": "It depends on the balance, the APR and your payment. At a 24% APR, {amount} is paid off in 1 year at {p12} a month or in 3 years at {p36} a month; paying only the minimum takes {min_time}."
+    },
+    {
+     "q": "How much should I pay to clear my credit card in a year?",
+     "a": "At a 24% APR, about $95 a month for every $1,000 you owe: {p12} a month for {amount}. The total interest is about {i12}."
+    },
+    {
+     "q": "Why does my credit card balance barely go down?",
+     "a": "Most of a small payment goes to interest. At a 24% APR a card charges about 2% of the balance every month, so a payment close to that amount barely touches the debt."
+    },
+    {
+     "q": "Is it better to pay off a credit card faster?",
+     "a": "Yes, if you can do it without missing other bills or emptying your emergency savings. Paying {amount} off in 1 year instead of with minimum payments saves about {saved12} in interest."
+    }
+   ],
+   "plans": [
+    "p12",
+    "p36",
+    "min"
+   ],
+   "links_text": "See the monthly payment and the interest for a balance like yours, from $1,000 to $50,000."
+  },
+  "page": {
+   "title": "How Long to Pay Off {amount} Credit Card Debt? Payment Table",
+   "description": "Paying off {amount} of credit card debt: the monthly payment for 1 to 4 years, the interest at 20%, 24% and 29% APR, and how long minimum payments take.",
+   "h1": "How long does it take to pay off {amount} in credit card debt?",
+   "lead": "At a 24% APR it takes {min_time} with minimum payments only, or 2 years at {p24} a month. Here is every option, with the interest each one costs.",
+   "answer_title": "The short answer",
+   "answer": "At a 24% APR, paying {p24} a month clears {amount} in 2 years with {i24} in interest. Paying {p12} a month clears it in 1 year with {i12} in interest. Paying only the minimum takes {min_time} and costs {min_interest}.",
+   "t1_title": "Monthly payment, payoff time and interest",
+   "t1_sub": "How long {amount} takes to pay off at different monthly payments and APRs, with the total interest you would pay.",
+   "t1_cols": [
+    "Monthly payment",
+    "20% APR",
+    "24% APR",
+    "29% APR"
+   ],
+   "cell": "{time}, {interest} interest",
+   "never": "Never: the payment does not cover the interest",
+   "t2_title": "The payment to be debt-free by a date",
+   "t2_sub": "The fixed monthly payment that clears {amount} in a set time at a 24% APR, with no new purchases.",
+   "t2_cols": [
+    "Debt-free in",
+    "Monthly payment",
+    "Total interest"
+   ],
+   "min_title": "What paying only the minimum costs",
+   "min_text": "With a minimum payment of 1% of the balance plus the month's interest, or $25 if that is more, {amount} at a 24% APR takes {min_time} to pay off and costs {min_interest} in interest. A fixed {p24} a month clears it in 2 years and saves {saved}.",
+   "calc_title": "Try it with your own numbers",
+   "calc_text": "Open the free calculator with {amount} and {p24} a month filled in, then change the APR, the minimum or the payment.",
+   "faster_title": "How to pay off {amount} faster",
+   "faster": [
+    "Pay a fixed {p24} or more every month, even when the minimum drops.",
+    "Stop using the card for new purchases until it is paid off.",
+    "Put tax refunds, bonuses and side income toward the balance.",
+    "If you have several cards, pay extra on the highest-APR card first.",
+    "Ask your card issuer for a lower APR; even a few points cut the interest."
+   ],
+   "more_title": "Other balances",
+   "notes": "Assumptions: the APR stays the same, interest is charged monthly, there are no new purchases or fees, and the minimum payment is 1% of the balance plus interest, or $25. Card terms differ, so check your statement.",
+   "faq": [
+    {
+     "q": "How much should I pay a month on {amount} of credit card debt?",
+     "a": "At a 24% APR: about {p12} a month to be debt-free in 1 year, {p24} in 2 years or {p36} in 3 years."
+    },
+    {
+     "q": "How long does it take to pay off {amount} with minimum payments?",
+     "a": "About {min_time}, with {min_interest} in interest, if the minimum is 1% of the balance plus the month's interest (at least $25) and the APR is 24%. Your statement shows your card's own minimum."
+    },
+    {
+     "q": "How much interest will I pay on {amount} of credit card debt?",
+     "a": "At a 24% APR: about {i12} if you pay it off in 1 year, {i36} over 3 years and {min_interest} with minimum payments only."
+    }
+   ]
+  },
+  "calc_plan": "p24"
  }
 }

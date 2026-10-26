@@ -1,0 +1,98 @@
+# Spendry
+
+> See the day you'll be debt-free, track every card, loan, bill and subscription, and get a reminder before anything is due. No bank login. Free for iPhone and iPad.
+
+Spendry is a personal finance app for iPhone, iPad and Mac, made by an independent developer. It tracks budgets, credit
+cards, loans, installments, overdrafts, bills, subscriptions, savings goals and investments, shows the date you will be
+debt-free and reminds you before payments are due. It never asks for a bank login: you add your accounts and records
+yourself, and your data stays on your devices and in your own iCloud. The site's calculators are free, run in the browser
+and send nothing anywhere. The site is in 47 languages; English is at https://spendryapp.com/ and Turkish at https://spendryapp.com/tr/.
+
+## Free calculators
+- [Debt payoff calculator](https://spendryapp.com/debt-payoff-calculator/): Free debt payoff calculator: compare the snowball and avalanche methods and see the month you'll be debt-free and the interest you'll pay. No sign-up.
+- [Credit card payoff calculator](https://spendryapp.com/credit-card-payoff-calculator/): Free credit card payoff calculator. Enter your balance, rate and monthly payment to see your payoff date, the total interest and what paying only the minimum costs.
+- [Monthly budget calculator](https://spendryapp.com/budget-calculator/): Free monthly budget calculator: split your take-home pay into needs, wants, and savings or debt payments in seconds. No sign-up.
+- [Loan calculator](https://spendryapp.com/loan-calculator/): Free loan calculator for car loans, personal loans and mortgages. See the monthly payment, the total interest and the full payment schedule.
+- [Savings goal calculator](https://spendryapp.com/savings-goal-calculator/): Free savings goal calculator. Enter your goal, what you already have and your deadline to see how much to save each month, with optional interest.
+- [Subscription cost calculator](https://spendryapp.com/subscription-cost-calculator/): Free subscription calculator. List your subscriptions with their price and billing cycle and see what they cost each month, each year and over five years.
+
+## How long credit card debt takes, balance by balance
+- [How long does it take to pay off credit card debt?](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/): How long it takes to pay off $1,000 to $50,000 of credit card debt: the monthly payment to be debt-free in one or three years, and what minimum payments cost.
+- [$1,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/1000/)
+- [$2,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/2000/)
+- [$3,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/3000/)
+- [$4,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/4000/)
+- [$5,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/5000/)
+- [$6,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/6000/)
+- [$7,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/7000/)
+- [$8,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/8000/)
+- [$9,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/9000/)
+- [$10,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/10000/)
+- [$12,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/12000/)
+- [$15,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/15000/)
+- [$20,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/20000/)
+- [$25,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/25000/)
+- [$30,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/30000/)
+- [$40,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/40000/)
+- [$50,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/50000/)
+
+## Guides
+- [Debt snowball vs. avalanche: which one should you use?](https://spendryapp.com/guides/debt-snowball-vs-avalanche/): The snowball pays the smallest balance first, the avalanche the highest rate. See how they differ, which saves more interest and how to follow either one.
+- [How to pay off credit card debt faster](https://spendryapp.com/guides/pay-off-credit-card-debt-faster/): Practical steps to pay off credit card debt faster: pay more than the minimum, aim extra money at the highest rate, never pay late and stop new balances.
+- [What happens if you only pay the minimum](https://spendryapp.com/guides/minimum-payment-trap/): Paying only the minimum keeps your card in good standing, but most of it goes to interest. See how long it really takes and how a small extra payment helps.
+- [Statement date vs. due date: when should you pay?](https://spendryapp.com/guides/statement-date-vs-due-date/): The statement date closes your billing period; the due date is the last day to pay without a late fee. Here is how the two work and when to pay.
+- [How to track installment payments on your iPhone](https://spendryapp.com/guides/track-installment-payments/): Keep every installment plan in one place: what is left, how many payments remain and when the next one is due, with a reminder before each one.
+- [How to never miss a bill payment](https://spendryapp.com/guides/never-miss-a-bill/): Set reminders for every bill, card and subscription so nothing is paid late. Get a notification before the due date and mark it paid in one tap.
+- [How to track and cut your subscriptions](https://spendryapp.com/guides/track-subscriptions/): Find out what your subscriptions really cost each month and each year, get a reminder before every renewal and decide which ones to cancel.
+- [How to make a monthly budget that works](https://spendryapp.com/guides/make-a-monthly-budget/): A simple way to build a monthly budget: start from your income, cover needs first, set limits for spending and save before you spend.
+- [How to find your debt-free date](https://spendryapp.com/guides/debt-free-date/): Your debt-free date is the month your last debt is paid off. Here is how to work it out and how extra payments move it closer.
+- [How to track spending without linking your bank](https://spendryapp.com/guides/track-spending-without-bank-login/): You don't need to give an app your bank login to track spending. Add expenses in seconds, scan receipts and keep your data on your own iPhone.
+- [Budget widgets for your iPhone Home Screen](https://spendryapp.com/guides/budget-widgets-iphone/): See your balance, budgets, goals and upcoming payments on your Home Screen and Lock Screen, and add an expense without opening the app.
+- [How to save for a goal and reach it](https://spendryapp.com/guides/save-for-a-goal/): Set a target and a date, save a fixed amount each month and track your progress. A simple method for a trip, a car or an emergency fund.
+- [How to track a loan and see what you really pay](https://spendryapp.com/guides/track-loans/): Track car loans, personal loans and mortgages: the remaining balance, payments left, interest and the month the loan ends, with a reminder before each payment.
+- [How to track your net worth](https://spendryapp.com/guides/track-net-worth/): Net worth is what you own minus what you owe. Track savings, investments, gold and debts in one place and watch the number grow.
+- [How to share a budget with your partner](https://spendryapp.com/guides/shared-budget-with-partner/): Share a budget or a savings goal with your partner or family through iCloud. Everyone adds expenses and sees the same numbers, with no shared login.
+- [Log Apple Pay purchases automatically](https://spendryapp.com/guides/log-apple-pay-purchases-automatically/): Use a ready-made Shortcuts automation to log every Apple Pay purchase in Spendry, so your budgets stay up to date without typing.
+
+## Türkçe (Turkish)
+- [Borç kapatma hesaplama](https://spendryapp.com/tr/borc-kapatma-hesaplama/): Borç kapatma hesaplama: kar topu ve çığ yöntemini karşılaştır, borçsuz olacağın ayı ve ödeyeceğin toplam faizi gör. Kredi kartı, kredi ve KMH için ücretsiz.
+- [Kredi kartı borç hesaplama](https://spendryapp.com/tr/kredi-karti-borc-hesaplama/): Ücretsiz kredi kartı borç hesaplama: borcunu, aylık faizi ve ödemeni gir; borcun ne zaman biteceğini, toplam faizi ve asgari ödemenin maliyetini gör.
+- [Gelir gider tablosu](https://spendryapp.com/tr/gelir-gider-tablosu/): Gelir gider tablosu nasıl tutulur? Ücretsiz aylık bütçe şablonu (Excel, Numbers ve Google E-Tablolar ile açılır) ve aylık bütçe hesaplayıcısı.
+- [Kredi hesaplama](https://spendryapp.com/tr/kredi-hesaplama/): Kredi hesaplama: aylık taksit, toplam geri ödeme, faiz, KKDF ve BSMV. İhtiyaç, taşıt ve konut kredisi için ay ay ödeme tablosu. Ücretsiz, kayıt gerektirmez.
+- [Birikim hesaplama](https://spendryapp.com/tr/birikim-hesaplama/): Ücretsiz birikim hesaplama aracı. Hedefini, birikmiş paranı ve süreni gir; her ay ne kadar biriktirmen gerektiğini getirisiyle birlikte gör.
+- [Abonelik maliyeti hesaplama](https://spendryapp.com/tr/abonelik-maliyeti-hesaplama/): Ücretsiz abonelik hesaplama aracı. Aboneliklerini fiyatı ve ödeme döngüsüyle listele; aylık, yıllık ve beş yıllık toplamını gör.
+- [Kredi kartı borcu kaç ayda biter?](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/): Kart borcun kaç ayda biter, ne kadar faiz ödersin? 10.000 TL ile 300.000 TL arası borçlar için asgari ödeme ve sabit ödeme tablosu; 2026 faiz tavanları, KKDF ve BSMV dahil.
+- [10.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/10000-tl/)
+- [20.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/20000-tl/)
+- [25.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/25000-tl/)
+- [30.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/30000-tl/)
+- [40.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/40000-tl/)
+- [50.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/50000-tl/)
+- [75.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/75000-tl/)
+- [100.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/100000-tl/)
+- [150.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/150000-tl/)
+- [200.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/200000-tl/)
+- [250.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/250000-tl/)
+- [300.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/300000-tl/)
+- [Kar topu mu, çığ mı: borcunu hangi yöntemle kapatmalısın?](https://spendryapp.com/tr/rehberler/borc-kartopu-ve-cig-yontemi/): Kar topu en küçük borcu, çığ en yüksek faizli borcu önce kapatır. Farklarını, hangisinin daha az faiz ödettiğini ve nasıl uygulanacağını gör.
+- [Kredi kartı borcu daha hızlı nasıl kapatılır?](https://spendryapp.com/tr/rehberler/kredi-karti-borcu-nasil-kapatilir/): Kredi kartı borcunu daha hızlı kapatmanın yolları: asgariden fazla öde, fazlayı en yüksek faize yönlendir, hiç gecikme ve yeni borç ekleme.
+- [Kredi kartı asgari ödeme: ödersen, ödemezsen ne olur?](https://spendryapp.com/tr/rehberler/asgari-odeme-tuzagi/): Asgari ödeme nedir, nasıl hesaplanır, ödeyince faiz işler mi, ödemezsen ne olur? 2026 kuralları (100.000 TL eşiği, kademeli faiz) ve hesap örnekleriyle.
+- [Hesap kesim tarihi ve son ödeme tarihi: ne zaman ödemelisin?](https://spendryapp.com/tr/rehberler/hesap-kesim-tarihi-ve-son-odeme-tarihi/): Hesap kesim tarihi dönemi kapatır, son ödeme tarihi faiz ödemeden ödeyebileceğin son gündür. Farkını ve kart borcunu ne zaman ödemen gerektiğini öğren.
+- [iPhone'da taksitler nasıl takip edilir?](https://spendryapp.com/tr/rehberler/taksit-takibi/): Her taksitli alışverişi tek yerde takip et: ne kadar kaldığını, kaç taksit kaldığını ve sıradakinin ne zaman olduğunu gör, her ödemeden önce hatırlatma al.
+- [Hiçbir fatura ödemesini nasıl kaçırmazsın?](https://spendryapp.com/tr/rehberler/fatura-odemelerini-unutmamak/): Her fatura, kart ve abonelik için hatırlatma kur, hiçbir şeyi geç ödeme. Son ödeme tarihinden önce bildirim al, tek dokunuşla ödendi olarak işaretle.
+- [Abonelikler nasıl takip edilir ve azaltılır?](https://spendryapp.com/tr/rehberler/abonelik-takibi/): Aboneliklerinin aylık ve yıllık gerçek maliyetini gör, her yenilemeden önce hatırlatma al ve hangilerini iptal edeceğine karar ver.
+- [İşe yarayan bir aylık bütçe nasıl yapılır?](https://spendryapp.com/tr/rehberler/aylik-butce-nasil-yapilir/): Aylık bütçe hazırlamanın basit yolu: gelirinden başla, önce zorunlu giderleri karşıla, harcamalara limit koy ve harcamadan önce biriktir.
+- [Borçsuz olacağın tarih nasıl hesaplanır?](https://spendryapp.com/tr/rehberler/borctan-kurtulma-tarihi/): Borçsuz olacağın tarih, son borcunun kapandığı aydır. Nasıl hesaplandığını ve ek ödemelerin bu tarihi nasıl öne çektiğini öğren.
+- [Bankanı bağlamadan harcamalarını nasıl takip edersin?](https://spendryapp.com/tr/rehberler/banka-baglamadan-harcama-takibi/): Harcamalarını takip etmek için bir uygulamaya banka şifreni vermen gerekmez. Giderleri saniyeler içinde ekle, fiş tara, verilerin iPhone'unda kalsın.
+- [iPhone ana ekranı için bütçe widget'ları](https://spendryapp.com/tr/rehberler/iphone-butce-widgetlari/): Bakiyeni, bütçelerini, hedeflerini ve yaklaşan ödemelerini ana ekranda ve kilitli ekranda gör, uygulamayı açmadan gider ekle.
+- [Bir hedef için nasıl birikim yapılır?](https://spendryapp.com/tr/rehberler/hedef-icin-birikim/): Bir hedef ve tarih belirle, her ay sabit bir tutar biriktir ve ilerlemeni takip et. Tatil, araba ya da acil durum fonu için basit bir yöntem.
+- [Kredi nasıl takip edilir, gerçekte ne kadar ödersin?](https://spendryapp.com/tr/rehberler/kredi-takibi/): Taşıt, ihtiyaç ve konut kredilerini takip et: kalan borç, kalan taksitler, faiz ve kredinin biteceği ay; her taksitten önce hatırlatma al.
+- [Net değerini nasıl takip edersin?](https://spendryapp.com/tr/rehberler/net-varlik-takibi/): Net değer, sahip olduklarından borçların çıkınca kalan tutardır. Birikimlerini, yatırımlarını, altınını ve borçlarını tek yerde takip et.
+- [Eşinle ortak bütçe nasıl yapılır?](https://spendryapp.com/tr/rehberler/esinle-ortak-butce/): Bir bütçeyi ya da birikim hedefini iCloud üzerinden eşinle veya ailenle paylaş. Herkes gider ekler, aynı rakamları görür, ortak şifre gerekmez.
+- [Apple Pay harcamalarını otomatik olarak kaydet](https://spendryapp.com/tr/rehberler/apple-pay-harcamalarini-otomatik-kaydetme/): Hazır bir Kestirmeler otomasyonuyla her Apple Pay alışverişini Spendry'ye kaydet; bütçelerin yazı yazmadan güncel kalsın.
+
+## App
+- [Spendry on the App Store](https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&ct=web-en-llms&mt=8)
+- [Privacy policy](https://spendryapp.com/privacy-policy.html)
+- [Terms of service](https://spendryapp.com/terms-of-service.html)
+- Support: support@spendryapp.com

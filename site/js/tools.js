@@ -329,7 +329,7 @@
       let bal = B, m = 0, paid = 0;
       const pts = [B];
       while (bal > 0.005) {
-        const i = bal * rateFor(bal) * (1 + tax), pay = Math.min(payFor(bal), bal + i);
+        const i = bal * rateFor(bal) * (1 + tax), pay = Math.min(payFor(bal, i), bal + i);
         if (pay <= i + 1e-9 || m >= 1200) return { stuck: true, pts };
         bal = Math.max(0, bal + i - pay); paid += pay; m++; pts.push(bal);
       }
@@ -350,7 +350,10 @@
       if (tiers && !rateTyped) f("rate").value = String(ceiling(B));
       const rate = Math.max(0, read(f("rate"))), r = (C.period === "month" ? rate : rate / 12) / 100;
       const rateFor = tiers && !rateTyped ? (bal) => ceiling(bal) / 100 : () => r;
-      const a = payoffRun(B, rateFor, () => P), b = payoffRun(B, rateFor, (bal) => Math.max(bal * pct, C.floor));
+      // A card never takes less than its minimum, so a payment below it is a floor under the shrinking minimum.
+      // US cards add the month's interest to the percentage.
+      const minimum = (bal, i) => Math.max(bal * pct + (C.plusInterest ? i : 0), C.floor);
+      const a = payoffRun(B, rateFor, (bal, i) => Math.max(P, minimum(bal, i))), b = payoffRun(B, rateFor, minimum);
       show("fixed", a, L.fixed);
       show("min", b, L.minimum);
       const saved = q(".saved", el);
@@ -366,6 +369,12 @@
       pop(qa(".v", el));
     };
     el.addEventListener("input", (ev) => { if (ev.target === f("rate")) rateTyped = true; update(); });
+    // A balance page links here with its numbers filled in (?balance=5000&payment=265).
+    const given = new URLSearchParams(location.search);
+    ["balance", "payment", "rate", "min"].forEach((k) => {
+      const v = parseFloat(given.get(k));
+      if (Number.isFinite(v) && v >= 0 && f(k)) { f(k).value = String(v); if (k === "rate") rateTyped = true; }
+    });
     update();
   }
 
