@@ -1896,5 +1896,287 @@
    "row_fixed": "Her ay {pay}"
   },
   "calc_plan": "first_min"
+ },
+ "loan_amounts": {
+  "year": "yıl",
+  "years": "yıl",
+  "month": "ay",
+  "months": "ay",
+  "answer_title": "Kısa cevap",
+  "calc_title": "Kendi rakamlarınla dene",
+  "families": [
+   {
+    "key": "ihtiyac",
+    "slug": "ihtiyac-kredisi-taksit",
+    "amount_slug": "{n}-tl",
+    "bddk": true,
+    "taxes": [
+     15,
+     15
+    ],
+    "amounts": [
+     10000,
+     20000,
+     25000,
+     30000,
+     40000,
+     50000,
+     75000,
+     100000,
+     125000,
+     150000,
+     200000,
+     250000,
+     300000,
+     400000,
+     500000
+    ],
+    "terms": [
+     3,
+     6,
+     12,
+     18,
+     24,
+     36
+    ],
+    "rates": [
+     2.5,
+     3.0,
+     3.5
+    ],
+    "typical": [
+     3.0,
+     36
+    ],
+    "short": 12,
+    "example": 100000,
+    "hub": {
+     "title": "İhtiyaç Kredisi Taksit Tablosu 2026: 10.000 TL'den 500.000 TL'ye",
+     "description": "10.000 TL ile 500.000 TL arası ihtiyaç kredilerinin aylık taksiti ve toplam geri ödemesi: 12 ay ve en uzun vade, aylık %3 faizle, KKDF ve BSMV dahil.",
+     "h1": "İhtiyaç kredisi taksit tablosu",
+     "lead": "Sık çekilen tutarlar için aylık taksit ve toplam geri ödeme, aylık %3 faizle ve vergiler dahil. Her tutarın sayfasında tüm vadeler ve farklı faiz oranları var.",
+     "table_title": "Aylık %3,00 faizle taksitler",
+     "columns": [
+      "Kredi tutarı",
+      "12 ay vade",
+      "En uzun vade"
+     ],
+     "terms": [
+      12,
+      36
+     ],
+     "cell": "{term}: ayda {pay}, toplam {total}",
+     "notes": "Örnek faiz: aylık %3,00. Faize %15 KKDF ve %15 BSMV eklenir. En uzun vade BDDK sınırına göre: 125.000 TL'ye kadar 36 ay, 250.000 TL'ye kadar 24 ay, üstü 12 ay. Tahsis ücreti ve sigorta dahil değildir.",
+     "sections": [
+      {
+       "h": "Taksit nasıl hesaplanır?",
+       "p": [
+        "Her ay kalan anaparaya aylık faiz işler, faize %15 KKDF ve %15 BSMV eklenir. Taksitin geri kalanı anaparayı öder; bu yüzden ilk taksitlerde faizin payı büyük, son taksitlerde küçüktür.",
+        "Örnek: {amount} kredide aylık %3,00 faizle ilk ay {first_int} faiz ve {first_tax} vergi işler."
+       ]
+      },
+      {
+       "h": "Vade sınırları (BDDK)",
+       "p": [
+        "BDDK'nın 13 Şubat 2025 tarihli 11152 sayılı kararına göre ihtiyaç kredilerinde en uzun vade tutara bağlıdır: 125.000 TL'ye kadar 36 ay, 125.000 TL'nin üstünden 250.000 TL'ye kadar 24 ay, 250.000 TL'nin üstünde 12 ay."
+       ]
+      }
+     ],
+     "calc_text": "Tutarı, faizi ve vadeyi gir; aylık taksiti ve her ayın faiz, KKDF ve BSMV dökümünü gör.",
+     "links_text": "10.000 TL'den 500.000 TL'ye her tutarın taksiti ve toplam geri ödemesi.",
+     "faq": [
+      {
+       "q": "İhtiyaç kredisi taksiti nasıl hesaplanır?",
+       "a": "Kalan anaparaya aylık faiz işler, faize %15 KKDF ve %15 BSMV eklenir; taksit bu toplam üzerinden eşit bölünür. {amount} kredi aylık %3,00 faizle 36 ay vadede ayda {p36} tutar."
+      },
+      {
+       "q": "İhtiyaç kredisi en fazla kaç ay vadeyle çekilir?",
+       "a": "BDDK sınırlarına göre 125.000 TL'ye kadar 36 ay, 250.000 TL'ye kadar 24 ay, daha büyük tutarlarda 12 ay."
+      },
+      {
+       "q": "Tablolarda neden üç farklı faiz oranı var?",
+       "a": "Bankaların teklifleri kişiye ve döneme göre değişir. Kendi teklifine en yakın sütuna bak ya da hesaplayıcıya kendi oranını gir."
+      }
+     ]
+    },
+    "page": {
+     "title": "{amount} İhtiyaç Kredisi Taksiti Ne Kadar? 2026 Tablosu",
+     "description": "{amount} ihtiyaç kredisinin aylık taksiti ve toplam geri ödemesi; her vade ve aylık %2,50, %3,00, %3,50 faiz için, KKDF ve BSMV dahil. En uzun vade {max_term}.",
+     "h1": "{amount} ihtiyaç kredisinin aylık taksiti ne kadar?",
+     "lead": "Aylık %3,00 faizle {long} vadede taksit {p_long}; KKDF ve BSMV dahil. Aşağıda her vade ve faiz oranı için taksit ve toplam geri ödeme var.",
+     "lead_short": "Aylık %3,00 faizle 12 ay vadede taksit {p12}; KKDF ve BSMV dahil. BDDK bu tutar için en fazla 12 ay vadeye izin verir.",
+     "answer": "{amount} ihtiyaç kredisi aylık %3,00 faizle 12 ay vadede ayda {p12}, {long} vadede ayda {p_long} tutar; KKDF ve BSMV dahil. {long} vadede toplam {tot_long} geri ödersin.",
+     "answer_short": "{amount} ihtiyaç kredisi aylık %3,00 faizle 12 ay vadede ayda {p12} tutar; KKDF ve BSMV dahil, toplam {tot12} geri ödersin. BDDK bu tutar için en fazla 12 ay vadeye izin verir.",
+     "table_title": "Vade ve faize göre aylık taksit",
+     "table_sub": "Her hücrede aylık taksit ve toplam geri ödeme var; KKDF ve BSMV dahil.",
+     "t_col": "Vade",
+     "rate_col": "Aylık {rate}",
+     "cell": "ayda {pay}, toplam {total}",
+     "sections": [
+      {
+       "h": "İlk taksitin dökümü",
+       "p": [
+        "Aylık %3,00 faizle {t0} vadede ilk taksit {p_t0}: bunun {first_int} kadarı faiz, {first_tax} kadarı KKDF ve BSMV, {first_prin} kadarı anapara. Faizin payı her ay azalır."
+       ]
+      },
+      {
+       "h": "Bu tutar için vade sınırı",
+       "p": [
+        "BDDK sınırlarına göre {amount} ihtiyaç kredisi en fazla {max_term} vadeyle kullanılabilir."
+       ]
+      }
+     ],
+     "calc_text": "Kredi hesaplamayı {amount}, aylık %3,00 ve {t0} vadeyle dolu olarak aç; faizi ya da vadeyi değiştir, her ayın dökümünü gör.",
+     "tips_title": "{amount} krediyi daha ucuza kullanmak için",
+     "tips": [
+      "Bankaları taksite değil toplam geri ödemeye göre karşılaştır.",
+      "Taksiti ödeyebildiğin en kısa vadeyi seç: {long} yerine 12 ay vade, faiz ve vergiden {save_short} tasarruf ettirir.",
+      "Kredi tahsis ücretini ve sigortayı da sor; toplam maliyete eklenirler.",
+      "Maaşını aldığın bankanın faiz teklifini de iste.",
+      "Erken kapatma koşullarını sor; erken ödersen kalan faiz düşer."
+     ],
+     "more_title": "Diğer kredi tutarları",
+     "notes": "Faiz oranları örnektir; bankanın teklifine en yakın sütuna bak. Faize %15 KKDF ve %15 BSMV eklenir. Tahsis ücreti ve sigorta dahil değildir.",
+     "faq": [
+      {
+       "q": "{amount} ihtiyaç kredisinin taksiti ne kadar?",
+       "a": "Aylık %3,00 faizle 12 ay vadede ayda {p12}, {long} vadede ayda {p_long}; KKDF ve BSMV dahil.",
+       "a_short": "Aylık %3,00 faizle 12 ay vadede ayda {p12}; KKDF ve BSMV dahil."
+      },
+      {
+       "q": "{amount} kredi kaç ay vadeyle çekilebilir?",
+       "a": "BDDK sınırlarına göre en fazla {max_term}."
+      },
+      {
+       "q": "{amount} kredinin toplam maliyeti ne kadar?",
+       "a": "Aylık %3,00 faizle {long} vadede toplam {tot_long} geri ödersin; bunun {i_long} kadarı faiz ve vergidir."
+      }
+     ]
+    }
+   },
+   {
+    "key": "konut",
+    "slug": "konut-kredisi-taksit",
+    "amount_slug": "{n}-tl",
+    "taxes": [
+     0,
+     0
+    ],
+    "amounts": [
+     500000,
+     750000,
+     1000000,
+     1500000,
+     2000000,
+     2500000,
+     3000000,
+     4000000,
+     5000000
+    ],
+    "terms": [
+     36,
+     60,
+     120
+    ],
+    "rates": [
+     2.0,
+     2.5,
+     3.0
+    ],
+    "typical": [
+     2.5,
+     120
+    ],
+    "short": 60,
+    "example": 2000000,
+    "hub": {
+     "title": "Konut Kredisi Taksit Tablosu 2026: 500.000 TL'den 5.000.000 TL'ye",
+     "description": "500.000 TL ile 5.000.000 TL arası konut kredilerinin aylık taksiti ve toplam geri ödemesi: 60 ve 120 ay vade, aylık %2,50 faizle.",
+     "h1": "Konut kredisi taksit tablosu",
+     "lead": "Sık çekilen konut kredisi tutarları için aylık taksit ve toplam geri ödeme, aylık %2,50 faizle. Konut kredisinde KKDF ve BSMV yoktur.",
+     "table_title": "Aylık %2,50 faizle taksitler",
+     "columns": [
+      "Kredi tutarı",
+      "60 ay vade",
+      "120 ay vade"
+     ],
+     "terms": [
+      60,
+      120
+     ],
+     "cell": "ayda {pay}, toplam {total}",
+     "notes": "Örnek faiz: aylık %2,50. Konut kredisinde KKDF ve BSMV alınmaz. Kullanabileceğin tutar evin değerine göre sınırlıdır; ekspertiz, sigorta ve tahsis ücreti dahil değildir.",
+     "sections": [
+      {
+       "h": "Vade uzadıkça ne değişir?",
+       "p": [
+        "Vade uzadıkça taksit düşer ama toplam faiz artar. {amount} konut kredisi aylık %2,50 faizle 60 ay vadede ayda {p60}, 120 ay vadede ayda {p120} tutar; toplam geri ödeme {tot60} yerine {tot120} olur."
+       ]
+      }
+     ],
+     "calc_text": "Tutarı, faizi ve vadeyi gir; aylık taksiti ve her ayın dökümünü gör.",
+     "links_text": "500.000 TL'den 5.000.000 TL'ye her tutarın taksiti ve toplam geri ödemesi.",
+     "faq": [
+      {
+       "q": "Konut kredisi taksiti nasıl hesaplanır?",
+       "a": "Kalan anaparaya aylık faiz işler ve taksit eşit bölünür; konut kredisinde KKDF ve BSMV yoktur. {amount} kredi aylık %2,50 faizle 120 ay vadede ayda {p120} tutar."
+      },
+      {
+       "q": "Konut kredisinde KKDF ve BSMV var mı?",
+       "a": "Hayır. Konut kredisinde KKDF ve BSMV alınmaz; bu yüzden taksit aynı faizli bir ihtiyaç kredisinden düşüktür."
+      },
+      {
+       "q": "Ne kadar konut kredisi kullanabilirim?",
+       "a": "Kullanabileceğin tutar evin değerine, gelirine ve bankanın değerlendirmesine bağlıdır. Kesin tutarı bankan söyler."
+      }
+     ]
+    },
+    "page": {
+     "title": "{amount} Konut Kredisi Taksiti Ne Kadar? 2026 Tablosu",
+     "description": "{amount} konut kredisinin aylık taksiti ve toplam geri ödemesi: 36, 60 ve 120 ay vade, aylık %2,00, %2,50 ve %3,00 faizle.",
+     "h1": "{amount} konut kredisinin aylık taksiti ne kadar?",
+     "lead": "Aylık %2,50 faizle 120 ay vadede taksit {p120}. Aşağıda her vade ve faiz oranı için taksit ve toplam geri ödeme var.",
+     "answer": "{amount} konut kredisi aylık %2,50 faizle 120 ay vadede ayda {p120} tutar ve toplam {tot120} geri ödersin. 60 ay vadede taksit {p60}, toplam {tot60} olur.",
+     "table_title": "Vade ve faize göre aylık taksit",
+     "table_sub": "Her hücrede aylık taksit ve toplam geri ödeme var. Konut kredisinde KKDF ve BSMV yoktur.",
+     "t_col": "Vade",
+     "rate_col": "Aylık {rate}",
+     "cell": "ayda {pay}, toplam {total}",
+     "sections": [
+      {
+       "h": "İlk taksitin dökümü",
+       "p": [
+        "Aylık %2,50 faizle 120 ay vadede ilk taksit {p_t0}: bunun {first_int} kadarı faiz, {first_prin} kadarı anapara. Uzun vadede ilk yıllarda taksitin büyük kısmı faize gider."
+       ]
+      }
+     ],
+     "calc_text": "Kredi hesaplamayı {amount}, aylık %2,50 ve 120 ay vadeyle dolu olarak aç; faizi ya da vadeyi değiştir.",
+     "tips_title": "{amount} konut kredisini daha ucuza kullanmak için",
+     "tips": [
+      "Bankaların tekliflerini toplam geri ödemeye göre karşılaştır; küçük bir faiz farkı 10 yılda büyür.",
+      "Taksiti rahat ödeyebileceğin en kısa vadeyi seç: 120 ay yerine 60 ay vade {save_short} faiz tasarrufu sağlar.",
+      "Peşinatı artırırsan daha az borç alırsın.",
+      "Konut ve DASK sigortası ile ekspertiz ücretini de bütçene kat.",
+      "Ara ödeme yaparak vadeyi kısaltabilirsin; koşullarını bankana sor."
+     ],
+     "more_title": "Diğer kredi tutarları",
+     "notes": "Faiz oranları örnektir; bankanın teklifine en yakın sütuna bak. Konut kredisinde KKDF ve BSMV yoktur; sigorta, ekspertiz ve tahsis ücreti dahil değildir.",
+     "faq": [
+      {
+       "q": "{amount} konut kredisinin taksiti ne kadar?",
+       "a": "Aylık %2,50 faizle 60 ay vadede ayda {p60}, 120 ay vadede ayda {p120}."
+      },
+      {
+       "q": "{amount} konut kredisinin toplam maliyeti ne kadar?",
+       "a": "Aylık %2,50 faizle 120 ay vadede toplam {tot120} geri ödersin; bunun {i120} kadarı faizdir."
+      },
+      {
+       "q": "Konut kredisinde KKDF ve BSMV var mı?",
+       "a": "Hayır. Konut kredisinde KKDF ve BSMV alınmaz."
+      }
+     ]
+    }
+   }
+  ]
  }
 }

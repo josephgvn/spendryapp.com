@@ -1730,5 +1730,392 @@
    ]
   },
   "calc_plan": "p24"
+ },
+ "loan_amounts": {
+  "year": "year",
+  "years": "years",
+  "month": "month",
+  "months": "months",
+  "answer_title": "The short answer",
+  "calc_title": "Try it with your own numbers",
+  "families": [
+   {
+    "key": "personal",
+    "slug": "personal-loan-payment",
+    "amount_slug": "{n}",
+    "amounts": [
+     1000,
+     2000,
+     3000,
+     5000,
+     7500,
+     10000,
+     15000,
+     20000,
+     25000,
+     30000,
+     40000,
+     50000,
+     75000,
+     100000
+    ],
+    "terms": [
+     12,
+     24,
+     36,
+     48,
+     60,
+     72,
+     84
+    ],
+    "rates": [
+     8,
+     12,
+     18,
+     24
+    ],
+    "typical": [
+     12,
+     60
+    ],
+    "short": 36,
+    "example": 20000,
+    "hub": {
+     "title": "Personal Loan Payments: Tables From $1,000 to $100,000",
+     "description": "Monthly payment and total interest for personal loans of $1,000 to $100,000 over 3 and 5 years at a 12% APR, with a page for every amount.",
+     "h1": "Personal loan payments, amount by amount",
+     "lead": "What a personal loan costs each month and in total at a 12% APR. Open any amount for every term from 1 to 7 years at 8% to 24%.",
+     "table_title": "Monthly payment at a 12% APR",
+     "columns": [
+      "Loan amount",
+      "3 years",
+      "5 years"
+     ],
+     "terms": [
+      36,
+      60
+     ],
+     "cell": "{pay} a month, {interest} interest",
+     "notes": "Fixed APR, principal and interest only. Many lenders also charge an origination fee, which raises the real cost.",
+     "sections": [
+      {
+       "h": "How a loan payment is worked out",
+       "p": [
+        "Each month the lender charges interest on the remaining balance: the balance times the APR divided by 12. The rest of the payment repays the loan, so the interest part shrinks every month while the payment stays the same.",
+        "A longer term lowers the monthly payment but adds interest: {amount} at a 12% APR costs {i36} in interest over 3 years and {i60} over 5 years."
+       ]
+      }
+     ],
+     "calc_text": "Enter any amount, rate and term to see the payment and a month-by-month schedule.",
+     "links_text": "The payment and total interest for every common amount, from $1,000 to $100,000.",
+     "faq": [
+      {
+       "q": "What is the monthly payment on a personal loan?",
+       "a": "It depends on the amount, the APR and the term. A {amount} loan at a 12% APR costs {p60} a month over 5 years or {p36} over 3 years."
+      },
+      {
+       "q": "How do I lower my personal loan payment?",
+       "a": "A longer term lowers the payment but raises the total interest; a lower APR lowers both. Compare offers by APR and total cost, not by the monthly payment alone."
+      },
+      {
+       "q": "How is a loan payment calculated?",
+       "a": "With the standard amortization formula: the amount, the monthly rate (the APR divided by 12) and the number of months. Each payment covers that month's interest first and the rest repays the balance."
+      }
+     ]
+    },
+    "page": {
+     "title": "Monthly Payment on a {amount} Personal Loan: Table by Term and APR",
+     "description": "The monthly payment and total interest on a {amount} personal loan for 1 to 7 years at 8%, 12%, 18% and 24% APR.",
+     "h1": "What is the monthly payment on a {amount} personal loan?",
+     "lead": "At a 12% APR it is {p60} a month over 5 years. Below is the payment and the total interest for every common term and APR.",
+     "answer": "A {amount} personal loan at a 12% APR costs {p60} a month over 5 years, with {i60} in total interest. Over 3 years the payment is {p36} and the interest {i36}.",
+     "table_title": "Monthly payment by term and APR",
+     "table_sub": "Each cell shows the monthly payment and the total interest over the whole loan.",
+     "t_col": "Term",
+     "rate_col": "{rate} APR",
+     "cell": "{pay} a month, {interest} interest",
+     "sections": [
+      {
+       "h": "Where each payment goes",
+       "p": [
+        "In the first month of a 5-year loan at a 12% APR, {first_int} of the {p60} payment is interest and {first_prin} repays the loan. The interest part gets smaller every month as the balance falls."
+       ]
+      }
+     ],
+     "calc_text": "Open the loan calculator with {amount}, 12% and 5 years filled in, then change the rate or the term and see every month.",
+     "tips_title": "How to pay less for a {amount} loan",
+     "tips": [
+      "Compare offers by APR and total cost, not by the monthly payment.",
+      "Choose the shortest term you can keep up with: 3 years instead of 5 saves {save_short} in interest.",
+      "Ask about origination fees; they are often taken out of the money you receive.",
+      "Pay extra toward the principal when you can, if the loan has no prepayment penalty.",
+      "Set up automatic payments; some lenders take a little off the APR for it."
+     ],
+     "more_title": "Other amounts",
+     "notes": "Fixed APR, principal and interest only, no fees. Your lender's offer may differ.",
+     "faq": [
+      {
+       "q": "What is the monthly payment on a {amount} personal loan?",
+       "a": "At a 12% APR it is {p36} a month over 3 years or {p60} over 5 years. The table above shows every term at 8%, 12%, 18% and 24%."
+      },
+      {
+       "q": "How much interest will I pay on a {amount} loan?",
+       "a": "At a 12% APR, about {i36} over 3 years and {i60} over 5 years."
+      },
+      {
+       "q": "Is a shorter or a longer term better for a {amount} loan?",
+       "a": "A shorter term costs less in total: 3 years instead of 5 saves {save_short} in interest at a 12% APR, but the payment is higher ({p36} instead of {p60})."
+      }
+     ]
+    }
+   },
+   {
+    "key": "auto",
+    "slug": "auto-loan-payment",
+    "amount_slug": "{n}",
+    "amounts": [
+     10000,
+     15000,
+     20000,
+     25000,
+     30000,
+     35000,
+     40000,
+     45000,
+     50000,
+     60000,
+     75000
+    ],
+    "terms": [
+     36,
+     48,
+     60,
+     72,
+     84
+    ],
+    "rates": [
+     5,
+     7,
+     9,
+     12
+    ],
+    "typical": [
+     7,
+     60
+    ],
+    "short": 48,
+    "example": 30000,
+    "hub": {
+     "title": "Car Loan Payments: Tables From $10,000 to $75,000",
+     "description": "Monthly payment and total interest for car loans of $10,000 to $75,000 over 4 and 6 years at a 7% APR, with a page for every amount.",
+     "h1": "Car loan payments, amount by amount",
+     "lead": "What a car loan costs each month and in total at a 7% APR. Open any amount for every term from 3 to 7 years at 5% to 12%.",
+     "table_title": "Monthly payment at a 7% APR",
+     "columns": [
+      "Loan amount",
+      "4 years",
+      "6 years"
+     ],
+     "terms": [
+      48,
+      72
+     ],
+     "cell": "{pay} a month, {interest} interest",
+     "notes": "Fixed APR, principal and interest only. Sales tax, registration and dealer fees are not included.",
+     "sections": [
+      {
+       "h": "Down payment and term",
+       "p": [
+        "A bigger down payment lowers both the payment and the interest, because you borrow less. A longer term lowers the payment but adds interest: {amount} at a 7% APR costs {i48} over 4 years and {i72} over 6 years."
+       ]
+      }
+     ],
+     "calc_text": "Enter any amount, rate and term to see the payment and a month-by-month schedule.",
+     "links_text": "The payment and total interest for car loans from $10,000 to $75,000.",
+     "faq": [
+      {
+       "q": "What is the monthly payment on a car loan?",
+       "a": "It depends on the amount, the APR and the term. {amount} at a 7% APR costs {p60} a month over 5 years or {p48} over 4 years."
+      },
+      {
+       "q": "Is a longer car loan a bad idea?",
+       "a": "It lowers the payment but costs more interest, and the car can be worth less than you owe for longer. {amount} at 7% costs {i72} in interest over 6 years against {i48} over 4."
+      },
+      {
+       "q": "What is not included in a car loan payment?",
+       "a": "Sales tax, registration, insurance and dealer fees, unless you roll them into the loan."
+      }
+     ]
+    },
+    "page": {
+     "title": "{amount} Car Loan Payment: Monthly Cost by Term and APR",
+     "description": "The monthly payment and total interest on a {amount} car loan for 3 to 7 years at 5%, 7%, 9% and 12% APR.",
+     "h1": "What is the monthly payment on a {amount} car loan?",
+     "lead": "At a 7% APR it is {p60} a month over 5 years. Below is the payment and the total interest for every common term and APR.",
+     "answer": "A {amount} car loan at a 7% APR costs {p60} a month over 5 years, with {i60} in total interest. Over 4 years the payment is {p48} and the interest {i48}.",
+     "table_title": "Monthly payment by term and APR",
+     "table_sub": "Each cell shows the monthly payment and the total interest over the whole loan.",
+     "t_col": "Term",
+     "rate_col": "{rate} APR",
+     "cell": "{pay} a month, {interest} interest",
+     "sections": [
+      {
+       "h": "Where each payment goes",
+       "p": [
+        "In the first month of a 5-year loan at a 7% APR, {first_int} of the {p60} payment is interest and {first_prin} repays the loan."
+       ]
+      }
+     ],
+     "calc_text": "Open the loan calculator with {amount}, 7% and 5 years filled in, then change the rate or the term and see every month.",
+     "tips_title": "How to pay less for a {amount} car loan",
+     "tips": [
+      "Get a rate quote from your bank or credit union before you visit the dealer, so you can compare.",
+      "Keep the term as short as your budget allows: 4 years instead of 5 saves {save_short} in interest.",
+      "Put more down to borrow less.",
+      "Compare the total cost, not only the monthly payment.",
+      "Pay extra toward the principal when you can."
+     ],
+     "more_title": "Other amounts",
+     "notes": "Fixed APR, principal and interest only. Taxes, insurance and fees are not included.",
+     "faq": [
+      {
+       "q": "What is the monthly payment on a {amount} car loan?",
+       "a": "At a 7% APR: {p48} a month over 4 years, {p60} over 5 years or {p72} over 6 years."
+      },
+      {
+       "q": "How much interest will I pay on a {amount} car loan?",
+       "a": "At a 7% APR, about {i48} over 4 years and {i60} over 5 years."
+      },
+      {
+       "q": "Is a 72-month loan a good idea for {amount}?",
+       "a": "It lowers the payment to {p72}, but at 7% it costs {i72} in interest against {i48} over 4 years, and the car may be worth less than you owe for longer."
+      }
+     ]
+    }
+   },
+   {
+    "key": "mortgage",
+    "slug": "mortgage-payment",
+    "amount_slug": "{n}",
+    "amounts": [
+     100000,
+     150000,
+     200000,
+     250000,
+     300000,
+     350000,
+     400000,
+     450000,
+     500000,
+     600000,
+     750000,
+     1000000
+    ],
+    "terms": [
+     180,
+     240,
+     360
+    ],
+    "rates": [
+     5,
+     6,
+     7,
+     8
+    ],
+    "typical": [
+     6,
+     360
+    ],
+    "short": 180,
+    "example": 300000,
+    "hub": {
+     "title": "Mortgage Payments: Tables From $100,000 to $1,000,000",
+     "description": "Monthly principal and interest for mortgages of $100,000 to $1,000,000 over 15 and 30 years at a 6% rate, with a page for every amount.",
+     "h1": "Mortgage payments, amount by amount",
+     "lead": "The monthly principal and interest on common mortgage amounts at a 6% rate. Open any amount for 15, 20 and 30 years at 5% to 8%.",
+     "table_title": "Monthly principal and interest at 6%",
+     "columns": [
+      "Mortgage amount",
+      "15 years",
+      "30 years"
+     ],
+     "terms": [
+      180,
+      360
+     ],
+     "cell": "{pay} a month, {interest} interest",
+     "notes": "Principal and interest only, at a fixed rate. Property taxes, home insurance and mortgage insurance (PMI) add to the real monthly cost.",
+     "sections": [
+      {
+       "h": "15 or 30 years?",
+       "p": [
+        "A 30-year mortgage has the lower payment, but you pay interest for twice as long. {amount} at 6% costs {p360} a month over 30 years with {i360} in interest, or {p180} a month over 15 years with {i180} in interest."
+       ]
+      }
+     ],
+     "calc_text": "Enter any amount, rate and term to see the payment and the whole schedule.",
+     "links_text": "Monthly principal and interest for mortgages from $100,000 to $1,000,000.",
+     "faq": [
+      {
+       "q": "What is the monthly payment on a mortgage?",
+       "a": "It depends on the amount, the rate and the term. {amount} at a 6% rate costs {p360} a month over 30 years or {p180} over 15 years, before taxes and insurance."
+      },
+      {
+       "q": "How much interest do you pay on a 30-year mortgage?",
+       "a": "At 6%, about {i360} on {amount}, more than the loan itself. Over 15 years the interest is {i180}."
+      },
+      {
+       "q": "What is not included in these payments?",
+       "a": "Property taxes, homeowners insurance, mortgage insurance (PMI) and HOA fees. Your lender's estimate shows the full monthly cost."
+      }
+     ]
+    },
+    "page": {
+     "title": "{amount} Mortgage Payment: Monthly Cost at 5% to 8%",
+     "description": "The monthly principal and interest on a {amount} mortgage over 15, 20 and 30 years at 5%, 6%, 7% and 8%, with the total interest.",
+     "h1": "What is the monthly payment on a {amount} mortgage?",
+     "lead": "At a 6% rate it is {p360} a month over 30 years, before taxes and insurance. Below is the payment and the total interest for 15, 20 and 30 years.",
+     "answer": "A {amount} mortgage at a 6% rate costs {p360} a month over 30 years, with {i360} in total interest. Over 15 years the payment is {p180} and the interest {i180}.",
+     "table_title": "Monthly payment by term and rate",
+     "table_sub": "Principal and interest only. Each cell shows the monthly payment and the total interest over the whole loan.",
+     "t_col": "Term",
+     "rate_col": "{rate}",
+     "cell": "{pay} a month, {interest} interest",
+     "sections": [
+      {
+       "h": "Where each payment goes",
+       "p": [
+        "In the first month of a 30-year mortgage at 6%, {first_int} of the {p360} payment is interest and only {first_prin} repays the loan. The balance falls slowly at first and faster later."
+       ]
+      }
+     ],
+     "calc_text": "Open the loan calculator with {amount}, 6% and 30 years filled in and see every month of the schedule.",
+     "tips_title": "How to pay less on a {amount} mortgage",
+     "tips": [
+      "Compare lenders' rates and fees on the Loan Estimate; a small rate difference adds up over 30 years.",
+      "A shorter term costs less in total: 15 years instead of 30 saves {save_short} in interest at 6%.",
+      "Extra payments toward the principal shorten the loan and cut the interest.",
+      "A larger down payment lowers the amount you borrow and can remove mortgage insurance.",
+      "Budget for property taxes and insurance on top of this payment."
+     ],
+     "more_title": "Other amounts",
+     "notes": "Principal and interest only, at a fixed rate. Property taxes, insurance, PMI and HOA fees are not included.",
+     "faq": [
+      {
+       "q": "What is the monthly payment on a {amount} mortgage?",
+       "a": "At a 6% rate: {p360} a month over 30 years, {p240} over 20 years or {p180} over 15 years, before taxes and insurance."
+      },
+      {
+       "q": "How much interest will I pay on a {amount} mortgage?",
+       "a": "At 6%, about {i360} over 30 years and {i180} over 15 years."
+      },
+      {
+       "q": "Is a 15-year or a 30-year mortgage better for {amount}?",
+       "a": "A 15-year loan costs far less interest ({i180} against {i360} at 6%), but its payment is higher ({p180} against {p360}). Pick the payment you can keep up with comfortably."
+      }
+     ]
+    }
+   }
+  ]
  }
 }

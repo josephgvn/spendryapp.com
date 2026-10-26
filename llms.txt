@@ -62,18 +62,18 @@ and send nothing anywhere. The site is in 47 languages; English is at https://sp
 - [Birikim hesaplama](https://spendryapp.com/tr/birikim-hesaplama/): Ücretsiz birikim hesaplama aracı. Hedefini, birikmiş paranı ve süreni gir; her ay ne kadar biriktirmen gerektiğini getirisiyle birlikte gör.
 - [Abonelik maliyeti hesaplama](https://spendryapp.com/tr/abonelik-maliyeti-hesaplama/): Ücretsiz abonelik hesaplama aracı. Aboneliklerini fiyatı ve ödeme döngüsüyle listele; aylık, yıllık ve beş yıllık toplamını gör.
 - [Kredi kartı borcu kaç ayda biter?](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/): Kart borcun kaç ayda biter, ne kadar faiz ödersin? 10.000 TL ile 300.000 TL arası borçlar için asgari ödeme ve sabit ödeme tablosu; 2026 faiz tavanları, KKDF ve BSMV dahil.
-- [10.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/10000-tl/)
-- [20.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/20000-tl/)
-- [25.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/25000-tl/)
-- [30.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/30000-tl/)
-- [40.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/40000-tl/)
-- [50.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/50000-tl/)
-- [75.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/75000-tl/)
-- [100.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/100000-tl/)
-- [150.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/150000-tl/)
-- [200.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/200000-tl/)
-- [250.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/250000-tl/)
-- [300.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/300000-tl/)
+- [10.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/10000-tl/)
+- [20.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/20000-tl/)
+- [25.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/25000-tl/)
+- [30.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/30000-tl/)
+- [40.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/40000-tl/)
+- [50.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/50000-tl/)
+- [75.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/75000-tl/)
+- [100.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/100000-tl/)
+- [150.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/150000-tl/)
+- [200.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/200000-tl/)
+- [250.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/250000-tl/)
+- [300.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/300000-tl/)
 - [Kar topu mu, çığ mı: borcunu hangi yöntemle kapatmalısın?](https://spendryapp.com/tr/rehberler/borc-kartopu-ve-cig-yontemi/): Kar topu en küçük borcu, çığ en yüksek faizli borcu önce kapatır. Farklarını, hangisinin daha az faiz ödettiğini ve nasıl uygulanacağını gör.
 - [Kredi kartı borcu daha hızlı nasıl kapatılır?](https://spendryapp.com/tr/rehberler/kredi-karti-borcu-nasil-kapatilir/): Kredi kartı borcunu daha hızlı kapatmanın yolları: asgariden fazla öde, fazlayı en yüksek faize yönlendir, hiç gecikme ve yeni borç ekleme.
 - [Kredi kartı asgari ödeme: ödersen, ödemezsen ne olur?](https://spendryapp.com/tr/rehberler/asgari-odeme-tuzagi/): Asgari ödeme nedir, nasıl hesaplanır, ödeyince faiz işler mi, ödemezsen ne olur? 2026 kuralları (100.000 TL eşiği, kademeli faiz) ve hesap örnekleriyle.

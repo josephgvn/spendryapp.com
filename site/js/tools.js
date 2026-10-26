@@ -291,7 +291,10 @@
     }));
     q("[data-more]", loanBox).addEventListener("click", () => { all = !all; run(); if (window.ScrollTrigger) window.ScrollTrigger.refresh(); });
     loanBox.addEventListener("input", run);
-    run();
+    // A loan amount page links here with its numbers filled in (?amount=100000&rate=3&term=36&type=ihtiyac).
+    const given = new URLSearchParams(location.search), kind = btns.find((b) => b.dataset.loanType === given.get("type"));
+    ["amount", "rate", "term"].forEach((k) => { const v = parseFloat(given.get(k)); if (Number.isFinite(v) && v >= 0) f(k).value = String(v); });
+    if (kind) kind.click(); else run();
   }
 
   // ---------------------------------------------------------------- shared by the newer calculators
@@ -407,6 +410,9 @@
     };
     q("[data-more]", el).addEventListener("click", () => { all = !all; update(); if (window.ScrollTrigger) window.ScrollTrigger.refresh(); });
     el.addEventListener("input", update);
+    // A loan amount page links here with its numbers filled in (?amount=20000&rate=12&term=60).
+    const given = new URLSearchParams(location.search);
+    ["amount", "rate", "term"].forEach((k) => { const v = parseFloat(given.get(k)); if (Number.isFinite(v) && v >= 0 && f(k)) f(k).value = String(v); });
     update();
   }
 

@@ -1138,6 +1138,7 @@ def loan_tool_page(lang, c, languages=("tr",), paths=None):
 </div>"""
     url = f"{BASE_URL}/tr/{T['slug']}/"
     ld = tool_ld("tr", T["h1"], T["description"], url, [("Spendry", f"{BASE_URL}/tr/"), (T["h1"], url)])
+    inner += loans_block(lang, c)
     if T.get("landing"):
         body, ld = tool_landing(lang, c, "loan", T, inner, T["note"]), ld + [faq_ld(T["landing"]["faq"])]
     else:
@@ -1321,6 +1322,8 @@ def loan_calc_page(lang, c, languages, paths):
 <button type="button" class="btn-soft" data-more>{e(T['show_all'])}</button>
 </div>
 </div>"""
+    if lang in LOAN_LANGS:
+        inner += loans_block(lang, c)
     return calc_page(lang, c, "loan", T, inner, "06", languages, paths)
 
 
@@ -1415,7 +1418,7 @@ def payment_for_months(lang, B, n, apr=None):
 
 def money_text(lang, v):
     v = round(v)
-    return f"{v:,}".replace(",", ".") + " TL" if lang == "tr" else f"${v:,}"
+    return f"{v:,}".replace(",", ".") + "\u00a0TL" if lang == "tr" else f"${v:,}"
 
 
 def months_text(lang, m, P):
@@ -1590,6 +1593,207 @@ def payoff_amount_page(lang, c, languages, amount):
                 "page-tool page-guide page-payoff", paths={lang: path}, og_type="article")
 
 
+# ---------------------------------------------------------------- loan payments, amount by amount
+# English: US personal, auto and mortgage loans (fixed APR, principal and interest). Turkish: ihtiyaç kredisi (KKDF and
+# BSMV on each month's interest, BDDK's longest term for the amount) and konut kredisi (no KKDF or BSMV). The numbers
+# come from the same formulas as the site's loan calculators.
+LOAN_LANGS = ("en", "tr")
+
+
+def tr_max_term(amount):
+    """BDDK decision 11152 (13 Feb 2025): the longest term of a general purpose loan, by amount."""
+    return 36 if amount <= 125000 else 24 if amount <= 250000 else 12
+
+
+def loan_figures(lang, F, amount, rate, months):
+    """(monthly payment, interest, taxes) the way the site's loan calculators work them out."""
+    kkdf, bsmv = F.get("taxes", [0, 0])
+    if lang == "tr":
+        r = rate / 100
+        re = r * (1 + kkdf / 100 + bsmv / 100)
+        pay = amount / months if re == 0 else amount * re / (1 - (1 + re) ** -months)
+        bal, interest, taxes = float(amount), 0.0, 0.0
+        for i in range(1, months + 1):
+            it = bal * r
+            k, b = it * kkdf / 100, it * bsmv / 100
+            bal = max(0.0, bal - (bal if i == months else pay - it - k - b))
+            interest, taxes = interest + it, taxes + k + b
+        return pay, interest, taxes
+    r = rate / 1200
+    pay = amount / months if r == 0 else amount * r / (1 - (1 + r) ** -months)
+    return pay, pay * months - amount, 0.0
+
+
+def loan_terms(F, amount):
+    return [t for t in F["terms"] if not F.get("bddk") or t <= tr_max_term(amount)]
+
+
+def term_text(lang, months, L):
+    if lang == "tr":
+        return f"{months} ay"
+    if months % 12 == 0:
+        y = months // 12
+        return f"{y} {L['year'] if y == 1 else L['years']}"
+    return f"{months} {L['months']}"
+
+
+def rate_text(lang, rate):
+    return f"%{rate:.2f}".replace(".", ",") if lang == "tr" else f"{rate:g}%"
+
+
+def loan_path(F, amount):
+    return f"{F['slug']}/{F['amount_slug'].format(n=amount)}/"
+
+
+def loan_numbers(lang, L, F, amount):
+    rate, typical = F["typical"]
+    terms = loan_terms(F, amount)
+    n = {"amount": money_text(lang, amount), "rate": rate_text(lang, rate)}
+    for t in terms:
+        pay, interest, taxes = loan_figures(lang, F, amount, rate, t)
+        n[f"p{t}"], n[f"i{t}"] = money_text(lang, pay), money_text(lang, interest + taxes)
+        n[f"tot{t}"], n[f"tax{t}"] = money_text(lang, amount + interest + taxes), money_text(lang, taxes)
+        n[f"_p{t}"] = pay
+    long = terms[-1]
+    n.update({"long": term_text(lang, long, L), "p_long": n[f"p{long}"], "i_long": n[f"i{long}"], "tot_long": n[f"tot{long}"],
+              "_long": long, "max_term": term_text(lang, long, L)})
+    t0 = min(typical, long)
+    pay, _, _ = loan_figures(lang, F, amount, rate, t0)
+    kkdf, bsmv = F.get("taxes", [0, 0])
+    first_int = amount * (rate / 100 if lang == "tr" else rate / 1200)
+    first_tax = first_int * (kkdf + bsmv) / 100
+    n.update({"t0": term_text(lang, t0, L), "_t0": t0, "p_t0": money_text(lang, pay), "first_int": money_text(lang, first_int),
+              "first_tax": money_text(lang, first_tax), "first_prin": money_text(lang, pay - first_int - first_tax)})
+    short = F.get("short")
+    if short in terms and t0 > short:
+        long_cost = sum(loan_figures(lang, F, amount, rate, t0)[1:])
+        n["save_short"] = money_text(lang, long_cost - sum(loan_figures(lang, F, amount, rate, short)[1:]))
+    return n
+
+
+def loan_text(A, n, key):
+    """A sentence, or its one-term version when the amount allows only the shortest term (Turkish loans above 250,000 TL)."""
+    return A.get(key + "_short", A[key]) if "save_short" not in n else A[key]
+
+
+def loan_amount_links(lang, F, current=None):
+    home = home_url(lang)
+    return "".join(f'<li><a href="{home}{loan_path(F, a)}"{CURRENT_ATTR if a == current else ""}>{e(money_text(lang, a))}</a></li>'
+                   for a in F["amounts"])
+
+
+def loan_calc_link(lang, c, F, amount, rate, months):
+    home = home_url(lang)
+    url = f'{home}{tool_info(lang, c, "loan")[0]}?amount={amount}&rate={rate:g}&term={months}'
+    return url + (f'&type={F["key"]}' if lang == "tr" else "")
+
+
+def loans_block(lang, c, skip=None):
+    """Links to every loan family's amount pages, under the loan calculator and on the other families' pages."""
+    L = c["loan_amounts"]
+    home = home_url(lang)
+    return "".join(f'<div class="amount-links" data-rise><h2><a href="{home}{F["slug"]}/">{e(F["hub"]["h1"])}</a></h2>'
+                   f'<p>{e(F["hub"]["links_text"])}</p><ul class="amounts">{loan_amount_links(lang, F)}</ul></div>'
+                   for F in L["families"] if F["key"] != skip)
+
+
+def loan_hub_page(lang, c, languages, F):
+    L, H = c["loan_amounts"], F["hub"]
+    home = home_url(lang)
+    path = F["slug"] + "/"
+    url = f"{BASE_URL}/{prefix(lang)}{path}"
+    rows = []
+    for a in F["amounts"]:
+        n = loan_numbers(lang, L, F, a)
+        cells = []
+        for col, t in zip(H["columns"][1:], H["terms"]):
+            t = min(t, n["_long"])
+            cells.append(f'<td data-label="{e(col)}">{e(H["cell"].format(pay=n[f"p{t}"], interest=n[f"i{t}"], total=n[f"tot{t}"], term=term_text(lang, t, L)))}</td>')
+        rows.append(f'<tr><th scope="row"><a href="{home}{loan_path(F, a)}">{e(n["amount"])}</a></th>{"".join(cells)}</tr>')
+    th = "".join(f'<th scope="col">{e(x)}</th>' for x in H["columns"])
+    ex = loan_numbers(lang, L, F, F["example"])
+    fill = lambda s: s.format(**ex)
+    faq = [{"q": fill(x["q"]), "a": fill(x["a"])} for x in H["faq"]]
+    lp, lh, _ = tool_info(lang, c, "loan")
+    body = f"""
+<section class="tool-hero guide-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<a href="{home}{lp}">{e(lh)}</a></nav>
+<h1 class="title title-lg" data-split>{e(H['h1'])}</h1><p class="sub" data-rise="now">{e(H['lead'])}</p></div>
+</section>
+<section class="guide-body" data-theme="light"><div class="wrap">
+<article class="prose guide payoff">
+<h2>{e(H['table_title'])}</h2>
+<div class="cmp-wrap"><table class="cmp"><thead><tr>{th}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+<p class="note">{e(H['notes'])}</p>
+{guide_prose([{**x, "p": [fill(t) for t in x.get("p", [])], "list": [fill(t) for t in x.get("list", [])]} for x in H.get('sections', [])])}
+<a class="tool tool-in" href="{home}{lp}" data-rise><h3>{e(lh)}</h3><p>{e(H['calc_text'])}</p><span class="t-go">{icon("arrow")}</span></a>
+<h2>{e(c['guide_labels']['faq'])}</h2>
+<div class="qas">{qa_list(faq)}</div>
+{loans_block(lang, c, skip=F['key'])}
+</article></div></section>
+{cta_html(lang, c, c['guide_labels']['cta'], "06", "loans")}"""
+    ld = [{"@context": "https://schema.org", "@type": "Article", "headline": H["h1"], "description": H["description"], "inLanguage": lang,
+           "url": url, "mainEntityOfPage": url, "dateModified": BUILD_DATE, "author": {"@type": "Organization", "name": "Spendry", "url": BASE_URL + "/"},
+           "publisher": organization_ld()}, faq_ld(faq),
+          crumbs_ld([("Spendry", f"{BASE_URL}/{prefix(lang)}"), (lh, f"{BASE_URL}/{prefix(lang)}{lp}"), (H["h1"], url)])]
+    return page(lang, c, path, short_title(H["title"]), H["description"], body, ld, languages, "page-tool page-guide page-payoff",
+                paths={lang: path}, og_type="article")
+
+
+def loan_amount_page(lang, c, languages, F, amount):
+    L, A = c["loan_amounts"], F["page"]
+    home = home_url(lang)
+    path = loan_path(F, amount)
+    url = f"{BASE_URL}/{prefix(lang)}{path}"
+    hub = f"{home}{F['slug']}/"
+    n = loan_numbers(lang, L, F, amount)
+    fill = lambda s: s.format(**n)
+    pick = lambda key: fill(loan_text(A, n, key))
+    cols = [A["t_col"]] + [A["rate_col"].format(rate=rate_text(lang, r)) for r in F["rates"]]
+    rows = []
+    for t in loan_terms(F, amount):
+        cells = []
+        for col, r in zip(cols[1:], F["rates"]):
+            pay, interest, taxes = loan_figures(lang, F, amount, r, t)
+            cells.append(f'<td data-label="{e(col)}">{e(A["cell"].format(pay=money_text(lang, pay), interest=money_text(lang, interest + taxes), total=money_text(lang, amount + interest + taxes)))}</td>')
+        rows.append(f'<tr><th scope="row">{e(term_text(lang, t, L))}</th>{"".join(cells)}</tr>')
+    th = "".join(f'<th scope="col">{e(x)}</th>' for x in cols)
+    faq = [{"q": fill(x["q"]), "a": fill(x["a_short"] if "save_short" not in n and x.get("a_short") else x["a"])} for x in A["faq"]]
+    tips = '<ul class="ticks">' + "".join(f"<li>{e(fill(x))}</li>" for x in A["tips"] if "save_short" in n or "{save_short}" not in x) + "</ul>"
+    extra = "".join(f'<h2>{e(fill(x["h"]))}</h2>' + "".join(f"<p>{e(fill(p))}</p>" for p in x["p"]) for x in A.get("sections", []))
+    lh = tool_info(lang, c, "loan")[1]
+    body = f"""
+<section class="tool-hero guide-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<a href="{hub}">{e(F['hub']['h1'])}</a></nav>
+<h1 class="title title-lg" data-split>{e(fill(A['h1']))}</h1><p class="sub" data-rise="now">{e(pick('lead'))}</p></div>
+</section>
+<section class="guide-body" data-theme="light"><div class="wrap">
+<article class="prose guide payoff">
+<div class="ex answer" data-rise><h2>{e(L['answer_title'])}</h2><p>{e(pick('answer'))}</p></div>
+<h2>{e(fill(A['table_title']))}</h2><p>{e(fill(A['table_sub']))}</p>
+<div class="cmp-wrap"><table class="cmp"><thead><tr>{th}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+{extra}
+<a class="tool tool-in" href="{e(loan_calc_link(lang, c, F, amount, F['typical'][0], n['_t0']))}" data-rise><h3>{e(L['calc_title'])}</h3><p>{e(fill(A['calc_text']))}</p><span class="t-go">{icon("arrow")}</span></a>
+<h2>{e(fill(A['tips_title']))}</h2>{tips}
+<h2>{e(c['guide_labels']['faq'])}</h2>
+<div class="qas">{qa_list(faq)}</div>
+<h2>{e(A['more_title'])}</h2>
+<ul class="amounts">{loan_amount_links(lang, F, amount)}</ul>
+<p class="note">{e(fill(A['notes']))}</p>
+</article></div></section>
+{cta_html(lang, c, c['guide_labels']['cta'], "06", "loans")}"""
+    ld = [{"@context": "https://schema.org", "@type": "Article", "headline": fill(A["h1"]), "description": fill(A["description"]),
+           "inLanguage": lang, "url": url, "mainEntityOfPage": url, "dateModified": BUILD_DATE,
+           "author": {"@type": "Organization", "name": "Spendry", "url": BASE_URL + "/"}, "publisher": organization_ld()},
+          faq_ld(faq),
+          crumbs_ld([("Spendry", f"{BASE_URL}/{prefix(lang)}"), (F["hub"]["h1"], f"{BASE_URL}/{prefix(lang)}{F['slug']}/"),
+                     (n["amount"], url)])]
+    return page(lang, c, path, short_title(fill(A["title"])), fill(A["description"]), body, ld, languages,
+                "page-tool page-guide page-payoff", paths={lang: path}, og_type="article")
+
+
 def llms_txt(content):
     """A plain summary of the site for AI assistants (llmstxt.org): what Spendry is and where the useful pages are."""
     en, tr = content["en"], content["tr"]
@@ -1719,6 +1923,11 @@ def main():
         else:
             out("loan", loan_calc_page(lang, c, languages, P["loan"]))
         out("guides", guides_index_page(lang, c, languages, P["guides"]))
+        if lang in LOAN_LANGS:
+            for F in c["loan_amounts"]["families"]:
+                write(f"{prefix(lang)}{F['slug']}/index.html", loan_hub_page(lang, c, languages, F))
+                for amount in F["amounts"]:
+                    write(f"{prefix(lang)}{loan_path(F, amount)}index.html", loan_amount_page(lang, c, languages, F, amount))
         if lang in PAYOFF_LANGS:
             write(f"{prefix(lang)}{c['payoff_amounts']['slug']}/index.html", payoff_hub_page(lang, c, languages))
             for amount in c["payoff_amounts"]["amounts"]:
@@ -1734,6 +1943,10 @@ def main():
             alts = "".join(f'<xhtml:link rel="alternate" hreflang="{x}" href="{BASE_URL}/{prefix(x)}{P[k][x]}"/>' for x in languages)
             alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{BASE_URL}/{P[k]["en"]}"/>'
             urls.append(f"<url><loc>{BASE_URL}/{prefix(lang)}{P[k][lang]}</loc><lastmod>{BUILD_DATE}</lastmod>{alts}</url>")
+        if lang in LOAN_LANGS:
+            for F in content[lang]["loan_amounts"]["families"]:
+                urls += [f"<url><loc>{BASE_URL}/{prefix(lang)}{x}</loc><lastmod>{BUILD_DATE}</lastmod></url>"
+                         for x in [F["slug"] + "/"] + [loan_path(F, a) for a in F["amounts"]]]
         if lang in PAYOFF_LANGS:
             Pa = content[lang]["payoff_amounts"]
             urls += [f"<url><loc>{BASE_URL}/{prefix(lang)}{x}</loc><lastmod>{BUILD_DATE}</lastmod></url>"
