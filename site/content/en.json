@@ -298,7 +298,154 @@
     "Balances change every month. Spendry tracks your cards, loans and bills, keeps your snowball or avalanche plan current and reminds you before each payment is due."
    ]
   ],
-  "extra_hint": "Money you can put toward your debts on top of the minimum payments. The more you add, the sooner you are debt-free."
+  "extra_hint": "Money you can put toward your debts on top of the minimum payments. The more you add, the sooner you are debt-free.",
+  "landing": {
+   "trust": "Free · No sign-up · Runs in your browser, nothing is sent anywhere",
+   "chart_title": "How your debt melts away, month by month",
+   "chart_sub": "Your total balance left with both methods and with no extra at all. Each dot is the month a debt is paid off.",
+   "extra_title": "What a little extra does",
+   "extra_sub": "See how the amount you pay on top of the minimums changes your debt-free date and the interest you pay.",
+   "extra_amount": "Extra each month",
+   "extra_months": "Time to debt-free",
+   "extra_none": "No extra",
+   "extra_sentence": "Paying {extra} extra each month makes you debt-free {months} sooner and saves {interest} in interest.",
+   "extra_zero": "Without any extra, your debts are gone in {months}. Drag the slider to see the difference.",
+   "schedule_title": "Month-by-month plan",
+   "schedule_sub": "What you pay each month, how much interest is charged and what is left.",
+   "columns": [
+    "Month",
+    "Payment",
+    "Interest",
+    "Balance left"
+   ],
+   "show_all": "Show every month",
+   "show_less": "Show less",
+   "app_title": "Spendry keeps this plan for you, every month.",
+   "app_sub": "This page is a snapshot. Spendry works with your real balances, recalculates the plan after every payment and reminds you before each due date.",
+   "app_points": [
+    {
+     "title": "Every debt on one screen",
+     "text": "Credit cards, loans, overdrafts and money you owe friends; your total debt and monthly payments at a glance.",
+     "shot": "06"
+    },
+    {
+     "title": "Never miss a due date",
+     "text": "You get a reminder before every card statement, loan payment and bill is due, so a missed minimum never adds late fees.",
+     "shot": "07"
+    },
+    {
+     "title": "See the end of the month early",
+     "text": "Spendry looks at the next 30 days of income and payments and shows where your balance is heading.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "A short guide to paying off debt",
+   "guide": [
+    {
+     "h": "What is the debt snowball method?",
+     "p": [
+      "With the snowball method you list your debts from the smallest balance to the largest. You pay the minimum on every debt and put any extra money toward the smallest one. When it is paid off, its payment rolls into the next, so your payoff power grows with every debt you clear.",
+      "Its biggest strength is momentum: the first debt disappears within months, which makes the plan easier to stick with."
+     ]
+    },
+    {
+     "h": "What is the debt avalanche method?",
+     "p": [
+      "With the avalanche method you list your debts from the highest interest rate to the lowest. The extra money goes to the most expensive debt first. Because you clear the debt that grows the fastest, this method usually costs the least interest overall.",
+      "The trade-off: if your highest-rate debt is large, the first payoff can take a while."
+     ]
+    },
+    {
+     "h": "Which one is right for you?",
+     "table": [
+      [
+       "",
+       "Snowball",
+       "Avalanche"
+      ],
+      [
+       "Paid off first",
+       "Smallest balance",
+       "Highest rate"
+      ],
+      [
+       "Total interest",
+       "Can be a bit higher",
+       "Usually the lowest"
+      ],
+      [
+       "First payoff",
+       "Fast",
+       "Can take longer"
+      ],
+      [
+       "Best for",
+       "People who need momentum",
+       "People focused on total cost"
+      ]
+     ],
+     "p": [
+      "The difference is often small; having a plan is what matters most. The calculator above compares both methods with your numbers and shows which one costs less."
+     ]
+    },
+    {
+     "h": "How the math works, with an example",
+     "p": [
+      "Each month, interest is charged first: the balance times the monthly rate. A $5,000 credit card balance at 24% APR, which is 2% a month, is charged $100 of interest that month.",
+      "Then every debt gets its minimum payment and the extra goes to the next debt in line. When a debt is paid off, its payment rolls over to the next one.",
+      "The calculator repeats these steps month by month until the last debt is gone; that gives your debt-free month and the total interest you pay."
+     ]
+    },
+    {
+     "h": "The minimum payment trap",
+     "p": [
+      "Paying only the minimum on a credit card keeps the debt alive: interest is charged on the rest every month and the balance can last for years.",
+      "Even a small amount on top of the minimum moves your debt-free date months closer. Try it with your own numbers in the extra payment section above."
+     ]
+    },
+    {
+     "h": "Ways to get out of debt faster",
+     "list": [
+      "Stop adding new debt: use the card only for what you can pay off within the month.",
+      "Pay a fixed amount above the minimums every month, and automate it.",
+      "Send bonuses, refunds and side income straight to the next debt in line.",
+      "Work out whether moving a high-rate balance to a lower-rate loan really costs less overall.",
+      "Review your subscriptions; cancel the ones you don't use and put the difference toward your debt.",
+      "Never miss a due date: late fees and penalty rates push your plan back."
+     ]
+    }
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "Does the snowball or the avalanche method cost less interest?",
+     "a": "In most cases the avalanche method, paying the highest interest rate first, costs the least interest overall. The snowball method clears your first debt sooner, which keeps you motivated. The calculator compares both with your numbers."
+    },
+    {
+     "q": "Which debts can I add?",
+     "a": "Credit cards, personal loans, car loans, student loans, overdrafts or money you owe family and friends. For an interest-free debt, enter 0 as the rate."
+    },
+    {
+     "q": "Where do I find my interest rate?",
+     "a": "It is on your credit card statement, in your loan agreement or in your bank's app, usually shown as the APR. Enter the APR; the calculator works out the monthly rate."
+    },
+    {
+     "q": "How accurate is the result?",
+     "a": "It assumes your rates stay the same, you pay the same amount every month and there are no extra fees. Real rates can change, so use the result as a plan, not a quote."
+    },
+    {
+     "q": "Is anything I enter sent anywhere?",
+     "a": "No. The math runs entirely in your browser; nothing you enter is saved or sent anywhere."
+    },
+    {
+     "q": "What does Spendry do that this calculator doesn't?",
+     "a": "Spendry works with your real balances, updates the plan after every payment, reminds you before each due date and always shows the day you'll be debt-free. It never asks for your bank login and collects no data."
+    }
+   ],
+   "final_title": "Carry your debt-free date in your pocket.",
+   "final_text": "Download Spendry, enter your debts once, and your plan updates itself every month.",
+   "chart_none": "Without the extra"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Make it automatic",
     "In Spendry each category gets a monthly budget that fills as you spend, with a warning before you go over."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Free · No sign-up · Runs in your browser, nothing is sent anywhere",
+   "app_title": "Spendry keeps your budget for you, every day.",
+   "app_sub": "The 50/30/20 rule is a good start. Spendry adds every expense to its category, warns you before a budget runs out and shows the end of the month in advance.",
+   "app_points": [
+    {
+     "title": "A budget for every category",
+     "text": "Groceries, transport, bills: give each a monthly limit and always see what is left.",
+     "shot": "04"
+    },
+    {
+     "title": "Add an expense in seconds",
+     "text": "Type the amount, pick a category, done. Templates turn regular expenses into one tap.",
+     "shot": "02"
+    },
+    {
+     "title": "See where the month went",
+     "text": "Weekly and monthly charts show what you spend most on and how it compares with last month.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "A short guide to budgeting",
+   "guide": [
+    {
+     "h": "What is the 50/30/20 rule?",
+     "p": [
+      "Half of your take-home pay goes to needs (rent, bills, groceries, transport), 30 percent to wants (eating out, entertainment, shopping) and 20 percent to savings and paying off debt.",
+      "It is a starting point. If rent alone takes half of your income, adjust the split to fit your life, and pay off high-interest debt first."
+     ]
+    },
+    {
+     "h": "How to make a monthly budget",
+     "p": [
+      "Start with your income: salary, side jobs and any other regular money. Then set aside the fixed costs at the start of the month: rent, bills, loan payments and subscriptions.",
+      "Record variable spending like groceries, eating out and transport as it happens; left to the end of the month, most of it is forgotten. At the end of the month, subtract spending from income and move what is left to savings."
+     ]
+    },
+    {
+     "h": "Plan for your credit card statement",
+     "p": [
+      "Card purchases don't leave your account today; they come out when you pay the statement. When you plan the month, count the statement you will pay, not just today's balance."
+     ]
+    },
+    {
+     "h": "Ways to stick to a budget",
+     "list": [
+      "Pay yourself first: move savings out as soon as you are paid.",
+      "Enter fixed costs once and let them repeat every month.",
+      "Record small purchases too; they make the biggest difference by the end of the month.",
+      "Review your subscriptions once a year.",
+      "Check your budget in the middle of the month and adjust the second half if you need to."
+     ]
+    }
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "Does the 50/30/20 rule work for everyone?",
+     "a": "No, it is a starting point. If rent and bills take more than half of your income, change the split; what matters is setting something aside for savings and debt every month."
+    },
+    {
+     "q": "Should I use my gross or net income?",
+     "a": "Use your net income, the amount that actually reaches your account after taxes and deductions."
+    },
+    {
+     "q": "Where do debt payments go?",
+     "a": "Minimum payments are needs. Anything you pay on top of the minimums counts toward the 20 percent for savings and debt."
+    },
+    {
+     "q": "Is anything I enter saved?",
+     "a": "No. The math runs entirely in your browser; nothing you enter is saved or sent anywhere."
+    },
+    {
+     "q": "How does Spendry keep my budget?",
+     "a": "You give each category a monthly budget; it fills as you spend and warns you before you go over. Because your cards, loans and subscriptions are in the same place, you can see the end of the month in advance. It never asks for your bank login."
+    }
+   ],
+   "final_title": "Carry your budget in your pocket.",
+   "final_text": "Download Spendry, enter your income and fixed costs once, and see the end of every month in advance."
+  }
  },
  "not_found": {
   "title": "This page took a day off.",
@@ -900,7 +1127,92 @@
     "Make it real",
     "Spendry keeps the plan going: add your cards, set what you can pay each month and get a reminder before every due date."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Free · No sign-up · Runs in your browser, nothing is sent anywhere",
+   "app_title": "Spendry watches your card balances for you, every month.",
+   "app_sub": "The calculator shows one plan for one card. Spendry follows all your cards, their statement and due dates, and reminds you before each payment.",
+   "app_points": [
+    {
+     "title": "Every card in one list",
+     "text": "Each card's statement balance, due date and days left at a glance.",
+     "shot": "06"
+    },
+    {
+     "title": "A reminder before every due date",
+     "text": "Get a notification when a statement closes and before the payment is due, so a missed minimum never adds late fees.",
+     "shot": "07"
+    },
+    {
+     "title": "See where the money goes",
+     "text": "Your card spending by category, so you can see where to cut back.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "A short guide to credit card debt",
+   "guide": [
+    {
+     "h": "How credit card interest is calculated",
+     "p": [
+      "Each month your card charges interest on the balance you carry, based on its APR. Your payment covers that interest first, and the rest reduces the balance. The calculator repeats this month by month until the balance is gone.",
+      "Example: a $3,000 balance at 24% APR, which is 2% a month, is charged $60 of interest. Pay $200 and the balance drops to $2,860; next month's interest is worked out on that new amount."
+     ]
+    },
+    {
+     "h": "Why minimum payments take so long",
+     "p": [
+      "The minimum payment is usually a small percentage of the balance. As the balance falls, so does the minimum, so most of each payment goes to interest and the debt can last for years.",
+      "Paying a fixed amount breaks that cycle: the same money keeps shrinking the balance every month. The comparison in the calculator shows the difference with your numbers."
+     ]
+    },
+    {
+     "h": "Statement date and due date",
+     "p": [
+      "The statement date closes the billing cycle and sets your balance. The due date is the last day to pay it, usually at least 21 days later.",
+      "Pay the full statement balance by the due date and you are not charged interest on purchases. Carry part of it and interest is charged on what is left."
+     ]
+    },
+    {
+     "h": "Ways to pay off a card faster",
+     "list": [
+      "Pay a fixed amount each month, as high as you can, instead of the minimum.",
+      "Pause new spending on the card while you pay it down.",
+      "If you have several cards, put the extra toward the highest APR first.",
+      "Check whether a balance transfer or a lower-rate loan really costs less once fees are included.",
+      "Never miss a due date; late fees and penalty rates push your plan back."
+     ]
+    }
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "How long will it take if I only pay the minimum?",
+     "a": "It depends on your balance, your APR and how your card works out the minimum, but it often takes years. The calculator shows when the balance would be gone with minimum payments only and how much interest that costs."
+    },
+    {
+     "q": "What is APR?",
+     "a": "APR is your card's yearly interest rate. Cards charge interest monthly, at roughly one twelfth of the APR, on the balance you carry."
+    },
+    {
+     "q": "How is the minimum payment worked out?",
+     "a": "Most cards take a small percentage of the balance, often with a fixed floor, plus interest and fees. Your statement shows yours; you can change the percentage in the calculator."
+    },
+    {
+     "q": "Does the calculator include fees?",
+     "a": "No. Annual fees, late fees and balance transfer fees are not included, so your real cost can be a little higher."
+    },
+    {
+     "q": "Is anything I enter saved?",
+     "a": "No. The math runs entirely in your browser; nothing you enter is saved or sent anywhere."
+    },
+    {
+     "q": "How does Spendry track my card debt?",
+     "a": "You add your cards; Spendry follows their statement and due dates, reminds you before payments and updates your balance and debt-free date as you record payments. It never asks for your bank login."
+    }
+   ],
+   "final_title": "Put your card balance on a plan.",
+   "final_text": "Download Spendry, add your cards and let it keep track of every statement and due date."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -933,7 +1245,91 @@
     "Keep track after you sign",
     "Add the loan to Spendry to see the payments left, the end month and a reminder before every payment."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Free · No sign-up · Runs in your browser, nothing is sent anywhere",
+   "app_title": "Spendry tracks your loan to the last payment.",
+   "app_sub": "The calculator shows the payment. Spendry follows the payments left, the end month and each due date, and reminds you before every payment.",
+   "app_points": [
+    {
+     "title": "Every loan in one list",
+     "text": "Car, personal and student loans: the payments left and your monthly total at a glance.",
+     "shot": "06"
+    },
+    {
+     "title": "A reminder before every payment",
+     "text": "Never miss a loan payment, or the late fee that comes with it.",
+     "shot": "07"
+    },
+    {
+     "title": "See the month ahead",
+     "text": "Spendry shows how your loan payments, cards and bills will shape the next 30 days.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "A short guide to loans",
+   "guide": [
+    {
+     "h": "How a loan payment is calculated",
+     "p": [
+      "Most personal and car loans are amortizing: you pay the same amount every month. Part of each payment covers the interest on the remaining balance and the rest pays down the principal.",
+      "Early payments are mostly interest; as the balance falls, more of each payment goes to principal. The table in the calculator shows this month by month."
+     ]
+    },
+    {
+     "h": "Shorter term or lower payment?",
+     "p": [
+      "A longer term lowers the monthly payment but raises the total interest. A shorter term raises the payment and lowers the total cost.",
+      "The shortest term that fits comfortably in your budget is usually the cheapest choice."
+     ]
+    },
+    {
+     "h": "APR and interest rate",
+     "p": [
+      "The interest rate is the cost of borrowing the money. The APR also includes most fees, which makes it the better number for comparing offers."
+     ]
+    },
+    {
+     "h": "Ways to pay less interest",
+     "list": [
+      "Compare offers by APR, not by the monthly payment alone.",
+      "Choose a shorter term if your budget allows it.",
+      "Make extra payments toward the principal early in the loan.",
+      "Ask whether your lender charges a fee for paying early.",
+      "Never miss a payment; late fees add up quickly."
+     ]
+    }
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "How is the monthly payment calculated?",
+     "a": "With the standard amortization formula: the loan amount, the monthly rate (the annual rate divided by 12) and the number of months. Interest is charged on the remaining balance each month."
+    },
+    {
+     "q": "What is the difference between APR and the interest rate?",
+     "a": "The interest rate is what you pay to borrow the money. The APR adds most fees on top, which makes it better for comparing loans."
+    },
+    {
+     "q": "Do extra payments help?",
+     "a": "Yes. Extra money toward the principal lowers the balance that interest is charged on, so you pay less interest and finish sooner. Check whether your lender charges a prepayment fee."
+    },
+    {
+     "q": "Does the calculator include fees or taxes?",
+     "a": "No. Origination fees, insurance and taxes are not included."
+    },
+    {
+     "q": "Is anything I enter saved?",
+     "a": "No. The math runs entirely in your browser; nothing you enter is saved or sent anywhere."
+    },
+    {
+     "q": "How does Spendry track my loan?",
+     "a": "You add the loan once; Spendry shows the payments left, the end month and your monthly total, and reminds you before every payment. It never asks for your bank login."
+    }
+   ],
+   "final_title": "Your loan, planned to the last payment.",
+   "final_text": "Download Spendry, add your loan and let it keep track of every payment."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -963,7 +1359,86 @@
     "Track your progress",
     "Create the goal in Spendry and see how close you are every time you add to it."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Free · No sign-up · Runs in your browser, nothing is sent anywhere",
+   "app_title": "Spendry shows how close you are, every step of the way.",
+   "app_sub": "The calculator tells you the monthly amount. Spendry keeps your goal, shows your progress every time you add to it and works out the time left.",
+   "app_points": [
+    {
+     "title": "All your goals on one screen",
+     "text": "Emergency fund, trip, new car: see how full each goal is and how many days are left.",
+     "shot": "05"
+    },
+    {
+     "title": "See the month ahead",
+     "text": "Know how much you can save this month in light of your income and payments.",
+     "shot": "01"
+    },
+    {
+     "title": "Watch your savings grow",
+     "text": "Track gold, currencies, stocks and funds at their current prices.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "A short guide to saving for a goal",
+   "guide": [
+    {
+     "h": "How much should I save each month?",
+     "p": [
+      "Take what you already have away from your goal and divide what is left by the months you have. The calculator does this for you and, if you enter a rate, counts the interest your savings earn.",
+      "Example: for a $6,000 goal with $1,000 already saved and 10 months to go, you need to put aside $500 a month without interest."
+     ]
+    },
+    {
+     "h": "Why interest makes a difference",
+     "p": [
+      "If your savings earn interest in a savings account or a fund, you need to put in less each month to reach the same goal. The longer the time, the bigger the effect."
+     ]
+    },
+    {
+     "h": "Start with an emergency fund",
+     "p": [
+      "Before bigger goals, an emergency fund that covers a few months of essential costs keeps an unexpected bill from turning into debt."
+     ]
+    },
+    {
+     "h": "Ways to make saving easier",
+     "list": [
+      "Save as soon as you are paid and treat it like a bill.",
+      "Set up an automatic transfer so you never have to decide.",
+      "Send bonuses and side income straight to the goal.",
+      "Share the goal with your partner or family and get there faster.",
+      "Keep your progress visible; every deposit keeps you going."
+     ]
+    }
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "What rate should I enter?",
+     "a": "Enter the yearly interest your savings account or fund is expected to pay. If you are not sure, use 0 to see the most careful amount."
+    },
+    {
+     "q": "How can I reach my goal sooner?",
+     "a": "Raise the monthly amount, send extra income to the goal or choose an account that pays interest. Shorten the time in the calculator to see how the monthly amount changes."
+    },
+    {
+     "q": "How big should an emergency fund be?",
+     "a": "Three to six months of essential costs is the usual advice. The steadier your income, the less you need; the less steady, the more."
+    },
+    {
+     "q": "Is anything I enter saved?",
+     "a": "No. The math runs entirely in your browser; nothing you enter is saved or sent anywhere."
+    },
+    {
+     "q": "How does Spendry track my goals?",
+     "a": "You create a goal and see your progress every time you add money. Spendry shows the amount and the time left, and you can share a goal with your family. It never asks for your bank login."
+    }
+   ],
+   "final_title": "Get one step closer to your goal.",
+   "final_text": "Download Spendry, create your goal and see how close you are every time you add to it."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -1002,6 +1477,86 @@
     "Never miss a renewal",
     "Spendry tracks your subscriptions, adds them to your monthly total and reminds you before each renewal."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Free · No sign-up · Runs in your browser, nothing is sent anywhere",
+   "app_title": "Spendry makes sure no renewal catches you out.",
+   "app_sub": "The calculator shows the total. Spendry tracks your subscriptions, adds them to your monthly total and reminds you before each renewal.",
+   "app_points": [
+    {
+     "title": "A reminder before every renewal",
+     "text": "Music, streaming, cloud storage or the gym: you hear about each renewal before it is charged.",
+     "shot": "07"
+    },
+    {
+     "title": "Ask what your subscriptions cost a year",
+     "text": "Ask the assistant; the answer is worked out on your iPhone and your data stays there.",
+     "shot": "09"
+    },
+    {
+     "title": "See the month ahead",
+     "text": "See how subscriptions, cards and bills will shape the next 30 days.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "A short guide to subscriptions",
+   "guide": [
+    {
+     "h": "How to work out what subscriptions really cost",
+     "p": [
+      "Turn each subscription into a monthly amount: divide a yearly price by 12, multiply a weekly price by 52 and divide by 12. Then add them all up. The calculator does this and shows the monthly, yearly and five-year totals.",
+      "A small monthly price looks harmless. Multiplied by twelve, and by every subscription you have, it often turns out to be one of your biggest regular costs."
+     ]
+    },
+    {
+     "h": "Which subscriptions to cancel",
+     "p": [
+      "Sort them by price and ask of each one: did I use it last month? Cancel the ones you don't use, and set a reminder before the renewals you keep.",
+      "If two subscriptions do the same job, drop one; family or student plans can also bring the total down."
+     ]
+    },
+    {
+     "h": "Watch out for free trials",
+     "p": [
+      "When a free trial ends, the subscription usually starts charging on its own. Note the end date the day you start a trial, or set a reminder."
+     ]
+    },
+    {
+     "h": "Ways to spend less on subscriptions",
+     "list": [
+      "Review all your subscriptions once a year.",
+      "Move the ones you use all year to yearly plans; they are usually cheaper.",
+      "Share family plans.",
+      "Cancel in the months you don't use a service and restart when you need it.",
+      "Set a reminder before every renewal."
+     ]
+    }
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "How much do my subscriptions cost a year?",
+     "a": "Turn each one into a monthly amount, add them up and multiply by 12. The calculator does it for you and also shows the five-year total."
+    },
+    {
+     "q": "How do I enter weekly and yearly subscriptions?",
+     "a": "Pick the billing period on each row: weekly, monthly or yearly. The calculator turns them all into the same unit."
+    },
+    {
+     "q": "Is a yearly plan worth it?",
+     "a": "If you will use a service all year, the yearly plan is usually cheaper. If you are not sure, keep it monthly for a few months first."
+    },
+    {
+     "q": "Is anything I enter saved?",
+     "a": "No. The math runs entirely in your browser; nothing you enter is saved or sent anywhere."
+    },
+    {
+     "q": "How does Spendry track my subscriptions?",
+     "a": "You add your subscriptions once; Spendry adds them to your monthly total, reminds you before each renewal and shows the yearly cost. It never asks for your bank login."
+    }
+   ],
+   "final_title": "Know every renewal in advance.",
+   "final_text": "Download Spendry, add your subscriptions and get a heads-up before each renewal."
+  }
  }
 }

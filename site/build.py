@@ -117,7 +117,13 @@ def load_content():
     for lang in LANGS:
         path = os.path.join(SITE, "content", f"{lang}.json")
         if lang != "en" and os.path.exists(path):
-            out[lang] = merge(english, json.load(open(path, encoding="utf-8")))
+            own = json.load(open(path, encoding="utf-8"))
+            out[lang] = merge(english, own)
+            # A calculator's landing page needs the whole of it in the page's language: until it is translated, the
+            # language keeps the plain calculator page rather than English sections in the middle of it.
+            for key, value in out[lang].items():
+                if isinstance(value, dict) and "landing" in value and "landing" not in own.get(key, {}):
+                    del value["landing"]
     return out
 
 
@@ -938,11 +944,143 @@ def debt_tool_page(lang, c, languages, paths=None):
 </div>
 <div class="panel calc-out" data-rise="now" aria-live="polite"><div class="compare"><div class="method" data-res="snowball"></div><div class="method" data-res="avalanche"></div></div><p class="note same" hidden></p></div>
 </div>"""
-    body = tool_frame(lang, c, D["h1"], D["lead"], inner, D["prose"], c["lab"]["text"], key="debt")
     url = f"{BASE_URL}/{prefix(lang)}{D['slug']}/"
-    return page(lang, c, f"{D['slug']}/", D["title"] + " | Spendry", D["description"], body,
-                tool_ld(lang, D["h1"], D["description"], url, [("Spendry", f"{BASE_URL}/{prefix(lang)}"), (D["h1"], url)]),
-                languages, "page-tool", paths=paths)
+    ld = tool_ld(lang, D["h1"], D["description"], url, [("Spendry", f"{BASE_URL}/{prefix(lang)}"), (D["h1"], url)])
+    if D.get("landing"):
+        body = debt_landing(lang, c, t, D, D["landing"], inner, data)
+        ld = ld + [faq_ld(D["landing"]["faq"])]
+    else:
+        body = tool_frame(lang, c, D["h1"], D["lead"], inner, D["prose"], c["lab"]["text"], key="debt")
+    return page(lang, c, f"{D['slug']}/", D["title"] + " | Spendry", D["description"], body, ld,
+                languages, "page-tool page-landing" if D.get("landing") else "page-tool", paths=paths)
+
+
+# ---------------------------------------------------------------- calculator landing pages
+# A calculator page that keeps going after the calculator: the result drawn month by month, what a little more each
+# month changes, the plan as a table, the same job done by the app (its real screens), a guide in plain words, the
+# questions people ask, and the way to the App Store. Everything still runs in the browser.
+def guide_prose(sections):
+    out = []
+    for s in sections:
+        body = ""
+        if s.get("table"):
+            head_row, *rows = s["table"]
+            th = "".join(f'<th scope="col">{e(h)}</th>' for h in head_row)
+            tr = "".join("<tr>" + f'<th scope="row">{e(r[0])}</th>' + "".join(f"<td>{e(x)}</td>" for x in r[1:]) + "</tr>" for r in rows)
+            body += f'<div class="cmp-wrap"><table class="cmp"><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table></div>'
+        body += "".join(f"<p>{e(x)}</p>" for x in s.get("p", []))
+        if s.get("list"):
+            body += '<ul class="ticks">' + "".join(f"<li>{e(x)}</li>" for x in s["list"]) + "</ul>"
+        out.append(f'<h2>{e(s["h"])}</h2>{body}')
+    return "".join(out)
+
+
+def landing_faq(X):
+    items = "".join(f'<details class="qa" data-rise><summary><span>{e(q["q"])}</span><i aria-hidden="true"></i></summary>'
+                    f'<div class="qa-a"><p>{e(q["a"])}</p></div></details>' for q in X["faq"])
+    return f"""
+<section class="faq" data-theme="light">
+<div class="wrap faq-grid"><div><h2 class="title title-sm" data-split>{e(X['faq_title'])}</h2></div><div class="qas">{items}</div></div>
+</section>"""
+
+
+def landing_app(lang, c, X, place):
+    items = "".join(f'<li data-rise><div class="appx-shot">{screen(lang, p["shot"], "Spendry: " + p["title"], "(max-width: 700px) 70vw, 340px")}</div>'
+                    f'<h3>{e(p["title"])}</h3><p>{e(p["text"])}</p></li>' for p in X["app_points"])
+    return f"""
+<section class="appx" data-theme="dark">
+<div class="appx-bg" aria-hidden="true"></div>
+<div class="wrap">
+<div class="head head-dark"><h2 class="title" data-split>{e(X['app_title'])}</h2><p class="sub" data-rise>{e(X['app_sub'])}</p></div>
+<ul class="appx-list">{items}</ul>
+<div class="appx-cta" data-rise>{store_button(c, lang, place)}<p>{e(c['cta']['free'])} · {e(c['cta']['trial'])}</p></div>
+</div>
+</section>"""
+
+
+def landing_final(lang, c, X, place):
+    F = c["final"]
+    qr = qr_svg(lang)
+    qr_html = f'<div class="qr" aria-hidden="true"><div class="qr-code">{qr}</div><p>{e(F["qr"])}</p></div>' if qr else ""
+    return f"""
+<section class="final" data-theme="dark">
+<div class="final-bg" aria-hidden="true"></div>
+<div class="wrap final-in">
+<img class="final-icon" src="/assets/brand/icon-512.webp" alt="Spendry" width="128" height="128" loading="lazy">
+<h2 class="title title-xl" data-split>{e(X['final_title'])}</h2>
+<p class="sub" data-rise>{e(X['final_text'])}</p>
+<div class="final-cta" data-rise>{store_button(c, lang, place)}{qr_html}</div>
+<p class="final-meta" data-rise>{e(c['cta']['requirements'])} · {e(c['cta']['trial'])}</p>
+</div>
+</section>"""
+
+
+def tool_landing(lang, c, key, T, inner, note=""):
+    """The landing page around one of the other calculators: hero, the calculator, the app's screens doing the same job,
+    a guide, the questions people ask, more guides and the way to the App Store."""
+    X = T["landing"]
+    home = home_url(lang)
+    place = f"calc-{key}"
+    note_html = f'<p class="note">{e(note)}</p>' if note else ""
+    return f"""
+<section class="tool-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<a href="{home}#tools">{e(c['nav']['tools'])}</a></nav>
+<h1 class="title title-lg" data-split>{e(T['h1'])}</h1><p class="sub" data-rise="now">{e(T['lead'])}</p>
+<p class="trust" data-rise="now">{e(X['trust'])}</p></div>
+</section>
+<section class="tool-body" data-theme="light"><div class="wrap">{inner}</div></section>
+{landing_app(lang, c, X, place)}
+<section class="tool-prose" data-theme="light"><div class="wrap prose" data-rise><p class="gx-k">{e(X['guide_title'])}</p>{guide_prose(X['guide'])}{note_html}</div></section>
+{landing_faq(X)}
+{more_guides_html(lang, c, tool_guides(c, key), c["guide_labels"]["more"])}
+{landing_final(lang, c, X, place + '-final')}"""
+
+
+def debt_landing(lang, c, t, D, X, inner, data):
+    home = home_url(lang)
+    L = c["lab"]
+    cols = "".join(f'<th scope="col">{e(x)}</th>' for x in X["columns"])
+    step = data["step"]
+    xp = {"step": step, "labels": {"say": X["extra_sentence"], "zero": X["extra_zero"], "none": X["extra_none"]}}
+    return f"""
+<section class="tool-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<a href="{home}#tools">{e(c['nav']['tools'])}</a></nav>
+<h1 class="title title-lg" data-split>{e(D['h1'])}</h1><p class="sub" data-rise="now">{e(D['lead'])}</p>
+<p class="trust" data-rise="now">{e(X['trust'])}</p></div>
+</section>
+<section class="tool-body" data-theme="light"><div class="wrap">{inner}
+<div class="panel pc-panel" data-rise>
+<div class="pc-head"><h2>{e(X['chart_title'])}</h2><p class="note">{e(X['chart_sub'])}</p></div>
+<div class="pchart" data-pchart dir="ltr" data-none="{e(X['chart_none'])}"><svg viewBox="0 0 1000 300" preserveAspectRatio="none" aria-hidden="true"></svg><div class="pc-y"></div><div class="pc-x"></div><div class="pc-marks"></div><div class="pc-tip" hidden></div></div>
+<div class="c-legend pc-legend"><span class="lg-a">{e(t['strategy_avalanche'])}</span><span class="lg-s">{e(t['strategy_snowball'])}</span><span class="lg-z">{e(X['chart_none'])}</span></div>
+</div>
+</div></section>
+<section class="xp" data-theme="light"><div class="wrap">
+<div class="head"><h2 class="title title-sm" data-split>{e(X['extra_title'])}</h2><p class="sub" data-rise>{e(X['extra_sub'])}</p></div>
+<div class="panel xp-panel" data-rise data-xp='{e(json.dumps(xp, ensure_ascii=False))}'>
+<div class="xp-main">
+<label class="range"><span>{e(X['extra_amount'])}</span><output data-xo="extra">&nbsp;</output><input type="range" min="0" step="{step}" value="{data['extra']}" aria-label="{e(X['extra_amount'])}" data-xp-range></label>
+<p class="xp-say" data-xo="say">&nbsp;</p>
+<dl class="figs"><div><dt>{e(L['free_in'])}</dt><dd data-xo="month">&nbsp;</dd></div><div class="good"><dt>{e(L['sooner'])}</dt><dd data-xo="sooner">&nbsp;</dd></div><div class="good"><dt>{e(L['saved'])}</dt><dd data-xo="saved">&nbsp;</dd></div></dl>
+</div>
+<div class="xp-side"><p class="xp-k">{e(X['extra_months'])}</p><ol class="xp-bars" data-xo="bars"></ol></div>
+</div>
+</div></section>
+<section class="sched" data-theme="light"><div class="wrap">
+<div class="panel sch-panel" data-rise data-sched='{e(json.dumps({"show_all": X["show_all"], "show_less": X["show_less"]}, ensure_ascii=False))}'>
+<div class="sch-head"><div><h2>{e(X['schedule_title'])}</h2><p class="note">{e(X['schedule_sub'])}</p></div>
+<div class="seg" role="radiogroup" aria-label="{e(L['method'])}"><i class="seg-thumb" aria-hidden="true"></i><button type="button" role="radio" aria-checked="false" data-sm="snowball">{e(t['strategy_snowball'])}</button><button type="button" role="radio" aria-checked="true" data-sm="avalanche">{e(t['strategy_avalanche'])}</button></div></div>
+<div class="table-wrap"><table><thead><tr>{cols}</tr></thead><tbody data-rows></tbody></table></div>
+<button type="button" class="btn-soft" data-more>{e(X['show_all'])}</button>
+</div>
+</div></section>
+{landing_app(lang, c, X, 'calc-debt')}
+<section class="tool-prose" data-theme="light"><div class="wrap prose" data-rise><p class="gx-k">{e(X['guide_title'])}</p>{guide_prose(X['guide'])}</div></section>
+{landing_faq(X)}
+{more_guides_html(lang, c, tool_guides(c, "debt"), c["guide_labels"]["more"])}
+{landing_final(lang, c, X, 'calc-debt-final')}"""
 
 
 def budget_tool_page(lang, c, languages, paths=None):
@@ -965,11 +1103,14 @@ def budget_tool_page(lang, c, languages, paths=None):
 {template}</div>
 <div class="panel" data-rise="now" aria-live="polite"><ul class="split-list">{rows}</ul></div>
 </div>"""
-    body = tool_frame(lang, c, B["h1"], B["lead"], inner, B["prose"], c["features"]["items"][0]["text"], shot="04", key="budget")
     url = f"{BASE_URL}/{prefix(lang)}{B['slug']}/"
-    return page(lang, c, f"{B['slug']}/", B["title"] + " | Spendry", B["description"], body,
-                tool_ld(lang, B["h1"], B["description"], url, [("Spendry", f"{BASE_URL}/{prefix(lang)}"), (B["h1"], url)]),
-                languages, "page-tool", paths=paths)
+    ld = tool_ld(lang, B["h1"], B["description"], url, [("Spendry", f"{BASE_URL}/{prefix(lang)}"), (B["h1"], url)])
+    if B.get("landing"):
+        body, ld = tool_landing(lang, c, "budget", B, inner), ld + [faq_ld(B["landing"]["faq"])]
+    else:
+        body = tool_frame(lang, c, B["h1"], B["lead"], inner, B["prose"], c["features"]["items"][0]["text"], shot="04", key="budget")
+    return page(lang, c, f"{B['slug']}/", B["title"] + " | Spendry", B["description"], body, ld,
+                languages, "page-tool page-landing" if B.get("landing") else "page-tool", paths=paths)
 
 
 def loan_tool_page(lang, c, languages=("tr",), paths=None):
@@ -995,11 +1136,14 @@ def loan_tool_page(lang, c, languages=("tr",), paths=None):
 <button type="button" class="btn-soft" data-more>{e(T['show_all'])}</button>
 </div>
 </div>"""
-    body = tool_frame(lang, c, T["h1"], T["lead"], inner, T["prose"], c["lab"]["text"], T["note"], key="loan")
     url = f"{BASE_URL}/tr/{T['slug']}/"
-    return page("tr", c, f"{T['slug']}/", T["title"] + " | Spendry", T["description"], body,
-                tool_ld("tr", T["h1"], T["description"], url, [("Spendry", f"{BASE_URL}/tr/"), (T["h1"], url)]),
-                list(languages), "page-tool", paths=paths)
+    ld = tool_ld("tr", T["h1"], T["description"], url, [("Spendry", f"{BASE_URL}/tr/"), (T["h1"], url)])
+    if T.get("landing"):
+        body, ld = tool_landing(lang, c, "loan", T, inner, T["note"]), ld + [faq_ld(T["landing"]["faq"])]
+    else:
+        body = tool_frame(lang, c, T["h1"], T["lead"], inner, T["prose"], c["lab"]["text"], T["note"], key="loan")
+    return page("tr", c, f"{T['slug']}/", T["title"] + " | Spendry", T["description"], body, ld,
+                list(languages), "page-tool page-landing" if T.get("landing") else "page-tool", paths=paths)
 
 
 # ---------------------------------------------------------------- guides
@@ -1095,11 +1239,14 @@ def guides_index_page(lang, c, languages, paths):
 
 # ---------------------------------------------------------------- newer calculators
 def calc_page(lang, c, key, T, inner, shot, languages, paths):
-    body = tool_frame(lang, c, T["h1"], T["lead"], inner, T["prose"], c["guide_labels"]["cta"], shot=shot, key=key)
     url = f"{BASE_URL}/{prefix(lang)}{T['slug']}/"
-    return page(lang, c, f"{T['slug']}/", short_title(T["title"]), T["description"], body,
-                tool_ld(lang, T["h1"], T["description"], url, [("Spendry", f"{BASE_URL}/{prefix(lang)}"), (T["h1"], url)]),
-                languages, "page-tool", paths=paths)
+    ld = tool_ld(lang, T["h1"], T["description"], url, [("Spendry", f"{BASE_URL}/{prefix(lang)}"), (T["h1"], url)])
+    if T.get("landing"):
+        body, ld = tool_landing(lang, c, key, T, inner), ld + [faq_ld(T["landing"]["faq"])]
+    else:
+        body = tool_frame(lang, c, T["h1"], T["lead"], inner, T["prose"], c["guide_labels"]["cta"], shot=shot, key=key)
+    return page(lang, c, f"{T['slug']}/", short_title(T["title"]), T["description"], body, ld,
+                languages, "page-tool page-landing" if T.get("landing") else "page-tool", paths=paths)
 
 
 def num(label, f, value, step, extra="", cls="field"):

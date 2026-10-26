@@ -298,7 +298,154 @@
     "Asgari ödeme borcu kapatmaz, kalan tutara her ay faiz işler. KMH ve kart için aylık faiz oranları Merkez Bankası'nın açıkladığı üst sınırlara bağlıdır; güncel oranı bankandan kontrol et."
    ]
   ],
-  "extra_hint": "Asgari ödemelerin üstüne borçlarına ayırabildiğin para. Ne kadar çok eklersen o kadar erken borçsuz kalırsın."
+  "extra_hint": "Asgari ödemelerin üstüne borçlarına ayırabildiğin para. Ne kadar çok eklersen o kadar erken borçsuz kalırsın.",
+  "landing": {
+   "trust": "Ücretsiz · Üyelik yok · Hesap tarayıcında yapılır, hiçbir yere gönderilmez",
+   "chart_title": "Borcun ay ay nasıl eriyor",
+   "chart_sub": "Kalan toplam borç: iki yöntemle ve hiç ek ödeme yapmadan. Noktalar bir borcun kapandığı ayı gösterir.",
+   "extra_title": "Fazladan ödemenin gücü",
+   "extra_sub": "Asgarilerin üstüne her ay koyduğun tutar, borçsuz olacağın tarihi ve ödeyeceğin faizi nasıl değiştiriyor?",
+   "extra_amount": "Her ay fazladan",
+   "extra_months": "Borçsuz olma süresi",
+   "extra_none": "Ek ödeme yok",
+   "extra_sentence": "Her ay {extra} fazla ödersen {months} daha erken borçsuz kalırsın ve {interest} daha az faiz ödersin.",
+   "extra_zero": "Ek ödeme olmadan borçların {months} sonra kapanıyor. Kaydırıcıyı sağa çek, farkı gör.",
+   "schedule_title": "Ay ay ödeme planı",
+   "schedule_sub": "Her ay ne ödediğin, ne kadar faiz işlediği ve geriye ne kaldığı.",
+   "columns": [
+    "Ay",
+    "Ödeme",
+    "Faiz",
+    "Kalan borç"
+   ],
+   "show_all": "Bütün ayları göster",
+   "show_less": "Daha az göster",
+   "app_title": "Spendry bu planı her ay senin yerine tutar.",
+   "app_sub": "Bu sayfa bir anlık fotoğraf. Spendry gerçek bakiyelerinle çalışır, her ödemeden sonra planı yeniden hesaplar ve son ödeme gününden önce hatırlatır.",
+   "app_points": [
+    {
+     "title": "Bütün borçların tek ekranda",
+     "text": "Kredi kartları, krediler, KMH ve arkadaşlarla aranızdaki borçlar; toplam borcun ve aylık ödemen tek bakışta.",
+     "shot": "06"
+    },
+    {
+     "title": "Hiçbir son ödeme günü kaçmaz",
+     "text": "Kart ekstresi, kredi taksiti ve fatura günü yaklaşınca bildirim gelir; asgariyi kaçırıp gecikme faizine düşmezsin.",
+     "shot": "07"
+    },
+    {
+     "title": "Ay sonunu önceden gör",
+     "text": "Önümüzdeki 30 günün gelir ve ödemeleriyle bakiyenin nereye gideceğini Spendry hesaplar.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Borç kapatma rehberi",
+   "guide": [
+    {
+     "h": "Kar topu yöntemi nedir?",
+     "p": [
+      "Kar topu yönteminde borçları bakiyeye göre küçükten büyüğe sıralarsın. Bütün borçların asgarisini öder, artan parayı en küçük borca yatırırsın. O borç kapanınca onun taksitini de bir sonrakine eklersin; ödeme gücün her kapanan borçla büyür.",
+      "En büyük artısı hız hissidir: ilk borç birkaç ayda kapanır, bu da planı sürdürmeyi kolaylaştırır."
+     ]
+    },
+    {
+     "h": "Çığ yöntemi nedir?",
+     "p": [
+      "Çığ yönteminde borçları faiz oranına göre yüksekten düşüğe sıralarsın. Artan para önce en pahalı borca gider. Faizin en hızlı biriktiği borcu önce bitirdiğin için toplamda genellikle en az faizi bu yöntemle ödersin.",
+      "Eksisi şu: en yüksek faizli borç büyükse ilk kapanış uzun sürebilir."
+     ]
+    },
+    {
+     "h": "Hangisi sana uygun?",
+     "table": [
+      [
+       "",
+       "Kar topu",
+       "Çığ"
+      ],
+      [
+       "Önce kapanan",
+       "En küçük bakiye",
+       "En yüksek faiz"
+      ],
+      [
+       "Toplam faiz",
+       "Biraz daha fazla olabilir",
+       "Genellikle en az"
+      ],
+      [
+       "İlk kapanış",
+       "Hızlı",
+       "Daha uzun sürebilir"
+      ],
+      [
+       "Kimin için",
+       "Motivasyona ihtiyacı olan",
+       "Toplam maliyeti önemseyen"
+      ]
+     ],
+     "p": [
+      "Fark çoğu zaman küçüktür; asıl farkı bir planın olması yaratır. Yukarıdaki hesaplayıcı iki yöntemi senin rakamlarınla karşılaştırır ve hangisinin daha az faiz ödettiğini gösterir."
+     ]
+    },
+    {
+     "h": "Hesap nasıl yapılır? Bir örnek",
+     "p": [
+      "Her ay önce faiz işler: kalan borç aylık faiz oranıyla çarpılır. 45.000 TL kart borcuna aylık %3,75 faiz işlerse o ayın faizi 1.687,50 TL olur.",
+      "Sonra bütün borçların asgari ödemesi yapılır ve artan ek ödeme sıradaki borca gider. Bir borç kapandığında onun taksiti de sıradakine eklenir.",
+      "Hesaplayıcı bu adımları son borç kapanana kadar ay ay tekrarlar; borçsuz olacağın ay ve ödeyeceğin toplam faiz buradan çıkar."
+     ]
+    },
+    {
+     "h": "Asgari ödeme tuzağı",
+     "p": [
+      "Kredi kartında yalnızca asgari tutarı ödemek borcu kapatmaz: kalan tutara her ay faiz işler ve borç yıllarca sürebilir. Kart faizine vergiler de eklendiği için gerçek maliyet ilk bakışta görünenden yüksektir.",
+      "Asgari ödemenin üstüne küçük bir tutar eklemek bile borçsuz olacağın tarihi aylarca öne çeker. Yukarıdaki fazladan ödeme bölümünde bunu kendi rakamlarınla görebilirsin."
+     ]
+    },
+    {
+     "h": "Borçtan daha hızlı kurtulmanın yolları",
+     "list": [
+      "Yeni borç eklemeyi durdur: kartı yalnızca ay içinde kapatabileceğin harcamalarda kullan.",
+      "Asgarinin üstüne her ay sabit bir tutar koy ve bunu otomatik talimatla yap.",
+      "İkramiye, iade ve ek gelirleri doğrudan sıradaki borca yatır.",
+      "Yüksek faizli bir borcu daha düşük faizli bir krediyle kapatmanın toplam maliyetini hesapla.",
+      "Aboneliklerini gözden geçir; kullanmadıklarını iptal edip farkı borca aktar.",
+      "Son ödeme günlerini kaçırma: gecikme faizi ve ücretler planı geriye atar."
+     ]
+    }
+   ],
+   "faq_title": "Sık sorulanlar",
+   "faq": [
+    {
+     "q": "Kar topu mu çığ mı daha az faiz ödetir?",
+     "a": "Çoğu durumda çığ yöntemi, yani önce en yüksek faizli borcu kapatmak, toplamda en az faizi ödetir. Kar topu ise ilk borcu daha hızlı kapattığı için motive eder. Hesaplayıcı iki yöntemi senin rakamlarınla karşılaştırır."
+    },
+    {
+     "q": "Hangi borçları ekleyebilirim?",
+     "a": "Kredi kartı, ihtiyaç kredisi, taşıt kredisi, KMH, eğitim kredisi ya da arkadaşına ve ailene olan borçlar. Faizsiz bir borç için faiz oranına 0 yaz."
+    },
+    {
+     "q": "Aylık faiz oranımı nereden bulurum?",
+     "a": "Kart ekstrende, kredi sözleşmende ya da bankanın mobil uygulamasında akdi faiz veya aylık faiz oranı olarak yazar. Yalnızca yıllık oranı biliyorsan 12'ye bölerek yaklaşık aylık oranı bulabilirsin."
+    },
+    {
+     "q": "Hesaplama ne kadar kesin?",
+     "a": "Faiz oranlarının sabit kaldığı, her ay aynı ödemenin yapıldığı ve ek ücret olmadığı varsayılır. KKDF ve BSMV gibi vergiler dahil değildir. Sonucu kesin bir teklif değil, bir plan olarak kullan."
+    },
+    {
+     "q": "Girdiğim rakamlar bir yere gönderiliyor mu?",
+     "a": "Hayır. Hesap tamamen tarayıcında yapılır; girdiğin hiçbir rakam kaydedilmez ya da bir yere gönderilmez."
+    },
+    {
+     "q": "Spendry bu hesaplayıcıdan ne farklı yapar?",
+     "a": "Spendry gerçek bakiyelerinle çalışır, her ödemeden sonra planı günceller, son ödeme günlerinden önce hatırlatır ve borçsuz olacağın tarihi her an gösterir. Banka şifresi istemez ve verilerini toplamaz."
+    }
+   ],
+   "final_title": "Borçsuz olacağın günü cebinde taşı.",
+   "final_text": "Spendry'yi indir, borçlarını bir kez gir; plan her ay kendiliğinden güncellensin.",
+   "chart_none": "Ek ödeme olmadan"
+  }
  },
  "budget_tool": {
   "slug": "gelir-gider-tablosu",
@@ -328,7 +475,98 @@
     "Enflasyon döneminde bütçe",
     "Fiyatlar hızlı değiştiğinde yüzdelerle düşünmek rakamlarla düşünmekten kolaydır. 50/30/20 bir başlangıç noktası; kira ya da kredi taksiti gelirin yarısını geçiyorsa oranları kendine göre ayarla ve önce yüksek faizli borçları kapat."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ücretsiz · Üyelik yok · Hesap tarayıcında yapılır, hiçbir yere gönderilmez",
+   "app_title": "Spendry bütçeni her gün senin yerine tutar.",
+   "app_sub": "Tablo ve 50/30/20 kuralı iyi bir başlangıç. Spendry her harcamayı kategorisine ekler, bütçen dolarken haber verir ve ay sonunu önceden gösterir.",
+   "app_points": [
+    {
+     "title": "Her kategoriye bir bütçe",
+     "text": "Market, ulaşım, faturalar; her biri için aylık bir sınır koy, ne kadar kaldığını her an gör.",
+     "shot": "04"
+    },
+    {
+     "title": "Harcamayı saniyeler içinde ekle",
+     "text": "Tutarı yaz, kategoriyi seç, bitti. Bankadan gelen harcama SMS'leri de kendiliğinden eklenebilir.",
+     "shot": "02"
+    },
+    {
+     "title": "Ayın nereye gittiğini gör",
+     "text": "Haftalık ve aylık grafiklerle en çok neye harcadığını ve geçen aya göre farkı gör.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Bütçe rehberi",
+   "guide": [
+    {
+     "h": "50/30/20 kuralı nedir?",
+     "p": [
+      "Net gelirinin %50'si zorunlu giderlere (kira, faturalar, market, ulaşım), %30'u isteğe bağlı harcamalara (dışarıda yemek, eğlence, alışveriş), %20'si birikime ve borç ödemeye ayrılır.",
+      "Kural bir başlangıç noktasıdır. Kira tek başına gelirinin yarısını alıyorsa oranları kendi hayatına göre değiştir; yüksek faizli borcun varsa önce onu kapat."
+     ]
+    },
+    {
+     "h": "Gelir gider tablosu nasıl tutulur?",
+     "p": [
+      "Önce gelirini yaz: maaş, ek iş, kira geliri. Sonra kira, aidat, faturalar, kredi taksitleri ve abonelikler gibi sabit giderleri ay başında ayır.",
+      "Market, yemek ve ulaşım gibi değişken giderleri günü gününe ekle; ay sonuna bırakınca çoğu unutulur. Ay sonunda gelirden giderleri çıkar ve kalanı birikime yönlendir."
+     ]
+    },
+    {
+     "h": "Kredi kartını ekstre gününe göre düşün",
+     "p": [
+      "Kartla yapılan alışveriş bu ay değil, ekstrenin son ödeme gününde cebinden çıkar. Taksitli alışverişler de sonraki aylara yayılır.",
+      "Bütçeni planlarken kartın gelecek ekstrelerini de hesaba kat; yoksa ay sonunda sürprizle karşılaşırsın."
+     ]
+    },
+    {
+     "h": "Enflasyon döneminde bütçe",
+     "p": [
+      "Fiyatlar hızlı değiştiğinde yüzdelerle düşünmek rakamlarla düşünmekten kolaydır. Bütçeni her ay gözden geçir; fiyatı artan kalemlerde sınırı güncelle, birikim payını korumaya çalış."
+     ]
+    },
+    {
+     "h": "Bütçeyi tutturmanın yolları",
+     "list": [
+      "Maaş yatınca önce birikimi ayır, kalanı harca.",
+      "Sabit giderleri bir kez gir, her ay kendiliğinden tekrarlasın.",
+      "Küçük harcamaları da kaydet; ay sonunda en büyük farkı onlar yaratır.",
+      "Aboneliklerini yılda bir gözden geçir.",
+      "Ayın ortasında bütçene bak, gerekiyorsa ikinci yarıda kıs."
+     ]
+    }
+   ],
+   "faq_title": "Sık sorulanlar",
+   "faq": [
+    {
+     "q": "50/30/20 kuralı herkese uyar mı?",
+     "a": "Hayır, bir başlangıç noktasıdır. Kira ve faturalar gelirinin yarısından fazlasını alıyorsa oranları değiştir; önemli olan her ay birikime ve borca bir pay ayırmaktır."
+    },
+    {
+     "q": "Net gelir mi brüt gelir mi kullanmalıyım?",
+     "a": "Net geliri, yani eline geçen tutarı kullan. Vergiler ve kesintiler zaten düşülmüş olmalı."
+    },
+    {
+     "q": "Gelir gider tablosunu Excel'de açabilir miyim?",
+     "a": "Evet. İndirdiğin şablon CSV dosyasıdır; Excel, Numbers ve Google E-Tablolar ile açılır."
+    },
+    {
+     "q": "Kredi kartı harcamalarını nasıl yazmalıyım?",
+     "a": "Harcamayı yaptığın gün gider olarak yazabilirsin; nakit akışını planlarken ekstrenin son ödeme gününü de dikkate al. Taksitli alışverişleri taksit tutarı kadar her aya böl."
+    },
+    {
+     "q": "Girdiğim rakamlar kaydediliyor mu?",
+     "a": "Hayır. Hesap tamamen tarayıcında yapılır; girdiğin hiçbir rakam kaydedilmez ya da bir yere gönderilmez."
+    },
+    {
+     "q": "Spendry bütçemi nasıl takip eder?",
+     "a": "Her kategoriye aylık bir bütçe koyarsın; harcadıkça bütçe dolar, sınıra yaklaşınca haber verir. Kartların, taksitlerin ve aboneliklerin de aynı yerde olduğu için ay sonunu önceden görürsün. Banka şifresi istemez."
+    }
+   ],
+   "final_title": "Bütçeni cebinde taşı.",
+   "final_text": "Spendry'yi indir, gelirini ve sabit giderlerini bir kez gir; ay sonunu her gün önceden gör."
+  }
  },
  "loan_tool": {
   "slug": "kredi-hesaplama",
@@ -378,7 +616,92 @@
     "Vadeyi kısaltmak toplam faizi azaltır, aylık taksiti yükseltir. Ara ödeme kalan anaparayı düşürür. Birden fazla borcun varsa hangisini önce kapatacağını borç kapatma hesaplayıcısıyla karşılaştır."
    ]
   ],
-  "note": "Hesaplama bilgi amaçlıdır; bankanın sözleşmesindeki tutarlar esastır. Sigorta ve dosya masrafı dahil değildir."
+  "note": "Hesaplama bilgi amaçlıdır; bankanın sözleşmesindeki tutarlar esastır. Sigorta ve dosya masrafı dahil değildir.",
+  "landing": {
+   "trust": "Ücretsiz · Üyelik yok · Hesap tarayıcında yapılır, hiçbir yere gönderilmez",
+   "app_title": "Spendry kredini son taksite kadar takip eder.",
+   "app_sub": "Hesaplayıcı taksiti gösterir. Spendry kalan taksitleri, bitiş ayını ve her ödemeyi takip eder, taksit günü yaklaşınca hatırlatır.",
+   "app_points": [
+    {
+     "title": "Bütün kredilerin tek listede",
+     "text": "Taşıt, ihtiyaç ve konut kredilerinde kaç taksit kaldığını ve aylık ödemeni tek bakışta gör.",
+     "shot": "06"
+    },
+    {
+     "title": "Taksit gününden önce hatırlatma",
+     "text": "Her taksitten önce bildirim gelir; gecikme faizine yol açacak bir ödemeyi kaçırmazsın.",
+     "shot": "07"
+    },
+    {
+     "title": "Ay sonunu önceden gör",
+     "text": "Taksitlerin, kartların ve faturaların önümüzdeki 30 güne nasıl yansıyacağını Spendry hesaplar.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Kredi rehberi",
+   "guide": [
+    {
+     "h": "Kredi taksiti nasıl hesaplanır?",
+     "p": [
+      "Bankalar eşit taksitli kredilerde her ay aynı tutarı ister. Taksitin bir kısmı faize, bir kısmı anaparaya gider. İlk aylarda faiz payı büyüktür; borç azaldıkça anapara payı artar.",
+      "Hesaplayıcı her ayın faizini kalan anapara üzerinden hesaplar, vergileri ekler ve tablodaki ödeme planını çıkarır."
+     ]
+    },
+    {
+     "h": "KKDF ve BSMV nedir?",
+     "p": [
+      "İhtiyaç ve taşıt kredilerinde faiz tek başına ödenmez: her ayın faizinin %15'i kadar KKDF ve %15'i kadar BSMV eklenir. Bankanın ilan ettiği oranla gerçek maliyet arasındaki fark buradan gelir.",
+      "Konut kredilerinde bu vergiler uygulanmaz; hesaplayıcıda konut kredisini seçtiğinde vergiler sıfırlanır."
+     ]
+    },
+    {
+     "h": "Vade mi, taksit mi?",
+     "p": [
+      "Vadeyi uzatmak aylık taksiti düşürür ama toplam faizi artırır. Vadeyi kısaltmak taksiti yükseltir, toplam maliyeti düşürür.",
+      "Bütçene rahatça sığan en kısa vadeyi seçmek genellikle en ucuz yoldur."
+     ]
+    },
+    {
+     "h": "Toplam maliyeti düşürmenin yolları",
+     "list": [
+      "Teklifleri yalnızca aylık faize değil, yıllık maliyet oranına bakarak karşılaştır.",
+      "Bütçen elveriyorsa vadeyi kısalt.",
+      "Ara ödeme yap: kalan anapara düşer, sonraki aylarda daha az faiz işler.",
+      "Erken kapamanın masrafını bankana sor.",
+      "Taksit gününü kaçırma; gecikme faizi toplam maliyeti artırır."
+     ]
+    }
+   ],
+   "faq_title": "Sık sorulanlar",
+   "faq": [
+    {
+     "q": "Aylık taksit nasıl hesaplanır?",
+     "a": "Eşit taksitli kredide taksit; kredi tutarı, vergiler eklenmiş aylık faiz ve vade ile hesaplanır. Her ay faiz kalan anaparaya işler, taksitin geri kalanı anaparayı azaltır."
+    },
+    {
+     "q": "KKDF ve BSMV her kredide var mı?",
+     "a": "İhtiyaç ve taşıt kredilerinde faizin üzerine eklenir, konut kredilerinde uygulanmaz. Hesaplayıcı bunu kredi türüne göre ayarlar; istersen oranları değiştirebilirsin."
+    },
+    {
+     "q": "Yıllık maliyet oranı nedir?",
+     "a": "Faiz, vergiler ve masraflar dahil kredinin gerçek yıllık maliyetidir. Bankaların tekliflerini karşılaştırırken bu orana bak."
+    },
+    {
+     "q": "Ara ödeme yaparsam ne olur?",
+     "a": "Ara ödeme kalan anaparayı düşürür, böylece sonraki aylarda daha az faiz işler. Banka erken kapama için küçük bir ücret alabilir; tutarını bankana sor."
+    },
+    {
+     "q": "Girdiğim rakamlar kaydediliyor mu?",
+     "a": "Hayır. Hesap tamamen tarayıcında yapılır; girdiğin hiçbir rakam kaydedilmez ya da bir yere gönderilmez."
+    },
+    {
+     "q": "Spendry kredimi nasıl takip eder?",
+     "a": "Krediyi bir kez eklersin; Spendry kalan taksitleri, bitiş ayını ve aylık ödemeni gösterir, her taksitten önce hatırlatır. Banka şifresi istemez."
+    }
+   ],
+   "final_title": "Son taksite kadar planın hazır.",
+   "final_text": "Spendry'yi indir, kredini ekle; kalan taksitleri ve ödeme günlerini senin yerine takip etsin."
+  }
  },
  "not_found": {
   "title": "Bu sayfa bugün izinli.",
@@ -952,7 +1275,92 @@
     "Planı gerçeğe dönüştür",
     "Spendry planı sürdürür: kartlarını ekle, her ay ne kadar ödeyebileceğini belirle ve her son ödeme tarihinden önce hatırlatma al."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ücretsiz · Üyelik yok · Hesap tarayıcında yapılır, hiçbir yere gönderilmez",
+   "app_title": "Spendry kart borcunu her ay senin yerine izler.",
+   "app_sub": "Hesaplayıcı tek bir kartın tek bir planını gösterir. Spendry bütün kartlarını, ekstre ve son ödeme günlerini takip eder, ödeme yaklaşınca hatırlatır.",
+   "app_points": [
+    {
+     "title": "Bütün kartların tek listede",
+     "text": "Her kartın ekstre borcu, son ödeme günü ve kaç gün kaldığı tek bakışta.",
+     "shot": "06"
+    },
+    {
+     "title": "Son ödeme gününden önce hatırlatma",
+     "text": "Ekstre kesilince ve son ödeme günü yaklaşınca bildirim gelir; asgariyi kaçırıp gecikme faizine düşmezsin.",
+     "shot": "07"
+    },
+    {
+     "title": "Harcamanın nereye gittiğini gör",
+     "text": "Kartla yaptığın harcamaları kategoriye göre gör, nerede kısabileceğini bul.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Kredi kartı borcu rehberi",
+   "guide": [
+    {
+     "h": "Kredi kartı borcu nasıl hesaplanır?",
+     "p": [
+      "Kart borcuna her ay, kalan tutar üzerinden akdi faiz işler. Ödemen önce faizi, sonra anaparayı kapatır. Hesaplayıcı bu döngüyü borç bitene kadar ay ay tekrarlar.",
+      "Örnek: 30.000 TL borca aylık %3,75 faiz işlerse ilk ayın faizi 1.125 TL olur. 3.000 TL ödersen borç 28.125 TL'ye iner; sonraki ayın faizi bu yeni tutardan hesaplanır."
+     ]
+    },
+    {
+     "h": "Asgari ödeme neden borcu bitirmez?",
+     "p": [
+      "Asgari ödeme, borcun bir yüzdesi olarak hesaplanır. Borç azaldıkça asgari tutar da azalır; ödemenin büyük kısmı faize gider ve borç yıllarca sürebilir.",
+      "Her ay sabit bir tutar ödemek bu döngüyü kırar: aynı para her ay borcu küçültmeye devam eder. Hesaplayıcıdaki karşılaştırma bu farkı senin rakamlarınla gösterir."
+     ]
+    },
+    {
+     "h": "Ekstre kesim tarihi ve son ödeme tarihi",
+     "p": [
+      "Ekstre kesim tarihi, o döneme ait harcamaların toplandığı gündür. Son ödeme tarihi ise bu ekstreyi faizsiz kapatabileceğin son gündür; genellikle kesimden on gün sonra gelir.",
+      "Son ödeme tarihine kadar ekstre borcunun tamamını ödersen faiz işlemez. Bir kısmını ödersen kalan tutara faiz işler."
+     ]
+    },
+    {
+     "h": "Kart borcunu daha hızlı kapatmanın yolları",
+     "list": [
+      "Asgariyi değil, her ay sabit ve gücünün yettiği en yüksek tutarı öde.",
+      "Borcu kapatırken kartı yeni harcamalar için kullanmayı bir süre bırak.",
+      "Birden fazla kartın varsa fazlasını önce en yüksek faizli karta yatır.",
+      "Kart borcunu daha düşük faizli bir ihtiyaç kredisiyle kapatmanın toplam maliyetini hesapla.",
+      "Son ödeme gününü kaçırma; gecikme faizi akdi faizden yüksektir."
+     ]
+    }
+   ],
+   "faq_title": "Sık sorulanlar",
+   "faq": [
+    {
+     "q": "Sadece asgari ödersem borcum ne zaman biter?",
+     "a": "Bu; borcuna, faiz oranına ve asgari ödeme oranına bağlıdır ve çoğu zaman yıllar sürer. Hesaplayıcı yalnızca asgari ödemeyle borcun ne zaman biteceğini ve toplamda ne kadar faiz ödeyeceğini gösterir."
+    },
+    {
+     "q": "Akdi faiz nedir?",
+     "a": "Kart borcunun son ödeme tarihinden sonra kalan kısmına uygulanan aylık faizdir. Oranlar Merkez Bankası'nın belirlediği üst sınırları aşamaz; güncel oranı ekstrende ya da bankanın uygulamasında görebilirsin."
+    },
+    {
+     "q": "Asgari ödeme oranı nedir?",
+     "a": "Ekstre borcunun her ay en az ödenmesi gereken yüzdesidir ve kart limitine göre değişir. Kendi kartının oranı ekstrende yazar; hesaplayıcıda bu oranı değiştirebilirsin."
+    },
+    {
+     "q": "Hesaplama vergileri içeriyor mu?",
+     "a": "Hayır. Kart faizine eklenen KKDF ve BSMV hesaplamaya dahil değildir; gerçek maliyet biraz daha yüksek olabilir."
+    },
+    {
+     "q": "Girdiğim rakamlar kaydediliyor mu?",
+     "a": "Hayır. Hesap tamamen tarayıcında yapılır; girdiğin hiçbir rakam kaydedilmez ya da bir yere gönderilmez."
+    },
+    {
+     "q": "Spendry kart borcumu nasıl takip eder?",
+     "a": "Kartlarını eklersin; Spendry ekstre ve son ödeme günlerini izler, ödeme yaklaşınca hatırlatır, ödemelerini kaydettikçe kalan borcu ve borçsuz olacağın tarihi günceller. Banka şifresi istemez."
+    }
+   ],
+   "final_title": "Kart borcunu bir plana bağla.",
+   "final_text": "Spendry'yi indir, kartlarını ekle; ekstre ve son ödeme günlerini senin yerine takip etsin."
+  }
  },
  "savings_tool": {
   "slug": "birikim-hesaplama",
@@ -982,7 +1390,87 @@
     "İlerlemeni takip et",
     "Hedefi Spendry'de oluştur ve her eklediğinde ne kadar yaklaştığını gör."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ücretsiz · Üyelik yok · Hesap tarayıcında yapılır, hiçbir yere gönderilmez",
+   "app_title": "Spendry hedefine her adımda ne kadar yaklaştığını gösterir.",
+   "app_sub": "Hesaplayıcı aylık tutarı söyler. Spendry hedefini tutar, her eklediğinde ilerlemeni gösterir ve kalan süreyi hesaplar.",
+   "app_points": [
+    {
+     "title": "Bütün hedeflerin tek ekranda",
+     "text": "Acil durum fonu, tatil, araba; her hedefin ne kadar dolduğunu ve kaç gün kaldığını gör.",
+     "shot": "05"
+    },
+    {
+     "title": "Ay sonunu önceden gör",
+     "text": "Gelirlerin ve ödemelerin ışığında bu ay ne kadar biriktirebileceğini önceden bil.",
+     "shot": "01"
+    },
+    {
+     "title": "Birikimin büyüsün",
+     "text": "Altın, döviz, hisse ve fonlarını güncel fiyatlarıyla takip et.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Birikim rehberi",
+   "guide": [
+    {
+     "h": "Ayda ne kadar biriktirmeliyim?",
+     "p": [
+      "Hedefinden elindeki parayı çıkar, kalan tutarı hedefe kadar olan ay sayısına böl. Hesaplayıcı bunu yapar; bir getiri oranı girersen biriktirdiğin paranın kazandığı getiriyi de hesaba katar.",
+      "Örnek: 60.000 TL'lik bir hedef için elinde 10.000 TL varsa ve 10 ayın varsa, getiri olmadan ayda 5.000 TL koyman gerekir."
+     ]
+    },
+    {
+     "h": "Getiri neden fark yaratır?",
+     "p": [
+      "Biriktirdiğin para bir mevduat hesabında ya da fonda getiri kazanırsa, aynı hedefe ulaşmak için her ay daha az koyman gerekir. Süre uzadıkça bu etki büyür.",
+      "Enflasyonun yüksek olduğu dönemlerde parayı getirisiz bir hesapta bekletmek, hedefin gerçek değerini eritebilir."
+     ]
+    },
+    {
+     "h": "Önce acil durum fonu",
+     "p": [
+      "Büyük hedeflerden önce birkaç aylık zorunlu giderini karşılayacak bir acil durum fonu oluşturmak, beklenmedik bir harcamada borçlanmanın önüne geçer."
+     ]
+    },
+    {
+     "h": "Birikimi kolaylaştırmanın yolları",
+     "list": [
+      "Maaş yatar yatmaz birikimi ayır, bir fatura gibi düşün.",
+      "Otomatik talimat kur; her ay karar vermek zorunda kalma.",
+      "Ek gelirleri ve ikramiyeleri doğrudan hedefe aktar.",
+      "Hedefi eşinle ya da ailenle paylaş; birlikte daha hızlı ilerlersiniz.",
+      "İlerlemeni görünür kıl; her eklediğin para motivasyonu artırır."
+     ]
+    }
+   ],
+   "faq_title": "Sık sorulanlar",
+   "faq": [
+    {
+     "q": "Getiri oranı olarak ne yazmalıyım?",
+     "a": "Paranı tuttuğun hesabın ya da fonun beklenen yıllık getirisini yaz. Emin değilsen 0 ile hesapla; böylece en temkinli tutarı görürsün."
+    },
+    {
+     "q": "Hedefe daha erken ulaşmak için ne yapabilirim?",
+     "a": "Aylık tutarı artırabilir, ek gelirleri hedefe aktarabilir ya da getiri sağlayan bir hesap seçebilirsin. Hesaplayıcıda süreyi kısaltınca gereken aylık tutarın nasıl değiştiğini görürsün."
+    },
+    {
+     "q": "Acil durum fonu ne kadar olmalı?",
+     "a": "Genellikle üç ile altı aylık zorunlu gider önerilir. Gelirin ne kadar düzenliyse o kadar az, düzensizse o kadar fazla tutmak mantıklıdır."
+    },
+    {
+     "q": "Girdiğim rakamlar kaydediliyor mu?",
+     "a": "Hayır. Hesap tamamen tarayıcında yapılır; girdiğin hiçbir rakam kaydedilmez ya da bir yere gönderilmez."
+    },
+    {
+     "q": "Spendry hedeflerimi nasıl takip eder?",
+     "a": "Hedefini oluşturursun, her para eklediğinde ilerlemeni görürsün. Spendry kalan tutarı ve süreyi gösterir; istersen hedefi ailenle paylaşabilirsin. Banka şifresi istemez."
+    }
+   ],
+   "final_title": "Hedefine bir adım daha yaklaş.",
+   "final_text": "Spendry'yi indir, hedefini oluştur; her eklediğinde ne kadar yaklaştığını gör."
+  }
  },
  "subs_tool": {
   "slug": "abonelik-maliyeti-hesaplama",
@@ -1021,6 +1509,86 @@
     "Hiçbir yenilemeyi kaçırma",
     "Spendry aboneliklerini takip eder, aylık toplamına ekler ve her yenilemeden önce hatırlatır."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ücretsiz · Üyelik yok · Hesap tarayıcında yapılır, hiçbir yere gönderilmez",
+   "app_title": "Spendry hiçbir yenilemeyi kaçırmamanı sağlar.",
+   "app_sub": "Hesaplayıcı toplamı gösterir. Spendry aboneliklerini takip eder, aylık toplamına ekler ve her yenilemeden önce hatırlatır.",
+   "app_points": [
+    {
+     "title": "Her yenilemeden önce hatırlatma",
+     "text": "Müzik, dizi, bulut depolama ya da spor salonu; yenileme günü yaklaşınca bildirim gelir, istemediğin bir ödeme cebinden çıkmaz.",
+     "shot": "07"
+    },
+    {
+     "title": "Aboneliklerin yılda kaça mal oluyor, sor",
+     "text": "Asistana sor; cevap iPhone'unda hesaplanır, verilerin hiçbir yere gitmez.",
+     "shot": "09"
+    },
+    {
+     "title": "Ay sonunu önceden gör",
+     "text": "Aboneliklerin, kartların ve faturaların önümüzdeki 30 güne etkisini gör.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Abonelik rehberi",
+   "guide": [
+    {
+     "h": "Aboneliklerin gerçek maliyeti nasıl hesaplanır?",
+     "p": [
+      "Her aboneliği aylığa çevir: yıllık ücreti 12'ye böl, haftalık ücreti 52 ile çarpıp 12'ye böl. Sonra hepsini topla. Hesaplayıcı bunu yapar; aylık, yıllık ve beş yıllık toplamı gösterir.",
+      "Küçük bir aylık ücret zararsız görünür. On iki ayla ve sahip olduğun her abonelikle çarpınca çoğu zaman en büyük düzenli giderlerinden biri çıkar."
+     ]
+    },
+    {
+     "h": "Hangi aboneliği iptal etmeli?",
+     "p": [
+      "Fiyata göre sırala ve her biri için sor: geçen ay kullandım mı? Kullanmadıklarını iptal et, tuttukların için yenilemeden önce hatırlatma kur.",
+      "Aynı işi gören birden fazla aboneliğin varsa birini bırak; aile ya da öğrenci planlarına geçmek de toplamı düşürebilir."
+     ]
+    },
+    {
+     "h": "Ücretsiz denemelere dikkat",
+     "p": [
+      "Deneme süresi bitince abonelik kendiliğinden ücretli hale gelir. Denemeyi başlattığın gün bitiş tarihini not al ya da bir hatırlatma kur."
+     ]
+    },
+    {
+     "h": "Abonelik giderini düşürmenin yolları",
+     "list": [
+      "Yılda bir bütün aboneliklerini gözden geçir.",
+      "Yıl boyunca kullanacaklarını yıllık plana geçir; genellikle daha ucuzdur.",
+      "Aile planlarını paylaş.",
+      "Kullanmadığın aylarda iptal et, ihtiyaç olunca yeniden başlat.",
+      "Her yenilemeden önce hatırlatma kur."
+     ]
+    }
+   ],
+   "faq_title": "Sık sorulanlar",
+   "faq": [
+    {
+     "q": "Aboneliklerim bana yılda kaça mal oluyor?",
+     "a": "Her aboneliği aylığa çevirip topla, sonra 12 ile çarp. Hesaplayıcı bunu otomatik yapar ve beş yıllık toplamı da gösterir."
+    },
+    {
+     "q": "Haftalık ve yıllık abonelikleri nasıl girerim?",
+     "a": "Her satırda dönemi seç: haftalık, aylık ya da yıllık. Hesaplayıcı hepsini aynı birime çevirir."
+    },
+    {
+     "q": "Yıllık plana geçmek mantıklı mı?",
+     "a": "Bir aboneliği yıl boyunca kullanacaksan yıllık plan genellikle daha ucuzdur. Emin değilsen önce birkaç ay aylık kullan."
+    },
+    {
+     "q": "Girdiğim rakamlar kaydediliyor mu?",
+     "a": "Hayır. Hesap tamamen tarayıcında yapılır; girdiğin hiçbir rakam kaydedilmez ya da bir yere gönderilmez."
+    },
+    {
+     "q": "Spendry aboneliklerimi nasıl takip eder?",
+     "a": "Aboneliklerini bir kez eklersin; Spendry aylık toplamına ekler, her yenilemeden önce hatırlatır ve yıllık maliyeti gösterir. Banka şifresi istemez."
+    }
+   ],
+   "final_title": "Her yenilemeyi önceden bil.",
+   "final_text": "Spendry'yi indir, aboneliklerini ekle; her yenilemeden önce haber versin."
+  }
  }
 }

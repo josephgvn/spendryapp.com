@@ -78,7 +78,124 @@
       card(outA, a, L.avalanche, aBetter, s, names);
       same.hidden = aBetter || sBetter || s.stuck;
       same.textContent = L.same;
+      if (landing) landing(debts, extra, s, a, sBetter ? "snowball" : "avalanche");
     }
+
+    // ---- the full calculator page: the result drawn month by month, what more each month changes, the plan as a table
+    const pchart = q("[data-pchart]"), xpBox = q("[data-xp]"), sched = q("[data-sched]");
+    const dir = d.documentElement.dir === "rtl" ? -1 : 1;
+    const detail = (debts, extra, method) => {
+      const ds = debts.map((x) => ({ bal: x.bal, rate: x.r, min: x.min }));
+      const order = ds.slice().sort(method === "snowball" ? (a, b) => a.bal - b.bal || b.rate - a.rate : (a, b) => b.rate - a.rate || a.bal - b.bal);
+      const budget = ds.reduce((t, x) => t + x.min, 0) + extra;
+      const rows = [];
+      let m = 0;
+      while (ds.some((x) => x.bal > 0.005) && m < 600) {
+        m++;
+        let interest = 0, paid = 0, pool = budget;
+        ds.forEach((x) => { if (x.bal > 0) { const i = x.bal * x.rate; x.bal += i; interest += i; } });
+        ds.forEach((x) => { if (x.bal > 0) { const p = Math.min(x.min, x.bal, pool); x.bal -= p; pool -= p; paid += p; } });
+        order.forEach((x) => { if (x.bal > 0 && pool > 0) { const p = Math.min(pool, x.bal); x.bal -= p; pool -= p; paid += p; } });
+        ds.forEach((x) => { if (x.bal <= 0.005) x.bal = 0; });
+        rows.push({ m, paid, interest, bal: ds.reduce((t, x) => t + x.bal, 0) });
+      }
+      return rows;
+    };
+    let state = null, schedMethod = null, schedAll = false;
+    const chart = (s, a, z) => {
+      const svg = q("svg", pchart), yEl = q(".pc-y", pchart), xEl = q(".pc-x", pchart), marks = q(".pc-marks", pchart);
+      if (s.stuck || a.stuck) { svg.innerHTML = yEl.innerHTML = xEl.innerHTML = marks.innerHTML = ""; return; }
+      const W = 1000, H = 300, months = Math.max(s.months, a.months, z.stuck ? 0 : z.months, 1), top = Math.max(s.totals[0], a.totals[0], 1);
+      const X = (m) => (m / months) * W, Y = (v) => H - (v / top) * (H - 6);
+      const line = (t) => t.map((v, m) => `${m ? "L" : "M"}${X(m).toFixed(1)},${Y(v).toFixed(1)}`).join("");
+      svg.innerHTML = `<path class="pc-wash" d="${line(a.totals)}L${X(a.totals.length - 1).toFixed(1)},${H}L0,${H}Z"/>` +
+        [.25, .5, .75].map((f) => `<line class="pc-grid" x1="0" x2="${W}" y1="${Y(top * f).toFixed(1)}" y2="${Y(top * f).toFixed(1)}"/>`).join("") +
+        (z.stuck ? "" : `<path class="pc-z" d="${line(z.totals)}"/>`) + `<path class="pc-s" d="${line(s.totals)}"/><path class="pc-a" d="${line(a.totals)}"/>`;
+      yEl.innerHTML = [1, .5].map((f) => `<span style="top:${(Y(top * f) / H * 100).toFixed(2)}%">${esc(F.money(top * f))}</span>`).join("");
+      const narrow = pchart.clientWidth < 560;
+      const ticks = months <= 6 ? [0, months] : narrow ? [0, Math.round(months / 2), months] : [0, Math.round(months / 3), Math.round((2 * months) / 3), months];
+      xEl.innerHTML = ticks.map((m) => `<span style="--x:${(m / months * 100).toFixed(2)}%">${esc(F.monthYear(m))}</span>`).join("");
+      const dot = (res, cls) => res.paid.filter((p) => p.month).map((p) =>
+        `<i class="${cls}" style="--x:${(X(p.month) / W * 100).toFixed(2)}%;--y:${(Y(res.totals[p.month] || 0) / H * 100).toFixed(2)}%"></i>`).join("");
+      marks.innerHTML = dot(s, "m-s") + dot(a, "m-a");
+      pchart.dataset.months = months;
+    };
+    if (pchart) {
+      const tip = q(".pc-tip", pchart);
+      const show = (ev) => {
+        if (!state || state.s.stuck || state.a.stuck) return;
+        const r = pchart.getBoundingClientRect(), months = Number(pchart.dataset.months || 1);
+        const f = Math.min(1, Math.max(0, (ev.clientX - r.left) / r.width));
+        const m = Math.round(f * months), at = (t) => t[Math.min(m, t.length - 1)] || 0;
+        tip.hidden = false;
+        tip.style.setProperty("--x", `${(m / months) * 100}%`);
+        tip.innerHTML = `<b>${esc(F.monthYear(m))}</b><span class="t-a">${esc(L.avalanche)} ${esc(F.money(at(state.a.totals)))}</span>` +
+          `<span class="t-s">${esc(L.snowball)} ${esc(F.money(at(state.s.totals)))}</span>` +
+          (state.z.stuck ? "" : `<span class="t-z">${esc(pchart.dataset.none)} ${esc(F.money(at(state.z.totals)))}</span>`);
+      };
+      pchart.addEventListener("pointermove", show);
+      pchart.addEventListener("pointerdown", show);
+      pchart.addEventListener("pointerleave", () => { tip.hidden = true; });
+    }
+    const extraPart = (debts, extra) => {
+      const cfg = JSON.parse(xpBox.dataset.xp), X = cfg.labels, o = (k) => q(`[data-xo="${k}"]`, xpBox);
+      const range = q("[data-xp-range]", xpBox);
+      if (!range.dataset.ready) {
+        range.max = Math.max(cfg.step * 10, Math.ceil((extra * 4) / cfg.step) * cfg.step);
+        range.dataset.ready = "1";
+        range.addEventListener("input", () => {
+          const box = q("[data-extra]", payoff);
+          box.value = range.value;
+          run();
+        });
+      }
+      if (d.activeElement !== range) range.value = String(extra);
+      range.style.setProperty("--p", `${Math.min(100, (Number(range.value) / Number(range.max)) * 100)}%`);
+      const base = simulate(debts, 0, "avalanche"), now = simulate(debts, extra, "avalanche");
+      o("extra").textContent = F.money(extra);
+      if (base.stuck && now.stuck) { o("say").textContent = L.stuck; o("month").textContent = o("sooner").textContent = o("saved").textContent = ""; }
+      else {
+        const sooner = base.stuck ? 0 : Math.max(0, base.months - now.months), saved = base.stuck ? 0 : Math.max(0, base.interest - now.interest);
+        o("month").textContent = now.stuck ? "" : F.monthYear(now.months);
+        o("sooner").textContent = F.duration(sooner);
+        o("saved").textContent = F.money(saved);
+        o("say").textContent = extra > 0 && !base.stuck
+          ? X.say.replace("{extra}", F.money(extra)).replace("{months}", F.duration(sooner)).replace("{interest}", F.money(saved))
+          : X.zero.replace("{months}", F.duration(base.months));
+      }
+      const unit = Math.max(cfg.step, Number(range.max) / 4);
+      const steps = [0, 1, 2, 3, 4].map((k) => Math.round((k * unit) / cfg.step) * cfg.step);
+      const runs = steps.map((v) => ({ v, r: simulate(debts, v, "avalanche") })).filter((x) => !x.r.stuck);
+      const most = Math.max(1, ...runs.map((x) => x.r.months));
+      const near = runs.reduce((b, x) => (Math.abs(x.v - extra) < Math.abs(b.v - extra) ? x : b), runs[0] || { v: -1 });
+      o("bars").innerHTML = runs.map((x) => `<li class="${x === near ? "on" : ""}" style="--h:${((x.r.months / most) * 100).toFixed(1)}%">` +
+        `<div><b>${esc(F.duration(x.r.months))}</b><i></i></div><span>${esc(x.v ? "+" + F.money(x.v) : X.none)}</span></li>`).join("");
+    };
+    const table = () => {
+      const cfg = JSON.parse(sched.dataset.sched), rows = detail(state.debts, state.extra, schedMethod);
+      const tb = q("[data-rows]", sched), more = q("[data-more]", sched);
+      tb.innerHTML = (schedAll ? rows : rows.slice(0, 12)).map((r) => `<tr><td>${esc(F.monthYear(r.m))}</td><td>${esc(moneyD.format(r.paid))}</td>` +
+        `<td>${esc(moneyD.format(r.interest))}</td><td>${esc(moneyD.format(r.bal))}</td></tr>`).join("");
+      more.hidden = rows.length <= 12;
+      more.textContent = schedAll ? cfg.show_less : cfg.show_all;
+    };
+    const setSched = (m) => {
+      schedMethod = m;
+      const btns = qa("[data-sm]", sched), thumb = q(".seg-thumb", sched);
+      btns.forEach((b, i) => { const on = b.dataset.sm === m; b.setAttribute("aria-checked", String(on)); if (on) thumb.style.transform = `translateX(${dir * i * 100}%)`; });
+      table();
+    };
+    if (sched) {
+      qa("[data-sm]", sched).forEach((b) => b.addEventListener("click", () => setSched(b.dataset.sm)));
+      q("[data-more]", sched).addEventListener("click", () => { schedAll = !schedAll; table(); });
+    }
+    const landing = (pchart || xpBox || sched) ? (debts, extra, s, a, best) => {
+      const z = simulate(debts, 0, "avalanche");
+      state = { debts, extra, s, a, z };
+      if (pchart) chart(s, a, z);
+      if (xpBox) extraPart(debts, extra);
+      if (sched) { if (!schedMethod) setSched(best); else table(); }
+    } : null;
     run();
   }
 
