@@ -1553,5 +1553,835 @@
    "final_title": "Tiedä jokainen tuleva veloitus ennalta.",
    "final_text": "Lataa Spendry, lisää tilauksesi ja saa ilmoitus hyvissä ajoin ennen jokaista uusintaa."
   }
- }
+ },
+ "app_labels": {
+  "free": "Ilmainen App Storessa. Valinnainen Premium sisältää ilmaisen viikon.",
+  "more": "Mitä muuta Spendry tekee",
+  "cta": "Lataa Spendry ja näe koko kuukautesi yhdessä paikassa.",
+  "tools_title": "Ilmaiset laskurit",
+  "guides_title": "Oppaat"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "Budjettisovellus",
+   "screen": "04",
+   "footer": true,
+   "title": "Budjettisovellus iPhoneen: Spendry ilman pankkiyhteyttä",
+   "description": "Spendry on budjettisovellus iPhoneen ja iPadiin: menojen seuranta, kortit, lainat ja laskut yhdessä paikassa sekä muistutukset ennen eräpäiviä.",
+   "h1": "Budjettisovellus, joka tietää myös tulevat menot",
+   "lead": "Spendry antaa jokaiselle kategorialle rajan, varoittaa ennen budjetin ylittymistä ja näyttää kuukauden tulevat laskut ja maksut. Ilman pankkitunnuksia.",
+   "points": [
+    {
+     "h": "Budjetit, jotka pysyvät vauhdissasi",
+     "p": "Aseta kuukausiraja ruokaostoksille, ulkona syömiselle tai mille tahansa menolle. Jokainen kulu kerryttää budjettia, ja Spendry varoittaa ajoissa ennen rajan ylittymistä."
+    },
+    {
+     "h": "Loppukuun menot ennakkoon",
+     "p": "Luottokorttilaskut, lainanlyhennykset, laskut ja tilaukset näkyvät saldosi vieressä ennen palkkapäivää, joten tiedät todellisen käyttövarasi."
+    },
+    {
+     "h": "Lisää meno sekunneissa",
+     "p": "Kirjaa summa ja valitse kategoria, skannaa kuitti, käytä widgetiä tai anna Pikakomennot-automaation kirjata Apple Pay -ostokset puolestasi."
+    },
+    {
+     "h": "Näe mihin rahat menevät",
+     "p": "Viikko- ja kuukausikaaviot kategorioittain ja päivittäin näyttävät, mitkä budjetit ylittyvät ja miten kuluva kuukausi vertautuu edelliseen."
+    }
+   ],
+   "steps_title": "Miten aloittaa budjetointi Spendryssä",
+   "steps": [
+    "Lisää tulosi sekä tilit tai kortit, joilta maksat.",
+    "Luo budjetit tärkeimmille kategorioillesi ja aseta niille rajat.",
+    "Kirjaa menot heti kun maksat, tai ota käyttöön Apple Pay -automaatio.",
+    "Tarkista kuukauden lopussa kaaviot ja säädä seuraavan kuukauden rajat."
+   ],
+   "why_title": "Miksi valita Spendry",
+   "why": [
+    "Ei pankkitunnuksia: sinä päätät mitä kirjaat, eikä sovellus yhdistä pankkiisi.",
+    "Tietosi pysyvät iPhonessasi ja omassa iCloudissasi, mitään tietoja ei kerätä.",
+    "Velat, kortit ja osamaksut ovat budjettisi rinnalla, eivät eri sovelluksessa.",
+    "Ilmainen ladata, valinnainen Premium saatavilla."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Onko Spendry ilmainen budjettisovellus?",
+     "a": "Kyllä. Budjetit, menot, muistutukset ja perusominaisuudet ovat ilmaisia. Premium on valinnainen: kuukausi- tai vuositilaus ilmaisella viikolla, tai kertaostos eliniäksi."
+    },
+    {
+     "q": "Tarvitseeko Spendry pääsyn pankkitililleni?",
+     "a": "Ei. Sovellus ei koskaan kysy pankkitunnuksia. Lisäät menot itse, tuot ne pankin viesteistä tai annat Pikakomennot-automaation kirjata Apple Pay -ostokset."
+    },
+    {
+     "q": "Voinko jakaa budjetin kumppanini kanssa?",
+     "a": "Kyllä. Jaetut budjetit ja tavoitteet synkronoituvat iCloudin kautta, ja kumpikin käyttää omaa Apple-tiliään."
+    },
+    {
+     "q": "Millä laitteilla se toimii?",
+     "a": "iPhone ja iPad, joissa on iOS 17 tai uudempi. Mac-versio on saatavilla Mac App Storesta."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Budjettisovellus ilman pankkiyhteyttä",
+   "screen": "02",
+   "footer": true,
+   "title": "Budjettisovellus ilman pankkitunnuksia: Spendry",
+   "description": "Budjettisovellus ilman pankkitunnuksia: kirjaa menot itse, tuo ne viesteistä tai käytä Pikakomentoja Apple Paylle. Tietosi pysyvät iPhonessa.",
+   "h1": "Budjettisovellus, joka ei koskaan kysy pankkitunnuksiasi",
+   "lead": "Monet budjettisovellukset vaativat pankkitunnuksesi. Spendry ei yhdistä pankkiisi lainkaan: sinä päätät mitä kirjaat, ja tiedot pysyvät iPhonessasi ja omassa iCloudissasi.",
+   "points": [
+    {
+     "h": "Mikään ei yhdistä pankkiisi",
+     "p": "Ei pankkitunnuksia, ei välikäsiä eikä käyttäjätilin luontia. Spendry toimii samalla tavalla jokaisessa maassa, kaikilla pankeilla, korteilla ja valuutoilla."
+    },
+    {
+     "h": "Menojen lisääminen käy nopeasti",
+     "p": "Syötä summa, skannaa kuitti, lisää koti-valikon widgetistä tai pyydä Siriä. Voit myös muuntaa pankkisi tekstiviestit kirjauksiksi."
+    },
+    {
+     "h": "Apple Pay -ostokset kirjautuvat automaattisesti",
+     "p": "Ota käyttöön valmis Pikakomennot-automaatio, niin jokainen Apple Pay -ostos siirtyy Spendryyn summineen."
+    },
+    {
+     "h": "Tietoja ei kerätä",
+     "p": "Ei mainoksia, ei analytiikkaa, ei seurantaa. App Storen tietosuojamerkintä vahvistaa, että tietoja ei kerätä. Voit lukita sovelluksen Face ID:llä."
+    }
+   ],
+   "steps_title": "Miten se toimii ilman pankkiyhteyttä",
+   "steps": [
+    "Lisää korttisi, lainasi ja tilisi niiden nykyisillä saldoilla.",
+    "Kirjaa menot heti tai tuo ne pankin ilmoituksista.",
+    "Ota Apple Pay -automaatio käyttöön Pikakomennot-sovelluksessa.",
+    "Tarkastele saldoasi ja budjettejasi; muistutukset ilmoittavat tulevista eräpäivistä."
+   ],
+   "why_title": "Miksi jättää pankkiyhteys väliin",
+   "why": [
+    "Pankkitunnuksesi eivät koskaan päädy muiden käsiin.",
+    "Yhteydet eivät katkea eivätkä tilitapahtumat katoa pankin järjestelmämuutoksissa.",
+    "Toimii minkä tahansa pankin kanssa, myös niiden, joita budjettisovellukset eivät tue.",
+    "Menon manuaalinen kirjaaminen tekee kulutuksesta tiedostetumpaa."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Miksi Spendry ei yhdistä pankkiini?",
+     "a": "Jotta pankkitunnuksesi ja maksusi eivät koskaan kulkisi vieraiden palvelimien kautta. Tietosi pysyvät omassa iPhonessasi ja iCloudissasi."
+    },
+    {
+     "q": "Eikö menojen manuaalinen kirjaaminen ole hidasta?",
+     "a": "Se vie vain muutaman sekunnin. Voit myös käyttää Apple Pay -automaatiota Pikakomennoilla, widgetiä, Siriä tai pankin ilmoituksia."
+    },
+    {
+     "q": "Voiko Spendry lukea pankkini tekstiviestejä?",
+     "a": "Ei automaattisesti. Voit liittää tai jakaa pankin ilmoituksen Spendryyn, joka muuntaa sen kirjaukseksi."
+    },
+    {
+     "q": "Ovatko tietoni turvassa?",
+     "a": "Spendry ei kerää mitään tietoja. Kirjauksesi säilyvät laitteellasi ja synkronoituvat omassa iCloudissasi. Voit suojata sovelluksen Face ID:llä."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "Velkojen takaisinmaksusovellus",
+   "screen": "06",
+   "footer": true,
+   "title": "Velanmaksusuunnitelma ja velattomuuspäiväsi: Spendry",
+   "description": "Spendry kokoaa kortit, lainat ja osamaksut yhteen suunnitelmaan lumipallo- tai lumivyörymenetelmällä ja laskee tarkan velattomuuspäiväsi.",
+   "h1": "Velkojen maksusuunnitelma, joka näyttää velattomuuspäiväsi",
+   "lead": "Lisää velat kerran. Spendry järjestää ne lumipallo- tai lumivyörymenetelmällä, huomioi ylimääräiset lyhennykset ja näyttää kuukauden, jolloin olet täysin velaton.",
+   "points": [
+    {
+     "h": "Kaikki velat yhtenä kokonaisuutena",
+     "p": "Luottokortit, lainat, tilinylitykset, osamaksut ja velat ystäville: näe kokonaisvelkasi ja kuukausieräsi yhdellä silmäyksellä."
+    },
+    {
+     "h": "Valitse lumipallo tai lumivyöry",
+     "p": "Maksa pienin saldo ensin saadaksesi nopeita onnistumisia, tai korkein korko ensin säästääksesi koroissa. Spendry vertaa molempia ja päivittää suunnitelmaa maksusuoritustesi mukaan."
+    },
+    {
+     "h": "Päivämäärä, joka elää tekojesi mukaan",
+     "p": "Kirjaa lyhennys tai maksa ylimääräinen summa, ja velattomuuspäiväsi siirtyy heti lähemmäksi."
+    },
+    {
+     "h": "Muistutukset ennen jokaista eräpäivää",
+     "p": "Saat ilmoituksen ennen jokaista maksua myös silloin, kun sovellus on suljettu, jotta vältät myöhästymismaksut."
+    }
+   ],
+   "steps_title": "Miten velanmaksusuunnitelma toimii",
+   "steps": [
+    "Lisää jokainen velka saldoineen, korkoineen ja vähimmäiserineen.",
+    "Valitse lyhennysstrategiaksi joko lumipallo tai lumivyöry.",
+    "Aseta summa, jonka voit maksaa ylimääräisenä joka kuukausi.",
+    "Kirjaa maksut sitä mukaa kun teet ne, ja seuraa velattomuuspäivän aikaistumista."
+   ],
+   "why_title": "Miksi Spendry on erilainen",
+   "why": [
+    "Kortit, lainat ja osamaksut eritellään tarkasti, ei pelkkänä yhtenä summana.",
+    "Ei pankkitunnuksia eikä tietojen keräämistä.",
+    "Sivustomme ilmaiset laskurit käyttävät samoja menetelmiä, joten voit kokeilla lukuja ensin."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Mikä on lumipallomenetelmä?",
+     "a": "Maksat jokaisesta velasta minimierän ja ohjaat kaikki ylimääräiset rahat pienimpään velkaan. Kun se on maksettu, sen maksuerä siirtyy seuraavaan."
+    },
+    {
+     "q": "Mikä on lumivyörymenetelmä?",
+     "a": "Ylimääräiset rahat ohjataan korkeakorkoisimpaan velkaan ensin, mikä yleensä säästää eniten korkokuluissa."
+    },
+    {
+     "q": "Voinko seurata velkoja ystäville tai perheelle?",
+     "a": "Kyllä. Henkilökohtaiset velat voidaan lisätä korolla tai ilman, ja ne noudattavat samaa suunnitelmaa."
+    },
+    {
+     "q": "Onko velkasuunnitelma ilmainen?",
+     "a": "Voit aloittaa ilmaiseksi. Valinnainen Premium poistaa ilmaisversion rajoitukset, ja voit kokeilla sitä viikon ilmaiseksi."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Luottokorttien seuranta",
+   "screen": "07",
+   "footer": true,
+   "title": "Luottokorttien seurantasovellus: Saldot ja eräpäivät",
+   "description": "Seuraa luottokortteja Spendryssä: laskutuskaudet, eräpäivät, saldot ja osamaksut. Saat kätevän muistutuksen ennen jokaista eräpäivää.",
+   "h1": "Kaikki luottokortit, laskutuskaudet ja eräpäivät",
+   "lead": "Spendry tietää, milloin kunkin kortin laskutuskausi päättyy ja milloin eräpäivä koittaa. Se pitää saldot ja osamaksut ajan tasalla ja muistuttaa ennen maksua, jotta korttilaskut eivät koskaan yllätä sinua.",
+   "points": [
+    {
+     "h": "Laskutuskaudet ja eräpäivät jokaiselle kortille",
+     "p": "Lisää korttisi kerran laskutuspäivineen ja eräpäivineen. Spendry näyttää jokaisen kortin avoimen saldon ja sen, milloin maksu pitää hoitaa."
+    },
+    {
+     "h": "Korttien osamaksut",
+     "p": "Osamaksuihin jaetut ostokset näyttävät jäljellä olevien erien määrän ja kuukauden, jolloin viimeinen erä maksetaan."
+    },
+    {
+     "h": "Vähimmäismaksu tai koko saldo",
+     "p": "Kirjaa maksu, ja saldo päivittyy heti. Sivuston ilmainen korttivelkalaskuri näyttää, mitä pelkän vähimmäissumman maksaminen tulee ajan mittaan maksamaan."
+    },
+    {
+     "h": "Muistutus ennen eräpäivää",
+     "p": "Ilmoitukset saapuvat ennen jokaista korttimaksua, vaikka sovellus olisi suljettu. Voit merkitä maksun hoidetuksi suoraan ilmoituksesta."
+    }
+   ],
+   "steps_title": "Näin seuraat korttejasi",
+   "steps": [
+    "Lisää kukin kortti sekä sen luottoraja, laskutuspäivä ja eräpäivä.",
+    "Kirjaa ostokset ja osamaksut käsin tai tuo ne pankin viesteistä.",
+    "Kirjaa maksut heti, kun olet maksanut ne.",
+    "Anna muistutusten ilmoittaa sinulle hyvissä ajoin ennen kutakin eräpäivää."
+   ],
+   "why_title": "Miksi seurata kortteja Spendryssä",
+   "why": [
+    "Kaikki kortit yhdellä näytöllä ja kokonaissaldo selkeästi näkyvissä.",
+    "Velattomuuspäiväsi ottaa myös korttisi huomioon.",
+    "Ei pankkitunnuksia, tietoja ei kerätä."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Mitä eroa on laskutuspäivällä ja eräpäivällä?",
+     "a": "Laskutuspäivä päättää laskutuskauden ja määrittää maksettavan summan. Eräpäivä on viimeinen päivä maksaa se ilman korkoja tai viivästyskuluja."
+    },
+    {
+     "q": "Voiko sovellus muistuttaa minua ennen jokaista korttimaksua?",
+     "a": "Kyllä. Saat ilmoituksen ennen jokaista eräpäivää, vaikka et avaisi sovellusta koskaan, ja voit kuitata maksun hoidetuksi suoraan ilmoituksesta."
+    },
+    {
+     "q": "Voinko seurata kortille tehtyjä osamaksuja?",
+     "a": "Kyllä. Jokainen osamaksusuunnitelma näyttää jäljellä olevat erät ja viimeisen maksuerän ajankohdan."
+    },
+    {
+     "q": "Yhdistetäänkö sovellus kortinmyöntäjään?",
+     "a": "Ei. Spendry ei koskaan pyydä verkkopankkitunnuksia. Lisäät korttisi ja kirjaat maksut itse."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Laskumuistuttaja sovellus",
+   "screen": "07",
+   "footer": true,
+   "title": "Laskumuistuttaja sovellus: Älä unohda eräpäivää",
+   "description": "Spendry muistuttaa laskuista, lainoista ja tilauksista ajallaan, vaikka sovellus olisi suljettu. Kuittaa maksu suoraan ilmoituksesta.",
+   "h1": "Laskumuistuttaja, joka saapuu aina ajallaan",
+   "lead": "Spendry muistuttaa sinua ennen jokaista laskua, korttimaksua, lainaerää ja tilausta, vaikka et edes avaisi sovellusta. Siirrä muistutusta tai merkitse se maksetuksi suoraan ilmoituksesta.",
+   "points": [
+    {
+     "h": "Kaikki eräpäivät yhdessä listassa",
+     "p": "Laskut, luottokorttien saldot, lainaerät ja tilaukset näkyvät yhdessä tulevien maksujen listassa, ja erääntyneet nostetaan aina ylimmäksi."
+    },
+    {
+     "h": "Muistutukset toimivat ilman avointa sovellusta",
+     "p": "Ilmoitukset ajoitetaan iPhoneesi, ja ne saapuvat ennen kutakin eräpäivää. Ne ovat tärkeitä ilmoituksia, joten ne tulevat läpi Keskity-tilastakin, jos sallit sen."
+    },
+    {
+     "h": "Maksettu tai siirretty yhdellä napautuksella",
+     "p": "Merkitse maksu maksetuksi tai siirrä sitä eteenpäin suoraan ilmoituksesta. Maksaminen päivittää samalla saldosi ja budjettisi."
+    },
+    {
+     "h": "Aamuyhteenveto halutessasi",
+     "p": "Valmis Pikakomennot-automaatio lähettää sinulle joka aamu yhden kootun ilmoituksen seuraavan kolmen päivän maksuista."
+    }
+   ],
+   "steps_title": "Näin otat muistutukset käyttöön",
+   "steps": [
+    "Lisää laskusi, korttisi, lainasi ja tilauksesi eräpäivineen.",
+    "Valitse, kuinka monta päivää etukäteen haluat muistutuksen.",
+    "Maksa tai siirrä muistutusta suoraan ilmoituksesta.",
+    "Tarkista tulevien maksujen lista aina, kun haluat nähdä kokonaiskuvan."
+   ],
+   "why_title": "Miksi se toimii",
+   "why": [
+    "Yksi paikka kaikenlaisille maksuille eri erillissovellusten sijaan.",
+    "Muistutukset saapuvat perille, vaikka Spendry pysyisi suljettuna.",
+    "Tietosi pysyvät iPhonessasi, mitään tietoja ei kerätä."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Saanko muistutuksia, vaikka en koskaan avaisi sovellusta?",
+     "a": "Kyllä. Muistutukset on ajoitettu iPhoneesi, ja ne saapuvat ajallaan, vaikka Spendry pysyisi suljettuna."
+    },
+    {
+     "q": "Voinko valita, milloin minua muistutetaan?",
+     "a": "Kyllä. Voit valita, montako päivää ennen eräpäivää haluat ilmoituksen."
+    },
+    {
+     "q": "Voiko se muistuttaa minua myös tilauksista?",
+     "a": "Kyllä. Tilaukset, laskut, korttimaksut ja lainaerät saavat kaikki omat muistutuksensa."
+    },
+    {
+     "q": "Tarvitsevatko muistutukset internetyhteyden?",
+     "a": "Eivät. Ne on ajoitettu suoraan laitteeseesi."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Tilausten seuranta",
+   "screen": "09",
+   "footer": true,
+   "title": "Tilausten hallinta sovellus: Katso kuukausikulut",
+   "description": "Seuraa tilauksiasi Spendryssä: näe kuukausi- ja vuosikulut sekä tulevat veloitukset. Saat muistutuksen ajoissa ennen uusiutumista.",
+   "h1": "Tilausten seurantasovellus, joka näyttää vuotuiset kulut",
+   "lead": "Lisää tilauksesi kerran, niin Spendry näyttää niiden kuukausi- ja vuosikustannukset sekä uusiutumispäivät. Saat muistutuksen ennen uusimista, kun sinulla on vielä aikaa perua.",
+   "points": [
+    {
+     "h": "Kuukausi- ja vuosisummat",
+     "p": "Viikoittaiset, kuukausittaiset ja vuosittaiset veloitukset kootaan yhdeksi kuukausi- ja vuosiluvuksi, joten pienetkään maksut eivät jää piiloon."
+    },
+    {
+     "h": "Muistutus ennen jokaista uusimista",
+     "p": "Saat ilmoituksen muutama päivä ennen tilauksen uusiutumista, kun sinulla on vielä aikaa perua se."
+    },
+    {
+     "h": "Kysy suomeksi omin sanoin",
+     "p": "Kysy Spendryn avustajalta, paljonko tilauksesi maksavat vuodessa, ja saat tarkan summan sekä luettelon jokaisesta tilauksesta."
+    },
+    {
+     "h": "Osa kokonaisbudjettiasi",
+     "p": "Tilaukset lasketaan mukaan budjetteihisi ja tuleviin maksuihisi, jotta näet ne suoraan kaikkien muiden menojesi rinnalla."
+    }
+   ],
+   "steps_title": "Näin seuraat tilauksiasi",
+   "steps": [
+    "Lisää kukin tilaus hintatietoineen, laskutusjaksoineen ja uusiutumispäivineen.",
+    "Tarkastele kuukausi- ja vuosikohtaisia kokonaissummia.",
+    "Ota käyttöön muistutukset ennen tilausten uusiutumista.",
+    "Peru tarpeettomat tilaukset ja katso, kuinka kokonaiskulusi pienenevät."
+   ],
+   "why_title": "Miksi siitä on apua",
+   "why": [
+    "Tilaukset mistä tahansa palvelusta, eivät vain App Storesta.",
+    "Pankkitunnuksia ei tarvita: lisäät jokaisen tilauksen kerran.",
+    "Sivustolta löytyy ilmainen tilauskululaskuri."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Löytääkö Spendry tilaukseni automaattisesti?",
+     "a": "Ei. Sovellus ei yhdisty pankkitiliisi, joten lisäät jokaisen tilauksen kerran. Sen jälkeen se seuraa uusiutumisia ja summia puolestasi."
+    },
+    {
+     "q": "Voinko seurata vuositilauksia?",
+     "a": "Kyllä. Viikko-, kuukausi- ja vuositilaukset ovat kaikki tuettuja, ja ne näytetään kuukausi- ja vuositasolla."
+    },
+    {
+     "q": "Muistuttaako se minua ennen tilauksen uusiutumista?",
+     "a": "Kyllä, saat muistutuksen muutamaa päivää ennen uusiutumista, vaikka et avaisi sovellusta."
+    },
+    {
+     "q": "Miten perun tilauksen iPhonellani?",
+     "a": "App Store -tilaukset perutaan Asetukset-sovelluksesta oman nimesi alta kohdasta Tilaukset. Muiden palveluiden tilaukset perutaan niiden omilla verkkosivuilla tai sovelluksissa."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Kulukirjanpito sovellus",
+   "screen": "03",
+   "title": "Kulukirjanpito iPhoneen: Spendry",
+   "description": "Kirjaa menot sekunneissa apista, widgetistä, Sirillä tai Apple Paylla. Seuraa kuluja kaavioilla. Ei pankkitunnuksia, ei tietojen keräämistä.",
+   "h1": "Kulukirjanpito, joka vie vain sekunteja",
+   "lead": "Kirjoita summa, valitse kategoria ja valmista tuli. Voit myös kysyä Siriltä, käyttää widgetiä tai antaa Apple Pay -ostosten kirjautua automaattisesti. Näet heti, mihin rahasi menevät.",
+   "points": [
+    {
+     "h": "Nopea lisätä, juuri kuten haluat",
+     "p": "Lisää meno apista, Koti-valikon widgetistä, Sirillä tai Pikakomennot-automaatiolla, ja liitä mukaan skannattu kuitti."
+    },
+    {
+     "h": "Kaaviot vastaavat kysymyksiin",
+     "p": "Viikko- ja kuukausinäkymät kategorioittain ja päivittäin, päivittäinen keskiarvo sekä kulutustahtisi verrattuna edelliseen jaksoon."
+    },
+    {
+     "h": "Budjetit varoittavat ajoissa",
+     "p": "Menot kerryttävät kategorian budjetteja, ja Spendry ilmoittaa sinulle ennen kuin raja tulee vastaan."
+    },
+    {
+     "h": "Omat kategoriat",
+     "p": "Luo tarvitsemasi kategoriat omilla nimillä ja kuvakkeilla valmiin listan sijaan."
+    }
+   ],
+   "steps_title": "Näin aloitat seurannan",
+   "steps": [
+    "Lisää ensimmäiset menot apista tai widgetistä.",
+    "Luo budjetit tärkeille kategorioille.",
+    "Ota Apple Pay -automaatio käyttöön, jos maksat puhelimella.",
+    "Tarkista kaaviot viikoittain."
+   ],
+   "why_title": "Miksi Spendry",
+   "why": [
+    "Ei pankkitunnuksia, ei tietojen keräämistä.",
+    "Widgetit, Siri ja Pikakomennot lisäävät menot puolestasi.",
+    "Toimii kaikissa valuutoissa, 44 kielellä."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Voinko lisätä menon avaamatta appia?",
+     "a": "Kyllä. Käytä Koti-valikon widgetiä, kysy Siriltä tai anna Pikakomennot-automaation kirjata Apple Pay -ostokset."
+    },
+    {
+     "q": "Voinko tallentaa kuitteja?",
+     "a": "Kyllä. Skannaa kuitti, kun lisäät menon, ja se pysyy tallessa kyseisen menon yhteydessä."
+    },
+    {
+     "q": "Toimiiko se eri valuutoissa?",
+     "a": "Kyllä. Valitse valuuttasi aloittaessasi. Sijoitukset ja ulkomaan valuutan tilit voivat käyttää omia valuuttojaan."
+    },
+    {
+     "q": "Onko se ilmainen?",
+     "a": "Kyllä, perusominaisuudet ovat ilmaisia. Premium on valinnainen, ja voit kokeilla sitä viikon ilmaiseksi."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Osamaksujen seuranta",
+   "screen": "06",
+   "title": "Osamaksujen seuranta: Spendry",
+   "description": "Seuraa osamaksuja Spendryssä: erien määrä, kuukausierät ja päättymispäivä. Saat muistutuksen ennen jokaista maksua.",
+   "h1": "Kaikki osamaksut ja niiden päättymispäivä",
+   "lead": "Luottokorttien osamaksut ja osta nyt, maksa myöhemmin -sopimukset kertyvät huomaamatta. Spendry näyttää kunkin jäljellä olevat erät, kuukausittaisen kokonaissumman ja viimeisen maksuerän ajankohdan.",
+   "points": [
+    {
+     "h": "Kuukausierät selkeänä kokonaisuutena",
+     "p": "Näe tässä kuussa ja tulevina kuukausina erääntyvien osamaksujen yhteissumma, jotta uudet ostokset eivät kasaannu yllätyksenä."
+    },
+    {
+     "h": "Jokaisen sopimuksen päättymispäivä",
+     "p": "Jokainen sopimus näyttää jäljellä olevat maksuerät ja viimeisen erän kuukauden."
+    },
+    {
+     "h": "Muistutukset ennen eräpäivää",
+     "p": "Saat ilmoituksen ennen jokaista osamaksuerää, vaikka appi olisi suljettu."
+    },
+    {
+     "h": "Osa velattomuussuunnitelmaasi",
+     "p": "Osamaksut lasketaan mukaan kokonaisvelkaasi ja takaisinmaksusuunnitelmaasi."
+    }
+   ],
+   "steps_title": "Näin seuraat osamaksuja",
+   "steps": [
+    "Lisää ostos, sen kokonaissumma, erien määrä ja ensimmäinen maksupäivä.",
+    "Näet kuukausierän ja päättymispäivän.",
+    "Kirjaa jokainen maksu tai merkitse se maksetuksi muistutuksesta.",
+    "Tarkista kuukauden osamaksujen kokonaissumma ennen uutta ostosta."
+   ],
+   "why_title": "Miksi se auttaa",
+   "why": [
+    "Korttiosamaksut ja osta nyt, maksa myöhemmin -sopimukset yhdessä paikassa.",
+    "Osamaksut näkyvät budjettiesi ja muiden velkojesi rinnalla, joten kuukauden todellinen tilanne on selvä.",
+    "Ei pankkitunnuksia, ei tietojen keräämistä."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Voinko seurata osta nyt, maksa myöhemmin -sopimuksia?",
+     "a": "Kyllä. Lisää mikä tahansa sopimus kokonaissumman, erien määrän ja ensimmäisen päivämäärän kera. Spendry hoitaa loput."
+    },
+    {
+     "q": "Näenkö osamaksujen kuukausittaisen kokonaissumman?",
+     "a": "Kyllä. Näet tämän kuun osamaksujen yhteissumman ja seuraavien kuukausien erät."
+    },
+    {
+     "q": "Saanko muistutuksen ennen jokaista osamaksua?",
+     "a": "Kyllä, ennen jokaista maksua, vaikka et avaisi appia."
+    },
+    {
+     "q": "Vaikuttavatko osamaksut velattomuuspäivääni?",
+     "a": "Kyllä. Ne ovat osa kokonaisvelkaasi ja takaisinmaksusuunnitelmaasi."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Säästötavoite sovellus",
+   "screen": "05",
+   "title": "Säästötavoite sovellus: Spendry",
+   "description": "Aseta säästötavoitteita Spendryssä, seuraa edistymistä päivittäin ja jaa tavoite kumppanin tai perheen kanssa iCloudilla.",
+   "h1": "Säästötavoite sovellus, joka motivoi",
+   "lead": "Aseta kullekin tavoitteelle summa ja lisää säästöjä sitä mukaa kun säästät. Spendry näyttää edistymisesi joka päivä apissa ja Koti-valikossasi.",
+   "points": [
+    {
+     "h": "Selkeä tavoite",
+     "p": "Jokaisella tavoitteella on summa, edistymispalkki ja jäljellä oleva säästömäärä."
+    },
+    {
+     "h": "Koti-valikossasi",
+     "p": "Tavoitewidget pitää edistymisen näkyvillä, jotta säästäminen pysyy mielessä."
+    },
+    {
+     "h": "Säästäkää yhdessä",
+     "p": "Jaa tavoite kumppanisi tai perheesi kanssa iCloudin kautta. Jokainen lisää säästöjä samaan tavoitteeseen omasta iPhonestaan."
+    },
+    {
+     "h": "Budjetin rinnalla",
+     "p": "Tavoitteisiin laittamasi rahat ovat osa kuukausinäkymääsi budjettien ja maksujen rinnalla."
+    }
+   ],
+   "steps_title": "Näin säästät tavoitteeseen",
+   "steps": [
+    "Luo tavoite ja aseta haluamasi summa.",
+    "Lisää siihen rahaa aina kun säästät.",
+    "Seuraa edistymistä apissa tai widgetissä.",
+    "Jaa tavoite, jos säästät yhdessä toisen kanssa."
+   ],
+   "why_title": "Miksi se auttaa",
+   "why": [
+    "Tavoitteet ovat budjettiesi ja velkojesi rinnalla.",
+    "Jaetut tavoitteet synkronoituvat iCloudin kautta.",
+    "Tällä sivustolla on ilmainen säästölaskuri."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Voiko minulla olla useampi kuin yksi tavoite?",
+     "a": "Kyllä. Luo oma tavoite jokaiselle säästökohteelle ja kerrytä niitä erikseen."
+    },
+    {
+     "q": "Voinko jakaa tavoitteen kumppanini kanssa?",
+     "a": "Kyllä. Jaetut tavoitteet synkronoituvat iCloudin kautta, ja kukin käyttää omaa Apple-tiliään."
+    },
+    {
+     "q": "Onko tavoitteille widgetiä?",
+     "a": "Kyllä. Tavoitewidget näyttää edistymisesi suoraan Koti-valikossa."
+    },
+    {
+     "q": "Kuinka paljon minun tulisi säästää kuukaudessa?",
+     "a": "Jaa jäljellä oleva summa tavoitekuukausien määrällä. Tämän sivuston ilmainen säästölaskuri laskee sen puolestasi myös koron kanssa."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Nettovarallisuuden seuranta",
+   "screen": "08",
+   "title": "Nettovarallisuus sovellus reaaliaikaisilla hinnoilla",
+   "description": "Seuraa nettovarallisuuttasi Spendryssä. Tilit, sijoitukset, kulta ja valuutat miinus kortit, lainat ja velat, yhtenä lukuna.",
+   "h1": "Nettovarallisuus yhdessä luvussa, joka pysyy ajan tasalla",
+   "lead": "Spendry laskee yhteen tilisi ja sijoituksesi, vähentää velkasi ja näyttää nettovarallisuutesi. Osakkeet, kryptot, kulta ja valuutat päivittyvät reaaliajassa.",
+   "points": [
+    {
+     "h": "Kaikki mitä omistat ja olet velkaa",
+     "p": "Käteinen, tilit, sijoitukset ja säästöt vastaan kortit, lainat, osamaksut ja henkilökohtaiset velat."
+    },
+    {
+     "h": "Reaaliaikaiset hinnat",
+     "p": "Osakkeet, kryptot, kulta ja valuutat päivittyvät reaaliaikaisilla markkinahinnoilla menojesi rinnalla."
+    },
+    {
+     "h": "Sijoitukset omassa valuutassaan",
+     "p": "Sijoitukset ja ulkomaan valuutan tilit säilyttävät oman valuuttansa. Nettovarallisuus näkyy omassasi."
+    },
+    {
+     "h": "Koti-valikossasi",
+     "p": "Nettovarallisuuden widget pitää luvun näkyvillä."
+    }
+   ],
+   "steps_title": "Miten seuraat nettovarallisuuttasi",
+   "steps": [
+    "Lisää tilisi ja niiden saldot.",
+    "Lisää sijoituksesi ja omistamasi määrä.",
+    "Lisää velkasi.",
+    "Tarkista nettovarallisuutesi hintojen ja saldojen muuttuessa."
+   ],
+   "why_title": "Miksi Spendry",
+   "why": [
+    "Velat ja sijoitukset samassa sovelluksessa kuin budjettisi.",
+    "Ei pankki- tai arvo-osuustilin kirjautumista.",
+    "Tietoja ei kerätä."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Mitä sijoituksia voin seurata?",
+     "a": "Osakkeita, kryptoja, kultaa ja valuuttoja reaaliaikaisin hinnoin."
+    },
+    {
+     "q": "Yhdistääkö se välittäjääni?",
+     "a": "Ei. Lisäät omistuksesi, ja hinnat päivittyvät itsestään."
+    },
+    {
+     "q": "Pitäisikö minun lisätä asuntoni tai autoni?",
+     "a": "Monet seuraavat vain asioita, jotka muuttuvat kuukausittain: käteistä, sijoituksia ja velkoja. Lisää enemmän, jos se auttaa sinua."
+    },
+    {
+     "q": "Onko sovelluksessa nettovarallisuus-widget?",
+     "a": "Kyllä, Koti-valikkoon."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "Jaettu budjetti sovellus",
+   "screen": "04",
+   "title": "Jaettu budjetti sovellus pariskunnille ja perheille",
+   "description": "Jaa budjetit ja säästötavoitteet kumppanin tai perheen kanssa Spendryssä. Kaikki käyttävät omaa iPhonea, synkronointi toimii iCloudilla.",
+   "h1": "Jaettu budjetti sovellus pariskunnille ja perheille",
+   "lead": "Jaa budjetti tai säästötavoite kumppanisi tai perheesi kanssa. Jokainen lisää tietoja omalla iPhonellaan, ja Spendry synkronoi ne iCloudin kautta ilman erillisiä käyttäjätilejä.",
+   "points": [
+    {
+     "h": "Jaa vain se mitä haluat",
+     "p": "Jaa talouden budjetti tai tavoite ja pidä muu rahankäyttösi omana tietonasi."
+    },
+    {
+     "h": "Kaikki lisäävät omasta puhelimestaan",
+     "p": "Jokainen käyttää omaa Apple-tiliään. Jaetut budjetit ja tavoitteet päivittyvät kaikille."
+    },
+    {
+     "h": "Ei uusia tilejä, ei palvelimia",
+     "p": "Jakaminen toimii iCloudin kautta. Spendryssä ei ole käyttäjätilijärjestelmää eikä se kerää tietoja."
+    },
+    {
+     "h": "Yksi tavoite, monta tekijää",
+     "p": "Säästäkää lomaa tai kotia varten yhdessä. Jokainen säästö vie samaa tavoitetta eteenpäin."
+    }
+   ],
+   "steps_title": "Miten jaat budjetin",
+   "steps": [
+    "Luo budjetti tai tavoite.",
+    "Jaa se Spendrystä kumppanillesi tai perheellesi.",
+    "He hyväksyvät kutsun omalla iPhonellaan.",
+    "Kaikki lisäävät menoja tai säästöjä, ja tiedot pysyvät ajan tasalla."
+   ],
+   "why_title": "Miksi jakaa Spendryllä",
+   "why": [
+    "Muut budjettisi ja velkasi pysyvät yksityisinä.",
+    "Ei ylimääräistä kirjautumista: jakaminen toimii iCloudilla.",
+    "Tietoja ei kerätä."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Tarvitseeko kumppanini myös Spendryn?",
+     "a": "Kyllä, omalle iPhonelleen tai iPadilleen, omalla Apple-tilillään."
+    },
+    {
+     "q": "Näkeekö kumppanini kaikki menoni?",
+     "a": "Ei. Vain jakamasi budjetit ja tavoitteet jaetaan, muu pysyy yksityisenä."
+    },
+    {
+     "q": "Miten jakaminen toimii?",
+     "a": "iCloud-jakamisen kautta. Välissä ei ole Spendry-tiliä tai Spendryn palvelinta."
+    },
+    {
+     "q": "Voinko jakaa useamman kuin yhden ihmisen kanssa?",
+     "a": "Kyllä. Voit kutsua useita perheenjäseniä jaettuun budjettiin tai tavoitteeseen."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Lainojen seuranta sovellus",
+   "screen": "06",
+   "title": "Lainojen seuranta: saldo, lyhennykset ja korot",
+   "description": "Seuraa kaikkia lainoja Spendryssä: jäljellä oleva saldo, lyhennys ja korko, jäljellä olevat erät ja muistutus ennen jokaista osamaksua.",
+   "h1": "Lainojen seuranta, joka näyttää mitä todella maksat",
+   "lead": "Lisää laina kerran, ja Spendry näyttää jäljellä olevan saldon, koron osuuden erästä, jäljellä olevat erät sekä muistuttaa ennen jokaista osamaksua.",
+   "points": [
+    {
+     "h": "Koko maksuohjelma",
+     "p": "Jokainen osamaksu korkoineen ja lyhennyksineen, jotta näet lainan todelliset kulut."
+    },
+    {
+     "h": "Jäljellä olevat erät ja päättymispäivä",
+     "p": "Jäljellä olevien maksujen määrä ja viimeisen erän kuukausi."
+    },
+    {
+     "h": "Muistutukset ennen jokaista erää",
+     "p": "Saat ilmoituksen ennen jokaista eräpäivää, vaikka sovellus olisi suljettu."
+    },
+    {
+     "h": "Osa velkasuunnitelmaasi",
+     "p": "Lainat lasketaan mukaan kokonaisvelkaasi ja velattomuuspäivääsi."
+    }
+   ],
+   "steps_title": "Miten seuraat lainaa",
+   "steps": [
+    "Lisää laina: summa, korko, laina-aika ja ensimmäisen maksun päivämäärä.",
+    "Tarkista maksuohjelma ja kokonaiskustannukset.",
+    "Kirjaa maksut sitä mukaa kun hoidat ne.",
+    "Seuraa velattomuuspäivääsi."
+   ],
+   "why_title": "Miksi Spendry",
+   "why": [
+    "Kulutusluotot, auto-, asunto- ja opintolainat yhdessä paikassa.",
+    "Ei pankkikirjautumista, tietoja ei kerätä.",
+    "Ilmainen lainalaskuri tällä sivustolla."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Mitä lainoja voin seurata?",
+     "a": "Kulutusluottoja, auto-, asunto- ja opintolainoja sekä muita osamaksulainoja ja velkoja tutuille."
+    },
+    {
+     "q": "Näyttääkö se, kuinka paljon maksan korkoa?",
+     "a": "Kyllä. Näet koron osuuden jokaisessa maksussa ja koko laina-ajalta."
+    },
+    {
+     "q": "Muistuttaako se minua ennen jokaista maksua?",
+     "a": "Kyllä, ennen jokaista eräpäivää, vaikka et koskaan avaisi sovellusta."
+    },
+    {
+     "q": "Yhdistääkö se luotonantajaani?",
+     "a": "Ei. Lisäät lainan kerran, ja Spendry muodostaa maksuohjelman."
+    }
+   ]
+  }
+ ]
 }

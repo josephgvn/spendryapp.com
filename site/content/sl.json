@@ -1553,5 +1553,835 @@
    "final_title": "Imejte pregled nad vsakim podaljšanjem.",
    "final_text": "Prenesite Spendry, dodajte svoje naročnine in bodite pravočasno obveščeni pred vsakim plačilom."
   }
- }
+ },
+ "app_labels": {
+  "free": "Brezplačno v App Store. Premium je izbiren, z enim brezplačnim tednom.",
+  "more": "Kaj vse še ponuja Spendry",
+  "cta": "Prenesite Spendry in si oglejte ves mesec na enem mestu.",
+  "tools_title": "Brezplačni kalkulatorji",
+  "guides_title": "Vodniki"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "Aplikacija za proračun",
+   "screen": "04",
+   "footer": true,
+   "title": "Aplikacija za proračun za iPhone: Spendry",
+   "description": "Spendry je aplikacija za proračun za iPhone in iPad: proračuni kategorij z opozorili, kartice, krediti in računi na enem mestu ter opomniki pred zapadlostjo.",
+   "h1": "Aplikacija za proračun, ki ve, kaj prihaja",
+   "lead": "Spendry določi mejo za vsako kategorijo, vas pravočasno opozori in prikaže račune ter obroke, ki vas še čakajo ta mesec. Brez prijave v banko.",
+   "points": [
+    {
+     "h": "Proračuni, ki se prilagajajo vam",
+     "p": "Določite mesečni limit za hrano, restavracije ali karkoli drugega. Vsak odhodek polni proračun, Spendry pa vas opozori pred prekoračitvijo meje, ne šele po njej."
+    },
+    {
+     "h": "Preostanek meseca, vnaprej",
+     "p": "Zneski na karticah, obroki kreditov, računi in naročnine pred plačo so vidni ob vašem stanju, zato točno veste, koliko vam v resnici ostane."
+    },
+    {
+     "h": "Dodajte odhodek v nekaj sekundah",
+     "p": "Vpišite znesek in izberite kategorijo, skenirajte račun, dodajte vnos prek pripomočka ali pa naj avtomatizacija v aplikaciji Bližnjice zabeleži plačila z Apple Pay."
+    },
+    {
+     "h": "Jasno vidite, kam gre denar",
+     "p": "Tedenski in mesečni grafikoni po kategorijah ter po dnevih pokažejo, kje vam zmanjkuje denarja in kako se ta mesec primerja s prejšnjim."
+    }
+   ],
+   "steps_title": "Kako začeti s proračunom v Spendryju",
+   "steps": [
+    "Dodajte prihodke in račune ali kartice, s katerih plačujete.",
+    "Ustvarite proračune za glavne kategorije porabe in jim določite limit.",
+    "Sprotno beležite odhodke ali vklopite avtomatizacijo za Apple Pay.",
+    "Ob koncu meseca preglejte grafe in prilagodite limite za naslednji mesec."
+   ],
+   "why_title": "Zakaj uporabniki izberejo Spendry",
+   "why": [
+    "Brez prijave v banko: vi odločate o vnosih in nič se ne povezuje z vašo banko.",
+    "Vaši podatki ostanejo v vašem iPhonu in v vaši lastni shrambi iCloud; nič se ne zbira.",
+    "Dolgovi, kartice in obroki so zbrani ob vašem proračunu, ne v drugi aplikaciji.",
+    "Brezplačen prenos, z izbirno naročnino Premium."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Je Spendry brezplačna aplikacija za proračun?",
+     "a": "Da. Proračuni, odhodki, opomniki in glavne funkcije so brezplačni. Naročnina Premium je izbirna: mesečna ali letna z brezplačnim tednom, ali enkratni doživljenjski nakup."
+    },
+    {
+     "q": "Ali Spendry potrebuje dostop do mojega bančnega računa?",
+     "a": "Ne. Nikoli ne zahteva bančne prijave. Odhodke dodajate sami, jih uvozite iz bančnih sporočil ali pa uporabite avtomatizacijo v aplikaciji Bližnjice za Apple Pay."
+    },
+    {
+     "q": "Ali si lahko delim proračun s partnerjem?",
+     "a": "Da. Deljeni proračuni in cilji se usklajujejo prek storitve iCloud, vsak pa uporablja svoj Apple račun."
+    },
+    {
+     "q": "Na katerih napravah deluje?",
+     "a": "Na napravah iPhone in iPad s sistemom iOS 17 ali novejšim. Različica za Mac je na voljo v trgovini Mac App Store."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Proračun brez bančne povezave",
+   "screen": "02",
+   "footer": true,
+   "title": "Aplikacija za proračun brez banke: Spendry",
+   "description": "Aplikacija za proračun brez prijave v banko. Ročni vnos, uvoz sporočil ali samodejni zapisi za Apple Pay z Bližnjicami. Podatki ostanejo v vašem iPhonu.",
+   "h1": "Aplikacija za proračun, ki ne zahteva prijave v banko",
+   "lead": "Veliko aplikacij za finance zahteva vaše bančno geslo. Spendry se sploh ne povezuje z banko: sami odločate o vnosih, podatki pa ostanejo na iPhonu in v vaši shrambi iCloud.",
+   "points": [
+    {
+     "h": "Nič se ne povezuje z vašo banko",
+     "p": "Ni bančne prijave, posrednikov ali ustvarjanja uporabniškega računa. Spendry deluje povsod, s katerokoli banko, kartico ali valuto."
+    },
+    {
+     "h": "Vnos odhodkov ostaja hiter",
+     "p": "Vpišite znesek, skenirajte račun, uporabite pripomoček na domačem zaslonu ali vprašajte Siri. Bančna SMS obvestila lahko prav tako pretvorite v vnose."
+    },
+    {
+     "h": "Nakupi z Apple Pay se lahko beležijo sami",
+     "p": "Vklopite pripravljeno avtomatizacijo v aplikaciji Bližnjice in vsak nakup z Apple Pay se z zneskom samodejno doda v Spendry."
+    },
+    {
+     "h": "Podatki se ne zbirajo",
+     "p": "Brez oglasov, analitike ali sledenja. Oznaka o zasebnosti v App Store potrjuje, da se podatki ne zbirajo, aplikacijo pa lahko zaklenete s Face ID."
+    }
+   ],
+   "steps_title": "Kako deluje brez povezave z banko",
+   "steps": [
+    "Dodajte svoje kartice, kredite in račune s trenutnimi stanji.",
+    "Sprotno beležite porabo ali pa jo uvozite iz bančnih sporočil.",
+    "Vklopite avtomatizacijo za Apple Pay v aplikaciji Bližnjice.",
+    "Spremljajte stanje in proračune, opomniki pa vas opozorijo pred zapadlostjo."
+   ],
+   "why_title": "Zakaj se izogniti bančni povezavi",
+   "why": [
+    "Vaše bančno geslo nikoli ne zapusti vaših rok.",
+    "Brez prekinjenih povezav ali manjkajočih transakcij ob posodobitvah bančnih sistemov.",
+    "Deluje z vsako banko, tudi tistimi, ki jih druge aplikacije ne podpirajo.",
+    "Ko odhodek vpišete sami, se svoje porabe bolje zavedate."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Zakaj se Spendry ne povezuje z mojo banko?",
+     "a": "Zato, da vaši podatki za prijavo in vaše transakcije nikoli ne potujejo prek tujih strežnikov. Vsi podatki ostanejo na iPhonu in v vaši shrambi iCloud."
+    },
+    {
+     "q": "Ali ni ročno vnašanje odhodkov preveč zamudno?",
+     "a": "Vzame le nekaj sekund. Za Apple Pay lahko uporabite avtomatizacijo z Bližnjicami, pripomoček na zaslonu, vprašate Siri ali uvozite bančna sporočila."
+    },
+    {
+     "q": "Ali Spendry bere moja bančna SMS sporočila?",
+     "a": "Ne samodejno. Bančno sporočilo prilepite ali delite v Spendry, ta pa ga takoj pretvori v vnos."
+    },
+    {
+     "q": "Ali so moji podatki varni?",
+     "a": "Spendry ne zbira nobenih podatkov. Zapisi ostanejo na vaši napravi in se usklajujejo prek storitve iCloud, aplikacijo pa lahko zaklenete s Face ID."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "Aplikacija za odplačilo dolgov",
+   "screen": "06",
+   "footer": true,
+   "title": "Aplikacija za odplačilo dolgov: Spendry",
+   "description": "Spendry združi kartice, kredite in limite v en načrt odplačevanja po metodi snežne kepe ali plazu ter prikaže datum odplačila vseh dolgov.",
+   "h1": "Aplikacija za odplačilo dolgov z natančnim datumom",
+   "lead": "Enkrat vnesite vse dolgove. Spendry jih razvrsti po metodi snežne kepe ali snežnega plazu, prišteje mesečna dodatna plačila in izračuna mesec, ko boste povsem brez dolgov.",
+   "points": [
+    {
+     "h": "Vsi dolgovi v eni številki",
+     "p": "Kreditne kartice, posojila, računi z limitom, obroki in izposoje pri prijateljih: skupni dolg in mesečne obveznosti na enem mestu."
+    },
+    {
+     "h": "Snežna kepa ali snežni plaz, po vaši izbiri",
+     "p": "Najprej odplačajte najmanjši znesek za hiter zagon ali pa tistega z najvišjo obrestno mero za najmanj obresti. Spendry primerja obe metodi in sproti posodablja načrt."
+    },
+    {
+     "h": "Datum, ki se prilagaja vašim korakom",
+     "p": "Zabeležite plačilo ali dodajte izredni znesek in datum odplačila vseh dolgov se takoj premakne bližje."
+    },
+    {
+     "h": "Opomniki pred vsakim plačilom",
+     "p": "Obvestilo prejmete pred vsakim rokom plačila, tudi ko je aplikacija zaprta, zato ne zamudite minimalnega zneska in se izognete zamudnim obrestim."
+    }
+   ],
+   "steps_title": "Kako deluje načrt odplačevanja",
+   "steps": [
+    "Vnesite vsak dolg z zneskom, obrestno mero in minimalnim obrokom.",
+    "Izberite metodo snežne kepe ali snežnega plazu.",
+    "Določite, koliko dodatnega denarja lahko namenite vsak mesec.",
+    "Sprotno beležite plačila in opazujte, kako se ciljni datum približuje."
+   ],
+   "why_title": "V čem je razlika",
+   "why": [
+    "Kartice, krediti in obroki so vodeni podrobno, ne zgolj kot ena skupna vsota.",
+    "Brez prijave v banko in brez zbiranja podatkov.",
+    "Brezplačni kalkulatorji na tej strani uporabljajo enake metode, zato lahko svoje številke preizkusite že vnaprej."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Kaj je metoda snežne kepe?",
+     "a": "Pri vseh dolgovih plačujete minimalni znesek, ves preostali denar pa namenite najmanjšemu dolgu. Ko ga odplačate, njegov obrok preusmerite na naslednjega."
+    },
+    {
+     "q": "Kaj je metoda snežnega plazu?",
+     "a": "Dodatni denar najprej namenite dolgu z najvišjo obrestno mero, s čimer običajno plačate najmanj obresti na celotni poti."
+    },
+    {
+     "q": "Ali lahko spremljam denar, ki sem si ga sposodil od znancev?",
+     "a": "Da. Osebne dolgove lahko vnesete z obrestmi ali brez njih ter jih vključite v isti načrt odplačevanja."
+    },
+    {
+     "q": "Je načrt odplačevanja dolgov brezplačen?",
+     "a": "Začnete lahko brezplačno. Naročnina Premium odstrani omejitve brezplačne različice, na voljo pa je tudi en brezplačni teden za preizkus."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Nadzor kreditnih kartic",
+   "screen": "07",
+   "footer": true,
+   "title": "Aplikacija za kreditne kartice: datumi in stanja",
+   "description": "Spremljajte kreditne kartice v aplikaciji Spendry: datume izpiskov, roke plačil, stanja in obroke. Z opomnikom pred vsakim plačilom.",
+   "h1": "Vse kreditne kartice, izpiski in roki plačil",
+   "lead": "Spendry ve, kdaj se zaključi obračunsko obdobje kartice in kdaj zapade plačilo, posodablja stanje ter obroke in vas pravočasno opomni, da vas plačila nikoli ne presenetijo.",
+   "points": [
+    {
+     "h": "Datumi izpiskov in zapadlosti za vsako kartico",
+     "p": "Kartice dodajte enkrat z dnevom izpiska in dospelosti. Spendry prikaže vaš dolg in rok plačila za vsako med njimi."
+    },
+    {
+     "h": "Obroki na vaših karticah",
+     "p": "Pri nakupih na obroke vidite število preostalih obrokov in mesec, ko zapade zadnji."
+    },
+    {
+     "h": "Minimalno ali celotno plačilo",
+     "p": "Vnesite plačilo in stanje se posodobi. Brezplačni kalkulator za poplačilo kartic pokaže, koliko sčasoma stane le minimalno plačilo."
+    },
+    {
+     "h": "Opomnik pred rokom plačila",
+     "p": "Obvestila prispejo pred vsakim plačilom kartice, tudi ko je aplikacija zaprta. Plačilo označite kot poravnano neposredno v obvestilu."
+    }
+   ],
+   "steps_title": "Kako spremljati kartice",
+   "steps": [
+    "Dodajte vsako kartico z njenim limitom, dnevom izpiska in dospelosti.",
+    "Vnesite nakupe in obroke ali pa jih prenesite iz bančnih sporočil.",
+    "Zabeležite plačila, ko jih opravite.",
+    "Prepustite opomnikom, da vas obvestijo pred vsakim rokom plačila."
+   ],
+   "why_title": "Zakaj spremljati kartice v Spendryju",
+   "why": [
+    "Vse kartice na enem zaslonu s skupnim dolgom.",
+    "Datum odplačila vseh dolgov vključuje tudi vaše kartice.",
+    "Brez prijave v banko in brez zbiranja podatkov."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Kakšna je razlika med datumom izpiska in datumom dospelosti?",
+     "a": "Datum izpiska zaključi obračunsko obdobje in določi znesek dolga. Datum dospelosti je zadnji dan za plačilo brez obresti ali zamudnih stroškov."
+    },
+    {
+     "q": "Ali me lahko aplikacija opomni pred vsakim plačilom kartice?",
+     "a": "Da. Obvestilo prejmete pred vsakim rokom plačila, tudi če aplikacije nikoli ne odprete, in plačilo potrdite kar v obvestilu."
+    },
+    {
+     "q": "Ali lahko spremljam plačila na obroke?",
+     "a": "Da. Vsak obročni načrt prikazuje preostale obroke in mesec zadnjega plačila."
+    },
+    {
+     "q": "Ali se aplikacija poveže z izdajateljem kartice?",
+     "a": "Ne. Spendry nikoli ne zahteva bančne prijave. Kartice dodate in plačila beležite sami."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Opomnik za račune",
+   "screen": "07",
+   "footer": true,
+   "title": "Opomnik za račune: nikoli ne zamudite plačila",
+   "description": "Spendry vas opomni pred zapadlostjo računov, kartic, obrokov kreditov in naročnin, tudi ko je zaprt. Plačilo označite kar v obvestilu.",
+   "h1": "Opomnik za račune, ki prispe pravočasno",
+   "lead": "Spendry vas opomni pred vsakim računom, plačilom kartice, obrokom kredita in naročnino, tudi če aplikacije ne odprete. Preložite ga ali označite kot plačanega kar v obvestilu.",
+   "points": [
+    {
+     "h": "Vsi roki plačil na enem seznamu",
+     "p": "Računi, kartični izpiski, obroki kreditov in naročnine so zbrani na enem seznamu prihajajočih plačil, zapadli pa so vedno na vrhu."
+    },
+    {
+     "h": "Opomniki delujejo tudi pri zaprti aplikaciji",
+     "p": "Obvestila so razporejena na vaši napravi iPhone in prispejo pred rokom plačila. So časovno občutljiva, zato se lahko prebijejo skozi Fokus, če to dovolite."
+    },
+    {
+     "h": "Plačano ali preloženo z enim dotikom",
+     "p": "Plačilo označite kot poravnano ali pa ga preložite kar v obvestilu. Plačilo takoj posodobi vaše stanje in proračun."
+    },
+    {
+     "h": "Jutranji povzetek, če ga želite",
+     "p": "Pripravljena avtomatizacija v aplikaciji Bližnjice vam vsako jutro v enem obvestilu pošlje pregled plačil za naslednje tri dni."
+    }
+   ],
+   "steps_title": "Kako nastaviti opomnike",
+   "steps": [
+    "Dodajte račune, kartice, kredite in naročnine z njihovimi roki plačila.",
+    "Izberite, koliko dni prej želite prejeti opomnik.",
+    "Plačajte ali preložite neposredno iz obvestila.",
+    "Preverite seznam prihajajočih plačil, kadar koli želite celovit pregled."
+   ],
+   "why_title": "Zakaj deluje",
+   "why": [
+    "Eno mesto za vse vrste plačil, brez posebne aplikacije za vsak račun.",
+    "Opomniki delujejo, tudi če Spendry ostane zaprt.",
+    "Podatki ostanejo na vaši napravi iPhone, nič se ne zbira."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Ali bom prejemal opomnike, če aplikacije nikoli ne odprem?",
+     "a": "Da. Opomniki so razporejeni na vaši napravi iPhone in prispejo točno, tudi če Spendry ostane zaprt."
+    },
+    {
+     "q": "Ali lahko izberem čas opomnika?",
+     "a": "Da. Nastavite lahko število dni pred zapadlostjo, ko želite prejeti opomnik."
+    },
+    {
+     "q": "Ali me lahko opomni tudi na naročnine?",
+     "a": "Da. Naročnine, računi, plačila kartic in obroki kreditov imajo vsi svoje opomnike."
+    },
+    {
+     "q": "Ali opomniki potrebujejo internetno povezavo?",
+     "a": "Ne. Razporejeni so lokalno na vaši napravi."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Upravljanje naročnin",
+   "screen": "09",
+   "footer": true,
+   "title": "Aplikacija za naročnine: mesečni in letni stroški",
+   "description": "Spremljajte naročnine v Spendryju: mesečne in letne zneske, obnove in opomnike pred podaljšanjem, da pravočasno prekličete neuporabljene.",
+   "h1": "Spremljanje naročnin z letnim seštevkom",
+   "lead": "Dodajte naročnine enkrat in Spendry bo izračunal mesečne in letne stroške, prikazal naslednjo obnovo ter vas pravočasno opozoril, ko je še čas za preklic.",
+   "points": [
+    {
+     "h": "Mesečni in letni seštevki",
+     "p": "Tedenski, mesečni in letni paketi se združijo v en mesečni in en letni znesek, zato majhni stroški niso več skriti."
+    },
+    {
+     "h": "Opomnik pred vsako obnovo",
+     "p": "Prejmite obvestilo nekaj dni pred obnovo naročnine, ko jo še lahko pravočasno prekličete."
+    },
+    {
+     "h": "Vprašajte v preprostem jeziku",
+     "p": "Vprašajte Spendryjevega pomočnika, koliko vas naročnine stanejo na leto, in dobili boste skupni znesek s seznamom vseh storitev."
+    },
+    {
+     "h": "Del vašega celotnega proračuna",
+     "p": "Naročnine se upoštevajo pri proračunih in prihajajočih plačilih, tako da jih vidite skupaj z vsemi drugimi stroški."
+    }
+   ],
+   "steps_title": "Kako spremljati naročnine",
+   "steps": [
+    "Dodajte vsako naročnino s ceno, obračunskim obdobjem in datumom obnove.",
+    "Preverite mesečne in letne seštevke.",
+    "Vklopite opomnike pred obnovitvami.",
+    "Prekličite storitve, ki jih ne uporabljate več, in znižajte stroške."
+   ],
+   "why_title": "Zakaj koristi",
+   "why": [
+    "Naročnine katere koli storitve, ne le iz trgovine App Store.",
+    "Brez bančne prijave: vsako storitev dodate le enkrat.",
+    "Brezplačni kalkulator stroškov naročnin na tej spletni strani."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Ali Spendry samodejno najde moje naročnine?",
+     "a": "Ne. Ker se ne povezuje z banko, vsako naročnino dodate enkrat sami. Nato aplikacija samostojno vodi obnove in seštevke."
+    },
+    {
+     "q": "Ali lahko spremljam letne naročnine?",
+     "a": "Da. Podprti so tedenski, mesečni in letni paketi, ki so prikazani v skupnih mesečnih ter letnih zneskih."
+    },
+    {
+     "q": "Ali me opomni pred obnovo naročnine?",
+     "a": "Da, nekaj dni pred vsako obnovo, tudi če aplikacija ostane zaprta."
+    },
+    {
+     "q": "Kako prekličem naročnino na napravi iPhone?",
+     "a": "Naročnine iz trgovine App Store prekličete v Nastavitvah pod svojim imenom in možnostjo Naročnine. Druge storitve prekličete na njihovi spletni strani ali v njihovi aplikaciji."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Sledenje stroškom",
+   "screen": "03",
+   "title": "Aplikacija za stroške za iPhone: Spendry",
+   "description": "Zabeležite odhodek v nekaj sekundah prek aplikacije, pripomočka, Siri ali Apple Pay. Pregledni grafikoni. Brez prijave v banko.",
+   "h1": "Sledenje stroškom v nekaj sekundah",
+   "lead": "Vnesite znesek, izberite kategorijo in to je vse. Ali pa vprašajte Siri, uporabite pripomoček ali pustite, da se nakupi z Apple Pay zabeležijo sami. Nato točno poglejte, kam gre vaš denar.",
+   "points": [
+    {
+     "h": "Hitro dodajanje na vse načine",
+     "p": "Dodajte iz aplikacije, pripomočka na domačem zaslonu, prek Siri ali avtomatizacije v bližnjicah, ob odhodku pa shranite še skeniran račun."
+    },
+    {
+     "h": "Grafikoni, ki dajejo odgovore",
+     "p": "Tedenski in mesečni pregledi po kategorijah ter dnevih, vaše dnevno povprečje in tempo porabe glede na prejšnje obdobje."
+    },
+    {
+     "h": "Proračuni vas pravočasno opozorijo",
+     "p": "Odhodki polnijo proračune posameznih kategorij, Spendry pa vas opozori, še preden katerega porabite."
+    },
+    {
+     "h": "Vaše lastne kategorije",
+     "p": "Ustvarite kategorije, ki jih potrebujete, z lastnimi imeni in ikonami, namesto da se prilagajate vnaprej določenemu seznamu."
+    }
+   ],
+   "steps_title": "Kako začeti spremljati stroške",
+   "steps": [
+    "Dodajte prve odhodke iz aplikacije ali pripomočka.",
+    "Ustvarite proračune za kategorije, ki so vam pomembne.",
+    "Vklopite avtomatizacijo za Apple Pay, če plačujete s telefonom.",
+    "Vsak teden preverite grafikone."
+   ],
+   "why_title": "Zakaj Spendry",
+   "why": [
+    "Brez prijave v banko, brez zbiranja podatkov.",
+    "Pripomočki, Siri in Bližnjice omogočajo hiter vnos odhodkov.",
+    "Deluje v kateri koli valuti, v 44 jezikih."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Ali lahko dodam odhodek, ne da bi odprl aplikacijo?",
+     "a": "Da. Uporabite pripomoček na domačem zaslonu, vprašajte Siri ali nastavite Bližnjice za samodejno beleženje plačil z Apple Pay."
+    },
+    {
+     "q": "Ali lahko shranjujem račune?",
+     "a": "Da. Ko uporabite možnost Skeniraj račun pri dodajanju odhodka, ostane račun shranjen neposredno ob njem."
+    },
+    {
+     "q": "Ali aplikacija podpira vse valute?",
+     "a": "Da. Ob začetku izberite svojo valuto; naložbe in računi v tujih valutah imajo lahko svojo."
+    },
+    {
+     "q": "Ali je aplikacija brezplačna?",
+     "a": "Da, osnovne funkcije so brezplačne. Premium je izbiren, z enim brezplačnim tednom za preizkus."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Spremljanje obrokov",
+   "screen": "06",
+   "title": "Aplikacija za obroke: Nakupi na obroke",
+   "description": "Spremljajte obroke v aplikaciji Spendry: koliko plačil vam ostane, mesečni znesek in datum zadnjega plačila z opomnikom pred vsakim obrokom.",
+   "h1": "Vsak obrok in mesec, ko ga odplačate",
+   "lead": "Kartice z obročnim plačilom in storitve kupi zdaj, plačaj pozneje se hitro neopazno naberejo. Spendry pokaže, koliko plačil še ostane pri vsakem nakupu, kolikšen je mesečni znesek in kdaj pride zadnji obrok.",
+   "points": [
+    {
+     "h": "Vaša mesečna obveznost iz naslova obrokov",
+     "p": "Oglejte si skupni znesek vseh obrokov, ki zapadejo v tem mesecu in v prihodnjih mesecih, da se novi nakupi ne kopičijo neopazno."
+    },
+    {
+     "h": "Datum zaključka vsakega odplačevanja",
+     "p": "Pri vsakem načrtu so prikazani preostali obroki in mesec zadnjega plačila."
+    },
+    {
+     "h": "Opomniki pred vsakim plačilom",
+     "p": "Obvestilo prejmete pred vsakim zapadlim obrokom, tudi ko je aplikacija zaprta."
+    },
+    {
+     "h": "Del vašega načrta za odplačilo vseh dolgov",
+     "p": "Obroki se štejejo v vaš skupni dolg in načrt za odplačilo."
+    }
+   ],
+   "steps_title": "Kako spremljati obroke",
+   "steps": [
+    "Dodajte nakup s skupnim zneskom, številom obrokov in datumom prvega plačila.",
+    "Preverite mesečni znesek in končni datum.",
+    "Zabeležite vsako plačilo ali ga označite kot plačanega neposredno iz opomnika.",
+    "Pred novim nakupom preverite skupni mesečni znesek vseh obrokov."
+   ],
+   "why_title": "Zakaj to pomaga",
+   "why": [
+    "Obroki na karticah in odložena plačila na enem mestu.",
+    "Obroki so prikazani ob proračunih in drugih dolgovih, zato je dejanska mesečna poraba jasna.",
+    "Brez prijave v banko, brez zbiranja podatkov."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Ali lahko spremljam nakupe po načelu kupi zdaj, plačaj pozneje?",
+     "a": "Da. Vnesite kateri koli nakup s skupnim zneskom, številom plačil in prvim datumom, Spendry pa poskrbi za ostalo."
+    },
+    {
+     "q": "Ali je prikazan skupni mesečni znesek obrokov?",
+     "a": "Da. Vidite skupni znesek vseh obrokov za ta mesec in obveznosti za prihodnje mesece."
+    },
+    {
+     "q": "Ali prejmem opomnik pred vsakim obrokom?",
+     "a": "Da, pred vsakim plačilom, tudi če aplikacije ne odprete."
+    },
+    {
+     "q": "Ali obroki vplivajo na datum odplačila vseh dolgov?",
+     "a": "Da. Vključeni so v vaš celotni dolg in načrt za odplačilo."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Varčevalni cilji",
+   "screen": "05",
+   "title": "Aplikacija za varčevalne cilje: Spendry",
+   "description": "Zastavite varčevalne cilje v aplikaciji Spendry, dodajajte prihranke, spremljajte napredek in delite cilj s partnerjem prek storitve iCloud.",
+   "h1": "Aplikacija za varčevanje, ki vas spodbuja",
+   "lead": "Določite znesek za vsak cilj in dodajte denar vsakič, ko privarčujete. Spendry vam vsak dan pokaže, kako blizu ste, v aplikaciji in na domačem zaslonu.",
+   "points": [
+    {
+     "h": "Jasen cilj",
+     "p": "Vsak cilj ima znesek in vrstico napredka, ki prikazuje, koliko morate še privarčevati."
+    },
+    {
+     "h": "Na vašem domačem zaslonu",
+     "p": "Pripomoček za cilje ohranja vaš napredek na očeh, tako da varčevanje ostaja med vašimi prioritetami."
+    },
+    {
+     "h": "Varčujte skupaj",
+     "p": "Delite cilj s partnerjem ali družino prek storitve iCloud; vsakdo dodaja k istemu cilju s svojega telefona iPhone."
+    },
+    {
+     "h": "Ob vašem proračunu",
+     "p": "Denar, ki ga namenite za cilje, je del vaše mesečne slike, takoj ob proračunih in plačilih."
+    }
+   ],
+   "steps_title": "Kako varčevati za cilj",
+   "steps": [
+    "Ustvarite cilj z zneskom, ki ga želite doseči.",
+    "Dodajte denar k cilju vsakič, ko nekaj privarčujete.",
+    "Spremljajte napredek v aplikaciji ali prek pripomočka.",
+    "Delite cilj, če varčujete skupaj z nekom drugim."
+   ],
+   "why_title": "Zakaj to pomaga",
+   "why": [
+    "Cilji so prikazani ob vaših proračunih in dolgovih.",
+    "Deljeni cilji se sinhronizirajo prek storitve iCloud.",
+    "Brezplačni kalkulator varčevalnih ciljev na tem spletnem mestu."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Ali imam lahko več ciljev hkrati?",
+     "a": "Da. Ustvarite cilj za vsako stvar, za katero varčujete, in dodajajte denar ločeno k vsakemu."
+    },
+    {
+     "q": "Ali lahko delim cilj s partnerjem?",
+     "a": "Da. Deljeni cilji se sinhronizirajo prek storitve iCloud, pri čemer vsak uporablja svoj račun Apple Account."
+    },
+    {
+     "q": "Ali obstaja pripomoček za cilje?",
+     "a": "Da. Pripomoček za cilje prikazuje vaš napredek neposredno na domačem zaslonu."
+    },
+    {
+     "q": "Koliko naj privarčujem vsak mesec?",
+     "a": "Preostali znesek delite s številom mesecev do želenega datuma. Brezplačni kalkulator varčevalnih ciljev na tem spletnem mestu to izračuna namesto vas, vključno z obrestmi."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Sledenje neto premoženju",
+   "screen": "08",
+   "title": "Aplikacija za neto premoženje: cene v živo",
+   "description": "Spremljajte neto premoženje v Spendry: računi, naložbe s cenami v živo, zlato in valute, zmanjšano za kartice, kredite in dolgove, v eni številki.",
+   "h1": "Vaše neto premoženje v eni številki, ki je vedno ažurna",
+   "lead": "Spendry sešteje vaše račune in naložbe, odšteje vaše dolgove ter prikaže neto premoženje. Delnice, kriptovalute, zlato in valute se posodabljajo s cenami v živo.",
+   "points": [
+    {
+     "h": "Vse, kar imate in dolgujete",
+     "p": "Gotovina, računi, naložbe in prihranki v primerjavi s karticami, krediti, obroki in osebnimi dolgovi."
+    },
+    {
+     "h": "Cene v živo",
+     "p": "Delnice, kriptovalute, zlato in valute se posodabljajo s tržnimi cenami v živo ob vaši porabi."
+    },
+    {
+     "h": "Naložbe v lastni valuti",
+     "p": "Naložbe in računi v tujih valutah ohranijo svojo valuto, vaše neto premoženje pa je prikazano v vaši."
+    },
+    {
+     "h": "Na domačem zaslonu",
+     "p": "Pripomoček za neto premoženje poskrbi, da imate številko vedno pred očmi."
+    }
+   ],
+   "steps_title": "Kako spremljati neto premoženje",
+   "steps": [
+    "Dodajte svoje račune in njihova stanja.",
+    "Dodajte naložbe s količino, ki jo imate.",
+    "Dodajte svoje dolgove.",
+    "Spremljajte svoje neto premoženje ob spreminjanju cen in stanj."
+   ],
+   "why_title": "Zakaj Spendry",
+   "why": [
+    "Dolgovi in naložbe v isti aplikaciji kot vaš proračun.",
+    "Brez prijave v banko ali borzno posredništvo.",
+    "Podatki se ne zbirajo."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Katere naložbe lahko spremljam?",
+     "a": "Delnice, kriptovalute, zlato in valute s cenami v živo."
+    },
+    {
+     "q": "Ali se aplikacija poveže z mojo borzo?",
+     "a": "Ne. Dodate svoje imetje, cene pa se posodabljajo same."
+    },
+    {
+     "q": "Naj vključim svoje stanovanje ali avto?",
+     "a": "Mnogi spremljajo le tisto, kar se spreminja iz meseca v mesec: gotovino, naložbe in dolgove. Dodajte več, če vam to pomaga."
+    },
+    {
+     "q": "Ali obstaja pripomoček za neto premoženje?",
+     "a": "Da, za vaš domači zaslon."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "Deljeni proračun",
+   "screen": "04",
+   "title": "Deljeni proračun za pare in družine",
+   "description": "Delite proračune in varčevalne cilje s partnerjem ali družino v Spendry. Vsak uporablja svoj iPhone in račun Apple, sinhronizacija poteka prek storitve iCloud.",
+   "h1": "Aplikacija za deljeni proračun za pare in družine",
+   "lead": "Delite proračun ali varčevalni cilj s partnerjem ali družino. Vsakdo dodaja s svojega telefona iPhone, Spendry pa vse usklajuje prek storitve iCloud, brez ustvarjanja dodatnih računov.",
+   "points": [
+    {
+     "h": "Delite le tisto, kar želite",
+     "p": "Delite gospodinjski proračun ali cilj, ostale finance pa naj ostanejo zasebne."
+    },
+    {
+     "h": "Vsak dodaja s svojega telefona",
+     "p": "Vsaka oseba uporablja svoj račun Apple, deljeni proračuni in cilji pa se posodabljajo za vse."
+    },
+    {
+     "h": "Brez novih računov, brez strežnikov",
+     "p": "Deljenje deluje prek storitve iCloud. Spendry nima sistema računov in ne zbira podatkov."
+    },
+    {
+     "h": "En cilj, več sodelujočih",
+     "p": "Varčujte za počitnice ali dom skupaj, saj vsak prispevek premika isti cilj."
+    }
+   ],
+   "steps_title": "Kako deliti proračun",
+   "steps": [
+    "Ustvarite proračun ali cilj.",
+    "Delite ga iz aplikacije Spendry s partnerjem ali družino.",
+    "Povabilo sprejmejo na svojem telefonu iPhone.",
+    "Vsi dodajajo stroške ali prihranke, vse pa ostaja usklajeno."
+   ],
+   "why_title": "Zakaj deliti z aplikacijo Spendry",
+   "why": [
+    "Vaši drugi proračuni in dolgovi ostanejo zasebni.",
+    "Brez dodatne prijave: deljenje deluje prek storitve iCloud.",
+    "Podatki se ne zbirajo."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Ali moj partner prav tako potrebuje Spendry?",
+     "a": "Da, na svojem telefonu iPhone ali tablici iPad, z lastnim računom Apple."
+    },
+    {
+     "q": "Ali lahko partner vidi vso mojo porabo?",
+     "a": "Ne. Delijo se le proračuni in cilji, ki jih delite, ostalo ostane zasebno."
+    },
+    {
+     "q": "Kako deluje deljenje?",
+     "a": "Prek deljenja v storitvi iCloud. Vmes ni nobenega računa Spendry ali strežnika Spendry."
+    },
+    {
+     "q": "Ali lahko delim z več kot eno osebo?",
+     "a": "Da. K deljenemu proračunu ali cilju lahko povabite več družinskih članov."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Spremljanje kreditov",
+   "screen": "06",
+   "title": "Spremljanje kreditov: obresti in plačila",
+   "description": "Spremljajte kredite v Spendry: preostanek dolga, obresti in glavnico pri vsakem plačilu, preostale obroke ter opomnik pred vsakim plačilom.",
+   "h1": "Pregled kreditov, ki prikazuje vaše dejanske stroške",
+   "lead": "Kredit dodajte enkrat, Spendry pa bo prikazal preostalo stanje, delež obresti pri vsakem plačilu, število preostalih obrokov in vas opomnil pred vsakim obrokom.",
+   "points": [
+    {
+     "h": "Celoten načrt odplačevanja",
+     "p": "Vsak obrok z obrestmi in glavnico, da natančno vidite, koliko kredit v resnici stane."
+    },
+    {
+     "h": "Preostala plačila in datum zaključka",
+     "p": "Število preostalih obrokov in mesec zadnjega plačila."
+    },
+    {
+     "h": "Opomniki pred vsakim obrokom",
+     "p": "Obvestilo prejmete pred vsakim rokom plačila, tudi ko je aplikacija zaprta."
+    },
+    {
+     "h": "Del vašega načrta za odplačilo dolgov",
+     "p": "Krediti se upoštevajo pri vašem skupnem dolgu in datumu odplačila vseh dolgov."
+    }
+   ],
+   "steps_title": "Kako spremljati kredit",
+   "steps": [
+    "Dodajte kredit z zneskom, obrestno mero, dobo odplačevanja in datumom prvega plačila.",
+    "Preverite načrt odplačevanja in skupne stroške.",
+    "Zabeležite plačila, ko jih opravite.",
+    "Spremljajte svoj datum odplačila vseh dolgov."
+   ],
+   "why_title": "Zakaj Spendry",
+   "why": [
+    "Osebni, avtomobilski, stanovanjski in študentski krediti na enem mestu.",
+    "Brez prijave v banko, brez zbiranja podatkov.",
+    "Brezplačen kalkulator za kredite na tej spletni strani."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Katere kredite lahko spremljam?",
+     "a": "Osebne, avtomobilske, stanovanjske, študentske in druge obročne kredite ter denar, ki ga dolgujete ljudem."
+    },
+    {
+     "q": "Ali aplikacija prikazuje, koliko obresti plačam?",
+     "a": "Da. Vidite obresti pri vsakem plačilu in za celotno obdobje kredita."
+    },
+    {
+     "q": "Ali me bo opomnila pred vsakim plačilom?",
+     "a": "Da, pred vsakim rokom plačila, tudi če aplikacije sploh ne odprete."
+    },
+    {
+     "q": "Ali se aplikacija poveže z mojo banko?",
+     "a": "Ne. Kredit dodate enkrat, Spendry pa sam izračuna načrt odplačevanja."
+    }
+   ]
+  }
+ ]
 }

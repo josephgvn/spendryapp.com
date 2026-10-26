@@ -1553,5 +1553,835 @@
    "final_title": "Ketahui setiap pembaharuan lebih awal.",
    "final_text": "Muat turun Spendry, masukkan langganan anda dan dapatkan peringatan awal sebelum setiap pembaharuan."
   }
- }
+ },
+ "app_labels": {
+  "free": "Percuma di App Store. Premium pilihan, dengan seminggu percuma.",
+  "more": "Lagi fungsi yang Spendry tawarkan",
+  "cta": "Muat turun Spendry dan lihat seluruh bulan anda di satu tempat.",
+  "tools_title": "Kalkulator percuma",
+  "guides_title": "Panduan"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "Aplikasi bajet",
+   "screen": "04",
+   "footer": true,
+   "title": "Aplikasi Bajet untuk iPhone: Spendry",
+   "description": "Spendry ialah aplikasi bajet untuk iPhone dan iPad. Urus bajet, kad, pinjaman dan bil di satu tempat dengan peringatan bayaran tanpa log masuk bank.",
+   "h1": "Aplikasi bajet yang tahu komitmen akan datang",
+   "lead": "Spendry menetapkan had bagi setiap kategori, memberi amaran sebelum bajet habis dan memaparkan bil, bayaran kad serta ansuran bulan ini. Tanpa log masuk bank.",
+   "points": [
+    {
+     "h": "Bajet yang sentiasa seiring dengan anda",
+     "p": "Tetapkan had bulanan untuk barangan dapur, makan di luar atau apa sahaja. Setiap perbelanjaan mengisi bajetnya, dan Spendry memberi amaran sebelum anda melebihi had, bukan selepasnya."
+    },
+    {
+     "h": "Baki perbelanjaan bulan ini, lebih awal",
+     "p": "Penyata kad, bayaran pinjaman, bil dan langganan sebelum hari gaji dipaparkan bersebelahan baki anda, supaya anda tahu jumlah sebenar yang tinggal untuk dibelanjakan."
+    },
+    {
+     "h": "Tambah perbelanjaan dalam beberapa saat",
+     "p": "Masukkan jumlah dan pilih kategori, imbas resit, tambah melalui widget, atau biarkan pengautomatan aplikasi Pintasan merekodkan pembelian Apple Pay untuk anda."
+    },
+    {
+     "h": "Lihat ke mana wang anda pergi",
+     "p": "Carta mingguan dan bulanan mengikut kategori dan hari menunjukkan bajet mana yang tersasar serta perbandingan bulan ini dengan bulan lepas."
+    }
+   ],
+   "steps_title": "Cara memulakan bajet dalam Spendry",
+   "steps": [
+    "Tambah pendapatan anda serta akaun atau kad yang anda gunakan.",
+    "Cipta bajet bagi kategori perbelanjaan utama dan tetapkan had.",
+    "Rekod perbelanjaan sebaik ia berlaku, atau aktifkan pengautomatan Apple Pay.",
+    "Pada hujung bulan, semak carta dan selaraskan had untuk bulan depan."
+   ],
+   "why_title": "Sebab ramai memilih Spendry",
+   "why": [
+    "Tanpa log masuk bank: anda tentukan apa yang dimasukkan, tiada sambungan ke bank.",
+    "Data anda kekal pada iPhone anda dan dalam iCloud anda sendiri; tiada data dikumpul.",
+    "Hutang, kad dan ansuran berada bersebelahan bajet anda, bukan dalam aplikasi lain.",
+    "Percuma untuk dimuat turun, dengan pilihan Premium."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Adakah Spendry aplikasi bajet percuma?",
+     "a": "Ya. Bajet, perbelanjaan, peringatan dan ciri asas adalah percuma. Premium adalah pilihan: langganan bulanan atau tahunan dengan seminggu percuma, atau pembelian Seumur Hidup sekali bayar."
+    },
+    {
+     "q": "Adakah Spendry memerlukan akses ke akaun bank saya?",
+     "a": "Tidak. Aplikasi ini tidak pernah meminta log masuk bank. Anda boleh menambah perbelanjaan sendiri, mengimportnya daripada mesej bank atau menggunakan pengautomatan aplikasi Pintasan untuk Apple Pay."
+    },
+    {
+     "q": "Bolehkah saya berkongsi bajet dengan pasangan saya?",
+     "a": "Ya. Belanjawan Dikongsi dan matlamat diselaraskan melalui iCloud, dan setiap individu menggunakan Akaun Apple mereka sendiri."
+    },
+    {
+     "q": "Aplikasi ini berfungsi pada peranti mana?",
+     "a": "iPhone dan iPad dengan iOS 17 atau lebih baharu. Versi untuk Mac juga tersedia di Mac App Store."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Aplikasi bajet tanpa log masuk bank",
+   "screen": "02",
+   "footer": true,
+   "title": "Aplikasi Bajet Tanpa Pautkan Akaun Bank: Spendry",
+   "description": "Aplikasi bajet tanpa log masuk bank: tambah perbelanjaan sendiri, import mesej bank atau guna Pintasan untuk Apple Pay. Data kekal pada iPhone anda.",
+   "h1": "Aplikasi bajet yang tidak meminta log masuk bank anda",
+   "lead": "Banyak aplikasi bajet meminta kata laluan bank anda. Spendry tidak menyambung ke bank anda sama sekali: anda tentukan maklumat yang masuk, dan rekod kekal pada iPhone serta iCloud anda.",
+   "points": [
+    {
+     "h": "Tiada sambungan ke bank anda",
+     "p": "Tiada log masuk bank, tiada pihak ketiga dan tiada akaun perlu didaftarkan. Spendry berfungsi sama di setiap negara, dengan sebarang bank, kad atau mata wang."
+    },
+    {
+     "h": "Menambah perbelanjaan kekal pantas",
+     "p": "Masukkan jumlah, imbas resit, tambah daripada widget Skrin Utama atau tanya Siri. Anda juga boleh menukar mesej teks bank kepada rekod perbelanjaan."
+    },
+    {
+     "h": "Pembelian Apple Pay boleh direkodkan sendiri",
+     "p": "Aktifkan pengautomatan aplikasi Pintasan yang sedia ada dan setiap pembelian Apple Pay akan ditambah ke dalam Spendry bersama jumlahnya."
+    },
+    {
+     "h": "Data tidak dikumpul",
+     "p": "Tiada iklan, tiada analitik, tiada penjejakan. Label privasi App Store menyatakan Data Tidak Dikumpul, dan anda boleh mengunci aplikasi dengan Face ID."
+    }
+   ],
+   "steps_title": "Cara ia berfungsi tanpa sambungan bank",
+   "steps": [
+    "Tambah kad, pinjaman dan akaun anda bersama baki semasa.",
+    "Rekod perbelanjaan sebaik ia berlaku, atau bawa masuk daripada mesej bank.",
+    "Aktifkan pengautomatan Apple Pay dalam aplikasi Pintasan.",
+    "Semak baki dan bajet anda; peringatan akan memberitahu anda sebelum tiba tarikh bayaran."
+   ],
+   "why_title": "Sebab elak sambungan ke bank",
+   "why": [
+    "Kata laluan bank anda tidak pernah keluar daripada kawalan anda.",
+    "Tiada isu sambungan terputus atau transaksi hilang apabila bank menukar sistem mereka.",
+    "Berfungsi dengan mana-mana bank, termasuk bank yang tidak disokong oleh aplikasi bajet lain.",
+    "Merekod perbelanjaan secara manual membantu anda lebih peka dengan wang anda."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Mengapakah Spendry tidak menyambung ke bank saya?",
+     "a": "Supaya log masuk bank dan transaksi anda tidak pernah melalui pelayan sesiapa pun. Rekod anda kekal pada iPhone anda dan dalam iCloud anda sendiri."
+    },
+    {
+     "q": "Bukankah menambah perbelanjaan secara manual itu lambat?",
+     "a": "Ia hanya mengambil beberapa saat, dan anda boleh melangkaunya untuk Apple Pay dengan pengautomatan aplikasi Pintasan, menggunakan widget, bertanya kepada Siri atau mengimport mesej bank."
+    },
+    {
+     "q": "Bolehkah Spendry membaca mesej teks bank saya?",
+     "a": "Tidak secara automatik. Anda tampal atau kongsi mesej bank ke dalam Spendry, dan aplikasi ini akan menukarnya menjadi rekod perbelanjaan."
+    },
+    {
+     "q": "Adakah data saya selamat?",
+     "a": "Spendry tidak mengumpul sebarang data. Rekod anda kekal pada peranti anda dan diselaraskan melalui iCloud anda sendiri, serta anda boleh mengunci aplikasi dengan Face ID."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "Aplikasi bayar hutang",
+   "screen": "06",
+   "footer": true,
+   "title": "Aplikasi Bayar Hutang: Pelan Snowball & Avalanche",
+   "description": "Spendry satukan kad, pinjaman dan ansuran dalam satu pelan Snowball atau Avalanche, serta memaparkan bulan anda bebas daripada hutang.",
+   "h1": "Aplikasi bayar hutang yang menunjukkan tarikh bebas hutang anda",
+   "lead": "Tambah setiap hutang sekali sahaja. Spendry menyusunnya mengikut kaedah Snowball atau Avalanche, menambah bayaran lebihan bulanan anda dan menunjukkan bulan anda akan bebas daripada segalanya.",
+   "points": [
+    {
+     "h": "Semua hutang dalam satu angka",
+     "p": "Kad kredit, pinjaman, akaun overdraf, ansuran dan wang yang dipinjam daripada rakan, dengan jumlah hutang dan bayaran bulanan anda sepintas lalu."
+    },
+    {
+     "h": "Snowball atau Avalanche, pilihan anda",
+     "p": "Selesaikan baki terkecil dahulu untuk motivasi pantas, atau kadar faedah tertinggi dahulu untuk jimatkan faedah. Spendry membandingkan kedua-duanya dan mengemas kini pelan semasa anda membayar."
+    },
+    {
+     "h": "Tarikh yang berganjak bersama tindakan anda",
+     "p": "Rekod bayaran atau tambah amaun lebihan, dan tarikh anda bebas hutang akan menjadi lebih awal serta-merta."
+    },
+    {
+     "h": "Peringatan sebelum setiap tarikh akhir",
+     "p": "Pemberitahuan dihantar sebelum setiap bayaran, walaupun aplikasi ditutup, jadi anda tidak akan terlepas bayaran minimum atau dikenakan caj lewat."
+    }
+   ],
+   "steps_title": "Cara pelan pelunasan hutang berfungsi",
+   "steps": [
+    "Tambah setiap hutang bersama baki, kadar faedah dan bayaran minimum.",
+    "Pilih kaedah Snowball atau Avalanche.",
+    "Tetapkan jumlah lebihan yang anda mampu bayar setiap bulan.",
+    "Rekod bayaran apabila anda selesai membayar dan saksikan tarikh berganjak."
+   ],
+   "why_title": "Kelebihan yang berbeza",
+   "why": [
+    "Kad, pinjaman dan ansuran dijejaki secara terperinci, bukan sebagai satu nombor kasar.",
+    "Tanpa log masuk bank dan tiada data dikumpul.",
+    "Kalkulator percuma di laman web ini menggunakan kaedah yang sama, jadi anda boleh mengira nombor anda terlebih dahulu."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Apakah kaedah Snowball?",
+     "a": "Anda membayar jumlah minimum untuk setiap hutang dan menyalurkan wang lebihan kepada baki terkecil. Setelah selesai, jumlah bayarannya dialihkan ke hutang seterusnya."
+    },
+    {
+     "q": "Apakah kaedah Avalanche?",
+     "a": "Wang lebihan disalurkan kepada hutang dengan kadar faedah tertinggi dahulu, yang biasanya menjimatkan paling banyak kos faedah secara keseluruhan."
+    },
+    {
+     "q": "Bolehkah saya menjejaki wang yang dipinjam daripada rakan atau keluarga?",
+     "a": "Ya. Hutang peribadi boleh ditambah dengan atau tanpa faedah dan dimasukkan ke dalam pelan yang sama."
+    },
+    {
+     "q": "Adakah pelan hutang ini percuma?",
+     "a": "Anda boleh bermula secara percuma. Premium membuka semua had versi percuma, dengan seminggu percuma untuk mencubanya."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Penjejak kad kredit",
+   "screen": "07",
+   "footer": true,
+   "title": "Aplikasi Penjejak Kad Kredit: Baki dan Tarikh Akhir",
+   "description": "Jejak Kad Kredit dalam Spendry: tarikh penyata, tarikh akhir bayaran, baki dan ansuran. Lengkap dengan peringatan sebelum tarikh matang.",
+   "h1": "Semua kad kredit, penyata dan tarikh akhir",
+   "lead": "Spendry tahu tarikh tutup penyata dan tarikh akhir setiap kad, mengemas kini baki serta ansuran, dan mengingatkan anda sebelum tiba masanya untuk membayar.",
+   "points": [
+    {
+     "h": "Tarikh penyata dan tarikh akhir untuk setiap kad",
+     "p": "Masukkan kad anda sekali bersama tarikh penyata dan hari bayaran. Spendry memaparkan baki hutang dan bila anda perlu membayarnya."
+    },
+    {
+     "h": "Ansuran pada kad anda",
+     "p": "Pembelian secara Ansuran memaparkan baki bilangan bayaran yang tinggal serta bulan untuk bayaran yang terakhir."
+    },
+    {
+     "h": "Bayaran minimum atau penuh",
+     "p": "Rekod bayaran dan baki akan dikemas kini. Alat percuma untuk bayaran kad menunjukkan jumlah kos sebenar jika anda hanya membayar jumlah minimum."
+    },
+    {
+     "h": "Peringatan sebelum tarikh akhir",
+     "p": "Pemberitahuan tiba sebelum bayaran kad dibuat, walaupun aplikasi ditutup. Tandakan bayaran selesai terus daripada pemberitahuan."
+    }
+   ],
+   "steps_title": "Cara menjejak kad anda",
+   "steps": [
+    "Tambah setiap kad bersama had, tarikh penyata dan tarikh bayaran.",
+    "Rekod pembelian dan ansuran, atau masukkannya daripada mesej bank.",
+    "Catat bayaran sebaik sahaja anda selesai membayar.",
+    "Biar peringatan memaklumkan anda sebelum setiap tarikh akhir bayaran."
+   ],
+   "why_title": "Kelebihan menjejak kad dalam Spendry",
+   "why": [
+    "Semua kad pada satu skrin dengan jumlah baki hutang keseluruhan.",
+    "Tarikh anda bebas hutang mengambil kira baki kad anda.",
+    "Tanpa log masuk bank, tiada data peribadi dikumpulkan."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Apakah perbezaan antara tarikh penyata dan tarikh akhir bayaran?",
+     "a": "Tarikh penyata ialah penutup kitaran bil dan menetapkan baki anda, manakala tarikh akhir ialah hari terakhir bayaran dibuat tanpa faedah atau caj lewat."
+    },
+    {
+     "q": "Bolehkah aplikasi mengingatkan saya sebelum setiap bayaran kad?",
+     "a": "Boleh. Anda menerima pemberitahuan sebelum setiap tarikh akhir bayaran, walaupun aplikasi tidak dibuka, dan anda boleh menandakannya sebagai selesai."
+    },
+    {
+     "q": "Bolehkah saya menjejak ansuran kad kredit?",
+     "a": "Boleh. Setiap pelan ansuran memaparkan bayaran yang tinggal dan bulan terakhir bayaran."
+    },
+    {
+     "q": "Adakah aplikasi ini bersambung dengan pengeluar kad saya?",
+     "a": "Tidak. Spendry tidak meminta log masuk perbankan anda. Anda masukkan kad dan rekod bayaran sendiri secara manual."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Aplikasi peringatan bil",
+   "screen": "07",
+   "footer": true,
+   "title": "Aplikasi Peringatan Bil: Jangan Terlepas Bayaran",
+   "description": "Spendry memberi Peringatan sebelum Bil, kad, ansuran pinjaman dan langganan perlu dibayar, walaupun aplikasi ditutup. Tandakan selesai serta-merta.",
+   "h1": "Aplikasi peringatan bil yang tiba tepat pada masanya",
+   "lead": "Spendry memberi peringatan sebelum setiap bil, bayaran kad, ansuran pinjaman dan langganan, walaupun aplikasi ditutup. Tangguhkan atau tandakan selesai terus dari notifikasi.",
+   "points": [
+    {
+     "h": "Semua tarikh akhir dalam satu senarai",
+     "p": "Bil, penyata kad, ansuran pinjaman dan langganan dipaparkan dalam satu senarai, dengan bayaran tertunggak di bahagian teratas."
+    },
+    {
+     "h": "Peringatan tanpa perlu membuka aplikasi",
+     "p": "Pemberitahuan dijadualkan pada iPhone anda dan dihantar sebelum tarikh akhir. Ia menyokong Time Sensitive, jadi ia tetap sampai semasa mod Fokus aktif jika dibenarkan."
+    },
+    {
+     "h": "Tandakan bayar atau tangguhkan dengan satu ketukan",
+     "p": "Tandakan bayaran telah dibayar atau tangguhkannya terus daripada pemberitahuan. Bayaran akan terus mengemas kini baki dan bajet anda."
+    },
+    {
+     "h": "Ringkasan pagi jika anda mahukannya",
+     "p": "Automasi Apple Shortcuts yang sedia ada menghantar jadual bayaran tiga hari akan datang dalam satu pemberitahuan setiap pagi."
+    }
+   ],
+   "steps_title": "Cara menyediakan peringatan anda",
+   "steps": [
+    "Tambah bil, kad, pinjaman dan langganan dengan tarikh bayarannya.",
+    "Pilih berapa hari lebih awal anda mahu diingatkan.",
+    "Bayar atau tangguhkan bayaran terus daripada pemberitahuan.",
+    "Buka senarai akan datang bila-bila masa anda ingin melihat gambaran penuh."
+   ],
+   "why_title": "Sebab ia berkesan",
+   "why": [
+    "Satu tempat untuk setiap jenis bayaran, bukan satu aplikasi bagi setiap bil.",
+    "Peringatan tetap masuk walaupun Spendry tidak dibuka.",
+    "Data anda kekal pada iPhone anda, tiada apa yang dikumpulkan."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Adakah saya akan menerima peringatan jika saya tidak membuka aplikasi?",
+     "a": "Ya. Peringatan dijadualkan pada iPhone anda dan dihantar tepat pada masanya walaupun Spendry ditutup."
+    },
+    {
+     "q": "Bolehkah saya memilih masa peringatan dihantar?",
+     "a": "Boleh. Pilih berapa hari sebelum tarikh akhir anda mahu menerima peringatan."
+    },
+    {
+     "q": "Bolehkah aplikasi mengingatkan saya tentang langganan juga?",
+     "a": "Boleh. Langganan, bil, bayaran kad kredit dan ansuran pinjaman semuanya mempunyai peringatan."
+    },
+    {
+     "q": "Adakah peringatan memerlukan sambungan internet?",
+     "a": "Tidak. Peringatan dijadualkan terus pada peranti anda."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Penjejak langganan",
+   "screen": "09",
+   "footer": true,
+   "title": "Aplikasi Penjejak Langganan: Pantau Bayaran Bulanan",
+   "description": "Jejak Langganan bulanan dan tahunan dalam Spendry, lihat tarikh pembaharuan, dan terima peringatan sebelum ia diperbaharui agar anda boleh batalkan.",
+   "h1": "Penjejak langganan yang menunjukkan jumlah tahunan",
+   "lead": "Tambah langganan anda sekali dan Spendry akan menunjukkan kos bulanan serta tahunan, tarikh pembaharuan seterusnya, dan memberi peringatan sebelum langganan diperbaharui.",
+   "points": [
+    {
+     "h": "Jumlah bulanan dan tahunan",
+     "p": "Pelan mingguan, bulanan dan tahunan disatukan menjadi satu jumlah bulanan dan satu jumlah tahunan, agar tiada bayaran kecil yang terlepas pandang."
+    },
+    {
+     "h": "Peringatan sebelum setiap pembaharuan",
+     "p": "Terima pemberitahuan beberapa hari sebelum langganan diperbaharui, semasa anda masih sempat membatalkannya."
+    },
+    {
+     "h": "Tanya dalam bahasa mudah",
+     "p": "Tanya pembantu Spendry tentang kos langganan anda setahun dan dapatkan jumlah kos berserta senarai setiap langganan."
+    },
+    {
+     "h": "Sebahagian daripada bajet keseluruhan anda",
+     "p": "Langganan diambil kira dalam Bajet dan bayaran akan datang, jadi anda boleh melihatnya bersama perbelanjaan yang lain."
+    }
+   ],
+   "steps_title": "Cara menjejak langganan anda",
+   "steps": [
+    "Tambah setiap langganan dengan harga, kitaran bil dan tarikh pembaharuan.",
+    "Semak jumlah kos bulanan dan tahunan.",
+    "Hidupkan peringatan sebelum tarikh pembaharuan tiba.",
+    "Batalkan perkhidmatan yang tidak digunakan lagi dan lihat jumlah kos berkurangan."
+   ],
+   "why_title": "Manfaat untuk anda",
+   "why": [
+    "Jejak langganan dari sebarang perkhidmatan, bukan hanya daripada App Store.",
+    "Tidak memerlukan log masuk perbankan, masukkan setiap langganan sekali sahaja.",
+    "Kalkulator kos langganan percuma disediakan di laman web ini."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Adakah Spendry mengesan langganan saya secara automatik?",
+     "a": "Tidak. Aplikasi ini tidak bersambung dengan bank anda, jadi anda memasukkan langganan secara manual sekali. Selepas itu, ia menjejak pembaharuan dan jumlahnya."
+    },
+    {
+     "q": "Bolehkah saya menjejak langganan tahunan?",
+     "a": "Boleh. Pelan mingguan, bulanan dan tahunan semuanya disokong serta ditunjukkan dalam jumlah bulanan dan tahunan."
+    },
+    {
+     "q": "Adakah ia akan mengingatkan saya sebelum langganan diperbaharui?",
+     "a": "Ya, beberapa hari sebelum tarikh pembaharuan, walaupun anda tidak membuka aplikasi."
+    },
+    {
+     "q": "Bagaimanakah cara membatalkan langganan pada iPhone?",
+     "a": "Langganan App Store dibatalkan melalui aplikasi Seting, di bawah nama anda pada bahagian Langganan. Perkhidmatan lain dibatalkan melalui laman web atau aplikasi penyedia itu sendiri."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Penjejak perbelanjaan",
+   "screen": "03",
+   "title": "Aplikasi Penjejak Perbelanjaan iPhone: Spendry",
+   "description": "Catat belanja dalam beberapa saat melalui aplikasi, widget, Siri atau Apple Pay. Lihat carta mingguan dan bulanan mengikut kategori tanpa log masuk bank.",
+   "h1": "Penjejak perbelanjaan yang pantas",
+   "lead": "Masukkan jumlah, pilih kategori, selesai. Atau tanya Siri, guna widget atau biar pembelian Apple Pay dicatat secara automatik. Pantau ke mana wang anda pergi.",
+   "points": [
+    {
+     "h": "Pantas ditambah, ikut cara anda",
+     "p": "Tambah daripada aplikasi, widget Skrin Utama, Siri atau pengautomatan Pintasan, serta simpan imbasan resit bersama perbelanjaan."
+    },
+    {
+     "h": "Carta yang menjawab persoalan",
+     "p": "Paparan mingguan dan bulanan mengikut kategori dan hari, purata harian anda serta kadar perbelanjaan berbanding tempoh sebelumnya."
+    },
+    {
+     "h": "Bajet memberi amaran awal",
+     "p": "Perbelanjaan mengisi bajet kategorinya, dan Spendry memberitahu anda sebelum bajet tersebut habis."
+    },
+    {
+     "h": "Kategori anda sendiri",
+     "p": "Cipta kategori yang anda perlukan dengan nama dan ikon tersendiri, tanpa terikat pada senarai yang tetap."
+    }
+   ],
+   "steps_title": "Cara mula menjejak",
+   "steps": [
+    "Tambah perbelanjaan pertama anda daripada aplikasi atau widget.",
+    "Cipta bajet untuk kategori yang penting.",
+    "Aktifkan pengautomatan Apple Pay jika anda membayar menggunakan telefon.",
+    "Semak carta pada setiap minggu."
+   ],
+   "why_title": "Mengapa Spendry",
+   "why": [
+    "Tiada log masuk bank, tiada data dikumpulkan.",
+    "Widget, Siri dan Pintasan semuanya boleh menambah perbelanjaan.",
+    "Berfungsi dalam sebarang mata wang, dalam 44 bahasa."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Bolehkah saya menambah perbelanjaan tanpa membuka aplikasi?",
+     "a": "Boleh. Gunakan widget Skrin Utama, tanya Siri, atau biarkan pengautomatan Pintasan mencatat pembelian Apple Pay."
+    },
+    {
+     "q": "Bolehkah saya menyimpan resit?",
+     "a": "Boleh. Imbas resit semasa anda menambah perbelanjaan dan resit tersebut akan kekal bersama rekod itu."
+    },
+    {
+     "q": "Adakah ia berfungsi dengan sebarang mata wang?",
+     "a": "Ya. Pilih mata wang anda semasa mula; akaun pelaburan dan mata wang asing boleh mengekalkan mata wang tersendiri."
+    },
+    {
+     "q": "Adakah ia percuma?",
+     "a": "Ya, ciri teras adalah percuma. Premium adalah pilihan, dengan percubaan percuma selama seminggu."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Penjejak ansuran",
+   "screen": "06",
+   "title": "Aplikasi Penjejak Ansuran: BNPL dan Kad",
+   "description": "Jejak pelan ansuran di Spendry: baki bayaran, jumlah bulanan dan tarikh ansuran terakhir, lengkap dengan peringatan sebelum tarikh bayaran.",
+   "h1": "Setiap ansuran, dan bulan ia berakhir",
+   "lead": "Ansuran kad dan pelan beli sekarang, bayar kemudian terkumpul tanpa disedari. Spendry memaparkan baki bayaran, jumlah keseluruhan setiap bulan dan tarikh ansuran terakhir.",
+   "points": [
+    {
+     "h": "Komitmen bulanan anda, dalam bentuk ansuran",
+     "p": "Ketahui jumlah semua bayaran ansuran yang perlu dibayar bulan ini dan bulan-bulan akan datang, supaya pembelian baharu tidak bertimbun tanpa disedari."
+    },
+    {
+     "h": "Tarikh akhir setiap pelan",
+     "p": "Setiap pelan memaparkan baki bayaran yang tinggal dan bulan bagi bayaran yang terakhir."
+    },
+    {
+     "h": "Peringatan sebelum setiap bayaran",
+     "p": "Pemberitahuan tiba sebelum setiap ansuran genap tempoh, walaupun aplikasi ditutup."
+    },
+    {
+     "h": "Sebahagian daripada tarikh anda bebas hutang",
+     "p": "Ansuran diambil kira dalam jumlah keseluruhan hutang dan pelan penyelesaian anda."
+    }
+   ],
+   "steps_title": "Cara menjejak ansuran",
+   "steps": [
+    "Tambah pembelian dengan jumlah keseluruhan, bilangan ansuran dan tarikh bayaran pertama.",
+    "Lihat jumlah bulanan dan tarikh berakhir.",
+    "Rekodkan setiap bayaran, atau tandakan ia telah dibayar melalui peringatan.",
+    "Semak jumlah keseluruhan ansuran bulanan sebelum membeli barangan baharu."
+   ],
+   "why_title": "Kelebihannya",
+   "why": [
+    "Ansuran kad dan pelan beli sekarang, bayar kemudian di satu tempat.",
+    "Ansuran dipaparkan bersebelahan bajet dan hutang lain, jadi komitmen sebenar bulan tersebut jelas.",
+    "Tiada log masuk bank, tiada data dikumpulkan."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Bolehkah saya menjejak pelan beli sekarang, bayar kemudian?",
+     "a": "Boleh. Tambah sebarang pelan berserta jumlahnya, bilangan bayaran dan tarikh pertama; Spendry akan menjejak bakinya."
+    },
+    {
+     "q": "Adakah ia memaparkan jumlah ansuran yang saya bayar setiap bulan?",
+     "a": "Ya. Anda boleh melihat jumlah ansuran bulan ini dan apa yang perlu dibayar pada bulan-bulan berikutnya."
+    },
+    {
+     "q": "Adakah saya akan diingatkan sebelum setiap ansuran?",
+     "a": "Ya, sebelum setiap bayaran tiba, walaupun anda tidak membuka aplikasi."
+    },
+    {
+     "q": "Adakah ansuran mempengaruhi tarikh anda bebas hutang?",
+     "a": "Ya. Ansuran adalah sebahagian daripada jumlah hutang dan pelan penyelesaian anda."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Aplikasi matlamat simpanan",
+   "screen": "05",
+   "title": "Aplikasi Matlamat Simpanan: Simpan Wang",
+   "description": "Tetapkan matlamat simpanan dalam Spendry, tambah wang simpanan, pantau kemajuan harian dan kongsi matlamat bersama pasangan atau keluarga melalui iCloud.",
+   "h1": "Aplikasi matlamat simpanan yang memotivasikan",
+   "lead": "Tetapkan jumlah sasaran bagi setiap matlamat dan tambah baki setiap kali anda menyimpan. Spendry memaparkan kemajuan anda setiap hari, di dalam aplikasi dan pada Skrin Utama.",
+   "points": [
+    {
+     "h": "Sasaran yang jelas",
+     "p": "Setiap matlamat mempunyai jumlah sasaran dan bar kemajuan, berserta baki yang perlu disimpan."
+    },
+    {
+     "h": "Pada Skrin Utama anda",
+     "p": "Widget matlamat memastikan kemajuan anda sentiasa kelihatan, agar anda terus bermotivasi untuk menyimpan."
+    },
+    {
+     "h": "Simpan bersama-sama",
+     "p": "Kongsi matlamat dengan pasangan atau keluarga melalui iCloud; semua orang menyumbang kepada matlamat yang sama daripada iPhone masing-masing."
+    },
+    {
+     "h": "Bersebelahan bajet anda",
+     "p": "Wang yang diperuntukkan untuk matlamat menjadi sebahagian daripada gambaran bulanan anda, seiring dengan bajet dan bayaran."
+    }
+   ],
+   "steps_title": "Cara menyimpan untuk matlamat",
+   "steps": [
+    "Cipta matlamat dengan jumlah yang ingin anda capai.",
+    "Tambah wang padanya setiap kali anda menyimpan.",
+    "Pantau kemajuan dalam aplikasi atau melalui widget.",
+    "Kongsi matlamat tersebut jika anda menyimpan bersama orang lain."
+   ],
+   "why_title": "Kelebihannya",
+   "why": [
+    "Matlamat dipaparkan bersebelahan bajet dan hutang anda.",
+    "Matlamat yang dikongsi diselaraskan melalui iCloud.",
+    "Kalkulator matlamat simpanan percuma disediakan di laman web ini."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Bolehkah saya mempunyai lebih daripada satu matlamat?",
+     "a": "Boleh. Cipta matlamat untuk setiap perkara yang ingin anda simpan dan tambah simpanan secara berasingan."
+    },
+    {
+     "q": "Bolehkah saya berkongsi matlamat dengan pasangan saya?",
+     "a": "Boleh. Matlamat yang dikongsi diselaraskan melalui iCloud, dan setiap individu menggunakan Akaun Apple mereka sendiri."
+    },
+    {
+     "q": "Adakah terdapat widget untuk matlamat?",
+     "a": "Ya. Widget matlamat memaparkan kemajuan anda terus pada Skrin Utama."
+    },
+    {
+     "q": "Berapakah jumlah yang patut saya simpan setiap bulan?",
+     "a": "Bahagikan baki yang diperlukan dengan bilangan bulan sehingga tarikh sasaran anda. Kalkulator matlamat simpanan percuma di laman web ini membantunya, termasuk faedah jika ada."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Penjejak nilai bersih",
+   "screen": "08",
+   "title": "Aplikasi Penjejak Nilai Bersih dengan Harga Semasa",
+   "description": "Jejak nilai bersih anda di Spendry: akaun, pelaburan dengan harga langsung, emas, mata wang, tolak kad, pinjaman dan hutang, dalam satu nombor.",
+   "h1": "Nilai bersih anda, dalam satu nombor yang sentiasa dikemas kini",
+   "lead": "Spendry menjumlahkan akaun dan pelaburan anda, menolak hutang dan memaparkan nilai bersih anda. Saham, kripto, emas dan mata wang dikemas kini dengan harga pasaran semasa.",
+   "points": [
+    {
+     "h": "Semua yang anda miliki dan hutang",
+     "p": "Tunai, akaun, pelaburan dan simpanan ditolak kad, pinjaman, ansuran dan hutang peribadi."
+    },
+    {
+     "h": "Harga pasaran semasa",
+     "p": "Saham, kripto, emas dan mata wang dikemas kini mengikut harga pasaran langsung bersebelahan perbelanjaan anda."
+    },
+    {
+     "h": "Pelaburan dalam mata wang asal",
+     "p": "Pelaburan dan akaun mata wang asing kekal dalam mata wang asal; nilai bersih anda dipaparkan dalam mata wang anda."
+    },
+    {
+     "h": "Pada Skrin Utama anda",
+     "p": "Widget nilai bersih memastikan angka tersebut sentiasa kelihatan."
+    }
+   ],
+   "steps_title": "Cara menjejak nilai bersih anda",
+   "steps": [
+    "Tambah akaun anda dan bakinya.",
+    "Tambah pelaburan dengan jumlah pegangan anda.",
+    "Tambah hutang anda.",
+    "Semak nilai bersih anda apabila harga dan baki berubah."
+   ],
+   "why_title": "Mengapa memilih Spendry",
+   "why": [
+    "Hutang dan pelaburan dalam aplikasi yang sama dengan bajet anda.",
+    "Tiada log masuk bank atau broker.",
+    "Data tidak dikumpul."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Pelaburan manakah yang boleh saya jejak?",
+     "a": "Saham, kripto, emas dan mata wang, dengan harga langsung."
+    },
+    {
+     "q": "Adakah ia bersambung ke akaun broker saya?",
+     "a": "Tidak. Anda masukkan pegangan anda; harga dikemas kini secara automatik."
+    },
+    {
+     "q": "Patutkah saya memasukkan rumah atau kereta saya?",
+     "a": "Ramai orang hanya menjejak perkara yang berubah setiap bulan: tunai, pelaburan dan hutang. Tambah lebih banyak jika ia membantu anda."
+    },
+    {
+     "q": "Adakah terdapat widget nilai bersih?",
+     "a": "Ya, untuk Skrin Utama anda."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "Aplikasi belanjawan dikongsi",
+   "screen": "04",
+   "title": "Aplikasi Bajet Bersama Pasangan dan Keluarga",
+   "description": "Kongsi bajet dan matlamat simpanan dengan pasangan atau keluarga di Spendry. Setiap orang guna iPhone dan Akaun Apple sendiri, diselaraskan melalui iCloud.",
+   "h1": "Aplikasi bajet bersama untuk pasangan dan keluarga",
+   "lead": "Kongsi bajet atau matlamat simpanan bersama pasangan atau keluarga anda. Setiap orang menambah daripada iPhone sendiri, dan Spendry menyelaraskannya melalui iCloud tanpa perlu membuat akaun baharu.",
+   "points": [
+    {
+     "h": "Kongsi perkara yang anda mahu sahaja",
+     "p": "Kongsi belanjawan isi rumah atau matlamat simpanan dan kekalkan baki wang anda secara peribadi."
+    },
+    {
+     "h": "Setiap orang menambah daripada telefon sendiri",
+     "p": "Setiap orang menggunakan Akaun Apple sendiri; bajet dan matlamat yang dikongsi dikemas kini untuk semua."
+    },
+    {
+     "h": "Tiada akaun baharu, tiada pelayan",
+     "p": "Perkongsian berfungsi melalui iCloud. Spendry tidak mempunyai sistem akaun dan tidak mengumpul data."
+    },
+    {
+     "h": "Satu matlamat, usaha bersama",
+     "p": "Simpan untuk percutian atau rumah bersama; setiap caruman menggerakkan matlamat yang sama."
+    }
+   ],
+   "steps_title": "Cara berkongsi bajet",
+   "steps": [
+    "Cipta bajet atau matlamat.",
+    "Kongsi daripada Spendry dengan pasangan atau keluarga anda.",
+    "Mereka menerima jemputan pada iPhone mereka sendiri.",
+    "Semua orang menambah perbelanjaan atau simpanan, dan ia kekal diselaraskan."
+   ],
+   "why_title": "Mengapa berkongsi dengan Spendry",
+   "why": [
+    "Bajet dan hutang anda yang lain kekal peribadi.",
+    "Tiada log masuk tambahan: perkongsian dijalankan melalui iCloud.",
+    "Data tidak dikumpul."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Adakah pasangan saya juga memerlukan Spendry?",
+     "a": "Ya, pada iPhone atau iPad mereka sendiri, dengan Akaun Apple mereka sendiri."
+    },
+    {
+     "q": "Bolehkah pasangan saya melihat semua perbelanjaan saya?",
+     "a": "Tidak. Hanya bajet dan matlamat yang anda kongsi sahaja dipaparkan; selebihnya kekal peribadi."
+    },
+    {
+     "q": "Bagaimanakah perkongsian berfungsi?",
+     "a": "Melalui perkongsian iCloud. Tiada akaun Spendry dan tiada pelayan Spendry di antaranya."
+    },
+    {
+     "q": "Bolehkah saya berkongsi dengan lebih daripada seorang?",
+     "a": "Ya. Anda boleh menjemput beberapa ahli keluarga ke bajet atau matlamat yang dikongsi."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Penjejak pinjaman",
+   "screen": "06",
+   "title": "Aplikasi Penjejak Pinjaman: Baki dan Faedah",
+   "description": "Jejak pinjaman di Spendry: baki semasa, faedah dan prinsipal dalam setiap bayaran, baki ansuran, dan peringatan sebelum setiap tarikh bayar.",
+   "h1": "Penjejak pinjaman yang menunjukkan bayaran sebenar anda",
+   "lead": "Tambah pinjaman sekali dan Spendry menunjukkan baki semasa, jumlah faedah bagi setiap bayaran, baki ansuran yang tinggal, serta mengingatkan anda sebelum setiap tarikh bayaran.",
+   "points": [
+    {
+     "h": "Jadual pembayaran penuh",
+     "p": "Setiap ansuran dengan pecahan faedah dan prinsipal, supaya anda tahu kos sebenar pinjaman tersebut."
+    },
+    {
+     "h": "Baki bayaran dan tarikh akhir",
+     "p": "Jumlah bayaran yang tinggal dan bulan bagi ansuran yang terakhir."
+    },
+    {
+     "h": "Peringatan sebelum setiap ansuran",
+     "p": "Pemberitahuan dihantar sebelum setiap tarikh matang, walaupun aplikasi ditutup."
+    },
+    {
+     "h": "Sebahagian daripada pelan hutang anda",
+     "p": "Pinjaman dikira dalam jumlah hutang anda dan tarikh anda bebas hutang."
+    }
+   ],
+   "steps_title": "Cara menjejak pinjaman",
+   "steps": [
+    "Tambah pinjaman bersama jumlah, kadar faedah, tempoh dan tarikh bayaran pertama.",
+    "Semak jadual ansuran dan jumlah kos keseluruhan.",
+    "Catat bayaran setiap kali anda membayarnya.",
+    "Pantau tarikh anda bebas hutang."
+   ],
+   "why_title": "Mengapa memilih Spendry",
+   "why": [
+    "Pinjaman peribadi, kereta, perumahan dan pendidikan di satu tempat.",
+    "Tiada log masuk bank, tiada data dikumpul.",
+    "Kalkulator pinjaman percuma di laman web ini."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Pinjaman manakah yang boleh saya jejak?",
+     "a": "Pinjaman peribadi, kereta, perumahan, pendidikan dan sebarang ansuran lain, termasuk wang yang anda pinjam daripada individu."
+    },
+    {
+     "q": "Adakah ia menunjukkan jumlah faedah yang saya bayar?",
+     "a": "Ya. Anda dapat melihat jumlah faedah dalam setiap bayaran dan sepanjang tempoh pinjaman."
+    },
+    {
+     "q": "Adakah ia akan mengingatkan saya sebelum setiap bayaran?",
+     "a": "Ya, sebelum setiap tarikh matang, walaupun anda tidak membuka aplikasi."
+    },
+    {
+     "q": "Adakah ia bersambung ke pihak pemberi pinjaman saya?",
+     "a": "Tidak. Anda hanya perlu menambah pinjaman sekali; Spendry akan mengira jadual bayarannya."
+    }
+   ]
+  }
+ ]
 }

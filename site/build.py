@@ -1839,9 +1839,9 @@ def app_page(lang, c, languages, a, paths):
 <ol class="steps">{steps}</ol>
 <h2 data-rise>{e(a['why_title'])}</h2>
 {why}
-<h2 data-rise>{e(L['tools'])}</h2>
+<h2 data-rise>{e(L['tools_title'])}</h2>
 <ul class="tool-list n3">{tool_cards(lang, c, a['tools'])}</ul>
-{f'<h2 data-rise>{e(L["guides"])}</h2><ul class="tool-list n3">{guide_cards(lang, c, guides)}</ul>' if guides else ''}
+{f'<h2 data-rise>{e(L["guides_title"])}</h2><ul class="tool-list n3">{guide_cards(lang, c, guides)}</ul>' if guides else ''}
 <h2 data-rise>{e(c['guide_labels']['faq'])}</h2>
 <div class="qas">{qa_list(a['faq'])}</div>
 <h2>{e(L['more'])}</h2>
@@ -1854,6 +1854,117 @@ def app_page(lang, c, languages, a, paths):
                 paths=paths, og_type="website")
 
 
+# ---------------------------------------------------------------- savings goals, amount by amount (English)
+# What to put aside each month and each week to reach an amount in a set time, with no interest and in a savings account,
+# worked out like the savings goal calculator (monthly deposits, interest compounded monthly).
+SAVE_LANGS = ("en",)
+
+
+def save_monthly(goal, months, rate):
+    r = rate / 1200
+    return goal / months if r == 0 else goal * r / ((1 + r) ** months - 1)
+
+
+def save_numbers(lang, S, amount):
+    n = {"amount": money_text(lang, amount)}
+    rate = S["rate"]
+    for m in S["terms"]:
+        plain, earning = save_monthly(amount, m, 0), save_monthly(amount, m, rate)
+        n[f"m{m}"], n[f"w{m}"], n[f"r{m}"] = money_text(lang, math.ceil(plain)), money_text(lang, math.ceil(plain * 12 / 52)), money_text(lang, math.ceil(earning))
+        n[f"e{m}"] = money_text(lang, amount - earning * m)
+        n[f"_r{m}"] = math.ceil(earning)
+    return n
+
+
+def save_path(S, amount):
+    return f"{S['slug']}/{S['amount_slug'].format(n=amount)}/"
+
+
+def save_amount_links(lang, S, current=None):
+    home = home_url(lang)
+    return "".join(f'<li><a href="{home}{save_path(S, a)}"{CURRENT_ATTR if a == current else ""}>{e(money_text(lang, a))}</a></li>'
+                   for a in S["amounts"])
+
+
+def save_page_body(lang, c, S, h1, lead, crumb, article, place):
+    home = home_url(lang)
+    return f"""
+<section class="tool-hero guide-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}{crumb}</nav>
+<h1 class="title title-lg" data-split>{e(h1)}</h1><p class="sub" data-rise="now">{e(lead)}</p></div>
+</section>
+<section class="guide-body" data-theme="light"><div class="wrap">
+<article class="prose guide payoff">{article}</article></div></section>
+{cta_html(lang, c, c['guide_labels']['cta'], "05", place)}"""
+
+
+def save_hub_page(lang, c, languages):
+    S = c["save_amounts"]
+    H = S["hub"]
+    home = home_url(lang)
+    path = S["slug"] + "/"
+    url = f"{BASE_URL}/{prefix(lang)}{path}"
+    th = "".join(f'<th scope="col">{e(x)}</th>' for x in H["columns"])
+    rows = []
+    for a in S["amounts"]:
+        n = save_numbers(lang, S, a)
+        cells = [H["cell"].format(pay=n[f"m{m}"], week=n[f"w{m}"]) for m in H["months"]]
+        rows.append(f'<tr><th scope="row"><a href="{home}{save_path(S, a)}">{e(n["amount"])}</a></th>'
+                    + "".join(f'<td data-label="{e(col)}">{e(x)}</td>' for col, x in zip(H["columns"][1:], cells)) + "</tr>")
+    ex = save_numbers(lang, S, S["example"])
+    fill = lambda s: s.format(**ex)
+    faq = [{"q": fill(x["q"]), "a": fill(x["a"])} for x in H["faq"]]
+    sp, sh, _ = tool_info(lang, c, "savings")
+    article = f"""<h2>{e(H['table_title'])}</h2>
+<div class="cmp-wrap"><table class="cmp"><thead><tr>{th}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+<p class="note">{e(H['notes'])}</p>
+{guide_prose([{**x, "p": [fill(t) for t in x.get("p", [])], "list": [fill(t) for t in x.get("list", [])]} for x in H['sections']])}
+<a class="tool tool-in" href="{home}{sp}" data-rise><h3>{e(sh)}</h3><p>{e(H['calc_text'])}</p><span class="t-go">{icon("arrow")}</span></a>
+<h2>{e(c['guide_labels']['faq'])}</h2><div class="qas">{qa_list(faq)}</div>"""
+    body = save_page_body(lang, c, S, H["h1"], H["lead"], f'<a href="{home}{sp}">{e(sh)}</a>', article, "save")
+    ld = [{"@context": "https://schema.org", "@type": "Article", "headline": H["h1"], "description": H["description"], "inLanguage": lang,
+           "url": url, "mainEntityOfPage": url, "dateModified": BUILD_DATE, "author": {"@type": "Organization", "name": "Spendry", "url": BASE_URL + "/"},
+           "publisher": organization_ld()}, faq_ld(faq),
+          crumbs_ld([("Spendry", f"{BASE_URL}/{prefix(lang)}"), (sh, f"{BASE_URL}/{prefix(lang)}{sp}"), (H["h1"], url)])]
+    return page(lang, c, path, short_title(H["title"]), H["description"], body, ld, languages, "page-tool page-guide page-payoff",
+                paths={lang: path}, og_type="article")
+
+
+def save_amount_page(lang, c, languages, amount):
+    S = c["save_amounts"]
+    A = S["page"]
+    home = home_url(lang)
+    path = save_path(S, amount)
+    url = f"{BASE_URL}/{prefix(lang)}{path}"
+    n = save_numbers(lang, S, amount)
+    fill = lambda s: s.format(**n)
+    th = "".join(f'<th scope="col">{e(x)}</th>' for x in A["columns"])
+    rows = "".join(f'<tr><th scope="row">{e(term_text(lang, m, S))}</th>'
+                   + "".join(f'<td data-label="{e(col)}">{e(v)}</td>' for col, v in zip(A["columns"][1:], (n[f"m{m}"], n[f"w{m}"], n[f"r{m}"])))
+                   + "</tr>" for m in S["terms"])
+    faq = [{"q": fill(x["q"]), "a": fill(x["a"])} for x in A["faq"]]
+    tips = '<ul class="ticks">' + "".join(f"<li>{e(fill(x))}</li>" for x in A["tips"]) + "</ul>"
+    sp = tool_info(lang, c, "savings")[0]
+    calc = f'{home}{sp}?goal={amount}&have=0&months=12&rate={S["rate"]:g}'
+    article = f"""<div class="ex answer" data-rise><h2>{e(S['answer_title'])}</h2><p>{e(fill(A['answer']))}</p></div>
+<h2>{e(fill(A['table_title']))}</h2><p>{e(fill(A['table_sub']))}</p>
+<div class="cmp-wrap"><table class="cmp"><thead><tr>{th}</tr></thead><tbody>{rows}</tbody></table></div>
+<h2>{e(A['interest_title'])}</h2><p>{e(fill(A['interest_text']))}</p>
+<a class="tool tool-in" href="{e(calc)}" data-rise><h3>{e(S['calc_title'])}</h3><p>{e(fill(A['calc_text']))}</p><span class="t-go">{icon("arrow")}</span></a>
+<h2>{e(fill(A['tips_title']))}</h2>{tips}
+<h2>{e(c['guide_labels']['faq'])}</h2><div class="qas">{qa_list(faq)}</div>
+<h2>{e(A['more_title'])}</h2><ul class="amounts">{save_amount_links(lang, S, amount)}</ul>
+<p class="note">{e(A['notes'])}</p>"""
+    body = save_page_body(lang, c, S, fill(A["h1"]), fill(A["lead"]), f'<a href="{home}{S["slug"]}/">{e(S["hub"]["h1"])}</a>', article, "save")
+    ld = [{"@context": "https://schema.org", "@type": "Article", "headline": fill(A["h1"]), "description": fill(A["description"]),
+           "inLanguage": lang, "url": url, "mainEntityOfPage": url, "dateModified": BUILD_DATE,
+           "author": {"@type": "Organization", "name": "Spendry", "url": BASE_URL + "/"}, "publisher": organization_ld()}, faq_ld(faq),
+          crumbs_ld([("Spendry", f"{BASE_URL}/{prefix(lang)}"), (S["hub"]["h1"], f"{BASE_URL}/{prefix(lang)}{S['slug']}/"), (n["amount"], url)])]
+    return page(lang, c, path, short_title(fill(A["title"])), fill(A["description"]), body, ld, languages,
+                "page-tool page-guide page-payoff", paths={lang: path}, og_type="article")
+
+
 def llms_txt(content):
     """A plain summary of the site for AI assistants (llmstxt.org): what Spendry is and where the useful pages are."""
     en, tr = content["en"], content["tr"]
@@ -1862,6 +1973,11 @@ def llms_txt(content):
     def guides(lang, c):
         slug = c["guides_index"]["slug"]
         return "\n".join(f"- [{g['h1']}]({BASE_URL}/{prefix(lang)}{slug}/{g['slug']}/): {g['description']}" for g in c["guides"])
+    def apps(lang, c):
+        return "\n".join(f"- [{a['nav']}]({BASE_URL}/{prefix(lang)}{a['slug']}/): {a['description']}" for a in c.get("apps", []))
+    def loans(lang, c):
+        return "\n".join(f"- [{F['hub']['h1']}]({BASE_URL}/{prefix(lang)}{F['slug']}/): {F['hub']['description']}"
+                         for F in c["loan_amounts"]["families"])
     def balances(lang, c):
         P = c["payoff_amounts"]
         return (f"- [{P['hub']['h1']}]({BASE_URL}/{prefix(lang)}{P['slug']}/): {P['hub']['description']}\n" +
@@ -1879,15 +1995,24 @@ and send nothing anywhere. The site is in 47 languages; English is at {BASE_URL}
 ## Free calculators
 {tools('en', en)}
 
+## What the app does
+{apps('en', en)}
+
 ## How long credit card debt takes, balance by balance
 {balances('en', en)}
+
+## Loan payments and savings, amount by amount
+{loans('en', en)}
+- [{en['save_amounts']['hub']['h1']}]({BASE_URL}/{en['save_amounts']['slug']}/): {en['save_amounts']['hub']['description']}
 
 ## Guides
 {guides('en', en)}
 
 ## Türkçe (Turkish)
 {tools('tr', tr)}
+{apps('tr', tr)}
 {balances('tr', tr)}
+{loans('tr', tr)}
 {guides('tr', tr)}
 
 ## App
@@ -1985,6 +2110,10 @@ def main():
         out("guides", guides_index_page(lang, c, languages, P["guides"]))
         for a in c.get("apps", []):
             write(f"{prefix(lang)}{a['slug']}/index.html", app_page(lang, c, languages, a, app_page_paths(languages, a["key"])))
+        if lang in SAVE_LANGS:
+            write(f"{prefix(lang)}{c['save_amounts']['slug']}/index.html", save_hub_page(lang, c, languages))
+            for amount in c["save_amounts"]["amounts"]:
+                write(f"{prefix(lang)}{save_path(c['save_amounts'], amount)}index.html", save_amount_page(lang, c, languages, amount))
         if lang in LOAN_LANGS:
             for F in c["loan_amounts"]["families"]:
                 write(f"{prefix(lang)}{F['slug']}/index.html", loan_hub_page(lang, c, languages, F))
@@ -2005,6 +2134,10 @@ def main():
             alts = "".join(f'<xhtml:link rel="alternate" hreflang="{x}" href="{BASE_URL}/{prefix(x)}{P[k][x]}"/>' for x in languages)
             alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{BASE_URL}/{P[k]["en"]}"/>'
             urls.append(f"<url><loc>{BASE_URL}/{prefix(lang)}{P[k][lang]}</loc><lastmod>{BUILD_DATE}</lastmod>{alts}</url>")
+        if lang in SAVE_LANGS:
+            Sa = content[lang]["save_amounts"]
+            urls += [f"<url><loc>{BASE_URL}/{prefix(lang)}{x}</loc><lastmod>{BUILD_DATE}</lastmod></url>"
+                     for x in [Sa["slug"] + "/"] + [save_path(Sa, a) for a in Sa["amounts"]]]
         for a in content[lang].get("apps", []):
             ap = app_page_paths(languages, a["key"])
             alts = "".join(f'<xhtml:link rel="alternate" hreflang="{x}" href="{BASE_URL}/{prefix(x)}{ap[x]}"/>' for x in ap)

@@ -1553,5 +1553,835 @@
    "final_title": "Verpassen Sie keine Verlängerung mehr.",
    "final_text": "Laden Sie Spendry herunter, erfassen Sie Ihre Abonnements und lassen Sie sich rechtzeitig vor jeder Abbuchung benachrichtigen."
   }
- }
+ },
+ "app_labels": {
+  "free": "Kostenlos im App Store. Premium ist optional, mit einer kostenlosen Testwoche.",
+  "more": "Mehr Funktionen von Spendry",
+  "cta": "Laden Sie Spendry herunter und sehen Sie Ihren gesamten Monat an einem Ort.",
+  "tools_title": "Kostenlose Rechner",
+  "guides_title": "Ratgeber"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "Budget-App",
+   "screen": "04",
+   "footer": true,
+   "title": "Budget-App für iPhone: Spendry, ohne Bank-Login",
+   "description": "Spendry ist die Budget-App für iPhone und iPad: Budgets mit Vorwarnung, alle Karten und Rechnungen an einem Ort und Erinnerungen vor jeder Fälligkeit.",
+   "h1": "Eine Budget-App, die auch vorausdenkt",
+   "lead": "Spendry gibt jeder Kategorie ein Limit, warnt Sie rechtzeitig vor dem Budgetende und zeigt alle Rechnungen, Kartenzahlungen und Raten dieses Monats. Ohne Bank-Login.",
+   "points": [
+    {
+     "h": "Budgets, die mithalten",
+     "p": "Setzen Sie ein Monatslimit für Einkäufe, Restaurantbesuche oder Freizeit. Jede Ausgabe füllt das Budget, und Spendry warnt Sie vor dem Erreichen des Limits."
+    },
+    {
+     "h": "Der restliche Monat im Voraus",
+     "p": "Kartenabrechnungen, Kredite, Rechnungen und Abonnements bis zum nächsten Gehalt stehen direkt neben Ihrem Guthaben. So wissen Sie genau, was bleibt."
+    },
+    {
+     "h": "Ausgabe in Sekunden erfassen",
+     "p": "Betrag eingeben und Kategorie wählen, Beleg scannen, ein Widget nutzen oder Einkäufe mit Apple Pay per Automation eintragen lassen."
+    },
+    {
+     "h": "Genau sehen, wohin das Geld fließt",
+     "p": "Wöchentliche und monatliche Diagramme nach Kategorie und Tag zeigen, welche Budgets knapp werden und wie sich der Monat im Vergleich entwickelt."
+    }
+   ],
+   "steps_title": "So starten Sie Ihr Budget in Spendry",
+   "steps": [
+    "Fügen Sie Ihr Einkommen und Ihre Konten oder Karten hinzu.",
+    "Erstellen Sie Budgets für Ihre wichtigsten Kategorien mit einem festen Limit.",
+    "Tragen Sie Ausgaben direkt ein oder aktivieren Sie die Automation für Apple Pay.",
+    "Prüfen Sie am Monatsende die Statistiken und passen Sie die Limits an."
+   ],
+   "why_title": "Warum Menschen Spendry wählen",
+   "why": [
+    "Kein Bank-Login: Sie bestimmen die Daten, und keine Bankverbindung ist nötig.",
+    "Ihre Daten bleiben auf Ihrem iPhone und in Ihrer eigenen iCloud.",
+    "Schulden, Karten und Raten direkt neben dem Budget, nicht in einer extra App.",
+    "Kostenloser Download mit optionalem Premium."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Ist Spendry eine kostenlose Budget-App?",
+     "a": "Ja. Budgets, Ausgaben, Erinnerungen und grundlegende Funktionen sind kostenlos. Premium ist optional: monatlich, jährlich mit Probewoche oder als Einmalkauf."
+    },
+    {
+     "q": "Braucht Spendry Zugriff auf mein Bankkonto?",
+     "a": "Nein. Es gibt keinen Bank-Login. Sie tragen Ausgaben selbst ein, importieren Banknachrichten oder nutzen eine Automation in der Kurzbefehle-App für Apple Pay."
+    },
+    {
+     "q": "Kann ich ein Budget mit meinem Partner teilen?",
+     "a": "Ja. Ein Gemeinsames Budget und Ziele synchronisieren sich über iCloud. Jeder nutzt dabei seinen eigenen Apple-Account."
+    },
+    {
+     "q": "Auf welchen Geräten läuft Spendry?",
+     "a": "Auf iPhone und iPad mit iOS 17 oder neuer. Eine Mac-Version ist ebenfalls im Mac App Store verfügbar."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Budget-App ohne Bank-Login",
+   "screen": "02",
+   "footer": true,
+   "title": "Budget-App ohne Bankkonto-Verbindung: Spendry",
+   "description": "Die Budget-App ohne Bank-Login: Ausgaben manuell erfassen, SMS importieren oder Apple Pay per Kurzbefehl loggen. Daten bleiben privat auf dem iPhone.",
+   "h1": "Eine Budget-App ganz ohne Bank-Login",
+   "lead": "Viele Budget-Apps verlangen Bankdaten. Spendry verbindet sich nie mit Ihrer Bank: Sie behalten die Kontrolle, und alle Daten bleiben auf Ihrem iPhone und in Ihrer iCloud.",
+   "points": [
+    {
+     "h": "Keine Verbindung zu Ihrer Bank",
+     "p": "Kein Bank-Login, kein Drittanbieter und keine Registrierung. Spendry funktioniert weltweit mit jeder Bank, Karte und Währung gleich."
+    },
+    {
+     "h": "Ausgaben schnell erfassen",
+     "p": "Tippen Sie den Betrag ein, nutzen Sie Beleg scannen, ein Widget auf dem Home-Bildschirm oder Siri. Auch Banknachrichten lassen sich direkt einfügen."
+    },
+    {
+     "h": "Apple Pay automatisch eintragen",
+     "p": "Mit der fertigen Automation für die Kurzbefehle-App wird jeder Einkauf mit Apple Pay sofort mit dem Betrag in Spendry erfasst."
+    },
+    {
+     "h": "Keine Datenerfassung",
+     "p": "Keine Werbung, keine Analysen, kein Tracking. Im App Store steht Keine Datenerfassung, und Sie können Spendry mit Face ID schützen."
+    }
+   ],
+   "steps_title": "So funktioniert es ohne Bankverbindung",
+   "steps": [
+    "Fügen Sie Ihre Karten, Kredite und Konten mit dem aktuellen Stand hinzu.",
+    "Tragen Sie Ausgaben direkt ein oder übernehmen Sie Banknachrichten.",
+    "Aktivieren Sie die Automation für Apple Pay in der Kurzbefehle-App.",
+    "Prüfen Sie Kontostand und Budgets. Erinnerungen warnen Sie vor Fälligkeiten."
+   ],
+   "why_title": "Vorteile ohne Bankverbindung",
+   "why": [
+    "Ihre Bank-Zugangsdaten bleiben immer bei Ihnen.",
+    "Keine getrennten Verbindungen oder fehlenden Buchungen nach Bank-Updates.",
+    "Funktioniert mit jeder Bank, auch wenn andere Apps sie nicht unterstützen.",
+    "Wer Ausgaben selbst einträgt, behält den Überblick leichter."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Warum verbindet sich Spendry nicht mit der Bank?",
+     "a": "Damit Ihre Zugangsdaten und Umsätze niemals über fremde Server laufen. Ihre Einträge bleiben sicher auf Ihrem iPhone und in Ihrer eigenen iCloud."
+    },
+    {
+     "q": "Dauert das manuelle Eintragen nicht zu lange?",
+     "a": "Es dauert nur wenige Sekunden. Für Apple Pay gibt es Automationen über Kurzbefehle, Widgets, Siri oder den Import von Banknachrichten."
+    },
+    {
+     "q": "Kann Spendry meine Banknachrichten lesen?",
+     "a": "Nicht automatisch. Sie fügen den Text einer Nachricht manuell in Spendry ein, und die App erstellt daraus die Ausgabe."
+    },
+    {
+     "q": "Sind meine Daten geschützt?",
+     "a": "Spendry erfasst keine Daten. Alles bleibt lokal auf dem Gerät und synchronisiert über Ihre iCloud. Zudem gibt es eine App-Sperre mit Face ID."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "Schulden-App",
+   "screen": "06",
+   "footer": true,
+   "title": "Schuldenabbau-App: Schneeball und Lawine",
+   "description": "Spendry bündelt Kredite, Kreditkarten und Raten in einem Plan, ordnet sie nach Schneeball oder Lawine und zeigt das Datum Ihrer Schuldenfreiheit.",
+   "h1": "Die Schulden-App, die Ihr schuldenfreies Datum zeigt",
+   "lead": "Erfassen Sie alle Schulden einmalig. Spendry sortiert sie nach Schneeball- oder Lawinen-Methode, berechnet Sondertilgungen ein und zeigt den Zielmonat.",
+   "points": [
+    {
+     "h": "Alle Schulden in einer Summe",
+     "p": "Kreditkarten, Kredite, Dispokonto, Raten und private Schulden im Überblick, zusammen mit der monatlichen Gesamtrate."
+    },
+    {
+     "h": "Schneeball oder Lawine wählen",
+     "p": "Zuerst kleine Beträge für schnelle Erfolge tilgen oder hohe Zinsen zuerst für geringere Gesamtkosten. Spendry vergleicht beide Pläne."
+    },
+    {
+     "h": "Ein Datum, das sich anpasst",
+     "p": "Tragen Sie Zahlungen oder Sondertilgungen ein, rückt das Datum Ihrer Schuldenfreiheit sofort näher."
+    },
+    {
+     "h": "Erinnerungen vor jeder Fälligkeit",
+     "p": "Mitteilungen erinnern Sie rechtzeitig an Zahlungen, selbst bei geschlossener App, um Mahngebühren zu vermeiden."
+    }
+   ],
+   "steps_title": "So funktioniert der Tilgungsplan",
+   "steps": [
+    "Fügen Sie jede Schuld mit Saldo, Zinssatz und Mindestrate hinzu.",
+    "Wählen Sie die Strategie Schneeball oder Lawine.",
+    "Legen Sie fest, wie viel Sie monatlich zusätzlich tilgen können.",
+    "Buchen Sie Zahlungen ein und sehen Sie, wie das Enddatum heranrückt."
+   ],
+   "why_title": "Was Spendry unterscheidet",
+   "why": [
+    "Karten, Kredite und Raten werden einzeln erfasst, nicht nur als Pauschale.",
+    "Kein Bank-Login und keine Datenerfassung.",
+    "Die kostenlosen Rechner auf dieser Website nutzen die gleichen Methoden zum Testen."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Was ist die Schneeball-Methode?",
+     "a": "Sie zahlen überall die Mindestrate und nutzen jeden extra Betrag für die kleinste Schuld. Ist diese getilgt, fließt das Geld in die nächste."
+    },
+    {
+     "q": "Was ist die Lawinen-Methode?",
+     "a": "Zusätzliche Beträge fließen zuerst in die Schuld mit den höchsten Zinsen. Das spart über die Gesamtlaufzeit meist am meisten Zinskosten."
+    },
+    {
+     "q": "Kann ich Schulden bei Freunden erfassen?",
+     "a": "Ja. Private Schulden können mit oder ohne Zinsen eingetragen und nach demselben Tilgungsplan abbezahlt werden."
+    },
+    {
+     "q": "Ist der Schuldenplan kostenlos?",
+     "a": "Der Einstieg ist kostenlos. Premium hebt die Beschränkungen der Basisversion auf, inklusive einer kostenlosen Testwoche."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Kreditkarten verwalten",
+   "screen": "07",
+   "footer": true,
+   "title": "Kreditkarten-App: Abrechnung, Fälligkeit und Saldo",
+   "description": "Verwalten Sie jede Kreditkarte in Spendry: Abrechnungsdatum, Fälligkeit, Raten und Saldo. Mit Erinnerungen vor jedem Fälligkeitstag.",
+   "h1": "Jede Kreditkarte, Abrechnung und Fälligkeit im Blick",
+   "lead": "Spendry kennt den Abrechnungstag und die Fälligkeit jeder Karte, hält Saldo und Raten aktuell und erinnert Sie rechtzeitig vor der Zahlung.",
+   "points": [
+    {
+     "h": "Abrechnung und Fälligkeit für jede Karte",
+     "p": "Erfassen Sie Ihre Karten einmal mit Abrechnungstag und Fälligkeitstag. Spendry zeigt, was Sie schulden und wann die Zahlung fällig ist."
+    },
+    {
+     "h": "Raten auf Ihren Karten",
+     "p": "In Raten aufgeteilte Einkäufe zeigen Ihnen die verbleibenden Zahlungen und den Monat der letzten Rate."
+    },
+    {
+     "h": "Mindestbetrag oder vollständige Zahlung",
+     "p": "Tragen Sie eine Zahlung ein und der Saldo aktualisiert sich sofort. Der kostenlose Tilgungsrechner zeigt, was reine Mindestzahlungen kosten."
+    },
+    {
+     "h": "Rechtzeitige Erinnerung vor der Fälligkeit",
+     "p": "Mitteilungen erreichen Sie vor jeder Kartenzahlung, selbst wenn die App geschlossen ist. Bestätigen Sie die Zahlung direkt aus der Mitteilung."
+    }
+   ],
+   "steps_title": "So verwalten Sie Ihre Karten",
+   "steps": [
+    "Fügen Sie jede Karte mit Limit, Abrechnungstag und Fälligkeitstag hinzu.",
+    "Erfassen Sie Ausgaben und Raten oder übernehmen Sie diese aus Bankmitteilungen.",
+    "Tragen Sie geleistete Zahlungen direkt ein.",
+    "Lassen Sie sich vor jedem Fälligkeitstag rechtzeitig erinnern."
+   ],
+   "why_title": "Warum Spendry für Ihre Karten",
+   "why": [
+    "Alle Karten auf einem Bildschirm mit dem gesamten geschuldeten Betrag.",
+    "Das Datum Ihrer Schuldenfreiheit berücksichtigt auch Ihre Kreditkarten.",
+    "Kein Bank-Login erforderlich, keine Datenerfassung."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Was ist der Unterschied zwischen Abrechnungstag und Fälligkeitstag?",
+     "a": "Der Abrechnungstag schließt den Abrechnungszeitraum ab und legt den Rechnungsbetrag fest. Der Fälligkeitstag ist der letzte Tag für die Zahlung ohne Zinsen oder Gebühren."
+    },
+    {
+     "q": "Kann mich die App vor jeder Kartenzahlung erinnern?",
+     "a": "Ja. Sie erhalten vor jedem Fälligkeitstag eine Mitteilung, selbst wenn Sie die App nie öffnen. Sie können die Zahlung direkt darin als erledigt markieren."
+    },
+    {
+     "q": "Kann ich Ratenzahlungen auf Kreditkarten erfassen?",
+     "a": "Ja. Jeder Ratenplan zeigt die offenen Raten und den Monat der letzten Zahlung."
+    },
+    {
+     "q": "Verbindet sich die App mit meiner Bank?",
+     "a": "Nein. Spendry verlangt niemals Zugangsdaten zu Ihrem Bankkonto. Sie tragen Ihre Karten und Zahlungen selbst ein."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Rechnungserinnerung App",
+   "screen": "07",
+   "footer": true,
+   "title": "Rechnungserinnerung App: Keine Zahlung verpassen",
+   "description": "Spendry erinnert Sie an Rechnungen, Kartenzahlungen, Kredite und Abonnements, selbst wenn die App geschlossen ist. Direkt aus der Mitteilung bezahlbar.",
+   "h1": "Eine Rechnungserinnerung, die pünktlich ankommt",
+   "lead": "Spendry erinnert Sie zuverlässig an jede Rechnung, Kartenzahlung, Kreditrate und jedes Abonnement, selbst wenn die App geschlossen bleibt. Zahlen oder verschieben Sie direkt per Fingertipp.",
+   "points": [
+    {
+     "h": "Alle Fälligkeitstage in einer Liste",
+     "p": "Rechnungen, Kreditkartenabrechnungen, Kreditraten und Abonnements stehen in einer gemeinsamen Liste. Überfällige Posten stehen ganz oben."
+    },
+    {
+     "h": "Erinnerungen ganz ohne geöffnete App",
+     "p": "Mitteilungen werden lokal auf Ihrem iPhone geplant und kommen vor jeder Fälligkeit an. Als dringliche Mitteilungen erreichen sie Sie auch im Fokus."
+    },
+    {
+     "h": "Als bezahlt markieren oder verschieben",
+     "p": "Markieren Sie Zahlungen direkt in der Mitteilung als bezahlt oder verschieben Sie sie. Das Bezahlen aktualisiert Saldo und Budgets automatisch."
+    },
+    {
+     "h": "Eine morgendliche Übersicht auf Wunsch",
+     "p": "Eine fertige Automation für die Kurzbefehle App fasst jeden Morgen die anstehenden Zahlungen der nächsten drei Tage zusammen."
+    }
+   ],
+   "steps_title": "So richten Sie Erinnerungen ein",
+   "steps": [
+    "Tragen Sie Rechnungen, Karten, Kredite und Abonnements mit Fälligkeitstag ein.",
+    "Wählen Sie, wie viele Tage zuvor Sie erinnert werden möchten.",
+    "Bezahlen oder verschieben Sie den Posten direkt über die Mitteilung.",
+    "Prüfen Sie jederzeit die Liste der anstehenden Zahlungen für den Gesamtüberblick."
+   ],
+   "why_title": "Warum es funktioniert",
+   "why": [
+    "Ein Ort für jede Zahlungsart statt einer separaten App für jede Rechnung.",
+    "Erinnerungen kommen zuverlässig, auch wenn Spendry geschlossen bleibt.",
+    "Ihre Daten bleiben auf Ihrem iPhone: Es wird nichts erfasst."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Erhalte ich Erinnerungen, wenn ich die App nicht öffne?",
+     "a": "Ja. Erinnerungen werden direkt auf Ihrem iPhone geplant und treffen pünktlich ein, auch wenn Spendry geschlossen bleibt."
+    },
+    {
+     "q": "Kann ich den Zeitpunkt der Erinnerung festlegen?",
+     "a": "Ja. Bestimmen Sie selbst, wie viele Tage vor der Fälligkeit Sie benachrichtigt werden möchten."
+    },
+    {
+     "q": "Erinnert die App auch an Abonnements?",
+     "a": "Ja. Abonnements, Rechnungen, Kartenzahlungen und Raten für Kredite werden gleichermaßen berücksichtigt."
+    },
+    {
+     "q": "Benötigen die Erinnerungen eine Internetverbindung?",
+     "a": "Nein. Sie werden lokal auf Ihrem Gerät verwaltet."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Abo-Tracker App",
+   "screen": "09",
+   "footer": true,
+   "title": "Abo-Verwaltung App: Alle Monatskosten im Blick",
+   "description": "Verwalten Sie alle Abonnements in Spendry: Monats- und Jahressummen, Verlängerungsdaten und Erinnerungen vor der Verlängerung. Ungenutztes rechtzeitig kündigen.",
+   "h1": "Eine Abo-Verwaltung, die die Jahressumme zeigt",
+   "lead": "Tragen Sie Ihre Abonnements einmal ein. Spendry zeigt die monatlichen und jährlichen Kosten, das nächste Verlängerungsdatum und erinnert Sie rechtzeitig vor Ablauf der Kündigungsfrist.",
+   "points": [
+    {
+     "h": "Monatliche und jährliche Summen",
+     "p": "Wöchentliche, monatliche und jährliche Abos werden zu klaren Monats- und Jahresbeträgen zusammengefasst. Keine versteckten Kleinbeträge mehr."
+    },
+    {
+     "h": "Erinnerung vor jeder Verlängerung",
+     "p": "Erhalten Sie einige Tage vor der Verlängerung eines Abonnements eine Mitteilung, solange noch Zeit zum Kündigen bleibt."
+    },
+    {
+     "h": "Einfach nachfragen",
+     "p": "Fragen Sie den Assistenten von Spendry nach Ihren jährlichen Abokosten und erhalten Sie die Gesamtsumme samt Auflistung aller Verträge."
+    },
+    {
+     "h": "Fester Teil Ihres Budgets",
+     "p": "Abonnements fließen direkt in Ihre Budgets und anstehenden Zahlungen ein. So behalten Sie neben allen anderen Ausgaben den Überblick."
+    }
+   ],
+   "steps_title": "So behalten Sie den Überblick",
+   "steps": [
+    "Fügen Sie jedes Abonnement mit Preis, Zahlungsintervall und Verlängerungstag hinzu.",
+    "Prüfen Sie die Monats- und Jahressummen auf einen Blick.",
+    "Aktivieren Sie Erinnerungen vor anstehenden Verlängerungen.",
+    "Kündigen Sie ungenutzte Dienste und senken Sie Ihre laufenden Kosten."
+   ],
+   "why_title": "Ihre Vorteile",
+   "why": [
+    "Abonnements aller Anbieter verwalten, nicht nur Käufe aus dem App Store.",
+    "Kein Bank-Login nötig: Einmal erfassen genügt.",
+    "Kostenloser Rechner für Abokosten direkt auf dieser Website."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Erkennt Spendry meine Abonnements automatisch?",
+     "a": "Nein. Die App verbindet sich nicht mit Ihrem Bankkonto. Sie tragen jedes Abonnement einmalig ein, danach übernimmt Spendry Termine und Summen."
+    },
+    {
+     "q": "Kann ich jährliche Abonnements erfassen?",
+     "a": "Ja. Wöchentliche, monatliche und jährliche Zahlungsintervalle werden unterstützt und als Monats- sowie Jahressumme berechnet."
+    },
+    {
+     "q": "Erinnert mich die App vor einer Vertragsverlängerung?",
+     "a": "Ja. Sie erhalten einige Tage vor jeder Verlängerung eine Mitteilung, auch ohne die App zu öffnen."
+    },
+    {
+     "q": "Wie kündige ich ein Abonnement auf dem iPhone?",
+     "a": "Abonnements aus dem App Store kündigen Sie in den Einstellungen unter Ihrem Namen bei Abonnements. Andere Dienste kündigen Sie direkt beim jeweiligen Anbieter."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Ausgaben-Tracker",
+   "screen": "03",
+   "title": "Ausgaben-Tracker für das iPhone: Spendry",
+   "description": "Erfassen Sie Ausgaben in Sekunden per App, Widget, Siri oder Apple Pay. Mit klaren Diagrammen nach Kategorie. Ohne Bank-Login, ohne Datenerfassung.",
+   "h1": "Ein Ausgaben-Tracker, der nur Sekunden braucht",
+   "lead": "Betrag eingeben, Kategorie wählen, fertig. Oder nutzen Sie Siri, ein Widget oder automatische Einträge über Apple Pay. So sehen Sie genau, wohin Ihr Geld fließt.",
+   "points": [
+    {
+     "h": "Schnell erfasst, ganz nach Wunsch",
+     "p": "Nutzen Sie für Ausgabe hinzufügen die App, ein Home-Bildschirm-Widget, Siri oder eine Automation über die Kurzbefehle-App. Ein Beleg scannen und direkt speichern geht auch."
+    },
+    {
+     "h": "Statistiken, die Fragen beantworten",
+     "p": "Wochen- und Monatsansichten nach Kategorie und Tag, Ihr Tagesdurchschnitt und Ihr Ausgabentempo im Vergleich zum vorherigen Zeitraum."
+    },
+    {
+     "h": "Budgets warnen rechtzeitig",
+     "p": "Ausgaben füllen Ihre Budgets der jeweiligen Kategorien, und Spendry informiert Sie, bevor eines aufgebraucht ist."
+    },
+    {
+     "h": "Eigene Kategorien",
+     "p": "Erstellen Sie genau die Kategorien, die Sie brauchen, mit eigenen Namen und Symbolen statt einer starren Liste."
+    }
+   ],
+   "steps_title": "So starten Sie die Erfassung",
+   "steps": [
+    "Erfassen Sie Ihre ersten Ausgaben über die App oder ein Widget.",
+    "Legen Sie Budgets für die wichtigsten Kategorien an.",
+    "Aktivieren Sie die Apple Pay Automation, wenn Sie mit dem iPhone zahlen.",
+    "Prüfen Sie die Statistiken jede Woche."
+   ],
+   "why_title": "Warum Spendry",
+   "why": [
+    "Kein Bank-Login, keine Datenerfassung.",
+    "Widgets, Siri und Kurzbefehle fügen Ausgaben hinzu.",
+    "Funktioniert in jeder Währung und in 44 Sprachen."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Kann ich eine Ausgabe erfassen, ohne die App zu öffnen?",
+     "a": "Ja. Nutzen Sie ein Home-Bildschirm-Widget, fragen Sie Siri oder lassen Sie Apple Pay Käufe per Automation in Kurzbefehle protokollieren."
+    },
+    {
+     "q": "Kann ich Quittungen behalten?",
+     "a": "Ja. Wenn Sie Beleg scannen wählen, wird er direkt an der jeweiligen Ausgabe gespeichert."
+    },
+    {
+     "q": "Funktioniert die App mit jeder Währung?",
+     "a": "Ja. Wählen Sie Ihre Hauptwährung zu Beginn. Für Investitionen und Fremdwährungskonten können Sie eigene Währungen festlegen."
+    },
+    {
+     "q": "Ist die App kostenlos?",
+     "a": "Ja, die Kernfunktionen sind kostenlos. Premium ist optional und kann eine Woche lang unverbindlich getestet werden."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Raten-Tracker",
+   "screen": "06",
+   "title": "Raten-Tracker: Ratenkäufe und Kredite",
+   "description": "Verwalten Sie Ratenzahlungen in Spendry: offene Raten, Monatsbeträge, das Enddatum und rechtzeitige Erinnerungen vor jeder Fälligkeit.",
+   "h1": "Jede Rate im Blick und der Monat der letzten Zahlung",
+   "lead": "Ratenkäufe summieren sich oft unbemerkt. Spendry zeigt Ihnen, wie viele Zahlungen offen sind, welchen Betrag Raten monatlich ausmachen und wann alles bezahlt ist.",
+   "points": [
+    {
+     "h": "Ihre monatlichen Raten auf einen Blick",
+     "p": "Sehen Sie die Gesamtsumme aller Raten, die in diesem und den kommenden Monaten fällig sind. So behalten Sie bei neuen Käufen stets die Übersicht."
+    },
+    {
+     "h": "Das Enddatum jedes Plans",
+     "p": "Zu jeder Zahlung sehen Sie die verbleibenden Raten und den genauen Monat der letzten Zahlung."
+    },
+    {
+     "h": "Erinnerungen vor jeder Fälligkeit",
+     "p": "Sie erhalten vor jeder fälligen Rate eine Benachrichtigung, auch wenn die App geschlossen ist."
+    },
+    {
+     "h": "Wichtig für das Datum Ihrer Schuldenfreiheit",
+     "p": "Laufende Raten fließen direkt in Ihren Gesamtschuldenstand und Ihren Tilgungsplan ein."
+    }
+   ],
+   "steps_title": "So verwalten Sie Ihre Raten",
+   "steps": [
+    "Tragen Sie den Kauf mit Gesamtbetrag, Anzahl der Raten und erstem Zahlungsdatum ein.",
+    "Sehen Sie die monatliche Rate und das Enddatum ein.",
+    "Erfassen Sie jede Zahlung oder bestätigen Sie sie direkt über die Erinnerungen.",
+    "Prüfen Sie Ihre monatliche Ratenbelastung vor jedem Neukauf."
+   ],
+   "why_title": "Ihre Vorteile",
+   "why": [
+    "Kreditkarten, Kredite und Ratenkäufe an einem Ort.",
+    "Raten stehen neben Ihren Budgets und Schulden, damit Sie die echten Monatskosten sehen.",
+    "Kein Bank-Login, keine Datenerfassung."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Kann ich Buy Now, Pay Later-Pläne erfassen?",
+     "a": "Ja. Tragen Sie jeden Plan mit Gesamtbetrag, Anzahl der Raten und dem Startdatum ein. Spendry übernimmt die Übersicht."
+    },
+    {
+     "q": "Sehe ich die monatliche Gesamtsumme aller Raten?",
+     "a": "Ja. Sie sehen die Raten für diesen Monat sowie die fälligen Beträge der kommenden Monate."
+    },
+    {
+     "q": "Erhalte ich eine Erinnerung vor jeder Rate?",
+     "a": "Ja, vor jeder Fälligkeit erhalten Sie rechtzeitig eine Mitteilung, selbst wenn die App nicht geöffnet ist."
+    },
+    {
+     "q": "Beeinflussen Raten das Datum meiner Schuldenfreiheit?",
+     "a": "Ja. Sie sind Teil Ihrer Gesamtschulden und fließen in Ihren Tilgungsplan ein."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Sparziele-App",
+   "screen": "05",
+   "title": "Sparziele-App: Richtig sparen mit Spendry",
+   "description": "Legen Sie Sparziele in Spendry fest, buchen Sie Ersparnisse ein, verfolgen Sie Fortschritte und teilen Sie Ziele über iCloud mit der Familie.",
+   "h1": "Eine Sparziele-App, die Sie motiviert",
+   "lead": "Legen Sie für jedes Ziel einen Betrag fest und buchen Sie gespartes Geld einfach ein. Spendry zeigt Ihnen täglich in der App und auf dem Home-Bildschirm, wie nah Sie Ihrem Ziel sind.",
+   "points": [
+    {
+     "h": "Ein klares Ziel vor Augen",
+     "p": "Jedes Sparziel bietet einen Zielbetrag, einen Fortschrittsbalken und zeigt genau, welcher Restbetrag noch fehlt."
+    },
+    {
+     "h": "Direkt auf Ihrem Home-Bildschirm",
+     "p": "Über Widgets haben Sie Ihre Ziele jederzeit im Blick, damit Sie Ihr Vorhaben nicht aus den Augen verlieren."
+    },
+    {
+     "h": "Gemeinsam sparen",
+     "p": "Teilen Sie ein Ziel per iCloud mit Partner oder Familie. Jeder zahlt vom eigenen iPhone auf dasselbe Ziel ein."
+    },
+    {
+     "h": "Direkt neben Ihrem Budget",
+     "p": "Gespartes Geld fließt in Ihren Monatsüberblick ein, direkt neben Ihren Budgets und festen Zahlungen."
+    }
+   ],
+   "steps_title": "So sparen Sie für ein Ziel",
+   "steps": [
+    "Erstellen Sie unter Ziele einen Eintrag mit dem gewünschten Sparbetrag.",
+    "Fügen Sie jedes Mal Geld hinzu, wenn Sie etwas zurücklegen.",
+    "Verfolgen Sie den Fortschritt in der App oder im Widget.",
+    "Teilen Sie das Ziel, wenn Sie zu zweit oder als Familie sparen."
+   ],
+   "why_title": "Ihre Vorteile",
+   "why": [
+    "Ziele stehen direkt neben Ihren Budgets und Verbindlichkeiten.",
+    "Gemeinsame Ziele synchronisieren sich nahtlos über iCloud.",
+    "Kostenlose Rechner für Sparziele direkt auf dieser Website."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Kann ich mehrere Sparziele anlegen?",
+     "a": "Ja. Erstellen Sie für jedes Vorhaben ein eigenes Ziel und buchen Sie Beträge separat ein."
+    },
+    {
+     "q": "Kann ich ein Ziel mit anderen Personen teilen?",
+     "a": "Ja. Geteilte Ziele werden über iCloud synchronisiert, wobei jede Person ihren eigenen Apple Account verwendet."
+    },
+    {
+     "q": "Gibt es Widgets für meine Sparziele?",
+     "a": "Ja. Ein passendes Widget zeigt Ihren aktuellen Sparfortschritt direkt auf dem Home-Bildschirm an."
+    },
+    {
+     "q": "Wie viel sollte ich jeden Monat sparen?",
+     "a": "Teilen Sie den Restbetrag durch die verbleibenden Monate. Unser kostenloser Sparzielrechner auf der Website übernimmt das für Sie, auf Wunsch auch mit Zinsen."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Nettovermögen App",
+   "screen": "08",
+   "title": "Nettovermögen App mit Live-Kursen",
+   "description": "Erfassen Sie Ihr Nettovermögen in Spendry: Konten, Investitionen mit Live-Kursen, Gold und Währungen abzüglich aller Schulden, in einer Zahl.",
+   "h1": "Ihr Nettovermögen, in einer stets aktuellen Zahl",
+   "lead": "Spendry zählt Ihre Konten und Investitionen zusammen, zieht Ihre Verbindlichkeiten ab und zeigt Ihr Nettovermögen. Aktien, Krypto, Gold und Währungen aktualisieren sich mit Live-Kursen.",
+   "points": [
+    {
+     "h": "Alles, was Sie besitzen und schulden",
+     "p": "Bargeld, Konten, Investitionen und Ersparnisse gegenüber Kreditkarten, Krediten, Raten und privaten Schulden."
+    },
+    {
+     "h": "Live-Kurse",
+     "p": "Aktien, Krypto, Gold und Währungen aktualisieren sich mit aktuellen Marktpreisen direkt neben Ihren Ausgaben."
+    },
+    {
+     "h": "Investitionen in eigener Währung",
+     "p": "Investitionen und Fremdwährungskonten behalten ihre Währung. Ihr Nettovermögen sehen Sie in Ihrer eigenen."
+    },
+    {
+     "h": "Auf Ihrem Home-Bildschirm",
+     "p": "Ein Widget für das Nettovermögen behält die Zahl im Blick."
+    }
+   ],
+   "steps_title": "So erfassen Sie Ihr Nettovermögen",
+   "steps": [
+    "Fügen Sie Ihre Konten und Salden hinzu.",
+    "Erfassen Sie Investitionen mit der gehaltenen Menge.",
+    "Tragen Sie Ihre Schulden ein.",
+    "Beobachten Sie Ihr Nettovermögen bei Kurs- und Saldoveränderungen."
+   ],
+   "why_title": "Warum Spendry",
+   "why": [
+    "Schulden und Investitionen in derselben App wie Ihr Budget.",
+    "Keine Anmeldung bei Bank oder Broker nötig.",
+    "Keine Datenerfassung."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Welche Investitionen kann ich erfassen?",
+     "a": "Aktien, Krypto, Gold und Währungen, jeweils mit Live-Kursen."
+    },
+    {
+     "q": "Verbindet sich die App mit meinem Broker?",
+     "a": "Nein. Sie tragen Ihre Bestände ein, die Kurse aktualisieren sich automatisch."
+    },
+    {
+     "q": "Sollte ich Haus oder Auto mit aufnehmen?",
+     "a": "Viele erfassen nur, was sich monatlich ändert: Bargeld, Investitionen und Schulden. Tragen Sie mehr ein, wenn es Ihnen hilft."
+    },
+    {
+     "q": "Gibt es ein Widget für das Nettovermögen?",
+     "a": "Ja, für Ihren Home-Bildschirm."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "Gemeinsames Budget App",
+   "screen": "04",
+   "title": "Gemeinsames Budget: App für Paare",
+   "description": "Teilen Sie Budgets und Sparziele mit Partner oder Familie in Spendry. Jeder nutzt sein eigenes iPhone und Apple-Konto, synchronisiert per iCloud.",
+   "h1": "Eine App für gemeinsame Budgets in Partnerschaft und Familie",
+   "lead": "Teilen Sie ein Budget oder ein Sparziel mit Partner oder Familie. Jeder erfasst Einträge auf dem eigenen iPhone. Spendry synchronisiert alles über iCloud, ganz ohne zusätzliches Benutzerkonto.",
+   "points": [
+    {
+     "h": "Nur teilen, was Sie möchten",
+     "p": "Teilen Sie ein Haushaltsbudget oder ein Ziel und behalten Sie den Rest Ihrer Finanzen privat."
+    },
+    {
+     "h": "Jeder erfasst auf dem eigenen Gerät",
+     "p": "Jede Person nutzt ihr eigenes Apple-Konto. Geteilte Budgets und Ziele aktualisieren sich für alle."
+    },
+    {
+     "h": "Keine neuen Konten, keine fremden Server",
+     "p": "Die Freigabe läuft direkt über iCloud. Spendry hat kein eigenes Kontosystem und erfasst keine Daten."
+    },
+    {
+     "h": "Ein Ziel, viele Hände",
+     "p": "Sparen Sie gemeinsam für Urlaub oder Wohnraum. Jeder Beitrag zählt für dasselbe Ziel."
+    }
+   ],
+   "steps_title": "So teilen Sie ein Budget",
+   "steps": [
+    "Erstellen Sie ein Budget oder ein Ziel.",
+    "Teilen Sie es direkt aus Spendry mit Partner oder Familie.",
+    "Die Einladung wird auf dem eigenen iPhone angenommen.",
+    "Alle tragen Ausgaben oder Ersparnisse ein, und alles bleibt synchron."
+   ],
+   "why_title": "Warum Spendry zum Teilen",
+   "why": [
+    "Ihre weiteren Budgets und Schulden bleiben privat.",
+    "Kein Extra-Login: Freigaben laufen über iCloud.",
+    "Keine Datenerfassung."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Braucht mein Partner auch Spendry?",
+     "a": "Ja, auf dem eigenen iPhone oder iPad und mit dem eigenen Apple-Konto."
+    },
+    {
+     "q": "Kann mein Partner alle meine Ausgaben sehen?",
+     "a": "Nein. Nur die freigegebenen Budgets und Ziele sind sichtbar, der Rest bleibt privat."
+    },
+    {
+     "q": "Wie funktioniert das Teilen?",
+     "a": "Über das iCloud-Teilen. Es gibt kein Spendry-Konto und keinen zwischengeschalteten Server."
+    },
+    {
+     "q": "Kann ich Einträge mit mehreren Personen teilen?",
+     "a": "Ja. Sie können mehrere Familienmitglieder zu einem gemeinsamen Budget oder Ziel einladen."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Kredite verwalten App",
+   "screen": "06",
+   "title": "Kredite verwalten: Restschuld und Raten",
+   "description": "Erfassen Sie jeden Kredit in Spendry: Restschuld, Zins und Tilgung pro Rate, verbleibende Zahlungen und rechtzeitige Erinnerungen vor jeder Fälligkeit.",
+   "h1": "Kredite verwalten und die echten Kosten sehen",
+   "lead": "Erfassen Sie einen Kredit einmalig. Spendry zeigt die Restschuld, den Zinsanteil jeder Zahlung, die verbleibenden Raten und erinnert Sie vor jeder Fälligkeit.",
+   "points": [
+    {
+     "h": "Der gesamte Tilgungsplan",
+     "p": "Jede Rate mit Zins und Tilgung aufgeschlüsselt, damit Sie die tatsächlichen Kreditkosten sehen."
+    },
+    {
+     "h": "Verbleibende Raten und Enddatum",
+     "p": "Die Zahl der noch offenen Raten und der Monat der letzten Zahlung."
+    },
+    {
+     "h": "Erinnerungen vor jeder Rate",
+     "p": "Eine Mitteilung erinnert Sie vor jedem Fälligkeitsdatum, selbst wenn die App geschlossen ist."
+    },
+    {
+     "h": "Teil Ihrer Entschuldung",
+     "p": "Kredite fließen in Ihre Gesamtschulden und in das Datum Ihrer Schuldenfreiheit ein."
+    }
+   ],
+   "steps_title": "So verwalten Sie einen Kredit",
+   "steps": [
+    "Tragen Sie den Kredit mit Betrag, Zinssatz, Laufzeit und erstem Zahlungstermin ein.",
+    "Prüfen Sie den Tilgungsplan und die Gesamtkosten.",
+    "Buchen Sie Zahlungen ab, sobald Sie diese leisten.",
+    "Verfolgen Sie das Datum Ihrer Schuldenfreiheit."
+   ],
+   "why_title": "Warum Spendry",
+   "why": [
+    "Ratenkredite, Autokredite, Baufinanzierungen und Studienkredite an einem Ort.",
+    "Keine Bankanmeldung, keine Datenerfassung.",
+    "Kostenlose Rechner auf dieser Website."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Welche Kredite kann ich erfassen?",
+     "a": "Ratenkredite, Autokredite, Immobilienkredite, Studienkredite und sonstige Darlehen sowie private Schulden."
+    },
+    {
+     "q": "Zeigt die App, wie viel Zinsen ich zahle?",
+     "a": "Ja. Sie sehen den Zinsanteil jeder einzelnen Rate und über die gesamte Laufzeit."
+    },
+    {
+     "q": "Erinnert mich die App vor jeder Zahlung?",
+     "a": "Ja, vor jedem Fälligkeitsdatum, auch wenn Sie die App nie öffnen."
+    },
+    {
+     "q": "Verbindet sich Spendry mit meinem Kreditgeber?",
+     "a": "Nein. Sie geben den Kredit einmalig ein, Spendry berechnet den Tilgungsplan."
+    }
+   ]
+  }
+ ]
 }

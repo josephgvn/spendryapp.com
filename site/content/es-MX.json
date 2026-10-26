@@ -1553,5 +1553,835 @@
    "final_title": "Ten presente cada cobro a tiempo.",
    "final_text": "Descarga Spendry, registra tus suscripciones y recibe un aviso oportuno antes de que se renueven."
   }
- }
+ },
+ "app_labels": {
+  "free": "Gratis en App Store. Premium es opcional, con una semana de prueba.",
+  "more": "Más de lo que Spendry puede hacer",
+  "cta": "Descarga Spendry y ten todo tu mes bajo control en un solo lugar.",
+  "tools_title": "Calculadoras gratis",
+  "guides_title": "Guías"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "App de presupuesto",
+   "screen": "04",
+   "footer": true,
+   "title": "App de presupuesto para iPhone: Spendry",
+   "description": "Spendry es una app de presupuesto para iPhone y iPad: límites de gasto, tarjetas, préstamos y facturas en un lugar, con recordatorios antes de cada vencimiento.",
+   "h1": "Una app de presupuesto que se anticipa a lo que viene",
+   "lead": "Spendry le da un límite a cada categoría, te avisa antes de que se agote tu presupuesto y te muestra los pagos pendientes del mes. Sin conectar tu banco.",
+   "points": [
+    {
+     "h": "Presupuestos que se adaptan a tu ritmo",
+     "p": "Define un límite mensual para el súper, salidas o lo que tú decidas. Cada gasto llena su categoría y Spendry te avisa antes del límite, no después."
+    },
+    {
+     "h": "El resto del mes, bajo control",
+     "p": "Los cortes de tarjetas, préstamos, facturas y suscripciones por pagar aparecen junto a tu saldo, para que sepas lo que realmente te queda."
+    },
+    {
+     "h": "Registra gastos en segundos",
+     "p": "Escribe el monto y elige la categoría, usa Escanear recibo, agrega desde un widget o deja que una automatización registre tus compras con Apple Pay."
+    },
+    {
+     "h": "Descubre a dónde se va tu dinero",
+     "p": "Gráficas semanales y mensuales por categoría y día te enseñan qué presupuestos se desvían y cómo se compara este mes con el anterior."
+    }
+   ],
+   "steps_title": "Cómo empezar tu presupuesto en Spendry",
+   "steps": [
+    "Registra tus ingresos y las cuentas o tarjetas desde donde pagas.",
+    "Crea presupuestos para tus gastos principales y asigna un límite.",
+    "Anota los gastos en el momento o activa la automatización de Apple Pay.",
+    "A fin de mes, revisa las gráficas y ajusta los límites del próximo ciclo."
+   ],
+   "why_title": "Por qué elegir Spendry",
+   "why": [
+    "Sin conectar tu banco: tú decides qué registrar y nadie accede a tu cuenta.",
+    "Tus datos se quedan en tu iPhone y en tu iCloud; no se recopila nada.",
+    "Deudas, tarjetas y cuotas junto a tu presupuesto, todo en la misma app.",
+    "Descarga gratis, con opción a Premium."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "¿Spendry es una app de presupuesto gratis?",
+     "a": "Sí. Las funciones principales como presupuestos, gastos y recordatorios son gratis. Premium es opcional: mensual o anual con semana de prueba, o pago único de por vida."
+    },
+    {
+     "q": "¿Spendry necesita acceso a mi cuenta bancaria?",
+     "a": "No. Nunca te pedirá tus accesos de banco. Tú agregas los gastos, los importas desde mensajes bancarios o los registras con Apple Pay mediante Atajos."
+    },
+    {
+     "q": "¿Puedo compartir un presupuesto con mi pareja?",
+     "a": "Sí. En Presupuesto compartido y Metas todo se sincroniza vía iCloud, y cada quien utiliza su propia Cuenta de Apple."
+    },
+    {
+     "q": "¿En qué dispositivos está disponible?",
+     "a": "En iPhone y iPad con iOS 17 o superior. También hay versión para Mac en Mac App Store."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Presupuesto sin vincular banco",
+   "screen": "02",
+   "footer": true,
+   "title": "App de presupuesto sin vincular banco: Spendry",
+   "description": "App de presupuesto sin contraseñas bancarias: anota gastos tú, importa de mensajes o usa Apple Pay con Atajos. Tus datos se quedan en tu iPhone.",
+   "h1": "La app de presupuesto que no te pide tus claves del banco",
+   "lead": "Muchas apps piden tu contraseña bancaria. Spendry no se conecta con tu banco: tú decides qué entra y todo se queda en tu iPhone y en tu propio iCloud.",
+   "points": [
+    {
+     "h": "Cero conexión con tus bancos",
+     "p": "Sin iniciar sesión en el banco, sin intermediarios y sin registros obligatorios. Spendry funciona en cualquier país, con cualquier tarjeta o moneda."
+    },
+    {
+     "h": "Anotar tus gastos sigue siendo fácil",
+     "p": "Escribe el monto, usa Escanear recibo, pulsa en un widget de la pantalla de inicio o usa Siri. También puedes convertir tus SMS bancarios en registros."
+    },
+    {
+     "h": "Compras con Apple Pay en automático",
+     "p": "Activa la automatización integrada en Atajos y cada compra que hagas con Apple Pay se agregará directo a Spendry con su monto."
+    },
+    {
+     "h": "Sin recolección de datos personales",
+     "p": "Sin anuncios ni rastreo. La etiqueta de privacidad en App Store dice Datos no recopilados, y puedes usar Bloqueo de la aplicación con Face ID."
+    }
+   ],
+   "steps_title": "Cómo funciona sin sincronizar bancos",
+   "steps": [
+    "Registra tus tarjetas, préstamos y cuentas con su saldo actual.",
+    "Anota tus compras al momento o impórtalas de tus alertas bancarias.",
+    "Activa la automatización para Apple Pay en la app Atajos.",
+    "Revisa tu saldo y presupuestos; las alertas te avisarán antes de vencer."
+   ],
+   "why_title": "Por qué evitar la conexión bancaria",
+   "why": [
+    "Tus contraseñas bancarias jamás salen de tu poder.",
+    "Sin fallas de conexión ni datos perdidos por cambios en los bancos.",
+    "Compatible con cualquier institución, incluso las que otras apps no admiten.",
+    "Anotar cada gasto te ayuda a ser más consciente de lo que compras."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "¿Por qué Spendry no se vincula a mi banco?",
+     "a": "Para que tus accesos y movimientos nunca pasen por servidores ajenos. Todo vive en tu iPhone y en tu cuenta de iCloud."
+    },
+    {
+     "q": "¿No es tardado registrar gastos a mano?",
+     "a": "Toma unos segundos. Puedes automatizarlo con Apple Pay vía Atajos, usar un widget, pedirlo a Siri o copiar el texto de tus alertas bancarias."
+    },
+    {
+     "q": "¿Spendry puede leer mis mensajes bancarios?",
+     "a": "No por su cuenta. Tú solo pegas o compartes el texto del banco en Spendry y la app genera el gasto en automático."
+    },
+    {
+     "q": "¿Están protegidos mis datos?",
+     "a": "Spendry no recopila tus datos. Todo se almacena en tu dispositivo y en tu iCloud, además de poder proteger el acceso con Face ID."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "App para pagar deudas",
+   "screen": "06",
+   "footer": true,
+   "title": "Pagar deudas: método bola de nieve y avalancha",
+   "description": "Organiza tarjetas, préstamos y cuotas con los métodos bola de nieve o avalancha. Descubre la fecha exacta en la que vas a liquidar tus deudas.",
+   "h1": "La app para salir de deudas y ver tu fecha de liquidación",
+   "lead": "Registra cada saldo una vez. Spendry los ordena con el método bola de nieve o avalancha, suma tus pagos extra y te muestra el mes en que quedarás libre de deudas.",
+   "points": [
+    {
+     "h": "Toda tu deuda en una sola cifra",
+     "p": "Tarjetas de crédito, préstamos, sobregiros, cuotas y préstamos personales: conoce el total acumulado y tu pago mensual en un vistazo."
+    },
+    {
+     "h": "Bola de nieve o avalancha: tú eliges",
+     "p": "Liquida primero la cuenta menor para ganar impulso o la tasa más alta para pagar menos intereses. Spendry compara ambos planes y los mantiene al día."
+    },
+    {
+     "h": "Una fecha que avanza contigo",
+     "p": "Anota un abono o da un pago anticipado: verás cómo se adelanta de inmediato tu fecha para estar libre de deudas."
+    },
+    {
+     "h": "Recordatorios para no atrasarte",
+     "p": "Recibe un aviso antes de cada fecha de corte y pago, aun con la app cerrada, para evitar recargos e intereses moratorios."
+    }
+   ],
+   "steps_title": "Cómo funciona el plan de pagos",
+   "steps": [
+    "Añade cada deuda indicando saldo, tasa de interés y pago mínimo.",
+    "Elige la estrategia: Bola de Nieve o Avalancha.",
+    "Define el monto extra que destinarás a capital cada mes.",
+    "Registra tus pagos conforme los hagas y mira cómo se acerca la meta."
+   ],
+   "why_title": "Por qué es diferente",
+   "why": [
+    "Control detallado por tarjeta, préstamo y cuota, no solo un monto global.",
+    "Sin pedir contraseñas del banco y sin recopilar tus datos.",
+    "Usa los mismos métodos que nuestras calculadoras gratuitas del sitio web."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "¿Qué es el método bola de nieve?",
+     "a": "Pagas el mínimo de todas tus cuentas y aplicas el dinero extra a la deuda de menor saldo. Al liquidarla, usas ese monto para la siguiente."
+    },
+    {
+     "q": "¿Qué es el método avalancha?",
+     "a": "El pago extra se va primero a la deuda con la tasa de interés más alta, lo que suele ahorrarte la mayor cantidad de intereses en el plan."
+    },
+    {
+     "q": "¿Puedo incluir dinero que le debo a conocidos?",
+     "a": "Sí. Puedes registrar préstamos personales con o sin intereses y se integrarán dentro de tu estrategia de pago."
+    },
+    {
+     "q": "¿El plan para salir de deudas es gratis?",
+     "a": "Puedes empezar gratis. Con la versión Premium quitas los límites de la opción gratuita, e incluye una semana de prueba."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Control de tarjetas de crédito",
+   "screen": "07",
+   "footer": true,
+   "title": "Control de Tarjetas de Crédito: Fechas de Corte y Pago",
+   "description": "Lleva el control de tus tarjetas de crédito en Spendry: fechas de corte, de pago, saldos y cuotas, con recordatorios para no pagar recargos.",
+   "h1": "Tus tarjetas de crédito, fechas de corte y de pago al día",
+   "lead": "Spendry sabe cuándo corta cada tarjeta y cuándo debes pagar. Mantiene tus saldos y cuotas actualizados y te avisa a tiempo para evitar sorpresas.",
+   "points": [
+    {
+     "h": "Fechas de corte y pago de cada tarjeta",
+     "p": "Agrega tus tarjetas con su día de corte y de pago. Spendry te muestra cuánto debes en cada una y cuándo hay que liquidarlo."
+    },
+    {
+     "h": "Compras a cuotas en tus tarjetas",
+     "p": "Tus compras a meses muestran cuántos pagos te faltan y en qué mes terminas de pagar."
+    },
+    {
+     "h": "Pago mínimo o pago para no generar intereses",
+     "p": "Registra un abono y el saldo se actualiza. La herramienta gratuita en la web te muestra el costo real de pagar solo el mínimo con el tiempo."
+    },
+    {
+     "h": "Un recordatorio antes de tu fecha límite",
+     "p": "Recibe notificaciones antes de cada pago, incluso con la aplicación cerrada. Marca el pago como realizado desde la misma notificación."
+    }
+   ],
+   "steps_title": "Cómo llevar el control de tus tarjetas",
+   "steps": [
+    "Agrega cada tarjeta con su límite, día de corte y día de pago.",
+    "Anota tus compras y cuotas, o impórtalas desde las notificaciones de tu banco.",
+    "Registra los abonos cada vez que pagues.",
+    "Deja que los recordatorios te avisen antes de la fecha límite de pago."
+   ],
+   "why_title": "Por qué usar Spendry para tus tarjetas",
+   "why": [
+    "Todas tus tarjetas en una sola pantalla con tu deuda total.",
+    "Tu fecha para estar libre de deudas toma en cuenta tus tarjetas.",
+    "Sin contraseñas bancarias y sin recolectar tus datos."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "¿Cuál es la diferencia entre la fecha de corte y la fecha límite de pago?",
+     "a": "La fecha de corte cierra tu periodo mensual y fija lo que debes; la fecha límite de pago es el último día para pagar sin recargos ni intereses."
+    },
+    {
+     "q": "¿Me puede avisar antes de cada pago de tarjeta?",
+     "a": "Sí. Recibes una notificación antes de cada fecha límite de pago, incluso sin abrir la aplicación, y puedes marcar el pago desde el aviso."
+    },
+    {
+     "q": "¿Puedo registrar compras a meses o cuotas?",
+     "a": "Sí. Cada plan de cuotas te muestra los pagos pendientes y el mes exacto del último pago."
+    },
+    {
+     "q": "¿Se conecta con mi banco o emisor de tarjeta?",
+     "a": "No. Spendry nunca te pide accesos bancarios. Tú agregas tus tarjetas y registras los pagos a tu ritmo."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Recordatorio de pagos y facturas",
+   "screen": "07",
+   "footer": true,
+   "title": "Recordatorio de Pagos y Facturas: Nunca Olvides Pagar",
+   "description": "Spendry te avisa antes de cada factura, tarjeta, préstamo y suscripción, incluso sin abrir la app. Marca como pagado desde la notificación.",
+   "h1": "Un recordatorio de pagos y facturas que llega a tiempo",
+   "lead": "Spendry te avisa antes de cada factura, pago de tarjeta, préstamo y suscripción, incluso si no abres la app. Pospón el aviso o márcalo como pagado al momento.",
+   "points": [
+    {
+     "h": "Todas tus fechas de vencimiento en una lista",
+     "p": "Facturas, estados de cuenta, préstamos y suscripciones en una sola lista de próximos pagos, con los pendientes vencidos arriba de todo."
+    },
+    {
+     "h": "Recordatorios sin necesidad de abrir la app",
+     "p": "Las notificaciones se programan en tu iPhone y llegan antes de cada vencimiento. Son de tipo Notificaciones importantes, por lo que pueden sonar aun con un Enfoque activo si así lo decides."
+    },
+    {
+     "h": "Paga o pospón con un toque",
+     "p": "Marca un pago como listo o posponlo directamente desde la notificación. Al pagar, se actualizan tu saldo y tus Presupuestos."
+    },
+    {
+     "h": "Un resumen por la mañana si lo deseas",
+     "p": "Una automatización lista para la app Atajos te envía cada mañana una notificación con los pagos de los próximos tres días."
+    }
+   ],
+   "steps_title": "Cómo configurar tus recordatorios",
+   "steps": [
+    "Agrega tus facturas, tarjetas, préstamos y suscripciones con sus fechas de pago.",
+    "Elige cuántos días antes de cada vencimiento quieres que te avise.",
+    "Paga o pospón desde la misma notificación.",
+    "Revisa la lista de pagos próximos cada vez que quieras ver el panorama completo."
+   ],
+   "why_title": "Por qué funciona",
+   "why": [
+    "Un solo lugar para todo tipo de pago, sin una app distinta por servicio.",
+    "Los recordatorios llegan puntual aunque no abras Spendry.",
+    "Tus datos se quedan en tu iPhone: nada sale de tu dispositivo."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "¿Recibiré recordatorios si nunca abro la aplicación?",
+     "a": "Sí. Las notificaciones se programan en tu iPhone y llegan a tiempo aunque Spendry esté cerrada."
+    },
+    {
+     "q": "¿Puedo elegir con cuánta anticipación recibir el aviso?",
+     "a": "Sí. Elige cuántos días antes de la fecha límite quieres que te llegue la notificación."
+    },
+    {
+     "q": "¿También me puede avisar sobre suscripciones?",
+     "a": "Sí. Suscripciones, facturas, tarjetas de crédito y préstamos cuentan con recordatorios."
+    },
+    {
+     "q": "¿Los recordatorios necesitan conexión a internet?",
+     "a": "No. Se programan directamente de forma local en tu dispositivo."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Control de suscripciones",
+   "screen": "09",
+   "footer": true,
+   "title": "Control de Suscripciones: Conoce lo que Pagas al Mes",
+   "description": "Lleva el control de tus suscripciones en Spendry: totales mensuales y anuales, fechas de cobro y recordatorios antes de renovar para cancelar a tiempo.",
+   "h1": "Un gestor de suscripciones que te muestra el gasto anual",
+   "lead": "Agrega tus suscripciones una vez y Spendry calcula cuánto gastas al mes y al año, cuándo se cobra cada una y te avisa antes de renovar para que puedas cancelar a tiempo.",
+   "points": [
+    {
+     "h": "Totales mensuales y anuales",
+     "p": "Tus planes semanales, mensuales y anuales se convierten en un monto mensual y uno anual, para que los micropagos dejen de pasar desapercibidos."
+    },
+    {
+     "h": "Un recordatorio antes de cada cobro",
+     "p": "Recibe un aviso unos días antes de la renovación de una suscripción, justo cuando todavía puedes cancelarla."
+    },
+    {
+     "h": "Pregunta de forma natural",
+     "p": "Pregúntale al asistente de Spendry cuánto gastas al año en suscripciones y obtén el total detallado servicio por servicio."
+    },
+    {
+     "h": "Integradas en todo tu presupuesto",
+     "p": "Tus suscripciones se toman en cuenta en tus presupuestos y pagos programados, mostrándose junto con todos tus demás gastos."
+    }
+   ],
+   "steps_title": "Cómo llevar el control de tus suscripciones",
+   "steps": [
+    "Agrega cada suscripción con su precio, ciclo de cobro y fecha de renovación.",
+    "Revisa el total que pagas cada mes y cada año.",
+    "Activa los recordatorios antes de las renovaciones.",
+    "Cancela lo que ya no uses y mira cómo baja tu gasto total."
+   ],
+   "why_title": "Por qué te ayuda",
+   "why": [
+    "Suscripciones de cualquier plataforma, no solo de App Store.",
+    "Sin claves de banco: solo las agregas una vez.",
+    "Incluye una herramienta gratuita en la web para calcular costos de suscripción."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "¿Spendry detecta mis suscripciones de manera automática?",
+     "a": "No. Al no conectarse a tu banco, agregas cada suscripción una sola vez. A partir de ahí, calcula los cobros y totales por ti."
+    },
+    {
+     "q": "¿Puedo registrar suscripciones anuales?",
+     "a": "Sí. Admite cobros semanales, mensuales y anuales, mostrándote los totales equivalentes al mes y al año."
+    },
+    {
+     "q": "¿Me recordará antes de que se renueve una suscripción?",
+     "a": "Sí, unos días antes de cada renovación, incluso si no abres la aplicación."
+    },
+    {
+     "q": "¿Cómo cancelo una suscripción en mi iPhone?",
+     "a": "Las suscripciones de App Store se cancelan en la app Configuración, tocando tu nombre y luego Suscripciones. Otros servicios se cancelan en su propio sitio web o aplicación."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Control de gastos",
+   "screen": "03",
+   "title": "Control de gastos para iPhone: Spendry",
+   "description": "Registra gastos al instante con widgets, Siri o Apple Pay. Gráficas por categoría, sin conectar tu banco ni compartir datos.",
+   "h1": "Un control de gastos que toma segundos",
+   "lead": "Escribe la cantidad, elige una categoría y listo. O pídeselo a Siri, usa un widget o registra compras con Apple Pay en automático. Mira a dónde va tu dinero.",
+   "points": [
+    {
+     "h": "Rápido de registrar, a tu manera",
+     "p": "Añade gastos desde la app, un widget de la pantalla de inicio, Siri o Atajos, y guarda el comprobante con la opción de escanear recibo."
+    },
+    {
+     "h": "Gráficas que responden dudas",
+     "p": "Vistas semanales y mensuales por categoría y por día, tu promedio diario y tu ritmo de gasto frente al periodo anterior."
+    },
+    {
+     "h": "Presupuestos que te avisan a tiempo",
+     "p": "Cada gasto se descuenta de su categoría en Presupuestos, y Spendry te avisa antes de que se termine el dinero."
+    },
+    {
+     "h": "Tus propias categorías",
+     "p": "Crea las categorías que necesitas, con tus propios nombres e iconos, en lugar de depender de una lista fija."
+    }
+   ],
+   "steps_title": "Cómo empezar a registrar",
+   "steps": [
+    "Registra tus primeros gastos desde la app o un widget.",
+    "Crea presupuestos para tus categorías clave.",
+    "Activa la automatización de Apple Pay si pagas con tu teléfono.",
+    "Revisa las gráficas cada semana."
+   ],
+   "why_title": "Por qué Spendry",
+   "why": [
+    "Sin iniciar sesión en tu banco, sin recopilar datos.",
+    "Los widgets, Siri y Atajos te permiten añadir gastos.",
+    "Funciona con cualquier moneda, en 44 idiomas."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "¿Puedo añadir un gasto sin abrir la app?",
+     "a": "Sí. Puedes usar un widget de la pantalla de inicio, pedirlo a Siri o usar una automatización en Atajos con Apple Pay."
+    },
+    {
+     "q": "¿Puedo guardar recibos?",
+     "a": "Sí. Puedes escanear recibo al registrar un gasto y se guardará junto a él."
+    },
+    {
+     "q": "¿Funciona con cualquier moneda?",
+     "a": "Sí. Elige tu moneda al comenzar. Las cuentas en moneda extranjera y las inversiones pueden usar la suya."
+    },
+    {
+     "q": "¿Es gratis?",
+     "a": "Sí, las funciones principales son gratis. El plan Premium es opcional y tiene una semana de prueba gratis."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Control de cuotas",
+   "screen": "06",
+   "title": "Control de cuotas y meses sin intereses",
+   "description": "Lleva el control de tus compras a plazos y meses sin intereses: pagos pendientes, total mensual y fecha de liquidación con Spendry.",
+   "h1": "Tus pagos a plazos y el mes en que terminan",
+   "lead": "Las compras a meses y los planes de pago se acumulan sin darnos cuenta. Spendry te muestra cuántos pagos te quedan, cuánto sumas al mes y cuándo acabas.",
+   "points": [
+    {
+     "h": "Lo que debes cada mes en cuotas",
+     "p": "Revisa el total a pagar este mes y en los próximos meses, para que las nuevas compras no se te acumulen."
+    },
+    {
+     "h": "La fecha final de cada plan",
+     "p": "Cada plan te muestra los pagos pendientes y el mes exacto del último pago."
+    },
+    {
+     "h": "Recordatorios antes de cada pago",
+     "p": "Recibes una notificación antes de la fecha límite de cada pago, incluso con la app cerrada."
+    },
+    {
+     "h": "Parte de tu fecha libre de deudas",
+     "p": "Las compras a meses entran en tu total de deudas y en tu plan de liquidación."
+    }
+   ],
+   "steps_title": "Cómo llevar el control de tus cuotas",
+   "steps": [
+    "Añade una compra con su total, el número de pagos y la fecha del primer cobro.",
+    "Revisa el monto mensual y la fecha de liquidación.",
+    "Registra cada pago o márcalo como pagado desde el recordatorio.",
+    "Revisa el total mensual a plazos antes de realizar una nueva compra."
+   ],
+   "why_title": "Por qué te ayuda",
+   "why": [
+    "Tarjetas de crédito y compras a plazos en un solo lugar.",
+    "Tus pagos se integran junto a tus presupuestos y deudas, para tener clara tu salida de dinero real.",
+    "Sin iniciar sesión en tu banco, sin recopilar datos."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "¿Puedo registrar planes de pago a plazos?",
+     "a": "Sí. Añade cualquier compra a plazos con su total, el número de pagos y la fecha inicial; Spendry calcula el resto."
+    },
+    {
+     "q": "¿Muestra el total que pago a plazos cada mes?",
+     "a": "Sí. Puedes ver la suma de tus pagos de este mes y lo programado para los meses siguientes."
+    },
+    {
+     "q": "¿Recibiré recordatorios antes de cada cobro?",
+     "a": "Sí, antes de cada fecha de pago, incluso si no abres la app."
+    },
+    {
+     "q": "¿Afectan estas compras a mi fecha para salir de deudas?",
+     "a": "Sí. Forman parte del total de tus deudas y se contemplan en tu estrategia de pago."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Metas de ahorro",
+   "screen": "05",
+   "title": "Metas de ahorro: Ahorra para tus sueños",
+   "description": "Crea metas de ahorro en Spendry, agrega dinero, revisa tu progreso y comparte objetivos con tu familia o pareja mediante iCloud.",
+   "h1": "Una app de metas de ahorro para mantenerte motivado",
+   "lead": "Asigna un monto a cada meta y suma dinero cuando puedas. Spendry te muestra cuánto te falta cada día, en la app y en tu pantalla de inicio.",
+   "points": [
+    {
+     "h": "Un objetivo claro",
+     "p": "Cada meta tiene un monto específico, una barra de progreso y el cálculo de cuánto te falta ahorrar."
+    },
+    {
+     "h": "En tu pantalla de inicio",
+     "p": "Un widget de metas mantiene tu avance a la vista para que no pierdas de vista tus planes."
+    },
+    {
+     "h": "Ahorra en pareja",
+     "p": "Comparte una meta con tu pareja o familia usando iCloud; cada quien aporta al mismo objetivo desde su propio iPhone."
+    },
+    {
+     "h": "Integrado con tu presupuesto",
+     "p": "El dinero que destinas al ahorro se integra con tu mes, junto a tus presupuestos y pagos."
+    }
+   ],
+   "steps_title": "Cómo ahorrar para una meta",
+   "steps": [
+    "Crea una meta con la cantidad que deseas reunir.",
+    "Añade dinero cada vez que ahorres.",
+    "Sigue tu avance en la app o en el widget.",
+    "Comparte la meta si ahorras en compañía de alguien más."
+   ],
+   "why_title": "Por qué te ayuda",
+   "why": [
+    "Tus metas conviven junto a tus presupuestos y deudas.",
+    "Las metas compartidas se sincronizan mediante iCloud.",
+    "Calculadora de metas de ahorro gratis en este sitio."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "¿Puedo tener más de una meta?",
+     "a": "Sí. Crea una meta para cada propósito y registra tus aportaciones por separado."
+    },
+    {
+     "q": "¿Puedo compartir una meta con mi pareja?",
+     "a": "Sí. Las metas compartidas se sincronizan por iCloud, y cada persona usa su propia Cuenta de Apple."
+    },
+    {
+     "q": "¿Hay widgets para ver las metas?",
+     "a": "Sí. Un widget de metas muestra tu avance directamente en la pantalla de inicio."
+    },
+    {
+     "q": "¿Cuánto debería ahorrar al mes?",
+     "a": "Divide el dinero restante entre los meses que te quedan. La calculadora gratis de este sitio lo hace, sumando intereses si los tienes."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Control de patrimonio neto",
+   "screen": "08",
+   "title": "App de patrimonio neto con precios en vivo",
+   "description": "Lleva tu patrimonio neto en Spendry: cuentas e inversiones con precios en vivo, menos tarjetas, préstamos y deudas, todo en una cifra.",
+   "h1": "Tu patrimonio neto, en una cifra siempre al día",
+   "lead": "Spendry suma tus cuentas e inversiones, descuenta lo que debes y te muestra tu patrimonio neto. Acciones, cripto, oro y divisas se actualizan con precios en vivo.",
+   "points": [
+    {
+     "h": "Todo lo que tienes y debes",
+     "p": "Efectivo, cuentas, inversiones y ahorros frente a tarjetas, préstamos, cuotas y deudas personales."
+    },
+    {
+     "h": "Precios en vivo",
+     "p": "Acciones, cripto, oro y divisas se actualizan con precios reales del mercado junto a tus gastos."
+    },
+    {
+     "h": "Inversiones en su propia moneda",
+     "p": "Las inversiones y cuentas en moneda extranjera conservan su divisa; tu patrimonio neto se muestra en la tuya."
+    },
+    {
+     "h": "En tu pantalla de inicio",
+     "p": "Un widget de patrimonio neto mantiene la cifra siempre a la vista."
+    }
+   ],
+   "steps_title": "Cómo llevar tu patrimonio neto",
+   "steps": [
+    "Añade tus cuentas y sus saldos.",
+    "Añade tus inversiones con la cantidad que tienes.",
+    "Añade tus deudas.",
+    "Revisa tu patrimonio neto conforme cambian los precios y saldos."
+   ],
+   "why_title": "Por qué Spendry",
+   "why": [
+    "Deudas e inversiones en la misma app que tu presupuesto.",
+    "Sin iniciar sesión en bancos o casas de bolsa.",
+    "No recopilamos tus datos."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "¿Qué inversiones puedo registrar?",
+     "a": "Acciones, criptomonedas, oro y divisas, con precios en vivo."
+    },
+    {
+     "q": "¿Se conecta a mi casa de bolsa?",
+     "a": "No. Tú añades lo que tienes; los precios se actualizan por su cuenta."
+    },
+    {
+     "q": "¿Debería incluir mi casa o mi auto?",
+     "a": "Muchas personas solo registran lo que cambia mes con mes: efectivo, inversiones y deudas. Añade más si te resulta útil."
+    },
+    {
+     "q": "¿Hay un widget de patrimonio neto?",
+     "a": "Sí, para tu pantalla de inicio."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "App de presupuesto compartido",
+   "screen": "04",
+   "title": "App de presupuesto compartido para parejas",
+   "description": "Comparte presupuestos y metas con tu pareja o familia en Spendry. Cada quien usa su propio iPhone y cuenta de Apple, sincronizado con iCloud.",
+   "h1": "App de presupuesto compartido para parejas y familias",
+   "lead": "Comparte un presupuesto o una meta de ahorro con tu pareja o familia. Cada quien añade desde su propio iPhone y Spendry lo sincroniza vía iCloud, sin cuentas extra.",
+   "points": [
+    {
+     "h": "Comparte solo lo que tú quieras",
+     "p": "Comparte el presupuesto del hogar o una meta y mantén el resto de tu dinero en privado."
+    },
+    {
+     "h": "Cada quien añade desde su teléfono",
+     "p": "Cada persona usa su propia cuenta de Apple; los presupuestos y metas compartidos se actualizan para todos."
+    },
+    {
+     "h": "Sin cuentas nuevas ni servidores",
+     "p": "Todo se comparte mediante iCloud. Spendry no tiene cuentas de usuario ni recopila datos."
+    },
+    {
+     "h": "Una meta, entre varias personas",
+     "p": "Ahorren juntos para unas vacaciones o una casa; cada aportación suma a la misma meta."
+    }
+   ],
+   "steps_title": "Cómo compartir un presupuesto",
+   "steps": [
+    "Crea un presupuesto o una meta.",
+    "Compártelo desde Spendry con tu pareja o familia.",
+    "Aceptan la invitación en su propio iPhone.",
+    "Todos registran gastos o ahorros, y todo se mantiene sincronizado."
+   ],
+   "why_title": "Por qué compartir con Spendry",
+   "why": [
+    "Tus otros presupuestos y deudas se quedan en privado.",
+    "Sin registros extra: se comparte directamente mediante iCloud.",
+    "No recopilamos tus datos."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "¿Mi pareja también necesita Spendry?",
+     "a": "Sí, en su propio iPhone o iPad, con su propia cuenta de Apple."
+    },
+    {
+     "q": "¿Mi pareja puede ver todos mis gastos?",
+     "a": "No. Solo se comparten los presupuestos y metas que tú elijas; lo demás se mantiene privado."
+    },
+    {
+     "q": "¿Cómo funciona la sincronización?",
+     "a": "A través de las funciones para compartir de iCloud. No hay cuentas de Spendry ni servidores intermedios."
+    },
+    {
+     "q": "¿Puedo compartir con más de una persona?",
+     "a": "Sí. Puedes invitar a varios miembros de la familia a un presupuesto o meta compartida."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Control de préstamos",
+   "screen": "06",
+   "title": "App de control de préstamos y pagos",
+   "description": "Lleva el control de tus préstamos en Spendry: saldo pendiente, intereses, capital en cada pago, cuotas restantes y recordatorios a tiempo.",
+   "h1": "Un control de préstamos que muestra lo que pagas",
+   "lead": "Añade un préstamo una sola vez y Spendry te muestra el saldo pendiente, cuánto de cada pago es interés, cuántos pagos te quedan y te avisa antes de cada cuota.",
+   "points": [
+    {
+     "h": "La tabla completa de pagos",
+     "p": "Cada cuota desglosada en intereses y capital, para que veas lo que el préstamo cuesta en realidad."
+    },
+    {
+     "h": "Pagos restantes y fecha final",
+     "p": "El número de cuotas que te quedan y el mes del último pago."
+    },
+    {
+     "h": "Recordatorios antes de cada cuota",
+     "p": "Recibe una notificación antes de cada fecha de vencimiento, incluso con la app cerrada."
+    },
+    {
+     "h": "Parte de tu plan de deudas",
+     "p": "Los préstamos se suman a tu deuda total y a tu fecha para estar libre de deudas."
+    }
+   ],
+   "steps_title": "Cómo llevar el control de un préstamo",
+   "steps": [
+    "Añade el préstamo con el monto, tasa, plazo y fecha del primer pago.",
+    "Revisa la tabla de amortización y el costo total.",
+    "Registra los pagos conforme los vayas haciendo.",
+    "Sigue tu fecha para estar libre de deudas."
+   ],
+   "why_title": "Por qué Spendry",
+   "why": [
+    "Préstamos personales, de auto, hipotecarios y estudiantiles en un solo lugar.",
+    "Sin iniciar sesión en tu banco, sin recopilación de datos.",
+    "Una calculadora de préstamos gratis en este sitio."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "¿Qué tipo de préstamos puedo registrar?",
+     "a": "Personales, de auto, hipotecas, estudiantiles y cualquier crédito en cuotas, además de dinero que debas a conocidos."
+    },
+    {
+     "q": "¿Muestra cuántos intereses pago?",
+     "a": "Sí. Puedes ver los intereses de cada pago y el total a lo largo de todo el préstamo."
+    },
+    {
+     "q": "¿Me recordará antes de cada pago?",
+     "a": "Sí, antes de cada fecha de vencimiento, incluso si nunca abres la app."
+    },
+    {
+     "q": "¿Se conecta con la entidad que me prestó?",
+     "a": "No. Añades el préstamo una sola vez y Spendry calcula todo el calendario de pagos."
+    }
+   ]
+  }
+ ]
 }

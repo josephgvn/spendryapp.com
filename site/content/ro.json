@@ -1553,5 +1553,835 @@
    "final_title": "Află din timp despre fiecare reînnoire.",
    "final_text": "Descarcă Spendry, adaugă-ți abonamentele și primește o notificare înainte de fiecare plată."
   }
- }
+ },
+ "app_labels": {
+  "free": "Gratuit pe App Store. Premium este opțional, cu o săptămână gratuită.",
+  "more": "Ce mai poate face Spendry",
+  "cta": "Descarcă Spendry și vezi întreaga lună într-un singur loc.",
+  "tools_title": "Calculatoare gratuite",
+  "guides_title": "Ghiduri"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "Aplicație de buget",
+   "screen": "04",
+   "footer": true,
+   "title": "Aplicație de buget pe iPhone: Spendry, fără cont bancar",
+   "description": "Spendry este o aplicație de buget pentru iPhone și iPad: bugete pe categorii, carduri, credite, facturi la un loc și mementouri înainte de scadență.",
+   "h1": "O aplicație de buget care știe și ce urmează",
+   "lead": "Spendry oferă o limită fiecărei categorii, te avertizează înainte să o depășești și îți arată facturile, ratele și plățile din această lună. Fără cont bancar.",
+   "points": [
+    {
+     "h": "Bugete care țin pasul cu tine",
+     "p": "Setează o limită lunară pentru cumpărături, restaurante sau orice altceva. Fiecare cheltuială intră în buget, iar Spendry te avertizează înainte de limită, nu după."
+    },
+    {
+     "h": "Restul lunii, calculat în avans",
+     "p": "Extrasele de card, ratele la credite, facturile și abonamentele datorate înainte de salariu stau lângă soldul tău, ca să știi exact ce mai ai de cheltuit."
+    },
+    {
+     "h": "Adaugă o cheltuială în câteva secunde",
+     "p": "Scrie suma și alege categoria, folosește opțiunea Scanează chitanța, adaugă din widget sau lasă o automatizare din Scurtături să preia plățile Apple Pay."
+    },
+    {
+     "h": "Vezi unde se duc banii",
+     "p": "Graficele săptămânale și lunare pe categorii și pe zile îți arată ce bugete sunt depășite și cum se compară luna curentă cu cea trecută."
+    }
+   ],
+   "steps_title": "Cum să începi un buget în Spendry",
+   "steps": [
+    "Adaugă veniturile și conturile sau cardurile din care plătești.",
+    "Creează bugete pentru categoriile principale și acordă-le o limită.",
+    "Înregistrează cheltuielile pe măsură ce apar sau activează automatizarea Apple Pay.",
+    "La finalul lunii, verifică graficele și ajustează limitele pentru luna viitoare."
+   ],
+   "why_title": "De ce aleg oamenii Spendry",
+   "why": [
+    "Fără conectare la bancă: tu decizi ce introduci și nimic nu se leagă la contul bancar.",
+    "Datele tale rămân pe iPhone și în propriul iCloud; nu se colectează date.",
+    "Datoriile, cardurile și ratele stau lângă buget, nu într-o altă aplicație.",
+    "Gratuit de descărcat, cu opțiune pentru Premium."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Este Spendry o aplicație de buget gratuită?",
+     "a": "Da. Funcțiile de bază pentru bugete, cheltuieli și mementouri sunt gratuite. Premium este opțional: lunar, anual cu o săptămână gratuită sau achiziție unică pe viață."
+    },
+    {
+     "q": "Are nevoie Spendry de acces la contul meu bancar?",
+     "a": "Nu. Nu cere niciodată date de conectare bancară. Adaugi cheltuielile manual, le imporți din mesajele băncii sau folosești o automatizare din Scurtături pentru Apple Pay."
+    },
+    {
+     "q": "Pot partaja un buget cu partenerul?",
+     "a": "Da. Opțiunile de Buget comun și obiectivele se sincronizează prin iCloud, iar fiecare persoană își folosește propriul Cont Apple."
+    },
+    {
+     "q": "Pe ce dispozitive funcționează?",
+     "a": "Pe iPhone și iPad cu iOS 17 sau o versiune mai nouă. Există și o versiune pentru Mac în Mac App Store."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Aplicație buget fără cont bancar",
+   "screen": "02",
+   "footer": true,
+   "title": "Aplicație de buget fără cont bancar: Spendry",
+   "description": "Aplicație de buget care nu cere date bancare: adaugă cheltuieli manual, din mesaje bancare sau automat prin Apple Pay și Scurtături. Datele rămân pe iPhone.",
+   "h1": "Aplicația de buget care nu cere datele bancare",
+   "lead": "Multe aplicații de buget cer parola băncii tale. Spendry nu se conectează la bancă: tu alegi ce introduci, iar datele tale rămân pe iPhone și în propriul iCloud.",
+   "points": [
+    {
+     "h": "Nimic nu se conectează la bancă",
+     "p": "Nu există autentificare bancară, intermediari și nici cont de creat. Spendry funcționează la fel în orice țară, cu orice bancă, card sau monedă."
+    },
+    {
+     "h": "Introducerea cheltuielilor rămâne rapidă",
+     "p": "Tastează o sumă, folosește Scanează chitanța, adaugă dintr-un widget pe ecranul principal sau întreabă pe Siri. Poți transforma și SMS-urile de la bancă în intrări."
+    },
+    {
+     "h": "Plățile prin Apple Pay se notează singure",
+     "p": "Activează automatizarea gata creată în aplicația Scurtături și fiecare plată Apple Pay ajunge în Spendry cu suma corespunzătoare."
+    },
+    {
+     "h": "Date necolectate",
+     "p": "Fără reclame, fără analitice, fără urmărire. Eticheta de confidențialitate din App Store confirmă Date necolectate și poți proteja totul cu Blocare aplicație prin Face ID."
+    }
+   ],
+   "steps_title": "Cum funcționează fără conectare bancară",
+   "steps": [
+    "Adaugă cardurile, creditele și conturile cu soldul lor curent.",
+    "Notează cheltuielile pe loc sau preia-le direct din mesajele băncii.",
+    "Activează automatizarea Apple Pay în aplicația Scurtături.",
+    "Urmărește soldul și bugetele; mementourile te anunță înainte de fiecare scadență."
+   ],
+   "why_title": "De ce să eviți conectarea la bancă",
+   "why": [
+    "Parola ta bancară nu ajunge niciodată la altcineva.",
+    "Nu există conexiuni întrerupte sau tranzacții lipsă când banca își schimbă sistemele.",
+    "Funcționează cu orice bancă, inclusiv cu cele pe care alte aplicații nu le acceptă.",
+    "Faptul că notezi manual o cheltuială te ajută să fii mai conștient de bani."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "De ce nu se conectează Spendry la banca mea?",
+     "a": "Pentru ca datele de autentificare și tranzacțiile tale să nu treacă prin serverele nimănui. Înregistrările rămân pe iPhone și în propriul iCloud."
+    },
+    {
+     "q": "Nu durează prea mult să adaugi cheltuielile manual?",
+     "a": "Durează doar câteva secunde. Poți automatiza plățile Apple Pay prin Scurtături, poți folosi un widget, comenzi către Siri sau mesaje de la bancă."
+    },
+    {
+     "q": "Poate Spendry să citească mesajele de la banca mea?",
+     "a": "Nu automat. Tu lipești sau trimiți mesajul de la bancă în Spendry, iar aplicația îl transformă într-o cheltuială."
+    },
+    {
+     "q": "Sunt datele mele în siguranță?",
+     "a": "Spendry nu colectează date. Informațiile rămân pe dispozitivul tău și se sincronizează prin iCloud, iar accesul poate fi securizat cu Face ID."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "Aplicație pentru achitarea datoriilor",
+   "screen": "06",
+   "footer": true,
+   "title": "Aplicație achitare datorii: Bulgăre și avalanșă",
+   "description": "Spendry adună fiecare card, credit și împrumut într-un singur plan, le ordonează prin bulgăre de zăpadă sau avalanșă și îți arată data când scapi de datorii.",
+   "h1": "Aplicația care îți arată data când scapi de datorii",
+   "lead": "Adaugă fiecare datorie o singură dată. Spendry le organizează prin metoda bulgăre de zăpadă sau avalanșă, adaugă plățile suplimentare și îți arată luna în care scapi de toate.",
+   "points": [
+    {
+     "h": "Toate datoriile într-o singură cifră",
+     "p": "Carduri de credit, credite, cont overdraft, rate și sume datorate prietenilor, cu totalul datoriei și plățile lunare vizibile dintr-o privire."
+    },
+    {
+     "h": "Bulgăre de zăpadă sau avalanșă, la alegerea ta",
+     "p": "Achită mai întâi soldul cel mai mic pentru victorii rapide, sau rata cea mai mare pentru a reduce dobânda. Spendry compară ambele strategii și ține planul actualizat."
+    },
+    {
+     "h": "O dată care se schimbă odată cu tine",
+     "p": "Înregistrează o plată sau adaugă o sumă în plus, iar Data la care vei scăpa de datorii se apropie imediat."
+    },
+    {
+     "h": "Mementouri înainte de fiecare scadență",
+     "p": "Primești o notificare înainte de fiecare scadență, chiar și dacă aplicația este închisă, ca să eviți penalitățile de întârziere."
+    }
+   ],
+   "steps_title": "Cum funcționează planul de achitare",
+   "steps": [
+    "Adaugă fiecare datorie cu soldul, dobânda și plata minimă.",
+    "Alege strategia: Bulgăre de zăpadă sau Avalanșă.",
+    "Setează suma suplimentară pe care o poți plăti în fiecare lună.",
+    "Înregistrează plățile pe parcurs și vezi cum data de final se apropie."
+   ],
+   "why_title": "Ce o face diferită",
+   "why": [
+    "Cardurile, creditele și ratele sunt urmărite detaliat, nu ca o simplă cifră.",
+    "Fără conectare la bancă și fără date colectate.",
+    "Calculatoarele gratuite de pe acest site folosesc aceleași metode, ca să poți testa numerele înainte."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Ce este metoda bulgăre de zăpadă?",
+     "a": "Plătești minimul la fiecare datorie și direcționezi banii suplimentari spre cel mai mic sold. Când acesta este achitat, suma lui merge spre următoarea datorie."
+    },
+    {
+     "q": "Ce este metoda avalanșă?",
+     "a": "Banii suplimentari merg mai întâi spre datoria cu cea mai mare dobândă, ceea ce reduce de obicei costul total al dobânzilor."
+    },
+    {
+     "q": "Pot ține evidența banilor datorați prietenilor sau familiei?",
+     "a": "Da. Datoriile personale pot fi adăugate cu sau fără dobândă și sunt incluse în același plan de achitare."
+    },
+    {
+     "q": "Este gratuit planul pentru datorii?",
+     "a": "Poți începe gratuit. Versiunea Premium elimină limitele variantei de bază și include o săptămână gratuită de încercare."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Evidență carduri de credit",
+   "screen": "07",
+   "footer": true,
+   "title": "Aplicație carduri de credit: date de plată și sold",
+   "description": "Urmărește fiecare card de credit în Spendry: data emiterii, data scadenței, soldul și ratele, cu mementouri înainte de fiecare plată datorată.",
+   "h1": "Fiecare card de credit, extrasul și data scadenței",
+   "lead": "Spendry știe când se emite extrasul fiecărui card și când este data de plată, ține la zi soldul și ratele și îți trimite mementouri înainte de scadență, ca să nu ai surprize neplăcute.",
+   "points": [
+    {
+     "h": "Data extrasului și scadența pentru fiecare card",
+     "p": "Adaugă cardurile o singură dată cu ziua de extras și ziua de plată. Spendry îți arată ce sumă datorezi pentru fiecare și când trebuie să o achiți."
+    },
+    {
+     "h": "Rate pe cardurile tale",
+     "p": "Cumpărăturile împărțite în rate arată câte plăți mai ai de făcut și luna în care se încheie ultima rată."
+    },
+    {
+     "h": "Plată minimă sau integrală",
+     "p": "Înregistrează o plată, iar soldul se actualizează imediat. Un instrument gratuit de pe site îți arată cât te costă în timp plata sumei minime."
+    },
+    {
+     "h": "Un memento înainte de scadență",
+     "p": "Notificările sosesc înainte de fiecare scadență a cardului, chiar dacă aplicația este închisă. Marchează plata ca efectuată direct din notificare."
+    }
+   ],
+   "steps_title": "Cum să ții evidența cardurilor",
+   "steps": [
+    "Adaugă fiecare card cu limita de credit, ziua extrasului și ziua de plată.",
+    "Înregistrează cumpărăturile și ratele, sau preia-le din mesajele băncii.",
+    "Notează plățile pe măsură ce le efectuezi.",
+    "Lasă mementourile să te anunțe înainte de fiecare scadență."
+   ],
+   "why_title": "De ce să folosești Spendry pentru carduri",
+   "why": [
+    "Toate cardurile pe un singur ecran, cu suma totală datorată.",
+    "Data la care vei scăpa de datorii include și cardurile tale.",
+    "Fără conectare la bancă, fără date colectate."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Care este diferența dintre data extrasului și data scadenței?",
+     "a": "Data extrasului încheie ciclul de facturare și stabilește suma datorată; data scadenței este ultima zi în care poți plăti fără dobânzi sau penalități."
+    },
+    {
+     "q": "Pot primi mementouri înainte de fiecare plată a cardului?",
+     "a": "Da. Primești o notificare înainte de fiecare scadență, chiar dacă nu deschizi aplicația, și poți marca plata ca efectuată direct din notificare."
+    },
+    {
+     "q": "Pot urmări ratele de pe card?",
+     "a": "Da. Fiecare plan de rate arată plățile rămase și luna în care se va achita ultima rată."
+    },
+    {
+     "q": "Se conectează aplicația la banca emitentă a cardului?",
+     "a": "Nu. Spendry nu îți cere datele de conectare bancară. Adaugi cardurile și introduci plățile tu însuți."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Aplicație memento facturi",
+   "screen": "07",
+   "footer": true,
+   "title": "Aplicație memento facturi: nu rata nicio plată",
+   "description": "Spendry îți reamintește de facturi, carduri, rate și abonamente înainte de scadență, chiar dacă nu deschizi aplicația. Marchează plata din notificare.",
+   "h1": "O aplicație de memento facturi care sosește la timp",
+   "lead": "Spendry îți reamintește înainte de scadența fiecărei facturi, plăți de card, rate sau abonament, chiar dacă nu deschizi aplicația. Amână plata sau marcheaz-o ca achitată direct din notificare.",
+   "points": [
+    {
+     "h": "Toate scadențele într-o singură listă",
+     "p": "Facturile, extrasele de card, ratele la credite și abonamentele stau într-o listă comună de plăți viitoare, cu restanțele afișate primele."
+    },
+    {
+     "h": "Mementouri fără să deschizi aplicația",
+     "p": "Notificările sunt programate pe dispozitivul tău iPhone și sosesc înainte de scadență. Sunt urgente, așa că pot trece de modurile de concentrare dacă permiți acest lucru."
+    },
+    {
+     "h": "Plătit sau amânat cu o singură atingere",
+     "p": "Marchează o plată ca achitată sau amân-o direct din notificare. Plata efectuată îți actualizează imediat soldul și bugetul."
+    },
+    {
+     "h": "Un rezumat matinal, dacă dorești",
+     "p": "O automatizare gata pregătită în aplicația Scurtături îți trimite în fiecare dimineață o notificare cu plățile din următoarele trei zile."
+    }
+   ],
+   "steps_title": "Cum să configurezi mementourile",
+   "steps": [
+    "Adaugă facturile, cardurile, creditele și abonamentele cu data scadenței lor.",
+    "Alege cu câte zile înainte dorești să primești notificarea.",
+    "Plătește sau amână direct din notificare.",
+    "Consultă lista de plăți viitoare oricând vrei o imagine completă."
+   ],
+   "why_title": "De ce funcționează",
+   "why": [
+    "Un singur loc pentru fiecare plată, nu o aplicație separată pentru fiecare factură.",
+    "Mementourile sosesc chiar dacă Spendry rămâne închisă.",
+    "Datele tale rămân pe propriul iPhone; nimic nu este colectat."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Primesc mementouri dacă nu deschid deloc aplicația?",
+     "a": "Da. Mementourile sunt programate pe dispozitivul tău iPhone și sosesc la timp chiar dacă Spendry rămâne închisă."
+    },
+    {
+     "q": "Pot alege momentul în care sunt notificat?",
+     "a": "Da. Poți stabili cu câte zile înainte de scadență dorești să primești notificarea."
+    },
+    {
+     "q": "Mă poate anunța și despre abonamente?",
+     "a": "Da. Primești mementouri pentru abonamente, facturi, plăți de carduri și rate la credite."
+    },
+    {
+     "q": "Mementourile au nevoie de conexiune la internet?",
+     "a": "Nu. Ele sunt programate local pe dispozitivul tău."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Evidență abonamente",
+   "screen": "09",
+   "footer": true,
+   "title": "Aplicație abonamente: vezi cât plătești lunar",
+   "description": "Urmărește abonamentele în Spendry: totalul lunar și anual, data reînnoirii și mementouri înainte de plată, ca să poți anula serviciile nefolosite.",
+   "h1": "O aplicație de abonamente care îți arată totalul anual",
+   "lead": "Adaugă abonamentele o singură dată, iar Spendry îți arată costul lunar și anual, data fiecărei reînnoiri și te anunță din timp, cât încă mai poți anula.",
+   "points": [
+    {
+     "h": "Totaluri lunare și anuale",
+     "p": "Planurile săptămânale, lunare și anuale sunt transformate într-o sumă lunară și una anuală, ca să vezi clar micile cheltuieli ascunse."
+    },
+    {
+     "h": "Un memento înainte de fiecare reînnoire",
+     "p": "Primești o notificare cu câteva zile înainte de reînnoirea abonamentului, când încă ai timp să îl anulezi."
+    },
+    {
+     "h": "Întreabă în cuvinte simple",
+     "p": "Întreabă asistentul Spendry cât te costă abonamentele pe an și primești totalul alături de lista completă a serviciilor."
+    },
+    {
+     "h": "Parte din bugetul tău complet",
+     "p": "Abonamentele sunt incluse în bugete și în plățile viitoare, astfel încât le vezi alături de toate celelalte cheltuieli."
+    }
+   ],
+   "steps_title": "Cum să ții evidența abonamentelor",
+   "steps": [
+    "Adaugă fiecare abonament cu prețul, perioada de facturare și data de reînnoire.",
+    "Verifică totalurile lunare și anuale.",
+    "Activează mementourile înainte de reînnoiri.",
+    "Anulează serviciile pe care nu le mai folosești și vezi cum scade totalul."
+   ],
+   "why_title": "De ce te ajută",
+   "why": [
+    "Abonamente de la orice serviciu, nu doar din App Store.",
+    "Fără date bancare necesare: adaugi fiecare abonament o singură dată.",
+    "Un instrument gratuit pe site pentru calcularea costului abonamentelor."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Găsește Spendry abonamentele în mod automat?",
+     "a": "Nu. Aplicația nu se conectează la banca ta, așa că adaugi fiecare serviciu o singură dată. Apoi ține evidența scadențelor și a sumelor pentru tine."
+    },
+    {
+     "q": "Pot include abonamente anuale?",
+     "a": "Da. Sunt acceptate abonamente săptămânale, lunare și anuale, toate fiind afișate ca totaluri lunare și anuale."
+    },
+    {
+     "q": "Mă va avertiza înainte de reînnoirea unui abonament?",
+     "a": "Da, cu câteva zile înainte de fiecare reînnoire, chiar dacă nu deschizi aplicația."
+    },
+    {
+     "q": "Cum anulez un abonament de pe iPhone?",
+     "a": "Abonamentele din App Store se anulează din Configurări, atingând numele tău și apoi secțiunea Abonamente. Celelalte servicii se anulează pe propriul site web sau în aplicația lor."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Evidență cheltuieli",
+   "screen": "03",
+   "title": "Aplicație evidență cheltuieli iPhone: Spendry",
+   "description": "Adaugă o cheltuială în câteva secunde din aplicație, widget, Siri sau Apple Pay. Grafice clare, fără conectare la bancă și fără date colectate.",
+   "h1": "Evidența cheltuielilor în câteva secunde",
+   "lead": "Scrie suma, alege categoria și gata. Sau folosește Siri, un widget ori lasă plățile prin Apple Pay să se înregistreze singure. Vezi clar unde merg banii tăi.",
+   "points": [
+    {
+     "h": "Adaugi rapid, exact cum preferi",
+     "p": "Adaugă din aplicație, dintr-un widget de pe ecranul principal, cu Siri sau printr-o automatizare din Scurtături. Poți atașa și o chitanță scanată."
+    },
+    {
+     "h": "Grafice care îți răspund la întrebări",
+     "p": "Vizualizări săptămânale și lunare pe categorii și pe zile, media zilnică și ritmul cheltuielilor față de perioada anterioară."
+    },
+    {
+     "h": "Bugetele te avertizează din timp",
+     "p": "Cheltuielile se scad din bugetul categoriei, iar Spendry te anunță înainte ca banii să se termine."
+    },
+    {
+     "h": "Propriile tale categorii",
+     "p": "Creează categoriile de care ai nevoie, cu nume și pictograme alese de tine, fără să fii limitat de o listă fixă."
+    }
+   ],
+   "steps_title": "Cum începi monitorizarea",
+   "steps": [
+    "Adaugă primele cheltuieli din aplicație sau dintr-un widget.",
+    "Creează bugete pentru categoriile importante.",
+    "Activează automatizarea Apple Pay dacă plătești cu telefonul.",
+    "Urmărește graficele în fiecare săptămână."
+   ],
+   "why_title": "De ce Spendry",
+   "why": [
+    "Fără conectare la bancă, fără date colectate.",
+    "Adaugi cheltuieli prin widgeturi, Siri și Scurtături.",
+    "Funcționează în orice monedă, în 44 de limbi."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Pot adăuga o cheltuială fără să deschid aplicația?",
+     "a": "Da. Folosește un widget pe ecranul principal, cere-i lui Siri sau lasă o automatizare din Scurtături să înregistreze plățile Apple Pay."
+    },
+    {
+     "q": "Pot păstra chitanțele?",
+     "a": "Da. Folosește funcția Scanează chitanța când adaugi o cheltuială, iar imaginea rămâne salvată acolo."
+    },
+    {
+     "q": "Funcționează cu orice monedă?",
+     "a": "Da. Alege moneda principală la început. Conturile de investiții și cele în valută pot avea propria monedă."
+    },
+    {
+     "q": "Este gratuită?",
+     "a": "Da, funcțiile de bază sunt gratuite. Versiunea Premium este opțională și include o săptămână de încercare gratuită."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Evidență rate",
+   "screen": "06",
+   "title": "Aplicație evidență rate și cumpărături: Spendry",
+   "description": "Urmărește planurile de rate în Spendry: câte plăți mai ai, suma lunară și data ultimei rate, cu mementouri înainte de scadență.",
+   "h1": "Fiecare rată și luna în care scapi de ea",
+   "lead": "Ratele pe card și planurile de plată eșalonată se adună pe nesimțite. Spendry îți arată câte plăți mai ai, cât dau adunate în fiecare lună și când se termină.",
+   "points": [
+    {
+     "h": "Cât datorezi lunar doar din rate",
+     "p": "Vezi totalul ratelor de plată pentru luna în curs și lunile următoare, ca noile cumpărături să nu se adune pe neașteptate."
+    },
+    {
+     "h": "Data finală a fiecărui plan",
+     "p": "Fiecare plan arată numărul de plăți rămase și luna în care achiți ultima rată."
+    },
+    {
+     "h": "Mementouri înainte de fiecare scadență",
+     "p": "Primești o notificare înainte de fiecare plată scadentă, chiar dacă aplicația este închisă."
+    },
+    {
+     "h": "Parte din data când scapi de datorii",
+     "p": "Ratele sunt incluse în datoria totală și în planul tău de rambursare."
+    }
+   ],
+   "steps_title": "Cum ții evidența ratelor",
+   "steps": [
+    "Adaugă o achiziție cu suma totală, numărul de rate și data primei plăți.",
+    "Vezi suma lunară și data la care se termină.",
+    "Înregistrează fiecare plată sau marcheaz-o direct din memento.",
+    "Verifică totalul ratelor lunare înainte de o nouă achiziție."
+   ],
+   "why_title": "De ce te ajută",
+   "why": [
+    "Ratele de pe carduri și plățile eșalonate sunt toate într-un singur loc.",
+    "Ratele stau lângă bugete și alte datorii, arătând clar totalul real al lunii.",
+    "Fără conectare la bancă, fără date colectate."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Pot urmări planurile de tip cumperi acum, plătești mai târziu?",
+     "a": "Da. Adaugă orice plan cu suma totală, numărul de rate și prima dată de plată, iar Spendry calculează restul."
+    },
+    {
+     "q": "Îmi arată suma totală pe care o plătesc lunar în rate?",
+     "a": "Da. Vezi totalul ratelor din această lună și sumele programate pentru lunile viitoare."
+    },
+    {
+     "q": "Primesc memento înainte de fiecare rată?",
+     "a": "Da, primești o notificare înainte de fiecare scadență, chiar dacă nu deschizi aplicația."
+    },
+    {
+     "q": "Influențează ratele data la care voi scăpa de datorii?",
+     "a": "Da. Ele fac parte din datoria ta totală și din planul de achitare."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Obiective de economisire",
+   "screen": "05",
+   "title": "Aplicație obiective de economii: Spendry",
+   "description": "Setează obiective de economisire în Spendry, adaugă bani pe parcurs, vezi progresul zilnic și împarte un obiectiv prin iCloud.",
+   "h1": "Aplicația de economii care te ține motivat",
+   "lead": "Alege o sumă pentru fiecare obiectiv și adaugă bani de fiecare dată când economisești. Spendry îți arată zilnic cât de aproape ești, în aplicație și pe ecranul principal.",
+   "points": [
+    {
+     "h": "O țintă clară",
+     "p": "Fiecare obiectiv are o sumă fixată și o bară de progres, arătând exact cât mai ai de strâns."
+    },
+    {
+     "h": "Direct pe ecranul principal",
+     "p": "Un widget pentru obiective îți păstrează progresul la vedere, ca să nu uiți pentru ce pui bani deoparte."
+    },
+    {
+     "h": "Economisiți împreună",
+     "p": "Împarte un obiectiv cu partenerul sau familia prin iCloud. Fiecare contribuie la același obiectiv de pe propriul iPhone."
+    },
+    {
+     "h": "Alături de bugetul tău",
+     "p": "Banii puși deoparte fac parte din situația ta lunară, lângă bugete și plăți programate."
+    }
+   ],
+   "steps_title": "Cum economisești pentru un obiectiv",
+   "steps": [
+    "Creează un obiectiv cu suma pe care vrei să o atingi.",
+    "Adaugă bani de fiecare dată când economisești.",
+    "Urmărește progresul în aplicație sau pe widget.",
+    "Partajează obiectivul dacă strângi bani împreună cu altcineva."
+   ],
+   "why_title": "De ce te ajută",
+   "why": [
+    "Obiectivele stau alături de bugete și datorii.",
+    "Obiectivele comune se sincronizează prin iCloud.",
+    "Ai un instrument gratuit de calcul pentru economii pe acest site."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Pot avea mai multe obiective?",
+     "a": "Da. Creează un obiectiv pentru fiecare plan și adaugă bani separat pentru fiecare."
+    },
+    {
+     "q": "Pot împărți un obiectiv cu partenerul?",
+     "a": "Da. Obiectivele comune se sincronizează prin iCloud, iar fiecare persoană folosește propriul Cont Apple."
+    },
+    {
+     "q": "Există un widget pentru obiective?",
+     "a": "Da. Un widget de obiectiv îți arată progresul direct pe ecranul principal."
+    },
+    {
+     "q": "Cât ar trebui să economisesc în fiecare lună?",
+     "a": "Împarte suma rămasă la numărul de luni până la data dorită. Calculatorul gratuit de pe site face asta automat, incluzând dobânda dacă ai una."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Valoare netă",
+   "screen": "08",
+   "title": "Aplicație calcul valoare netă în timp real",
+   "description": "Urmărește valoarea netă în Spendry: conturi și investiții cu prețuri live, aur și valute, minus carduri și credite, într-o singură cifră.",
+   "h1": "Valoarea ta netă, într-o singură cifră mereu actualizată",
+   "lead": "Spendry adună conturile și investițiile tale, scade datoriile și îți arată valoarea netă. Acțiunile, criptomonedele, aurul și valutele se actualizează cu prețuri în timp real.",
+   "points": [
+    {
+     "h": "Tot ce deții și tot ce datorezi",
+     "p": "Bani lichizi, conturi, investiții și economii raportate la carduri, credite, rate și datorii personale."
+    },
+    {
+     "h": "Prețuri în timp real",
+     "p": "Acțiunile, criptomonedele, aurul și valutele se actualizează cu prețurile din piață, chiar lângă cheltuieli."
+    },
+    {
+     "h": "Investiții în moneda lor",
+     "p": "Investițiile și conturile în valută își păstrează moneda; valoarea netă este afișată în moneda ta."
+    },
+    {
+     "h": "Pe ecranul principal",
+     "p": "Un widget pentru valoarea netă păstrează această cifră mereu la vedere."
+    }
+   ],
+   "steps_title": "Cum să îți urmărești valoarea netă",
+   "steps": [
+    "Adaugă conturile și soldurile lor.",
+    "Adaugă investițiile și cantitatea deținută.",
+    "Adaugă datoriile.",
+    "Urmărește valoarea netă pe măsură ce prețurile și soldurile se schimbă."
+   ],
+   "why_title": "De ce Spendry",
+   "why": [
+    "Datoriile și investițiile sunt în aceeași aplicație cu bugetul tău.",
+    "Fără conectare la bancă sau la broker.",
+    "Datele nu sunt colectate."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Ce investiții pot urmări?",
+     "a": "Acțiuni, criptomonede, aur și valute, cu prețuri în timp real."
+    },
+    {
+     "q": "Se conectează la contul meu de investiții?",
+     "a": "Nu. Tu adaugi activele pe care le deții; prețurile se actualizează automat."
+    },
+    {
+     "q": "Ar trebui să includ locuința sau mașina?",
+     "a": "Mulți oameni monitorizează doar ce se schimbă de la o lună la alta: bani, investiții și datorii. Poți adăuga mai multe dacă te ajută."
+    },
+    {
+     "q": "Există un widget pentru valoarea netă?",
+     "a": "Da, direct pentru ecranul principal."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "Aplicație buget comun",
+   "screen": "04",
+   "title": "Aplicație buget comun pentru cuplu și familie",
+   "description": "Împarte bugete și obiective de economisire în Spendry. Fiecare folosește propriul iPhone și Cont Apple, sincronizate prin iCloud.",
+   "h1": "Aplicație de buget comun pentru cupluri și familii",
+   "lead": "Împarte un buget sau un obiectiv de economisire cu partenerul sau familia. Fiecare adaugă de pe propriul iPhone, iar Spendry sincronizează totul prin iCloud, fără conturi noi.",
+   "points": [
+    {
+     "h": "Arăți doar ce vrei",
+     "p": "Partajează bugetul gospodăriei sau un obiectiv comun și păstrează restul banilor doar pentru tine."
+    },
+    {
+     "h": "Fiecare adaugă de pe telefonul său",
+     "p": "Fiecare persoană își folosește propriul Cont Apple; bugetele și obiectivele comune se actualizează pentru toți."
+    },
+    {
+     "h": "Fără conturi noi, fără servere",
+     "p": "Partajarea funcționează prin iCloud. Spendry nu are un sistem de conturi și nu colectează date."
+    },
+    {
+     "h": "Un singur obiectiv, mai multe contribuții",
+     "p": "Economisiți împreună pentru o vacanță sau o casă; fiecare sumă adăugată ajută același obiectiv."
+    }
+   ],
+   "steps_title": "Cum să împarți un buget",
+   "steps": [
+    "Creează un buget sau un obiectiv.",
+    "Trimite o invitație din Spendry către partener sau familie.",
+    "Aceștia acceptă invitația pe propriul iPhone.",
+    "Toată lumea adaugă cheltuieli sau economii, iar datele rămân sincronizate."
+   ],
+   "why_title": "De ce să împarți cheltuielile cu Spendry",
+   "why": [
+    "Celelalte bugete și datorii ale tale rămân private.",
+    "Fără autentificări suplimentare: partajarea funcționează prin iCloud.",
+    "Datele nu sunt colectate."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Partenerul meu are nevoie și el de Spendry?",
+     "a": "Da, pe propriul iPhone sau iPad, cu propriul Cont Apple."
+    },
+    {
+     "q": "Îmi poate vedea partenerul toate cheltuielile?",
+     "a": "Nu. Doar bugetele și obiectivele pe care le partajezi sunt vizibile; restul rămân private."
+    },
+    {
+     "q": "Cum funcționează partajarea?",
+     "a": "Prin partajarea iCloud. Nu există un cont Spendry și niciun server intermediar Spendry."
+    },
+    {
+     "q": "Pot partaja cu mai multe persoane?",
+     "a": "Da. Poți invita mai mulți membri ai familiei la un buget comun sau la un obiectiv."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Evidență credite",
+   "screen": "06",
+   "title": "Aplicație evidență credite: sold, rate, dobânzi",
+   "description": "Urmărește fiecare credit în Spendry: sold rămas, dobândă și principal pentru fiecare plată, rate rămase și mementouri la scadență.",
+   "h1": "O evidență a creditelor care îți arată cât plătești cu adevărat",
+   "lead": "Adaugă un credit o singură dată, iar Spendry îți arată soldul rămas, cât din fiecare plată reprezintă dobânda, câte rate mai ai și îți amintește înainte de fiecare scadență.",
+   "points": [
+    {
+     "h": "Graficul complet de rambursare",
+     "p": "Fiecare rată cu dobânda și principalul său, ca să vezi costul real al creditului."
+    },
+    {
+     "h": "Plăți rămase și data finală",
+     "p": "Numărul de plăți rămase și luna în care vei achita ultima rată."
+    },
+    {
+     "h": "Mementouri înainte de fiecare rată",
+     "p": "Primești o notificare înainte de fiecare dată scadentă, chiar dacă aplicația este închisă."
+    },
+    {
+     "h": "Parte din planul tău de plată",
+     "p": "Creditele sunt incluse în datoria totală și în calculul pentru data la care vei scăpa de datorii."
+    }
+   ],
+   "steps_title": "Cum să ții evidența unui credit",
+   "steps": [
+    "Adaugă creditul cu suma împrumutată, dobânda, perioada și data primei plăți.",
+    "Verifică scadențarul și costul total.",
+    "Înregistrează plățile pe măsură ce le faci.",
+    "Urmărește data la care vei scăpa de datorii."
+   ],
+   "why_title": "De ce Spendry",
+   "why": [
+    "Credite de nevoi personale, auto, ipotecare și de studii într-un singur loc.",
+    "Fără conectare la bancă, fără date colectate.",
+    "Un instrument gratuit de calcul al creditelor pe acest site."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Ce fel de credite pot urmări?",
+     "a": "Credite de nevoi personale, auto, ipotecare, pentru studii și orice alt împrumut în rate, plus sume datorate altor persoane."
+    },
+    {
+     "q": "Îmi arată câtă dobândă plătesc?",
+     "a": "Da. Vezi dobânda din fiecare rată și pentru întreaga durată a creditului."
+    },
+    {
+     "q": "Mă va avertiza înainte de fiecare plată?",
+     "a": "Da, înainte de fiecare dată scadentă, chiar dacă nu deschizi niciodată aplicația."
+    },
+    {
+     "q": "Se conectează la banca mea?",
+     "a": "Nu. Adaugi creditul o singură dată, iar Spendry calculează automat scadențarul."
+    }
+   ]
+  }
+ ]
 }

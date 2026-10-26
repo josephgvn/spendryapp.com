@@ -1553,5 +1553,835 @@
    "final_title": "Ha full kontroll på alle fornyelser i forkant.",
    "final_text": "Last ned Spendry, legg inn abonnementene dine, og få et varsel før hver eneste fornyelse."
   }
- }
+ },
+ "app_labels": {
+  "free": "Gratis på App Store. Premium er valgfritt, med en gratis prøveuke.",
+  "more": "Mer av det Spendry gjør",
+  "cta": "Last ned Spendry og se hele måneden på ett sted.",
+  "tools_title": "Gratis kalkulatorer",
+  "guides_title": "Guider"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "Budsjett-app",
+   "screen": "04",
+   "footer": true,
+   "title": "Budsjett-app for iPhone: Spendry, uten bankinnlogging",
+   "description": "Spendry er en budsjett-app for iPhone og iPad: budsjetter med varsler, oversikt over kort, lån og regninger, og påminnelser før forfall.",
+   "h1": "En budsjett-app som også vet hva som kommer",
+   "lead": "Spendry gir hver kategori en grense, varsler deg før et budsjett er brukt opp og viser regninger, kortbetalinger og avdrag som gjenstår denne måneden. Helt uten bankinnlogging.",
+   "points": [
+    {
+     "h": "Budsjetter som holder tritt med deg",
+     "p": "Sett en månedlig grense for dagligvarer, restaurantbesøk eller annet. Hver utgift fyller budsjettet sitt, og Spendry varsler deg før du når grensen, ikke etterpå."
+    },
+    {
+     "h": "Resten av måneden, på forhånd",
+     "p": "Kortfakturaer, låneavdrag, regninger og abonnementer som forfaller før lønningsdagen vises ved siden av saldoen din. Da vet du hva du faktisk kan bruke."
+    },
+    {
+     "h": "Legg til en utgift på sekunder",
+     "p": "Skriv inn beløpet og velg kategori, skann en kvittering, legg den til fra en widget, eller la en Snarveier-automatisering logge Apple Pay-kjøp for deg."
+    },
+    {
+     "h": "Se hvor pengene blir av",
+     "p": "Ukentlige og månedlige diagrammer fordelt på kategorier og dager viser hvilke budsjetter som sprekker, og hvordan denne måneden er sammenlignet med forrige."
+    }
+   ],
+   "steps_title": "Slik starter du et budsjett i Spendry",
+   "steps": [
+    "Legg inn inntekten din og kontoene eller kortene du betaler fra.",
+    "Opprett budsjetter for kategoriene du bruker mest på, og sett en grense for hver.",
+    "Før utgifter fortløpende, eller slå på automatiseringen for Apple Pay.",
+    "Sjekk diagrammene på slutten av måneden og juster grensene for neste måned."
+   ],
+   "why_title": "Hvorfor folk velger Spendry",
+   "why": [
+    "Ingen bankinnlogging: du bestemmer hva som legges inn, og ingenting kobles til banken din.",
+    "Dataene dine blir værende på din iPhone og i din egen iCloud; ingenting samles inn.",
+    "Gjeld, kort og avdrag ligger rett ved siden av budsjettet ditt, ikke i en annen app.",
+    "Gratis å laste ned, med valgfritt Premium."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Er Spendry en gratis budsjett-app?",
+     "a": "Ja. Budsjetter, utgifter, påminnelser og kjernefunksjonene er gratis. Premium er valgfritt: månedlig eller årlig med en gratis prøveuke, eller et engangskjøp på Livstid."
+    },
+    {
+     "q": "Trenger Spendry tilgang til bankkontoen min?",
+     "a": "Nei. Den ber aldri om bankinnlogging. Du legger inn utgifter selv, importerer dem fra bankmeldinger eller lar en Snarveier-automatisering logge Apple Pay-kjøp."
+    },
+    {
+     "q": "Kan jeg dele et budsjett med partneren min?",
+     "a": "Ja. Delt budsjett og mål synkroniseres via iCloud, og hver person bruker sin egen Apple-konto."
+    },
+    {
+     "q": "Hvilke enheter fungerer den på?",
+     "a": "iPhone og iPad med iOS 17 eller nyere. Det finnes også en versjon for Mac på Mac App Store."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Budsjett-app uten bankinnlogging",
+   "screen": "02",
+   "footer": true,
+   "title": "Budsjett-app uten bankinnlogging: Spendry",
+   "description": "En budsjett-app som aldri ber om bankinnlogging: legg inn utgifter selv, importer fra meldinger eller logg kjøp med Snarveier. Dataene blir på din iPhone.",
+   "h1": "En budsjett-app som aldri ber om bankinnlogging",
+   "lead": "Mange budsjett-apper krever bankpassordet ditt. Spendry kobler seg ikke til banken din i det hele tatt: du bestemmer hva som legges inn, og oppføringene dine blir værende på din iPhone og i din egen iCloud.",
+   "points": [
+    {
+     "h": "Ingenting kobles til banken din",
+     "p": "Det er ingen bankinnlogging, ingen datainnsamling og ingen konto du må opprette. Spendry fungerer likt i alle land, med alle banker, kort og valutaer."
+    },
+    {
+     "h": "Raskt å legge inn utgifter",
+     "p": "Skriv inn et beløp, skann en kvittering, legg til fra en Hjem-skjerm-widget eller spør Siri. Du kan også gjøre om tekstmeldinger fra banken til oppføringer."
+    },
+    {
+     "h": "Apple Pay-kjøp kan logges automatisk",
+     "p": "Slå på den ferdige Snarveier-automatiseringen, så legges hvert Apple Pay-kjøp inn i Spendry med riktig beløp."
+    },
+    {
+     "h": "Data samles ikke inn",
+     "p": "Ingen reklame, ingen analyse, ingen sporing. Personvernerklæringen på App Store viser at data ikke samles inn, og du kan låse appen med Face ID."
+    }
+   ],
+   "steps_title": "Slik fungerer det uten banktilkobling",
+   "steps": [
+    "Legg inn kortene, lånene og kontoene dine med gjeldende saldo.",
+    "Før utgifter etter hvert som de oppstår, eller hent dem inn fra bankmeldinger.",
+    "Slå på Apple Pay-automatiseringen i Snarveier-appen.",
+    "Sjekk saldoen og budsjettene dine; påminnelser varsler deg før betalinger forfaller."
+   ],
+   "why_title": "Hvorfor droppe banktilkoblingen",
+   "why": [
+    "Bankpassordet ditt forlater aldri hendene dine.",
+    "Ingen brutte tilkoblinger eller manglende transaksjoner når en bank endrer systemene sine.",
+    "Fungerer med alle banker, også de som budsjett-apper ikke støtter.",
+    "Du legger bedre merke til en utgift når du skriver den ned."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Hvorfor kobler ikke Spendry seg til banken min?",
+     "a": "Slik at bankinnloggingen din og transaksjonene dine aldri passerer gjennom andres servere. Oppføringene dine blir værende på din iPhone og i din egen iCloud."
+    },
+    {
+     "q": "Tar det ikke lang tid å legge inn utgifter manuelt?",
+     "a": "Det tar noen få sekunder, og du kan automatisere det for Apple Pay med Snarveier, bruke en widget, spørre Siri eller hente inn bankmeldinger."
+    },
+    {
+     "q": "Kan Spendry lese tekstmeldinger fra banken min?",
+     "a": "Ikke av seg selv. Du limer inn eller deler en bankmelding med Spendry, og appen gjør den om til en oppføring."
+    },
+    {
+     "q": "Er dataene mine trygge?",
+     "a": "Spendry samler ikke inn data. Oppføringene dine ligger på enheten din og synkroniseres via din egen iCloud, og du kan låse appen med Face ID."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "Gjeldsnedbetalingsapp",
+   "screen": "06",
+   "footer": true,
+   "title": "Gjeldsnedbetalingsapp: Snøball og snøskred",
+   "description": "Spendry samler kredittkort, lån og kassekreditt i én plan, sorterer med snøball- eller snøskredmetoden og viser måneden du blir gjeldfri.",
+   "h1": "En app for gjeldsnedbetaling som viser din gjeldfrie dato",
+   "lead": "Legg inn all gjeld én gang. Spendry sorterer den med snøball- eller snøskredmetoden, legger til det du kan betale ekstra hver måned, og viser måneden du blir helt gjeldfri.",
+   "points": [
+    {
+     "h": "All gjeld i ett tall",
+     "p": "Kredittkort, lån, kassekredittkonto, avdrag og penger du skylder venner, med din totale gjeld og månedlige betalinger i en enkel oversikt."
+    },
+    {
+     "h": "Snøball eller snøskred, ditt valg",
+     "p": "Betal den minste saldoen først for raske seiere, eller den høyeste renten først for å betale minst renter. Spendry sammenligner begge og holder planen oppdatert mens du betaler."
+    },
+    {
+     "h": "En dato som flytter seg når du gjør det",
+     "p": "Registrer en betaling eller legg til et ekstra beløp, og din gjeldfrie dato flytter seg nærmere med en gang."
+    },
+    {
+     "h": "Påminnelser før hver forfallsdato",
+     "p": "Et varsel kommer før hver betaling, selv når appen er lukket, slik at en glemt minstebetaling aldri fører til gebyrer."
+    }
+   ],
+   "steps_title": "Slik fungerer nedbetalingsplanen",
+   "steps": [
+    "Legg inn hver gjeldspost med saldo, rente og minstebeløp.",
+    "Velg snøball- eller snøskredmetoden.",
+    "Angi hvor mye ekstra du kan betale hver måned.",
+    "Registrer betalinger etter hvert som du gjør dem, og se datoen flytte seg."
+   ],
+   "why_title": "Hva som gjør den annerledes",
+   "why": [
+    "Kort, lån og avdrag spores i detalj, ikke bare som ett enkelt tall.",
+    "Ingen bankinnlogging og ingen data samles inn.",
+    "De gratis kalkulatorene på dette nettstedet bruker de samme metodene, så du kan teste tallene dine først."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Hva er snøballmetoden?",
+     "a": "Du betaler minstebeløpet på all gjeld og bruker eventuelle ekstra penger på den minste saldoen. Når den er nedbetalt, overføres betalingen til den neste."
+    },
+    {
+     "q": "Hva er snøskredmetoden?",
+     "a": "De ekstra pengene går først til gjelden med høyest rente, noe som vanligvis gir de laveste rentekostnadene totalt."
+    },
+    {
+     "q": "Kan jeg holde oversikt over penger jeg skylder venner eller familie?",
+     "a": "Ja. Privat gjeld kan legges inn med eller uten rente og følger den samme planen."
+    },
+    {
+     "q": "Er gjeldsplanen gratis?",
+     "a": "Du kan starte gratis. Premium fjerner begrensningene i gratisversjonen, med en gratis uke for å prøve det."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Oversikt over kredittkort",
+   "screen": "07",
+   "footer": true,
+   "title": "Kredittkort: Faktura, forfallsdato og saldo i Spendry",
+   "description": "Få full oversikt over kredittkort i Spendry: fakturadato, forfallsdato, saldo og avdrag, med påminnelse før hver betaling.",
+   "h1": "Hvert kredittkort, faktura og forfallsdato",
+   "lead": "Spendry vet når fakturaen lages og når den forfaller, holder saldo og avdrag oppdatert og minner deg på betalingen, så du slipper overraskelser.",
+   "points": [
+    {
+     "h": "Fakturadato og forfall for hvert kort",
+     "p": "Legg inn kortene dine én gang med fakturadag og forfallsdag. Spendry viser hva du skylder og når du må betale."
+    },
+    {
+     "h": "Avdrag på kortene dine",
+     "p": "Kjøp delt opp i avdrag viser hvor mange betalinger du har igjen, og måneden den siste trekkes."
+    },
+    {
+     "h": "Minstebeløp eller hele beløpet",
+     "p": "Registrer en innbetaling, så oppdateres saldoen med en gang. Den gratis kalkulatoren viser hva det koster over tid å bare betale minstebeløpet."
+    },
+    {
+     "h": "Påminnelse før forfall",
+     "p": "Varsler kommer før hver kortbetaling, selv når appen er lukket. Merk betalingen som utført direkte fra varselet."
+    }
+   ],
+   "steps_title": "Slik holder du oversikt over kortene",
+   "steps": [
+    "Legg inn hvert kort med kredittgrense, fakturadag og forfallsdag.",
+    "Før opp kjøp og avdrag, eller hent dem fra meldinger fra banken.",
+    "Registrer innbetalinger etter hvert som du gjør dem.",
+    "La påminnelsene gi deg beskjed før forfall."
+   ],
+   "why_title": "Hvorfor holde oversikt i Spendry",
+   "why": [
+    "Alle kort på én skjerm med samlet gjeld.",
+    "Din gjeldfrie dato tar med kredittkortene.",
+    "Ingen bankinnlogging, ingen innsamling av data."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Hva er forskjellen på fakturadato og forfallsdato?",
+     "a": "Fakturadatoen avslutter perioden og fastslår beløpet du skylder. Forfallsdatoen er siste frist for å betale uten renter eller gebyrer."
+    },
+    {
+     "q": "Kan jeg få påminnelse før hver kortbetaling?",
+     "a": "Ja. Du får et varsel før hver forfallsdato, selv om du aldri åpner appen, og du kan merke betalingen som gjort rett fra varselet."
+    },
+    {
+     "q": "Kan jeg holde oversikt over delbetalinger?",
+     "a": "Ja. Hver avdragsordning viser gjenværende innbetalinger og måneden for den siste."
+    },
+    {
+     "q": "Kobler appen seg til kortutstederen min?",
+     "a": "Nei. Spendry ber aldri om bankinnlogging. Du legger inn kortene og fører innbetalingene selv."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Påminnelse om regninger",
+   "screen": "07",
+   "footer": true,
+   "title": "Regningsapp: Påminnelser før regninger forfaller",
+   "description": "Spendry minner deg på regninger, kort og lån før de forfaller, selv når appen er lukket. Merk dem som betalt rett fra varselet.",
+   "h1": "En regningsapp som varsler i tide",
+   "lead": "Spendry minner deg på hver regning, kortbetaling, hvert låneavdrag og abonnement, selv når appen er lukket. Utsett eller merk som betalt rett fra varselet.",
+   "points": [
+    {
+     "h": "Alle forfallsdatoer i én liste",
+     "p": "Regninger, kortfakturaer, avdrag og abonnementer samles i én felles liste, med det som har forfalt øverst."
+    },
+    {
+     "h": "Påminnelser uten å åpne appen",
+     "p": "Varslene planlegges på din iPhone og kommer før forfall. De er tidssensitive, så de slipper gjennom Fokus når du tillater det."
+    },
+    {
+     "h": "Betalt eller utsatt med ett trykk",
+     "p": "Merk som betalt eller utsett rett fra varselet. Når du betaler, oppdateres både saldo og budsjett."
+    },
+    {
+     "h": "En morgenoppsummering hvis du vil",
+     "p": "En ferdig automatisering for Snarveier gir deg de neste tre dagenes betalinger i ett varsel hver morgen."
+    }
+   ],
+   "steps_title": "Slik setter du opp påminnelser",
+   "steps": [
+    "Legg inn regninger, kort, lån og abonnementer med forfallsdager.",
+    "Velg hvor mange dager i forveien du vil ha påminnelsen.",
+    "Betal eller utsett direkte fra varselet.",
+    "Sjekk listen over kommende betalinger når du vil se helheten."
+   ],
+   "why_title": "Hvorfor det fungerer",
+   "why": [
+    "Ett felles sted for alle slags betalinger, ikke en app per regning.",
+    "Varslene kommer selv om Spendry forblir lukket.",
+    "Opplysningene dine blir på din iPhone, ingenting samles inn."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Får jeg varsler hvis jeg aldri åpner appen?",
+     "a": "Ja. Varslene planlegges lokalt på din iPhone og kommer i tide selv om du ikke åpner Spendry."
+    },
+    {
+     "q": "Kan jeg velge når jeg vil bli minnet på det?",
+     "a": "Ja. Du velger selv hvor mange dager før forfall du ønsker påminnelsen."
+    },
+    {
+     "q": "Kan jeg få varsler om abonnementer også?",
+     "a": "Ja. Du kan få påminnelser for abonnementer, regninger, kort og avdrag på lån."
+    },
+    {
+     "q": "Må jeg ha internett for at varslene skal fungere?",
+     "a": "Nei. Varslene planlegges direkte på enheten din."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Oversikt over abonnementer",
+   "screen": "09",
+   "footer": true,
+   "title": "Abonnementer: Få oversikt over faste utgifter",
+   "description": "Få oversikt over faste abonnementer i Spendry: månedskostnad, årskostnad, neste fornyelse og varsler før fornyelsen skjer.",
+   "h1": "En app som viser hva abonnementene koster per år",
+   "lead": "Legg inn abonnementene dine én gang, så viser Spendry kostnaden per måned og år, når de fornyes, og varsler deg i god tid før neste trekk.",
+   "points": [
+    {
+     "h": "Månedsbeløp og årsbeløp",
+     "p": "Ukentlige, månedlige og årlige kostnader regnes om til faste summer, så ingen småtrekk forsvinner i mengden."
+    },
+    {
+     "h": "Påminnelse før hver fornyelse",
+     "p": "Få varsel noen dager før et abonnement fornyes, mens du fortsatt har tid til å si det opp."
+    },
+    {
+     "h": "Spør på helt vanlig vis",
+     "p": "Spør assistenten i Spendry om hva abonnementene koster i året, og få totalsummen sammen med hele listen."
+    },
+    {
+     "h": "En del av helhetsbudsjettet",
+     "p": "Abonnementene tas med i budsjettene og kommende forfall, så du ser dem sammen med alt annet."
+    }
+   ],
+   "steps_title": "Slik holder du oversikt over abonnementer",
+   "steps": [
+    "Legg inn hvert abonnement med pris, frekvens og fornyelsesdato.",
+    "Se de samlede månedlige og årlige kostnadene.",
+    "Slå på varsler før hver fornyelse.",
+    "Avslutt det du ikke lenger bruker, og se utgiftene synke."
+   ],
+   "why_title": "Hvorfor det hjelper",
+   "why": [
+    "Abonnementer fra alle tjenester, ikke bare App Store.",
+    "Ingen bankinnlogging trengs, du legger inn hvert enkelt én gang.",
+    "Gratis abonnementskalkulator tilgjengelig her på siden."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Finner Spendry abonnementene mine automatisk?",
+     "a": "Nei. Appen kobler seg ikke til banken din, så du legger dem inn én gang selv. Deretter holdes fornyelser og totalsummer oppdatert."
+    },
+    {
+     "q": "Kan jeg holde oversikt over årsabonnementer?",
+     "a": "Ja. Både ukentlige, månedlige og årlige avtaler støttes og vises som månedlige og årlige summer."
+    },
+    {
+     "q": "Får jeg varsel før et abonnement fornyes?",
+     "a": "Ja, noen dager før hver fornyelse, selv om appen ikke er åpen."
+    },
+    {
+     "q": "Hvordan avslutter jeg et abonnement på min iPhone?",
+     "a": "Abonnementer fra App Store sies opp under Innstillinger, navnet ditt og Abonnementer. Andre tjenester sies opp på deres egne nettsider eller i deres app."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Utgiftstracker",
+   "screen": "03",
+   "title": "Utgiftstracker for iPhone: Spendry",
+   "description": "Loggfør en utgift på sekunder med appen, widget, Siri eller Apple Pay. Se uke- og månedsoversikter etter kategori. Uten bankinnlogging, ingen data samles inn.",
+   "h1": "En utgiftstracker som tar sekunder",
+   "lead": "Skriv inn beløpet, velg en kategori, ferdig. Eller spør Siri, bruk en widget eller la Apple Pay-kjøp loggføre seg selv. Se nøyaktig hvor pengene dine blir av.",
+   "points": [
+    {
+     "h": "Rask å legge inn, på din måte",
+     "p": "Legg til fra appen, en widget på Hjem-skjermen, Siri eller en Snarveier-automatisering, og behold en skannet kvittering sammen med utgiften."
+    },
+    {
+     "h": "Diagrammer som gir svar",
+     "p": "Uke- og månedsvisninger etter kategori og dag, ditt daglige gjennomsnitt og forbrukstakten din sammenlignet med forrige periode."
+    },
+    {
+     "h": "Budsjetter advarer deg tidlig",
+     "p": "Utgifter fyller opp kategoribudsjettene dine, og Spendry gir deg beskjed før et budsjett går tomt."
+    },
+    {
+     "h": "Dine egne kategorier",
+     "p": "Opprett kategoriene du trenger, med egne navn og ikoner, i stedet for å måtte bruke en fast liste."
+    }
+   ],
+   "steps_title": "Slik begynner du sporingen",
+   "steps": [
+    "Legg til dine første utgifter fra appen eller en widget.",
+    "Opprett budsjetter for kategoriene som betyr mest.",
+    "Slå på Apple Pay-automatisering hvis du betaler med mobilen.",
+    "Sjekk diagrammene hver uke."
+   ],
+   "why_title": "Hvorfor Spendry",
+   "why": [
+    "Ingen bankinnlogging, ingen data samles inn.",
+    "Widgets, Siri og Snarveier legger alle til utgifter.",
+    "Fungerer i alle valutaer, på 44 språk."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Kan jeg legge til en utgift uten å åpne appen?",
+     "a": "Ja. Bruk en widget på Hjem-skjermen, spør Siri, eller la en Snarveier-automatisering loggføre Apple Pay-kjøp."
+    },
+    {
+     "q": "Kan jeg ta vare på kvitteringer?",
+     "a": "Ja. Skann kvittering når du legger til en utgift, så blir den liggende på den utgiften."
+    },
+    {
+     "q": "Fungerer den med alle valutaer?",
+     "a": "Ja. Velg din valuta når du starter. Investeringer og kontoer i utenlandsk valuta kan ha sin egen."
+    },
+    {
+     "q": "Er den gratis?",
+     "a": "Ja, kjernefunksjonene er gratis. Premium er valgfritt, med en gratis uke for å prøve det."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Oversikt over avdrag",
+   "screen": "06",
+   "title": "Avdragsapp: Delbetaling og avdrag",
+   "description": "Hold oversikt over avdrag i Spendry: gjenstående betalinger, månedsbeløp og sluttdato, med påminnelse før hvert forfall.",
+   "h1": "Hvert avdrag, og måneden det avsluttes",
+   "lead": "Kortavdrag og kjøp nå, betal senere-planer hoper seg fort opp. Spendry viser hvor mange innbetalinger som gjenstår, hva de koster hver måned og når siste forfall er.",
+   "points": [
+    {
+     "h": "Hva du skylder hver måned i avdrag",
+     "p": "Se totalsummen for alle avdrag som forfaller denne måneden og fremover, slik at nye kjøp ikke hoper seg opp i det skjulte."
+    },
+    {
+     "h": "Sluttdatoen for hver plan",
+     "p": "Hver plan viser gjenstående betalinger og måneden for den siste innbetalingen."
+    },
+    {
+     "h": "Påminnelser før hver betaling",
+     "p": "Et varsel sendes før hvert avdrag forfaller, selv når appen er lukket."
+    },
+    {
+     "h": "En del av din gjeldfrie dato",
+     "p": "Avdrag teller mot din totale gjeld og din nedbetalingsplan."
+    }
+   ],
+   "steps_title": "Slik holder du oversikt over avdrag",
+   "steps": [
+    "Legg til et kjøp med totalsum, antall avdrag og første betalingsdato.",
+    "Se månedsbeløpet og sluttdatoen.",
+    "Registrer hver betaling, eller merk den som betalt fra påminnelsen.",
+    "Sjekk det totale månedsbeløpet for avdrag før du kjøper noe nytt."
+   ],
+   "why_title": "Hvorfor det hjelper",
+   "why": [
+    "Kortavdrag og delbetaling samlet på ett sted.",
+    "Avdrag vises ved siden av budsjetter og annen gjeld, så månedens reelle total er tydelig.",
+    "Ingen bankinnlogging, ingen data samles inn."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Kan jeg spore delbetalinger som kjøp nå, betal senere?",
+     "a": "Ja. Legg til en hvilken som helst plan med totalsum, antall innbetalinger og første dato, så følger Spendry opp resten."
+    },
+    {
+     "q": "Viser den totalsummen jeg betaler i avdrag hver måned?",
+     "a": "Ja. Du ser denne månedens samlede avdrag og hva som kommer de neste månedene."
+    },
+    {
+     "q": "Får jeg en påminnelse før hvert avdrag?",
+     "a": "Ja, før hver betaling, selv om du ikke åpner appen."
+    },
+    {
+     "q": "Påvirker avdrag min gjeldfrie dato?",
+     "a": "Ja. De er en del av den totale gjelden din og nedbetalingsplanen din."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Sparemål-app",
+   "screen": "05",
+   "title": "Sparemål-app: Spar til det som betyr noe",
+   "description": "Sett sparemål i Spendry, legg til penger underveis, se framgangen hver dag og del målet med partner eller familie via iCloud.",
+   "h1": "En sparemål-app som holder deg i gang",
+   "lead": "Sett et beløp for hvert mål og legg til penger hver gang du sparer. Spendry viser hvor nær du er hver eneste dag, i appen og på Hjem-skjermen.",
+   "points": [
+    {
+     "h": "Et tydelig mål",
+     "p": "Hvert mål har et beløp og en fremdriftslinje som viser hva som gjenstår å spare."
+    },
+    {
+     "h": "På Hjem-skjermen din",
+     "p": "En widget for mål holder fremgangen synlig, slik at du bevarer fokus på sparingen."
+    },
+    {
+     "h": "Spar sammen",
+     "p": "Del et mål med partner eller familie via iCloud. Alle legger til penger mot samme mål fra sin egen iPhone."
+    },
+    {
+     "h": "Ved siden av budsjettet ditt",
+     "p": "Penger du setter av til mål blir en del av månedsoversikten din, ved siden av budsjetter og regninger."
+    }
+   ],
+   "steps_title": "Slik sparer du til et mål",
+   "steps": [
+    "Opprett et mål med beløpet du vil nå.",
+    "Legg til penger når du sparer.",
+    "Følg fremgangen i appen eller på widgeten din.",
+    "Del målet hvis du sparer sammen med noen andre."
+   ],
+   "why_title": "Hvorfor det hjelper",
+   "why": [
+    "Mål vises ved siden av budsjetter og gjeld.",
+    "Delte mål synkroniseres via iCloud.",
+    "Gratis beregningsverktøy for sparemål på dette nettstedet."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Kan jeg ha mer enn ett mål?",
+     "a": "Ja. Opprett et mål for hver ting du sparer til, og legg til penger på hvert av dem separat."
+    },
+    {
+     "q": "Kan jeg dele et mål med partneren min?",
+     "a": "Ja. Delte mål synkroniseres via iCloud, og hver person bruker sin egen Apple-konto."
+    },
+    {
+     "q": "Finnes det en widget for mål?",
+     "a": "Ja. En mål-widget viser fremgangen din direkte på Hjem-skjermen."
+    },
+    {
+     "q": "Hvor mye bør jeg spare hver måned?",
+     "a": "Del beløpet som gjenstår på antall måneder frem til datoen din. Det gratis beregningsverktøyet for sparemål på dette nettstedet gjør dette, inkludert renter."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Oversikt over nettoformue",
+   "screen": "08",
+   "title": "Nettoformue app med sanntidskurser",
+   "description": "Følg din nettoformue i Spendry: kontoer, investeringer med sanntidskurser, gull og valuta, minus all gjeld, samlet i ett tall.",
+   "h1": "Din nettoformue, i ett oppdatert tall",
+   "lead": "Spendry summerer kontoene og investeringene dine, trekker fra det du skylder og viser din nettoformue. Aksjer, krypto, gull og valutaer oppdateres med sanntidskurser.",
+   "points": [
+    {
+     "h": "Alt du eier og skylder",
+     "p": "Kontanter, kontoer, investeringer og sparing mot kort, lån, avdrag og personlig gjeld."
+    },
+    {
+     "h": "Sanntidskurser",
+     "p": "Aksjer, krypto, gull og valutaer oppdateres med løpende markedspriser ved siden av forbruket ditt."
+    },
+    {
+     "h": "Investeringer i egen valuta",
+     "p": "Investeringer og kontoer i utenlandsk valuta beholder sin valuta. Nettoformuen vises i din egen."
+    },
+    {
+     "h": "På Hjem-skjermen",
+     "p": "En widget for nettoformue holder tallet synlig."
+    }
+   ],
+   "steps_title": "Slik følger du din nettoformue",
+   "steps": [
+    "Legg til kontoene dine og saldoene deres.",
+    "Legg til investeringer med beholdningen din.",
+    "Legg til gjelden din.",
+    "Følg med på nettoformuen når kurser og saldoer endrer seg."
+   ],
+   "why_title": "Hvorfor Spendry",
+   "why": [
+    "Gjeld og investeringer i samme app som budsjettet ditt.",
+    "Ingen innlogging i bank eller nettmegler.",
+    "Samler ikke inn data."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Hvilke investeringer kan jeg følge?",
+     "a": "Aksjer, krypto, gull og valutaer, med sanntidskurser."
+    },
+    {
+     "q": "Kobler appen seg til megleren min?",
+     "a": "Nei. Du legger inn beholdningen din, og kursene oppdaterer seg selv."
+    },
+    {
+     "q": "Bør jeg ta med bolig eller bil?",
+     "a": "Mange følger bare det som endrer seg fra måned til måned: kontanter, investeringer og gjeld. Legg til mer hvis det hjelper deg."
+    },
+    {
+     "q": "Finnes det en widget for nettoformue?",
+     "a": "Ja, for Hjem-skjermen din."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "Delt budsjett app",
+   "screen": "04",
+   "title": "Delt budsjett app for par og familier",
+   "description": "Del budsjetter og sparemål med partner eller familie i Spendry. Alle bruker egen iPhone og Apple-konto, synkronisert med iCloud.",
+   "h1": "En app for delt budsjett for par og familier",
+   "lead": "Del et budsjett eller et sparemål med partneren din eller familien. Alle legger inn fra sin egen iPhone, og Spendry synkroniserer via iCloud uten at dere må opprette ekstra kontoer.",
+   "points": [
+    {
+     "h": "Del bare det du vil",
+     "p": "Del et felles husholdningsbudsjett eller et mål, og hold resten av økonomien din privat."
+    },
+    {
+     "h": "Alle legger inn fra sin egen telefon",
+     "p": "Hver person bruker sin egen Apple-konto. Delte budsjetter og mål oppdateres for alle."
+    },
+    {
+     "h": "Ingen nye kontoer, ingen servere",
+     "p": "Delingen skjer via iCloud. Spendry har ikke noe kontosystem og samler ikke inn data."
+    },
+    {
+     "h": "Ett mål, flere hender",
+     "p": "Spar til ferie eller bolig sammen. Hvert bidrag flytter det felles målet fremover."
+    }
+   ],
+   "steps_title": "Slik deler du et budsjett",
+   "steps": [
+    "Opprett et budsjett eller et mål.",
+    "Del det fra Spendry med partneren din eller familien.",
+    "De godtar invitasjonen på sin egen iPhone.",
+    "Alle legger til utgifter eller sparing, og alt holdes synkronisert."
+   ],
+   "why_title": "Hvorfor dele med Spendry",
+   "why": [
+    "Dine andre budsjetter og din gjeld forblir private.",
+    "Ingen ekstra innlogging: delingen går via iCloud.",
+    "Samler ikke inn data."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Må partneren min også ha Spendry?",
+     "a": "Ja, på sin egen iPhone eller iPad, med sin egen Apple-konto."
+    },
+    {
+     "q": "Kan partneren min se hele forbruket mitt?",
+     "a": "Nei. Bare budsjettene og målene du deler, blir delt. Resten forblir privat."
+    },
+    {
+     "q": "Hvordan fungerer delingen?",
+     "a": "Gjennom iCloud-deling. Det finnes ingen Spendry-konto og ingen Spendry-server imellom."
+    },
+    {
+     "q": "Kan jeg dele med flere personer?",
+     "a": "Ja. Du kan invitere flere familiemedlemmer til et delt budsjett eller mål."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Holde oversikt over lån",
+   "screen": "06",
+   "title": "Låneoversikt app: saldo, avdrag og renter",
+   "description": "Følg lånene dine i Spendry: gjenstående saldo, renter og avdrag for hver betaling, gjenstående terminer og påminnelser.",
+   "h1": "En låneapp som viser hva du faktisk betaler",
+   "lead": "Legg inn et lån én gang, så viser Spendry gjenstående saldo, hvor mye av hver betaling som er renter, hvor mange terminer som gjenstår, og minner deg på hvert avdrag.",
+   "points": [
+    {
+     "h": "Hele nedbetalingsplanen",
+     "p": "Hvert avdrag med renter og hovedstol, slik at du ser hva lånet faktisk koster."
+    },
+    {
+     "h": "Gjenstående betalinger og sluttdato",
+     "p": "Antall innbetalinger som gjenstår, og måneden for den siste betalingen."
+    },
+    {
+     "h": "Påminnelser før hvert avdrag",
+     "p": "Et varsel kommer før hver forfallsdato, selv når appen er lukket."
+    },
+    {
+     "h": "En del av gjeldsplanen din",
+     "p": "Lån teller med i den totale gjelden din og beregningen av din gjeldfrie dato."
+    }
+   ],
+   "steps_title": "Slik følger du et lån",
+   "steps": [
+    "Legg til lånet med beløp, rente, løpetid og dato for første innbetaling.",
+    "Sjekk nedbetalingsplanen og totalkostnaden.",
+    "Registrer innbetalinger etter hvert som du betaler.",
+    "Følg din gjeldfrie dato."
+   ],
+   "why_title": "Hvorfor Spendry",
+   "why": [
+    "Forbrukslån, billån, boliglån og studielån på ett sted.",
+    "Ingen bankinnlogging, samler ikke inn data.",
+    "En gratis lånekalkulator på dette nettstedet."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Hvilke lån kan jeg legge inn?",
+     "a": "Forbrukslån, billån, boliglån, studielån og andre nedbetalingslån, samt penger du skylder andre."
+    },
+    {
+     "q": "Viser appen hvor mye rente jeg betaler?",
+     "a": "Ja. Du ser renteandelen i hver betaling og for hele lånet samlet."
+    },
+    {
+     "q": "Får jeg påminnelse før hver betaling?",
+     "a": "Ja, før hver forfallsdato, selv om du aldri åpner appen."
+    },
+    {
+     "q": "Kobler appen seg til banken min?",
+     "a": "Nei. Du legger inn lånet én gang, så regner Spendry ut planen."
+    }
+   ]
+  }
+ ]
 }

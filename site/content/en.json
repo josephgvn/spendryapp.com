@@ -3007,9 +3007,139 @@
  ],
  "app_labels": {
   "free": "Free on the App Store. Premium is optional, with a free week.",
-  "tools": "Free calculators",
-  "guides": "Guides",
   "more": "More of what Spendry does",
-  "cta": "Download Spendry and see your whole month in one place."
+  "cta": "Download Spendry and see your whole month in one place.",
+  "tools_title": "Free calculators",
+  "guides_title": "Guides"
+ },
+ "save_amounts": {
+  "slug": "how-to-save",
+  "amount_slug": "{n}",
+  "amounts": [
+   1000,
+   2000,
+   3000,
+   5000,
+   10000,
+   15000,
+   20000,
+   25000,
+   30000,
+   50000,
+   100000
+  ],
+  "terms": [
+   3,
+   6,
+   9,
+   12,
+   18,
+   24,
+   36,
+   60
+  ],
+  "rate": 4,
+  "example": 10000,
+  "year": "year",
+  "years": "years",
+  "month": "month",
+  "months": "months",
+  "answer_title": "The short answer",
+  "calc_title": "Try it with your own numbers",
+  "hub": {
+   "title": "How Much to Save Each Month: Tables for $1,000 to $100,000",
+   "description": "How much to save each month and each week to reach $1,000 to $100,000 in 6 months, 1 year or 2 years, with a page for every amount.",
+   "h1": "How much to save each month for your goal",
+   "lead": "Pick the amount you want to save. The table shows what to put aside each month and each week to get there in 6 months, 1 year or 2 years.",
+   "table_title": "Monthly and weekly amounts, no interest",
+   "columns": [
+    "Goal",
+    "In 6 months",
+    "In 1 year",
+    "In 2 years"
+   ],
+   "months": [
+    6,
+    12,
+    24
+   ],
+   "cell": "{pay} a month ({week} a week)",
+   "notes": "Without interest, so the numbers are the plain minimum. A savings account that pays interest lowers them a little; each amount's page shows how much at 4%.",
+   "sections": [
+    {
+     "h": "The simple rule",
+     "p": [
+      "Divide the goal by the number of months you have. Saving {amount} in a year takes {m12} a month, or about {w12} a week. Interest helps a little: in an account paying 4%, it is {r12} a month."
+     ]
+    },
+    {
+     "h": "How to make it happen",
+     "list": [
+      "Move the money on payday, before you spend, with an automatic transfer.",
+      "Keep the savings in a separate account so it is not spent by accident.",
+      "Cancel subscriptions you don't use and move what you save.",
+      "Put windfalls like tax refunds and bonuses straight into the goal.",
+      "Track your spending with a budget so the monthly amount is realistic."
+     ]
+    }
+   ],
+   "calc_text": "Enter your goal, what you already have, the months and the interest rate to see your monthly amount.",
+   "faq": [
+    {
+     "q": "How much should I save each month?",
+     "a": "Divide what you want to save by the months you have. {amount} in a year takes {m12} a month; in 2 years, {m24}."
+    },
+    {
+     "q": "Is it better to save weekly or monthly?",
+     "a": "Whichever matches how you are paid. {amount} in a year is {m12} a month or about {w12} a week; an automatic transfer on payday works best."
+    },
+    {
+     "q": "Does interest make a big difference?",
+     "a": "Over a year, not much: at 4%, saving {amount} takes {r12} a month instead of {m12}. Over several years it grows."
+    }
+   ]
+  },
+  "page": {
+   "title": "How to Save {amount}: Monthly and Weekly Amounts by Time",
+   "description": "How much to save each month and each week to reach {amount} in 3 months to 5 years, with and without interest, plus ways to get there faster.",
+   "h1": "How to save {amount}",
+   "lead": "To save {amount} in a year, put aside {m12} a month, about {w12} a week. Here is the amount for every timeframe from 3 months to 5 years.",
+   "answer": "To save {amount} in 1 year you need {m12} a month, or about {w12} a week. In 6 months it takes {m6} a month, and in 2 years {m24}. In a savings account paying 4%, a year takes {r12} a month.",
+   "table_title": "What to save for {amount}",
+   "table_sub": "The monthly and weekly amount for each timeframe, and the monthly amount in a savings account paying 4% a year.",
+   "columns": [
+    "Timeframe",
+    "Per month",
+    "Per week",
+    "Per month at 4%"
+   ],
+   "interest_title": "What interest adds",
+   "interest_text": "In an account paying 4% a year, interest does part of the work: over 5 years it adds about {e60} to your {amount}, so the monthly amount drops from {m60} to {r60}.",
+   "calc_text": "Open the savings goal calculator with {amount}, 12 months and 4% filled in, then add what you already have.",
+   "tips_title": "How to save {amount} faster",
+   "tips": [
+    "Set up an automatic transfer of {m12} on payday, before you spend.",
+    "Keep the money in a separate savings account.",
+    "Cut one or two subscriptions you don't use and add the difference.",
+    "Send tax refunds, bonuses and side income straight to the goal.",
+    "Track the goal in an app so you see it grow."
+   ],
+   "more_title": "Other goals",
+   "notes": "Deposits at the end of each month, interest compounded monthly, no taxes or fees.",
+   "faq": [
+    {
+     "q": "How much do I need to save a week to have {amount} in a year?",
+     "a": "About {w12} a week, or {m12} a month."
+    },
+    {
+     "q": "Can I save {amount} in 6 months?",
+     "a": "You would need {m6} a month. If that is too much, 1 year takes {m12} a month and 2 years {m24}."
+    },
+    {
+     "q": "How much interest will {amount} earn while I save?",
+     "a": "At 4% a year, about {e12} over a 1-year plan and {e60} over 5 years, because your balance grows step by step."
+    }
+   ]
+  }
  }
 }

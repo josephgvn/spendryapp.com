@@ -1270,6 +1270,9 @@
       [have, put, earned].forEach((v, i) => { qa(".stack i", el)[i].style.width = `${(v / goal) * 100}%`; });
     };
     el.addEventListener("input", update);
+    // A savings page links here with its numbers filled in (?goal=10000&have=0&months=12&rate=4).
+    const given = new URLSearchParams(location.search);
+    ["goal", "have", "months", "rate"].forEach((k) => { const v = parseFloat(given.get(k)); if (Number.isFinite(v) && v >= 0 && f(k)) f(k).value = String(v); });
     update();
   }
 

@@ -1553,5 +1553,835 @@
    "final_title": "Weet elke verlenging ruim van tevoren.",
    "final_text": "Download Spendry, voeg je abonnementen toe en ontvang een seintje voor elke verlenging."
   }
- }
+ },
+ "app_labels": {
+  "free": "Gratis in de App Store. Premium is optioneel, met een gratis proefweek.",
+  "more": "Meer van wat Spendry doet",
+  "cta": "Download Spendry en bekijk je hele maand op één plek.",
+  "tools_title": "Gratis rekenhulpen",
+  "guides_title": "Gidsen"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "Budget-app",
+   "screen": "04",
+   "footer": true,
+   "title": "Budget-app voor iPhone: Spendry, zonder bankkoppeling",
+   "description": "Spendry is een budget-app voor iPhone en iPad met categorielimieten, overzicht van vaste lasten en leningen, en handige herinneringen voor al je betalingen.",
+   "h1": "Een budget-app die ook weet wat eraan komt",
+   "lead": "Spendry geeft elke categorie een limiet, waarschuwt je voordat een budget op is en toont openstaande rekeningen, creditcards en termijnen. Zonder bankkoppeling.",
+   "points": [
+    {
+     "h": "Budgetten die met je meegaan",
+     "p": "Stel een maandlimiet in voor boodschappen, uit eten gaan of iets anders. Elke uitgave telt mee en Spendry waarschuwt je voordat je over je budget gaat, niet erna."
+    },
+    {
+     "h": "De rest van de maand vooraf in beeld",
+     "p": "Creditcardafschriften, leningen, facturen en abonnementen vóór je salaris staan naast je saldo. Zo weet je altijd wat je écht over hebt om uit te geven."
+    },
+    {
+     "h": "Binnen een paar seconden een uitgave toevoegen",
+     "p": "Typ het bedrag en kies een categorie, gebruik Bon scannen, voeg iets toe via Widgets of laat een automatisering via de Opdrachten-app je Apple Pay-aankopen vastleggen."
+    },
+    {
+     "h": "Zie waar alles naartoe gaat",
+     "p": "Wekelijkse en maandelijkse grafieken per categorie en dag laten zien waar je budgetten vollopen en hoe deze maand verschilt van de vorige."
+    }
+   ],
+   "steps_title": "Beginnen met budgetteren in Spendry",
+   "steps": [
+    "Voeg je inkomsten toe en de rekeningen of kaarten waarmee je betaalt.",
+    "Maak budgetten voor categorieën waar je het meest aan uitgeeft en geef ze een limiet.",
+    "Voer uitgaven direct in of schakel de automatisering voor Apple Pay in.",
+    "Bekijk aan het eind van de maand de grafieken en pas de limieten voor volgende maand aan."
+   ],
+   "why_title": "Waarom mensen voor Spendry kiezen",
+   "why": [
+    "Geen bankkoppeling: jij bepaalt wat erin komt en niets maakt verbinding met je bank.",
+    "Je gegevens blijven op je iPhone en in je eigen iCloud. Er wordt niets verzameld.",
+    "Schulden, creditcards en termijnen staan direct naast je budget, niet in een aparte app.",
+    "Gratis te downloaden, met optionele Premium."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Is Spendry een gratis budget-app?",
+     "a": "Ja. Budgetten, uitgaven, herinneringen en de basisfuncties zijn gratis. Premium is optioneel: maandelijks of jaarlijks met een gratis proefweek, of een eenmalige aankoop voor het leven."
+    },
+    {
+     "q": "Heeft Spendry toegang tot mijn bankrekening nodig?",
+     "a": "Nee. De app vraagt nooit om je bankgegevens. Je voert uitgaven zelf in, importeert ze uit bankberichten of laat de Opdrachten-app Apple Pay-aankopen toevoegen."
+    },
+    {
+     "q": "Kan ik een budget delen met mijn partner?",
+     "a": "Ja. Gedeelde budgetten en doelen synchroniseren via iCloud, waarbij iedereen zijn eigen Apple Account gebruikt."
+    },
+    {
+     "q": "Op welke apparaten werkt de app?",
+     "a": "iPhone en iPad met iOS 17 of nieuwer. Er is ook een versie voor Mac in de Mac App Store."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Budget-app zonder bankkoppeling",
+   "screen": "02",
+   "footer": true,
+   "title": "Budget-app zonder bankkoppeling: Spendry",
+   "description": "Een budget-app zonder inloggen bij je bank. Voer uitgaven zelf in of log Apple Pay-aankopen via Opdrachten. Je gegevens blijven altijd veilig op je iPhone.",
+   "h1": "Een budget-app die nooit om je bankgegevens vraagt",
+   "lead": "Veel budget-apps willen je bankwachtwoord. Spendry maakt geen enkele verbinding met je bank: jij bepaalt wat erin komt en je gegevens blijven op je iPhone en in je eigen iCloud.",
+   "points": [
+    {
+     "h": "Niets maakt verbinding met je bank",
+     "p": "Geen bankkoppeling, geen tussenpartijen en geen verplicht account. Spendry werkt in elk land hetzelfde, met elke bank, kaart of valuta."
+    },
+    {
+     "h": "Snel en eenvoudig uitgaven toevoegen",
+     "p": "Typ een bedrag, gebruik Bon scannen, kies Uitgave toevoegen via Widgets of vraag het aan Siri. Je kunt ook sms-berichten van je bank omzetten in uitgaven."
+    },
+    {
+     "h": "Apple Pay-betalingen automatisch vastleggen",
+     "p": "Schakel de kant-en-klare automatisering in via de Opdrachten-app en elke aankoop via Apple Pay komt direct met het juiste bedrag in Spendry."
+    },
+    {
+     "h": "Gegevens worden niet verzameld",
+     "p": "Geen advertenties, geen analyse en geen tracking. In de App Store staat Geen gegevens verzameld en je kunt de app beveiligen met App-vergrendeling via Face ID."
+    }
+   ],
+   "steps_title": "Hoe het werkt zonder bankkoppeling",
+   "steps": [
+    "Voeg je kaarten, leningen en rekeningen toe met het huidige saldo.",
+    "Voer uitgaven handmatig in of importeer ze uit bankberichten.",
+    "Schakel de Apple Pay-automatisering in via de Opdrachten-app.",
+    "Controleer je saldo en budgetten. Herinneringen waarschuwen je voor geplande betalingen."
+   ],
+   "why_title": "Waarom geen bankkoppeling",
+   "why": [
+    "Je bankwachtwoord blijft altijd in jouw eigen handen.",
+    "Geen verbroken verbindingen of ontbrekende betalingen na een update van de bank.",
+    "Werkt met elke bank, ook met banken die budget-apps niet ondersteunen.",
+    "Door een uitgave zelf te noteren, ben je je er direct bewuster van."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Waarom maakt Spendry geen verbinding met mijn bank?",
+     "a": "Zo komen je bankgegevens en afschriften nooit op servers van anderen terecht. Je overzichten blijven op je iPhone en in je eigen iCloud."
+    },
+    {
+     "q": "Kost handmatig uitgaven invoeren niet veel tijd?",
+     "a": "Het duurt maar een paar seconden. Voor Apple Pay kun je het automatiseren via Opdrachten, of gebruik Widgets, Siri of bankberichten."
+    },
+    {
+     "q": "Kan Spendry de berichten van mijn bank lezen?",
+     "a": "Niet uit zichzelf. Je plakt of deelt een bankbericht in Spendry en de app zet dit om in een uitgave."
+    },
+    {
+     "q": "Zijn mijn gegevens veilig?",
+     "a": "Spendry verzamelt geen gegevens. Alles blijft op je apparaat en synchroniseert via je eigen iCloud. Je kunt de app vergrendelen met Face ID."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "Schulden aflossen app",
+   "screen": "06",
+   "footer": true,
+   "title": "Schulden aflossen app: Snowball en Avalanche",
+   "description": "Zet al je leningen en creditcards in één aflosplan. Kies de Snowball- of Avalanche-methode en zie direct wanneer je helemaal schuldenvrij bent.",
+   "h1": "Een app voor schulden aflossen met je schuldenvrije datum",
+   "lead": "Voeg al je schulden eenmalig toe. Spendry ordent ze met de Snowball- of Avalanche-methode, telt mee wat je maandelijks extra kunt missen en toont de datum waarop je schuldenvrij bent.",
+   "points": [
+    {
+     "h": "Al je schulden in één getal",
+     "p": "Creditcards, leningen, een kredietrekening, termijnen en geleend geld van vrienden overzichtelijk bijeen, met je totale schuld en maandelijkse betalingen direct zichtbaar."
+    },
+    {
+     "h": "Kies voor Snowball of Avalanche",
+     "p": "Los eerst het kleinste saldo af voor snelle motivatie, of kies de hoogste rente om zo min mogelijk rente te betalen. Spendry vergelijkt beide en past het plan aan zodra je aflost."
+    },
+    {
+     "h": "Een datum die meebeweegt",
+     "p": "Registreer een betaling of leg een extra bedrag in en de datum waarop je schuldenvrij bent schuift meteen dichterbij."
+    },
+    {
+     "h": "Herinneringen voor elke vervaldatum",
+     "p": "Je krijgt een melding voor elke betaaldag, ook als de app gesloten is. Zo voorkom je boetes door een gemiste minimale aflossing."
+    }
+   ],
+   "steps_title": "Hoe het aflosplan werkt",
+   "steps": [
+    "Voeg elke schuld toe met het openstaande saldo, de rente en de minimale betaling.",
+    "Kies voor de Snowball- of de Avalanche-strategie.",
+    "Stel in hoeveel je elke maand extra kunt aflossen.",
+    "Noteer betalingen zodra je ze doet en zie hoe de einddatum dichterbij komt."
+   ],
+   "why_title": "Wat Spendry anders maakt",
+   "why": [
+    "Creditcards, leningen en termijnen worden nauwkeurig bijgehouden, niet als één globaal bedrag.",
+    "Geen bankkoppeling en er worden geen gegevens verzameld.",
+    "De gratis rekenhulpen op deze site gebruiken dezelfde rekenmethode, zodat je vooraf je cijfers kunt testen."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Wat is de Snowball-methode?",
+     "a": "Je betaalt overal het minimum en lost extra af op de kleinste schuld. Zodra die weg is, gebruik je dat hele bedrag voor de volgende schuld."
+    },
+    {
+     "q": "Wat is de Avalanche-methode?",
+     "a": "Het extra geld gaat eerst naar de schuld met de hoogste rente. Hierdoor betaal je over de hele periode meestal de minste rente."
+    },
+    {
+     "q": "Kan ik geleend geld van bekenden bijhouden?",
+     "a": "Ja. Persoonlijke leningen kunnen met of zonder rente worden toegevoegd en draaien mee in hetzelfde aflosplan."
+    },
+    {
+     "q": "Is het aflosplan gratis?",
+     "a": "Je kunt gratis van start gaan. Met Premium haal je de limieten van de gratis versie weg, inclusief een gratis proefweek om het te proberen."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Creditcard tracker",
+   "screen": "07",
+   "footer": true,
+   "title": "Creditcard Tracker App: Rekening, Vervaldatum en Saldo",
+   "description": "Beheer elke creditcard in Spendry: zie de vervaldatum, het openstaande saldo en termijnen, met een herinnering vóór elke betaling.",
+   "h1": "Elke creditcard, het overzicht en de vervaldatum",
+   "lead": "Spendry weet wanneer je rekeningoverzicht sluit en wanneer je moet betalen. De app houdt je saldo en termijnen bij en herinnert je op tijd aan de betaling, zodat je nooit voor verrassingen staat.",
+   "points": [
+    {
+     "h": "Overzicht en vervaldatum voor elke kaart",
+     "p": "Voeg je kaarten eenmalig toe met de factuurdatum en de vervaldag. Spendry toont wat je verschuldigd bent en wanneer je moet betalen."
+    },
+    {
+     "h": "Termijnen op je creditcard",
+     "p": "Bij aankopen in termijnen zie je meteen hoeveel betalingen er nog openstaan en in welke maand de laatste betaling valt."
+    },
+    {
+     "h": "Minimumbetaling of het hele bedrag",
+     "p": "Voer een betaling in en je saldo past zich meteen aan. De gratis afloscalculator laat zien wat alleen de minimumbetaling op lange termijn kost."
+    },
+    {
+     "h": "Een herinnering voor de vervaldatum",
+     "p": "Je krijgt een melding vóór elke creditcardbetaling, zelfs als de app gesloten is. Vink de betaling direct vanuit het bericht af als betaald."
+    }
+   ],
+   "steps_title": "Zo beheer je je creditcards",
+   "steps": [
+    "Voeg elke kaart toe met de limiet, de factuurdatum en de vervaldag.",
+    "Voer uitgaven en termijnen in, of haal ze over uit bankberichten.",
+    "Vink betalingen af zodra je ze hebt overgemaakt.",
+    "Krijg automatisch een herinnering vóór elke vervaldatum."
+   ],
+   "why_title": "Waarom je kaarten bijhouden in Spendry",
+   "why": [
+    "Al je kaarten in één scherm met het totale openstaande bedrag.",
+    "De datum waarop je schuldenvrij bent berekent ook je creditcards mee.",
+    "Geen bankkoppeling nodig en geen gegevensverzameling."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Wat is het verschil tussen de overzichtsdatum en de vervaldatum?",
+     "a": "De overzichtsdatum sluit de afrekenperiode af en bepaalt wat je moet betalen. De vervaldatum is de laatste dag waarop je dit bedrag zonder rente of kosten kunt voldoen."
+    },
+    {
+     "q": "Kan de app mij herinneren aan elke creditcardbetaling?",
+     "a": "Ja. Je ontvangt vóór elke vervaldatum een melding, zelfs als je de app nooit opent, en je kunt de betaling direct vanuit de melding afvinken."
+    },
+    {
+     "q": "Kan ik betalingen in termijnen volgen?",
+     "a": "Ja. Bij elk termijnplan zie je de resterende betalingen en de maand van de laatste aflossing."
+    },
+    {
+     "q": "Maakt Spendry verbinding met mijn creditcardmaatschappij?",
+     "a": "Nee. Spendry vraagt nooit om je bankgegevens. Je voegt je kaarten en betalingen zelf handmatig toe."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Vaste lasten app",
+   "screen": "07",
+   "footer": true,
+   "title": "Vaste Lasten App: Mis Nooit Meer een Rekening",
+   "description": "Spendry herinnert je aan elke rekening, creditcard en lening, ook als de app dicht is. Markeer betalingen direct vanuit de melding als voldaan.",
+   "h1": "Een herinnering voor al je rekeningen op het juiste moment",
+   "lead": "Spendry herinnert je aan elke rekening, creditcardbetaling, termijn van een lening en abonnement, zelfs als je de app nooit opent. Stel de melding uit of markeer hem direct als betaald.",
+   "points": [
+    {
+     "h": "Elke vervaldatum in één overzicht",
+     "p": "Facturen, creditcardafschriften, leningtermijnen en abonnementen staan overzichtelijk bij elkaar, met te late betalingen altijd bovenaan."
+    },
+    {
+     "h": "Herinneringen zonder de app te openen",
+     "p": "Meldingen worden ingepland op je iPhone en komen aan vóór elke vervaldag. Dankzij Tijdgevoelig komen ze desgewenst gewoon door je Focus heen."
+    },
+    {
+     "h": "Betaald of uitgesteld met één tik",
+     "p": "Zet een betaling direct vanuit de melding op betaald of stel hem even uit. Een betaling werkt je saldo en budget direct bij."
+    },
+    {
+     "h": "Een ochtendoverzicht als je dat wilt",
+     "p": "Een kant-en-klare automatisering voor de Opdrachten-app stuurt je elke ochtend één melding met alle betalingen voor de komende drie dagen."
+    }
+   ],
+   "steps_title": "Zo stel je je herinneringen in",
+   "steps": [
+    "Voeg je facturen, kaarten, leningen en abonnementen toe met hun vervaldatum.",
+    "Kies hoeveel dagen van tevoren je een herinnering wilt krijgen.",
+    "Betaal of stel uit direct vanuit de melding.",
+    "Bekijk de lijst met geplande betalingen wanneer je een totaaloverzicht wilt."
+   ],
+   "why_title": "Waarom het werkt",
+   "why": [
+    "Eén plek voor elke soort betaling, in plaats van een aparte app per rekening.",
+    "Herinneringen komen altijd binnen, ook als Spendry gesloten blijft.",
+    "Je gegevens blijven op je iPhone, er wordt niets verzameld."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Krijg ik herinneringen als ik de app nooit open?",
+     "a": "Ja. Herinneringen worden lokaal op je iPhone gepland en komen altijd op tijd aan, ook als Spendry dicht blijft."
+    },
+    {
+     "q": "Kan ik zelf kiezen wanneer ik een melding krijg?",
+     "a": "Ja. Je stelt zelf in hoeveel dagen vóór de vervaldatum je de herinnering wilt ontvangen."
+    },
+    {
+     "q": "Kan de app mij ook aan abonnementen herinneren?",
+     "a": "Ja. Abonnementen, facturen, creditcards en leningen hebben allemaal herinneringen."
+    },
+    {
+     "q": "Hebben de herinneringen internet nodig?",
+     "a": "Nee. Ze worden lokaal op je toestel ingepland."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Abonnementen beheer",
+   "screen": "09",
+   "footer": true,
+   "title": "Abonnementen Tracker App: Overzicht van je Kosten",
+   "description": "Beheer al je abonnementen in Spendry: zie maandelijkse en jaarlijkse kosten en krijg op tijd een seintje, zodat je ongebruikte diensten kunt opzeggen.",
+   "h1": "Een abonnementen-tracker die de jaarkosten toont",
+   "lead": "Voer je abonnementen eenmalig in en Spendry laat zien wat ze per maand en per jaar kosten, wanneer ze verlengen en waarschuwt je vóór de verlenging, zodat je nog op tijd kunt opzeggen.",
+   "points": [
+    {
+     "h": "Maandelijkse en jaarlijkse totalen",
+     "p": "Wekelijkse, maandelijkse en jaarlijkse bedragen worden omgerekend naar één maand- en jaartotaal, zodat kleine kosten niet meer ongemerkt blijven."
+    },
+    {
+     "h": "Een herinnering vóór elke verlenging",
+     "p": "Ontvang een melding enkele dagen voor een verlenging plaatsvindt, zodat je nog ruim de tijd hebt om op te zeggen."
+    },
+    {
+     "h": "Vraag het in gewone taal",
+     "p": "Vraag de assistent van Spendry wat je abonnementen per jaar kosten en je krijgt direct het totaal te zien met elk abonnement op een rij."
+    },
+    {
+     "h": "Onderdeel van je hele budget",
+     "p": "Abonnementen tellen automatisch mee in je budgetten en geplande betalingen, zodat je ze naast al je andere uitgaven ziet."
+    }
+   ],
+   "steps_title": "Zo beheer je je abonnementen",
+   "steps": [
+    "Voeg elk abonnement toe met het bedrag, de periode en de verlengdatum.",
+    "Bekijk meteen de totale kosten per maand en per jaar.",
+    "Zet herinneringen aan voor de verlengingen.",
+    "Zeg op wat je niet meer gebruikt en zie je totale kosten dalen."
+   ],
+   "why_title": "Waarom het helpt",
+   "why": [
+    "Geschikt voor elke dienst, niet alleen aankopen via de App Store.",
+    "Geen bankkoppeling nodig: voer ze gewoon eenmalig in.",
+    "Een gratis abonnementencalculator op deze website."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Vindt Spendry mijn abonnementen automatisch?",
+     "a": "Nee. Er is geen koppeling met je bank, dus je voert elk abonnement eenmalig zelf in. Daarna houdt Spendry alle verlengingen en totalen voor je bij."
+    },
+    {
+     "q": "Kan ik jaarlijkse abonnementen bijhouden?",
+     "a": "Ja. Wekelijkse, maandelijkse en jaarlijkse periodes worden ondersteund en omgerekend naar duidelijke maand- en jaartotalen."
+    },
+    {
+     "q": "Krijg ik een seintje voor een abonnement verlengt?",
+     "a": "Ja, enkele dagen voor elke verlenging, zelfs als je de app niet opent."
+    },
+    {
+     "q": "Hoe zeg ik een abonnement op via mijn iPhone?",
+     "a": "Abonnementen uit de App Store zeg je op in de Instellingen-app, onder je naam en Abonnementen. Andere diensten zeg je op via hun eigen website of app."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Uitgaven bijhouden app",
+   "screen": "03",
+   "title": "Uitgaven bijhouden app voor iPhone: Spendry",
+   "description": "Voeg een uitgave in seconden toe via de app, widget, Siri of Apple Pay. Bekijk duidelijke grafieken. Zonder bankkoppeling of gegevensverzameling.",
+   "h1": "Een app voor uitgaven die seconden kost",
+   "lead": "Typ het bedrag, kies een categorie, klaar. Of vraag het aan Siri, gebruik een widget of laat Apple Pay betalingen vanzelf registreren. Zie meteen waar je geld blijft.",
+   "points": [
+    {
+     "h": "Snel toevoegen op jouw manier",
+     "p": "Voeg uitgaven toe vanuit de app, een widget op je beginscherm, Siri of Opdrachten, en bewaar een gescande bon direct bij de uitgave."
+    },
+    {
+     "h": "Grafieken die vragen beantwoorden",
+     "p": "Wekelijkse en maandelijkse overzichten per categorie en per dag, je dagelijkse gemiddelde en je uitgaventempo vergeleken met de vorige periode."
+    },
+    {
+     "h": "Budgetten waarschuwen je op tijd",
+     "p": "Uitgaven vullen je categoriebudgetten en Spendry geeft een seintje voordat een budget op is."
+    },
+    {
+     "h": "Je eigen categorieën",
+     "p": "Maak de categorieën aan die jij nodig hebt, met eigen namen en symbolen, zonder vast te zitten aan een standaardlijst."
+    }
+   ],
+   "steps_title": "Zo begin je met bijhouden",
+   "steps": [
+    "Voeg je eerste uitgaven toe vanuit de app of een widget.",
+    "Maak budgetten aan voor de categorieën die belangrijk zijn.",
+    "Zet de Apple Pay automatisering aan als je met je telefoon betaalt.",
+    "Bekijk wekelijks de grafieken."
+   ],
+   "why_title": "Waarom Spendry",
+   "why": [
+    "Geen bankkoppeling, geen gegevensverzameling.",
+    "Widgets, Siri en Opdrachten voegen allemaal uitgaven toe.",
+    "Werkt in elke valuta, in 44 talen."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Kan ik een uitgave toevoegen zonder de app te openen?",
+     "a": "Ja. Gebruik een widget op je beginscherm, vraag het aan Siri, of laat een automatisering in Opdrachten je Apple Pay aankopen vastleggen."
+    },
+    {
+     "q": "Kan ik bonnen bewaren?",
+     "a": "Ja. Scan een bon wanneer je een uitgave toevoegt en deze blijft bij die uitgave bewaard."
+    },
+    {
+     "q": "Werkt het met elke valuta?",
+     "a": "Ja. Kies je valuta wanneer je begint. Beleggingen en rekeningen in vreemde valuta kunnen hun eigen valuta houden."
+    },
+    {
+     "q": "Is het gratis?",
+     "a": "Ja, de basisfuncties zijn gratis. Premium is optioneel, met een gratis proefweek om het te proberen."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Termijnen bijhouden app",
+   "screen": "06",
+   "title": "Termijnen app: Gespreid betalen overzicht",
+   "description": "Beheer al je termijnen in Spendry. Zie openstaande betalingen, maandbedragen, de einddatum en krijg herinneringen. Zonder bankkoppeling.",
+   "h1": "Elke termijn, en de maand waarin het stopt",
+   "lead": "Gespreid betalen en creditcardtermijnen lopen stilletjes op. Spendry toont hoeveel termijnen er nog openstaan, het totale maandbedrag en wanneer de laatste betaling is.",
+   "points": [
+    {
+     "h": "Wat je maandelijks betaalt aan termijnen",
+     "p": "Zie het totaal van alle termijnen van deze maand en de komende maanden, zodat nieuwe aankopen zich niet ongemerkt opstapelen."
+    },
+    {
+     "h": "De einddatum van elk plan",
+     "p": "Elk termijnplan toont het aantal resterende betalingen en de maand van de laatste afschrijving."
+    },
+    {
+     "h": "Herinneringen voor elke betaling",
+     "p": "Je krijgt een melding voor elke termijn moet worden betaald, zelfs als de app gesloten is."
+    },
+    {
+     "h": "Onderdeel van je schuldenvrije datum",
+     "p": "Termijnen tellen mee voor je totale schuld en je aflosplan."
+    }
+   ],
+   "steps_title": "Zo beheer je termijnen",
+   "steps": [
+    "Voeg een aankoop toe met het totaalbedrag, het aantal termijnen en de datum van de eerste betaling.",
+    "Bekijk het maandbedrag en de einddatum.",
+    "Registreer elke betaling, of vink hem af vanuit de herinnering.",
+    "Controleer het maandtotaal aan termijnen voordat je iets nieuws koopt."
+   ],
+   "why_title": "Waarom het helpt",
+   "why": [
+    "Creditcardtermijnen en achteraf betalen op één plek.",
+    "Termijnen staan naast je budgetten en andere schulden, zodat je echte maandtotaal duidelijk is.",
+    "Geen bankkoppeling, geen gegevensverzameling."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Kan ik achteraf betalen en termijnregelingen bijhouden?",
+     "a": "Ja. Voeg een regeling toe met het totaalbedrag, het aantal betalingen en de eerste datum. Spendry houdt de rest bij."
+    },
+    {
+     "q": "Zie ik hoeveel ik maandelijks aan termijnen betaal?",
+     "a": "Ja. Je ziet het termijntotaal van deze maand en wat er in de komende maanden aankomt."
+    },
+    {
+     "q": "Krijg ik een herinnering voor elke termijn?",
+     "a": "Ja, voor elke betaling, zelfs als je de app niet opent."
+    },
+    {
+     "q": "Tellen termijnen mee voor mijn datum om schuldenvrij te zijn?",
+     "a": "Ja. Ze maken deel uit van je totale schuld en je aflosplan."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Spaar app voor doelen",
+   "screen": "05",
+   "title": "Spaar app: Spaardoelen bijhouden",
+   "description": "Stel spaardoelen in Spendry, voeg spaargeld toe, zie je voortgang en deel doelen met je partner of gezin via iCloud. Simpel en overzichtelijk.",
+   "h1": "Een spaardoelen app die je motiveert",
+   "lead": "Geef elk doel een bedrag en leg geld in zodra je spaart. Spendry laat je elke dag zien hoe dichtbij je bent, in de app en op je beginscherm.",
+   "points": [
+    {
+     "h": "Een duidelijk streefbedrag",
+     "p": "Elk doel heeft een doelbedrag en een voortgangsbalk, met het bedrag dat je nog moet sparen."
+    },
+    {
+     "h": "Op je beginscherm",
+     "p": "Een doelenwidget houdt je voortgang in beeld, zodat sparen in je gedachten blijft."
+    },
+    {
+     "h": "Samen sparen",
+     "p": "Deel een doel met je partner of gezin via iCloud. Iedereen legt in op hetzelfde doel vanaf de eigen iPhone."
+    },
+    {
+     "h": "Naast je budget",
+     "p": "Geld dat je opzijzet voor doelen vormt een geheel met je maandoverzicht, naast je budgetten en betalingen."
+    }
+   ],
+   "steps_title": "Zo spaar je voor een doel",
+   "steps": [
+    "Maak een doel aan met het bedrag dat je wilt bereiken.",
+    "Voeg geld toe zodra je spaart.",
+    "Bekijk de voortgang in de app of op de widget.",
+    "Deel het doel als je met iemand anders spaart."
+   ],
+   "why_title": "Waarom het helpt",
+   "why": [
+    "Doelen staan direct naast je budgetten en schulden.",
+    "Gedeelde doelen synchroniseren via iCloud.",
+    "Een gratis spaardoelcalculator op deze website."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Kan ik meerdere spaardoelen aanmaken?",
+     "a": "Ja. Maak een doel aan voor alles waar je voor spaart en leg afzonderlijk geld in."
+    },
+    {
+     "q": "Kan ik een spaardoel delen met mijn partner?",
+     "a": "Ja. Gedeelde doelen synchroniseren via iCloud en iedereen gebruikt een eigen Apple Account."
+    },
+    {
+     "q": "Is er een widget voor doelen?",
+     "a": "Ja. Een doelenwidget toont je voortgang op het beginscherm."
+    },
+    {
+     "q": "Hoeveel moet ik per maand sparen?",
+     "a": "Deel het resterende bedrag door het aantal maanden tot je streefdatum. De gratis spaardoelcalculator op deze website berekent het, inclusief eventuele rente."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Netto waarde app",
+   "screen": "08",
+   "title": "Netto waarde app met live koersen",
+   "description": "Volg je netto waarde in Spendry: rekeningen en beleggingen met live koersen, goud en valuta, min elke lening en schuld, in één getal.",
+   "h1": "Je netto waarde, in één getal dat actueel blijft",
+   "lead": "Spendry telt je rekeningen en beleggingen op, trekt af wat je verschuldigd bent en toont je netto waarde. Aandelen, crypto, goud en valuta werken bij met live koersen.",
+   "points": [
+    {
+     "h": "Alles wat je bezit en verschuldigd bent",
+     "p": "Contant geld, rekeningen, beleggingen en spaargeld tegenover creditcards, leningen, termijnen en persoonlijke schulden."
+    },
+    {
+     "h": "Live koersen",
+     "p": "Aandelen, crypto, goud en valuta werken bij met actuele marktprijzen naast je uitgaven."
+    },
+    {
+     "h": "Beleggingen in hun eigen valuta",
+     "p": "Beleggingen en rekeningen in vreemde valuta behouden hun eigen munteenheid; je netto waarde toont in die van jou."
+    },
+    {
+     "h": "Op je beginscherm",
+     "p": "Een widget voor je netto waarde houdt het getal altijd in zicht."
+    }
+   ],
+   "steps_title": "Zo volg je je netto waarde",
+   "steps": [
+    "Voeg je rekeningen en hun saldo toe.",
+    "Voeg beleggingen toe met het aantal dat je bezit.",
+    "Voeg je schulden toe.",
+    "Bekijk je netto waarde terwijl koersen en saldi veranderen."
+   ],
+   "why_title": "Waarom Spendry",
+   "why": [
+    "Schulden en beleggingen in dezelfde app als je budget.",
+    "Geen login voor bank of broker nodig.",
+    "Gegevens worden niet verzameld."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Welke beleggingen kan ik volgen?",
+     "a": "Aandelen, crypto, goud en valuta, met live koersen."
+    },
+    {
+     "q": "Maakt het verbinding met mijn broker?",
+     "a": "Nee. Je voegt toe wat je bezit; koersen werken vanzelf bij."
+    },
+    {
+     "q": "Moet ik mijn huis of auto meetellen?",
+     "a": "Veel mensen volgen alleen wat maandelijks verandert: contant geld, beleggingen en schulden. Voeg meer toe als dat je helpt."
+    },
+    {
+     "q": "Is er een widget voor de netto waarde?",
+     "a": "Ja, voor je beginscherm."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "Gedeeld budget app",
+   "screen": "04",
+   "title": "Gedeeld budget app voor stellen en gezinnen",
+   "description": "Deel budgetten en spaardoelen met je partner of gezin in Spendry. Iedereen gebruikt een eigen iPhone en Apple-account, synchroon via iCloud.",
+   "h1": "Een gedeeld budget app voor stellen en gezinnen",
+   "lead": "Deel een budget of een spaardoel met je partner of gezin. Iedereen voegt toe vanaf de eigen iPhone, en Spendry houdt alles synchroon via iCloud, zonder extra account.",
+   "points": [
+    {
+     "h": "Deel alleen wat je wilt",
+     "p": "Deel een huishoudbudget of een spaardoel en houd de rest van je geld privé."
+    },
+    {
+     "h": "Iedereen voegt toe vanaf de eigen telefoon",
+     "p": "Iedereen gebruikt zijn eigen Apple-account; gedeelde budgetten en doelen werken voor iedereen bij."
+    },
+    {
+     "h": "Geen nieuwe accounts, geen servers",
+     "p": "Delen werkt via iCloud. Spendry heeft geen accountsysteem en verzamelt geen gegevens."
+    },
+    {
+     "h": "Eén doel, samen sparen",
+     "p": "Spaar samen voor een vakantie of een huis; elke bijdrage telt mee voor hetzelfde doel."
+    }
+   ],
+   "steps_title": "Zo deel je een budget",
+   "steps": [
+    "Maak een budget of een doel aan.",
+    "Deel het vanuit Spendry met je partner of gezin.",
+    "Zij accepteren de uitnodiging op hun eigen iPhone.",
+    "Iedereen voegt uitgaven of spaargeld toe, en het blijft synchroon."
+   ],
+   "why_title": "Waarom delen met Spendry",
+   "why": [
+    "Je andere budgetten en schulden blijven privé.",
+    "Geen extra login: delen loopt via iCloud.",
+    "Gegevens worden niet verzameld."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Heeft mijn partner ook Spendry nodig?",
+     "a": "Ja, op de eigen iPhone of iPad, met een eigen Apple-account."
+    },
+    {
+     "q": "Kan mijn partner al mijn uitgaven zien?",
+     "a": "Nee. Alleen de budgetten en doelen die je deelt zijn zichtbaar; de rest blijft privé."
+    },
+    {
+     "q": "Hoe werkt het delen?",
+     "a": "Via delen met iCloud. Er zit geen Spendry-account en geen Spendry-server tussen."
+    },
+    {
+     "q": "Kan ik met meer dan één persoon delen?",
+     "a": "Ja. Je kunt meerdere gezinsleden uitnodigen voor een gedeeld budget of doel."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Leningen beheren app",
+   "screen": "06",
+   "title": "Leningen beheren app: saldo, aflossing en rente",
+   "description": "Volg elke lening in Spendry: het resterende saldo, rente en aflossing per betaling, resterende termijnen en een herinnering voor elke vervaldag.",
+   "h1": "Leningen beheren en zien wat je echt betaalt",
+   "lead": "Voeg een lening eenmalig toe en Spendry toont het resterende saldo, hoeveel rente je per betaling betaalt, hoeveel termijnen er nog zijn en herinnert je voor elke betaling.",
+   "points": [
+    {
+     "h": "Het complete aflossingsschema",
+     "p": "Elke termijn met rente en aflossing, zodat je ziet wat de lening echt kost."
+    },
+    {
+     "h": "Resterende betalingen en einddatum",
+     "p": "Het aantal resterende betalingen en de maand van de laatste termijn."
+    },
+    {
+     "h": "Herinneringen voor elke termijn",
+     "p": "Een melding verschijnt voor elke vervaldatum, zelfs wanneer de app gesloten is."
+    },
+    {
+     "h": "Onderdeel van je schuldenplan",
+     "p": "Leningen tellen mee voor je totale schuld en de datum waarop je schuldenvrij bent."
+    }
+   ],
+   "steps_title": "Zo volg je een lening",
+   "steps": [
+    "Voeg de lening toe met het bedrag, rentepercentage, looptijd en eerste betaaldatum.",
+    "Bekijk het schema en de totale kosten.",
+    "Registreer betalingen zodra je ze doet.",
+    "Volg de datum waarop je schuldenvrij bent."
+   ],
+   "why_title": "Waarom Spendry",
+   "why": [
+    "Persoonlijke leningen, autoleningen, hypotheken en studieleningen op één plek.",
+    "Geen banklogin, geen gegevens verzameld.",
+    "Een gratis hulpmiddel voor leningen op deze site."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Welke leningen kan ik volgen?",
+     "a": "Persoonlijke leningen, autoleningen, hypotheken, studieleningen en elke andere lening op afbetaling, plus geld dat je anderen verschuldigd bent."
+    },
+    {
+     "q": "Laat het zien hoeveel rente ik betaal?",
+     "a": "Ja. Je ziet het rentebedrag in elke betaling en over de hele lening."
+    },
+    {
+     "q": "Krijg ik een herinnering voor elke betaling?",
+     "a": "Ja, voor elke vervaldatum, zelfs als je de app nooit opent."
+    },
+    {
+     "q": "Maakt het verbinding met mijn kredietverstrekker?",
+     "a": "Nee. Je voegt de lening eenmalig toe; Spendry berekent het schema."
+    }
+   ]
+  }
+ ]
 }

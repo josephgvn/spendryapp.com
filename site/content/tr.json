@@ -3073,9 +3073,9 @@
  ],
  "app_labels": {
   "free": "App Store'da ücretsiz. Premium isteğe bağlı, ilk hafta ücretsiz.",
-  "tools": "Ücretsiz hesaplayıcılar",
-  "guides": "Rehberler",
   "more": "Spendry'nin yaptığı diğer şeyler",
-  "cta": "Spendry'yi indir, ayın tamamını tek yerde gör."
+  "cta": "Spendry'yi indir, ayın tamamını tek yerde gör.",
+  "tools_title": "Ücretsiz hesaplayıcılar",
+  "guides_title": "Rehberler"
  }
 }

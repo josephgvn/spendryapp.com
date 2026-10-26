@@ -1553,5 +1553,835 @@
    "final_title": "Tudj minden megújulásról előre.",
    "final_text": "Töltsd le a Spendry appot az App Store áruházból, vidd fel az előfizetéseidet, és kapj időben értesítést minden megújulás előtt."
   }
- }
+ },
+ "app_labels": {
+  "free": "Ingyenes az App Store-ban. Opcionális Prémium, egy ingyenes héttel.",
+  "more": "További funkciók a Spendryben",
+  "cta": "Töltsd le a Spendryt, és lásd át az egész hónapodat egy helyen.",
+  "tools_title": "Ingyenes kalkulátorok",
+  "guides_title": "Útmutatók"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "Költségvetés app",
+   "screen": "04",
+   "footer": true,
+   "title": "Költségvetés app iPhone-ra: Spendry",
+   "description": "Költségvetés app iPhone-ra: kategóriák határokkal, kártyák, hitelek, számlák és fizetési emlékeztetők egy helyen, banki belépés nélkül.",
+   "h1": "Költségvetés app, amely előre látja a hónapot",
+   "lead": "A Spendry keretet ad a kategóriáknak, figyelmeztet a keret kimerülése előtt, és mutatja a hónap hátralévő számláit, kártyás fizetéseit és részleteit. Banki belépés nélkül.",
+   "points": [
+    {
+     "h": "Költségvetések, amelyek követnek téged",
+     "p": "Állíts be havi limitet élelmiszerre, étteremre vagy bármi másra. Minden kiadás tölti a saját keretét, és a Spendry a limit elérése előtt figyelmeztet, nem utána."
+    },
+    {
+     "h": "A hónap hátralévő része, előre kiszámolva",
+     "p": "A fizetésnapig esedékes kártyakivonatok, törlesztőrészletek, számlák és előfizetések az egyenleged mellett látszanak, így pontosan tudod, mennyi marad költeni."
+    },
+    {
+     "h": "Kiadás rögzítése másodpercek alatt",
+     "p": "Írd be az összeget és válassz kategóriát, olvasd be a nyugtát, indítsd widgetről, vagy rögzítsd az Apple Pay-vásárlásokat a Parancsok automatizálásával."
+    },
+    {
+     "h": "Lásd tisztán, hová tűnik a pénz",
+     "p": "Heti és havi diagramok kategóriák és napok szerint. Pontosan mutatják, mely keretek csúsztak el, és hogyan viszonyul ez a hónap az előzőhöz."
+    }
+   ],
+   "steps_title": "Költségvetés indítása a Spendryben",
+   "steps": [
+    "Add meg a bevételeidet és azokat a számlákat vagy kártyákat, amelyekről fizetsz.",
+    "Hozz létre költségvetéseket a leggyakoribb kategóriákhoz, és adj meg egy limitet.",
+    "Rögzítsd a kiadásokat vásárláskor, vagy kapcsold be az Apple Pay automatizálást.",
+    "A hónap végén nézd meg a diagramokat, és igazítsd hozzá a következő havi limiteket."
+   ],
+   "why_title": "Miért választják sokan a Spendryt?",
+   "why": [
+    "Nincs banki belépés: te döntöd el, mi kerül be, semmi sem kapcsolódik a bankodhoz.",
+    "Az adataid a saját iPhone-odon és iCloud-fiókodban maradnak, nincs adatgyűjtés.",
+    "Az adósságok, kártyák és részletek a költségvetésed mellett élnek, nem egy külön appban.",
+    "Ingyenesen letölthető, opcionális Prémium verzióval."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "A Spendry ingyenes költségvetés app?",
+     "a": "Igen. A költségvetések, kiadások, emlékeztetők és az alapfunkciók ingyenesek. A Prémium opcionális: havi vagy éves előfizetés egy ingyenes héttel, vagy egyszeri örökös vásárlás."
+    },
+    {
+     "q": "Szüksége van a Spendrynek hozzáférésre a bankszámlámhoz?",
+     "a": "Nem. Soha nem kér banki belépést. A kiadásokat magad írod be, banki értesítésekből másolod át, vagy a Parancsok automatizálására bízod az Apple Pay-vásárlások rögzítését."
+    },
+    {
+     "q": "Megoszthatom a költségvetést a párommal?",
+     "a": "Igen. A megosztott költségvetések és célok az iCloudon keresztül szinkronizálódnak, és mindenki a saját Apple-fiókját használja."
+    },
+    {
+     "q": "Milyen eszközökön működik?",
+     "a": "iOS 17 vagy újabb rendszert futtató iPhone és iPad készülékeken. A Mac App Store-ban elérhető Mac verzió is."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Költségvetés app banki belépés nélkül",
+   "screen": "02",
+   "footer": true,
+   "title": "Költségvetés app banki belépés nélkül",
+   "description": "Költségvetés app banki belépés nélkül: rögzítsd a kiadásokat magad, banki üzenetekből vagy Apple Pay automatizálással. Az adataid az iPhone-odon maradnak.",
+   "h1": "Költségvetés app, amely nem kéri a banki jelszavad",
+   "lead": "Sok pénzügyi app kéri a banki jelszavadat. A Spendry egyáltalán nem kapcsolódik a bankodhoz: te döntöd el, mi kerül be, és az adatok az iPhone-odon és a saját iCloud-fiókodban maradnak.",
+   "points": [
+    {
+     "h": "Semmi sem kapcsolódik a bankodhoz",
+     "p": "Nincs banki belépés, nincs külső adatgyűjtő, és regisztráció sem kell. A Spendry minden országban, bármilyen bankkal, kártyával vagy pénznemmel ugyanúgy működik."
+    },
+    {
+     "h": "A kiadások rögzítése gyors marad",
+     "p": "Írd be az összeget, olvass be egy nyugtát, indítsd a Főképernyő widgetjéről vagy kérd meg Sirit. A banki szöveges üzeneteket is átalakíthatod bejegyzésekké."
+    },
+    {
+     "h": "Az Apple Pay-vásárlások automatikusan bekerülhetnek",
+     "p": "Kapcsold be a kész Parancsok automatizálást, és minden Apple Pay-fizetés azonnal bekerül a Spendrybe a pontos összeggel."
+    },
+    {
+     "h": "Nincs adatgyűjtés",
+     "p": "Nincsenek hirdetések, nincs analitika és nyomkövetés. Az App Store adatvédelmi címkéje szerint nem gyűjt adatokat, és az alkalmazást zárolhatod Face ID-val."
+    }
+   ],
+   "steps_title": "Így működik banki kapcsolat nélkül",
+   "steps": [
+    "Vidd fel a kártyáidat, hiteleidet és számláidat az aktuális egyenlegükkel.",
+    "Rögzítsd a kiadásokat fizetéskor, vagy másold be őket a banki üzenetekből.",
+    "Kapcsold be az Apple Pay automatizálást a Parancsok appban.",
+    "Kövesd az egyenlegedet és a kereteket; az emlékeztetők időben szólnak a határidők előtt."
+   ],
+   "why_title": "Miért jobb a banki kapcsolat nélkül?",
+   "why": [
+    "A banki jelszavad mindig nálad marad, sehonnan sem kerül ki.",
+    "Nincsenek megszakadó kapcsolatok és hiányzó tételek a banki rendszerek frissítésekor.",
+    "Minden bankkal működik, még azokkal is, amelyeket más pénzügyi appok nem támogatnak.",
+    "Ha magad írsz be egy kiadást, jobban tudatosul benned a költés."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Miért nem kapcsolódik a Spendry a bankomhoz?",
+     "a": "Azért, hogy a banki belépésed és a tranzakcióid soha ne jussanak el mások szervereire. Az adataid az iPhone-odon és a saját iCloud-fiókodban maradnak."
+    },
+    {
+     "q": "Nem lassú a kézi rögzítés?",
+     "a": "Pár másodperc az egész. Az Apple Pay-vásárlásoknál ezt is kihagyhatod a Parancsok automatizálásával, de használhatsz widgetet, Sirit, vagy bemásolhatod a banki üzeneteket is."
+    },
+    {
+     "q": "Képes a Spendry elolvasni a banki SMS-eket?",
+     "a": "Önállóan nem. Ha bemásolsz vagy megosztasz egy banki üzenetet a Spendrybe, az app tétellé alakítja azt."
+    },
+    {
+     "q": "Biztonságban vannak az adataim?",
+     "a": "A Spendry nem gyűjt adatokat. A feljegyzéseid az eszközödön maradnak és a saját iCloudodon szinkronizálódnak, az appot pedig zárolhatod Face ID-val."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "Adósságcsökkentő app",
+   "screen": "06",
+   "footer": true,
+   "title": "Adósságrendező app: Hógolyó és Lavina módszer",
+   "description": "A Spendry egyetlen tervbe gyűjti a hiteleket, hitelkártyákat és részleteket a Hógolyó vagy Lavina módszerrel, és kiszámolja az adósságmentesség dátumát.",
+   "h1": "Adósságcsökkentő app a pontos céldátummal",
+   "lead": "Add meg az adósságaidat egyszer. A Spendry a Hógolyó vagy a Lavina stratégiával sorba rendezi őket, hozzáadja a havi plusz összeget, és megmutatja, mikor leszel teljesen adósságmentes.",
+   "points": [
+    {
+     "h": "Minden tartozás egyetlen számban",
+     "p": "Hitelkártyák, hitelek, folyószámlahitelek, részletfizetések és magánkölcsönök egy helyen, a teljes tartozással és a havi fizetendőkkel együtt."
+    },
+    {
+     "h": "Hógolyó vagy Lavina, a te döntésed",
+     "p": "Törleszd a legkisebb egyenleget a gyors sikerekért, vagy a legmagasabb kamatút a legkisebb kamatteherért. A Spendry összehasonlítja mindkettőt, és frissíti a tervet a törlesztések után."
+    },
+    {
+     "h": "Egy céldátum, amely veled együtt mozog",
+     "p": "Rögzíts egy kifizetést vagy adj hozzá egy plusz összeget, és az adósságmentesség dátuma azonnal közelebb kerül."
+    },
+    {
+     "h": "Emlékeztetők minden esedékesség előtt",
+     "p": "Értesítés érkezik minden határidő előtt akkor is, ha az app be van zárva, így a késedelmi díjak elkerülhetők."
+    }
+   ],
+   "steps_title": "Így működik a törlesztési terv",
+   "steps": [
+    "Vidd fel az adósságaidat az egyenlegükkel, kamatukkal és a minimális törlesztővel.",
+    "Válaszd ki a Hógolyó vagy a Lavina módszert.",
+    "Állítsd be, mekkora plusz összeget tudsz havonta törlesztésre fordítani.",
+    "Rögzítsd a befizetéseket, ahogy teljesíted őket, és figyeld, hogyan kerül közelebb a céldátum."
+   ],
+   "why_title": "Mitől más a Spendry?",
+   "why": [
+    "A kártyákat, hiteleket és részleteket tételesen követi, nem csupán egyetlen összesített számként.",
+    "Nincs banki belépés és nincs adatgyűjtés.",
+    "Az oldalon található ingyenes kalkulátorok ugyanezeket a módszereket használják, így előre kipróbálhatod a számaidat."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Mi az a Hógolyó módszer?",
+     "a": "Minden tartozásnál a kötelező minimumot fizeted, a fennmaradó plusz összeget pedig a legkisebb egyenlegű tartozásra fordítod. Amikor az elfogy, az addigi törlesztője hozzáadódik a következőhöz."
+    },
+    {
+     "q": "Mi az a Lavina módszer?",
+     "a": "A plusz pénzt a legmagasabb kamatozású adósságra fordítod, amivel összességében a legkevesebb kamatot fizeted."
+    },
+    {
+     "q": "Követhetem a barátoknak vagy családnak tartozott összegeket is?",
+     "a": "Igen. A személyes kölcsönök kamattal vagy kamatmentesen is rögzíthetők, és beilleszthetők a törlesztési tervbe."
+    },
+    {
+     "q": "Ingyenes az adósságkezelő terv?",
+     "a": "Ingyenesen elindítható. A Prémium feloldja az ingyenes verzió korlátait, és egy ingyenes héttel kipróbálható."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Hitelkártya nyilvántartó",
+   "screen": "07",
+   "footer": true,
+   "title": "Hitelkártya nyilvántartó app: egyenlegek és határidők",
+   "description": "Kövesd nyomon hitelkártyáidat a Spendryben: fordulónapok, fizetési határidők, egyenlegek és részletek, emlékeztetővel minden esedékesség előtt.",
+   "h1": "Minden hitelkártya, fordulónap és fizetési határidő",
+   "lead": "A Spendry pontosan tudja, mikor zárul a számlázási ciklus és mikor esedékes a befizetés. Nyomon követi az egyenleget és a részleteket, a fizetés előtt pedig emlékeztet, hogy soha ne érjen meglepetés.",
+   "points": [
+    {
+     "h": "Fordulónap és határidő minden kártyához",
+     "p": "Add meg egyszer a kártyáidat a fordulónappal és a fizetési határidővel. A Spendry mutatja a tartozást és a fizetés napját."
+    },
+    {
+     "h": "Részletfizetések a kártyáidon",
+     "p": "A részletekre bontott vásárlásoknál látod a hátralévő törlesztők számát és az utolsó részlet hónapját."
+    },
+    {
+     "h": "Minimális vagy teljes összeg törlesztése",
+     "p": "Rögzítsd a befizetést, és az egyenleg azonnal frissül. Az ingyenes kártyatörlesztési kalkulátor megmutatja, mennyibe kerül hosszú távon, ha csak a minimumot fizeted."
+    },
+    {
+     "h": "Emlékeztető a határidő lejárta előtt",
+     "p": "Az értesítés minden fizetés előtt megérkezik, még bezárt alkalmazás mellett is. A befizetést közvetlenül az értesítésből készre állíthatod."
+    }
+   ],
+   "steps_title": "Így tarthatod nyilván a kártyáidat",
+   "steps": [
+    "Add hozzá a kártyákat a hitelkerettel, a fordulónappal és a határidővel.",
+    "Rögzítsd a vásárlásokat és a részleteket, vagy vidd be őket banki üzenetekből.",
+    "Jegyezd fel a befizetést, amikor elutalod.",
+    "Hagyd, hogy az emlékeztetők időben figyelmeztessenek a határidő előtt."
+   ],
+   "why_title": "Miért érdemes a Spendryben vezetni a kártyákat",
+   "why": [
+    "Minden kártya egyetlen képernyőn, a teljes tartozással együtt.",
+    "Az adósságmentesség dátuma a kártyatartozásokat is tartalmazza.",
+    "Nincs banki bejelentkezés, nem gyűjt adatokat."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Mi a különbség a fordulónap és a fizetési határidő között?",
+     "a": "A fordulónapon zárul a számlázási ciklus, és ekkor áll össze az elszámolás. A fizetési határidő az utolsó nap, amikor kamat vagy késedelmi díj nélkül rendezheted a tartozást."
+    },
+    {
+     "q": "Emlékeztet az app minden kártyás fizetés előtt?",
+     "a": "Igen. Minden esedékesség előtt értesítést kapsz, még akkor is, ha meg sem nyitod az alkalmazást. A fizetést rögtön az értesítésből megjelölheted késznek."
+    },
+    {
+     "q": "Nyomon követhetem a kártyás részletfizetéseket?",
+     "a": "Igen. Minden részletfizetésnél látható a fennmaradó részletek száma és az utolsó részlet hónapja."
+    },
+    {
+     "q": "Kapcsolódik az app a kártyakibocsátóhoz?",
+     "a": "Nem. A Spendry soha nem kér banki bejelentkezést. A kártyákat és a befizetéseket magad rögzíted."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Számla emlékeztető app",
+   "screen": "07",
+   "footer": true,
+   "title": "Számla emlékeztető app: ne késs el a befizetéssel",
+   "description": "A Spendry emlékeztet a számlák, kártyák, hitelek és előfizetések határidejére, még bezárt app mellett is. Jelöld be fizetettként egyetlen érintéssel.",
+   "h1": "Számla emlékeztető app, amely mindig időben szól",
+   "lead": "A Spendry minden számla, hitelkártya, hiteltörlesztő és előfizetés előtt figyelmeztet, még akkor is, ha nem nyitod meg az appot. Halaszd el vagy jelöld fizetettnek közvetlenül az értesítésből.",
+   "points": [
+    {
+     "h": "Minden határidő egyetlen listában",
+     "p": "Számlák, kártyás elszámolások, törlesztőrészletek és előfizetések egyetlen listában, a lejárt tételekkel a legtetején."
+    },
+    {
+     "h": "Emlékeztetők zárt alkalmazás mellett is",
+     "p": "Az értesítések közvetlenül az iPhone-odon ütemeződnek, és a határidő előtt megérkeznek. Időérzékenyek, így a Fókusz beállításon is átjutnak, ha engedélyezed."
+    },
+    {
+     "h": "Kifizetve vagy elhalasztva egyetlen érintéssel",
+     "p": "Állítsd a tételt kifizetettre, vagy halaszd el magából az értesítésből. A kifizetés azonnal frissíti az egyenleged és a költségvetésed."
+    },
+    {
+     "h": "Reggeli összesítő, ha szeretnéd",
+     "p": "A Parancsok apphoz készült automatizálás minden reggel egyetlen értesítésben küldi el a következő három nap fizetendő tételeit."
+    }
+   ],
+   "steps_title": "Így állíthatod be az emlékeztetőket",
+   "steps": [
+    "Add meg a számlákat, kártyákat, hiteleket és előfizetéseket a határidejükkel.",
+    "Válaszd ki, hány nappal a határidő előtt kérsz értesítést.",
+    "Fizesd be vagy halaszd el rögtön az értesítésből.",
+    "Nyisd meg a közelgő listát, amikor egyben szeretnéd látni a képet."
+   ],
+   "why_title": "Miért működik jól",
+   "why": [
+    "Minden fizetnivaló egyetlen helyen van, nem kell külön app mindenhez.",
+    "Az emlékeztetők akkor is megérkeznek, ha a Spendry zárva marad.",
+    "Az adataid az iPhone-odon maradnak, semmit sem gyűjtünk."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Akkor is kapok emlékeztetőt, ha nem nyitom meg az appot?",
+     "a": "Igen. Az emlékeztetők az iPhone rendszerszintű ütemezésében futnak, és pontosan megérkeznek akkor is, ha a Spendry nincs megnyitva."
+    },
+    {
+     "q": "Kiválaszthatom, mikor érkezzen az emlékeztető?",
+     "a": "Igen. Te döntöd el, hány nappal az esedékesség előtt szeretnéd kapni az értesítést."
+    },
+    {
+     "q": "Az előfizetésekről is küld emlékeztetőt?",
+     "a": "Igen. Az előfizetések, számlák, kártyás befizetések és hiteltörlesztők mind kapnak emlékeztetőt."
+    },
+    {
+     "q": "Szükség van internetkapcsolatra az emlékeztetőkhöz?",
+     "a": "Nem. Az értesítések közvetlenül a készülékeden ütemeződnek."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Előfizetés nyilvántartó",
+   "screen": "09",
+   "footer": true,
+   "title": "Előfizetés nyilvántartó app: havi és éves költségek",
+   "description": "Kövesd az előfizetéseidet a Spendryben: havi és éves összegek, megújulási dátumok és figyelmeztetések, hogy időben le tudd mondani a feleslegeseket.",
+   "h1": "Előfizetés nyilvántartó app, amely az éves összeget is mutatja",
+   "lead": "Vidd fel egyszer az előfizetéseidet, a Spendry pedig azonnal mutatja a havi és éves költségüket, a megújulás napját, és még időben figyelmeztet, mielőtt levonnák a díjat.",
+   "points": [
+    {
+     "h": "Havi és éves összegek",
+     "p": "A heti, havi és éves díjakból egyetlen havi és egyetlen éves összeg lesz, így a kisebb tételek sem maradnak rejtve."
+    },
+    {
+     "h": "Emlékeztető minden megújulás előtt",
+     "p": "Értesítést kapsz néhány nappal a megújulás előtt, amikor még bőven van időd lemondani a szolgáltatást."
+    },
+    {
+     "h": "Kérdezz egyszerű szavakkal",
+     "p": "Kérdezd meg a Spendry asszisztensétől, mennyibe kerülnek az előfizetéseid egy évben, és azonnal megkapod a végösszeget a teljes listával."
+    },
+    {
+     "h": "A teljes költségvetésed része",
+     "p": "Az előfizetések beleszámítanak a költségvetésbe és a közelgő fizetésekbe, így a többi kiadás mellett látod őket."
+    }
+   ],
+   "steps_title": "Így tarthatod számon az előfizetéseidet",
+   "steps": [
+    "Add meg az előfizetéseket az összeggel, az elszámolási időszakkal és a fordulónappal.",
+    "Nézd meg a havi és éves végösszeget.",
+    "Kapcsold be a megújulás előtti emlékeztetőket.",
+    "Mondd le, amit már nem használsz, és figyeld, hogyan csökken a kiadásod."
+   ],
+   "why_title": "Miért praktikus",
+   "why": [
+    "Nem csak az App Store-os tételeket kezeli, bármilyen előfizetés felvihető.",
+    "Nincs szükség banki belépésre, elég mindent egyszer rögzíteni.",
+    "Ingyenes előfizetés kalkulátor a weboldalon."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "A Spendry automatikusan megtalálja az előfizetéseimet?",
+     "a": "Nem. Az app nem csatlakozik a bankodhoz, ezért minden előfizetést egyszer kell felvenned. Ezt követően magától vezeti a megújulásokat és az összegeket."
+    },
+    {
+     "q": "Éves előfizetéseket is hozzáadhatok?",
+     "a": "Igen. A heti, havi és éves csomagokat is kezeli, és bemutatja őket havi, illetve éves összesítésben."
+    },
+    {
+     "q": "Kapok emlékeztetőt az előfizetés megújulása előtt?",
+     "a": "Igen, néhány nappal a megújulás előtt, még akkor is, ha épp nem nyitod meg az appot."
+    },
+    {
+     "q": "Hogyan mondhatok le egy előfizetést az iPhone-omon?",
+     "a": "Az App Store előfizetéseit a Beállítások appban, a saját nevedre, majd az Előfizetések menüpontra koppintva mondhatod le. A többi szolgáltatást a saját weboldalukon vagy appjukban tudod törölni."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Kiadáskövető",
+   "screen": "03",
+   "title": "Kiadáskövető app iPhone-ra: Spendry",
+   "description": "Rögzíts kiadást másodpercek alatt az appból, widgetről, Sirivel vagy Apple Payjel. Banki belépés és adatgyűjtés nélkül.",
+   "h1": "Egy kiadáskövető, ami csak másodpercekbe telik",
+   "lead": "Írd be az összeget, válassz kategóriát, és kész. Kérd meg Sirit, használj widgetet, vagy engedd, hogy az Apple Pay vásárlások maguktól rögzüljenek. Lásd pontosan, hová megy a pénzed.",
+   "points": [
+    {
+     "h": "Gyors rögzítés, ahogy szereted",
+     "p": "Rögzíts kiadást az appból, a Főképernyő-widgetről, Sirivel vagy Parancsok automatizálással, és mentsd el a beolvasott nyugtát a kiadás mellé."
+    },
+    {
+     "h": "Grafikonok, amelyek válaszolnak",
+     "p": "Heti és havi nézetek kategória és nap szerint, napi átlagod és költési tempód az előző időszakhoz képest."
+    },
+    {
+     "h": "A költségvetések időben szólnak",
+     "p": "A kiadások feltöltik a kategóriák költségvetéseit, a Spendry pedig szól, mielőtt az egyik elfogyna."
+    },
+    {
+     "h": "Saját kategóriáid",
+     "p": "Hozz létre olyan kategóriákat, amilyenekre szükséged van, saját nevekkel és ikonokkal, a kötött lista helyett."
+    }
+   ],
+   "steps_title": "Hogyan kezdj hozzá a követéshez",
+   "steps": [
+    "Rögzítsd az első kiadásaidat az appból vagy egy widgetről.",
+    "Hozz létre költségvetéseket a fontos kategóriákhoz.",
+    "Kapcsold be az Apple Pay automatizálást, ha a telefonoddal fizetsz.",
+    "Nézd meg a grafikonokat minden héten."
+   ],
+   "why_title": "Miért a Spendry",
+   "why": [
+    "Nincs banki bejelentkezés, nincs adatgyűjtés.",
+    "A widgetek, a Siri és a Parancsok mind rögzítenek kiadásokat.",
+    "Bármilyen pénznemben működik, 44 nyelven."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Rögzíthetek kiadást az app megnyitása nélkül?",
+     "a": "Igen. Használj Főképernyő-widgetet, kérd meg Sirit, vagy bízd a Parancsok automatizálásra az Apple Pay vásárlások rögzítését."
+    },
+    {
+     "q": "Megtarthatom a nyugtákat?",
+     "a": "Igen. Olvass be egy nyugtát a kiadás hozzáadásakor, és az a kiadás mellett marad."
+    },
+    {
+     "q": "Működik bármilyen pénznemmel?",
+     "a": "Igen. Válaszd ki a pénznemedet indításkor; a befektetések és a devizaszámlák saját pénznemet használhatnak."
+    },
+    {
+     "q": "Ingyenes?",
+     "a": "Igen, az alapfunkciók ingyenesek. A Prémium választható, egy ingyenes próbahéttel."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Részletfizetés-követő",
+   "screen": "06",
+   "title": "Részletfizetés-követő app: Spendry",
+   "description": "Kövesd a részletfizetéseket a Spendryben: hány részlet van hátra, mekkora a havi összeg, és mikor jön az utolsó részlet. Emlékeztetőkkel.",
+   "h1": "Minden részlet, és a hónap, amikor véget ér",
+   "lead": "A kártyás részletek és a halasztott fizetési tervek csendben összeadódnak. A Spendry megmutatja, hány részlet van még hátra, mennyit tesznek ki havonta, és mikor érkezik az utolsó.",
+   "points": [
+    {
+     "h": "Mennyivel tartozol havonta, részletekben",
+     "p": "Lásd az ebben és az elkövetkező hónapokban esedékes összes részletfizetés végösszegét, hogy az új vásárlások ne halmozódjanak fel észrevétlenül."
+    },
+    {
+     "h": "Minden konstrukció lejárati dátuma",
+     "p": "Minden terv megmutatja a hátralévő részleteket és az utolsó részlet hónapját."
+    },
+    {
+     "h": "Emlékeztetők minden fizetés előtt",
+     "p": "Minden részlet esedékessége előtt értesítés érkezik, még akkor is, ha az app be van zárva."
+    },
+    {
+     "h": "Része az adósságmentesség dátumának",
+     "p": "A részletek beleszámítanak a teljes adósságodba és a visszafizetési tervedbe."
+    }
+   ],
+   "steps_title": "Hogyan kövesd a részleteket",
+   "steps": [
+    "Adj hozzá egy vásárlást a teljes összeggel, a részletek számával és az első fizetés dátumával.",
+    "Lásd a havi összeget és a lejárati dátumot.",
+    "Rögzíts minden kifizetést, vagy jelöld fizetettnek az emlékeztetőből.",
+    "Új vásárlás előtt ellenőrizd a havi részletek végösszegét."
+   ],
+   "why_title": "Miért segít",
+   "why": [
+    "A kártyás részletek és a halasztott fizetések egy helyen vannak.",
+    "A részletek a költségvetéseid és egyéb adósságaid mellett szerepelnek, így világos a hónap valódi összege.",
+    "Nincs banki bejelentkezés, nincs adatgyűjtés."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Követhetek vásárolj most, fizess később terveket?",
+     "a": "Igen. Adj hozzá bármilyen konstrukciót a teljes összeggel, a részletek számával és az első dátummal, a többit a Spendry intézi."
+    },
+    {
+     "q": "Mutatja a havonta részletekre fizetett teljes összeget?",
+     "a": "Igen. Látod az e havi részletösszeget és azt is, mi várható a következő hónapokban."
+    },
+    {
+     "q": "Kapok emlékeztetőt minden részlet előtt?",
+     "a": "Igen, minden fizetés előtt, még akkor is, ha nem nyitod meg az appot."
+    },
+    {
+     "q": "Befolyásolják a részletek az adósságmentesség dátumát?",
+     "a": "Igen. Beleszámítanak a teljes adósságodba és a törlesztési tervedbe."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Megtakarítási cél app",
+   "screen": "05",
+   "title": "Megtakarítási cél app: Spendry",
+   "description": "Állíts be megtakarítási célokat a Spendryben, lásd a haladást minden nap, és oszd meg a célt pároddal vagy családoddal az iCloudon keresztül.",
+   "h1": "Egy megtakarítási cél app, ami lendületben tart",
+   "lead": "Adj meg egy összeget minden célhoz, és növeld, valahányszor félreteszel. A Spendry megmutatja, milyen közel jársz minden nap, az appban és a Főképernyőn.",
+   "points": [
+    {
+     "h": "Világos célkitűzés",
+     "p": "Minden célhoz tartozik egy összeg, egy folyamatjelző és a még hiányzó összeg."
+    },
+    {
+     "h": "A Főképernyődön",
+     "p": "A célwidget szem előtt tartja az előrehaladást, így a megtakarítás mindig fókuszban marad."
+    },
+    {
+     "h": "Közös megtakarítás",
+     "p": "Oszd meg a célt pároddal vagy családoddal az iCloudon keresztül; mindenki a saját iPhone-járól gyűjthet ugyanabba a célba."
+    },
+    {
+     "h": "A költségvetésed mellett",
+     "p": "A célokra fordított pénz a havi összkép része a költségvetések és kifizetések mellett."
+    }
+   ],
+   "steps_title": "Hogyan gyűjts egy célra",
+   "steps": [
+    "Hozz létre egy célt az elérni kívánt összeggel.",
+    "Adj hozzá pénzt, valahányszor megtakarítasz.",
+    "Figyeld a haladást az appban vagy a widgeten.",
+    "Oszd meg, ha valaki mással együtt takarítasz meg."
+   ],
+   "why_title": "Miért segít",
+   "why": [
+    "A célok a költségvetések és az adósságok mellett helyezkednek el.",
+    "A megosztott célok szinkronizálódnak az iCloudon keresztül.",
+    "Ingyenes megtakarítási cél kalkulátor ezen az oldalon."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Lehet egynél több célom?",
+     "a": "Igen. Hozz létre egy célt minden dologhoz, amire gyűjtesz, és vezess hozzájuk összegeket külön."
+    },
+    {
+     "q": "Megoszthatok egy célt a párommal?",
+     "a": "Igen. A megosztott célok szinkronizálódnak az iCloudon keresztül, és mindenki a saját Apple-fiókját használja."
+    },
+    {
+     "q": "Van widget a célokhoz?",
+     "a": "Igen. Egy célwidget mutatja az előrehaladásodat a Főképernyőn."
+    },
+    {
+     "q": "Mennyit érdemes megtakarítanom havonta?",
+     "a": "Oszd el a hátralévő összeget a céldátumig hátralévő hónapok számával. Az ezen az oldalon található ingyenes kalkulátor elvégzi, kamatokkal együtt, ha vannak."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Vagyonkövető alkalmazás",
+   "screen": "08",
+   "title": "Vagyonkövető alkalmazás élő árfolyamokkal",
+   "description": "Kövesd a nettó vagyonodat a Spendryben: számlák, befektetések, arany és devizák, mínusz a hitelek és tartozások, egyetlen számban.",
+   "h1": "A nettó vagyonod egyetlen naprakész számban",
+   "lead": "A Spendry összesíti a számláidat és befektetéseidet, levonja a tartozásaidat, és megmutatja a nettó vagyonodat. Részvények, kriptovaluták, arany és devizák élő árfolyamokkal.",
+   "points": [
+    {
+     "h": "Minden vagyonod és tartozásod",
+     "p": "Készpénz, számlák, befektetések és megtakarítások szembeállítva a kártyákkal, hitelekkel, részletekkel és egyéb adósságokkal."
+    },
+    {
+     "h": "Élő árfolyamok",
+     "p": "A részvények, kriptovaluták, arany és devizák értéke élő piaci árakkal frissül a kiadásaid mellett."
+    },
+    {
+     "h": "Befektetések a saját pénznemükben",
+     "p": "A befektetések és devizaszámlák megtartják az eredeti pénznemüket, a nettó vagyonod pedig a sajátodban jelenik meg."
+    },
+    {
+     "h": "A Főképernyőn",
+     "p": "Egy Nettó vagyon widget mindig szem előtt tartja ezt az értéket."
+    }
+   ],
+   "steps_title": "Hogyan kövesd a nettó vagyonodat",
+   "steps": [
+    "Add hozzá a számláidat és az egyenlegeiket.",
+    "Add hozzá a befektetéseidet a birtokolt mennyiséggel.",
+    "Add hozzá az adósságaidat.",
+    "Figyeld a nettó vagyonodat, ahogy az árak és egyenlegek változnak."
+   ],
+   "why_title": "Miért a Spendry",
+   "why": [
+    "Adósságok és befektetések ugyanabban az alkalmazásban, mint a költségvetésed.",
+    "Nincs banki vagy brókeri bejelentkezés.",
+    "Nem gyűjt adatokat."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Milyen befektetéseket követhetek?",
+     "a": "Részvényeket, kriptovalutákat, aranyat és devizákat, élő árfolyamokkal."
+    },
+    {
+     "q": "Kapcsolódik a brókercégemhez?",
+     "a": "Nem. Te adod meg, hogy mid van, az árak pedig maguktól frissülnek."
+    },
+    {
+     "q": "Vegyeszem bele a lakásomat vagy az autómat?",
+     "a": "Sokan csak azt követik, ami hónapról hónapra változik: készpénz, befektetések és adósságok. Vegyél fel többet, ha segít neked."
+    },
+    {
+     "q": "Van Nettó vagyon widget?",
+     "a": "Igen, a Főképernyődre."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "Közös költségvetés alkalmazás",
+   "screen": "04",
+   "title": "Közös költségvetés alkalmazás pároknak",
+   "description": "Közös költségvetés és megtakarítási célok a pároddal vagy családoddal a Spendryben. Mindenki a saját iPhone-ját használja, a szinkronizálás iCloudon fut.",
+   "h1": "Közös költségvetés alkalmazás pároknak és családoknak",
+   "lead": "Osztozz egy költségvetésen vagy megtakarítási célon a pároddal vagy a családoddal. Mindenki a saját iPhone-járól rögzíthet, a Spendry pedig szinkronban tartja az iCloudon keresztül, külön fiók létrehozása nélkül.",
+   "points": [
+    {
+     "h": "Csak azt oszd meg, amit szeretnél",
+     "p": "Oszd meg a háztartási büdzsét vagy egy célt, a többi pénzügyedet pedig tartsd meg magadnak."
+    },
+    {
+     "h": "Mindenki a saját telefonjáról rögzít",
+     "p": "Mindenki a saját Apple-fiókját használja, a közös költségvetések és célok pedig mindenkinél frissülnek."
+    },
+    {
+     "h": "Nincsenek új fiókok vagy szerverek",
+     "p": "A megosztás az iCloudon keresztül működik. A Spendry nem használ fiókrendszert, és nem gyűjt adatokat."
+    },
+    {
+     "h": "Egy cél, több segítő kéz",
+     "p": "Gyűjtsetek közösen nyaralásra vagy saját otthonra; minden befizetés ugyanazt a célt viszi előre."
+    }
+   ],
+   "steps_title": "Hogyan hozz létre közös költségvetést",
+   "steps": [
+    "Hozz létre egy költségvetést vagy egy célt.",
+    "Oszd meg a Spendryből a pároddal vagy a családoddal.",
+    "Ők elfogadják a meghívást a saját iPhone-jukon.",
+    "Mindenki hozzáadja a kiadásokat vagy a megtakarításokat, és minden szinkronban marad."
+   ],
+   "why_title": "Miért oszd meg a Spendryvel",
+   "why": [
+    "A többi költségvetésed és adósságod privát marad.",
+    "Nincs külön bejelentkezés: a megosztás az iCloudon keresztül fut.",
+    "Nem gyűjt adatokat."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "A páromnak is szüksége van a Spendryre?",
+     "a": "Igen, a saját iPhone vagy iPad eszközén, a saját Apple-fiókjával."
+    },
+    {
+     "q": "Láthatja a párom az összes kiadásomat?",
+     "a": "Nem. Csak a megosztott költségvetések és célok láthatóak, a többi privát marad."
+    },
+    {
+     "q": "Hogyan működik a megosztás?",
+     "a": "iCloud-megosztással. Nincs Spendry-fiók és nincs közbeiktatott Spendry-szerver sem."
+    },
+    {
+     "q": "Megoszthatom több emberrel is?",
+     "a": "Igen. Több családtagot is meghívhatsz egy közös költségvetéshez vagy célhoz."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Hitelkövető alkalmazás",
+   "screen": "06",
+   "title": "Hitelkövető alkalmazás: törlesztés és kamat",
+   "description": "Kövesd minden hiteledet a Spendryben: a fennmaradó összeget, a kamatot és tőkét, a hátralévő részleteket, és kapj emlékeztetőt a fizetési határidők előtt.",
+   "h1": "Hitelkövető, amely megmutatja a valós költségeket",
+   "lead": "Add hozzá a hiteledet egyszer, és a Spendry megmutatja a fennmaradó összeget, a részletek kamattartalmát, a hátralévő fizetéseket, valamint minden részlet előtt figyelmeztet.",
+   "points": [
+    {
+     "h": "A teljes törlesztési terv",
+     "p": "Minden törlesztőrészlet a kamattal és a tőkével együtt, hogy lásd, mibe kerül valójában a hitel."
+    },
+    {
+     "h": "Hátralévő részletek és a lejárati dátum",
+     "p": "A fennmaradó részletek száma és az utolsó fizetés hónapja."
+    },
+    {
+     "h": "Emlékeztetők minden részlet előtt",
+     "p": "Minden esedékesség előtt értesítés érkezik, még akkor is, ha az alkalmazás zárva van."
+    },
+    {
+     "h": "A törlesztési terved része",
+     "p": "A hitelek beleszámítanak a teljes adósságodba és az adósságmentesség dátumába."
+    }
+   ],
+   "steps_title": "Hogyan kövess egy hitelt",
+   "steps": [
+    "Add hozzá a hitelt az összeggel, kamattal, futamidővel és az első részlet dátumával.",
+    "Nézd meg a törlesztési tervet és a teljes költséget.",
+    "Rögzítsd a befizetéseket, ahogy teljesíted őket.",
+    "Kövesd az adósságmentesség dátumát."
+   ],
+   "why_title": "Miért a Spendry",
+   "why": [
+    "Személyi kölcsönök, autóhitelek, lakáshitelek és diákhitelek egy helyen.",
+    "Nincs banki bejelentkezés, nem gyűjt adatokat.",
+    "Ingyenes hitelkalkulátor ezen a weboldalon."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Milyen hiteleket követhetek?",
+     "a": "Személyi kölcsönt, autóhitelt, lakáshitelt, diákhitelt és bármilyen más részletfizetéses hitelt, valamint magánszemélyek felé fennálló tartozásokat."
+    },
+    {
+     "q": "Megmutatja, mennyi kamatot fizetek?",
+     "a": "Igen. Látod a kamatot minden részletnél és a teljes hitelre vetítve is."
+    },
+    {
+     "q": "Emlékeztet minden fizetés előtt?",
+     "a": "Igen, minden esedékesség előtt, még akkor is, ha soha nem nyitod meg az alkalmazást."
+    },
+    {
+     "q": "Kapcsolódik a hitelezőmhöz?",
+     "a": "Nem. Egyszer hozzáadod a hitelt, a Spendry pedig kiszámolja a törlesztési tervet."
+    }
+   ]
+  }
+ ]
 }

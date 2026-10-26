@@ -1553,5 +1553,835 @@
    "final_title": "Chủ động trước mọi kỳ gia hạn.",
    "final_text": "Tải Spendry, thêm các gói đăng ký của bạn và luôn nhận thông báo trước mỗi lần trừ tiền."
   }
- }
+ },
+ "app_labels": {
+  "free": "Miễn phí trên App Store. Gói Premium tùy chọn, có một tuần dùng thử miễn phí.",
+  "more": "Các tính năng khác của Spendry",
+  "cta": "Tải Spendry để quản lý trọn vẹn cả tháng tại một nơi.",
+  "tools_title": "Công cụ tính miễn phí",
+  "guides_title": "Hướng dẫn"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "Ứng dụng quản lý chi tiêu",
+   "screen": "04",
+   "footer": true,
+   "title": "Quản lý chi tiêu iPhone: Spendry, không cần ngân hàng",
+   "description": "Spendry là ứng dụng quản lý chi tiêu cho iPhone: cảnh báo hạn mức, theo dõi thẻ, khoản vay, hóa đơn tập trung và nhắc nhở đúng hạn.",
+   "h1": "Ứng dụng quản lý chi tiêu dự liệu trước dòng tiền",
+   "lead": "Spendry đặt hạn mức theo danh mục, cảnh báo trước khi hết ngân sách và hiển thị hóa đơn, khoản trả thẻ cùng trả góp sắp tới. Không cần liên kết ngân hàng.",
+   "points": [
+    {
+     "h": "Ngân sách luôn theo sát bạn",
+     "p": "Đặt hạn mức chi tiêu ăn uống, mua sắm hàng tháng. Mỗi chi phí sẽ trừ dần vào ngân sách, và Spendry cảnh báo bạn trước khi chạm ngưỡng thay vì đợi đã vượt quá."
+    },
+    {
+     "h": "Nắm rõ phần còn lại của tháng",
+     "p": "Sao kê thẻ, lịch trả nợ, hóa đơn và gói đăng ký trước kỳ lương nằm cạnh số dư tài khoản, giúp bạn biết chính xác mình còn bao nhiêu tiền để tiêu."
+    },
+    {
+     "h": "Thêm chi phí chỉ trong vài giây",
+     "p": "Nhập số tiền và chọn danh mục, quét biên lai, ghi từ tiện ích trên màn hình chính, hoặc dùng tự động hóa của ứng dụng Phím tắt để ghi nhận giao dịch Apple Pay."
+    },
+    {
+     "h": "Hiểu rõ tiền đi đâu",
+     "p": "Biểu đồ tuần và tháng theo danh mục và ngày cho thấy bạn bội chi ở đâu, so sánh chi tiết tháng này với tháng trước."
+    }
+   ],
+   "steps_title": "Cách lập ngân sách trong Spendry",
+   "steps": [
+    "Thêm thu nhập và tài khoản hoặc thẻ bạn thường dùng để chi tiêu.",
+    "Tạo ngân sách cho các danh mục tốn kém nhất và gán hạn mức cho từng mục.",
+    "Ghi lại chi phí khi phát sinh, hoặc bật tự động hóa Apple Pay.",
+    "Cuối tháng, xem lại biểu đồ và điều chỉnh hạn mức cho tháng tiếp theo."
+   ],
+   "why_title": "Lý do nhiều người chọn Spendry",
+   "why": [
+    "Không đăng nhập ngân hàng: bạn chủ động nhập liệu, ứng dụng không kết nối ngân hàng.",
+    "Dữ liệu ở lại trên iPhone và tài khoản iCloud của bạn, không thu thập gì cả.",
+    "Nợ, thẻ tín dụng và trả góp nằm ngay cạnh ngân sách, không cần mở ứng dụng khác.",
+    "Tải về miễn phí, đi kèm tùy chọn nâng cấp Premium."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Spendry có phải là ứng dụng ngân sách miễn phí?",
+     "a": "Đúng. Tính năng ngân sách, chi phí, nhắc nhở và các công cụ cốt lõi hoàn toàn miễn phí. Gói Premium là tùy chọn: theo tháng, năm có 1 tuần dùng thử, hoặc mua một lần trọn đời."
+    },
+    {
+     "q": "Spendry có cần kết nối với tài khoản ngân hàng không?",
+     "a": "Không. Ứng dụng không yêu cầu đăng nhập ngân hàng. Bạn tự thêm chi phí, dán từ tin nhắn ngân hàng hoặc dùng tự động hóa trong Phím tắt khi thanh toán Apple Pay."
+    },
+    {
+     "q": "Tôi có thể chia sẻ ngân sách với người khác không?",
+     "a": "Có. Ngân sách chung và mục tiêu đồng bộ qua iCloud, mỗi người dùng Tài khoản Apple của riêng mình."
+    },
+    {
+     "q": "Ứng dụng hoạt động trên thiết bị nào?",
+     "a": "iPhone và iPad chạy iOS 17 trở lên. Ngoài ra còn có phiên bản dành cho Mac trên Mac App Store."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Sổ chi tiêu không liên kết ngân hàng",
+   "screen": "02",
+   "footer": true,
+   "title": "Quản lý chi tiêu không kết nối ngân hàng: Spendry",
+   "description": "Ứng dụng quản lý tài chính không cần ngân hàng: tự ghi chép, nhập từ tin nhắn hoặc tự động hóa Apple Pay bằng Phím tắt. Dữ liệu nằm trọn trên iPhone.",
+   "h1": "Ứng dụng ngân sách không đòi mật khẩu ngân hàng",
+   "lead": "Nhiều ứng dụng quản lý chi tiêu đòi đăng nhập ngân hàng. Spendry hoàn toàn không kết nối ngân hàng: bạn chủ động mọi thứ, dữ liệu nằm trên iPhone và iCloud cá nhân.",
+   "points": [
+    {
+     "h": "Không có gì kết nối tới ngân hàng",
+     "p": "Không đăng nhập, không đơn vị trung gian và không cần lập tài khoản. Spendry hoạt động ở mọi quốc gia, với mọi ngân hàng, loại thẻ hoặc tiền tệ."
+    },
+    {
+     "h": "Thêm khoản chi nhanh chóng",
+     "p": "Gõ số tiền, quét biên lai, thêm nhanh qua tiện ích màn hình chính hoặc gọi Siri. Bạn cũng có thể chuyển tin nhắn biến động số dư thành giao dịch."
+    },
+    {
+     "h": "Tự động ghi chép giao dịch Apple Pay",
+     "p": "Chỉ cần bật tự động hóa có sẵn trong Phím tắt, mỗi khoản thanh toán bằng Apple Pay sẽ được lưu ngay vào Spendry kèm số tiền."
+    },
+    {
+     "h": "Dữ liệu không bị thu thập",
+     "p": "Không quảng cáo, không theo dõi, không phân tích hành vi. Mục quyền riêng tư trên App Store ghi rõ Dữ liệu không được thu thập, và bạn có thể bật Khóa ứng dụng bằng Face ID."
+    }
+   ],
+   "steps_title": "Cách hoạt động không cần kết nối ngân hàng",
+   "steps": [
+    "Thêm thẻ, khoản vay và tài khoản cùng số dư hiện tại.",
+    "Ghi lại chi tiêu hàng ngày, hoặc dán vào từ tin nhắn ngân hàng.",
+    "Kích hoạt tự động hóa Apple Pay trong ứng dụng Phím tắt.",
+    "Theo dõi số dư và ngân sách; tính năng nhắc nhở sẽ báo trước khi đến hạn thanh toán."
+   ],
+   "why_title": "Vì sao không nên liên kết ngân hàng",
+   "why": [
+    "Mật khẩu ngân hàng không bao giờ rời khỏi tầm tay bạn.",
+    "Không gặp lỗi mất kết nối hay thiếu giao dịch mỗi khi hệ thống ngân hàng bảo trì.",
+    "Hỗ trợ mọi ngân hàng, kể cả những nơi mà các app khác không hỗ trợ.",
+    "Tự tay ghi chép từng khoản chi giúp bạn có ý thức chi tiêu tốt hơn."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Tại sao Spendry không liên kết với ngân hàng?",
+     "a": "Để thông tin đăng nhập và lịch sử giao dịch không bao giờ đi qua máy chủ bên ngoài. Mọi dữ liệu chỉ nằm trên iPhone và iCloud của chính bạn."
+    },
+    {
+     "q": "Ghi chép thủ công có mất thời gian không?",
+     "a": "Chỉ mất vài giây. Bạn cũng có thể tự động hóa giao dịch Apple Pay bằng Phím tắt, dùng tiện ích, Siri hoặc trích xuất từ tin nhắn thông báo."
+    },
+    {
+     "q": "Spendry có tự đọc tin nhắn ngân hàng được không?",
+     "a": "Không thể tự đọc. Bạn chỉ cần sao chép hoặc chia sẻ nội dung tin nhắn ngân hàng vào Spendry, ứng dụng sẽ chuyển thành khoản chi tiêu."
+    },
+    {
+     "q": "Dữ liệu của tôi có an toàn không?",
+     "a": "Spendry không thu thập bất kỳ dữ liệu nào. Dữ liệu chỉ nằm trên máy của bạn và đồng bộ qua iCloud cá nhân, có hỗ trợ Face ID."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "Ứng dụng theo dõi trả nợ",
+   "screen": "06",
+   "footer": true,
+   "title": "Quản lý trả nợ: Snowball, Avalanche và ngày hết nợ",
+   "description": "Spendry gom thẻ tín dụng, khoản vay và nợ cá nhân vào một kế hoạch, sắp xếp theo Snowball hoặc Avalanche và dự báo chính xác ngày bạn hết nợ.",
+   "h1": "Ứng dụng trả nợ giúp bạn biết ngày sạch nợ",
+   "lead": "Thêm các khoản nợ một lần. Spendry sắp xếp theo phương pháp Tuyết lăn (Snowball) hoặc Tuyết lở (Avalanche), tính thêm phần trả thêm mỗi tháng và chỉ ra thời điểm bạn thoát nợ.",
+   "points": [
+    {
+     "h": "Tổng hợp mọi khoản nợ trong một con số",
+     "p": "Thẻ tín dụng, khoản vay, thấu chi, trả góp và nợ người quen, giúp bạn nắm trọn tổng dư nợ và số tiền cần thanh toán mỗi tháng."
+    },
+    {
+     "h": "Linh hoạt chọn Snowball hoặc Avalanche",
+     "p": "Trả dứt điểm khoản nhỏ nhất trước để lấy động lực, hoặc ưu tiên lãi suất cao nhất để tiết kiệm tiền lãi. Spendry đối chiếu cả hai và tự cập nhật lộ trình."
+    },
+    {
+     "h": "Ngày hết nợ cập nhật theo từng thanh toán",
+     "p": "Mỗi lần bạn trả bớt một phần nợ hoặc nộp thêm tiền, mốc ngày hết nợ sẽ tự động rút ngắn lại ngay trước mắt."
+    },
+    {
+     "h": "Nhắc nhở trước mọi hạn thanh toán",
+     "p": "Thông báo gửi đến trước ngày đến hạn, kể cả khi ứng dụng đang đóng, giúp bạn không bao giờ trễ hạn trả tối thiểu hay bị phạt phí."
+    }
+   ],
+   "steps_title": "Cách kế hoạch trả nợ vận hành",
+   "steps": [
+    "Nhập từng khoản nợ kèm số dư, lãi suất và mức thanh toán tối thiểu.",
+    "Chọn phương pháp Tuyết lăn (Snowball) hoặc Tuyết lở (Avalanche).",
+    "Nhập số tiền bạn có thể chi trả thêm mỗi tháng.",
+    "Cập nhật các lần trả nợ và theo dõi ngày hết nợ đến gần hơn."
+   ],
+   "why_title": "Điểm khác biệt của ứng dụng",
+   "why": [
+    "Thẻ tín dụng, khoản vay và trả góp được theo dõi chi tiết chứ không chỉ là một con số chung chung.",
+    "Không cần đăng nhập ngân hàng và không thu thập dữ liệu cá nhân.",
+    "Các công cụ tính miễn phí trên trang web này dùng chung thuật toán, giúp bạn thử nghiệm số liệu trước."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Phương pháp Snowball là gì?",
+     "a": "Bạn trả mức tối thiểu cho tất cả các khoản và dồn tiền dư để trả khoản nợ có số dư nhỏ nhất. Khi khoản đó hết, tiếp tục dồn số tiền đó sang khoản kế tiếp."
+    },
+    {
+     "q": "Phương pháp Avalanche là gì?",
+     "a": "Tiền trả thêm được dồn vào khoản nợ có lãi suất cao nhất trước, giúp giảm thiểu tối đa tổng số tiền lãi phải trả trong suốt quá trình."
+    },
+    {
+     "q": "Tôi có thể theo dõi khoản mượn từ bạn bè không?",
+     "a": "Có. Bạn có thể thêm các khoản nợ cá nhân có hoặc không có lãi suất vào chung một kế hoạch thanh toán."
+    },
+    {
+     "q": "Kế hoạch trả nợ có miễn phí không?",
+     "a": "Bạn có thể bắt đầu miễn phí. Bản Premium bỏ các giới hạn của bản miễn phí, có một tuần trải nghiệm miễn phí."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Quản lý thẻ tín dụng",
+   "screen": "07",
+   "footer": true,
+   "title": "Ứng Dụng Quản Lý Thẻ Tín Dụng: Sao Kê, Hạn Trả, Dư Nợ",
+   "description": "Theo dõi thẻ tín dụng trong Spendry: ngày sao kê, hạn thanh toán, dư nợ và trả góp, kèm thông báo nhắc trước khi đến hạn.",
+   "h1": "Mọi thẻ tín dụng, ngày sao kê và hạn trả",
+   "lead": "Spendry ghi nhớ ngày sao kê và hạn trả của từng thẻ, cập nhật dư nợ cùng các khoản trả góp và nhắc bạn trước khi đến hạn để bạn không bao giờ bị bất ngờ.",
+   "points": [
+    {
+     "h": "Ngày sao kê và hạn trả cho từng thẻ",
+     "p": "Thêm thẻ một lần kèm ngày sao kê và hạn trả. Spendry hiển thị số tiền bạn đang nợ trên mỗi thẻ và thời điểm cần thanh toán."
+    },
+    {
+     "h": "Các khoản trả góp trên thẻ của bạn",
+     "p": "Các khoản mua trả góp hiển thị rõ số kỳ thanh toán còn lại và tháng trả xong kỳ cuối cùng."
+    },
+    {
+     "h": "Thanh toán tối thiểu hoặc toàn bộ",
+     "p": "Ghi nhận khoản thanh toán để số dư tự cập nhật. Công cụ tính trả hết nợ thẻ cho bạn thấy chi phí phát sinh nếu bạn chỉ trả số tiền tối thiểu."
+    },
+    {
+     "h": "Nhắc nhở trước khi đến hạn",
+     "p": "Thông báo sẽ gửi đến trước mỗi đợt thanh toán thẻ ngay cả khi ứng dụng đang đóng. Bạn có thể đánh dấu đã trả ngay từ thông báo."
+    }
+   ],
+   "steps_title": "Cách theo dõi thẻ của bạn",
+   "steps": [
+    "Thêm từng thẻ cùng hạn mức, ngày sao kê và hạn trả.",
+    "Ghi lại các khoản chi tiêu và trả góp, hoặc lấy vào từ tin nhắn ngân hàng.",
+    "Ghi nhận thanh toán ngay khi bạn vừa nộp tiền.",
+    "Nhận thông báo nhắc nhở trước mỗi hạn trả."
+   ],
+   "why_title": "Vì sao nên theo dõi thẻ trong Spendry",
+   "why": [
+    "Mọi chiếc thẻ trên một màn hình duy nhất cùng tổng dư nợ.",
+    "Ngày bạn hết nợ có tính cả các khoản thẻ của bạn.",
+    "Không cần đăng nhập ngân hàng, không thu thập dữ liệu."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Ngày sao kê khác ngày đến hạn thanh toán thế nào?",
+     "a": "Ngày sao kê là ngày kết thúc chu kỳ thanh toán và chốt số tiền bạn nợ. Hạn trả là ngày cuối cùng để thanh toán số tiền đó mà không bị tính lãi hoặc phí phạt trả chậm."
+    },
+    {
+     "q": "Ứng dụng có nhắc tôi trước mỗi đợt trả tiền thẻ không?",
+     "a": "Có. Bạn nhận thông báo trước mỗi hạn trả ngay cả khi không mở ứng dụng, và có thể đánh dấu đã thanh toán ngay từ thông báo."
+    },
+    {
+     "q": "Tôi có thể theo dõi các khoản trả góp qua thẻ không?",
+     "a": "Có. Mỗi kế hoạch trả góp đều hiển thị số kỳ thanh toán còn lại và tháng kết thúc kỳ cuối cùng."
+    },
+    {
+     "q": "Ứng dụng có kết nối với ngân hàng phát hành thẻ không?",
+     "a": "Không. Spendry không bao giờ yêu cầu thông tin đăng nhập ngân hàng. Bạn tự thêm thẻ và tự ghi nhận các khoản thanh toán."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Ứng dụng nhắc hóa đơn",
+   "screen": "07",
+   "footer": true,
+   "title": "Ứng Dụng Nhắc Nhở Hóa Đơn: Không Bỏ Lỡ Đợt Thanh Toán",
+   "description": "Spendry nhắc bạn trước mỗi hóa đơn, khoản trả thẻ, khoản vay và gói đăng ký ngay cả khi không mở ứng dụng. Đánh dấu đã trả ngay từ thông báo.",
+   "h1": "Ứng dụng nhắc hóa đơn luôn đến đúng hẹn",
+   "lead": "Spendry nhắc bạn trước từng hóa đơn, đợt trả thẻ, tiền vay và gói đăng ký, ngay cả khi bạn không mở ứng dụng. Bạn có thể hoãn lại hoặc đánh dấu đã trả ngay từ thông báo.",
+   "points": [
+    {
+     "h": "Mọi hạn thanh toán trong một danh sách",
+     "p": "Hóa đơn, sao kê thẻ, khoản vay và gói đăng ký nằm chung trong danh sách sắp đến hạn, các khoản quá hạn nằm ở trên cùng."
+    },
+    {
+     "h": "Nhắc nhở không cần mở ứng dụng",
+     "p": "Thông báo được lên lịch ngay trên iPhone và đến trước mỗi hạn trả. Đây là thông báo Gấp nên vẫn hiển thị qua chế độ Tập trung nếu bạn cho phép."
+    },
+    {
+     "h": "Đánh dấu đã trả hoặc hoãn chỉ với một chạm",
+     "p": "Đánh dấu đã thanh toán hoặc hoãn nhắc nhở ngay trên chính thông báo. Trả tiền sẽ cập nhật ngay số dư và ngân sách của bạn."
+    },
+    {
+     "h": "Bản tóm tắt buổi sáng nếu bạn cần",
+     "p": "Quy trình Tự động hóa có sẵn trong ứng dụng Phím tắt sẽ gửi thông báo tóm tắt các khoản thanh toán trong ba ngày tới vào mỗi buổi sáng."
+    }
+   ],
+   "steps_title": "Cách thiết lập nhắc nhở",
+   "steps": [
+    "Thêm hóa đơn, thẻ, khoản vay và gói đăng ký kèm ngày đến hạn.",
+    "Chọn số ngày bạn muốn nhận thông báo trước hạn thanh toán.",
+    "Đánh dấu đã trả hoặc hoãn lại ngay trên thông báo.",
+    "Kiểm tra danh sách sắp đến hạn bất kỳ lúc nào để nắm toàn bộ bức tranh."
+   ],
+   "why_title": "Vì sao tính năng này hữu ích",
+   "why": [
+    "Một nơi duy nhất cho mọi khoản chi tiêu, không cần mở từng ứng dụng riêng lẻ.",
+    "Thông báo vẫn gửi đến bình thường dù bạn không mở Spendry.",
+    "Dữ liệu được lưu an toàn trên iPhone của bạn, không thu thập bất kỳ thông tin nào."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Tôi có nhận được thông báo nếu không bao giờ mở ứng dụng không?",
+     "a": "Có. Các nhắc nhở được lên lịch trực tiếp trên iPhone và sẽ đến đúng hẹn ngay cả khi bạn không mở Spendry."
+    },
+    {
+     "q": "Tôi có thể tự chọn thời điểm nhận thông báo nhắc nhở không?",
+     "a": "Có. Bạn có thể chọn nhận lời nhắc trước ngày đến hạn bao nhiêu ngày tùy ý."
+    },
+    {
+     "q": "Ứng dụng có nhắc tôi về các gói đăng ký không?",
+     "a": "Có. Các gói đăng ký, hóa đơn, khoản trả thẻ tín dụng và tiền vay trả góp đều có nhắc nhở."
+    },
+    {
+     "q": "Thông báo nhắc nhở có cần kết nối mạng không?",
+     "a": "Không. Lời nhắc được lên lịch trực tiếp trên thiết bị của bạn."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Quản lý gói đăng ký",
+   "screen": "09",
+   "footer": true,
+   "title": "Quản Lý Gói Đăng Ký: Kiểm Soát Chi Phí Hàng Tháng",
+   "description": "Theo dõi mọi gói đăng ký trong Spendry: tổng tiền theo tháng, theo năm và nhận lời nhắc trước khi gia hạn để kịp thời hủy các dịch vụ không dùng.",
+   "h1": "Theo dõi gói đăng ký và xem tổng tiền theo năm",
+   "lead": "Thêm các gói đăng ký một lần, Spendry sẽ hiển thị tổng chi phí theo tháng và theo năm, ngày gia hạn tiếp theo và nhắc bạn trước khi đến hạn để bạn kịp hủy dịch vụ.",
+   "points": [
+    {
+     "h": "Tổng chi phí theo tháng và theo năm",
+     "p": "Các gói tính theo tuần, theo tháng và theo năm được quy đổi thành một con số hàng tháng và hàng năm, giúp các khoản phí nhỏ không còn bị bỏ sót."
+    },
+    {
+     "h": "Lời nhắc trước mỗi đợt gia hạn",
+     "p": "Nhận thông báo trước ngày gia hạn vài ngày để bạn vẫn kịp thời hủy dịch vụ nếu không còn muốn dùng."
+    },
+    {
+     "h": "Tra cứu nhanh bằng câu hỏi thông thường",
+     "p": "Hỏi trợ lý Spendry xem bạn tốn bao nhiêu tiền cho các gói đăng ký mỗi năm, ứng dụng sẽ đưa ra tổng chi phí kèm danh sách chi tiết."
+    },
+    {
+     "h": "Một phần trong ngân sách tổng thể",
+     "p": "Các gói đăng ký được tính vào Ngân sách và danh sách thanh toán sắp đến hạn, giúp bạn theo dõi song song với các khoản chi tiêu khác."
+    }
+   ],
+   "steps_title": "Cách theo dõi các gói đăng ký của bạn",
+   "steps": [
+    "Thêm từng gói đăng ký cùng giá tiền, chu kỳ thanh toán và ngày gia hạn.",
+    "Xem tổng chi phí hàng tháng và hàng năm.",
+    "Bật nhắc nhở trước mỗi đợt gia hạn.",
+    "Hủy những dịch vụ bạn không còn dùng và nhìn số tiền phải trả giảm đi."
+   ],
+   "why_title": "Lợi ích khi theo dõi",
+   "why": [
+    "Theo dõi gói đăng ký từ mọi nguồn, không chỉ riêng App Store.",
+    "Không cần đăng nhập tài khoản ngân hàng, chỉ cần nhập thông tin một lần.",
+    "Có sẵn công cụ tính chi phí gói đăng ký trên trang web này."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Spendry có tự động tìm các gói đăng ký của tôi không?",
+     "a": "Không. Ứng dụng không liên kết tài khoản ngân hàng, bạn chỉ cần nhập từng dịch vụ một lần. Sau đó Spendry sẽ tự theo dõi ngày gia hạn và tổng chi phí cho bạn."
+    },
+    {
+     "q": "Tôi có thể theo dõi các gói đăng ký theo năm không?",
+     "a": "Có. Ứng dụng hỗ trợ đầy đủ các gói theo tuần, theo tháng, theo năm và tự quy đổi thành tổng tiền theo tháng cùng theo năm."
+    },
+    {
+     "q": "Ứng dụng có nhắc tôi trước khi gói được gia hạn không?",
+     "a": "Có. Ứng dụng sẽ gửi lời nhắc trước ngày gia hạn vài ngày ngay cả khi bạn không mở ứng dụng."
+    },
+    {
+     "q": "Làm thế nào để hủy gói đăng ký trên iPhone của tôi?",
+     "a": "Các gói mua qua App Store được hủy trong ứng dụng Cài đặt, dưới tên Tài khoản Apple của bạn và mục Đăng ký. Các dịch vụ khác được hủy trên trang web hoặc ứng dụng riêng của dịch vụ đó."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Sổ thu chi",
+   "screen": "03",
+   "title": "Ứng Dụng Quản Lý Chi Tiêu Cho iPhone: Spendry",
+   "description": "Ghi chép chi tiêu trong vài giây từ tiện ích, Siri hoặc Apple Pay. Biểu đồ theo tuần và tháng rõ ràng. Không đăng nhập ngân hàng, không thu thập dữ liệu.",
+   "h1": "Ghi chép chi tiêu chỉ trong vài giây",
+   "lead": "Nhập số tiền, chọn danh mục là xong. Hoặc nhờ Siri, dùng tiện ích hay để các giao dịch qua Apple Pay tự lưu lại. Bạn sẽ thấy rõ từng đồng tiền của mình đi đâu.",
+   "points": [
+    {
+     "h": "Thêm nhanh bằng mọi cách bạn thích",
+     "p": "Ghi chép từ ứng dụng, tiện ích Màn hình chính, Siri hoặc tự động hóa trong Phím tắt, đồng thời lưu kèm ảnh chụp biên lai cùng khoản chi tiêu."
+    },
+    {
+     "h": "Biểu đồ giải đáp mọi thắc mắc",
+     "p": "Xem báo cáo chi tiêu theo tuần và theo tháng theo từng danh mục, theo ngày, kèm mức chi tiêu trung bình ngày và tốc độ chi so với kỳ trước."
+    },
+    {
+     "h": "Ngân sách cảnh báo bạn từ sớm",
+     "p": "Các khoản chi tiêu sẽ tự động tính vào ngân sách của danh mục tương ứng, và Spendry sẽ báo cho bạn trước khi hạn mức sắp cạn."
+    },
+    {
+     "h": "Danh mục theo ý muốn của bạn",
+     "p": "Tự tạo các danh mục bạn cần với tên gọi và biểu tượng riêng, thay vì phải dùng một danh sách cố định."
+    }
+   ],
+   "steps_title": "Cách bắt đầu theo dõi",
+   "steps": [
+    "Thêm những khoản chi tiêu đầu tiên từ ứng dụng hoặc tiện ích.",
+    "Thiết lập ngân sách cho các danh mục quan trọng.",
+    "Bật tính năng tự động hóa Apple Pay nếu bạn thường thanh toán bằng điện thoại.",
+    "Xem lại các biểu đồ thống kê mỗi tuần."
+   ],
+   "why_title": "Lý do nên chọn Spendry",
+   "why": [
+    "Không cần đăng nhập ngân hàng, không thu thập dữ liệu cá nhân.",
+    "Tiện ích, Siri và Phím tắt đều hỗ trợ thêm chi tiêu nhanh.",
+    "Hỗ trợ mọi loại tiền tệ cùng 44 ngôn ngữ khác nhau."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Tôi có thể thêm chi tiêu mà không cần mở ứng dụng không?",
+     "a": "Có. Bạn có thể dùng tiện ích Màn hình chính, gọi Siri hoặc dùng tự động hóa trong Phím tắt để tự ghi nhận giao dịch Apple Pay."
+    },
+    {
+     "q": "Tôi có thể lưu lại hóa đơn hay biên lai không?",
+     "a": "Có. Bạn có thể quét biên lai khi thêm chi phí và hình ảnh sẽ được lưu kèm khoản chi đó."
+    },
+    {
+     "q": "Ứng dụng có hỗ trợ nhiều loại tiền tệ không?",
+     "a": "Có. Bạn có thể chọn loại tiền tệ chính khi bắt đầu, các tài khoản đầu tư hoặc tài khoản ngoại tệ có thể dùng đơn vị tiền tệ riêng."
+    },
+    {
+     "q": "Spendry có miễn phí không?",
+     "a": "Có, các tính năng cốt lõi hoàn toàn miễn phí. Gói nâng cao là tùy chọn, có một tuần dùng thử miễn phí."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Theo dõi trả góp",
+   "screen": "06",
+   "title": "Theo Dõi Trả Góp Và Mua Trước Trả Sau: Spendry",
+   "description": "Quản lý mọi khoản trả góp trên Spendry: số kỳ còn lại, số tiền mỗi tháng và ngày kết thúc, kèm nhắc nhở trước mỗi kỳ thanh toán.",
+   "h1": "Quản lý từng khoản trả góp và ngày kết thúc",
+   "lead": "Các khoản trả góp qua thẻ tín dụng và mua trước trả sau rất dễ tích tụ ngoài tầm kiểm soát. Spendry giúp bạn thấy rõ số kỳ còn lại, tổng số tiền mỗi tháng và thời điểm trả hết nợ.",
+   "points": [
+    {
+     "h": "Số tiền trả góp bạn phải thanh toán mỗi tháng",
+     "p": "Xem tổng số tiền trả góp đến hạn trong tháng này và các tháng tiếp theo, giúp các khoản mua sắm mới không bị dồn lại bất ngờ."
+    },
+    {
+     "h": "Ngày hoàn tất của từng kế hoạch",
+     "p": "Mỗi kế hoạch đều hiển thị số kỳ thanh toán còn lại và tháng kết thúc đợt trả góp cuối cùng."
+    },
+    {
+     "h": "Nhắc nhở trước mỗi đợt thanh toán",
+     "p": "Thông báo sẽ gửi đến trước khi từng khoản trả góp đến hạn, ngay cả khi bạn không mở ứng dụng."
+    },
+    {
+     "h": "Được tính vào ngày bạn hết nợ",
+     "p": "Các khoản trả góp được tính gộp vào tổng nợ và kế hoạch trả hết nợ của bạn."
+    }
+   ],
+   "steps_title": "Cách theo dõi các khoản trả góp",
+   "steps": [
+    "Thêm khoản mua sắm kèm tổng số tiền, số kỳ trả góp và ngày thanh toán đầu tiên.",
+    "Xem số tiền phải trả mỗi tháng và ngày kết thúc.",
+    "Ghi nhận từng khoản thanh toán hoặc đánh dấu đã trả ngay từ thông báo nhắc nhở.",
+    "Kiểm tra tổng tiền trả góp hàng tháng trước khi mua sắm thêm món đồ mới."
+   ],
+   "why_title": "Lợi ích mang lại",
+   "why": [
+    "Quản lý trả góp qua thẻ tín dụng và mua trước trả sau tại cùng một nơi.",
+    "Các khoản trả góp nằm cạnh ngân sách và các khoản nợ khác, giúp bạn thấy rõ bức tranh tài chính trong tháng.",
+    "Không cần đăng nhập ngân hàng, không thu thập dữ liệu cá nhân."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Tôi có thể theo dõi các khoản mua trước trả sau không?",
+     "a": "Có. Bạn chỉ cần nhập tổng số tiền, số lần thanh toán và ngày bắt đầu, Spendry sẽ theo dõi phần còn lại."
+    },
+    {
+     "q": "Ứng dụng có hiển thị tổng số tiền trả góp mỗi tháng không?",
+     "a": "Có. Bạn sẽ thấy tổng tiền trả góp tháng này và dự kiến cho các tháng sắp tới."
+    },
+    {
+     "q": "Tôi có nhận được nhắc nhở trước mỗi kỳ thanh toán không?",
+     "a": "Có, ứng dụng sẽ nhắc bạn trước mỗi đợt thanh toán, ngay cả khi bạn không mở ứng dụng."
+    },
+    {
+     "q": "Trả góp có ảnh hưởng đến ngày bạn hết nợ không?",
+     "a": "Có. Các khoản này nằm trong tổng nợ và kế hoạch trả nợ của bạn."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Theo dõi mục tiêu tiết kiệm",
+   "screen": "05",
+   "title": "Ứng Dụng Quản Lý Mục Tiêu Tiết Kiệm: Spendry",
+   "description": "Đặt mục tiêu tiết kiệm trong Spendry, theo dõi tiến độ hàng ngày và chia sẻ mục tiêu chung với người thân qua iCloud.",
+   "h1": "Mục tiêu tiết kiệm tiếp thêm động lực cho bạn",
+   "lead": "Đặt số tiền cho từng mục tiêu và cập nhật mỗi khi để dành được thêm một khoản. Spendry hiển thị rõ bạn đã đến gần đích thế nào mỗi ngày, ngay trên ứng dụng và Màn hình chính.",
+   "points": [
+    {
+     "h": "Mục tiêu rõ ràng",
+     "p": "Mỗi mục tiêu đều có số tiền cần đạt, thanh tiến độ và số tiền còn lại phải dành dụm."
+    },
+    {
+     "h": "Ngay trên Màn hình chính",
+     "p": "Tiện ích mục tiêu giúp bạn nhìn thấy tiến độ mỗi ngày, giữ vững thói quen và sự tập trung."
+    },
+    {
+     "h": "Cùng nhau tích lũy",
+     "p": "Chia sẻ mục tiêu với bạn đời hoặc gia đình qua iCloud, mỗi người đều có thể đóng góp vào chung một mục tiêu từ iPhone của mình."
+    },
+    {
+     "h": "Đặt cạnh ngân sách của bạn",
+     "p": "Số tiền bạn dành cho các mục tiêu được hiển thị rõ ràng trong kế hoạch hàng tháng, đặt cạnh ngân sách và các khoản chi trả khác."
+    }
+   ],
+   "steps_title": "Cách tiết kiệm cho một mục tiêu",
+   "steps": [
+    "Tạo mục tiêu với số tiền bạn muốn đạt được.",
+    "Cập nhật số tiền thêm vào mỗi khi bạn để dành được.",
+    "Theo dõi tiến độ trong ứng dụng hoặc qua tiện ích.",
+    "Chia sẻ mục tiêu nếu bạn đang cùng tiết kiệm với người khác."
+   ],
+   "why_title": "Lợi ích mang lại",
+   "why": [
+    "Mục tiêu được đặt cạnh ngân sách và các khoản nợ của bạn.",
+    "Mục tiêu chung được đồng bộ mượt mà qua iCloud.",
+    "Có sẵn công cụ tính mục tiêu tiết kiệm miễn phí trên trang web này."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Tôi có thể tạo nhiều mục tiêu cùng lúc không?",
+     "a": "Có. Bạn có thể tạo mục tiêu riêng cho từng dự định và tích lũy cho từng mục tiêu độc lập."
+    },
+    {
+     "q": "Tôi có thể chia sẻ mục tiêu với bạn đời không?",
+     "a": "Có. Mục tiêu chia sẻ sẽ đồng bộ qua iCloud, và mỗi người đều sử dụng Tài khoản Apple riêng của mình."
+    },
+    {
+     "q": "Ứng dụng có tiện ích cho mục tiêu tiết kiệm không?",
+     "a": "Có. Tiện ích mục tiêu sẽ hiển thị tiến độ tiết kiệm của bạn ngay trên Màn hình chính."
+    },
+    {
+     "q": "Tôi nên tiết kiệm bao nhiêu tiền mỗi tháng?",
+     "a": "Lấy số tiền còn thiếu chia cho số tháng đến hạn. Công cụ tính mục tiêu tiết kiệm miễn phí trên trang này sẽ tính giúp bạn, bao gồm cả tiền lãi nếu có."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Theo dõi tài sản ròng",
+   "screen": "08",
+   "title": "Ứng dụng theo dõi tài sản ròng cập nhật giá",
+   "description": "Theo dõi tài sản ròng trên Spendry: tài khoản, đầu tư cập nhật giá trực tiếp, vàng, tiền tệ, trừ đi nợ và thẻ tín dụng trong một con số duy nhất.",
+   "h1": "Tài sản ròng của bạn, gom về một con số luôn cập nhật",
+   "lead": "Spendry cộng tổng tài khoản và các khoản đầu tư, trừ đi các khoản nợ và hiển thị tài sản ròng của bạn. Cổ phiếu, tiền mã hóa, vàng và ngoại tệ được cập nhật theo giá trực tiếp.",
+   "points": [
+    {
+     "h": "Mọi thứ bạn sở hữu và đang nợ",
+     "p": "Tiền mặt, tài khoản, đầu tư và tiết kiệm đối chiếu cùng thẻ tín dụng, khoản vay, trả góp và nợ cá nhân."
+    },
+    {
+     "h": "Giá trực tiếp từ thị trường",
+     "p": "Cổ phiếu, tiền mã hóa, vàng và tiền tệ được cập nhật theo giá thị trường trực tiếp ngay cạnh chi tiêu của bạn."
+    },
+    {
+     "h": "Các khoản đầu tư theo đúng đơn vị tiền",
+     "p": "Các khoản đầu tư và tài khoản ngoại tệ giữ nguyên đơn vị tiền gốc; tài sản ròng hiển thị theo đơn vị tiền của bạn."
+    },
+    {
+     "h": "Ngay trên Màn hình chính",
+     "p": "Tiện ích tài sản ròng giúp bạn luôn nắm rõ con số này bất cứ lúc nào."
+    }
+   ],
+   "steps_title": "Cách theo dõi tài sản ròng",
+   "steps": [
+    "Thêm tài khoản và số dư của bạn.",
+    "Thêm các khoản đầu tư cùng khối lượng bạn nắm giữ.",
+    "Thêm các khoản nợ của bạn.",
+    "Theo dõi tài sản ròng thay đổi theo giá thị trường và số dư."
+   ],
+   "why_title": "Vì sao chọn Spendry",
+   "why": [
+    "Quản lý nợ và đầu tư trong cùng một ứng dụng với ngân sách.",
+    "Không cần đăng nhập ngân hàng hay tài khoản chứng khoán.",
+    "Không thu thập dữ liệu."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Tôi có thể theo dõi những khoản đầu tư nào?",
+     "a": "Cổ phiếu, tiền mã hóa, vàng và các loại ngoại tệ, tất cả đều có giá trực tiếp."
+    },
+    {
+     "q": "Ứng dụng có kết nối với tài khoản chứng khoán của tôi không?",
+     "a": "Không. Bạn chỉ cần nhập những gì đang nắm giữ; giá sẽ tự động cập nhật."
+    },
+    {
+     "q": "Tôi có nên đưa cả nhà hoặc xe vào không?",
+     "a": "Nhiều người chỉ theo dõi những gì biến động hàng tháng: tiền mặt, đầu tư và các khoản nợ. Bạn có thể thêm vào nếu thấy tiện."
+    },
+    {
+     "q": "Ứng dụng có tiện ích theo dõi tài sản ròng không?",
+     "a": "Có, tiện ích dùng cho Màn hình chính của bạn."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "Sổ chi tiêu chung",
+   "screen": "04",
+   "title": "Sổ chi tiêu chung cho cặp đôi và gia đình",
+   "description": "Chia sẻ ngân sách và mục tiêu tiết kiệm với Spendry. Mọi người dùng iPhone và Tài khoản Apple riêng, đồng bộ chi tiêu qua iCloud dễ dàng.",
+   "h1": "Ứng dụng ngân sách chung cho cặp đôi và gia đình",
+   "lead": "Chia sẻ ngân sách hoặc mục tiêu tiết kiệm với người yêu hoặc gia đình. Mỗi người thêm chi tiêu từ chính iPhone của mình, Spendry tự đồng bộ qua iCloud mà không cần lập thêm tài khoản.",
+   "points": [
+    {
+     "h": "Chỉ chia sẻ những gì bạn muốn",
+     "p": "Chia sẻ ngân sách chi tiêu gia đình hoặc một mục tiêu chung, các khoản tiền còn lại vẫn hoàn toàn riêng tư."
+    },
+    {
+     "h": "Mỗi người tự ghi chép trên máy của mình",
+     "p": "Mỗi thành viên dùng Tài khoản Apple riêng; ngân sách và mục tiêu chung sẽ tự cập nhật cho tất cả mọi người."
+    },
+    {
+     "h": "Không tài khoản mới, không máy chủ trung gian",
+     "p": "Tính năng chia sẻ hoạt động trực tiếp qua iCloud. Spendry không có hệ thống tài khoản và không thu thập dữ liệu."
+    },
+    {
+     "h": "Một mục tiêu, cùng nhau vun đắp",
+     "p": "Cùng tích lũy cho chuyến du lịch hay mua nhà; mỗi khoản đóng góp đều cập nhật vào cùng một mục tiêu."
+    }
+   ],
+   "steps_title": "Cách chia sẻ ngân sách",
+   "steps": [
+    "Tạo một ngân sách hoặc mục tiêu.",
+    "Chia sẻ từ Spendry tới người yêu hoặc thành viên gia đình.",
+    "Họ chấp nhận lời mời trên iPhone của chính họ.",
+    "Mọi người cùng thêm chi phí hoặc khoản tiết kiệm, dữ liệu luôn được đồng bộ."
+   ],
+   "why_title": "Vì sao nên chia sẻ qua Spendry",
+   "why": [
+    "Các ngân sách và khoản nợ khác của bạn luôn được giữ riêng tư.",
+    "Không cần đăng nhập thêm tài khoản: chia sẻ diễn ra qua iCloud.",
+    "Không thu thập dữ liệu."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Người cùng chia sẻ có cần cài Spendry không?",
+     "a": "Có, trên iPhone hoặc iPad của chính họ, cùng Tài khoản Apple riêng."
+    },
+    {
+     "q": "Đối phương có thấy hết chi tiêu cá nhân của tôi không?",
+     "a": "Không. Bạn chỉ chia sẻ những ngân sách và mục tiêu mà bạn chọn; phần còn lại hoàn toàn riêng tư."
+    },
+    {
+     "q": "Tính năng chia sẻ hoạt động như thế nào?",
+     "a": "Chia sẻ diễn ra qua iCloud. Hoàn toàn không có tài khoản hay máy chủ của Spendry ở giữa."
+    },
+    {
+     "q": "Tôi có thể chia sẻ với nhiều người không?",
+     "a": "Có. Bạn có thể mời nhiều thành viên trong gia đình vào cùng một ngân sách hoặc mục tiêu chung."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Quản lý khoản vay",
+   "screen": "06",
+   "title": "Quản lý khoản vay: Dư nợ, thanh toán và lãi",
+   "description": "Theo dõi các khoản vay trên Spendry: số dư còn lại, tiền gốc và lãi từng kỳ, số kỳ còn lại và thông báo nhắc nhở trước mỗi đợt trả góp.",
+   "h1": "Ứng dụng theo dõi giúp bạn biết rõ chi phí vay thực tế",
+   "lead": "Chỉ cần thêm khoản vay một lần, Spendry sẽ hiển thị số dư còn lại, tiền lãi trong từng kỳ trả, số kỳ thanh toán còn lại và nhắc bạn trước mỗi đợt thanh toán.",
+   "points": [
+    {
+     "h": "Toàn bộ lịch trả nợ rõ ràng",
+     "p": "Từng kỳ trả góp kèm theo số tiền gốc và lãi chi tiết, giúp bạn thấy rõ chi phí thực tế của khoản vay."
+    },
+    {
+     "h": "Số kỳ còn lại và thời gian kết thúc",
+     "p": "Xem số kỳ thanh toán còn lại và tháng hoàn thành khoản nợ cuối cùng."
+    },
+    {
+     "h": "Nhắc nhở trước mỗi kỳ hạn",
+     "p": "Thông báo sẽ gửi đến trước mỗi ngày đến hạn, kể cả khi bạn đang đóng ứng dụng."
+    },
+    {
+     "h": "Nằm trong kế hoạch trả nợ tổng thể",
+     "p": "Các khoản vay được tính vào tổng nợ và ngày bạn hết nợ."
+    }
+   ],
+   "steps_title": "Cách theo dõi khoản vay",
+   "steps": [
+    "Thêm khoản vay cùng số tiền, lãi suất, kỳ hạn và ngày trả đầu tiên.",
+    "Xem lịch trả nợ chi tiết và tổng chi phí vay.",
+    "Ghi nhận các khoản thanh toán khi bạn đã trả.",
+    "Theo dõi ngày bạn hết nợ."
+   ],
+   "why_title": "Vì sao chọn Spendry",
+   "why": [
+    "Vay tiêu dùng, mua xe, mua nhà và vay học tập gom về một nơi.",
+    "Không cần đăng nhập ngân hàng, không thu thập dữ liệu.",
+    "Có công cụ tính khoản vay miễn phí ngay trên trang web này."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Tôi có thể theo dõi những loại khoản vay nào?",
+     "a": "Vay tiêu dùng cá nhân, mua xe, mua nhà, vay học tập, bất kỳ khoản trả góp nào khác và cả nợ cá nhân."
+    },
+    {
+     "q": "Ứng dụng có hiển thị số tiền lãi tôi phải trả không?",
+     "a": "Có. Bạn sẽ thấy rõ tiền lãi trong từng đợt trả cũng như trên toàn bộ khoản vay."
+    },
+    {
+     "q": "Ứng dụng có nhắc tôi trước mỗi đợt thanh toán không?",
+     "a": "Có, ứng dụng nhắc trước mỗi ngày đến hạn, kể cả khi bạn không mở ứng dụng."
+    },
+    {
+     "q": "Ứng dụng có kết nối với bên cho vay không?",
+     "a": "Không. Bạn chỉ cần nhập khoản vay một lần; Spendry sẽ tự tính toán toàn bộ lịch trả nợ."
+    }
+   ]
+  }
+ ]
 }

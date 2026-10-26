@@ -1553,5 +1553,835 @@
    "final_title": "Anticipa't a cada renovació.",
    "final_text": "Descarrega Spendry, afegeix les teves subscripcions i rep un avís abans de cada cobrament."
   }
- }
+ },
+ "app_labels": {
+  "free": "Gratis a l'App Store. Premium opcional, amb una setmana de prova.",
+  "more": "Més funcions de Spendry",
+  "cta": "Descarrega Spendry i visualitza tot el teu mes en un sol lloc.",
+  "tools_title": "Calculadores gratuïtes",
+  "guides_title": "Guies"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "App de pressupostos",
+   "screen": "04",
+   "footer": true,
+   "title": "App de pressupostos per a iPhone: Spendry sense banc",
+   "description": "Spendry és una app de pressupostos per a iPhone i iPad: límits per categoria, targetes, préstecs, factures en un sol lloc i avisos abans de pagar.",
+   "h1": "Una app de pressupostos que sap què ve",
+   "lead": "Spendry fixa un límit a cada categoria, t'avisa abans d'arribar-hi i et mostra les factures, targetes i terminis pendents aquest mes. Sense accés al teu banc.",
+   "points": [
+    {
+     "h": "Pressupostos que segueixen el teu ritme",
+     "p": "Defineix un límit mensual per a menjar, oci o el que vulguis. Cada despesa omple el seu pressupost i Spendry t'avisa abans d'arribar al màxim, no després."
+    },
+    {
+     "h": "La resta del mes, per avançat",
+     "p": "Els extractes de la targeta, els préstecs, les factures i les subscripcions pendents abans de cobrar apareixen amb el teu saldo per veure què et queda realment."
+    },
+    {
+     "h": "Afegeix una despesa en segons",
+     "p": "Escriu l'import i tria una categoria, escaneja el tiquet, fes-ho des d'un widget o deixa que una automatització de Dreceres anoti les compres amb Apple Pay."
+    },
+    {
+     "h": "Comprova on va cada cèntim",
+     "p": "Gràfics setmanals i mensuals per categoria i per dia mostren quins pressupostos es desvien i com es compara aquest mes amb l'anterior."
+    }
+   ],
+   "steps_title": "Com començar un pressupost a Spendry",
+   "steps": [
+    "Afegeix els teus ingressos i els comptes o targetes amb què pagues.",
+    "Crea pressupostos per a les categories principals i fixa un límit a cadascuna.",
+    "Registra les despeses en fer-les o activa l'automatització d'Apple Pay.",
+    "A final de mes, revisa els gràfics i ajusta els límits per al mes següent."
+   ],
+   "why_title": "Per què escollir Spendry",
+   "why": [
+    "Sense connectar el banc: tu tries què hi entra i res no accedeix al teu compte.",
+    "Les dades es queden al teu iPhone i al teu compte d'iCloud; no es recull res.",
+    "Els deutes, les targetes i els terminis conviuen amb el teu pressupost en una sola app.",
+    "Descàrrega gratuïta, amb opció a Premium."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Spendry és una app de pressupostos gratuïta?",
+     "a": "Sí. Els pressupostos, les despeses, els recordatoris i les funcions bàsiques són gratis. L'opció Premium ofereix subscripció mensual o anual amb una setmana de prova, o un pagament únic per a tota la vida."
+    },
+    {
+     "q": "Spendry necessita accés al meu compte bancari?",
+     "a": "No. No et demana mai les claus bancàries. Pots anotar les despeses manualment, importar-les des de missatges del banc o fer que l'app Dreceres anoti els pagaments amb Apple Pay."
+    },
+    {
+     "q": "Puc compartir un pressupost amb la meva parella?",
+     "a": "Sí. La funció de Pressupost compartit i els objectius es sincronitzen a través d'iCloud, i cadascú utilitza el seu propi compte d'Apple."
+    },
+    {
+     "q": "Amb quins dispositius funciona?",
+     "a": "Funciona amb iPhone i iPad amb iOS 17 o posterior. També hi ha una versió per a Mac a la Mac App Store."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "App de pressupostos sense banc",
+   "screen": "02",
+   "footer": true,
+   "title": "App de pressupostos sense vincular el banc: Spendry",
+   "description": "Una app de despeses sense connectar el teu banc: afegeix moviments a mà, des de missatges o amb Apple Pay. Les teves dades es queden al teu iPhone.",
+   "h1": "L'app de pressupostos que mai et demana el banc",
+   "lead": "Moltes apps volen la contrasenya del teu banc. Spendry no es connecta mai al teu banc: tu tries què anotes i la informació queda al teu iPhone i al teu iCloud.",
+   "points": [
+    {
+     "h": "Res no es connecta al banc",
+     "p": "Sense dades bancàries, sense intermediaris i sense crear cap compte. Spendry funciona igual a qualsevol país, amb qualsevol banc, targeta o moneda."
+    },
+    {
+     "h": "Anotar despeses continua sent molt àgil",
+     "p": "Escriu l'import, escaneja el tiquet, fes servir un widget de la pantalla d'inici o demana-ho a Siri. També pots convertir els SMS del teu banc en entrades."
+    },
+    {
+     "h": "Les compres d'Apple Pay es registren soles",
+     "p": "Activa l'automatització integrada a l'app Dreceres i cada compra feta amb Apple Pay s'afegirà a Spendry amb el seu import."
+    },
+    {
+     "h": "Sense recollida de dades",
+     "p": "Sense anuncis, sense mètriques i sense rastreig. La privacitat de l'App Store indica que no es recullen dades, i pots protegir l'accés amb Face ID."
+    }
+   ],
+   "steps_title": "Com funciona sense connectar-se al banc",
+   "steps": [
+    "Afegeix les teves targetes, préstecs i comptes amb el saldo actual.",
+    "Registra les despeses al moment o importa-les des dels missatges del banc.",
+    "Activa l'automatització d'Apple Pay a l'aplicació Dreceres.",
+    "Controla el teu saldo i els pressupostos; els recordatoris t'avisen abans de cada venciment."
+   ],
+   "why_title": "Per què evitar connectar el teu banc",
+   "why": [
+    "Les teves claus bancàries no surten mai de les teves mans.",
+    "Sense errors de connexió ni moviments perduts quan el banc canvia la seva web.",
+    "Funciona amb totes les entitats, incloses les que altres apps no admeten.",
+    "Anotar cada despesa t'ajuda a prendre consciència del que gastes."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Per què Spendry no es connecta al meu banc?",
+     "a": "Perquè les teves claus i els teus moviments no passin mai pels servidors de ningú. Tot es manté al teu iPhone i al teu propi espai d'iCloud."
+    },
+    {
+     "q": "No és lent afegir les despeses a mà?",
+     "a": "Es triga pocs segons, i pots estalviar-te el pas en compres amb Apple Pay mitjançant Dreceres, fent servir un widget, preguntant a Siri o enganxant els SMS del banc."
+    },
+    {
+     "q": "Spendry pot llegir els missatges del meu banc?",
+     "a": "No ho fa de forma automàtica. Tu enganxes o comparteixes el missatge a Spendry i l'app el transforma en una despesa."
+    },
+    {
+     "q": "Les meves dades estan protegides?",
+     "a": "Spendry no recull cap dada. La teva informació resideix al teu dispositiu, es sincronitza amb el teu iCloud i pots activar el Bloqueig de l'aplicació amb Face ID."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "App per pagar deutes",
+   "screen": "06",
+   "footer": true,
+   "title": "App per pagar deutes: mètode bola de neu i allau",
+   "description": "Reuneix targetes, préstecs i descoberts en un pla amb el mètode bola de neu o allau, i descobreix la teva data d'alliberament de deutes amb Spendry.",
+   "h1": "L'app per liquidar deutes amb la teva data final",
+   "lead": "Afegeix els teus deutes un sol cop. Spendry els organitza amb el mètode bola de neu o allau, suma el pagament extra mensual i calcula la teva data d'alliberament de deutes.",
+   "points": [
+    {
+     "h": "Tots els deutes en una sola xifra",
+     "p": "Targetes de crèdit, préstecs, comptes de descobert, terminis i diners que deus a amics, amb el deute total i la quota mensual en un cop d'ull."
+    },
+    {
+     "h": "Mètode bola de neu o allau, com prefereixis",
+     "p": "Paga primer el saldo més petit per motivar-te ràpidament, o l'interès més alt per pagar menys interessos. Spendry els compara i actualitza el pla en cada pagament."
+    },
+    {
+     "h": "Una data que s'avança amb tu",
+     "p": "Anota un pagament o afegeix un import extra, i la teva data d'alliberament de deutes s'avançarà al mateix instant."
+    },
+    {
+     "h": "Recordatoris abans de cada venciment",
+     "p": "Rep un avís abans de cada quota, fins i tot amb l'aplicació tancada, per evitar interessos o comissions per oblit."
+    }
+   ],
+   "steps_title": "Com funciona el pla d'amortització",
+   "steps": [
+    "Afegeix cada deute amb el seu saldo, tipus d'interès i quota mínima.",
+    "Tria el mètode de bola de neu o d'allau.",
+    "Indica quina quantitat extra pots destinar cada mes.",
+    "Anota els pagaments fets i comprova com s'avança la teva data final."
+   ],
+   "why_title": "Què la fa diferent",
+   "why": [
+    "Les targetes, els préstecs i els terminis es gestionen al detall, no com un sol bloc.",
+    "Sense connectar el banc i sense cap recollida de dades.",
+    "Les calculadores gratuïtes d'aquest web apliquen el mateix sistema, pots provar-les abans."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Què és el mètode bola de neu?",
+     "a": "Pagues la quota mínima de cada deute i destines els diners extres al deute més petit. Quan el liquides, sumes la seva quota al següent deute."
+    },
+    {
+     "q": "Què és el mètode allau?",
+     "a": "Els diners extres es destinen primer al deute amb l'interès més elevat, la qual cosa redueix el cost total dels interessos."
+    },
+    {
+     "q": "Puc afegir diners que dec a familiars o amics?",
+     "a": "Sí. Els deutes personals es poden afegir amb o sense interessos i s'integren dins del mateix pla."
+    },
+    {
+     "q": "El pla de deutes és gratuït?",
+     "a": "Pots començar de franc. La versió Premium elimina els límits de la versió gratuïta, amb una setmana de prova sense cost."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Control de targetes de crèdit",
+   "screen": "07",
+   "footer": true,
+   "title": "Control de targetes de crèdit: tancaments i pagaments",
+   "description": "Controla les teves targetes de crèdit a Spendry: data de tancament, venciment, saldo i terminis, amb un recordatori abans de cada pagament.",
+   "h1": "Cada targeta de crèdit, el seu tancament i el seu pagament",
+   "lead": "Spendry sap quan tanca el cicle de cada targeta i quan venç, manté el saldo i els terminis al dia i t'avisa abans del pagament perquè cap targeta no et sorprengui.",
+   "points": [
+    {
+     "h": "Dates de tancament i de pagament de cada targeta",
+     "p": "Afegeix les targetes un cop amb el dia de tancament i el dia de pagament. Spendry et mostra què deus a cadascuna i quan ho has de pagar."
+    },
+    {
+     "h": "Terminis a les teves targetes",
+     "p": "Les compres dividides a terminis mostren quantes quotes et queden i el mes de l'últim pagament."
+    },
+    {
+     "h": "Pagament mínim o total",
+     "p": "Registra un pagament i el saldo s'actualitza a l'instant. La nostra eina gratuïta per amortitzar targetes et mostra el cost real de pagar només el mínim."
+    },
+    {
+     "h": "Un recordatori abans de cada venciment",
+     "p": "Rebràs notificacions abans de cada pagament, fins i tot amb l'aplicació tancada. Pots marcar el pagament com a fet directament des de la notificació."
+    }
+   ],
+   "steps_title": "Com controlar les teves targetes",
+   "steps": [
+    "Afegeix cada targeta amb el seu límit, dia de tancament i dia de pagament.",
+    "Apunta compres i terminis, o importa'ls dels missatges del banc.",
+    "Registra els pagaments que facis.",
+    "Deixa que els recordatoris t'avisin abans de cada venciment."
+   ],
+   "why_title": "Per què gestionar les targetes a Spendry",
+   "why": [
+    "Totes les targetes en una sola pantalla amb el total del deute.",
+    "La vostra data d'alliberament de deutes inclou les teves targetes.",
+    "Sense connectar al teu banc, no recopilem dades."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Quina diferència hi ha entre la data de tancament i la de pagament?",
+     "a": "La data de tancament finalitza el cicle de facturació i fixa el teu saldo pendent; la data de pagament és l'últim dia per abonar-lo sense interessos ni recàrrecs."
+    },
+    {
+     "q": "Em pot avisar abans de cada pagament?",
+     "a": "Sí. Rebràs una notificació abans de cada venciment, fins i tot si no obres mai l'aplicació, i pots marcar el pagament com a fet des de la notificació."
+    },
+    {
+     "q": "Puc fer el seguiment de compres a terminis?",
+     "a": "Sí. Cada pla a terminis mostra les quotes pendents i el mes en què faràs l'últim pagament."
+    },
+    {
+     "q": "Es connecta a la meva entitat financera?",
+     "a": "No. Spendry mai no demana les claus del teu banc. Afegeixes les targetes i anotes els pagaments tu mateix."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Recordatori de factures i pagaments",
+   "screen": "07",
+   "footer": true,
+   "title": "Recordatori de factures: no et descuidis cap pagament",
+   "description": "Spendry t'avisa abans de cada factura, targeta, préstec o subscripció, fins i tot sense obrir l'aplicació, per marcar-ho com a pagat a la notificació.",
+   "h1": "L'aplicació de recordatori de factures que arriba a temps",
+   "lead": "Spendry t'avisa abans de cada factura, pagament de targeta, quota de préstec i subscripció, fins i tot sense obrir l'aplicació. Ajorna el recordatori o marca el rebut com a pagat des de la notificació.",
+   "points": [
+    {
+     "h": "Tots els venciments en una sola llista",
+     "p": "Factures, targetes, quotes de préstecs i subscripcions reunides en una llista de propers pagaments, amb els pagaments vençuts a dalt de tot."
+    },
+    {
+     "h": "Avisos sense necessitat d'obrir l'aplicació",
+     "p": "Les notificacions es programen al teu iPhone i arriben abans de cada data límit. Són de notificació urgent, de manera que poden entrar amb un mode de concentració si ho permets."
+    },
+    {
+     "h": "Pagat o ajornat amb un sol toc",
+     "p": "Marca un pagament com a pagat o posposa'l des de la mateixa notificació. Registrar el pagament actualitza el teu saldo i els teus pressupostos."
+    },
+    {
+     "h": "Un resum matinal si tu vols",
+     "p": "Una automatització a punt per a Dreceres t'envia cada matí els pagaments dels propers tres dies en una sola notificació."
+    }
+   ],
+   "steps_title": "Com configurar els teus recordatoris",
+   "steps": [
+    "Afegeix les teves factures, targetes, préstecs i subscripcions amb les seves dates de pagament.",
+    "Tria quants dies abans vols rebre el recordatori.",
+    "Paga o posposa directament des de la notificació.",
+    "Consulta la llista de propers pagaments sempre que vulguis una visió general."
+   ],
+   "why_title": "Per què funciona",
+   "why": [
+    "Un sol lloc per a cada tipus de despesa, sense una aplicació per a cada factura.",
+    "Els avisos arriben fins i tot amb Spendry tancada.",
+    "Les dades es queden al teu iPhone; no recopilem res."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Rebré notificacions si no obro mai l'aplicació?",
+     "a": "Sí. Els recordatoris es programen al teu iPhone i arriben a temps encara que Spendry estigui tancada."
+    },
+    {
+     "q": "Puc escollir amb quant de temps m'ha d'avisar?",
+     "a": "Sí. Tria quants dies abans de la data de venciment vols rebre el recordatori."
+    },
+    {
+     "q": "També em pot avisar de les subscripcions?",
+     "a": "Sí. Rebràs avisos per a subscripcions, factures, pagaments de targetes i quotes de préstecs."
+    },
+    {
+     "q": "Cal connexió a internet per rebre els avisos?",
+     "a": "No. Els recordatoris estan programats directament al teu dispositiu."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Control de subscripcions mensuals",
+   "screen": "09",
+   "footer": true,
+   "title": "Control de subscripcions: descobreix quant pagues",
+   "description": "Controla les teves subscripcions a Spendry: cost mensual i anual, propera renovació i avisos a temps per donar de baixa el que ja no fas servir.",
+   "h1": "Un gestor de subscripcions que calcula el teu total anual",
+   "lead": "Afegeix les teves subscripcions un cop i Spendry et mostrarà quant et costen cada mes i cada any, quan es renova cadascuna i t'avisarà abans del cobrament perquè puguis cancel·lar a temps.",
+   "points": [
+    {
+     "h": "Totals mensuals i anuals",
+     "p": "Les quotes setmanals, mensuals i anuals es consoliden en una sola xifra al mes i a l'any, perquè cap petit càrrec no passi desapercebut."
+    },
+    {
+     "h": "Un recordatori abans de cada renovació",
+     "p": "Rep una notificació uns dies abans que es renovi una subscripció, quan encara ets a temps de donar-la de baixa."
+    },
+    {
+     "h": "Pregunta de manera natural",
+     "p": "Pregunta a l'assistent de Spendry quant pagues l'any en subscripcions i obtindràs la suma total acompanyada de la llista completa."
+    },
+    {
+     "h": "Integrades al teu pressupost general",
+     "p": "Les subscripcions es computen als teus pressupostos i a les despeses vinents, per tenir-les sempre a la vista al costat de tota la resta."
+    }
+   ],
+   "steps_title": "Com fer el seguiment de les teves subscripcions",
+   "steps": [
+    "Afegeix cada subscripció amb el preu, el cicle de cobrament i el dia de renovació.",
+    "Consulta els totals mensuals i anuals.",
+    "Activa els recordatoris abans de cada renovació.",
+    "Cancel·la el que ja no utilitzis i mira com baixa la despesa total."
+   ],
+   "why_title": "Per què et serà útil",
+   "why": [
+    "Subscripcions de qualsevol proveïdor, no només d'App Store.",
+    "Sense connectar al teu banc: afegeix cadascuna un sol cop.",
+    "Una eina gratuïta al nostre web per calcular el cost de les teves subscripcions."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Spendry detecta les meves subscripcions automàticament?",
+     "a": "No. Com que no es connecta al teu banc, afegeixes cada subscripció un cop. A partir d'aquí en gestiona els totals i les renovacions per tu."
+    },
+    {
+     "q": "Puc fer el seguiment de subscripcions anuals?",
+     "a": "Sí. S'admeten quotes setmanals, mensuals i anuals, i es mostren calculades en totals per mes i per any."
+    },
+    {
+     "q": "M'avisarà abans de la renovació d'una subscripció?",
+     "a": "Sí, uns quants dies abans de cada renovació, fins i tot si no obres l'aplicació."
+    },
+    {
+     "q": "Com puc cancel·lar una subscripció al meu iPhone?",
+     "a": "Les subscripcions d'App Store es cancel·len a l'app Configuració, tocant el teu nom i entrant a Subscripcions. Els altres serveis es donen de baixa al seu propi web o app."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Control de despeses",
+   "screen": "03",
+   "title": "Control de despeses per a iPhone: Spendry",
+   "description": "Apunta una despesa en segons, amb widgets, Siri o Apple Pay, i consulta gràfics per categoria. Sense connectar el banc ni recollir dades.",
+   "h1": "Un control de despeses que només costa uns segons",
+   "lead": "Posa l'import, tria la categoria i llestos. O demana-ho a Siri, utilitza un widget o deixa que les compres amb Apple Pay s'apuntin soles. Sabràs on van els diners.",
+   "points": [
+    {
+     "h": "Ràpid d'afegir, com més t'agradi",
+     "p": "Afegeix despeses des de l'aplicació, amb un widget a la pantalla d'inici, amb Siri o amb Dreceres, i guarda el tiquet escanejat amb la despesa."
+    },
+    {
+     "h": "Gràfics que resolen dubtes",
+     "p": "Vistes setmanals i mensuals per categoria i per dia, la mitjana diària i el teu ritme de despesa comparat amb el període anterior."
+    },
+    {
+     "h": "Els pressupostos t'avisen a temps",
+     "p": "Les despeses omplen el pressupost de cada categoria i Spendry t'avisa abans que s'esgoti."
+    },
+    {
+     "h": "Les teves pròpies categories",
+     "p": "Crea les categories que necessitis, amb el teu nom i la teva icona, sense dependre d'una llista fixa."
+    }
+   ],
+   "steps_title": "Com començar a controlar les despeses",
+   "steps": [
+    "Afegeix les primeres despeses des de l'aplicació o amb un widget.",
+    "Crea pressupostos per a les categories importants.",
+    "Activa l'automatització d'Apple Pay si pagues amb el telèfon.",
+    "Revisa els gràfics cada setmana."
+   ],
+   "why_title": "Per què Spendry",
+   "why": [
+    "Sense connectar el banc ni recollir dades.",
+    "Widgets, Siri i Dreceres per afegir despeses.",
+    "Funciona amb qualsevol moneda i en 44 idiomes."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Puc afegir una despesa sense obrir l'aplicació?",
+     "a": "Sí. Fes servir un widget a la pantalla d'inici, demana-ho a Siri o deixa que una automatització de Dreceres registri les compres d'Apple Pay."
+    },
+    {
+     "q": "Puc guardar tiquets?",
+     "a": "Sí. Fes servir l'opció Escaneja el tiquet en afegir una despesa i es guardarà juntament amb ella."
+    },
+    {
+     "q": "Funciona amb qualsevol moneda?",
+     "a": "Sí. Tria la teva moneda en començar. Les inversions i els comptes en divises estrangeres poden tenir la seva pròpia."
+    },
+    {
+     "q": "És de franc?",
+     "a": "Sí, les funcions principals són gratuïtes. La versió Premium és opcional, amb una setmana de prova gratuïta."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Control de pagaments a terminis",
+   "screen": "06",
+   "title": "Control de pagaments a terminis: Spendry",
+   "description": "Porta el control de compres a terminis a Spendry: quotes pendents, import mensual, data final i recordatoris abans de cada pagament.",
+   "h1": "Tots els terminis i el mes que s'acaben",
+   "lead": "Els terminis de les targetes i les compres fraccionades sumen sense fer soroll. Spendry mostra quantes quotes et queden, quant pagues cada mes i quan fas l'última.",
+   "points": [
+    {
+     "h": "El que deus cada mes a terminis",
+     "p": "Consulta el total de quotes que vencen aquest mes i els mesos vinents, per no acumular noves compres sense voler."
+    },
+    {
+     "h": "La data final de cada pla",
+     "p": "Cada pla mostra els pagaments que et queden i el mes de l'última quota."
+    },
+    {
+     "h": "Recordatoris abans de cada pagament",
+     "p": "Rebràs un avís abans del venciment de cada quota, fins i tot amb l'aplicació tancada."
+    },
+    {
+     "h": "Forma part de la teva data sense deutes",
+     "p": "Els terminis compten per al teu deute total i el teu pla de pagament."
+    }
+   ],
+   "steps_title": "Com portar el control dels terminis",
+   "steps": [
+    "Afegeix una compra amb el total, el nombre de quotes i la data del primer pagament.",
+    "Consulta la quota mensual i la data final.",
+    "Apunta cada quota o marca-la com a pagada des de l'avís.",
+    "Revisa el total mensual a terminis abans de comprar res de nou."
+   ],
+   "why_title": "Per què ajuda",
+   "why": [
+    "Tots els terminis i pagaments fraccionats en un sol lloc.",
+    "Els terminis es mostren amb els pressupostos i altres deutes per veure la despesa real del mes.",
+    "Sense connectar el banc ni recollir dades."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Puc fer el seguiment de compres fraccionades?",
+     "a": "Sí. Afegeix qualsevol pla amb el total, les quotes i la primera data. Spendry s'encarrega de la resta."
+    },
+    {
+     "q": "Mostra el total que pago a terminis cada mes?",
+     "a": "Sí. Pots veure el total de quotes d'aquest mes i el que vindrà els mesos següents."
+    },
+    {
+     "q": "Rebré un avís abans de cada quota?",
+     "a": "Sí, abans de cada venciment, fins i tot sense obrir l'aplicació."
+    },
+    {
+     "q": "Els terminis afecten la data en què quedaré sense deutes?",
+     "a": "Sí. Formen part del deute total i del teu pla per pagar-lo."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Objectius d'estalvi",
+   "screen": "05",
+   "title": "Objectius d'estalvi: estalvia amb Spendry",
+   "description": "Defineix objectius d'estalvi a Spendry, afegeix diners, mira el progrés diari i comparteix metes amb qui vulguis mitjançant iCloud.",
+   "h1": "Una aplicació d'objectius d'estalvi per motivar-te",
+   "lead": "Assigna un import a cada meta i afegeix-hi diners quan estalviïs. Spendry mostra cada dia com de prop estàs d'aconseguir-ho, a l'aplicació i a la pantalla d'inici.",
+   "points": [
+    {
+     "h": "Un objectiu clar",
+     "p": "Cada meta té un import i una barra de progrés que indiquen el que et falta estalviar."
+    },
+    {
+     "h": "A la pantalla d'inici",
+     "p": "Un widget d'objectiu et mostra el progrés en tot moment per tenir l'estalvi present."
+    },
+    {
+     "h": "Estalvieu plegats",
+     "p": "Comparteix un objectiu amb la parella o la família a través d'iCloud. Cadascú hi aporta des del seu iPhone."
+    },
+    {
+     "h": "Al costat del teu pressupost",
+     "p": "Els diners que destines als teus objectius formen part del mes, al costat de pressupostos i pagaments."
+    }
+   ],
+   "steps_title": "Com estalviar per a un objectiu",
+   "steps": [
+    "Crea un objectiu amb l'import que vols assolir.",
+    "Afegeix-hi diners cada vegada que estalviïs.",
+    "Segueix el progrés a l'aplicació o amb el widget.",
+    "Comparteix-lo si estalvies amb algú altre."
+   ],
+   "why_title": "Per què ajuda",
+   "why": [
+    "Els objectius conviuen amb els teus pressupostos i deutes.",
+    "Els objectius compartits se sincronitzen amb iCloud.",
+    "Eina gratuïta d'objectius d'estalvi en aquest web."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Puc tenir més d'un objectiu?",
+     "a": "Sí. Crea un objectiu per a cada fita i aporta diners a cadascun per separat."
+    },
+    {
+     "q": "Puc compartir un objectiu amb la parella?",
+     "a": "Sí. Els objectius compartits se sincronitzen per iCloud i cadascú utilitza el seu Compte d'Apple."
+    },
+    {
+     "q": "Hi ha cap widget per als objectius?",
+     "a": "Sí. Un widget d'objectiu mostra el teu progrés directament a la pantalla d'inici."
+    },
+    {
+     "q": "Quant hauria d'estalviar cada mes?",
+     "a": "Divideix el que falta entre els mesos restants. L'eina gratuïta d'objectius d'estalvi d'aquest web ho calcula, amb interessos si en tens."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Control del valor net",
+   "screen": "08",
+   "title": "Controla el teu valor net amb preus en directe",
+   "description": "Segueix el teu valor net a Spendry: comptes, inversions, or i divises amb preus en directe, restant targetes i deutes, en una sola xifra.",
+   "h1": "El teu valor net, en una sola xifra sempre al dia",
+   "lead": "Spendry suma els teus comptes i inversions, resta el que deus i et mostra el teu valor net. Les accions, criptomonedes, or i divises s'actualitzen amb preus de mercat en directe.",
+   "points": [
+    {
+     "h": "Tot el que tens i el que deus",
+     "p": "Efectiu, comptes, inversions i estalvis davant de targetes, préstecs, terminis i deutes personals."
+    },
+    {
+     "h": "Preus en directe",
+     "p": "Accions, criptomonedes, or i divises s'actualitzen amb preus de mercat en directe al costat de les teves despeses."
+    },
+    {
+     "h": "Inversions en la seva pròpia divisa",
+     "p": "Les inversions i els comptes en divisa estrangera mantenen la seva moneda; el teu valor net es mostra en la teva."
+    },
+    {
+     "h": "A la teva pantalla d'inici",
+     "p": "Un giny de valor net manté la xifra sempre a la vista."
+    }
+   ],
+   "steps_title": "Com fer el seguiment del teu valor net",
+   "steps": [
+    "Afegeix els teus comptes i els seus saldos.",
+    "Afegeix les inversions amb la quantitat que tens.",
+    "Afegeix els teus deutes.",
+    "Consulta el teu valor net a mesura que canvien els preus i els saldos."
+   ],
+   "why_title": "Per què Spendry",
+   "why": [
+    "Deutes i inversions a la mateixa app que el teu pressupost.",
+    "Sense connectar amb el banc ni amb el teu intermediari financer.",
+    "Dades no recopilades."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Quines inversions puc seguir?",
+     "a": "Accions, criptomonedes, or i divises, amb preus en directe."
+    },
+    {
+     "q": "Es connecta amb el meu intermediari financer?",
+     "a": "No. Afegeixes el que tens i els preus s'actualitzen tots sols."
+    },
+    {
+     "q": "He d'incloure el meu habitatge o el cotxe?",
+     "a": "Moltes persones només segueixen el que canvia mes a mes: efectiu, inversions i deutes. Afegeix més coses si et serveix."
+    },
+    {
+     "q": "Hi ha un giny de valor net?",
+     "a": "Sí, per a la teva pantalla d'inici."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "App de pressupost compartit",
+   "screen": "04",
+   "title": "App de pressupost compartit per a parelles",
+   "description": "Comparteix pressupostos i estalvis amb la teva parella a Spendry. Cadascú des del seu iPhone i compte d'Apple, sincronitzat amb iCloud.",
+   "h1": "Una app de pressupost compartit per a parelles i famílies",
+   "lead": "Comparteix un pressupost o un objectiu d'estalvi amb la teva parella o família. Cadascú afegeix despeses des del seu propi iPhone, i Spendry ho manté sincronitzat amb iCloud, sense necessitat de crear cap compte nou.",
+   "points": [
+    {
+     "h": "Comparteix només el que vulguis",
+     "p": "Comparteix el pressupost de la llar o un objectiu concret i mantén la resta dels teus diners en privat."
+    },
+    {
+     "h": "Cadascú afegeix des del seu propi telèfon",
+     "p": "Cada persona fa servir el seu compte d'Apple; els pressupostos i objectius compartits s'actualitzen per a tothom."
+    },
+    {
+     "h": "Sense comptes nous ni servidors",
+     "p": "La compartició funciona a través d'iCloud. Spendry no té cap sistema de comptes ni recopila dades."
+    },
+    {
+     "h": "Un sol objectiu, entre tots",
+     "p": "Estalvieu per a unes vacances o un habitatge plegats; cada aportació fa créixer el mateix objectiu."
+    }
+   ],
+   "steps_title": "Com compartir un pressupost",
+   "steps": [
+    "Crea un pressupost o un objectiu.",
+    "Comparteix-lo des de Spendry amb la teva parella o família.",
+    "Accepten la invitació al seu propi iPhone.",
+    "Tothom afegeix despeses o estalvis, i tot es manté sincronitzat."
+   ],
+   "why_title": "Per què compartir amb Spendry",
+   "why": [
+    "Els teus altres pressupostos i deutes es mantenen privats.",
+    "Sense registres extres: compartir funciona a través d'iCloud.",
+    "Dades no recopilades."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "La meva parella també necessita Spendry?",
+     "a": "Sí, al seu propi iPhone o iPad, amb el seu propi compte d'Apple."
+    },
+    {
+     "q": "La meva parella podrà veure totes les meves despeses?",
+     "a": "No. Només es comparteixen els pressupostos i objectius que tu tries; la resta es manté privat."
+    },
+    {
+     "q": "Com funciona la compartició?",
+     "a": "A través de la funció de compartir d'iCloud. No hi ha cap compte ni servidor de Spendry entremig."
+    },
+    {
+     "q": "Puc compartir amb més d'una persona?",
+     "a": "Sí. Pots convidar diversos membres de la família a un pressupost o objectiu compartit."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Control de préstecs",
+   "screen": "06",
+   "title": "Control de préstecs: saldo, quotes i interessos",
+   "description": "Controla cada préstec a Spendry: el saldo pendent, interessos i amortització de cada quota, els terminis que queden i avisos abans de pagar.",
+   "h1": "Un seguiment de préstecs que mostra què pagues realment",
+   "lead": "Afegeix un préstec una sola vegada i Spendry et mostra el saldo restant, quina part de cada quota són interessos, quantes quotes et queden i t'avisa abans de cada pagament.",
+   "points": [
+    {
+     "h": "Tot el calendari d'amortització",
+     "p": "Cada quota amb els seus interessos i capital amortitzat, perquè vegis què costa realment el préstec."
+    },
+    {
+     "h": "Quotes restants i data final",
+     "p": "El nombre de quotes que et queden i el mes de l'últim pagament."
+    },
+    {
+     "h": "Recordatoris abans de cada quota",
+     "p": "Rebràs una notificació abans de cada data de venciment, fins i tot si l'app està tancada."
+    },
+    {
+     "h": "Part del teu pla contra els deutes",
+     "p": "Els préstecs s'inclouen al teu deute total i al càlcul de la vostra data d'alliberament de deutes."
+    }
+   ],
+   "steps_title": "Com fer el seguiment d'un préstec",
+   "steps": [
+    "Afegeix el préstec amb l'import, el tipus d'interès, el termini i la data del primer pagament.",
+    "Revisa el calendari i el cost total.",
+    "Apunta els pagaments a mesura que els facis.",
+    "Segueix la vostra data d'alliberament de deutes."
+   ],
+   "why_title": "Per què Spendry",
+   "why": [
+    "Préstecs personals, d'automòbil, hipoteques i estudis en un sol lloc.",
+    "Sense connectar amb el banc, sense dades recopilades.",
+    "Una eina gratuïta per a préstecs disponible en aquest web."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Quins préstecs puc registrar?",
+     "a": "Personals, per a vehicles, hipoteques, d'estudis o qualsevol altre préstec a terminis, a més de diners que hagis de tornar a coneguts."
+    },
+    {
+     "q": "Mostra quants interessos pago?",
+     "a": "Sí. Pots veure els interessos de cada quota i el total de tot el préstec."
+    },
+    {
+     "q": "M'avisarà abans de cada pagament?",
+     "a": "Sí, abans de cada venciment, fins i tot si mai no obres l'app."
+    },
+    {
+     "q": "Es connecta amb l'entitat que m'ha deixat els diners?",
+     "a": "No. Introdueixes el préstec una sola vegada i Spendry en calcula el calendari."
+    }
+   ]
+  }
+ ]
 }

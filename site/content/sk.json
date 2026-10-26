@@ -1553,5 +1553,835 @@
    "final_title": "Majte každú platbu pod kontrolou s predstihom.",
    "final_text": "Stiahnite si Spendry, pridajte svoje Predplatné a nechajte sa včas upozorniť na každé predĺženie."
   }
- }
+ },
+ "app_labels": {
+  "free": "Zadarmo v App Store. Premium je voliteľné, s bezplatným týždňom.",
+  "more": "Čo všetko Spendry dokáže",
+  "cta": "Stiahnite si Spendry a majte celý mesiac na jednom mieste.",
+  "tools_title": "Bezplatné kalkulačky",
+  "guides_title": "Návody"
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "Aplikácia na rozpočet",
+   "screen": "04",
+   "footer": true,
+   "title": "Aplikácia na rozpočet: Spendry pre iPhone",
+   "description": "Spendry je aplikácia na rozpočet pre iPhone a iPad. Sledujte výdavky, karty, úvery aj faktúry na jednom mieste a bez prihlasovania do banky.",
+   "h1": "Aplikácia na rozpočet, ktorá myslí dopredu",
+   "lead": "Spendry určí každej kategórii limit, upozorní vás pred jeho vyčerpaním a ukáže faktúry, platby kartou aj splátky do konca mesiaca. Bez prihlásenia do banky.",
+   "points": [
+    {
+     "h": "Rozpočty, ktoré s vami držia krok",
+     "p": "Nastavte si mesačný limit na potraviny, reštaurácie alebo čokoľvek iné. Každý výdavok zapĺňa svoj rozpočet a Spendry vás varuje ešte pred dosiahnutím limitu, nie až po ňom."
+    },
+    {
+     "h": "Zvyšok mesiaca pekne vopred",
+     "p": "Výpisy z kariet, splátky úverov, faktúry a predplatné splatné pred výplatou vidíte hneď vedľa zostatku. Vždy tak viete, koľko vám naozaj zostáva."
+    },
+    {
+     "h": "Pridanie výdavku za pár sekúnd",
+     "p": "Zadajte sumu a vyberte kategóriu, zvoľte Skenovať bloček, pridajte položku z widgetu alebo nechajte automatizácie v aplikácii Skratky zapisovať platby cez Apple Pay."
+    },
+    {
+     "h": "Majte prehľad, kam peniaze odchádzajú",
+     "p": "Týždenné a mesačné grafy podľa kategórií a dní v sekcii Štatistiky ukážu, ktoré rozpočty pretekajú a ako si stojíte v porovnaní s minulým mesiacom."
+    }
+   ],
+   "steps_title": "Ako začať s rozpočtom v Spendry",
+   "steps": [
+    "Pridajte svoje príjmy a účty alebo karty, z ktorých platíte.",
+    "Vytvorte Rozpočty pre najčastejšie kategórie a nastavte im limity.",
+    "Zapisujte výdavky priebežne alebo zapnite automatizáciu pre Apple Pay.",
+    "Na konci mesiaca skontrolujte grafy a upravte limity na ďalší mesiac."
+   ],
+   "why_title": "Prečo si vybrať Spendry",
+   "why": [
+    "Žiadne prihlasovanie do banky: sami rozhodujete, čo zapíšete, a nič sa nepripája k vášmu účtu.",
+    "Vaše dáta zostávajú vo vašom iPhone a na vašom vlastnom iCloude, nič sa nezhromažďuje.",
+    "Dlhy, Kreditné karty a Splátky máte priamo pri rozpočte, nie v inej aplikácii.",
+    "Stiahnutie zadarmo s voliteľným predplatným Premium."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Je Spendry bezplatná aplikácia na rozpočet?",
+     "a": "Áno. Rozpočty, výdavky, Pripomienky a základné funkcie sú zadarmo. Premium je voliteľné: mesačne alebo ročne s bezplatným týždňom, prípadne ako jednorazový nákup na celý život."
+    },
+    {
+     "q": "Potrebuje Spendry prístup k môjmu bankovému účtu?",
+     "a": "Nie. Nikdy nežiada prihlasovacie údaje do banky. Výdavky pridávate sami, importujete ich zo správ z banky alebo necháte nákupy cez Apple Pay zapisovať pomocou aplikácie Skratky."
+    },
+    {
+     "q": "Môžem zdieľať rozpočet s partnerom?",
+     "a": "Áno. Funkcia Zdieľaný rozpočet a Ciele sa synchronizujú cez iCloud, pričom každý používa svoj vlastný Apple účet."
+    },
+    {
+     "q": "Na ktorých zariadeniach aplikácia funguje?",
+     "a": "Na zariadeniach iPhone a iPad so systémom iOS 17 alebo novším. K dispozícii je aj verzia pre Mac v Mac App Store."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Rozpočet bez banky",
+   "screen": "02",
+   "footer": true,
+   "title": "Rozpočet bez napojenia na banku: Spendry",
+   "description": "Aplikácia na rozpočet bez prihlasovania do banky. Zapisujte výdavky sami alebo cez Apple Pay. Vaše dáta zostávajú bezpečne vo vašom iPhone.",
+   "h1": "Aplikácia na rozpočet bez prihlasovania do banky",
+   "lead": "Mnoho aplikácií vyžaduje heslo k vášmu bankovníctvu. Spendry sa k banke vôbec nepripája: sami určujete záznamy a dáta zostávajú vo vašom iPhone a na vašom iCloude.",
+   "points": [
+    {
+     "h": "Žiadne prepojenie s vašou bankou",
+     "p": "Žiadne prihlasovacie údaje, žiadne prepájanie účtov ani registrácia. Spendry funguje rovnako v každej krajine, s akoukoľvek bankou, kartou aj menou."
+    },
+    {
+     "h": "Zapisovanie výdavkov zostáva rýchle",
+     "p": "Zadajte sumu, využite možnosť Skenovať bloček, pridajte položku cez Widgety na ploche alebo použite Siri. Záznamy môžete vytvoriť aj zo správ od banky."
+    },
+    {
+     "h": "Platby cez Apple Pay sa zapíšu samy",
+     "p": "Zapnite si pripravené Automatizácie v aplikácii Skratky a každý nákup cez Apple Pay sa automaticky pridá do Spendry aj so správnou sumou."
+    },
+    {
+     "h": "Dáta sa nezhromažďujú",
+     "p": "Žiadne reklamy, žiadna analytika ani sledovanie. V App Store máme označenie Žiadne zhromažďované údaje a bezpečnosť zaistí Zámok aplikácie cez Face ID."
+    }
+   ],
+   "steps_title": "Ako to funguje bez prepojenia s bankou",
+   "steps": [
+    "Pridajte svoje karty, úvery a účty s ich aktuálnymi zostatkami.",
+    "Zaznamenajte výdavky pri platení alebo ich vložte zo správ z banky.",
+    "Zapnite automatizáciu platieb Apple Pay v aplikácii Skratky.",
+    "Sledujte zostatok aj Rozpočty, Pripomienky vás včas upozornia na splatnosť."
+   ],
+   "why_title": "Prečo zvoliť správu financií bez banky",
+   "why": [
+    "Vaše bankové heslá nikdy neopustia vaše zariadenie.",
+    "Žiadne výpadky spojenia ani chýbajúce platby pri zmenách v systémoch banky.",
+    "Funguje s každou bankou, vrátane tých, ktoré bežné aplikácie nepodporujú.",
+    "Keď výdavok zapíšete vlastnoručne, oveľa lepšie si ho uvedomíte."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Prečo sa Spendry nepripája k mojej banke?",
+     "a": "Aby vaše prihlasovacie údaje ani platby nikdy neprechádzali cez cudzie servery. Všetky záznamy zostávajú vo vašom iPhone a na vašom vlastnom iCloude."
+    },
+    {
+     "q": "Nie je ručné zapisovanie výdavkov príliš pomalé?",
+     "a": "Trvá to len pár sekúnd. Pri platbách cez Apple Pay môžete využiť Skratky, pridať výdavok cez widget, použiť Siri alebo vložiť text správy z banky."
+    },
+    {
+     "q": "Dokáže Spendry čítať správy z mojej banky?",
+     "a": "Samo o sebe nie. Správu od banky do Spendry sami skopírujete alebo zazdieľate a aplikácia z nej vytvorí hotový výdavok."
+    },
+    {
+     "q": "Sú moje dáta v bezpečí?",
+     "a": "Spendry nezhromažďuje žiadne údaje. Záznamy sú uložené vo vašom zariadení, synchronizujú sa cez váš vlastný iCloud a prístup chráni Zámok aplikácie cez Face ID."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "Splácanie dlhov",
+   "screen": "06",
+   "footer": true,
+   "title": "Splácanie dlhov: Plán a kalkulačka v Spendry",
+   "description": "Zostavte si plán splácania dlhov metódou snehovej gule alebo lavíny. Zistite presný dátum, kedy budete bez dlhov. Všetky úvery a karty na jednom mieste.",
+   "h1": "Aplikácia na splácanie dlhov s presným termínom",
+   "lead": "Zadajte všetky záväzky. Spendry ich usporiada metódou Snehová guľa alebo Lavína, pripočíta vaše mimoriadne splátky a ukáže mesiac, kedy budete úplne bez dlhov.",
+   "points": [
+    {
+     "h": "Všetky záväzky v jednom čísle",
+     "p": "Kreditné karty, Úvery, Prečerpanie (Povolený debet), Splátky aj pôžičky od známych. Celkový dlh aj mesačné platby uvidíte prehľadne na jednom mieste."
+    },
+    {
+     "h": "Snehová guľa alebo lavína, voľba je vaša",
+     "p": "Splácajte najprv najmenší zostatok pre rýchlu motiváciu, alebo najvyšší úrok pre najnižšie preplatenie. Spendry obe stratégie porovná a plán priebežne aktualizuje."
+    },
+    {
+     "h": "Dátum, ktorý reaguje na vaše tempo",
+     "p": "Zapíšte uhradenú splátku alebo pošlite mimoriadnu platbu a váš Dátum, kedy budete bez dlhov, sa okamžite posunie bližšie."
+    },
+    {
+     "h": "Pripomienky pred každou splatnosťou",
+     "p": "Upozornenie príde pred každou platbou, aj keď je aplikácia zatvorená. Vďaka tomu nezmeškáte žiadnu minimálnu splátku a vyhnete sa poplatkom."
+    }
+   ],
+   "steps_title": "Ako funguje plán splácania",
+   "steps": [
+    "Pridajte každý dlh, jeho zostatok, úrokovú sadzbu a minimálnu splátku.",
+    "Zvoľte stratégiu Snehová guľa alebo Lavína.",
+    "Nastavte sumu, ktorú môžete každý mesiac zaplatiť navyše.",
+    "Zapisujte jednotlivé platby a sledujte, ako sa termín približuje."
+   ],
+   "why_title": "V čom je Spendry iné",
+   "why": [
+    "Karty, úvery aj splátky sleduje do detailu, nielen ako jedno spoločné číslo.",
+    "Žiadne prihlasovanie do banky a žiadne zhromažďovanie osobných údajov.",
+    "Bezplatné kalkulačky na tomto webe používajú rovnaké postupy, takže si čísla môžete overiť vopred."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Čo je metóda snehovej gule?",
+     "a": "Pri každom dlhu platíte minimum a všetky peniaze navyše smerujete na najmenší zostatok. Po jeho splatení presuniete celú čiastku na ďalší dlh v poradí."
+    },
+    {
+     "q": "Čo je metóda lavíny?",
+     "a": "Peniaze navyše posielate prednostne na dlh s najvyšším úrokom. Vďaka tomu spravidla zaplatíte na úrokoch najmenej peňazí."
+    },
+    {
+     "q": "Môžem sledovať aj peniaze požičané od známych?",
+     "a": "Áno. Osobné pôžičky môžete pridať s úrokom aj bez úroku a zaradiť ich do rovnakého plánu splácania."
+    },
+    {
+     "q": "Je plán splácania dlhov zadarmo?",
+     "a": "Začať môžete bezplatne. Verzia Premium odstraňuje limity bezplatnej verzie a môžete si ju vyskúšať na týždeň zadarmo."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Správa kreditných kariet",
+   "screen": "07",
+   "footer": true,
+   "title": "Kreditné karty: splatnosť, zostatky a splátky",
+   "description": "Majte prehľad o každej kreditnej karte. Dátumy uzávierky, splatnosť, zostatky, splátky a včasné pripomienky pred každou platbou.",
+   "h1": "Každá kreditná karta, jej uzávierka a splatnosť",
+   "lead": "Spendry vie, kedy sa končí zúčtovacie obdobie každej karty a kedy je jej splatnosť. Udržiava zostatky a splátky aktuálne a upozorní vás pred platbou.",
+   "points": [
+    {
+     "h": "Dátumy uzávierky a splatnosti pre každú kartu",
+     "p": "Zadajte svoje karty s dňom uzávierky a dňom splatnosti. Spendry vám ukáže, koľko na ktorej dlhujete a kedy je potrebné zaplatiť."
+    },
+    {
+     "h": "Splátky na vašich kartách",
+     "p": "Nákupy rozdelené na splátky prehľadne zobrazujú počet zostávajúcich platieb aj mesiac, kedy uhradíte poslednú."
+    },
+    {
+     "h": "Minimálna alebo plná splátka",
+     "p": "Zaevidujte platbu a zostatok sa hneď upraví. Bezplatná kalkulačka splácania kariet vám ukáže, čo stojí dlhodobé platenie iba minimálnej splátky."
+    },
+    {
+     "h": "Pripomienka pred splatnosťou",
+     "p": "Upozornenia chodia pred každou platbou, aj keď je aplikácia zatvorená. Platbu môžete označiť ako vybavenú priamo z hlásenia."
+    }
+   ],
+   "steps_title": "Ako sledovať svoje karty",
+   "steps": [
+    "Pridajte každú kartu s jej limitom, dňom uzávierky a dňom splatnosti.",
+    "Zaznamenávajte nákupy a splátky, alebo ich načítajte zo správ od banky.",
+    "Zapisujte platby hneď, ako ich uhradíte.",
+    "Pripomienky vás včas upozornia pred každým dňom splatnosti."
+   ],
+   "why_title": "Prečo sledovať karty v Spendry",
+   "why": [
+    "Všetky karty na jednej obrazovke s celkovou dlžnou sumou.",
+    "Dátum, kedy budete bez dlhov, zahŕňa aj vaše karty.",
+    "Žiadne prihlasovanie do banky, žiadne zhromažďovanie údajov."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Aký je rozdiel medzi dátumom uzávierky a dátumom splatnosti?",
+     "a": "Dátum uzávierky uzatvára zúčtovacie obdobie a určuje dlžnú sumu. Dátum splatnosti je posledný deň na jej zaplatenie bez úrokov či poplatkov z omeškania."
+    },
+    {
+     "q": "Upozorní ma aplikácia pred každou platbou kartou?",
+     "a": "Áno. Upozornenie dostanete pred každým dňom splatnosti, aj keď aplikáciu vôbec neotvoríte. Platbu navyše môžete vybaviť priamo z hlásenia."
+    },
+    {
+     "q": "Môžem sledovať aj splátky na karte?",
+     "a": "Áno. Pri každom splátkovom pláne vidíte zostávajúci počet platieb a mesiac poslednej splátky."
+    },
+    {
+     "q": "Pripája sa aplikácia k mojej banke?",
+     "a": "Nie. Spendry nikdy nežiada prihlasovacie údaje do banky. Karty aj platby si pridávate sami."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Pripomienky faktúr a platieb",
+   "screen": "07",
+   "footer": true,
+   "title": "Pripomienky platieb a faktúr: plaťte včas",
+   "description": "Spendry vás včas upozorní na faktúry, kreditné karty, splátky aj predplatné, aj keď aplikáciu neotvoríte. Označte ich ako zaplatené z hlásenia.",
+   "h1": "Pripomienky platieb, ktoré prídu vždy načas",
+   "lead": "Spendry vás upozorní pred každou faktúrou, platbou karty, splátkou úveru aj predplatným, aj keď aplikáciu neotvoríte. Odložte ich alebo označte ako zaplatené priamo z hlásenia.",
+   "points": [
+    {
+     "h": "Všetky termíny splatnosti v jednom zozname",
+     "p": "Faktúry, výpisy z kariet, splátky úverov a predplatné nájdete v jednom prehľade. Všetko po splatnosti je hneď navrchu."
+    },
+    {
+     "h": "Pripomienky, ktoré nepotrebujú otvorenú aplikáciu",
+     "p": "Hlásenia sú naplánované priamo vo vašom iPhone a prídu pred termínom splatnosti. Sú označené ako neodkladné, takže prejdú aj cez režim Môj čas, ak to povolíte."
+    },
+    {
+     "h": "Zaplatené alebo odložené jedným ťuknutím",
+     "p": "Označte platbu ako uhradenú alebo ju odložte priamo z hlásenia. Zaplatenie hneď upraví váš zostatok aj rozpočet."
+    },
+    {
+     "h": "Ranný prehľad podľa vášho výberu",
+     "p": "Pripravená automatizácia v aplikácii Skratky vám každé ráno pošle platby na najbližšie tri dni v jednom hlásení."
+    }
+   ],
+   "steps_title": "Ako nastaviť pripomienky",
+   "steps": [
+    "Pridajte faktúry, karty, úvery a predplatné s ich termínmi splatnosti.",
+    "Zvoľte, koľko dní vopred chcete dostať upozornenie.",
+    "Zaplaťte alebo odložte platbu priamo z hlásenia.",
+    "Pozrite si zoznam nadchádzajúcich platieb, kedykoľvek potrebujete ucelený prehľad."
+   ],
+   "why_title": "Prečo to funguje",
+   "why": [
+    "Jedno miesto na všetky druhy platieb namiesto osobitnej aplikácie pre každú vec.",
+    "Pripomienky chodia, aj keď Spendry vôbec neotvoríte.",
+    "Vaše údaje zostávajú vo vašom iPhone, nič sa nezhromažďuje."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Dostanem pripomienku, aj keď aplikáciu neotvorím?",
+     "a": "Áno. Pripomienky sú naplánované priamo vo vašom iPhone a prídu včas, aj keď Spendry zostane zatvorené."
+    },
+    {
+     "q": "Môžem si vybrať, kedy dostanem upozornenie?",
+     "a": "Áno. Nastavte si, koľko dní pred dňom splatnosti chcete dostať pripomienku."
+    },
+    {
+     "q": "Upozorní ma aplikácia aj na predplatné?",
+     "a": "Áno. Pripomienky fungujú pre predplatné, faktúry, platby kariet aj splátky úverov."
+    },
+    {
+     "q": "Potrebujú pripomienky internetové pripojenie?",
+     "a": "Nie. Sú naplánované lokálne vo vašom zariadení."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Správa predplatných",
+   "screen": "09",
+   "footer": true,
+   "title": "Správa predplatných: majte výdavky pod kontrolou",
+   "description": "Sledujte každé predplatné v Spendry. Mesačný a ročný súčet, dátum obnovenia a včasné pripomienky, aby ste zrušili to, čo už nepoužívate.",
+   "h1": "Správa predplatných s prehľadom ročných nákladov",
+   "lead": "Pridajte svoje predplatné a Spendry vám ukáže mesačné aj ročné náklady, dátumy obnovenia a včas vás upozorní, kým je ešte čas predplatné zrušiť.",
+   "points": [
+    {
+     "h": "Mesačné a ročné súčty",
+     "p": "Týždenné, mesačné aj ročné poplatky sa zhrnú do jedného mesačného a jedného ročného čísla, takže sa pred vami žiadne drobné neschovajú."
+    },
+    {
+     "h": "Pripomienka pred každým obnovením",
+     "p": "Dostaňte hlásenie niekoľko dní pred obnovením predplatného, kým ho ešte stíhate zrušiť."
+    },
+    {
+     "h": "Spýtajte sa bežnou rečou",
+     "p": "Opýtajte sa asistenta v Spendry, koľko platíte za predplatné ročne, a dostanete presnú sumu aj so zoznamom služieb."
+    },
+    {
+     "h": "Súčasť vášho celkového rozpočtu",
+     "p": "Predplatné sa započítava do vašich rozpočtov aj nadchádzajúcich platieb, takže ho vidíte spolu so všetkými ostatnými výdavkami."
+    }
+   ],
+   "steps_title": "Ako sledovať svoje predplatné",
+   "steps": [
+    "Pridajte každé predplatné s jeho cenou, obdobím a dátumom obnovenia.",
+    "Pozrite si celkové mesačné a ročné sumy.",
+    "Zapnite si pripomienky pred obnovením.",
+    "Zrušte služby, ktoré už nepoužívate, a sledujte, ako vám klesajú náklady."
+   ],
+   "why_title": "V čom vám to pomôže",
+   "why": [
+    "Evidencia služieb od akéhokoľvek poskytovateľa, nielen z App Store.",
+    "Žiadne prihlasovanie do banky, každú položku stačí zadať raz.",
+    "Bezplatná kalkulačka nákladov na predplatné priamo na tomto webe."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Nájde Spendry moje predplatné automaticky?",
+     "a": "Nie. K banke sa nepripája, takže každé predplatné pridáte raz. Potom už sleduje obnovenia a celkové sumy za vás."
+    },
+    {
+     "q": "Môžem sledovať aj ročné predplatné?",
+     "a": "Áno. Týždenné, mesačné aj ročné platby sú plne podporované a prepočítavajú sa na mesačné a ročné súčty."
+    },
+    {
+     "q": "Upozorní ma aplikácia pred obnovením predplatného?",
+     "a": "Áno, niekoľko dní pred každým obnovením, aj keď aplikáciu vôbec neotvoríte."
+    },
+    {
+     "q": "Ako zruším predplatné na iPhone?",
+     "a": "Predplatné z App Store zrušíte v aplikácii Nastavenia po klepnutí na vaše meno a Predplatné. Ostatné služby zrušíte priamo na ich webe alebo v aplikácii."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Sledovanie výdavkov",
+   "screen": "03",
+   "title": "Aplikácia na sledovanie výdavkov: Spendry",
+   "description": "Zapisujte výdavky za pár sekúnd cez aplikáciu, widget, Siri alebo Apple Pay. Sledujte týždenné grafy. Bez prihlásenia do banky a zberu dát.",
+   "h1": "Sledovanie výdavkov za pár sekúnd",
+   "lead": "Zadajte sumu, vyberte kategóriu a je to. Alebo požiadajte Siri, použite widget či nechajte nákupy cez Apple Pay zapisovať automaticky. Majte prehľad, kam idú vaše peniaze.",
+   "points": [
+    {
+     "h": "Rýchle pridávanie, ako vám vyhovuje",
+     "p": "Zapisujte priamo v aplikácii, cez widget na ploche, cez Siri alebo automatizáciu v aplikácii Skratky. K výdavku môžete priložiť aj naskenovaný bloček."
+    },
+    {
+     "h": "Grafy, ktoré odpovedajú na otázky",
+     "p": "Týždenné a mesačné prehľady podľa kategórií aj dní, denný priemer a tempo míňania v porovnaní s minulým obdobím."
+    },
+    {
+     "h": "Rozpočty vás včas varujú",
+     "p": "Výdavky napĺňajú rozpočty jednotlivých kategórií a Spendry vás upozorní skôr, než rozpočet prečerpáte."
+    },
+    {
+     "h": "Vlastné kategórie",
+     "p": "Vytvorte si kategórie podľa seba, s vlastnými názvami a ikonami, bez nutnosti používať vopred určený zoznam."
+    }
+   ],
+   "steps_title": "Ako začať so sledovaním výdavkov",
+   "steps": [
+    "Pridajte prvé výdavky priamo v aplikácii alebo cez widget.",
+    "Vytvorte si rozpočty pre dôležité kategórie.",
+    "Ak platíte telefónom, zapnite si automatizáciu pre Apple Pay.",
+    "Každý týždeň skontrolujte grafy v prehľade Štatistiky."
+   ],
+   "why_title": "Prečo si vybrať Spendry",
+   "why": [
+    "Žiadne prihlasovanie do banky, žiadny zber údajov.",
+    "Widgety, Siri aj Skratky uľahčujú pridávanie výdavkov.",
+    "Funguje v akejkoľvek mene a v 44 jazykoch."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Môžem pridať výdavok aj bez otvorenia aplikácie?",
+     "a": "Áno. Využite widget na ploche, požiadajte Siri alebo nechajte nákupy cez Apple Pay zaznamenať automatizáciou v aplikácii Skratky."
+    },
+    {
+     "q": "Môžem si k výdavkom ukladať bločky?",
+     "a": "Áno. Pri pridávaní výdavku stačí zvoliť možnosť Skenovať bloček a ten zostane priamo pri ňom."
+    },
+    {
+     "q": "Funguje aplikácia s ľubovoľnou menou?",
+     "a": "Áno. Svoju hlavnú menu si zvolíte na začiatku. Investície a účty v cudzích menách môžu mať vlastnú menu."
+    },
+    {
+     "q": "Je aplikácia zadarmo?",
+     "a": "Áno, základné funkcie sú bezplatné. Verzia Premium je voliteľná a môžete si ju vyskúšať na týždeň zadarmo."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Prehľad splátok",
+   "screen": "06",
+   "title": "Sledovanie splátok a nákupov: Spendry",
+   "description": "Majte prehľad o všetkých splátkach v Spendry: koľko platieb zostáva, mesačná suma a dátum poslednej splátky. S pripomienkou pred splatnosťou.",
+   "h1": "Všetky splátky a presný mesiac, kedy skončia",
+   "lead": "Splátky kreditných kariet a nákupy na splátky sa rýchlo nahromadia. Spendry vám ukáže, koľko platieb vám zostáva, aká je ich celková mesačná suma a kedy príde tá posledná.",
+   "points": [
+    {
+     "h": "Koľko platíte každý mesiac na splátkach",
+     "p": "Zistite celkovú sumu všetkých splátok na tento mesiac aj nasledujúce mesiace, aby vás nové nákupy neprekvapili."
+    },
+    {
+     "h": "Dátum ukončenia každého plánu",
+     "p": "Pri každej splátke vidíte zostávajúci počet platieb a presný mesiac, kedy bude splatená."
+    },
+    {
+     "h": "Pripomienky pred každou platbou",
+     "p": "Upozornenie vám príde pred každým termínom splátky, aj keď je aplikácia zatvorená."
+    },
+    {
+     "h": "Súčasť plánu, kedy budete bez dlhov",
+     "p": "Splátky sa započítavajú do vášho celkového dlhu a ovplyvňujú Dátum, kedy budete bez dlhov."
+    }
+   ],
+   "steps_title": "Ako sledovať splátky",
+   "steps": [
+    "Pridajte nákup s celkovou sumou, počtom splátok a dátumom prvej platby.",
+    "Pozrite si mesačnú sumu a dátum ukončenia.",
+    "Zaznamenajte každú platbu alebo ju označte ako uhradenú priamo z pripomienky.",
+    "Pred ďalším nákupom si skontrolujte celkovú mesačnú sumu splátok."
+   ],
+   "why_title": "V čom vám Spendry pomôže",
+   "why": [
+    "Splátky kreditných kariet aj nákupy na tretiny na jednom mieste.",
+    "Splátky vidíte vedľa rozpočtov a iných dlhov, takže poznáte svoje skutočné mesačné výdavky.",
+    "Žiadne prihlasovanie do banky, žiadny zber údajov."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Môžem sledovať aj nákupy na tretiny alebo neskoršie platby?",
+     "a": "Áno. Pridajte nákup s celkovou sumou, počtom platieb a prvým termínom. Spendry sa postará o zvyšok."
+    },
+    {
+     "q": "Ukáže mi aplikácia celkovú sumu splátok na každý mesiac?",
+     "a": "Áno. Uvidíte celkovú sumu splátok na aktuálny mesiac aj prehľad na ďalšie mesiace."
+    },
+    {
+     "q": "Dostanem pripomienku pred termínom splátky?",
+     "a": "Áno, upozornenie príde pred každou splátkou, aj keď aplikáciu vôbec neotvoríte."
+    },
+    {
+     "q": "Ovplyvňujú splátky môj termín oddlženia?",
+     "a": "Áno. Splátky sú súčasťou vašich celkových dlhov a ovplyvňujú váš plán splácania."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Aplikácia na ciele sporenia",
+   "screen": "05",
+   "title": "Ciele sporenia a sporenie: Spendry",
+   "description": "Nastavte si ciele sporenia v Spendry, odkladajte peniaze, sledujte denný postup a zdieľajte spoločné ciele s partnerom či rodinou cez iCloud.",
+   "h1": "Aplikácia na ciele sporenia, ktorá vás motivuje",
+   "lead": "Zadajte cieľovú sumu a pridajte peniaze vždy, keď niečo ušetríte. Spendry vám v aplikácii aj na ploche ukáže, ako blízko k cieľu ste každý deň.",
+   "points": [
+    {
+     "h": "Jasný cieľ",
+     "p": "Každý cieľ má stanovenú sumu, ukazovateľ postupu a prehľad, koľko vám ešte zostáva nasporiť."
+    },
+    {
+     "h": "Priamo na ploche",
+     "p": "Widget cieľa vám pripomína váš postup, takže máte svoje sporenie stále pred očami."
+    },
+    {
+     "h": "Spoločné sporenie",
+     "p": "Zdieľajte cieľ s partnerom alebo rodinou cez iCloud. Každý prispieva na rovnaký cieľ zo svojho iPhone."
+    },
+    {
+     "h": "Prepojenie s rozpočtom",
+     "p": "Peniaze odložené na ciele vidíte vo svojom mesačnom prehľade vedľa rozpočtov a bežných platieb."
+    }
+   ],
+   "steps_title": "Ako šetriť na konkrétny cieľ",
+   "steps": [
+    "Vytvorte si cieľ so sumou, ktorú chcete dosiahnuť.",
+    "Pridajte peniaze kedykoľvek, keď niečo ušetríte.",
+    "Sledujte svoj postup v aplikácii alebo priamo na widgete.",
+    "Ak sporíte spoločne, cieľ jednoducho nazdieľajte."
+   ],
+   "why_title": "Prečo vám to pomôže",
+   "why": [
+    "Ciele vidíte hneď vedľa svojich rozpočtov a dlhov.",
+    "Zdieľané ciele sa plynule synchronizujú cez iCloud.",
+    "Bezplatná kalkulačka cieľov sporenia priamo na tomto webe."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Môžem mať viacero cieľov súčasne?",
+     "a": "Áno. Môžete si vytvoriť cieľ na čokoľvek, na čo sporíte, a financie k nim pridávať samostatne."
+    },
+    {
+     "q": "Dá sa cieľ zdieľať s partnerom?",
+     "a": "Áno. Zdieľaný cieľ sa synchronizuje cez iCloud a každý používa svoj vlastný účet Apple."
+    },
+    {
+     "q": "Ponúka aplikácia widget pre ciele?",
+     "a": "Áno. Widget cieľa zobrazuje váš postup priamo na ploche zariadenia."
+    },
+    {
+     "q": "Koľko by som mal mesačne odkladať?",
+     "a": "Zostávajúcu sumu rozdeľte počtom mesiacov do cieľového dátumu. Bezplatná kalkulačka na našom webe vám to vypočíta aj so zohľadnením úrokov."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Sledovanie čistého imania",
+   "screen": "08",
+   "title": "Aplikácia na čisté imanie s aktuálnymi cenami",
+   "description": "Sledujte čisté imanie v Spendry: účty, investície s aktuálnymi cenami, zlato a meny, mínus karty a dlhy, v jednom čísle.",
+   "h1": "Vaše čisté imanie v jednom čísle, ktoré je vždy aktuálne",
+   "lead": "Spendry spočíta vaše účty a investície, odpočíta to, čo dlhujete, a ukáže vaše čisté imanie. Akcie, kryptomeny, zlato a meny sa aktualizujú podľa trhových cien.",
+   "points": [
+    {
+     "h": "Všetko, čo vlastníte a dlhujete",
+     "p": "Hotovosť, účty, investície a úspory v porovnaní s kartami, pôžičkami, splátkami a osobnými dlhmi."
+    },
+    {
+     "h": "Aktuálne trhové ceny",
+     "p": "Akcie, kryptomeny, zlato a meny sa aktualizujú s aktuálnymi cenami priamo vedľa vašich výdavkov."
+    },
+    {
+     "h": "Investície vo vlastnej mene",
+     "p": "Investície a účty v cudzej mene zostávajú v pôvodnej mene, vaše čisté imanie sa zobrazuje vo vašej."
+    },
+    {
+     "h": "Na ploche vášho zariadenia",
+     "p": "Widget pre čisté imanie udržiava toto číslo stále na očiach."
+    }
+   ],
+   "steps_title": "Ako sledovať čisté imanie",
+   "steps": [
+    "Pridajte svoje účty a ich zostatky.",
+    "Pridajte investície s množstvom, ktoré vlastníte.",
+    "Pridajte svoje dlhy.",
+    "Sledujte svoje čisté imanie podľa toho, ako sa menia ceny a zostatky."
+   ],
+   "why_title": "Prečo Spendry",
+   "why": [
+    "Dlhy a investície v rovnakej aplikácii ako váš rozpočet.",
+    "Žiadne prihlasovanie do banky alebo k brokerovi.",
+    "Dáta sa nezhromažďujú."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Ktoré investície môžem sledovať?",
+     "a": "Akcie, kryptomeny, zlato a meny s aktuálnymi trhovými cenami."
+    },
+    {
+     "q": "Pripája sa aplikácia k môjmu brokerovi?",
+     "a": "Nie. Pridáte to, čo vlastníte, a ceny sa aktualizujú samy."
+    },
+    {
+     "q": "Mám zahrnúť svoj dom alebo auto?",
+     "a": "Mnoho ľudí sleduje iba to, čo sa mení z mesiaca na mesiac: hotovosť, investície a dlhy. Pridajte viac, ak vám to pomôže."
+    },
+    {
+     "q": "Je k dispozícii widget pre čisté imanie?",
+     "a": "Áno, na plochu vášho zariadenia."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "Zdieľaný rozpočet",
+   "screen": "04",
+   "title": "Zdieľaný rozpočet pre páry a rodiny",
+   "description": "Zdieľajte rozpočty a ciele v Spendry. Každý používa svoj iPhone a účet Apple, položky sa synchronizujú cez iCloud.",
+   "h1": "Aplikácia na zdieľaný rozpočet pre páry a rodiny",
+   "lead": "Zdieľajte rozpočet alebo cieľ sporenia s partnerom alebo rodinou. Každý pridáva položky zo svojho iPhonu a Spendry všetko synchronizuje cez iCloud, bez nutnosti vytvárať nový účet.",
+   "points": [
+    {
+     "h": "Zdieľajte iba to, čo chcete",
+     "p": "Zdieľajte rozpočet domácnosti alebo cieľ a zvyšok svojich financií si nechajte v súkromí."
+    },
+    {
+     "h": "Každý pridáva zo svojho telefónu",
+     "p": "Každý používa svoj vlastný účet Apple. Zdieľané rozpočty a ciele sa aktualizujú pre všetkých."
+    },
+    {
+     "h": "Žiadne nové účty, žiadne servery",
+     "p": "Zdieľanie funguje cez iCloud. Spendry nemá žiadny systém účtov a nezhromažďuje žiadne dáta."
+    },
+    {
+     "h": "Jeden cieľ, viacero rúk",
+     "p": "Šetrite spoločne na dovolenku alebo na bývanie. Každý príspevok posúva ten istý cieľ."
+    }
+   ],
+   "steps_title": "Ako zdieľať rozpočet",
+   "steps": [
+    "Vytvorte rozpočet alebo cieľ.",
+    "Zdieľajte ho zo Spendry s partnerom alebo rodinou.",
+    "Pozvánku prijmú na svojom iPhone.",
+    "Všetci pridávajú výdavky alebo úspory a všetko zostáva synchronizované."
+   ],
+   "why_title": "Prečo zdieľať so Spendry",
+   "why": [
+    "Vaše ostatné rozpočty a dlhy zostávajú súkromné.",
+    "Žiadne ďalšie prihlasovanie, zdieľanie beží cez iCloud.",
+    "Dáta sa nezhromažďujú."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Potrebuje partner tiež Spendry?",
+     "a": "Áno, na svojom iPhone alebo iPade s vlastným účtom Apple."
+    },
+    {
+     "q": "Uvidí partner všetky moje výdavky?",
+     "a": "Nie. Zdieľajú sa iba rozpočty a ciele, ktoré sami určíte. Zvyšok zostáva súkromný."
+    },
+    {
+     "q": "Ako funguje zdieľanie?",
+     "a": "Cez zdieľanie na iCloude. Medzitým nie je žiadny účet Spendry ani server Spendry."
+    },
+    {
+     "q": "Môžem zdieľať položky s viacerými ľuďmi?",
+     "a": "Áno. Do zdieľaného rozpočtu alebo cieľa môžete pozvať niekoľko členov rodiny."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Sledovanie úverov",
+   "screen": "06",
+   "title": "Sledovanie úverov: zostatok, splátky a úroky",
+   "description": "Sledujte každý úver v Spendry: zostatok, úroky a istinu v každej splátke, zostávajúce splátky a pripomienku pred každou z nich.",
+   "h1": "Sledovanie úverov, ktoré ukáže, koľko skutočne platíte",
+   "lead": "Pridajte úver raz a Spendry ukáže zostávajúci zostatok, koľko z každej splátky tvorí úrok, koľko splátok zostáva, a upozorní vás pred každou splátkou.",
+   "points": [
+    {
+     "h": "Celý splátkový kalendár",
+     "p": "Každá splátka s úrokom a istinou, aby ste videli, koľko úver v skutočnosti stojí."
+    },
+    {
+     "h": "Zostávajúce splátky a dátum ukončenia",
+     "p": "Počet zostávajúcich splátok a mesiac tej poslednej."
+    },
+    {
+     "h": "Pripomienky pred každou splátkou",
+     "p": "Oznámenie príde pred každým dátumom splatnosti, aj keď je aplikácia zatvorená."
+    },
+    {
+     "h": "Súčasť vášho plánu splácania",
+     "p": "Úvery sa započítavajú do celkového dlhu a do dátumu, kedy budete bez dlhov."
+    }
+   ],
+   "steps_title": "Ako sledovať úver",
+   "steps": [
+    "Pridajte úver so sumou, úrokovou sadzbou, lehotou splatnosti a dátumom prvej splátky.",
+    "Pozrite si splátkový kalendár a celkové náklady.",
+    "Zaznamenávajte splátky tak, ako ich platíte.",
+    "Sledujte svoj dátum, kedy budete bez dlhov."
+   ],
+   "why_title": "Prečo Spendry",
+   "why": [
+    "Spotrebné úvery, pôžičky na auto, hypotéky a študentské pôžičky na jednom mieste.",
+    "Žiadne prihlasovanie do banky, žiadne zhromažďovanie dát.",
+    "Bezplatná úverová kalkulačka na tejto stránke."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Ktoré úvery môžem sledovať?",
+     "a": "Spotrebné úvery, pôžičky na auto, hypotéky, študentské pôžičky a akékoľvek ďalšie splátkové úvery, vrátane peňazí, ktoré dlhujete iným ľuďom."
+    },
+    {
+     "q": "Ukáže aplikácia, koľko zaplatím na úrokoch?",
+     "a": "Áno. Uvidíte úrok v každej splátke aj za celý úver."
+    },
+    {
+     "q": "Pripomenie mi aplikácia každú splátku vopred?",
+     "a": "Áno, pred každým dátumom splatnosti, aj keď aplikáciu vôbec neotvoríte."
+    },
+    {
+     "q": "Pripája sa aplikácia k môjmu veriteľovi?",
+     "a": "Nie. Úver pridáte raz a Spendry celý splátkový kalendár vypočíta."
+    }
+   ]
+  }
+ ]
 }
