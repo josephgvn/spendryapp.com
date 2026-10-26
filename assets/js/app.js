@@ -1153,11 +1153,16 @@
   if (cc) {
     const { el, C, f, o } = cc;
     const L = C.labels;
-    const payoffRun = (B, r, payFor) => {
+    // Turkish cards: taxes on the interest, and until the rate is typed in, the ceiling for each month's balance.
+    const tax = C.tax || 0, tiers = C.tiers || null;
+    let rateTyped = false;
+    // The table's bands: below the first limit, up to and including the second, above it.
+    const ceiling = (bal) => (bal < tiers[0][0] ? tiers[0][1] : bal <= tiers[1][0] ? tiers[1][1] : tiers[2][1]);
+    const payoffRun = (B, rateFor, payFor) => {
       let bal = B, m = 0, paid = 0;
       const pts = [B];
       while (bal > 0.005) {
-        const i = bal * r, pay = Math.min(payFor(bal), bal + i);
+        const i = bal * rateFor(bal) * (1 + tax), pay = Math.min(payFor(bal), bal + i);
         if (pay <= i + 1e-9 || m >= 1200) return { stuck: true, pts };
         bal = Math.max(0, bal + i - pay); paid += pay; m++; pts.push(bal);
       }
@@ -1173,10 +1178,12 @@
     const paths = [q(".p-fix", el), q(".p-min", el)];
     let drawn = false;
     const update = () => {
-      const B = read(f("balance")), rate = Math.max(0, read(f("rate"))), P = read(f("payment")), pct = Math.max(0, read(f("min"))) / 100;
+      const B = read(f("balance")), P = read(f("payment")), pct = Math.max(0, read(f("min"))) / 100;
       if (B <= 0) return;
-      const r = (C.period === "month" ? rate : rate / 12) / 100;
-      const a = payoffRun(B, r, () => P), b = payoffRun(B, r, (bal) => Math.max(bal * pct, C.floor));
+      if (tiers && !rateTyped) f("rate").value = String(ceiling(B));
+      const rate = Math.max(0, read(f("rate"))), r = (C.period === "month" ? rate : rate / 12) / 100;
+      const rateFor = tiers && !rateTyped ? (bal) => ceiling(bal) / 100 : () => r;
+      const a = payoffRun(B, rateFor, () => P), b = payoffRun(B, rateFor, (bal) => Math.max(bal * pct, C.floor));
       show("fixed", a, L.fixed);
       show("min", b, L.minimum);
       const saved = q(".saved", el);
@@ -1191,7 +1198,7 @@
       drawn = true;
       pop(qa(".v", el));
     };
-    el.addEventListener("input", update);
+    el.addEventListener("input", (ev) => { if (ev.target === f("rate")) rateTyped = true; update(); });
     update();
   }
 

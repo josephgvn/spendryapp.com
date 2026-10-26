@@ -1188,6 +1188,7 @@ def guide_page(lang, c, i, languages, paths):
 <section class="guide-body" data-theme="light"><div class="wrap">
 <article class="prose guide">
 <p class="lede" data-rise>{e(g['intro'][1])}</p>
+{guide_prose(g['sections']) if g.get('sections') else ''}
 <h2 data-rise>{e(g['steps_title'])}</h2>
 <ol class="steps">{steps}</ol>
 {example}
@@ -1254,21 +1255,28 @@ def num(label, f, value, step, extra="", cls="field"):
             f'value="{value}" data-f="{f}"{extra}></label>')
 
 
+# Turkish credit cards: monthly ceilings by statement balance (TCMB, from 1 Nov 2026) and the taxes on card interest.
+TR_CARD_RULES = {"tax": 0.30, "tiers": [[30000, 3.25], [180000, 3.75], [None, 4.25]]}
+
+
 def cc_tool_page(lang, c, languages, paths):
     T = c["cc_tool"]
     tr = lang == "tr"
     fx = LANGS[lang][5] or 1
-    # Turkish cards: monthly rates and a minimum of 20% of the statement.
-    v = ({"balance": 30000, "rate": 3.5, "payment": 7500, "min": 20, "floor": 100, "period": "month", "step": 500} if tr else
+    # Turkish cards: monthly rates and a minimum of 20% of the statement (limit up to 100,000 TL, BDDK 1 Oct 2026). Until
+    # the rate is changed by hand, each month uses the central bank's ceiling for that balance (1 Nov 2026 table), and
+    # KKDF and BSMV (15% + 15% of the interest) are added.
+    v = ({"balance": 30000, "rate": 3.75, "payment": 7500, "min": 20, "floor": 100, "period": "month", "step": 500} if tr else
          {"balance": nice(3000 * fx), "rate": 22, "payment": nice(175 * fx), "min": 2.5, "floor": nice(25 * fx), "period": "year",
           "step": nice(25 * fx, 1)})
     labels = {k: T[k] for k in ("interest", "date", "fixed", "minimum", "never")}
     inner = f"""
-<div class="calc" id="ccpay" data-c='{e(json.dumps({"period": v["period"], "floor": v["floor"], "labels": labels}, ensure_ascii=False))}'>
+<div class="calc" id="ccpay" data-c='{e(json.dumps({"period": v["period"], "floor": v["floor"], "labels": labels, **TR_CARD_RULES} if tr else {"period": v["period"], "floor": v["floor"], "labels": labels}, ensure_ascii=False))}'>
 <form class="panel" data-rise="now" onsubmit="return false">
 {num(T['balance'], 'balance', v['balance'], v['step'], cls="field field-lg")}
 <div class="row">{num(T['rate'], 'rate', v['rate'], "0.01")}{num(T['min_pct'], 'min', v['min'], "0.5")}</div>
 {num(T['payment'], 'payment', v['payment'], v['step'])}
+{f'<p class="note">{e(T["note"])}</p>' if T.get("note") else ""}
 </form>
 <div class="panel" data-rise="now" aria-live="polite">
 <div class="compare"><div class="method best" data-res="fixed"></div><div class="method" data-res="min"></div></div>

@@ -727,7 +727,7 @@
     "Spendry borçlarını sıralar, borçsuz olacağın ayı gösterir ve her ödemeden önce hatırlatır."
    ],
    "example_title": "Bir örnek",
-   "example": "Üç borç: aylık %4,25 faizli 12.000 TL kart borcu, aylık %3,75 faizli 9.000 TL ikinci kart ve aylık %3,5 faizli 40.000 TL ihtiyaç kredisi; her ay 3.000 TL fazladan ödeme. Çığ önce %4,25'lik kartı kapatır ve en az faizi ödetir. Kar topu önce 9.000 TL'lik kartı bitirir, böylece bir borç birkaç ayda listeden düşer. Bitiş tarihleri çoğu zaman yalnızca bir iki ay farklıdır.",
+   "example": "Üç borç: aylık %4,25 faizli 12.000 TL KMH borcu, aylık %3,25 faizli 9.000 TL kart borcu ve aylık %3,5 faizli 40.000 TL ihtiyaç kredisi; her ay 3.000 TL fazladan ödeme. Çığ önce %4,25'lik KMH'yi kapatır ve en az faizi ödetir. Kar topu önce 9.000 TL'lik kartı bitirir, böylece bir borç birkaç ayda listeden düşer. Bitiş tarihleri çoğu zaman yalnızca bir iki ay farklıdır.",
    "tip": "İki tarih birbirine yakınsa sürdürebileceğin yöntemi seç. En iyi plan, ödemeye devam ettiğin plandır.",
    "faq": [
     {
@@ -760,7 +760,7 @@
     "Her ay Borçlar ekranında bakiyenin düştüğünü ve borçsuz olacağın tarihin yaklaştığını gör."
    ],
    "example_title": "Bir örnek",
-   "example": "Aylık %3,5 faizli 20.000 TL kart borcu: yalnızca %20 asgari ödemeyle yaklaşık 27 ayda biter ve 4.200 TL civarında faiz ödersin. Her ay sabit 5.000 TL ödersen 5 ayda biter, faiz 1.900 TL civarında kalır.",
+   "example": "Aylık %3,25 akdi faizli 20.000 TL kart borcu, KKDF ve BSMV dahil: yalnızca %20 asgari ödemeyle yaklaşık 28 ayda biter, faiz ve vergi toplamı 5.300 TL civarında olur. Her ay sabit 5.000 TL ödersen 5 ayda biter, faiz ve vergi 2.400 TL civarında kalır.",
    "tip": "Bir prim ya da iade geldiğinde bir kısmını en yüksek faizli karta yatır. Tek bir fazla ödeme bile planı aylarca kısaltabilir.",
    "faq": [
     {
@@ -778,12 +778,12 @@
   {
    "key": "minimum-payment-trap",
    "slug": "asgari-odeme-tuzagi",
-   "title": "Kredi Kartında Sadece Asgari Ödeme Yaparsan Ne Olur?",
-   "description": "Asgari ödeme seni gecikmeden korur ama kalan borca her ay faiz işler. Borcun gerçekte ne kadar sürdüğünü ve küçük bir ek ödemenin farkını gör.",
-   "h1": "Sadece asgari ödeme yaparsan ne olur?",
+   "title": "Kredi Kartı Asgari Ödeme 2026: Ödersen, Ödemezsen Ne Olur?",
+   "description": "Asgari ödeme nedir, nasıl hesaplanır, ödeyince faiz işler mi, ödemezsen ne olur? 2026 kuralları (100.000 TL eşiği, kademeli faiz) ve hesap örnekleriyle.",
+   "h1": "Kredi kartı asgari ödeme: ödersen, ödemezsen ne olur?",
    "intro": [
-    "Asgari tutarı ödemek kartının gecikmeye düşmesini önler, ama ödemediğin kısma her ay faiz işler. Asgari ödeme, kart limitine göre genellikle dönem borcunun %20'si ya da %40'ıdır.",
-    "Asgari tutarın üstüne eklediğin küçük ama düzenli bir ödeme, faize giden parayı azaltır ve bitiş tarihini aylarca öne çeker."
+    "Asgari tutarı ödersen kartın gecikmeye düşmez, ama kalan borca her ay faiz ve vergi işler. Ödemezsen gecikme faizi başlar, kredi notun düşer ve kartın kısıtlanabilir.",
+    "Aşağıda 1 Kasım 2026 itibarıyla geçerli kurallar var: asgari ödeme oranları, Merkez Bankası'nın faiz tavanları, asgari tutardan kalan borca ne olduğu ve sürekli asgari ödemenin gerçek maliyeti."
    ],
    "steps_title": "Kendi rakamlarını gör",
    "steps": [
@@ -792,20 +792,178 @@
     "Her ay sürdürebileceğin bir ek tutar belirle ve borçsuz olacağın tarihin güncellendiğini izle."
    ],
    "example_title": "Bir örnek",
-   "example": "Aylık %3,5 faizli 30.000 TL kart borcu ve %20 asgari ödeme: borç yaklaşık 29 ayda biter, toplam faiz 6.300 TL civarında olur. Her ay sabit 7.500 TL ödersen 5 ayda biter, faiz 2.900 TL civarında kalır.",
+   "example": "30.000 TL kart borcu ve %20 asgari ödeme: borç yaklaşık 30 ayda biter, faiz ve vergi toplamı 8.200 TL civarında olur. Her ay sabit 7.500 TL ödersen 5 ayda biter, faiz ve vergi 3.800 TL civarında kalır. Hesaplarda Merkez Bankası'nın 2026 tavanları, KKDF ve BSMV kullanıldı.",
    "tip": "Şu an daha fazlasını ödeyemiyorsan asgari tutar için bankanda otomatik ödeme talimatı ver; böylece hiç gecikmezsin. Fırsat buldukça ek ödeme yap.",
    "faq": [
     {
-     "q": "Sadece asgari ödeme yapmak kredi notumu düşürür mü?",
-     "a": "Asgari tutarı zamanında ödemek gecikme kaydı oluşmasını önler. Yine de yüksek kart borcu kredi notunu olumsuz etkileyebilir, bu yüzden borcu azaltmak işine yarar."
+     "q": "Kredi kartının asgarisini ödeyince faiz işler mi?",
+     "a": "Evet. Asgari tutarı ödediğinde gecikmeye düşmezsin, ama ödemediğin kısma akdi faiz işler. Faize KKDF ve BSMV de eklenir; ikisi de faizin %15'i kadardır."
     },
     {
-     "q": "Asgari ödeme tutarı nasıl hesaplanır?",
-     "a": "Dönem borcunun bir yüzdesidir ve oran kart limitine göre değişir. Kesin tutar hesap özetinde yazar."
+     "q": "Asgari tutardan kalan borç nedir?",
+     "a": "Dönem borcundan asgari tutarı çıkardığında kalan kısımdır. Bu tutar silinmez; faiz ve vergiyle birlikte bir sonraki hesap özetine aktarılır."
+    },
+    {
+     "q": "Kredi kartı asgari ödemesi yapılmazsa ne olur?",
+     "a": "Ödenmeyen asgari tutara gecikme faizi işler ve gecikme kredi notunu düşürür. Bir takvim yılında toplam üç kez ödenmezse kart nakit kullanıma, üç ay üst üste ödenmezse alışverişe de kapanır."
+    },
+    {
+     "q": "Sürekli asgari ödemek kartı kapatır mı?",
+     "a": "Hayır. Asgari tutarı her ay zamanında ödediğin sürece kartın kapanmaz. Kart, asgari tutar ödenmediğinde kısıtlanır."
+    },
+    {
+     "q": "2026'da asgari ödeme oranı kaç?",
+     "a": "Limiti 100.000 TL ve altında olan kartlarda dönem borcunun %20'si, 100.000 TL'nin üstündekilerde %40'ıdır (BDDK, 1 Ekim 2026)."
+    },
+    {
+     "q": "Asgari ödemenin faizi nasıl hesaplanır?",
+     "a": "Kalan borç aylık akdi faiz oranıyla çarpılır, çıkan faize %15 KKDF ve %15 BSMV eklenir. 40.000 TL kalan borçta %3,75 faizle bir ayda yaklaşık 1.500 TL faiz ve 450 TL vergi işler."
+    },
+    {
+     "q": "Sadece asgari ödemek kredi notumu düşürür mü?",
+     "a": "Asgari tutarı zamanında ödemek gecikme kaydı oluşmasını önler. Yine de limitine göre yüksek kart borcu kredi notunu olumsuz etkileyebilir; borcu azaltmak işine yarar."
     }
    ],
    "screen": "06",
-   "tool": "cc"
+   "tool": "cc",
+   "sections": [
+    {
+     "h": "Asgari ödeme nedir?",
+     "p": [
+      "Asgari ödeme, hesap özetindeki dönem borcunun son ödeme tarihine kadar en az ödemen gereken kısmıdır. Bu tutarı ödersen kartın gecikmeye düşmez ve kullanmaya devam edersin.",
+      "Dönem borcu ile asgari tutar arasındaki fark, yani asgari tutardan kalan borç, bir sonraki döneme devreder. Bu devreden borca akdi faiz ve vergi işler."
+     ]
+    },
+    {
+     "h": "Asgari ödeme tutarı nasıl hesaplanır?",
+     "table": [
+      [
+       "Kart limiti",
+       "Asgari ödeme"
+      ],
+      [
+       "100.000 TL ve altı",
+       "Dönem borcunun %20'si"
+      ],
+      [
+       "100.000 TL'nin üstü",
+       "Dönem borcunun %40'ı"
+      ]
+     ],
+     "p": [
+      "Oranlar BDDK'nın 1 Ekim 2026 tarihli 11581 sayılı kararıyla belirlendi; eşik 50.000 TL'den 100.000 TL'ye çıktı. Oran borca göre değil, kartın limitine göre seçilir.",
+      "Örnek: limiti 80.000 TL olan kartta 25.000 TL dönem borcunun asgarisi 5.000 TL'dir. Limiti 150.000 TL olan kartta aynı borcun asgarisi 10.000 TL olur. Kesin tutar hesap özetinde yazar."
+     ]
+    },
+    {
+     "h": "Asgari ödersen ne olur, faiz işler mi?",
+     "p": [
+      "Evet, işler. Asgari tutarı zamanında ödediğinde gecikme kaydı oluşmaz ve kartın açık kalır, ama ödemediğin kısma bir sonraki hesap özetinde akdi faiz eklenir. Faizin üstüne KKDF ve BSMV de eklenir; ikisi de faizin %15'i kadardır.",
+      "Örnek: 50.000 TL dönem borcunun 10.000 TL asgarisini ödedin, 40.000 TL kaldı. Aylık %3,75 akdi faizle bir ayda yaklaşık 1.500 TL faiz, 225 TL KKDF ve 225 TL BSMV işler; bir sonraki ekstreye yaklaşık 1.950 TL eklenir."
+     ]
+    },
+    {
+     "h": "Asgari tutardan kalan borç ne olur?",
+     "p": [
+      "Ödemediğin kısım silinmez; faiz ve vergiyle birlikte bir sonraki hesap özetine aktarılır. Yeni harcamaların da eklenince bir sonraki ayın asgari tutarı bu yeni toplam üzerinden hesaplanır.",
+      "Bu yüzden asgari ödeyip kartı kullanmaya devam etmek borcu küçültmez, çoğu zaman büyütür."
+     ]
+    },
+    {
+     "h": "Sürekli asgari ödersen borç ne zaman biter?",
+     "table": [
+      [
+       "Kart borcu",
+       "Sadece asgari: süre, faiz ve vergi",
+       "Her ay borcun dörtte biri: süre, faiz ve vergi"
+      ],
+      [
+       "10.000 TL",
+       "24 ay, 2.600 TL",
+       "5 ay, 1.200 TL"
+      ],
+      [
+       "30.000 TL",
+       "30 ay, 8.200 TL",
+       "5 ay, 3.800 TL"
+      ],
+      [
+       "50.000 TL",
+       "33 ay, 14.600 TL",
+       "5 ay, 6.700 TL"
+      ],
+      [
+       "75.000 TL",
+       "36 ay, 22.600 TL",
+       "5 ay, 10.300 TL"
+      ]
+     ],
+     "p": [
+      "Varsayımlar: kartla yeni harcama yapılmıyor, asgari ödeme %20, faiz Merkez Bankası'nın 2026 tavanında (borç 30.000 TL'nin altına inince %3,25'e düşer), KKDF ve BSMV dahil. Sonuçta asgari ödeme borcu yaklaşık üç yılda bitirir, ama faize ve vergiye borcun neredeyse üçte biri kadar para gider.",
+      "Limiti 100.000 TL'nin üstündeki kartlarda asgari %40 olduğu için borç daha hızlı biter: 150.000 TL borç yalnızca asgariyle yaklaşık 18 ayda kapanır, faiz ve vergi 20.000 TL civarındadır."
+     ]
+    },
+    {
+     "h": "Asgari ödemezsen ne olur?",
+     "list": [
+      "Ödemediğin asgari tutara gecikme faizi, kalan borca akdi faiz işler. 2026'da gecikme faizi tavanı dönem borcuna göre aylık %3,55, %4,05 ya da %4,55'tir; vergiler bunun da üstüne eklenir.",
+      "Gecikme kayıtlara geçer ve kredi notun düşer; yeni kredi ve kart başvuruların zorlaşır.",
+      "Bir takvim yılında toplam üç kez asgari tutarı ödemezsen kartın nakit kullanıma kapanır.",
+      "Üç ay üst üste ödemezsen kart alışverişe de kapanır.",
+      "Kısıtlanan kartın limiti, dönem borcunun tamamı ödenene kadar artırılmaz.",
+      "Borç uzun süre ödenmezse banka yasal takip başlatabilir."
+     ]
+    },
+    {
+     "h": "Kaç kez asgari ödeme yapılabilir?",
+     "p": [
+      "Asgari tutarı her ay ödemenin bir sınırı yok; sürekli asgari ödediğin için kartın kapanmaz. Kısıtlamalar asgari tutarın ödenmediği aylar içindir. Yine de sürekli asgari ödemek borcu yavaş küçültür ve faize çok para gider."
+     ]
+    },
+    {
+     "h": "2026 kredi kartı faiz oranları",
+     "table": [
+      [
+       "Dönem borcu",
+       "Aylık akdi faiz",
+       "Aylık gecikme faizi"
+      ],
+      [
+       "30.000 TL'nin altı",
+       "%3,25",
+       "%3,55"
+      ],
+      [
+       "30.000 - 180.000 TL",
+       "%3,75",
+       "%4,05"
+      ],
+      [
+       "180.000 TL'nin üstü",
+       "%4,25",
+       "%4,55"
+      ],
+      [
+       "Nakit çekim",
+       "%4,25",
+       "%4,55"
+      ]
+     ],
+     "p": [
+      "Bunlar Merkez Bankası'nın üst sınırlarıdır; bankan daha düşük oran uygulayabilir. Tablo 1 Kasım 2026'dan itibaren geçerlidir ve Merkez Bankası tarafından güncellenir. Faize ayrıca KKDF ve BSMV eklenir."
+     ]
+    },
+    {
+     "h": "Asgari ödemeden çıkmanın yolları",
+     "list": [
+      "Asgarinin üstüne her ay sabit bir tutar ekle; küçük bir fark bile bitiş tarihini aylarca öne çeker.",
+      "Borcu kapatana kadar kartı yeni harcamalar için kullanma.",
+      "Birden fazla kartın varsa fazlasını önce en yüksek faizli karta yatır.",
+      "Kart borcunu daha düşük faizli bir krediyle kapatmanın toplam maliyetini vergiler dahil karşılaştır.",
+      "Asgari tutar için otomatik ödeme talimatı ver; böylece hiç gecikmeye düşmezsin."
+     ]
+    }
+   ]
   },
   {
    "key": "statement-date-vs-due-date",
@@ -1302,14 +1460,14 @@
     {
      "h": "Kredi kartı borcu nasıl hesaplanır?",
      "p": [
-      "Kart borcuna her ay, kalan tutar üzerinden akdi faiz işler. Ödemen önce faizi, sonra anaparayı kapatır. Hesaplayıcı bu döngüyü borç bitene kadar ay ay tekrarlar.",
-      "Örnek: 30.000 TL borca aylık %3,75 faiz işlerse ilk ayın faizi 1.125 TL olur. 3.000 TL ödersen borç 28.125 TL'ye iner; sonraki ayın faizi bu yeni tutardan hesaplanır."
+      "Kart borcuna her ay, kalan tutar üzerinden akdi faiz işler; faize ayrıca KKDF ve BSMV eklenir. Ödemen önce faizi ve vergiyi, sonra anaparayı kapatır. Hesaplayıcı bu döngüyü borç bitene kadar ay ay tekrarlar.",
+      "Örnek: 30.000 TL borca aylık %3,75 akdi faiz işlerse ilk ayın faizi 1.125 TL, üstüne eklenen KKDF ve BSMV 337,50 TL olur. 3.000 TL ödersen borç 28.462,50 TL'ye iner; sonraki ayın faizi bu yeni tutardan hesaplanır."
      ]
     },
     {
-     "h": "Asgari ödeme neden borcu bitirmez?",
+     "h": "Asgari ödeme neden bu kadar uzun sürer?",
      "p": [
-      "Asgari ödeme, borcun bir yüzdesi olarak hesaplanır. Borç azaldıkça asgari tutar da azalır; ödemenin büyük kısmı faize gider ve borç yıllarca sürebilir.",
+      "Asgari ödeme, borcun bir yüzdesi olarak hesaplanır. Borç azaldıkça asgari tutar da azalır ve ödemenin önemli bir kısmı faize ve vergiye gider. 50.000 TL'lik bir kart borcu yalnızca %20 asgariyle yaklaşık 33 ayda biter; faiz ve vergi toplamı 14.600 TL civarında olur.",
       "Her ay sabit bir tutar ödemek bu döngüyü kırar: aynı para her ay borcu küçültmeye devam eder. Hesaplayıcıdaki karşılaştırma bu farkı senin rakamlarınla gösterir."
      ]
     },
@@ -1339,15 +1497,15 @@
     },
     {
      "q": "Akdi faiz nedir?",
-     "a": "Kart borcunun son ödeme tarihinden sonra kalan kısmına uygulanan aylık faizdir. Oranlar Merkez Bankası'nın belirlediği üst sınırları aşamaz; güncel oranı ekstrende ya da bankanın uygulamasında görebilirsin."
+     "a": "Kart borcunun son ödeme tarihinden sonra kalan kısmına uygulanan aylık faizdir. Merkez Bankası üst sınırı dönem borcuna göre belirler: 1 Kasım 2026 itibarıyla 30.000 TL'nin altında %3,25, 30.000-180.000 TL arasında %3,75, üstünde %4,25. Kendi oranını ekstrende ya da bankanın uygulamasında görebilirsin."
     },
     {
      "q": "Asgari ödeme oranı nedir?",
-     "a": "Ekstre borcunun her ay en az ödenmesi gereken yüzdesidir ve kart limitine göre değişir. Kendi kartının oranı ekstrende yazar; hesaplayıcıda bu oranı değiştirebilirsin."
+     "a": "Ekstre borcunun her ay en az ödenmesi gereken yüzdesidir. Limiti 100.000 TL ve altında olan kartlarda %20, üstündekilerde %40'tır (BDDK, 1 Ekim 2026). Hesaplayıcıda bu oranı değiştirebilirsin."
     },
     {
      "q": "Hesaplama vergileri içeriyor mu?",
-     "a": "Hayır. Kart faizine eklenen KKDF ve BSMV hesaplamaya dahil değildir; gerçek maliyet biraz daha yüksek olabilir."
+     "a": "Evet. Kart faizine eklenen KKDF ve BSMV (her biri faizin %15'i) hesaplamaya dahildir. Faiz oranını değiştirmezsen her ay borcunun kademesine göre Merkez Bankası'nın tavanı kullanılır."
     },
     {
      "q": "Girdiğim rakamlar kaydediliyor mu?",
@@ -1360,7 +1518,8 @@
    ],
    "final_title": "Kart borcunu bir plana bağla.",
    "final_text": "Spendry'yi indir, kartlarını ekle; ekstre ve son ödeme günlerini senin yerine takip etsin."
-  }
+  },
+  "note": "Faize KKDF ve BSMV (%15 + %15) eklenir. Faiz oranını değiştirmezsen her ay borcunun kademesine göre Merkez Bankası'nın tavanı kullanılır: 30.000 TL'nin altında %3,25, 30.000-180.000 TL arasında %3,75, üstünde %4,25."
  },
  "savings_tool": {
   "slug": "birikim-hesaplama",
