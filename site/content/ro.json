@@ -298,7 +298,154 @@
     "Soldurile se modifică lună de lună. Spendry ține evidența cardurilor, creditelor și facturilor tale, menține la zi planul tău prin metoda bulgărelui sau a avalanșei și îți trimite un memento înainte de fiecare scadență."
    ]
   ],
-  "extra_hint": "Bani pe care îi poți plăti în plus față de sumele minime. Cu cât adaugi mai mult, cu atât scapi mai repede de datorii."
+  "extra_hint": "Bani pe care îi poți plăti în plus față de sumele minime. Cu cât adaugi mai mult, cu atât scapi mai repede de datorii.",
+  "landing": {
+   "trust": "Gratuit · Fără înregistrare · Rulează în browserul tău, nimic nu este trimis nicăieri",
+   "chart_title": "Cum dispar datoriile tale, lună de lună",
+   "chart_sub": "Soldul total rămas prin ambele metode și fără nicio plată suplimentară. Fiecare punct arată luna în care o datorie este achitată complet.",
+   "extra_title": "Ce poți obține cu o sumă în plus",
+   "extra_sub": "Vezi cum suma plătită peste plata minimă schimbă data la care scapi de datorii și dobânda totală.",
+   "extra_amount": "În plus în fiecare lună",
+   "extra_months": "Timp până scapi de datorii",
+   "extra_none": "Fără plată în plus",
+   "extra_sentence": "Dacă plătești {extra} în plus în fiecare lună, scapi de datorii cu {months} mai repede și economisești {interest} din dobândă.",
+   "extra_zero": "Fără nicio plată în plus, scapi de datorii în {months}. Trage de glisor pentru a vedea diferența.",
+   "schedule_title": "Planul detaliat pe luni",
+   "schedule_sub": "Cât plătești în fiecare lună, câtă dobândă se adaugă și ce sold rămâne.",
+   "columns": [
+    "Luna",
+    "Plată",
+    "Dobândă",
+    "Sold rămas"
+   ],
+   "show_all": "Arată toate lunile",
+   "show_less": "Arată mai puțin",
+   "app_title": "Spendry ține acest plan pentru tine, lună de lună.",
+   "app_sub": "Această pagină oferă o imagine de moment. Spendry lucrează cu soldurile tale reale, recalculează planul după fiecare plată și îți trimite mementouri înainte de data scadenței.",
+   "app_points": [
+    {
+     "title": "Toate datoriile pe un singur ecran",
+     "text": "Carduri de credit, credite, cont overdraft și bani împrumutați de la prieteni; vezi datoria totală și plățile lunare dintr-o privire.",
+     "shot": "06"
+    },
+    {
+     "title": "Nu rata nicio scadență",
+     "text": "Primești o notificare înainte de fiecare extras de cont, rată sau factură, ca să nu plătești penalități pentru o plată minimă întârziată.",
+     "shot": "07"
+    },
+    {
+     "title": "Vezi din timp sfârșitul lunii",
+     "text": "Spendry analizează veniturile și plățile din următoarele 30 de zile și îți arată clar în ce direcție merge soldul tău.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Ghid scurt pentru achitarea datoriilor",
+   "guide": [
+    {
+     "h": "Ce este metoda bulgăre de zăpadă?",
+     "p": [
+      "Prin metoda bulgăre de zăpadă îți așezi datoriile în ordine, de la cel mai mic sold la cel mai mare. Plătești suma minimă pentru fiecare datorie și direcționezi toți banii în plus către cea mai mică. Când aceasta este achitată, plata ei se adaugă la următoarea, iar puterea ta de plată crește cu fiecare datorie încheiată.",
+      "Marele ei avantaj este motivația: prima datorie dispare în câteva luni, ceea ce te ajută să urmezi planul cu ușurință."
+     ]
+    },
+    {
+     "h": "Ce este metoda avalanșă?",
+     "p": [
+      "Prin metoda avalanșă îți ordonezi datoriile de la cea mai mare dobândă anuală la cea mai mică. Banii plătiți în plus merg mai întâi către datoria cea mai scumpă. Deoarece scapi întâi de datoria care generează costuri mari cel mai rapid, această metodă aduce de obicei cea mai mică dobândă totală.",
+      "Dezavantajul: dacă datoria cu cea mai mare dobândă are un sold mare, poate dura ceva timp până o achiți complet pe prima."
+     ]
+    },
+    {
+     "h": "Care metodă este potrivită pentru tine?",
+     "table": [
+      [
+       "",
+       "Bulgăre de zăpadă",
+       "Avalanșă"
+      ],
+      [
+       "Achitată prima",
+       "Cea mai mică datorie",
+       "Cea mai mare dobândă"
+      ],
+      [
+       "Dobândă totală",
+       "Poate fi puțin mai mare",
+       "De obicei cea mai mică"
+      ],
+      [
+       "Prima victorie",
+       "Rapidă",
+       "Poate dura mai mult"
+      ],
+      [
+       "Recomandată pentru",
+       "Cei care au nevoie de motivație",
+       "Cei care vor cel mai mic cost total"
+      ]
+     ],
+     "p": [
+      "Diferența este adesea mică; cel mai mult contează să ai un plan clar. Calculatorul de mai sus compară ambele metode cu datele tale și îți arată care costă mai puțin."
+     ]
+    },
+    {
+     "h": "Cum funcționează calculul, cu un exemplu",
+     "p": [
+      "În fiecare lună se calculează mai întâi dobânda: soldul înmulțit cu rata lunară a dobânzii. La o datorie de 25.000 RON pe un card de credit cu o dobândă anuală de 24%, adică 2% pe lună, se adaugă o dobândă de 500 RON în acea lună.",
+      "Apoi, fiecare datorie primește plata minimă, iar suma suplimentară merge către următoarea datorie vizată. Când o datorie este stinsă, plata ei este direcționată către următoarea.",
+      "Calculatorul repetă acești pași lună de lună până când toate datoriile sunt achitate; așa afli data la care vei scăpa de datorii și dobânda totală plătită."
+     ]
+    },
+    {
+     "h": "Capcana plății minime",
+     "p": [
+      "Dacă achiți doar suma minimă de plată la un card de credit, datoria rămâne activă: dobânda continuă să se adauge la restul sumei în fiecare lună, iar achitarea poate dura ani întregi.",
+      "Chiar și o sumă mică plătită peste minim apropie cu câteva luni bune momentul în care scapi de datorii. Încearcă direct cu sumele tale în secțiunea de mai sus."
+     ]
+    },
+    {
+     "h": "Cum să scapi mai repede de datorii",
+     "list": [
+      "Oprește acumularea de noi datorii: folosește cardul doar pentru cheltuieli pe care le poți achita integral în cursul lunii.",
+      "Plătește în fiecare lună o sumă fixă peste plățile minime și automatizează plata.",
+      "Trimite primele, sumele recuperate și veniturile suplimentare direct către datoria pe care o achiți în acel moment.",
+      "Calculează dacă o refinanțare a unui sold cu dobândă mare printr-un credit cu dobândă mai mică te costă într-adevăr mai puțin la final.",
+      "Verifică lista de abonamente; anulează-le pe cele pe care nu le folosești și direcționează banii economisiți către datorii.",
+      "Nu rata nicio dată scadentă: penalitățile și dobânzile majorate îți întârzie planul."
+     ]
+    }
+   ],
+   "faq_title": "Întrebări frecvente",
+   "faq": [
+    {
+     "q": "Metoda bulgăre de zăpadă sau metoda avalanșă aduce o dobândă mai mică?",
+     "a": "În majoritatea cazurilor, metoda avalanșă, prin care achiți întâi datoria cu cea mai mare dobândă, aduce cel mai mic cost total de dobândă. Metoda bulgăre de zăpadă te ajută să elimini prima datorie mai repede, ceea ce îți menține motivația. Calculatorul le compară pe amândouă folosind numerele tale."
+    },
+    {
+     "q": "Ce fel de datorii pot să adaug?",
+     "a": "Carduri de credit, credite de nevoi personale, credite auto, credite de studii, descoperit de cont sau bani împrumutați de la rude și prieteni. Pentru o datorie fără dobândă, introdu 0 ca rată a dobânzii."
+    },
+    {
+     "q": "Unde găsesc rata dobânzii?",
+     "a": "O găsești pe extrasul cardului de credit, în contractul de credit sau în aplicația băncii, afișată de obicei ca dobândă anuală. Introdu dobânda anuală; calculatorul află automat rata lunară."
+    },
+    {
+     "q": "Cât de precise sunt rezultatele?",
+     "a": "Calculul presupune că ratele dobânzilor rămân aceleași, că achiți aceeași sumă în fiecare lună și că nu apar comisioane neprevăzute. În realitate dobânzile pot varia, așa că folosește rezultatul ca pe un plan orientativ, nu ca pe o ofertă contractuală."
+    },
+    {
+     "q": "Sunt trimise undeva datele pe care le introduc?",
+     "a": "Nu. Calculele se fac în întregime în browserul tău; nimic din ce introduci nu este salvat sau trimis către un server."
+    },
+    {
+     "q": "Ce oferă aplicația Spendry în plus față de acest calculator?",
+     "a": "Spendry funcționează cu soldurile tale reale, actualizează planul după fiecare plată, îți trimite mementouri înainte de scadență și îți arată mereu data exactă când vei scăpa de datorii. Nu îți cere datele de conectare bancară și nu colectează date personale."
+    }
+   ],
+   "final_title": "Ia cu tine, în buzunar, data la care vei scăpa de datorii.",
+   "final_text": "Descarcă Spendry, introdu datoriile o singură dată, iar planul tău se actualizează automat în fiecare lună.",
+   "chart_none": "Fără plată în plus"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Fă totul automat",
     "În Spendry, fiecare categorie primește un buget lunar care se completează pe măsură ce cheltui, cu alerte înainte de a depăși limita."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratuit · Fără cont · Rulează în browserul tău, nimic nu este trimis nicăieri",
+   "app_title": "Spendry îți ține bugetul zi de zi.",
+   "app_sub": "Regula 50/30/20 este un început bun. Spendry adaugă fiecare cheltuială în categoria ei, te avertizează înainte să depășești un buget și îți arată din timp cum vei încheia luna.",
+   "app_points": [
+    {
+     "title": "Un buget pentru fiecare categorie",
+     "text": "Cumpărături, transport, facturi: setează o limită lunară pentru fiecare și vezi mereu cât ți-a rămas.",
+     "shot": "04"
+    },
+    {
+     "title": "Adaugă o cheltuială în câteva secunde",
+     "text": "Introduci suma, alegi categoria și gata. Cu ajutorul șabloanelor, adaugi plățile frecvente printr-o singură atingere.",
+     "shot": "02"
+    },
+    {
+     "title": "Vezi unde s-au dus banii din luna respectivă",
+     "text": "Graficele săptămânale și lunare îți arată pe ce cheltuiești cel mai mult și cum stai față de luna trecută.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Ghid scurt pentru crearea bugetului",
+   "guide": [
+    {
+     "h": "Ce este regula 50/30/20?",
+     "p": [
+      "Jumătate din venitul tău net merge către nevoi (chirie, facturi, cumpărături de bază, transport), 30 la sută către dorințe (ieșiri în oraș, relaxare, cumpărături) și 20 la sută către economii și achitarea datoriilor.",
+      "Este doar un punct de plecare. Dacă doar chiria îți ia jumătate din venit, adaptează împărțirea la viața ta și achită mai întâi datoriile cu dobândă mare."
+     ]
+    },
+    {
+     "h": "Cum să faci un buget lunar",
+     "p": [
+      "Începe cu veniturile tale: salariu, proiecte suplimentare și orice alți bani care vin cu regularitate. Apoi pune deoparte costurile fixe chiar la începutul lunii: chirie, facturi, rate la credite și abonamente.",
+      "Notează cheltuielile variabile, precum cumpărăturile, mesele în oraș și transportul, pe măsură ce apar; dacă le lași pe sfârșit de lună, de cele mai multe ori uiți de ele. La finalul lunii, scade cheltuielile din venituri și mută restul banilor la economii."
+     ]
+    },
+    {
+     "h": "Planifică extrasul pentru cardul de credit",
+     "p": [
+      "Cumpărăturile plătite cu cardul nu pleacă din contul tău astăzi; banii ies când achiți extrasul de cont. Când îți organizezi luna, ține cont de valoarea extrasului pe care urmează să îl plătești, nu doar de soldul de azi."
+     ]
+    },
+    {
+     "h": "Cum să te ții de buget",
+     "list": [
+      "Plătește-te pe tine mai întâi: pune banii de economii deoparte de îndată ce iei salariul.",
+      "Introdu cheltuielile fixe o singură dată și lasă-le să se repete în fiecare lună.",
+      "Notează și cheltuielile mici; ele fac cea mai mare diferență la sfârșitul lunii.",
+      "Verifică-ți abonamentele o dată pe an.",
+      "Uită-te peste buget la mijlocul lunii și ajustează cheltuielile pentru a doua jumătate dacă este nevoie."
+     ]
+    }
+   ],
+   "faq_title": "Întrebări frecvente",
+   "faq": [
+    {
+     "q": "Funcționează regula 50/30/20 pentru oricine?",
+     "a": "Nu, este doar un punct de plecare. Dacă chiria și facturile îți iau mai mult de jumătate din venit, schimbă procentele; cel mai important este să pui ceva deoparte în fiecare lună pentru economii și datorii."
+    },
+    {
+     "q": "Ar trebui să folosesc venitul brut sau net?",
+     "a": "Folosește venitul net, adică suma care îți intră efectiv în cont după plata taxelor și a contribuțiilor."
+    },
+    {
+     "q": "Unde se încadrează ratele la datorii?",
+     "a": "Sumele minime de plată sunt nevoi. Tot ce plătești în plus față de plata minimă intră în procentul de 20 la sută destinat economiilor și datoriilor."
+    },
+    {
+     "q": "Se salvează datele pe care le introduc?",
+     "a": "Nu. Calculele se fac în întregime în browserul tău; nimic din ce introduci nu se salvează și nu este trimis nicăieri."
+    },
+    {
+     "q": "Cum îmi ține Spendry bugetul?",
+     "a": "Alegi un buget lunar pentru fiecare categorie; acesta se completează pe măsură ce cheltuiești și te avertizează înainte să îl depășești. Pentru că ai cardurile, creditele și abonamentele în același loc, poți vedea din timp cum vei termina luna. Nu îți cere niciodată datele de conectare la bancă."
+    }
+   ],
+   "final_title": "Ia-ți bugetul cu tine, direct pe telefon.",
+   "final_text": "Descarcă Spendry, introdu o singură dată venitul și costurile fixe și vezi din timp cum se încheie fiecare lună."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Treci la fapte",
     "Spendry te ajută să respecți planul. Adaugă opțiunea Carduri de credit, alege cât poți plăti în fiecare lună și primești Mementouri înainte de fiecare scadență."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratuit · Fără înregistrare · Rulează în browserul tău, nimic nu este trimis nicăieri",
+   "app_title": "Spendry monitorizează soldurile cardurilor tale, în fiecare lună.",
+   "app_sub": "Calculatorul prezintă un plan pentru un singur card. Spendry ține evidența tuturor cardurilor tale, a datelor de emitere și de scadență, și îți aduce aminte înainte de fiecare plată.",
+   "app_points": [
+    {
+     "title": "Toate cardurile într-o singură listă",
+     "text": "Soldul de pe extras, data scadenței și zilele rămase pentru fiecare card, dintr-o privire.",
+     "shot": "06"
+    },
+    {
+     "title": "Un memento înainte de fiecare scadență",
+     "text": "Primești o notificare la emiterea extrasului și înainte de scadența plății, astfel încât o plată minimă întârziată să nu aducă niciodată penalități.",
+     "shot": "07"
+    },
+    {
+     "title": "Vezi unde se duc banii",
+     "text": "Cheltuielile pe card organizate pe categorii, ca să știi exact de unde poți reduce costurile.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Ghid scurt despre datoriile de pe cardul de credit",
+   "guide": [
+    {
+     "h": "Cum se calculează dobânda la cardul de credit",
+     "p": [
+      "În fiecare lună, banca percepe dobândă pentru soldul rămas neachitat, pe baza dobânzii anuale a cardului. Banii plătiți de tine acoperă mai întâi această dobândă, iar diferența scade soldul datorat. Calculatorul repetă acest proces lună de lună până când datoria este achitată complet.",
+      "Exemplu: la un sold de 15.000 RON cu o dobândă anuală de 24%, adică 2% pe lună, dobânda este de 300 RON. Dacă plătești 1.000 RON, soldul scade la 14.300 RON; luna următoare, dobânda se calculează la acest nou sold."
+     ]
+    },
+    {
+     "h": "De ce durează atât de mult dacă achiți doar suma minimă",
+     "p": [
+      "Suma minimă de plată reprezintă de obicei un procent mic din sold. Pe măsură ce soldul scade, se micșorează și suma minimă, astfel că cea mai mare parte din plată se duce pe dobânzi, iar datoria poate persista ani la rând.",
+      "Plata unei sume fixe oprește această capcană: aceeași sumă de bani reduce soldul într-un ritm constant în fiecare lună. Comparația din calculator îți arată clar diferența folosind cifrele tale."
+     ]
+    },
+    {
+     "h": "Data extrasului și data scadenței",
+     "p": [
+      "Data extrasului închide ciclul de facturare și stabilește soldul datorat. Data scadenței este ultima zi în care poți plăti, de obicei la câteva săptămâni după emiterea extrasului.",
+      "Dacă achiți integral soldul din extras până la scadență, nu plătești dobândă pentru cumpărături. Dacă lași o parte neachitată, se va calcula dobândă pentru soldul rămas."
+     ]
+    },
+    {
+     "h": "Cum să achiți mai repede un card de credit",
+     "list": [
+      "Plătește o sumă fixă în fiecare lună, cât de mare îți permiți, în loc să achiți doar plata minimă.",
+      "Oprește plățile noi cu cardul de credit în perioada în care îl rambursezi.",
+      "Dacă ai mai multe carduri, direcționează banii suplimentari mai întâi către cardul cu cea mai mare dobândă anuală.",
+      "Verifică dacă un transfer de sold sau un credit cu dobândă mai mică te costă într-adevăr mai puțin după ce adaugi comisioanele.",
+      "Nu rata nicio dată de plată; penalitățile de întârziere și dobânzile crescute îți dau planul peste cap."
+     ]
+    }
+   ],
+   "faq_title": "Întrebări frecvente",
+   "faq": [
+    {
+     "q": "Cât va dura dacă achit doar suma minimă de plată?",
+     "a": "Depinde de soldul tău, de dobânda anuală și de modul în care banca stabilește plata minimă, dar adesea durează ani buni. Calculatorul îți arată când vei scăpa de datorie dacă plătești doar minimul și cât te costă dobânda."
+    },
+    {
+     "q": "Ce înseamnă dobânda anuală?",
+     "a": "Dobânda anuală reprezintă costul procentual al banilor împrumutați pe un an. Pentru cardurile de credit, dobânda se aplică lunar, la aproximativ o doisprezecime din rata anuală, pentru soldul rămas de plată."
+    },
+    {
+     "q": "Cum se calculează plata minimă?",
+     "a": "Cele mai multe carduri cer un procent mic din sold, adesea cu o sumă minimă fixă prestabilită, la care se adaugă dobânzile și comisioanele acumulate. Valoarea exactă apare pe extrasul tău de cont; poți ajusta acest procent în calculator."
+    },
+    {
+     "q": "Calculatorul include și comisioanele suplimentare?",
+     "a": "Nu. Comisioanele anuale de administrare, penalitățile de întârziere sau comisioanele de transfer nu sunt incluse, așa că suma finală plătită poate fi puțin mai mare."
+    },
+    {
+     "q": "Se salvează datele pe care le introduc?",
+     "a": "Nu. Calculele au loc doar în browserul tău; nicio informație introdusă nu este salvată sau trimisă altundeva."
+    },
+    {
+     "q": "Cum mă ajută Spendry să țin evidența cardurilor mele?",
+     "a": "Îți introduci cardurile în aplicație, iar Spendry monitorizează datele de extras și de scadență, îți aduce aminte din timp de plată și îți actualizează soldul și data la care vei scăpa de datorii pe măsură ce înregistrezi plățile. Aplicația nu îți cere niciodată datele de autentificare bancară."
+    }
+   ],
+   "final_title": "Pune soldul cardului tău pe un plan clar.",
+   "final_text": "Descarcă Spendry, adaugă-ți cardurile și lasă aplicația să aibă grijă de fiecare extras și dată de scadență."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Ține evidența după semnare",
     "Adaugă împrumutul la secțiunea Credite din Spendry pentru a vedea numărul de Rate rămase, data finală și pentru a primi o notificare înainte de fiecare scadență."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratuit · Fără cont · Rulează în browserul tău, nimic nu este trimis nicăieri",
+   "app_title": "Spendry îți urmărește creditul până la ultima rată.",
+   "app_sub": "Calculatorul îți arată rata. Spendry ține evidența ratelor rămase, a datei de final și a fiecărei scadențe, și îți aduce aminte înainte de fiecare plată.",
+   "app_points": [
+    {
+     "title": "Toate creditele într-o singură listă",
+     "text": "Credite auto, de nevoi personale și studii: vezi imediat ratele rămase și totalul lunar de plată.",
+     "shot": "06"
+    },
+    {
+     "title": "O notificare înainte de fiecare plată",
+     "text": "Nu mai uiți niciodată de o rată și scapi de penalitățile de întârziere.",
+     "shot": "07"
+    },
+    {
+     "title": "Vezi luna care urmează",
+     "text": "Spendry îți arată cum îți vor influența ratele, cardurile și facturile următoarele 30 de zile.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Ghid scurt despre credite",
+   "guide": [
+    {
+     "h": "Cum se calculează o rată la credit",
+     "p": [
+      "Cele mai multe credite de nevoi personale și auto au rate egale: plătești aceeași sumă în fiecare lună. O parte din fiecare rată acoperă dobânda pentru soldul rămas, iar restul scade din principal.",
+      "La început, cea mai mare parte din rată este dobândă; pe măsură ce soldul scade, o parte tot mai mare merge spre principal. Tabelul din calculator îți arată clar această evoluție, lună de lună."
+     ]
+    },
+    {
+     "h": "Perioadă mai scurtă sau rată mai mică?",
+     "p": [
+      "O perioadă mai lungă scade rata lunară, dar crește dobânda totală plătită. O perioadă mai scurtă mărește rata lunară, dar reduce costul total al creditului.",
+      "Cea mai scurtă perioadă pe care o poți susține lejer în bugetul tău este, de obicei, varianta cea mai avantajoasă."
+     ]
+    },
+    {
+     "h": "DAE și rata dobânzii",
+     "p": [
+      "Rata dobânzii reprezintă costul banilor împrumutați. DAE include și majoritatea comisioanelor, fiind astfel indicatorul cel mai potrivit pentru a compara ofertele între ele."
+     ]
+    },
+    {
+     "h": "Cum să plătești mai puțină dobândă",
+     "list": [
+      "Compară ofertele după DAE, nu doar după valoarea ratei lunare.",
+      "Alege o perioadă mai scurtă dacă bugetul îți permite.",
+      "Fă plăți anticipate direct în principal chiar din primii ani ai creditului.",
+      "Întreabă banca dacă percepe comision pentru rambursare anticipată.",
+      "Plătește mereu la timp; penalitățile de întârziere se adună repede."
+     ]
+    }
+   ],
+   "faq_title": "Întrebări frecvente",
+   "faq": [
+    {
+     "q": "Cum se calculează rata lunară?",
+     "a": "Folosind formula standard de amortizare: valoarea împrumutului, dobânda lunară (rata anuală împărțită la 12) și numărul de luni. Dobânda se calculează în fiecare lună la soldul rămas de achitat."
+    },
+    {
+     "q": "Care este diferența dintre DAE și rata dobânzii?",
+     "a": "Rata dobânzii este procentul pe care îl plătești pentru suma împrumutată. DAE adaugă la aceasta și majoritatea comisioanelor, fiind mult mai utilă pentru a compara creditele."
+    },
+    {
+     "q": "Ajută plățile anticipate?",
+     "a": "Da. Fiecare sumă plătită în plus direct în principal scade soldul la care se calculează dobânda, așa că plătești mai puțină dobândă per total și scapi de datorie mai repede. Verifică dacă banca îți percepe comision de rambursare anticipată."
+    },
+    {
+     "q": "Include calculatorul comisioanele sau taxele?",
+     "a": "Nu. Comisioanele de analiză sau administrare, asigurările și taxele nu sunt incluse."
+    },
+    {
+     "q": "Se salvează datele pe care le introduc?",
+     "a": "Nu. Calculele se fac în întregime în browserul tău; nimic din ce introduci nu se salvează și nu este trimis nicăieri."
+    },
+    {
+     "q": "Cum îmi ține Spendry evidența creditului?",
+     "a": "Adaugi creditul o singură dată; Spendry îți arată ratele rămase, luna în care îl termini și totalul tău lunar, și îți aduce aminte înainte de fiecare scadență. Nu îți cere niciodată datele de conectare la bancă."
+    }
+   ],
+   "final_title": "Creditul tău, planificat până la ultima rată.",
+   "final_text": "Descarcă Spendry, adaugă creditul și lasă aplicația să aibă grijă de fiecare plată."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Urmărește-ți progresul",
     "Creează secțiunea Obiective în Spendry și vezi cât mai ai până la capăt de fiecare dată când adaugi bani."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratuit · Fără cont · Rulează în browserul tău, nimic nu este trimis nicăieri",
+   "app_title": "Spendry îți arată cât de aproape ești, la fiecare pas.",
+   "app_sub": "Calculatorul îți spune suma lunară. Spendry îți păstrează obiectivul, îți arată progresul de fiecare dată când adaugi bani și calculează timpul rămas.",
+   "app_points": [
+    {
+     "title": "Toate obiectivele tale pe un singur ecran",
+     "text": "Fond de urgență, vacanță, mașină nouă: vezi cât ai adunat pentru fiecare și câte zile au mai rămas.",
+     "shot": "05"
+    },
+    {
+     "title": "Vezi luna care urmează",
+     "text": "Află cât poți economisi luna aceasta, ținând cont de venituri și plăți.",
+     "shot": "01"
+    },
+    {
+     "title": "Urmărește cum cresc economiile tale",
+     "text": "Monitorizează aurul, valutele, acțiunile și fondurile la prețurile lor actuale.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Ghid scurt pentru economisirea pentru un obiectiv",
+   "guide": [
+    {
+     "h": "Cât ar trebui să economisesc în fiecare lună?",
+     "p": [
+      "Scade din obiectivul tău suma pe care o ai deja și împarte ce a rămas la numărul de luni disponibile. Calculatorul face asta pentru tine și, dacă introduci o rată, adaugă dobânda pe care o generează economiile tale.",
+      "Exemplu: pentru un obiectiv de 30.000 RON, cu 5.000 RON deja economisiți și 10 luni rămase, trebuie să pui deoparte 2.500 RON pe lună, fără dobândă."
+     ]
+    },
+    {
+     "h": "De ce contează dobânda",
+     "p": [
+      "Dacă economiile tale produc dobândă într-un cont de economii sau într-un fond, trebuie să pui deoparte mai puțin în fiecare lună pentru a atinge același obiectiv. Cu cât perioada este mai lungă, cu atât efectul este mai mare."
+     ]
+    },
+    {
+     "h": "Începe cu un fond de urgență",
+     "p": [
+      "Înainte de obiective mai mari, un fond de urgență care acoperă câteva luni de cheltuieli esențiale împiedică o factură neașteptată să se transforme în datorie."
+     ]
+    },
+    {
+     "h": "Cum să economisești mai ușor",
+     "list": [
+      "Economisește imediat ce primești salariul și tratează economiile ca pe o factură.",
+      "Configurează un transfer automat ca să nu mai trebuiască să iei o decizie în fiecare lună.",
+      "Trimite bonusurile și veniturile suplimentare direct către obiectiv.",
+      "Împarte obiectivul cu partenerul sau familia și ajungi la el mai repede.",
+      "Păstrează-ți progresul la vedere: fiecare sumă adăugată te motivează să continui."
+     ]
+    }
+   ],
+   "faq_title": "Întrebări frecvente",
+   "faq": [
+    {
+     "q": "Ce dobândă ar trebui să introduc?",
+     "a": "Introdu dobânda anuală estimată pentru contul tău de economii sau fondul de investiții. Dacă nu ești sigur, folosește 0 pentru a vedea suma calculată în cel mai prudent mod."
+    },
+    {
+     "q": "Cum pot să-mi ating obiectivul mai repede?",
+     "a": "Mărește suma lunară, direcționează veniturile suplimentare către obiectiv sau alege un cont purtător de dobândă. Scurtează perioada în calculator ca să vezi cum se schimbă suma lunară."
+    },
+    {
+     "q": "Cât de mare ar trebui să fie fondul de urgență?",
+     "a": "Trei până la șase luni de cheltuieli esențiale este recomandarea obișnuită. Cu cât venitul tău este mai stabil, cu atât ai nevoie de mai puțin; cu cât este mai instabil, cu atât mai mult."
+    },
+    {
+     "q": "Se salvează datele pe care le introduc?",
+     "a": "Nu. Calculele au loc în întregime în browserul tău; nimic din ce introduci nu este salvat sau trimis nicăieri."
+    },
+    {
+     "q": "Cum îmi monitorizează Spendry obiectivele?",
+     "a": "Creezi un obiectiv și îți vezi progresul de fiecare dată când adaugi bani. Spendry îți arată suma și timpul rămas, iar tu poți împărtăși un obiectiv cu familia. Nu îți cere niciodată datele de conectare la bancă."
+    }
+   ],
+   "final_title": "Fii cu un pas mai aproape de obiectivul tău.",
+   "final_text": "Descarcă Spendry, creează-ți obiectivul și vezi cât de aproape ești de fiecare dată când adaugi bani."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Fără reînnoiri neașteptate",
     "Spendry monitorizează secțiunea Abonamente, le include în totalul lunar din Bugete și îți trimite Mementouri înainte de fiecare plată recurentă."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratuit · Fără cont · Rulează în browserul tău, nimic nu este trimis nicăieri",
+   "app_title": "Spendry se asigură că nicio reînnoire nu te ia prin surprindere.",
+   "app_sub": "Calculatorul îți arată totalul. Spendry ține evidența abonamentelor, le include în totalul tău lunar și îți trimite mementouri înainte de fiecare reînnoire.",
+   "app_points": [
+    {
+     "title": "Un memento înainte de fiecare reînnoire",
+     "text": "Muzică, streaming, stocare în cloud sau sala de fitness: afli despre fiecare reînnoire înainte de a fi taxat.",
+     "shot": "07"
+    },
+    {
+     "title": "Află cât te costă abonamentele pe an",
+     "text": "Întreabă asistentul; răspunsul este calculat direct pe dispozitivul tău iPhone, iar datele tale rămân acolo.",
+     "shot": "09"
+    },
+    {
+     "title": "Vezi luna care urmează",
+     "text": "Vezi cum vor influența abonamentele, cardurile și facturile următoarele 30 de zile.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Ghid scurt despre abonamente",
+   "guide": [
+    {
+     "h": "Cum calculezi costul real al abonamentelor",
+     "p": [
+      "Transformă fiecare abonament într-o sumă lunară: împarte un preț anual la 12, înmulțește un preț săptămânal cu 52 și împarte la 12. Apoi adună-le pe toate. Calculatorul face acest lucru și îți arată totalurile pe o lună, pe un an și pe cinci ani.",
+      "Un cost lunar mic pare nesemnificativ. Înmulțit cu 12 și adunat pentru fiecare abonament pe care îl ai, se dovedește adesea a fi una dintre cele mai mari cheltuieli regulate ale tale."
+     ]
+    },
+    {
+     "h": "La ce abonamente să renunți",
+     "p": [
+      "Ordonează-le după preț și întreabă-te pentru fiecare: l-am folosit luna trecută? Renunță la cele pe care nu le folosești și pune-ți un memento înainte de reînnoirea celor pe care le păstrezi.",
+      "Dacă două abonamente fac același lucru, renunță la unul; planurile de familie sau pentru studenți pot reduce, de asemenea, costul total."
+     ]
+    },
+    {
+     "h": "Atenție la perioadele de probă gratuite",
+     "p": [
+      "Când o perioadă de probă gratuită se încheie, abonamentul începe de obicei să fie taxat automat. Notează data de încheiere chiar în ziua în care începi perioada de probă sau setează un memento."
+     ]
+    },
+    {
+     "h": "Cum să cheltuiești mai puțin pe abonamente",
+     "list": [
+      "Verifică toate abonamentele o dată pe an.",
+      "Treci serviciile pe care le folosești tot anul la planuri anuale; sunt de obicei mai ieftine.",
+      "Împarte abonamentele de familie.",
+      "Anulează abonamentele în lunile în care nu le folosești și reactivează-le când ai nevoie de ele.",
+      "Setează un memento înainte de fiecare reînnoire."
+     ]
+    }
+   ],
+   "faq_title": "Întrebări frecvente",
+   "faq": [
+    {
+     "q": "Cât mă costă abonamentele pe an?",
+     "a": "Transformă fiecare sumă într-un cost lunar, adună-le și înmulțește cu 12. Calculatorul face asta pentru tine și îți arată, de asemenea, totalul pe cinci ani."
+    },
+    {
+     "q": "Cum introduc abonamente săptămânale și anuale?",
+     "a": "Alege perioada de facturare pe fiecare rând: săptămânal, lunar sau anual. Calculatorul le transformă pe toate în aceeași unitate de măsură."
+    },
+    {
+     "q": "Merită un abonament anual?",
+     "a": "Dacă folosești serviciul pe tot parcursul anului, planul anual este de obicei mai ieftin. Dacă nu ești sigur, păstrează-l lunar pentru primele câteva luni."
+    },
+    {
+     "q": "Se salvează datele pe care le introduc?",
+     "a": "Nu. Calculele au loc în întregime în browserul tău; nimic din ce introduci nu este salvat sau trimis nicăieri."
+    },
+    {
+     "q": "Cum îmi monitorizează Spendry abonamentele?",
+     "a": "Îți adaugi abonamentele o singură dată; Spendry le include în totalul tău lunar, îți amintește înainte de fiecare reînnoire și îți arată costul anual. Nu îți cere niciodată datele de conectare la bancă."
+    }
+   ],
+   "final_title": "Află din timp despre fiecare reînnoire.",
+   "final_text": "Descarcă Spendry, adaugă-ți abonamentele și primește o notificare înainte de fiecare plată."
+  }
  }
 }

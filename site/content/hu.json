@@ -298,7 +298,154 @@
     "Az egyenlegek havonta változnak. A Spendry nyilvántartja a kártyáidat, hiteleidet és számláidat, naprakészen vezeti a hógolyó vagy lavina tervedet, és időben figyelmeztet minden esedékes fizetés előtt."
    ]
   ],
-  "extra_hint": "A kötelező minimumon felüli összeg, amit törlesztésre fordítasz. Minél többet adsz hozzá, annál hamarabb leszel adósságmentes."
+  "extra_hint": "A kötelező minimumon felüli összeg, amit törlesztésre fordítasz. Minél többet adsz hozzá, annál hamarabb leszel adósságmentes.",
+  "landing": {
+   "trust": "Ingyenes · Regisztráció nélkül · A böngésződben fut, semmi nem kerül elküldésre",
+   "chart_title": "Hogyan olvad el az adósságod, hónapról hónapra",
+   "chart_sub": "A fennmaradó teljes tartozásod mindkét módszerrel és extra befizetés nélkül. Minden pont egy olyan hónapot jelöl, amikor egy adósság teljesen megszűnik.",
+   "extra_title": "Mire képes egy kis plusz",
+   "extra_sub": "Nézd meg, hogyan változtatja meg a minimális törlesztőkön felül fizetett összeg az adósságmentesség dátumát és a kifizetett kamatot.",
+   "extra_amount": "Extra összeg havonta",
+   "extra_months": "Idő az adósságmentességig",
+   "extra_none": "Nincs extra",
+   "extra_sentence": "Havi {extra} extra törlesztésével {months} hónappal hamarabb leszel adósságmentes, és {interest} kamatot spórolsz meg.",
+   "extra_zero": "Extra befizetés nélkül az adósságaid {months} alatt tűnnek el. Húzd el a csúszkát a különbség megtekintéséhez.",
+   "schedule_title": "Hónapról hónapra szóló terv",
+   "schedule_sub": "Mit fizetsz havonta, mennyi kamatot számolnak fel, és mennyi tartozásod marad.",
+   "columns": [
+    "Hónap",
+    "Befizetés",
+    "Kamat",
+    "Fennmaradó tartozás"
+   ],
+   "show_all": "Minden hónap megjelenítése",
+   "show_less": "Kevesebb mutatása",
+   "app_title": "A Spendry kezeli ezt a tervet helyetted, minden hónapban.",
+   "app_sub": "Ez az oldal csak egy pillanatkép. A Spendry a valódi egyenlegeiddel dolgozik, minden befizetés után újraszámolja a tervet, és emlékeztet a fizetési határidők előtt.",
+   "app_points": [
+    {
+     "title": "Minden adósság egyetlen képernyőn",
+     "text": "Hitelkártyák, hitelek, folyószámlahitelek és a barátoknak járó tartozások: a teljes adósságod és a havi törlesztőrészleteid egy pillantásra.",
+     "shot": "06"
+    },
+    {
+     "title": "Soha ne késs el a határidővel",
+     "text": "Emlékeztetőt kapsz minden kártyakivonat, hiteltörlesztés és számla esedékessége előtt, így a késedelmi díjakat elkerülheted.",
+     "shot": "07"
+    },
+    {
+     "title": "Lásd előre a hónap végét",
+     "text": "A Spendry áttekinti a következő 30 nap bevételeit és kiadásait, és megmutatja, merre tart az egyenleged.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Rövid útmutató az adósságok visszafizetéséhez",
+   "guide": [
+    {
+     "h": "Mi az a hógolyó módszer?",
+     "p": [
+      "A Hógolyó módszernél a legkisebb egyenlegtől a legnagyobbig rendezed sorba a tartozásaidat. Minden adósságra a minimumot fizeted, a fennmaradó plusz pénzt pedig a legkisebbre fordítod. Amikor az elfogy, az arra fordított összeg hozzáadódik a következőhöz, így a törlesztési erőd minden lezárt tartozással nő.",
+      "A legnagyobb előnye a lendület: az első adósság pár hónapon belül eltűnik, ami segít kitartani a terv mellett."
+     ]
+    },
+    {
+     "h": "Mi az a lavina módszer?",
+     "p": [
+      "A Lavina módszernél a legmagasabb kamattól a legalacsonyabbig rendezed a tartozásokat. A plusz pénz mindig a legdrágább hitelre megy először. Mivel a leggyorsabban kamatozó adósságot törleszted, ezzel a módszerrel fizeted összességében a legkevesebb kamatot.",
+      "A hátulütője: ha a legmagasabb kamatú tartozásod nagy összegű, az első teljes lezárás eltarthat egy ideig."
+     ]
+    },
+    {
+     "h": "Melyik való neked?",
+     "table": [
+      [
+       "",
+       "Hógolyó",
+       "Lavina"
+      ],
+      [
+       "Először kifizetve",
+       "Legkisebb egyenleg",
+       "Legmagasabb kamat"
+      ],
+      [
+       "Teljes kamat",
+       "Kicsit magasabb lehet",
+       "Általában a legalacsonyabb"
+      ],
+      [
+       "Első sikerélmény",
+       "Gyors",
+       "Tovább tarthat"
+      ],
+      [
+       "Akkor a legjobb, ha",
+       "Lendületre és motivációra vágysz",
+       "A költségek minimalizálása a cél"
+      ]
+     ],
+     "p": [
+      "A különbség sokszor elenyésző, a legfontosabb az, hogy legyen egy terved. A fenti kalkulátor összehasonlítja mindkét módszert a számaiddal, és megmutatja, melyik kerül kevesebbe."
+     ]
+    },
+    {
+     "h": "Hogyan működik a számítás, példával szemléltetve",
+     "p": [
+      "Minden hónapban először a kamat kerül elszámolásra: az egyenleg szorozva a havi kamatlábbal. Egy 2 500 000 Ft-os hitelkártya-egyenleg esetén, évi 24%-os THM mellett, ami havi 2%, a kamat 50 000 Ft lesz arra a hónapra.",
+      "Ezután minden adósság megkapja a minimális törlesztőrészletét, a többlet pedig a soron következő tartozásra megy. Amikor egy adósság megszűnik, a teljes havi törlesztése átkerül a következőre.",
+      "A kalkulátor hónapról hónapra megismétli ezeket a lépéseket, amíg az utolsó adósság is el nem tűnik: így kapod meg az adósságmentesség dátumát és az összesen kifizetett kamatot."
+     ]
+    },
+    {
+     "h": "A minimális törlesztőrészlet csapdája",
+     "p": [
+      "Ha csak a minimális összeget fizeted a hitelkártyán, az életben tartja a tartozást: a fennmaradó részre minden hónapban kamatot számolnak fel, és az egyenleg évekig elhúzódhat.",
+      "Még egy apró, a minimumon felüli összeg is hónapokkal hozza közelebb az adósságmentesség dátumát. Próbáld ki a saját számaiddal a fenti extra törlesztési résznél."
+     ]
+    },
+    {
+     "h": "Tippek a gyorsabb adósságrendezéshez",
+     "list": [
+      "Ne halmozz fel új adósságot: csak olyasmire használd a kártyát, amit még a hónapban vissza tudsz fizetni.",
+      "Fizess minden hónapban egy fix összeget a minimumon felül, és állíts be rá automatikus átutalást.",
+      "A bónuszokat, adó-visszatérítéseket és mellékes bevételeket fordítsd közvetlenül a soron következő tartozásra.",
+      "Számold ki, hogy egy magas kamatú egyenleg alacsonyabb kamatú hitelbe történő átvitele valóban kevesebbe kerül-e a költségekkel együtt.",
+      "Nézd át az előfizetéseidet: mondd le, amit nem használsz, és tedd a megspórolt pénzt a hiteleidbe.",
+      "Soha ne késs a határidőkkel: a késedelmi díjak és a büntetőkamatok visszavetik a terveidet."
+     ]
+    }
+   ],
+   "faq_title": "Gyakran ismételt kérdések",
+   "faq": [
+    {
+     "q": "A hógolyó vagy a lavina módszerrel fizetek kevesebb kamatot?",
+     "a": "A legtöbb esetben a lavina módszer, vagyis a legmagasabb kamatú hitel előretörlesztése kerül a legkevesebb kamatba. A hógolyó módszer hamarabb megszünteti az első tartozást, ami fenntartja a motivációt. A kalkulátor összehasonlítja mindkettőt a saját számaiddal."
+    },
+    {
+     "q": "Milyen adósságokat adhatok hozzá?",
+     "a": "Hitelkártyákat, személyi kölcsönöket, autóhiteleket, diákhiteleket, folyószámlahiteleket vagy a családnak, barátoknak tartozó összegeket. Kamatmentes tartozás esetén adj meg 0-t kamatként."
+    },
+    {
+     "q": "Hol találom a kamatlábamat?",
+     "a": "A hitelkártya-kivonaton, a hitelszerződésben vagy a banki alkalmazásban találod meg, általában THM vagy éves kamatláb formájában. Írd be az éves értéket, a kalkulátor pedig kiszámolja a havi kamatot."
+    },
+    {
+     "q": "Mennyire pontos az eredmény?",
+     "a": "A számítás feltételezi, hogy a kamatok változatlanok maradnak, minden hónapban ugyanazt az összeget fizeted, és nincsenek egyéb díjak. A valóságban a kamatok változhatnak, ezért kezeld tervként az eredményt, ne kötelező ajánlatként."
+    },
+    {
+     "q": "Elküldésre kerül bármi, amit beírok?",
+     "a": "Nem. A számítások teljes egészében a böngésződben futnak, semmit sem mentünk el és nem továbbítunk sehová."
+    },
+    {
+     "q": "Mit tud a Spendry, amit ez a kalkulátor nem?",
+     "a": "A Spendry a valós egyenlegeiddel dolgozik, minden törlesztés után frissíti a tervet, emlékeztet a határidők előtt, és mindig mutatja a napot, amikor adósságmentes leszel. Soha nem kéri a banki jelszavadat, és semmilyen adatot nem gyűjt."
+    }
+   ],
+   "final_title": "Hordd a zsebedben az adósságmentesség dátumát.",
+   "final_text": "Töltsd le a Spendry alkalmazást, add meg egyszer a tartozásaidat, és a terved minden hónapban magától frissül.",
+   "chart_none": "Extra nélkül"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Tedd automatikussá",
     "A Spendry appban minden kategóriához egyedi havi keretet rendelhetsz, amely a költéseiddel arányosan telik, és még a túllépés előtt figyelmeztetést küld."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ingyenes · Nem igényel regisztrációt · A böngésződben fut, semmilyen adatot nem továbbít",
+   "app_title": "A Spendry minden nap kézben tartja a költségvetésedet.",
+   "app_sub": "Az 50/30/20 szabály jó kiindulópont. A Spendry minden kiadást a megfelelő kategóriába sorol, figyelmeztet, mielőtt elfogyna a keret, és előre mutatja a hónap végét.",
+   "app_points": [
+    {
+     "title": "Külön költségkeret minden kategóriára",
+     "text": "Bevásárlás, utazás, számlák: adj meg mindegyikre egy havi limitet, és lásd mindig, mennyi maradt.",
+     "shot": "04"
+    },
+    {
+     "title": "Kiadás rögzítése másodpercek alatt",
+     "text": "Írd be az összeget, válaszd ki a kategóriát, és kész. A sablonokkal a rendszeres kiadások egyetlen érintéssel rögzíthetők.",
+     "shot": "02"
+    },
+    {
+     "title": "Lásd át, mire ment el a hónap",
+     "text": "Heti és havi diagramok mutatják meg, mire költesz a legtöbbet, és hogyan viszonyul ez az előző hónaphoz.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Rövid útmutató a költségvetés-tervezéshez",
+   "guide": [
+    {
+     "h": "Mi az az 50/30/20 szabály?",
+     "p": [
+      "A nettó bevételed fele a szükségletekre megy (lakbér, számlák, élelmiszer, közlekedés), 30 százaléka a vágyakra (étterem, szórakozás, vásárlás), 20 százaléka pedig a megtakarításokra és az adósságok törlesztésére.",
+      "Ez egy kiindulási alap. Ha önmagában a lakhatás elviszi a bevételed felét, alakítsd át az arányokat a saját életedhez, és a magas kamatozású tartozásokat fizesd vissza először."
+     ]
+    },
+    {
+     "h": "Hogyan készíts havi költségvetést?",
+     "p": [
+      "Kezdd a bevételeiddel: fizetés, mellékállások és minden egyéb rendszeres összeg. A hónap elején különítsd el az állandó költségeket: lakbér, számlák, hiteltörlesztők és előfizetések.",
+      "A változó kiadásokat, mint a bevásárlás, a vendéglátás és a közlekedés, mindig azonnal rögzítsd; ha a hónap végére hagyod, a legtöbb részlet feledésbe merül. A hónap végén vond le a kiadásokat a bevételekből, és a megmaradt összeget tedd félre megtakarításként."
+     ]
+    },
+    {
+     "h": "Tervezz előre a hitelkártya-kivonattal",
+     "p": [
+      "A kártyás vásárlások összege nem azonnal hagyja el a számládat, hanem akkor, amikor kifizeted a kivonatot. Amikor megtervezed a hónapot, a fizetendő kivonat összegével számolj, ne csak az aktuális egyenleggel."
+     ]
+    },
+    {
+     "h": "Tippek a költségvetés betartásához",
+     "list": [
+      "Fizesd ki magad először: tedd félre a megtakarítást, amint megérkezik a fizetésed.",
+      "Az állandó költségeket elég egyszer megadnod, utána ismétlődhetnek havonta.",
+      "A kisebb vásárlásokat is rögzítsd; a hónap végére ezek jelentik a legnagyobb különbséget.",
+      "Évente egyszer vizsgáld felül az előfizetéseidet.",
+      "Nézd meg a keretedet a hónap közepén, és szükség esetén módosíts a második félidőn."
+     ]
+    }
+   ],
+   "faq_title": "Gyakran ismételt kérdések",
+   "faq": [
+    {
+     "q": "Mindenkinél működik az 50/30/20 szabály?",
+     "a": "Nem, ez csupán kiindulópont. Ha a lakbér és a számlák a bevételed több mint felét elviszik, alakítsd át az arányokat; a lényeg, hogy minden hónapban tegyél félre valamit megtakarításra és adósságcsökkentésre."
+    },
+    {
+     "q": "A bruttó vagy a nettó jövedelemmel számoljak?",
+     "a": "A nettó jövedelmeddel számolj, azaz azzal az összeggel, amely az adók és egyéb levonások után ténylegesen megérkezik a számládra."
+    },
+    {
+     "q": "Hova tartoznak az adósságtörlesztések?",
+     "a": "A kötelező minimum fizetendő összegek szükségletnek számítanak. Minden egyéb plusz törlesztés a megtakarításokra és adósságokra szánt 20 százalékos részhez tartozik."
+    },
+    {
+     "q": "Elmenti a rendszer a megadott adataimat?",
+     "a": "Nem. A számítások teljes egészében a böngésződben futnak; semmi nem kerül mentésre vagy továbbításra."
+    },
+    {
+     "q": "Hogyan tartja kézben a költségvetésemet a Spendry?",
+     "a": "Minden kategóriához beállíthatsz egy havi keretet; ez a költéseiddel párhuzamosan telik, és az app figyelmeztet, mielőtt túllépnéd. Mivel a kártyáid, hiteleid és előfizetéseid egy helyen vannak, előre látod a hónap végét. A banki bejelentkezési adataidat soha nem kéri el."
+    }
+   ],
+   "final_title": "A költségvetésed mindig veled lehet.",
+   "final_text": "Töltsd le a Spendry alkalmazást, add meg a bevételeidet és a fix költségeidet egyszer, és lásd előre minden hónap végét."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Valósítsd meg a tervet",
     "A Spendry segít a megvalósításban: add hozzá a Hitelkártyák kártyáidat, állítsd be a havi keretet, és kérj emlékeztetőt minden fizetési határidő előtt."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ingyenes · Regisztráció nélkül · A böngésződben fut, semmi nem kerül elküldésre",
+   "app_title": "A Spendry figyeli a kártyaegyenlegeidet helyetted, minden hónapban.",
+   "app_sub": "A kalkulátor egyetlen kártyához mutat tervet. A Spendry az összes kártyádat követi, számon tartja a zárási és fizetési határidőket, és időben emlékeztet minden törlesztés előtt.",
+   "app_points": [
+    {
+     "title": "Minden kártya egyetlen listában",
+     "text": "Minden kártya kivonat szerinti egyenlege, fizetési határideje és a hátralévő napok száma egyetlen áttekinthető nézetben.",
+     "shot": "06"
+    },
+    {
+     "title": "Emlékeztető minden határidő előtt",
+     "text": "Értesítést kapsz a számlázási ciklus zárásakor és a határidő lejárta előtt, így a kötelező minimum befizetésével elkerülheted a késedelmi díjakat.",
+     "shot": "07"
+    },
+    {
+     "title": "Lásd, hová megy a pénz",
+     "text": "Kártyás költéseid kategóriák szerint lebontva, hogy azonnal lásd, hol tudsz lefaragni a kiadásokból.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Rövid útmutató a hitelkártya-tartozásokhoz",
+   "guide": [
+    {
+     "h": "Hogyan számolják a hitelkártya kamatát?",
+     "p": [
+      "A kártya minden hónapban kamatot számol fel a felhasznált hitelkeret után, az éves kamatláb alapján. A befizetésed először ezt a kamatot fedezi, a fennmaradó rész pedig a tőketartozást csökkenti. A kalkulátor ezt ismétli hónapról hónapra, amíg a tartozás el nem tűnik.",
+      "Példa: egy 1 500 000 Ft-os egyenleg esetén, évi 24%-os THM mellett, ami havi 2%, a kamat 30 000 Ft. Ha befizetsz 100 000 Ft-ot, a tartozás 1 430 000 Ft-ra csökken; a következő havi kamatot már erre az új összegre számolják ki."
+     ]
+    },
+    {
+     "h": "Miért tart olyan sokáig a minimális törlesztés?",
+     "p": [
+      "A minimális törlesztőrészlet általában a tartozás kis százaléka. Ahogy csökken az egyenleg, úgy csökken a minimum is, így a befizetések nagy része kamatra megy el, és az adósság évekig elhúzódhat.",
+      "Egy fix összeg rendszeres befizetése megtöri ezt az ördögi kört: ugyanaz a pénzösszeg minden hónapban egyre gyorsabban csökkenti a tőkét. A kalkulátor összehasonlítása megmutatja a különbséget a saját számaiddal."
+     ]
+    },
+    {
+     "h": "Kivonatkészítés dátuma és fizetési határidő",
+     "p": [
+      "A kivonat készítésének napján zárul a számlázási ciklus, és ekkor rögzítik az egyenleget. A fizetési határidő az utolsó nap a befizetésre, általában néhány héttel a kivonat elkészülte után.",
+      "Ha a határidőig a teljes kivonati összeget kifizeted, nem számolnak fel kamatot a vásárlásokra. Ha csak egy részét rendezed, a fennmaradó összegre kamatot kell fizetned."
+     ]
+    },
+    {
+     "h": "Tippek a kártyatartozás gyorsabb visszafizetéséhez",
+     "list": [
+      "Fizess minden hónapban egy fix, a lehető legmagasabb összeget a minimális törlesztő helyett.",
+      "Állítsd le az újabb kártyás költéseket, amíg vissza nem fizeted a tartozást.",
+      "Ha több kártyád is van, a plusz pénzt először a legmagasabb kamatozásúra törleszd.",
+      "Nézd meg, hogy egy egyenlegátvitellel vagy egy alacsonyabb kamatú hitellel valóban kevesebbet fizetsz-e a díjak beszámítása után.",
+      "Soha ne mulassz el egy határidőt sem; a késedelmi díjak és a büntetőkamatok visszavetik a terveidet."
+     ]
+    }
+   ],
+   "faq_title": "Gyakran ismételt kérdések",
+   "faq": [
+    {
+     "q": "Mennyi ideig tart, ha csak a minimumot fizetem?",
+     "a": "Ez az egyenlegtől, az éves kamattól és a bank minimális törlesztőt meghatározó szabályaitól függ, de gyakran évekig eltart. A kalkulátor megmutatja, mikorra fogyna el a tartozás csak a minimum fizetésével, és mekkora kamatköltséggel járna."
+    },
+    {
+     "q": "Mi az a THM?",
+     "a": "A THM a kártya éves teljes hiteldíjmutatója. A hitelkártyák havi szinten számolnak fel kamatot a fennálló egyenlegre, nagyjából az éves mutató egytizenketted részével."
+    },
+    {
+     "q": "Hogyan számítják ki a minimális törlesztőrészletet?",
+     "a": "A legtöbb kártyánál az egyenleg egy kis százalékát veszik alapul, gyakran egy fix minimális összeghatárral, amihez hozzáadják a kamatokat és a díjakat. A kártyakivonatodon látod a pontos értéket, a kalkulátorban pedig át is állíthatod a százalékot."
+    },
+    {
+     "q": "Tartalmazza a kalkulátor az egyéb díjakat?",
+     "a": "Nem. Az éves kártyadíjakat, a késedelmi díjakat és az egyenlegátviteli díjakat nem számolja bele, így a valós költséged kicsit magasabb lehet."
+    },
+    {
+     "q": "Elmentődik bármi, amit beírok?",
+     "a": "Nem. A számítások teljes egészében a böngésződben futnak, semmit sem mentünk el és nem küldünk sehová."
+    },
+    {
+     "q": "Hogyan követi a Spendry a kártyatartozásomat?",
+     "a": "Csak add hozzá a kártyáidat; a Spendry számon tartja a zárási és esedékességi dátumokat, emlékeztet a befizetések előtt, a törlesztések rögzítésével pedig frissíti az egyenlegedet és az adósságmentesség dátumát. Soha nem kéri a banki belépési adataidat."
+    }
+   ],
+   "final_title": "Készíts tervet a kártyatartozásodra.",
+   "final_text": "Töltsd le a Spendry alkalmazást, add hozzá a kártyáidat, és bízd rá az összes kivonat és határidő követését."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Kövesd a részleteket a szerződés után is",
     "Vidd fel a Hitelek közé a Spendry alkalmazásban, hogy mindig lásd a hátralévő részleteket, a záró dátumot és a következő fizetési emlékeztetőt."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ingyenes · Nem igényel regisztrációt · A böngésződben fut, semmilyen adatot nem továbbít",
+   "app_title": "A Spendry az utolsó részletig követi a hiteledet.",
+   "app_sub": "A kalkulátor megmutatja a törlesztőrészletet. A Spendry számon tartja a hátralévő részleteket, a záró hónapot és az egyes esedékességeket, valamint minden befizetés előtt emlékeztet.",
+   "app_points": [
+    {
+     "title": "Minden hitel egyetlen listában",
+     "text": "Autóhitel, személyi kölcsön és diákhitel: a hátralévő részletek és a havi végösszeg egyetlen pillantással.",
+     "shot": "06"
+    },
+    {
+     "title": "Emlékeztető minden esedékesség előtt",
+     "text": "Nem maradsz le egyetlen törlesztőrészletről sem, elkerülve a késedelmi díjakat.",
+     "shot": "07"
+    },
+    {
+     "title": "Lásd át az előtted álló hónapot",
+     "text": "A Spendry megmutatja, hogyan alakítják a következő 30 napodat a hiteltörlesztők, a kártyák és a számlák.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Rövid útmutató a hitelekhez",
+   "guide": [
+    {
+     "h": "Hogyan számítható ki a törlesztőrészlet?",
+     "p": [
+      "A legtöbb személyi kölcsön és autóhitel annuitásos: havonta azonos összeget fizetsz. Minden részlet egy része a fennálló tőketartozás kamatát fedezi, a fennmaradó rész pedig magát a tőkét csökkenti.",
+      "A futamidő elején a törlesztőrészlet túlnyomó része még kamat; ahogy a tőketartozás csökken, egyre nagyobb arány jut a tőke törlesztésére. A kalkulátor táblázata ezt havonkénti bontásban mutatja meg."
+     ]
+    },
+    {
+     "h": "Rövidebb futamidő vagy alacsonyabb részlet?",
+     "p": [
+      "A hosszabb futamidő csökkenti a havi törlesztőrészletet, de növeli a teljes visszafizetendő kamatot. A rövidebb futamidő magasabb részletet jelent, ám alacsonyabb a teljes költség.",
+      "Általában a költségvetésedbe kényelmesen beleférő legrövidebb futamidő a legolcsóbb választás."
+     ]
+    },
+    {
+     "h": "THM és kamatláb",
+     "p": [
+      "A kamatláb magának a pénzkölcsönzésnek a költsége. A THM viszont a legtöbb járulékos díjat is magában foglalja, így ezzel a számmal sokkal pontosabban összehasonlíthatók az ajánlatok."
+     ]
+    },
+    {
+     "h": "Hogyan fizethetsz kevesebb kamatot?",
+     "list": [
+      "Az ajánlatokat a THM alapján hasonlítsd össze, ne csupán a havi részlet szerint.",
+      "Válassz rövidebb futamidőt, ha a költségvetésed ezt megengedi.",
+      "Törlessz előtörlesztéssel közvetlenül a tőkébe már a futamidő elején.",
+      "Kérdezz rá, hogy a hiteleződ felszámít-e előtörlesztési díjat.",
+      "Mindig időben fizess; a késedelmi díjak gyorsan felhalmozódnak."
+     ]
+    }
+   ],
+   "faq_title": "Gyakran ismételt kérdések",
+   "faq": [
+    {
+     "q": "Hogyan kerül kiszámításra a havi törlesztőrészlet?",
+     "a": "A szokásos annuitásos képlettel: a hitelösszeg, a havi kamatláb (az éves kamat elosztva 12-vel) és a hónapok száma alapján. A kamat minden hónapban a fennmaradó tőketartozásra számítódik."
+    },
+    {
+     "q": "Mi a különbség a THM és a kamatláb között?",
+     "a": "A kamatláb az az összeg, amit magáért a hitelért fizetsz. A THM ezen felül a legtöbb felmerülő díjat is tartalmazza, ezért ezzel sokkal megbízhatóbban hasonlíthatók össze a hitelek."
+    },
+    {
+     "q": "Segít az előtörlesztés?",
+     "a": "Igen. A közvetlenül a tőkére befizetett összeg csökkenti a kamatozó tőketartozást, így összességében kevesebb kamatot fizetsz, és hamarabb törlesztesz. Érdemes ellenőrizni, hogy a hiteleződ számít-e fel előtörlesztési díjat."
+    },
+    {
+     "q": "Tartalmaz a kalkulátor egyéb díjakat vagy adókat?",
+     "a": "Nem. A folyósítási díjakat, a biztosítást és az adókat nem tartalmazza."
+    },
+    {
+     "q": "Elmenti a rendszer a megadott adataimat?",
+     "a": "Nem. A számítások teljes egészében a böngésződben futnak; semmi nem kerül mentésre vagy továbbításra."
+    },
+    {
+     "q": "Hogyan követi a hitelemet a Spendry?",
+     "a": "A hitelt elég egyszer rögzítened; a Spendry megmutatja a hátralévő részleteket, a futamidő végét és a havi végösszeget, miközben minden törlesztés előtt emlékeztet. A banki bejelentkezési adataidat soha nem kéri el."
+    }
+   ],
+   "final_title": "A hiteled átlátható, egészen az utolsó törlesztőig.",
+   "final_text": "Töltsd le a Spendry alkalmazást, add hozzá a hiteledet, és bízd rá az összes részlet nyomon követését."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Kövesd a haladást",
     "Hozd létre a Célok között a Spendry alkalmazásban, és nézd meg minden befizetés után, mennyivel kerültél közelebb hozzá."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ingyenes · Nem kell regisztráció · A böngésződben fut, semmi nem kerül továbbításra",
+   "app_title": "A Spendry minden lépésnél mutatja, milyen közel jársz.",
+   "app_sub": "A kalkulátor kiszámolja a havi összeget. A Spendry nyilvántartja a célodat, minden befizetésnél jelzi a haladást, és kiszámolja a hátralévő időt.",
+   "app_points": [
+    {
+     "title": "Minden célod egyetlen képernyőn",
+     "text": "Tartalékalap, utazás, új autó: lásd pontosan, hol tartasz az egyes Célok terén, és hány nap van még hátra.",
+     "shot": "05"
+    },
+    {
+     "title": "Lásd előre az előtted álló hónapot",
+     "text": "Tudd meg, mennyit tudsz félretenni ebben a hónapban a bevételeid és a kifizetéseid tükrében.",
+     "shot": "01"
+    },
+    {
+     "title": "Kövesd nyomon megtakarításaid növekedését",
+     "text": "Kövesd az aranyat, devizákat, részvényeket és alapokat az aktuális árfolyamukon a Befektetések között.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Rövid útmutató a célokhoz való megtakarításhoz",
+   "guide": [
+    {
+     "h": "Mennyit érdemes havonta megtakarítanom?",
+     "p": [
+      "Vond le a már meglévő összeget a célodból, a maradékot pedig oszd el a rendelkezésre álló hónapok számával. A kalkulátor ezt elvégzi helyetted, és ha megadsz egy kamatot, a megtakarításaid hozamával is számol.",
+      "Példa: egy 3 000 000 Ft-os cél esetén, ha már van 500 000 Ft-od és 10 hónapod van hátra, kamat nélkül havi 250 000 Ft-ot kell félretenned."
+     ]
+    },
+    {
+     "h": "Miért számít a kamat?",
+     "p": [
+      "Ha a megtakarításaid kamatoznak egy megtakarítási számlán vagy befektetési alapban, havonta kevesebbet kell befizetned ugyanazon cél eléréséhez. Minél hosszabb az időtáv, annál nagyobb a hatás."
+     ]
+    },
+    {
+     "h": "Kezdd egy biztonsági tartalékkal",
+     "p": [
+      "A nagyobb célok előtt érdemes felépíteni egy vésztartalékot, amely fedezi néhány havi alapköltségedet, így egy váratlan számla nem válik adóssággá."
+     ]
+    },
+    {
+     "h": "Tippek a könnyebb megtakarításhoz",
+     "list": [
+      "Tegyél félre azonnal, amint megérkezik a fizetésed, és kezeld úgy, mint egy számlát.",
+      "Állíts be automatikus átutalást, hogy soha ne kelljen külön döntened róla.",
+      "Irányítsd a bónuszokat és a mellékes bevételeket egyenesen a kitűzött célra.",
+      "Oszd meg a célt a pároddal vagy családoddal, így gyorsabban eléritek.",
+      "Tartsd szem előtt a haladásodat, mert minden egyes befizetés lendületet ad."
+     ]
+    }
+   ],
+   "faq_title": "Gyakori kérdések",
+   "faq": [
+    {
+     "q": "Milyen kamatlábat érdemes megadnom?",
+     "a": "Add meg a megtakarítási számlád vagy befektetési alapod várható éves kamatát vagy hozamát. Ha bizonytalan vagy, írj be 0-t a legóvatosabb becsléshez."
+    },
+    {
+     "q": "Hogyan érhetem el hamarabb a célomat?",
+     "a": "Emeld meg a havi összeget, fordíts extra bevételeket a célra, vagy válassz kamatozó számlát. Csökkentsd az időtávot a kalkulátorban, és nézd meg, hogyan változik a havi összeg."
+    },
+    {
+     "q": "Mekkora legyen a biztonsági tartalék?",
+     "a": "Általában három-hat havi alapvető kiadásnak megfelelő összeg javasolt. Minél kiszámíthatóbb a jövedelmed, annál kevesebb is elég lehet, ingadozó bevétel esetén viszont érdemes többet félretenni."
+    },
+    {
+     "q": "Mentésre kerül bármi, amit beírok?",
+     "a": "Nem. A számítások teljes egészében a böngésződben futnak, semmit sem mentünk el és semmit sem továbbítunk."
+    },
+    {
+     "q": "Hogyan követi a Spendry a céljaimat?",
+     "a": "Létrehozol egy célt, és minden befizetés után látod az előrehaladást. A Spendry jelzi a hátralévő összeget és időt, a Közös költségvetés révén pedig megoszthatod a célt a családoddal is. A banki belépési adataidat soha nem kéri el."
+    }
+   ],
+   "final_title": "Lépj egy lépéssel közelebb a célodhoz.",
+   "final_text": "Töltsd le a Spendry appot, hozd létre a célodat, és lásd a haladást minden alkalommal, amikor pénzt teszel félre."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Ne érjen váratlan megújulás",
     "A Spendry rendszerezi az Előfizetések listáját, hozzáadja őket a havi kerethez, és időben figyelmeztet minden levonás előtt."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ingyenes · Nem kell regisztráció · A böngésződben fut, semmi nem kerül továbbításra",
+   "app_title": "A Spendry segít, hogy egyetlen megújulás se érjen váratlanul.",
+   "app_sub": "A kalkulátor megmutatja a végösszeget. A Spendry nyilvántartja az előfizetéseidet, hozzáadja őket a havi kiadásaidhoz, és minden megújulás előtt figyelmeztet.",
+   "app_points": [
+    {
+     "title": "Emlékeztető minden megújulás előtt",
+     "text": "Zene, streaming, felhőtárhely vagy edzőterem: minden megújulásról értesülsz, mielőtt levonnák a díjat.",
+     "shot": "07"
+    },
+    {
+     "title": "Kérdezd meg, mennyibe kerülnek az előfizetéseid évente",
+     "text": "Kérdezd meg az asszisztenst: a válasz közvetlenül az iPhone készülékeden készül el, és az adataid ott is maradnak.",
+     "shot": "09"
+    },
+    {
+     "title": "Lásd előre az előtted álló hónapot",
+     "text": "Lásd tisztán, hogyan alakítják a következő 30 napodat az Előfizetések, a Hitelkártyák és a Számlák.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Rövid útmutató az előfizetésekhez",
+   "guide": [
+    {
+     "h": "Hogyan számold ki az előfizetések valódi költségét?",
+     "p": [
+      "Számíts át minden előfizetést havi összegre: oszd el az éves díjat 12-vel, a heti árat szorozd meg 52-vel és oszd el 12-vel. Ezután add össze őket. A kalkulátor ezt automatikusan kiszámolja, és megmutatja a havi, éves és ötéves összeget is.",
+      "Egy apró havi díj ártalmatlannak tűnik. Tizenkettővel beszorozva, és az összes előfizetésedet összeadva viszont gyakran kiderül, hogy az egyik legnagyobb rendszeres kiadásod."
+     ]
+    },
+    {
+     "h": "Mely előfizetéseket érdemes lemondani?",
+     "p": [
+      "Rendezd őket ár szerint, és tedd fel magadnak a kérdést mindegyiknél: használtam a múlt hónapban? Mondd le azokat, amelyeket nem használsz, a megtartott szolgáltatásokhoz pedig állíts be emlékeztetőt a megújulás előtt.",
+      "Ha két előfizetés ugyanarra a feladatra való, tartsd meg csak az egyiket. A családi vagy diákkedvezmények szintén segítenek csökkenteni a végösszeget."
+     ]
+    },
+    {
+     "h": "Figyelj az ingyenes próbaidőszakokra",
+     "p": [
+      "Amikor egy ingyenes próbaidőszak véget ér, az előfizetés általában automatikusan fizetőssé válik. Jegyezd fel a lejárati dátumot az indítás napján, vagy állíts be rá egy emlékeztetőt."
+     ]
+    },
+    {
+     "h": "Tippek az előfizetési költségek csökkentésére",
+     "list": [
+      "Nézd át az összes előfizetésedet évente egyszer.",
+      "Válts éves díjcsomagra azoknál a szolgáltatásoknál, amelyeket egész évben használsz, mert ezek általában olcsóbbak.",
+      "Használj ki közös családi csomagokat.",
+      "Mondd le a szolgáltatást azokban a hónapokban, amikor nem veszed igénybe, és újítsd meg, amikor újra szükséged van rá.",
+      "Állíts be egy emlékeztetőt minden egyes megújulás előtt."
+     ]
+    }
+   ],
+   "faq_title": "Gyakori kérdések",
+   "faq": [
+    {
+     "q": "Mennyibe kerülnek az előfizetéseim évente?",
+     "a": "Számítsd át mindegyiket havi összegre, add össze őket, és szorozd meg a végösszeget 12-vel. A kalkulátor ezt kiszámolja helyetted, és még az ötéves összeget is megmutatja."
+    },
+    {
+     "q": "Hogyan adhatok meg heti és éves előfizetéseket?",
+     "a": "Válaszd ki a számlázási gyakoriságot az egyes sorokban: heti, havi vagy éves. A kalkulátor automatikusan egységes havi összegre alakítja mindet."
+    },
+    {
+     "q": "Megéri az éves csomagot választani?",
+     "a": "Ha egy szolgáltatást egész évben használni fogsz, az éves előfizetés általában olcsóbb. Ha bizonytalan vagy, az első néhány hónapban maradj a havi díjazásnál."
+    },
+    {
+     "q": "Mentésre kerül bármi, amit beírok?",
+     "a": "Nem. A számítások teljes egészében a böngésződben futnak, semmit sem mentünk el és semmit sem továbbítunk."
+    },
+    {
+     "q": "Hogyan követi a Spendry az előfizetéseimet?",
+     "a": "Egyszer rögzíted az előfizetéseidet, a Spendry pedig hozzáadja őket a havi kiadásaidhoz, figyelmeztet minden megújulás előtt, és jelzi az éves költséget. A banki belépési adataidat soha nem kéri el."
+    }
+   ],
+   "final_title": "Tudj minden megújulásról előre.",
+   "final_text": "Töltsd le a Spendry appot az App Store áruházból, vidd fel az előfizetéseidet, és kapj időben értesítést minden megújulás előtt."
+  }
  }
 }

@@ -298,7 +298,154 @@
     "Os saldos mudam todo mês. O Spendry acompanha seus cartões, parcelas e contas, mantém seu plano Bola de Neve ou Avalanche em dia e avisa você antes de cada vencimento."
    ]
   ],
-  "extra_hint": "Valor que você pode destinar às dívidas além do pagamento mínimo. Quanto mais você pagar, mais rápido se livrará das dívidas."
+  "extra_hint": "Valor que você pode destinar às dívidas além do pagamento mínimo. Quanto mais você pagar, mais rápido se livrará das dívidas.",
+  "landing": {
+   "trust": "Grátis · Sem cadastro · Roda no seu navegador, nada é enviado para lugar nenhum",
+   "chart_title": "Como sua dívida vai diminuindo mês a mês",
+   "chart_sub": "O saldo total restante nos dois métodos e sem nenhum valor extra. Cada ponto representa o mês em que uma dívida é quitada.",
+   "extra_title": "O impacto de um valor extra",
+   "extra_sub": "Veja como pagar um pouco a mais além do mínimo muda a sua data de quitação e o total de juros pagos.",
+   "extra_amount": "Extra por mês",
+   "extra_months": "Tempo até zerar as dívidas",
+   "extra_none": "Sem valor extra",
+   "extra_sentence": "Pagar {extra} a mais todo mês antecipa sua quitação em {months} e economiza {interest} em juros.",
+   "extra_zero": "Sem pagar nenhum extra, suas dívidas acabam em {months}. Arraste o controle para ver a diferença.",
+   "schedule_title": "Planejamento mês a mês",
+   "schedule_sub": "Quanto você paga a cada mês, quanto é cobrado de juros e o saldo restante.",
+   "columns": [
+    "Mês",
+    "Pagamento",
+    "Juros",
+    "Saldo restante"
+   ],
+   "show_all": "Mostrar todos os meses",
+   "show_less": "Mostrar menos",
+   "app_title": "O Spendry mantém esse plano atualizado para você, todo mês.",
+   "app_sub": "Esta página é apenas um cálculo estático. O Spendry trabalha com seus saldos reais, recalcula o plano após cada pagamento e avisa você antes de cada vencimento.",
+   "app_points": [
+    {
+     "title": "Todas as dívidas em uma só tela",
+     "text": "Cartões de Crédito, Empréstimos, Conta de Cheque Especial e dinheiro emprestado de amigos: veja seu total devido e as parcelas mensais num relance.",
+     "shot": "06"
+    },
+    {
+     "title": "Nunca mais perca um vencimento",
+     "text": "Receba um aviso antes do fechamento da fatura, de cada parcela de empréstimo e de cada conta, evitando juros e multas por atraso no pagamento mínimo.",
+     "shot": "07"
+    },
+    {
+     "title": "Enxergue o fim do mês com antecedência",
+     "text": "O Spendry analisa suas receitas e despesas previstas para os próximos 30 dias e mostra como vai ficar seu saldo.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Um guia prático para quitar suas dívidas",
+   "guide": [
+    {
+     "h": "O que é o método Bola de Neve?",
+     "p": [
+      "No método Bola de Neve, você lista suas dívidas em ordem crescente de saldo devedor, da menor para a maior. Você paga o mínimo em todas elas e coloca qualquer quantia extra na menor dívida. Quando ela é quitada, esse valor se junta ao pagamento da próxima, aumentando o poder de pagamento a cada dívida eliminada.",
+      "Sua principal vantagem é o impulso psicológico: a primeira dívida desaparece em poucos meses, facilitando a adesão ao plano até o fim."
+     ]
+    },
+    {
+     "h": "O que é o método Avalanche?",
+     "p": [
+      "No método Avalanche, você lista suas dívidas a partir da maior taxa de juros anual até a menor. O dinheiro extra vai sempre para a dívida mais cara primeiro. Como você ataca a dívida que cresce mais depressa, esse método quase sempre gera a maior economia total de juros.",
+      "O contraponto: se a dívida com os juros mais altos tiver um valor muito elevado, quitar a primeira pode levar algum tempo."
+     ]
+    },
+    {
+     "h": "Qual deles é o melhor para você?",
+     "table": [
+      [
+       "",
+       "Bola de Neve",
+       "Avalanche"
+      ],
+      [
+       "Primeira dívida quitada",
+       "Menor saldo",
+       "Maior taxa de juros"
+      ],
+      [
+       "Total de juros pagos",
+       "Pode ser um pouco maior",
+       "Geralmente é o menor"
+      ],
+      [
+       "Primeiro resultado",
+       "Rápido",
+       "Pode demorar mais"
+      ],
+      [
+       "Ideal para",
+       "Quem precisa de motivação rápida",
+       "Quem quer economizar o máximo em juros"
+      ]
+     ],
+     "p": [
+      "Muitas vezes a diferença entre eles é pequena; o mais importante é ter um plano estruturado. A calculadora acima compara os dois métodos com os seus números reais e mostra qual deles custa menos."
+     ]
+    },
+    {
+     "h": "Como funciona o cálculo, com um exemplo",
+     "p": [
+      "A cada mês, os juros são somados primeiro: o saldo devedor vezes a taxa mensal. Um saldo de R$ 25.000 no cartão de crédito com taxa de juros anual de 24%, equivalente a 2% ao mês, recebe R$ 500 de juros naquele mês.",
+      "Em seguida, cada dívida recebe seu pagamento mínimo e o valor extra vai para a dívida prioritária da vez. Quando uma dívida termina, o valor antes pago a ela é somado ao pagamento da seguinte.",
+      "A calculadora repete essas etapas mês a mês até eliminar a última dívida, definindo o mês da sua liberdade financeira e o total gasto em juros."
+     ]
+    },
+    {
+     "h": "A armadilha do pagamento mínimo",
+     "p": [
+      "Pagar apenas o mínimo do cartão de crédito mantém a dívida viva: os juros são cobrados sobre o valor remanescente mês a mês e o saldo pode se arrastar por anos.",
+      "Qualquer quantia paga além do mínimo antecipa a quitação total em vários meses. Faça o teste com seus valores no campo de pagamento extra logo acima."
+     ]
+    },
+    {
+     "h": "Estratégias para sair das dívidas mais rápido",
+     "list": [
+      "Pare de acumular novas dívidas: use o cartão de crédito apenas para despesas que você possa liquidar integralmente no mesmo mês.",
+      "Pague um valor fixo acima do mínimo todo mês e configure isso de forma automática.",
+      "Direcione décimo terceiro, restituição de imposto de renda e rendas extras direto para a dívida prioritária.",
+      "Analise se trocar uma dívida cara por um empréstimo com juros menores realmente reduz o custo final.",
+      "Revise suas assinaturas recorrentes, cancele serviços esquecidos e aplique essa economia nas suas parcelas.",
+      "Nunca atrase um vencimento: multas e encargos por atraso atrasam o seu planejamento."
+     ]
+    }
+   ],
+   "faq_title": "Perguntas frequentes",
+   "faq": [
+    {
+     "q": "O método bola de neve ou avalanche economiza mais juros?",
+     "a": "Na maioria dos casos, o método avalanche, que foca na maior taxa de juros anual primeiro, resulta no menor pagamento total de juros. O método bola de neve elimina a primeira conta mais cedo, o que ajuda na motivação. A calculadora simula as duas opções para você comparar."
+    },
+    {
+     "q": "Quais tipos de dívidas posso incluir?",
+     "a": "Faturas de cartão de crédito, empréstimo pessoal, financiamento de veículos, financiamento estudantil, cheque especial ou dívidas informais com amigos e parentes. Se a dívida não tiver juros, basta informar 0 na taxa."
+    },
+    {
+     "q": "Onde encontro a taxa de juros anual?",
+     "a": "Ela fica indicada na fatura do cartão de crédito, no contrato do seu empréstimo ou no aplicativo do banco, identificada como taxa de juros anual ou custo efetivo total anual. Digite esse valor anual e a calculadora fará a conversão para a taxa mensal."
+    },
+    {
+     "q": "Quão exato é o resultado da simulação?",
+     "a": "O cálculo considera que as taxas não mudem, que os pagamentos mensais sejam constantes e que não existam cobranças extras de tarifas. Na prática, as condições do contrato podem variar; use o resultado como uma bússola de planejamento financeiro."
+    },
+    {
+     "q": "Os dados que eu preencher são enviados para algum servidor?",
+     "a": "Não. Todos os cálculos rodam exclusivamente no seu navegador; nenhuma informação inserida é salva ou transmitida para terceiros."
+    },
+    {
+     "q": "O que o Spendry faz além desta calculadora?",
+     "a": "O Spendry acompanha seus saldos reais, recalcula o cronograma a cada parcela paga, envia lembretes antes dos vencimentos e mostra sempre o dia exato da sua quitação. Ele não pede senhas bancárias e não monitora sua vida privada."
+    }
+   ],
+   "final_title": "Tenha a data da sua quitação total no seu bolso.",
+   "final_text": "Baixe o Spendry, cadastre suas contas a pagar uma única vez e acompanhe seu progresso mês a mês.",
+   "chart_none": "Sem valor extra"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Automatize sua rotina",
     "No Spendry, cada categoria ganha um teto mensal que vai se preenchendo conforme você gasta, com alertas pontuais antes de ultrapassar o limite."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Grátis · Sem cadastro · Roda no seu navegador, nada é enviado para lugar nenhum",
+   "app_title": "O Spendry cuida do seu orçamento por você, todos os dias.",
+   "app_sub": "A regra 50/30/20 é um ótimo começo. O Spendry adiciona cada gasto à categoria certa, avisa antes que o limite acabe e mostra o fim do mês com antecedência.",
+   "app_points": [
+    {
+     "title": "Um orçamento para cada categoria",
+     "text": "Supermercado, transporte, contas: defina um limite mensal para cada um e veja sempre quanto ainda resta.",
+     "shot": "04"
+    },
+    {
+     "title": "Adicione uma despesa em segundos",
+     "text": "Digite o valor, escolha a categoria e pronto. Modelos prontos transformam despesas frequentes em apenas um toque.",
+     "shot": "02"
+    },
+    {
+     "title": "Veja para onde foi o seu dinheiro",
+     "text": "Gráficos semanais e mensais mostram onde você mais gasta e comparam tudo com o mês anterior.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Um guia rápido para o seu orçamento",
+   "guide": [
+    {
+     "h": "O que é a regra 50/30/20?",
+     "p": [
+      "Metade da sua renda líquida vai para necessidades (aluguel, contas, compras de mercado, transporte), 30 por cento para desejos (restaurantes, lazer, compras) e 20 por cento para reservas e pagamento de dívidas.",
+      "Ela serve como ponto de partida. Se só o aluguel consome metade da sua renda, ajuste essa divisão à sua realidade e priorize quitar as dívidas com juros mais altos."
+     ]
+    },
+    {
+     "h": "Como fazer um orçamento mensal",
+     "p": [
+      "Comece pela sua renda: salário, rendas extras e qualquer outro dinheiro recorrente. Em seguida, separe os custos fixos no início do mês: aluguel, contas básicas, parcelas de empréstimos e assinaturas.",
+      "Anote os gastos variáveis como supermercado, refeições fora de casa e transporte na hora em que acontecerem. Deixar para o final do mês faz a maior parte ser esquecida. No fim do mês, subtraia os gastos da renda e envie o que sobrou para as suas reservas."
+     ]
+    },
+    {
+     "h": "Planeje a fatura do cartão de crédito",
+     "p": [
+      "As compras no cartão não saem da sua conta hoje; elas são debitadas quando você paga a fatura. Ao planejar o mês, considere o valor da fatura que você vai pagar, não apenas o saldo do dia."
+     ]
+    },
+    {
+     "h": "Como manter o orçamento em dia",
+     "list": [
+      "Pague-se primeiro: guarde a quantia da sua reserva assim que o salário cair.",
+      "Insira os custos fixos uma única vez e deixe que eles se repitam a cada mês.",
+      "Registre também os pequenos gastos; no fim do mês, eles fazem uma diferença enorme.",
+      "Revise as suas assinaturas uma vez por ano.",
+      "Confira o seu orçamento no meio do mês e faça ajustes para a segunda metade se precisar."
+     ]
+    }
+   ],
+   "faq_title": "Perguntas frequentes",
+   "faq": [
+    {
+     "q": "A regra 50/30/20 funciona para todo mundo?",
+     "a": "Não, ela é apenas um ponto de partida. Se o aluguel e as contas consomem mais da metade da sua renda, altere a proporção. O importante é guardar algo para reservas e dívidas todos os meses."
+    },
+    {
+     "q": "Devo usar a renda bruta ou a renda líquida?",
+     "a": "Use a sua renda líquida, que é o valor que realmente cai na sua conta após impostos e descontos."
+    },
+    {
+     "q": "Onde entram os pagamentos de dívidas?",
+     "a": "O pagamento mínimo entra nas necessidades básicas. Tudo o que você pagar além do mínimo entra nos 20 por cento destinados a reservas e quitação de dívidas."
+    },
+    {
+     "q": "Os dados que eu digito ficam salvos?",
+     "a": "Não. Os cálculos acontecem totalmente no seu navegador; nada do que você informa é salvo ou enviado para nenhum lugar."
+    },
+    {
+     "q": "Como o Spendry organiza o meu orçamento?",
+     "a": "Você define um limite mensal para cada categoria; ele vai sendo preenchido conforme você gasta e avisa antes do limite estourar. Como seus cartões, empréstimos e assinaturas ficam no mesmo lugar, você vê o fechamento do mês com antecedência. Ele nunca pede a senha do seu banco."
+    }
+   ],
+   "final_title": "Tenha o seu orçamento sempre no bolso.",
+   "final_text": "Baixe o Spendry, cadastre sua renda e seus custos fixos uma única vez e acompanhe o final de cada mês com antecedência."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Coloque em prática",
     "O Spendry mantém seu plano em dia: cadastre seus Cartões de Crédito, defina quanto pode pagar no mês e receba Lembretes antes do vencimento."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Grátis · Sem cadastro · Roda no seu navegador, nada é enviado para lugar nenhum",
+   "app_title": "O Spendry monitora os saldos dos seus cartões todo mês.",
+   "app_sub": "A calculadora analisa o plano de um único cartão. O Spendry reúne todos os seus cartões, acompanha as datas de fechamento e vencimento e manda alertas antes de cada fatura.",
+   "app_points": [
+    {
+     "title": "Todos os cartões na mesma tela",
+     "text": "Consulte o saldo da fatura, o dia do vencimento e os dias restantes de cada cartão com praticidade.",
+     "shot": "06"
+    },
+    {
+     "title": "Lembrete antes de cada vencimento",
+     "text": "Receba um aviso no fechamento da fatura e antes do prazo de pagamento para não cair no rotativo nem pagar juros por esquecimento.",
+     "shot": "07"
+    },
+    {
+     "title": "Descubra para onde vai o seu dinheiro",
+     "text": "Veja as despesas do cartão organizadas por categoria e saiba com clareza onde é possível economizar.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Um guia rápido sobre dívidas no cartão de crédito",
+   "guide": [
+    {
+     "h": "Como funcionam os juros do cartão de crédito",
+     "p": [
+      "A cada mês, a instituição financeira cobra juros sobre o saldo não pago, com base na taxa de juros anual do cartão. O seu pagamento quita primeiro esses encargos e o que sobra reduz o montante principal. A calculadora repete esse ciclo mês a mês até a liquidação completa.",
+      "Por exemplo: uma dívida de R$ 15.000 a uma taxa de juros anual de 24%, equivalente a 2% ao mês, gera R$ 300 de juros. Ao pagar R$ 1.000, a dívida recua para R$ 14.300; os juros do mês seguinte serão calculados sobre esse novo saldo."
+     ]
+    },
+    {
+     "h": "Por que o pagamento mínimo dura tanto tempo",
+     "p": [
+      "O valor mínimo normalmente corresponde a uma pequena parcela da fatura. Conforme a dívida encolhe, o valor mínimo exigido diminui junto, fazendo com que a maior parte do que você paga seja consumida apenas por juros.",
+      "Pagar uma quantia fixa mensal quebra esse ciclo: o mesmo valor continua abatendo o montante devido todo mês. O comparativo da calculadora revela essa diferença com os seus números."
+     ]
+    },
+    {
+     "h": "Data de fechamento e data de vencimento",
+     "p": [
+      "A data de fechamento encerra o ciclo de compras do mês e consolida o saldo da fatura. A data de vencimento é o limite para o pagamento, ocorrendo geralmente algumas semanas após o fechamento.",
+      "Ao quitar o valor integral até o vencimento, você não paga juros sobre as compras efetuadas. Se pagar apenas uma parte, os encargos do rotativo incidirão sobre a quantia pendente."
+     ]
+    },
+    {
+     "h": "Dicas para zerar o cartão de crédito mais rápido",
+     "list": [
+      "Pague um valor fixo todo mês, o maior que o seu orçamento permitir, em vez de ficar apenas no mínimo.",
+      "Evite novas compras no cartão enquanto estiver amortizando o saldo devedor.",
+      "Se você tiver pendências em mais de um cartão, foque o dinheiro extra no que tiver a maior taxa de juros anual.",
+      "Avalie se a portabilidade de crédito ou um empréstimo pessoal com juros mais em conta compensa os custos totais da operação.",
+      "Pague sempre em dia para não somar multas, juros de mora e tarifas extras ao seu saldo."
+     ]
+    }
+   ],
+   "faq_title": "Perguntas frequentes",
+   "faq": [
+    {
+     "q": "Quanto tempo demora pagando apenas o mínimo do cartão?",
+     "a": "O tempo varia segundo o valor total, a taxa de juros anual aplicada e a fórmula de cálculo da fatura, mas pode levar muitos anos. A ferramenta simula quando a dívida seria extinta pagando só o mínimo e quanto isso custará em juros."
+    },
+    {
+     "q": "O que significa a taxa de juros anual?",
+     "a": "É a taxa que expressa o custo financeiro total do cartão de crédito ao longo de um ano. A cobrança sobre o saldo do rotativo ocorre todo mês, correspondendo proporcionalmente a essa taxa anual."
+    },
+    {
+     "q": "Como a operadora calcula o pagamento mínimo?",
+     "a": "A maioria dos bancos cobra uma porcentagem do saldo total, muitas vezes com um piso mínimo em reais, acrescida de juros e encargos. O percentual exato consta na sua fatura e você pode ajustá-lo na calculadora."
+    },
+    {
+     "q": "A calculadora inclui anuidade e tarifas?",
+     "a": "Não. Custos como anuidade do cartão, multas por atraso e tarifas operacionais não entram na conta, o que pode tornar a despesa real um pouco superior."
+    },
+    {
+     "q": "As informações que digito ficam salvas?",
+     "a": "Não. Todos os dados são processados localmente no seu navegador; nenhuma informação é armazenada ou compartilhada."
+    },
+    {
+     "q": "Como o Spendry acompanha as faturas dos meus cartões?",
+     "a": "Você cadastra os cartões no app; o Spendry monitora os prazos de fechamento e vencimento, envia lembretes pontuais e atualiza o saldo e sua data de quitação à medida que você registra os pagamentos. Não é preciso fornecer dados de acesso ao seu banco."
+    }
+   ],
+   "final_title": "Organize o pagamento dos seus cartões de crédito.",
+   "final_text": "Baixe o Spendry, registre seus cartões e tenha controle absoluto sobre cada fatura e data de vencimento."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Acompanhe depois de assinar",
     "Adicione seus Empréstimos no Spendry para conferir as Parcelas restantes, o mês final e receber Lembretes antes de cada pagamento."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Grátis · Sem cadastro · Roda no seu navegador, nada é enviado para lugar nenhum",
+   "app_title": "O Spendry acompanha o seu empréstimo até a última parcela.",
+   "app_sub": "A calculadora mostra o valor da parcela. O Spendry acompanha as parcelas restantes, a data de término, cada vencimento e avisa você antes de cada pagamento.",
+   "app_points": [
+    {
+     "title": "Todos os seus empréstimos em uma só lista",
+     "text": "Financiamento de veículos, empréstimos pessoais e estudantis: veja as parcelas que faltam e o total do mês de relance.",
+     "shot": "06"
+    },
+    {
+     "title": "Um lembrete antes de cada vencimento",
+     "text": "Nunca mais esqueça uma parcela de empréstimo nem pague juros por atraso.",
+     "shot": "07"
+    },
+    {
+     "title": "Veja o mês seguinte com clareza",
+     "text": "O Spendry mostra como as parcelas do seu empréstimo, cartões e contas vão impactar os próximos 30 dias.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Um guia rápido sobre empréstimos",
+   "guide": [
+    {
+     "h": "Como a parcela do empréstimo é calculada",
+     "p": [
+      "A maioria dos empréstimos pessoais e financiamentos de veículos utiliza amortização: você paga o mesmo valor todos os meses. Parte de cada pagamento cobre os juros sobre o saldo devedor e o restante amortiza a dívida principal.",
+      "As primeiras parcelas são formadas quase todas por juros; conforme o saldo devedor cai, uma parte maior do pagamento vai para o principal. A tabela da calculadora mostra essa evolução mês a mês."
+     ]
+    },
+    {
+     "h": "Prazo mais curto ou parcela menor?",
+     "p": [
+      "Um prazo mais longo reduz o valor da parcela mensal, mas aumenta o total de juros pagos. Um prazo mais curto aumenta a parcela e barateia o custo total.",
+      "O prazo mais curto que couber confortavelmente no seu orçamento costuma ser a opção mais barata."
+     ]
+    },
+    {
+     "h": "Taxa de juros anual e custo efetivo total",
+     "p": [
+      "A taxa de juros representa o custo básico do empréstimo. A taxa de juros anual com encargos inclui também a maioria das tarifas, sendo o número mais confiável para comparar propostas."
+     ]
+    },
+    {
+     "h": "Como pagar menos juros",
+     "list": [
+      "Compare as opções pelo custo efetivo e pela taxa anual de juros, não apenas pelo valor da parcela.",
+      "Escolha um prazo mais curto se o seu orçamento permitir.",
+      "Faça amortizações extraordinárias do principal logo no início do contrato.",
+      "Verifique se o seu banco ou credor cobra alguma taxa por amortização antecipada.",
+      "Nunca atrase uma parcela; os encargos por atraso acumulam muito rápido."
+     ]
+    }
+   ],
+   "faq_title": "Perguntas frequentes",
+   "faq": [
+    {
+     "q": "Como a parcela mensal é calculada?",
+     "a": "Por meio da fórmula clássica de amortização: o valor do empréstimo, a taxa mensal (a taxa de juros anual dividida por 12) e a quantidade de meses. Os juros são calculados sobre o saldo devedor restante a cada mês."
+    },
+    {
+     "q": "Qual a diferença entre taxa de juros e custo efetivo anual?",
+     "a": "A taxa de juros é o que você paga para tomar o valor emprestado. A taxa anual de juros efetiva soma a maioria das taxas e encargos a esse valor, sendo a melhor métrica para comparar empréstimos."
+    },
+    {
+     "q": "Fazer amortizações extras ajuda?",
+     "a": "Sim. Pagar valores extras voltados ao principal diminui o saldo sobre o qual incidem os juros, reduzindo o custo total e encurtando o prazo. Veja se o seu banco cobra taxa por pagamento antecipado."
+    },
+    {
+     "q": "A calculadora inclui taxas ou impostos?",
+     "a": "Não. Custos de emissão, seguros e tributos não estão incluídos."
+    },
+    {
+     "q": "Os dados que eu digito ficam salvos?",
+     "a": "Não. Os cálculos acontecem totalmente no seu navegador; nada do que você informa é salvo ou enviado para lugar nenhum."
+    },
+    {
+     "q": "Como o Spendry acompanha o meu empréstimo?",
+     "a": "Você adiciona o empréstimo uma vez; o Spendry mostra as parcelas que faltam, a data final e o total mensal, além de avisar você antes de cada vencimento. Ele nunca pede o login da sua conta bancária."
+    }
+   ],
+   "final_title": "Seu empréstimo, sob controle até a última parcela.",
+   "final_text": "Baixe o Spendry, cadastre o seu empréstimo e deixe o app monitorar cada pagamento por você."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Acompanhe a sua evolução",
     "Crie suas Metas no Spendry e acompanhe seu progresso de perto a cada novo valor guardado."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Grátis · Sem cadastro · Funciona no seu navegador, nada é enviado para lugar nenhum",
+   "app_title": "O Spendry mostra o quanto você está perto, a cada passo do caminho.",
+   "app_sub": "A calculadora mostra o valor mensal. O Spendry guarda a sua meta, mostra o seu progresso a cada valor guardado e calcula o tempo restante.",
+   "app_points": [
+    {
+     "title": "Todas as suas metas em uma só tela",
+     "text": "Reserva de emergência, viagem, carro novo: veja quanto falta para completar cada meta e quantos dias restam.",
+     "shot": "05"
+    },
+    {
+     "title": "Veja o mês que vem pela frente",
+     "text": "Saiba quanto você pode guardar este mês considerando suas rendas e pagamentos.",
+     "shot": "01"
+    },
+    {
+     "title": "Acompanhe suas economias crescerem",
+     "text": "Acompanhe ouro, moedas, ações e fundos com as cotações atuais.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Um guia rápido para guardar dinheiro para uma meta",
+   "guide": [
+    {
+     "h": "Quanto devo guardar todo mês?",
+     "p": [
+      "Subtraia o que você já tem do valor total da sua meta e divida o restante pelos meses disponíveis. A calculadora faz isso por você e, se você informar uma taxa, inclui o rendimento dos juros sobre o valor guardado.",
+      "Exemplo: para uma meta de R$ 30.000 com R$ 5.000 já guardados e 10 meses pela frente, você precisa reservar R$ 2.500 por mês sem considerar juros."
+     ]
+    },
+    {
+     "h": "Por que os juros fazem diferença",
+     "p": [
+      "Se o seu dinheiro rende juros na poupança ou em um fundo, você precisa guardar menos a cada mês para atingir o mesmo objetivo. Quanto maior o prazo, maior é esse efeito."
+     ]
+    },
+    {
+     "h": "Comece com uma reserva de emergência",
+     "p": [
+      "Antes de focar em metas maiores, ter uma reserva de emergência que cubra alguns meses de custos básicos evita que um imprevisto vire uma dívida."
+     ]
+    },
+    {
+     "h": "Formas de facilitar o hábito de guardar",
+     "list": [
+      "Guarde o dinheiro assim que receber o salário e trate esse valor como uma conta a pagar.",
+      "Programe uma transferência automática para não precisar tomar essa decisão todo mês.",
+      "Envie bônus e rendas extras direto para a sua meta.",
+      "Compartilhe a meta com seu parceiro ou família para alcançar o objetivo mais rápido.",
+      "Deixe o seu progresso sempre visível; cada novo depósito serve de incentivo."
+     ]
+    }
+   ],
+   "faq_title": "Perguntas frequentes",
+   "faq": [
+    {
+     "q": "Qual taxa de juros devo colocar?",
+     "a": "Informe a taxa de juros anual esperada para a sua aplicação ou poupança. Se não tiver certeza, use 0 para ter uma estimativa mais conservadora."
+    },
+    {
+     "q": "Como posso atingir minha meta mais rápido?",
+     "a": "Aumente o valor mensal, direcione rendas extras para a meta ou escolha uma aplicação que pague juros melhores. Reduza o prazo na calculadora para ver como a parcela mensal se ajusta."
+    },
+    {
+     "q": "Qual deve ser o tamanho da reserva de emergência?",
+     "a": "A recomendação comum é de três a seis meses de custos essenciais. Quanto mais estável for sua renda, menos você precisa; quanto mais instável, maior deve ser a reserva."
+    },
+    {
+     "q": "Os dados que eu digitar ficam salvos?",
+     "a": "Não. Os cálculos rodam totalmente no seu navegador; nada do que você digita é salvo ou enviado para lugar nenhum."
+    },
+    {
+     "q": "Como o Spendry acompanha as minhas metas?",
+     "a": "Você cria a meta e acompanha o progresso a cada depósito. O Spendry mostra o valor e o tempo restantes, e você pode compartilhar metas com a família. Ele nunca pede a senha do seu banco."
+    }
+   ],
+   "final_title": "Dê mais um passo rumo ao seu objetivo.",
+   "final_text": "Baixe o Spendry, crie a sua meta e veja a que distância você está a cada novo valor guardado."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Nunca seja pego de surpresa na renovação",
     "O Spendry monitora suas Assinaturas, inclui cada valor no seu total mensal e envia Lembretes antes de cada renovação."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Grátis · Sem cadastro · Funciona no seu navegador, nada é enviado para lugar nenhum",
+   "app_title": "O Spendry garante que nenhuma renovação pegue você de surpresa.",
+   "app_sub": "A calculadora mostra o total. O Spendry acompanha as suas assinaturas, soma tudo no seu orçamento do mês e avisa você antes de cada cobrança.",
+   "app_points": [
+    {
+     "title": "Um lembrete antes de cada renovação",
+     "text": "Música, streaming, armazenamento em nuvem ou academia: você é avisado antes de cada cobrança cair.",
+     "shot": "07"
+    },
+    {
+     "title": "Pergunte quanto suas assinaturas custam por ano",
+     "text": "Pergunte ao assistente; a resposta é calculada no seu iPhone e seus dados não saem dali.",
+     "shot": "09"
+    },
+    {
+     "title": "Veja o mês que vem pela frente",
+     "text": "Veja como assinaturas, cartões e contas vão impactar os seus próximos 30 dias.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Um guia rápido sobre assinaturas",
+   "guide": [
+    {
+     "h": "Como calcular o custo real das suas assinaturas",
+     "p": [
+      "Converta cada assinatura em um valor mensal: divida um plano anual por 12, ou multiplique um valor semanal por 52 e divida por 12. Em seguida, some tudo. A calculadora faz essa conta e mostra o total por mês, por ano e em cinco anos.",
+      "Uma mensalidade pequena parece inofensiva. Multiplicada por doze, e somada a todas as suas outras assinaturas, muitas vezes se torna uma das suas maiores despesas fixas."
+     ]
+    },
+    {
+     "h": "Quais assinaturas cancelar",
+     "p": [
+      "Organize por valor e avalie cada serviço: eu realmente usei isso no mês passado? Cancele o que não usa e crie lembretes antes das renovações que decidir manter.",
+      "Se você tem dois serviços parecidos, cancele um; assinar planos familiares ou para estudantes também ajuda a reduzir a fatura."
+     ]
+    },
+    {
+     "h": "Atenção aos períodos de teste grátis",
+     "p": [
+      "Quando o período de teste acaba, a cobrança costuma ser feita de forma automática. Anote a data de término assim que iniciar o teste ou defina um lembrete."
+     ]
+    },
+    {
+     "h": "Dicas para gastar menos com assinaturas",
+     "list": [
+      "Faça uma revisão de todas as suas assinaturas uma vez por ano.",
+      "Mude para planos anuais nos serviços que você usa o ano todo; eles costumam ser mais baratos.",
+      "Divida planos familiares.",
+      "Cancele nos meses em que não for usar o serviço e assine novamente quando precisar.",
+      "Configure um lembrete antes de cada renovação."
+     ]
+    }
+   ],
+   "faq_title": "Perguntas frequentes",
+   "faq": [
+    {
+     "q": "Quanto eu gasto por ano com assinaturas?",
+     "a": "Converta cada serviço para o valor mensal, some todos e multiplique por 12. A calculadora faz isso por você e também mostra o custo total em cinco anos."
+    },
+    {
+     "q": "Como preencho assinaturas semanais e anuais?",
+     "a": "Escolha a frequência de cobrança em cada linha: semanal, mensal ou anual. A calculadora converte tudo para o mesmo padrão."
+    },
+    {
+     "q": "Vale a pena contratar o plano anual?",
+     "a": "Se você usa o serviço o ano todo, o plano anual costuma ser mais em conta. Se estiver na dúvida, fique no plano mensal por alguns meses primeiro."
+    },
+    {
+     "q": "Os dados que eu digitar ficam salvos?",
+     "a": "Não. Os cálculos rodam totalmente no seu navegador; nada do que você digita é salvo ou enviado para lugar nenhum."
+    },
+    {
+     "q": "Como o Spendry acompanha as minhas assinaturas?",
+     "a": "Você cadastra suas assinaturas uma vez; o Spendry soma esses valores no seu total do mês, avisa você antes de cada renovação e exibe o custo anual. Ele nunca pede a senha do seu banco."
+    }
+   ],
+   "final_title": "Antecipe cada cobrança.",
+   "final_text": "Baixe o Spendry, cadastre suas assinaturas e seja avisado antes de cada renovação."
+  }
  }
 }

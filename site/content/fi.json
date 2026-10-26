@@ -298,7 +298,154 @@
     "Saldot muuttuvat joka kuukausi. Spendry seuraa korttejasi, lainojasi ja laskujasi, pitää lumipallo- tai lumivyörysuunnitelmasi ajan tasalla ja muistuttaa sinua ennen jokaista eräpäivää."
    ]
   ],
-  "extra_hint": "Rahaa, jonka voit käyttää velkojen maksuun minimilyhennysten lisäksi. Mitä enemmän maksat, sitä nopeammin vapaudut veloista."
+  "extra_hint": "Rahaa, jonka voit käyttää velkojen maksuun minimilyhennysten lisäksi. Mitä enemmän maksat, sitä nopeammin vapaudut veloista.",
+  "landing": {
+   "trust": "Ilmainen · Ei rekisteröitymistä · Toimii selaimessasi, mitään tietoja ei lähetetä eteenpäin",
+   "chart_title": "Näin velkasi sulaa kuukausi kuukaudelta",
+   "chart_sub": "Jäljellä oleva kokonaisvelkasi kummallakin menetelmällä ja ilman ylimääräisiä lyhennyksiä. Jokainen piste merkitsee kuukautta, jolloin yksi velka tulee maksetuksi.",
+   "extra_title": "Pienenkin lisämaksun voima",
+   "extra_sub": "Katso, miten vähimmäissumman päälle maksettu ylimääräinen lyhennys aikaistaa velattomuuspäivääsi ja pienentää maksamiasi korkoja.",
+   "extra_amount": "Ylimääräistä joka kuukausi",
+   "extra_months": "Aika velattomuuteen",
+   "extra_none": "Ei ylimääräistä",
+   "extra_sentence": "Maksamalla {extra} ylimääräistä kuukaudessa olet velaton {months} aiemmin ja säästät {interest} koroissa.",
+   "extra_zero": "Ilman lisälyhennyksiä olet velaton ajassa {months}. Liikuta liukusäädintä ja katso ero.",
+   "schedule_title": "Kuukausittainen maksusuunnitelma",
+   "schedule_sub": "Mitä maksat kuukausittain, kuinka paljon korkoa kertyy ja paljonko velkaa jää jäljelle.",
+   "columns": [
+    "Kuukausi",
+    "Maksu",
+    "Korko",
+    "Jäljellä oleva velka"
+   ],
+   "show_all": "Näytä kaikki kuukaudet",
+   "show_less": "Näytä vähemmän",
+   "app_title": "Spendry pitää suunnitelman ajan tasalla puolestasi joka kuukausi.",
+   "app_sub": "Tämä sivu näyttää vain tilannekuvan. Spendry toimii oikeilla saldoillasi, laskee suunnitelman uudelleen jokaisen maksun jälkeen ja muistuttaa sinua ennen jokaista eräpäivää.",
+   "app_points": [
+    {
+     "title": "Kaikki velat yhdellä näytöllä",
+     "text": "Luottokortit, lainat, tilinylitykset ja velat ystäville: kokonaisvelkasi ja kuukausieräsi yhdellä silmäyksellä.",
+     "shot": "06"
+    },
+    {
+     "title": "Eräpäivä ei enää koskaan unohdu",
+     "text": "Saat muistutuksen ennen jokaista luottokorttilaskua, lainanlyhennystä ja laskua, jotta unohduksista ei koidu myöhästymismaksuja.",
+     "shot": "07"
+    },
+    {
+     "title": "Näe kuukauden lopputulos ajoissa",
+     "text": "Spendry tarkastelee seuraavan 30 päivän tuloja sekä menoja ja näyttää, mihin suuntaan saldosi on menossa.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Pikaopas velkojen poismaksuun",
+   "guide": [
+    {
+     "h": "Mikä on lumipallomenetelmä?",
+     "p": [
+      "Lumipallomenetelmässä listaat velkasi pienimmästä saldosta suurimpaan. Maksat jokaisesta velasta minimilyhennyksen ja laitat kaiken ylimääräisen rahan pienimpään velkaan. Kun se on maksettu pois, sen maksuerä siirtyy seuraavaan velkaan, jolloin lyhennysvoimasi kasvaa jokaisen maksetun velan myötä.",
+      "Menetelmän suurin valtti on vauhti: ensimmäinen velka häviää muutamassa kuukaudessa, mikä tekee suunnitelmassa pysymisestä paljon helpompaa."
+     ]
+    },
+    {
+     "h": "Mikä on lumivyörymenetelmä?",
+     "p": [
+      "Lumivyörymenetelmässä listaat velkasi korkeimmasta vuosikorosta alhaisimpaan. Ylimääräinen raha ohjataan aina kalleimpaan velkaan. Koska maksat nopeimmin kasvavan velan ensin pois, tämä tapa säästää yleensä eniten korkokuluissa.",
+      "Kääntöpuolena on se, että jos kallein velkasi on suuri, ensimmäisen velan poismaksamiseen voi mennä tovi."
+     ]
+    },
+    {
+     "h": "Kumpi menetelmä sopii sinulle?",
+     "table": [
+      [
+       "",
+       "Lumipallo",
+       "Lumivyöry"
+      ],
+      [
+       "Maksetaan ensin",
+       "Pienin saldo",
+       "Korkein korko"
+      ],
+      [
+       "Korot yhteensä",
+       "Voi olla hieman suurempi",
+       "Yleensä pienin mahdollinen"
+      ],
+      [
+       "Ensimmäinen velka pois",
+       "Nopeasti",
+       "Voi kestää pidempään"
+      ],
+      [
+       "Sopii parhaiten",
+       "Nopeaa onnistumisen tunnetta kaipaavalle",
+       "Kokonaiskustannuksia minimoivalle"
+      ]
+     ],
+     "p": [
+      "Ero on usein pieni; tärkeintä on, että sinulla on selkeä suunnitelma. Yllä oleva laskuri vertaa kumpaakin menetelmää omilla luvuillasi ja näyttää, kumpi tulee edullisemmaksi."
+     ]
+    },
+    {
+     "h": "Miten laskukaava toimii käytännössä",
+     "p": [
+      "Joka kuukausi lasketaan ensin korko: saldo kerrottuna kuukausikorolla. Esimerkiksi 5 000 € luottokorttivelasta, jonka vuosikorko on 24 % eli 2 % kuukaudessa, veloitetaan kyseiseltä kuukaudelta 100 € korkoa.",
+      "Sen jälkeen jokaisesta velasta maksetaan minimilyhennys, ja kaikki ylimääräinen raha menee vuorossa olevaan velkaan. Kun velka on maksettu kokonaan pois, sen maksuerä siirtyy lyhentämään seuraavaa velkaa.",
+      "Laskuri toistaa nämä vaiheet kuukausi kuukaudelta, kunnes viimeinenkin velka on maksettu; tästä muodostuvat velattomuuspäiväsi ja maksamiesi korkojen kokonaissumma."
+     ]
+    },
+    {
+     "h": "Minimilyhennyksen ansa",
+     "p": [
+      "Pelkän minimilyhennyksen maksaminen pitää velkakierteen käynnissä: jäljelle jäävästä osasta veloitetaan korkoa joka kuukausi, ja laina voi roikkua mukana vuosia.",
+      "Pienikin lisäsumma minimilyhennyksen päälle tuo velattomuuspäivääsi kuukausia lähemmäs. Kokeile tätä omilla luvuillasi yllä olevassa lisämaksun osiossa."
+     ]
+    },
+    {
+     "h": "Keinoja päästä veloista eroon nopeammin",
+     "list": [
+      "Lopeta uuden velan ottaminen: käytä korttia vain siihen, minkä pystyt maksamaan pois saman kuukauden aikana.",
+      "Maksa joka kuukausi kiinteä summa minimilyhennysten päälle ja tee maksusta automaattinen.",
+      "Ohjaa bonukset, veronpalautukset ja sivutulot suoraan seuraavana vuorossa olevaan velkaan.",
+      "Laske tarkasti, säästätkö todella siirtämällä kalliin velan edullisempaan järjestelylainaan.",
+      "Käy tilauksesi läpi: peruuta ne, joita et käytä, ja laita säästyneet rahat velkojen maksuun.",
+      "Älä koskaan myöhästy eräpäivästä: muistutusmaksut ja viivästyskorot siirtävät tavoitettasi kauemmas."
+     ]
+    }
+   ],
+   "faq_title": "Usein kysytyt kysymykset",
+   "faq": [
+    {
+     "q": "Tuleeko lumipallo- vai lumivyörymenetelmällä vähemmän korkokuluja?",
+     "a": "Useimmissa tapauksissa lumivyörymenetelmä, jossa korkeakorkoisin velka maksetaan ensin pois, kerryttää vähiten korkoja. Lumipallomenetelmä puolestaan nollaa ensimmäisen velan nopeammin, mikä pitää motivaation yllä. Laskuri vertaa molempia luvuillasi."
+    },
+    {
+     "q": "Mitä velkoja voin lisätä laskuriin?",
+     "a": "Luottokortteja, kulutusluottoja, autolainoja, opintolainoja, tilinylityksiä tai lainoja perheeltä ja ystäviltä. Jos kyseessä on koroton velka, syötä koroksi 0."
+    },
+    {
+     "q": "Mistä löydän velkani koron?",
+     "a": "Löydät sen luottokorttilaskustasi, lainasopimuksestasi tai verkkopankkisi sovelluksesta, yleensä ilmoitettuna vuosikorkona. Syötä vuosikorko, niin laskuri laskee siitä kuukausikoron."
+    },
+    {
+     "q": "Kuinka tarkka tulos on?",
+     "a": "Laskelma olettaa, että korot pysyvät samoina, maksat saman summan joka kuukausi eikä lisäkuluja tule. Oikeat korot voivat muuttua, joten käytä tulosta suunnitelmana, älä sitovana tarjouksena."
+    },
+    {
+     "q": "Lähetetäänkö syöttämiäni tietoja eteenpäin?",
+     "a": "Ei. Laskenta tapahtuu kokonaan selaimessasi; mitään syöttämiäsi tietoja ei tallenneta tai lähetetä minnekään."
+    },
+    {
+     "q": "Mitä Spendry tekee sellaista, mitä tämä laskuri ei tee?",
+     "a": "Spendry toimii todellisilla saldoillasi, päivittää suunnitelman jokaisen maksun jälkeen, muistuttaa eräpäivistä ja näyttää aina päivän, jolloin olet velaton. Se ei koskaan pyydä verkkopankkitunnuksiasi eikä kerää tietojasi."
+    }
+   ],
+   "final_title": "Kanna velattomuuspäivääsi taskussasi.",
+   "final_text": "Lataa Spendry, syötä velkasi kerran, ja suunnitelmasi päivittyy itsestään joka kuukausi.",
+   "chart_none": "Ilman lisämaksua"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Tee siitä automaattista",
     "Spendryssä kukin kategoria saa kuukausibudjetin, joka täyttyy kulutuksesi mukaan, ja saat varoituksen ennen rajan ylittymistä."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ilmainen · Ei rekisteröitymistä · Toimii selaimessasi, mitään tietoja ei lähetetä eteenpäin",
+   "app_title": "Spendry pitää budjettisi kunnossa puolestasi, joka päivä.",
+   "app_sub": "50/30/20-sääntö on hyvä alku. Spendry liittää jokaisen menon oikeaan kategoriaan, varoittaa ennen budjetin ylittymistä ja näyttää loppukuun tilanteen ennakkoon.",
+   "app_points": [
+    {
+     "title": "Oma budjetti joka kategorialle",
+     "text": "Ruokaostokset, liikkuminen, laskut: aseta jokaiselle kuukausiraja ja näet aina, paljonko on jäljellä.",
+     "shot": "04"
+    },
+    {
+     "title": "Lisää meno sekunneissa",
+     "text": "Kirjoita summa, valitse kategoria ja valmista. Valmiiden pohjien avulla kirjaat toistuvat menot yhdellä napautuksella.",
+     "shot": "02"
+    },
+    {
+     "title": "Katso, mihin kuukauden rahat menivät",
+     "text": "Viikko- ja kuukausikaaviot näyttävät, mihin kuluu eniten rahaa ja miten tilanne vertautuu edelliseen kuukauteen.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Lyhyt opas budjetointiin",
+   "guide": [
+    {
+     "h": "Mikä on 50/30/20-sääntö?",
+     "p": [
+      "Puolet nettotuloistasi menee välttämättömiin menoihin (vuokra, laskut, ruokaostokset, liikkuminen), 30 prosenttia omiin toiveisiin (ravintolat, viihde, ostokset) ja 20 prosenttia säästöihin sekä velkojen maksuun.",
+      "Se on hyvä lähtökohta. Jos pelkkä vuokra vie puolet tuloistasi, muokkaa jakoa omaan elämääsi sopivaksi ja maksa korkeakorkoiset velat pois ensin."
+     ]
+    },
+    {
+     "h": "Miten tehdä kuukausibudjetti",
+     "p": [
+      "Aloita tuloistasi: palkka, sivutulot ja muut säännölliset tulot. Varaa sitten rahaa kuukauden alussa kiinteisiin kuluihin: vuokraan, laskuihin, lainanlyhennyksiin ja tilauksiin.",
+      "Kirjaa muuttuvat menot, kuten ruokaostokset, ulkona syöminen ja liikkuminen, sitä mukaa kun niitä tulee; kuukauden lopussa suurin osa niistä on jo unohdettu. Kuukauden päätteeksi vähennä menot tuloista ja siirrä jäljelle jäänyt osuus säästöön."
+     ]
+    },
+    {
+     "h": "Ota luottokorttilasku huomioon",
+     "p": [
+      "Korttiostokset eivät lähde tililtäsi heti, vaan vasta kun maksat luottokorttilaskun. Kun suunnittelet kuukautta, ota huomioon maksettavaksi tuleva lasku, älä vain tämän päivän saldoa."
+     ]
+    },
+    {
+     "h": "Keinoja pysyä budjetissa",
+     "list": [
+      "Maksa ensin itsellesi: siirrä säästöt syrjään heti palkkapäivänä.",
+      "Syötä kiinteät kulut kerran ja anna niiden toistua joka kuukausi.",
+      "Kirjaa myös pienet ostokset; niistä kertyy kuukauden loppuun mennessä suurin ero.",
+      "Käy tilaukset läpi kerran vuodessa.",
+      "Tarkista budjettisi kuukauden puolivälissä ja säädä loppukuun kuluja tarvittaessa."
+     ]
+    }
+   ],
+   "faq_title": "Usein kysytyt kysymykset",
+   "faq": [
+    {
+     "q": "Sopiiko 50/30/20-sääntö kaikille?",
+     "a": "Ei, se on vain lähtökohta. Jos vuokra ja laskut vievät yli puolet tuloistasi, muuta suhteita; tärkeintä on laittaa jotain sivuun säästöihin ja velkoihin joka kuukausi."
+    },
+    {
+     "q": "Pitäisikö minun käyttää brutto- vai nettotuloja?",
+     "a": "Käytä nettotulojasi eli summaa, joka tulee tilillesi verojen ja vähennysten jälkeen."
+    },
+    {
+     "q": "Mihin velkojen maksut sijoittuvat?",
+     "a": "Minimilyhennykset ovat välttämättömiä menoja. Kaikki mitä maksat minimilyhennysten päälle lasketaan säästöjen ja velkojen 20 prosentin osuuteen."
+    },
+    {
+     "q": "Tallennetaanko mitään syöttämiäni tietoja?",
+     "a": "Ei. Laskenta tapahtuu kokonaan selaimessasi; mitään syöttämääsi ei tallenneta tai lähetetä eteenpäin."
+    },
+    {
+     "q": "Miten Spendry pitää budjettini kunnossa?",
+     "a": "Asetat jokaiselle kategorialle kuukausibudjetin; se täyttyy kulutuksen mukaan ja varoittaa ennen kuin ylität rajan. Koska luottokortit, lainat ja tilaukset ovat samassa paikassa, näet loppukuun tilanteen ennakkoon. Sovellus ei koskaan kysy pankkitunnuksiasi."
+    }
+   ],
+   "final_title": "Kanna budjettisi aina mukanasi.",
+   "final_text": "Lataa Spendry, syötä tulosi ja kiinteät kulusi kerran, ja näe jokaisen kuukauden lopputulos ennakkoon."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Tee suunnitelmasta totta",
     "Spendry pitää suunnitelman käynnissä: lisää korttisi, päätä sopiva kuukausierä ja saat muistutuksen ennen jokaista eräpäivää."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ilmainen · Ei rekisteröitymistä · Toimii selaimessasi, mitään tietoja ei lähetetä eteenpäin",
+   "app_title": "Spendry valvoo korttiesi saldoja puolestasi joka kuukausi.",
+   "app_sub": "Laskuri tekee suunnitelman yhdelle kortille. Spendry seuraa kaikkia korttejasi, niiden laskutuskausia ja eräpäiviä sekä muistuttaa ennen jokaista maksua.",
+   "app_points": [
+    {
+     "title": "Kaikki kortit yhdellä listalla",
+     "text": "Jokaisen kortin laskutettu saldo, eräpäivä ja jäljellä olevat päivät yhdellä silmäyksellä.",
+     "shot": "06"
+    },
+    {
+     "title": "Muistutus ennen jokaista eräpäivää",
+     "text": "Saat ilmoituksen laskutuskauden päättyessä ja ennen laskun eräpäivää, jotta unohduksista ei koskaan kerry myöhästymismaksuja.",
+     "shot": "07"
+    },
+    {
+     "title": "Näe, mihin rahasi menevät",
+     "text": "Korttiostoksesi luokiteltuna kategorioittain, jotta näet helposti, mistä voit karsia.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Pikaopas luottokorttivelkaan",
+   "guide": [
+    {
+     "h": "Miten luottokortin korko lasketaan",
+     "p": [
+      "Joka kuukausi korttisi kerryttää korkoa avoimelle saldolle sen vuosikoron mukaan. Lyhennyksesi kattaa ensin tämän koron, ja loppuosa lyhentää itse velkaa. Laskuri toistaa tämän kuukausi kuukaudelta, kunnes saldo on nollassa.",
+      "Esimerkki: 3 000 € saldosta, jonka vuosikorko on 24 % eli 2 % kuukaudessa, veloitetaan 60 € korkoa. Jos maksat 200 €, saldo putoaa 2 860 €:oon, ja seuraavan kuukauden korko lasketaan tästä uudesta summasta."
+     ]
+    },
+    {
+     "h": "Miksi minimilyhennyksissä kestää niin kauan",
+     "p": [
+      "Minimilyhennys on yleensä pieni prosenttiosuus saldosta. Kun saldo pienenee, myös minimierä pienenee, jolloin suurin osa maksusta menee korkoihin ja velka voi kestää vuosia.",
+      "Kiinteän summan maksaminen katkaisee kierteen: sama rahasumma pienentää velkapääomaa joka kuukausi. Laskurin vertailu näyttää eron omilla luvuillasi."
+     ]
+    },
+    {
+     "h": "Laskutuspäivä ja eräpäivä",
+     "p": [
+      "Laskutuspäivä päättää laskutuskauden ja määrittää velkasi määrän. Eräpäivä on viimeinen päivä maksaa se, tyypillisesti muutama viikko laskun muodostumisen jälkeen.",
+      "Jos maksat laskun koko loppusumman eräpäivään mennessä, ostoista ei veloiteta korkoa. Jos jätät osan maksamatta, korkoa kertyy jäljelle jäävälle summalle."
+     ]
+    },
+    {
+     "h": "Keinoja maksaa luottokortti nopeammin pois",
+     "list": [
+      "Maksa joka kuukausi minimilyhennyksen sijaan kiinteä summa, niin suuri kuin suinkin pystyt.",
+      "Laita korttiostot tauolle siksi aikaa, kun lyhennät velkaa.",
+      "Jos sinulla on useita kortteja, ohjaa ylimääräiset rahat ensin korkeimman vuosikoron kortille.",
+      "Tarkista, tuleeko velkojen yhdistäminen tai matalakorkoisempi laina todella edullisemmaksi kulujen jälkeen.",
+      "Älä koskaan myöhästy eräpäivästä: myöhästymismaksut ja viivästyskorot hidastavat edistymistäsi."
+     ]
+    }
+   ],
+   "faq_title": "Usein kysytyt kysymykset",
+   "faq": [
+    {
+     "q": "Kuinka kauan maksamisessa kestää, jos maksan vain minimin?",
+     "a": "Se riippuu saldostasi, vuosikorostasi ja siitä, miten korttiyhtiösi laskee minimilyhennyksen, mutta usein siihen menee vuosia. Laskuri näyttää, milloin saldo olisi nollassa pelkillä minimilyhennyksillä ja kuinka paljon korkoa se kerryttää."
+    },
+    {
+     "q": "Mikä on vuosikorko?",
+     "a": "Vuosikorko on korttisi vuotuinen korkoprosentti. Luottokorteissa korkoa peritään kuukausittain, karkeasti noin kahdestoistaosa vuosikorosta, avoimena olevasta saldosta."
+    },
+    {
+     "q": "Miten vähimmäiserä lasketaan?",
+     "a": "Useimmat kortit perivät pienen prosenttiosuuden saldosta, usein vähintään tietyn kiinteän vähimmäissumman, sekä korot ja kulut. Näet oman summasi laskustasi, ja voit muuttaa prosenttiosuutta laskurissa."
+    },
+    {
+     "q": "Ottaako laskuri huomioon muut maksut?",
+     "a": "Ei. Vuosimaksuja, myöhästymismaksuja tai saldonsiirtokuluja ei oteta huomioon, joten todelliset kulusi voivat olla hieman korkeammat."
+    },
+    {
+     "q": "Tallennetaanko mitään syöttämiäni tietoja?",
+     "a": "Ei. Laskenta toimii kokonaan selaimessasi; mitään syöttämääsi ei tallenneta tai lähetetä minnekään."
+    },
+    {
+     "q": "Miten Spendry seuraa korttivelkojani?",
+     "a": "Lisäät korttisi, ja Spendry seuraa niiden laskutus- ja eräpäiviä, muistuttaa maksuista sekä päivittää saldosi ja velattomuuspäiväsi sitä mukaa kun kirjaat maksuja. Se ei koskaan kysy verkkopankkitunnuksiasi."
+    }
+   ],
+   "final_title": "Tee suunnitelma korttiveloillesi.",
+   "final_text": "Lataa Spendry, lisää korttisi ja anna sen huolehtia jokaisesta laskutuskaudesta ja eräpäivästä."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Pysy kärryillä sopimuksen jälkeen",
     "Lisää laina Spendryyn, niin näet jäljellä olevat erät, lainan päättymiskuukauden ja saat muistutuksen ennen jokaista maksua."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ilmainen · Ei rekisteröitymistä · Toimii selaimessasi, mitään tietoja ei lähetetä eteenpäin",
+   "app_title": "Spendry seuraa lainaasi viimeiseen erään asti.",
+   "app_sub": "Laskuri näyttää kuukausierän. Spendry seuraa jäljellä olevia eriä, päättymiskuukautta ja jokaista eräpäivää, sekä muistuttaa sinua ennen jokaista maksua.",
+   "app_points": [
+    {
+     "title": "Kaikki lainat yhdessä listassa",
+     "text": "Autolainat, kulutusluotot ja opintolainat: jäljellä olevat erät ja kuukausittainen kokonaissumma yhdellä silmäyksellä.",
+     "shot": "06"
+    },
+    {
+     "title": "Muistutus ennen jokaista maksua",
+     "text": "Älä koskaan unohda lainan maksuerää tai maksa siitä kertyviä myöhästymiskuluja.",
+     "shot": "07"
+    },
+    {
+     "title": "Katso tulevaa kuukautta ennakkoon",
+     "text": "Spendry näyttää, miten lainanlyhennykset, kortit ja laskut vaikuttavat seuraavaan 30 päivään.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Lyhyt opas lainoihin",
+   "guide": [
+    {
+     "h": "Miten lainan kuukausierä lasketaan",
+     "p": [
+      "Useimmat kulutusluotot ja autolainat ovat annuiteettilainoja: maksat saman summan joka kuukausi. Osa jokaisesta maksusta kattaa jäljellä olevan lainapääoman korkoa ja loppuosa lyhentää itse lainaa.",
+      "Alussa suurin osa erästä on korkoa; lainasumman pienentyessä yhä suurempi osa maksusta lyhentää pääomaa. Laskurin taulukko näyttää tämän kuukausi kuukaudelta."
+     ]
+    },
+    {
+     "h": "Lyhyempi laina-aika vai pienempi kuukausierä?",
+     "p": [
+      "Pidempi laina-aika pienentää kuukausierää, mutta kasvattaa korkojen kokonaissummaa. Lyhyempi laina-aika nostaa kuukausierää ja pienentää kokonaiskustannuksia.",
+      "Lyhin laina-aika, joka sopii mukavasti budjettiisi, on yleensä edullisin vaihtoehto."
+     ]
+    },
+    {
+     "h": "Todellinen vuosikorko ja nimelliskorko",
+     "p": [
+      "Korko on rahan lainaamisen hinta. Todellinen vuosikorko sisältää myös useimmat kulut ja maksut, joten se on parempi luku lainatarjousten vertailuun."
+     ]
+    },
+    {
+     "h": "Keinoja maksaa vähemmän korkoa",
+     "list": [
+      "Vertaile tarjouksia todellisen vuosikoron, älä pelkän kuukausierän mukaan.",
+      "Valitse lyhyempi laina-aika, jos budjettisi sallii sen.",
+      "Tee ylimääräisiä lyhennyksiä pääomaan lainan alkuaikoina.",
+      "Selvitä, veloittaako luotonantaja kuluja ennenaikaisesta takaisinmaksusta.",
+      "Älä koskaan jätä erää maksamatta; myöhästymismaksut kertyvät nopeasti."
+     ]
+    }
+   ],
+   "faq_title": "Usein kysytyt kysymykset",
+   "faq": [
+    {
+     "q": "Miten kuukausierä lasketaan?",
+     "a": "Tavallisella annuiteettikaavalla: lainasumma, kuukausikorko (vuosikorko jaettuna 12:lla) ja kuukausien määrä. Korko veloitetaan jäljellä olevasta pääomasta joka kuukausi."
+    },
+    {
+     "q": "Mitä eroa on korolla ja todellisella vuosikorolla?",
+     "a": "Korko on hinta, jonka maksat rahan lainaamisesta. Todellinen vuosikorko huomioi myös useimmat lisämaksut, joten se sopii paremmin lainojen vertailuun."
+    },
+    {
+     "q": "Auttavatko ylimääräiset lyhennykset?",
+     "a": "Kyllä. Ylimääräiset suoritukset pääomaan pienentävät summaa, josta korkoa lasketaan, jolloin maksat vähemmän korkoa ja laina-aika lyhenee. Tarkista, veloittaako luotonantajasi ylimääräisistä lyhennyksistä kuluja."
+    },
+    {
+     "q": "Sisältääkö laskuri kuluja tai veroja?",
+     "a": "Ei. Avausmaksuja, vakuutuksia tai veroja ei ole laskettu mukaan."
+    },
+    {
+     "q": "Tallennetaanko mitään syöttämiäni tietoja?",
+     "a": "Ei. Laskenta tapahtuu kokonaan selaimessasi; mitään syöttämääsi ei tallenneta tai lähetetä eteenpäin."
+    },
+    {
+     "q": "Miten Spendry seuraa lainaani?",
+     "a": "Lisäät lainan kerran; Spendry näyttää jäljellä olevat erät, päättymiskuukauden ja kuukausittaisen kokonaissummasi, sekä muistuttaa ennen jokaista maksua. Sovellus ei koskaan kysy pankkitunnuksiasi."
+    }
+   ],
+   "final_title": "Lainasi suunniteltuna viimeiseen erään asti.",
+   "final_text": "Lataa Spendry, lisää lainasi ja anna sovelluksen pitää kirjaa jokaisesta maksusta."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Seuraa edistymistäsi",
     "Luo tavoite Spendryssä ja näe miten lähellä olet joka kerta, kun laitat rahaa säästöön."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ilmainen · Ei rekisteröitymistä · Toimii selaimessasi, mitään ei lähetetä minnekään",
+   "app_title": "Spendry näyttää joka askeleella, miten lähellä olet.",
+   "app_sub": "Laskuri kertoo kuukausisumman. Spendry pitää tavoitteesi tallessa, näyttää edistymisesi jokaisella säästökerralla ja laskee jäljellä olevan ajan.",
+   "app_points": [
+    {
+     "title": "Kaikki tavoitteesi yhdellä näytöllä",
+     "text": "Hätävara, matka tai uusi auto: näet yhdellä silmäyksellä jokaisen tavoitteen tilanteen ja jäljellä olevat päivät.",
+     "shot": "05"
+    },
+    {
+     "title": "Katso tulevaa kuukautta",
+     "text": "Tiedä tarkalleen, kuinka paljon voit säästää tässä kuussa tulojesi ja maksujesi perusteella.",
+     "shot": "01"
+    },
+    {
+     "title": "Seuraa säästöjesi kasvua",
+     "text": "Tarkastele kultaa, valuuttoja, osakkeita ja rahastoja niiden ajantasaisilla hinnoilla.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Lyhyt opas tavoitteelliseen säästämiseen",
+   "guide": [
+    {
+     "h": "Kuinka paljon minun pitäisi säästää kuukaudessa?",
+     "p": [
+      "Vähennä tavoitteestasi jo säästämäsi summa ja jaa loppuosa jäljellä olevilla kuukausilla. Laskuri tekee tämän puolestasi, ja jos syötät korkoprosentin, se ottaa huomioon myös säästöillesi kertyvän koron.",
+      "Esimerkki: jos tavoitteesi on 6 000 € ja sinulla on jo kasassa 1 000 €, tarvitset 10 kuukauden aikana 500 € kuukaudessa ilman korkoa."
+     ]
+    },
+    {
+     "h": "Miksi korolla on merkitystä",
+     "p": [
+      "Jos säästösi tuottavat korkoa säästötilillä tai rahastossa, sinun tarvitsee säästää joka kuukausi vähemmän saavuttaaksesi saman tavoitteen. Mitä pidempi aika on, sitä suurempi on hyöty."
+     ]
+    },
+    {
+     "h": "Aloita hätävarasta",
+     "p": [
+      "Ennen suurempia tavoitteita kannattaa kerätä puskurirahasto, joka kattaa muutaman kuukauden välttämättömät menot. Näin yllättävä lasku ei pääse muuttumaan velaksi."
+     ]
+    },
+    {
+     "h": "Keinoja tehdä säästämisestä helpompaa",
+     "list": [
+      "Säästä heti palkkapäivänä ja suhtaudu siihen kuin pakolliseen laskuun.",
+      "Aseta automaattinen tilisiirto, jotta sinun ei tarvitse erikseen päättää asiasta.",
+      "Siirrä bonukset ja sivutulot suoraan tavoitteeseesi.",
+      "Jaa tavoite kumppanisi tai perheesi kanssa ja pääset maaliin nopeammin.",
+      "Pidä edistymisesi näkyvillä, jokainen talletus pitää motivaation yllä."
+     ]
+    }
+   ],
+   "faq_title": "Usein kysytyt kysymykset",
+   "faq": [
+    {
+     "q": "Minkä korkoprosentin syötän?",
+     "a": "Syötä vuosikorko, jonka odotat säästötilisi tai rahastosi tuottavan. Jos et ole varma, käytä arvoa 0 nähdäksesi varovaisimman arvion."
+    },
+    {
+     "q": "Miten voin saavuttaa tavoitteeni nopeammin?",
+     "a": "Nosta kuukausisummaa, ohjaa ylimääräiset tulot tavoitteeseen tai valitse tili, joka maksaa korkoa. Lyhennä aikaa laskurissa nähdäksesi, miten kuukausisumma muuttuu."
+    },
+    {
+     "q": "Kuinka suuri hätävaran tulisi olla?",
+     "a": "Yleinen suositus on 3, 6 kuukauden välttämättömiä menoja vastaava summa. Mitä tasaisemmat tulosi ovat, sitä vähemmän tarvitset, ja mitä epäsäännöllisemmät tulot, sitä suurempi puskurin tulisi olla."
+    },
+    {
+     "q": "Tallennetaanko mitään syöttämiäni tietoja?",
+     "a": "Ei. Laskenta tapahtuu kokonaan selaimessasi. Mitään syöttämiäsi tietoja ei tallenneta tai lähetetä minnekään."
+    },
+    {
+     "q": "Miten Spendry seuraa tavoitteitani?",
+     "a": "Luot tavoitteen ja näet edistymisesi joka kerta, kun lisäät rahaa. Spendry näyttää jäljellä olevan summan ja ajan, ja voit jakaa tavoitteen perheesi kanssa. Se ei koskaan kysy verkkopankkitunnuksiasi."
+    }
+   ],
+   "final_title": "Ota askel lähemmäs tavoitettasi.",
+   "final_text": "Lataa Spendry, aseta tavoitteesi ja näe kuinka lähellä olet joka kerta, kun säästät."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Älä unohda uusiutumispäivää",
     "Spendry seuraa tilauksiasi, lisää ne kuukausikuluihisi ja muistuttaa sinua ennen jokaista uusiutumista."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Ilmainen · Ei rekisteröitymistä · Toimii selaimessasi, mitään ei lähetetä minnekään",
+   "app_title": "Spendry varmistaa, ettei yksikään tilaus uusiudu yllätyksenä.",
+   "app_sub": "Laskuri näyttää kokonaissumman. Spendry seuraa tilauksiasi, lisää ne kuukausittaiseen kokonaismenoosi ja muistuttaa sinua ennen jokaista veloitusta.",
+   "app_points": [
+    {
+     "title": "Muistutus ennen jokaista uusintaa",
+     "text": "Musiikki, suoratoistopalvelut, pilvitallennustila tai kuntosali: saat tiedon jokaisesta veloituksesta ennen kuin maksu lähtee.",
+     "shot": "07"
+    },
+    {
+     "title": "Kysy mitä tilauksesi maksavat vuodessa",
+     "text": "Kysy avustajalta. Vastaus lasketaan suoraan omalla iPhone-laitteellasi, ja tietosi pysyvät aina siellä.",
+     "shot": "09"
+    },
+    {
+     "title": "Katso tulevaa kuukautta",
+     "text": "Näet kätevästi, miten tilaukset, kortit ja laskut vaikuttavat seuraavaan 30 päivään.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Lyhyt opas tilausten hallintaan",
+   "guide": [
+    {
+     "h": "Miten lasket tilausten todelliset kulut",
+     "p": [
+      "Muuta jokainen tilaus kuukausikohtaiseksi summaksi: jaa vuosimaksu 12:lla tai kerro viikkomaksu 52:lla ja jaa se 12:lla. Laske sitten kaikki yhteen. Laskuri tekee tämän puolestasi ja näyttää summat kuukaudelle, vuodelle sekä viidelle vuodelle.",
+      "Pieni kuukausihinta tuntuu helposti mitättömältä. Kerrottuna kahdellatoista ja kaikilla tilauksillasi se osoittautuu kuitenkin usein yhdeksi suurimmista säännöllisistä menoistasi."
+     ]
+    },
+    {
+     "h": "Mitä tilauksia kannattaa perua",
+     "p": [
+      "Järjestä tilaukset hinnan mukaan ja kysy jokaisen kohdalla: käytinkö tätä viime kuussa? Peru ne, joita et käytä, ja aseta muistutus ennen säilytettävien tilausten uusiutumista.",
+      "Jos kaksi tilausta tekee saman asian, luovu toisesta. Myös perhe- ja opiskelijahinnat voivat pienentää kokonaissummaa tuntuvasti."
+     ]
+    },
+    {
+     "h": "Ole tarkkana ilmaiskokeilujen kanssa",
+     "p": [
+      "Kun ilmainen kokeilujakso päättyy, tilaus alkaa yleensä automaattisesti veloittaa maksuja. Merkitse päättymispäivä muistiin heti aloituspäivänä tai aseta siitä muistutus."
+     ]
+    },
+    {
+     "h": "Keinoja käyttää vähemmän rahaa tilauksiin",
+     "list": [
+      "Käy kaikki tilauksesi läpi kerran vuodessa.",
+      "Vaihda ympäri vuoden käytössä olevat palvelut vuositilauksiin, ne ovat usein edullisempia.",
+      "Hyödynnä yhteisiä perhetilauksia.",
+      "Peru tilaus niiltä kuukausilta, jolloin et käytä palvelua, ja ota se takaisin käyttöön vasta kun tarvitset sitä.",
+      "Aseta muistutus ennen jokaista tilauksen uusintaa."
+     ]
+    }
+   ],
+   "faq_title": "Usein kysytyt kysymykset",
+   "faq": [
+    {
+     "q": "Kuinka paljon tilaukseni maksavat vuodessa?",
+     "a": "Muuta jokainen summa kuukausikohtaiseksi, laske ne yhteen ja kerro 12:lla. Laskuri tekee tämän puolestasi ja näyttää myös viiden vuoden kokonaissumman."
+    },
+    {
+     "q": "Miten syötän viikko- ja vuositilaukset?",
+     "a": "Valitse laskutusjakso kullakin rivillä: viikoittain, kuukausittain tai vuosittain. Laskuri muuntaa ne kaikki samaan muotoon."
+    },
+    {
+     "q": "Kannattaako vuositilaus ottaa?",
+     "a": "Jos käytät palvelua ympäri vuoden, vuositilaus tulee yleensä halvemmaksi. Jos et ole vielä aivan varma, pysy ensin kuukausitilauksessa muutaman kuukauden ajan."
+    },
+    {
+     "q": "Tallennetaanko mitään syöttämiäni tietoja?",
+     "a": "Ei. Laskenta tapahtuu kokonaan selaimessasi. Mitään syöttämiäsi tietoja ei tallenneta tai lähetetä minnekään."
+    },
+    {
+     "q": "Miten Spendry seuraa tilauksiani?",
+     "a": "Lisäät tilauksesi kerran, jolloin Spendry laskee ne mukaan kuukausimenoihisi, muistuttaa sinua ennen jokaista uusiutumista ja näyttää vuosikustannukset. Se ei koskaan kysy verkkopankkitunnuksiasi."
+    }
+   ],
+   "final_title": "Tiedä jokainen tuleva veloitus ennalta.",
+   "final_text": "Lataa Spendry, lisää tilauksesi ja saa ilmoitus hyvissä ajoin ennen jokaista uusintaa."
+  }
  }
 }

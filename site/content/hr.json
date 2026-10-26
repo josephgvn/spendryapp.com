@@ -298,7 +298,154 @@
     "Stanja se mijenjaju svakog mjeseca. Spendry prati vaše kartice, zajmove i račune, održava plan otplate aktualnim i šalje podsjetnik prije svakog dospijeća."
    ]
   ],
-  "extra_hint": "Novac koji možete usmjeriti na dugove povrh minimalnih uplata. Što više dodate, prije ćete se riješiti dugova."
+  "extra_hint": "Novac koji možete usmjeriti na dugove povrh minimalnih uplata. Što više dodate, prije ćete se riješiti dugova.",
+  "landing": {
+   "trust": "Besplatno · Bez registracije · Radi u vašem pregledniku, podaci se nikamo ne šalju",
+   "chart_title": "Kako se vaš dug smanjuje, mjesec po mjesec",
+   "chart_sub": "Vaš preostali ukupni dug za obje metode i bez dodatnih uplata. Svaka točka označava mjesec u kojem je jedan dug otplaćen.",
+   "extra_title": "Koliko znači malo više",
+   "extra_sub": "Pogledajte kako iznos koji uplaćujete povrh minimalnog mijenja datum kada ćete biti bez dugova i ukupne kamate.",
+   "extra_amount": "Dodatno svakog mjeseca",
+   "extra_months": "Vrijeme do otplate dugova",
+   "extra_none": "Bez dodatnog iznosa",
+   "extra_sentence": "Uplata dodatnih {extra} svakog mjeseca donosi datum kada ćete biti bez dugova {months} ranije i štedi {interest} na kamatama.",
+   "extra_zero": "Bez dodatnih uplata dugovi nestaju za {months}. Pomaknite klizač kako biste vidjeli razliku.",
+   "schedule_title": "Plan otplate po mjesecima",
+   "schedule_sub": "Koliko plaćate svaki mjesec, kolike su kamate i koliko duga ostaje.",
+   "columns": [
+    "Mjesec",
+    "Uplata",
+    "Kamata",
+    "Preostali dug"
+   ],
+   "show_all": "Prikaži sve mjesece",
+   "show_less": "Prikaži manje",
+   "app_title": "Spendry vodi ovaj plan za vas, svakog mjeseca.",
+   "app_sub": "Ova stranica prikazuje trenutno stanje. Spendry radi s vašim stvarnim stanjima, ponovno izračunava plan nakon svake uplate i podsjeća vas prije svakog datuma dospijeća.",
+   "app_points": [
+    {
+     "title": "Svaki dug na jednom zaslonu",
+     "text": "Kreditne kartice, zajmovi, prekoračenja i novac koji dugujete prijateljima: vaš ukupni dug i mjesečne uplate na jednom mjestu.",
+     "shot": "06"
+    },
+    {
+     "title": "Nikada ne propustite dospijeće",
+     "text": "Primit ćete podsjetnik prije svakog izvoda kartice, rate zajma i računa, pa propušteni minimum nikada neće donijeti zatezne kamate.",
+     "shot": "07"
+    },
+    {
+     "title": "Uočite kraj mjeseca na vrijeme",
+     "text": "Spendry pregledava prihode i uplate u sljedećih 30 dana te pokazuje kamo se kreće vaše stanje.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Kratki vodič za otplatu dugova",
+   "guide": [
+    {
+     "h": "Što je metoda grude snijega?",
+     "p": [
+      "Uz metodu grude snijega poredate dugove od najmanjeg iznosa do najvećeg. Plaćate minimalni iznos na svaki dug, a sav dodatni novac usmjeravate u onaj najmanji. Kada ga otplatite, taj se iznos prenosi na sljedeći, pa vaša snaga otplate raste sa svakim zatvorenim dugom.",
+      "Njezina najveća snaga je zamah: prvi dug nestaje za nekoliko mjeseci, pa se plana lakše držati."
+     ]
+    },
+    {
+     "h": "Što je metoda lavine?",
+     "p": [
+      "Uz metodu lavine poredate dugove od najviše kamatne stope do najniže. Dodatni novac ide prvo na najskuplji dug. Budući da prvo rješavate dug koji najbrže raste, ova metoda obično donosi najmanje ukupne kamate.",
+      "Nedostatak: ako je vaš dug s najvišom stopom velik, do prve potpune otplate može proći više vremena."
+     ]
+    },
+    {
+     "h": "Koja je metoda prava za vas?",
+     "table": [
+      [
+       "",
+       "Gruda snijega",
+       "Lavina"
+      ],
+      [
+       "Otplata prvo",
+       "Najmanji iznos",
+       "Najviša stopa"
+      ],
+      [
+       "Ukupna kamata",
+       "Može biti nešto viša",
+       "Obično najniža"
+      ],
+      [
+       "Prva otplata",
+       "Brza",
+       "Može potrajati"
+      ],
+      [
+       "Najbolje za",
+       "Ljude kojima treba zamah",
+       "Ljude usmjerene na ukupni trošak"
+      ]
+     ],
+     "p": [
+      "Razlika je često mala, najvažnije je imati plan. Kalkulator iznad uspoređuje obje metode s vašim brojkama i pokazuje koja stvara manji trošak."
+     ]
+    },
+    {
+     "h": "Kako izračun funkcionira, uz primjer",
+     "p": [
+      "Svakog mjeseca prvo se obračunava kamata: preostali dug pomnožen s mjesečnom stopom. Na dug po kreditnoj kartici od 5.000 € uz godišnju kamatnu stopu od 24%, što je 2% mjesečno, tog se mjeseca obračunava 100 € kamata.",
+      "Zatim se na svaki dug uplaćuje minimalni iznos, a dodatak ide na sljedeći dug po redu. Kada je dug otplaćen, njegov se iznos prenosi na idući.",
+      "Kalkulator ponavlja ove korake iz mjeseca u mjesec dok svi dugovi ne nestanu. Tako dobivate mjesec kada ćete biti bez dugova i ukupan iznos kamata koje plaćate."
+     ]
+    },
+    {
+     "h": "Zamka minimalne uplate",
+     "p": [
+      "Plaćanje samo minimalnog iznosa na kreditnoj kartici održava dug na životu: kamate se svakog mjeseca obračunavaju na ostatak i dug može trajati godinama.",
+      "Čak i mali iznos povrh minimuma približava datum kada ćete biti bez dugova za više mjeseci. Isprobajte to sa svojim brojkama u dijelu za dodatne uplate iznad."
+     ]
+    },
+    {
+     "h": "Kako brže izaći iz dugova",
+     "list": [
+      "Prestanite stvarati nove dugove: koristite karticu samo za ono što možete otplatiti unutar istog mjeseca.",
+      "Plaćajte fiksni iznos iznad minimuma svakog mjeseca i automatizirajte uplate.",
+      "Usmjerite bonuse, povrat poreza i dodatnu zaradu izravno na sljedeći dug po redu.",
+      "Provjerite je li prebacivanje duga s visokom stopom na zajam s nižom stopom doista dugoročno povoljnije.",
+      "Pregledajte svoje pretplate, otkažite one koje ne koristite i razliku usmjerite u otplatu duga.",
+      "Nikada ne propustite dospijeće: zatezne naknade i zatezne kamate usporavaju vaš plan."
+     ]
+    }
+   ],
+   "faq_title": "Često postavljana pitanja",
+   "faq": [
+    {
+     "q": "Donosi li metoda grude snijega ili lavine manje kamata?",
+     "a": "U većini slučajeva metoda lavine, uz otplatu najviše kamatne stope prve, donosi najmanje kamata ukupno. Metoda grude snijega brže zatvara vaš prvi dug, što vam daje motivaciju. Kalkulator uspoređuje obje opcije s vašim podacima."
+    },
+    {
+     "q": "Koje dugove mogu unijeti?",
+     "a": "Kreditne kartice, nenamjenske zajmove, auto kredite, studentske zajmove, prekoračenja po računu ili novac koji dugujete obitelji i prijateljima. Za dug bez kamata unesite 0 kao stopu."
+    },
+    {
+     "q": "Gdje mogu pronaći svoju kamatnu stopu?",
+     "a": "Nalazi se na izvodu vaše kreditne kartice, u ugovoru o zajmu ili u aplikaciji vaše banke, najčešće navedena kao godišnja kamatna stopa. Unesite godišnju kamatnu stopu, a kalkulator će izračunati mjesečni iznos."
+    },
+    {
+     "q": "Koliko je rezultat točan?",
+     "a": "Izračun polazi od toga da vaše stope ostaju iste, da plaćate isti iznos svaki mjesec i da nema dodatnih naknada. Stvarne se stope mogu mijenjati, pa rezultat koristite kao plan, a ne kao ponudu banke."
+    },
+    {
+     "q": "Šalju li se uneseni podaci nekamo?",
+     "a": "Ne. Izračun se odvija u potpunosti unutar vašeg preglednika. Ništa što unesete ne sprema se niti se šalje na internet."
+    },
+    {
+     "q": "Što Spendry nudi, a ovaj kalkulator ne?",
+     "a": "Spendry prati vaša stvarna stanja, ažurira plan nakon svake uplate, podsjeća vas prije dospijeća i uvijek prikazuje dan kada ćete biti bez dugova. Nikada ne traži vaše podatke za prijavu u banku i ne prikuplja podatke."
+    }
+   ],
+   "final_title": "Nosite datum kada ćete biti bez dugova u džepu.",
+   "final_text": "Preuzmite Spendry, unesite svoje dugove jednom i vaš će se plan automatski ažurirati svakog mjeseca.",
+   "chart_none": "Bez dodatnog iznosa"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Automatizirajte proces",
     "U Spendryju svaka kategorija dobiva mjesečni proračun koji se prati u hodu, uz upozorenje prije nego što ga premašite."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Besplatno · Bez registracije · Radi u vašem pregledniku, ništa se nikamo ne šalje",
+   "app_title": "Spendry vodi vaš proračun umjesto vas, svaki dan.",
+   "app_sub": "Pravilo 50/30/20 dobar je početak. Spendry dodaje svaki trošak u njegovu kategoriju, upozorava vas prije nego što potrošite proračun i unaprijed prikazuje stanje na kraju mjeseca.",
+   "app_points": [
+    {
+     "title": "Proračun za svaku kategoriju",
+     "text": "Namirnice, prijevoz, računi: postavite mjesečni limit za svaku stavku i uvijek imajte uvid u preostali iznos.",
+     "shot": "04"
+    },
+    {
+     "title": "Dodajte trošak u nekoliko sekundi",
+     "text": "Upišite iznos, odaberite kategoriju i gotovo. Predlošci pretvaraju redovite troškove u jedan dodir.",
+     "shot": "02"
+    },
+    {
+     "title": "Pogledajte kamo je otišao novac",
+     "text": "Tjedni i mjesečni grafikoni pokazuju na što najviše trošite i kakva je potrošnja u usporedbi s prošlim mjesecom.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Kratki vodič za planiranje proračuna",
+   "guide": [
+    {
+     "h": "Što je pravilo 50/30/20?",
+     "p": [
+      "Polovica vaših neto primanja odlazi na osnovne potrebe (stanarina, računi, namirnice, prijevoz), 30 posto na želje (izlasci, zabava, kupovina), a 20 posto na štednju i otplatu dugova.",
+      "To je samo početna točka. Ako vam samo stanarina odnosi polovicu prihoda, prilagodite omjere svom životu i najprije otplatite dugove s visokim kamatama."
+     ]
+    },
+    {
+     "h": "Kako napraviti mjesečni proračun",
+     "p": [
+      "Krenite od svojih prihoda: plaća, honorarni poslovi i svi drugi redoviti primici. Zatim na početku mjeseca izdvojite fiksne troškove: stanarinu, račune, rate kredita i pretplate.",
+      "Varijabilne troškove poput namirnica, izlazaka i prijevoza bilježite čim nastanu. Ako čekate kraj mjeseca, većinu ćete zaboraviti. Na kraju mjeseca oduzmite troškove od prihoda, a preostali iznos preusmjerite u štednju."
+     ]
+    },
+    {
+     "h": "Uračunajte troškove po kreditnim karticama",
+     "p": [
+      "Troškovi napravljeni karticom ne skidaju se s računa odmah, već stižu na naplatu s mjesečnim izvodom. Kada planirate mjesec, računajte na iznos izvoda koji ćete morati platiti, a ne samo na trenutno stanje računa."
+     ]
+    },
+    {
+     "h": "Kako se držati proračuna",
+     "list": [
+      "Prvo platite sebi: odvojite iznos za štednju čim primite plaću.",
+      "Fiksne troškove unesite jednom i postavite da se ponavljaju svakog mjeseca.",
+      "Bilježite i male troškove, oni do kraja mjeseca čine najveću razliku.",
+      "Provjerite svoje pretplate jednom godišnje.",
+      "Pregledajte svoj proračun sredinom mjeseca i po potrebi prilagodite potrošnju za drugu polovicu."
+     ]
+    }
+   ],
+   "faq_title": "Često postavljana pitanja",
+   "faq": [
+    {
+     "q": "Odgovara li pravilo 50/30/20 svakome?",
+     "a": "Ne, to je samo polazna točka. Ako vam stanarina i računi odnose više od polovice prihoda, prilagodite omjere. Najvažnije je svakog mjeseca izdvojiti barem nešto za štednju i otplatu dugova."
+    },
+    {
+     "q": "Trebam li računati bruto ili neto prihod?",
+     "a": "Koristite svoj neto prihod, to jest iznos koji vam stvarno sjedne na račun nakon poreza i doprinosa."
+    },
+    {
+     "q": "U koju kategoriju spadaju rate dugova?",
+     "a": "Minimalne uplate spadaju u osnovne potrebe. Sve što uplatite povrh minimalnog iznosa ubraja se u onih 20 posto namijenjenih štednji i otplati dugova."
+    },
+    {
+     "q": "Spremaju li se podaci koje unesem?",
+     "a": "Ne. Izračun se odvija isključivo u vašem pregledniku. Ništa što unesete ne sprema se niti se ikamo šalje."
+    },
+    {
+     "q": "Kako Spendry vodi moj proračun?",
+     "a": "Za svaku kategoriju postavite mjesečni proračun. On se puni kako trošite i upozorava vas prije nego što ga premašite. Budući da su vaše kartice, zajmovi i pretplate na jednom mjestu, unaprijed vidite stanje na kraju mjeseca. Aplikacija nikada ne traži vaše podatke za prijavu u banku."
+    }
+   ],
+   "final_title": "Nosite svoj proračun u džepu.",
+   "final_text": "Preuzmite Spendry, unesite svoje prihode i fiksne troškove jednom i unaprijed imajte uvid u kraj svakog mjeseca."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Pretvorite plan u stvarnost",
     "Spendry vam pomaže da se držite plana: dodajte svoje Kreditne kartice, odredite mjesečni iznos i primite podsjetnik prije svakog dospijeća."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Besplatno · Bez registracije · Radi u vašem pregledniku, podaci se nikamo ne šalju",
+   "app_title": "Spendry pazi na stanja vaših kartica umjesto vas, svakog mjeseca.",
+   "app_sub": "Kalkulator prikazuje plan za jednu karticu. Spendry prati sve vaše kartice, njihove datume izvoda i dospijeća te vas podsjeća prije svake uplate.",
+   "app_points": [
+    {
+     "title": "Sve kartice na jednom popisu",
+     "text": "Stanje izvoda svake kartice, datum dospijeća i preostali dani na jednom mjestu.",
+     "shot": "06"
+    },
+    {
+     "title": "Podsjetnik prije svakog datuma dospijeća",
+     "text": "Primite obavijest kada se izvod zaključi i prije nego što uplata dospije, pa propušteni minimum nikada ne stvara naknade.",
+     "shot": "07"
+    },
+    {
+     "title": "Pogledajte kamo odlazi novac",
+     "text": "Troškovi po karticama razvrstani po kategorijama, tako da jasno vidite gdje možete uštedjeti.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Kratki vodič za dug po kreditnim karticama",
+   "guide": [
+    {
+     "h": "Kako se obračunavaju kamate na kreditnim karticama",
+     "p": [
+      "Svakog mjeseca kartica obračunava kamatu na dug koji prenosite, prema svojoj godišnjoj kamatnoj stopi. Vaša uplata prvo pokriva tu kamatu, a preostali dio smanjuje dug. Kalkulator to ponavlja iz mjeseca u mjesec dok dug ne nestane.",
+      "Primjer: na dug od 3.000 € uz godišnju kamatnu stopu od 24%, što je 2% mjesečno, obračunava se 60 € kamata. Uplatite 200 € i dug pada na 2.860 €; kamata za sljedeći mjesec računa se na taj novi iznos."
+     ]
+    },
+    {
+     "h": "Zašto otplata minimalnog iznosa traje toliko dugo",
+     "p": [
+      "Minimalna uplata obično je mali postotak ukupnog duga. Kako se dug smanjuje, smanjuje se i minimalni iznos, pa većina svake uplate odlazi na kamatu i dug može trajati godinama.",
+      "Uplata fiksnog iznosa prekida taj krug: isti iznos novca svakog mjeseca vidno smanjuje dug. Usporedba u kalkulatoru prikazuje razliku s vašim brojkama."
+     ]
+    },
+    {
+     "h": "Datum izvoda i datum dospijeća",
+     "p": [
+      "Datum izvoda zaključuje obračunsko razdoblje i utvrđuje vaše stanje duga. Datum dospijeća zadnji je dan za plaćanje, obično nekoliko tjedana nakon izvoda.",
+      "Podmirite cjelokupni iznos po izvodu do datuma dospijeća i nećete platiti kamate na kupnje. Ako prenesete dio iznosa, kamate se obračunavaju na ostatak."
+     ]
+    },
+    {
+     "h": "Kako brže otplatiti dug na kartici",
+     "list": [
+      "Plaćajte fiksni iznos svakog mjeseca, što je više moguće umjesto minimuma.",
+      "Zaustavite novu potrošnju na kartici dok otplaćujete dug.",
+      "Ako imate više kartica, dodatni novac prvo usmjerite na dug s najvišom godišnjom kamatnom stopom.",
+      "Provjerite je li prijenos duga ili zajam s nižom stopom zaista isplativiji kada se uračunaju sve naknade.",
+      "Nikada ne propustite datum dospijeća: zatezne naknade i penali usporavaju vaš plan."
+     ]
+    }
+   ],
+   "faq_title": "Često postavljana pitanja",
+   "faq": [
+    {
+     "q": "Koliko će trajati otplata ako plaćam samo minimum?",
+     "a": "To ovisi o vašem dugu, godišnjoj kamatnoj stopi i načinu na koji kartica računa minimalni iznos, no često traje godinama. Kalkulator pokazuje kada bi dug nestao samo uz minimalne uplate i koliko bi to stajalo u kamatama."
+    },
+    {
+     "q": "Što je godišnja kamatna stopa?",
+     "a": "To je godišnja stopa po kojoj kartica obračunava trošak duga. Kartice obračunavaju kamate na mjesečnoj razini, u visini od otprilike jedne dvanaestine godišnje stope, na dug koji prenosite."
+    },
+    {
+     "q": "Kako se računa minimalna uplata?",
+     "a": "Većina kartica uzima mali postotak preostalog duga, često uz fiksni minimalni prag, uvećan za kamate i naknade. Točan podatak nalazi se na vašem izvodu, a postotak možete prilagoditi u kalkulatoru."
+    },
+    {
+     "q": "Uključuje li kalkulator naknade?",
+     "a": "Ne. Godišnje članarine, naknade za kašnjenje i troškovi prijenosa duga nisu uključeni, pa vaš stvarni trošak može biti nešto viši."
+    },
+    {
+     "q": "Sprema li se išta od onoga što unesem?",
+     "a": "Ne. Izračun se odvija u potpunosti unutar vašeg preglednika. Ništa što unesete ne sprema se niti se šalje na internet."
+    },
+    {
+     "q": "Kako Spendry prati moj dug po karticama?",
+     "a": "Dodate svoje kartice, a Spendry prati njihove datume izvoda i dospijeća, podsjeća vas prije uplata te ažurira vaše stanje i datum kada ćete biti bez dugova kako unosite uplate. Nikada ne traži vaše podatke za prijavu u banku."
+    }
+   ],
+   "final_title": "Uvedite jasan plan za dug na kartici.",
+   "final_text": "Preuzmite Spendry, dodajte svoje kartice i prepustite mu praćenje svakog izvoda i datuma dospijeća."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Pratite kredit nakon potpisa",
     "Dodajte kredit u Spendry kako biste vidjeli preostale Rate, datum završetka i primili podsjetnik prije svakog plaćanja."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Besplatno · Bez registracije · Radi u vašem pregledniku, ništa se nikamo ne šalje",
+   "app_title": "Spendry prati vaš kredit do zadnje rate.",
+   "app_sub": "Kalkulator prikazuje iznos rate. Spendry prati preostali broj rata, mjesec završetka otplate i svaki datum dospijeća te vas podsjeća prije svakog plaćanja.",
+   "app_points": [
+    {
+     "title": "Svi krediti na jednom popisu",
+     "text": "Autokrediti, nenamjenski i studentski krediti: preostale rate i vaš ukupni mjesečni trošak dostupni su na jednom mjestu.",
+     "shot": "06"
+    },
+    {
+     "title": "Podsjetnik prije svakog plaćanja",
+     "text": "Nemojte više propustiti ratu kredita niti zatezne kamate i naknade koje s time dolaze.",
+     "shot": "07"
+    },
+    {
+     "title": "Pogledajte mjesec koji je pred vama",
+     "text": "Spendry vam pokazuje kako će rate kredita, kartice i računi utjecati na vaš novčanik u idućih 30 dana.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Kratki vodič za kredite",
+   "guide": [
+    {
+     "h": "Kako se računa rata kredita",
+     "p": [
+      "Većina gotovinskih i autokredita otplaćuje se anuitetima: svakog mjeseca plaćate isti iznos. Dio svake rate pokriva kamatu na preostali dug, a ostatak otplaćuje glavnicu.",
+      "U ranijim ratama najveći dio odlazi na kamatu. Kako se glavnica smanjuje, sve veći dio rate odlazi na otplatu samog duga. Tablica u kalkulatoru prikazuje taj omjer iz mjeseca u mjesec."
+     ]
+    },
+    {
+     "h": "Kraći rok otplate ili manja rata?",
+     "p": [
+      "Duži rok otplate smanjuje mjesečnu ratu, ali povećava ukupni iznos plaćenih kamata. Kraći rok otplate znači veću mjesečnu ratu, ali i znatno manji ukupni trošak kredita.",
+      "Najkraći rok otplate koji vaš proračun može podnijeti obično je i najisplativiji izbor."
+     ]
+    },
+    {
+     "h": "Kamata i efektivna kamatna stopa (EKS)",
+     "p": [
+      "Kamatna stopa predstavlja cijenu posuđivanja novca. Efektivna kamatna stopa (EKS) u izračun uključuje i većinu pratećih naknada, zbog čega je upravo ona najbolji pokazatelj za usporedbu ponuda."
+     ]
+    },
+    {
+     "h": "Kako platiti manje kamata",
+     "list": [
+      "Uspoređujte ponude prema EKS-u, a ne samo prema visini mjesečne rate.",
+      "Odaberite kraći rok otplate ako vam proračun to dopušta.",
+      "Uplaćujte dodatne iznose izravno na glavnicu u ranijoj fazi otplate kredita.",
+      "Provjerite naplaćuje li banka naknadu za prijevremenu otplatu.",
+      "Pazite da nikada ne preskočite ratu jer se zatezne kamate i naknade brzo nagomilaju."
+     ]
+    }
+   ],
+   "faq_title": "Često postavljana pitanja",
+   "faq": [
+    {
+     "q": "Kako se računa mjesečna rata?",
+     "a": "Korištenjem standardne formule za anuitete: uzima se iznos kredita, mjesečna kamatna stopa (godišnja stopa podijeljena s 12) i ukupan broj mjeseci. Kamata se svakog mjeseca obračunava na preostali iznos duga."
+    },
+    {
+     "q": "Koja je razlika između kamatne stope i EKS-a?",
+     "a": "Kamatna stopa je cijena koju plaćate za posuđeni novac. EKS (efektivna kamatna stopa) tome dodaje i većinu pratećih naknada, što je čini znatno boljim mjerilom za usporedbu različitih kredita."
+    },
+    {
+     "q": "Pomažu li prijevremene i dodatne uplate?",
+     "a": "Da. Dodatne uplate koje idu izravno u glavnicu smanjuju preostali dug na koji se obračunava kamata, pa ćete platiti manje kamata i brže otplatiti kredit. Prije uplata provjerite naplaćuje li vaša banka naknadu za prijevremenu otplatu."
+    },
+    {
+     "q": "Uključuje li kalkulator naknade i poreze?",
+     "a": "Ne. Naknade za obradu kredita, troškovi osiguranja i porezi nisu uključeni u izračun."
+    },
+    {
+     "q": "Spremaju li se podaci koje unesem?",
+     "a": "Ne. Cijeli se izračun izvodi isključivo u vašem pregledniku. Ništa što unesete ne sprema se niti šalje."
+    },
+    {
+     "q": "Kako Spendry prati moj kredit?",
+     "a": "Kredit unesete jednom, a Spendry vam prikazuje preostale rate, mjesec završetka otplate i vaš ukupni mjesečni trošak te vas podsjeća prije svakog dospijeća. Aplikacija nikada ne traži vaše podatke za prijavu u banku."
+    }
+   ],
+   "final_title": "Vaš kredit, isplaniran do zadnje rate.",
+   "final_text": "Preuzmite Spendry, dodajte svoj kredit i prepustite aplikaciji praćenje svake rate."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Pratite svoj napredak",
     "Postavite cilj kroz značajku Ciljevi u Spendryju i pogledajte koliko ste blizu svaki put kada uplatite novi iznos."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Besplatno · Bez registracije · Radi u vašem pregledniku, ništa se nikamo ne šalje",
+   "app_title": "Spendry vam pokazuje koliko ste blizu, na svakom koraku.",
+   "app_sub": "Kalkulator vam izračunava mjesečni iznos. Spendry čuva vaš cilj, prikazuje napredak pri svakoj uplati i računa preostalo vrijeme.",
+   "app_points": [
+    {
+     "title": "Svi vaši ciljevi na jednom ekranu",
+     "text": "Fond za hitne slučajeve, putovanje, novi auto: pogledajte koliko je svaki cilj ispunjen i koliko je dana preostalo.",
+     "shot": "05"
+    },
+    {
+     "title": "Pogledajte mjesec pred vama",
+     "text": "Saznajte koliko možete uštedjeti ovaj mjesec s obzirom na svoje prihode i plaćanja.",
+     "shot": "01"
+    },
+    {
+     "title": "Gledajte kako vaša štednja raste",
+     "text": "Pratite zlato, valute, dionice i fondove po njihovim trenutnim cijenama.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Kratki vodič za štednju za cilj",
+   "guide": [
+    {
+     "h": "Koliko bih trebao uštedjeti svaki mjesec?",
+     "p": [
+      "Oduzmite iznos koji već imate od svog cilja i podijelite ostatak s brojem mjeseci koje imate na raspolaganju. Kalkulator to radi umjesto vas, a ako unesete stopu, uračunava i kamate koje vaša štednja donosi.",
+      "Primjer: za cilj od 6.000 € uz 1.000 € već ušteđenih i preostalih 10 mjeseci, trebate odvajati 500 € mjesečno bez kamata."
+     ]
+    },
+    {
+     "h": "Zašto kamate čine razliku",
+     "p": [
+      "Ako vaša štednja ostvaruje kamate na štednom računu ili u fondu, trebate uplaćivati manje svakog mjeseca kako biste postigli isti cilj. Što je razdoblje dulje, to je učinak veći."
+     ]
+    },
+    {
+     "h": "Započnite s fondom za hitne slučajeve",
+     "p": [
+      "Prije većih ciljeva, fond za hitne slučajeve koji pokriva nekoliko mjeseci osnovnih životnih troškova sprječava da se neočekivani račun pretvori u dug."
+     ]
+    },
+    {
+     "h": "Načini kako si olakšati štednju",
+     "list": [
+      "Uštedite čim primite plaću i tretirajte štednju kao račun koji morate platiti.",
+      "Postavite automatski prijenos kako ne biste morali donositi odluku svakog mjeseca.",
+      "Uplatite bonuse i dodatne prihode izravno u cilj.",
+      "Podijelite cilj s partnerom ili obitelji i stignite do njega brže.",
+      "Držite svoj napredak vidljivim; svaka vas uplata motivira za dalje."
+     ]
+    }
+   ],
+   "faq_title": "Često postavljana pitanja",
+   "faq": [
+    {
+     "q": "Koju kamatnu stopu trebam unijeti?",
+     "a": "Unesite godišnju kamatnu stopu koju vaš štedni račun ili fond očekivano donosi. Ako niste sigurni, upišite 0 za najoprezniji izračun."
+    },
+    {
+     "q": "Kako mogu brže dostići svoj cilj?",
+     "a": "Povećajte mjesečni iznos, uplatite dodatne prihode u cilj ili odaberite račun koji donosi kamate. Skratite vrijeme u kalkulatoru kako biste vidjeli promjenu mjesečnog iznosa."
+    },
+    {
+     "q": "Koliko velik treba biti fond za hitne slučajeve?",
+     "a": "Tri do šest mjeseci osnovnih troškova uobičajena je preporuka. Što su vam prihodi stabilniji, to vam manje treba; što su nesigurniji, to više."
+    },
+    {
+     "q": "Sprema li se išta od onoga što unesem?",
+     "a": "Ne. Izračun se odvija u potpunosti u vašem pregledniku; ništa što unesete ne sprema se niti se ikamo šalje."
+    },
+    {
+     "q": "Kako Spendry prati moje ciljeve?",
+     "a": "Stvorite cilj i pratite napredak pri svakom dodavanju novca. Spendry prikazuje preostali iznos i vrijeme, a cilj možete podijeliti i s obitelji. Nikada ne traži vaše podatke za prijavu u banku."
+    }
+   ],
+   "final_title": "Približite se korak bliže svom cilju.",
+   "final_text": "Preuzmite Spendry, stvorite svoj cilj i pogledajte koliko ste blizu pri svakoj novoj uplati."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Nikada ne propustite obnovu",
     "Spendry prati vaše Pretplate, uračunava ih u mjesečne Proračune i šalje vam Podsjetnici prije svake nove naplate."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Besplatno · Bez registracije · Radi u vašem pregledniku, ništa se nikamo ne šalje",
+   "app_title": "Spendry osigurava da vas nijedna obnova ne iznenadi.",
+   "app_sub": "Kalkulator prikazuje ukupan iznos. Spendry prati vaše pretplate, dodaje ih u vaš mjesečni ukupni trošak i podsjeća vas prije svake obnove.",
+   "app_points": [
+    {
+     "title": "Podsjetnik prije svake obnove",
+     "text": "Glazba, streaming, pohrana u oblaku ili teretana: obavijest dobivate prije nego što vam se članstvo naplati.",
+     "shot": "07"
+    },
+    {
+     "title": "Pitajte koliko vas pretplate koštaju godišnje",
+     "text": "Pitajte asistenta; odgovor se računa na vašem iPhone uređaju i vaši podaci ostaju tamo.",
+     "shot": "09"
+    },
+    {
+     "title": "Pogledajte mjesec pred vama",
+     "text": "Saznajte kako će pretplate, kartice i računi utjecati na vaših sljedećih 30 dana.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Kratki vodič kroz pretplate",
+   "guide": [
+    {
+     "h": "Kako izračunati stvarni trošak pretplata",
+     "p": [
+      "Pretvorite svaku pretplatu u mjesečni iznos: godišnju cijenu podijelite s 12, a tjednu pomnožite s 52 i podijelite s 12. Zatim ih sve zbrojite. Kalkulator to radi umjesto vas i prikazuje mjesečne, godišnje i petogodišnje iznose.",
+      "Mala mjesečna cijena čini se bezazlenom. Pomnožena s dvanaest, i sa svakom pretplatom koju imate, često ispadne jedan od vaših najvećih redovitih troškova."
+     ]
+    },
+    {
+     "h": "Koje pretplate otkazati",
+     "p": [
+      "Poredajte ih po cijeni i za svaku se zapitajte: jesam li je koristio prošli mjesec? Otkažite one koje ne koristite i postavite podsjetnik prije obnove onih koje zadržavate.",
+      "Ako dvije pretplate služe istoj svrsi, ukinite jednu; obiteljske ili studentske tarife također mogu značajno smanjiti ukupni trošak."
+     ]
+    },
+    {
+     "h": "Pripazite na besplatna probna razdoblja",
+     "p": [
+      "Kada besplatno probno razdoblje završi, pretplata se obično počinje automatski naplaćivati. Zabilježite datum isteka na dan kad započnete probu ili postavite podsjetnik."
+     ]
+    },
+    {
+     "h": "Načini kako trošiti manje na pretplate",
+     "list": [
+      "Pregledajte sve svoje pretplate jednom godišnje.",
+      "Usluge koje koristite cijele godine prebacite na godišnje tarife; obično su povoljnije.",
+      "Dijelite obiteljske pakete.",
+      "Otkažite uslugu u mjesecima kada je ne koristite i ponovno je aktivirajte kada vam zatreba.",
+      "Postavite podsjetnik prije svake obnove."
+     ]
+    }
+   ],
+   "faq_title": "Često postavljana pitanja",
+   "faq": [
+    {
+     "q": "Koliko me pretplate koštaju godišnje?",
+     "a": "Pretvorite svaku u mjesečni iznos, zbrojite ih i pomnožite s 12. Kalkulator to radi za vas i prikazuje vam trošak za pet godina."
+    },
+    {
+     "q": "Kako unijeti tjedne i godišnje pretplate?",
+     "a": "U svakom retku odaberite razdoblje naplate: tjedno, mjesečno ili godišnje. Kalkulator ih automatski preračunava u istu jedinicu."
+    },
+    {
+     "q": "Isplati li se godišnja pretplata?",
+     "a": "Ako uslugu planirate koristiti cijelu godinu, godišnja pretplata je obično povoljnija. Ako niste sigurni, prvo ostanite na mjesečnoj nekoliko mjeseci."
+    },
+    {
+     "q": "Sprema li se išta od onoga što unesem?",
+     "a": "Ne. Izračun se odvija u potpunosti u vašem pregledniku; ništa što unesete ne sprema se niti se ikamo šalje."
+    },
+    {
+     "q": "Kako Spendry prati moje pretplate?",
+     "a": "Unesite svoje pretplate jednom; Spendry ih pribraja vašem mjesečnom zbroju, podsjeća vas prije svake obnove i prikazuje godišnji trošak. Nikada ne traži vaše podatke za prijavu u banku."
+    }
+   ],
+   "final_title": "Znajte za svaku obnovu unaprijed.",
+   "final_text": "Preuzmite Spendry, dodajte svoje pretplate i primite obavijest prije svake obnove."
+  }
  }
 }

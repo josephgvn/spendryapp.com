@@ -298,7 +298,154 @@
     "Kontostände verändern sich fortlaufend. Spendry verwaltet Ihre Kreditkarten, Kredite und Rechnungen, aktualisiert Ihren Tilgungsplan automatisch und erinnert Sie rechtzeitig vor jedem Fälligkeitstermin."
    ]
   ],
-  "extra_hint": "Geld, das Sie zusätzlich zu den Mindestraten für Ihre Schulden aufbringen können. Je mehr Sie tilgen, desto schneller sind Sie schuldenfrei."
+  "extra_hint": "Geld, das Sie zusätzlich zu den Mindestraten für Ihre Schulden aufbringen können. Je mehr Sie tilgen, desto schneller sind Sie schuldenfrei.",
+  "landing": {
+   "trust": "Kostenlos · Keine Registrierung · Läuft direkt im Browser, es werden keine Daten übertragen",
+   "chart_title": "So schmelzen Ihre Schulden von Monat zu Monat",
+   "chart_sub": "Ihr verbleibender Gesamtsaldo bei beiden Methoden und ganz ohne Sonderzahlungen. Jeder Punkt markiert den Monat, in dem eine Schuld vollständig abbezahlt ist.",
+   "extra_title": "Was ein kleiner Aufschlag bewirkt",
+   "extra_sub": "Erfahren Sie, wie zusätzliche Zahlungen über der Mindestrate das Datum Ihrer Schuldenfreiheit vorverlegen und Zinskosten senken.",
+   "extra_amount": "Zusätzlicher Betrag pro Monat",
+   "extra_months": "Zeit bis zur Schuldenfreiheit",
+   "extra_none": "Keine Zusatzzahlung",
+   "extra_sentence": "Mit monatlich {extra} mehr sind Sie {months} früher schuldenfrei und sparen {interest} an Zinsen.",
+   "extra_zero": "Ohne zusätzliche Zahlungen sind Ihre Schulden in {months} abbezahlt. Bewegen Sie den Schieberegler, um den Unterschied zu sehen.",
+   "schedule_title": "Ihr Monatsplan",
+   "schedule_sub": "Was Sie jeden Monat zahlen, wie viele Zinsen anfallen und was an Restschuld bleibt.",
+   "columns": [
+    "Monat",
+    "Zahlung",
+    "Zinsen",
+    "Restbetrag"
+   ],
+   "show_all": "Alle Monate anzeigen",
+   "show_less": "Weniger anzeigen",
+   "app_title": "Spendry führt diesen Plan für Sie fort, Monat für Monat.",
+   "app_sub": "Diese Seite zeigt eine Momentaufnahme. Spendry rechnet mit Ihren echten Beträgen, passt den Plan nach jeder Zahlung an und erinnert Sie rechtzeitig vor jedem Fälligkeitstermin.",
+   "app_points": [
+    {
+     "title": "Alle Schulden auf einen Blick",
+     "text": "Kreditkarten, Kredite, Dispokonto und private Leihen. Behalten Sie Gesamtschulden und Monatsraten stets im Auge.",
+     "shot": "06"
+    },
+    {
+     "title": "Keine Fälligkeit mehr verpassen",
+     "text": "Sie erhalten eine Erinnerung vor jeder Kartenabrechnung, Kreditrate und Rechnung. So vermeiden Sie Mahngebühren durch verpasste Mindestbeträge.",
+     "shot": "07"
+    },
+    {
+     "title": "Das Monatsende frühzeitig sehen",
+     "text": "Spendry betrachtet Einnahmen und Ausgaben der nächsten 30 Tage und zeigt Ihnen, wie sich Ihr Kontostand entwickeln wird.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Ein kurzer Leitfaden zur Schuldentilgung",
+   "guide": [
+    {
+     "h": "Was ist die Schneeball-Methode?",
+     "p": [
+      "Bei der Schneeball-Methode ordnen Sie Ihre Schulden vom kleinsten bis zum größten Betrag. Sie zahlen überall die Mindestrate und stecken jedes zusätzliche Geld in den kleinsten Betrag. Ist dieser getilgt, fließt dessen bisherige Rate in die nächste Schuld. So wächst Ihre Tilgungskraft von Mal zu Mal.",
+      "Die größte Stärke ist die Motivation: Die erste Schuld verschwindet oft schon nach wenigen Monaten, was das Durchhalten spürbar erleichtert."
+     ]
+    },
+    {
+     "h": "Was ist die Lawinen-Methode?",
+     "p": [
+      "Bei der Lawinen-Methode ordnen Sie Ihre Verbindlichkeiten nach dem Jahreszins, vom höchsten bis zum niedrigsten. Zusätzliche Zahlungen fließen zuerst in die teuerste Schuld. Weil Sie die am schnellsten wachsende Restschuld zuerst abbauen, sparen Sie hierüber insgesamt meist am meisten Zinsen.",
+      "Der Nachteil dabei: Wenn die Schuld mit dem höchsten Zins sehr hoch ist, lässt das erste Erfolgserlebnis etwas länger auf sich warten."
+     ]
+    },
+    {
+     "h": "Welche Methode passt zu Ihnen?",
+     "table": [
+      [
+       "",
+       "Schneeball",
+       "Lawine"
+      ],
+      [
+       "Zuerst getilgt",
+       "Kleinster Betrag",
+       "Höchster Zinssatz"
+      ],
+      [
+       "Zinskosten insgesamt",
+       "Mitunter etwas höher",
+       "Meist am niedrigsten"
+      ],
+      [
+       "Erster Teilerfolg",
+       "Schnell",
+       "Dauert meist länger"
+      ],
+      [
+       "Ideal für",
+       "Menschen, die schnelle Motivation brauchen",
+       "Menschen, die vor allem Zinskosten sparen wollen"
+      ]
+     ],
+     "p": [
+      "Der Unterschied ist oft geringer als gedacht. Entscheidend ist vor allem, überhaupt einen festen Plan zu haben. Der Rechner oben vergleicht beide Methoden mit Ihren eigenen Werten und zeigt, welcher Weg für Sie günstiger ist."
+     ]
+    },
+    {
+     "h": "So funktioniert die Rechnung an einem Beispiel",
+     "p": [
+      "Jeden Monat fallen zunächst Zinsen an: der aktuelle Saldo multipliziert mit dem Monatszins. Bei 5.000 € Kreditkartenschulden zu 24 % Jahreszins, also 2 % im Monat, betragen die Zinsen in diesem Monat 100 €.",
+      "Anschließend wird für jeden Posten die Mindestrate bedient. Zusätzliches Geld fließt vollständig in die vorrangige Schuld. Ist ein Betrag abgezahlt, steht die frei gewordene Rate für die nächste Schuld zur Verfügung.",
+      "Der Rechner führt diese Schritte Monat für Monat fort, bis alle Schulden beglichen sind. Daraus ergeben sich der genaue Monat Ihrer Schuldenfreiheit sowie die gesamten Zinskosten."
+     ]
+    },
+    {
+     "h": "Die Falle der Mindestzahlung",
+     "p": [
+      "Wer bei Kreditkarten nur den Mindestbetrag bezahlt, hält die Schulden künstlich am Leben: Auf den verbleibenden Saldo fallen Monat für Monat Zinsen an, wodurch sich die Rückzahlung über viele Jahre hinziehen kann.",
+      "Schon ein kleiner Aufschlag über dem Mindestbetrag holt das Datum Ihrer Schuldenfreiheit um Monate nach vorn. Probieren Sie es oben mit Ihren eigenen Werten aus."
+     ]
+    },
+    {
+     "h": "Möglichkeiten, Schulden schneller abzubauen",
+     "list": [
+      "Keine neuen Schulden aufbauen: Nutzen Sie Karten nur für Dinge, die Sie noch im selben Monat vollständig ausgleichen können.",
+      "Monatlich einen festen Betrag über den Mindestraten zahlen und diesen Betrag automatisch überweisen lassen.",
+      "Sonderzahlungen, Steuerrückerstattungen und Nebeneinkünfte direkt in die nächste anstehende Schuld stecken.",
+      "Prüfen, ob eine Umschuldung teurer Ratenkredite auf ein zinsgünstigeres Darlehen unterm Strich wirklich spart.",
+      "Laufende Abonnements prüfen, ungenutzte Dienste kündigen und das gesparte Geld direkt in die Tilgung stecken.",
+      "Fälligkeiten strikt einhalten: Mahngebühren und Verzugszinsen werfen Ihren Zeitplan unnötig zurück."
+     ]
+    }
+   ],
+   "faq_title": "Häufig gestellte Fragen",
+   "faq": [
+    {
+     "q": "Kostet die Schneeball- oder die Lawinen-Methode weniger Zinsen?",
+     "a": "In den meisten Fällen spart die Lawinen-Methode, bei der die höchsten Zinsen zuerst getilgt werden, am meisten Geld. Die Schneeball-Methode führt früher zum ersten Erfolg, was beim Durchhalten hilft. Der Rechner vergleicht beide Wege anhand Ihrer Eingaben."
+    },
+    {
+     "q": "Welche Verbindlichkeiten kann ich eintragen?",
+     "a": "Kreditkarten, Ratenkredite, Autokredite, Bildungsdarlehen, den Dispokredit oder private Leihen im Freundes- und Familienkreis. Für zinsfreie Beträge geben Sie einfach 0 als Zinssatz ein."
+    },
+    {
+     "q": "Wo finde ich meinen Zinssatz?",
+     "a": "Sie finden ihn auf Ihrer Abrechnung, im Kreditvertrag oder im Online-Banking, meist angegeben als Jahreszins oder effektiver Jahreszins. Geben Sie den Jahreswert ein; der Rechner ermittelt daraus den monatlichen Zinsanteil."
+    },
+    {
+     "q": "Wie genau ist das Ergebnis?",
+     "a": "Die Berechnung geht von gleichbleibenden Zinssätzen, festen monatlichen Raten und keinen weiteren Gebühren aus. Da sich Zinssätze in der Realität ändern können, dient das Ergebnis als solide Orientierung, nicht als verbindliches Angebot."
+    },
+    {
+     "q": "Werden meine eingegebenen Daten übertragen?",
+     "a": "Nein. Alle Berechnungen laufen vollständig in Ihrem Browser ab. Nichts von dem, was Sie eingeben, wird gespeichert oder weitergeleitet."
+    },
+    {
+     "q": "Was bietet Spendry über diesen Rechner hinaus?",
+     "a": "Spendry arbeitet mit Ihren tatsächlichen Beträgen, passt den Plan nach jeder Zahlung an, erinnert Sie rechtzeitig vor jeder Fälligkeit und zeigt Ihnen stets den Tag Ihrer Schuldenfreiheit. Die App verlangt keine Bankdaten und sammelt keinerlei persönliche Daten."
+    }
+   ],
+   "final_title": "Tragen Sie Ihr Datum der Schuldenfreiheit immer bei sich.",
+   "final_text": "Laden Sie Spendry herunter, tragen Sie Ihre Verbindlichkeiten einmalig ein, und Ihr Plan führt sich jeden Monat von selbst fort.",
+   "chart_none": "Ohne Zusatzzahlung"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Finanzen planvoll automatisieren",
     "In Spendry erhält jede Kategorie ein Monatsbudget. Verfolgen Sie Ausgaben in Echtzeit und erhalten Sie frühzeitig Warnungen, bevor gesetzte Limits überschritten werden."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Kostenlos · Ohne Registrierung · Läuft direkt im Browser, es werden keine Daten übertragen",
+   "app_title": "Spendry führt Ihr Budget für Sie, jeden Tag.",
+   "app_sub": "Die 50/30/20-Regel ist ein guter Anfang. Spendry ordnet jede Ausgabe automatisch der passenden Kategorie zu, warnt Sie rechtzeitig vor Budgetüberschreitungen und zeigt Ihnen das Monatsende schon im Voraus.",
+   "app_points": [
+    {
+     "title": "Ein Budget für jede Kategorie",
+     "text": "Lebensmittel, Fahrtkosten, Rechnungen: Legen Sie für jeden Bereich ein Monatslimit fest und sehen Sie jederzeit, was noch übrig ist.",
+     "shot": "04"
+    },
+    {
+     "title": "Ausgaben in Sekundenschnelle erfassen",
+     "text": "Betrag eingeben, Kategorie wählen, fertig. Mit Vorlagen erfassen Sie regelmäßige Ausgaben mit einem einzigen Fingertipp.",
+     "shot": "02"
+    },
+    {
+     "title": "Verstehen, wohin das Geld fließt",
+     "text": "Wochen- und Monatsdiagramme zeigen Ihre größten Ausgabenposten und den direkten Vergleich zum Vormonat.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Ein kleiner Leitfaden zur Budgetplanung",
+   "guide": [
+    {
+     "h": "Was ist die 50/30/20-Regel?",
+     "p": [
+      "Die Hälfte Ihres Nettoeinkommens fließt in Grundbedürfnisse wie Miete, Rechnungen, Lebensmittel und Mobilität. 30 Prozent stehen für persönliche Wünsche wie Restaurantbesuche, Freizeit und Shopping zur Verfügung. Die restlichen 20 Prozent fließen in Ersparnisse und den Schuldenabbau.",
+      "Diese Aufteilung dient als Orientierung. Wenn allein das Wohnen bereits die Hälfte Ihres Einkommens beansprucht, passen Sie die Anteile an Ihre Lebenssituation an. Tilgen Sie teure Kreditschulden immer zuerst."
+     ]
+    },
+    {
+     "h": "So erstellen Sie ein Monatsbudget",
+     "p": [
+      "Beginnen Sie mit Ihren Einnahmen: Gehalt, Nebeneinkünfte und alle weiteren regelmäßigen Geldeingänge. Ziehen Sie zu Monatsbeginn zuerst die Fixkosten ab: Miete, Rechnungen, Kreditraten und Abonnements.",
+      "Erfassen Sie variable Ausgaben für Einkäufe, Gastronomie oder Fahrten direkt beim Bezahlen. Wer bis zum Monatsende wartet, vergisst die meisten Beträge. Ziehen Sie am Monatsende alle Ausgaben von den Einnahmen ab und sparen Sie das restliche Guthaben."
+     ]
+    },
+    {
+     "h": "Kreditkartenabrechnungen richtig einplanen",
+     "p": [
+      "Zahlungen mit der Kreditkarte verlassen Ihr Girokonto nicht sofort. Der Betrag wird erst fällig, wenn die Abrechnung beglichen wird. Planen Sie den Monat deshalb mit der anstehenden Abrechnungssumme und nicht nur mit dem aktuellen Kontostand."
+     ]
+    },
+    {
+     "h": "Tipps, um das Budget einzuhalten",
+     "list": [
+      "Bezahlen Sie sich zuerst: Überweisen Sie den Sparbetrag direkt am Tag des Gehaltseingangs auf ein separates Konto.",
+      "Erfassen Sie fixe Zahlungen einmalig als feste Wiederholungen für jeden Monat.",
+      "Notieren Sie auch kleine Geldbeträge, denn sie summieren sich bis zum Monatsende spürbar.",
+      "Überprüfen Sie Ihre laufenden Verträge und Abonnements einmal im Jahr.",
+      "Prüfen Sie Ihren Zwischenstand zur Monatsmitte und steuern Sie bei Bedarf in der zweiten Monatshälfte nach."
+     ]
+    }
+   ],
+   "faq_title": "Häufig gestellte Fragen",
+   "faq": [
+    {
+     "q": "Funktioniert die 50/30/20-Regel für jeden?",
+     "a": "Nein, sie dient als Richtwert. Beanspruchen feste Wohn- und Lebenshaltungskosten mehr als die Hälfte Ihres Einkommens, passen Sie die Verteilung an. Entscheidend ist, jeden Monat einen festen Teil zum Sparen und Tilgen beiseitezulegen."
+    },
+    {
+     "q": "Rechnet man mit dem Brutto- oder dem Nettoeinkommen?",
+     "a": "Verwenden Sie immer Ihr Nettoeinkommen. Ausschlaggebend ist das Geld, das nach Steuern und Abgaben tatsächlich auf Ihrem Konto eingeht."
+    },
+    {
+     "q": "Wie werden Raten und Schulden eingestuft?",
+     "a": "Die vertraglichen Mindestraten zählen zu den notwendigen Grundbedürfnissen. Alle Zahlungen darüber hinaus fließen in den 20-Prozent-Anteil für Vermögensaufbau und Schuldentilgung."
+    },
+    {
+     "q": "Werden meine eingegebenen Daten gespeichert?",
+     "a": "Nein. Die Berechnung erfolgt vollständig in Ihrem Browser. Es werden keinerlei Eingaben gespeichert oder an externe Server gesendet."
+    },
+    {
+     "q": "Wie unterstützt mich Spendry bei der Budgetierung?",
+     "a": "Sie weisen jeder Kategorie ein Monatsbudget zu. Die Ausgaben laufen automatisch auf und die App warnt Sie vor einer Überschreitung. Da Karten, Kredite und Abonnements am selben Ort erfasst sind, sehen Sie Ihren Monatsabschluss schon Wochen vorher. Ein Bank-Login ist dafür nicht erforderlich."
+    }
+   ],
+   "final_title": "Ihr Monatsbudget, überall griffbereit.",
+   "final_text": "Laden Sie Spendry herunter, hinterlegen Sie Einnahmen und Fixkosten einmalig und behalten Sie den Verlauf jedes Monats im Voraus im Blick."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Den Plan in die Tat umsetzen",
     "Spendry hält Ihren Plan auf Kurs: Fügen Sie Ihre Kreditkarten hinzu, legen Sie die monatliche Rate fest und erhalten Sie rechtzeitig vor jeder Fälligkeit eine Erinnerung."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Kostenlos · Keine Registrierung · Läuft direkt im Browser, es werden keine Daten übertragen",
+   "app_title": "Spendry behält Ihre Kreditkarten für Sie im Blick, jeden Monat.",
+   "app_sub": "Dieser Rechner zeigt den Tilgungsverlauf für eine einzelne Karte. Spendry überwacht alle Ihre Karten samt Abrechnungs- und Fälligkeitsterminen und erinnert Sie rechtzeitig vor jeder Abbuchung.",
+   "app_points": [
+    {
+     "title": "Alle Karten in einer Liste",
+     "text": "Abrechnungssaldo, Fälligkeitstermin und verbleibende Tage jeder einzelnen Karte auf einen Blick.",
+     "shot": "06"
+    },
+    {
+     "title": "Erinnerung vor jedem Fälligkeitstermin",
+     "text": "Erhalten Sie eine Mitteilung nach Erstellung des Abrechnungsbelegs und rechtzeitig vor der Abbuchung, damit keine Säumnisgebühren anfallen.",
+     "shot": "07"
+    },
+    {
+     "title": "Sehen, wohin das Geld fließt",
+     "text": "Ihre Kartenausgaben nach Kategorien aufgeschlüsselt, damit Sie Einsparpotenziale sofort erkennen.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Ein kurzer Leitfaden zu Kreditkartenschulden",
+   "guide": [
+    {
+     "h": "Wie Kreditkartenzinsen berechnet werden",
+     "p": [
+      "Jeden Monat berechnet Ihre Bank Zinsen auf den ausstehenden Restsaldo, basierend auf dem vereinbarten Jahreszins. Ihre Einzahlung deckt zunächst diese Zinsen ab; nur der darüber hinausgehende Teil tilgt die eigentliche Schuld. Dieser Ablauf wiederholt sich Monat für Monat bis zum vollständigen Ausgleich.",
+      "Beispiel: Bei 3.000 € Saldo und 24 % Jahreszins, also 2 % im Monat, fallen 60 € Zinsen an. Zahlen Sie 200 € ein, sinkt der Saldo auf 2.860 €. Die Zinsen des Folgemonats werden dann auf Grundlage dieses neuen Restbetrags berechnet."
+     ]
+    },
+    {
+     "h": "Warum Mindestzahlungen so lange dauern",
+     "p": [
+      "Die Mindestrate macht meist nur einen geringen Prozentsatz des Gesamtsaldos aus. Sinkt der Saldo, sinkt auch der Mindestbetrag. Dadurch fließt der Großteil jeder Zahlung nur in die Zinsen, und die Rückzahlung kann sich über viele Jahre erstrecken.",
+      "Ein fester monatlicher Betrag durchbricht diesen Kreislauf: Ein gleichbleibend hoher Betrag senkt den Saldo Monat für Monat deutlich ab. Der Vergleich im Rechner zeigt den Unterschied mit Ihren eigenen Werten."
+     ]
+    },
+    {
+     "h": "Abrechnungstag und Fälligkeitstag",
+     "p": [
+      "Der Abrechnungstag schließt den monatlichen Zyklus ab und weist den fälligen Gesamtsaldo aus. Der Fälligkeitstag ist der späteste Termin für den Ausgleich, meist einige Wochen nach dem Abrechnungstag.",
+      "Gleichen Sie den vollen Abrechnungsbetrag bis zum Fälligkeitstag aus, fallen auf Ihre Einkäufe keinerlei Zinsen an. Zahlen Sie nur einen Teilbetrag zurück, werden auf den verbleibenden Saldo Zinsen fällig."
+     ]
+    },
+    {
+     "h": "Möglichkeiten, eine Kreditkarte schneller auszugleichen",
+     "list": [
+      "Zahlen Sie jeden Monat einen festen Betrag, so hoch wie möglich, statt nur die geforderte Mindestrate.",
+      "Nutzen Sie die Karte während der Rückzahlungsphase vorübergehend nicht mehr für alltägliche Einkäufe.",
+      "Verteilen Sie zusätzliche Beträge bei mehreren Karten zuerst auf diejenige mit dem höchsten Jahreszins.",
+      "Prüfen Sie, ob ein Rahmenkredit oder ein günstigerer Ratenkredit unter Berücksichtigung aller Gebühren wirklich günstiger ist.",
+      "Halten Sie Fälligkeitstermine stets ein; Mahngebühren und Strafzinsen werfen Ihren Rückzahlungsplan zurück."
+     ]
+    }
+   ],
+   "faq_title": "Häufig gestellte Fragen",
+   "faq": [
+    {
+     "q": "Wie lange dauert es, wenn ich nur die Mindestrate zahle?",
+     "a": "Das hängt vom Saldo, vom Jahreszins und von der Mindestraten-Formel Ihrer Bank ab, dauert aber häufig viele Jahre. Der Rechner zeigt Ihnen, wann der Saldo ausschließlich über Mindestraten beglichen wäre und wie viel Zinsen dabei auflaufen."
+    },
+    {
+     "q": "Was bedeutet der Jahreszins bei Kreditkarten?",
+     "a": "Der Jahreszins gibt die jährlichen Zinskosten Ihrer Karte an. Kreditkarten berechnen Zinsen monatlich, also grob mit einem Zwölftel des Jahreszinses auf den jeweils offenen Restsaldo."
+    },
+    {
+     "q": "Wie wird die Mindestzahlung berechnet?",
+     "a": "Die meisten Banken fordern einen kleinen Prozentsatz des Gesamtsaldos, oft verknüpft mit einem festen Sockelbetrag, zuzüglich Zinsen und eventueller Gebühren. Die genaue Quote steht auf Ihrem Monatsauszug; Sie können diesen Prozentsatz im Rechner frei anpassen."
+    },
+    {
+     "q": "Berücksichtigt der Rechner sonstige Kartengebühren?",
+     "a": "Nein. Jahresgebühren, Mahnkosten oder Kosten für Teilzahlungsfunktionen sind nicht enthalten. Die tatsächlichen Gesamtkosten können daher geringfügig höher liegen."
+    },
+    {
+     "q": "Werden meine Eingaben auf dieser Seite gespeichert?",
+     "a": "Nein. Alle Berechnungen erfolgen ausschließlich direkt in Ihrem Browser. Keine Eingabe wird gespeichert oder über das Internet versendet."
+    },
+    {
+     "q": "Wie unterstützt Spendry mich beim Abbau von Kreditkartenschulden?",
+     "a": "Sie legen Ihre Karten an; Spendry überwacht Abrechnungszeiträume und Fälligkeiten, erinnert Sie rechtzeitig vor Zahlungen und passt Ihren Restsaldo sowie das Datum Ihrer Schuldenfreiheit mit jeder erfassten Zahlung an. Ein Bank-Login ist dafür zu keinem Zeitpunkt nötig."
+    }
+   ],
+   "final_title": "Bringen Sie Struktur in Ihren Kartensaldo.",
+   "final_text": "Laden Sie Spendry herunter, fügen Sie Ihre Karten hinzu und behalten Sie Abrechnungstage und Fälligkeiten stets im Griff."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Nach dem Abschluss den Überblick behalten",
     "Erfassen Sie Kredite in Spendry, um die offenen Raten, das Laufzeitende und Erinnerungen vor jeder Fälligkeit direkt im Blick zu haben."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Kostenlos · Ohne Registrierung · Läuft direkt im Browser, es werden keine Daten übertragen",
+   "app_title": "Spendry begleitet Ihren Kredit bis zur letzten Rate.",
+   "app_sub": "Der Rechner liefert die Rate. Spendry behält die verbleibenden Raten, das Tilgungsende sowie alle Fälligkeiten im Blick und erinnert Sie vor jeder Abbuchung.",
+   "app_points": [
+    {
+     "title": "Alle Kredite in einer Übersicht",
+     "text": "Autokredit, Ratenkredit oder Studienkredit: Sehen Sie die offenen Raten und Ihre gesamte monatliche Belastung auf einen Blick.",
+     "shot": "06"
+    },
+    {
+     "title": "Rechtzeitige Zahlungserinnerungen",
+     "text": "Verpassen Sie keine Fälligkeit und vermeiden Sie teure Mahngebühren.",
+     "shot": "07"
+    },
+    {
+     "title": "Die nächsten Wochen im Voraus sehen",
+     "text": "Spendry zeigt auf, wie anstehende Kreditraten, Kartenzahlungen und Rechnungen die kommenden 30 Tage beeinflussen.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Ein kleiner Leitfaden zu Krediten",
+   "guide": [
+    {
+     "h": "So wird eine monatliche Kreditrate berechnet",
+     "p": [
+      "Klassische Ratenkredite und Autokredite werden als Annuitätendarlehen vergeben: Sie zahlen jeden Monat eine feste Rate. Ein Teil davon begleicht die Zinsen auf die verbleibende Restschuld, der übrige Betrag tilgt den Kredit.",
+      "Zu Beginn fließt ein großer Teil der Rate in die Zinsen. Mit sinkender Restschuld verringert sich die Zinslast und der monatliche Tilgungsanteil wächst. Der Tilgungsplan im Rechner stellt diese Verschiebung Monat für Monat dar."
+     ]
+    },
+    {
+     "h": "Kürzere Laufzeit oder niedrigere Monatsrate?",
+     "p": [
+      "Eine längere Laufzeit verringert die Monatsrate, erhöht jedoch die gesamten Zinskosten über die Kreditdauer. Eine kürzere Laufzeit erhöht die monatliche Belastung, spart unterm Strich jedoch bares Geld.",
+      "Die kürzeste Laufzeit, die sich problemlos mit Ihrem Monatsbudget vereinbaren lässt, ist finanziell fast immer die günstigste Entscheidung."
+     ]
+    },
+    {
+     "h": "Sollzins und effektiver Jahreszins",
+     "p": [
+      "Der Sollzins beziffert die reinen Zinskosten für das geliehene Kapital. Der effektive Jahreszins schließt zusätzlich anfallende Gebühren ein und eignet sich daher am besten, um Finanzierungsangebote fair zu vergleichen."
+     ]
+    },
+    {
+     "h": "Möglichkeiten, Zinskosten zu senken",
+     "list": [
+      "Vergleichen Sie Angebote immer anhand des effektiven Jahreszinses und nicht allein über die Monatsrate.",
+      "Wählen Sie eine kürzere Laufzeit, sofern Ihr Monatsbudget den Betrag sicher abdeckt.",
+      "Nutzen Sie Sondertilgungen zu Beginn der Kreditphase, um die Restschuld früh zu verringern.",
+      "Prüfen Sie vorab, ob die Bank eine Vorfälligkeitsentschädigung für vorzeitige Rückzahlungen verlangt.",
+      "Zahlen Sie Raten stets pünktlich, um Verzugszinsen und Mahnkosten zu vermeiden."
+     ]
+    }
+   ],
+   "faq_title": "Häufig gestellte Fragen",
+   "faq": [
+    {
+     "q": "Wie berechnet sich die Monatsrate?",
+     "a": "Über die mathematische Annuitätenformel aus Nettodarlehensbetrag, Monatszins (effektiver Jahreszins geteilt durch 12) und Laufzeit in Monaten. Die Zinsen fallen in jedem Monat stets auf die verbleibende Restschuld an."
+    },
+    {
+     "q": "Worin liegt der Unterschied zwischen Sollzins und Effektivzins?",
+     "a": "Der Sollzins ist der Grundpreis für das Darlehen. Der effektive Jahreszins berücksichtigt fast alle begleitenden Kreditkosten und ist der maßgebliche Wert für transparente Vergleiche."
+    },
+    {
+     "q": "Lohnen sich Sondertilgungen?",
+     "a": "Ja. Jede außerplanmäßige Tilgung verringert die Restschuld, auf die Zinsen berechnet werden. Das senkt die Gesamtzinsen und verkürzt die Rückzahlung. Klären Sie vorab, ob dafür Gebühren anfallen."
+    },
+    {
+     "q": "Berücksichtigt der Rechner Zusatzgebühren oder Steuern?",
+     "a": "Nein. Etwaige Bearbeitungsgebühren, optionale Restschuldversicherungen oder behördliche Abgaben sind in der Basiskalkulation nicht enthalten."
+    },
+    {
+     "q": "Werden meine eingegebenen Daten gespeichert?",
+     "a": "Nein. Alle Berechnungen laufen lokal in Ihrem Browser ab. Daten werden weder gespeichert noch an Dritte übertragen."
+    },
+    {
+     "q": "Wie verwaltet Spendry meine Darlehen?",
+     "a": "Sie erfassen den Kredit einmalig. Spendry zeigt Ihnen die offenen Raten, das genaue Zieldatum sowie die monatliche Gesamtsumme und erinnert Sie vor jedem Einzug. Ein Zugriff auf Ihr Bankkonto ist dafür nicht nötig."
+    }
+   ],
+   "final_title": "Ihre Kredite, transparent bis zur letzten Rate.",
+   "final_text": "Laden Sie Spendry herunter, fügen Sie Ihre Kredite hinzu und behalten Sie den Rückzahlungsfortschritt jederzeit im Griff."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Fortschritt verfolgen",
     "Erstellen Sie das Sparziel in Spendry unter Ziele und sehen Sie bei jeder Einzahlung, wie Sie dem Ziel näher kommen."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Kostenlos · Ohne Registrierung · Läuft direkt im Browser, nichts wird übertragen",
+   "app_title": "Spendry zeigt Ihnen bei jedem Schritt, wie nah Sie Ihrem Ziel sind.",
+   "app_sub": "Der Rechner ermittelt den monatlichen Betrag. Spendry verwaltet Ihre Ziele, zeigt Ihnen nach jeder Einzahlung Ihren Fortschritt und berechnet die verbleibende Zeit.",
+   "app_points": [
+    {
+     "title": "Alle Ziele auf einen Blick",
+     "text": "Notgroschen, Urlaub, neues Auto: Sehen Sie sofort, wie viel bereits gespart ist und wie viele Tage noch bleiben.",
+     "shot": "05"
+    },
+    {
+     "title": "Den kommenden Monat planen",
+     "text": "Erfahren Sie genau, wie viel Sie in diesem Monat unter Berücksichtigung von Einnahmen und Ausgaben sparen können.",
+     "shot": "01"
+    },
+    {
+     "title": "Ersparnissen beim Wachsen zusehen",
+     "text": "Verfolgen Sie Gold, Währungen, Aktien und Fonds zu aktuellen Kursen.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Ein kleiner Leitfaden zum Erreichen Ihrer Sparziele",
+   "guide": [
+    {
+     "h": "Wie viel sollte ich jeden Monat sparen?",
+     "p": [
+      "Ziehen Sie Ihr bereits vorhandenes Guthaben vom Sparziel ab und teilen Sie den Rest durch die Anzahl der verbleibenden Monate. Dieser Rechner übernimmt das für Sie und berücksichtigt auf Wunsch auch die Zinsen, die Ihr Erspartes einbringt.",
+      "Beispiel: Bei einem Ziel von 6.000 €, einem vorhandenen Guthaben von 1.000 € und einer Laufzeit von 10 Monaten legen Sie ohne Zinsen monatlich 500 € zurück."
+     ]
+    },
+    {
+     "h": "Warum Zinsen einen großen Unterschied machen",
+     "p": [
+      "Wenn Ihr Erspartes auf einem Tagesgeldkonto oder in einem Fonds Zinsen abwirft, müssen Sie monatlich weniger einzahlen, um das gleiche Ziel zu erreichen. Je länger der Zeitraum ist, desto deutlicher spüren Sie diesen Effekt."
+     ]
+    },
+    {
+     "h": "Beginnen Sie mit einem Notgroschen",
+     "p": [
+      "Bevor Sie größere Ziele ansteuern, schützt Sie eine eiserne Reserve für die wichtigsten Ausgaben einiger Monate davor, dass eine unerwartete Rechnung zu neuen Schulden führt."
+     ]
+    },
+    {
+     "h": "So fällt das Sparen spürbar leichter",
+     "list": [
+      "Sparen Sie direkt am Gehaltstag und behandeln Sie den Betrag wie eine feste Rechnung.",
+      "Richten Sie einen Dauerauftrag ein, damit Sie nicht jeden Monat neu entscheiden müssen.",
+      "Legen Sie Boni und zusätzliche Einnahmen direkt für Ihr Ziel zurück.",
+      "Sparen Sie gemeinsam mit Partner oder Familie, um Ihr Ziel schneller zu erreichen.",
+      "Behalten Sie Ihren Fortschritt im Blick; jede Einzahlung motiviert aufs Neue."
+     ]
+    }
+   ],
+   "faq_title": "Häufig gestellte Fragen",
+   "faq": [
+    {
+     "q": "Welchen Zinssatz sollte ich eintragen?",
+     "a": "Geben Sie den jährlichen Zinssatz an, den Sie für Ihr Tagesgeldkonto oder Ihre Fondsanlage erwarten. Wenn Sie unsicher sind, wählen Sie 0 für eine besonders vorsichtige Berechnung."
+    },
+    {
+     "q": "Wie erreiche ich mein Sparziel schneller?",
+     "a": "Erhöhen Sie den monatlichen Sparbetrag, nutzen Sie Sonderzahlungen oder wechseln Sie zu einem besser verzinsten Konto. Verkürzen Sie die Laufzeit im Rechner, um zu sehen, wie sich die Monatsrate anpasst."
+    },
+    {
+     "q": "Wie hoch sollte der Notgroschen sein?",
+     "a": "Drei bis sechs Monatsausgaben für die Grundversorgung sind die gängige Empfehlung. Je sicherer Ihr Einkommen ist, desto weniger genügt; bei unregelmäßigem Einkommen empfiehlt sich ein größeres Polster."
+    },
+    {
+     "q": "Werden meine eingegebenen Daten gespeichert?",
+     "a": "Nein. Alle Berechnungen finden vollständig lokal in Ihrem Browser statt; keine Ihrer Eingaben wird gespeichert oder weitergeleitet."
+    },
+    {
+     "q": "Wie hilft mir Spendry beim Sparen?",
+     "a": "Sie legen einfach ein Ziel an und sehen bei jeder Einzahlung Ihren aktuellen Fortschritt. Spendry berechnet die restliche Summe sowie die verbleibende Zeit. Sie können Ziele auch mit der Familie teilen. Die App fragt niemals nach Ihren Bank-Zugangsdaten."
+    }
+   ],
+   "final_title": "Kommen Sie Ihrem Sparziel einen Schritt näher.",
+   "final_text": "Laden Sie Spendry herunter, erstellen Sie Ihr erstes Ziel und sehen Sie bei jeder Einzahlung genau, wie nah Sie Ihrem Erfolg sind."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Keine Verlängerung mehr übersehen",
     "Spendry erfasst Ihre Abonnements, bindet sie in Budgets ein und erinnert Sie rechtzeitig vor jedem Abrechnungstag."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Kostenlos · Ohne Registrierung · Läuft direkt im Browser, nichts wird übertragen",
+   "app_title": "Mit Spendry werden Sie von keiner Verlängerung überrascht.",
+   "app_sub": "Der Rechner zeigt Ihnen die Gesamtkosten. Spendry erfasst Ihre Abonnements, bindet sie in Ihre Monatsplanung ein und erinnert Sie rechtzeitig vor jeder Verlängerung.",
+   "app_points": [
+    {
+     "title": "Rechtzeitige Erinnerung vor jeder Verlängerung",
+     "text": "Ob Musik, Streaming, Cloud-Speicher oder Fitnessstudio: Sie wissen immer vor der Abbuchung Bescheid.",
+     "shot": "07"
+    },
+    {
+     "title": "Jahreskosten Ihrer Abos jederzeit abrufen",
+     "text": "Fragen Sie einfach den Assistenten; die Auswertung erfolgt direkt auf Ihrem iPhone und Ihre Daten bleiben bei Ihnen.",
+     "shot": "09"
+    },
+    {
+     "title": "Den kommenden Monat planen",
+     "text": "Erkennen Sie sofort, wie Abonnements, Karten und feste Rechnungen die nächsten 30 Tage bestimmen.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Ein kleiner Leitfaden für Ihre Abonnements",
+   "guide": [
+    {
+     "h": "So ermitteln Sie die tatsächlichen Kosten Ihrer Abos",
+     "p": [
+      "Rechnen Sie jedes Abonnement auf einen Monatsbetrag um: Teilen Sie Jahresbeiträge durch 12, nehmen Sie wöchentliche Beträge mal 52 und teilen Sie das Ergebnis durch 12. Zählen Sie dann alles zusammen. Der Rechner übernimmt das für Sie und weist die Monats-, Jahres- und Fünfjahreskosten aus.",
+      "Ein kleiner Monatsbetrag wirkt oft unbedeutend. Auf das ganze Jahr gerechnet und über alle Abos summiert, entsteht daraus jedoch schnell einer Ihrer größten regelmäßigen Ausgabenposten."
+     ]
+    },
+    {
+     "h": "Welche Abonnements Sie kündigen sollten",
+     "p": [
+      "Sortieren Sie Ihre Abos nach dem Preis und fragen Sie sich bei jedem einzelnen: Habe ich diesen Dienst im letzten Monat wirklich genutzt? Kündigen Sie ungenutzte Verträge und setzen Sie sich eine Erinnerung für Verlängerungen, die Sie behalten möchten.",
+      "Wenn zwei Dienste denselben Zweck erfüllen, beenden Sie einen davon. Auch Familien- oder Studententarife helfen dabei, die Kosten spürbar zu senken."
+     ]
+    },
+    {
+     "h": "Vorsicht bei kostenlosen Probeabos",
+     "p": [
+      "Nach dem Testzeitraum geht ein Probeabo meist automatisch in ein kostenpflichtiges Abonnement über. Notieren Sie sich das Enddatum direkt beim Start oder stellen Sie eine Erinnerung ein."
+     ]
+    },
+    {
+     "h": "So senken Sie Ihre Ausgaben für Abonnements",
+     "list": [
+      "Prüfen Sie einmal im Jahr alle bestehenden Abonnements.",
+      "Wechseln Sie bei dauerhaft genutzten Diensten zu Jahresabos; diese sind meist günstiger.",
+      "Nutzen Sie gemeinsame Familientarife.",
+      "Pausieren oder kündigen Sie Dienste in Monaten, in denen Sie diese nicht brauchen, und aktivieren Sie sie später wieder.",
+      "Aktivieren Sie eine Erinnerung vor jeder anstehenden Verlängerung."
+     ]
+    }
+   ],
+   "faq_title": "Häufig gestellte Fragen",
+   "faq": [
+    {
+     "q": "Wie viel kosten mich meine Abonnements pro Jahr?",
+     "a": "Rechnen Sie jeden Dienst auf einen Monatsbetrag um, addieren Sie diese Beträge und multiplizieren Sie die Summe mit 12. Der Rechner übernimmt das automatisch und berechnet zusätzlich die Gesamtkosten über fünf Jahre."
+    },
+    {
+     "q": "Wie trage ich wöchentliche und jährliche Abos ein?",
+     "a": "Wählen Sie in der jeweiligen Zeile einfach das Zahlungsintervall aus: wöchentlich, monatlich oder jährlich. Der Rechner rechnet alle Beträge automatisch auf dieselbe Basis um."
+    },
+    {
+     "q": "Lohnt sich ein Jahresabo?",
+     "a": "Wenn Sie einen Dienst garantiert das ganze Jahr über nutzen, ist der Jahrestarif meist deutlich günstiger. Wenn Sie noch unsicher sind, bleiben Sie für die ersten Monate lieber bei der flexiblen monatlichen Abrechnung."
+    },
+    {
+     "q": "Werden meine eingegebenen Daten gespeichert?",
+     "a": "Nein. Alle Berechnungen finden vollständig lokal in Ihrem Browser statt; keine Ihrer Eingaben wird gespeichert oder weitergeleitet."
+    },
+    {
+     "q": "Wie behält Spendry meine Abonnements im Blick?",
+     "a": "Sie tragen Ihre Abonnements einmalig ein; Spendry bindet sie in Ihre monatlichen Gesamtkosten ein, erinnert Sie vor jeder Verlängerung und zeigt Ihnen die jährlichen Kosten. Die App fragt niemals nach Ihren Bank-Zugangsdaten."
+    }
+   ],
+   "final_title": "Verpassen Sie keine Verlängerung mehr.",
+   "final_text": "Laden Sie Spendry herunter, erfassen Sie Ihre Abonnements und lassen Sie sich rechtzeitig vor jeder Abbuchung benachrichtigen."
+  }
  }
 }

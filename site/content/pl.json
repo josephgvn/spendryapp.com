@@ -298,7 +298,154 @@
     "Wysokość długu zmienia się z miesiąca na miesiąc. Spendry śledzi Twoje karty, kredyty i rachunki, aktualizuje plan spłaty i przypomina o każdym nadchodzącym terminie."
    ]
   ],
-  "extra_hint": "Pieniądze, które możesz przeznaczyć na spłatę ponad raty minimalne. Im więcej wpłacisz, tym szybciej pozbędziesz się długów."
+  "extra_hint": "Pieniądze, które możesz przeznaczyć na spłatę ponad raty minimalne. Im więcej wpłacisz, tym szybciej pozbędziesz się długów.",
+  "landing": {
+   "trust": "Bezpłatnie · Bez rejestracji · Działa w Twojej przeglądarce, nic nie jest nigdzie wysyłane",
+   "chart_title": "Jak topnieje Twój dług, miesiąc po miesiącu",
+   "chart_sub": "Pozostała kwota długu dla obu metod oraz bez żadnych dodatkowych wpłat. Każda kropka to miesiąc, w którym spłacasz jedno ze zobowiązań.",
+   "extra_title": "Co daje mała nadpłata",
+   "extra_sub": "Zobacz, jak dodatkowa kwota wpłacana ponad spłaty minimalne zmienia Twoją datę całkowitej spłaty długu oraz sumę odsetek.",
+   "extra_amount": "Dodatkowa kwota co miesiąc",
+   "extra_months": "Czas do całkowitej spłaty",
+   "extra_none": "Bez nadpłat",
+   "extra_sentence": "Dopłacając {extra} co miesiąc, osiągniesz wolność od długów o {months} wcześniej i zaoszczędzisz {interest} na odsetkach.",
+   "extra_zero": "Bez dodatkowych wpłat pozbędziesz się długów w {months}. Przesuń suwak, aby zobaczyć różnicę.",
+   "schedule_title": "Plan spłaty miesiąc po miesiącu",
+   "schedule_sub": "Ile płacisz w każdym miesiącu, ile wynoszą naliczone odsetki i ile długu jeszcze zostaje.",
+   "columns": [
+    "Miesiąc",
+    "Płatność",
+    "Odsetki",
+    "Pozostały dług"
+   ],
+   "show_all": "Pokaż wszystkie miesiące",
+   "show_less": "Pokaż mniej",
+   "app_title": "Spendry pilnuje tego planu za Ciebie, w każdym miesiącu.",
+   "app_sub": "Ta strona to tylko pojedyncza migawka. Spendry pracuje na Twoich rzeczywistych kwotach, przelicza plan po każdej wpłacie i przypomina o zbliżających się terminach.",
+   "app_points": [
+    {
+     "title": "Wszystkie długi na jednym ekranie",
+     "text": "Karty kredytowe, kredyty, konto z debetem i prywatne pożyczki. Całkowity dług i miesięczne raty widzisz od razu.",
+     "shot": "06"
+    },
+    {
+     "title": "Nigdy nie przegapisz terminu",
+     "text": "Dostajesz powiadomienie przed wyciągiem z karty, terminem raty kredytu i każdym rachunkiem, więc brak minimalnej spłaty nie przyniesie dodatkowych opłat.",
+     "shot": "07"
+    },
+    {
+     "title": "Zobacz koniec miesiąca z wyprzedzeniem",
+     "text": "Spendry sprawdza Twoje dochody i płatności na kolejne 30 dni, pokazując, jaki stan konta Cię czeka.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Krótki poradnik: jak spłacić długi",
+   "guide": [
+    {
+     "h": "Na czym polega metoda kuli śnieżnej?",
+     "p": [
+      "W metodzie kuli śnieżnej układasz swoje długi od najmniejszego do największego salda. Płacisz kwoty minimalne na każdym z nich, a każdą dodatkową sumę przeznaczasz na spłatę najmniejszego zobowiązania. Gdy je zamkniesz, całą tę kwotę przenosisz na kolejne, dzięki czemu siła spłaty rośnie z każdym zlikwidowanym długiem.",
+      "Jej największą zaletą jest motywacja: pierwszy dług znika w ciągu kilku miesięcy, co bardzo ułatwia wytrwanie w planie."
+     ]
+    },
+    {
+     "h": "Na czym polega metoda lawiny?",
+     "p": [
+      "W metodzie lawiny układasz swoje długi od najwyższego do najniższego oprocentowania. Dodatkowe pieniądze trafiają w pierwszej kolejności na najdroższy dług. Dzięki temu, że najpierw pozbywasz się zobowiązania rosnącego najszybciej, ta metoda zazwyczaj oznacza najniższy łączny koszt odsetek.",
+      "Minus: jeśli Twój najwyżej oprocentowany dług jest duży, na pierwsze całkowite zamknięcie trzeba trochę poczekać."
+     ]
+    },
+    {
+     "h": "Która metoda jest dla Ciebie?",
+     "table": [
+      [
+       "",
+       "Kula śnieżna",
+       "Metoda lawiny"
+      ],
+      [
+       "Spłacane jako pierwsze",
+       "Najmniejsze saldo",
+       "Najwyższe oprocentowanie"
+      ],
+      [
+       "Łączne odsetki",
+       "Mogą być nieco wyższe",
+       "Zazwyczaj najniższe"
+      ],
+      [
+       "Pierwszy spłacony dług",
+       "Szybko",
+       "Może potrwać dłużej"
+      ],
+      [
+       "Najlepsze dla",
+       "Osób potrzebujących szybkiej motywacji",
+       "Osób skupionych na najniższym koszcie"
+      ]
+     ],
+     "p": [
+      "Różnica w kosztach bywa niewielka, najważniejsze to po prostu mieć plan. Powyższy kalkulator porównuje obie metody na Twoich liczbach i pokazuje, która z nich jest tańsza."
+     ]
+    },
+    {
+     "h": "Jak działa matematyka, na przykładzie",
+     "p": [
+      "W każdym miesiącu najpierw naliczane są odsetki: bieżące saldo mnożone przez miesięczną stopę procentową. Jeśli masz 25 000 zł długu na karcie z roczną stopą 24%, czyli 2% miesięcznie, odsetki w danym miesiącu wyniosą 500 zł.",
+      "Następnie każde zobowiązanie otrzymuje swoją spłatę minimalną, a nadwyżka trafia na kolejny dług z listy. Kiedy jedno zobowiązanie zostanie spłacone, przeznaczoną na nie kwotę dokładasz do następnego.",
+      "Kalkulator powtarza te kroki miesiąc po miesiącu, aż spłacisz ostatni dług. W ten sposób wyznacza miesiąc całkowitej spłaty oraz łączną kwotę zapłaconych odsetek."
+     ]
+    },
+    {
+     "h": "Pułapka spłaty minimalnej",
+     "p": [
+      "Spłacanie tylko kwoty minimalnej na karcie kredytowej sprawia, że dług trwa w nieskończoność: od pozostałej sumy co miesiąc naliczane są odsetki, a spłata może ciągnąć się latami.",
+      "Nawet mała kwota ponad minimum przybliża datę wolności od długów o wiele miesięcy. Sprawdź to na własnych danych w sekcji nadpłat powyżej."
+     ]
+    },
+    {
+     "h": "Jak szybciej pozbyć się długów",
+     "list": [
+      "Przestań powiększać zadłużenie: płać kartą tylko za to, co możesz w całości spłacić w danym miesiącu.",
+      "Spłacaj co miesiąc stałą kwotę ponad minimum i ustaw automatyczny przelew.",
+      "Premie, zwroty podatku i dodatkowe dochody przelewaj od razu na kolejny dług z listy.",
+      "Sprawdź, czy przeniesienie długu o wysokim oprocentowaniu do tańszego kredytu rzeczywiście obniży całkowite koszty.",
+      "Przejrzyj swoje subskrypcje, anuluj te nieużywane, a zaoszczędzone pieniądze przeznacz na spłatę zadłużenia.",
+      "Nigdy nie spóźniaj się z terminem płatności: opłaty za opóźnienie i karne odsetki tylko wydłużają Twój plan."
+     ]
+    }
+   ],
+   "faq_title": "Często zadawane pytania",
+   "faq": [
+    {
+     "q": "Która metoda generuje mniejsze odsetki: kula śnieżna czy metoda lawiny?",
+     "a": "W większości przypadków metoda lawiny, czyli spłacanie w pierwszej kolejności długu o najwyższym oprocentowaniu, kosztuje najmniej. Z kolei kula śnieżna pozwala szybciej zamknąć pierwsze zobowiązanie, co daje silną motywację. Kalkulator porówna obie metody na Twoich liczbach."
+    },
+    {
+     "q": "Jakie długi mogę dodać?",
+     "a": "Karty kredytowe, pożyczki gotówkowe, kredyty samochodowe, kredyty studenckie, konto z debetem czy prywatne pożyczki od rodziny i znajomych. W przypadku pożyczek bez odsetek wpisz oprocentowanie 0."
+    },
+    {
+     "q": "Gdzie znajdę swoje oprocentowanie?",
+     "a": "Znajdziesz je na wyciągu z karty kredytowej, w umowie kredytowej lub w aplikacji swojego banku, zazwyczaj jako roczną stopę procentową. Wpisz stawkę roczną, a kalkulator sam przeliczy ją na wartość miesięczną."
+    },
+    {
+     "q": "Jak dokładny jest wynik?",
+     "a": "Obliczenia zakładają, że oprocentowanie nie ulegnie zmianie, co miesiąc wpłacasz tę samą kwotę i nie ponosisz dodatkowych opłat. W rzeczywistości stawki mogą się zmieniać, dlatego traktuj ten wynik jako plan orientacyjny, a nie wiążącą ofertę."
+    },
+    {
+     "q": "Czy wpisane dane są gdzieś wysyłane?",
+     "a": "Nie. Wszystkie obliczenia odbywają się wyłącznie w Twojej przeglądarce. Żadne wprowadzone informacje nie są zapisywane ani nigdzie przesyłane."
+    },
+    {
+     "q": "Czym różni się Spendry od tego kalkulatora?",
+     "a": "Spendry działa na Twoich rzeczywistych kwotach, aktualizuje plan po każdej wpłacie, przypomina o zbliżających się terminach i na bieżąco pokazuje dzień całkowitej spłaty długu. Aplikacja nigdy nie prosi o dane logowania do banku i nie gromadzi Twoich danych."
+    }
+   ],
+   "final_title": "Miej datę wolności od długów zawsze w kieszeni.",
+   "final_text": "Pobierz Spendry, wpisz swoje długi jeden raz, a Twój plan będzie aktualizować się sam w każdym miesiącu.",
+   "chart_none": "Bez nadpłat"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Zautomatyzuj swoje wydatki",
     "W Spendry każda kategoria ma swój miesięczny limit, który zapełnia się przy każdym zakupie, z ostrzeżeniem zanim przekroczysz budżet."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Bezpłatnie · Bez rejestracji · Działa w Twojej przeglądarce, nic nie jest nigdzie wysyłane",
+   "app_title": "Spendry prowadzi Twój budżet każdego dnia.",
+   "app_sub": "Zasada 50/30/20 to dobry początek. Spendry przypisuje każdy wydatek do kategorii, ostrzega Cię, zanim skończy się budżet, i pokazuje stan finansów na koniec miesiąca z wyprzedzeniem.",
+   "app_points": [
+    {
+     "title": "Budżet na każdą kategorię",
+     "text": "Zakupy spożywcze, transport, rachunki: ustaw miesięczny limit dla każdej z nich i zawsze wiedz, ile Ci zostało.",
+     "shot": "04"
+    },
+    {
+     "title": "Dodaj wydatek w kilka sekund",
+     "text": "Wpisz kwotę, wybierz kategorię i gotowe. Szablony pozwalają zapisać regularne wydatki jednym stuknięciem.",
+     "shot": "02"
+    },
+    {
+     "title": "Zobacz, na co poszły pieniądze",
+     "text": "Wykresy tygodniowe i miesięczne pokazują, na co wydajesz najwięcej i jak wypada porównanie z poprzednim miesiącem.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Krótki przewodnik po planowaniu budżetu",
+   "guide": [
+    {
+     "h": "Na czym polega zasada 50/30/20?",
+     "p": [
+      "Połowa Twoich dochodów na rękę trafia na potrzeby (czynsz, rachunki, jedzenie, transport), 30 procent na zachcianki (wyjścia, rozrywka, zakupy), a 20 procent na oszczędności i spłatę długów.",
+      "To tylko punkt wyjścia. Jeśli sam wynajem pochłania połowę Twoich zarobków, dopasuj ten podział do swojego życia i w pierwszej kolejności spłacaj najdroższe długi."
+     ]
+    },
+    {
+     "h": "Jak stworzyć miesięczny budżet",
+     "p": [
+      "Zacznij od swoich dochodów: pensji, zleceń i każdych innych regularnych wpływów. Następnie na początku miesiąca odłóż kwotę na koszty stałe: czynsz, rachunki, raty kredytów i subskrypcje.",
+      "Wydatki zmienne, takie jak zakupy spożywcze, jedzenie na mieście i transport, zapisuj na bieżąco. Jeśli zostawisz to na koniec miesiąca, większość z nich po prostu uleci z pamięci. Pod koniec miesiąca odejmij wydatki od dochodów, a to, co zostanie, przelej na oszczędności."
+     ]
+    },
+    {
+     "h": "Zaplanuj spłatę wyciągu z karty kredytowej",
+     "p": [
+      "Płatności kartą nie znikają z Twojego konta od razu, płacisz za nie dopiero przy rozliczeniu wyciągu. Planując miesiąc, bierz pod uwagę kwotę wyciągu do zapłaty, a nie tylko bieżące saldo."
+     ]
+    },
+    {
+     "h": "Jak trzymać się budżetu",
+     "list": [
+      "Płać najpierw sobie: odkładaj na oszczędności od razu po wypłacie.",
+      "Wpisz koszty stałe raz i ustaw ich powtarzanie co miesiąc.",
+      "Zapisuj też drobne zakupy, bo to one pod koniec miesiąca robią największą różnicę.",
+      "Rób przegląd swoich subskrypcji raz w roku.",
+      "Sprawdzaj budżet w połowie miesiąca i w razie potrzeby koryguj plany na drugą połowę."
+     ]
+    }
+   ],
+   "faq_title": "Najczęściej zadawane pytania",
+   "faq": [
+    {
+     "q": "Czy zasada 50/30/20 sprawdzi się u każdego?",
+     "a": "Nie, to tylko punkt wyjścia. Jeśli czynsz i rachunki pochłaniają ponad połowę Twoich dochodów, zmień proporcje. Najważniejsze to co miesiąc odkładać cokolwiek na oszczędności i spłatę zadłużenia."
+    },
+    {
+     "q": "Wpisywać dochód brutto czy netto?",
+     "a": "Wpisz dochód netto, czyli kwotę na rękę, która rzeczywiście trafia na Twoje konto po potrąceniu podatków i składek."
+    },
+    {
+     "q": "Gdzie przypisać spłatę długów?",
+     "a": "Minimalne wymagane płatności to potrzeby. Wszystko, co wpłacasz ponad wymaganą kwotę minimalną, wlicza się do 20 procent na oszczędności i długi."
+    },
+    {
+     "q": "Czy moje dane są gdzieś zapisywane?",
+     "a": "Nie. Obliczenia odbywają się w całości w Twojej przeglądarce. Żadne wpisane informacje nie są zapisywane ani nigdzie wysyłane."
+    },
+    {
+     "q": "Jak Spendry pomaga w prowadzeniu budżetu?",
+     "a": "Ustalasz miesięczny budżet dla każdej kategorii. Pasek zapełnia się wraz z wydatkami, a aplikacja ostrzega Cię, zanim przekroczysz limit. Dzięki temu, że Twoje karty, kredyty i subskrypcje są w jednym miejscu, widzisz stan finansów na koniec miesiąca z wyprzedzeniem. Aplikacja nigdy nie prosi o dane do logowania do banku."
+    }
+   ],
+   "final_title": "Miej swój budżet zawsze w kieszeni.",
+   "final_text": "Pobierz Spendry, wpisz swoje dochody oraz koszty stałe tylko raz i sprawdzaj finanse na koniec każdego miesiąca z wyprzedzeniem."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Przejdź do działania",
     "Spendry ułatwia realizację planu: dodaj swoje karty, ustal miesięczną kwotę do spłaty i odbieraj przypomnienie przed każdym terminem płatności."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Bezpłatnie · Bez rejestracji · Działa w Twojej przeglądarce, nic nie jest nigdzie wysyłane",
+   "app_title": "Spendry pilnuje Twoich kart w każdym miesiącu.",
+   "app_sub": "Kalkulator pokazuje plan dla jednej karty. Spendry śledzi wszystkie Twoje karty, daty wyciągów oraz terminy płatności i przypomina o każdym zbliżającym się przelewie.",
+   "app_points": [
+    {
+     "title": "Wszystkie karty na jednej liście",
+     "text": "Kwota do spłaty z wyciągu, termin płatności i liczba pozostałych dni dla każdej karty w jednym miejscu.",
+     "shot": "06"
+    },
+    {
+     "title": "Przypomnienie przed każdym terminem",
+     "text": "Dostajesz powiadomienie, gdy zamyka się okres rozliczeniowy oraz przed terminem spłaty, dzięki czemu brak minimalnej kwoty nie spowoduje naliczenia opłat.",
+     "shot": "07"
+    },
+    {
+     "title": "Zobacz, gdzie znikają pieniądze",
+     "text": "Wydatki z kart podzielone na kategorie pomagają szybko zauważyć, gdzie warto ograniczyć koszty.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Krótki poradnik: dług na karcie kredytowej",
+   "guide": [
+    {
+     "h": "Jak naliczane są odsetki na karcie kredytowej",
+     "p": [
+      "W każdym miesiącu bank nalicza odsetki od niespłaconej kwoty zadłużenia, w oparciu o roczną stopę procentową karty. Twoja wpłata pokrywa najpierw te odsetki, a dopiero reszta zmniejsza sam dług. Kalkulator powtarza ten proces miesiąc po miesiącu, aż spłacisz całość.",
+      "Przykład: przy zadłużeniu 15 000 zł i rocznym oprocentowaniu 24%, czyli 2% miesięcznie, odsetki wyniosą 300 zł. Jeśli wpłacisz 1000 zł, dług spadnie do 14 300 zł i to od tej nowej kwoty zostaną naliczone odsetki w kolejnym miesiącu."
+     ]
+    },
+    {
+     "h": "Dlaczego spłata kwot minimalnych trwa tak długo",
+     "p": [
+      "Minimalna spłata to zazwyczaj niewielki procent całego zadłużenia. Gdy dług maleje, spada też kwota minimalna, przez co większość każdej wpłaty pochłaniają odsetki, a zadłużenie ciągnie się latami.",
+      "Wpłacanie stałej kwoty przerywa to błędne koło: te same pieniądze co miesiąc wyraźnie zmniejszają kapitał długu. Porównanie w kalkulatorze pokazuje tę różnicę na Twoich liczbach."
+     ]
+    },
+    {
+     "h": "Data wyciągu a termin spłaty",
+     "p": [
+      "Data wyciągu zamyka cykl rozliczeniowy i ustala saldo do spłaty. Termin płatności to ostatni dzień na uregulowanie rachunku, zazwyczaj wyznaczany kilka tygodni po wyciągu.",
+      "Jeśli spłacisz całą kwotę z wyciągu do dnia płatności, nie zapłacisz żadnych odsetek od zakupów. Jeśli spłacisz tylko część, odsetki zostaną naliczone od pozostałej sumy."
+     ]
+    },
+    {
+     "h": "Jak szybciej spłacić kartę",
+     "list": [
+      "Wpłacaj co miesiąc stałą kwotę, tak dużą jak to możliwe, zamiast samej spłaty minimalnej.",
+      "Zatrzymaj płacenie kartą na czas jej całkowitej spłaty.",
+      "Jeśli masz kilka kart, dodatkowe pieniądze przeznaczaj najpierw na tę z najwyższym oprocentowaniem.",
+      "Sprawdź, czy przeniesienie salda lub tańszy kredyt naprawdę wyjdą taniej po doliczeniu wszystkich prowizji.",
+      "Nigdy nie spóźniaj się z terminem: opłaty za opóźnienie i karne odsetki tylko wydłużą Twój plan."
+     ]
+    }
+   ],
+   "faq_title": "Często zadawane pytania",
+   "faq": [
+    {
+     "q": "Ile potrwa spłata, jeśli będę płacić tylko kwotę minimalną?",
+     "a": "To zależy od Twojego długu, oprocentowania oraz sposobu wyliczania kwoty minimalnej przez bank, ale zazwyczaj trwa to latami. Kalkulator pokaże, kiedy spłacisz dług wpłacając tylko kwoty minimalne i ile wyniosą łączne odsetki."
+    },
+    {
+     "q": "Czym jest roczna stopa procentowa na karcie?",
+     "a": "To roczne oprocentowanie Twojej karty. Bank nalicza odsetki co miesiąc, stosując stawkę wynoszącą w przybliżeniu jedną dwunastą tej rocznej stopy od niespłaconej kwoty zadłużenia."
+    },
+    {
+     "q": "Jak wyliczana jest spłata minimalna?",
+     "a": "Większość banków ustala ją jako niewielki procent zadłużenia, często z określoną kwotą minimalną, powiększony o odsetki i ewentualne prowizje. Dokładną wartość znajdziesz na swoim wyciągu. W kalkulatorze możesz dostosować ten procent."
+    },
+    {
+     "q": "Czy kalkulator uwzględnia dodatkowe opłaty?",
+     "a": "Nie. Opłaty roczne, prowizje za opóźnienia czy koszty przeniesienia salda nie są wliczane, więc rzeczywisty koszt może być nieco wyższy."
+    },
+    {
+     "q": "Czy wpisywane dane są zapisywane?",
+     "a": "Nie. Obliczenia działają w całości w Twojej przeglądarce. Żadne wpisane informacje nie są zapisywane ani nigdzie wysyłane."
+    },
+    {
+     "q": "Jak Spendry pomaga kontrolować dług na kartach?",
+     "a": "Dodajesz swoje karty, a Spendry pilnuje dat wyciągów i terminów płatności, przypomina o zbliżających się wpłatach oraz na bieżąco aktualizuje saldo i dzień całkowitej spłaty długu, gdy rejestrujesz płatności. Aplikacja nigdy nie prosi o dane logowania do banku."
+    }
+   ],
+   "final_title": "Zaplanuj spłatę swojej karty.",
+   "final_text": "Pobierz Spendry, dodaj swoje karty i pozwól aplikacji pilnować każdego wyciągu oraz terminu spłaty."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Kontroluj kredyt na bieżąco",
     "Dodaj kredyt do Spendry, aby widzieć liczbę pozostałych rat, datę ostatniej spłaty i dostawać przypomnienie przed każdym terminem."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Bezpłatnie · Bez rejestracji · Działa w Twojej przeglądarce, nic nie jest nigdzie wysyłane",
+   "app_title": "Spendry pilnuje Twojego kredytu aż do ostatniej raty.",
+   "app_sub": "Kalkulator wylicza ratę. Spendry śledzi pozostałe płatności, datę zakończenia spłaty i terminy rat, a także przypomina o każdej z nich z wyprzedzeniem.",
+   "app_points": [
+    {
+     "title": "Wszystkie kredyty na jednej liście",
+     "text": "Kredyty samochodowe, gotówkowe i studenckie: sprawdź od ręki liczbę pozostałych rat i łączną miesięczną kwotę.",
+     "shot": "06"
+    },
+    {
+     "title": "Przypomnienie przed każdą ratą",
+     "text": "Nigdy nie przegapisz terminu spłaty ani opłat za opóźnienie.",
+     "shot": "07"
+    },
+    {
+     "title": "Sprawdź nadchodzący miesiąc",
+     "text": "Spendry pokazuje, jak raty kredytów, karty i rachunki wpłyną na Twoje finanse w ciągu najbliższych 30 dni.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Krótki przewodnik po kredytach",
+   "guide": [
+    {
+     "h": "Jak obliczana jest rata kredytu",
+     "p": [
+      "Większość kredytów gotówkowych i samochodowych ma raty równe: co miesiąc płacisz tę samą kwotę. Część każdej raty pokrywa odsetki od pozostałego długu, a reszta spłaca pożyczony kapitał.",
+      "W pierwszych ratach większość kwoty stanowią odsetki. W miarę spadku zadłużenia coraz większa część raty idzie na spłatę kapitału. Harmonogram w kalkulatorze pokazuje to miesiąc po miesiącu."
+     ]
+    },
+    {
+     "h": "Krótszy okres spłaty czy niższa rata?",
+     "p": [
+      "Dłuższy okres kredytowania obniża miesięczną ratę, ale zwiększa łączną kwotę odsetek. Krótszy okres oznacza wyższą ratę, ale mniejszy całkowity koszt kredytu.",
+      "Najtańszym wyborem jest zazwyczaj najkrótszy okres spłaty, na jaki pozwala Twój miesięczny budżet."
+     ]
+    },
+    {
+     "h": "RRSO a oprocentowanie nominalne",
+     "p": [
+      "Oprocentowanie to koszt pożyczenia samego kapitału. RRSO uwzględnia dodatkowo większość prowizji i opłat, dlatego znacznie lepiej nadaje się do porównywania ofert."
+     ]
+    },
+    {
+     "h": "Jak zapłacić mniej odsetek",
+     "list": [
+      "Porównuj oferty po RRSO, a nie tylko po wysokości miesięcznej raty.",
+      "Wybierz krótszy okres spłaty, jeśli pozwala na to Twój budżet.",
+      "Nadpłacaj kapitał kredytu jak najwcześniej.",
+      "Sprawdź, czy bank pobiera prowizję za wcześniejszą spłatę.",
+      "Nigdy nie spóźniaj się z ratą, bo karne odsetki i opłaty szybko rosną."
+     ]
+    }
+   ],
+   "faq_title": "Najczęściej zadawane pytania",
+   "faq": [
+    {
+     "q": "Jak wyliczana jest miesięczna rata?",
+     "a": "Za pomocą standardowego wzoru na raty równe: na podstawie kwoty kredytu, miesięcznej stopy (oprocentowanie roczne podzielone przez 12) oraz liczby miesięcy. Odsetki są naliczane co miesiąc od pozostałego do spłaty kapitału."
+    },
+    {
+     "q": "Czym różni się RRSO od oprocentowania?",
+     "a": "Oprocentowanie określa koszt samego pożyczonego kapitału. RRSO dolicza do tego większość dodatkowych opłat i prowizji, co pozwala rzetelniej porównać kredyty."
+    },
+    {
+     "q": "Czy wcześniejsza spłata lub nadpłata kredytu się opłaca?",
+     "a": "Tak. Każda dodatkowa wpłata na poczet kapitału zmniejsza kwotę, od której naliczane są odsetki. Dzięki temu płacisz mniej i szybciej pozbywasz się długu. Upewnij się tylko, czy bank nie nalicza prowizji za wcześniejszą spłatę."
+    },
+    {
+     "q": "Czy kalkulator uwzględnia prowizje lub podatki?",
+     "a": "Nie. Prowizje przygotowawcze, ubezpieczenia i podatki nie są wliczane w te wyliczenia."
+    },
+    {
+     "q": "Czy moje dane są gdzieś zapisywane?",
+     "a": "Nie. Obliczenia odbywają się w całości w Twojej przeglądarce. Żadne wpisane informacje nie są zapisywane ani nigdzie wysyłane."
+    },
+    {
+     "q": "Jak Spendry pilnuje mojego kredytu?",
+     "a": "Dodajesz kredyt raz, a Spendry pokazuje liczbę pozostałych rat, datę całkowitej spłaty oraz łączną kwotę miesięcznych zobowiązań, przypominając Ci o każdej racie. Aplikacja nigdy nie prosi o dane do logowania do banku."
+    }
+   ],
+   "final_title": "Twój kredyt, zaplanowany do ostatniej raty.",
+   "final_text": "Pobierz Spendry, dodaj swój kredyt i miej każdą ratę pod stałą kontrolą."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Śledź postępy",
     "Dodaj cel w Spendry i sprawdzaj, ile brakuje do finiszu przy każdej kolejnej wpłacie."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Bezpłatnie · Bez rejestracji · Działa w przeglądarce, nic nie jest nigdzie wysyłane",
+   "app_title": "Spendry pokazuje, jak blisko celu jesteś na każdym kroku.",
+   "app_sub": "Kalkulator wylicza miesięczną kwotę. Spendry zapisuje Twój cel, pokazuje postępy po każdej wpłacie i oblicza czas pozostały do końca.",
+   "app_points": [
+    {
+     "title": "Wszystkie Twoje cele na jednym ekranie",
+     "text": "Poduszka finansowa, wyjazd, nowe auto: zobacz stopień realizacji każdego celu i liczbę pozostałych dni.",
+     "shot": "05"
+    },
+    {
+     "title": "Zaplanuj nadchodzący miesiąc",
+     "text": "Sprawdź, ile możesz odłożyć w tym miesiącu po uwzględnieniu dochodów i stałych płatności.",
+     "shot": "01"
+    },
+    {
+     "title": "Obserwuj, jak rosną Twoje oszczędności",
+     "text": "Śledź złoto, waluty, akcje i fundusze według ich bieżących kursów.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Krótki przewodnik po oszczędzaniu na cel",
+   "guide": [
+    {
+     "h": "Ile odkładać co miesiąc?",
+     "p": [
+      "Odejmij zgromadzone środki od kwoty docelowej i podziel wynik przez liczbę miesięcy. Kalkulator zrobi to za Ciebie, a jeśli podasz oprocentowanie, doliczy też wypracowane odsetki.",
+      "Przykład: jeśli Twój cel to 30 000 zł, masz już 5000 zł i zostało 10 miesięcy, bez uwzględniania odsetek musisz odkładać 2500 zł miesięcznie."
+     ]
+    },
+    {
+     "h": "Dlaczego oprocentowanie ma znaczenie",
+     "p": [
+      "Gdy Twoje oszczędności pracują na koncie oszczędnościowym lub w funduszu, miesięczna kwota potrzebna do osiągnięcia celu staje się mniejsza. Im dłuższy czas oszczędzania, tym większa różnica."
+     ]
+    },
+    {
+     "h": "Zacznij od poduszki finansowej",
+     "p": [
+      "Zanim przejdziesz do większych planów, zbuduj fundusz bezpieczeństwa na kilka miesięcy podstawowych wydatków. Dzięki temu nieprzewidziany rachunek nie zamieni się w dług."
+     ]
+    },
+    {
+     "h": "Jak ułatwić sobie oszczędzanie",
+     "list": [
+      "Odkładaj pieniądze w dniu wypłaty, traktując oszczędności jak stały rachunek.",
+      "Ustaw automatyczne zlecenie stałe, aby nie musieć podejmować decyzji co miesiąc.",
+      "Przelewaj premie i dodatkowe zarobki prosto na swój cel.",
+      "Dziel cel z partnerem lub rodziną, by szybciej dotrzeć do mety.",
+      "Miej postępy zawsze przed oczami; każda kolejna wpłata daje motywację do działania."
+     ]
+    }
+   ],
+   "faq_title": "Najczęściej zadawane pytania",
+   "faq": [
+    {
+     "q": "Jakie oprocentowanie wpisać w kalkulatorze?",
+     "a": "Wpisz przewidywane roczne oprocentowanie konta oszczędnościowego lub funduszu. Jeśli nie masz pewności, wpisz 0, aby poznać najbardziej ostrożną kwotę."
+    },
+    {
+     "q": "Jak szybciej osiągnąć swój cel?",
+     "a": "Zwiększ miesięczną wpłatę, przelewaj dodatkowe dochody bezpośrednio na cel lub wybierz lepiej oprocentowane konto. Skróć czas w kalkulatorze, aby zobaczyć, jak zmieni się miesięczna kwota."
+    },
+    {
+     "q": "Jak duża powinna być poduszka finansowa?",
+     "a": "Zwykle zaleca się od trzech do sześciu miesięcy niezbędnych wydatków. Im bardziej stabilne masz dochody, tym mniejsza kwota wystarczy; przy mniej regularnych zarobkach warto odłożyć więcej."
+    },
+    {
+     "q": "Czy wpisane dane są gdzieś zapisywane?",
+     "a": "Nie. Wszystkie obliczenia odbywają się bezpośrednio w Twojej przeglądarce; żadne wpisane dane nie są zapisywane ani nigdzie przesyłane."
+    },
+    {
+     "q": "Jak Spendry pomaga śledzić cele?",
+     "a": "Tworzysz cel w sekcji Cele i widzisz swoje postępy po każdej wpłacie. Spendry pokazuje brakującą kwotę oraz pozostały czas, a cele możesz też dzielić z bliskimi. Aplikacja nigdy nie prosi o dane logowania do banku."
+    }
+   ],
+   "final_title": "Zrób kolejny krok w stronę swojego celu.",
+   "final_text": "Pobierz Spendry, stwórz swój cel i sprawdzaj, jak bardzo się przybliżasz z każdą kolejną wpłatą."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Kontroluj każde odnowienie",
     "Spendry pilnuje Twoich subskrypcji, wlicza je do miesięcznego budżetu i wysyła przypomnienie przed kolejną opłatą."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Bezpłatnie · Bez rejestracji · Działa w przeglądarce, nic nie jest nigdzie wysyłane",
+   "app_title": "Spendry dba o to, by żadne odnowienie Cię nie zaskoczyło.",
+   "app_sub": "Kalkulator podlicza łączną kwotę. Spendry pilnuje Twoich subskrypcji, wlicza je w miesięczny budżet i przypomina o zbliżających się opłatach.",
+   "app_points": [
+    {
+     "title": "Przypomnienie przed każdym odnowieniem",
+     "text": "Muzyka, platformy wideo, chmura czy siłownia: o każdej opłacie dowiesz się, zanim pobierze środki z konta.",
+     "shot": "07"
+    },
+    {
+     "title": "Sprawdź, ile kosztują Twoje subskrypcje w skali roku",
+     "text": "Zapytaj asystenta; odpowiedź powstaje lokalnie na Twoim iPhone, a dane nie opuszczają urządzenia.",
+     "shot": "09"
+    },
+    {
+     "title": "Zaplanuj nadchodzący miesiąc",
+     "text": "Zobacz, jak subskrypcje, karty i stałe rachunki wpłyną na Twoje finanse w ciągu najbliższych 30 dni.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Krótki przewodnik po subskrypcjach",
+   "guide": [
+    {
+     "h": "Jak policzyć rzeczywisty koszt subskrypcji",
+     "p": [
+      "Przelicz każdą usługę na koszt miesięczny: podziel cenę roczną przez 12 albo pomnóż stawkę tygodniową przez 52 i podziel przez 12. Potem zsumuj wszystko. Kalkulator zrobi to automatycznie i pokaże wydatki w ujęciu miesięcznym, rocznym oraz za 5 lat.",
+      "Niewielka kwota co miesiąc wydaje się niegroźna. Jednak pomnożona przez dwanaście miesięcy i przez liczbę wszystkich aktywnych usług okazuje się często jednym z największych regularnych wydatków."
+     ]
+    },
+    {
+     "h": "Które subskrypcje warto anulować",
+     "p": [
+      "Uporządkuj usługi od najdroższej i zadaj sobie pytanie: czy w ostatnim miesiącu z tego korzystałem? Zrezygnuj z nieużywanych, a przy pozostałych ustaw przypomnienia przed odnowieniem.",
+      "Jeśli dwie usługi pełnią tę samą funkcję, zostaw tylko jedną. Pakiety rodzinne lub studenckie to kolejny prosty sposób na obniżenie rachunków."
+     ]
+    },
+    {
+     "h": "Uważaj na bezpłatne okresy próbne",
+     "p": [
+      "Gdy darmowy okres próbny dobiega końca, opłata zwykle pobiera się automatycznie. Zapisz datę zakończenia testu już w dniu rejestracji lub ustaw przypomnienie."
+     ]
+    },
+    {
+     "h": "Jak płacić mniej za subskrypcje",
+     "list": [
+      "Rób przegląd wszystkich aktywnych usług raz w roku.",
+      "Wybieraj plany roczne dla serwisów, z których korzystasz przez cały czas; zazwyczaj wychodzą taniej.",
+      "Korzystaj ze wspólnych pakietów rodzinnych.",
+      "Anuluj dostęp na miesiące, w których nie korzystasz z usługi, i wznawiaj go dopiero wtedy, gdy znów jest potrzebny.",
+      "Ustawiaj przypomnienie przed każdym kolejnym odnowieniem."
+     ]
+    }
+   ],
+   "faq_title": "Najczęściej zadawane pytania",
+   "faq": [
+    {
+     "q": "Ile rocznie kosztują mnie subskrypcje?",
+     "a": "Przelicz każdą usługę na stawkę miesięczną, dodaj je do siebie i pomnóż wynik przez 12. Kalkulator policzy to za Ciebie, pokazując też łączny koszt za pięć lat."
+    },
+    {
+     "q": "Jak wpisać subskrypcje tygodniowe i roczne?",
+     "a": "Wybierz okres rozliczeniowy w danym wierszu: co tydzień, co miesiąc lub co rok. Kalkulator sprowadzi wszystkie kwoty do wspólnej jednostki."
+    },
+    {
+     "q": "Czy warto wybrać pakiet roczny?",
+     "a": "Jeśli korzystasz z usługi regularnie przez cały rok, plan roczny jest zazwyczaj bardziej opłacalny. Gdy nie masz pewności, płać co miesiąc przez pewien czas, zanim podejmiesz decyzję."
+    },
+    {
+     "q": "Czy wpisane dane są gdzieś zapisywane?",
+     "a": "Nie. Wszystkie obliczenia wykonuje Twoja przeglądarka; żadne wprowadzone informacje nie są nigdzie gromadzone ani wysyłane."
+    },
+    {
+     "q": "Jak Spendry pomaga zarządzać subskrypcjami?",
+     "a": "Wprowadzasz swoje usługi w sekcji Subskrypcje; Spendry dolicza je do miesięcznego bilansu, przypomina przed każdym pobraniem opłaty i podsumowuje roczny koszt. Nigdy nie pyta o logowanie do Twojego banku."
+    }
+   ],
+   "final_title": "Bądź o krok przed każdym odnowieniem.",
+   "final_text": "Pobierz Spendry, dodaj swoje subskrypcje i odbieraj powiadomienia, zanim pobierze się kolejna opłata."
+  }
  }
 }

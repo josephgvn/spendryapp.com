@@ -298,7 +298,154 @@
     "Stanja se spreminjajo vsak mesec. Spendry spremlja vaše kartice, kredite in račune, ohranja vaš načrt snežne kepe ali plaza posodobljen ter vas pravočasno opozori pred vsakim rokom."
    ]
   ],
-  "extra_hint": "Denar, ki ga lahko namenite za odplačilo dolgov poleg minimalnih obrokov. Več ko dodate, prej boste brez dolgov."
+  "extra_hint": "Denar, ki ga lahko namenite za odplačilo dolgov poleg minimalnih obrokov. Več ko dodate, prej boste brez dolgov.",
+  "landing": {
+   "trust": "Brezplačno · Brez registracije · Deluje v vašem brskalniku, nič se ne pošilja nikamor",
+   "chart_title": "Kako vaš dolg kopni, mesec za mesecem",
+   "chart_sub": "Preostali skupni znesek z obema metodama in povsem brez dodatnih plačil. Vsaka pika pomeni mesec, v katerem je posamezen dolg poplačan.",
+   "extra_title": "Kaj pomeni majhen dodatek",
+   "extra_sub": "Poglejte, kako znesek, ki ga plačate poleg minimalnih obrokov, spremeni datum odplačila vseh dolgov in skupne obresti.",
+   "extra_amount": "Dodatek vsak mesec",
+   "extra_months": "Čas do odplačila",
+   "extra_none": "Brez dodatka",
+   "extra_sentence": "Če vsak mesec dodate {extra}, boste brez dolgov {months} prej in prihranili {interest} pri obrestih.",
+   "extra_zero": "Brez dodatnih plačil bodo vaši dolgi poplačani v {months}. Premaknite drsnik in poglejte razliko.",
+   "schedule_title": "Načrt po mesecih",
+   "schedule_sub": "Koliko plačate vsak mesec, koliko znašajo obresti in kolikšen je preostali dolg.",
+   "columns": [
+    "Mesec",
+    "Plačilo",
+    "Obresti",
+    "Preostali dolg"
+   ],
+   "show_all": "Prikaži vse mesece",
+   "show_less": "Prikaži manj",
+   "app_title": "Spendry ta načrt vodi namesto vas, vsak mesec.",
+   "app_sub": "Ta stran ponuja le hiter izračun. Spendry deluje z vašimi dejanskimi zneski, po vsakem plačilu znova preračuna načrt in vas opomni pred vsakim rokom.",
+   "app_points": [
+    {
+     "title": "Vsi dolgovi na enem zaslonu",
+     "text": "Kreditne kartice, krediti, račun z limitom in denar, ki ga dolgujete prijateljem; vaš skupni dolg in mesečna plačila so zbrani na enem mestu.",
+     "shot": "06"
+    },
+    {
+     "title": "Nikoli več ne zamudite roka",
+     "text": "Prejmite opomnik pred vsakim obračunom kartice, obrokom posojila in računom, da se izognete zamudnim obrestim.",
+     "shot": "07"
+    },
+    {
+     "title": "Poglejte konec meseca vnaprej",
+     "text": "Spendry pregleda prihodke in plačila za naslednjih 30 dni ter pokaže, v katero smer gre vaše stanje.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Kratek vodnik za odplačevanje dolgov",
+   "guide": [
+    {
+     "h": "Kaj je metoda snežne kepe?",
+     "p": [
+      "Pri metodi snežne kepe dolgove razvrstite od najmanjšega zneska do največjega. Pri vseh plačujete minimalni znesek, ves dodaten denar pa namenite najmanjšemu dolgu. Ko ga poplačate, celotni znesek preusmerite v naslednjega, zato se vaša moč odplačevanja z vsakim zaprtim dolgom povečuje.",
+      "Njena največja prednost je zagon: prvi dolg izgine že v nekaj mesecih, zato je načrt veliko lažje izpeljati do konca."
+     ]
+    },
+    {
+     "h": "Kaj je metoda snežnega plaza?",
+     "p": [
+      "Pri metodi snežnega plaza dolgove razvrstite od najvišje obrestne mere do najnižje. Dodaten denar gre najprej za najdražji dolg. Ker najprej zaprete tistega, ki raste najhitreje, s to metodo na koncu običajno plačate najmanj obresti.",
+      "Druga stran: če je vaš dolg z najvišjo obrestno mero velik, lahko do prvega poplačanega dolga traja dlje časa."
+     ]
+    },
+    {
+     "h": "Katera metoda je prava za vas?",
+     "table": [
+      [
+       "",
+       "Snežna kepa",
+       "Snežni plaz"
+      ],
+      [
+       "Najprej poplačano",
+       "Najmanjši dolg",
+       "Najvišja obrestna mera"
+      ],
+      [
+       "Skupne obresti",
+       "Lahko nekoliko višje",
+       "Običajno najnižje"
+      ],
+      [
+       "Prvo poplačilo",
+       "Hitro",
+       "Lahko traja dlje"
+      ],
+      [
+       "Najboljše za",
+       "Tiste, ki potrebujejo zagon",
+       "Tiste, ki gledajo na skupni strošek"
+      ]
+     ],
+     "p": [
+      "Razlika je pogosto majhna; najpomembneje je, da imate načrt. Zgornji kalkulator primerja obe metodi z vašimi številkami in pokaže, katera je ugodnejša."
+     ]
+    },
+    {
+     "h": "Kako deluje izračun na primeru",
+     "p": [
+      "Vsak mesec se najprej obračunajo obresti: preostali dolg, pomnožen z mesečno obrestno mero. Za 5000 € dolga na kreditni kartici z 24 % letno obrestno mero, kar pomeni 2 % na mesec, se ta mesec obračuna 100 € obresti.",
+      "Nato se za vsak dolg plača minimalni znesek, preostanek pa gre naslednjemu dolgu po vrsti. Ko je dolg poplačan, se njegovo plačilo prenese na naslednjega.",
+      "Kalkulator te korake ponavlja mesec za mesecem, dokler ni poplačan zadnji dolg; tako dobite mesec odplačila in skupni znesek plačanih obresti."
+     ]
+    },
+    {
+     "h": "Past minimalnega plačila",
+     "p": [
+      "Če na kreditni kartici plačujete le minimalni znesek, dolg ostaja: obresti se vsak mesec obračunajo na preostanek in dolg se lahko vleče leta.",
+      "Že majhen znesek nad minimalnim plačilom lahko datum odplačila vseh dolgov premakne za več mesecev naprej. Preizkusite z lastnimi številkami pri dodatnem plačilu zgoraj."
+     ]
+    },
+    {
+     "h": "Kako se hitreje znebiti dolgov",
+     "list": [
+      "Ne ustvarjajte novih dolgov: kartico uporabljajte le za nakupe, ki jih lahko v celoti poplačate v istem mesecu.",
+      "Vsak mesec plačajte določen znesek nad minimalnim in nastavite avtomatsko plačilo.",
+      "Nagrade, vračila dohodnine in dodatne zaslužke nakažite naravnost za naslednji dolg po vrsti.",
+      "Preverite, ali prenos dragega dolga na kredit z nižjo obrestno mero res pomeni nižji skupni strošek.",
+      "Preglejte naročnine; prekinite tiste, ki jih ne uporabljate, in razliko namenite za odplačilo dolga.",
+      "Nikoli ne zamudite roka za plačilo: zamudne obresti in dodatni stroški upočasnijo vaš načrt."
+     ]
+    }
+   ],
+   "faq_title": "Pogosta vprašanja",
+   "faq": [
+    {
+     "q": "Ali prinaša manj obresti snežna kepa ali snežni plaz?",
+     "a": "V večini primerov metoda snežnega plaza, kjer najprej odplačate najvišjo obrestno mero, prinese najmanj skupnih obresti. Snežna kepa hitreje zapre prvi dolg, kar vam daje zagon. Kalkulator primerja obe možnosti z vašimi številkami."
+    },
+    {
+     "q": "Katere dolgove lahko dodam?",
+     "a": "Kreditne kartice, osebne kredite, avtomobilske kredite, študentska posojila, račun z limitom ali denar, ki ga dolgujete družini in prijateljem. Za dolgove brez obresti kot mero vpišite 0."
+    },
+    {
+     "q": "Kje najdem svojo obrestno mero?",
+     "a": "Zapisana je na mesečnem izpisku kreditne kartice, v kreditni pogodbi ali v vaši bančni aplikaciji, običajno kot letna obrestna mera. Vnesite letno obrestno mero; kalkulator bo sam izračunal mesečno."
+    },
+    {
+     "q": "Kako natančen je izračun?",
+     "a": "Izračun predvideva, da obrestne mere ostanejo enake, da vsak mesec plačate enak znesek in da ni dodatnih stroškov. Dejanske mere se lahko spremenijo, zato vzemite rezultat kot okvirni načrt in ne kot bančno ponudbo."
+    },
+    {
+     "q": "Ali se vneseni podatki kam pošiljajo?",
+     "a": "Ne. Celoten izračun se izvede v vašem brskalniku; nič od tega, kar vpišete, se ne shranjuje in ne pošilja nikamor."
+    },
+    {
+     "q": "Kaj ponuja Spendry v primerjavi s tem kalkulatorjem?",
+     "a": "Spendry deluje z vašimi resničnimi stanji, posodobi načrt po vsakem plačilu, vas opozori pred vsakim rokom in vedno prikazuje dan, ko boste brez dolgov. Nikoli ne zahteva vaših bančnih podatkov in ne zbira osebnih podatkov."
+    }
+   ],
+   "final_title": "Nosite datum odplačila vseh dolgov kar v žepu.",
+   "final_text": "Prenesite Spendry, enkrat vnesite svoje dolgove in vaš načrt se bo vsak mesec posodabljal sam.",
+   "chart_none": "Brez dodatka"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Naj vse teče samodejno",
     "V Spendryju vsaka kategorija dobi svoj mesečni proračun, ki se polni z vašo porabo, aplikacija pa vas pravočasno opozori, preden jo presežete."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Brezplačno · Brez registracije · Deluje v vašem brskalniku, nič se nikamor ne pošilja",
+   "app_title": "Spendry vodi vaš proračun namesto vas, vsak dan.",
+   "app_sub": "Pravilo 50/30/20 je dober začetek. Spendry vsak odhodek samodejno doda v pravo kategorijo, vas pravočasno opozori, preden porabite proračun, in vam vnaprej pokaže konec meseca.",
+   "app_points": [
+    {
+     "title": "Proračun za vsako kategorijo",
+     "text": "Hrana, prevoz, računi: določite mesečno mejo za vsako kategorijo in vedno natančno veste, koliko vam še ostane.",
+     "shot": "04"
+    },
+    {
+     "title": "Dodaj odhodek v nekaj sekundah",
+     "text": "Vpišite znesek, izberite kategorijo in končano. S predlogami redne stroške vnesete z enim samim dotikom.",
+     "shot": "02"
+    },
+    {
+     "title": "Poglejte, kam je šel denar v mesecu",
+     "text": "Tedenski in mesečni grafikoni jasno pokažejo, za kaj porabite največ in kako se vaša poraba primerja s prejšnjim mesecem.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Kratek vodnik za načrtovanje proračuna",
+   "guide": [
+    {
+     "h": "Kaj je pravilo 50/30/20?",
+     "p": [
+      "Polovica vaših čistih prihodkov gre za nujne življenjske stroške (najemnina, računi, hrana, prevoz), 30 odstotkov za želje (obiski restavracij, zabava, nakupovanje) in 20 odstotkov za varčevanje ter odplačevanje dolgov.",
+      "To pravilo je le izhodišče. Če že sama najemnina vzame polovico vaših prihodkov, razmerje prilagodite svojemu življenju, dolgove z visokimi obrestmi pa odplačajte najprej."
+     ]
+    },
+    {
+     "h": "Kako sestaviti mesečni proračun",
+     "p": [
+      "Začnite s prihodki: plača, dodatno delo in vsi drugi redni prilivi. Nato takoj na začetku meseca dajte na stran fiksne stroške: najemnino, račune, obroke kreditov in naročnine.",
+      "Spremenljive stroške, kot so nakupi v trgovini, kosila zunaj in prevoz, beležite sproti; če čakate na konec meseca, boste večino stvari pozabili. Ob koncu meseca odštejte vso porabo od prihodkov in preostanek prenesite v prihranke."
+     ]
+    },
+    {
+     "h": "Načrtujte znesek na računu za kreditne kartice",
+     "p": [
+      "Nakupi s kartico ne bremenijo vašega bančnega računa takoj; znesek se odtegne šele, ko poravnate mesečni obračun. Ko načrtujete tekoči mesec, upoštevajte znesek obračuna, ki ga boste dejansko plačali, in ne le trenutnega stanja na računu."
+     ]
+    },
+    {
+     "h": "Kako se lažje držati proračuna",
+     "list": [
+      "Najprej plačajte sebi: prenesite denar za varčevanje takoj, ko prejmete plačo.",
+      "Fiksne stroške vnesite enkrat in nastavite njihovo mesečno ponavljanje.",
+      "Zapisujte si tudi drobne nakupe; prav ti ob koncu meseca prinesejo največjo razliko.",
+      "Enkrat na leto preglejte svoje naročnine in ukinite tiste, ki jih ne uporabljate.",
+      "Preglejte svoj proračun sredi meseca in po potrebi prilagodite porabo za drugo polovico meseca."
+     ]
+    }
+   ],
+   "faq_title": "Pogosto zastavljena vprašanja",
+   "faq": [
+    {
+     "q": "Ali je pravilo 50/30/20 primerno za vsakogar?",
+     "a": "Ne, to je zgolj začetna usmeritev. Če vam najemnina in položnice vzamejo več kot polovico prihodkov, razmerje preprosto prilagodite; bistveno je, da vsak mesec nekaj namenite za varčevanje in poplačilo dolgov."
+    },
+    {
+     "q": "Naj uporabim bruto ali neto znesek prihodkov?",
+     "a": "Uporabite neto prihodke, torej točen znesek, ki ga po vseh davkih in prispevkih dejansko prejmete na svoj bančni račun."
+    },
+    {
+     "q": "Kam sodijo obroki za odplačevanje dolgov?",
+     "a": "Minimalna obvezna plačila spadajo med nujne življenjske stroške. Vsa morebitna dodatna plačila nad minimalnimi zneski pa sodijo med 20 odstotkov, namenjenih varčevanju in dolgovom."
+    },
+    {
+     "q": "Ali se podatki, ki jih vnesem, kamor koli shranijo?",
+     "a": "Ne. Vsi izračuni se izvedejo izključno v vašem brskalniku; nič od tega, kar vnesete, se ne shrani ali kamor koli pošlje."
+    },
+    {
+     "q": "Kako Spendry vodi moj proračun?",
+     "a": "Vsaki kategoriji določite mesečni znesek; ta se ob vaših nakupih postopoma polni in vas pravočasno opozori, preden ga presežete. Ker so vaše kartice, krediti in naročnine zbrani na enem mestu, lahko vnaprej vidite, kako boste mesec zaključili. Aplikacija od vas nikoli ne zahteva bančnih gesel."
+    }
+   ],
+   "final_title": "Nosite svoj proračun vedno v žepu.",
+   "final_text": "Prenesite Spendry, enkrat vnesite svoje prihodke ter fiksne stroške in imejte jasen pregled nad koncem vsakega meseca že vnaprej."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Uresničite načrt",
     "Spendry poskrbi, da se načrta držite: dodajte svoje kartice, nastavite mesečni znesek in prejmite opomnik pred vsakim rokom plačila."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Brezplačno · Brez registracije · Deluje v vašem brskalniku, nič se ne pošilja nikamor",
+   "app_title": "Spendry spremlja stanja na vaših karticah, vsak mesec.",
+   "app_sub": "Kalkulator prikazuje načrt za eno kartico. Spendry spremlja vse vaše kartice, datume izpiskov in zapadlosti ter vas opomni pred vsakim plačilom.",
+   "app_points": [
+    {
+     "title": "Vse kartice na enem seznamu",
+     "text": "Stanje na izpisku, datum plačila in preostali dnevi za vsako kartico na enem mestu.",
+     "shot": "06"
+    },
+    {
+     "title": "Opomnik pred vsakim rokom za plačilo",
+     "text": "Prejmite obvestilo ob zaključku obračuna in pred rokom za plačilo, da se izognete zamudnim stroškom.",
+     "shot": "07"
+    },
+    {
+     "title": "Poglejte, kam gre vaš denar",
+     "text": "Poraba s karticami po kategorijah, da takoj opazite, kje lahko prihranite.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Kratek vodnik po dolgovih na kreditnih karticah",
+   "guide": [
+    {
+     "h": "Kako se računajo obresti na kreditni kartici",
+     "p": [
+      "Vsak mesec kartica obračuna obresti na preostali znesek glede na letno obrestno mero. Vaše plačilo najprej pokrije te obresti, preostanek pa zniža dolg. Kalkulator to ponavlja mesec za mesecem, dokler dolg ni odplačan.",
+      "Primer: za 3000 € dolga pri 24 % letni obrestni meri, kar je 2 % mesečno, se obračuna 60 € obresti. Če plačate 200 €, dolg pade na 2860 €; naslednji mesec se obresti računajo od tega novega zneska."
+     ]
+    },
+    {
+     "h": "Zakaj minimalna plačila trajajo tako dolgo",
+     "p": [
+      "Minimalni obrok je običajno nizek odstotek celotnega dolga. Ko dolg pada, se znižuje tudi minimalni znesek, zato gre večina vsakega plačila le za obresti in dolg lahko traja leta.",
+      "Plačevanje fiksnega zneska prekine ta krog: enak znesek vsak mesec hitreje zmanjšuje dolg. Primerjava v kalkulatorju pokaže razliko z vašimi številkami."
+     ]
+    },
+    {
+     "h": "Datum izpiska in rok za plačilo",
+     "p": [
+      "Datum izpiska zaključi obračunsko obdobje in določi vaš dolg. Rok za plačilo je zadnji dan za poravnavo, običajno nekaj tednov po izpisku.",
+      "Če celoten znesek z izpiska poravnate do roka, se obresti za nakupe ne obračunajo. Če poravnate le del, se obresti računajo na preostanek."
+     ]
+    },
+    {
+     "h": "Kako hitreje odplačati kartico",
+     "list": [
+      "Namesto minimalnega zneska vsak mesec plačajte fiksen znesek, kolikor le lahko.",
+      "Zaustavite nove nakupe s kartico, dokler je ne odplačate.",
+      "Če imate več kartic, dodaten denar najprej namenite tisti z najvišjo obrestno mero.",
+      "Preverite, ali prenos stanja ali kredit z nižjo obrestno mero po vštetih stroških res prinaša prihranek.",
+      "Nikoli ne zamudite roka za plačilo; zamudne obresti in dodatni stroški upočasnijo vaš načrt."
+     ]
+    }
+   ],
+   "faq_title": "Pogosta vprašanja",
+   "faq": [
+    {
+     "q": "Koliko časa bo trajalo, če plačujem le minimalni znesek?",
+     "a": "Odvisno je od vašega dolga, letne obrestne mere in načina, kako banka določi minimalno plačilo, vendar pogosto traja več let. Kalkulator pokaže, kdaj bi bil dolg poplačan le z minimalnimi plačili in koliko obresti bi pri tem plačali."
+    },
+    {
+     "q": "Kaj je letna obrestna mera?",
+     "a": "To je letna obrestna mera vaše kartice. Obresti se obračunavajo mesečno, približno v višini ene dvanajstine letne mere, na preostali dolg, ki ga prenašate v naslednji mesec."
+    },
+    {
+     "q": "Kako se določi minimalno plačilo?",
+     "a": "Večina kartic določi nizek odstotek dolga, pogosto z najmanjšim fiksnim zneskom, ter prišteje obresti in stroške. Točen znesek je naveden na vašem izpisku; v kalkulatorju lahko ta odstotek prilagodite."
+    },
+    {
+     "q": "Ali kalkulator vključuje dodatne stroške?",
+     "a": "Ne. Letne članarine, stroški opominov in stroški prenosa stanja niso vključeni, zato je lahko vaš dejanski znesek nekoliko višji."
+    },
+    {
+     "q": "Ali se moji vneseni podatki shranijo?",
+     "a": "Ne. Celoten izračun poteka izključno v vašem brskalniku; nič od tega, kar vpišete, se ne shrani in ne pošilja nikamor."
+    },
+    {
+     "q": "Kako Spendry spremlja dolg na mojih karticah?",
+     "a": "Vnesete svoje kartice; Spendry nato spremlja datume izpiskov in zapadlosti, vas opomni pred plačili ter ob beleženju plačil samodejno posodablja stanje in datum odplačila vseh dolgov. Nikoli ne zahteva vaših bančnih podatkov."
+    }
+   ],
+   "final_title": "Naredite načrt za dolg na svoji kartici.",
+   "final_text": "Prenesite Spendry, dodajte svoje kartice in prepustite spremljanje vseh izpiskov ter rokov za plačilo aplikaciji."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Nadzor po podpisu pogodbe",
     "Dodajte kredit v Spendry in spremljajte preostale obroke, mesec zaključka ter prejemajte opomnik pred vsakim plačilom."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Brezplačno · Brez registracije · Deluje v vašem brskalniku, nič se nikamor ne pošilja",
+   "app_title": "Spendry spremlja vaš kredit vse do zadnjega obroka.",
+   "app_sub": "Kalkulator vam izračuna obrok. Spendry pa natančno beleži preostale obroke, predviden datum zaključka in vsak posamezni rok ter vas pred vsakim plačilom pravočasno opomni.",
+   "app_points": [
+    {
+     "title": "Vsi krediti na enem seznamu",
+     "text": "Avtomobilski, gotovinski in študentski krediti: hiter pregled nad preostalimi obroki in vašim skupnim mesečnim zneskom.",
+     "shot": "06"
+    },
+    {
+     "title": "Opomnik pred vsakim plačilom",
+     "text": "Nikoli več ne zamudite obroka kredita in se izognite nepotrebnim zamudnim obrestim ter stroškom.",
+     "shot": "07"
+    },
+    {
+     "title": "Pripravite se na mesec, ki prihaja",
+     "text": "Spendry vam nazorno pokaže, kako bodo vaši obroki kreditov, kartice in računi vplivali na naslednjih 30 dni.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Kratek vodnik o kreditih",
+   "guide": [
+    {
+     "h": "Kako se izračuna mesečni obrok kredita",
+     "p": [
+      "Večina gotovinskih in avtomobilskih kreditov se odplačuje po amortizacijskem načrtu z enakimi mesečnimi obroki. En del vsakega obroka pokrije obresti na preostali dolg, preostanek pa znižuje samo glavnico.",
+      "V prvih mesecih gre večji del obroka za plačilo obresti; ko se glavnica zmanjšuje, gre vse večji del za odplačilo dejanskega dolga. Tabela v kalkulatorju vam ta potek prikazuje mesec za mesecem."
+     ]
+    },
+    {
+     "h": "Krajša doba odplačevanja ali nižji obrok?",
+     "p": [
+      "Daljša doba odplačevanja zniža mesečni obrok, vendar znatno poviša skupni znesek plačanih obresti. Krajša doba odplačevanja pomeni višji mesečni obrok, a je skupni strošek kredita precej nižji.",
+      "Najkrajša doba odplačevanja, ki jo vaš mesečni proračun še udobno prenese, je običajno finančno najugodnejša izbira."
+     ]
+    },
+    {
+     "h": "Efektivna obrestna mera in pogodbena obrestna mera",
+     "p": [
+      "Obrestna mera predstavlja ceno sposojenega denarja. Efektivna obrestna mera poleg obresti vključuje tudi večino bančnih stroškov in nadomestil, zato je najboljši podatek za neposredno primerjavo različnih ponudb."
+     ]
+    },
+    {
+     "h": "Kako plačati manj obresti",
+     "list": [
+      "Ponudbe med seboj primerjajte po efektivni obrestni meri in ne le po višini mesečnega obroka.",
+      "Izberite krajšo dobo odplačevanja, če vam to proračun omogoča.",
+      "Predčasno vplačajte dodatne zneske za znižanje glavnice že na začetku odplačevanja.",
+      "Pozanimajte se, ali vaša banka zaračunava stroške za predčasno odplačilo.",
+      "Nikoli ne zamujajte s plačili, saj se stroški opominov in zamudne obresti hitro seštejejo."
+     ]
+    }
+   ],
+   "faq_title": "Pogosto zastavljena vprašanja",
+   "faq": [
+    {
+     "q": "Kako se izračuna mesečni obrok?",
+     "a": "Za izračun se uporablja standardna amortizacijska formula: upoštevajo se znesek kredita, mesečna obrestna mera (letna obrestna mera, deljena z 12) ter število mesecev. Obresti se vsak mesec obračunajo na preostali znesek dolga."
+    },
+    {
+     "q": "Kakšna je razlika med efektivno obrestno mero in obrestno mero?",
+     "a": "Obrestna mera je cena izposojenega denarja. Efektivna obrestna mera zajema tudi večino spremljajočih stroškov ter nadomestil, zato omogoča zanesljivo primerjavo kreditnih ponudb."
+    },
+    {
+     "q": "Ali dodatna odplačila kredita res pomagajo?",
+     "a": "Da. Vsak dodaten znesek, ki ga namenite za poplačilo glavnice, zniža osnovo za izračun prihodnjih obresti, zato na koncu plačate manj obresti in kredit odplačate prej. Pred tem preverite, ali banka morda zaračunava nadomestilo za predčasno odplačilo."
+    },
+    {
+     "q": "Ali kalkulator vključuje dodatne stroške ali davke?",
+     "a": "Ne. Stroški odobritve kredita, zavarovanja in davki v tem izračunu niso zajeti."
+    },
+    {
+     "q": "Ali se podatki, ki jih vnesem, kamor koli shranijo?",
+     "a": "Ne. Vsi izračuni se izvedejo izključno v vašem brskalniku; nič od vnesenega se ne shrani ali pošlje drugam."
+    },
+    {
+     "q": "Kako Spendry spremlja moj kredit?",
+     "a": "Kredit vnesete le enkrat; Spendry vam nato natančno prikazuje preostale obroke, mesec zaključka in skupni mesečni znesek vseh obveznosti ter vas pred vsakim dospelim plačilom pravočasno opomni. Pri tem nikoli ne zahteva vaših bančnih gesel."
+    }
+   ],
+   "final_title": "Vaš kredit, načrtovan do zadnjega obroka.",
+   "final_text": "Prenesite Spendry, dodajte svoj kredit in prepustite skrb za spremljanje vseh obrokov aplikaciji."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Spremljajte napredek",
     "Ustvarite cilj v Spendryju in ob vsakem pologu preverite, kako blizu ste cilju."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Brezplačno · Brez registracije · Deluje v vašem brskalniku, podatki se nikamor ne pošiljajo",
+   "app_title": "Spendry vam na vsakem koraku pokaže, kako blizu ste.",
+   "app_sub": "Kalkulator vam izračuna mesečni znesek. Spendry shrani vaš cilj, spremlja vaš napredek ob vsakem vplačilu in izračuna preostali čas.",
+   "app_points": [
+    {
+     "title": "Vsi vaši cilji na enem zaslonu",
+     "text": "Varnostna rezerva, potovanje ali nov avto: poglejte, koliko manjka do cilja in koliko dni je še ostalo.",
+     "shot": "05"
+    },
+    {
+     "title": "Pregled nad prihodnjim mesecem",
+     "text": "Glede na svoje prihodke in plačila vnaprej veste, koliko lahko ta mesec privarčujete.",
+     "shot": "01"
+    },
+    {
+     "title": "Spremljajte rast svojih prihrankov",
+     "text": "Spremljajte zlato, valute, delnice in sklade po njihovih trenutnih cenah.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Kratek vodnik za varčevanje za cilj",
+   "guide": [
+    {
+     "h": "Koliko naj privarčujem vsak mesec?",
+     "p": [
+      "Od zneska cilja odštejte znesek, ki ga že imate, ostanek pa delite s številom mesecev, ki so vam na voljo. Kalkulator to stori namesto vas, če pa vnesete obrestno mero, upošteva tudi obresti, ki jih prinašajo vaši prihranki.",
+      "Primer: za cilj 6000 € z že privarčevanimi 1000 € in 10 meseci do konca morate brez upoštevanja obresti na stran dati 500 € na mesec."
+     ]
+    },
+    {
+     "h": "Zakaj obresti prinašajo razliko",
+     "p": [
+      "Če se vaši prihranki obrestujejo na varčevalnem računu ali v skladu, morate za dosego istega cilja vsak mesec vplačati manj. Daljše kot je obdobje, večji je učinek."
+     ]
+    },
+    {
+     "h": "Začnite z varnostno rezervo",
+     "p": [
+      "Preden se lotite večjih ciljev, ustvarite varnostno rezervo, ki krije nekaj mesecev nujnih življenjskih stroškov. Tako nepričakovan račun ne bo postal nov dolg."
+     ]
+    },
+    {
+     "h": "Kako si olajšati varčevanje",
+     "list": [
+      "Prihranite takoj ob prejemu plače in na varčevanje glejte kot na nujen račun.",
+      "Nastavite samodejno nakazilo, da vam o tem sploh ni treba odločati.",
+      "Nagrade in dodatne zaslužke preusmerite neposredno v cilj.",
+      "Delite cilj s partnerjem ali družino in ga dosezite hitreje.",
+      "Imejte svoj napredek vedno pred očmi, vsako novo vplačilo vam daje zagon."
+     ]
+    }
+   ],
+   "faq_title": "Pogosta vprašanja",
+   "faq": [
+    {
+     "q": "Kakšno obrestno mero naj vnesem?",
+     "a": "Vnesite pričakovano letno obrestno mero svojega varčevalnega računa ali sklada. Če niste prepričani, vnesite 0 za najbolj previden izračun."
+    },
+    {
+     "q": "Kako lahko hitreje dosežem svoj cilj?",
+     "a": "Povečajte mesečni znesek, namenite cilju dodatne prihodke ali izberite račun, ki prinaša donos. V kalkulatorju skrajšajte čas, da vidite, kako se spremeni mesečni znesek."
+    },
+    {
+     "q": "Kako velika naj bo varnostna rezerva?",
+     "a": "Običajno se priporoča znesek za tri do šest mesecev nujnih življenjskih stroškov. Bolj ko so vaši prihodki zanesljivi, manj potrebujete, manj ko so stalni, več naj bo na zalogi."
+    },
+    {
+     "q": "Ali se moji vneseni podatki kje shranijo?",
+     "a": "Ne. Izračun v celoti poteka v vašem brskalniku, nič od vnesenega se ne shrani ali pošlje nikamor."
+    },
+    {
+     "q": "Kako Spendry spremlja moje cilje?",
+     "a": "Ustvarite cilj in ob vsakem dodanem znesku vidite svoj napredek. Spendry prikazuje znesek in preostali čas, cilj pa lahko delite tudi z družino. Nikoli ne zahteva vaših bančnih podatkov za prijavo."
+    }
+   ],
+   "final_title": "Stopite korak bližje svojemu cilju.",
+   "final_text": "Prenesite Spendry, ustvarite svoj cilj in spremljajte napredek ob vsakem vplačilu."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Pravočasno obvestilo o podaljšanju",
     "Spendry spremlja vaše naročnine, jih doda k mesečnemu znesku in vas pravočasno opozori pred vsakim podaljšanjem."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Brezplačno · Brez registracije · Deluje v vašem brskalniku, podatki se nikamor ne pošiljajo",
+   "app_title": "Spendry poskrbi, da vas nobeno podaljšanje ne preseneti.",
+   "app_sub": "Kalkulator vam pokaže skupni znesek. Spendry spremlja vaše naročnine, jih prišteje k mesečnim stroškom in vas opozori pred vsakim podaljšanjem.",
+   "app_points": [
+    {
+     "title": "Opomnik pred vsakim podaljšanjem",
+     "text": "Glasba, pretočne vsebine, shramba v oblaku ali fitnes: za vsako podaljšanje izveste, še preden se znesek odtrga z računa.",
+     "shot": "07"
+    },
+    {
+     "title": "Vprašajte, koliko vas naročnine stanejo na leto",
+     "text": "Vprašajte pomočnika; odgovor se izračuna neposredno v vaši napravi iPhone, vaši podatki pa ostanejo pri vas.",
+     "shot": "09"
+    },
+    {
+     "title": "Pregled nad prihodnjim mesecem",
+     "text": "Poglejte, kako bodo naročnine, kartice in računi vplivali na naslednjih 30 dni.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Kratek vodnik o naročninah",
+   "guide": [
+    {
+     "h": "Kako izračunati dejanski strošek naročnin",
+     "p": [
+      "Vsako naročnino preračunajte na mesečni znesek: letno ceno delite z 12, tedensko pa pomnožite z 52 in delite z 12. Nato vse zneske seštejte. Kalkulator to stori namesto vas ter prikaže mesečni, letni in petletni skupni znesek.",
+      "Nizek mesečni znesek na prvi pogled ni videti velik. Če pa ga pomnožite z dvanajst in seštejete vse svoje naročnine, hitro ugotovite, da gre za enega vaših največjih rednih stroškov."
+     ]
+    },
+    {
+     "h": "Katere naročnine je smiselno preklicati",
+     "p": [
+      "Razvrstite jih po ceni in se pri vsaki vprašajte: ali sem jo prejšnji mesec sploh uporabil? Prekličite tiste, ki jih ne uporabljate, pri tistih, ki jih obdržite, pa nastavite opomnik pred potekom.",
+      "Če dve naročnini služita istemu namenu, eno opustite; k znižanju skupnega zneska lahko pripomorejo tudi družinski ali študentski paketi."
+     ]
+    },
+    {
+     "h": "Pazite na brezplačna poskusna obdobja",
+     "p": [
+      "Ko se brezplačno poskusno obdobje izteče, se naročnina običajno samodejno začne zaračunavati. Že na dan začetka poskusnega obdobja si zapišite datum poteka ali pa si nastavite opomnik."
+     ]
+    },
+    {
+     "h": "Kako zmanjšati stroške naročnin",
+     "list": [
+      "Enkrat na leto preglejte vse svoje naročnine.",
+      "Storitve, ki jih uporabljate vse leto, prestavite na letne pakete, saj so običajno ugodnejši.",
+      "Delite stroške z družinskimi paketi.",
+      "Prekličite storitve v mesecih, ko jih ne uporabljate, in jih znova vklopite, ko jih potrebujete.",
+      "Nastavite si opomnik pred vsakim podaljšanjem."
+     ]
+    }
+   ],
+   "faq_title": "Pogosta vprašanja",
+   "faq": [
+    {
+     "q": "Koliko me naročnine stanejo na leto?",
+     "a": "Vsako naročnino preračunajte na mesečni znesek, seštejte jih in pomnožite z 12. Kalkulator to stori namesto vas ter prikaže tudi skupni petletni znesek."
+    },
+    {
+     "q": "Kako vnesem tedenske in letne naročnine?",
+     "a": "V vsaki vrstici izberite obračunsko obdobje: tedensko, mesečno ali letno. Kalkulator jih bo samodejno preračunal na isto enoto."
+    },
+    {
+     "q": "Ali se letni paket splača?",
+     "a": "Če boste storitev uporabljali vse leto, je letni paket običajno ugodnejši. Če niste povsem prepričani, najprej nekaj mesecev ostanite pri mesečnem plačilu."
+    },
+    {
+     "q": "Ali se moji vneseni podatki kje shranijo?",
+     "a": "Ne. Izračun v celoti poteka v vašem brskalniku, nič od vnesenega se ne shrani ali pošlje nikamor."
+    },
+    {
+     "q": "Kako Spendry spremlja moje naročnine?",
+     "a": "Svoje naročnine vnesete le enkrat; Spendry jih prišteje k mesečnemu znesku, vas pravočasno opozori pred vsakim podaljšanjem in pokaže letni strošek. Nikoli ne zahteva vaših bančnih podatkov za prijavo."
+    }
+   ],
+   "final_title": "Imejte pregled nad vsakim podaljšanjem.",
+   "final_text": "Prenesite Spendry, dodajte svoje naročnine in bodite pravočasno obveščeni pred vsakim plačilom."
+  }
  }
 }

@@ -298,7 +298,154 @@
     "Saldon ändras varje månad. Spendry håller koll på dina kort, lån och räkningar, uppdaterar din avbetalningsplan automatiskt och påminner dig i god tid innan något ska betalas."
    ]
   ],
-  "extra_hint": "Pengar du kan lägga på dina skulder utöver minimibeloppet. Ju mer du betalar, desto snabbare blir du skuldfri."
+  "extra_hint": "Pengar du kan lägga på dina skulder utöver minimibeloppet. Ju mer du betalar, desto snabbare blir du skuldfri.",
+  "landing": {
+   "trust": "Gratis · Ingen registrering · Körs i din webbläsare, inget skickas någonstans",
+   "chart_title": "Så smälter din skuld bort, månad för månad",
+   "chart_sub": "Ditt totala kvarvarande saldo med båda metoderna och helt utan extra inbetalning. Varje punkt visar månaden då en skuld är helt betald.",
+   "extra_title": "Vad lite extra gör för skillnad",
+   "extra_sub": "Se hur beloppet du betalar utöver lägsta belopp att betala ändrar ditt skuldfria datum och räntan du betalar.",
+   "extra_amount": "Extra varje månad",
+   "extra_months": "Tid till skuldfri",
+   "extra_none": "Inget extra",
+   "extra_sentence": "Att betala {extra} extra varje månad gör dig skuldfri {months} tidigare och sparar {interest} i ränta.",
+   "extra_zero": "Utan något extra är dina skulder borta om {months}. Dra i reglaget för att se skillnaden.",
+   "schedule_title": "Plan månad för månad",
+   "schedule_sub": "Vad du betalar varje månad, hur mycket ränta som läggs till och vad som återstår.",
+   "columns": [
+    "Månad",
+    "Betalning",
+    "Ränta",
+    "Kvarvarande saldo"
+   ],
+   "show_all": "Visa varje månad",
+   "show_less": "Visa mindre",
+   "app_title": "Spendry håller koll på planen åt dig, varje månad.",
+   "app_sub": "Den här sidan ger en ögonblicksbild. Spendry jobbar med dina verkliga saldon, räknar om planen efter varje betalning och påminner dig före varje förfallodag.",
+   "app_points": [
+    {
+     "title": "Alla skulder på en och samma skärm",
+     "text": "Kreditkort, lån, checkkredit och pengar du är skyldig vänner. Se din totala skuld och månadskostnad direkt.",
+     "shot": "06"
+    },
+    {
+     "title": "Missa aldrig en förfallodag",
+     "text": "Du får en påminnelse inför varje kontoutdrag, delbetalning och räkning. På så sätt slipper du onödiga förseningsavgifter.",
+     "shot": "07"
+    },
+    {
+     "title": "Se månadsslutet i förväg",
+     "text": "Spendry tittar på inkomster och utgifter för de kommande 30 dagarna och visar vart ditt saldo är på väg.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "En kort guide till att bli skuldfri",
+   "guide": [
+    {
+     "h": "Vad är snöbollsmetoden?",
+     "p": [
+      "Med Snöboll listar du dina skulder från det minsta saldot till det största. Du betalar det lägsta beloppet på varje skuld och lägger alla extra pengar på den minsta. När den är betald flyttas hela den betalningen över till nästa, så att din kraft att betala av växer för varje skuld du blir av med.",
+      "Den största fördelen är känslan av framsteg: den första skulden försvinner inom några månader, vilket gör det mycket lättare att hålla fast vid planen."
+     ]
+    },
+    {
+     "h": "Vad är lavinmetoden?",
+     "p": [
+      "Med Lavinen listar du dina skulder från den högsta årsräntan till den lägsta. De extra pengarna går till den dyraste skulden först. Eftersom du betalar av skulden som växer snabbast ger den här metoden oftast den lägsta totala räntekostnaden.",
+      "Nackdelen: om skulden med högst ränta är stor kan det dröja ett tag innan du betalat av den första."
+     ]
+    },
+    {
+     "h": "Vilken metod passar dig bäst?",
+     "table": [
+      [
+       "",
+       "Snöboll",
+       "Lavinen"
+      ],
+      [
+       "Betalas av först",
+       "Minsta saldot",
+       "Högsta räntan"
+      ],
+      [
+       "Total ränta",
+       "Kan bli lite högre",
+       "Oftast lägst"
+      ],
+      [
+       "Första avbetalda skulden",
+       "Går snabbt",
+       "Kan ta längre tid"
+      ],
+      [
+       "Passar bäst för",
+       "Dig som behöver snabb motivation",
+       "Dig som fokuserar på lägsta totalkostnad"
+      ]
+     ],
+     "p": [
+      "Skillnaden är ofta ganska liten, det viktigaste är att du har en plan. Kalkylatorn ovan jämför båda metoderna med dina egna siffror och visar vilken som kostar minst."
+     ]
+    },
+    {
+     "h": "Hur matematiken fungerar, med ett exempel",
+     "p": [
+      "Varje månad beräknas räntan först: saldot multiplicerat med månadsräntan. Ett kreditkortssaldo på 50 000 kr med 24 % i årsränta, vilket motsvarar 2 % i månaden, får 1 000 kr i ränta den månaden.",
+      "Därefter får varje skuld sin lägsta betalning och det som blir över går till nästa skuld på tur. När en skuld är helt betald flyttas hela dess betalning över till nästa.",
+      "Kalkylatorn upprepar de här stegen månad för månad tills den sista skulden är borta. Det ger dig ditt skuldfria datum och den totala räntan du betalar."
+     ]
+    },
+    {
+     "h": "Fällan med lägsta belopp att betala",
+     "p": [
+      "Att bara betala lägsta belopp på kreditkortet håller skulden vid liv. Ränta läggs på resten varje månad och saldot kan dra ut på tiden i flera år.",
+      "Även ett litet extra belopp utöver det lägsta flyttar fram ditt skuldfria datum med flera månader. Testa med dina egna siffror i sektionen för extra inbetalning ovanför."
+     ]
+    },
+    {
+     "h": "Sätt att bli skuldfri snabbare",
+     "list": [
+      "Sluta samla på dig nya skulder: använd kortet enbart till det du kan betala av samma månad.",
+      "Betala ett fast belopp utöver lägsta belopp varje månad, och automatisera det.",
+      "Skicka bonusar, skatteåterbäring och extra inkomster direkt till nästa skuld i kön.",
+      "Räkna på om det verkligen blir billigare att samla dyra krediter i ett lån med lägre ränta.",
+      "Gå igenom dina prenumerationer: avsluta de du inte använder och lägg pengarna på dina skulder.",
+      "Missa aldrig en förfallodag: förseningsavgifter och straffräntor fördröjer bara din plan."
+     ]
+    }
+   ],
+   "faq_title": "Vanliga frågor och svar",
+   "faq": [
+    {
+     "q": "Ger Snöboll eller Lavinen lägst räntekostnad?",
+     "a": "I de allra flesta fall ger Lavinen, där du betalar av den högsta räntan först, lägst ränta totalt. Snöboll gör däremot att du blir av med den första skulden snabbare, vilket hjälper motivationen. Kalkylatorn jämför båda med dina siffror."
+    },
+    {
+     "q": "Vilka skulder kan jag lägga till?",
+     "a": "Kreditkort, privatlån, billån, studielån, checkkreditkonto eller pengar du är skyldig släkt och vänner. För en räntefri skuld fyller du bara i 0 som ränta."
+    },
+    {
+     "q": "Var hittar jag min ränta?",
+     "a": "Den står på din faktura, i ditt låneavtal eller i din internetbank, oftast angiven som årsränta. Fyll i din årsränta så räknar kalkylatorn själv ut månadsräntan."
+    },
+    {
+     "q": "Hur exakt är resultatet?",
+     "a": "Kalkylatorn antar att din ränta är densamma, att du betalar samma belopp varje månad och att inga extra avgifter tillkommer. Verkliga räntor kan ändras, så se resultatet som en plan, inte ett bindande löfte."
+    },
+    {
+     "q": "Skickas informationen jag fyller i någonstans?",
+     "a": "Nej. Beräkningen sker helt i din webbläsare. Ingenting du skriver in sparas eller skickas vidare."
+    },
+    {
+     "q": "Vad kan Spendry göra som den här kalkylatorn inte gör?",
+     "a": "Spendry arbetar med dina faktiska saldon, uppdaterar planen efter varje betalning, påminner dig inför varje förfallodag och visar hela tiden ditt skuldfria datum. Appen ber aldrig om dina bankinloggningar och samlar ingen data."
+    }
+   ],
+   "final_title": "Ha ditt skuldfria datum i fickan.",
+   "final_text": "Ladda ner Spendry, lägg in dina skulder en gång och låt planen uppdatera sig själv varje månad.",
+   "chart_none": "Utan extra inbetalning"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Gör det automatiskt",
     "I Spendry får varje kategori en månadsbudget som fylls på när du handlar, med en varning innan du når taket."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Ingen registrering · Körs direkt i webbläsaren, ingenting sparas eller skickas vidare",
+   "app_title": "Spendry håller koll på din budget, varje dag.",
+   "app_sub": "50/30/20-regeln är en bra start. Spendry lägger varje utgift i rätt kategori, varnar dig innan en budget tar slut och visar slutet på månaden i förväg.",
+   "app_points": [
+    {
+     "title": "En budget för varje kategori",
+     "text": "Mat, resor, räkningar: sätt en månatlig gräns för varje del och se alltid vad du har kvar.",
+     "shot": "04"
+    },
+    {
+     "title": "Lägg till en utgift på några sekunder",
+     "text": "Skriv in beloppet, välj kategori, klart. Med mallar räcker det med ett tryck för återkommande köp.",
+     "shot": "02"
+    },
+    {
+     "title": "Se vart pengarna tog vägen",
+     "text": "Vecko- och månadsdiagram visar vad du lägger mest på och jämför med förra månaden.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "En kort guide till att lägga budget",
+   "guide": [
+    {
+     "h": "Vad är 50/30/20-regeln?",
+     "p": [
+      "Hälften av lönen efter skatt går till nödvändigheter (hyra, räkningar, mat, resor), 30 procent till nöjen (äta ute, underhållning, shopping) och 20 procent till sparande och att betala av skulder.",
+      "Det är en bra utgångspunkt. Om enbart hyran tar halva inkomsten kan du anpassa fördelningen efter ditt liv, och betala alltid av dyra skulder med hög ränta först."
+     ]
+    },
+    {
+     "h": "Hur du gör en månadsbudget",
+     "p": [
+      "Börja med dina inkomster: lön, extrajobb och andra återkommande pengar. Sätt sedan undan de fasta kostnaderna i början av månaden: hyra, räkningar, lån och prenumerationer.",
+      "Skriv upp rörliga utgifter som mat, restaurangbesök och resor så fort de sker. Väntar du till slutet av månaden har det mesta fallit i glömska. I slutet av månaden drar du av utgifterna från inkomsten och för över det som blir kvar till sparandet."
+     ]
+    },
+    {
+     "h": "Planera för kreditkortsfakturan",
+     "p": [
+      "Kortköp dras inte från kontot idag, de dras när du betalar fakturan. När du planerar månaden räknar du med den faktura du ska betala, inte bara dagens saldo."
+     ]
+    },
+    {
+     "h": "Knep för att hålla en budget",
+     "list": [
+      "Betala dig själv först: för över till sparandet så fort lönen kommer.",
+      "Lägg in fasta kostnader en gång och låt dem upprepas varje månad.",
+      "Skriv upp även småköp, det är de som gör störst skillnad när månaden är slut.",
+      "Gå igenom dina prenumerationer en gång om året.",
+      "Kolla av budgeten i mitten av månaden och justera andra halvan om det behövs."
+     ]
+    }
+   ],
+   "faq_title": "Vanliga frågor",
+   "faq": [
+    {
+     "q": "Fungerar 50/30/20-regeln för alla?",
+     "a": "Nej, det är bara en riktlinje. Om hyra och räkningar tar mer än halva inkomsten anpassar du fördelningen. Det viktiga är att du lägger undan något till sparande och skulder varje månad."
+    },
+    {
+     "q": "Ska jag räkna på brutto- eller nettoinkomst?",
+     "a": "Räkna på din nettoinkomst, det belopp som faktiskt kommer in på kontot efter skatt och avdrag."
+    },
+    {
+     "q": "Var i budgeten hamnar avbetalningar på skulder?",
+     "a": "Minsta månadsbetalning räknas som nödvändigheter. Allt du betalar därutöver räknas in i de 20 procenten för sparande och skulder."
+    },
+    {
+     "q": "Sparas det jag skriver in?",
+     "a": "Nej. Uträkningarna görs helt i din webbläsare. Ingenting du fyller i sparas eller skickas vidare."
+    },
+    {
+     "q": "Hur håller Spendry koll på min budget?",
+     "a": "Du sätter en månadsbudget för varje kategori. Den fylls på när du handlar och varnar innan du överskrider den. Eftersom dina kort, lån och prenumerationer finns på samma ställe ser du slutet på månaden i förväg. Appen ber aldrig om dina bankinloggningar."
+    }
+   ],
+   "final_title": "Ha med dig budgeten i fickan.",
+   "final_text": "Ladda ner Spendry, lägg in dina inkomster och fasta kostnader en gång, och se hur varje månad slutar redan i förväg."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Gör planen till verklighet",
     "Spendry hjälper dig hålla planen: lägg till dina kreditkort, bestäm vad du kan betala varje månad och få en påminnelse inför varje förfallodag."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Ingen registrering · Körs i din webbläsare, inget skickas någonstans",
+   "app_title": "Spendry håller koll på dina kortkrediter, varje månad.",
+   "app_sub": "Kalkylatorn visar en plan för ett kort. Spendry håller koll på alla dina kort, deras fakturadatum och förfallodagar, och påminner dig inför varje betalning.",
+   "app_points": [
+    {
+     "title": "Alla kort i en lista",
+     "text": "Se varje korts fakturasaldo, förfallodag och kvarvarande dagar i en snabb överblick.",
+     "shot": "06"
+    },
+    {
+     "title": "Påminnelse inför varje förfallodag",
+     "text": "Få en notis när fakturan skapas och innan den förfaller, så slipper du drabbas av förseningsavgifter.",
+     "shot": "07"
+    },
+    {
+     "title": "Se vart pengarna tar vägen",
+     "text": "Dina kortköp sorterade efter kategori, så att du enkelt ser var du kan dra ner på kostnader.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "En kort guide till kreditkortsskulder",
+   "guide": [
+    {
+     "h": "Hur kreditkortsränta beräknas",
+     "p": [
+      "Varje månad läggs ränta på det saldo du har kvar, baserat på din årsränta. Din inbetalning täcker först räntan, och det som blir över minskar själva skulden. Kalkylatorn gör om detta månad för månad tills skulden är noll.",
+      "Exempel: ett saldo på 30 000 kr med 24 % i årsränta, vilket är 2 % per månad, får 600 kr i ränta. Betalar du 2 000 kr sjunker saldot till 28 600 kr. Nästa månads ränta räknas på det nya beloppet."
+     ]
+    },
+    {
+     "h": "Därför tar lägsta belopp så lång tid",
+     "p": [
+      "Lägsta belopp att betala är oftast en liten procentandel av skulden. Allteftersom skulden minskar blir också det lägsta beloppet lägre, vilket gör att en stor del av betalningen bara blir ränta och skulden kan leva kvar i flera år.",
+      "Att betala ett fast belopp bryter den cirkeln: samma summa minskar skulden stadigt varje månad. Jämförelsen i kalkylatorn visar skillnaden med dina egna siffror."
+     ]
+    },
+    {
+     "h": "Fakturadatum och förfallodag",
+     "p": [
+      "Fakturadatumet avslutar perioden och fastställer ditt saldo. Förfallodagen är sista dagen att betala, oftast några veckor senare.",
+      "Betalar du hela fakturabeloppet senast på förfallodagen tillkommer ingen ränta på dina köp. Betalar du bara en del av skulden utgår ränta på det belopp som blir kvar."
+     ]
+    },
+    {
+     "h": "Sätt att betala av kortet snabbare",
+     "list": [
+      "Betala ett fast belopp varje månad, så mycket du har möjlighet till, istället för lägsta belopp.",
+      "Pausa nya köp på kortet medan du betalar av skulden.",
+      "Har du flera kort, lägg de extra pengarna på kortet med högst årsränta först.",
+      "Kontrollera noga om ett samlingslån med lägre ränta verkligen blir billigare när alla avgifter är inräknade.",
+      "Missa aldrig en förfallodag: förseningsavgifter och högre räntor fördröjer bara din avbetalning."
+     ]
+    }
+   ],
+   "faq_title": "Vanliga frågor och svar",
+   "faq": [
+    {
+     "q": "Hur lång tid tar det om jag bara betalar lägsta belopp?",
+     "a": "Det beror på din skuld, din årsränta och hur kortutgivaren räknar ut lägsta belopp, men det tar ofta flera år. Kalkylatorn visar när skulden försvinner om du bara betalar lägsta belopp och vad det kostar i ränta."
+    },
+    {
+     "q": "Vad är årsränta?",
+     "a": "Årsräntan är kortets ränta räknad per år. Kortföretagen debiterar ränta månadsvis, motsvarande ungefär en tolftedel av årsräntan, på skulden du bär med dig."
+    },
+    {
+     "q": "Hur räknas lägsta belopp att betala ut?",
+     "a": "De flesta kort tar en viss procent av skulden, ofta med ett fast minimibelopp, plus tillkommen ränta och avgifter. Det exakta beloppet står på din faktura, och du kan ändra procentsatsen i kalkylatorn."
+    },
+    {
+     "q": "Räknar kalkylatorn med avgifter?",
+     "a": "Nej. Årsavgifter, förseningsavgifter och avgifter för skuldflytt är inte inräknade, så din verkliga kostnad kan bli något högre."
+    },
+    {
+     "q": "Sparas det jag skriver in?",
+     "a": "Nej. Beräkningen sker helt i din webbläsare. Ingenting du anger sparas eller skickas vidare."
+    },
+    {
+     "q": "Hur håller Spendry koll på min kortskuld?",
+     "a": "Du lägger till dina kort, och Spendry håller ordning på fakturadatum och förfallodagar, påminner inför betalningar och uppdaterar saldo samt ditt skuldfria datum när du registrerar en betalning. Appen frågar aldrig efter bankinloggningar."
+    }
+   ],
+   "final_title": "Få ordning på din kortskuld.",
+   "final_text": "Ladda ner Spendry, lägg till dina kort och låt appen hålla reda på varje faktura och förfallodag."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Håll koll efter att du har skrivit på",
     "Lägg till lånet i Spendry för att se återstående betalningar, sista betalmånad och få en påminnelse före varje dragning."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Ingen registrering · Körs direkt i webbläsaren, ingenting sparas eller skickas vidare",
+   "app_title": "Spendry följer ditt lån fram till sista betalningen.",
+   "app_sub": "Kalkylatorn visar månadskostnaden. Spendry håller koll på återstående betalningar, slutdatum och varje förfallodag, och påminner dig före varje betalning.",
+   "app_points": [
+    {
+     "title": "Alla lån i en och samma lista",
+     "text": "Billån, privatlån och studielån: se kvarvarande betalningar och din totala månadskostnad direkt.",
+     "shot": "06"
+    },
+    {
+     "title": "Påminnelse före varje betalning",
+     "text": "Missa aldrig en betalning eller den onödiga förseningsavgiften som följer med den.",
+     "shot": "07"
+    },
+    {
+     "title": "Se månaden som kommer",
+     "text": "Spendry visar hur lån, kort och räkningar påverkar dina kommande 30 dagar.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "En kort guide till lån",
+   "guide": [
+    {
+     "h": "Hur månadskostnaden för ett lån räknas ut",
+     "p": [
+      "De flesta privatlån och billån har annuitet: du betalar samma totalbelopp varje månad. En del av beloppet täcker räntan på kvarvarande skuld och resten är amortering.",
+      "I början går det mesta till ränta. När skulden minskar går en allt större del till amortering. Tabellen i kalkylatorn visar exakt hur detta ser ut månad för månad."
+     ]
+    },
+    {
+     "h": "Kortare återbetalningstid eller lägre månadskostnad?",
+     "p": [
+      "En längre återbetalningstid ger en lägre månadskostnad men högre total räntekostnad. En kortare återbetalningstid ger en högre månadskostnad men gör lånet billigare totalt sett.",
+      "Den kortaste återbetalningstiden som din budget klarar av på ett bekvämt sätt är oftast det billigaste valet."
+     ]
+    },
+    {
+     "h": "Effektiv ränta och nominell ränta",
+     "p": [
+      "Den nominella räntan är själva kostnaden för att låna pengarna. Den effektiva räntan inkluderar även de flesta avgifter, vilket gör den bäst när du jämför olika låneerbjudanden."
+     ]
+    },
+    {
+     "h": "Sätt att betala mindre ränta",
+     "list": [
+      "Jämför låneerbjudanden utifrån effektiv ränta, inte bara månadskostnaden.",
+      "Välj en kortare återbetalningstid om din budget tillåter det.",
+      "Gör extra amorteringar tidigt under lånets löptid.",
+      "Fråga långivaren om de tar ut någon avgift vid förtidslösen.",
+      "Missa aldrig en betalning, påminnelseavgifter drar snabbt iväg."
+     ]
+    }
+   ],
+   "faq_title": "Vanliga frågor",
+   "faq": [
+    {
+     "q": "Hur räknas månadskostnaden ut?",
+     "a": "Med standardformeln för annuitetslån: lånebeloppet, månadsräntan (årsräntan delad med 12) och antalet månader. Räntan beräknas på den kvarvarande skulden varje månad."
+    },
+    {
+     "q": "Vad är skillnaden mellan effektiv ränta och nominell ränta?",
+     "a": "Den nominella räntan är vad du betalar enbart för att låna pengarna. Den effektiva räntan räknar dessutom in avgifter, vilket gör den bäst för att jämföra lån."
+    },
+    {
+     "q": "Lönar det sig att göra extra amorteringar?",
+     "a": "Ja. Extra inbetalningar sänker skulden som räntan beräknas på. Du betalar mindre ränta och blir skuldfri snabbare. Kontrollera först om din långivare tar ut någon avgift för extra inbetalningar."
+    },
+    {
+     "q": "Innehåller kalkylatorn avgifter eller skatter?",
+     "a": "Nej. Uppläggningsavgifter, aviavgifter, försäkringar och skatt är inte inräknade."
+    },
+    {
+     "q": "Sparas det jag skriver in?",
+     "a": "Nej. Uträkningarna sker uteslutande i din webbläsare. Ingenting du anger sparas eller skickas någonstans."
+    },
+    {
+     "q": "Hur håller Spendry koll på mitt lån?",
+     "a": "Du lägger in lånet en gång. Spendry visar kvarvarande inbetalningar, slutdatum och din månadskostnad, samt påminner dig före varje förfallodag. Appen frågar aldrig efter dina bankinloggningar."
+    }
+   ],
+   "final_title": "Ditt lån, planerat fram till sista betalningen.",
+   "final_text": "Ladda ner Spendry, lägg in ditt lån och låt appen hålla ordning på varje inbetalning."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Följ dina framsteg",
     "Skapa sparmålet i Spendry och se hur du närmar dig målet varje gång du sparar."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Ingen registrering · Körs direkt i webbläsaren, ingenting skickas vidare",
+   "app_title": "Spendry visar hur nära du är, hela vägen fram.",
+   "app_sub": "Kalkylatorn räknar ut månadsbeloppet. Spendry sparar dina Mål, visar dina framsteg varje gång du sätter in pengar och håller koll på tiden som är kvar.",
+   "app_points": [
+    {
+     "title": "Alla dina Mål på en och samma skärm",
+     "text": "Buffert, resa eller ny bil: se hur mycket du har sparat till varje mål och hur många dagar som återstår.",
+     "shot": "05"
+    },
+    {
+     "title": "Få koll på månaden som kommer",
+     "text": "Se hur mycket du kan spara den här månaden utifrån dina inkomster och utgifter.",
+     "shot": "01"
+    },
+    {
+     "title": "Följ hur dina sparpengar växer",
+     "text": "Håll koll på guld, valutor, aktier och fonder till aktuella kurser.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "En kort guide till att spara mot ett mål",
+   "guide": [
+    {
+     "h": "Hur mycket behöver jag spara varje månad?",
+     "p": [
+      "Dra av det du redan har sparat från ditt målbelopp och dela resten med antalet månader du har kvar. Kalkylatorn gör detta åt dig och räknar även med räntan på dina sparpengar om du anger en räntesats.",
+      "Exempel: för ett mål på 60 000 kr där du redan har 10 000 kr och 10 månader på dig, behöver du lägga undan 5 000 kr i månaden utan ränta."
+     ]
+    },
+    {
+     "h": "Varför räntan gör så stor skillnad",
+     "p": [
+      "Om dina sparpengar ger avkastning på ett sparkonto eller i en fond behöver du spara mindre varje månad för att nå samma mål. Ju längre tid du sparar, desto större blir effekten."
+     ]
+    },
+    {
+     "h": "Börja med en buffert",
+     "p": [
+      "Innan du sparar till större mål bör du bygga upp en buffert som täcker nödvändiga utgifter för ett par månader. Då slipper en oväntad utgift bli till en skuld."
+     ]
+    },
+    {
+     "h": "Tips som gör sparandet enklare",
+     "list": [
+      "Spara direkt när lönen kommer och se sparandet som en fast utgift.",
+      "Starta en automatisk överföring så slipper du tänka på det.",
+      "Lägg bonusar och extrainkomster direkt på sparmålet.",
+      "Dela målet med din partner eller familj för att nå det snabbare.",
+      "Håll framstegen synliga, varje liten insättning ger ny motivation."
+     ]
+    }
+   ],
+   "faq_title": "Vanliga frågor",
+   "faq": [
+    {
+     "q": "Vilken räntesats ska jag ange?",
+     "a": "Fyll i den årsränta eller avkastning du förväntar dig av ditt sparkonto eller din fond. Är du osäker kan du skriva 0 för att se den mest försiktiga beräkningen."
+    },
+    {
+     "q": "Hur kan jag nå mitt sparmål snabbare?",
+     "a": "Öka månadsbeloppet, spara undan extra inkomster eller välj ett konto med bättre sparränta. Korta ner spartiden i kalkylatorn för att se hur månadsbeloppet påverkas."
+    },
+    {
+     "q": "Hur stor bör en buffert vara?",
+     "a": "Tre till sex månaders nödvändiga utgifter brukar rekommenderas. Ju stabilare inkomst du har, desto mindre buffert behöver du, och tvärtom."
+    },
+    {
+     "q": "Sparas några av mina uppgifter?",
+     "a": "Nej. Alla uträkningar görs lokalt i din webbläsare. Ingenting du fyller i sparas eller skickas vidare."
+    },
+    {
+     "q": "Hur hjälper Spendry mig att hålla koll på mina Mål?",
+     "a": "Du skapar ett mål och ser dina framsteg så fort du lägger till pengar. Spendry visar hur mycket som saknas och tiden som är kvar, och du kan dela målet med familjen. Appen ber aldrig om dina bankinloggningar."
+    }
+   ],
+   "final_title": "Kom ett steg närmare ditt mål.",
+   "final_text": "Ladda ner Spendry, skapa ditt första mål och se hur du närmar dig varje gång du sparar."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Missa aldrig en förnyelse",
     "Spendry håller koll på dina prenumerationer, lägger ihop månadskostnaden och påminner dig i god tid innan de förnyas."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Ingen registrering · Körs direkt i webbläsaren, ingenting skickas vidare",
+   "app_title": "Spendry ser till att ingen förnyelse kommer som en överraskning.",
+   "app_sub": "Kalkylatorn visar totalsumman. Spendry håller koll på dina Prenumerationer, räknar in dem i månadskostnaden och påminner dig i god tid innan varje förnyelse.",
+   "app_points": [
+    {
+     "title": "En påminnelse inför varje förnyelse",
+     "text": "Musik, streaming, molnlagring eller gym: du får koll på varje avgift innan pengarna dras.",
+     "shot": "07"
+    },
+    {
+     "title": "Se vad dina Prenumerationer kostar per år",
+     "text": "Fråga assistenten direkt. Svaret räknas ut på din iPhone och din data lämnar aldrig enheten.",
+     "shot": "09"
+    },
+    {
+     "title": "Få koll på månaden som kommer",
+     "text": "Se hur dina Prenumerationer, Kreditkort och Räkningar påverkar de kommande 30 dagarna.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "En kort guide till prenumerationer",
+   "guide": [
+    {
+     "h": "Så räknar du ut vad prenumerationerna faktiskt kostar",
+     "p": [
+      "Gör om varje prenumeration till en månadskostnad: dela en årsavgift med 12, eller multiplicera en veckoavgift med 52 och dela med 12. Lägg sedan ihop allt. Kalkylatorn sköter detta och visar totalkostnaden per månad, per år och på fem års sikt.",
+      "Ett litet månadsbelopp ser oskyldigt ut. Men multiplicerat med tolv, och för alla tjänster du har, blir det ofta en av dina största återkommande utgifter."
+     ]
+    },
+    {
+     "h": "Vilka prenumerationer ska du säga upp?",
+     "p": [
+      "Sortera dem efter pris och fråga dig själv: använde jag den här tjänsten förra månaden? Säg upp det du inte använder, och lägg in en påminnelse inför förnyelsen av det du vill ha kvar.",
+      "Har du två tjänster som fyller samma behov kan du avsluta en av dem. Familjeabonnemang och studentrabatter kan också sänka kostnaden rejält."
+     ]
+    },
+    {
+     "h": "Se upp för gratis provperioder",
+     "p": [
+      "När en provperiod tar slut övergår den oftast automatiskt till en betald prenumeration. Skriv upp slutdatumet direkt när du startar provperioden, eller ställ in en påminnelse."
+     ]
+    },
+    {
+     "h": "Smarta sätt att sänka dina prenumerationskostnader",
+     "list": [
+      "Gå igenom alla dina prenumerationer en gång om året.",
+      "Byt till årsbetalning för tjänster du använder året runt, det blir oftast billigare.",
+      "Dela familjeabonnemang med andra.",
+      "Pausa eller säg upp tjänster under perioder då du inte använder dem och aktivera dem igen vid behov.",
+      "Lägg in en påminnelse inför varje förnyelse."
+     ]
+    }
+   ],
+   "faq_title": "Vanliga frågor",
+   "faq": [
+    {
+     "q": "Hur mycket kostar mina prenumerationer per år?",
+     "a": "Räkna om varje tjänst till en månadskostnad, addera dem och multiplicera med 12. Kalkylatorn gör uträkningen automatiskt och visar även totalkostnaden för fem år."
+    },
+    {
+     "q": "Hur lägger jag in vecko- och årsprenumerationer?",
+     "a": "Välj rätt betalningsintervall för varje rad: veckovis, månadsvis eller årsvis. Kalkylatorn omvandlar automatiskt alla belopp så att de blir jämförbara."
+    },
+    {
+     "q": "Lönar det sig att betala för ett helt år?",
+     "a": "Om du vet att du kommer att använda tjänsten hela året är ett årsabonnemang oftast billigare. Är du osäker är det smartare att börja med månadsbetalning i några månader."
+    },
+    {
+     "q": "Sparas några av mina uppgifter?",
+     "a": "Nej. Uträkningarna görs helt och hållet i din webbläsare. Ingenting du fyller i sparas eller delas vidare."
+    },
+    {
+     "q": "Hur hjälper Spendry mig att hålla koll på mina Prenumerationer?",
+     "a": "Du lägger in dina tjänster en gång. Spendry räknar in dem i dina månatliga utgifter, påminner dig före varje förnyelse och visar totalkostnaden per år. Spendry ber aldrig om dina bankuppgifter."
+    }
+   ],
+   "final_title": "Ha full koll på varje förnyelse i förväg.",
+   "final_text": "Ladda ner Spendry, lägg in dina prenumerationer och få en påminnelse i god tid innan pengarna dras."
+  }
  }
 }

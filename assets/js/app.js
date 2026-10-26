@@ -935,6 +935,12 @@
       return rows;
     };
     let state = null, schedMethod = null, schedAll = false;
+    // On a phone the plan shows whole amounts and short month names, so its four columns fit without scrolling.
+    const phone = window.matchMedia("(max-width: 560px)");
+    const shortMonth = (offset) => {
+      const t = new Date(); t.setDate(1); t.setMonth(t.getMonth() + offset);
+      return new Intl.DateTimeFormat(F.locale, { month: "short", year: "numeric" }).format(t);
+    };
     const chart = (s, a, z) => {
       const svg = q("svg", pchart), yEl = q(".pc-y", pchart), xEl = q(".pc-x", pchart), marks = q(".pc-marks", pchart);
       if (s.stuck || a.stuck) { svg.innerHTML = yEl.innerHTML = xEl.innerHTML = marks.innerHTML = ""; return; }
@@ -1007,8 +1013,21 @@
     const table = () => {
       const cfg = JSON.parse(sched.dataset.sched), rows = detail(state.debts, state.extra, schedMethod);
       const tb = q("[data-rows]", sched), more = q("[data-more]", sched);
-      tb.innerHTML = (schedAll ? rows : rows.slice(0, 12)).map((r) => `<tr><td>${esc(F.monthYear(r.m))}</td><td>${esc(moneyD.format(r.paid))}</td>` +
-        `<td>${esc(moneyD.format(r.interest))}</td><td>${esc(moneyD.format(r.bal))}</td></tr>`).join("");
+      const list = schedAll ? rows : rows.slice(0, 12);
+      const render = (cash, month) => {
+        tb.innerHTML = list.map((r) => `<tr><td>${esc(month(r.m))}</td><td>${esc(cash(r.paid))}</td>` +
+          `<td>${esc(cash(r.interest))}</td><td>${esc(cash(r.bal))}</td></tr>`).join("");
+      };
+      if (!phone.matches) render((v) => moneyD.format(v), F.monthYear);
+      else {
+        // Whole amounts first; where long numbers still do not fit, without the currency sign, then shortened.
+        const wrap = tb.closest(".table-wrap"), plain = F.nf({ maximumFractionDigits: 0 });
+        const compact = F.nf({ notation: "compact", maximumFractionDigits: 1 });
+        for (const cash of [F.money, (v) => plain.format(Math.round(v)), (v) => compact.format(v)]) {
+          render(cash, shortMonth);
+          if (wrap.scrollWidth <= wrap.clientWidth + 1) break;
+        }
+      }
       more.hidden = rows.length <= 12;
       more.textContent = schedAll ? cfg.show_less : cfg.show_all;
     };
@@ -1021,6 +1040,7 @@
     if (sched) {
       qa("[data-sm]", sched).forEach((b) => b.addEventListener("click", () => setSched(b.dataset.sm)));
       q("[data-more]", sched).addEventListener("click", () => { schedAll = !schedAll; table(); });
+      phone.addEventListener("change", () => { if (state) table(); });
     }
     const landing = (pchart || xpBox || sched) ? (debts, extra, s, a, best) => {
       const z = simulate(debts, 0, "avalanche");

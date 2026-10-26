@@ -298,7 +298,154 @@
     "Saldi veranderen voortdurend. Spendry houdt creditcards, leningen en rekeningen bij, past je Snowball- of Avalanche-plan automatisch aan en waarschuwt je voor elke vervaldatum."
    ]
   ],
-  "extra_hint": "Geld dat je bovenop de minimale aflossing betaalt. Hoe meer je toevoegt, hoe sneller je schuldenvrij bent."
+  "extra_hint": "Geld dat je bovenop de minimale aflossing betaalt. Hoe meer je toevoegt, hoe sneller je schuldenvrij bent.",
+  "landing": {
+   "trust": "Gratis · Geen registratie · Werkt direct in je browser, er wordt niets verzonden",
+   "chart_title": "Hoe je schuld smelt, maand na maand",
+   "chart_sub": "Je totale openstaande saldo met beide methodes en zonder extra betalingen. Elke stip is een maand waarin een schuld helemaal is afgelost.",
+   "extra_title": "Wat een beetje extra doet",
+   "extra_sub": "Bekijk hoe het bedrag dat je bovenop het minimumbedrag betaalt, je datum waarop je schuldenvrij bent en de rente verandert.",
+   "extra_amount": "Elke maand extra",
+   "extra_months": "Tijd tot je schuldenvrij bent",
+   "extra_none": "Geen extra",
+   "extra_sentence": "Betaal je elke maand {extra} extra, dan ben je {months} eerder schuldenvrij en bespaar je {interest} aan rente.",
+   "extra_zero": "Zonder extra betalingen zijn je schulden weg in {months}. Versleep de schuifknop om het verschil te zien.",
+   "schedule_title": "Plan van maand tot maand",
+   "schedule_sub": "Wat je maandelijks betaalt, hoeveel rente erbij komt en wat er overblijft.",
+   "columns": [
+    "Maand",
+    "Betaling",
+    "Rente",
+    "Resterend saldo"
+   ],
+   "show_all": "Toon elke maand",
+   "show_less": "Minder tonen",
+   "app_title": "Spendry bewaakt dit plan voor je, elke maand weer.",
+   "app_sub": "Deze pagina is een momentopname. Spendry werkt met je werkelijke saldo, berekent het plan opnieuw na elke betaling en herinnert je op tijd aan de vervaldatum.",
+   "app_points": [
+    {
+     "title": "Al je schulden op één scherm",
+     "text": "Creditcards, leningen, rood staan en geld dat je leent van vrienden: zie je totale schuld en maandelijkse betalingen in één oogopslag.",
+     "shot": "06"
+    },
+    {
+     "title": "Mis nooit meer een vervaldatum",
+     "text": "Je krijgt een herinnering voor elk creditcardoverzicht, elke aflossing van een lening en elke factuur. Zo voorkom je boetes door een te late betaling.",
+     "shot": "07"
+    },
+    {
+     "title": "Kijk vooruit naar het einde van de maand",
+     "text": "Spendry kijkt naar je inkomsten en uitgaven voor de komende 30 dagen en laat zien waar je saldo naartoe gaat.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Korte gids voor het aflossen van schulden",
+   "guide": [
+    {
+     "h": "Wat is de sneeuwbalmethode?",
+     "p": [
+      "Bij de Snowball methode zet je je schulden op een rij van het kleinste naar het grootste saldo. Je betaalt het minimum op elke schuld en gebruikt al je extra geld voor de kleinste. Zodra die is afgelost, schuif je dat bedrag door naar de volgende. Zo wordt je afloskracht bij elke afgeloste schuld groter.",
+      "De grootste kracht is het momentum: de eerste schuld verdwijnt vaak al binnen een paar maanden. Dat maakt het veel makkelijker om vol te houden."
+     ]
+    },
+    {
+     "h": "Wat is de lawinemethode?",
+     "p": [
+      "Bij de Avalanche methode zet je je schulden op een rij van het hoogste naar het laagste rentepercentage. Het extra geld gaat eerst naar de duurste schuld. Omdat je de schuld aanpakt die het snelst groeit, kost deze methode je onderaan de streep meestal de minste rente.",
+      "Het nadeel: als de schuld met de hoogste rente erg groot is, kan de eerste overwinning even op zich laten wachten."
+     ]
+    },
+    {
+     "h": "Welke methode past bij jou?",
+     "table": [
+      [
+       "",
+       "Snowball",
+       "Avalanche"
+      ],
+      [
+       "Eerst afgelost",
+       "Kleinste saldo",
+       "Hoogste rente"
+      ],
+      [
+       "Totale rente",
+       "Kan iets hoger zijn",
+       "Meestal het laagst"
+      ],
+      [
+       "Eerste succes",
+       "Snel",
+       "Kan langer duren"
+      ],
+      [
+       "Ideaal voor",
+       "Wie motivatie en succesbeleving zoekt",
+       "Wie puur kijkt naar de totale kosten"
+      ]
+     ],
+     "p": [
+      "Het verschil is vaak klein. Een duidelijk plan hebben is het allerbelangrijkste. De calculator hierboven vergelijkt beide methodes met jouw eigen cijfers en laat zien welke het voordeligst is."
+     ]
+    },
+    {
+     "h": "Hoe de berekening werkt, met een voorbeeld",
+     "p": [
+      "Elke maand wordt eerst de rente berekend: het openstaande saldo vermenigvuldigd met het maandelijkse rentepercentage. Bij een creditcardsaldo van € 5.000 tegen 24% rente op jaarbasis, wat neerkomt op 2% per maand, betaal je die maand € 100 aan rente.",
+      "Vervolgens krijgt elke schuld de minimale aflossing en gaat het extra bedrag naar de eerstvolgende schuld. Zodra een schuld helemaal is afgelost, schuift dat hele bedrag door naar de volgende.",
+      "De calculator herhaalt deze stappen maand na maand tot de laatste schuld op nul staat. Zo zie je de datum waarop je schuldenvrij bent en het totale rentebedrag dat je betaalt."
+     ]
+    },
+    {
+     "h": "De valkuil van de minimale betaling",
+     "p": [
+      "Betaal je alleen het minimum op een creditcard, dan blijft de schuld bestaan: over het resterende bedrag betaal je elke maand opnieuw rente, waardoor het jaren kan duren voor je ervan af bent.",
+      "Zelfs een klein bedrag bovenop het minimum vervroegt de datum waarop je schuldenvrij bent met maanden. Probeer het eens uit met je eigen bedragen in de sectie hierboven."
+     ]
+    },
+    {
+     "h": "Manieren om sneller van je schulden af te komen",
+     "list": [
+      "Maak geen nieuwe schulden: gebruik de kaart alleen voor dingen die je binnen de maand helemaal kunt terugbetalen.",
+      "Betaal elke maand een vast bedrag bovenop het minimum, en stel een automatische overboeking in.",
+      "Gebruik extraatjes zoals vakantiegeld, bonussen of belastingteruggaven direct voor de volgende schuld op je lijst.",
+      "Bereken goed of het oversluiten van een dure schuld naar een lening met lagere rente onderaan de streep echt goedkoper is.",
+      "Bekijk je abonnementen kritisch: zeg op wat je niet gebruikt en zet dat geld in voor je schulden.",
+      "Betaal altijd op tijd: boetes voor te late betalingen en boeterentes zetten je plannen direct terug."
+     ]
+    }
+   ],
+   "faq_title": "Veelgestelde vragen",
+   "faq": [
+    {
+     "q": "Kost de snowball- of de avalanche-methode minder rente?",
+     "a": "In de meeste gevallen kost de Avalanche methode, waarbij je eerst de hoogste rente aflost, de minste rente. De Snowball methode zorgt er juist voor dat je eerste schuld sneller weg is, wat motiveert om door te gaan. De calculator vergelijkt beide opties met jouw getallen."
+    },
+    {
+     "q": "Welke schulden kan ik toevoegen?",
+     "a": "Creditcards, persoonlijke leningen, autofinancieringen, studieleningen, rood staan op je betaalrekening of leningen bij familie en vrienden. Voor een renteloze schuld vul je 0 in bij het rentepercentage."
+    },
+    {
+     "q": "Waar vind ik mijn rentepercentage?",
+     "a": "Je vindt dit op je rekeningoverzicht van je creditcard, in je leencontract of in de app van je bank, meestal aangeduid als de rente op jaarbasis. Vul dit jaarlijkse percentage in; de calculator berekent zelf het maandtarief."
+    },
+    {
+     "q": "Hoe nauwkeurig is de uitkomst?",
+     "a": "De berekening gaat ervan uit dat je rentepercentage gelijk blijft, dat je maandelijks hetzelfde bedrag aflost en dat er geen extra kosten bijkomen. In de praktijk kan een rente wijzigen. Gebruik de uitkomst daarom als een plan, niet als een offerte."
+    },
+    {
+     "q": "Worden de gegevens die ik invul ergens opgeslagen?",
+     "a": "Nee. De berekening draait volledig in je eigen webbrowser. Niets van wat je invult wordt bewaard of verzonden."
+    },
+    {
+     "q": "Wat doet Spendry dat deze calculator niet kan?",
+     "a": "Spendry werkt met je actuele saldo, werkt het plan bij na elke betaling, herinnert je aan de vervaldatum en toont altijd de dag waarop je schuldenvrij bent. De app vraagt nooit om je inloggegevens van de bank en verzamelt geen privégegevens."
+    }
+   ],
+   "final_title": "Draag de datum waarop je schuldenvrij bent in je broekzak.",
+   "final_text": "Download Spendry, voer je schulden één keer in en je plan past zich elke maand vanzelf aan.",
+   "chart_none": "Zonder extra betalingen"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Maak het automatisch",
     "In Spendry krijgt elke categorie een maandelijks budget dat meeloopt met wat je uitgeeft, inclusief een tijdige waarschuwing voor je over de limiet gaat."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Geen registratie nodig · Werkt in je browser, er wordt niets verzonden",
+   "app_title": "Spendry houdt elke dag je budget bij.",
+   "app_sub": "De 50/30/20-regel is een goed begin. Spendry zet elke uitgave direct in de juiste categorie, waarschuwt je voordat een budget op is en laat je alvast zien hoe het einde van de maand eruitziet.",
+   "app_points": [
+    {
+     "title": "Een budget voor elke categorie",
+     "text": "Boodschappen, vervoer, facturen: geef elke categorie een maandlimiet en zie altijd wat er overblijft.",
+     "shot": "04"
+    },
+    {
+     "title": "Voeg een uitgave toe in seconden",
+     "text": "Typ het bedrag, kies een categorie, klaar. Met sjablonen voeg je vaste uitgaven toe met een enkele tik.",
+     "shot": "02"
+    },
+    {
+     "title": "Zie waar je geld naartoe ging",
+     "text": "Wekelijkse en maandelijkse grafieken laten zien waar je het meest aan uitgeeft en hoe dat verschilt van vorige maand.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Korte handleiding voor budgetteren",
+   "guide": [
+    {
+     "h": "Wat is de 50/30/20-regel?",
+     "p": [
+      "De helft van je nettoloon gaat naar vaste lasten en behoeften (huur, facturen, boodschappen, vervoer), 30 procent naar persoonlijke wensen (uit eten gaan, ontspanning, winkelen) en 20 procent naar sparen en schulden aflossen.",
+      "Het is een uitgangspunt. Als je huur alleen al de helft van je inkomen vraagt, pas je de verdeling gewoon aan je leven aan. Los schulden met een hoge rente altijd eerst af."
+     ]
+    },
+    {
+     "h": "Hoe maak je een maandbudget?",
+     "p": [
+      "Begin met je inkomsten: salaris, bijverdiensten en elk ander vast bedrag. Zet aan het begin van de maand meteen je vaste lasten opzij: huur, facturen, aflossingen en abonnementen.",
+      "Houd variabele uitgaven zoals boodschappen, uit eten gaan en vervoer meteen bij; wacht je tot het einde van de maand, dan vergeet je het meeste. Trek aan het einde van de maand je uitgaven af van je inkomen en zet wat overblijft op je spaarrekening."
+     ]
+    },
+    {
+     "h": "Houd rekening met je creditcardafschrift",
+     "p": [
+      "Uitgaven met je creditcard gaan niet direct van je betaalrekening af; ze worden pas afgeschreven als de rekening komt. Reken bij het plannen van je maand met het afschrift dat je nog moet betalen, niet alleen met je huidige saldo."
+     ]
+    },
+    {
+     "h": "Zo houd je een budget vol",
+     "list": [
+      "Betaal jezelf eerst: boek je spaargeld over zodra je salaris binnen is.",
+      "Voer vaste lasten eenmalig in en laat ze elke maand herhalen.",
+      "Houd ook kleine uitgaven bij; juist die maken aan het einde van de maand het grootste verschil.",
+      "Loop je abonnementen een keer per jaar na.",
+      "Bekijk halverwege de maand hoe je ervoor staat en stuur bij voor de tweede helft als dat nodig is."
+     ]
+    }
+   ],
+   "faq_title": "Veelgestelde vragen",
+   "faq": [
+    {
+     "q": "Werkt de 50/30/20-regel voor iedereen?",
+     "a": "Nee, het is een handig startpunt. Vragen je huur en facturen meer dan de helft van je inkomen, pas de verdeling dan gerust aan. Het belangrijkste is dat je elke maand iets opzijzet voor sparen en het aflossen van schulden."
+    },
+    {
+     "q": "Moet ik mijn bruto- of netto-inkomen gebruiken?",
+     "a": "Gebruik je netto-inkomen, het bedrag dat na belastingen en inhoudingen echt op je rekening staat."
+    },
+    {
+     "q": "Onder welke categorie vallen aflossingen op schulden?",
+     "a": "Verplichte minimumbetalingen horen bij je vaste lasten en behoeften. Alles wat je extra aflost bovenop het minimumbedrag telt mee voor de 20 procent voor sparen en schulden."
+    },
+    {
+     "q": "Worden mijn ingevoerde gegevens opgeslagen?",
+     "a": "Nee. De berekening gebeurt volledig in je eigen browser; er wordt niets opgeslagen of verzonden."
+    },
+    {
+     "q": "Hoe helpt Spendry bij het budgetteren?",
+     "a": "Je geeft elke categorie een maandbudget. Dit loopt vol terwijl je geld uitgeeft en waarschuwt je voordat je eroverheen gaat. Omdat je creditcards, leningen en abonnementen op dezelfde plek staan, zie je vooraf hoe de maand zal eindigen. Spendry vraagt nooit om je bankgegevens."
+    }
+   ],
+   "final_title": "Je budget altijd op zak.",
+   "final_text": "Download Spendry, voer je inkomen en vaste lasten eenmalig in en zie van tevoren hoe elke maand afloopt."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Breng het in de praktijk",
     "Spendry helpt je om je plan vol te houden: voeg je Creditcards toe, stel in wat je maandelijks kunt aflossen en ontvang voor elke vervaldatum een melding bij Herinneringen."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Geen registratie · Werkt direct in je browser, er wordt niets verzonden",
+   "app_title": "Spendry houdt het overzicht op je creditcards, elke maand weer.",
+   "app_sub": "De calculator toont één plan voor één kaart. Spendry volgt al je kaarten, de overzichtsdata en uiterste betaaldata, en herinnert je op tijd aan elke betaling.",
+   "app_points": [
+    {
+     "title": "Al je creditcards in één overzicht",
+     "text": "Het openstaande saldo, de vervaldatum en het aantal resterende dagen per kaart direct in beeld.",
+     "shot": "06"
+    },
+    {
+     "title": "Een herinnering voor elke vervaldatum",
+     "text": "Ontvang een melding wanneer een nieuw overzicht klaarstaat en vlak voor de vervaldatum, zodat je nooit te laat betaalt en boetes voorkomt.",
+     "shot": "07"
+    },
+    {
+     "title": "Zie waar je geld naartoe gaat",
+     "text": "Al je kaartuitgaven handig per categorie, zodat je direct ziet waar je kunt besparen.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Korte gids voor creditcardschuld",
+   "guide": [
+    {
+     "h": "Hoe creditcardrente wordt berekend",
+     "p": [
+      "Elke maand rekent je creditcardmaatschappij rente over het openstaande saldo, op basis van de rente op jaarbasis. Je betaling dekt altijd eerst die rente, en het restant verlaagt je schuld. De calculator herhaalt deze stap maand na maand totdat het saldo nul is.",
+      "Een voorbeeld: over een saldo van € 3.000 tegen 24% rente op jaarbasis, oftewel 2% per maand, betaal je die maand € 60 aan rente. Betaal je € 200, dan daalt je saldo naar € 2.860. De volgende maand wordt de rente over dat nieuwe bedrag berekend."
+     ]
+    },
+    {
+     "h": "Waarom alleen het minimum aflossen zo lang duurt",
+     "p": [
+      "Het minimumbedrag is meestal een klein percentage van je openstaande schuld. Daalt je saldo, dan daalt ook je minimale betaling. Daardoor gaat het grootste deel van je betaling op aan rente en kan de schuld jarenlang blijven hangen.",
+      "Een vast bedrag betalen doorbreekt die vicieuze cirkel: hetzelfde maandbedrag zorgt ervoor dat je schuld elke maand sneller slinkt. De vergelijking in de calculator laat het verschil met jouw cijfers zien."
+     ]
+    },
+    {
+     "h": "Overzichtsdatum en uiterste betaaldatum",
+     "p": [
+      "De overzichtsdatum sluit de afrekenperiode af en stelt je saldo vast. De uiterste betaaldatum is de laatste dag waarop je dit saldo kunt voldoen, meestal een paar weken na het overzicht.",
+      "Betaal je het volledige overzichtssaldo voor of op de uiterste betaaldatum, dan betaal je geen rente over je aankopen. Laat je een deel openstaan, dan betaal je rente over het resterende bedrag."
+     ]
+    },
+    {
+     "h": "Manieren om je creditcard sneller af te lossen",
+     "list": [
+      "Betaal elke maand een vast bedrag, zo hoog als je budget toelaat, in plaats van het minimum.",
+      "Gebruik de creditcard tijdelijk niet meer voor nieuwe uitgaven zolang je aflost.",
+      "Heb je meerdere creditcards, zet het extra geld dan eerst in op de kaart met de hoogste rente op jaarbasis.",
+      "Controleer of het oversluiten van je saldo naar een lening met lagere rente echt voordeliger is na aftrek van eventuele overstapkosten.",
+      "Betaal altijd op tijd: te laat betalen levert boetes en extra rente op, waardoor je achterop raakt met je plan."
+     ]
+    }
+   ],
+   "faq_title": "Veelgestelde vragen",
+   "faq": [
+    {
+     "q": "Hoe lang duurt aflossen als ik alleen het minimum betaal?",
+     "a": "Dat hangt af van je openstaande saldo, je rentepercentage en hoe je kaart het minimum berekent, maar het duurt vaak vele jaren. De calculator laat zien wanneer je schuld weg zou zijn bij alleen minimale betalingen en hoeveel rente je dat kost."
+    },
+    {
+     "q": "Wat betekent rente op jaarbasis?",
+     "a": "Dit is het jaarlijkse rentepercentage van je kaart. Creditcards rekenen maandelijks rente over je openstaande saldo, wat ongeveer neerkomt op een twaalfde van dit jaarlijkse percentage."
+    },
+    {
+     "q": "Hoe wordt het minimale aflossingsbedrag berekend?",
+     "a": "De meeste maatschappijen rekenen met een klein percentage van het saldo, vaak met een vast minimumbedrag, vermeerderd met rente en kosten. Op je rekeningoverzicht zie je jouw specifieke percentage; je kunt dit in de calculator aanpassen."
+    },
+    {
+     "q": "Houdt de calculator rekening met extra kosten?",
+     "a": "Nee. Jaarlijkse kaartbijdragen, kosten voor te late betalingen en overstapkosten zijn niet meegerekend. De werkelijke kosten kunnen daardoor iets hoger uitvallen."
+    },
+    {
+     "q": "Worden de gegevens die ik invul bewaard?",
+     "a": "Nee. De berekening draait volledig in je browser. Niets van wat je invoert wordt opgeslagen of ergens naartoe gestuurd."
+    },
+    {
+     "q": "Hoe houdt Spendry mijn creditcardschulden bij?",
+     "a": "Je voegt je kaarten eenmalig toe. Spendry houdt de overzichtsdata en vervaldata in de gaten, herinnert je aan betalingen en werkt je saldo en datum waarop je schuldenvrij bent bij zodra je een betaling invoert. Je hoeft nooit inloggegevens van je bank te delen."
+    }
+   ],
+   "final_title": "Maak een duidelijk plan voor je creditcard.",
+   "final_text": "Download Spendry, voeg je kaarten toe en laat de app elk overzicht en elke vervaldatum voor je bijhouden."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Houd overzicht na het afsluiten",
     "Voeg de lening toe aan Leningen in Spendry om te zien hoeveel termijnen je nog hebt, wanneer je klaar bent en krijg tijdig een herinnering voor elke afschrijving."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Geen registratie nodig · Werkt in je browser, er wordt niets verzonden",
+   "app_title": "Spendry volgt je lening tot de allerlaatste aflossing.",
+   "app_sub": "De calculator berekent je maandbedrag. Spendry houdt de resterende termijnen, de einddatum en elke vervaldatum bij, en herinnert je voor elke betaling.",
+   "app_points": [
+    {
+     "title": "Al je leningen in een overzicht",
+     "text": "Autolening, persoonlijke lening en studieschuld: zie direct hoeveel termijnen er nog openstaan en wat je per maand kwijt bent.",
+     "shot": "06"
+    },
+    {
+     "title": "Een herinnering voor elke betaling",
+     "text": "Mis nooit een aflossing, en voorkom direct de bijbehorende aanmaningskosten.",
+     "shot": "07"
+    },
+    {
+     "title": "Kijk vooruit naar de komende maand",
+     "text": "Spendry laat zien hoe je aflossingen, creditcards en facturen de komende 30 dagen bepalen.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Korte handleiding voor leningen",
+   "guide": [
+    {
+     "h": "Hoe wordt een maandelijkse aflossing berekend?",
+     "p": [
+      "De meeste persoonlijke leningen en autoleningen lossen periodiek af: je betaalt elke maand hetzelfde bedrag. Een deel daarvan dekt de rente over het openstaande saldo en de rest is aflossing op de hoofdsom.",
+      "In het begin betaal je vooral rente; naarmate het openstaande bedrag daalt, gaat er steeds meer naar de aflossing van de hoofdsom. De tabel in de calculator laat dit van maand tot maand zien."
+     ]
+    },
+    {
+     "h": "Een kortere looptijd of lagere maandlasten?",
+     "p": [
+      "Een langere looptijd zorgt voor lagere maandlasten, maar je betaalt in totaal meer rente. Een kortere looptijd verhoogt het maandbedrag, maar verlaagt de totale kosten.",
+      "De kortste looptijd die comfortabel binnen je budget past, is onderaan de streep vrijwel altijd de voordeligste keuze."
+     ]
+    },
+    {
+     "h": "Rentepercentage en jaarlijks kostenpercentage",
+     "p": [
+      "Het rentepercentage is de zuivere rente over het geleende geld. Het jaarlijks kostenpercentage telt daar ook vrijwel alle bijkomende kosten bij op, waardoor je leningen hiermee veel eerlijker met elkaar vergelijkt."
+     ]
+    },
+    {
+     "h": "Zo betaal je minder rente",
+     "list": [
+      "Vergelijk leningen altijd op basis van het jaarlijks kostenpercentage, niet alleen op het maandbedrag.",
+      "Kies een kortere looptijd als je budget dat toelaat.",
+      "Los al vroeg tijdens de looptijd extra af op de hoofdsom.",
+      "Vraag altijd na of de kredietverstrekker kosten rekent voor vervroegd aflossen.",
+      "Zorg dat je nooit een betaling mist; boeterente en kosten lopen snel op."
+     ]
+    }
+   ],
+   "faq_title": "Veelgestelde vragen",
+   "faq": [
+    {
+     "q": "Hoe wordt het maandbedrag berekend?",
+     "a": "Met de standaardformule voor annuïteiten: het leenbedrag, de maandrente (het jaarlijkse rentepercentage gedeeld door 12) en het aantal maanden. De rente wordt elke maand berekend over het resterende leenbedrag."
+    },
+    {
+     "q": "Wat is het verschil tussen het rentepercentage en het jaarlijks kostenpercentage?",
+     "a": "Het rentepercentage is wat je puur aan rente betaalt om het geld te lenen. Het jaarlijks kostenpercentage telt daar de meeste overige kosten bij op, wat ideaal is om aanbiedingen te vergelijken."
+    },
+    {
+     "q": "Heeft extra aflossen zin?",
+     "a": "Ja. Extra geld aflossen op de hoofdsom verlaagt het saldo waar rente over wordt berekend, waardoor je totale rentekosten dalen en je eerder van je lening af bent. Controleer wel vooraf of je kredietverstrekker kosten rekent voor vervroegd aflossen."
+    },
+    {
+     "q": "Houdt de calculator rekening met extra kosten of belastingen?",
+     "a": "Nee. Afsluitkosten, verzekeringen en belastingen zijn niet meegenomen in de berekening."
+    },
+    {
+     "q": "Worden mijn ingevoerde gegevens opgeslagen?",
+     "a": "Nee. De berekening gebeurt volledig in je eigen browser; er wordt niets opgeslagen of verzonden."
+    },
+    {
+     "q": "Hoe houdt Spendry mijn lening bij?",
+     "a": "Je voegt de lening eenmalig toe; Spendry toont de resterende termijnen, de eindmaand en je totale maandlasten, en herinnert je voor elke vervaldatum. Spendry vraagt nooit om je bankgegevens."
+    }
+   ],
+   "final_title": "Je lening, overzichtelijk tot de laatste cent.",
+   "final_text": "Download Spendry, voeg je lening toe en laat de app moeiteloos elke aflossing bijhouden."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Volg je voortgang",
     "Maak je spaardoel aan onder Doelen in Spendry en zie meteen hoe dicht je bij je doel bent zodra je geld toevoegt."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Geen registratie · Werkt in je browser, er wordt niets verzonden",
+   "app_title": "Spendry laat zien hoe dichtbij je bent, bij elke stap.",
+   "app_sub": "De rekentool berekent het maandbedrag. Spendry bewaart je doel, toont je voortgang telkens wanneer je inlegt en berekent de resterende tijd.",
+   "app_points": [
+    {
+     "title": "Al je doelen in één overzicht",
+     "text": "Noodfonds, reis, nieuwe auto: zie hoe vol elk doel zit en hoeveel dagen je nog hebt.",
+     "shot": "05"
+    },
+    {
+     "title": "Bekijk de komende maand",
+     "text": "Weet precies hoeveel je deze maand kunt sparen op basis van je inkomsten en betalingen.",
+     "shot": "01"
+    },
+    {
+     "title": "Zie je spaargeld groeien",
+     "text": "Volg goud, valuta, aandelen en fondsen tegen actuele koersen.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Een korte gids voor sparen voor een doel",
+   "guide": [
+    {
+     "h": "Hoeveel moet ik per maand sparen?",
+     "p": [
+      "Trek wat je al hebt af van je doelbedrag en deel het restant door het aantal maanden. De rekentool berekent dit voor je en neemt, als je een rentepercentage invult, ook het rendement van je spaargeld mee.",
+      "Voorbeeld: voor een doel van € 6.000 met al € 1.000 gespaard en nog 10 maanden te gaan, moet je zonder rente € 500 per maand opzijzetten."
+     ]
+    },
+    {
+     "h": "Waarom rente een verschil maakt",
+     "p": [
+      "Als je spaargeld rente oplevert op een spaarrekening of in een fonds, hoef je maandelijks minder in te leggen voor hetzelfde doel. Hoe langer de looptijd, hoe groter dit effect."
+     ]
+    },
+    {
+     "h": "Begin met een noodfonds",
+     "p": [
+      "Voordat je voor grotere doelen spaart, zorgt een noodfonds voor een paar maanden aan vaste lasten ervoor dat een onverwachte rekening niet in schulden verandert."
+     ]
+    },
+    {
+     "h": "Manieren om sparen makkelijker te maken",
+     "list": [
+      "Spaar direct zodra je salaris binnen is en behandel het als een vaste rekening.",
+      "Stel een automatische overboeking in zodat je er niet over na hoeft te denken.",
+      "Zet bonussen en extra inkomsten direct door naar je doel.",
+      "Deel het doel met je partner of gezin en bereik het sneller.",
+      "Houd je voortgang zichtbaar, want elke inleg motiveert."
+     ]
+    }
+   ],
+   "faq_title": "Veelgestelde vragen",
+   "faq": [
+    {
+     "q": "Welk rentepercentage moet ik invullen?",
+     "a": "Vul de jaarlijkse rente in die je op je spaarrekening of fonds verwacht. Als je twijfelt, kies je 0 om het meest voorzichtige bedrag te zien."
+    },
+    {
+     "q": "Hoe kan ik mijn doel eerder bereiken?",
+     "a": "Verhoog het maandbedrag, gebruik meevallers voor je doel of kies een rekening met een hogere rente. Verkort de looptijd in de calculator om te zien hoe het maandbedrag verandert."
+    },
+    {
+     "q": "Hoe groot moet een noodfonds zijn?",
+     "a": "Drie tot zes maanden aan vaste lasten is het gebruikelijke advies. Hoe stabieler je inkomen, hoe minder buffer je nodig hebt; hoe wisselender, hoe meer."
+    },
+    {
+     "q": "Worden mijn gegevens opgeslagen?",
+     "a": "Nee. De berekening draait volledig in je browser; niets van wat je invoert wordt opgeslagen of verzonden."
+    },
+    {
+     "q": "Hoe houdt Spendry mijn doelen bij?",
+     "a": "Je maakt een doel aan en ziet je voortgang elke keer dat je geld toevoegt. Spendry toont het bedrag en de resterende tijd, en je kunt een doel delen met je gezin. De app vraagt nooit om je bankgegevens."
+    }
+   ],
+   "final_title": "Kom een stap dichter bij je doel.",
+   "final_text": "Download Spendry, maak je doel aan en zie hoe dichtbij je bent bij elke inleg."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Nooit meer een ongewilde verlenging",
     "Spendry houdt je Abonnementen netjes bij, telt ze mee in je maandelijkse vaste lasten en stuurt je vooraf een melding via Herinneringen."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Geen registratie · Werkt in je browser, er wordt niets verzonden",
+   "app_title": "Spendry zorgt dat geen enkele verlenging je verrast.",
+   "app_sub": "De rekentool toont het totaal. Spendry houdt je abonnementen bij, telt ze op bij je maandtotaal en herinnert je voor elke verlenging.",
+   "app_points": [
+    {
+     "title": "Een herinnering voor elke verlenging",
+     "text": "Muziek, streaming, cloudopslag of de sportschool: je krijgt een melding voordat er wordt afgeschreven.",
+     "shot": "07"
+    },
+    {
+     "title": "Vraag wat je abonnementen per jaar kosten",
+     "text": "Vraag het aan de assistent; het antwoord wordt berekend op je iPhone en je gegevens blijven veilig daar.",
+     "shot": "09"
+    },
+    {
+     "title": "Bekijk de komende maand",
+     "text": "Zie hoe abonnementen, creditcards en facturen de komende 30 dagen beïnvloeden.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Een korte gids over abonnementen",
+   "guide": [
+    {
+     "h": "Zo bereken je wat abonnementen echt kosten",
+     "p": [
+      "Reken elk abonnement om naar een maandbedrag: deel een jaarbedrag door 12, vermenigvuldig een weekbedrag met 52 en deel door 12. Tel daarna alles bij elkaar op. De rekentool berekent dit direct en toont de totalen per maand, per jaar en voor vijf jaar.",
+      "Een klein bedrag per maand lijkt onschuldig. Vermenigvuldigd met twaalf, en voor al je abonnementen samen, blijkt het vaak een van je grootste vaste lasten te zijn."
+     ]
+    },
+    {
+     "h": "Welke abonnementen je het best opzegt",
+     "p": [
+      "Sorteer ze op prijs en vraag je bij elk af: heb ik het de afgelopen maand gebruikt? Zeg op wat je niet gebruikt, en stel een herinnering in voor verlengingen die je wilt houden.",
+      "Als twee abonnementen hetzelfde doen, kies er dan een; gezins- of studentenabonnementen kunnen het totaalbedrag ook flink verlagen."
+     ]
+    },
+    {
+     "h": "Let op gratis proefperiodes",
+     "p": [
+      "Wanneer een proefperiode afloopt, loopt het abonnement meestal automatisch door tegen betaling. Noteer de einddatum op de dag dat je start, of stel direct een herinnering in."
+     ]
+    },
+    {
+     "h": "Manieren om te besparen op abonnementen",
+     "list": [
+      "Loop één keer per jaar al je abonnementen na.",
+      "Zet diensten die je het hele jaar door gebruikt om naar jaarabonnementen; die zijn meestal voordeliger.",
+      "Deel gezinsabonnementen.",
+      "Zet een abonnement stop in maanden dat je het niet gebruikt en activeer het weer wanneer nodig.",
+      "Stel een herinnering in voor elke verlenging."
+     ]
+    }
+   ],
+   "faq_title": "Veelgestelde vragen",
+   "faq": [
+    {
+     "q": "Hoeveel kosten mijn abonnementen per jaar?",
+     "a": "Reken elk abonnement om naar een maandbedrag, tel ze bij elkaar op en vermenigvuldig met 12. De rekentool berekent dit automatisch en toont ook het totaal na vijf jaar."
+    },
+    {
+     "q": "Hoe voer ik wekelijkse en jaarlijkse abonnementen in?",
+     "a": "Kies per regel de factuurperiode: per week, per maand of per jaar. De rekentool rekent alles vanzelf om naar dezelfde eenheid."
+    },
+    {
+     "q": "Is een jaarabonnement de moeite waard?",
+     "a": "Als je een dienst het hele jaar gebruikt, is een jaarabonnement meestal goedkoper. Twijfel je nog, blijf dan eerst een paar maanden op een maandabonnement."
+    },
+    {
+     "q": "Worden mijn gegevens opgeslagen?",
+     "a": "Nee. De berekening draait volledig in je browser; niets van wat je invoert wordt opgeslagen of verzonden."
+    },
+    {
+     "q": "Hoe houdt Spendry mijn abonnementen bij?",
+     "a": "Je voert je abonnementen eenmalig in; Spendry telt ze op bij je maandtotaal, herinnert je voor elke verlenging en toont de jaarkosten. De app vraagt nooit om je bankgegevens."
+    }
+   ],
+   "final_title": "Weet elke verlenging ruim van tevoren.",
+   "final_text": "Download Spendry, voeg je abonnementen toe en ontvang een seintje voor elke verlenging."
+  }
  }
 }

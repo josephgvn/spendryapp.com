@@ -298,7 +298,154 @@
     "Baki hutang berubah setiap bulan. Spendry menjejak kad, pinjaman dan bil anda, memastikan pelan Snowball atau Avalanche sentiasa tepat, serta memberi peringatan sebelum setiap bayaran matang."
    ]
   ],
-  "extra_hint": "Wang tambahan untuk hutang anda selain bayaran minimum. Lebih banyak anda bayar, lebih cepat anda bebas daripada hutang."
+  "extra_hint": "Wang tambahan untuk hutang anda selain bayaran minimum. Lebih banyak anda bayar, lebih cepat anda bebas daripada hutang.",
+  "landing": {
+   "trust": "Percuma · Tanpa pendaftaran · Berjalan dalam pelayar anda, tiada data dihantar ke mana-mana",
+   "chart_title": "Lihat bagaimana hutang anda menyusut, bulan demi bulan",
+   "chart_sub": "Baki keseluruhan yang tinggal dengan kedua-dua kaedah dan tanpa bayaran tambahan langsung. Setiap titik menandakan bulan hutang selesai dibayar.",
+   "extra_title": "Kesan bayaran tambahan",
+   "extra_sub": "Lihat bagaimana jumlah yang anda bayar melebihi bayaran minimum mengubah tarikh anda bebas hutang dan jumlah faedah yang dikenakan.",
+   "extra_amount": "Tambahan setiap bulan",
+   "extra_months": "Masa sehingga bebas hutang",
+   "extra_none": "Tiada tambahan",
+   "extra_sentence": "Membayar tambahan {extra} setiap bulan membolehkan anda bebas hutang {months} lebih awal dan menjimatkan faedah sebanyak {interest}.",
+   "extra_zero": "Tanpa sebarang bayaran tambahan, hutang anda akan selesai dalam masa {months}. Gerakkan gelangsar untuk melihat perbezaannya.",
+   "schedule_title": "Pelan bulan demi bulan",
+   "schedule_sub": "Jumlah yang anda bayar setiap bulan, kadar faedah yang dikenakan dan baki yang tinggal.",
+   "columns": [
+    "Bulan",
+    "Bayaran",
+    "Faedah",
+    "Baki tinggal"
+   ],
+   "show_all": "Papar setiap bulan",
+   "show_less": "Papar ringkas",
+   "app_title": "Spendry menguruskan pelan ini untuk anda, setiap bulan.",
+   "app_sub": "Halaman ini hanyalah gambaran awal. Spendry menggunakan baki sebenar anda, mengira semula pelan selepas setiap bayaran dan mengingatkan anda sebelum setiap tarikh matang.",
+   "app_points": [
+    {
+     "title": "Semua hutang dalam satu skrin",
+     "text": "Kad kredit, pinjaman, akaun overdraf dan wang yang dipinjam daripada rakan; lihat jumlah hutang dan bayaran bulanan anda dengan sekali imbas.",
+     "shot": "06"
+    },
+    {
+     "title": "Jangan terlepas tarikh matang",
+     "text": "Anda menerima peringatan sebelum setiap penyata kad, bayaran pinjaman dan bil sampai tempoh matang, jadi anda tidak akan dikenakan caj lewat akibat terlepas bayaran minimum.",
+     "shot": "07"
+    },
+    {
+     "title": "Ketahui baki akhir bulan lebih awal",
+     "text": "Spendry menyemak pendapatan dan bayaran untuk 30 hari akan datang dan menunjukkan anggaran baki anda.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Panduan ringkas melunaskan hutang",
+   "guide": [
+    {
+     "h": "Apakah kaedah debt snowball?",
+     "p": [
+      "Melalui kaedah Snowball, anda menyenaraikan hutang daripada baki paling kecil hingga paling besar. Anda membayar jumlah minimum untuk setiap hutang dan menggunakan sebarang wang tambahan untuk melunaskan hutang terkecil. Sebaik sahaja hutang itu selesai, jumlah bayarannya dialihkan ke hutang seterusnya, menjadikan keupayaan bayaran anda semakin besar untuk setiap hutang yang diselesaikan.",
+      "Kelebihan utamanya adalah momentum: hutang pertama selesai dalam beberapa bulan, membuatkan anda lebih bersemangat untuk meneruskan pelan ini."
+     ]
+    },
+    {
+     "h": "Apakah kaedah debt avalanche?",
+     "p": [
+      "Melalui kaedah Avalanche, anda menyenaraikan hutang daripada kadar faedah tahunan tertinggi hingga paling rendah. Wang tambahan disalurkan ke hutang dengan faedah paling mahal terlebih dahulu. Oleh kerana anda melunaskan hutang yang faedahnya bertambah paling pantas, kaedah ini biasanya menjimatkan paling banyak faedah secara keseluruhan.",
+      "Kelemahannya: jika hutang dengan kadar faedah tertinggi anda berjumlah besar, masa untuk melunaskan hutang pertama mungkin mengambil masa yang lebih lama."
+     ]
+    },
+    {
+     "h": "Kaedah mana yang sesuai untuk anda?",
+     "table": [
+      [
+       "",
+       "Snowball",
+       "Avalanche"
+      ],
+      [
+       "Selesai dahulu",
+       "Baki terkecil",
+       "Kadar faedah tertinggi"
+      ],
+      [
+       "Jumlah faedah",
+       "Mungkin sedikit lebih tinggi",
+       "Biasanya paling rendah"
+      ],
+      [
+       "Hutang pertama selesai",
+       "Pantas",
+       "Mungkin mengambil masa lebih lama"
+      ],
+      [
+       "Paling sesuai untuk",
+       "Mereka yang perlukan motivasi awal",
+       "Mereka yang fokus pada penjimatan kos faedah"
+      ]
+     ],
+     "p": [
+      "Perbezaannya selalunya kecil; perkara paling penting ialah mempunyai pelan yang teratur. Kalkulator di atas membandingkan kedua-dua kaedah mengikut angka anda dan menunjukkan kaedah mana yang lebih menjimatkan."
+     ]
+    },
+    {
+     "h": "Cara kiraan berfungsi, bersama contoh",
+     "p": [
+      "Setiap bulan, faedah akan dikira terlebih dahulu: baki didarabkan dengan kadar bulanan. Baki kad kredit sebanyak RM 25,000 pada kadar faedah tahunan 24%, iaitu 2% sebulan, akan dikenakan faedah sebanyak RM 500 pada bulan tersebut.",
+      "Kemudian setiap hutang menerima bayaran minimumnya dan wang tambahan disalurkan ke hutang seterusnya dalam senarai. Apabila sesuatu hutang selesai, bayarannya dialihkan kepada hutang yang berikutnya.",
+      "Kalkulator ini mengulangi langkah tersebut bulan demi bulan sehingga hutang terakhir selesai; ini memberikan anggaran bulan anda bebas hutang dan jumlah keseluruhan faedah yang anda bayar."
+     ]
+    },
+    {
+     "h": "Perangkap bayaran minimum",
+     "p": [
+      "Hanya membayar jumlah minimum pada kad kredit menyebabkan hutang berpanjangan: baki yang tinggal terus dikenakan faedah setiap bulan dan hutang boleh berlarutan selama bertahun-tahun.",
+      "Membayar sedikit lebih daripada jumlah minimum dapat mempercepatkan tarikh anda bebas hutang beberapa bulan lebih awal. Cuba masukkan angka anda pada bahagian bayaran tambahan di atas."
+     ]
+    },
+    {
+     "h": "Langkah bebas hutang dengan lebih cepat",
+     "list": [
+      "Berhenti menambah hutang baharu: gunakan kad kredit hanya untuk perbelanjaan yang mampu anda bayar penuh dalam bulan yang sama.",
+      "Bayar satu jumlah tetap melebihi bayaran minimum setiap bulan, dan tetapkannya secara automatik.",
+      "Gunakan bonus, pulangan tunai atau pendapatan sampingan terus ke hutang seterusnya dalam senarai.",
+      "Kira sama ada memindahkan baki berkadar faedah tinggi kepada pinjaman berkadar lebih rendah benar-benar menjimatkan kos keseluruhan.",
+      "Semak semula langganan anda; batalkan langganan yang tidak digunakan dan gunakan wang lebihan itu untuk membayar hutang.",
+      "Jangan sekali-kali terlepas tarikh matang: caj lewat dan kadar penalti akan melambatkan pelan anda."
+     ]
+    }
+   ],
+   "faq_title": "Soalan lazim",
+   "faq": [
+    {
+     "q": "Adakah kaedah snowball atau avalanche menjimatkan lebih banyak faedah?",
+     "a": "Dalam kebanyakan kes, kaedah avalanche, iaitu membayar kadar faedah tertinggi dahulu, menjimatkan paling banyak faedah secara keseluruhan. Kaedah snowball pula menyelesaikan hutang pertama anda lebih awal untuk membina motivasi. Kalkulator ini membandingkan kedua-duanya mengikut angka anda."
+    },
+    {
+     "q": "Apakah jenis hutang yang boleh saya masukkan?",
+     "a": "Kad kredit, pinjaman peribadi, pinjaman kereta, pinjaman pendidikan, overdraf atau wang yang dipinjam daripada keluarga dan rakan. Untuk hutang tanpa faedah, masukkan 0 sebagai kadar faedah."
+    },
+    {
+     "q": "Di mana saya boleh melihat kadar faedah saya?",
+     "a": "Ia dinyatakan pada penyata kad kredit, dalam perjanjian pinjaman atau dalam aplikasi bank anda, biasanya dipaparkan sebagai kadar faedah tahunan. Masukkan kadar faedah tahunan ini; kalkulator akan mengira kadar bulanannya secara automatik."
+    },
+    {
+     "q": "Berapakah ketepatan keputusan ini?",
+     "a": "Kiraan ini menganggap kadar faedah anda kekal sama, anda membayar jumlah yang sama setiap bulan dan tiada caj tambahan dikenakan. Memandangkan kadar faedah sebenar boleh berubah, gunakan keputusan ini sebagai panduan pelan dan bukan sebagai sebut harga rasmi."
+    },
+    {
+     "q": "Adakah maklumat yang saya masukkan dihantar ke mana-mana?",
+     "a": "Tidak. Semua kiraan diproses sepenuhnya dalam pelayar anda; tiada sebarang maklumat yang anda masukkan disimpan atau dihantar ke mana-mana."
+    },
+    {
+     "q": "Apakah kelebihan Spendry berbanding kalkulator ini?",
+     "a": "Spendry memantau baki sebenar anda, mengemas kini pelan selepas setiap bayaran, mengingatkan anda sebelum setiap tarikh matang dan sentiasa memaparkan tarikh anda bebas hutang. Ia tidak sekali-kali meminta maklumat log masuk bank anda dan tidak mengumpul sebarang data."
+    }
+   ],
+   "final_title": "Semak tarikh anda bebas hutang terus dari poket anda.",
+   "final_text": "Muat turun Spendry, masukkan hutang anda sekali sahaja, dan pelan anda akan dikemas kini secara automatik setiap bulan.",
+   "chart_none": "Tanpa bayaran tambahan"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Jadikan ia automatik",
     "Di Spendry, setiap kategori mempunyai bajet bulanan tersendiri yang menjejak belanja anda, lengkap dengan amaran sebelum bajet terlebih guna."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Percuma · Tanpa pendaftaran · Berjalan dalam pelayar anda, tiada data dihantar ke mana-mana",
+   "app_title": "Spendry mengurus bajet untuk anda, setiap hari.",
+   "app_sub": "Peraturan 50/30/20 adalah permulaan yang baik. Spendry memasukkan setiap perbelanjaan ke dalam kategorinya, memberi amaran sebelum bajet habis dan menunjukkan baki akhir bulan lebih awal.",
+   "app_points": [
+    {
+     "title": "Bajet untuk setiap kategori",
+     "text": "Barang dapur, pengangkutan, bil: tetapkan had bulanan untuk setiap satu dan sentiasa ketahui baki yang tinggal.",
+     "shot": "04"
+    },
+    {
+     "title": "Tambah perbelanjaan dalam beberapa saat",
+     "text": "Taip jumlah, pilih kategori, selesai. Templat menjadikan perbelanjaan biasa boleh ditambah dengan satu ketikan.",
+     "shot": "02"
+    },
+    {
+     "title": "Ketahui ke mana wang anda dibelanjakan",
+     "text": "Carta mingguan dan bulanan menunjukkan perbelanjaan terbesar anda serta perbandingannya dengan bulan lepas.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Panduan ringkas tentang bajet",
+   "guide": [
+    {
+     "h": "Apakah peraturan 50/30/20?",
+     "p": [
+      "Separuh daripada gaji bersih anda diperuntukkan untuk keperluan (sewa, bil, barang dapur, pengangkutan), 30 peratus untuk kehendak (makan di luar, hiburan, membeli-belah) dan 20 peratus untuk simpanan serta bayaran hutang.",
+      "Ia adalah satu titik permulaan. Jika sewa rumah sahaja sudah mengambil separuh pendapatan anda, sesuaikan pembahagian ini mengikut kehidupan anda, dan utamakan bayaran hutang dengan kadar faedah tinggi terlebih dahulu."
+     ]
+    },
+    {
+     "h": "Cara membuat bajet bulanan",
+     "p": [
+      "Mulakan dengan pendapatan anda: gaji, kerja sampingan dan sebarang punca wang tetap yang lain. Kemudian asingkan kos tetap pada awal bulan: sewa, bil, bayaran pinjaman dan langganan.",
+      "Catat perbelanjaan boleh ubah seperti barang dapur, makan di luar dan pengangkutan sebaik sahaja ia berlaku; jika ditangguh ke akhir bulan, kebanyakannya akan terlupa. Pada hujung bulan, tolak perbelanjaan daripada pendapatan dan pindahkan bakinya ke dalam simpanan."
+     ]
+    },
+    {
+     "h": "Rancang untuk penyata kad kredit anda",
+     "p": [
+      "Belian menggunakan kad tidak menolak wang daripada akaun anda hari ini; ia hanya dibayar apabila penyata tiba. Semasa merancang perbelanjaan bulanan, kira jumlah penyata yang perlu dibayar, bukan sekadar baki semasa hari ini."
+     ]
+    },
+    {
+     "h": "Cara untuk kekal berdisiplin dengan bajet",
+     "list": [
+      "Dahulukan diri anda: asingkan simpanan sebaik sahaja anda menerima gaji.",
+      "Masukkan kos tetap sekali dan biarkan ia berulang setiap bulan.",
+      "Catat juga perbelanjaan kecil; ia memberi perbezaan paling besar pada akhir bulan.",
+      "Semak semula langganan anda setahun sekali.",
+      "Periksa bajet anda pada pertengahan bulan dan buat pelarasan untuk separuh bulan berikutnya jika perlu."
+     ]
+    }
+   ],
+   "faq_title": "Soalan lazim",
+   "faq": [
+    {
+     "q": "Adakah peraturan 50/30/20 sesuai untuk semua orang?",
+     "a": "Tidak, ia sekadar panduan awal. Jika sewa dan bil mengambil lebih daripada separuh pendapatan anda, ubah pembahagian tersebut; apa yang penting adalah menyimpan dan membayar hutang secara konsisten setiap bulan."
+    },
+    {
+     "q": "Patutkah saya guna pendapatan kasar atau pendapatan bersih?",
+     "a": "Gunakan pendapatan bersih anda, iaitu jumlah sebenar yang masuk ke dalam akaun bank anda selepas potongan cukai dan potongan lain."
+    },
+    {
+     "q": "Di manakah bayaran hutang perlu dimasukkan?",
+     "a": "Bayaran ansuran minimum dikira sebagai keperluan. Sebarang bayaran tambahan melebihi jumlah minimum dikira dalam bahagian 20 peratus untuk simpanan dan hutang."
+    },
+    {
+     "q": "Adakah sebarang maklumat yang saya masukkan disimpan?",
+     "a": "Tidak. Pengiraan berjalan sepenuhnya di dalam pelayar anda; tiada apa-apa yang disimpan atau dihantar ke mana-mana."
+    },
+    {
+     "q": "Bagaimanakah Spendry mengurus bajet saya?",
+     "a": "Anda tetapkan bajet bulanan untuk setiap kategori; ia akan dikemas kini mengikut perbelanjaan anda dan memberi amaran sebelum had tercapai. Oleh kerana kad, pinjaman dan langganan anda berada di tempat yang sama, anda boleh melihat baki akhir bulan lebih awal. Ia tidak pernah meminta log masuk bank anda."
+    }
+   ],
+   "final_title": "Bawa bajet anda ke mana sahaja.",
+   "final_text": "Muat turun Spendry, masukkan pendapatan dan kos tetap anda sekali, dan lihat baki akhir setiap bulan lebih awal."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Jadikannya kenyataan",
     "Spendry memastikan pelan anda berjalan lancar: tambah kad anda, tetapkan jumlah bayaran bulanan dan terima peringatan sebelum tarikh matang."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Percuma · Tanpa pendaftaran · Berjalan dalam pelayar anda, tiada data dihantar ke mana-mana",
+   "app_title": "Spendry memantau baki kad anda, setiap bulan.",
+   "app_sub": "Kalkulator ini memaparkan pelan untuk satu kad sahaja. Spendry menjejak semua kad kredit anda, tarikh penyata dan tarikh matang, serta memberi peringatan sebelum setiap bayaran.",
+   "app_points": [
+    {
+     "title": "Semua kad dalam satu senarai",
+     "text": "Lihat baki penyata, tarikh matang dan baki hari untuk setiap kad sepintas lalu.",
+     "shot": "06"
+    },
+    {
+     "title": "Peringatan sebelum setiap tarikh matang",
+     "text": "Terima pemberitahuan apabila penyata dikeluarkan dan sebelum bayaran sampai tempoh matang, supaya anda tidak dikenakan caj lewat akibat terlepas bayaran minimum.",
+     "shot": "07"
+    },
+    {
+     "title": "Ketahui ke mana wang anda dibelanjakan",
+     "text": "Lihat perbelanjaan kad mengikut kategori untuk memudahkan anda mengurangkan perbelanjaan yang tidak perlu.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Panduan ringkas hutang kad kredit",
+   "guide": [
+    {
+     "h": "Bagaimana faedah kad kredit dikira",
+     "p": [
+      "Setiap bulan, kad anda mengenakan faedah ke atas baki yang dibawa ke hadapan, berdasarkan kadar faedah tahunannya. Bayaran anda akan menampung faedah tersebut terlebih dahulu, dan baki selebihnya akan mengurangkan jumlah hutang. Kalkulator mengulangi proses ini bulan demi bulan sehingga baki selesai.",
+      "Contoh: baki RM 15,000 pada kadar faedah tahunan 24%, iaitu 2% sebulan, akan dikenakan faedah sebanyak RM 300. Jika anda membayar RM 1,000, baki hutang akan berkurang kepada RM 14,300; faedah bulan berikutnya akan dikira berdasarkan jumlah baki baharu tersebut."
+     ]
+    },
+    {
+     "h": "Mengapa bayaran minimum mengambil masa terlalu lama",
+     "p": [
+      "Bayaran minimum biasanya merupakan peratusan kecil daripada jumlah baki. Apabila baki berkurang, jumlah minimum juga berkurang, menyebabkan sebahagian besar bayaran hanya digunakan untuk menampung faedah dan hutang boleh berlarutan selama bertahun-tahun.",
+      "Membayar jumlah tetap menamatkan kitaran tersebut: jumlah wang yang sama akan terus mengurangkan baki pokok setiap bulan. Perbandingan dalam kalkulator menunjukkan perbezaannya mengikut angka anda."
+     ]
+    },
+    {
+     "h": "Tarikh penyata dan tarikh matang",
+     "p": [
+      "Tarikh penyata menutup kitaran bil anda dan menetapkan jumlah baki. Tarikh matang ialah hari terakhir untuk membuat bayaran, biasanya beberapa minggu selepas tarikh penyata.",
+      "Bayar baki penyata penuh sebelum tarikh matang dan anda tidak akan dikenakan sebarang faedah atas pembelian. Jika anda membawa sebahagian baki ke hadapan, faedah akan dikenakan ke atas baki yang tinggal itu."
+     ]
+    },
+    {
+     "h": "Langkah melunaskan hutang kad dengan lebih cepat",
+     "list": [
+      "Bayar jumlah tetap setiap bulan, sebanyak mana yang anda mampu, berbanding hanya membayar jumlah minimum.",
+      "Hentikan perbelanjaan baharu menggunakan kad sementara anda sedang melunaskan baki sedia ada.",
+      "Jika anda mempunyai beberapa kad, salurkan bayaran lebihan ke kad dengan kadar faedah tahunan tertinggi dahulu.",
+      "Semak sama ada pemindahan baki atau pinjaman berkadar faedah lebih rendah benar-benar menjimatkan selepas mengambil kira kos yuran.",
+      "Jangan sekali-kali terlepas tarikh matang; caj lewat dan kadar penalti akan melambatkan pelan anda."
+     ]
+    }
+   ],
+   "faq_title": "Soalan lazim",
+   "faq": [
+    {
+     "q": "Berapa lamakah masa yang diambil jika saya hanya membayar jumlah minimum?",
+     "a": "Ia bergantung pada baki anda, kadar faedah tahunan dan cara kad anda mengira bayaran minimum, namun ia sering mengambil masa bertahun-tahun. Kalkulator menunjukkan bila baki akan selesai jika hanya membayar jumlah minimum dan berapa kos faedah yang terlibat."
+    },
+    {
+     "q": "Apakah itu kadar faedah tahunan?",
+     "a": "Ia merupakan kadar faedah tahunan bagi kad kredit anda. Kad kredit mengenakan faedah secara bulanan, kira-kira satu perdua belas daripada kadar tahunan ini, ke atas baki yang dibawa ke hadapan."
+    },
+    {
+     "q": "Bagaimanakah bayaran minimum dikira?",
+     "a": "Kebanyakan kad menetapkan peratusan kecil daripada jumlah baki, selalunya dengan amaun lantai minimum, ditambah faedah dan yuran. Penyata anda memaparkan amaun ini; anda boleh menukar peratusan tersebut dalam kalkulator."
+    },
+    {
+     "q": "Adakah kalkulator ini mengambil kira caj dan yuran?",
+     "a": "Tidak. Yuran tahunan, caj bayaran lewat dan yuran pemindahan baki tidak dimasukkan, jadi kos sebenar anda mungkin sedikit lebih tinggi."
+    },
+    {
+     "q": "Adakah maklumat yang saya masukkan disimpan?",
+     "a": "Tidak. Semua kiraan diproses sepenuhnya dalam pelayar anda; tiada sebarang maklumat yang anda masukkan disimpan atau dihantar ke mana-mana."
+    },
+    {
+     "q": "Bagaimanakah Spendry memantau hutang kad saya?",
+     "a": "Anda hanya perlu menambah kad anda; Spendry akan menjejak tarikh penyata dan tarikh matang, memberi peringatan sebelum bayaran dan mengemas kini baki serta tarikh anda bebas hutang setiap kali anda merekodkan bayaran. Ia tidak sekali-kali meminta maklumat log masuk bank anda."
+    }
+   ],
+   "final_title": "Urus baki kad kredit anda dengan pelan yang jelas.",
+   "final_text": "Muat turun Spendry, tambah kad anda dan biarkan ia menguruskan setiap tarikh penyata dan tarikh matang untuk anda."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Pantau selepas anda menandatangani",
     "Tambah pinjaman ke Spendry untuk melihat baki bayaran, bulan terakhir dan terima peringatan sebelum setiap bayaran."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Percuma · Tanpa pendaftaran · Berjalan dalam pelayar anda, tiada data dihantar ke mana-mana",
+   "app_title": "Spendry menjejaki pinjaman anda sehingga bayaran terakhir.",
+   "app_sub": "Kalkulator ini menunjukkan jumlah bayaran. Spendry menjejaki baki bayaran, bulan penyelesaian dan setiap tarikh akhir, serta mengingatkan anda sebelum setiap kali bayaran tiba.",
+   "app_points": [
+    {
+     "title": "Semua pinjaman dalam satu senarai",
+     "text": "Pinjaman kereta, peribadi dan pendidikan: ketahui baki bayaran dan jumlah bulanan anda sepintas lalu.",
+     "shot": "06"
+    },
+    {
+     "title": "Peringatan sebelum setiap bayaran",
+     "text": "Elakkan terlepas bayaran pinjaman, serta caj bayaran lewat yang dikenakan.",
+     "shot": "07"
+    },
+    {
+     "title": "Ketahui komitmen bulan hadapan",
+     "text": "Spendry menunjukkan bagaimana bayaran pinjaman, kad kredit dan bil anda mempengaruhi kewangan untuk 30 hari akan datang.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Panduan ringkas tentang pinjaman",
+   "guide": [
+    {
+     "h": "Bagaimana bayaran pinjaman dikira",
+     "p": [
+      "Kebanyakan pinjaman peribadi dan pinjaman kereta menggunakan kaedah pelunasan berkala: anda membayar jumlah yang sama setiap bulan. Sebahagian daripada setiap bayaran menampung faedah atas baki pokok dan bakinya mengurangkan jumlah pokok pinjaman.",
+      "Pada peringkat awal, kebanyakan bayaran digunakan untuk membayar faedah; apabila baki semakin berkurang, lebih banyak bayaran disalurkan kepada jumlah pokok. Jadual dalam kalkulator menunjukkan pecahan ini dari bulan ke bulan."
+     ]
+    },
+    {
+     "h": "Tempoh lebih pendek atau bayaran lebih rendah?",
+     "p": [
+      "Tempoh bayaran yang lebih panjang merendahkan bayaran bulanan tetapi meningkatkan jumlah keseluruhan faedah. Tempoh yang lebih pendek menaikkan bayaran bulanan tetapi merendahkan jumlah kos pinjaman.",
+      "Tempoh paling pendek yang mampu ditampung oleh bajet anda biasanya adalah pilihan yang paling menjimatkan."
+     ]
+    },
+    {
+     "h": "Kadar faedah tahunan dan kadar faedah asas",
+     "p": [
+      "Kadar faedah adalah kos untuk meminjam wang tersebut. Kadar faedah tahunan sebenar turut merangkumi kebanyakan yuran dan caj lain, menjadikannya angka yang lebih tepat untuk membandingkan tawaran pembiayaan."
+     ]
+    },
+    {
+     "h": "Cara untuk membayar faedah yang lebih rendah",
+     "list": [
+      "Bandingkan tawaran melalui kadar faedah tahunan sebenar, bukan sekadar melihat jumlah bayaran bulanan.",
+      "Pilih tempoh pinjaman yang lebih pendek jika kemampuan bajet anda mengizinkan.",
+      "Buat bayaran tambahan untuk mengurangkan baki pokok pada peringkat awal pinjaman.",
+      "Tanya pihak bank sama ada mereka mengenakan caj penalti untuk penyelesaian awal.",
+      "Jangan sekali-kali terlepas bayaran bulanan; caj bayaran lewat boleh terkumpul dengan cepat."
+     ]
+    }
+   ],
+   "faq_title": "Soalan lazim",
+   "faq": [
+    {
+     "q": "Bagaimanakah bayaran bulanan dikira?",
+     "a": "Menggunakan formula pelunasan standard: jumlah pinjaman, kadar faedah bulanan (kadar faedah tahunan dibahagikan dengan 12) dan bilangan bulan. Faedah akan dicaj ke atas baki pinjaman yang tinggal pada setiap bulan."
+    },
+    {
+     "q": "Apakah perbezaan antara kadar faedah tahunan sebenar dengan kadar faedah biasa?",
+     "a": "Kadar faedah biasa ialah kos asas pembiayaan pinjaman anda. Kadar faedah tahunan sebenar mengambil kira kos faedah bersama kebanyakan yuran tambahan, menjadikannya ukuran yang lebih baik untuk membandingkan pinjaman."
+    },
+    {
+     "q": "Adakah bayaran tambahan membantu?",
+     "a": "Ya. Bayaran lebihan yang disalurkan terus kepada baki pokok akan mengurangkan asas pengiraan faedah, membolehkan anda menjimatkan kos faedah dan melunaskan pinjaman lebih cepat. Pastikan anda menyemak sama ada pihak pemberi pinjaman mengenakan caj bayaran awal."
+    },
+    {
+     "q": "Adakah kalkulator ini mengambil kira yuran atau cukai?",
+     "a": "Tidak. Yuran pemprosesan, insurans dan cukai tidak termasuk dalam pengiraan ini."
+    },
+    {
+     "q": "Adakah sebarang maklumat yang saya masukkan disimpan?",
+     "a": "Tidak. Pengiraan berjalan sepenuhnya di dalam pelayar anda; tiada apa-apa yang disimpan atau dihantar ke mana-mana."
+    },
+    {
+     "q": "Bagaimanakah Spendry menjejaki pinjaman saya?",
+     "a": "Anda hanya perlu menambah butiran pinjaman sekali; Spendry akan memaparkan baki bayaran, bulan penyelesaian dan jumlah bayaran bulanan, serta memberi peringatan sebelum setiap tarikh bayaran tiba. Ia tidak pernah meminta log masuk bank anda."
+    }
+   ],
+   "final_title": "Pinjaman anda, dirancang hingga bayaran terakhir.",
+   "final_text": "Muat turun Spendry, masukkan pinjaman anda dan biarkan ia menjejaki setiap bayaran untuk anda."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Pantau kemajuan anda",
     "Cipta matlamat di Spendry dan lihat sejauh mana anda telah capai setiap kali menambah simpanan."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Percuma · Tanpa pendaftaran · Berjalan dalam pelayar anda, tiada apa yang dihantar ke mana-mana",
+   "app_title": "Spendry menunjukkan betapa dekatnya anda, pada setiap langkah.",
+   "app_sub": "Kalkulator ini mengira jumlah bulanan. Spendry menyimpan matlamat anda, menunjukkan kemajuan setiap kali anda menambah wang dan mengira baki masa yang tinggal.",
+   "app_points": [
+    {
+     "title": "Semua matlamat anda dalam satu skrin",
+     "text": "Dana kecemasan, percutian, kereta baharu: lihat tahap pencapaian setiap matlamat dan baki hari yang tinggal.",
+     "shot": "05"
+    },
+    {
+     "title": "Lihat gambaran sebulan ke hadapan",
+     "text": "Ketahui jumlah yang boleh anda simpan bulan ini berdasarkan pendapatan dan bayaran anda.",
+     "shot": "01"
+    },
+    {
+     "title": "Saksikan simpanan anda berkembang",
+     "text": "Jejak emas, mata wang, saham dan dana pada harga semasa.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Panduan ringkas menyimpan untuk sesuatu matlamat",
+   "guide": [
+    {
+     "h": "Berapakah jumlah yang patut saya simpan setiap bulan?",
+     "p": [
+      "Tolak jumlah simpanan sedia ada daripada sasaran matlamat anda dan bahagikan bakinya dengan bilangan bulan yang ada. Kalkulator ini mengiranya untuk anda dan, jika anda memasukkan kadar faedah, turut mengira faedah yang dijana oleh simpanan anda.",
+      "Contoh: untuk matlamat RM 30,000 dengan RM 5,000 sudah disimpan dan baki 10 bulan lagi, anda perlu menyimpan RM 2,500 sebulan tanpa mengambil kira faedah."
+     ]
+    },
+    {
+     "h": "Mengapa kadar faedah membawa perbezaan",
+     "p": [
+      "Jika simpanan anda menjana faedah dalam akaun simpanan atau dana, anda perlu menyimpan jumlah bulanan yang lebih kecil untuk mencapai matlamat yang sama. Lebih panjang tempohnya, lebih besar kesannya."
+     ]
+    },
+    {
+     "h": "Mulakan dengan dana kecemasan",
+     "p": [
+      "Sebelum mengejar matlamat yang lebih besar, dana kecemasan yang menampung kos keperluan beberapa bulan mengelakkan bil yang tidak dijangka daripada menjadi hutang."
+     ]
+    },
+    {
+     "h": "Cara untuk memudahkan amalan menyimpan",
+     "list": [
+      "Simpan sebaik sahaja menerima gaji dan anggap ia seperti bil.",
+      "Sediakan pindahan automatik supaya anda tidak perlu berfikir setiap kali.",
+      "Salurkan bonus dan pendapatan sampingan terus ke dalam matlamat.",
+      "Kongsi matlamat dengan pasangan atau keluarga untuk mencapainya dengan lebih cepat.",
+      "Pantau kemajuan anda secara kerap; setiap simpanan mengekalkan semangat anda."
+     ]
+    }
+   ],
+   "faq_title": "Soalan lazim",
+   "faq": [
+    {
+     "q": "Apakah kadar yang patut saya masukkan?",
+     "a": "Masukkan anggaran kadar faedah tahunan yang dibayar oleh akaun simpanan atau dana anda. Jika tidak pasti, masukkan 0 untuk melihat anggaran simpanan yang paling selamat."
+    },
+    {
+     "q": "Bagaimanakah cara untuk mencapai matlamat dengan lebih cepat?",
+     "a": "Tingkatkan jumlah bulanan, salurkan pendapatan tambahan ke dalam matlamat atau pilih akaun yang memberi pulangan faedah. Pendekkan tempoh masa dalam kalkulator untuk melihat perubahan jumlah bulanan."
+    },
+    {
+     "q": "Berapakah saiz dana kecemasan yang sepatutnya?",
+     "a": "Tiga hingga enam bulan kos keperluan harian ialah saranan umum. Lebih stabil pendapatan anda, lebih sedikit yang diperlukan; jika kurang stabil, simpanlah lebih banyak."
+    },
+    {
+     "q": "Adakah sebarang maklumat yang saya masukkan akan disimpan?",
+     "a": "Tidak. Pengiraan dijalankan sepenuhnya di dalam pelayar web anda; tiada maklumat yang disimpan atau dihantar ke mana-mana."
+    },
+    {
+     "q": "Bagaimanakah Spendry menjejak matlamat saya?",
+     "a": "Anda cipta matlamat dan lihat kemajuan setiap kali menambah wang. Spendry menunjukkan jumlah baki serta masa yang tinggal, dan anda boleh berkongsi matlamat dengan keluarga. Ia tidak pernah meminta butiran log masuk bank anda."
+    }
+   ],
+   "final_title": "Melangkah setapak lebih dekat kepada matlamat anda.",
+   "final_text": "Muat turun Spendry, cipta matlamat anda dan lihat betapa dekatnya sasaran itu setiap kali anda menyimpan."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Elak terlepas pembaharuan",
     "Spendry menjejaki langganan anda, memasukkannya ke dalam jumlah bulanan dan mengingatkan anda sebelum setiap pembaharuan."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Percuma · Tanpa pendaftaran · Berjalan dalam pelayar anda, tiada apa yang dihantar ke mana-mana",
+   "app_title": "Spendry memastikan tiada pembaharuan langganan berlaku di luar pengetahuan anda.",
+   "app_sub": "Kalkulator ini menunjukkan jumlah keseluruhan. Spendry menjejak langganan anda, memasukkannya ke dalam jumlah bulanan dan memberi peringatan sebelum setiap pembaharuan.",
+   "app_points": [
+    {
+     "title": "Peringatan sebelum setiap pembaharuan",
+     "text": "Muzik, penstriman, storan awan atau gim: anda dimaklumkan tentang setiap pembaharuan sebelum caj dikenakan.",
+     "shot": "07"
+    },
+    {
+     "title": "Ketahui kos langganan anda setahun",
+     "text": "Tanya pembantu pintar; jawapan dikira terus pada iPhone anda dan data kekal bersama anda.",
+     "shot": "09"
+    },
+    {
+     "title": "Lihat gambaran sebulan ke hadapan",
+     "text": "Lihat bagaimana langganan, kad kredit dan bil mempengaruhi kewangan anda bagi tempoh 30 hari akan datang.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Panduan ringkas mengenai langganan",
+   "guide": [
+    {
+     "h": "Cara mengira kos sebenar langganan anda",
+     "p": [
+      "Tukarkan setiap langganan kepada jumlah bulanan: bahagikan harga tahunan dengan 12, atau darabkan harga mingguan dengan 52 dan bahagikan dengan 12. Kemudian jumlahkan kesemuanya. Kalkulator ini mengiranya untuk anda serta menunjukkan jumlah bulanan, tahunan dan lima tahun.",
+      "Kos bulanan yang kecil nampak tidak membebankan. Namun apabila didarabkan dengan dua belas, dan ditambah merentasi semua langganan yang anda miliki, ia sering kali menjadi antara perbelanjaan tetap yang paling besar."
+     ]
+    },
+    {
+     "h": "Langganan mana yang patut dibatalkan",
+     "p": [
+      "Susun mengikut harga dan tanya diri anda untuk setiap langganan: adakah saya menggunakannya bulan lepas? Batalkan yang tidak digunakan, dan tetapkan peringatan sebelum tarikh pembaharuan untuk yang ingin dikekalkan.",
+      "Jika dua langganan menawarkan fungsi yang serupa, tamatkan salah satu daripadanya; pelan keluarga atau pelajar juga boleh mengurangkan jumlah keseluruhan."
+     ]
+    },
+    {
+     "h": "Berhati-hati dengan percubaan percuma",
+     "p": [
+      "Apabila tempoh percubaan percuma tamat, langganan biasanya mula mengenakan caj secara automatik. Catatkan tarikh tamat pada hari anda memulakan percubaan, atau tetapkan peringatan."
+     ]
+    },
+    {
+     "h": "Cara menjimatkan perbelanjaan langganan",
+     "list": [
+      "Semak semula semua langganan anda setahun sekali.",
+      "Tukar langganan yang digunakan sepanjang tahun kepada pelan tahunan; harganya lazimnya lebih murah.",
+      "Kongsi pelan keluarga.",
+      "Batalkan langganan pada bulan anda tidak menggunakannya dan langgan semula apabila perlu.",
+      "Tetapkan peringatan sebelum setiap pembaharuan."
+     ]
+    }
+   ],
+   "faq_title": "Soalan lazim",
+   "faq": [
+    {
+     "q": "Berapakah jumlah kos langganan saya setahun?",
+     "a": "Tukarkan setiap langganan kepada jumlah bulanan, campurkan kesemuanya dan darab dengan 12. Kalkulator ini mengiranya untuk anda dan turut memaparkan jumlah bagi lima tahun."
+    },
+    {
+     "q": "Bagaimanakah cara memasukkan langganan mingguan dan tahunan?",
+     "a": "Pilih tempoh bil pada setiap baris: mingguan, bulanan atau tahunan. Kalkulator ini akan menukarkan semuanya kepada unit yang sama."
+    },
+    {
+     "q": "Adakah pelan tahunan berbaloi?",
+     "a": "Jika anda menggunakan perkhidmatan itu sepanjang tahun, pelan tahunan biasanya lebih menjimatkan. Jika tidak pasti, kekalkan bayaran bulanan untuk beberapa bulan pertama."
+    },
+    {
+     "q": "Adakah sebarang maklumat yang saya masukkan akan disimpan?",
+     "a": "Tidak. Pengiraan dijalankan sepenuhnya di dalam pelayar web anda; tiada maklumat yang disimpan atau dihantar ke mana-mana."
+    },
+    {
+     "q": "Bagaimanakah Spendry menjejak langganan saya?",
+     "a": "Anda masukkan langganan sekali sahaja; Spendry menyerapkannya ke dalam jumlah bulanan, memberi peringatan sebelum setiap pembaharuan dan menunjukkan kos tahunan. Ia tidak pernah meminta butiran log masuk bank anda."
+    }
+   ],
+   "final_title": "Ketahui setiap pembaharuan lebih awal.",
+   "final_text": "Muat turun Spendry, masukkan langganan anda dan dapatkan peringatan awal sebelum setiap pembaharuan."
+  }
  }
 }

@@ -298,7 +298,154 @@
     "Dư nợ thay đổi theo từng tháng. Spendry giúp bạn theo dõi thẻ, khoản vay và hóa đơn, duy trì kế hoạch Tuyết lăn hoặc Tuyết lở liên tục và gửi lời nhắc trước ngày đến hạn."
    ]
   ],
-  "extra_hint": "Số tiền bạn có thể trả nợ ngoài mức thanh toán tối thiểu. Càng trả nhiều, bạn càng sớm sạch nợ."
+  "extra_hint": "Số tiền bạn có thể trả nợ ngoài mức thanh toán tối thiểu. Càng trả nhiều, bạn càng sớm sạch nợ.",
+  "landing": {
+   "trust": "Miễn phí · Không cần đăng ký · Chạy ngay trên trình duyệt, không gửi dữ liệu đi đâu",
+   "chart_title": "Các khoản nợ giảm dần qua từng tháng",
+   "chart_sub": "Tổng số dư còn lại theo cả hai phương pháp và khi không trả thêm. Mỗi dấu chấm là tháng bạn trả dứt điểm một khoản nợ.",
+   "extra_title": "Sức mạnh khi trả thêm mỗi tháng",
+   "extra_sub": "Xem số tiền bạn trả thêm ngoài mức tối thiểu giúp bạn hết nợ sớm hơn bao lâu và tiết kiệm bao nhiêu tiền lãi.",
+   "extra_amount": "Trả thêm mỗi tháng",
+   "extra_months": "Thời gian đến khi hết nợ",
+   "extra_none": "Không trả thêm",
+   "extra_sentence": "Trả thêm {extra} mỗi tháng giúp bạn hết nợ sớm hơn {months} và tiết kiệm {interest} tiền lãi.",
+   "extra_zero": "Nếu không trả thêm, bạn sẽ hết nợ sau {months}. Kéo thanh trượt để thấy sự khác biệt.",
+   "schedule_title": "Kế hoạch chi tiết từng tháng",
+   "schedule_sub": "Số tiền bạn trả mỗi tháng, tiền lãi phát sinh và số dư còn lại.",
+   "columns": [
+    "Tháng",
+    "Số tiền trả",
+    "Tiền lãi",
+    "Số dư còn lại"
+   ],
+   "show_all": "Xem tất cả các tháng",
+   "show_less": "Thu gọn",
+   "app_title": "Spendry theo dõi kế hoạch này giúp bạn, mỗi tháng.",
+   "app_sub": "Trang này chỉ là ảnh chụp tức thời. Spendry làm việc với số dư thực tế của bạn, tự tính lại kế hoạch sau mỗi lần thanh toán và nhắc bạn trước từng ngày đến hạn.",
+   "app_points": [
+    {
+     "title": "Mọi khoản nợ trên một màn hình",
+     "text": "Thẻ tín dụng, các khoản vay, tài khoản thấu chi và tiền nợ bạn bè; xem nhanh tổng nợ và số tiền cần trả mỗi tháng.",
+     "shot": "06"
+    },
+    {
+     "title": "Không bao giờ trễ hạn thanh toán",
+     "text": "Bạn nhận được nhắc nhở trước mỗi sao kê thẻ, khoản trả nợ vay và hóa đơn, tránh quên mức tối thiểu và không bị phạt phí trả chậm.",
+     "shot": "07"
+    },
+    {
+     "title": "Dự đoán số dư cuối tháng sớm hơn",
+     "text": "Spendry xem xét thu nhập và các khoản chi trong 30 ngày tới để cho bạn biết số dư của mình sẽ thay đổi ra sao.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Cẩm nang ngắn về trả nợ hiệu quả",
+   "guide": [
+    {
+     "h": "Phương pháp Tuyết lăn (Snowball) là gì?",
+     "p": [
+      "Với phương pháp tuyết lăn, bạn liệt kê các khoản nợ từ số dư nhỏ nhất đến lớn nhất. Bạn trả mức tối thiểu cho mọi khoản nợ và dành toàn bộ số tiền trả thêm cho khoản nợ nhỏ nhất. Khi khoản đó được trả hết, toàn bộ số tiền thanh toán của nó sẽ được dồn sang khoản nợ tiếp theo, tạo đà lớn dần qua từng khoản nợ bạn xóa được.",
+      "Điểm mạnh lớn nhất của phương pháp này là tạo động lực: khoản nợ đầu tiên biến mất chỉ sau vài tháng, giúp bạn dễ dàng theo đuổi kế hoạch đến cùng."
+     ]
+    },
+    {
+     "h": "Phương pháp Tuyết lở (Avalanche) là gì?",
+     "p": [
+      "Với phương pháp tuyết lở, bạn liệt kê các khoản nợ từ lãi suất cao nhất đến thấp nhất. Toàn bộ số tiền trả thêm sẽ dành cho khoản nợ có lãi suất đắt đỏ nhất trước. Vì bạn xử lý khoản nợ phát sinh lãi nhanh nhất, cách này thường giúp bạn tiết kiệm được nhiều tiền lãi nhất về tổng thể.",
+      "Điểm đánh đổi: nếu khoản nợ có lãi suất cao nhất của bạn quá lớn, việc xóa sạch khoản nợ đầu tiên có thể mất nhiều thời gian hơn."
+     ]
+    },
+    {
+     "h": "Phương pháp nào phù hợp với bạn?",
+     "table": [
+      [
+       "",
+       "Tuyết lăn (Snowball)",
+       "Tuyết lở (Avalanche)"
+      ],
+      [
+       "Ưu tiên trả trước",
+       "Số dư nhỏ nhất",
+       "Lãi suất cao nhất"
+      ],
+      [
+       "Tổng tiền lãi",
+       "Có thể cao hơn một chút",
+       "Thường là thấp nhất"
+      ],
+      [
+       "Khoản nợ đầu dứt điểm",
+       "Nhanh chóng",
+       "Có thể lâu hơn"
+      ],
+      [
+       "Phù hợp nhất với",
+       "Người cần động lực tâm lý",
+       "Người muốn tối ưu chi phí"
+      ]
+     ],
+     "p": [
+      "Sự chênh lệch giữa hai cách thường không quá lớn; điều quan trọng nhất là bạn có một kế hoạch rõ ràng. Công cụ tính ở trên sẽ so sánh cả hai phương pháp dựa trên số liệu thực tế của bạn để xem cách nào tiết kiệm hơn."
+     ]
+    },
+    {
+     "h": "Cách tính toán hoạt động ra sao, kèm ví dụ",
+     "p": [
+      "Mỗi tháng, tiền lãi được tính trước: số dư nhân với lãi suất theo tháng. Với số dư thẻ tín dụng 100.000.000 ₫ có lãi suất năm 24%, tương đương 2% mỗi tháng, tiền lãi tháng đó sẽ là 2.000.000 ₫.",
+      "Sau đó, mỗi khoản nợ được thanh toán mức tối thiểu và phần trả thêm được dồn vào khoản nợ ưu tiên tiếp theo. Khi một khoản nợ được trả xong, số tiền thanh toán của nó sẽ chuyển tiếp sang khoản nợ kế tiếp.",
+      "Công cụ tính sẽ lặp lại các bước này từng tháng một cho đến khi khoản nợ cuối cùng được dọn sạch; từ đó cho bạn biết tháng bạn hết nợ và tổng số tiền lãi phải trả."
+     ]
+    },
+    {
+     "h": "Cái bẫy thanh toán tối thiểu",
+     "p": [
+      "Chỉ trả số tiền tối thiểu trên thẻ tín dụng sẽ khiến khoản nợ kéo dài mãi: lãi suất tiếp tục tính trên phần dư nợ còn lại mỗi tháng và bạn có thể mất nhiều năm mới trả xong.",
+      "Chỉ cần trả thêm một khoản nhỏ ngoài mức tối thiểu, Ngày bạn hết nợ đã được rút ngắn đi nhiều tháng. Hãy thử nhập số liệu của bạn vào mục số tiền trả thêm ở trên để thấy kết quả."
+     ]
+    },
+    {
+     "h": "Cách trả hết nợ nhanh hơn",
+     "list": [
+      "Ngừng tạo thêm nợ mới: chỉ dùng thẻ cho những khoản chi tiêu bạn chắc chắn có thể trả hết trong tháng.",
+      "Trả một khoản cố định cao hơn mức tối thiểu mỗi tháng và cài đặt thanh toán tự động.",
+      "Dồn các khoản tiền thưởng, hoàn thuế và thu nhập làm thêm vào khoản nợ đang ưu tiên trả.",
+      "Tính toán kỹ xem việc chuyển số dư từ nơi lãi suất cao sang khoản vay lãi suất thấp hơn có thực sự giảm tổng chi phí hay không.",
+      "Rà soát các gói đăng ký định kỳ; hủy những dịch vụ bạn không dùng và dành số tiền đó để trả nợ.",
+      "Không bao giờ để trễ hạn: phí phạt thanh toán chậm và lãi suất phạt sẽ làm gián đoạn toàn bộ kế hoạch của bạn."
+     ]
+    }
+   ],
+   "faq_title": "Câu hỏi thường gặp",
+   "faq": [
+    {
+     "q": "Phương pháp tuyết lăn hay tuyết lở tốn ít tiền lãi hơn?",
+     "a": "Trong hầu hết các trường hợp, phương pháp tuyết lở, tức là ưu tiên trả khoản có lãi suất cao nhất trước, sẽ tốn ít tiền lãi nhất. Phương pháp tuyết lăn giúp bạn xóa dứt điểm khoản nợ đầu tiên nhanh hơn, mang lại động lực duy trì. Công cụ tính sẽ so sánh cả hai phương pháp với chính số liệu của bạn."
+    },
+    {
+     "q": "Tôi có thể thêm những khoản nợ nào?",
+     "a": "Thẻ tín dụng, vay tiêu dùng cá nhân, vay mua xe, vay sinh viên, tài khoản thấu chi hoặc tiền nợ gia đình và bạn bè. Đối với khoản nợ không tính lãi, bạn chỉ cần nhập lãi suất là 0."
+    },
+    {
+     "q": "Tôi có thể xem lãi suất của mình ở đâu?",
+     "a": "Lãi suất được ghi trên sao kê thẻ tín dụng, trong hợp đồng vay hoặc trên ứng dụng ngân hàng của bạn, thường hiển thị dưới dạng lãi suất năm. Bạn chỉ cần nhập lãi suất năm; công cụ sẽ tự quy đổi ra lãi suất tháng."
+    },
+    {
+     "q": "Kết quả tính toán chính xác đến mức nào?",
+     "a": "Kết quả giả định lãi suất không đổi, bạn thanh toán đều đặn số tiền đó mỗi tháng và không phát sinh thêm các loại phí. Lãi suất thực tế có thể thay đổi, vì vậy hãy dùng kết quả này như một kế hoạch định hướng."
+    },
+    {
+     "q": "Dữ liệu tôi nhập có bị gửi đi đâu không?",
+     "a": "Không. Toàn bộ phép tính chạy hoàn toàn trên trình duyệt của bạn; không có thông tin nào bạn nhập bị lưu lại hay gửi đi bất kỳ đâu."
+    },
+    {
+     "q": "Spendry làm được những gì mà công cụ này không có?",
+     "a": "Spendry làm việc trực tiếp với số dư thực tế của bạn, tự động cập nhật kế hoạch sau mỗi lần thanh toán, nhắc nhở trước từng ngày đến hạn và luôn cho bạn thấy Ngày bạn hết nợ chính xác. Ứng dụng không bao giờ yêu cầu thông tin đăng nhập ngân hàng và không thu thập bất kỳ dữ liệu nào."
+    }
+   ],
+   "final_title": "Nắm rõ ngày bạn hết nợ ngay trong túi.",
+   "final_text": "Tải Spendry, nhập các khoản nợ của bạn một lần, và kế hoạch trả nợ sẽ tự động cập nhật mỗi tháng.",
+   "chart_none": "Khi không trả thêm"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Vận hành hoàn toàn tự động",
     "Trong Spendry, mỗi danh mục đều có hạn mức ngân sách tháng tăng dần theo mức bạn tiêu, kèm cảnh báo nhắc nhở trước khi bạn chi tiêu quá giới hạn."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Miễn phí · Không cần đăng ký · Chạy ngay trên trình duyệt, không gửi dữ liệu đi đâu",
+   "app_title": "Spendry quản lý ngân sách giúp bạn, mỗi ngày.",
+   "app_sub": "Quy tắc 50/30/20 là khởi đầu tuyệt vời. Spendry tự động xếp từng khoản chi vào đúng danh mục, cảnh báo trước khi hết ngân sách và cho bạn thấy bức tranh tài chính cuối tháng từ sớm.",
+   "app_points": [
+    {
+     "title": "Ngân sách cho từng danh mục",
+     "text": "Đi chợ, đi lại, hóa đơn: đặt hạn mức hàng tháng cho từng mục và luôn biết mình còn lại bao nhiêu.",
+     "shot": "04"
+    },
+    {
+     "title": "Thêm chi phí chỉ trong vài giây",
+     "text": "Nhập số tiền, chọn danh mục, xong ngay. Các mẫu có sẵn giúp bạn nhập khoản chi thường ngày chỉ với một chạm.",
+     "shot": "02"
+    },
+    {
+     "title": "Biết rõ tiền trong tháng đã đi đâu",
+     "text": "Biểu đồ theo tuần và tháng cho thấy bạn chi tiêu nhiều nhất vào việc gì, so sánh dễ dàng với tháng trước.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Hướng dẫn ngắn về quản lý ngân sách",
+   "guide": [
+    {
+     "h": "Quy tắc 50/30/20 là gì?",
+     "p": [
+      "Một nửa thu nhập thực nhận dành cho nhu cầu thiết yếu (tiền nhà, hóa đơn, ăn uống, đi lại), 30 phần trăm cho sở thích (ăn ngoài, giải trí, mua sắm) và 20 phần trăm cho tiết kiệm và trả nợ.",
+      "Đây là gợi ý để bạn bắt đầu. Nếu riêng tiền thuê nhà đã chiếm nửa thu nhập, hãy điều chỉnh tỷ lệ cho phù hợp với cuộc sống của bạn, và ưu tiên trả các khoản nợ có lãi suất cao trước."
+     ]
+    },
+    {
+     "h": "Cách lập ngân sách hàng tháng",
+     "p": [
+      "Bắt đầu với thu nhập: tiền lương, việc làm thêm và mọi nguồn thu định kỳ khác. Sau đó dành riêng một khoản cho các chi phí cố định vào đầu tháng: tiền nhà, hóa đơn, tiền trả nợ và gói đăng ký.",
+      "Ghi chép các khoản chi linh hoạt như ăn uống, đi cà phê và đi lại ngay khi chúng phát sinh; nếu để dồn đến cuối tháng, bạn sẽ quên hầu hết. Đến cuối tháng, lấy thu nhập trừ đi chi tiêu và chuyển phần còn lại vào tiết kiệm."
+     ]
+    },
+    {
+     "h": "Lên kế hoạch cho sao kê thẻ tín dụng",
+     "p": [
+      "Tiền quẹt thẻ không bị trừ khỏi tài khoản ngay hôm nay; chúng chỉ rời đi khi bạn thanh toán sao kê. Khi lập kế hoạch cho tháng, hãy tính cả số tiền sao kê bạn sắp phải trả, chứ không chỉ số dư tài khoản hiện có."
+     ]
+    },
+    {
+     "h": "Cách duy trì thói quen giữ ngân sách",
+     "list": [
+      "Trả cho bản thân trước: trích ngay tiền tiết kiệm ngay khi vừa nhận lương.",
+      "Nhập các chi phí cố định một lần và để chúng tự lặp lại mỗi tháng.",
+      "Ghi lại cả những khoản chi nhỏ; chính chúng mới tạo nên khác biệt lớn vào cuối tháng.",
+      "Kiểm tra lại các gói đăng ký định kỳ mỗi năm một lần.",
+      "Xem lại ngân sách vào giữa tháng và điều chỉnh nửa tháng sau nếu cần thiết."
+     ]
+    }
+   ],
+   "faq_title": "Câu hỏi thường gặp",
+   "faq": [
+    {
+     "q": "Quy tắc 50/30/20 có phù hợp với tất cả mọi người?",
+     "a": "Không, đây chỉ là gợi ý ban đầu. Nếu tiền nhà và hóa đơn chiếm hơn nửa thu nhập, bạn cứ thoải mái đổi tỷ lệ; điều quan trọng nhất là tháng nào cũng trích được một khoản cho tiết kiệm và trả nợ."
+    },
+    {
+     "q": "Nên dùng thu nhập trước thuế hay sau thuế?",
+     "a": "Hãy dùng thu nhập thực nhận, tức là số tiền thực tế về đến tài khoản sau khi đã trừ thuế và các khoản bảo hiểm."
+    },
+    {
+     "q": "Các khoản trả nợ xếp vào đâu?",
+     "a": "Khoản thanh toán tối thiểu thuộc về nhu cầu thiết yếu. Bất kỳ số tiền nào bạn trả thêm ngoài mức tối thiểu sẽ tính vào 20 phần trăm dành cho tiết kiệm và nợ."
+    },
+    {
+     "q": "Thông tin tôi nhập có bị lưu lại không?",
+     "a": "Không. Phép tính chạy hoàn toàn trên trình duyệt của bạn; không có thông tin nào bị lưu trữ hay gửi đi đâu."
+    },
+    {
+     "q": "Spendry quản lý ngân sách giúp tôi như thế nào?",
+     "a": "Bạn đặt ngân sách hàng tháng cho từng danh mục; thanh ngân sách sẽ tự đầy lên khi bạn tiêu tiền và cảnh báo trước khi bạn chi quá tay. Nhờ theo dõi thẻ tín dụng, các khoản vay và gói đăng ký cùng một nơi, bạn có thể dự tính được tình hình tài chính cuối tháng từ sớm. Ứng dụng không bao giờ yêu cầu mật khẩu ngân hàng của bạn."
+    }
+   ],
+   "final_title": "Mang ngân sách theo bên mình mọi lúc.",
+   "final_text": "Tải Spendry, nhập thu nhập và chi phí cố định một lần, rồi thảnh thơi nắm bắt tình hình tài chính mỗi cuối tháng từ trước."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Biến kế hoạch thành hiện thực",
     "Spendry giúp bạn duy trì kế hoạch: thêm Thẻ tín dụng, đặt số tiền bạn có thể trả mỗi tháng và nhận Nhắc nhở trước mọi ngày đến hạn."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Miễn phí · Không cần đăng ký · Chạy ngay trên trình duyệt, không gửi dữ liệu đi đâu",
+   "app_title": "Spendry theo dõi dư nợ thẻ cho bạn, mỗi tháng.",
+   "app_sub": "Công cụ tính chỉ lập kế hoạch cho một thẻ. Spendry quản lý tất cả các thẻ của bạn, theo dõi ngày sao kê và ngày đến hạn, đồng thời nhắc bạn trước mỗi lần thanh toán.",
+   "app_points": [
+    {
+     "title": "Mọi chiếc thẻ trong một danh sách",
+     "text": "Xem nhanh dư nợ sao kê, ngày đến hạn thanh toán và số ngày còn lại của từng thẻ.",
+     "shot": "06"
+    },
+    {
+     "title": "Nhắc nhở trước từng ngày đến hạn",
+     "text": "Nhận thông báo khi sao kê được chốt và trước ngày đến hạn thanh toán, giúp bạn không bao giờ quên trả mức tối thiểu và tránh phí trễ hạn.",
+     "shot": "07"
+    },
+    {
+     "title": "Biết rõ tiền đã đi đâu",
+     "text": "Phân loại chi tiêu qua thẻ theo từng danh mục, giúp bạn dễ dàng nhận ra những khoản có thể cắt giảm.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Cẩm nang ngắn về nợ thẻ tín dụng",
+   "guide": [
+    {
+     "h": "Tiền lãi thẻ tín dụng được tính như thế nào",
+     "p": [
+      "Mỗi tháng, thẻ của bạn tính lãi trên số dư nợ chưa trả dựa theo lãi suất năm của thẻ. Khoản tiền bạn thanh toán sẽ bù đắp phần tiền lãi này trước, phần còn lại mới làm giảm dư nợ gốc. Công cụ tính sẽ lặp lại chu trình này từng tháng cho đến khi hết sạch nợ.",
+      "Ví dụ: dư nợ 60.000.000 ₫ với lãi suất năm 24%, tương đương 2% mỗi tháng, sẽ phát sinh 1.200.000 ₫ tiền lãi. Nếu bạn trả 4.000.000 ₫, dư nợ giảm xuống còn 57.200.000 ₫; tiền lãi tháng sau sẽ được tính trên con số mới này."
+     ]
+    },
+    {
+     "h": "Vì sao chỉ trả tối thiểu lại mất nhiều thời gian đến vậy",
+     "p": [
+      "Số tiền thanh toán tối thiểu thường chỉ là một tỷ lệ phần trăm nhỏ trên tổng dư nợ. Khi dư nợ giảm dần, số tiền tối thiểu cũng giảm theo, khiến phần lớn số tiền bạn trả chỉ đủ bù tiền lãi và bạn có thể mất hàng năm trời mới hết nợ.",
+      "Trả một số tiền cố định sẽ phá vỡ vòng luẩn quẩn đó: cùng một số tiền sẽ liên tục làm hao mòn dư nợ gốc qua từng tháng. Bảng so sánh trong công cụ tính sẽ chỉ rõ sự khác biệt với số liệu của bạn."
+     ]
+    },
+    {
+     "h": "Ngày sao kê và ngày đến hạn thanh toán",
+     "p": [
+      "Ngày sao kê là ngày chốt chu kỳ thanh toán và xác định số dư nợ của bạn. Ngày đến hạn là ngày cuối cùng để bạn thanh toán khoản đó, thường rơi vào khoảng vài tuần sau ngày sao kê.",
+      "Thanh toán toàn bộ dư nợ sao kê trước hoặc đúng ngày đến hạn, bạn sẽ không bị tính lãi cho các giao dịch mua sắm. Nếu chỉ trả một phần, tiền lãi sẽ được tính trên phần dư nợ còn lại."
+     ]
+    },
+    {
+     "h": "Cách trả hết nợ thẻ nhanh hơn",
+     "list": [
+      "Trả một số tiền cố định mỗi tháng, càng nhiều càng tốt, thay vì chỉ trả mức tối thiểu.",
+      "Tạm dừng chi tiêu mới qua thẻ trong thời gian bạn đang tập trung trả nợ.",
+      "Nếu bạn có nhiều thẻ, hãy dồn tiền trả thêm cho thẻ có lãi suất năm cao nhất trước.",
+      "Kiểm tra xem phương án chuyển đổi dư nợ hoặc vay với lãi suất thấp hơn có thực sự tiết kiệm chi phí sau khi tính cả các loại phí hay không.",
+      "Tuyệt đối không để trễ hạn; phí phạt thanh toán chậm và lãi suất phạt sẽ làm hỏng kế hoạch trả nợ của bạn."
+     ]
+    }
+   ],
+   "faq_title": "Câu hỏi thường gặp",
+   "faq": [
+    {
+     "q": "Mất bao lâu nếu tôi chỉ trả số tiền tối thiểu?",
+     "a": "Thời gian phụ thuộc vào số dư nợ, lãi suất năm và công thức tính mức tối thiểu của ngân hàng, nhưng thông thường sẽ mất nhiều năm. Công cụ tính sẽ chỉ ra thời điểm bạn có thể hết nợ nếu chỉ trả mức tối thiểu và tổng số tiền lãi phải gánh."
+    },
+    {
+     "q": "Lãi suất năm là gì?",
+     "a": "Lãi suất năm là mức lãi suất tính theo chu kỳ một năm của thẻ. Ngân hàng sẽ tính lãi theo tháng, tương đương khoảng một phần mười hai của lãi suất năm, áp dụng trên số dư nợ bạn chưa thanh toán."
+    },
+    {
+     "q": "Số tiền thanh toán tối thiểu được tính như thế nào?",
+     "a": "Hầu hết các ngân hàng tính mức tối thiểu bằng một tỷ lệ phần trăm nhỏ trên tổng dư nợ, thường đi kèm một số tiền sàn cố định, cộng thêm tiền lãi và các khoản phí phát sinh. Bản sao kê sẽ ghi rõ con số này; bạn cũng có thể tùy chỉnh tỷ lệ phần trăm trong công cụ tính."
+    },
+    {
+     "q": "Công cụ tính có bao gồm các loại phí không?",
+     "a": "Không. Phí thường niên, phí phạt trả chậm và phí chuyển đổi dư nợ không được tính vào, vì vậy chi phí thực tế của bạn có thể cao hơn một chút."
+    },
+    {
+     "q": "Dữ liệu tôi nhập có được lưu lại không?",
+     "a": "Không. Toàn bộ phép tính chạy hoàn toàn trên trình duyệt của bạn; không có thông tin nào bạn nhập bị lưu lại hay gửi đi bất kỳ đâu."
+    },
+    {
+     "q": "Spendry theo dõi nợ thẻ của tôi như thế nào?",
+     "a": "Bạn chỉ cần thêm thẻ của mình; Spendry sẽ theo dõi ngày sao kê và ngày đến hạn, nhắc nhở trước khi thanh toán, đồng thời cập nhật số dư nợ và Ngày bạn hết nợ mỗi khi bạn ghi nhận một khoản chi trả. Ứng dụng không bao giờ yêu cầu mật khẩu hay thông tin đăng nhập ngân hàng của bạn."
+    }
+   ],
+   "final_title": "Đưa dư nợ thẻ của bạn vào một kế hoạch rõ ràng.",
+   "final_text": "Tải Spendry, thêm các thẻ của bạn và để ứng dụng tự động theo dõi từng kỳ sao kê cùng ngày đến hạn."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Theo dõi sau khi ký hợp đồng",
     "Thêm khoản vay vào Spendry để xem số kỳ còn lại, tháng kết thúc và nhận Nhắc nhở trước mỗi đợt thanh toán."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Free · No sign-up · Runs in your browser, nothing is sent anywhere",
+   "app_title": "Spendry theo sát khoản vay của bạn đến kỳ thanh toán cuối cùng.",
+   "app_sub": "Công cụ tính cho bạn biết số tiền cần trả. Spendry theo dõi số kỳ còn lại, tháng kết thúc và từng ngày đến hạn, rồi nhắc bạn trước mỗi đợt thanh toán.",
+   "app_points": [
+    {
+     "title": "Mọi khoản vay trong một danh sách",
+     "text": "Vay mua xe, vay tiêu dùng và vay học tập: nắm rõ số kỳ còn lại và tổng tiền cần trả hàng tháng chỉ trong chớp mắt.",
+     "shot": "06"
+    },
+    {
+     "title": "Nhắc nhở trước mỗi kỳ thanh toán",
+     "text": "Không bao giờ lo trễ hạn trả nợ, hay phải chịu thêm phí phạt chậm trả.",
+     "shot": "07"
+    },
+    {
+     "title": "Nhìn trước cả tháng sắp tới",
+     "text": "Spendry giúp bạn thấy các khoản vay, thẻ tín dụng và hóa đơn sẽ tác động thế nào đến chi tiêu trong 30 ngày tới.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Hướng dẫn ngắn về các khoản vay",
+   "guide": [
+    {
+     "h": "Khoản trả góp hàng tháng được tính như thế nào?",
+     "p": [
+      "Hầu hết các khoản vay tiêu dùng và vay mua xe đều trả góp định kỳ: bạn trả số tiền như nhau mỗi tháng. Một phần của khoản tiền dùng để trả lãi trên dư nợ còn lại, phần còn lại dùng để trừ vào tiền gốc.",
+      "Những kỳ đầu tiên tiền lãi chiếm phần lớn; khi dư nợ giảm dần, tiền gốc được trả nhiều hơn trong mỗi kỳ. Bảng trong công cụ tính sẽ cho bạn thấy rõ điều này qua từng tháng."
+     ]
+    },
+    {
+     "h": "Kỳ hạn ngắn hơn hay tiền trả hàng tháng thấp hơn?",
+     "p": [
+      "Kỳ hạn vay dài hơn giúp giảm số tiền trả mỗi tháng nhưng làm tăng tổng số tiền lãi. Kỳ hạn ngắn hơn làm tăng số tiền trả mỗi tháng nhưng giúp giảm tổng chi phí vay.",
+      "Kỳ hạn ngắn nhất mà ngân sách của bạn vẫn chịu đựng thoải mái thường là lựa chọn tiết kiệm nhất."
+     ]
+    },
+    {
+     "h": "Lãi suất hàng năm (APR) và lãi suất danh nghĩa",
+     "p": [
+      "Lãi suất là chi phí bạn phải trả để vay tiền. Lãi suất hàng năm (APR) bao gồm cả hầu hết các khoản phí liên quan, giúp bạn so sánh giữa các gói vay chính xác hơn."
+     ]
+    },
+    {
+     "h": "Cách trả ít tiền lãi hơn",
+     "list": [
+      "So sánh các gói vay bằng lãi suất hàng năm (APR), đừng chỉ nhìn vào số tiền trả mỗi tháng.",
+      "Chọn kỳ hạn ngắn hơn nếu ngân sách cho phép.",
+      "Trả thêm tiền vào nợ gốc ngay từ những tháng đầu của khoản vay.",
+      "Hỏi rõ bên cho vay xem có bị phạt phí trả nợ trước hạn hay không.",
+      "Đừng bao giờ để trễ hạn thanh toán; phí phạt trễ hạn tích tụ rất nhanh."
+     ]
+    }
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    {
+     "q": "Số tiền thanh toán hàng tháng được tính thế nào?",
+     "a": "Bằng công thức trả góp tiêu chuẩn: dựa trên số tiền vay, lãi suất theo tháng (lãi suất năm chia cho 12) và số tháng vay. Tiền lãi được tính trên dư nợ thực tế còn lại mỗi tháng."
+    },
+    {
+     "q": "Lãi suất hàng năm (APR) khác gì với lãi suất thông thường?",
+     "a": "Lãi suất là chi phí bạn trả để vay tiền. Lãi suất hàng năm (APR) tính thêm hầu hết các loại phí đi kèm, giúp bạn so sánh các gói vay chuẩn xác hơn."
+    },
+    {
+     "q": "Trả thêm tiền nợ gốc có lợi không?",
+     "a": "Có. Trả thêm vào tiền gốc sẽ giúp hạ dư nợ chịu lãi, nhờ đó bạn trả ít tiền lãi hơn và tất toán sớm hơn. Hãy kiểm tra xem bên cho vay có thu phí trả trước hạn không."
+    },
+    {
+     "q": "Công cụ tính có bao gồm phí hoặc thuế không?",
+     "a": "Không. Các loại phí mở hồ sơ, phí bảo hiểm và thuế chưa được tính vào đây."
+    },
+    {
+     "q": "Thông tin tôi nhập có bị lưu lại không?",
+     "a": "Không. Phép tính chạy hoàn toàn trên trình duyệt của bạn; không có thông tin nào bị lưu trữ hay gửi đi đâu."
+    },
+    {
+     "q": "Spendry theo dõi khoản vay của tôi như thế nào?",
+     "a": "Bạn chỉ cần thêm khoản vay một lần; Spendry sẽ hiển thị số kỳ còn lại, tháng kết thúc, tổng tiền trả hàng tháng và nhắc bạn trước mỗi đợt thanh toán. Ứng dụng không bao giờ yêu cầu mật khẩu ngân hàng của bạn."
+    }
+   ],
+   "final_title": "Kế hoạch trả nợ rõ ràng, đến kỳ cuối cùng.",
+   "final_text": "Tải Spendry, thêm khoản vay của bạn và để ứng dụng tự theo dõi từng kỳ trả góp."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Theo dõi tiến độ của bạn",
     "Tạo Mục tiêu trong Spendry để xem bạn đã tiến gần đến đích thế nào sau mỗi lần nạp thêm tiền."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Miễn phí · Không cần đăng ký · Chạy ngay trên trình duyệt, không gửi dữ liệu đi đâu",
+   "app_title": "Spendry đồng hành cùng bạn trên từng chặng đường tích lũy.",
+   "app_sub": "Công cụ tính giúp bạn biết số tiền cần dành ra mỗi tháng. Spendry lưu lại Mục tiêu, cập nhật tiến độ mỗi lần bạn tích lũy thêm và tính toán thời gian còn lại.",
+   "app_points": [
+    {
+     "title": "Mọi mục tiêu trên một màn hình",
+     "text": "Quỹ khẩn cấp, chuyến du lịch, đổi xe mới: theo dõi tiến độ từng mục tiêu và số ngày còn lại.",
+     "shot": "05"
+    },
+    {
+     "title": "Nắm rõ tháng tới",
+     "text": "Biết rõ bạn có thể tiết kiệm bao nhiêu trong tháng này dựa trên thu nhập và các khoản chi tiêu.",
+     "shot": "01"
+    },
+    {
+     "title": "Theo dõi tài sản tăng trưởng",
+     "text": "Theo sát giá trị vàng, ngoại tệ, cổ phiếu và chứng chỉ quỹ theo giá thị trường.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Cẩm nang ngắn để tích lũy cho mục tiêu",
+   "guide": [
+    {
+     "h": "Tôi nên tiết kiệm bao nhiêu mỗi tháng?",
+     "p": [
+      "Lấy số tiền mục tiêu trừ đi số tiền bạn đã có, rồi chia cho số tháng dự định. Công cụ tính sẽ làm việc này giúp bạn. Nếu bạn nhập thêm lãi suất, công cụ cũng sẽ tính cả tiền lãi sinh ra từ khoản tiết kiệm.",
+      "Ví dụ: với mục tiêu 120.000.000 ₫, bạn đã có sẵn 20.000.000 ₫ và còn 10 tháng, bạn cần dành ra 10.000.000 ₫ mỗi tháng nếu không tính lãi."
+     ]
+    },
+    {
+     "h": "Lãi suất tạo ra khác biệt gì?",
+     "p": [
+      "Nếu khoản tiết kiệm sinh lời trong tài khoản tiền gửi hoặc quỹ đầu tư, số tiền bạn cần góp mỗi tháng sẽ ít hơn để đạt cùng một mục tiêu. Thời gian càng dài, hiệu quả tích lũy càng lớn."
+     ]
+    },
+    {
+     "h": "Bắt đầu bằng quỹ khẩn cấp",
+     "p": [
+      "Trước khi thực hiện các mục tiêu lớn hơn, hãy lập quỹ khẩn cấp đủ trang trải vài tháng chi phí thiết yếu để các sự cố bất ngờ không biến thành nợ nần."
+     ]
+    },
+    {
+     "h": "Cách giúp việc tiết kiệm dễ dàng hơn",
+     "list": [
+      "Trích tiền tiết kiệm ngay khi nhận lương, xem đó như một hóa đơn bắt buộc.",
+      "Đặt lịch chuyển tiền tự động để không cần phải đắn đo suy nghĩ.",
+      "Chuyển toàn bộ tiền thưởng và thu nhập phụ vào thẳng mục tiêu tích lũy.",
+      "Chia sẻ mục tiêu với bạn đời hoặc gia đình để về đích nhanh hơn.",
+      "Luôn theo dõi tiến độ rõ ràng; mỗi lần nạp tiền sẽ tiếp thêm động lực cho bạn."
+     ]
+    }
+   ],
+   "faq_title": "Câu hỏi thường gặp",
+   "faq": [
+    {
+     "q": "Tôi nên nhập lãi suất bao nhiêu?",
+     "a": "Hãy nhập lãi suất năm dự kiến của tài khoản tiết kiệm hoặc quỹ đầu tư. Nếu chưa chắc chắn, bạn có thể để 0 để xem kế hoạch tiết kiệm an toàn nhất."
+    },
+    {
+     "q": "Làm sao để đạt mục tiêu sớm hơn?",
+     "a": "Tăng số tiền tiết kiệm mỗi tháng, gom thêm thu nhập ngoài vào mục tiêu hoặc chọn nơi gửi có lãi suất tốt hơn. Bạn có thể rút ngắn thời gian trên công cụ tính để xem số tiền mỗi tháng thay đổi ra sao."
+    },
+    {
+     "q": "Quỹ khẩn cấp nên có bao nhiêu tiền?",
+     "a": "Lời khuyên thông thường là đủ chi phí thiết yếu từ ba đến sáu tháng. Thu nhập càng ổn định thì bạn cần chuẩn bị ít hơn; thu nhập bấp bênh thì cần nhiều hơn."
+    },
+    {
+     "q": "Dữ liệu tôi nhập có bị lưu lại không?",
+     "a": "Không. Mọi phép tính đều chạy hoàn toàn trên trình duyệt của bạn; không có thông tin nào được lưu trữ hay gửi đi đâu."
+    },
+    {
+     "q": "Spendry theo dõi mục tiêu của tôi như thế nào?",
+     "a": "Bạn tạo một mục tiêu và thấy ngay tiến độ mỗi lần nạp thêm tiền. Spendry hiển thị số tiền và thời gian còn lại, đồng thời bạn có thể chia sẻ mục tiêu cùng gia đình. Ứng dụng không bao giờ yêu cầu thông tin đăng nhập ngân hàng của bạn."
+    }
+   ],
+   "final_title": "Tiến thêm một bước đến mục tiêu của bạn.",
+   "final_text": "Tải Spendry, tạo mục tiêu và cảm nhận bạn đang đến gần đích hơn sau mỗi lần tích lũy."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Không bao giờ bị trừ tiền bất ngờ",
     "Spendry theo dõi các Gói đăng ký, tính chúng vào tổng chi phí hàng tháng và gửi Nhắc nhở cho bạn trước mỗi kỳ gia hạn."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Miễn phí · Không cần đăng ký · Chạy ngay trên trình duyệt, không gửi dữ liệu đi đâu",
+   "app_title": "Spendry giúp bạn không bao giờ bị trừ tiền gia hạn bất ngờ.",
+   "app_sub": "Công cụ tính giúp bạn thấy tổng chi phí. Spendry quản lý các Gói đăng ký, tính vào tổng chi tiêu hằng tháng và nhắc bạn trước mỗi đợt gia hạn.",
+   "app_points": [
+    {
+     "title": "Nhắc nhở trước mỗi kỳ gia hạn",
+     "text": "Nghe nhạc, xem phim trực tuyến, lưu trữ đám mây hay phòng gym: bạn luôn nhận thông báo trước khi bị trừ tiền.",
+     "shot": "07"
+    },
+    {
+     "title": "Hỏi trợ lý về chi phí dịch vụ cả năm",
+     "text": "Hỏi trợ lý ảo bất cứ lúc nào; câu trả lời được xử lý trực tiếp trên iPhone và dữ liệu luôn nằm trọn trên máy bạn.",
+     "shot": "09"
+    },
+    {
+     "title": "Nắm rõ tháng tới",
+     "text": "Xem các gói đăng ký, thẻ tín dụng và hóa đơn sẽ ảnh hưởng thế nào đến 30 ngày tiếp theo.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Cẩm nang ngắn về các gói đăng ký",
+   "guide": [
+    {
+     "h": "Cách tính chi phí thực tế của các gói đăng ký",
+     "p": [
+      "Quy đổi từng dịch vụ về mức phí hằng tháng: lấy giá năm chia cho 12, hoặc lấy giá tuần nhân 52 rồi chia cho 12. Sau đó cộng tất cả lại. Công cụ tính sẽ làm việc này và hiển thị tổng tiền theo tháng, theo năm và trong năm năm.",
+      "Số tiền nhỏ hằng tháng trông có vẻ không đáng kể. Nhưng khi nhân với mười hai, rồi nhân với tất cả dịch vụ bạn đang dùng, đó thường lại là một trong những khoản chi cố định lớn nhất."
+     ]
+    },
+    {
+     "h": "Nên hủy những gói đăng ký nào",
+     "p": [
+      "Sắp xếp danh sách theo mức giá và tự hỏi: tháng trước mình có dùng dịch vụ này không? Hãy hủy những dịch vụ bạn không đụng tới, và đặt lời nhắc trước ngày gia hạn của những dịch vụ muốn giữ lại.",
+      "Nếu có hai dịch vụ cùng chung tính năng, hãy bỏ bớt một; các gói gia đình hoặc gói sinh viên cũng giúp giảm đáng kể chi phí."
+     ]
+    },
+    {
+     "h": "Cẩn thận với các chương trình dùng thử miễn phí",
+     "p": [
+      "Khi hết hạn dùng thử, dịch vụ thường tự động trừ tiền kỳ tiếp theo. Hãy ghi lại ngày kết thúc ngay khi bắt đầu dùng thử, hoặc cài đặt sẵn một lời nhắc."
+     ]
+    },
+    {
+     "h": "Cách cắt giảm chi phí đăng ký định kỳ",
+     "list": [
+      "Kiểm tra lại toàn bộ gói đăng ký mỗi năm một lần.",
+      "Chuyển những dịch vụ bạn dùng quanh năm sang gói năm; mức giá thường rẻ hơn.",
+      "Dùng chung gói gia đình với người thân.",
+      "Hủy dịch vụ vào những tháng bạn không có nhu cầu và đăng ký lại khi cần.",
+      "Cài đặt nhắc nhở trước mỗi lần gia hạn."
+     ]
+    }
+   ],
+   "faq_title": "Câu hỏi thường gặp",
+   "faq": [
+    {
+     "q": "Các gói đăng ký của tôi tốn bao nhiêu tiền một năm?",
+     "a": "Quy đổi từng dịch vụ về chi phí một tháng, cộng lại rồi nhân với 12. Công cụ tính sẽ tự động tính toán và cho bạn thấy cả tổng số tiền trong năm năm."
+    },
+    {
+     "q": "Làm sao để nhập các gói theo tuần và theo năm?",
+     "a": "Hãy chọn chu kỳ thanh toán ở từng dòng: theo tuần, theo tháng hoặc theo năm. Công cụ tính sẽ tự quy đổi tất cả về cùng một đơn vị."
+    },
+    {
+     "q": "Có nên mua gói theo năm không?",
+     "a": "Nếu bạn chắc chắn sẽ dùng dịch vụ suốt cả năm, gói năm thường tiết kiệm hơn. Nếu chưa rõ nhu cầu, bạn nên trả theo tháng trong vài tháng đầu trước."
+    },
+    {
+     "q": "Dữ liệu tôi nhập có bị lưu lại không?",
+     "a": "Không. Mọi phép tính đều chạy hoàn toàn trên trình duyệt của bạn; không có thông tin nào được lưu trữ hay gửi đi đâu."
+    },
+    {
+     "q": "Spendry theo dõi các gói đăng ký của tôi như thế nào?",
+     "a": "Bạn chỉ cần thêm các dịch vụ một lần; Spendry sẽ cộng chúng vào tổng chi hằng tháng, nhắc bạn trước mỗi đợt gia hạn và hiển thị chi phí cả năm. Ứng dụng không bao giờ yêu cầu thông tin đăng nhập ngân hàng của bạn."
+    }
+   ],
+   "final_title": "Chủ động trước mọi kỳ gia hạn.",
+   "final_text": "Tải Spendry, thêm các gói đăng ký của bạn và luôn nhận thông báo trước mỗi lần trừ tiền."
+  }
  }
 }

@@ -298,7 +298,154 @@
     "Los saldos cambian mes con mes. Spendry organiza tus tarjetas, créditos y cuentas por pagar, actualiza tu estrategia de Bola de Nieve o Avalancha y te recuerda las fechas límite antes de cada pago."
    ]
   ],
-  "extra_hint": "Dinero que puedes destinar a tus deudas además de los pagos mínimos. Entre más aportes, más rápido saldrás de deudas."
+  "extra_hint": "Dinero que puedes destinar a tus deudas además de los pagos mínimos. Entre más aportes, más rápido saldrás de deudas.",
+  "landing": {
+   "trust": "Gratis · Sin registro · Funciona en tu navegador, nada se envía a ningún lado",
+   "chart_title": "Cómo desaparece tu deuda, mes a mes",
+   "chart_sub": "El saldo total pendiente con ambos métodos y sin aportar dinero extra. Cada punto indica el mes en que liquidas una deuda por completo.",
+   "extra_title": "El poder de pagar un poco más",
+   "extra_sub": "Descubre cómo el monto que aportas por encima del pago mínimo cambia tu fecha para estar libre de deudas y los intereses que terminas pagando.",
+   "extra_amount": "Extra cada mes",
+   "extra_months": "Tiempo para liquidar tus deudas",
+   "extra_none": "Sin pago extra",
+   "extra_sentence": "Pagar {extra} extra al mes hace que quedes libre de deudas {months} antes y te ahorra {interest} en intereses.",
+   "extra_zero": "Sin aportar dinero extra, liquidas tus deudas en {months}. Mueve el control deslizante para comparar.",
+   "schedule_title": "Plan mes a mes",
+   "schedule_sub": "Lo que pagas cada mes, cuánto se va a intereses y el saldo que te queda.",
+   "columns": [
+    "Mes",
+    "Pago",
+    "Intereses",
+    "Saldo pendiente"
+   ],
+   "show_all": "Mostrar todos los meses",
+   "show_less": "Mostrar menos",
+   "app_title": "Spendry mantiene este plan al día, mes a mes.",
+   "app_sub": "Esta página es solo una foto fija. Spendry trabaja con tus saldos reales, recalcula el plan después de cada abono y te manda un recordatorio antes de cada fecha límite de pago.",
+   "app_points": [
+    {
+     "title": "Todas tus deudas en una sola pantalla",
+     "text": "Tarjetas de crédito, préstamos, sobregiros y préstamos entre amigos; consulta tu deuda total y tus pagos mensuales de un vistazo.",
+     "shot": "06"
+    },
+    {
+     "title": "No vuelvas a olvidar una fecha de pago",
+     "text": "Recibe un recordatorio antes del corte de tu tarjeta, de cada mensualidad y de tus facturas. Así nunca pagarás recargos ni comisiones por pago tardío.",
+     "shot": "07"
+    },
+    {
+     "title": "Anticípate al cierre de mes",
+     "text": "Spendry revisa los ingresos y pagos programados de los próximos 30 días para mostrarte cómo terminará tu balance.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Guía rápida para salir de deudas",
+   "guide": [
+    {
+     "h": "Qué es el método de Bola de Nieve",
+     "p": [
+      "Con el método de bola de nieve ordenas tus deudas de menor a mayor saldo. Pagas el mínimo en todas y destinas cualquier dinero extra a la deuda más pequeña. En cuanto la liquidas, sumas ese pago a la siguiente, acumulando más fuerza para pagar con cada deuda que eliminas.",
+      "Su mayor ventaja es la motivación: liquidas la primera deuda en cuestión de meses, lo que ayuda a ser constante con el plan."
+     ]
+    },
+    {
+     "h": "Qué es el método de Avalancha",
+     "p": [
+      "Con el método de avalancha ordenas tus deudas de mayor a menor tasa de interés. El dinero extra va directo a la deuda más cara. Como atacas primero la deuda que genera intereses más rápido, suele ser el método con el que pagas menos intereses en total.",
+      "La desventaja: si tu deuda con la tasa más alta es muy grande, liquidar la primera puede tomar bastante tiempo."
+     ]
+    },
+    {
+     "h": "Cuál método te conviene más",
+     "table": [
+      [
+       "",
+       "Bola de Nieve",
+       "Avalancha"
+      ],
+      [
+       "Pagas primero",
+       "El saldo más bajo",
+       "La tasa más alta"
+      ],
+      [
+       "Intereses totales",
+       "Pueden ser un poco más altos",
+       "Casi siempre son los más bajos"
+      ],
+      [
+       "Primera deuda liquidada",
+       "Rápido",
+       "Puede tardar más"
+      ],
+      [
+       "Ideal para",
+       "Quienes buscan motivación rápida",
+       "Quienes quieren pagar el menor interés posible"
+      ]
+     ],
+     "p": [
+      "La diferencia en dinero suele ser pequeña; lo que de verdad cuenta es tener un plan y seguirlo. La calculadora de arriba compara ambos métodos con tus cifras y te muestra con cuál ahorras más."
+     ]
+    },
+    {
+     "h": "Cómo se calculan los números, paso a paso",
+     "p": [
+      "Cada mes se calculan primero los intereses: multiplicas el saldo pendiente por la tasa de interés mensual. Por ejemplo, en una tarjeta de crédito con un saldo de $100,000 a una tasa de interés anual del 24% (un 2% al mes), ese mes se generan $2,000 de intereses.",
+      "Después, cada deuda recibe su pago mínimo y el dinero extra se abona a la que te toca pagar según tu plan. Cuando liquidas una deuda, ese monto se suma al pago de la siguiente.",
+      "La calculadora repite este proceso mes a mes hasta liquidar la última deuda; así obtiene tu fecha para estar libre de deudas y los intereses totales que pagarás."
+     ]
+    },
+    {
+     "h": "La trampa del pago mínimo",
+     "p": [
+      "Hacer solo el pago mínimo en la tarjeta de crédito alarga la deuda sin fin: el saldo restante sigue generando intereses mes tras mes y puedes tardar años en pagar.",
+      "Aportar un poco más por encima del mínimo reduce el tiempo en varios meses. Haz la prueba con tus propios datos en la sección de pago extra de arriba."
+     ]
+    },
+    {
+     "h": "Consejos para salir de deudas más rápido",
+     "list": [
+      "No adquieras más deudas: usa la tarjeta únicamente para gastos que puedas liquidar a fin de mes.",
+      "Paga un monto fijo por encima del mínimo cada mes y automatízalo.",
+      "Destina bonos, devoluciones de impuestos e ingresos extra directo a la deuda que estés liquidando.",
+      "Compara si transferir un saldo con tasa alta a un préstamo con menor tasa de interés de verdad te ahorra dinero.",
+      "Revisa tus suscripciones activas, cancela las que no uses y destina esa diferencia a tus deudas.",
+      "Nunca te pases de tu fecha límite de pago: los recargos e intereses moratorios frenan tu avance."
+     ]
+    }
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    {
+     "q": "Con cuál método pago menos intereses, con bola de nieve o avalancha?",
+     "a": "En la mayoría de los casos el método de avalancha, pagando primero la deuda con mayor tasa de interés, es el que menos intereses genera en total. El método de bola de nieve liquida tu primera deuda antes y te mantiene motivado. La calculadora compara ambas opciones con tus números."
+    },
+    {
+     "q": "Qué tipo de deudas puedo incluir?",
+     "a": "Tarjetas de crédito, préstamos personales, créditos automotrices, créditos educativos, sobregiros o dinero que le debas a familiares y amigos. Si es una deuda sin intereses, pon 0 en la tasa."
+    },
+    {
+     "q": "Dónde encuentro mi tasa de interés?",
+     "a": "Aparece en tu estado de cuenta, en el contrato del crédito o en la app de tu banco, casi siempre expresada como tasa de interés anual. Ingresa esa tasa y la calculadora obtendrá la tasa mensual."
+    },
+    {
+     "q": "Qué tan exacto es el cálculo?",
+     "a": "Parte de que las tasas no cambian, pagas la misma cantidad mes a mes y no hay comisiones adicionales. En la práctica las condiciones pueden variar, así que toma el resultado como una guía para organizarte, no como un cálculo oficial."
+    },
+    {
+     "q": "Se guarda o se envía la información que escribo?",
+     "a": "No. Todos los cálculos se hacen de forma local en tu navegador; ningún dato que pongas se guarda ni se envía a servidores externos."
+    },
+    {
+     "q": "Qué ventajas tiene Spendry frente a esta calculadora?",
+     "a": "Spendry utiliza tus saldos reales, actualiza el plan tras cada abono, te avisa antes de cada fecha límite de pago y te muestra siempre el día en que terminarás de pagar. Jamás pide los accesos de tu banco ni recopila tu información personal."
+    }
+   ],
+   "final_title": "Lleva la fecha en que serás libre de deudas en el bolsillo.",
+   "final_text": "Descarga Spendry, ingresa tus deudas una sola vez y tu plan se actualizará solo mes a mes.",
+   "chart_none": "Sin el pago extra"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Automatiza tu control",
     "En Spendry cada categoría cuenta con un presupuesto mensual que se actualiza con cada compra, avisándote a tiempo antes de que gastes de más."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Sin registro · Funciona en tu navegador, nada se envía a ningún lado",
+   "app_title": "Spendry lleva tu presupuesto por ti, todos los días.",
+   "app_sub": "La regla 50/30/20 es un buen inicio. Spendry añade cada gasto a su categoría, te avisa antes de que se agote un presupuesto y te muestra el fin de mes por adelantado.",
+   "app_points": [
+    {
+     "title": "Un presupuesto para cada categoría",
+     "text": "Súper, transporte, Facturas: asígnale un límite mensual a cada una y ve siempre lo que te queda.",
+     "shot": "04"
+    },
+    {
+     "title": "Añadir gasto en segundos",
+     "text": "Escribe el monto, elige una categoría y listo. Con las plantillas, registras tus gastos frecuentes con un toque.",
+     "shot": "02"
+    },
+    {
+     "title": "Descubre en qué se te fue el mes",
+     "text": "Las gráficas semanales y mensuales te muestran en qué gastas más y cómo se compara con el mes pasado.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Guía rápida para hacer tu presupuesto",
+   "guide": [
+    {
+     "h": "¿Qué es la regla 50/30/20?",
+     "p": [
+      "La mitad de tus ingresos netos va a necesidades (renta, facturas, súper, transporte), el 30 por ciento a deseos o gustos (salidas a comer, entretenimiento, compras) y el 20 por ciento a Metas de ahorro y pago de Deudas.",
+      "Es un punto de partida. Si solo la renta se lleva la mitad de lo que ganas, ajusta los porcentajes a tu realidad y salda primero las Deudas con intereses más altos."
+     ]
+    },
+    {
+     "h": "Cómo hacer un presupuesto mensual",
+     "p": [
+      "Empieza con tus ingresos: sueldo, proyectos extra y cualquier otra entrada fija. Después, aparta los gastos fijos al inicio de mes: renta, Facturas, pagos de Préstamos y Suscripciones.",
+      "Apunta los gastos variables como el súper, comidas fuera y transporte al momento; si lo dejas para fin de mes, casi todo se olvida. Al terminar el mes, resta tus gastos de tus ingresos y pasa lo que sobre a tus ahorros."
+     ]
+    },
+    {
+     "h": "Planea con tiempo el pago de tus Tarjetas de crédito",
+     "p": [
+      "Las compras con tarjeta no salen de tu cuenta el mismo día; se pagan en tu fecha límite de pago. Cuando planees el mes, toma en cuenta el pago para no generar intereses de tu estado de cuenta, no solo el saldo al día de hoy."
+     ]
+    },
+    {
+     "h": "Consejos para cumplir tu presupuesto",
+     "list": [
+      "Págate a ti primero: aparta tu ahorro en cuanto recibas tu sueldo.",
+      "Registra tus gastos fijos una sola vez y deja que se repitan cada mes.",
+      "Anota también los gastos hormiga; hacen una gran diferencia al final del mes.",
+      "Revisa tus Suscripciones una vez al año.",
+      "Revisa tu presupuesto a mitad de mes y ajusta la segunda quincena si hace falta."
+     ]
+    }
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    {
+     "q": "¿La regla 50/30/20 funciona para todos?",
+     "a": "No, es solo una guía inicial. Si la renta y los servicios se llevan más de la mitad de tus ingresos, ajusta las proporciones; lo importante es destinar algo a tus ahorros y al pago de Deudas cada mes."
+    },
+    {
+     "q": "¿Debo usar mi sueldo bruto o neto?",
+     "a": "Usa tus ingresos netos, la cantidad que realmente llega a tu cuenta de banco después de impuestos y deducciones."
+    },
+    {
+     "q": "¿Dónde entran los pagos de mis Deudas?",
+     "a": "Los pagos mínimos entran en necesidades. Todo lo que abones por encima del mínimo cuenta dentro del 20 por ciento destinado a ahorro y pago de Deudas."
+    },
+    {
+     "q": "¿Se guarda la información que escribo?",
+     "a": "No. Todos los cálculos se hacen directamente en tu navegador; nada de lo que ingresas se guarda ni se envía a ningún sitio."
+    },
+    {
+     "q": "¿Cómo me ayuda Spendry a llevar mi presupuesto?",
+     "a": "Le asignas un monto mensual a cada categoría; este se va llenando con tus gastos y la app te avisa antes de que te pases. Como tienes tus tarjetas, Préstamos y Suscripciones en el mismo lugar, puedes anticipar cómo cerrarás el mes. Nunca te pedirá tus contraseñas del banco."
+    }
+   ],
+   "final_title": "Lleva tu presupuesto en el bolsillo.",
+   "final_text": "Descarga Spendry, registra tus ingresos y gastos fijos una sola vez, y anticípate al cierre de cada mes."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Hazlo realidad",
     "Spendry mantiene tu plan en marcha: añade tus tarjetas, define cuánto puedes pagar al mes y recibe un recordatorio antes de tu fecha límite de pago."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Sin registro · Funciona en tu navegador, nada se envía a ningún lado",
+   "app_title": "Spendry cuida los saldos de tus tarjetas cada mes.",
+   "app_sub": "Esta calculadora simula el plan de una sola tarjeta. Spendry da seguimiento a todas tus tarjetas, sus fechas de corte y de pago, y te avisa antes de cada vencimiento.",
+   "app_points": [
+    {
+     "title": "Todas tus tarjetas en una sola lista",
+     "text": "Revisa el saldo al corte, la fecha límite de pago y los días restantes de cada tarjeta, todo de un vistazo.",
+     "shot": "06"
+    },
+    {
+     "title": "Un recordatorio antes de cada fecha de pago",
+     "text": "Recibe una alerta cuando cierre tu periodo de facturación y antes de tu fecha límite para evitar recargos por pago tardío.",
+     "shot": "07"
+    },
+    {
+     "title": "Controla en qué se va el dinero",
+     "text": "Visualiza los gastos de tu tarjeta por categoría para identificar en qué puedes recortar.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Guía rápida para entender la deuda de tu tarjeta de crédito",
+   "guide": [
+    {
+     "h": "Cómo se calculan los intereses de una tarjeta",
+     "p": [
+      "Cada mes tu tarjeta genera intereses sobre el saldo que dejas pendiente, según su tasa de interés anual. Tu pago cubre primero esos intereses y el resto reduce la deuda. La calculadora simula esto mes a mes hasta liquidar el total.",
+      "Por ejemplo: un saldo de $60,000 con una tasa de interés anual del 24% (2% mensual) genera $1,200 de intereses. Si abonas $4,000, tu saldo baja a $57,200; el interés del siguiente mes se calculará sobre ese nuevo monto."
+     ]
+    },
+    {
+     "h": "Por qué pagar solo el mínimo toma tanto tiempo",
+     "p": [
+      "El pago mínimo suele ser un porcentaje muy bajo del saldo. Al bajar el saldo, el mínimo también baja, por lo que casi todo tu pago se diluye en intereses y la deuda puede durar años.",
+      "Abonar un monto fijo rompe ese ciclo: destinas la misma cantidad cada mes para reducir el saldo más rápido. La calculadora te muestra la diferencia con tus propios datos."
+     ]
+    },
+    {
+     "h": "Fecha de corte y fecha límite de pago",
+     "p": [
+      "La fecha de corte cierra el periodo de facturación y define tu saldo a pagar. La fecha límite de pago es el último día para liquidarlo, casi siempre unas semanas después del corte.",
+      "Si liquidas el saldo total antes de la fecha límite, no pagas intereses por tus compras. Si pagas solo una parte, se generarán intereses sobre el saldo pendiente."
+     ]
+    },
+    {
+     "h": "Consejos para liquidar una tarjeta más rápido",
+     "list": [
+      "Paga una cantidad fija cada mes, lo más alta que puedas, en lugar de dar solo el mínimo.",
+      "Deja de usar la tarjeta para nuevos gastos mientras estés liquidando la deuda.",
+      "Si tienes varias tarjetas, abona el dinero extra a la que tenga la mayor tasa de interés anual.",
+      "Revisa si una transferencia de saldo o un préstamo personal con menor tasa te conviene tomando en cuenta las comisiones.",
+      "No te pases de la fecha límite de pago: los recargos y tasas moratorias atrasan tu plan."
+     ]
+    }
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    {
+     "q": "Cuánto tardo en pagar si solo doy el mínimo?",
+     "a": "Depende de tu saldo pendiente, tu tasa de interés anual y cómo calcule el banco tu pago mínimo, pero suele tomar varios años. La calculadora te muestra cuándo terminarías de pagar con puros mínimos y la cantidad de intereses acumulada."
+    },
+    {
+     "q": "Qué es la tasa de interés anual?",
+     "a": "Es el porcentaje que te cobra la tarjeta al año por financiar tu saldo. Los bancos calculan los intereses cada mes aplicando aproximadamente una doceava parte de esa tasa sobre el saldo que no liquidaste."
+    },
+    {
+     "q": "Cómo se calcula el pago mínimo?",
+     "a": "La mayoría de las tarjetas solicitan un porcentaje bajo del saldo pendiente, habitualmente con un monto mínimo predeterminado, más los intereses y comisiones del periodo. Tu estado de cuenta detalla el cálculo; puedes ajustar el porcentaje en la calculadora."
+    },
+    {
+     "q": "La calculadora toma en cuenta las comisiones?",
+     "a": "No. No incluye anualidades, recargos por pago tardío ni costos por transferencia de saldo, por lo que el monto real a pagar puede ser un poco más elevado."
+    },
+    {
+     "q": "Se guarda la información que ingreso?",
+     "a": "No. Todas las operaciones se realizan directamente en tu navegador; nada de lo que ingreses se guarda ni se comparte en ninguna parte."
+    },
+    {
+     "q": "Cómo lleva Spendry el control de mis tarjetas?",
+     "a": "Agregas tus tarjetas y Spendry registra sus fechas de corte y de pago, te manda avisos antes de que venzan y actualiza tus saldos y tu fecha de liquidación conforme anotas tus abonos. Jamás te pedirá las contraseñas de tu banca en línea."
+    }
+   ],
+   "final_title": "Arma un plan para liquidar tus tarjetas.",
+   "final_text": "Descarga Spendry, agrega tus tarjetas y deja que lleve el control de cada fecha de corte y de pago."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Lleva el control después de firmar",
     "Agrega el préstamo a Spendry para ver cuántos pagos te faltan, la fecha de término y recibir un recordatorio antes de cada vencimiento."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Sin registro · Funciona en tu navegador, nada se envía a ningún lado",
+   "app_title": "Spendry sigue tu préstamo hasta el último pago.",
+   "app_sub": "La calculadora te dice tu mensualidad. Spendry monitorea las Cuotas que te faltan, la fecha de término y cada vencimiento, y te envía Recordatorios antes de cada fecha de pago.",
+   "app_points": [
+    {
+     "title": "Todos tus Préstamos en una sola lista",
+     "text": "Automotriz, personal o educativo: revisa las mensualidades pendientes y tu total mensual de un vistazo.",
+     "shot": "06"
+    },
+    {
+     "title": "Un recordatorio antes de cada pago",
+     "text": "No vuelvas a olvidar una mensualidad ni a pagar comisiones por pago tardío.",
+     "shot": "07"
+    },
+    {
+     "title": "Anticípate al próximo mes",
+     "text": "Spendry te muestra cómo impactarán tus Préstamos, tarjetas y Facturas en tus finanzas durante los próximos 30 días.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Guía rápida sobre préstamos",
+   "guide": [
+    {
+     "h": "Cómo se calcula la mensualidad de un préstamo",
+     "p": [
+      "La mayoría de los créditos personales y automotrices manejan amortización tradicional: pagas la misma cantidad fija cada mes. Una parte de cada pago cubre los intereses sobre el saldo pendiente y el resto abona a capital.",
+      "Al principio pagas más intereses; conforme baja el saldo de la deuda, se destina más de tu abono a capital. La tabla de la calculadora te lo muestra mes con mes."
+     ]
+    },
+    {
+     "h": "¿Plazo más corto o pagos mensuales más bajos?",
+     "p": [
+      "Un plazo más largo reduce la mensualidad pero incrementa el total de intereses pagados. Un plazo más corto sube la mensualidad pero reduce el costo total del crédito.",
+      "El plazo más corto que puedas pagar con comodidad suele ser la opción más económica."
+     ]
+    },
+    {
+     "h": "Costo Anual Total y tasa de interés",
+     "p": [
+      "La tasa de interés representa el costo directo por pedir el dinero prestado. El Costo Anual Total incluye además la mayoría de las comisiones y gastos adicionales, lo que lo convierte en el mejor indicador para comparar opciones."
+     ]
+    },
+    {
+     "h": "Formas de pagar menos intereses",
+     "list": [
+      "Compara opciones usando el Costo Anual Total y no te fijes solo en la mensualidad.",
+      "Elige un plazo más corto si tu presupuesto te lo permite.",
+      "Haz pagos anticipados directo a capital al inicio del crédito.",
+      "Pregunta si la institución cobra penalización por liquidar antes de tiempo.",
+      "No te retrases en ningún pago; los intereses moratorios y comisiones suben la cuenta muy rápido."
+     ]
+    }
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    {
+     "q": "¿Cómo se calcula la mensualidad?",
+     "a": "Con la fórmula estándar de amortización: el monto del préstamo, la tasa mensual (la tasa anual dividida entre 12) y el número de mensualidades. Los intereses se calculan cada mes sobre el saldo insoluto restante."
+    },
+    {
+     "q": "¿Cuál es la diferencia entre el Costo Anual Total y la tasa de interés?",
+     "a": "La tasa de interés es el costo por usar el dinero prestado. El Costo Anual Total añade la mayoría de comisiones y cargos asociados, lo que lo hace ideal para comparar opciones de crédito."
+    },
+    {
+     "q": "¿Conviene hacer pagos adelantados a capital?",
+     "a": "Sí. Abonar directo a capital reduce el saldo sobre el cual se calculan los intereses, por lo que pagas menos intereses en total y terminas antes. Revisa primero si tu institución cobra alguna penalización por prepago."
+    },
+    {
+     "q": "¿La calculadora incluye comisiones o impuestos?",
+     "a": "No. No contempla comisiones por apertura, seguros ni impuestos aplicables."
+    },
+    {
+     "q": "¿Se guarda la información que escribo?",
+     "a": "No. Todos los cálculos se hacen directamente en tu navegador; nada de lo que ingresas se guarda ni se envía a ningún sitio."
+    },
+    {
+     "q": "¿Cómo monitorea Spendry mis préstamos?",
+     "a": "Registras tu crédito una sola vez; Spendry te muestra las Cuotas restantes, el mes en que liquidas y tu total mensual, y te envía Recordatorios antes de cada fecha límite de pago. Nunca te pedirá tus contraseñas del banco."
+    }
+   ],
+   "final_title": "Tu préstamo, bajo control hasta el último pago.",
+   "final_text": "Descarga Spendry, añade tu crédito y lleva el control puntual de cada pago."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Sigue tu avance",
     "Crea la meta en Spendry y revisa qué tan cerca estás cada vez que añades dinero."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Sin registro · Funciona en tu navegador, nada se envía a ningún lado",
+   "app_title": "Spendry te muestra qué tan cerca estás, paso a paso.",
+   "app_sub": "La calculadora te dice la cantidad mensual. Spendry guarda tu meta, muestra tu progreso cada vez que aportas y calcula el tiempo que te falta.",
+   "app_points": [
+    {
+     "title": "Todas tus metas en una sola pantalla",
+     "text": "Fondo de emergencia, vacaciones o auto nuevo: revisa el avance de cada meta y cuántos días faltan.",
+     "shot": "05"
+    },
+    {
+     "title": "Anticípate al mes",
+     "text": "Conoce cuánto puedes ahorrar este mes tomando en cuenta tus ingresos y pagos.",
+     "shot": "01"
+    },
+    {
+     "title": "Mira crecer tus ahorros",
+     "text": "Monitorea oro, divisas, acciones y fondos a sus precios actuales.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Guía breve para ahorrar para una meta",
+   "guide": [
+    {
+     "h": "¿Cuánto debo ahorrar cada mes?",
+     "p": [
+      "Resta lo que ya tienes guardado a tu meta final y divide lo que falta entre los meses disponibles. La calculadora hace esto por ti y, si ingresas una tasa, suma los rendimientos que genera tu ahorro.",
+      "Ejemplo: para una meta de $120,000 con $20,000 ya ahorrados y 10 meses por delante, necesitas separar $10,000 al mes sin contar intereses."
+     ]
+    },
+    {
+     "h": "Por qué los intereses marcan la diferencia",
+     "p": [
+      "Si tu dinero genera rendimientos en una cuenta de ahorro o en un fondo de inversión, necesitas aportar menos cada mes para llegar a la misma cantidad. Entre más tiempo tengas, mayor será el beneficio."
+     ]
+    },
+    {
+     "h": "Empieza con un fondo de emergencia",
+     "p": [
+      "Antes de buscar metas más grandes, junta un fondo de emergencia que cubra algunos meses de gastos básicos. Así evitarás que un imprevisto se convierta en deuda."
+     ]
+    },
+    {
+     "h": "Formas de hacer el ahorro más fácil",
+     "list": [
+      "Ahorra en cuanto recibas tu sueldo y trátalo como si fuera un pago obligatorio.",
+      "Programa una transferencia automática para no tener que pensarlo.",
+      "Destina bonos e ingresos extra directamente a tu meta.",
+      "Comparte la meta con tu pareja o familia para llegar más rápido.",
+      "Mantén tu progreso a la vista; cada abono te motivará a seguir."
+     ]
+    }
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    {
+     "q": "¿Qué tasa debo ingresar?",
+     "a": "Ingresa el rendimiento anual estimado que paga tu cuenta de ahorro o fondo. Si no lo sabes, pon 0 para obtener el cálculo más conservador."
+    },
+    {
+     "q": "¿Cómo puedo alcanzar mi meta antes?",
+     "a": "Aumenta tu aportación mensual, abona ingresos extra o busca una cuenta que pague mejores rendimientos. Reduce el plazo en la calculadora para ver cómo cambia la mensualidad."
+    },
+    {
+     "q": "¿De qué tamaño debe ser un fondo de emergencia?",
+     "a": "Lo ideal suele ser de tres a seis meses de gastos indispensables. Mientras más estables sean tus ingresos, menos meses requieres; si varían mucho, conviene tener más."
+    },
+    {
+     "q": "¿Se guarda algo de lo que escribo?",
+     "a": "No. Todo el cálculo se realiza por completo en tu navegador; nada de lo que ingresas se guarda ni se envía a ningún servidor."
+    },
+    {
+     "q": "¿Cómo me ayuda Spendry a seguir mis metas?",
+     "a": "Creas una meta y ves tu avance cada vez que sumas dinero. Spendry calcula el monto y el tiempo restante, y te permite compartir metas con tu familia. Jamás te pedirá las claves de tu banco."
+    }
+   ],
+   "final_title": "Ponte un paso más cerca de tu meta.",
+   "final_text": "Descarga Spendry, crea tu meta y revisa qué tan cerca estás cada vez que agregas dinero."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "No olvides ninguna renovación",
     "Spendry lleva el registro de tus suscripciones, las integra a tu gasto mensual y te avisa antes de que se cobre cada renovación."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Sin registro · Funciona en tu navegador, nada se envía a ningún lado",
+   "app_title": "Spendry se asegura de que ninguna renovación te tome por sorpresa.",
+   "app_sub": "La calculadora suma el total. Spendry organiza tus suscripciones, las integra a tu gasto mensual y te avisa antes de cada cobro.",
+   "app_points": [
+    {
+     "title": "Un recordatorio antes de cada cobro",
+     "text": "Música, streaming, almacenamiento en la nube o el gimnasio: entérate de cada renovación antes de que te la cobren.",
+     "shot": "07"
+    },
+    {
+     "title": "Pregunta cuánto gastas al año en suscripciones",
+     "text": "Pregúntale al asistente; la respuesta se procesa en tu iPhone y tu información no sale de ahí.",
+     "shot": "09"
+    },
+    {
+     "title": "Anticípate al mes",
+     "text": "Conoce el impacto de tus suscripciones, tarjetas y facturas en los próximos 30 días.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Guía breve sobre suscripciones",
+   "guide": [
+    {
+     "h": "Cómo calcular el costo real de tus suscripciones",
+     "p": [
+      "Convierte cada pago a un monto mensual: divide el costo anual entre 12, o multiplica el semanal por 52 y divídelo entre 12. Luego suma todo. La calculadora se encarga de esto y te muestra los totales por mes, por año y a cinco años.",
+      "Un cargo mensual pequeño parece inofensivo. Al multiplicarlo por doce, y por cada servicio que tienes, suele convertirse en uno de tus gastos fijos más pesados."
+     ]
+    },
+    {
+     "h": "Cuáles suscripciones conviene cancelar",
+     "p": [
+      "Ordénalas por costo y pregúntate con cada una: ¿la usé el mes pasado? Cancela las que no utilices y activa recordatorios para los cobros que decidas conservar.",
+      "Si dos plataformas cubren la misma necesidad, quédate solo con una; contratar planes familiares o de estudiante también te ayuda a gastar menos."
+     ]
+    },
+    {
+     "h": "Cuidado con las pruebas gratis",
+     "p": [
+      "Cuando termina una prueba gratuita, casi siempre empieza el cobro automático. Anota la fecha de corte desde el día que la inicies o ponte un recordatorio."
+     ]
+    },
+    {
+     "h": "Consejos para gastar menos en suscripciones",
+     "list": [
+      "Revisa todos tus servicios activos una vez al año.",
+      "Cambia a planes anuales los servicios que uses todo el tiempo; suelen ser más económicos.",
+      "Aprovecha planes familiares para compartir el costo.",
+      "Cancela temporalmente en los meses que no uses un servicio y vuelve a contratarlo cuando lo ocupes.",
+      "Programa una alerta previa a cada fecha de renovación."
+     ]
+    }
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    {
+     "q": "¿Cuánto gasto en suscripciones al año?",
+     "a": "Convierte cada servicio a gasto mensual, súmalos todos y multiplica el resultado por 12. La calculadora hace la cuenta por ti y también proyecta el total a cinco años."
+    },
+    {
+     "q": "¿Cómo agrego pagos semanales y anuales?",
+     "a": "Elige el periodo de cobro en cada renglón: semanal, mensual o anual. La calculadora estandariza todas las cifras para que puedas compararlas."
+    },
+    {
+     "q": "¿Conviene pagar un plan anual?",
+     "a": "Si sabes que vas a usar el servicio todo el año, la opción anual suele salir más barata. Si tienes dudas, úsalo mes a mes un tiempo para probarlo."
+    },
+    {
+     "q": "¿Se guarda algo de lo que escribo?",
+     "a": "No. Todo el cálculo se realiza en tu navegador; los datos que ingreses no se guardan ni se comparten con nadie."
+    },
+    {
+     "q": "¿Cómo monitorea Spendry mis suscripciones?",
+     "a": "Registras tus servicios una sola vez; Spendry los añade a tu presupuesto mensual, te envía alertas antes de cada cobro y te muestra el gasto anual. Nunca te pide contraseñas bancarias."
+    }
+   ],
+   "final_title": "Ten presente cada cobro a tiempo.",
+   "final_text": "Descarga Spendry, registra tus suscripciones y recibe un aviso oportuno antes de que se renueven."
+  }
  }
 }

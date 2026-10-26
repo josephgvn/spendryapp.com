@@ -298,7 +298,154 @@
     "I saldi cambiano ogni mese. Spendry controlla carte, prestiti e fatture, aggiorna il tuo piano palla di neve o valanga e ti avvisa prima di ogni scadenza."
    ]
   ],
-  "extra_hint": "Soldi da destinare ai tuoi debiti oltre alle rate minime. Più aggiungi, prima ti liberi dai debiti."
+  "extra_hint": "Soldi da destinare ai tuoi debiti oltre alle rate minime. Più aggiungi, prima ti liberi dai debiti.",
+  "landing": {
+   "trust": "Gratis · Nessuna registrazione · Funziona nel tuo browser, nessun dato viene inviato altrove",
+   "chart_title": "Come si azzera il tuo debito, mese dopo mese",
+   "chart_sub": "Il saldo residuo totale con entrambi i metodi e senza alcun extra. Ogni punto indica il mese in cui un debito viene saldato.",
+   "extra_title": "Cosa cambia con un piccolo importo extra",
+   "extra_sub": "Scopri come l'importo che versi in piu rispetto alla rata minima cambia la data in cui sarai senza debiti e gli interessi da pagare.",
+   "extra_amount": "Extra ogni mese",
+   "extra_months": "Tempo per essere senza debiti",
+   "extra_none": "Nessun extra",
+   "extra_sentence": "Versando {extra} in piu ogni mese sarai senza debiti {months} prima e risparmierai {interest} di interessi.",
+   "extra_zero": "Senza alcun importo extra, elimini i tuoi debiti in {months}. Muovi il cursore per vedere la differenza.",
+   "schedule_title": "Piano mese per mese",
+   "schedule_sub": "Quanto paghi ogni mese, l'importo degli interessi e il capitale residuo.",
+   "columns": [
+    "Mese",
+    "Pagamento",
+    "Interessi",
+    "Saldo residuo"
+   ],
+   "show_all": "Mostra tutti i mesi",
+   "show_less": "Mostra meno",
+   "app_title": "Spendry gestisce questo piano per te, ogni mese.",
+   "app_sub": "Questa pagina e solo un'istantanea. Spendry lavora con i tuoi saldi reali, ricalcola il piano dopo ogni pagamento e ti avvisa prima di ogni scadenza.",
+   "app_points": [
+    {
+     "title": "Tutti i debiti in una sola schermata",
+     "text": "Carte di credito, prestiti, fidi e somme prestate da amici: controlla a colpo d'occhio il debito totale e le rate mensili.",
+     "shot": "06"
+    },
+    {
+     "title": "Non dimenticare mai una scadenza",
+     "text": "Ricevi un promemoria prima dell'estratto conto della carta, della rata del prestito e delle bollette, cosi eviti sempre gli interessi di mora.",
+     "shot": "07"
+    },
+    {
+     "title": "Guarda come finira il mese con largo anticipo",
+     "text": "Spendry analizza entrate e uscite dei prossimi 30 giorni e ti mostra come variera il tuo saldo.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Una breve guida per ripagare i debiti",
+   "guide": [
+    {
+     "h": "Cos'e il metodo a palla di neve?",
+     "p": [
+      "Con il metodo Palla di neve metti in ordine i tuoi debiti partendo dal saldo piu basso fino al piu alto. Paghi la rata minima su ogni debito e versi qualsiasi cifra extra su quello piu piccolo. Quando lo hai estinto, la somma che pagavi passa al debito successivo: cosi la tua forza di rimborso cresce a ogni traguardo.",
+      "Il suo vantaggio principale e la motivazione: vedi sparire il primo debito in pochi mesi, e questo ti aiuta a mantenere l'impegno preso."
+     ]
+    },
+    {
+     "h": "Cos'e il metodo a valanga?",
+     "p": [
+      "Con il metodo Valanga metti in ordine i debiti dal tasso di interesse piu alto a quello piu basso. La cifra extra viene destinata subito al debito piu costoso. Visto che elimini prima il debito che cresce piu in fretta, con questo metodo di solito paghi meno interessi in totale.",
+      "Il compromesso: se il debito con il tasso piu alto ha un importo elevato, estinguere il primo debito richiedera piu tempo."
+     ]
+    },
+    {
+     "h": "Qual e la scelta migliore per te?",
+     "table": [
+      [
+       "",
+       "Palla di neve",
+       "Valanga"
+      ],
+      [
+       "Primo debito saldato",
+       "Saldo piu basso",
+       "Tasso piu alto"
+      ],
+      [
+       "Interessi totali",
+       "Possono essere un po' piu alti",
+       "Di solito i piu bassi"
+      ],
+      [
+       "Prima estinzione",
+       "Veloce",
+       "Puo richiedere piu tempo"
+      ],
+      [
+       "Ideale per",
+       "Chi ha bisogno di motivazione",
+       "Chi punta a ridurre il costo totale"
+      ]
+     ],
+     "p": [
+      "Spesso la differenza e minima: l'importante e avere un piano chiaro. Il calcolatore qui sopra mette a confronto i due metodi con i tuoi numeri e ti indica quale costa meno."
+     ]
+    },
+    {
+     "h": "Come funzionano i calcoli, con un esempio pratico",
+     "p": [
+      "Ogni mese vengono calcolati prima gli interessi: moltiplicando il saldo per il tasso mensile. Un debito su carta di credito di 5000 € con un tasso annuo del 24%, pari al 2% al mese, accumula 100 € di interessi in quel mese.",
+      "Poi si copre la rata minima di ogni debito e si destina la parte extra a quello selezionato. Una volta chiuso un debito, la cifra versata si trasferisce sul successivo.",
+      "Il calcolatore ripete questo processo mese dopo mese fino all'estinzione totale: cosi ottieni il mese esatto in cui sarai senza debiti e il totale degli interessi pagati."
+     ]
+    },
+    {
+     "h": "La trappola del pagamento minimo",
+     "p": [
+      "Pagare solo la quota minima sulla carta di credito lascia il debito aperto: il mese successivo pagherai nuovi interessi sul saldo restante e il rimborso potra trascinarsi per anni.",
+      "Anche una piccola cifra in piu rispetto al minimo avvicina di molti mesi La data in cui sarai senza debiti. Fai una prova con i tuoi numeri nella sezione dedicata all'importo extra qui sopra."
+     ]
+    },
+    {
+     "h": "I modi migliori per liberarsi prima dei debiti",
+     "list": [
+      "Evita di creare nuovi debiti: usa la carta solo per le spese che puoi saldare per intero a fine mese.",
+      "Paga un importo fisso oltre le rate minime ogni mese, impostando un pagamento automatico.",
+      "Destina straordinari, rimborsi o entrate extra direttamente al debito da estinguere.",
+      "Valuta con attenzione se trasferire un debito a tasso elevato su un prestito piu conveniente riduca davvero la spesa complessiva.",
+      "Controlla i tuoi abbonamenti: disdici quelli che non usi e versa i soldi risparmiati sui debiti.",
+      "Non saltare mai una data di scadenza: le penali e i tassi di mora allontanano il tuo obiettivo."
+     ]
+    }
+   ],
+   "faq_title": "Domande frequenti",
+   "faq": [
+    {
+     "q": "Quale metodo fa pagare meno interessi, la palla di neve o la valanga?",
+     "a": "Nella maggior parte dei casi il metodo Valanga, che estingue prima i debiti a tasso piu alto, riduce al minimo gli interessi totali. Il metodo Palla di neve ti permette invece di chiudere il primo debito piu in fretta, offrendoti una spinta motivazionale. Il calcolatore li mette a confronto entrambi usando i tuoi dati."
+    },
+    {
+     "q": "Quali debiti posso inserire?",
+     "a": "Carte di credito, prestiti personali, finanziamenti auto, prestiti universitari, scoperti di conto corrente o somme dovute ad amici e parenti. Per i debiti a tasso zero, inserisci semplicemente 0 come tasso."
+    },
+    {
+     "q": "Dove posso trovare il tasso di interesse?",
+     "a": "Lo trovi sull'estratto conto della carta di credito, sul contratto del prestito o nell'app della tua banca, indicato come tasso annuo nominale o effettivo. Inserisci il tasso annuo: il calcolatore ricavera in automatico la quota mensile."
+    },
+    {
+     "q": "I risultati sono affidabili?",
+     "a": "Il calcolo ipotizza tassi costanti nel tempo, pagamenti regolari ogni mese e nessuna spesa accessoria. Visto che nella realta i tassi possono variare, usa questo risultato come guida per il tuo piano, non come un preventivo bancario."
+    },
+    {
+     "q": "I dati inseriti vengono trasmessi o salvati?",
+     "a": "No. Tutti i conteggi avvengono all'interno del tuo browser: nessun dato viene salvato o inviato all'esterno."
+    },
+    {
+     "q": "Quali vantaggi offre Spendry rispetto a questo calcolatore?",
+     "a": "Spendry segue i tuoi saldi reali, adatta il piano di rimborso a ogni pagamento effettuato, ti avvisa prima di ogni scadenza e calcola in tempo reale La data in cui sarai senza debiti. Non ti chiedera mai le credenziali bancarie e non raccoglie dati personali."
+    }
+   ],
+   "final_title": "Porta sempre in tasca la data in cui sarai senza debiti.",
+   "final_text": "Scarica Spendry, inserisci i tuoi debiti una sola volta e il piano si aggiornera da solo ogni mese.",
+   "chart_none": "Senza l'extra"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Rendilo automatico",
     "Su Spendry ogni categoria ha un budget mensile che si compila mentre spendi, avvisandoti prima di superare la soglia stabilita."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Nessuna registrazione · Funziona nel tuo browser, nessun dato viene inviato altrove",
+   "app_title": "Spendry gestisce il tuo budget al posto tuo, ogni giorno.",
+   "app_sub": "La regola del 50/30/20 è un ottimo inizio. Spendry assegna ogni spesa alla sua categoria, ti avvisa prima che il budget finisca e ti mostra la fine del mese in anticipo.",
+   "app_points": [
+    {
+     "title": "Un budget per ogni categoria",
+     "text": "Spesa alimentare, trasporti, bollette: imposta un limite mensile per ciascuna voce e vedi sempre quanto ti resta.",
+     "shot": "04"
+    },
+    {
+     "title": "Aggiungi una spesa in pochi secondi",
+     "text": "Digita la cifra, scegli la categoria, fatto. I modelli trasformano le spese abituali in un solo tocco.",
+     "shot": "02"
+    },
+    {
+     "title": "Scopri dove sono finiti i tuoi soldi",
+     "text": "I grafici settimanali e mensili ti mostrano per cosa spendi di più e il confronto con il mese scorso.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Una breve guida al budget personale",
+   "guide": [
+    {
+     "h": "Cos'è la regola del 50/30/20?",
+     "p": [
+      "Metà del tuo stipendio netto va alle necessità (affitto, bollette, spesa, trasporti), il 30 percento ai desideri (ristoranti, tempo libero, shopping) e il 20 percento ai risparmi e al rimborso dei debiti.",
+      "È un punto di partenza. Se solo l'affitto richiede metà delle tue entrate, adatta la suddivisione alla tua vita quotidiana e ripaga prima i debiti con gli interessi più alti."
+     ]
+    },
+    {
+     "h": "Come creare un budget mensile",
+     "p": [
+      "Inizia dalle tue entrate: stipendio, lavoretti e ogni altro guadagno regolare. Poi metti da parte i costi fissi a inizio mese: affitto, bollette, rate di prestiti e abbonamenti.",
+      "Registra le uscite variabili come spesa, cene fuori e trasporti man mano che si verificano; se aspetti la fine del mese, la maggior parte viene dimenticata. A fine mese sottrai le spese dalle entrate e sposta ciò che resta nei tuoi risparmi."
+     ]
+    },
+    {
+     "h": "Pianifica l'estratto conto della carta di credito",
+     "p": [
+      "Gli acquisti con carta non lasciano il conto oggi; vengono addebitati solo quando saldi l'estratto conto. Quando pianifichi il mese, tieni conto della somma che pagherai effettivamente, non solo del saldo di oggi."
+     ]
+    },
+    {
+     "h": "Come rispettare il budget",
+     "list": [
+      "Paga prima te stesso: sposta la quota di risparmio non appena ricevi lo stipendio.",
+      "Inserisci i costi fissi una sola volta e lasciali ripetere ogni mese.",
+      "Segna anche le piccole spese; a fine mese sono quelle che fanno la differenza più grande.",
+      "Rivedi i tuoi abbonamenti una volta all'anno.",
+      "Controlla il tuo budget a metà mese e adatta le uscite per la seconda metà se necessario."
+     ]
+    }
+   ],
+   "faq_title": "Domande frequenti",
+   "faq": [
+    {
+     "q": "La regola del 50/30/20 va bene per tutti?",
+     "a": "No, è solo un punto di partenza. Se affitto e bollette superano la metà delle tue entrate, modifica le percentuali; l'importante è riuscire a destinare ogni mese una parte a risparmi e debiti."
+    },
+    {
+     "q": "Devo inserire il reddito lordo o netto?",
+     "a": "Usa il reddito netto, cioè la cifra che entra davvero sul tuo conto al netto di tasse e contributi."
+    },
+    {
+     "q": "In quale categoria rientrano le rate dei debiti?",
+     "a": "I pagamenti minimi sono necessità. Tutto ciò che versi oltre l'importo minimo rientra nel 20 percento dedicato a risparmi e debiti."
+    },
+    {
+     "q": "I dati che inserisco vengono salvati?",
+     "a": "No. I calcoli avvengono interamente nel tuo browser; niente di ciò che scrivi viene salvato o trasmesso altrove."
+    },
+    {
+     "q": "In che modo Spendry gestisce il mio budget?",
+     "a": "Imposti un budget mensile per ogni categoria; si aggiorna a ogni spesa e ti avvisa prima di andare fuori budget. Avendo carte, prestiti e abbonamenti nello stesso posto, vedi l'andamento di fine mese in anticipo. Non chiede mai i dati di accesso della tua banca."
+    }
+   ],
+   "final_title": "Porta il tuo budget sempre in tasca.",
+   "final_text": "Scarica Spendry, inserisci entrate e costi fissi una sola volta e vedi la fine di ogni mese in anticipo."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Metti in pratica il piano",
     "Spendry ti aiuta a rispettare il percorso: aggiungi le tue carte di credito, imposta quanto versare ogni mese e ricevi un promemoria prima di ogni scadenza."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Nessuna registrazione · Funziona nel tuo browser, nessun dato viene inviato altrove",
+   "app_title": "Spendry controlla i saldi delle tue carte per te, mese dopo mese.",
+   "app_sub": "Il calcolatore elabora un piano per una singola carta. Spendry monitora tutte le tue carte, con le relative date di chiusura dell'estratto conto e di scadenza, inviandoti promemoria prima di ogni pagamento.",
+   "app_points": [
+    {
+     "title": "Tutte le tue carte in un unico elenco",
+     "text": "Saldo dell'estratto conto, data di scadenza e giorni rimasti a colpo d'occhio per ciascuna carta.",
+     "shot": "06"
+    },
+    {
+     "title": "Un promemoria prima di ogni scadenza",
+     "text": "Ricevi un avviso alla chiusura dell'estratto conto e poco prima del pagamento, per non rischiare more sul rimborso minimo.",
+     "shot": "07"
+    },
+    {
+     "title": "Tieni d'occhio ogni uscita",
+     "text": "Le spese della tua carta divise per categoria, per capire dove puoi tagliare i costi superflui.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Una breve guida al debito su carta di credito",
+   "guide": [
+    {
+     "h": "Come si calcolano gli interessi della carta di credito",
+     "p": [
+      "Ogni mese la carta applica gli interessi sul saldo residuo non rimborsato, in base al tasso annuo. Il tuo pagamento serve prima di tutto a coprire questi interessi, e solo la cifra restante va a ridurre il capitale. Il calcolatore ripete questi passaggi mese per mese fino al completo azzeramento.",
+      "Un esempio pratico: un debito di 3000 € con un tasso annuo del 24%, cioe il 2% mensile, genera 60 € di interessi. Pagando 200 €, il debito scende a 2860 €; gli interessi del mese successivo saranno calcolati su questa nuova cifra."
+     ]
+    },
+    {
+     "h": "Perche ripagare solo la quota minima richiede cosi tanto tempo",
+     "p": [
+      "La rata minima richiesta e spesso una piccola percentuale del totale. Quando il debito cala, scende anche l'importo minimo, cosi gran parte del versamento serve solo a pagare interessi e il debito puo trascinarsi per anni.",
+      "Versare una cifra fissa spezza questo meccanismo: pagando sempre la stessa somma riduci il debito principale in modo costante ogni mese. Il calcolatore ti mostra la differenza usando i tuoi numeri."
+     ]
+    },
+    {
+     "h": "Data di chiusura dell'estratto conto e data di scadenza",
+     "p": [
+      "La data di chiusura fissa il saldo del mese terminato. La data di scadenza e l'ultimo giorno utile per effettuare il pagamento, di solito qualche settimana piu tardi.",
+      "Se paghi l'intero saldo dell'estratto conto entro la scadenza non maturano interessi sugli acquisti. Se invece ne rimborsi solo una parte, pagherai gli interessi sull'importo residuo."
+     ]
+    },
+    {
+     "h": "I modi migliori per estinguere il debito della carta piu in fretta",
+     "list": [
+      "Paga un importo fisso ogni mese, il piu alto possibile per il tuo budget, invece di versare solo il minimo.",
+      "Evita nuove spese con la carta finche non hai finito di ripagarla.",
+      "Se hai piu carte, indirizza i pagamenti extra verso quella con il tasso annuo piu alto.",
+      "Verifica se un trasferimento di saldo o un prestito a tasso piu basso convenga davvero considerando anche le spese accessorie.",
+      "Non saltare mai una scadenza: i costi di mora e gli interessi piu elevati allontanano il tuo traguardo."
+     ]
+    }
+   ],
+   "faq_title": "Domande frequenti",
+   "faq": [
+    {
+     "q": "Quanto tempo serve se pago soltanto la quota minima?",
+     "a": "Dipende dall'ammontare del debito, dal tasso annuo applicato e dalle modalita di calcolo della rata minima, ma spesso occorrono diversi anni. Il calcolatore ti mostra con precisione quanto tempo ci vorra versando solo il minimo e a quanto ammonteranno gli interessi da pagare."
+    },
+    {
+     "q": "Che cosa si intende con tasso annuo?",
+     "a": "E il tasso di interesse su base annua della tua carta. Le carte calcolano gli interessi ogni mese, applicando circa un dodicesimo di questa percentuale sul debito non ancora rimborsato."
+    },
+    {
+     "q": "Come viene calcolato l'importo minimo da pagare?",
+     "a": "La maggior parte delle carte richiede una percentuale fissa del saldo, spesso con una cifra minima di partenza, piu gli interessi maturati e le eventuali commissioni. Trovi il dettaglio nel tuo estratto conto e puoi modificare questa percentuale direttamente nel calcolatore."
+    },
+    {
+     "q": "Il calcolatore tiene conto di costi e commissioni?",
+     "a": "No. Canoni annuali, spese per ritardato pagamento e costi di trasferimento saldo non sono conteggiati, quindi la spesa reale finale potrebbe essere leggermente superiore."
+    },
+    {
+     "q": "I dati che inserisco vengono memorizzati?",
+     "a": "No. I calcoli vengono eseguiti per intero nel tuo browser: nessun dato viene registrato o trasmesso."
+    },
+    {
+     "q": "Come tiene traccia dei debiti della carta Spendry?",
+     "a": "Aggiungi le tue carte e l'app controlla le chiusure contabili e le scadenze, ti ricorda i pagamenti e aggiorna sia il saldo residuo sia La data in cui sarai senza debiti man mano che registri le uscite. Il tutto senza mai chiedere l'accesso al tuo conto bancario."
+    }
+   ],
+   "final_title": "Crea subito un piano per il saldo della tua carta.",
+   "final_text": "Scarica Spendry, aggiungi le tue carte e lascia che tenga traccia di ogni estratto conto e di ogni scadenza."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Tieni tutto sotto controllo dopo la firma",
     "Aggiungi il finanziamento su Spendry per vedere le rate rimanenti, la data dell'ultima rata e ricevere una notifica prima di ogni addebito."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Nessuna registrazione · Funziona nel tuo browser, nessun dato viene inviato altrove",
+   "app_title": "Spendry segue il tuo prestito fino all'ultima rata.",
+   "app_sub": "Il calcolatore ti indica la rata. Spendry tiene traccia delle rate rimaste, del mese finale e di ogni scadenza, ricordandoti ciascun pagamento in anticipo.",
+   "app_points": [
+    {
+     "title": "Tutti i prestiti in una sola lista",
+     "text": "Auto, prestiti personali e per studenti: rate mancanti e totale mensile visibili a colpo d'occhio.",
+     "shot": "06"
+    },
+    {
+     "title": "Un promemoria prima di ogni rata",
+     "text": "Non dimenticherai più un pagamento, evitando così le spese per il ritardo.",
+     "shot": "07"
+    },
+    {
+     "title": "Guarda al mese che ti aspetta",
+     "text": "Spendry ti mostra come rate, carte e bollette influenzeranno i tuoi prossimi 30 giorni.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Una breve guida ai prestiti",
+   "guide": [
+    {
+     "h": "Come si calcola la rata di un prestito",
+     "p": [
+      "La maggior parte dei prestiti personali e auto segue un piano di ammortamento: paghi la stessa rata ogni mese. Una parte copre gli interessi sul debito residuo e il resto riduce il capitale.",
+      "Le prime rate sono composte in gran parte da interessi; man mano che il debito cala, una quota sempre maggiore va al capitale. La tabella del calcolatore te lo mostra mese per mese."
+     ]
+    },
+    {
+     "h": "Durata più breve o rata più bassa?",
+     "p": [
+      "Una durata più lunga abbassa la rata mensile ma fa salire gli interessi complessivi. Una durata più breve alza la rata e riduce il costo totale.",
+      "La durata più breve compatibile con il tuo budget è di solito la scelta più conveniente."
+     ]
+    },
+    {
+     "h": "TAN e TAEG",
+     "p": [
+      "Il TAN rappresenta il tasso di interesse puro per il prestito. Il TAEG include anche la maggior parte delle spese e delle commissioni, rendendolo il valore migliore per confrontare le offerte."
+     ]
+    },
+    {
+     "h": "Come pagare meno interessi",
+     "list": [
+      "Confronta le offerte valutando il TAEG e non solo l'importo della rata mensile.",
+      "Scegli una durata più breve se il tuo budget lo consente.",
+      "Effettua rimborsi anticipati parziali del capitale all'inizio del finanziamento.",
+      "Verifica se l'istituto di credito prevede penali per l'estinzione anticipata.",
+      "Non saltare mai una scadenza: gli interessi di mora e le penali si accumulano in fretta."
+     ]
+    }
+   ],
+   "faq_title": "Domande frequenti",
+   "faq": [
+    {
+     "q": "Come viene calcolata la rata mensile?",
+     "a": "Con la formula standard di ammortamento: importo del finanziamento, tasso mensile (tasso annuo diviso per 12) e numero di mesi. Gli interessi vengono calcolati ogni mese sul debito residuo."
+    },
+    {
+     "q": "Qual è la differenza tra TAN e TAEG?",
+     "a": "Il TAN è il costo base per prendere in prestito il denaro. Il TAEG comprende anche le spese accessorie, risultando più utile per confrontare prestiti diversi."
+    },
+    {
+     "q": "Conviene fare rimborsi anticipati?",
+     "a": "Sì. Versare somme extra sul capitale riduce l'importo su cui maturano gli interessi, permettendoti di spendere meno e chiudere il debito prima. Verifica se sono previste penali per il rimborso anticipato."
+    },
+    {
+     "q": "Il calcolatore include imposte e spese accessorie?",
+     "a": "No. Spese di istruttoria, polizze assicurative e imposte non sono comprese nel calcolo."
+    },
+    {
+     "q": "I dati che inserisco vengono salvati?",
+     "a": "No. Il calcolo si svolge interamente nel tuo browser; nessun dato inserito viene salvato o trasmesso altrove."
+    },
+    {
+     "q": "Come monitora il mio prestito Spendry?",
+     "a": "Inserisci il prestito una volta sola: Spendry ti mostra le rate rimaste, il mese di estinzione e la spesa mensile totale, inviandoti un promemoria prima di ogni rata. Non richiede mai l'accesso al tuo conto bancario."
+    }
+   ],
+   "final_title": "Il tuo prestito, pianificato fino all'ultima rata.",
+   "final_text": "Scarica Spendry, inserisci il tuo finanziamento e lascia che tenga traccia di ogni singola rata."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Segui i tuoi progressi",
     "Crea l'obiettivo su Spendry e guarda quanto ti manca ogni volta che aggiungi una nuova somma."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Nessuna registrazione · Funziona nel tuo browser, nessun dato viene inviato altrove",
+   "app_title": "Spendry ti mostra quanto sei vicino, passo dopo passo.",
+   "app_sub": "Il calcolatore calcola la quota mensile. Spendry conserva i tuoi Obiettivi, mostra i tuoi progressi ogni volta che versi qualcosa e calcola il tempo rimanente.",
+   "app_points": [
+    {
+     "title": "Tutti i tuoi Obiettivi in una sola schermata",
+     "text": "Fondo di emergenza, viaggi, auto nuova: scopri a che punto sei per ogni obiettivo e quanti giorni mancano.",
+     "shot": "05"
+    },
+    {
+     "title": "Guarda il mese in anticipo",
+     "text": "Scopri quanto puoi risparmiare questo mese tenendo conto di entrate e uscite.",
+     "shot": "01"
+    },
+    {
+     "title": "Guarda crescere i tuoi risparmi",
+     "text": "Segui oro, valute, azioni e fondi con i prezzi aggiornati.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Breve guida al risparmio mirato",
+   "guide": [
+    {
+     "h": "Quanto dovrei risparmiare ogni mese?",
+     "p": [
+      "Sottrai la somma già messa da parte dal tuo obiettivo totale e dividi il resto per i mesi a disposizione. Il calcolatore lo fa in automatico e, se inserisci un tasso di interesse, include gli interessi generati dai tuoi risparmi.",
+      "Esempio: per un obiettivo di 6000 € con 1000 € già da parte e 10 mesi a disposizione, devi accantonare 500 € al mese senza considerare gli interessi."
+     ]
+    },
+    {
+     "h": "Perché gli interessi fanno la differenza",
+     "p": [
+      "Se i tuoi risparmi generano rendimenti su un conto deposito o in un fondo, la quota mensile necessaria per centrare l'obiettivo si riduce. Più lungo è l'orizzonte temporale, maggiore è il vantaggio."
+     ]
+    },
+    {
+     "h": "Inizia con un fondo di emergenza",
+     "p": [
+      "Prima di pensare a mete più grandi, crea un fondo di emergenza pari a qualche mese di spese essenziali: eviterà che una spesa imprevista si trasformi in un debito."
+     ]
+    },
+    {
+     "h": "Consigli per risparmiare con costanza",
+     "list": [
+      "Risparmia appena ricevi lo stipendio, trattando il risparmio come una spesa fissa.",
+      "Imposta un bonifico automatico per non doverci pensare ogni mese.",
+      "Destina straordinari ed entrate extra direttamente al tuo obiettivo.",
+      "Condividi l'obiettivo con il partner o la famiglia per raggiungerlo più in fretta.",
+      "Tieni sotto gli occhi i progressi: ogni versamento rafforza la motivazione."
+     ]
+    }
+   ],
+   "faq_title": "Domande frequenti",
+   "faq": [
+    {
+     "q": "Quale tasso di interesse dovrei inserire?",
+     "a": "Inserisci il rendimento annuo netto previsto per il tuo conto deposito o fondo. Se hai dubbi, scrivi 0 per una stima più prudente."
+    },
+    {
+     "q": "Come posso raggiungere l'obiettivo prima?",
+     "a": "Aumenta la rata mensile, versa le entrate extra sul tuo obiettivo o scegli uno strumento con un rendimento più alto. Riduci la durata nel calcolatore per scoprire di quanto aumenta l'importo mensile."
+    },
+    {
+     "q": "A quanto dovrebbe ammontare un fondo di emergenza?",
+     "a": "La regola generale suggerisce da tre a sei mesi di spese indispensabili. Più le tue entrate sono stabili, meno ti serve; se le entrate sono variabili, punta a una cifra più alta."
+    },
+    {
+     "q": "I dati che inserisco vengono salvati?",
+     "a": "No. I calcoli si svolgono interamente nel tuo browser: nessun dato viene salvato o trasmesso."
+    },
+    {
+     "q": "Come tiene traccia dei miei Obiettivi l'app Spendry?",
+     "a": "Crei un obiettivo e vedi i progressi ogni volta che aggiungi fondi. Spendry calcola l'importo e i giorni che mancano, con la possibilità di condividere gli Obiettivi in famiglia. Senza mai chiederti i dati di accesso della banca."
+    }
+   ],
+   "final_title": "Fai un passo avanti verso il tuo obiettivo.",
+   "final_text": "Scarica Spendry, crea il tuo obiettivo e guarda quanto ti avvicini a ogni nuovo versamento."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Non dimenticare mai un rinnovo",
     "Spendry organizza tutti i tuoi abbonamenti, calcola l'impatto sul budget mensile e ti avvisa per tempo prima di ciascun addebito."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratis · Nessuna registrazione · Funziona nel tuo browser, nessun dato viene inviato altrove",
+   "app_title": "Con Spendry nessun rinnovo ti coglie di sorpresa.",
+   "app_sub": "Il calcolatore somma tutte le voci. Spendry monitora i tuoi Abbonamenti, li include nel quadro mensile e ti avvisa prima di ogni rinnovo.",
+   "app_points": [
+    {
+     "title": "Un promemoria prima di ogni rinnovo",
+     "text": "Musica, streaming, spazio cloud o palestra: ricevi una notifica prima di ogni addebito.",
+     "shot": "07"
+    },
+    {
+     "title": "Chiedi quanto spendi all'anno in Abbonamenti",
+     "text": "Fai la domanda all'assistente: la risposta viene elaborata sul tuo iPhone e i tuoi dati non escono dal dispositivo.",
+     "shot": "09"
+    },
+    {
+     "title": "Guarda il mese in anticipo",
+     "text": "Controlla l'impatto di Abbonamenti, Carte di credito e Fatture sui prossimi 30 giorni.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Breve guida per gestire gli abbonamenti",
+   "guide": [
+    {
+     "h": "Come calcolare il costo reale dei tuoi abbonamenti",
+     "p": [
+      "Riconduci ogni abbonamento a una cifra mensile: dividi il canone annuo per 12, oppure moltiplica quello settimanale per 52 e dividi per 12. Poi somma tutti gli importi. Il calcolatore lo fa in un istante e ti mostra la spesa mensile, annuale e a cinque anni.",
+      "Una piccola quota mensile sembra innocua. Moltiplicata per dodici e per tutti i servizi attivi, diventa spesso una delle uscite ricorrenti più pesanti del bilancio."
+     ]
+    },
+    {
+     "h": "Quali abbonamenti conviene disdire",
+     "p": [
+      "Mettili in ordine di costo e chiediti: l'ho usato nell'ultimo mese? Cancella i servizi inutilizzati e imposta un promemoria per i rinnovi di quelli che decidi di tenere.",
+      "Se due piattaforme offrono le stesse funzioni, tienine una sola; i piani famiglia o studenti aiutano ad abbassare ulteriormente la spesa."
+     ]
+    },
+    {
+     "h": "Attenzione ai periodi di prova gratuiti",
+     "p": [
+      "Al termine della prova gratuita, l'abbonamento si rinnova quasi sempre in automatico a pagamento. Segna subito la data di scadenza appena attivi una prova, oppure imposta un promemoria."
+     ]
+    },
+    {
+     "h": "Come ridurre le spese per gli abbonamenti",
+     "list": [
+      "Fai un controllo completo dei tuoi abbonamenti una volta all'anno.",
+      "Passa al piano annuale per i servizi che usi tutto l'anno: di solito costa meno.",
+      "Condividi i piani famiglia con chi vive con te.",
+      "Sospendi l'abbonamento nei mesi in cui non lo usi e riattivalo al bisogno.",
+      "Imposta un promemoria prima di ogni rinnovo."
+     ]
+    }
+   ],
+   "faq_title": "Domande frequenti",
+   "faq": [
+    {
+     "q": "Quanto spendo all'anno per i miei abbonamenti?",
+     "a": "Converti ogni costo su base mensile, fai la somma e moltiplica per 12. Il calcolatore fa i conti per te e stima anche l'esborso complessivo a cinque anni."
+    },
+    {
+     "q": "Come inserisco gli abbonamenti settimanali o annuali?",
+     "a": "Seleziona la cadenza desiderata su ogni riga: settimanale, mensile o annuale. Il calcolatore uniforma automaticamente tutti i valori."
+    },
+    {
+     "q": "Conviene scegliere il piano annuale?",
+     "a": "Se usi il servizio con continuità tutto l'anno, la formula annuale garantisce quasi sempre un risparmio. In caso di dubbi, prova il pagamento mensile per qualche mese prima di impegnarti."
+    },
+    {
+     "q": "I dati inseriti vengono registrati?",
+     "a": "No. Le operazioni avvengono esclusivamente nel tuo browser: nulla viene registrato né trasmesso all'esterno."
+    },
+    {
+     "q": "In che modo Spendry gestisce i miei Abbonamenti?",
+     "a": "Inserisci i tuoi Abbonamenti una volta sola: Spendry li inserisce nel totale mensile, ti avvisa prima di ogni scadenza e calcola la spesa annuale complessiva. Senza mai chiederti le credenziali bancarie."
+    }
+   ],
+   "final_title": "Tieni sotto controllo ogni rinnovo in anticipo.",
+   "final_text": "Scarica Spendry, inserisci i tuoi Abbonamenti e ricevi un avviso prima del prossimo addebito."
+  }
  }
 }

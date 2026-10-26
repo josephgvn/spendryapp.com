@@ -298,7 +298,154 @@
     "Les soldes changent chaque mois. Spendry suit vos cartes de crédit, prêts et factures, actualise votre stratégie Boule de neige ou Avalanche et vous rappelle chaque paiement avant l'échéance."
    ]
   ],
-  "extra_hint": "Somme que vous pouvez allouer à vos dettes en plus des paiements minimums. Plus vous en ajoutez, plus vite vous serez libre de dettes."
+  "extra_hint": "Somme que vous pouvez allouer à vos dettes en plus des paiements minimums. Plus vous en ajoutez, plus vite vous serez libre de dettes.",
+  "landing": {
+   "trust": "Gratuit · Sans inscription · Fonctionne dans votre navigateur, rien n'est envoyé nulle part",
+   "chart_title": "Comment vos dettes diminuent, mois après mois",
+   "chart_sub": "Le solde total qu'il vous reste avec les deux méthodes et sans aucun montant supplémentaire. Chaque point indique le mois où une dette est remboursée.",
+   "extra_title": "L'effet d'un petit montant de plus",
+   "extra_sub": "Voyez comment le montant versé en plus des paiements minimums change votre date de libération des dettes et les intérêts payés.",
+   "extra_amount": "Montant de plus chaque mois",
+   "extra_months": "Délai avant d'être libéré",
+   "extra_none": "Aucun montant de plus",
+   "extra_sentence": "Payer {extra} de plus chaque mois vous libère de vos dettes {months} plus tôt et vous fait économiser {interest} en intérêts.",
+   "extra_zero": "Sans montant supplémentaire, vos dettes sont réglées dans {months}. Déplacez le curseur pour voir la différence.",
+   "schedule_title": "Plan mois par mois",
+   "schedule_sub": "Ce que vous payez chaque mois, les intérêts facturés et le solde restant.",
+   "columns": [
+    "Mois",
+    "Paiement",
+    "Intérêts",
+    "Solde restant"
+   ],
+   "show_all": "Afficher tous les mois",
+   "show_less": "Afficher moins",
+   "app_title": "Spendry tient ce plan à jour pour vous, chaque mois.",
+   "app_sub": "Cette page présente un aperçu. Spendry utilise vos soldes réels, recalcule le plan après chaque paiement et vous envoie un rappel avant chaque date d'échéance.",
+   "app_points": [
+    {
+     "title": "Toutes vos dettes sur un seul écran",
+     "text": "Cartes de crédit, prêts, découverts et montants dus à vos proches, votre dette totale et vos mensualités en un coup d'œil.",
+     "shot": "06"
+    },
+    {
+     "title": "Ne manquez jamais un paiement",
+     "text": "Recevez un rappel avant chaque relevé de carte, versement de prêt ou facture. Un paiement minimum oublié n'entraînera plus jamais de frais de retard.",
+     "shot": "07"
+    },
+    {
+     "title": "Prévoyez la fin du mois dès maintenant",
+     "text": "Spendry analyse vos revenus et paiements des 30 prochains jours pour vous montrer l'évolution prévue de votre solde.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Petit guide pour rembourser ses dettes",
+   "guide": [
+    {
+     "h": "Qu'est-ce que la méthode de la boule de neige?",
+     "p": [
+      "Avec la méthode Boule de neige, vous classez vos dettes du plus petit solde au plus élevé. Vous payez le montant minimum sur chaque dette et consacrez tout montant supplémentaire à la plus petite. Une fois celle-ci remboursée, son montant s'ajoute à la suivante, ce qui augmente votre capacité de remboursement à chaque étape.",
+      "Sa grande force réside dans la motivation: la première dette disparaît en quelques mois, ce qui vous aide à garder le cap."
+     ]
+    },
+    {
+     "h": "Qu'est-ce que la méthode de l'avalanche?",
+     "p": [
+      "Avec la méthode Avalanche, vous classez vos dettes du taux d'intérêt le plus élevé au plus faible. Le montant supplémentaire est versé d'abord sur la dette la plus coûteuse. Comme vous éliminez la dette qui croît le plus vite, cette stratégie coûte généralement moins cher d'intérêts au total.",
+      "Le compromis: si la dette avec le taux le plus fort est importante, le premier remboursement complet peut prendre du temps."
+     ]
+    },
+    {
+     "h": "Laquelle choisir?",
+     "table": [
+      [
+       "",
+       "Boule de neige",
+       "Avalanche"
+      ],
+      [
+       "Remboursée en premier",
+       "Plus petit solde",
+       "Taux le plus élevé"
+      ],
+      [
+       "Total des intérêts",
+       "Peut être un peu plus élevé",
+       "Généralement le plus faible"
+      ],
+      [
+       "Premier succès",
+       "Rapide",
+       "Peut être plus long"
+      ],
+      [
+       "Idéal pour",
+       "Garder sa motivation",
+       "Réduire le coût total"
+      ]
+     ],
+     "p": [
+      "L'écart est souvent minime. Le plus important, c'est d'avoir un plan. La calculatrice ci-dessus compare les deux options selon vos chiffres et vous montre laquelle coûte le moins cher."
+     ]
+    },
+    {
+     "h": "Le calcul en pratique, avec un exemple",
+     "p": [
+      "Chaque mois, les intérêts sont calculés en premier: le solde multiplié par le taux mensuel. Pour un solde de carte de crédit de 5 000 $ avec un taux d'intérêt annuel de 24 %, soit 2 % par mois, les intérêts s'élèvent à 100 $ pour ce mois.",
+      "Chaque dette reçoit ensuite son paiement minimum, et le surplus va à la dette prioritaire suivante. Quand une dette est remboursée, son versement passe à la prochaine.",
+      "La calculatrice répète ces étapes mois par mois jusqu'au dernier remboursement. Vous obtenez ainsi votre date de libération des dettes et le total des intérêts payés."
+     ]
+    },
+    {
+     "h": "Le piège du paiement minimum",
+     "p": [
+      "Payer seulement le minimum sur une carte de crédit fait perdurer la dette: les intérêts continuent de s'accumuler sur le reste chaque mois et le solde peut traîner pendant des années.",
+      "Même un léger montant au-delà du minimum devance votre libération de plusieurs mois. Faites le test avec vos chiffres dans la section ci-dessus."
+     ]
+    },
+    {
+     "h": "Comment se libérer de ses dettes plus rapidement",
+     "list": [
+      "Cessez d'accumuler de nouvelles dettes: utilisez votre carte seulement pour ce que vous pouvez rembourser dans le mois.",
+      "Versez un montant fixe au-delà des minimums chaque mois et automatisez-le.",
+      "Appliquez les primes, remboursements d'impôt et revenus d'appoint directement sur la prochaine dette.",
+      "Vérifiez si transférer un solde à taux élevé vers un prêt à taux plus faible est réellement avantageux.",
+      "Passez en revue vos abonnements, annulez ceux inutilisés et consacrez ces économies à vos dettes.",
+      "Ne manquez aucun paiement: les frais de retard et les hausses de taux ralentissent vos progrès."
+     ]
+    }
+   ],
+   "faq_title": "Foire aux questions",
+   "faq": [
+    {
+     "q": "La méthode boule de neige ou avalanche coûte-t-elle moins cher d'intérêts?",
+     "a": "Dans la majorité des cas, la méthode avalanche, qui consiste à rembourser le taux le plus élevé d'abord, coûte le moins cher au total. La méthode boule de neige règle une première dette plus rapidement, ce qui stimule la motivation. La calculatrice compare les deux options selon votre situation."
+    },
+    {
+     "q": "Quelles dettes puis-je inscrire?",
+     "a": "Cartes de crédit, prêts personnels, prêts auto, prêts étudiants, découverts ou sommes dues à vos proches. Pour une dette sans intérêt, indiquez 0 comme taux."
+    },
+    {
+     "q": "Où trouver mon taux d'intérêt?",
+     "a": "Il est indiqué sur votre relevé de carte de crédit, votre contrat de prêt ou dans l'application de votre banque, habituellement désigné comme le taux annuel. Entrez ce taux d'intérêt annuel et la calculatrice établira le taux mensuel."
+    },
+    {
+     "q": "Ce résultat est-il exact?",
+     "a": "Le calcul suppose que vos taux demeurent fixes, que vos versements sont constants chaque mois et qu'aucun frais supplémentaire n'est ajouté. Comme vos taux réels peuvent varier, ce résultat sert de guide et non de soumission formelle."
+    },
+    {
+     "q": "Mes renseignements sont-ils transmis à des tiers?",
+     "a": "Non. Les calculs s'effectuent en totalité dans votre navigateur. Rien de ce que vous écrivez n'est conservé ni transféré."
+    },
+    {
+     "q": "Que fait Spendry de plus que cette calculatrice?",
+     "a": "Spendry prend en compte vos soldes réels, adapte le plan après chaque versement, vous avise avant chaque date limite et affiche toujours votre date de libération des dettes. Elle ne vous demandera jamais vos identifiants bancaires et ne recueille aucune donnée."
+    }
+   ],
+   "final_title": "Ayez votre date de libération des dettes sous la main.",
+   "final_text": "Téléchargez Spendry, saisissez vos dettes une première fois et votre plan se mettra à jour automatiquement chaque mois.",
+   "chart_none": "Sans montant de plus"
+  }
  },
  "budget_tool": {
   "slug": "budget-calculator",
@@ -326,7 +473,87 @@
     "Passez en mode automatique",
     "Dans Spendry, chaque catégorie dispose d'un budget mensuel qui se remplit au fil de vos achats, avec une alerte préventive avant de dépasser votre limite."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratuit · Aucune inscription · Fonctionne dans votre navigateur, rien n'est envoyé nulle part",
+   "app_title": "Spendry gère votre budget pour vous, jour après jour.",
+   "app_sub": "La règle du 50/30/20 est un bon départ. Spendry classe chaque dépense dans sa catégorie, vous prévient avant qu'un budget ne soit dépassé et anticipe votre fin de mois.",
+   "app_points": [
+    {
+     "title": "Un budget pour chaque catégorie",
+     "text": "Épicerie, transport, Factures: fixez une limite mensuelle pour chacun et voyez toujours ce qu'il vous reste.",
+     "shot": "04"
+    },
+    {
+     "title": "Ajouter une dépense en quelques secondes",
+     "text": "Tapez le montant, choisissez une catégorie, c'est fait. Vos modèles enregistrent les dépenses habituelles d'un simple toucher.",
+     "shot": "02"
+    },
+    {
+     "title": "Sachez où est passé votre argent ce mois-ci",
+     "text": "Des graphiques hebdomadaires et mensuels vous montrent vos plus grosses dépenses et les comparent avec le mois précédent.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Guide rapide pour faire un budget",
+   "guide": [
+    {
+     "h": "Qu'est-ce que la règle du 50/30/20?",
+     "p": [
+      "La moitié de votre revenu net sert aux besoins essentiels (loyer, Factures, épicerie, transport), 30 pour cent à vos envies (restaurants, sorties, magasinage) et 20 pour cent à vos Objectifs d'épargne et au remboursement de vos Dettes.",
+      "C'est un point de départ. Si votre loyer représente déjà la moitié de votre revenu, ajustez la répartition selon votre réalité et remboursez vos dettes au taux d'intérêt le plus élevé en premier."
+     ]
+    },
+    {
+     "h": "Comment bâtir un budget mensuel",
+     "p": [
+      "Commencez par vos revenus: salaire, travail d'appoint et autres rentrées régulières. Mettez ensuite de côté vos frais fixes au début du mois: loyer, Factures, versements de Prêts et Abonnements.",
+      "Notez vos dépenses variables comme l'épicerie, les sorties et le transport au fur et à mesure; quand on attend à la fin du mois, on en oublie la majeure partie. À la fin du mois, soustrayez vos dépenses de votre revenu et virez ce qui reste vers vos économies."
+     ]
+    },
+    {
+     "h": "Prévoyez le solde de votre carte de crédit",
+     "p": [
+      "Les achats par carte ne quittent pas votre compte bancaire sur-le-champ; l'argent sort lorsque vous payez votre relevé. Quand vous planifiez votre mois, prévoyez le montant du relevé que vous allez devoir payer, pas seulement le solde d'aujourd'hui."
+     ]
+    },
+    {
+     "h": "Des trucs pour respecter son budget",
+     "list": [
+      "Payez-vous en premier: mettez de l'argent de côté dès que votre paie est déposée.",
+      "Inscrivez vos frais fixes une seule fois et laissez-les se répéter chaque mois.",
+      "Notez aussi les petits achats, car ce sont eux qui font la plus grande différence à la fin du mois.",
+      "Révisez vos Abonnements une fois par année.",
+      "Consultez votre budget au milieu du mois et rectifiez le tir pour la deuxième moitié au besoin."
+     ]
+    }
+   ],
+   "faq_title": "Foire aux questions",
+   "faq": [
+    {
+     "q": "La règle du 50/30/20 convient-elle à tout le monde?",
+     "a": "Non, c'est simplement une base. Si le loyer et les Factures grugent plus de la moitié de vos revenus, modifiez les pourcentages; l'essentiel est de mettre un peu d'argent de côté chaque mois pour l'épargne et vos Dettes."
+    },
+    {
+     "q": "Dois-je utiliser mon revenu brut ou net?",
+     "a": "Utilisez votre revenu net, c'est-à-dire le montant exact qui est déposé dans votre compte après les impôts et les retenues à la source."
+    },
+    {
+     "q": "Où classer les paiements de dettes?",
+     "a": "Vos paiements minimums font partie des besoins essentiels. Tout montant supplémentaire versé en plus du minimum compte dans les 20 pour cent alloués à l'épargne et au remboursement de vos Dettes."
+    },
+    {
+     "q": "Les informations que j'entre sont-elles conservées?",
+     "a": "Non. Tous les calculs s'effectuent directement dans votre navigateur; aucune information saisie n'est enregistrée ni envoyée nulle part."
+    },
+    {
+     "q": "Comment Spendry gère-t-il mon budget?",
+     "a": "Vous attribuez un montant mensuel à chaque catégorie; votre jauge se remplit à chaque dépense et l'application vous avise avant de dépasser votre limite. Comme vos Cartes de crédit, vos Prêts et vos Abonnements sont regroupés au même endroit, vous pouvez voir venir votre solde de fin de mois. Spendry ne vous demande jamais vos identifiants bancaires."
+    }
+   ],
+   "final_title": "Votre budget à portée de main.",
+   "final_text": "Téléchargez Spendry, saisissez vos revenus et vos dépenses fixes une seule fois, et ayez l'esprit tranquille jusqu'à la fin du mois."
+  }
  },
  "guides": [
   {
@@ -895,7 +1122,92 @@
     "Passez à l'action",
     "Spendry vous aide à garder le cap: ajoutez vos cartes de crédit, fixez ce que vous pouvez payer chaque mois et recevez un rappel avant chaque date d'échéance."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratuit · Sans inscription · Fonctionne dans votre navigateur, rien n'est envoyé nulle part",
+   "app_title": "Spendry surveille les soldes de vos cartes chaque mois.",
+   "app_sub": "Cette calculatrice établit un plan pour une seule carte. Spendry fait le suivi de toutes vos cartes, de leurs dates de relevé et de paiement, puis vous prévient avant chaque versement.",
+   "app_points": [
+    {
+     "title": "Toutes vos cartes dans une liste",
+     "text": "Le solde au relevé de chaque carte, la date d'échéance et les jours restants consultables d'un seul coup d'œil.",
+     "shot": "06"
+    },
+    {
+     "title": "Un rappel avant chaque date limite",
+     "text": "Recevez un avis dès qu'un relevé est prêt et avant la date de paiement pour ne plus jamais payer de frais de retard pour un minimum oublié.",
+     "shot": "07"
+    },
+    {
+     "title": "Suivez vos dépenses",
+     "text": "Vos achats par carte regroupés par catégorie afin de repérer où couper.",
+     "shot": "03"
+    }
+   ],
+   "guide_title": "Petit guide sur la dette de carte de crédit",
+   "guide": [
+    {
+     "h": "Le calcul des intérêts sur une carte de crédit",
+     "p": [
+      "Chaque mois, votre carte applique des intérêts sur le solde reporté d'après son taux annuel. Votre paiement paie ces intérêts en premier, et le surplus diminue votre capital. La calculatrice suit cette séquence mois après mois jusqu'au remboursement total.",
+      "Par exemple: un solde de 3 000 $ avec un taux d'intérêt annuel de 24 %, soit 2 % par mois, engendre 60 $ d'intérêts. Si vous réglez 200 $, le solde descend à 2 860 $; le mois suivant, les intérêts seront calculés sur ce nouveau montant."
+     ]
+    },
+    {
+     "h": "Pourquoi les paiements minimums prennent-ils autant de temps?",
+     "p": [
+      "Le paiement minimum représente habituellement un faible pourcentage de votre dette. À mesure que le solde baisse, le minimum baisse aussi, si bien que l'essentiel de chaque versement ne sert qu'à couvrir les intérêts, ce qui étire la dette sur des années.",
+      "Verser une somme fixe brise cette spirale: le même montant fait reculer votre solde mois après mois. Le comparatif de notre calculatrice illustre cet impact avec vos propres chiffres."
+     ]
+    },
+    {
+     "h": "Date de relevé et date d'échéance",
+     "p": [
+      "La date de relevé marque la fin de la période de facturation et fige votre solde. La date d'échéance est le jour limite pour le régler, d'ordinaire quelques semaines après la production du relevé.",
+      "Si vous payez la totalité du solde inscrit au relevé avant l'échéance, aucun intérêt ne sera appliqué sur vos achats. Si vous n'en réglez qu'une partie, des intérêts s'accumuleront sur le reste."
+     ]
+    },
+    {
+     "h": "Comment rembourser une carte plus vite",
+     "list": [
+      "Payez un montant fixe chaque mois, le plus haut possible, plutôt que le simple minimum.",
+      "Évitez de faire de nouveaux achats avec la carte pendant que vous la remboursez.",
+      "Si vous détenez plusieurs cartes, appliquez les surplus sur celle au taux le plus élevé en premier.",
+      "Assurez-vous qu'un transfert de solde ou un prêt personnel à moindre taux est vraiment économique une fois les frais inclus.",
+      "Ne manquez jamais une date d'échéance: les frais et la majoration des taux repousseraient votre libération."
+     ]
+    }
+   ],
+   "faq_title": "Foire aux questions",
+   "faq": [
+    {
+     "q": "Combien de temps faudra-t-il si je ne paie que le minimum?",
+     "a": "La durée varie selon votre solde, votre taux d'intérêt annuel et la méthode de calcul du paiement minimum de votre institution financière, mais cela prend souvent des années. La calculatrice vous indique la période requise en ne versant que le minimum ainsi que la somme totale des intérêts générés."
+    },
+    {
+     "q": "Qu'est-ce que le taux annuel?",
+     "a": "Il s'agit du taux d'intérêt annuel exigé sur votre carte. L'institution calcule les intérêts chaque mois, à peu près au douzième de ce taux, sur le solde que vous reportez."
+    },
+    {
+     "q": "Comment le paiement minimum est-il calculé?",
+     "a": "La plupart des cartes réclament un faible pourcentage du solde, souvent assorti d'un plancher fixe, auquel s'ajoutent les intérêts et les frais. Le détail se trouve sur votre relevé de compte; vous pouvez ajuster ce pourcentage dans la calculatrice."
+    },
+    {
+     "q": "La calculatrice prend-elle en compte les frais?",
+     "a": "Non. Les frais annuels, les frais de retard et les frais liés aux transferts de solde ne sont pas inclus. Votre coût réel pourrait donc s'avérer un peu plus important."
+    },
+    {
+     "q": "Les données inscrites sont-elles enregistrées?",
+     "a": "Non. Le calcul se fait exclusivement dans votre navigateur. Aucune donnée saisie n'est mémorisée ni transmise à qui que ce soit."
+    },
+    {
+     "q": "Comment Spendry suit-elle mes soldes de cartes?",
+     "a": "Vous ajoutez vos cartes; Spendry surveille leurs dates de relevé et d'échéance, vous avise avant les paiements et ajuste votre solde ainsi que votre date de libération des dettes au fur et à mesure que vous enregistrez vos versements. L'application ne vous demandera jamais vos accès bancaires."
+    }
+   ],
+   "final_title": "Établissez un plan clair pour vos cartes.",
+   "final_text": "Téléchargez Spendry, ajoutez vos cartes et laissez l'application suivre chaque relevé et chaque date d'échéance."
+  }
  },
  "loan_calc": {
   "slug": "loan-calculator",
@@ -928,7 +1240,91 @@
     "Faites le suivi après avoir signé",
     "Ajoutez le prêt dans Spendry pour suivre les paiements restants, voir le mois de fin et recevoir un rappel avant chaque date due."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratuit · Aucune inscription · Fonctionne dans votre navigateur, rien n'est envoyé nulle part",
+   "app_title": "Spendry suit votre prêt jusqu'au tout dernier versement.",
+   "app_sub": "Le calculateur calcule votre paiement. Spendry surveille le nombre de versements restants, la date de fin, chaque échéance, et vous envoie un rappel avant chaque paiement.",
+   "app_points": [
+    {
+     "title": "Tous vos prêts sur une seule liste",
+     "text": "Prêt auto, prêt personnel ou prêt étudiant: voyez vos versements restants et votre total mensuel d'un seul coup d'œil.",
+     "shot": "06"
+    },
+    {
+     "title": "Un rappel avant chaque paiement",
+     "text": "Ne manquez aucun versement de prêt, et évitez ainsi les frais de retard.",
+     "shot": "07"
+    },
+    {
+     "title": "Anticipez le mois à venir",
+     "text": "Spendry vous montre l'impact de vos versements de prêts, de vos cartes et de vos factures sur les 30 prochains jours.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Guide rapide sur les prêts",
+   "guide": [
+    {
+     "h": "Comment est calculé le versement d'un prêt",
+     "p": [
+      "La plupart des prêts personnels et auto sont amortissables: vous versez un montant identique chaque mois. Une partie de chaque paiement sert à payer l'intérêt sur le solde restant et le reste rembourse le capital.",
+      "Les premiers paiements couvrent surtout de l'intérêt; à mesure que le solde diminue, une plus grande part de chaque versement réduit le capital. Le tableau du calculateur vous le montre mois après mois."
+     ]
+    },
+    {
+     "h": "Terme plus court ou mensualité plus basse?",
+     "p": [
+      "Un terme plus long diminue le montant de votre versement mensuel, mais fait grimper le coût total des intérêts. Un terme plus court fait monter le versement mensuel, mais réduit le coût global du crédit.",
+      "Le terme le plus court que votre budget peut absorber confortablement reste généralement le choix le plus économique."
+     ]
+    },
+    {
+     "h": "Taux annuel et taux d'intérêt",
+     "p": [
+      "Le taux d'intérêt représente le coût d'emprunt de l'argent. Le taux annuel effectif global, ou taux d'intérêt annuel, englobe aussi la plupart des frais, ce qui en fait le meilleur chiffre pour comparer les offres."
+     ]
+    },
+    {
+     "h": "Comment payer moins d'intérêt",
+     "list": [
+      "Comparez les offres selon le taux d'intérêt annuel global, pas seulement selon le montant du versement mensuel.",
+      "Optez pour un terme plus court si votre budget vous le permet.",
+      "Faites des remboursements anticipés sur le capital au tout début du prêt.",
+      "Vérifiez si votre prêteur facture une pénalité pour remboursement anticipé.",
+      "Ne manquez jamais un versement; les frais de retard s'accumulent très vite."
+     ]
+    }
+   ],
+   "faq_title": "Foire aux questions",
+   "faq": [
+    {
+     "q": "Comment calcule-t-on le versement mensuel?",
+     "a": "À l'aide de la formule standard d'amortissement: le montant du prêt, le taux mensuel (le taux annuel divisé par 12) et le nombre de mois. Les intérêts sont calculés chaque mois sur le capital restant dû."
+    },
+    {
+     "q": "Quelle est la différence entre le taux d'intérêt et le taux annuel global?",
+     "a": "Le taux d'intérêt représente ce que vous coûte l'emprunt de base. Le taux annuel global comprend en plus la majorité des frais administratifs, ce qui facilite la comparaison entre deux prêts."
+    },
+    {
+     "q": "Est-ce avantageux de faire des paiements supplémentaires?",
+     "a": "Oui. Tout montant versé directement sur le capital réduit le solde sur lequel les intérêts sont calculés, ce qui diminue le coût total et vous libère de votre dette plus rapidement. Vérifiez au préalable si votre prêteur applique des frais de remboursement anticipé."
+    },
+    {
+     "q": "Le calculateur comprend-il les frais et les taxes?",
+     "a": "Non. Les frais de dossier, les assurances et les taxes ne sont pas inclus."
+    },
+    {
+     "q": "Les données que j'entre sont-elles enregistrées?",
+     "a": "Non. Les calculs s'effectuent entièrement dans votre navigateur; aucune information saisie n'est enregistrée ni transmise où que ce soit."
+    },
+    {
+     "q": "Comment Spendry assure-t-il le suivi de mon prêt?",
+     "a": "Vous entrez votre prêt une seule fois; Spendry affiche les versements restants, le mois de libération finale, votre total mensuel, et vous envoie un rappel avant chaque échéance. L'application ne vous demandera jamais vos identifiants bancaires."
+    }
+   ],
+   "final_title": "Votre prêt, planifié jusqu'au tout dernier versement.",
+   "final_text": "Téléchargez Spendry, ajoutez votre prêt et laissez l'application suivre chacun de vos versements."
+  }
  },
  "savings_tool": {
   "slug": "savings-goal-calculator",
@@ -958,7 +1354,86 @@
     "Suivez vos progrès",
     "Créez l'objectif dans Spendry et visualisez votre progression chaque fois que vous y ajoutez de l'argent."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratuit · Sans inscription · Fonctionne dans votre navigateur, rien n'est envoyé nulle part",
+   "app_title": "Spendry vous montre où vous en êtes, à chaque étape.",
+   "app_sub": "Le calculateur vous donne le montant mensuel. Spendry conserve votre objectif, affiche vos progrès à chaque ajout et calcule le temps restant.",
+   "app_points": [
+    {
+     "title": "Tous vos objectifs sur un seul écran",
+     "text": "Fonds d'urgence, voyage, nouvelle voiture: voyez la progression de chaque objectif et le nombre de jours restants.",
+     "shot": "05"
+    },
+    {
+     "title": "Anticipez le mois à venir",
+     "text": "Sachez exactement combien vous pouvez épargner ce mois-ci selon vos revenus et vos paiements.",
+     "shot": "01"
+    },
+    {
+     "title": "Regardez votre épargne fructifier",
+     "text": "Suivez l'or, les devises, les actions et les fonds selon leur cours actuel.",
+     "shot": "08"
+    }
+   ],
+   "guide_title": "Un petit guide pour épargner en vue d'un objectif",
+   "guide": [
+    {
+     "h": "Combien devrais-je épargner chaque mois?",
+     "p": [
+      "Soustrayez ce que vous avez déjà mis de côté de votre objectif, puis divisez le reste par le nombre de mois disponibles. Le calculateur s'en charge pour vous et, si vous entrez un taux, ajoute l'intérêt généré par votre épargne.",
+      "Exemple: pour un objectif de 6 000 $ avec 1 000 $ déjà amassés et 10 mois devant vous, il vous faut mettre de côté 500 $ par mois sans intérêt."
+     ]
+    },
+    {
+     "h": "Pourquoi l'intérêt fait toute la différence",
+     "p": [
+      "Si votre épargne génère de l'intérêt dans un compte d'épargne ou un fonds, vous aurez besoin de cotiser moins chaque mois pour atteindre le même montant. Plus l'horizon est lointain, plus l'effet est important."
+     ]
+    },
+    {
+     "h": "Commencez par un fonds d'urgence",
+     "p": [
+      "Avant de viser de plus gros objectifs, un fonds d'urgence couvrant quelques mois de dépenses essentielles évite qu'une dépense imprévue ne se transforme en dette."
+     ]
+    },
+    {
+     "h": "Des façons de faciliter votre épargne",
+     "list": [
+      "Épargnez dès que votre paie arrive, comme s'il s'agissait d'une facture.",
+      "Programmez un virement automatique pour ne plus avoir à y penser.",
+      "Versez vos primes et revenus d'appoint directement vers votre objectif.",
+      "Partagez l'objectif avec votre partenaire ou votre famille pour l'atteindre plus vite.",
+      "Gardez vos progrès sous les yeux, chaque dépôt entretient la motivation."
+     ]
+    }
+   ],
+   "faq_title": "Foire aux questions",
+   "faq": [
+    {
+     "q": "Quel taux devrais-je inscrire?",
+     "a": "Inscrivez le taux d'intérêt annuel prévu pour votre compte d'épargne ou votre fonds. Si vous n'êtes pas certain, entrez 0 pour voir le montant le plus prudent."
+    },
+    {
+     "q": "Comment puis-je atteindre mon objectif plus tôt?",
+     "a": "Augmentez le versement mensuel, versez-y des revenus supplémentaires ou optez pour un compte qui rapporte de l'intérêt. Raccourcissez le délai dans le calculateur pour voir la mensualité s'ajuster."
+    },
+    {
+     "q": "Quelle somme devrait contenir un fonds d'urgence?",
+     "a": "On conseille en général de viser de trois à six mois de dépenses essentielles. Plus votre revenu est stable, moins vous en avez besoin; moins il est stable, plus il vaut mieux en mettre de côté."
+    },
+    {
+     "q": "Est-ce que mes données sont conservées?",
+     "a": "Non. Les calculs se font entièrement dans votre navigateur; aucune information entrée n'est enregistrée ni transmise ailleurs."
+    },
+    {
+     "q": "Comment Spendry suit-il mes objectifs?",
+     "a": "Vous créez un objectif et voyez vos progrès à chaque ajout d'argent. Spendry affiche le montant et le temps restants, et vous pouvez partager un objectif avec vos proches. L'application ne vous demande jamais vos identifiants bancaires."
+    }
+   ],
+   "final_title": "Rapprochez-vous de votre objectif.",
+   "final_text": "Téléchargez Spendry, créez votre objectif et constatez vos progrès à chaque fois que vous y ajoutez de l'argent."
+  }
  },
  "subs_tool": {
   "slug": "subscription-cost-calculator",
@@ -997,6 +1472,86 @@
     "Ne manquez aucun renouvellement",
     "Spendry fait le suivi de vos abonnements, les intègre à votre total mensuel et vous avertit avant chaque renouvellement."
    ]
-  ]
+  ],
+  "landing": {
+   "trust": "Gratuit · Sans inscription · Fonctionne dans votre navigateur, rien n'est envoyé nulle part",
+   "app_title": "Spendry veille à ce qu'aucun renouvellement ne vous prenne par surprise.",
+   "app_sub": "Le calculateur affiche le total. Spendry effectue le suivi de vos abonnements, les intègre à votre total mensuel et vous avertit avant chaque renouvellement.",
+   "app_points": [
+    {
+     "title": "Un rappel avant chaque renouvellement",
+     "text": "Musique, diffusion en continu, stockage infonuagique ou gym: vous êtes notifié avant chaque prélèvement.",
+     "shot": "07"
+    },
+    {
+     "title": "Demandez le coût annuel de vos abonnements",
+     "text": "Posez la question à l'assistant: la réponse est traitée directement sur votre iPhone et vos données y restent.",
+     "shot": "09"
+    },
+    {
+     "title": "Anticipez le mois à venir",
+     "text": "Visualisez comment vos abonnements, vos cartes et vos factures influenceront les 30 prochains jours.",
+     "shot": "01"
+    }
+   ],
+   "guide_title": "Un petit guide sur les abonnements",
+   "guide": [
+    {
+     "h": "Comment calculer le vrai coût de vos abonnements",
+     "p": [
+      "Convertissez chaque abonnement en montant mensuel: divisez un prix annuel par 12, ou multipliez un prix hebdomadaire par 52 avant de le diviser par 12. Additionnez ensuite le tout. Le calculateur s'en occupe et indique vos totaux par mois, par an et sur cinq ans.",
+      "Un petit montant mensuel semble anodin. Multiplié par douze, et par tous les abonnements accumulés, il représente souvent l'une de vos dépenses régulières les plus importantes."
+     ]
+    },
+    {
+     "h": "Quels abonnements résilier",
+     "p": [
+      "Classez-les par prix et posez-vous la question: l'ai-je utilisé le mois dernier? Annulez ceux qui ne servent pas, et activez un rappel avant le renouvellement de ceux que vous conservez.",
+      "Si deux abonnements répondent au même besoin, laissez-en tomber un. Les forfaits familiaux ou étudiants permettent aussi de réduire la facture."
+     ]
+    },
+    {
+     "h": "Attention aux essais gratuits",
+     "p": [
+      "À la fin d'un essai gratuit, la facturation commence généralement de façon automatique. Notez la date de fin dès le premier jour, ou programmez un rappel."
+     ]
+    },
+    {
+     "h": "Des façons de réduire la facture d'abonnements",
+     "list": [
+      "Passez en revue tous vos abonnements une fois par an.",
+      "Basculez les services utilisés à l'année vers un forfait annuel, souvent plus avantageux.",
+      "Partagez des forfaits familiaux.",
+      "Résiliez vos abonnements pendant les mois sans utilisation et réactivez-les au besoin.",
+      "Prévoyez un rappel avant chaque date de renouvellement."
+     ]
+    }
+   ],
+   "faq_title": "Foire aux questions",
+   "faq": [
+    {
+     "q": "Combien me coûtent mes abonnements par année?",
+     "a": "Convertissez chacun en montant mensuel, faites la somme et multipliez par 12. Le calculateur fait le calcul pour vous et présente aussi le total sur cinq ans."
+    },
+    {
+     "q": "Comment entrer des abonnements hebdomadaires ou annuels?",
+     "a": "Sélectionnez la période de facturation pour chaque ligne: par semaine, par mois ou par an. Le calculateur harmonise tout sous la même unité."
+    },
+    {
+     "q": "Est-ce qu'un forfait annuel en vaut la peine?",
+     "a": "Si vous utilisez le service toute l'année, le forfait annuel est en règle générale plus économique. Dans le doute, conservez la facturation mensuelle pendant quelques mois d'abord."
+    },
+    {
+     "q": "Est-ce que mes données sont conservées?",
+     "a": "Non. Les calculs sont faits entièrement dans votre navigateur; aucune donnée saisie n'est enregistrée ni transmise ailleurs."
+    },
+    {
+     "q": "Comment Spendry suit-il mes abonnements?",
+     "a": "Vous ajoutez vos abonnements une seule fois. Spendry les intègre à votre total mensuel, vous avertit avant chaque renouvellement et calcule le coût annuel. L'application ne vous demande jamais vos identifiants bancaires."
+    }
+   ],
+   "final_title": "Anticipez chaque renouvellement.",
+   "final_text": "Téléchargez Spendry, ajoutez vos abonnements et recevez un avis avant chaque renouvellement."
+  }
  }
 }
