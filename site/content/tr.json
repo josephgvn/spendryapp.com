@@ -2178,5 +2178,904 @@
     }
    }
   ]
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "butce-uygulamasi",
+   "nav": "Bütçe uygulaması",
+   "screen": "04",
+   "footer": true,
+   "title": "Bütçe Uygulaması: Spendry, Banka Şifresi İstemez",
+   "description": "Spendry iPhone ve iPad için bir bütçe uygulaması: kategori bütçeleri dolmadan uyarır, kartlar, krediler ve faturalar tek yerde durur, ödeme gününden önce hatırlatır.",
+   "h1": "Ayın geri kalanını da bilen bir bütçe uygulaması",
+   "lead": "Spendry her kategoriye bir limit koyar, bütçe dolmadan seni uyarır ve bu ay daha gelecek kart ekstrelerini, taksitleri ve faturaları gösterir. Banka şifresi istemez.",
+   "points": [
+    {
+     "h": "Seninle birlikte dolan bütçeler",
+     "p": "Market, yemek ya da istediğin her kategori için aylık bir limit koy. Her harcama kendi bütçesini doldurur; Spendry limit dolmadan önce uyarır, sonra değil."
+    },
+    {
+     "h": "Ayın geri kalanı, önceden",
+     "p": "Maaştan önce gelecek kart ödemeleri, kredi taksitleri, faturalar ve abonelikler bakiyenin yanında durur; gerçekten ne kadar harcayabileceğini bilirsin."
+    },
+    {
+     "h": "Saniyeler içinde harcama ekle",
+     "p": "Tutarı yaz, kategoriyi seç. İstersen widget'tan ekle, banka SMS'ini aktar ya da Apple Pay harcamalarını Kestirmeler otomasyonuyla kendiliğinden kaydet."
+    },
+    {
+     "h": "Paranın nereye gittiğini gör",
+     "p": "Kategoriye ve güne göre haftalık ve aylık grafikler, hangi bütçenin taştığını ve bu ayın geçen aya göre nasıl gittiğini gösterir."
+    }
+   ],
+   "steps_title": "Spendry'de bütçe nasıl yapılır?",
+   "steps": [
+    "Gelirini ve ödeme yaptığın hesapları, kartları ekle.",
+    "En çok harcadığın kategoriler için bütçe oluştur ve her birine limit koy.",
+    "Harcamaları yaptıkça kaydet ya da Apple Pay otomasyonunu aç.",
+    "Ay sonunda grafiklere bak, gelecek ayın limitlerini ayarla."
+   ],
+   "why_title": "Neden Spendry?",
+   "why": [
+    "Banka şifresi yok: ne gireceğine sen karar verirsin, hiçbir şey bankana bağlanmaz.",
+    "Verilerin iPhone'unda ve kendi iCloud'unda kalır, hiçbir veri toplanmaz.",
+    "Borçlar, kartlar ve taksitler bütçenin yanında durur, başka bir uygulamada değil.",
+    "İndirmesi ücretsiz, Premium isteğe bağlı."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Spendry ücretsiz bir bütçe uygulaması mı?",
+     "a": "Evet. Bütçeler, harcamalar, hatırlatmalar ve temel özellikler ücretsiz. Premium isteğe bağlı: aylık ya da yıllık abonelik (ilk hafta ücretsiz) veya tek seferlik Ömür Boyu."
+    },
+    {
+     "q": "Spendry banka hesabıma erişmek ister mi?",
+     "a": "Hayır. Banka şifresi istemez. Harcamaları kendin eklersin, banka SMS'lerinden aktarırsın ya da Apple Pay harcamalarını Kestirmeler otomasyonuyla kaydedersin."
+    },
+    {
+     "q": "Eşimle ortak bütçe tutabilir miyim?",
+     "a": "Evet. Ortak bütçeler ve hedefler iCloud üzerinden eşitlenir; herkes kendi Apple Hesabı'nı kullanır."
+    },
+    {
+     "q": "Hangi cihazlarda çalışır?",
+     "a": "iOS 17 ve sonrası iPhone ve iPad'de. Mac App Store'da Mac sürümü de var."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "banka-sifresi-istemeyen-butce-uygulamasi",
+   "nav": "Banka şifresi istemeyen bütçe uygulaması",
+   "screen": "02",
+   "title": "Banka Şifresi İstemeyen Bütçe Uygulaması: Spendry",
+   "description": "Banka şifreni hiç istemeyen bir bütçe uygulaması: harcamaları kendin ekle, banka SMS'lerinden aktar ya da Apple Pay harcamalarını otomatik kaydet. Verilerin iPhone'unda kalır.",
+   "h1": "Banka şifreni hiç istemeyen bir bütçe uygulaması",
+   "lead": "Birçok bütçe uygulaması internet bankacılığı şifreni ister. Spendry bankana hiç bağlanmaz: ne gireceğine sen karar verirsin, kayıtların iPhone'unda ve kendi iCloud'unda kalır.",
+   "points": [
+    {
+     "h": "Bankana hiçbir şey bağlanmaz",
+     "p": "Banka şifresi yok, aracı hizmet yok, üyelik yok. Spendry her bankayla, her kartla ve her para birimiyle aynı şekilde çalışır."
+    },
+    {
+     "h": "Harcama eklemek yine hızlı",
+     "p": "Tutarı yaz, widget'tan ekle ya da Siri'ye söyle. Bankanın gönderdiği harcama SMS'ini de kayda çevirebilirsin."
+    },
+    {
+     "h": "Apple Pay harcamaları kendiliğinden",
+     "p": "Hazır Kestirmeler otomasyonunu aç; her Apple Pay ödemesi tutarıyla Spendry'ye eklenir."
+    },
+    {
+     "h": "Veri toplanmaz",
+     "p": "Reklam yok, analiz yok, izleme yok. App Store gizlilik etiketi Veri Toplanmaz der; uygulamayı Face ID ile kilitleyebilirsin."
+    }
+   ],
+   "steps_title": "Banka bağlamadan nasıl çalışır?",
+   "steps": [
+    "Kartlarını, kredilerini ve hesaplarını bugünkü bakiyeleriyle ekle.",
+    "Harcamaları yaptıkça kaydet ya da banka SMS'lerinden aktar.",
+    "Kestirmeler uygulamasında Apple Pay otomasyonunu aç.",
+    "Bakiyene ve bütçelerine bak; ödemeler yaklaşınca hatırlatma gelir."
+   ],
+   "why_title": "Neden banka bağlamamak?",
+   "why": [
+    "Banka şifren hiçbir zaman elinden çıkmaz.",
+    "Banka sistemini değiştirdiğinde kopan bağlantı ya da eksik işlem olmaz.",
+    "Her bankayla çalışır, bütçe uygulamalarının desteklemediği bankalar dahil.",
+    "Harcamayı kendin yazmak onu fark etmeni sağlar."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Spendry neden bankama bağlanmıyor?",
+     "a": "Banka şifren ve işlemlerin kimsenin sunucusundan geçmesin diye. Kayıtların iPhone'unda ve kendi iCloud'unda kalır."
+    },
+    {
+     "q": "Harcamaları elle girmek yavaş olmaz mı?",
+     "a": "Birkaç saniye sürer. Apple Pay için Kestirmeler otomasyonunu kullanabilir, widget'tan ekleyebilir, Siri'ye söyleyebilir ya da banka SMS'lerini aktarabilirsin."
+    },
+    {
+     "q": "Spendry banka SMS'lerimi okur mu?",
+     "a": "Kendi kendine okumaz. Bankanın mesajını Spendry'ye yapıştırır ya da paylaşırsın, o da kayda çevirir."
+    },
+    {
+     "q": "Verilerim güvende mi?",
+     "a": "Spendry hiçbir veri toplamaz. Kayıtların cihazında durur, kendi iCloud'un üzerinden eşitlenir ve uygulamayı Face ID ile kilitleyebilirsin."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "borc-takip-uygulamasi",
+   "nav": "Borç takip uygulaması",
+   "screen": "06",
+   "footer": true,
+   "title": "Borç Takip Uygulaması: Borçsuz Olacağın Günü Gör",
+   "description": "Spendry kredi kartlarını, kredileri, KMH'yi, taksitleri ve şahıs borçlarını tek planda toplar; kar topu ya da çığ yöntemiyle sıralar ve borçsuz olacağın ayı gösterir.",
+   "h1": "Borçsuz olacağın günü gösteren borç takip uygulaması",
+   "lead": "Her borcu bir kez ekle. Spendry onları kar topu ya da çığ yöntemiyle sıralar, her ay fazladan ödeyebileceğini ekler ve hepsinden kurtulacağın ayı gösterir.",
+   "points": [
+    {
+     "h": "Bütün borçlar tek rakamda",
+     "p": "Kredi kartları, krediler, KMH, taksitler ve arkadaşlarına olan borçlar; toplam borcun ve aylık ödemelerin bir bakışta."
+    },
+    {
+     "h": "Kar topu ya da çığ, sen seç",
+     "p": "Hızlı sonuç için en küçük borcu önce kapat ya da en az faiz için en yüksek faizliyi. Spendry ikisini karşılaştırır, ödedikçe planı günceller."
+    },
+    {
+     "h": "Sen ödedikçe yaklaşan bir tarih",
+     "p": "Bir ödeme kaydettiğinde ya da fazladan tutar eklediğinde borçsuz olacağın tarih hemen öne gelir."
+    },
+    {
+     "h": "Her son ödeme gününden önce hatırlatma",
+     "p": "Uygulama kapalıyken bile her ödemeden önce bildirim gelir; asgariyi kaçırıp gecikme faizine düşmezsin."
+    }
+   ],
+   "steps_title": "Borç kapatma planı nasıl çalışır?",
+   "steps": [
+    "Her borcu bakiyesi, faizi ve asgari ödemesiyle ekle.",
+    "Kar topu ya da çığ yöntemini seç.",
+    "Her ay fazladan ne kadar ödeyebileceğini belirle.",
+    "Ödedikçe kaydet, tarihin yaklaştığını izle."
+   ],
+   "why_title": "Onu farklı kılan ne?",
+   "why": [
+    "Kartlar, krediler ve taksitler tek bir rakam olarak değil, ayrıntısıyla izlenir.",
+    "Banka şifresi yok, veri toplanmaz.",
+    "Bu sitedeki ücretsiz hesaplayıcılar aynı yöntemleri kullanır; önce kendi rakamlarınla deneyebilirsin."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "Kar topu yöntemi nedir?",
+     "a": "Her borcun asgarisini ödersin, fazladan parayı en küçük borca yatırırsın. O borç bitince onun ödemesi sıradakine eklenir."
+    },
+    {
+     "q": "Çığ yöntemi nedir?",
+     "a": "Fazladan para önce en yüksek faizli borca gider; toplamda genellikle en az faizi bu yöntem ödetir."
+    },
+    {
+     "q": "Arkadaşlarıma ya da aileme olan borçları da ekleyebilir miyim?",
+     "a": "Evet. Şahıs borçlarını faizli ya da faizsiz ekleyebilirsin; aynı planda yer alırlar."
+    },
+    {
+     "q": "Borç planı ücretsiz mi?",
+     "a": "Ücretsiz başlayabilirsin. Premium ücretsiz sürümün sınırlarını kaldırır; ilk hafta ücretsiz denersin."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "kredi-karti-takip-uygulamasi",
+   "nav": "Kredi kartı takip uygulaması",
+   "screen": "07",
+   "footer": true,
+   "title": "Kredi Kartı Takip Uygulaması: Ekstre ve Son Ödeme Günleri",
+   "description": "Tüm kredi kartlarını Spendry'de takip et: ekstrenin ne zaman kesildiği, son ödeme günü, borç ve taksitler; her son ödeme gününden önce hatırlatma.",
+   "h1": "Her kredi kartı, ekstresi ve son ödeme günü",
+   "lead": "Spendry her kartın ekstresinin ne zaman kesildiğini ve ne zaman ödeneceğini bilir, borcu ve taksitleri güncel tutar ve ödemeden önce hatırlatır; hiçbir kart seni şaşırtmaz.",
+   "points": [
+    {
+     "h": "Her kartın kesim ve son ödeme günü",
+     "p": "Kartlarını hesap kesim ve son ödeme günleriyle bir kez ekle. Spendry her karttaki borcu ve ne zaman ödemen gerektiğini gösterir."
+    },
+    {
+     "h": "Kartlardaki taksitler",
+     "p": "Taksitli alışverişlerin kaç taksiti kaldığını ve son taksidin hangi ay olduğunu görürsün."
+    },
+    {
+     "h": "Asgari mi, tamamı mı?",
+     "p": "Ödemeni kaydet, borç güncellensin. Sadece asgari ödemenin zamanla ne kadar faize mal olduğunu bu sitedeki ücretsiz hesaplayıcı gösterir."
+    },
+    {
+     "h": "Son ödeme gününden önce hatırlatma",
+     "p": "Uygulama kapalıyken bile her kart ödemesinden önce bildirim gelir; ödemeyi bildirimin içinden yapıldı olarak işaretlersin."
+    }
+   ],
+   "steps_title": "Kartlarını nasıl takip edersin?",
+   "steps": [
+    "Her kartı limiti, hesap kesim günü ve son ödeme günüyle ekle.",
+    "Harcamaları ve taksitleri kaydet ya da banka SMS'lerinden aktar.",
+    "Ödeme yaptıkça kaydet.",
+    "Her son ödeme gününden önce hatırlatmalar sana haber versin."
+   ],
+   "why_title": "Kartları neden Spendry'de takip etmeli?",
+   "why": [
+    "Bütün kartlar tek ekranda, toplam borçla birlikte.",
+    "Borçsuz olacağın tarih kartlarını da içerir.",
+    "Banka şifresi yok, veri toplanmaz."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "Hesap kesim tarihi ile son ödeme tarihi arasındaki fark ne?",
+     "a": "Hesap kesim tarihi dönemi kapatır ve borcunu belirler; son ödeme tarihi bu borcu faizsiz ve gecikmesiz ödeyebileceğin son gündür."
+    },
+    {
+     "q": "Her kart ödemesinden önce hatırlatır mı?",
+     "a": "Evet. Uygulamayı hiç açmasan da her son ödeme gününden önce bildirim gelir; ödemeyi bildirimden yapıldı olarak işaretleyebilirsin."
+    },
+    {
+     "q": "Kart taksitlerini takip edebilir miyim?",
+     "a": "Evet. Her taksitli alışveriş kalan taksitlerini ve son taksidin ayını gösterir."
+    },
+    {
+     "q": "Bankama bağlanır mı?",
+     "a": "Hayır. Spendry banka şifresi istemez; kartlarını ekler, ödemelerini kendin kaydedersin."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "fatura-hatirlatma-uygulamasi",
+   "nav": "Fatura hatırlatma uygulaması",
+   "screen": "07",
+   "footer": true,
+   "title": "Fatura Hatırlatma Uygulaması: Hiçbir Ödemeyi Kaçırma",
+   "description": "Spendry her faturadan, kart ödemesinden, kredi taksitinden ve abonelikten önce hatırlatır; uygulamayı açmasan da gelir, ödendi olarak bildirimden işaretlersin.",
+   "h1": "Zamanında gelen bir fatura hatırlatma uygulaması",
+   "lead": "Spendry her faturadan, kart ödemesinden, kredi taksitinden ve abonelikten önce hatırlatır; uygulamayı hiç açmasan da gelir. Ertele ya da bildirimin içinden ödendi olarak işaretle.",
+   "points": [
+    {
+     "h": "Bütün son ödeme günleri tek listede",
+     "p": "Faturalar, kart ekstreleri, kredi taksitleri ve abonelikler tek bir yaklaşan ödemeler listesinde; geciken ne varsa en üstte."
+    },
+    {
+     "h": "Uygulama açık olmasa da gelen hatırlatmalar",
+     "p": "Bildirimler iPhone'unda planlanır ve son ödeme gününden önce gelir. Zamana Duyarlı oldukları için izin verirsen Odak modlarında da ulaşırlar."
+    },
+    {
+     "h": "Tek dokunuşla ödendi ya da ertele",
+     "p": "Ödemeyi bildirimin kendisinden ödendi olarak işaretle ya da ertele. Ödeme bakiyeni ve bütçeni günceller."
+    },
+    {
+     "h": "İstersen her sabah bir özet",
+     "p": "Hazır bir Kestirmeler otomasyonu önümüzdeki üç günün ödemelerini her sabah tek bildirimde gönderir."
+    }
+   ],
+   "steps_title": "Hatırlatmalar nasıl kurulur?",
+   "steps": [
+    "Faturalarını, kartlarını, kredilerini ve aboneliklerini ödeme günleriyle ekle.",
+    "Her biri için kaç gün önce hatırlatılmak istediğini seç.",
+    "Bildirimden öde ya da ertele.",
+    "Bütün resmi görmek istediğinde yaklaşan ödemeler listesine bak."
+   ],
+   "why_title": "Neden işe yarar?",
+   "why": [
+    "Her ödeme türü tek yerde; her fatura için ayrı uygulama yok.",
+    "Spendry kapalı kalsa da hatırlatmalar gelir.",
+    "Verilerin iPhone'unda kalır, hiçbir şey toplanmaz."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Uygulamayı hiç açmazsam hatırlatma gelir mi?",
+     "a": "Evet. Hatırlatmalar iPhone'unda planlanır; Spendry kapalı kalsa da zamanında gelir."
+    },
+    {
+     "q": "Ne zaman hatırlatılacağımı seçebilir miyim?",
+     "a": "Evet. Son ödeme gününden kaç gün önce hatırlatılmak istediğini seçersin."
+    },
+    {
+     "q": "Abonelikleri de hatırlatır mı?",
+     "a": "Evet. Abonelikler, faturalar, kart ödemeleri ve kredi taksitlerinin hepsi için hatırlatma gelir."
+    },
+    {
+     "q": "Hatırlatmalar için internet gerekir mi?",
+     "a": "Hayır. Hatırlatmalar cihazında planlanır."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "abonelik-takip-uygulamasi",
+   "nav": "Abonelik takip uygulaması",
+   "screen": "09",
+   "title": "Abonelik Takip Uygulaması: Aylık ve Yıllık Toplamı Gör",
+   "description": "Tüm aboneliklerini Spendry'de takip et: aylık ve yıllık toplam, bir sonraki yenileme tarihi ve yenilemeden önce hatırlatma; kullanmadıklarını zamanında iptal et.",
+   "h1": "Yıllık toplamı gösteren bir abonelik takip uygulaması",
+   "lead": "Aboneliklerini bir kez ekle; Spendry her ay ve her yıl ne ödediğini, hangisinin ne zaman yenileneceğini gösterir ve iptal etmek için hâlâ vaktin varken hatırlatır.",
+   "points": [
+    {
+     "h": "Aylık ve yıllık toplam",
+     "p": "Haftalık, aylık ve yıllık planlar tek bir aylık ve tek bir yıllık rakama dönüşür; küçük ödemeler gözden kaçmaz."
+    },
+    {
+     "h": "Her yenilemeden önce hatırlatma",
+     "p": "Bir abonelik yenilenmeden birkaç gün önce bildirim gelir; iptal etmek için vaktin olur."
+    },
+    {
+     "h": "Gündelik dille sor",
+     "p": "Spendry'nin asistanına aboneliklerinin yılda kaça mal olduğunu sor; toplamı ve tek tek her aboneliği görürsün."
+    },
+    {
+     "h": "Bütçenin bir parçası",
+     "p": "Abonelikler bütçelerine ve yaklaşan ödemelerine dahildir; diğer her şeyin yanında görürsün."
+    }
+   ],
+   "steps_title": "Aboneliklerini nasıl takip edersin?",
+   "steps": [
+    "Her aboneliği fiyatı, dönemi ve yenileme tarihiyle ekle.",
+    "Aylık ve yıllık toplama bak.",
+    "Yenilemelerden önce hatırlatmaları aç.",
+    "Kullanmadıklarını iptal et, toplamın düştüğünü gör."
+   ],
+   "why_title": "Neden işe yarar?",
+   "why": [
+    "Sadece App Store değil, her hizmetin aboneliği.",
+    "Banka şifresi gerekmez: her birini bir kez eklersin.",
+    "Bu sitede ücretsiz abonelik maliyeti hesaplama aracı var."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Spendry aboneliklerimi kendisi bulur mu?",
+     "a": "Hayır. Bankana bağlanmadığı için her aboneliği bir kez eklersin; sonrasında yenilemeleri ve toplamları o takip eder."
+    },
+    {
+     "q": "Yıllık abonelikleri de takip edebilir miyim?",
+     "a": "Evet. Haftalık, aylık ve yıllık planların hepsi desteklenir; aylık ve yıllık toplam olarak gösterilir."
+    },
+    {
+     "q": "Abonelik yenilenmeden önce hatırlatır mı?",
+     "a": "Evet, her yenilemeden birkaç gün önce; uygulamayı açmasan da."
+    },
+    {
+     "q": "iPhone'da abonelik nasıl iptal edilir?",
+     "a": "App Store abonelikleri Ayarlar uygulamasında, adının altındaki Abonelikler bölümünden iptal edilir. Diğer hizmetler kendi sitesinden ya da uygulamasından iptal edilir."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "harcama-takip-uygulamasi",
+   "nav": "Harcama takip uygulaması",
+   "screen": "03",
+   "title": "Harcama Takip Uygulaması: Saniyeler İçinde Kaydet",
+   "description": "Bir harcamayı saniyeler içinde uygulamadan, widget'tan, Siri'yle ya da Apple Pay'den kaydet; kategoriye göre haftalık ve aylık grafikleri gör. Banka şifresi yok.",
+   "h1": "Saniyeler süren bir harcama takip uygulaması",
+   "lead": "Tutarı yaz, kategoriyi seç, bitti. İstersen Siri'ye söyle, widget'tan ekle ya da Apple Pay harcamaları kendiliğinden kaydedilsin. Sonra paranın nereye gittiğini tam olarak gör.",
+   "points": [
+    {
+     "h": "İstediğin her yoldan hızlıca ekle",
+     "p": "Uygulamadan, Ana Ekran widget'ından, Siri'den ya da bir Kestirmeler otomasyonundan ekle; taradığın fişi harcamayla birlikte sakla."
+    },
+    {
+     "h": "Soruları cevaplayan grafikler",
+     "p": "Kategoriye ve güne göre haftalık ve aylık görünümler, günlük ortalaman ve harcama hızının önceki döneme göre durumu."
+    },
+    {
+     "h": "Bütçeler önceden uyarır",
+     "p": "Harcamalar kendi bütçelerini doldurur; Spendry bir bütçe dolmadan önce haber verir."
+    },
+    {
+     "h": "Kendi kategorilerin",
+     "p": "Sabit bir listeye takılmadan, ihtiyacın olan kategorileri kendi adların ve simgelerinle oluştur."
+    }
+   ],
+   "steps_title": "Takibe nasıl başlanır?",
+   "steps": [
+    "İlk harcamalarını uygulamadan ya da widget'tan ekle.",
+    "Önemli kategoriler için bütçe oluştur.",
+    "Telefonla ödüyorsan Apple Pay otomasyonunu aç.",
+    "Her hafta grafiklere bak."
+   ],
+   "why_title": "Neden Spendry?",
+   "why": [
+    "Banka şifresi yok, veri toplanmaz.",
+    "Widget'lar, Siri ve Kestirmeler harcama ekler.",
+    "Her para biriminde, 44 dilde çalışır."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Uygulamayı açmadan harcama ekleyebilir miyim?",
+     "a": "Evet. Ana Ekran widget'ını kullan, Siri'ye söyle ya da Apple Pay harcamalarını bir Kestirmeler otomasyonuyla kaydet."
+    },
+    {
+     "q": "Fişleri saklayabilir miyim?",
+     "a": "Evet. Harcamayı eklerken fişi tara; fiş o harcamayla birlikte durur."
+    },
+    {
+     "q": "Her para biriminde çalışır mı?",
+     "a": "Evet. Başlarken para birimini seçersin; yatırımlar ve döviz hesapları kendi para birimlerini koruyabilir."
+    },
+    {
+     "q": "Ücretsiz mi?",
+     "a": "Evet, temel özellikler ücretsiz. Premium isteğe bağlı; ilk hafta ücretsiz denersin."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "taksit-takip-uygulamasi",
+   "nav": "Taksit takip uygulaması",
+   "screen": "06",
+   "footer": true,
+   "title": "Taksit Takip Uygulaması: Her Taksiti ve Bitiş Ayını Gör",
+   "description": "Tüm taksitlerini Spendry'de takip et: kaç taksit kaldı, her ay ne kadar ödüyorsun, son taksit hangi ay; her taksitten önce hatırlatma.",
+   "h1": "Her taksit ve bittiği ay",
+   "lead": "Kredi kartı taksitleri sessizce birikir. Spendry her alışverişin kaç taksiti kaldığını, taksitlerin her ay toplam ne tuttuğunu ve son taksidin ne zaman geleceğini gösterir.",
+   "points": [
+    {
+     "h": "Her ay taksitlere giden toplam",
+     "p": "Bu ay ve sonraki aylarda ödeyeceğin tüm taksitlerin toplamını görürsün; yeni alışverişler fark edilmeden üst üste binmez."
+    },
+    {
+     "h": "Her taksitin bitiş ayı",
+     "p": "Her taksitli alışveriş kalan taksitlerini ve son taksidin ayını gösterir."
+    },
+    {
+     "h": "Her taksitten önce hatırlatma",
+     "p": "Uygulama kapalıyken bile her taksit ödemesinden önce bildirim gelir."
+    },
+    {
+     "h": "Borçsuz olacağın tarihe dahil",
+     "p": "Taksitler toplam borcuna ve borç kapatma planına dahildir."
+    }
+   ],
+   "steps_title": "Taksitler nasıl takip edilir?",
+   "steps": [
+    "Alışverişi toplam tutarı, taksit sayısı ve ilk ödeme tarihiyle ekle.",
+    "Aylık taksiti ve bitiş ayını gör.",
+    "Her ödemeyi kaydet ya da hatırlatmadan ödendi olarak işaretle.",
+    "Yeni bir şey almadan önce aylık taksit toplamına bak."
+   ],
+   "why_title": "Neden işe yarar?",
+   "why": [
+    "Bütün taksitler tek yerde.",
+    "Taksitler bütçelerinin ve diğer borçlarının yanında durur; ayın gerçek toplamı netleşir.",
+    "Banka şifresi yok, veri toplanmaz."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Kredi kartı taksitlerini takip edebilir miyim?",
+     "a": "Evet. Her taksitli alışverişi toplamı, taksit sayısı ve ilk tarihiyle ekle; gerisini Spendry takip eder."
+    },
+    {
+     "q": "Her ay taksitlere toplam ne ödediğimi gösterir mi?",
+     "a": "Evet. Bu ayın taksit toplamını ve sonraki aylarda gelecekleri görürsün."
+    },
+    {
+     "q": "Her taksitten önce hatırlatır mı?",
+     "a": "Evet, her ödemeden önce; uygulamayı açmasan da."
+    },
+    {
+     "q": "Taksitler borçsuz olacağım tarihi etkiler mi?",
+     "a": "Evet. Toplam borcuna ve borç kapatma planına dahildir."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "birikim-uygulamasi",
+   "nav": "Birikim uygulaması",
+   "screen": "05",
+   "title": "Birikim Uygulaması: Hedef Koy, Biriktir",
+   "description": "Spendry'de birikim hedefleri koy, biriktirdikçe ekle, her gün ne kadar yaklaştığını gör ve bir hedefi eşinle ya da ailenle iCloud üzerinden paylaş.",
+   "h1": "Seni yolda tutan bir birikim uygulaması",
+   "lead": "Her hedefe bir tutar ver, biriktirdikçe ekle. Spendry her gün ne kadar yaklaştığını uygulamada ve Ana Ekranında gösterir.",
+   "points": [
+    {
+     "h": "Net bir hedef",
+     "p": "Her hedefin bir tutarı ve bir ilerleme çubuğu var; ne kadar kaldığını görürsün."
+    },
+    {
+     "h": "Ana Ekranında",
+     "p": "Hedef widget'ı ilerlemeni gözünün önünde tutar."
+    },
+    {
+     "h": "Birlikte biriktir",
+     "p": "Bir hedefi eşinle ya da ailenle iCloud üzerinden paylaş; herkes kendi iPhone'undan aynı hedefe ekler."
+    },
+    {
+     "h": "Bütçenin yanında",
+     "p": "Hedeflere ayırdığın para, bütçelerin ve ödemelerinle birlikte aylık resmin bir parçasıdır."
+    }
+   ],
+   "steps_title": "Bir hedef için nasıl biriktirilir?",
+   "steps": [
+    "Ulaşmak istediğin tutarla bir hedef oluştur.",
+    "Biriktirdikçe hedefe ekle.",
+    "İlerlemeyi uygulamada ya da widget'ta izle.",
+    "Biriktirdiğin biri varsa hedefi paylaş."
+   ],
+   "why_title": "Neden işe yarar?",
+   "why": [
+    "Hedefler bütçelerinin ve borçlarının yanında durur.",
+    "Ortak hedefler iCloud üzerinden eşitlenir.",
+    "Bu sitede ücretsiz birikim hesaplama aracı var."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Birden fazla hedefim olabilir mi?",
+     "a": "Evet. Biriktirdiğin her şey için ayrı bir hedef oluştur ve her birine ayrı ekle."
+    },
+    {
+     "q": "Bir hedefi eşimle paylaşabilir miyim?",
+     "a": "Evet. Ortak hedefler iCloud üzerinden eşitlenir; herkes kendi Apple Hesabı'nı kullanır."
+    },
+    {
+     "q": "Hedefler için widget var mı?",
+     "a": "Evet. Hedef widget'ı ilerlemeni Ana Ekranda gösterir."
+    },
+    {
+     "q": "Her ay ne kadar biriktirmeliyim?",
+     "a": "Kalan tutarı hedef tarihine kadar olan ay sayısına böl. Bu sitedeki ücretsiz birikim hesaplama aracı bunu getiriyle birlikte yapar."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-varlik-takip-uygulamasi",
+   "nav": "Net varlık takibi",
+   "screen": "08",
+   "title": "Net Varlık Takip Uygulaması: Canlı Fiyatlarla",
+   "description": "Net varlığını Spendry'de takip et: hesapların, canlı fiyatlı yatırımların, altın ve döviz; eksi tüm kartlar, krediler ve borçlar, tek bir rakamda.",
+   "h1": "Net varlığın, güncel kalan tek bir rakamda",
+   "lead": "Spendry hesaplarını ve yatırımlarını toplar, borçlarını çıkarır ve net varlığını gösterir. Hisse, kripto, altın ve döviz canlı fiyatlarla güncellenir.",
+   "points": [
+    {
+     "h": "Sahip olduğun ve borçlu olduğun her şey",
+     "p": "Nakit, hesaplar, yatırımlar ve birikimler; karşısında kartlar, krediler, taksitler ve şahıs borçları."
+    },
+    {
+     "h": "Canlı fiyatlar",
+     "p": "Hisse, kripto, altın ve döviz canlı piyasa fiyatlarıyla, harcamalarının yanında güncellenir."
+    },
+    {
+     "h": "Yatırımlar kendi para biriminde",
+     "p": "Yatırımlar ve döviz hesapları kendi para birimlerini korur; net varlığın senin para biriminde görünür."
+    },
+    {
+     "h": "Ana Ekranında",
+     "p": "Net varlık widget'ı rakamı gözünün önünde tutar."
+    }
+   ],
+   "steps_title": "Net varlık nasıl takip edilir?",
+   "steps": [
+    "Hesaplarını bakiyeleriyle ekle.",
+    "Yatırımlarını elindeki miktarla ekle.",
+    "Borçlarını ekle.",
+    "Fiyatlar ve bakiyeler değiştikçe net varlığına bak."
+   ],
+   "why_title": "Neden Spendry?",
+   "why": [
+    "Borçlar ve yatırımlar bütçenle aynı uygulamada.",
+    "Banka ya da aracı kurum şifresi yok.",
+    "Veri toplanmaz."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Hangi yatırımları takip edebilirim?",
+     "a": "Hisse, kripto, altın ve döviz; canlı fiyatlarla."
+    },
+    {
+     "q": "Aracı kurumuma bağlanır mı?",
+     "a": "Hayır. Elindekini eklersin; fiyatlar kendiliğinden güncellenir."
+    },
+    {
+     "q": "Evimi ya da arabamı eklemeli miyim?",
+     "a": "Birçok kişi yalnızca aydan aya değişenleri takip eder: nakit, yatırımlar ve borçlar. İşine yarıyorsa daha fazlasını ekle."
+    },
+    {
+     "q": "Net varlık widget'ı var mı?",
+     "a": "Evet, Ana Ekranın için."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "ortak-butce-uygulamasi",
+   "nav": "Ortak bütçe uygulaması",
+   "screen": "04",
+   "title": "Ortak Bütçe Uygulaması: Eşinle ve Ailenle",
+   "description": "Spendry'de bütçeleri ve birikim hedeflerini eşinle ya da ailenle paylaş. Herkes kendi iPhone'unu ve Apple Hesabı'nı kullanır, paylaşılanlar iCloud üzerinden eşitlenir.",
+   "h1": "Çiftler ve aileler için ortak bütçe uygulaması",
+   "lead": "Bir bütçeyi ya da birikim hedefini eşinle veya ailenle paylaş. Herkes kendi iPhone'undan ekler; Spendry iCloud üzerinden eşitler, yeni bir hesap açmana gerek kalmaz.",
+   "points": [
+    {
+     "h": "Sadece istediğini paylaş",
+     "p": "Ev bütçesini ya da bir hedefi paylaş, paranın geri kalanı sende kalsın."
+    },
+    {
+     "h": "Herkes kendi telefonundan ekler",
+     "p": "Herkes kendi Apple Hesabı'nı kullanır; ortak bütçeler ve hedefler herkes için güncellenir."
+    },
+    {
+     "h": "Yeni hesap yok, sunucu yok",
+     "p": "Paylaşım iCloud ile çalışır. Spendry'nin üyelik sistemi yoktur ve veri toplamaz."
+    },
+    {
+     "h": "Tek hedef, birçok el",
+     "p": "Bir tatil ya da ev için birlikte biriktirin; her katkı aynı hedefi büyütür."
+    }
+   ],
+   "steps_title": "Bütçe nasıl paylaşılır?",
+   "steps": [
+    "Bir bütçe ya da hedef oluştur.",
+    "Spendry'den eşinle ya da ailenle paylaş.",
+    "Daveti kendi iPhone'larında kabul etsinler.",
+    "Herkes harcama ya da birikim eklesin; her şey eşit kalır."
+   ],
+   "why_title": "Neden Spendry ile paylaşmalı?",
+   "why": [
+    "Diğer bütçelerin ve borçların sana özel kalır.",
+    "Ek şifre yok: paylaşım iCloud ile çalışır.",
+    "Veri toplanmaz."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Eşimin de Spendry'si olması gerekir mi?",
+     "a": "Evet, kendi iPhone'unda ya da iPad'inde, kendi Apple Hesabı'yla."
+    },
+    {
+     "q": "Eşim bütün harcamalarımı görür mü?",
+     "a": "Hayır. Yalnızca paylaştığın bütçeler ve hedefler paylaşılır; gerisi sana özel kalır."
+    },
+    {
+     "q": "Paylaşım nasıl çalışır?",
+     "a": "iCloud paylaşımıyla. Arada Spendry hesabı ya da Spendry sunucusu yoktur."
+    },
+    {
+     "q": "Birden fazla kişiyle paylaşabilir miyim?",
+     "a": "Evet. Ortak bir bütçeye ya da hedefe birden fazla aile üyesini davet edebilirsin."
+    }
+   ]
+  },
+  {
+   "key": "income-expense-tracker",
+   "slug": "gelir-gider-takip-uygulamasi",
+   "nav": "Gelir gider takip uygulaması",
+   "screen": "01",
+   "footer": true,
+   "title": "Gelir Gider Takip Uygulaması: Spendry",
+   "description": "Gelirini ve giderini Spendry'de takip et: aylık bakiye, kategoriye göre harcamalar, kart ödemeleri, taksitler ve faturalar tek ekranda. Banka şifresi istemez.",
+   "h1": "Ayın tamamını gösteren gelir gider takip uygulaması",
+   "lead": "Spendry gelirini, giderlerini ve bu ay daha gelecek ödemeleri tek ekranda toplar: bakiyen, kart ekstrelerin, taksitlerin ve faturaların. Banka şifresi istemez.",
+   "points": [
+    {
+     "h": "Gelir ve gider, bir bakışta",
+     "p": "Uygulamayı açtığın anda bakiyeni, bu ayın gelirini, harcamalarını ve yaklaşan ödemeleri görürsün."
+    },
+    {
+     "h": "Kategoriye ve güne göre",
+     "p": "Haftalık ve aylık grafikler paranın nereye gittiğini, günlük ortalamanı ve harcama hızını gösterir."
+    },
+    {
+     "h": "Kartlar, taksitler, faturalar",
+     "p": "Kart ekstreleri, taksitler, KMH, krediler, faturalar ve abonelikler gider tarafına zamanında eklenir; ay sonu sürpriz olmaz."
+    },
+    {
+     "h": "Raporlar",
+     "p": "Aylık durumunu PDF rapor olarak al ve sakla ya da paylaş."
+    }
+   ],
+   "steps_title": "Gelir gider takibine nasıl başlanır?",
+   "steps": [
+    "Gelirini ve hesaplarını ekle.",
+    "Kartlarını, kredilerini ve faturalarını ödeme günleriyle ekle.",
+    "Harcamaları kaydet ya da banka SMS'lerinden aktar.",
+    "Ay sonunda grafiklere ve rapora bak."
+   ],
+   "why_title": "Neden Spendry?",
+   "why": [
+    "Banka şifresi yok, veri toplanmaz.",
+    "Kartlar, taksitler ve krediler Türkiye'deki gibi ayrıntılı takip edilir.",
+    "İndirmesi ücretsiz, Premium isteğe bağlı."
+   ],
+   "tools": [
+    "budget",
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-installment-payments",
+    "track-spending-without-bank-login"
+   ],
+   "faq": [
+    {
+     "q": "Gelir gider tablosu yerine uygulama kullanmak neden daha iyi?",
+     "a": "Uygulama harcamayı kaydettiğin anda bütçeni, bakiyeni ve yaklaşan ödemeleri günceller; ödeme günlerinden önce de hatırlatır."
+    },
+    {
+     "q": "Excel'deki gibi rapor alabilir miyim?",
+     "a": "Spendry aylık durumunu PDF rapor olarak verir. Bu sitedeki ücretsiz gelir gider tablosu da gelirini ihtiyaç, istek ve birikim olarak böler."
+    },
+    {
+     "q": "Kredi kartı taksitlerini de gösterir mi?",
+     "a": "Evet. Taksitler kaç taksit kaldığı ve bitiş ayıyla birlikte gider tarafında görünür."
+    },
+    {
+     "q": "Ücretsiz mi?",
+     "a": "Evet, temel özellikler ücretsiz. Premium aylık ya da yıllık abonelik (ilk hafta ücretsiz) veya tek seferlik Ömür Boyu olarak alınabilir."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "kredi-takip-uygulamasi",
+   "nav": "Kredi takip uygulaması",
+   "screen": "06",
+   "title": "Kredi Takip Uygulaması: Kalan Borç, Faiz ve Taksitler",
+   "description": "Tüm kredilerini Spendry'de takip et: kalan borç, her taksitteki faiz ve anapara, kalan taksit sayısı ve her taksitten önce hatırlatma.",
+   "h1": "Gerçekte ne ödediğini gösteren bir kredi takip uygulaması",
+   "lead": "Bir krediyi bir kez ekle; Spendry kalan borcu, her taksitin ne kadarının faiz olduğunu, kaç taksit kaldığını gösterir ve her taksitten önce hatırlatır.",
+   "points": [
+    {
+     "h": "Bütün ödeme planı",
+     "p": "Her taksit faizi ve anaparasıyla; kredinin gerçekte neye mal olduğunu görürsün."
+    },
+    {
+     "h": "Kalan taksitler ve bitiş tarihi",
+     "p": "Kaç taksit kaldığı ve son taksidin hangi ay olduğu."
+    },
+    {
+     "h": "Her taksitten önce hatırlatma",
+     "p": "Uygulama kapalıyken bile her son ödeme gününden önce bildirim gelir."
+    },
+    {
+     "h": "Borç planının bir parçası",
+     "p": "Krediler toplam borcuna ve borçsuz olacağın tarihe dahildir."
+    }
+   ],
+   "steps_title": "Bir kredi nasıl takip edilir?",
+   "steps": [
+    "Krediyi tutarı, faizi, vadesi ve ilk ödeme tarihiyle ekle.",
+    "Ödeme planına ve toplam maliyete bak.",
+    "Taksitleri ödedikçe kaydet.",
+    "Borçsuz olacağın tarihi izle."
+   ],
+   "why_title": "Neden Spendry?",
+   "why": [
+    "İhtiyaç, taşıt ve konut kredileri tek yerde.",
+    "Banka şifresi yok, veri toplanmaz.",
+    "Bu sitede KKDF ve BSMV dahil ücretsiz kredi hesaplama aracı var."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Hangi kredileri takip edebilirim?",
+     "a": "İhtiyaç, taşıt, konut ve her türlü taksitli kredi; ayrıca kişilere olan borçlar."
+    },
+    {
+     "q": "Ne kadar faiz ödediğimi gösterir mi?",
+     "a": "Evet. Her taksitteki faizi ve kredinin tamamındaki faizi görürsün."
+    },
+    {
+     "q": "Her taksitten önce hatırlatır mı?",
+     "a": "Evet, her son ödeme gününden önce; uygulamayı hiç açmasan da."
+    },
+    {
+     "q": "Bankama bağlanır mı?",
+     "a": "Hayır. Krediyi bir kez eklersin; ödeme planını Spendry çıkarır."
+    }
+   ]
+  }
+ ],
+ "app_labels": {
+  "free": "App Store'da ücretsiz. Premium isteğe bağlı, ilk hafta ücretsiz.",
+  "tools": "Ücretsiz hesaplayıcılar",
+  "guides": "Rehberler",
+  "more": "Spendry'nin yaptığı diğer şeyler",
+  "cta": "Spendry'yi indir, ayın tamamını tek yerde gör."
  }
 }

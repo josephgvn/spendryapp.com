@@ -2117,5 +2117,899 @@
     }
    }
   ]
+ },
+ "apps": [
+  {
+   "key": "budget-app",
+   "slug": "budget-app",
+   "nav": "Budget app",
+   "screen": "04",
+   "footer": true,
+   "title": "Budget App for iPhone: Spendry, No Bank Login",
+   "description": "Spendry is a budget app for iPhone and iPad: category budgets that warn you before they run out, every card, loan and bill in one place, and reminders before payments are due.",
+   "h1": "A budget app that also knows what's coming",
+   "lead": "Spendry gives each category a limit, warns you before a budget runs out and shows the bills, card payments and installments still coming this month. No bank login.",
+   "points": [
+    {
+     "h": "Budgets that keep up with you",
+     "p": "Set a monthly limit for groceries, eating out or anything else. Every expense fills its budget, and Spendry warns you before you hit the limit, not after."
+    },
+    {
+     "h": "The rest of the month, in advance",
+     "p": "Card statements, loan payments, bills and subscriptions due before payday sit next to your balance, so you know what is really left to spend."
+    },
+    {
+     "h": "Add an expense in seconds",
+     "p": "Type the amount and pick a category, scan a receipt, add one from a widget, or let a Shortcuts automation log Apple Pay purchases for you."
+    },
+    {
+     "h": "See where it all goes",
+     "p": "Weekly and monthly charts by category and by day show which budgets slip and how this month compares with the last."
+    }
+   ],
+   "steps_title": "How to start a budget in Spendry",
+   "steps": [
+    "Add your income and the accounts or cards you pay from.",
+    "Create budgets for the categories you spend most on and give each a limit.",
+    "Log expenses as they happen, or turn on the Apple Pay automation.",
+    "At the end of the month, check the charts and adjust next month's limits."
+   ],
+   "why_title": "Why people choose Spendry",
+   "why": [
+    "No bank login: you decide what goes in, and nothing connects to your bank.",
+    "Your data stays on your iPhone and in your own iCloud; nothing is collected.",
+    "Debts, cards and installments live next to your budget, not in another app.",
+    "Free to download, with optional Premium."
+   ],
+   "tools": [
+    "budget",
+    "subs",
+    "debt"
+   ],
+   "guides": [
+    "make-a-monthly-budget",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Is Spendry a free budget app?",
+     "a": "Yes. Budgets, expenses, reminders and the core features are free. Premium is optional: monthly or yearly with a free week, or a one-time Lifetime purchase."
+    },
+    {
+     "q": "Does Spendry need access to my bank account?",
+     "a": "No. It never asks for a bank login. You add expenses yourself, import them from bank messages or let a Shortcuts automation log Apple Pay purchases."
+    },
+    {
+     "q": "Can I share a budget with my partner?",
+     "a": "Yes. Shared budgets and goals sync through iCloud, and each person uses their own Apple Account."
+    },
+    {
+     "q": "Which devices does it work on?",
+     "a": "iPhone and iPad with iOS 17 or later. There is also a version for Mac on the Mac App Store."
+    }
+   ]
+  },
+  {
+   "key": "budget-app-without-bank-login",
+   "slug": "budget-app-without-bank-login",
+   "nav": "Budget app without bank login",
+   "screen": "02",
+   "footer": true,
+   "title": "Budget App Without Linking Your Bank: Spendry",
+   "description": "A budget app that never asks for your bank login: add expenses yourself, import them from bank messages or log Apple Pay purchases with Shortcuts. Your data stays on your iPhone.",
+   "h1": "A budget app that never asks for your bank login",
+   "lead": "Many budget apps want your bank password. Spendry doesn't connect to your bank at all: you decide what goes in, and your records stay on your iPhone and in your own iCloud.",
+   "points": [
+    {
+     "h": "Nothing connects to your bank",
+     "p": "There is no bank login, no aggregator and no account to create. Spendry works the same in every country, with any bank, card or currency."
+    },
+    {
+     "h": "Adding expenses stays quick",
+     "p": "Type an amount, scan a receipt, add one from a Home Screen widget or ask Siri. You can also turn your bank's text messages into entries."
+    },
+    {
+     "h": "Apple Pay purchases can log themselves",
+     "p": "Turn on the ready-made Shortcuts automation and every Apple Pay purchase is added to Spendry with its amount."
+    },
+    {
+     "h": "Data not collected",
+     "p": "No ads, no analytics, no tracking. The App Store privacy label says Data Not Collected, and you can lock the app with Face ID."
+    }
+   ],
+   "steps_title": "How it works without a bank connection",
+   "steps": [
+    "Add your cards, loans and accounts with their current balances.",
+    "Log spending as it happens, or bring it in from bank messages.",
+    "Turn on the Apple Pay automation in the Shortcuts app.",
+    "Check your balance and budgets; reminders tell you before anything is due."
+   ],
+   "why_title": "Why skip the bank connection",
+   "why": [
+    "Your bank password never leaves your hands.",
+    "No broken connections or missing transactions when a bank changes its systems.",
+    "Works with any bank, including the ones budget apps don't support.",
+    "Writing an expense down makes you notice it."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "log-apple-pay-purchases-automatically",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Why doesn't Spendry connect to my bank?",
+     "a": "So that your bank login and your transactions never pass through anyone's servers. Your records stay on your iPhone and in your own iCloud."
+    },
+    {
+     "q": "Isn't adding expenses by hand slow?",
+     "a": "It takes a few seconds, and you can skip it for Apple Pay with the Shortcuts automation, use a widget, ask Siri or bring in bank messages."
+    },
+    {
+     "q": "Can Spendry read my bank's text messages?",
+     "a": "Not on its own. You paste or share a bank message into Spendry and it turns it into an entry."
+    },
+    {
+     "q": "Is my data safe?",
+     "a": "Spendry collects no data. Your records live on your device and sync through your own iCloud, and you can lock the app with Face ID."
+    }
+   ]
+  },
+  {
+   "key": "debt-payoff-app",
+   "slug": "debt-payoff-app",
+   "nav": "Debt payoff app",
+   "screen": "06",
+   "footer": true,
+   "title": "Debt Payoff App: Snowball and Avalanche Plan With Your Debt-Free Date",
+   "description": "Spendry puts every card, loan, overdraft and personal debt in one plan, orders them with the snowball or avalanche method and shows the month you'll be debt-free.",
+   "h1": "A debt payoff app that shows your debt-free date",
+   "lead": "Add every debt once. Spendry orders them with the snowball or avalanche method, adds what you can pay on top each month and shows the month you'll be free of all of it.",
+   "points": [
+    {
+     "h": "Every debt in one number",
+     "p": "Credit cards, loans, overdrafts, installments and money you owe friends, with your total debt and monthly payments at a glance."
+    },
+    {
+     "h": "Snowball or avalanche, your choice",
+     "p": "Pay the smallest balance first for quick wins, or the highest rate first to pay the least interest. Spendry compares both and keeps the plan up to date as you pay."
+    },
+    {
+     "h": "A date that moves when you do",
+     "p": "Record a payment or add an extra amount, and your debt-free date moves closer right away."
+    },
+    {
+     "h": "Reminders before every due date",
+     "p": "A notification arrives before each payment, even when the app is closed, so a missed minimum never adds late fees."
+    }
+   ],
+   "steps_title": "How the payoff plan works",
+   "steps": [
+    "Add each debt with its balance, rate and minimum payment.",
+    "Choose the snowball or the avalanche method.",
+    "Set how much extra you can pay each month.",
+    "Record payments as you make them and watch the date move."
+   ],
+   "why_title": "What makes it different",
+   "why": [
+    "Cards, loans and installments are tracked in detail, not as one number.",
+    "No bank login and no data collected.",
+    "The free calculators on this site use the same methods, so you can try your numbers first."
+   ],
+   "tools": [
+    "debt",
+    "cc",
+    "loan"
+   ],
+   "guides": [
+    "debt-snowball-vs-avalanche",
+    "debt-free-date",
+    "pay-off-credit-card-debt-faster"
+   ],
+   "faq": [
+    {
+     "q": "What is the snowball method?",
+     "a": "You pay the minimum on every debt and put any extra money toward the smallest balance. When it is gone, its payment rolls into the next one."
+    },
+    {
+     "q": "What is the avalanche method?",
+     "a": "The extra money goes to the debt with the highest interest rate first, which usually costs the least interest overall."
+    },
+    {
+     "q": "Can I track money I owe friends or family?",
+     "a": "Yes. Personal debts can be added with or without interest and follow the same plan."
+    },
+    {
+     "q": "Is the debt plan free?",
+     "a": "You can start for free. Premium removes the limits of the free version, with a free week to try it."
+    }
+   ]
+  },
+  {
+   "key": "credit-card-tracker-app",
+   "slug": "credit-card-tracker-app",
+   "nav": "Credit card tracker",
+   "screen": "07",
+   "footer": true,
+   "title": "Credit Card Tracker App: Statement Dates, Due Dates and Balances",
+   "description": "Track every credit card in Spendry: when each statement closes, when it is due, the balance and installments, with a reminder before every due date.",
+   "h1": "Every credit card, its statement and its due date",
+   "lead": "Spendry knows when each card's statement closes and when it is due, keeps the balance and installments up to date and reminds you before the payment, so a card never surprises you.",
+   "points": [
+    {
+     "h": "Statement and due dates for every card",
+     "p": "Add your cards once with their statement day and due day. Spendry shows what you owe on each and when you have to pay it."
+    },
+    {
+     "h": "Installments on your cards",
+     "p": "Purchases split into installments show how many payments are left and the month the last one comes."
+    },
+    {
+     "h": "Minimum or full payment",
+     "p": "Record a payment and the balance updates. The free card payoff calculator shows what paying only the minimum costs over time."
+    },
+    {
+     "h": "A reminder before it's due",
+     "p": "Notifications arrive before every card payment, even when the app is closed. Mark the payment as done right from the notification."
+    }
+   ],
+   "steps_title": "How to track your cards",
+   "steps": [
+    "Add each card with its limit, statement day and due day.",
+    "Log purchases and installments, or bring them in from bank messages.",
+    "Record payments when you make them.",
+    "Let reminders tell you before each due date."
+   ],
+   "why_title": "Why track cards in Spendry",
+   "why": [
+    "All cards on one screen with the total you owe.",
+    "Your debt-free date includes your cards.",
+    "No bank login, no data collected."
+   ],
+   "tools": [
+    "cc",
+    "debt"
+   ],
+   "guides": [
+    "statement-date-vs-due-date",
+    "pay-off-credit-card-debt-faster",
+    "minimum-payment-trap"
+   ],
+   "faq": [
+    {
+     "q": "What is the difference between the statement date and the due date?",
+     "a": "The statement date closes the billing cycle and sets what you owe; the due date is the last day to pay it without interest or late fees."
+    },
+    {
+     "q": "Can it remind me before every card payment?",
+     "a": "Yes. You get a notification before each due date, even if you never open the app, and can mark the payment as done from the notification."
+    },
+    {
+     "q": "Can I track card installments?",
+     "a": "Yes. Each installment plan shows the payments left and the month of the last one."
+    },
+    {
+     "q": "Does it connect to my card issuer?",
+     "a": "No. Spendry never asks for a bank login. You add your cards and record payments yourself."
+    }
+   ]
+  },
+  {
+   "key": "bill-reminder-app",
+   "slug": "bill-reminder-app",
+   "nav": "Bill reminder app",
+   "screen": "07",
+   "footer": true,
+   "title": "Bill Reminder App: Never Miss a Payment",
+   "description": "Spendry reminds you before every bill, card payment, loan installment and subscription is due, even if you never open the app, and lets you mark it paid from the notification.",
+   "h1": "A bill reminder app that arrives on time",
+   "lead": "Spendry reminds you before every bill, card payment, loan installment and subscription, even if you never open the app. Snooze it or mark it paid right from the notification.",
+   "points": [
+    {
+     "h": "Every due date in one list",
+     "p": "Bills, card statements, loan installments and subscriptions sit in one upcoming list, with anything overdue at the top."
+    },
+    {
+     "h": "Reminders that don't need the app open",
+     "p": "Notifications are scheduled on your iPhone and arrive before each due date. They are Time Sensitive, so they can get through a Focus when you allow it."
+    },
+    {
+     "h": "Paid or snoozed in one tap",
+     "p": "Mark a payment as paid or snooze it from the notification itself. Paying updates your balance and budget."
+    },
+    {
+     "h": "A morning summary if you want one",
+     "p": "A ready-made Shortcuts automation sends you the next three days' payments in one notification every morning."
+    }
+   ],
+   "steps_title": "How to set up your reminders",
+   "steps": [
+    "Add your bills, cards, loans and subscriptions with their due days.",
+    "Choose how many days before each one you want to be reminded.",
+    "Pay or snooze from the notification.",
+    "Check the upcoming list whenever you want the whole picture."
+   ],
+   "why_title": "Why it works",
+   "why": [
+    "One place for every kind of payment, not one app per bill.",
+    "Reminders come even when Spendry stays closed.",
+    "Your data stays on your iPhone; nothing is collected."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "never-miss-a-bill",
+    "statement-date-vs-due-date",
+    "track-subscriptions"
+   ],
+   "faq": [
+    {
+     "q": "Will I get reminders if I never open the app?",
+     "a": "Yes. Reminders are scheduled on your iPhone and arrive on time even if Spendry stays closed."
+    },
+    {
+     "q": "Can I choose when I'm reminded?",
+     "a": "Yes. Pick how many days before the due date you want the reminder."
+    },
+    {
+     "q": "Can it remind me about subscriptions too?",
+     "a": "Yes. Subscriptions, bills, card payments and loan installments all get reminders."
+    },
+    {
+     "q": "Do reminders need an internet connection?",
+     "a": "No. They are scheduled on your device."
+    }
+   ]
+  },
+  {
+   "key": "subscription-tracker-app",
+   "slug": "subscription-tracker-app",
+   "nav": "Subscription tracker",
+   "screen": "09",
+   "footer": true,
+   "title": "Subscription Tracker App: See What You Pay Every Month",
+   "description": "Track every subscription in Spendry: the monthly and yearly total, the next renewal date and a reminder before each one renews, so you can cancel what you don't use.",
+   "h1": "A subscription tracker that shows the yearly total",
+   "lead": "Add your subscriptions once and Spendry shows what they cost each month and each year, when each one renews, and reminds you before the renewal while there is still time to cancel.",
+   "points": [
+    {
+     "h": "Monthly and yearly totals",
+     "p": "Weekly, monthly and yearly plans become one monthly figure and one yearly figure, so small charges stop hiding."
+    },
+    {
+     "h": "A reminder before each renewal",
+     "p": "Get notified a few days before a subscription renews, while you can still cancel it."
+    },
+    {
+     "h": "Ask in plain words",
+     "p": "Ask Spendry's assistant what your subscriptions cost per year and get the total with every subscription listed."
+    },
+    {
+     "h": "Part of your whole budget",
+     "p": "Subscriptions count toward your budgets and your upcoming payments, so you see them next to everything else."
+    }
+   ],
+   "steps_title": "How to track your subscriptions",
+   "steps": [
+    "Add each subscription with its price, billing cycle and renewal date.",
+    "Check the monthly and yearly totals.",
+    "Turn on reminders before renewals.",
+    "Cancel what you no longer use and watch the total drop."
+   ],
+   "why_title": "Why it helps",
+   "why": [
+    "Subscriptions from any service, not only the App Store.",
+    "No bank login needed: add each one once.",
+    "A free subscription cost calculator on this site."
+   ],
+   "tools": [
+    "subs",
+    "budget"
+   ],
+   "guides": [
+    "track-subscriptions",
+    "never-miss-a-bill"
+   ],
+   "faq": [
+    {
+     "q": "Does Spendry find my subscriptions automatically?",
+     "a": "No. It doesn't connect to your bank, so you add each subscription once. After that it tracks renewals and totals for you."
+    },
+    {
+     "q": "Can I track yearly subscriptions?",
+     "a": "Yes. Weekly, monthly and yearly plans are all supported and shown as monthly and yearly totals."
+    },
+    {
+     "q": "Will it remind me before a subscription renews?",
+     "a": "Yes, a few days before each renewal, even if you don't open the app."
+    },
+    {
+     "q": "How do I cancel a subscription on my iPhone?",
+     "a": "App Store subscriptions are cancelled in the Settings app, under your name and Subscriptions. Other services are cancelled on their own website or app."
+    }
+   ]
+  },
+  {
+   "key": "expense-tracker-app",
+   "slug": "expense-tracker-app",
+   "nav": "Expense tracker",
+   "screen": "03",
+   "title": "Expense Tracker App for iPhone: Spendry",
+   "description": "Log an expense in seconds, from the app, a widget, Siri or Apple Pay, and see weekly and monthly charts by category. No bank login, no data collected.",
+   "h1": "An expense tracker that takes seconds",
+   "lead": "Type the amount, pick a category, done. Or ask Siri, use a widget or let Apple Pay purchases log themselves. Then see exactly where your money goes.",
+   "points": [
+    {
+     "h": "Fast to add, every way you like",
+     "p": "Add from the app, a Home Screen widget, Siri or a Shortcuts automation, and keep a scanned receipt with the expense."
+    },
+    {
+     "h": "Charts that answer questions",
+     "p": "Weekly and monthly views by category and by day, your daily average and your spending pace against the previous period."
+    },
+    {
+     "h": "Budgets warn you early",
+     "p": "Expenses fill their category budgets, and Spendry tells you before one runs out."
+    },
+    {
+     "h": "Your own categories",
+     "p": "Create the categories you need, with your own names and icons, instead of living with a fixed list."
+    }
+   ],
+   "steps_title": "How to start tracking",
+   "steps": [
+    "Add your first expenses from the app or a widget.",
+    "Create budgets for the categories that matter.",
+    "Turn on the Apple Pay automation if you pay with your phone.",
+    "Check the charts each week."
+   ],
+   "why_title": "Why Spendry",
+   "why": [
+    "No bank login, no data collected.",
+    "Widgets, Siri and Shortcuts all add expenses.",
+    "Works in any currency, in 44 languages."
+   ],
+   "tools": [
+    "budget",
+    "subs"
+   ],
+   "guides": [
+    "log-apple-pay-purchases-automatically",
+    "track-spending-without-bank-login",
+    "budget-widgets-iphone"
+   ],
+   "faq": [
+    {
+     "q": "Can I add an expense without opening the app?",
+     "a": "Yes. Use a Home Screen widget, ask Siri, or let a Shortcuts automation log Apple Pay purchases."
+    },
+    {
+     "q": "Can I keep receipts?",
+     "a": "Yes. Scan a receipt when you add an expense and it stays with that expense."
+    },
+    {
+     "q": "Does it work with any currency?",
+     "a": "Yes. Choose your currency when you start; investments and foreign currency accounts can keep their own."
+    },
+    {
+     "q": "Is it free?",
+     "a": "Yes, the core features are free. Premium is optional, with a free week to try it."
+    }
+   ]
+  },
+  {
+   "key": "installment-tracker-app",
+   "slug": "installment-tracker-app",
+   "nav": "Installment tracker",
+   "screen": "06",
+   "title": "Installment Tracker App: Buy Now, Pay Later and Card Installments",
+   "description": "Track every installment plan in Spendry: how many payments are left, the amount each month and the month the last one comes, with a reminder before each payment.",
+   "h1": "Every installment, and the month it ends",
+   "lead": "Card installments and buy now, pay later plans add up quietly. Spendry shows how many payments are left on each, what they add up to every month and when the last one comes.",
+   "points": [
+    {
+     "h": "What you owe each month, in installments",
+     "p": "See the total of all installment payments due this month and in the coming months, so new purchases don't stack up unnoticed."
+    },
+    {
+     "h": "The end date of every plan",
+     "p": "Each plan shows the payments left and the month of the last one."
+    },
+    {
+     "h": "Reminders before each payment",
+     "p": "A notification arrives before every installment is due, even when the app is closed."
+    },
+    {
+     "h": "Part of your debt-free date",
+     "p": "Installments count toward your total debt and your payoff plan."
+    }
+   ],
+   "steps_title": "How to track installments",
+   "steps": [
+    "Add a purchase with its total, the number of installments and the first payment date.",
+    "See the monthly amount and the end date.",
+    "Record each payment, or mark it paid from the reminder.",
+    "Check the monthly installment total before buying something new."
+   ],
+   "why_title": "Why it helps",
+   "why": [
+    "Card installments and buy now, pay later plans in one place.",
+    "Installments sit next to your budgets and other debts, so the month's real total is clear.",
+    "No bank login, no data collected."
+   ],
+   "tools": [
+    "debt",
+    "cc"
+   ],
+   "guides": [
+    "track-installment-payments",
+    "statement-date-vs-due-date"
+   ],
+   "faq": [
+    {
+     "q": "Can I track buy now, pay later plans?",
+     "a": "Yes. Add any plan with its total, the number of payments and the first date; Spendry tracks the rest."
+    },
+    {
+     "q": "Does it show the total I pay in installments each month?",
+     "a": "Yes. You see this month's installment total and what is coming in the next months."
+    },
+    {
+     "q": "Will I be reminded before each installment?",
+     "a": "Yes, before every payment, even if you don't open the app."
+    },
+    {
+     "q": "Do installments affect my debt-free date?",
+     "a": "Yes. They are part of your total debt and your payoff plan."
+    }
+   ]
+  },
+  {
+   "key": "savings-goal-app",
+   "slug": "savings-goal-app",
+   "nav": "Savings goal app",
+   "screen": "05",
+   "title": "Savings Goal App: Save for What Matters",
+   "description": "Set savings goals in Spendry, add money as you save, see how close you are every day and share a goal with your partner or family through iCloud.",
+   "h1": "A savings goal app that keeps you going",
+   "lead": "Give each goal an amount and add to it whenever you save. Spendry shows how close you are every day, on the app and on your Home Screen.",
+   "points": [
+    {
+     "h": "A clear target",
+     "p": "Each goal has an amount and a progress bar, with what is left to save."
+    },
+    {
+     "h": "On your Home Screen",
+     "p": "A goal widget keeps your progress in sight, so saving stays on your mind."
+    },
+    {
+     "h": "Save together",
+     "p": "Share a goal with your partner or family through iCloud; everyone adds to the same goal from their own iPhone."
+    },
+    {
+     "h": "Next to your budget",
+     "p": "Money you put toward goals is part of your monthly picture, next to your budgets and payments."
+    }
+   ],
+   "steps_title": "How to save for a goal",
+   "steps": [
+    "Create a goal with the amount you want to reach.",
+    "Add money to it whenever you save.",
+    "Watch the progress in the app or on the widget.",
+    "Share it if you save with someone else."
+   ],
+   "why_title": "Why it helps",
+   "why": [
+    "Goals sit next to your budgets and debts.",
+    "Shared goals sync through iCloud.",
+    "A free savings goal calculator on this site."
+   ],
+   "tools": [
+    "savings",
+    "budget"
+   ],
+   "guides": [
+    "save-for-a-goal",
+    "shared-budget-with-partner"
+   ],
+   "faq": [
+    {
+     "q": "Can I have more than one goal?",
+     "a": "Yes. Create a goal for each thing you are saving for and add to each separately."
+    },
+    {
+     "q": "Can I share a goal with my partner?",
+     "a": "Yes. Shared goals sync through iCloud, and each person uses their own Apple Account."
+    },
+    {
+     "q": "Is there a widget for goals?",
+     "a": "Yes. A goal widget shows your progress on the Home Screen."
+    },
+    {
+     "q": "How much should I save each month?",
+     "a": "Divide what is left by the months until your date. The free savings goal calculator on this site does it, with interest if you have it."
+    }
+   ]
+  },
+  {
+   "key": "net-worth-tracker-app",
+   "slug": "net-worth-tracker-app",
+   "nav": "Net worth tracker",
+   "screen": "08",
+   "title": "Net Worth Tracker App With Live Prices",
+   "description": "Track your net worth in Spendry: accounts and investments with live prices, gold and currencies, minus every card, loan and debt, in one number.",
+   "h1": "Your net worth, in one number that stays current",
+   "lead": "Spendry adds up your accounts and investments, takes away what you owe and shows your net worth. Stocks, crypto, gold and currencies update with live prices.",
+   "points": [
+    {
+     "h": "Everything you own and owe",
+     "p": "Cash, accounts, investments and savings against cards, loans, installments and personal debts."
+    },
+    {
+     "h": "Live prices",
+     "p": "Stocks, crypto, gold and currencies update with live market prices next to your spending."
+    },
+    {
+     "h": "Investments in their own currency",
+     "p": "Investments and foreign currency accounts keep their own currency; your net worth shows in yours."
+    },
+    {
+     "h": "On your Home Screen",
+     "p": "A net worth widget keeps the number in sight."
+    }
+   ],
+   "steps_title": "How to track your net worth",
+   "steps": [
+    "Add your accounts and their balances.",
+    "Add investments with the amount you hold.",
+    "Add your debts.",
+    "Check your net worth as prices and balances change."
+   ],
+   "why_title": "Why Spendry",
+   "why": [
+    "Debts and investments in the same app as your budget.",
+    "No bank or brokerage login.",
+    "Data not collected."
+   ],
+   "tools": [
+    "debt",
+    "savings"
+   ],
+   "guides": [
+    "track-net-worth",
+    "track-loans"
+   ],
+   "faq": [
+    {
+     "q": "Which investments can I track?",
+     "a": "Stocks, crypto, gold and currencies, with live prices."
+    },
+    {
+     "q": "Does it connect to my brokerage?",
+     "a": "No. You add what you hold; prices update on their own."
+    },
+    {
+     "q": "Should I include my home or car?",
+     "a": "Many people track only what changes month to month: cash, investments and debts. Add more if it helps you."
+    },
+    {
+     "q": "Is there a net worth widget?",
+     "a": "Yes, for your Home Screen."
+    }
+   ]
+  },
+  {
+   "key": "shared-budget-app",
+   "slug": "shared-budget-app",
+   "nav": "Shared budget app",
+   "screen": "04",
+   "title": "Shared Budget App for Couples and Families",
+   "description": "Share budgets and savings goals with your partner or family in Spendry. Everyone uses their own iPhone and Apple Account, and shared items sync through iCloud.",
+   "h1": "A shared budget app for couples and families",
+   "lead": "Share a budget or a savings goal with your partner or family. Everyone adds from their own iPhone, and Spendry keeps it in sync through iCloud, with no extra account to create.",
+   "points": [
+    {
+     "h": "Share only what you want",
+     "p": "Share a household budget or a goal and keep the rest of your money private."
+    },
+    {
+     "h": "Everyone adds from their own phone",
+     "p": "Each person uses their own Apple Account; shared budgets and goals update for everyone."
+    },
+    {
+     "h": "No new accounts, no servers",
+     "p": "Sharing works through iCloud. Spendry has no account system and collects no data."
+    },
+    {
+     "h": "One goal, many hands",
+     "p": "Save for a holiday or a home together; every contribution moves the same goal."
+    }
+   ],
+   "steps_title": "How to share a budget",
+   "steps": [
+    "Create a budget or a goal.",
+    "Share it from Spendry with your partner or family.",
+    "They accept the invitation on their own iPhone.",
+    "Everyone adds expenses or savings, and it stays in sync."
+   ],
+   "why_title": "Why share with Spendry",
+   "why": [
+    "Your other budgets and debts stay private.",
+    "No extra login: sharing runs through iCloud.",
+    "Data not collected."
+   ],
+   "tools": [
+    "budget",
+    "savings"
+   ],
+   "guides": [
+    "shared-budget-with-partner",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "Does my partner need Spendry too?",
+     "a": "Yes, on their own iPhone or iPad, with their own Apple Account."
+    },
+    {
+     "q": "Can my partner see all my spending?",
+     "a": "No. Only the budgets and goals you share are shared; the rest stays private."
+    },
+    {
+     "q": "How does sharing work?",
+     "a": "Through iCloud sharing. There is no Spendry account and no Spendry server in between."
+    },
+    {
+     "q": "Can I share with more than one person?",
+     "a": "Yes. You can invite several family members to a shared budget or goal."
+    }
+   ]
+  },
+  {
+   "key": "mint-alternative",
+   "slug": "mint-alternative",
+   "nav": "Mint alternative",
+   "screen": "01",
+   "title": "Mint Alternative: A Budget App That Doesn't Need Your Bank Login",
+   "description": "Mint closed in March 2024. Spendry is an iPhone budget app with budgets, bills, cards, loans and a debt-free date, without a bank login and with no data collected.",
+   "h1": "Looking for a Mint alternative?",
+   "lead": "Intuit shut Mint down in March 2024. If you liked having budgets, bills and debts in one place but don't want to hand over your bank login again, Spendry works without one.",
+   "points": [
+    {
+     "h": "Budgets and spending",
+     "p": "Category budgets that warn you before they run out, with weekly and monthly charts."
+    },
+    {
+     "h": "Bills and due dates",
+     "p": "Reminders before every bill, card payment and subscription, even when the app is closed."
+    },
+    {
+     "h": "Debts with a finish line",
+     "p": "Cards, loans and installments in one payoff plan with the month you'll be debt-free."
+    },
+    {
+     "h": "Privacy first",
+     "p": "No bank login, no ads, no data collected. Your records stay on your iPhone and in your iCloud."
+    }
+   ],
+   "steps_title": "How to switch",
+   "steps": [
+    "Download Spendry and choose your currency.",
+    "Add your accounts, cards and loans with today's balances.",
+    "Set budgets for your main categories.",
+    "Turn on reminders and the Apple Pay automation."
+   ],
+   "why_title": "Why Spendry",
+   "why": [
+    "Made for iPhone and iPad, with a Mac version.",
+    "Works with any bank, because it doesn't connect to one.",
+    "Free to start; Premium is optional."
+   ],
+   "tools": [
+    "budget",
+    "debt",
+    "subs"
+   ],
+   "guides": [
+    "track-spending-without-bank-login",
+    "make-a-monthly-budget"
+   ],
+   "faq": [
+    {
+     "q": "When did Mint shut down?",
+     "a": "Intuit closed Mint in March 2024 and pointed its users to Credit Karma."
+    },
+    {
+     "q": "Does Spendry sync with my bank like Mint did?",
+     "a": "No, by design. You add entries yourself, bring in bank messages or log Apple Pay purchases with Shortcuts."
+    },
+    {
+     "q": "Is Spendry free?",
+     "a": "Yes, the core features are free. Premium is monthly, yearly or a one-time purchase, and subscriptions start with a free week."
+    }
+   ]
+  },
+  {
+   "key": "loan-tracker-app",
+   "slug": "loan-tracker-app",
+   "nav": "Loan tracker",
+   "screen": "06",
+   "title": "Loan Tracker App: Balance, Payments and Interest",
+   "description": "Track every loan in Spendry: the remaining balance, the interest and principal in each payment, the payments left and a reminder before each installment.",
+   "h1": "A loan tracker that shows what you really pay",
+   "lead": "Add a loan once and Spendry shows the remaining balance, how much of each payment is interest, how many payments are left, and reminds you before every installment.",
+   "points": [
+    {
+     "h": "The whole schedule",
+     "p": "Every installment with its interest and principal, so you see what the loan really costs."
+    },
+    {
+     "h": "Payments left and the end date",
+     "p": "The number of payments left and the month of the last one."
+    },
+    {
+     "h": "Reminders before each installment",
+     "p": "A notification arrives before every due date, even when the app is closed."
+    },
+    {
+     "h": "Part of your debt plan",
+     "p": "Loans count toward your total debt and your debt-free date."
+    }
+   ],
+   "steps_title": "How to track a loan",
+   "steps": [
+    "Add the loan with the amount, rate, term and first payment date.",
+    "Check the schedule and the total cost.",
+    "Record payments as you make them.",
+    "Follow your debt-free date."
+   ],
+   "why_title": "Why Spendry",
+   "why": [
+    "Personal, car, home and student loans in one place.",
+    "No bank login, no data collected.",
+    "A free loan calculator on this site."
+   ],
+   "tools": [
+    "loan",
+    "debt"
+   ],
+   "guides": [
+    "track-loans",
+    "debt-free-date"
+   ],
+   "faq": [
+    {
+     "q": "Which loans can I track?",
+     "a": "Personal, car, home, student and any other installment loan, plus money you owe people."
+    },
+    {
+     "q": "Does it show how much interest I pay?",
+     "a": "Yes. You see the interest in each payment and over the whole loan."
+    },
+    {
+     "q": "Will it remind me before each payment?",
+     "a": "Yes, before every due date, even if you never open the app."
+    },
+    {
+     "q": "Does it connect to my lender?",
+     "a": "No. You add the loan once; Spendry works out the schedule."
+    }
+   ]
+  }
+ ],
+ "app_labels": {
+  "free": "Free on the App Store. Premium is optional, with a free week.",
+  "tools": "Free calculators",
+  "guides": "Guides",
+  "more": "More of what Spendry does",
+  "cta": "Download Spendry and see your whole month in one place."
  }
 }

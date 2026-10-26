@@ -816,3 +816,10 @@ tbody tr:nth-child(2n) { background: #fafbff; }
   .payoff .cmp td { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; padding: 4px 0; text-align: end; }
   .payoff .cmp td::before { content: attr(data-label); flex: 0 0 auto; max-width: 48%; text-align: start; color: var(--ink-3); font-weight: 600; font-size: 13px; }
 }
+
+/* App pages */
+.app-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin-top: 22px; }
+.app-cta p { color: #9aa3c7; font-size: 14px; }
+.app-page .tool-list { margin: 6px 0 10px; }
+.app-links { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px 20px; margin: 4px 0 8px; }
+.app-links a { font-weight: 600; }

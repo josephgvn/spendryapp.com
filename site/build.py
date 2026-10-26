@@ -124,6 +124,8 @@ def load_content():
             for key, value in out[lang].items():
                 if isinstance(value, dict) and "landing" in value and "landing" not in own.get(key, {}):
                     del value["landing"]
+            if "apps" not in own:
+                out[lang].pop("apps", None)
     return out
 
 
@@ -452,7 +454,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
 <div class="foot-top">
 <div class="foot-brand"><a class="brand" href="{home}"><img src="/assets/brand/ribbon-128.webp" alt="" width="30" height="26"><span>Spendry</span></a><p>{e(c['footer']['tagline'])}</p>{store_button(c, lang, 'footer', 'btn-store btn-store-sm')}</div>
 <div class="foot-cols">
-<div><h4>Spendry</h4><ul><li><a href="{home}#features">{e(nav['features'])}</a></li><li><a href="{home}#privacy">{e(nav['privacy'])}</a></li><li><a href="mailto:{SUPPORT_EMAIL}">{e(c['footer']['support'])}</a></li></ul></div>
+<div><h4>Spendry</h4><ul><li><a href="{home}#features">{e(nav['features'])}</a></li>{app_links(lang, c, 6)}<li><a href="{home}#privacy">{e(nav['privacy'])}</a></li><li><a href="mailto:{SUPPORT_EMAIL}">{e(c['footer']['support'])}</a></li></ul></div>
 <div><h4>{e(c['footer']['tools'])}</h4><ul>{tool_links(lang, c)}</ul></div>
 <div><h4>{e(c['guide_labels']['nav'])}</h4><ul>{guide_links(lang, c)}</ul></div>
 <div><h4>{e(c['footer']['legal'])}</h4><ul><li><a href="/privacy-policy.html">{e(c['footer']['privacy_policy'])}</a></li><li><a href="/terms-of-service.html">{e(c['footer']['terms'])}</a></li></ul></div>
@@ -1163,7 +1165,7 @@ def qa_list(items):
 
 
 def short_title(title):
-    return title + " | Spendry" if len(title) < 56 else title
+    return title + " | Spendry" if len(title) < 56 and "Spendry" not in title else title
 
 
 def guide_page(lang, c, i, languages, paths):
@@ -1794,6 +1796,64 @@ def loan_amount_page(lang, c, languages, F, amount):
                 "page-tool page-guide page-payoff", paths={lang: path}, og_type="article")
 
 
+# ---------------------------------------------------------------- app pages: what Spendry does, one need at a time
+# A page per thing people look for an app for (a budget app, a debt payoff app, a bill reminder app...), in the
+# languages that have them written ("apps" in their own content file). Pages that exist in several languages are
+# linked to each other by their English key.
+def app_page_paths(languages, key):
+    return {x: a["slug"] + "/" for x in languages for a in CONTENT[x].get("apps", []) if a["key"] == key}
+
+
+def app_links(lang, c, limit=None):
+    """Links to the app pages; with a limit, only the ones marked for the footer."""
+    home = home_url(lang)
+    items = c.get("apps", [])
+    if limit:
+        items = [a for a in items if a.get("footer")][:limit]
+    return "".join(f'<li><a href="{home}{a["slug"]}/">{e(a["nav"])}</a></li>' for a in items)
+
+
+def app_page(lang, c, languages, a, paths):
+    L = c["app_labels"]
+    home = home_url(lang)
+    path = a["slug"] + "/"
+    url = f"{BASE_URL}/{prefix(lang)}{path}"
+    by_key = {g["key"]: g for g in c["guides"]}
+    points = "".join(f'<h2 data-rise>{e(p["h"])}</h2><p>{e(p["p"])}</p>' for p in a["points"])
+    steps = "".join(f"<li data-rise>{e(s)}</li>" for s in a["steps"])
+    why = '<ul class="ticks">' + "".join(f"<li>{e(x)}</li>" for x in a["why"]) + "</ul>"
+    others = "".join(f'<li><a href="{home}{x["slug"]}/">{e(x["nav"])}</a></li>' for x in c["apps"] if x["key"] != a["key"])
+    guides = [by_key[k] for k in a.get("guides", []) if k in by_key]
+    body = f"""
+<section class="tool-hero guide-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap guide-top"><div class="guide-copy"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<span>{e(a['nav'])}</span></nav>
+<h1 class="title title-lg" data-split>{e(a['h1'])}</h1><p class="sub" data-rise="now">{e(a['lead'])}</p>
+<div class="app-cta" data-rise="now">{store_button(c, lang, 'app-' + a['key'])}<p>{e(L['free'])}</p></div></div>
+<div class="guide-phone" data-rise="now">{screen(lang, a['screen'], a['h1'], "(max-width: 900px) 230px, 300px", fetch_high=True)}</div></div>
+</section>
+<section class="guide-body" data-theme="light"><div class="wrap">
+<article class="prose guide app-page">
+{points}
+<h2 data-rise>{e(a['steps_title'])}</h2>
+<ol class="steps">{steps}</ol>
+<h2 data-rise>{e(a['why_title'])}</h2>
+{why}
+<h2 data-rise>{e(L['tools'])}</h2>
+<ul class="tool-list n3">{tool_cards(lang, c, a['tools'])}</ul>
+{f'<h2 data-rise>{e(L["guides"])}</h2><ul class="tool-list n3">{guide_cards(lang, c, guides)}</ul>' if guides else ''}
+<h2 data-rise>{e(c['guide_labels']['faq'])}</h2>
+<div class="qas">{qa_list(a['faq'])}</div>
+<h2>{e(L['more'])}</h2>
+<ul class="amounts app-links">{others}</ul>
+</article></div></section>
+{cta_html(lang, c, a.get('cta', L['cta']), "01" if a['screen'] != "01" else "06", 'app-' + a['key'])}"""
+    ld = [app_ld(lang, c, url), faq_ld(a["faq"]),
+          crumbs_ld([("Spendry", f"{BASE_URL}/{prefix(lang)}"), (a["nav"], url)])]
+    return page(lang, c, path, short_title(a["title"]), a["description"], body, ld, languages, "page-tool page-guide page-app",
+                paths=paths, og_type="website")
+
+
 def llms_txt(content):
     """A plain summary of the site for AI assistants (llmstxt.org): what Spendry is and where the useful pages are."""
     en, tr = content["en"], content["tr"]
@@ -1923,6 +1983,8 @@ def main():
         else:
             out("loan", loan_calc_page(lang, c, languages, P["loan"]))
         out("guides", guides_index_page(lang, c, languages, P["guides"]))
+        for a in c.get("apps", []):
+            write(f"{prefix(lang)}{a['slug']}/index.html", app_page(lang, c, languages, a, app_page_paths(languages, a["key"])))
         if lang in LOAN_LANGS:
             for F in c["loan_amounts"]["families"]:
                 write(f"{prefix(lang)}{F['slug']}/index.html", loan_hub_page(lang, c, languages, F))
@@ -1943,6 +2005,10 @@ def main():
             alts = "".join(f'<xhtml:link rel="alternate" hreflang="{x}" href="{BASE_URL}/{prefix(x)}{P[k][x]}"/>' for x in languages)
             alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{BASE_URL}/{P[k]["en"]}"/>'
             urls.append(f"<url><loc>{BASE_URL}/{prefix(lang)}{P[k][lang]}</loc><lastmod>{BUILD_DATE}</lastmod>{alts}</url>")
+        for a in content[lang].get("apps", []):
+            ap = app_page_paths(languages, a["key"])
+            alts = "".join(f'<xhtml:link rel="alternate" hreflang="{x}" href="{BASE_URL}/{prefix(x)}{ap[x]}"/>' for x in ap)
+            urls.append(f"<url><loc>{BASE_URL}/{prefix(lang)}{a['slug']}/</loc><lastmod>{BUILD_DATE}</lastmod>{alts}</url>")
         if lang in LOAN_LANGS:
             for F in content[lang]["loan_amounts"]["families"]:
                 urls += [f"<url><loc>{BASE_URL}/{prefix(lang)}{x}</loc><lastmod>{BUILD_DATE}</lastmod></url>"
