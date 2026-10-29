@@ -2383,5 +2383,1001 @@
     }
    ]
   }
- ]
+ ],
+ "notes": {
+  "labels": {
+   "app": "Spendry Notes",
+   "free": "Ilmainen App Storessa iPhonelle. Kaikki Spendry Notesin toiminnot ovat ilmaisia.",
+   "download": "Lataa Spendry Notes",
+   "more": "Lisää Spendry Notesista",
+   "cta": "Lataa Spendry Notes ja anna listojen laskea puolestasi.",
+   "bundle_nav": "Spendry & Notes",
+   "bundle_button": "Hanki molemmat sovellukset",
+   "spendry_title": "Spendry, budjettisovellus sen rinnalla",
+   "home_kicker": "Spendry Notes",
+   "home_title": "Muistiinpanot, jotka laskevat budjettisi rinnalla",
+   "home_text": "Spendry Notes on ilmainen muistiosovelluksemme: ostoslistat, jotka laskevat yhteen, suunnitelmat kalenterissasi ja muistiinpanot yhdistettynä Spendry-budjetteihisi. Hanki molemmat kerralla ilmaisella Spendry & Notes -paketilla.",
+   "home_more": "Katso mitä Spendry Notes tekee",
+   "shots": "Spendry Notesin sisällä",
+   "shot_alts": {
+    "home": "Spendry Notesin Koti-valikko tämän päivän suunnitelmilla ja listoilla",
+    "list": "Kauppalista Spendry Notesissa hinnoilla ja summilla",
+    "plan": "Kuukausisuunnitelma Spendry Notesissa tuloilla, laskuilla ja nettosummalla",
+    "calendar": "Spendry Notesin kalenteri suunnitelmineen omilla päivillään",
+    "ask": "Kysymys Spendry Notesille siitä, mitä tälle viikolle on suunniteltu",
+    "picker": "Muistiinpanon yhdistäminen Spendryn budjettiin, tavoitteeseen tai lainaan"
+   }
+  },
+  "pages": [
+   {
+    "key": "spendry-notes",
+    "slug": "spendry-notes",
+    "nav": "Spendry Notes",
+    "screen": "home",
+    "footer": true,
+    "title": "Spendry Notes: Laskeva muistio iPhonelle",
+    "description": "Spendry Notes on ilmainen muistio iPhonelle. Se laskee ostoslistojen summat, tekee päivistä suunnitelmia ja toimii Spendryn kanssa.",
+    "h1": "Spendry Notes, muistiinpanot jotka ymmärtävät rahaa",
+    "lead": "Kirjoita aivan kuten ennenkin. Spendry Notes tunnistaa summat, päivät ja ajat, laskee ne yhteen ja tekee niistä suunnitelmia.",
+    "points": [
+     {
+      "h": "Listat jotka laskevat",
+      "p": "Ostoslistat näyttävät reaaliaikaisen summan siitä, mitä on jäljellä ja mitä on jo ostettu. Kuittaa ostoksia ja summat päivittyvät."
+     },
+     {
+      "h": "Kirjoita kuten puhut",
+      "p": "\"5 maitoa à 1,20 €\", \"2 kg omenoita 3 € /kg\" tai \"Mökki 120/3 €\": kappalemäärät, yksikköhinnat, alennukset, tipit ja jako-osuudet lasketaan puolestasi."
+     },
+     {
+      "h": "Päivistä tulee suunnitelmia",
+      "p": "Kirjoita riville päivä, niin se ilmestyy kalenteriisi. Appi ymmärtää ilmaukset \"huomenna\", \"ensi perjantaina\", \"3 päivän päästä\" ja \"joka kuukausi\"."
+     },
+     {
+      "h": "Kysy muistiinpanoiltasi",
+      "p": "Kysy \"Mitä tälle viikolle on suunniteltu?\" tai \"Mitä listoillani on jäljellä?\" ja saat vastauksen muistiinpanoistasi suoraan laitteellasi."
+     },
+     {
+      "h": "Yhdistetty Spendryyn",
+      "p": "Yhdistä muistiinpano Spendryn budjettiin, tavoitteeseen tai lainaan. Näet heti mitä jää jäljelle tai voit viedä rivin menoksi yhdellä napautuksella."
+     }
+    ],
+    "steps_title": "Näin pääset alkuun Spendry Notesin kanssa",
+    "steps": [
+     "Lataa Spendry Notes App Storesta. Se on ilmainen.",
+     "Kirjoita lista tai suunnitelma kuten paperille, hintojen ja päivien kera.",
+     "Katso kuinka summat ja kalenteri täyttyvät itsestään.",
+     "Jos käytät Spendryä, yhdistä muistiinpano budjettiin, tavoitteeseen tai lainaan."
+    ],
+    "why_title": "Miksi valita Spendry Notes",
+    "why": [
+     "Kaikki Spendry Notesin ominaisuudet ovat ilmaisia.",
+     "Toimii itsenäisesti, ja vielä paremmin yhdessä Spendryn kanssa.",
+     "Widgetit näyttävät listat ja tulevat suunnitelmat myös lukitulla näytöllä.",
+     "iCloud pitää muistiinpanot laitteillasi ja Äskettäin poistetut säilyttää ne 30 päivää."
+    ],
+    "faq": [
+     {
+      "q": "Onko Spendry Notes ilmainen?",
+      "a": "On. Kaikki Spendry Notesin ominaisuudet ovat ilmaisia. Spendry Premium on valinnainen tilaus Spendryn lisäominaisuuksiin, ja yksi tilaus kattaa molemmat apit."
+     },
+     {
+      "q": "Tarvitsenko Spendryn käyttääkseni Spendry Notesia?",
+      "a": "Et. Spendry Notes toimii täysin itsenäisesti. Kun Spendry on asennettu, voit lisäksi yhdistää muistiinpanoja budjetteihin, tavoitteisiin ja lainoihin."
+     },
+     {
+      "q": "Millä laitteilla Spendry Notes toimii?",
+      "a": "Spendry Notes on iPhone-appi ja vaatii vähintään iOS 17 -version."
+     },
+     {
+      "q": "Voinko käyttää Siriä Spendry Notesin kanssa?",
+      "a": "Kyllä. Siri ja Pikakomennot-appi voivat lisätä asioita listalle ja kertoa tulossa olevista asioista."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja anna muistiinpanojesi laskea puolestasi."
+   },
+   {
+    "key": "grocery-list-app",
+    "slug": "grocery-list-app",
+    "nav": "Kauppalista-appi",
+    "screen": "list",
+    "footer": true,
+    "title": "Kauppalista hinnoilla ja summalla | Spendry Notes",
+    "description": "Ilmainen kauppalista iPhonelle. Laskee hinnat kirjoittaessasi, näyttää jäljellä olevan summan ja muistaa mitä maksoit viime kerralla.",
+    "h1": "Kauppalista, joka laskee summan ostoksilla",
+    "lead": "Kirjoita lista hintoineen, merkitse tuotteet kärryyn ja näe heti ostettujen sekä vielä jäljellä olevien ostosten yhteissumma.",
+    "points": [
+     {
+      "h": "Summat heti kirjoittaessa",
+      "p": "Kirjoita \"Maito 1,49 €\" tai \"3 kpl leipää 2,50€ /kpl\", ja lista laskee summan. Ostettu ja Jäljellä muuttuvat jokaisella kuittauksella."
+     },
+     {
+      "h": "Määrät ja yksikköhinnat",
+      "p": "\"2 kg omenoita 3 € /kg\" ja \"5 maitoa à 1,20 €\" lasketaan automaattisesti ilman erillistä laskinta."
+     },
+     {
+      "h": "Viime kerran hinta muistissa",
+      "p": "Kun kirjoitat saman tuotteen uudelleen, viimeksi maksamasi hinta on valmiina. Viikko-ostokset syntyvät sekunneissa."
+     },
+     {
+      "h": "Budjetti ostoksille",
+      "p": "Aseta listalle budjetti ja näet reaaliajassa, kuinka paljon siitä on jäljellä tavaroita lisätessäsi."
+     }
+    ],
+    "steps_title": "Näin teet kauppalistan hinnoilla",
+    "steps": [
+     "Luo uusi lista Spendry Notesissa.",
+     "Kirjoita jokainen tuote hintoineen tai määrän ja yksikköhinnan kera.",
+     "Merkitse tuotteet ostetuiksi sitä mukaa kun poimit ne ostoskoriin.",
+     "Tarkista jäljellä oleva summa kätevästi ennen kassalle menoa."
+    ],
+    "why_title": "Miksi käyttää Spendry Notesia kauppalistana",
+    "why": [
+     "Ilmainen, ei vaadi rekisteröitymistä.",
+     "Widgetit tuovat listan Koti-valikkoon ja lukitulle näytölle.",
+     "Siri voi lisätä tuotteita suoraan listallesi.",
+     "Yhdessä Spendryn kanssa voit liittää listan ruokabudjettiin ja nähdä heti vaikutuksen."
+    ],
+    "faq": [
+     {
+      "q": "Onko olemassa ilmaista kauppalistaa, joka laskee hinnat?",
+      "a": "Spendry Notes on ilmainen ja laskee hinnat suoraan listaan. Se näyttää erikseen jäljellä olevat ja jo ostetut tuotteet."
+     },
+     {
+      "q": "Muistaako appi hinnat?",
+      "a": "Kyllä. Kun kirjoitat saman tuotteen uudelleen, edellisellä kerralla maksamasi hinta täytetään valmiiksi."
+     },
+     {
+      "q": "Voinko lisätä tuotteita Sirin avulla?",
+      "a": "Kyllä. Siri ja Pikakomennot-appi voivat lisätä asioita listalle."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja ota kauppaan mukaan lista, joka laskee summan."
+   },
+   {
+    "key": "shopping-list-with-prices",
+    "slug": "shopping-list-with-prices",
+    "nav": "Ostoslista hinnoilla",
+    "screen": "list",
+    "footer": false,
+    "title": "Ostoslista hinnoilla ja summalla | Spendry Notes",
+    "description": "Kirjoita ostoslista hinnoilla. Spendry Notes laskee reaaliaikaisen summan, huomioi alennukset ja näyttää budjetin tilanteen.",
+    "h1": "Ostoslista hinnoilla ja reaaliaikaisella summalla",
+    "lead": "Spendry Notes lukee ostoslistasi hinnat, pitää kokonaissumman ajan tasalla ja näyttää paljonko budjetistasi on jäljellä.",
+    "points": [
+     {
+      "h": "Alennukset ja tipit laskettuna",
+      "p": "Kirjoita tuotteen perään \"Takki 100 € -20% ale\" ja kokonaissumma mukautuu automaattisesti."
+     },
+     {
+      "h": "Budjetti ostoslistalle",
+      "p": "Määritä muistiinpanoon budjetti ja näet mitä siitä jää jäljelle listan kasvaessa."
+     },
+     {
+      "h": "Ostettu ja vielä ostettavat",
+      "p": "Kuitatut tuotteet siirtyvät ostettujen summaan, joten tiedät aina tarkkaan mitä loppujen ostaminen maksaa."
+     },
+     {
+      "h": "Lista joka muistaa päivän",
+      "p": "Kirjoita riville päivämäärä, niin se siirtyy kalenteriisi. Saat halutessasi myös muistutuksen."
+     }
+    ],
+    "steps_title": "Näin pidät ostoslistaa hinnoilla",
+    "steps": [
+     "Aloita uusi lista Spendry Notesissa.",
+     "Kirjoita tuotteet hintoineen, määrineen tai alennuksineen.",
+     "Aseta listalle budjetti, jos haluat seurata kulutusta.",
+     "Kuittaa tuotteet ostetuiksi ja seuraa kumpaakin summaa."
+    ],
+    "why_title": "Miksi hintoja laskeva lista kannattaa",
+    "why": [
+     "Näet kokonaissumman jo ennen kassaa, et vasta maksun jälkeen.",
+     "Alennukset, määrät ja tipit lasketaan valmiiksi.",
+     "Lista pysyy selkeänä muistiinpanona, jota voit muokata vapaasti.",
+     "Kaikki Spendry Notesin ominaisuudet ovat ilmaisia."
+    ],
+    "faq": [
+     {
+      "q": "Miten laskea ostoslistan summa iPhonella?",
+      "a": "Kirjoita tuotteet ja hinnat Spendry Notesiin. Appi laskee summan kirjoittaessasi ja erittelee ostetut sekä jäljellä olevat tuotteet."
+     },
+     {
+      "q": "Osaako se laskea alennukset?",
+      "a": "Kyllä. Merkitse tuotteeseen alennus, esimerkiksi \"-20%\", ja kokonaissumma päivittyy automaattisesti."
+     },
+     {
+      "q": "Voinko asettaa listalle budjetin?",
+      "a": "Kyllä. Aseta muistiinpanoon budjetti, niin Spendry Notes näyttää paljonko siitä on jäljellä."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja tiedä ostosten loppusumma ennen kassaa."
+   },
+   {
+    "key": "notes-app-with-calculator",
+    "slug": "notes-app-with-calculator",
+    "nav": "Laskeva muistio",
+    "screen": "plan",
+    "footer": true,
+    "title": "Laskeva muistio iPhonelle | Spendry Notes",
+    "description": "Spendry Notes on laskeva muistio iPhonelle. Se ymmärtää summat tekstissä ja laskee määrät, alennukset ja laskujen jaot suoraan.",
+    "h1": "Muistio joka hoitaa laskutoimitukset puolestasi",
+    "lead": "Et tarvitse erillistä laskinta. Kirjoita summat muistiinpanoihisi, ja Spendry Notes laskee ne yhteen rivi riviltä.",
+    "points": [
+     {
+      "h": "Summat suoraan tekstin seassa",
+      "p": "\"Vuokra 28. päivä 850 €\" tai \"3 kahvia 9 €\": summa, kappalemäärä ja päivä tunnistetaan suoraan kirjoittamistasi sanoista."
+     },
+     {
+      "h": "Tulot ja menot samassa paikassa",
+      "p": "Kirjaa tulot ja menot samaan muistiinpanoon ja näet heti mitä tulee sisään, mitä menee ulos ja paljonko jää käteen."
+     },
+     {
+      "h": "Kulujen jako ja prosentit",
+      "p": "\"Mökki 120/3 €\" näyttää kunkin osuuden, ja \"-20% ale\" tai \"+10% tippi\" päivittävät loppusummaa saumattomasti."
+     },
+     {
+      "h": "Vastaukset suoraan muistiinpanoista",
+      "p": "Kysy mitä tälle viikolle on sovittu tai mitä listoillasi on jäljellä, ja saat vastauksen suoraan omista merkinnöistäsi."
+     }
+    ],
+    "steps_title": "Näin käytät muistiinpanoja laskimena",
+    "steps": [
+     "Avaa muistiinpano Spendry Notesissa.",
+     "Kirjoita jokainen rivi luontevasti ja liitä mukaan summa.",
+     "Katso yhteenlasketut summat muistiinpanon alta kirjoittaessasi.",
+     "Lisää riville päivämäärä viedäksesi sen suoraan kalenteriisi."
+    ],
+    "why_title": "Miksi laskeva muistio helpottaa arkea",
+    "why": [
+     "Ei enää jatkuvaa vaihtamista muistion ja laskimen välillä.",
+     "Muistiinpano säilyttää omat sanasi, ei pelkkiä numeroita.",
+     "Summat päivittyvät itsestään aina kun muokkaat riviä.",
+     "Täysin ilmainen ladata ja käyttää."
+    ],
+    "faq": [
+     {
+      "q": "Onko iPhonelle muistiota, joka laskee numeroita yhteen?",
+      "a": "Spendry Notes lukee summat suoraan riveiltä ja laskee ne yhteen, mukaan lukien kappalemäärät, alennukset, tipit ja kulujen jaot."
+     },
+     {
+      "q": "Voiko tuloja ja menoja seurata yhdessä?",
+      "a": "Kyllä. Saman muistiinpanon tulot ja menot eritellään automaattisesti, ja näet heti mitä jää jäljelle."
+     },
+     {
+      "q": "Onko Spendry Notes ilmainen?",
+      "a": "On. Kaikki Spendry Notesin ominaisuudet ovat täysin ilmaisia."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja anna muistiinpanojesi laskea puolestasi."
+   },
+   {
+    "key": "split-the-bill",
+    "slug": "split-the-bill",
+    "nav": "Laskun jakaminen",
+    "screen": "list",
+    "footer": false,
+    "title": "Laskun jakaminen muistiossa | Spendry Notes",
+    "description": "Kirjoita ”Lounas 120/3” ja Spendry Notes laskee jokaisen osuuden. Myös tipit ja alennukset hoituvat suoraan muistiossa.",
+    "h1": "Jaa lasku suoraan muistiossa",
+    "lead": "Kirjoita loppusumma ja henkilömäärä, niin Spendry Notes näyttää kunkin osuuden tippi mukaan luettuna.",
+    "points": [
+     {
+      "h": "Yksi rivi, kaikkien osuudet",
+      "p": "”Lounas 120/3” riittää: Spendry Notes näyttää kunkin osuuden suoraan rivin alla."
+     },
+     {
+      "h": "Tipit ja alennukset",
+      "p": "Lisää ”+10% tippi” tai ”-20% ale”, ja osuudet päivittyvät uuden summan mukaan."
+     },
+     {
+      "h": "Matkat ja jaetut kulut",
+      "p": "Pidä koko viikonloppu yhdessä muistiossa: liput, majoitus ja ruokailut omine osuuksineen."
+     },
+     {
+      "h": "Pidä mukana suunnitelmissasi",
+      "p": "Kirjoita päivä kulun viereen, niin se ilmestyy suoraan kalenteriisi."
+     }
+    ],
+    "steps_title": "Miten jaat laskun Spendry Notesissa",
+    "steps": [
+     "Kirjoita maksettu summa ja jaa se henkilömäärällä, esimerkiksi ”Lounas 120/3”.",
+     "Lisää tippi tai alennus, jos sellainen on.",
+     "Katso kunkin henkilön osuus rivin alta.",
+     "Lisää kuluja samaan muistioon matkan tai tapahtuman aikana."
+    ],
+    "why_title": "Miksi jakaa kulut muistiossa",
+    "why": [
+     "Et tarvitse erillistä laskinta tai laskunjakosovellusta.",
+     "Muistio muistaa omin sanoin, kuka maksoi mitäkin.",
+     "Summat ja osuudet päivittyvät, kun muokkaat riviä.",
+     "Ilmainen, eikä vaadi rekisteröitymistä."
+    ],
+    "faq": [
+     {
+      "q": "Miten jaan laskun iPhonella?",
+      "a": "Kirjoita Spendry Notesissa summa jaettuna henkilömäärällä, kuten ”Lounas 120/3”, ja kunkin osuus näkyy rivin alla."
+     },
+     {
+      "q": "Voinko lisätä mukaan tipin?",
+      "a": "Kyllä. Lisää ”+10% tippi”, niin osuudet lasketaan uuden summan mukaan."
+     },
+     {
+      "q": "Maksaako sovellus jotain?",
+      "a": "Ei. Spendry Notes ja kaikki sen ominaisuudet ovat ilmaisia."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja jaa lasku yhdellä rivillä."
+   },
+   {
+    "key": "monthly-budget-planner-notes",
+    "slug": "monthly-budget-planner-notes",
+    "nav": "Kuukausisuunnitelma muistiossa",
+    "screen": "plan",
+    "footer": false,
+    "title": "Kuukausibudjetti muistiossa | Spendry Notes",
+    "description": "Suunnittele kuukausi muistiossa: tulot, vuokra ja laskut päivineen. Spendry Notes laskee erotuksen ja vie päivät kalenteriin.",
+    "h1": "Suunnittele kuukausi yhdessä muistiossa",
+    "lead": "Kirjoita palkka, vuokra ja laskut päivineen. Spendry Notes näyttää tulot, menot ja jäljelle jäävän summan sekä vie jokaisen päivän kalenteriin.",
+    "points": [
+     {
+      "h": "Tulot, menot ja mitä jää jäljelle",
+      "p": "Tulot ja kulut yhdessä muistiossa antavat kuukauden nettotuloksen, joten pysyt kärryillä tilanteestasi."
+     },
+     {
+      "h": "Jokainen päivä kalenteriin",
+      "p": "”Vuokra 28. päivä” ja ”Sähkölasku 26. päivä” asettuvat omille päivilleen kalenterissa."
+     },
+     {
+      "h": "Muistutukset vain sinne missä tarvitaan",
+      "p": "Lisää huomaamaton muistutus vain niille riveille, jotka vaativat sitä, kuten vuokralle tai laskulle."
+     },
+     {
+      "h": "Aloita valmiista kuukausipohjasta",
+      "p": "Pohjat kuukaudelle, matkalle, muutolle tai tapahtumalle tarjoavat helpon alun."
+     }
+    ],
+    "steps_title": "Miten teet kuukausisuunnitelman Spendry Notesissa",
+    "steps": [
+     "Aloita kuukausipohjasta tai tyhjästä muistiosta.",
+     "Kirjoita tulosi ja kukin meno päivämäärineen.",
+     "Tarkista jäljelle jäävä summa ja kalenteri.",
+     "Lisää muistutukset niihin maksuihin, joita et halua unohtaa."
+    ],
+    "why_title": "Miksi suunnitella kuukausi muistiossa",
+    "why": [
+     "Yhtä nopeaa kuin paperille kirjoittaminen.",
+     "Summat ja kalenteri pysyvät ajan tasalla itsestään.",
+     "Spendry-sovelluksessa rivi muuttuu kuluksi tai muistutukseksi yhdellä napautuksella.",
+     "Kaikki Spendry Notesin ominaisuudet ovat ilmaisia."
+    ],
+    "faq": [
+     {
+      "q": "Voinko tehdä kuukausibudjetin muistiosovelluksessa?",
+      "a": "Kyllä. Kirjoita Spendry Notesissa tulot ja menot päivineen, niin muistio näyttää erotuksen ja vie päivät kalenteriin."
+     },
+     {
+      "q": "Muistuttaako sovellus ennen laskun eräpäivää?",
+      "a": "Kyllä, jos lisäät muistutuksen kyseiselle riville. Muistutuksia tulee vain sinne, minne itse haluat."
+     },
+     {
+      "q": "Toimiiko se Spendry-sovelluksen kanssa?",
+      "a": "Kyllä. Yhdistä muistio budjettiin Spendryssä, tai siirrä rivi Spendryyn kuluna tai muistutuksena."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja suunnittele kuukausi yhdessä muistiossa."
+   },
+   {
+    "key": "trip-budget-planner",
+    "slug": "trip-budget-planner",
+    "nav": "Matkabudjetin suunnittelu",
+    "screen": "plan",
+    "footer": false,
+    "title": "Matkabudjetti muistiossa | Spendry Notes",
+    "description": "Ota avuksi matkapohja, kirjaa lennot, majoitus ja päiväkulut. Spendry Notes laskee summat ja näyttää kunkin osuuden.",
+    "h1": "Suunnittele matkabudjetti muistiossa",
+    "lead": "Aloita matkapohjasta ja kirjaa tulevat kulut. Spendry Notes laskee kaiken yhteen, näyttää kunkin osuuden ja sijoittaa päivät kalenteriisi.",
+    "points": [
+     {
+      "h": "Aloita valmiista pohjasta",
+      "p": "Matkapohja tarjoaa valmiin muistion, johon voit täyttää liput, majoituksen, ruoat ja aktiviteetit."
+     },
+     {
+      "h": "Loppusumma heti näkyvissä",
+      "p": "Jokainen kirjaamasi kulu lasketaan yhteen, joten näet koko reissun hinnan ennen varaamista."
+     },
+     {
+      "h": "Osuudet ryhmälle",
+      "p": "Jaa kulu henkilömäärällä, kuten ”Hotelli 600/3”, ja osuudet näkyvät heti rivin alla."
+     },
+     {
+      "h": "Säästä reissuun Spendryssä",
+      "p": "Yhdistä muistio säästötavoitteeseen Spendryssä ja näet, kuinka lähellä tavoitettasi olet."
+     }
+    ],
+    "steps_title": "Miten suunnittelet matkabudjetin",
+    "steps": [
+     "Luo muistio käyttämällä matkapohjaa.",
+     "Kirjoita jokainen kulu hintoineen ja halutessasi päivineen.",
+     "Jaa yhteiset kulut henkilömäärällä.",
+     "Yhdistä muistio säästötavoitteeseen Spendryssä."
+    ],
+    "why_title": "Miksi suunnitella matka Spendry Notesissa",
+    "why": [
+     "Koko matka yhdessä muistiossa kokonaissummineen.",
+     "Päivät siirtyvät suoraan kalenteriisi.",
+     "Yhteiset kulut jaetaan puolestasi.",
+     "Täysin ilmainen ladata ja käyttää."
+    ],
+    "faq": [
+     {
+      "q": "Miten teen matkabudjetin iPhonella?",
+      "a": "Aloita Spendry Notesissa muistio matkapohjalla ja kirjaa kulut. Sovellus laskee summat ja kunkin osuuden puolestasi."
+     },
+     {
+      "q": "Voinko säästää matkaa varten?",
+      "a": "Kyllä. Yhdistä muistio säästötavoitteeseen Spendryssä, niin näet tavoitteen tilanteen suoraan muistion vieressä."
+     },
+     {
+      "q": "Onko sovellus ilmainen?",
+      "a": "Kyllä. Kaikki Spendry Notesin ominaisuudet ovat ilmaisia."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja suunnittele matka yhdessä muistiossa."
+   },
+   {
+    "key": "moving-checklist-with-costs",
+    "slug": "moving-checklist-with-costs",
+    "nav": "Muuttolista kuluilla",
+    "screen": "list",
+    "footer": false,
+    "title": "Muuttolista kuluilla | Spendry Notes",
+    "description": "Laskeva muuttolista: merkitse tehtävät tehdyiksi, kirjaa hinnat ja näe loppusumma. Ota avuksi Spendry Notesin muuttopohja.",
+    "h1": "Muuttolista, joka laskee kulut yhteen",
+    "lead": "Aloita muuttopohjasta, merkitse asioita tehdyksi ja kirjaa hinta kunkin kohdalle. Spendry Notes pitää kirjaa kuluista ja päivämääristä.",
+    "points": [
+     {
+      "h": "Tehtävät ja kulut yhdessä",
+      "p": "Jokainen rivi voi olla tehtävä kuluineen, joten muistilista toimii samalla muuttobudjettina."
+     },
+     {
+      "h": "Tehdyt ja vielä tulevat",
+      "p": "Kuittaa rivi valmiiksi, niin summat näyttävät suoraan käytetyt rahat ja tulevat menot."
+     },
+     {
+      "h": "Päivämäärät kalenteriin",
+      "p": "”Pakettiauto lauantaina” tai ”Takuuvuokra 1. päivä” menevät suoraan kalenteriin omille päivilleen."
+     },
+     {
+      "h": "Muistutukset tärkeisiin kohtiin",
+      "p": "Aseta huomaamaton muistutus riveille, joita ei saa missään nimessä unohtaa."
+     }
+    ],
+    "steps_title": "Miten suunnittelet muuton Spendry Notesissa",
+    "steps": [
+     "Aloita muistio käyttämällä muuttopohjaa.",
+     "Lisää tehtävät omine kuluineen ja päivämäärineen.",
+     "Merkitse tehtäviä tehdyiksi sitä mukaa kun saat ne hoidettua.",
+     "Tarkista kokonaissumma ennen muuttopäivää."
+    ],
+    "why_title": "Miksi käyttää kuluja laskevaa muistilistaa",
+    "why": [
+     "Et tarvitse erillistä taulukkoa muuttobudjetille.",
+     "Näet yhdellä silmäyksellä menneet ja tulevat kulut.",
+     "Päivät ja muistutukset hoituvat samasta muistiosta.",
+     "Kaikki Spendry Notesin ominaisuudet ovat ilmaisia."
+    ],
+    "faq": [
+     {
+      "q": "Onko olemassa kuluja laskevaa muuttolistasovellusta?",
+      "a": "Spendry Notesissa on valmis muuttopohja, johon voit liittää tehtäville hinnan ja päivän. Sovellus laskee kulut ja vie päivät kalenteriin."
+     },
+     {
+      "q": "Voinko asettaa muistutuksia muuttopäivälle?",
+      "a": "Kyllä. Voit lisätä muistutuksen mille tahansa riville, jolloin saat siitä ilmoituksen kyseisenä päivänä."
+     },
+     {
+      "q": "Onko se ilmainen?",
+      "a": "Kyllä. Kaikki Spendry Notesin toiminnot ovat ilmaisia."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja hoida muutto kulut hallinnassa."
+   },
+   {
+    "key": "event-budget-planner",
+    "slug": "event-budget-planner",
+    "nav": "Tapahtuman budjetti",
+    "screen": "plan",
+    "footer": false,
+    "title": "Tapahtuman budjetti ja juhlakulut | Spendry Notes",
+    "description": "Suunnittele juhlat, syntymäpäivät tai häät muistiossa. Spendry Notes laskee kulut yhteen, jakaa osuudet ja vie päivät kalenteriin.",
+    "h1": "Suunnittele tapahtuman budjetti muistiossa",
+    "lead": "Aloita tapahtumapohjasta ja kirjaa jokainen kulu. Spendry Notes laskee summat yhteen, näyttää kunkin maksajan osuuden ja pitää päivät kalenterissasi.",
+    "points": [
+     {
+      "h": "Valmis pohja",
+      "p": "Tapahtumapohja tarjoaa valmiin aloituksen juhliin, syntymäpäiville tai häihin."
+     },
+     {
+      "h": "Kaikki kulut yhtenä summana",
+      "p": "Tila, tarjoilut, musiikki ja hankinnat lasketaan yhteen heti kirjoittaessasi."
+     },
+     {
+      "h": "Maksajien omat osuudet",
+      "p": "Jaa kulu henkilömäärällä, niin kunkin osuus näkyy heti rivin alla."
+     },
+     {
+      "h": "Päivämäärät ja muistutukset",
+      "p": "Varausmaksut ja eräpäivät siirtyvät kalenteriin, tarvittaessa muistutuksen kera."
+     }
+    ],
+    "steps_title": "Näin suunnittelet tapahtuman budjetin",
+    "steps": [
+     "Aloita uusi muistiinpano tapahtumapohjasta.",
+     "Kirjoita jokainen kulu summineen ja päivineen.",
+     "Jaa yhteiset kulut henkilömäärällä.",
+     "Lisää muistutus varausmaksuihin ja eräpäiviin."
+    ],
+    "why_title": "Miksi suunnitella tapahtuma Spendry Notesilla",
+    "why": [
+     "Koko budjetti yhdessä muistiossa loppusummineen.",
+     "Eräpäivät kalenterissa, muistutukset tarpeen mukaan.",
+     "Yhteiskulut jaetaan puolestasi.",
+     "Täysin ilmainen ladata ja käyttää."
+    ],
+    "faq": [
+     {
+      "q": "Miten suunnittelen juhlabudjetin iPhonella?",
+      "a": "Avaa Spendry Notesissa valmis Tapahtuman budjetti, kirjaa kulut, ja sovellus laskee summat ja osuudet."
+     },
+     {
+      "q": "Voiko se muistuttaa varausmaksuista?",
+      "a": "Kyllä. Lisää riville muistutus, niin saat ilmoituksen kyseisenä päivänä."
+     },
+     {
+      "q": "Onko sovellus ilmainen?",
+      "a": "Kyllä. Kaikki Spendry Notesin toiminnot ovat ilmaisia."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja pidä tapahtuman budjetti yhdessä muistiossa."
+   },
+   {
+    "key": "notes-with-reminders",
+    "slug": "notes-with-reminders",
+    "nav": "Muistiinpanot ja muistutukset",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Muistiinpanot ja muistutukset | Spendry Notes",
+    "description": "Kirjoita ”Vuokra 28. päivä”, ja se siirtyy kalenteriin. Spendry Notes lisää huomaamattoman muistutuksen riveille silloin, kun haluat.",
+    "h1": "Muistiinpanot, jotka tuntevat päivämäärät",
+    "lead": "Kirjoita päivä riville, ja Spendry Notes vie sen kalenteriisi. Lisää hiljainen muistutus tärkeisiin kohtiin ja jätä muut rauhaan.",
+    "points": [
+     {
+      "h": "Päivät selkokielellä",
+      "p": "”Huomenna”, ”ensi perjantaina”, ”3 päivän päästä”, ”15. päivä” ja ”joka kuukausi” toimivat suoraan."
+     },
+     {
+      "h": "Kalenteri muistiinpanoistasi",
+      "p": "Jokainen päivätty rivi näkyy kalenterissa oikeana päivänä summan kera, jos rivillä on hinta."
+     },
+     {
+      "h": "Huomaamattomat muistutukset",
+      "p": "Muistutus lisätään vain valitsemillesi riveille juuri haluamaasi aikaan."
+     },
+     {
+      "h": "Tulevat suunnitelmat yhdellä silmäyksellä",
+      "p": "Koti-valikon ja lukitun näytön widgetit pitävät tulevat menot näkyvillä."
+     }
+    ],
+    "steps_title": "Näin lisäät muistutuksia muistiinpanoihin",
+    "steps": [
+     "Kirjoita rivi ja päivä, esimerkiksi ”Vuokra 28. päivä 800 €”.",
+     "Katso se suoraan kalenterista kyseisen päivän kohdalta.",
+     "Lisää riville muistutus, jos haluat ilmoituksen.",
+     "Ota widget käyttöön nähdäksesi tulevat asiat."
+    ],
+    "why_title": "Miksi pitää päivämäärät muistiinpanoissa",
+    "why": [
+     "Suunnitelmat pysyvät siellä, minne ne kirjoitit, eivätkä erillisessä sovelluksessa.",
+     "Laskut ja maksut näkyvät kalenterissa summien kera.",
+     "Muistutuksia ei kerry ilman lupaasi.",
+     "Kaikki Spendry Notesin toiminnot ovat ilmaisia."
+    ],
+    "faq": [
+     {
+      "q": "Voiko muistiinpanoon lisätä muistutuksen iPhonessa?",
+      "a": "Spendry Notesissa voit lisätä huomaamattoman muistutuksen mihin tahansa päivättyyn riviin juuri silloin, kun itse haluat."
+     },
+     {
+      "q": "Ymmärtääkö sovellus ilmauksia kuten ”ensi perjantaina”?",
+      "a": "Kyllä. Esimerkiksi ”huomenna”, ”ensi perjantaina”, ”3 päivän päästä”, ”15. päivä” ja ”joka kuukausi” toimivat."
+     },
+     {
+      "q": "Näkyvätkö suunnitelmat lukitulla näytöllä?",
+      "a": "Kyllä. Spendry Notes tarjoaa widgetit tuleville menoille ja listoille myös lukitulle näytölle."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja anna muistiinpanojesi huolehtia aikatauluista."
+   },
+   {
+    "key": "wishlist-with-prices",
+    "slug": "wishlist-with-prices",
+    "nav": "Toivelista hinnoilla",
+    "screen": "list",
+    "footer": false,
+    "title": "Toivelista hinnoilla ja summalla | Spendry Notes",
+    "description": "Pidä toivelistaa hinnoilla Spendry Notesissa: näe kokonaissumma, aseta budjetti ja yhdistä lista säästötavoitteeseen Spendryssä.",
+    "h1": "Toivelista, joka laskee summat",
+    "lead": "Kirjaa toiveesi hintoineen. Spendry Notes laskee ne yhteen, näyttää budjettisi tilanteen ja yhdistää listan Spendryn säästötavoitteeseen.",
+    "points": [
+     {
+      "h": "Toiveiden kokonaissumma",
+      "p": "Kaikki listan hinnat lasketaan yhteen, joten tiedät tarkalleen, mitä kokonaisuus maksaisi."
+     },
+     {
+      "h": "Budjetti toivelistalle",
+      "p": "Aseta muistiinpanoon budjetti ja näe heti, paljonko rahaa on jäljellä lisätessäsi tai poistaessasi kohteita."
+     },
+     {
+      "h": "Merkitse ostetut",
+      "p": "Ruksatut toiveet siirtyvät ostettujen summaan, ja loput pysyvät selkeästi näkyvillä."
+     },
+     {
+      "h": "Säästä toiveisiin Spendryssä",
+      "p": "Yhdistä lista säästötavoitteeseen Spendryssä ja seuraa, kuinka lähellä tavoitettasi olet."
+     }
+    ],
+    "steps_title": "Näin pidät toivelistaa hinnoilla",
+    "steps": [
+     "Aloita uusi lista Spendry Notesissa.",
+     "Kirjoita jokainen toive hintoineen.",
+     "Aseta halutessasi listalle budjetti.",
+     "Yhdistä lista säästötavoitteeseen Spendryssä."
+    ],
+    "why_title": "Miksi hintojen lisääminen toivelistaan kannattaa",
+    "why": [
+     "Näet todellisen loppusumman jo ennen ostoksia.",
+     "Alennukset huomioidaan suoraan kirjoittaessasi.",
+     "Säästötavoite muuttaa haaveet selkeäksi suunnitelmaksi.",
+     "Kaikki Spendry Notesin toiminnot ovat ilmaisia."
+    ],
+    "faq": [
+     {
+      "q": "Voinko tehdä toivelistan hinnoilla iPhonessa?",
+      "a": "Kyllä. Kirjoita Spendry Notesissa toiveet hintoineen, niin lista näyttää loppusumman ja budjetista jäljellä olevan osuuden."
+     },
+     {
+      "q": "Voinko säästää listallani oleviin asioihin?",
+      "a": "Kyllä. Yhdistä lista säästötavoitteeseen Spendry-sovelluksessa."
+     },
+     {
+      "q": "Onko sovellus ilmainen?",
+      "a": "Kyllä. Kaikki Spendry Notesin toiminnot ovat ilmaisia."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja ota käyttöön toivelista, joka laskee summat puolestasi."
+   },
+   {
+    "key": "remember-grocery-prices",
+    "slug": "remember-grocery-prices",
+    "nav": "Kauppalistan hinnat muistiin",
+    "screen": "list",
+    "footer": false,
+    "title": "Kauppalista joka muistaa hinnat | Spendry Notes",
+    "description": "Kirjoita tuote uudelleen, ja Spendry Notes täydentää viimeksi maksamasi hinnan. Kauppalista valmistuu sekunneissa.",
+    "h1": "Kauppalista, joka muistaa hinnat",
+    "lead": "Kirjoita aiemmin ostamasi tuote, ja Spendry Notes täydentää viime kerran hinnan suoraan riville. Viikkolista valmistuu kuin itsestään ja loppusumma on heti valmis.",
+    "points": [
+     {
+      "h": "Viime kerran hinta heti valmiina",
+      "p": "Kirjoita ”Maito”, niin viimeksi maksamasi hinta tulee mukaan. Muutat vain sen, mikä on muuttunut."
+     },
+     {
+      "h": "Loppusumma valmiina ennen kauppaa",
+      "p": "Kun hinnat ovat valmiina, lista näyttää koko ostosreissun hinta-arvion etukäteen."
+     },
+     {
+      "h": "Muutokset helppo huomata",
+      "p": "Koska aiempi hinta on jo rivillä, muuttuneen hinnan erottaa heti sitä päivittäessäsi."
+     },
+     {
+      "h": "Määrät mukana laskuissa",
+      "p": "Ilmaukset kuten ”3 kpl leipää 2,50€ /kpl” ja ”2 kg omenoita 3 € /kg” lasketaan automaattisesti."
+     }
+    ],
+    "steps_title": "Miten se toimii",
+    "steps": [
+     "Kirjoita ostoslista hintoineen kerran.",
+     "Seuraavalla kerralla kirjoita samat tuotteet.",
+     "Viimeksi maksamasi hinta täydentyy automaattisesti.",
+     "Päivitä vain muuttuneet hinnat ja tarkista summa."
+    ],
+    "why_title": "Miksi se säästää aikaa",
+    "why": [
+     "Viikko-ostosten lista valmistuu sekunneissa.",
+     "Loppusumma on selvillä jo ennen kauppaan menoa.",
+     "Hintamuutokset huomaa heti päivityksen yhteydessä.",
+     "Kaikki Spendry Notesin toiminnot ovat ilmaisia."
+    ],
+    "faq": [
+     {
+      "q": "Onko olemassa kauppalistasovellusta, joka muistaa hinnat?",
+      "a": "Kyllä. Kun kirjoitat saman tuotteen uudelleen Spendry Notesissa, sovellus täyttää aiemman hinnan puolestasi."
+     },
+     {
+      "q": "Laskeeko sovellus myös kauppalistan summat yhteen?",
+      "a": "Kyllä. Lista näyttää yhteenvedon jäljellä olevista ja jo ostetuista tuotteista."
+     },
+     {
+      "q": "Onko sovellus ilmainen?",
+      "a": "Kyllä. Kaikki Spendry Notesin toiminnot ovat ilmaisia."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja anna ostoslistasi muistaa hinnat puolestasi."
+   },
+   {
+    "key": "gift-list-with-budget",
+    "slug": "gift-list-with-budget",
+    "nav": "Lahjalista ja budjetti",
+    "screen": "list",
+    "footer": false,
+    "title": "Joululahjalista ja budjetti | Spendry Notes",
+    "description": "Suunnittele joululahjat ja syntymäpäivälahjat listaan hintoineen. Spendry Notes laskee summat yhteen, seuraa ostoksia ja pitää sinut budjetissa.",
+    "h1": "Lahjalista, joka pysyy budjetissa",
+    "lead": "Kirjoita kenelle ostat ja mitä kukin lahja maksaa. Spendry Notes laskee kaiken yhteen, näyttää mitä budjetista on jäljellä ja pitää päivät kalenterissasi.",
+    "points": [
+     {
+      "h": "Valmis lahjalista",
+      "p": "Aloita Lahjalista-mallipohjasta ja kirjoita oma rivi jokaiselle henkilölle."
+     },
+     {
+      "h": "Jokainen lahja loppusummassa",
+      "p": "Kirjoita \"Huivi 25 €\" tai \"Kirja 2 x 15 €\", ja lista laskee summat. Näet erikseen mitä on ostettu ja mitä on vielä jäljellä."
+     },
+     {
+      "h": "Koko kauden budjetti",
+      "p": "Aseta muistiinpanolle budjetti ja näe lahjoja lisätessäsi, kuinka paljon sinulla on jäljellä."
+     },
+     {
+      "h": "Syntymäpäivät kalenterissasi",
+      "p": "Kirjoita päivä nimen perään, kuten \"Äidin syntymäpäivä 2. marraskuuta\", ja se näkyy kalenterissa kyseisenä päivänä muistutuksen kera."
+     }
+    ],
+    "steps_title": "Näin teet lahjalistan ja budjetin",
+    "steps": [
+     "Aloita uusi muistiinpano Lahjalista-pohjasta.",
+     "Kirjoita jokainen henkilö, lahjaidea ja sen hinta.",
+     "Aseta muistiinpanoon budjetti koko lahjakaudelle.",
+     "Merkitse lahjoja ostetuiksi ja seuraa jäljellä olevaa summaa."
+    ],
+    "why_title": "Miksi suunnitella lahjat Spendry Notesissa",
+    "why": [
+     "Koko juhlakausi yhdessä muistiinpanossa loppusummineen.",
+     "Syntymäpäivät ja määräpäivät suoraan kalenterissasi.",
+     "Muistaa hinnat, jotka maksoit aiemmin.",
+     "Ilmainen ladata ja ilmainen käyttää."
+    ],
+    "faq": [
+     {
+      "q": "Miten teen joululahjalistan ja budjetin?",
+      "a": "Luo Spendry Notes -sovelluksessa muistiinpano Lahjalista-pohjasta, kirjoita lahjat hintoineen ja aseta budjetti. Lista näyttää, mitä on kulunut ja mitä on jäljellä."
+     },
+     {
+      "q": "Näenkö jo ostetut lahjat?",
+      "a": "Kyllä. Kun ruksaat lahjan ostetuksi, Ostettu- ja Jäljellä-summat päivittyvät heti."
+     },
+     {
+      "q": "Onko sovellus ilmainen?",
+      "a": "Kyllä. Kaikki Spendry Notesin ominaisuudet ovat ilmaisia."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja pidä tämän vuoden lahjaostokset budjetissa."
+   },
+   {
+    "key": "black-friday-shopping-list",
+    "slug": "black-friday-shopping-list",
+    "nav": "Black Friday -lista",
+    "screen": "list",
+    "footer": false,
+    "title": "Black Friday -ostoslista ja budjetti | Spendry Notes",
+    "description": "Suunnittele Black Friday -ostokset listaan. Spendry Notes laskee alennukset, laskee ostoskorin yhteen ja näyttää, mitä budjetista on jäljellä.",
+    "h1": "Black Friday -lista, joka pitää budjetin",
+    "lead": "Kirjaa toiveesi hintoineen ja alennuksineen ennen alennusmyyntien alkua. Spendry Notes laskee todelliset hinnat yhteen ja vahtii budjettiasi.",
+    "points": [
+     {
+      "h": "Alennukset valmiiksi laskettuna",
+      "p": "Kirjoita \"Kengät 80 € -20% ale\", ja rivi näyttää suoraan alennetun hinnan."
+     },
+     {
+      "h": "Yksi loppusumma koko ostoskorille",
+      "p": "Jokainen tarjous lasketaan mukaan reaaliajassa. Näet erikseen jo ostetut tuotteet ja vielä listalla olevat asiat."
+     },
+     {
+      "h": "Budjetti valmiina ennen aleja",
+      "p": "Aseta muistiinpanoon budjetti ja näe käytettävissä oleva summa jo ennen kuin ostat mitään."
+     },
+     {
+      "h": "Viime kerralla maksamasi hinta",
+      "p": "Kun kirjoitat saman tuotteen uudelleen, aiemmin maksamasi hinta on heti näkyvissä tarjouksen vertailua varten."
+     }
+    ],
+    "steps_title": "Näin suunnittelet Black Friday -ostokset",
+    "steps": [
+     "Tee lista Spendry Notesissa ennen alennusmyyntejä.",
+     "Kirjaa haluamasi tuotteet hintoineen muistiinpanoon.",
+     "Lisää alennusprosentti, kun löydät hyvän tarjouksen.",
+     "Aseta listalle budjetti ja merkkaa tuotteet ostetuiksi."
+    ],
+    "why_title": "Miksi suunnitella alennusostokset Spendry Notesissa",
+    "why": [
+     "Laskee alennukset ja kokonaissummat puolestasi.",
+     "Selkeä budjetti näyttää aina jäljellä olevan rahan.",
+     "Widgetit tuovat listan suoraan Koti-valikkoon.",
+     "Ilmainen ladata ja ilmainen käyttää."
+    ],
+    "faq": [
+     {
+      "q": "Miten teen Black Friday -ostoslistan?",
+      "a": "Kirjoita ostoslistaan kukin tuote, hinta ja alennus Spendry Notesissa. Lista laskee hinnat yhteen ja näyttää budjetista jäljellä olevan summan."
+     },
+     {
+      "q": "Laskeeko sovellus prosenttialennukset?",
+      "a": "Kyllä. Kirjoita vain hinta ja alennus, kuten \"-20% ale\", ja näet suoraan lopullisen hinnan."
+     },
+     {
+      "q": "Onko se ilmainen?",
+      "a": "Kyllä. Kaikki Spendry Notes -toiminnot ovat ilmaisia."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja suuntaa alennusmyynteihin selkeän budjetin kanssa."
+   },
+   {
+    "key": "daily-expense-notes",
+    "slug": "daily-expense-notes",
+    "nav": "Päivittäiset kulut muistiinpanoissa",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Päivittäiset menot ja loppusummat | Spendry Notes",
+    "description": "Kirjaa päivän menot muistiinpanoon ja näe loppusumma. Spendry Notes laskee päivät yhteen ja voi siirtää rivin suoraan Spendryyn kuluksi.",
+    "h1": "Kirjaa päivittäiset kulut, näe kokonaissumma",
+    "lead": "Pidä päivittäistä muistiinpanoa menoistasi ja näe summat heti. Voit halutessasi siirtää minkä tahansa rivin suoraan Spendry-sovellukseen kuluksi.",
+    "points": [
+     {
+      "h": "Päivän muistiinpano",
+      "p": "Napauta Tänään ja kirjaa menot omille riveilleen, esimerkiksi \"Pysäköinti 12 €\" tai \"Lounas 12 € ja kahvi 3 €\". Muistiinpano laskee päivän summan puolestasi."
+     },
+     {
+      "h": "Jokainen päivä kalenterissa",
+      "p": "Kunkin päivän muistiinpano ja sen loppusumma näkyvät suoraan kalenterissasi, joten menneen viikon kulut löytyvät yhdellä napautuksella."
+     },
+     {
+      "h": "Lähetä kulu Spendryyn",
+      "p": "Siirrä yksittäinen rivi Spendryyn kirjatuksi menoksi yhdellä napautuksella ja pidä kuukausibudjettisi ajan tasalla."
+     },
+     {
+      "h": "Lisää menoja Sirin avulla",
+      "p": "Siri voi lisätä uuden rivin suoraan tämän päivän muistiinpanoon, ja sen sisältämä rahasumma lasketaan automaattisesti mukaan."
+     }
+    ],
+    "steps_title": "Näin seuraat arjen kuluja muistiinpanoissa",
+    "steps": [
+     "Napauta Spendry Notesissa kohtaa Tänään.",
+     "Kirjaa ostoksesi ja menosi hintoineen omille riveilleen.",
+     "Tarkista päivän kokonaissumma suoraan muistiinpanosta tai kalenterista.",
+     "Siirrä haluamasi rivi kuluksi Spendryyn budjettiasi varten."
+    ],
+    "why_title": "Miksi kirjata päivittäiset menot Spendry Notesissa",
+    "why": [
+     "Yhtä vaivatonta kuin tavallisen muistiinpanon tekeminen.",
+     "Automaattinen päiväkohtainen loppusumma kalenterissasi.",
+     "Spendry pitää huolen budjeteista, kun kaipaat laajempaa seurantaa.",
+     "Täysin ilmainen käyttää, ei vaadi rekisteröitymistä."
+    ],
+    "faq": [
+     {
+      "q": "Miten seuraan päivittäisiä menoja muistiinpanosovelluksessa?",
+      "a": "Kirjoita jokainen kulu omalle rivilleen summan kanssa Spendry Notesissa. Muistiinpano laskee rivit yhteen ja näyttää jokaisen päivän kalenterissa loppusummineen."
+     },
+     {
+      "q": "Voinko siirtää menon budjettiini?",
+      "a": "Kyllä. Voit lähettää minkä tahansa rivin Spendry-sovellukseen kuluksi yhdellä napautuksella."
+     },
+     {
+      "q": "Tarvitsenko pankkitunnuksia?",
+      "a": "Et. Kirjaat menot itse muistiinpanoihin, eikä Spendry Notes koskaan yhdistä verkkopankkiin."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja kokoa tämän päivän kulut yhteen selkeään muistiinpanoon."
+   },
+   {
+    "key": "renovation-budget-planner",
+    "slug": "renovation-budget-planner",
+    "nav": "Remonttibudjetti",
+    "screen": "plan",
+    "footer": false,
+    "title": "Remonttibudjetti muistiinpanossa | Spendry Notes",
+    "description": "Suunnittele remonttibudjetti muistiinpanossa. Spendry Notes laskee materiaalit ja työt yhteen, hallitsee määrät ja sijoittaa maksupäivät kalenteriin.",
+    "h1": "Suunnittele remonttibudjetti yhdessä muistiinpanossa",
+    "lead": "Kirjaa kaikki materiaalit ja työvaiheet hintoineen. Spendry Notes laskee summat ja määrät sekä vie eräpäivät suoraan kalenteriisi.",
+    "points": [
+     {
+      "h": "Materiaalit kappalemäärillä",
+      "p": "Kirjoita \"Maali 6 x 35 €\" tai \"30 kpl laattoja 12 € /kpl\", ja rivi laskee automaattisesti kokonaishinnan."
+     },
+     {
+      "h": "Työkustannukset ja lisäkulut samassa summassa",
+      "p": "Urakoitsija, kuljetus ja loppusiivous tulevat mukaan kokonaissummaan heti, kun kirjoitat ne listalle."
+     },
+     {
+      "h": "Maksupäivät kalenterissasi",
+      "p": "Kirjoita \"Ennakkomaksu 15. päivä 1000 €\", ja kulu ilmestyy kyseiselle päivälle kalenteriin muistutuksen kera."
+     },
+     {
+      "h": "Yhdistä säästötavoitteeseen",
+      "p": "Yhdistä muistiinpano Spendryssä säästötavoitteeseesi ja näe, kuinka remontti vaikuttaa säästöihisi."
+     }
+    ],
+    "steps_title": "Näin suunnittelet remonttibudjetin",
+    "steps": [
+     "Luo uusi lista projektillesi Spendry Notesissa.",
+     "Kirjaa materiaalit ja työvaiheet hintoineen tai kappalemäärineen.",
+     "Lisää päivämäärät maksuihin, jotta ne näkyvät kalenterissasi.",
+     "Ruksaa ostetut asiat ja seuraa, kuinka paljon maksettavaa on jäljellä."
+    ],
+    "why_title": "Miksi suunnitella remontti Spendry Notesissa",
+    "why": [
+     "Koko remonttiprojekti ja sen loppusumma yhdessä muistiinpanossa.",
+     "Kappalemäärät ja yksikköhinnat lasketaan puolestasi.",
+     "Maksupäivät järjestyksessä kalenterissa tarvittavine muistutuksineen.",
+     "Ilmainen ladata ja ilmainen käyttää."
+    ],
+    "faq": [
+     {
+      "q": "Miten teen remonttibudjetin iPhonella?",
+      "a": "Luo lista Spendry Notesissa ja kirjoita tarvikkeet ja työt hintoineen. Lista laskee kaiken yhteen ja pitää ostetut ja jäljellä olevat kulut erillään."
+     },
+     {
+      "q": "Voiko sovellus muistuttaa tulevista maksuista?",
+      "a": "Kyllä. Kun lisäät päivämäärän riville ja kytket muistutuksen päälle, saat ilmoituksen kyseisenä eräpäivänä."
+     },
+     {
+      "q": "Onko se ilmainen?",
+      "a": "Kyllä. Kaikki Spendry Notesin työkalut ovat ilmaisia."
+     }
+    ],
+    "cta": "Lataa Spendry Notes ja hallitse koko remonttibudjettia yhdessä selkeässä muistiinpanossa."
+   }
+  ],
+  "bundle": {
+   "slug": "spendry-and-notes",
+   "nav": "Spendry & Notes",
+   "title": "Spendry & Notes: Budjetti ja muistio | Spendry Notes",
+   "description": "Hanki Spendry ja Spendry Notes yhdessä ilmaiseksi App Storesta. Budjetit, kortit ja laskut toisessa sovelluksessa, laskeva muistio toisessa.",
+   "h1": "Spendry & Notes, kaksi yhdessä toimivaa ilmaista sovellusta",
+   "lead": "Spendry pitää huolta budjeteistasi, korteistasi, lainoistasi ja laskuistasi. Spendry Notes laskee listasi yhteen ja tekee muistiinpanoistasi suunnitelmia. Hanki molemmat yhdellä napautuksella ilmaisesta App Store -paketista.",
+   "spendry_h": "Spendry",
+   "spendry_p": "Budjetit, luottokortit, osamaksut, lainat, laskut ja tilaukset yhdessä paikassa. Spendry muistuttaa ennen eräpäiviä ja näyttää velattoman päivän lumipallo- tai lumivyörymenetelmällä. Ei pankkitunnuksia, ei tietojen keräämistä.",
+   "notes_h": "Spendry Notes",
+   "notes_p": "Muistiosovellus, joka ymmärtää rahaa. Kirjoita \"Maito 1,49 €\" tai \"Vuokra 28. päivä 850 €\": Spendry Notes laskee listasi yhteen ja tekee riveillä olevista päivistä suunnitelmia, samalla kun muistiinpanosi pysyy muistiinpanona.",
+   "together_h": "Paremmat yhdessä",
+   "together": [
+    "Yhdistä muistiinpano Spendryn budjettiin, tavoitteeseen tai lainaan ja näe, mitä listastasi jäisi jäljelle.",
+    "Lähetä rivi muistiinpanosta Spendryyn menona tai muistutuksena yhdellä napautuksella.",
+    "Yksi Spendry Premium -tilaus kattaa molemmat sovellukset."
+   ],
+   "faq": [
+    {
+     "q": "Mikä Spendry & Notes -paketti on?",
+     "a": "Se on ilmainen App Store -paketti, joka asentaa Spendryn ja Spendry Notesin yhdessä yhdellä napautuksella."
+    },
+    {
+     "q": "Maksaako paketti jotain?",
+     "a": "Ei. Molemmat sovellukset ovat ilmaisia ladata. Spendry Premium on valinnainen tilaus, joka uusiutuu automaattisesti ellet peruuta sitä, ja yksi tilaus kattaa molemmat sovellukset."
+    },
+    {
+     "q": "Mitä laitteita tuetaan?",
+     "a": "Spendry toimii laitteilla iPhone, iPad ja Mac, ja Spendry Notes toimii iPhonella. Molemmat vaativat iOS 17 -version tai uudemman iPhonessa."
+    }
+   ],
+   "cta": "Hanki Spendry ja Spendry Notes yhdessä yhdellä napautuksella."
+  }
+ }
 }

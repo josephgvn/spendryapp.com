@@ -825,3 +825,27 @@ tbody tr:nth-child(2n) { background: #fafbff; }
 .app-page .tool-list { margin: 6px 0 10px; }
 .app-links { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px 20px; margin: 4px 0 8px; }
 .app-links a { font-weight: 600; }
+
+/* Spendry Notes and the Spendry & Notes bundle: the same deep card, the app's own screens */
+.notes-buttons { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn-bundle { background: rgba(255, 255, 255, .1); color: #fff; box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, .32); }
+.btn-bundle:hover { box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, .55); }
+.cta-copy .notes-text { font-size: 17px; font-weight: 500; line-height: 1.55; color: rgba(255, 255, 255, .8); letter-spacing: 0; max-width: 34em; }
+.cta-copy .kicker { color: #aab6ff; }
+.notes-more { display: inline-flex; align-items: center; gap: 8px; color: #fff; font-weight: 650; }
+.notes-more .ic { width: 18px; height: 18px; transition: transform .35s var(--ease); }
+.notes-more:hover .ic { transform: translateX(4px); }
+[dir="rtl"] .notes-more .ic { transform: scaleX(-1); }
+.notes-home .cta-card { padding-block: 34px; }
+.notes-shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 4px 0 10px; }
+.notes-shots figure { margin: 0; aspect-ratio: 1206 / 1900; overflow: hidden; border-radius: 26px; border: 5px solid #161c40; background: #161c40; }
+.notes-shots img { display: block; width: 100%; height: auto; border-radius: 21px; }
+.bundle-icons { display: flex; gap: 10px; }
+.bundle-phones { justify-self: center; display: flex; gap: 14px; align-items: end; }
+.bundle-phones .guide-phone { width: min(40vw, 190px); }
+@media (min-width: 640px) { .notes-shots { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 760px) { .notes-home .cta-card { padding-block: 46px; } }
+@media (min-width: 900px) {
+  .guide-top.bundle-top { grid-template-columns: minmax(0, 1fr) 470px; }
+  .bundle-phones .guide-phone { width: 228px; }
+}

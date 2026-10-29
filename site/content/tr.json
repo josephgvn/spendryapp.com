@@ -3077,5 +3077,1001 @@
   "cta": "Spendry'yi indir, ayın tamamını tek yerde gör.",
   "tools_title": "Ücretsiz hesaplayıcılar",
   "guides_title": "Rehberler"
+ },
+ "notes": {
+  "labels": {
+   "app": "Spendry Notes",
+   "free": "iPhone için App Store'da ücretsiz. Spendry Notes'un tüm özellikleri ücretsiz.",
+   "download": "Spendry Notes'u indir",
+   "more": "Spendry Notes'tan daha fazlası",
+   "cta": "Spendry Notes'u indir, listelerin kendi kendine toplansın.",
+   "bundle_nav": "Spendry & Notes",
+   "bundle_button": "İki uygulamayı birlikte al",
+   "spendry_title": "Birlikte çalıştığı bütçe uygulaması: Spendry",
+   "home_kicker": "Spendry Notes",
+   "home_title": "Hesap yapan notlar, bütçenin hemen yanında",
+   "home_text": "Spendry Notes ücretsiz not uygulamamız: kendi kendine toplanan alışveriş listeleri, takvime düşen planlar ve Spendry bütçelerine bağlanan notlar. İki uygulamayı ücretsiz Spendry & Notes paketiyle tek dokunuşta al.",
+   "home_more": "Spendry Notes neler yapıyor",
+   "shots": "Spendry Notes'un içinden",
+   "shot_alts": {
+    "home": "Spendry Notes ana ekranı: bugünün planları ve listeler",
+    "list": "Spendry Notes'ta fiyatlı ve toplamlı bir market listesi",
+    "plan": "Spendry Notes'ta gelirler, faturalar ve net toplamla aylık plan",
+    "calendar": "Spendry Notes takvimi: planlar kendi günlerinde",
+    "ask": "Spendry Notes'a bu hafta ne planlandığını sormak",
+    "picker": "Bir notu Spendry'deki bütçeye, hedefe ya da krediye bağlamak"
+   }
+  },
+  "pages": [
+   {
+    "key": "spendry-notes",
+    "slug": "spendry-notes",
+    "nav": "Spendry Notes",
+    "screen": "home",
+    "footer": true,
+    "title": "Spendry Notes: Parayı Anlayan Not Uygulaması",
+    "description": "Spendry Notes, alışveriş listelerini toplayan, notlarındaki günleri plana çeviren ve Spendry ile çalışan ücretsiz bir iPhone not uygulaması.",
+    "h1": "Spendry Notes, parayı anlayan bir not uygulaması",
+    "lead": "Her zamanki gibi yaz. Spendry Notes satırlarındaki tutarları, günleri ve saatleri okur, toplar ve plana dönüştürür; notun yine not olarak kalır.",
+    "points": [
+     {
+      "h": "Kendi kendine toplanan listeler",
+      "p": "Alışveriş listeleri, alınacakların ve alınanların toplamını anlık gösterir. Alışveriş yaparken işaretle, toplamlar kendiliğinden güncellensin."
+     },
+     {
+      "h": "Söylediğin gibi yaz",
+      "p": "\"5 tane 10 TL'lik su\", \"2 kg domates kilosu 40 TL\" ya da \"Yemek 1200/4\": adet, birim fiyat, indirim, bahşiş ve kişi başı pay senin için hesaplanır."
+     },
+     {
+      "h": "Günler plana dönüşür",
+      "p": "Bir satıra gün yaz, takvimde o güne düşsün. \"Yarın\", \"haftaya cuma\", \"3 gün sonra\", \"ayın 15'i\" ve \"her ay\" hepsi anlaşılır; istediğin satıra sessiz bir hatırlatma eklenir."
+     },
+     {
+      "h": "Notlarına sor",
+      "p": "\"Bu hafta ne planladım?\" ya da \"Listelerimde ne kaldı?\" diye sor; cevap kendi notlarından, iPhone'unda hesaplanır."
+     },
+     {
+      "h": "Spendry ile bağlantılı",
+      "p": "Bir notu Spendry'deki bir bütçeye, hedefe ya da krediye bağla ve listenin ne bırakacağını gör ya da bir satırı tek dokunuşla Spendry'ye harcama veya hatırlatıcı olarak gönder."
+     }
+    ],
+    "steps_title": "Spendry Notes'a nasıl başlanır",
+    "steps": [
+     "Spendry Notes'u App Store'dan indir; ücretsiz.",
+     "Bir listeyi ya da planı kâğıda yazar gibi, fiyatları ve günleriyle yaz.",
+     "Toplamların ve takviminin kendiliğinden dolduğunu gör.",
+     "Spendry kullanıyorsan notu bir bütçeye, hedefe ya da krediye bağla."
+    ],
+    "why_title": "Neden Spendry Notes",
+    "why": [
+     "Spendry Notes'un tüm özellikleri ücretsiz.",
+     "Tek başına çalışır, Spendry ile daha da iyidir.",
+     "Widget'lar listelerini ve yaklaşan planlarını gösterir, kilit ekranında da.",
+     "iCloud notlarını cihazlarında tutar, Son Silinenler notları 30 gün saklar."
+    ],
+    "faq": [
+     {
+      "q": "Spendry Notes ücretsiz mi?",
+      "a": "Evet. Spendry Notes'un tüm özellikleri ücretsiz. Spendry Premium, Spendry'de Premium özellikleri açan isteğe bağlı bir abonelik ve tek abonelik iki uygulamada da geçerli."
+     },
+     {
+      "q": "Spendry Notes için Spendry gerekli mi?",
+      "a": "Hayır. Spendry Notes tek başına çalışır. Spendry yüklüyse notları bütçelere, hedeflere ve kredilere bağlayabilir, satırları Spendry'ye gönderebilirsin."
+     },
+     {
+      "q": "Spendry Notes hangi cihazlarda çalışır?",
+      "a": "Spendry Notes bir iPhone uygulaması ve iOS 17 veya sonrasını gerektirir."
+     },
+     {
+      "q": "Siri ile kullanabilir miyim?",
+      "a": "Evet. Siri ve Kestirmeler listeye ekleyebilir ve yaklaşanları söyleyebilir."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, notların hesabı kendisi yapsın."
+   },
+   {
+    "key": "grocery-list-app",
+    "slug": "market-listesi-uygulamasi",
+    "nav": "Market listesi uygulaması",
+    "screen": "list",
+    "footer": true,
+    "title": "Market Listesi Uygulaması: Fiyatlı ve Toplamlı | Spendry Notes",
+    "description": "Yazdıkça fiyatları toplayan, alınacakları gösteren ve geçen sefer ödediğin fiyatı hatırlayan ücretsiz iPhone market listesi uygulaması.",
+    "h1": "Alışveriş yaptıkça toplanan market listesi",
+    "lead": "Listeni fiyatlarıyla yaz, sepete giren ürünleri işaretle; aldıklarının ve hâlâ alınacakların toplamını gör.",
+    "points": [
+     {
+      "h": "Yazdıkça toplam",
+      "p": "\"Süt 45\" ya da \"Ekmek 2 tane 15\" yaz, liste toplasın. Kalanların ve alınanların toplamı her işaretle güncellenir."
+     },
+     {
+      "h": "Adet ve birim fiyat",
+      "p": "\"2 kg domates kilosu 40 TL\" ve \"5 tane 10 TL'lik su\" senin için hesaplanır; arada hesap makinesi yok."
+     },
+     {
+      "h": "Geçen sefer ödediğin fiyat",
+      "p": "Bir ürünü yeniden yazdığında geçen sefer ödediğin fiyat hazır gelir; haftalık liste saniyeler sürer."
+     },
+     {
+      "h": "Alışverişe bir bütçe",
+      "p": "Listeye bir bütçe ver, ekledikçe ne kaldığını gör."
+     }
+    ],
+    "steps_title": "Fiyatlı market listesi nasıl yapılır",
+    "steps": [
+     "Spendry Notes'ta bir liste oluştur.",
+     "Her ürünü fiyatıyla ya da adet ve birim fiyatıyla yaz.",
+     "Sepete giren ürünleri işaretle.",
+     "Kasaya gelmeden toplamda ne kaldığına bak."
+    ],
+    "why_title": "Market alışverişinde neden Spendry Notes",
+    "why": [
+     "Ücretsiz, üyelik yok.",
+     "Widget'lar listeyi ana ekranda ve kilit ekranında gösterir.",
+     "Siri listene ürün ekleyebilir.",
+     "Spendry ile listeyi market bütçene bağla, ne bırakacağını gör."
+    ],
+    "faq": [
+     {
+      "q": "Fiyatları toplayan ücretsiz bir market listesi uygulaması var mı?",
+      "a": "Spendry Notes ücretsiz ve listendeki fiyatları sen yazdıkça toplar; alınacaklar ve alınanlar için ayrı toplam gösterir."
+     },
+     {
+      "q": "Fiyatları hatırlıyor mu?",
+      "a": "Evet. Bir ürünü yeniden yazdığında geçen sefer ödediğin fiyat senin için gelir."
+     },
+     {
+      "q": "Siri ile ürün ekleyebilir miyim?",
+      "a": "Evet. Siri ve Kestirmeler listeye ürün ekleyebilir."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, markete toplamını bilen bir listeyle git."
+   },
+   {
+    "key": "shopping-list-with-prices",
+    "slug": "fiyatli-alisveris-listesi",
+    "nav": "Fiyatlı alışveriş listesi",
+    "screen": "list",
+    "footer": false,
+    "title": "Fiyatlı Alışveriş Listesi: Anlık Toplam | Spendry Notes",
+    "description": "Alışveriş listeni fiyatlarıyla yaz; Spendry Notes toplamı anlık tutar, indirimleri hesaplar ve bütçende ne kaldığını gösterir.",
+    "h1": "Fiyatlı ve anlık toplamlı alışveriş listesi",
+    "lead": "Spendry Notes alışveriş listendeki fiyatları okur, toplamı güncel tutar ve bütçenden ne kaldığını gösterir.",
+    "points": [
+     {
+      "h": "İndirim ve bahşiş hesaplanır",
+      "p": "Bir ürünün yanına \"%20 indirim\" ya da sona \"+%10 bahşiş\" yaz, toplam ona göre değişsin."
+     },
+     {
+      "h": "Listeye bir bütçe",
+      "p": "Nota bir bütçe ver, liste büyüdükçe ne kaldığını gör."
+     },
+     {
+      "h": "Alınanlar ve alınacaklar",
+      "p": "İşaretlenen ürünler alınanlar toplamına geçer; kalanların ne tutacağını hep bilirsin."
+     },
+     {
+      "h": "Günü olan liste",
+      "p": "Bir satıra gün yaz, takvime düşsün; istersen bir hatırlatma da eklenir."
+     }
+    ],
+    "steps_title": "Fiyatlı alışveriş listesi nasıl tutulur",
+    "steps": [
+     "Spendry Notes'ta yeni bir liste aç.",
+     "Ürünleri fiyatları, adetleri ya da indirimleriyle yaz.",
+     "Varsa listeye bir bütçe ver.",
+     "Aldıkça işaretle, iki toplamı da izle."
+    ],
+    "why_title": "Fiyatlı liste neden işe yarar",
+    "why": [
+     "Tutarı kasadan önce görürsün, sonra değil.",
+     "İndirim, adet ve bahşiş senin için hesaplanır.",
+     "Liste, istediğin gibi düzenleyebildiğin düz bir not olarak kalır.",
+     "Spendry Notes'un tüm özellikleri ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "iPhone'da alışveriş listesi nasıl toplanır?",
+      "a": "Ürünleri fiyatlarıyla Spendry Notes'a yaz. Sen yazdıkça toplar ve kalanlar ile alınanlar için toplam gösterir."
+     },
+     {
+      "q": "İndirimi hesaplıyor mu?",
+      "a": "Evet. Ürünün yanına \"%20 indirim\" gibi bir indirim yaz, toplam ona göre değişir."
+     },
+     {
+      "q": "Listeye bütçe koyabilir miyim?",
+      "a": "Evet. Nota bir bütçe ver, Spendry Notes ne kaldığını gösterir."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, toplamı kasadan önce bil."
+   },
+   {
+    "key": "notes-app-with-calculator",
+    "slug": "hesap-yapan-not-defteri",
+    "nav": "Hesap yapan not defteri",
+    "screen": "plan",
+    "footer": true,
+    "title": "Hesap Yapan Not Defteri: Toplayan Notlar | Spendry Notes",
+    "description": "Spendry Notes hesap yapan bir not defteri: satırlarındaki tutarları okur ve toplar; adet, indirim ve kişi başı pay da hesaplanır.",
+    "h1": "Hesabı senin yerine yapan not defteri",
+    "lead": "Ayrı bir hesap makinesine gerek yok. Notlarına tutarları yaz, Spendry Notes satır satır toplasın; notun yine düz bir not olarak kalsın.",
+    "points": [
+     {
+      "h": "Satırın neresinde olursa olsun tutar",
+      "p": "\"Ayın 28'inde kira 18.000\" ya da \"Kahve 3 x 85\": tutar, adet ve gün yazdığın kelimelerden okunur."
+     },
+     {
+      "h": "Gelen ve giden",
+      "p": "Gelirleri ve giderleri aynı nota yaz; ne geldiğini, ne gittiğini ve ne kaldığını gör."
+     },
+     {
+      "h": "Bölme ve yüzdeler",
+      "p": "\"Yemek 1200/4\" kişi başı payı gösterir; \"%20 indirim\" ya da \"+%10 bahşiş\" toplamı değiştirir."
+     },
+     {
+      "h": "Cevaplar notlarından",
+      "p": "Bu hafta ne planladığını ya da listelerinde ne kaldığını sor, cevap kendi notlarından gelsin."
+     }
+    ],
+    "steps_title": "Not defteri hesap makinesi gibi nasıl kullanılır",
+    "steps": [
+     "Spendry Notes'ta bir not aç.",
+     "Her satırı söylediğin gibi, tutarıyla yaz.",
+     "Yazdıkça notun altındaki toplamlara bak.",
+     "Takvime düşmesi için istediğin satıra gün ekle."
+    ],
+    "why_title": "Hesap yapan notlar neden işe yarar",
+    "why": [
+     "Not uygulamasıyla hesap makinesi arasında gidip gelmezsin.",
+     "Not yalnızca sayıları değil, senin kelimelerini de tutar.",
+     "Bir satırı değiştirdiğinde toplamlar kendiliğinden değişir.",
+     "İndirmesi de kullanması da ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "iPhone'da sayıları toplayan bir not uygulaması var mı?",
+      "a": "Spendry Notes satırlarındaki tutarları okur ve sen yazdıkça toplar; adet, indirim, bahşiş ve kişi başı pay da buna dahil."
+     },
+     {
+      "q": "Gelir ve gideri birlikte hesaplıyor mu?",
+      "a": "Evet. Aynı nottaki gelir ve giderler ayrı toplamlar ve kalan tutarı verir."
+     },
+     {
+      "q": "Spendry Notes ücretsiz mi?",
+      "a": "Evet. Spendry Notes'un tüm özellikleri ücretsiz."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, notların kendi kendine toplansın."
+   },
+   {
+    "key": "split-the-bill",
+    "slug": "hesap-bolme",
+    "nav": "Hesap bölme",
+    "screen": "list",
+    "footer": false,
+    "title": "Hesap Bölme: Notta Kişi Başı Pay | Spendry Notes",
+    "description": "\"Yemek 1200/4\" yaz, Spendry Notes kişi başı payı göstersin. Bahşiş ve indirim de notunun içinde hesaplanır.",
+    "h1": "Hesabı doğrudan notunda böl",
+    "lead": "Toplamı ve kişi sayısını yaz; Spendry Notes bahşiş dahil herkesin ne ödeyeceğini göstersin.",
+    "points": [
+     {
+      "h": "Tek satır, herkesin payı",
+      "p": "\"Yemek 1200/4\" yeterli: Spendry Notes kişi başı payı satırın altında gösterir."
+     },
+     {
+      "h": "Bahşiş ve indirim",
+      "p": "\"+%10 bahşiş\" ya da \"%20 indirim\" ekle, paylar yeni toplama göre değişsin."
+     },
+     {
+      "h": "Tatiller ve ortak masraflar",
+      "p": "Bütün bir hafta sonunu tek notta tut: biletler, oda ve yemekler, her biri payıyla."
+     },
+     {
+      "h": "Planlarınla birlikte",
+      "p": "Bir masrafın yanına gün yaz, takviminde görünsün."
+     }
+    ],
+    "steps_title": "Spendry Notes'ta hesap nasıl bölünür",
+    "steps": [
+     "Ödenen tutarı yaz ve kişi sayısına böl, örneğin \"Yemek 1200/4\".",
+     "Varsa bahşiş ya da indirim ekle.",
+     "Kişi başı payı satırın altında oku.",
+     "Bir tatil ya da etkinlik için masrafları aynı nota eklemeye devam et."
+    ],
+    "why_title": "Masrafları neden notta bölmeli",
+    "why": [
+     "Ayrı bir hesap makinesine ya da hesap bölme uygulamasına gerek yok.",
+     "Not, kimin neyi ödediğini senin kelimelerinle hatırlar.",
+     "Bir satırı düzenlediğinde toplamlar ve paylar değişir.",
+     "Ücretsiz, üyelik yok."
+    ],
+    "faq": [
+     {
+      "q": "iPhone'da hesap nasıl bölünür?",
+      "a": "Spendry Notes'ta tutarı kişi sayısına bölerek yaz, örneğin \"Yemek 1200/4\"; kişi başı pay satırın altında görünür."
+     },
+     {
+      "q": "Bahşişi de ekleyebilir miyim?",
+      "a": "Evet. \"+%10 bahşiş\" ekle, paylar yeni toplama göre değişir."
+     },
+     {
+      "q": "Ücretli mi?",
+      "a": "Hayır. Spendry Notes ve tüm özellikleri ücretsiz."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, hesabı tek satırda böl."
+   },
+   {
+    "key": "monthly-budget-planner-notes",
+    "slug": "aylik-butce-plani",
+    "nav": "Aylık bütçe planı",
+    "screen": "plan",
+    "footer": false,
+    "title": "Aylık Bütçe Planı: Ayı Tek Notta Planla | Spendry Notes",
+    "description": "Ayı tek notta planla: maaş, kira ve faturalar günleriyle. Spendry Notes net toplamı gösterir, her günü takvimine koyar.",
+    "h1": "Ayını tek bir notta planla",
+    "lead": "Maaşını, kiranı ve faturalarını günleriyle yaz. Spendry Notes ne geldiğini, ne gittiğini ve ne kaldığını gösterir, her günü takvimine koyar.",
+    "points": [
+     {
+      "h": "Gelen, giden ve kalan",
+      "p": "Gelir ve giderler aynı notta ay için net bir toplam verir; plan gerçekçi kalır."
+     },
+     {
+      "h": "Her gün takvimde",
+      "p": "\"Ayın 28'inde kira\" ve \"26'sında elektrik faturası\" kendi günlerinde takvime düşer."
+     },
+     {
+      "h": "Hatırlatma yalnızca istediğin yerde",
+      "p": "Kira ya da fatura gibi gereken satırlara sessiz bir hatırlatma ekle."
+     },
+     {
+      "h": "Ay şablonuyla başla",
+      "p": "Ay, tatil, taşınma ve etkinlik şablonları hazır bir başlangıç verir."
+     }
+    ],
+    "steps_title": "Spendry Notes'ta ay nasıl planlanır",
+    "steps": [
+     "Ay şablonundan ya da boş bir nottan başla.",
+     "Gelirini ve her gideri günüyle yaz.",
+     "Net toplama ve takvime bak.",
+     "Kaçırmak istemediğin ödemelere hatırlatma ekle."
+    ],
+    "why_title": "Ayı neden bir notta planlamalı",
+    "why": [
+     "Kâğıda yazmak kadar hızlı.",
+     "Toplamlar ve takvim kendiliğinden güncel kalır.",
+     "Spendry ile bir satır tek dokunuşla harcamaya ya da hatırlatıcıya dönüşür.",
+     "Spendry Notes'un tüm özellikleri ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "Bir not uygulamasında aylık bütçe yapılır mı?",
+      "a": "Evet. Spendry Notes'ta gelir ve giderleri günleriyle yaz; not net toplamı gösterir ve her günü takvime koyar."
+     },
+     {
+      "q": "Fatura gününden önce hatırlatır mı?",
+      "a": "O satıra hatırlatma eklersen evet. Hatırlatmalar yalnızca istediğin yere eklenir."
+     },
+     {
+      "q": "Spendry ile çalışıyor mu?",
+      "a": "Evet. Notu Spendry'deki bir bütçeye bağla ya da bir satırı Spendry'ye harcama veya hatırlatıcı olarak gönder."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, ayı tek notta planla."
+   },
+   {
+    "key": "trip-budget-planner",
+    "slug": "tatil-butcesi-planlama",
+    "nav": "Tatil bütçesi planlama",
+    "screen": "plan",
+    "footer": false,
+    "title": "Tatil Bütçesi Planlama: Tatili Notta Planla | Spendry Notes",
+    "description": "Tatil şablonundan başla; uçak, otel ve günlük masrafları yaz. Spendry Notes toplar ve kişi başı payı gösterir.",
+    "h1": "Tatil bütçeni bir notta planla",
+    "lead": "Tatil şablonundan başla ve tatilin ne tutacağını yaz. Spendry Notes hepsini toplar, kişi başı payı gösterir ve tarihleri takvimine koyar.",
+    "points": [
+     {
+      "h": "Hazır bir şablon",
+      "p": "Tatil şablonu bilet, otel, yemek ve gezilerle dolduracağın hazır bir not verir."
+     },
+     {
+      "h": "Planlarken toplam",
+      "p": "Yazdığın her masraf toplanır; rezervasyondan önce tatilin tamamını görürsün."
+     },
+     {
+      "h": "Grup için paylar",
+      "p": "Bir masrafı kişi sayısına böl, örneğin \"Otel 9000/3\"; her pay satırın altında görünür."
+     },
+     {
+      "h": "Spendry'de biriktir",
+      "p": "Notu Spendry'deki bir birikim hedefine bağla, ne kadar yaklaştığını gör."
+     }
+    ],
+    "steps_title": "Tatil bütçesi nasıl planlanır",
+    "steps": [
+     "Tatil şablonundan bir not başlat.",
+     "Her masrafı tutarıyla ve istersen günüyle yaz.",
+     "Ortak masrafları kişi sayısına böl.",
+     "Notu Spendry'deki bir birikim hedefine bağla."
+    ],
+    "why_title": "Tatili neden Spendry Notes'ta planlamalı",
+    "why": [
+     "Bütün tatil tek notta, toplamıyla.",
+     "Tarihler takvimine düşer.",
+     "Ortak masraflar senin için bölünür.",
+     "İndirmesi de kullanması da ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "iPhone'da tatil bütçesi nasıl yapılır?",
+      "a": "Spendry Notes'ta tatil şablonundan bir not başlat, her masrafı yaz; not hepsini toplar ve kişi başı payı gösterir."
+     },
+     {
+      "q": "Tatil için birikim yapabilir miyim?",
+      "a": "Evet. Notu Spendry'deki bir birikim hedefine bağla, hedefi notun yanında gör."
+     },
+     {
+      "q": "Ücretsiz mi?",
+      "a": "Evet. Spendry Notes'un tüm özellikleri ücretsiz."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, tatili tek notta planla."
+   },
+   {
+    "key": "moving-checklist-with-costs",
+    "slug": "tasinma-listesi-masraflari",
+    "nav": "Taşınma listesi",
+    "screen": "list",
+    "footer": false,
+    "title": "Taşınma Listesi ve Masrafları | Spendry Notes",
+    "description": "Toplayan bir taşınma listesi: her işi işaretle, masrafını yaz, toplamı gör. Spendry Notes'ta taşınma şablonundan başla.",
+    "h1": "Masrafları toplayan taşınma listesi",
+    "lead": "Taşınma şablonundan başla, işleri bitirdikçe işaretle ve her birinin yanına masrafını yaz. Spendry Notes toplamı ve günleri tutar.",
+    "points": [
+     {
+      "h": "İşler ve masraflar bir arada",
+      "p": "Her satır, masrafıyla birlikte bir iş olabilir; liste aynı zamanda taşınma bütçen olur."
+     },
+     {
+      "h": "Bitenler ve kalanlar",
+      "p": "Biten satırı işaretle; toplamlar harcananı ve daha gelecek olanı gösterir."
+     },
+     {
+      "h": "Tarihler takviminde",
+      "p": "\"Cumartesi nakliyeci\" ya da \"Ayın 1'inde depozito\" kendi günlerinde takvime düşer."
+     },
+     {
+      "h": "Gereken yerde hatırlatma",
+      "p": "Kaçmaması gereken satırlara sessiz bir hatırlatma ekle."
+     }
+    ],
+    "steps_title": "Spendry Notes'ta taşınma nasıl planlanır",
+    "steps": [
+     "Taşınma şablonundan bir not başlat.",
+     "İşleri masraflarıyla ve günleriyle ekle.",
+     "Bitirdikçe işaretle.",
+     "Taşınma gününden önce toplama bak."
+    ],
+    "why_title": "Masraflı yapılacaklar listesi neden işe yarar",
+    "why": [
+     "Taşınma bütçesi için ayrı bir tabloya gerek yok.",
+     "Harcananı ve kalanı bir bakışta görürsün.",
+     "Tarihler ve hatırlatmalar aynı nottan gelir.",
+     "Spendry Notes'un tüm özellikleri ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "Masrafları da tutan bir taşınma listesi uygulaması var mı?",
+      "a": "Spendry Notes'un taşınma şablonunda her işin bir masrafı ve günü olabilir. Not masrafları toplar ve günleri takvime koyar."
+     },
+     {
+      "q": "Taşınma günü için hatırlatma kurabilir miyim?",
+      "a": "Evet. Herhangi bir satıra hatırlatma ekle, o gün sessiz bir bildirim gelir."
+     },
+     {
+      "q": "Ücretsiz mi?",
+      "a": "Evet. Spendry Notes'un tüm özellikleri ücretsiz."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, taşınırken masrafları gözünün önünde tut."
+   },
+   {
+    "key": "event-budget-planner",
+    "slug": "etkinlik-butcesi",
+    "nav": "Etkinlik bütçesi",
+    "screen": "plan",
+    "footer": false,
+    "title": "Etkinlik Bütçesi: Parti ve Düğün Masrafları | Spendry Notes",
+    "description": "Parti, doğum günü ya da düğün bütçesini bir notta planla. Spendry Notes her masrafı toplar, payları böler, tarihleri takvime koyar.",
+    "h1": "Etkinlik bütçeni bir notta planla",
+    "lead": "Etkinlik şablonundan başla ve her masrafı yaz. Spendry Notes hepsini toplar, ödeyenler için payları gösterir ve tarihleri takviminde tutar.",
+    "points": [
+     {
+      "h": "Hazır bir şablon",
+      "p": "Etkinlik şablonu parti, doğum günü ya da düğün için hazır bir başlangıç verir."
+     },
+     {
+      "h": "Her masraf tek toplamda",
+      "p": "Mekân, yemek, müzik ve hediyeler sen yazdıkça toplanır."
+     },
+     {
+      "h": "Ödeyenler için paylar",
+      "p": "Bir masrafı kişi sayısına böl, her pay satırın altında görünsün."
+     },
+     {
+      "h": "Tarihler ve hatırlatmalar",
+      "p": "Kapora ve son tarihler takvimine düşer; istersen bir de hatırlatma eklenir."
+     }
+    ],
+    "steps_title": "Etkinlik bütçesi nasıl planlanır",
+    "steps": [
+     "Etkinlik şablonundan bir not başlat.",
+     "Her masrafı tutarıyla ve günüyle yaz.",
+     "Ortak masrafları kişi sayısına böl.",
+     "Kaporalara ve son tarihlere hatırlatma ekle."
+    ],
+    "why_title": "Etkinliği neden Spendry Notes'ta planlamalı",
+    "why": [
+     "Bütün bütçe tek notta, toplamıyla.",
+     "Son tarihler takviminde, hatırlatmalar gereken yerde.",
+     "Ortak masraflar senin için bölünür.",
+     "İndirmesi de kullanması da ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "iPhone'da parti bütçesi nasıl planlanır?",
+      "a": "Spendry Notes'ta etkinlik şablonundan bir not başlat, her masrafı yaz; not hepsini toplar ve payları gösterir."
+     },
+     {
+      "q": "Kaporaları hatırlatabilir mi?",
+      "a": "Evet. Satıra bir hatırlatma ekle, o gün bildirim gelir."
+     },
+     {
+      "q": "Ücretsiz mi?",
+      "a": "Evet. Spendry Notes'un tüm özellikleri ücretsiz."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, etkinlik bütçesini tek notta tut."
+   },
+   {
+    "key": "notes-with-reminders",
+    "slug": "hatirlaticili-not-uygulamasi",
+    "nav": "Hatırlatıcılı not uygulaması",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Tarihli ve Hatırlatıcılı Not Uygulaması | Spendry Notes",
+    "description": "\"Ayın 28'inde kira\" yaz, takvimine düşsün. Spendry Notes istediğin satıra, yalnızca istediğinde sessiz bir hatırlatma ekler.",
+    "h1": "Tarihlerini bilen notlar",
+    "lead": "Bir satıra gün yaz, Spendry Notes onu takvimine koysun. Hatırlatma gereken satırlara sessiz bir hatırlatma ekle, gerisine dokunma.",
+    "points": [
+     {
+      "h": "Günlük dille tarihler",
+      "p": "\"Yarın\", \"haftaya cuma\", \"3 gün sonra\", \"ayın 15'i\" ve \"her ay\" hepsi anlaşılır."
+     },
+     {
+      "h": "Notlarından bir takvim",
+      "p": "Tarihli her satır kendi gününde takvimde görünür; tutarı varsa tutarıyla."
+     },
+     {
+      "h": "Sessiz hatırlatmalar",
+      "p": "Hatırlatma yalnızca seçtiğin satırlara, seçtiğin saatte eklenir."
+     },
+     {
+      "h": "Yaklaşanlar bir bakışta",
+      "p": "Ana ekran ve kilit ekranı widget'ları yaklaşan planları gösterir."
+     }
+    ],
+    "steps_title": "Notlara hatırlatma nasıl eklenir",
+    "steps": [
+     "Günü olan bir satır yaz, örneğin \"Ayın 28'inde kira 18.000\".",
+     "Onu takvimde o günde bul.",
+     "İstersen satıra bir hatırlatma ekle.",
+     "Yaklaşanları görmek için bir widget ekle."
+    ],
+    "why_title": "Tarihleri neden notlarında tutmalı",
+    "why": [
+     "Planlar başka bir uygulamada değil, yazdığın yerde kalır.",
+     "Faturalar ve ödemeler takvimde tutarlarıyla görünür.",
+     "Hatırlatmalar senin onayın olmadan çoğalmaz.",
+     "Spendry Notes'un tüm özellikleri ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "iPhone'da nota hatırlatma eklenebilir mi?",
+      "a": "Spendry Notes'ta günü olan her satıra, yalnızca sen eklediğinde sessiz bir hatırlatma eklenebilir."
+     },
+     {
+      "q": "\"Haftaya cuma\" gibi tarihleri anlıyor mu?",
+      "a": "Evet. \"Yarın\", \"haftaya cuma\", \"3 gün sonra\", \"ayın 15'i\" ve \"her ay\" hepsi anlaşılır."
+     },
+     {
+      "q": "Planları kilit ekranında görebilir miyim?",
+      "a": "Evet. Spendry Notes'ta yaklaşan planlar ve listeler için widget'lar var, kilit ekranında da."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, notların tarihleri tutsun."
+   },
+   {
+    "key": "wishlist-with-prices",
+    "slug": "fiyatli-istek-listesi",
+    "nav": "Fiyatlı istek listesi",
+    "screen": "list",
+    "footer": false,
+    "title": "Fiyatlı İstek Listesi ve Toplamı | Spendry Notes",
+    "description": "Spendry Notes'ta fiyatlı bir istek listesi tut: hepsinin toplamını gör, listeye bütçe ver ve Spendry'deki bir birikim hedefine bağla.",
+    "h1": "Ne tuttuğunu bilen istek listesi",
+    "lead": "İstediğin şeyleri fiyatlarıyla yaz. Spendry Notes hepsini toplar, bütçene neyin sığdığını gösterir ve listeyi Spendry'deki bir birikim hedefine bağlayabilir.",
+    "points": [
+     {
+      "h": "İsteklerinin toplamı",
+      "p": "Listedeki her fiyat toplanır; hepsinin birlikte ne tutacağını bilirsin."
+     },
+     {
+      "h": "Listeye bir bütçe",
+      "p": "Nota bir bütçe ver, ekleyip çıkardıkça ne kaldığını gör."
+     },
+     {
+      "h": "Aldıklarını işaretle",
+      "p": "İşaretlenenler alınanlar toplamına geçer, kalanlar gözünün önünde durur."
+     },
+     {
+      "h": "Spendry'de biriktir",
+      "p": "Listeyi Spendry'deki bir birikim hedefine bağla, ne kadar yaklaştığını gör."
+     }
+    ],
+    "steps_title": "Fiyatlı istek listesi nasıl tutulur",
+    "steps": [
+     "Spendry Notes'ta bir liste başlat.",
+     "Her isteği fiyatıyla yaz.",
+     "Varsa listeye bir bütçe ver.",
+     "Listeyi Spendry'deki bir birikim hedefine bağla."
+    ],
+    "why_title": "Fiyatlı istek listesi neden işe yarar",
+    "why": [
+     "Almadan önce gerçek toplamı görürsün.",
+     "İndirimler yazdığında hesaplanır.",
+     "Birikim hedefi istekleri bir plana dönüştürür.",
+     "Spendry Notes'un tüm özellikleri ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "iPhone'da fiyatlı istek listesi tutulabilir mi?",
+      "a": "Evet. Spendry Notes'ta her isteği fiyatıyla yaz; liste toplamı ve bütçenden kalanı gösterir."
+     },
+     {
+      "q": "Listemdekiler için birikim yapabilir miyim?",
+      "a": "Evet. Listeyi Spendry'deki bir birikim hedefine bağla."
+     },
+     {
+      "q": "Ücretsiz mi?",
+      "a": "Evet. Spendry Notes'un tüm özellikleri ücretsiz."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, toplamını bilen bir istek listesi tut."
+   },
+   {
+    "key": "remember-grocery-prices",
+    "slug": "fiyatlari-hatirlayan-market-listesi",
+    "nav": "Fiyatları hatırlayan liste",
+    "screen": "list",
+    "footer": false,
+    "title": "Fiyatları Hatırlayan Market Listesi | Spendry Notes",
+    "description": "Bir ürünü yeniden yazdığında Spendry Notes geçen sefer ödediğin fiyatı getirir; market listen saniyeler içinde hazır olur.",
+    "h1": "Ne ödediğini hatırlayan market listesi",
+    "lead": "Daha önce aldığın bir ürünü yaz, Spendry Notes geçen sefer ödediğin fiyatı getirsin. Haftalık liste kendini yazar, toplam hazır olur.",
+    "points": [
+     {
+      "h": "Geçen seferin fiyatı hazır",
+      "p": "\"Süt\" yaz, geçen sefer ödediğin fiyat da gelsin; yalnızca değişeni değiştirirsin."
+     },
+     {
+      "h": "Çıkmadan önce toplam",
+      "p": "Fiyatlar yerinde olunca liste alışverişin tamamının ne tutacağını gösterir."
+     },
+     {
+      "h": "Değişiklik kolayca fark edilir",
+      "p": "Geçen seferin fiyatı satırda durduğu için değişen bir fiyat güncellerken göze çarpar."
+     },
+     {
+      "h": "Adetler dahil",
+      "p": "\"3 x 85\" ve \"2 kg kilosu 40 TL\" senin için hesaplanır."
+     }
+    ],
+    "steps_title": "Nasıl çalışır",
+    "steps": [
+     "Market listeni bir kez fiyatlarıyla yaz.",
+     "Bir dahaki sefere aynı ürünleri yaz.",
+     "Geçen sefer ödediğin fiyat gelir.",
+     "Yalnızca değişen fiyatları değiştir ve toplama bak."
+    ],
+    "why_title": "Neden zaman kazandırır",
+    "why": [
+     "Haftalık liste saniyeler sürer.",
+     "Toplam alışverişten önce hazırdır.",
+     "Değişen bir fiyat güncellerken göze çarpar.",
+     "Spendry Notes'un tüm özellikleri ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "Fiyatları hatırlayan bir market listesi uygulaması var mı?",
+      "a": "Evet. Spendry Notes'ta bir ürünü yeniden yazdığında geçen sefer ödediğin fiyat senin için gelir."
+     },
+     {
+      "q": "Listeyi de topluyor mu?",
+      "a": "Evet. Liste alınacaklar ve alınanlar için toplam gösterir."
+     },
+     {
+      "q": "Ücretsiz mi?",
+      "a": "Evet. Spendry Notes'un tüm özellikleri ücretsiz."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, listen fiyatları hatırlasın."
+   },
+   {
+    "key": "gift-list-with-budget",
+    "slug": "yilbasi-hediye-listesi",
+    "nav": "Hediye listesi",
+    "screen": "list",
+    "footer": false,
+    "title": "Bütçeli Yılbaşı Hediye Listesi | Spendry Notes",
+    "description": "Yılbaşı ve doğum günü hediyelerini fiyatlarıyla listele. Spendry Notes toplar, aldıklarını takip eder ve seni bütçende tutar.",
+    "h1": "Bütçeni aşmayan hediye listesi",
+    "lead": "Kime ne alacağını ve hediyenin fiyatını yaz. Spendry Notes toplar, bütçenden ne kaldığını gösterir ve günleri takvimine koyar.",
+    "points": [
+     {
+      "h": "Hazır hediye listesi",
+      "p": "Hediye listesi şablonuyla başla, her kişi için bir satır yaz."
+     },
+     {
+      "h": "Her hediye toplamda",
+      "p": "\"Atkı 400\" ya da \"Kitap 2 x 250\" yaz, liste toplasın; aldıkların ve alacakların ayrı toplanır."
+     },
+     {
+      "h": "Sezon için bütçe",
+      "p": "Nota bir bütçe ver, hediye ekledikçe ne kaldığını gör."
+     },
+     {
+      "h": "Doğum günleri takvimde",
+      "p": "Bir ismin yanına günü yaz, örneğin \"Annemin doğum günü 2 Kasım\"; takviminde o güne düşsün, istersen hatırlatma da al."
+     }
+    ],
+    "steps_title": "Bütçeli hediye listesi nasıl yapılır",
+    "steps": [
+     "Hediye listesi şablonuyla yeni bir not aç.",
+     "Her kişiyi ve aklındaki hediyeyi fiyatıyla yaz.",
+     "Nota sezon için bir bütçe ver.",
+     "Aldığın hediyeleri işaretle, kalanı izle."
+    ],
+    "why_title": "Hediyeleri neden Spendry Notes ile planlamalı",
+    "why": [
+     "Bütün sezon tek notta, toplamıyla.",
+     "Doğum günleri ve son tarihler takviminde.",
+     "Daha önce ödediğin fiyatlar hatırlanır.",
+     "İndirmesi de kullanması da ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "Bütçeli yılbaşı hediye listesi nasıl yapılır?",
+      "a": "Spendry Notes'ta hediye listesi şablonuyla bir not aç, her hediyeyi fiyatıyla yaz ve nota bir bütçe ver. Not ne harcadığını ve ne kaldığını gösterir."
+     },
+     {
+      "q": "Aldıklarımı görebilir miyim?",
+      "a": "Evet. Hediyeyi aldığında işaretle; aldıkların ve kalanların toplamı onunla birlikte değişir."
+     },
+     {
+      "q": "Ücretsiz mi?",
+      "a": "Evet. Spendry Notes'un tüm özellikleri ücretsiz."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, bu yılın hediyelerini bütçende tut."
+   },
+   {
+    "key": "black-friday-shopping-list",
+    "slug": "black-friday-alisveris-listesi",
+    "nav": "Black Friday listesi",
+    "screen": "list",
+    "footer": false,
+    "title": "Black Friday Alışveriş Listesi ve Bütçe | Spendry Notes",
+    "description": "Black Friday fırsatlarını listele. Spendry Notes her indirimi hesaplar, sepeti toplar ve bütçenden ne kaldığını gösterir.",
+    "h1": "Bütçeni koruyan Black Friday listesi",
+    "lead": "İndirimler başlamadan istediklerini fiyatı ve indirimiyle yaz. Spendry Notes gerçek fiyatları hesaplar, toplar ve bütçeni gözetir.",
+    "points": [
+     {
+      "h": "İndirim hesaplanır",
+      "p": "\"Mont 1000 TL %20 indirim\" yaz, satırda indirimli fiyatı gör."
+     },
+     {
+      "h": "Bütün sepet tek toplamda",
+      "p": "Her fırsat yazdıkça toplanır; aldıkların ve listede kalanlar ayrı toplanır."
+     },
+     {
+      "h": "İndirimden önce bütçe",
+      "p": "Nota bir bütçe ver, bir şey almadan önce ne kaldığını gör."
+     },
+     {
+      "h": "Geçen seferki fiyat",
+      "p": "Bir şeyi yeniden yazdığında geçen sefer ödediğin fiyat hazır gelir, fırsatı onunla karşılaştırırsın."
+     }
+    ],
+    "steps_title": "Black Friday alışverişi nasıl planlanır",
+    "steps": [
+     "İndirimler başlamadan Spendry Notes'ta bir liste aç.",
+     "İstediğin her şeyi fiyatıyla yaz.",
+     "Fırsatı bulunca indirimi ekle.",
+     "Listeye bir bütçe ver, aldıklarını işaretle."
+    ],
+    "why_title": "İndirimleri neden Spendry Notes ile planlamalı",
+    "why": [
+     "İndirimler ve toplamlar senin yerine hesaplanır.",
+     "Ne kaldığını gösteren bir bütçe.",
+     "Widget'lar listeyi ana ekranında tutar.",
+     "İndirmesi de kullanması da ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "Black Friday alışveriş listesi nasıl yapılır?",
+      "a": "İstediğin her şeyi fiyatı ve indirimiyle bir Spendry Notes listesine yaz. Liste fiyatları hesaplar, toplar ve bütçenden ne kaldığını gösterir."
+     },
+     {
+      "q": "Yüzde indirimi hesaplıyor mu?",
+      "a": "Evet. Fiyatı ve indirimi yaz, örneğin %20 indirim; satır indirimli fiyatı gösterir."
+     },
+     {
+      "q": "Ücretsiz mi?",
+      "a": "Evet. Spendry Notes'un tüm özellikleri ücretsiz."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, indirimlere liste ve bütçeyle gir."
+   },
+   {
+    "key": "daily-expense-notes",
+    "slug": "gunluk-harcama-notu",
+    "nav": "Günlük harcama notu",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Günlük Harcamaları Nota Yaz, Toplamı Gör | Spendry Notes",
+    "description": "Günün harcamalarını bir nota yaz, toplamı gör. Spendry Notes her günü toplar, istersen bir satırı Spendry'ye harcama olarak gönderir.",
+    "h1": "Günlük harcamalarını yaz, toplamı gör",
+    "lead": "Gün için bir not tut, harcadıkça yaz; toplam hep orada. İstediğinde bir satırı Spendry'ye harcama olarak gönder.",
+    "points": [
+     {
+      "h": "Bugünün notu",
+      "p": "Bugün'e dokun ve harcadığın her şeyi ayrı bir satıra yaz, örneğin \"Otopark 60\" ya da \"Kahve 90\". Not günü senin için toplar."
+     },
+     {
+      "h": "Her gün takvimde",
+      "p": "Her günün notu takviminde o güne toplamıyla düşer; geçen haftanın harcamaları bir dokunuş uzağında."
+     },
+     {
+      "h": "Spendry'ye gönder",
+      "p": "Bir satırı tek dokunuşla Spendry'ye harcama olarak gönder, bütçelerin güncel kalsın."
+     },
+     {
+      "h": "Siri ile ekle",
+      "p": "Siri bugünün notuna bir satır ekleyebilir; içindeki tutar da hesaba katılır."
+     }
+    ],
+    "steps_title": "Günlük harcamalar notlarla nasıl takip edilir",
+    "steps": [
+     "Spendry Notes'ta Bugün'e dokun.",
+     "Harcadığın her şeyi tutarıyla yaz.",
+     "Günün toplamını notta ya da takvimde gör.",
+     "Bütçene geçmesini istediğin satırı Spendry'ye gönder."
+    ],
+    "why_title": "Günlük harcamaları neden Spendry Notes'ta tutmalı",
+    "why": [
+     "Not almak kadar hızlı.",
+     "Her günün toplamı takviminde.",
+     "Daha fazlası için bütçeyi Spendry tutar.",
+     "Ücretsiz, üyelik gerektirmez."
+    ],
+    "faq": [
+     {
+      "q": "Günlük harcamalar not uygulamasında nasıl takip edilir?",
+      "a": "Spendry Notes'ta her harcamayı tutarıyla ayrı bir satıra yaz. Not satırları toplar ve her günün notu takviminde toplamıyla görünür."
+     },
+     {
+      "q": "Bir harcamayı bütçeme taşıyabilir miyim?",
+      "a": "Evet. Bir satırı tek dokunuşla Spendry'ye harcama olarak gönder."
+     },
+     {
+      "q": "Banka girişi gerekiyor mu?",
+      "a": "Hayır. Harcamalarını kendin yazarsın; Spendry Notes hiçbir bankaya bağlanmaz."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, bugünün harcamalarını tek notta tut."
+   },
+   {
+    "key": "renovation-budget-planner",
+    "slug": "tadilat-butcesi",
+    "nav": "Tadilat bütçesi",
+    "screen": "plan",
+    "footer": false,
+    "title": "Tadilat Bütçesi ve Masraf Listesi | Spendry Notes",
+    "description": "Tadilat bütçeni bir notta planla. Spendry Notes malzeme ve işçiliği toplar, adetleri hesaplar ve ödeme günlerini takvimine koyar.",
+    "h1": "Tadilat bütçesini tek notta planla",
+    "lead": "Her malzemeyi ve işi fiyatıyla yaz. Spendry Notes toplar, adetleri hesaplar ve ödeme günlerini takvimine koyar.",
+    "points": [
+     {
+      "h": "Adetle malzeme",
+      "p": "\"Boya 6 x 850\" ya da \"30 tane 120 TL'lik fayans\" yaz, her satır senin için hesaplansın."
+     },
+     {
+      "h": "İşçilik ve ekstralar aynı toplamda",
+      "p": "Usta, nakliye ve temizlik yazdıkça aynı toplama eklenir."
+     },
+     {
+      "h": "Ödemeler gününde",
+      "p": "\"Ayın 15'inde kapora 10.000\" yaz; takviminde o güne düşsün, istersen hatırlatma da al."
+     },
+     {
+      "h": "Bir hedefe bağlı",
+      "p": "Spendry ile notu bir birikim hedefine bağla, tadilatın ne bırakacağını gör."
+     }
+    ],
+    "steps_title": "Tadilat bütçesi nasıl yapılır",
+    "steps": [
+     "Spendry Notes'ta proje için bir liste aç.",
+     "Her malzemeyi ve işi fiyatıyla ya da adet ve birim fiyatıyla yaz.",
+     "Kapora ve ödemelere günlerini ekle, takviminde görünsünler.",
+     "Aldıklarını işaretle, ödenecek ne kaldığını gör."
+    ],
+    "why_title": "Tadilatı neden Spendry Notes ile planlamalı",
+    "why": [
+     "Bütün proje tek notta, toplamıyla.",
+     "Adet ve birim fiyatlar senin yerine hesaplanır.",
+     "Ödeme günleri takviminde, gereken yerde hatırlatma.",
+     "İndirmesi de kullanması da ücretsiz."
+    ],
+    "faq": [
+     {
+      "q": "iPhone'da tadilat bütçesi nasıl yapılır?",
+      "a": "Spendry Notes'ta bir liste aç, her malzemeyi ve işi fiyatıyla yaz. Liste toplar; aldıkların ve kalanlar ayrı görünür."
+     },
+     {
+      "q": "Ödemeleri hatırlatır mı?",
+      "a": "Evet. Satıra günü yaz, hatırlatma ekle; o gün bildirim gelir."
+     },
+     {
+      "q": "Ücretsiz mi?",
+      "a": "Evet. Spendry Notes'un tüm özellikleri ücretsiz."
+     }
+    ],
+    "cta": "Spendry Notes'u indir, tadilat bütçesini tek notta tut."
+   }
+  ],
+  "bundle": {
+   "slug": "spendry-ve-notes",
+   "nav": "Spendry & Notes",
+   "title": "Spendry & Notes: Bütçe ve Not Uygulaması Paketi",
+   "description": "Spendry ve Spendry Notes'u App Store'da birlikte ücretsiz al. Biri bütçe, kart ve faturalar için; diğeri hesap yapan notlar için.",
+   "h1": "Spendry & Notes, birlikte çalışan iki ücretsiz uygulama",
+   "lead": "Spendry bütçelerini, kartlarını, kredilerini ve faturalarını tutar. Spendry Notes listelerini toplar ve notlarını plana dönüştürür. İkisini ücretsiz App Store paketiyle tek dokunuşta al.",
+   "spendry_h": "Spendry",
+   "spendry_p": "Bütçeler, kredi kartları, taksitler, krediler, faturalar ve abonelikler tek yerde. Spendry ödemelerden önce hatırlatır ve kartopu ya da çığ yöntemiyle borçsuz kalacağın tarihi gösterir. Banka şifresi istemez, veri toplamaz.",
+   "notes_h": "Spendry Notes",
+   "notes_p": "Parayı anlayan bir not uygulaması. \"Süt 45\" ya da \"Ayın 28'inde kira 18.000\" yaz: Spendry Notes listelerini toplar, satırlarındaki günleri plana dönüştürür; notun yine not olarak kalır.",
+   "together_h": "Birlikte daha iyi",
+   "together": [
+    "Bir notu Spendry'deki bir bütçeye, hedefe ya da krediye bağla ve listenin ne bırakacağını gör.",
+    "Bir satırı tek dokunuşla Spendry'ye harcama ya da hatırlatıcı olarak gönder.",
+    "Tek Spendry Premium aboneliği iki uygulamada da geçerli."
+   ],
+   "faq": [
+    {
+     "q": "Spendry & Notes paketi nedir?",
+     "a": "Spendry ve Spendry Notes'u tek dokunuşta birlikte yükleyen ücretsiz bir App Store paketi."
+    },
+    {
+     "q": "Paket ücretli mi?",
+     "a": "Hayır. İki uygulamayı da ücretsiz indirebilirsin. Spendry Premium, iptal etmedikçe otomatik yenilenen isteğe bağlı bir abonelik ve tek abonelik iki uygulamada da geçerli."
+    },
+    {
+     "q": "Hangi cihazlar destekleniyor?",
+     "a": "Spendry iPhone, iPad ve Mac'te, Spendry Notes iPhone'da çalışır. iPhone'da ikisi de iOS 17 veya sonrasını gerektirir."
+    }
+   ],
+   "cta": "Spendry ve Spendry Notes'u tek dokunuşta birlikte al."
+  }
  }
 }

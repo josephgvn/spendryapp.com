@@ -2383,5 +2383,1001 @@
     }
    ]
   }
- ]
+ ],
+ "notes": {
+  "labels": {
+   "app": "Spendry Notes",
+   "free": "Gratis a l'App Store per a l'iPhone. Totes les funcions de Spendry Notes son gratuites.",
+   "download": "Descarrega Spendry Notes",
+   "more": "Mes de Spendry Notes",
+   "cta": "Descarrega Spendry Notes i deixa que sumi les llistes.",
+   "bundle_nav": "Spendry & Notes",
+   "bundle_button": "Aconsegueix les dues apps",
+   "spendry_title": "Spendry, l'app de pressupostos amb que es connecta",
+   "home_kicker": "Spendry Notes",
+   "home_title": "Notes que fan els comptes, al costat del pressupost",
+   "home_text": "Spendry Notes es la nostra app de notes gratuita: llistes de la compra que sumen, plans que van al calendari i notes enllacades als teus pressupostos de Spendry. Aconsegueix les dues apps amb un sol toc amb el paquet gratuit Spendry & Notes.",
+   "home_more": "Descobreix que fa Spendry Notes",
+   "shots": "Dins de Spendry Notes",
+   "shot_alts": {
+    "home": "Pantalla d'inici de Spendry Notes amb els plans d'avui i llistes",
+    "list": "Una llista de la compra a Spendry Notes amb preus i totals",
+    "plan": "Un pla mensual a Spendry Notes amb ingressos, rebuts i el total net",
+    "calendar": "El calendari de Spendry Notes amb els plans al seu dia",
+    "ask": "Preguntant a Spendry Notes que hi ha planificat aquesta setmana",
+    "picker": "Enllacant una nota a un pressupost, objectiu o prestec a Spendry"
+   }
+  },
+  "pages": [
+   {
+    "key": "spendry-notes",
+    "slug": "spendry-notes",
+    "nav": "Spendry Notes",
+    "screen": "home",
+    "footer": true,
+    "title": "Spendry Notes: Notes que calculen despeses",
+    "description": "Spendry Notes suma les teves llistes de la compra a l'iPhone, converteix dates en plans al calendari i s'enllaça amb Spendry. De franc.",
+    "h1": "Spendry Notes, una app de notes que entén de diners",
+    "lead": "Escriu com ho fas sempre. Spendry Notes llegeix els imports, els dies i les hores de cada línia, els suma i els converteix en plans, sense deixar de ser una nota.",
+    "points": [
+     {
+      "h": "Llistes que sumen soles",
+      "p": "Les llistes de la compra mostren en directe el total pendent i el que ja has comprat. Marca els elements mentre compres i els totals s'actualitzen."
+     },
+     {
+      "h": "Escriu tal com parles",
+      "p": "«3 ampolles d'oli a 4€ cadascuna», «1.5 kg de formatge a 12€ el kg» o «Sopar 120/3»: calcula quantitats, preus per unitat, descomptes, propines i la part de cadascú."
+     },
+     {
+      "h": "Els dies esdevenen plans",
+      "p": "Escriu una data en una línia i apareixerà aquell dia al calendari. Entén «demà», «divendres que ve», «en 3 dies», «el 15» o «cada mes», i pots afegir avisos discrets."
+     },
+     {
+      "h": "Pregunta a les teves notes",
+      "p": "Fes preguntes com «Què tinc previst aquesta setmana?» o «Què em queda a les llistes?» i rep la resposta directament des de les teves notes, al teu iPhone."
+     },
+     {
+      "h": "Enllaça amb Spendry",
+      "p": "Enllaça una nota amb un pressupost, objectiu o préstec a Spendry per veure com queda el saldo, o envia una línia a Spendry com a despesa o recordatori amb un toc."
+     }
+    ],
+    "steps_title": "Com començar amb Spendry Notes",
+    "steps": [
+     "Descarrega Spendry Notes de l'App Store. És de franc.",
+     "Escriu una llista o un pla com ho faries en paper, amb preus i dates.",
+     "Mira com es calculen els totals i s'omple el calendari automàticament.",
+     "Si fas servir Spendry, enllaça la nota a un pressupost, objectiu o préstec."
+    ],
+    "why_title": "Per què fer servir Spendry Notes",
+    "why": [
+     "Totes les funcions de Spendry Notes són gratuïtes.",
+     "Funciona pel seu compte, i encara millor amb Spendry.",
+     "Els ginys mostren les llistes i els plans a la pantalla de bloqueig.",
+     "L'iCloud manté les notes als teus dispositius i Eliminats fa poc les guarda 30 dies."
+    ],
+    "faq": [
+     {
+      "q": "Spendry Notes és de franc?",
+      "a": "Sí. Totes les funcions de Spendry Notes són gratuïtes. Spendry Premium és una subscripció opcional per a Spendry, i una sola subscripció serveix per a les dues apps."
+     },
+     {
+      "q": "Necessito Spendry per fer servir Spendry Notes?",
+      "a": "No. Spendry Notes funciona de manera independent. Si tens Spendry, també pots enllaçar notes a pressupostos, fites o préstecs i enviar-hi línies."
+     },
+     {
+      "q": "Amb quins dispositius funciona Spendry Notes?",
+      "a": "Spendry Notes és una app per a l'iPhone i requereix iOS 17 o posterior."
+     },
+     {
+      "q": "Puc fer servir Siri amb Spendry Notes?",
+      "a": "Sí. Siri i l'app Dreceres poden afegir coses a una llista i dir-te què tens previst pròximament."
+     }
+    ],
+    "cta": "Descarrega Spendry Notes i deixa que les notes facin els comptes."
+   },
+   {
+    "key": "grocery-list-app",
+    "slug": "grocery-list-app",
+    "nav": "App llista de la compra",
+    "screen": "list",
+    "footer": true,
+    "title": "Llista de la compra amb preus | Spendry Notes",
+    "description": "App gratuïta de llista de la compra per a iPhone. Suma els preus mentre escrius, mostra el que queda per comprar i recorda què vas pagar.",
+    "h1": "Una app per a la llista de la compra que suma mentre compres",
+    "lead": "Apunta la llista amb preus, marca els productes quan els fiquis al carretó i consulta el total comprat i el restant.",
+    "points": [
+     {
+      "h": "Totals mentre escrius",
+      "p": "Escriu «Pa 1,20€ i llet 0,90€» i la llista ho suma al moment. Els totals de Restant i Comprat s'actualitzen amb cada element marcat."
+     },
+     {
+      "h": "Quantitats i preus unitaris",
+      "p": "Calcula automàticament «1.5 kg de formatge a 12€ el kg» o «6 cerveses a 1.50€ la unitat», sense necessitat d'obrir la calculadora."
+     },
+     {
+      "h": "El preu de l'última vegada",
+      "p": "Torna a escriure un producte i et proposarà el preu que vas pagar l'últim cop, per enllestir la compra setmanal en segons."
+     },
+     {
+      "h": "Un pressupost per a la compra",
+      "p": "Assigna un límit a la llista i comprova quants diners et queden a mesura que hi afegeixes coses."
+     }
+    ],
+    "steps_title": "Com fer una llista de la compra amb preus",
+    "steps": [
+     "Crea una llista a Spendry Notes.",
+     "Apunta cada article amb el seu preu, o amb quantitat i preu unitari.",
+     "Marca els articles a mesura que els fiquis al carretó.",
+     "Revisa el total restant abans d'arribar a la caixa."
+    ],
+    "why_title": "Per què utilitzar Spendry Notes per a la compra",
+    "why": [
+     "De franc, sense haver de registrar-se.",
+     "Els ginys mostren la llista a la pantalla d'inici i a la pantalla de bloqueig.",
+     "Siri pot afegir coses a la teva llista.",
+     "Amb Spendry, enllaça la llista al pressupost d'alimentació i mira què et queda."
+    ],
+    "faq": [
+     {
+      "q": "Hi ha alguna app gratuïta per a la llista de la compra que sumi preus?",
+      "a": "Spendry Notes és gratuïta i suma els preus de la llista mentre escrius, mostrant per separat el total restant i el comprat."
+     },
+     {
+      "q": "Recorda els preus anteriors?",
+      "a": "Sí. Quan tornes a escriure un producte, s'emplena amb el preu que vas pagar la darrera vegada."
+     },
+     {
+      "q": "Puc afegir articles amb Siri?",
+      "a": "Sí. Siri i l'app Dreceres poden afegir articles a qualsevol llista."
+     }
+    ],
+    "cta": "Descarrega Spendry Notes i emporta't al súper una llista que suma sola."
+   },
+   {
+    "key": "shopping-list-with-prices",
+    "slug": "shopping-list-with-prices",
+    "nav": "Llista de compres amb preus",
+    "screen": "list",
+    "footer": false,
+    "title": "Llista de compres amb preus i total | Spendry Notes",
+    "description": "Fes la llista de compres amb preus: Spendry Notes calcula el total acumulat, aplica descomptes i et mostra què queda de pressupost.",
+    "h1": "Una llista de la compra amb preus i total en directe",
+    "lead": "Spendry Notes llegeix els preus de la teva llista, en manté el total actualitzat i et mostra quant et queda del pressupost.",
+    "points": [
+     {
+      "h": "Calcula descomptes i propines",
+      "p": "Escriu «Jaqueta 80€ -20% dte.» o una propina al final i el total es recalcula a l'instant."
+     },
+     {
+      "h": "Un pressupost per a la llista",
+      "p": "Assigna un pressupost a la nota i controla quant et queda a mesura que creix la llista."
+     },
+     {
+      "h": "Comprat i pendent de comprar",
+      "p": "Els articles marcats passen al total comprat, de manera que sempre saps què et costarà la resta."
+     },
+     {
+      "h": "Una llista amb dates",
+      "p": "Escriu un dia a la línia i s'afegirà al calendari, amb recordatori només si tu vols."
+     }
+    ],
+    "steps_title": "Com portar una llista de compres amb preus",
+    "steps": [
+     "Comença una llista nova a Spendry Notes.",
+     "Escriu els articles amb els seus preus, quantitats o descomptes.",
+     "Indica un pressupost per a la llista si en tens un.",
+     "Marca el que compris i vigila els dos totals."
+    ],
+    "why_title": "Per què és útil una llista amb preus",
+    "why": [
+     "Saps el cost abans de pagar a caixa, no després.",
+     "Calcula descomptes, quantitats i propines automàticament.",
+     "La llista continua sent una nota de text normal que pots editar.",
+     "Totes les funcions de Spendry Notes són de franc."
+    ],
+    "faq": [
+     {
+      "q": "Com puc sumar una llista de la compra a l'iPhone?",
+      "a": "Apunta els articles amb els seus preus a Spendry Notes. Suma mentre escrius i mostra el total del que queda i del que ja has comprat."
+     },
+     {
+      "q": "Pot calcular descomptes?",
+      "a": "Sí. Si escrius un descompte com ara «-20%» al costat d'un article, el total s'ajusta sol."
+     },
+     {
+      "q": "Puc fixar un pressupost per a una llista?",
+      "a": "Sí. Posa un pressupost a la nota i Spendry Notes et mostrarà quant et queda disponible."
+     }
+    ],
+    "cta": "Descarrega Spendry Notes i sabràs el total abans de passar per caixa."
+   },
+   {
+    "key": "notes-app-with-calculator",
+    "slug": "notes-app-with-calculator",
+    "nav": "Notes amb calculadora",
+    "screen": "plan",
+    "footer": true,
+    "title": "Notes amb calculadora: calculen despeses | Spendry Notes",
+    "description": "Spendry Notes és una app de notes que calcula per tu: llegeix els imports escrits a les línies i els suma, amb quantitats i descomptes.",
+    "h1": "Una app de notes que fa els comptes per tu",
+    "lead": "Sense canviar a la calculadora. Posa imports a les teves notes i Spendry Notes els suma línia per línia, mantenint el format habitual.",
+    "points": [
+     {
+      "h": "Imports a qualsevol lloc de la línia",
+      "p": "«Lloguer el dia 28 850» o «4 llibretes a 2,50€»: reconeix l'import, la quantitat i el dia a partir de les teves paraules."
+     },
+     {
+      "h": "Ingressos i despeses",
+      "p": "Apunta entrades i sortides de diners a la mateixa nota per veure què entra, què surt i què et queda."
+     },
+     {
+      "h": "Divisions i percentatges",
+      "p": "«Sopar 120/3» mostra quant ha de pagar cadascú, i «-20%» o «Factura 500€ +21% iva» adapten el total."
+     },
+     {
+      "h": "Respostes des de les teves notes",
+      "p": "Pregunta què tens previst aquesta setmana o què et queda a les llistes, i la resposta sortirà de les teves notes."
+     }
+    ],
+    "steps_title": "Com utilitzar una app de notes com a calculadora",
+    "steps": [
+     "Obre una nota a Spendry Notes.",
+     "Escriu cada línia tal com ho diries, amb el seu import.",
+     "Comprova els totals a sota de la nota mentre escrius.",
+     "Afegeix una data a qualsevol línia per situar-la al calendari."
+    ],
+    "why_title": "Per què ajuden les notes que calculen",
+    "why": [
+     "Sense anar canviant entre l'app de notes i la calculadora.",
+     "La nota conserva el teu text, no només números solts.",
+     "Els totals es recalculen automàticament en editar qualsevol línia.",
+     "Descàrrega i ús completament gratuïts."
+    ],
+    "faq": [
+     {
+      "q": "Hi ha alguna app de notes que sumi números a l'iPhone?",
+      "a": "Spendry Notes llegeix els imports de les línies i els suma sobre la marxa, incloent-hi quantitats, descomptes, propines i divisions."
+     },
+     {
+      "q": "Permet combinar ingressos i despeses?",
+      "a": "Sí. Si poses ingressos i despeses a la mateixa nota, en veuràs els totals separats i la diferència restant."
+     },
+     {
+      "q": "Spendry Notes és gratuïta?",
+      "a": "Sí. Totes les funcionalitats de Spendry Notes són de franc."
+     }
+    ],
+    "cta": "Descarrega Spendry Notes i deixa que les notes sumin per tu."
+   },
+   {
+    "key": "split-the-bill",
+    "slug": "split-the-bill",
+    "nav": "Dividir el compte",
+    "screen": "list",
+    "footer": false,
+    "title": "Dividir el compte en una nota | Spendry Notes",
+    "description": "Escriu \"Sopar 120/3\" i Spendry Notes calcula la part de cadascú. També descomptes i propines, directament a la teva nota.",
+    "h1": "Divideix el compte directament en una nota",
+    "lead": "Escriu el total i el nombre de persones, i Spendry Notes et mostra què paga cadascú, amb la propina inclosa.",
+    "points": [
+     {
+      "h": "Una línia, cada part",
+      "p": "N'hi ha prou amb \"Sopar 120/3\": Spendry Notes mostra la part de cadascú sota la línia."
+     },
+     {
+      "h": "Propines i descomptes",
+      "p": "Afegeix \"+10% propina\" o \"-20%\" i els imports s'ajusten al nou total."
+     },
+     {
+      "h": "Viatges i despeses compartides",
+      "p": "Apunta tot un cap de setmana en una sola nota: bitllets, allotjament i àpats, cadascun amb la seva part."
+     },
+     {
+      "h": "Organitzat amb els teus plans",
+      "p": "Escriu un dia al costat d'una despesa i apareixerà al teu calendari."
+     }
+    ],
+    "steps_title": "Com dividir un compte a Spendry Notes",
+    "steps": [
+     "Escriu el que has pagat i divideix-ho pel nombre de persones, com ara \"Sopar 120/3\".",
+     "Afegeix una propina o un descompte si n'hi ha.",
+     "Mira la part de cadascú a sota de la línia.",
+     "Continua afegint despeses a la mateixa nota per a un viatge o un esdeveniment."
+    ],
+    "why_title": "Per què repartir despeses en una nota",
+    "why": [
+     "Sense necessitat d'una calculadora ni d'una app a part per dividir comptes.",
+     "La nota recorda qui ha pagat què amb les teves pròpies paraules.",
+     "Els totals i les parts s'actualitzen quan edites una línia.",
+     "Gratuïta, sense haver de registrar-te enlloc."
+    ],
+    "faq": [
+     {
+      "q": "Com puc dividir un compte a l'iPhone?",
+      "a": "A Spendry Notes, escriu l'import dividit pel nombre de persones, com ara \"Sopar 120/3\", i la part de cadascú apareixerà sota la línia."
+     },
+     {
+      "q": "Puc incloure-hi una propina?",
+      "a": "Sí. Afegeix \"+10% propina\" i els imports s'adaptaran al nou total."
+     },
+     {
+      "q": "Té algun cost?",
+      "a": "No. Spendry Notes i totes les seves funcions són gratuïtes."
+     }
+    ],
+    "cta": "Descarrega Spendry Notes i divideix el compte en una sola línia."
+   },
+   {
+    "key": "monthly-budget-planner-notes",
+    "slug": "monthly-budget-planner-notes",
+    "nav": "Pla mensual en una nota",
+    "screen": "plan",
+    "footer": false,
+    "title": "Pla mensual de despeses en una nota | Spendry Notes",
+    "description": "Planifica el mes en una nota: sou, lloguer i rebuts amb els seus dies. Spendry Notes calcula el total i posa cada dia al calendari.",
+    "h1": "Planifica el teu mes en una sola nota",
+    "lead": "Escriu el teu sou, el lloguer i els rebuts amb els seus dies. Spendry Notes mostra el que entra, el que surt i el que queda, i col·loca cada dia al calendari.",
+    "points": [
+     {
+      "h": "Entrades, sortides i el que et queda",
+      "p": "Ingressos i despeses en una nota donen el saldo net del mes, perquè el pla sigui sempre realista."
+     },
+     {
+      "h": "Cada dia al calendari",
+      "p": "\"Lloguer el dia 28\" i \"Factura de la llum el 26\" es col·loquen al seu dia al calendari."
+     },
+     {
+      "h": "Recordatoris només on els vols",
+      "p": "Afegeix un recordatori discret a les línies que ho necessitin, com el lloguer o un rebut."
+     },
+     {
+      "h": "Comença amb la plantilla del mes",
+      "p": "Les plantilles per al mes, un viatge, una mudança o un esdeveniment et permeten començar a l'instant."
+     }
+    ],
+    "steps_title": "Com planificar un mes a Spendry Notes",
+    "steps": [
+     "Comença amb la plantilla mensual o amb una nota en blanc.",
+     "Escriu els teus ingressos i cada despesa amb el seu dia.",
+     "Consulta el saldo net i el calendari.",
+     "Afegeix recordatoris als pagaments que no vulguis descuidar."
+    ],
+    "why_title": "Per què planificar el mes en una nota",
+    "why": [
+     "És tan ràpid com escriure en un paper.",
+     "Els totals i el calendari s'actualitzen tots sols.",
+     "Amb Spendry, una línia es converteix en una despesa o un recordatori amb un sol toc.",
+     "Totes les funcions de Spendry Notes són gratuïtes."
+    ],
+    "faq": [
+     {
+      "q": "Puc fer un pressupost mensual en una app de notes?",
+      "a": "Sí. A Spendry Notes, escriu ingressos i despeses amb els seus dies, i la nota et mostrarà el total net i posarà cada data al calendari."
+     },
+     {
+      "q": "M'avisarà abans del venciment d'un rebut?",
+      "a": "Sí, si afegeixes un recordatori a la línia. Només es creen recordatoris allà on tu vols."
+     },
+     {
+      "q": "Funciona amb Spendry?",
+      "a": "Sí. Pots enllaçar la nota a un pressupost de Spendry o enviar una línia a Spendry com a despesa o recordatori."
+     }
+    ],
+    "cta": "Descarrega Spendry Notes i organitza el mes en una sola nota."
+   },
+   {
+    "key": "trip-budget-planner",
+    "slug": "trip-budget-planner",
+    "nav": "Pressupost per a viatges",
+    "screen": "plan",
+    "footer": false,
+    "title": "Pressupost de viatge en una nota | Spendry Notes",
+    "description": "Comença amb la plantilla de viatge, apunta vols, allotjament i despeses diàries, i Spendry Notes suma el total i calcula la part de cadascú.",
+    "h1": "Prepara el pressupost d'un viatge en una nota",
+    "lead": "Fes servir la plantilla de viatge i apunta el que costarà la sortida. Spendry Notes ho suma tot, mostra què paga cadascú i posa les dates al calendari.",
+    "points": [
+     {
+      "h": "Una plantilla per començar",
+      "p": "La plantilla de viatge et dona una nota llesta per omplir amb bitllets, allotjament, àpats i activitats."
+     },
+     {
+      "h": "El total mentre ho organitzes",
+      "p": "Cada despesa que escrius es va sumant, així veus el cost de tot el viatge abans de reservar."
+     },
+     {
+      "h": "Despeses dividides en grup",
+      "p": "Divideix un import pel nombre de persones, com ara \"Hotel 600/3\", i la part de cadascú sortirà a sota."
+     },
+     {
+      "h": "Estalvia per al viatge a Spendry",
+      "p": "Enllaça la nota a un objectiu d'estalvi a Spendry i comprova com t'hi vas acostant."
+     }
+    ],
+    "steps_title": "Com fer un pressupost de viatge",
+    "steps": [
+     "Crea una nota a partir de la plantilla de viatge.",
+     "Escriu cada cost amb el seu import i, si vols, el dia.",
+     "Divideix les despeses comunes pel nombre de persones.",
+     "Enllaça la nota amb un objectiu d'estalvi a Spendry."
+    ],
+    "why_title": "Per què organitzar un viatge a Spendry Notes",
+    "why": [
+     "Tot el viatge en una sola nota, amb el seu total.",
+     "Les dates s'afegeixen directament al calendari.",
+     "Els costos compartits es reparteixen de manera automàtica.",
+     "Descàrrega gratuïta i ús completament gratuït."
+    ],
+    "faq": [
+     {
+      "q": "Com puc fer un pressupost de viatge a l'iPhone?",
+      "a": "Crea una nota amb la plantilla de viatge a Spendry Notes, apunta cada despesa i la nota farà la suma i mostrarà la part de cadascú."
+     },
+     {
+      "q": "Puc estalviar per al viatge?",
+      "a": "Sí. Enllaça la nota a un objectiu d'estalvi a Spendry per veure el progrés al costat de la nota."
+     },
+     {
+      "q": "És de franc?",
+      "a": "Sí. Totes les funcions de Spendry Notes són gratuïtes."
+     }
+    ],
+    "cta": "Descarrega Spendry Notes i planifica el teu viatge en una nota."
+   },
+   {
+    "key": "moving-checklist-with-costs",
+    "slug": "moving-checklist-with-costs",
+    "nav": "Llista de mudança",
+    "screen": "list",
+    "footer": false,
+    "title": "Llista de mudança amb despeses | Spendry Notes",
+    "description": "Una llista de mudança que suma: marca cada tasca, posa-hi el preu i mira el total. Comença amb la plantilla de mudança a Spendry Notes.",
+    "h1": "Una llista de mudança que suma les despeses",
+    "lead": "Fes servir la plantilla de mudança, marca les tasques fetes i escriu el cost de cadascuna. Spendry Notes calcula el total i organitza les dates.",
+    "points": [
+     {
+      "h": "Tasques i costos alhora",
+      "p": "Cada línia pot ser una tasca amb el seu preu, de manera que la llista és també el pressupost del canvi de casa."
+     },
+     {
+      "h": "Fet i pendent de fer",
+      "p": "Marca una línia quan estigui feta i els totals mostraran el que ja has gastat i el que et queda per pagar."
+     },
+     {
+      "h": "Dates al teu calendari",
+      "p": "\"Furgoneta dissabte\" o \"Fiança el dia 1\" es col·loquen automàticament al calendari."
+     },
+     {
+      "h": "Recordatoris quan calgui",
+      "p": "Afegeix un recordatori discret a les tasques que no pots passar per alt."
+     }
+    ],
+    "steps_title": "Com planificar una mudança a Spendry Notes",
+    "steps": [
+     "Crea una nota a partir de la plantilla de mudança.",
+     "Afegeix les tasques amb el seu cost i la data.",
+     "Ves marcant les tasques a mesura que les acabis.",
+     "Comprova el total abans del dia del trasllat."
+    ],
+    "why_title": "Per què fer servir una llista amb preus",
+    "why": [
+     "Sense haver de fer un full de càlcul separat per a la mudança.",
+     "Veus el que has gastat i el que queda d'una sola ullada.",
+     "Dates i recordatoris surten de la mateixa nota.",
+     "Totes les funcions de Spendry Notes són gratuïtes."
+    ],
+    "faq": [
+     {
+      "q": "Hi ha alguna app de llista de mudança amb preus?",
+      "a": "Spendry Notes inclou una plantilla de mudança on cada tasca pot tenir un cost i una data. La nota suma els imports i posa els dies al calendari."
+     },
+     {
+      "q": "Puc posar recordatoris per al trasllat?",
+      "a": "Sí. Afegeix un recordatori a qualsevol línia i rebràs un avís discret aquell mateix dia."
+     },
+     {
+      "q": "És gratuïta?",
+      "a": "Sí. Totes les funcions de Spendry Notes són gratuïtes."
+     }
+    ],
+    "cta": "Descarrega Spendry Notes i fes la mudança tenint clars els costos."
+   },
+   {
+    "key": "event-budget-planner",
+    "slug": "event-budget-planner",
+    "nav": "Pressupost per a esdeveniments",
+    "screen": "plan",
+    "footer": false,
+    "title": "Pressupost per a festes i bodes | Spendry Notes",
+    "description": "Planifica el pressupost d'una festa o boda en una nota. Spendry Notes suma cada despesa, divideix costos i posa les dates al calendari.",
+    "h1": "Planifica el pressupost d'un esdeveniment en una nota",
+    "lead": "Comença amb la plantilla d'esdeveniments i escriu cada cost. Spendry Notes els suma, mostra la part de cadascú i guarda les dates al teu calendari.",
+    "points": [
+     {
+      "h": "Una plantilla a punt",
+      "p": "La plantilla d'esdeveniment és ideal per començar a preparar una festa, un aniversari o una boda."
+     },
+     {
+      "h": "Totes les despeses en un sol total",
+      "p": "El lloc, el menjar, la música i els regals es van sumant a mesura que els escrius."
+     },
+     {
+      "h": "La part de cadascú",
+      "p": "Divideix una despesa entre el nombre de persones i el resultat apareixerà sota la línia."
+     },
+     {
+      "h": "Dates i recordatoris",
+      "p": "Les pagues i senyals i les dates límit van directes al calendari, amb un recordatori si vols."
+     }
+    ],
+    "steps_title": "Com planificar el pressupost d'un esdeveniment",
+    "steps": [
+     "Crea una nota a partir de la plantilla d'esdeveniment.",
+     "Escriu cada despesa amb el preu i el dia corresponent.",
+     "Divideix les despeses compartides entre el nombre de persones.",
+     "Afegeix recordatoris a les bestretes i als terminis clau."
+    ],
+    "why_title": "Per què planificar un esdeveniment a Spendry Notes",
+    "why": [
+     "Tot el pressupost en una sola nota, amb el seu total.",
+     "Dates límit al teu calendari i recordatoris on els necessitis.",
+     "Les despeses compartides es divideixen soles.",
+     "Descàrrega gratuïta i ús completament gratuït."
+    ],
+    "faq": [
+     {
+      "q": "Com puc preparar el pressupost d'una festa a l'iPhone?",
+      "a": "Crea una nota amb la plantilla d'esdeveniment a Spendry Notes, escriu cada cost i la nota els sumarà i mostrarà la part de cadascú."
+     },
+     {
+      "q": "Em pot avisar dels pagaments pendents?",
+      "a": "Sí. Afegeix un recordatori a la línia i rebràs una notificació aquell dia."
+     },
+     {
+      "q": "És de franc?",
+      "a": "Sí. Totes les funcions de Spendry Notes són gratuïtes."
+     }
+    ],
+    "cta": "Baixa Spendry Notes i organitza el pressupost de l'esdeveniment en una sola nota."
+   },
+   {
+    "key": "notes-with-reminders",
+    "slug": "notes-with-reminders",
+    "nav": "Notes amb recordatoris",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Notes amb calendari i recordatoris | Spendry Notes",
+    "description": "Escriu \"Lloguer el dia 28\" i passarà al calendari. Spendry Notes afegeix un recordatori discret a qualsevol línia, només si tu vols.",
+    "h1": "Notes que entenen les teves dates",
+    "lead": "Escriu un dia en una línia i Spendry Notes el posa al calendari. Afegeix un recordatori discret només on et calgui, sense molestar a la resta.",
+    "points": [
+     {
+      "h": "Dates amb paraules clares",
+      "p": "Entén expressions com \"demà\", \"divendres que ve\", \"d'aquí a 3 dies\", \"el dia 15\" o \"cada mes\"."
+     },
+     {
+      "h": "Un calendari a partir de les notes",
+      "p": "Cada línia amb data apareix al seu dia al calendari, acompanyada del preu si en té."
+     },
+     {
+      "h": "Recordatoris discrets",
+      "p": "El recordatori només s'activa a les línies que tu tries i a l'hora que decideixes."
+     },
+     {
+      "h": "Els propers plans en un cop d'ull",
+      "p": "Els ginys a la pantalla d'inici i a la pantalla de bloqueig mostren les previsions pendents."
+     }
+    ],
+    "steps_title": "Com afegir recordatoris a les teves notes",
+    "steps": [
+     "Escriu una línia amb data, com ara \"Lloguer el dia 28 850€\".",
+     "Troba-la automàticament aquell dia al calendari.",
+     "Afegeix un recordatori a la línia si ho necessites.",
+     "Afegeix un giny per no perdre de vista els propers plans."
+    ],
+    "why_title": "Per què guardar dates a les teves notes",
+    "why": [
+     "Els teus plans es queden allà on els vas escriure, sense canviar d'app.",
+     "Les factures i els pagaments mostren el seu import al calendari.",
+     "Els avisos mai s'acumulen sense el teu permís.",
+     "Totes les funcions de Spendry Notes són gratuïtes."
+    ],
+    "faq": [
+     {
+      "q": "Puc posar un recordatori a una nota a l'iPhone?",
+      "a": "A Spendry Notes, qualsevol línia amb una data pot tenir un recordatori discret, només si tu l'afegeixes."
+     },
+     {
+      "q": "Entén dates com \"divendres que ve\"?",
+      "a": "Sí. Reconeix perfectament \"demà\", \"divendres que ve\", \"d'aquí a 3 dies\", \"el dia 15\" o \"cada mes\"."
+     },
+     {
+      "q": "Puc veure els plans a la pantalla de bloqueig?",
+      "a": "Sí. Spendry Notes té ginys per a plans i llistes pendents, també a la pantalla de bloqueig."
+     }
+    ],
+    "cta": "Baixa Spendry Notes i deixa que les notes s'encarreguin de les teves dates."
+   },
+   {
+    "key": "wishlist-with-prices",
+    "slug": "wishlist-with-prices",
+    "nav": "Llista de desitjos amb preus",
+    "screen": "list",
+    "footer": false,
+    "title": "Llista de desitjos amb preus i total | Spendry Notes",
+    "description": "Fes una llista de desitjos amb preus a Spendry Notes: veus el total, assignes un pressupost i l'enllaces a un objectiu a Spendry.",
+    "h1": "Una llista de desitjos que sap què costa tot",
+    "lead": "Apunta les coses que vols amb el seu preu. Spendry Notes les suma, et diu què cap al pressupost i pot enllaçar la llista a un objectiu d'estalvi a Spendry.",
+    "points": [
+     {
+      "h": "El total dels teus desitjos",
+      "p": "Tots els preus de la llista es van sumant perquè sàpigues quant costaria tenir-ho tot."
+     },
+     {
+      "h": "Un pressupost per a la llista",
+      "p": "Assigna un límit a la nota i comprova què et queda disponible a mesura que afegeixes o treus coses."
+     },
+     {
+      "h": "Marca el que ja tinguis",
+      "p": "Els articles marcats passen al total de comprats i la resta continua a la vista."
+     },
+     {
+      "h": "Estalvia per aconseguir-ho a Spendry",
+      "p": "Enllaça la llista amb un objectiu d'estalvi a Spendry i mira com t'hi acostes dia a dia."
+     }
+    ],
+    "steps_title": "Com crear una llista de desitjos amb preus",
+    "steps": [
+     "Comença una llista a Spendry Notes.",
+     "Escriu cada desig acompanyat del seu preu.",
+     "Fixa un pressupost límit per a la llista si en tens un.",
+     "Enllaça la llista a un objectiu d'estalvi a Spendry."
+    ],
+    "why_title": "Per què serveix una llista de desitjos amb preus",
+    "why": [
+     "Saps la xifra real abans de començar a comprar.",
+     "Els descomptes es calculen automàticament en escriure'ls.",
+     "Un objectiu d'estalvi converteix les ganes en un pla ferm.",
+     "Totes les funcions de Spendry Notes són gratuïtes."
+    ],
+    "faq": [
+     {
+      "q": "Puc fer una llista de desitjos amb preus a l'iPhone?",
+      "a": "Sí. A Spendry Notes escrius cada desig amb el seu preu i la llista calcula el total i el que queda del pressupost."
+     },
+     {
+      "q": "Puc estalviar per a les coses de la meva llista?",
+      "a": "Sí. Pots connectar fàcilment la llista a un objectiu d'estalvi a l'app Spendry."
+     },
+     {
+      "q": "És gratuït?",
+      "a": "Sí. Totes les funcions de Spendry Notes són gratuïtes."
+     }
+    ],
+    "cta": "Baixa Spendry Notes i tingues una llista de desitjos amb sumes clares."
+   },
+   {
+    "key": "remember-grocery-prices",
+    "slug": "remember-grocery-prices",
+    "nav": "Recorda preus de la compra",
+    "screen": "list",
+    "footer": false,
+    "title": "Llista de la compra que recorda preus | Spendry Notes",
+    "description": "Escriu un producte i Spendry Notes hi posa el preu que vas pagar el darrer cop. Prepara la llista de la compra en pocs segons.",
+    "h1": "Una llista de la compra que recorda quant vas pagar",
+    "lead": "Apunta un producte habitual i Spendry Notes recupera l'últim preu que vas pagar. La llista setmanal s'omple sola i el total queda calculat.",
+    "points": [
+     {
+      "h": "El preu habitual, al moment",
+      "p": "Escriu \"Llet\" i apareixerà directament amb el preu anterior, de manera que només cal canviar el que hagi variat."
+     },
+     {
+      "h": "El total abans de sortir de casa",
+      "p": "Amb els preus llestos a cada línia, la llista et mostra de seguida el cost previst de tota la compra."
+     },
+     {
+      "h": "Els canvis es veuen fàcilment",
+      "p": "Com que el preu anterior ja surt escrit, notaràs de seguida qualsevol encariment en actualitzar-lo."
+     },
+     {
+      "h": "Quantitats calculades",
+      "p": "Entén càlculs com \"3 ampolles d'oli a 4€ cadascuna\" o \"1.5 kg de formatge a 12€ el kg\" sense esforç."
+     }
+    ],
+    "steps_title": "Com funciona",
+    "steps": [
+     "Apunta la teva llista de la compra amb preus una primera vegada.",
+     "La propera vegada, torna a escriure els mateixos productes.",
+     "El preu que vas pagar la darrera vegada s'omplirà sol.",
+     "Modifica només el que hagi canviat i comprova el total."
+    ],
+    "why_title": "Per què t'estalvia temps",
+    "why": [
+     "La compra setmanal es prepara en un moment.",
+     "El total està llest abans d'arribar al supermercat.",
+     "Si un preu puja o baixa, salta a la vista.",
+     "Totes les funcions de Spendry Notes són gratuïtes."
+    ],
+    "faq": [
+     {
+      "q": "Hi ha alguna app de llista de la compra que recordi els preus?",
+      "a": "Sí. A Spendry Notes, quan tornes a escriure un producte, s'introdueix automàticament el preu que vas pagar el darrer cop."
+     },
+     {
+      "q": "També calcula el total de la llista?",
+      "a": "Sí. La llista suma per separat el que et queda per agafar i el que ja portes comprat."
+     },
+     {
+      "q": "És de franc?",
+      "a": "Sí. Totes les funcions de Spendry Notes són gratuïtes."
+     }
+    ],
+    "cta": "Baixa Spendry Notes i deixa que la llista recordi els teus preus."
+   },
+   {
+    "key": "gift-list-with-budget",
+    "slug": "gift-list-with-budget",
+    "nav": "Llista de regals amb pressupost",
+    "screen": "list",
+    "footer": false,
+    "title": "Llista de regals de Nadal amb pressupost | Spendry Notes",
+    "description": "Planifica els regals de Nadal i aniversari amb preus. Spendry Notes suma el total, controla el que ja has comprat i no et fa sortir del pressupost.",
+    "h1": "Una llista de regals que s'ajusta al pressupost",
+    "lead": "Escriu per a qui és cada regal i quant costa. Spendry Notes ho suma tot, et mostra el que et queda de pressupost i guarda les dates al calendari.",
+    "points": [
+     {
+      "h": "Una llista de regals a punt",
+      "p": "Comença amb la plantilla de llista de regals i escriu una línia per a cada persona."
+     },
+     {
+      "h": "Cada regal suma al total",
+      "p": "Escriu «Bufanda 25€» o «2 llibres a 15€» i la llista ho suma tot, amb totals separats per al que has comprat i el que et falta comprar."
+     },
+     {
+      "h": "Un pressupost per a les festes",
+      "p": "Posa un pressupost a la nota i mira quant et queda a mesura que afegeixes regals."
+     },
+     {
+      "h": "Aniversaris al calendari",
+      "p": "Escriu la data al costat del nom, com ara «Aniversari mare 2 de novembre», i sortirà aquell dia al teu calendari, amb un recordatori si vols."
+     }
+    ],
+    "steps_title": "Com fer una llista de regals amb pressupost",
+    "steps": [
+     "Crea una nota a partir de la plantilla de llista de regals.",
+     "Escriu cada persona i el regal que tens pensat, amb el seu preu.",
+     "Assigna un pressupost a la nota per a les festes.",
+     "Marca els regals a mesura que els compris i controla el que et queda."
+    ],
+    "why_title": "Per què planificar els regals a Spendry Notes",
+    "why": [
+     "Totes les festes en una sola nota, amb el seu total.",
+     "Aniversaris i dates clau al calendari.",
+     "Recorda els preus que vas pagar anteriorment.",
+     "Descàrrega gratuïta i d'ús gratuït."
+    ],
+    "faq": [
+     {
+      "q": "Com faig una llista de regals de Nadal amb pressupost?",
+      "a": "Crea una nota amb la plantilla de llista de regals a Spendry Notes, posa cada regal amb el seu preu i assigna un pressupost a la nota. Veuràs el que portes gastat i el que et queda."
+     },
+     {
+      "q": "Puc veure el que ja he comprat?",
+      "a": "Sí. Marca un regal quan el compris i els totals del que has comprat i del que et queda s'actualitzaran automàticament."
+     },
+     {
+      "q": "És de franc?",
+      "a": "Sí. Totes les funcions de Spendry Notes són gratuïtes."
+     }
+    ],
+    "cta": "Baixa Spendry Notes i mantingues els regals d'aquest any dins del pressupost."
+   },
+   {
+    "key": "black-friday-shopping-list",
+    "slug": "black-friday-shopping-list",
+    "nav": "Llista pel Black Friday",
+    "screen": "list",
+    "footer": false,
+    "title": "Llista de compres del Black Friday | Spendry Notes",
+    "description": "Planifica les ofertes del Black Friday en una llista. Spendry Notes calcula els descomptes, suma el carret i et mostra el pressupost restant.",
+    "h1": "Una llista pel Black Friday que manté el pressupost",
+    "lead": "Apunta el que vols amb el preu i el descompte abans que comencin les rebaixes. Spendry Notes calcula els preus finals, els suma i vigila el teu pressupost.",
+    "points": [
+     {
+      "h": "Descomptes calculats",
+      "p": "Escriu «Jaqueta 80€ -20% dte.» i la línia mostrarà directament el preu rebaixat."
+     },
+     {
+      "h": "Un total per a tot el carret",
+      "p": "Cada oferta es va sumant mentre escrius, amb totals separats per al que ja has comprat i el que encara tens a la llista."
+     },
+     {
+      "h": "Un pressupost abans de comprar",
+      "p": "Posa un pressupost a la nota i comprova quant et queda abans de gastar res."
+     },
+     {
+      "h": "El preu que vas pagar el cop anterior",
+      "p": "Torna a escriure un article i tindràs el preu que vas pagar la darrera vegada, a punt per comparar-lo amb l'oferta."
+     }
+    ],
+    "steps_title": "Com planificar les compres del Black Friday",
+    "steps": [
+     "Fes una llista a Spendry Notes abans que comencin les rebaixes.",
+     "Escriu cada cosa que vols amb el seu preu.",
+     "Afegeix el descompte quan trobis l'oferta.",
+     "Assigna un pressupost a la llista i marca el que compris."
+    ],
+    "why_title": "Per què planificar les rebaixes a Spendry Notes",
+    "why": [
+     "Descomptes i totals calculats a l'instant.",
+     "Un pressupost que et mostra el que et queda.",
+     "Widgets per tenir la llista a la pantalla d'inici.",
+     "Descàrrega gratuïta i d'ús gratuït."
+    ],
+    "faq": [
+     {
+      "q": "Com faig una llista de compres pel Black Friday?",
+      "a": "Apunta el que vols en una llista de Spendry Notes amb el preu i el descompte. La llista calcula els preus, els suma i et mostra el que et queda de pressupost."
+     },
+     {
+      "q": "Calcula els percentatges de descompte?",
+      "a": "Sí. Escriu el preu i el descompte, com ara -20%, i la línia et mostrarà el preu final rebaixat."
+     },
+     {
+      "q": "És de franc?",
+      "a": "Sí. Totes les funcions de Spendry Notes són gratuïtes."
+     }
+    ],
+    "cta": "Baixa Spendry Notes i arriba a les rebaixes amb una llista i un pressupost clars."
+   },
+   {
+    "key": "daily-expense-notes",
+    "slug": "daily-expense-notes",
+    "nav": "Notes de despeses diàries",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Apunts de despeses diàries amb totals | Spendry Notes",
+    "description": "Apunta el que gastes cada dia en una nota i mira'n el total. Spendry Notes suma cada dia i pot enviar qualsevol despesa a Spendry.",
+    "h1": "Apunta les despeses diàries, mira'n el total",
+    "lead": "Tingues una nota per al dia, apunta el que gastes al moment i consulta sempre el total. Quan vulguis, envia una línia a Spendry com a despesa.",
+    "points": [
+     {
+      "h": "La nota d'avui",
+      "p": "Toca Avui i escriu cada despesa en una línia nova, com ara «Pàrquing 12€» o «3 cafès 4,50€». La nota et suma el dia automàticament."
+     },
+     {
+      "h": "Cada dia al calendari",
+      "p": "La nota de cada dia surt al teu calendari amb el seu total, per tenir les despeses de la setmana passada a un sol toc."
+     },
+     {
+      "h": "Envia-ho a Spendry",
+      "p": "Passa una línia a Spendry com a despesa amb un sol toc i mantén els teus pressupostos al dia."
+     },
+     {
+      "h": "Afegeix despeses amb Siri",
+      "p": "Siri pot afegir una línia a la nota d'avui, i l'import que contingui es calcularà al total."
+     }
+    ],
+    "steps_title": "Com controlar les despeses diàries en notes",
+    "steps": [
+     "Toca Avui a Spendry Notes.",
+     "Escriu cada despesa amb el seu import.",
+     "Consulta el total del dia a la nota o al calendari.",
+     "Envia una línia a Spendry quan la vulguis al pressupost."
+    ],
+    "why_title": "Per què anotar les despeses a Spendry Notes",
+    "why": [
+     "Tan ràpid com escriure una nota.",
+     "Un total per a cada dia, directament al calendari.",
+     "Spendry gestiona el pressupost quan necessites més control.",
+     "Gratuït i sense necessitat de registrar-se."
+    ],
+    "faq": [
+     {
+      "q": "Com porto les despeses diàries en una app de notes?",
+      "a": "Apunta cada despesa en una línia amb el seu import a Spendry Notes. L'aplicació en fa la suma i la nota de cada dia es mostra al calendari amb el total."
+     },
+     {
+      "q": "Puc passar una despesa al meu pressupost?",
+      "a": "Sí. Pots enviar qualsevol línia a Spendry com a despesa amb un sol toc."
+     },
+     {
+      "q": "Cal connectar-hi el compte del banc?",
+      "a": "No. Tu mateix escrius les teves despeses, i Spendry Notes no es connecta mai a cap banc."
+     }
+    ],
+    "cta": "Baixa Spendry Notes i guarda les despeses d'avui en una sola nota."
+   },
+   {
+    "key": "renovation-budget-planner",
+    "slug": "renovation-budget-planner",
+    "nav": "Pressupost de reformes",
+    "screen": "plan",
+    "footer": false,
+    "title": "Pressupost de reformes en una nota | Spendry Notes",
+    "description": "Planifica el pressupost d'una reforma en una nota. Spendry Notes suma materials i mà d'obra, calcula quantitats i posa els pagaments al calendari.",
+    "h1": "Planifica el pressupost d'una reforma en una nota",
+    "lead": "Escriu cada material i cada feina amb el seu preu. Spendry Notes ho suma tot, calcula les quantitats i posa els dies de pagament al teu calendari.",
+    "points": [
+     {
+      "h": "Materials per quantitat",
+      "p": "Escriu «Pintura 6 x 35€» o «30 rajoles a 12€ la unitat» i cada línia es calcularà automàticament."
+     },
+     {
+      "h": "Mà d'obra i extres en un sol total",
+      "p": "El paleta, el transport i la neteja s'incorporen al mateix total a mesura que els escrius."
+     },
+     {
+      "h": "Pagaments a la seva data",
+      "p": "Escriu «Paga i senyal el dia 15 1000€» i sortirà aquell dia al calendari, amb un recordatori si vols."
+     },
+     {
+      "h": "Enllaçat a un objectiu",
+      "p": "Amb Spendry, enllaça la nota a un objectiu d'estalvi per veure com quedarà després de la reforma."
+     }
+    ],
+    "steps_title": "Com planificar el pressupost d'una reforma",
+    "steps": [
+     "Crea una llista a Spendry Notes per a l'obra.",
+     "Apunta cada material i servei amb el preu, o amb quantitat i preu unitari.",
+     "Afegeix la data a bestretes i pagaments perquè surtin al teu calendari.",
+     "Marca el que ja hagis pagat i consulta el que et falta pagar."
+    ],
+    "why_title": "Per què planificar una reforma a Spendry Notes",
+    "why": [
+     "Tota la reforma en una sola nota, amb el seu total.",
+     "Quantitats i preus unitaris calculats per tu.",
+     "Dates de pagament al calendari i recordatoris quan calgui.",
+     "Descàrrega gratuïta i d'ús gratuït."
+    ],
+    "faq": [
+     {
+      "q": "Com faig el pressupost d'una reforma a l'iPhone?",
+      "a": "Crea una llista a Spendry Notes i apunta cada material i feina amb el seu preu. La llista ho suma tot, amb totals separats per al que has comprat i el que queda."
+     },
+     {
+      "q": "Em pot recordar els dies de pagament?",
+      "a": "Sí. Posa la data a la línia, afegeix-hi un recordatori i rebràs una notificació aquell dia."
+     },
+     {
+      "q": "És de franc?",
+      "a": "Sí. Totes les funcions de Spendry Notes són gratuïtes."
+     }
+    ],
+    "cta": "Baixa Spendry Notes i tingues tot el pressupost de la reforma en una sola nota."
+   }
+  ],
+  "bundle": {
+   "slug": "spendry-and-notes",
+   "nav": "Spendry & Notes",
+   "title": "Spendry & Notes: Pressupost i notes | Spendry Notes",
+   "description": "Aconsegueix Spendry i Spendry Notes de franc a l'App Store. Pressupostos i rebuts en una app, notes que fan els comptes a l'altra.",
+   "h1": "Spendry & Notes, dues apps gratuites que s'entenen",
+   "lead": "Spendry porta el control dels teus pressupostos, targetes, prestecs i rebuts. Spendry Notes suma les teves llistes i converteix les notes en plans. Aconsegueix totes dues amb un toc al paquet gratuit de l'App Store.",
+   "spendry_h": "Spendry",
+   "spendry_p": "Pressupostos, targetes de credit, quotes, prestecs, rebuts i subscripcions en un sol lloc. Spendry t'avisa abans de cada venciment i et mostra el dia que no tindras deutes amb el metode bola de neu o allau. Sense connectar al banc, sense recollir dades.",
+   "notes_h": "Spendry Notes",
+   "notes_p": "Una app de notes que enten els diners. Escriu \"Llet 0,90€\" o \"Lloguer el dia 28 850€\": Spendry Notes suma les teves llistes i converteix les dates en plans, mentre la teva nota continua sent una nota.",
+   "together_h": "Millor juntes",
+   "together": [
+    "Enllaca una nota a un pressupost, objectiu o prestec de Spendry i mira que quedaria de la teva llista.",
+    "Envia una linia d'una nota a Spendry com a despesa o recordatori amb un sol toc.",
+    "Una sola subscripcio a Spendry Premium serveix per a totes dues apps."
+   ],
+   "faq": [
+    {
+     "q": "Que es el paquet Spendry & Notes?",
+     "a": "Es un paquet gratuit de l'App Store que instal·la Spendry i Spendry Notes alhora amb un sol toc."
+    },
+    {
+     "q": "El paquet te algun cost?",
+     "a": "No. Totes dues apps es poden descarregar de franc. Spendry Premium es una subscripcio opcional que es renova automaticament si no la cancel·les, i una sola subscripcio serveix per a totes dues apps."
+    },
+    {
+     "q": "Quins dispositius son compatibles?",
+     "a": "Spendry funciona a l'iPhone, l'iPad i el Mac, i Spendry Notes funciona a l'iPhone. Totes dues necessiten iOS 17 o posterior a l'iPhone."
+    }
+   ],
+   "cta": "Aconsegueix Spendry i Spendry Notes alhora amb un sol toc."
+  }
+ }
 }

@@ -2383,5 +2383,1001 @@
     }
    ]
   }
- ]
+ ],
+ "notes": {
+  "labels": {
+   "app": "Spendry Notes",
+   "free": "Brezplačno v trgovini App Store za iPhone. Vse funkcije aplikacije Spendry Notes so brezplačne.",
+   "download": "Prenesite Spendry Notes",
+   "more": "Več o aplikaciji Spendry Notes",
+   "cta": "Prenesite Spendry Notes in pustite, da vaši seznami računajo sami.",
+   "bundle_nav": "Spendry & Notes",
+   "bundle_button": "Pridobite obe aplikaciji",
+   "spendry_title": "Spendry, aplikacija za proračun, s katero se povezuje",
+   "home_kicker": "Spendry Notes",
+   "home_title": "Zapiski, ki računajo, ob vašem proračunu",
+   "home_text": "Spendry Notes je naša brezplačna aplikacija za beležke: nakupovalni seznami, ki se seštevajo, načrti, ki se prenesejo v vaš koledar, in opombe, povezane z vašimi proračuni v aplikaciji Spendry. Pridobite obe aplikaciji z enim dotikom z brezplačnim paketom Spendry & Notes.",
+   "home_more": "Poglejte, kaj zmore Spendry Notes",
+   "shots": "Vpogled v Spendry Notes",
+   "shot_alts": {
+    "home": "Domači zaslon aplikacije Spendry Notes z današnjimi načrti in seznami",
+    "list": "Nakupovalni seznam v Spendry Notes s cenami in skupnimi zneski",
+    "plan": "Mesečni načrt v Spendry Notes s prihodki, računi in končnim zneskom",
+    "calendar": "Koledar Spendry Notes z načrti po posameznih dneh",
+    "ask": "Vprašanje aplikaciji Spendry Notes o tem, kaj je načrtovano za ta teden",
+    "picker": "Povezava opombe s proračunom, ciljem ali posojilom v Spendry"
+   }
+  },
+  "pages": [
+   {
+    "key": "spendry-notes",
+    "slug": "spendry-notes",
+    "nav": "Spendry Notes",
+    "screen": "home",
+    "footer": true,
+    "title": "Spendry Notes: Beležka, ki računa stroške",
+    "description": "Spendry Notes je brezplačna beležka za iPhone, ki sešteva nakupovalne sezname, datume spremeni v načrte in se povezuje z aplikacijo Spendry.",
+    "h1": "Spendry Notes, beležka, ki razume denar",
+    "lead": "Pišite tako, kot ste navajeni. Spendry Notes prepozna zneske, dneve in ure v vaših vrsticah, jih sešteje ter spremeni v načrte, vaša opomba pa ostane opomba.",
+    "points": [
+     {
+      "h": "Seznami, ki seštevajo",
+      "p": "Nakupovalni seznami sproti prikazujejo skupni znesek za tisto, kar še morate kupiti, in za tisto, kar ste že kupili. Ko označujete izdelke med nakupovanjem, se seštevki sproti prilagajajo."
+     },
+     {
+      "h": "Zapišite tako, kot rečete",
+      "p": "»5 steklenic vode po 2 €«, »2 kg paradižnika po 3.50 € na kg« ali »kosilo 120 / 3 €«: količine, cene na enoto, popusti, napitnine in delež vsake osebe se izračunajo samodejno."
+     },
+     {
+      "h": "Dnevi postanejo načrti",
+      "p": "Zapišite dan v vrstico in prikazal se bo na ta dan v vašem koledarju. »Jutri«, »naslednji petek«, »čez 3 dni«, »15.« in »vsak mesec« se prepoznajo samodejno, vsaka vrstica pa lahko dobi nemoteč opomnik."
+     },
+     {
+      "h": "Vprašajte svoje opombe",
+      "p": "Vprašajte »Kaj je v načrtu ta teden?« ali »Kaj je še ostalo na mojih seznamih?« in prejmete odgovor iz svojih opomb, neposredno v svojem telefonu iPhone."
+     },
+     {
+      "h": "Povezano z aplikacijo Spendry",
+      "p": "Povežite opombo s proračunom, ciljem ali posojilom v aplikaciji Spendry in poglejte, koliko vam po seznamu ostane, ali pa vrstico z enim dotikom prenesite v Spendry kot strošek ali opomnik."
+     }
+    ],
+    "steps_title": "Kako začeti z aplikacijo Spendry Notes",
+    "steps": [
+     "Prenesite Spendry Notes iz trgovine App Store. Aplikacija je brezplačna.",
+     "Napišite seznam ali načrt tako, kot bi ga na papir, s cenami in dnevi.",
+     "Opazujte, kako se seštevki in vaš koledar samodejno izpolnjujejo.",
+     "Če uporabljate Spendry, povežite opombo s proračunom, ciljem ali posojilom."
+    ],
+    "why_title": "Zakaj ljudje uporabljajo Spendry Notes",
+    "why": [
+     "Vse funkcije v Spendry Notes so brezplačne.",
+     "Aplikacija deluje samostojno, z aplikacijo Spendry pa ponuja še več.",
+     "Gradniki prikazujejo vaše sezname in prihajajoče načrte, tudi na zaklenjenem zaslonu.",
+     "iCloud ohranja vaše opombe v vaših napravah, Nedavno izbrisano pa jih hrani 30 dni."
+    ],
+    "faq": [
+     {
+      "q": "Ali je Spendry Notes brezplačen?",
+      "a": "Da. Vse funkcije v Spendry Notes so brezplačne. Spendry Premium je izbirna naročnina, ki odklene funkcije Premium v aplikaciji Spendry, ena naročnina pa velja za obe aplikaciji."
+     },
+     {
+      "q": "Ali za uporabo Spendry Notes potrebujem Spendry?",
+      "a": "Ne. Spendry Notes deluje povsem samostojno. Z nameščeno aplikacijo Spendry lahko opombe povežete tudi s proračuni, cilji in posojili ter pošiljate vrstice v Spendry."
+     },
+     {
+      "q": "Na katerih napravah deluje Spendry Notes?",
+      "a": "Spendry Notes je aplikacija za iPhone in zahteva sistem iOS 17 ali novejši."
+     },
+     {
+      "q": "Ali lahko s Spendry Notes uporabljam Siri?",
+      "a": "Da. Siri in aplikacija Bližnjice lahko dodajata stvari na seznam in vam povesta, kaj prihaja."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in prepustite računanje svojim zapiskom."
+   },
+   {
+    "key": "grocery-list-app",
+    "slug": "grocery-list-app",
+    "nav": "Aplikacija za seznam nakupov",
+    "screen": "list",
+    "footer": true,
+    "title": "Seznam za trgovino s cenami | Spendry Notes",
+    "description": "Brezplačna aplikacija za seznam nakupov za iPhone, ki sproti sešteva cene, kaže preostanek in si zapomni ceno zadnjega nakupa.",
+    "h1": "Seznam za trgovino, ki sproti sešteva cene",
+    "lead": "Napišite seznam s cenami, označujte izdelke, ko jih dajete v voziček, in preverite skupni znesek za že kupljeno ter za preostanek.",
+    "points": [
+     {
+      "h": "Seštevki med pisanjem",
+      "p": "Vpišite »Mleko 1.49 €« ali »2 kruha po 2.50 €« in seznam vse sešteje. Skupni znesek za preostanek in kupljeno se sproti posodobi ob vsaki kljukici."
+     },
+     {
+      "h": "Količine in cene na enoto",
+      "p": "Primeri, kot sta »2 kg paradižnika po 3.50 € na kg« in »5 steklenic vode po 2 €«, se izračunajo samodejno, brez kalkulatorja."
+     },
+     {
+      "h": "Cena iz zadnjega nakupa",
+      "p": "Ko znova vpišete izdelek, je cena iz zadnjega nakupa že pripravljena, zato je tedenski seznam narejen v nekaj sekundah."
+     },
+     {
+      "h": "Proračun za nakup",
+      "p": "Seznamu določite proračun in sproti spremljajte, koliko vam še ostane, ko dodajate izdelke."
+     }
+    ],
+    "steps_title": "Kako sestaviti seznam za trgovino s cenami",
+    "steps": [
+     "Ustvarite seznam v aplikaciji Spendry Notes.",
+     "Vpišite vsak izdelek s ceno ali s količino in ceno na enoto.",
+     "Označite izdelke, ko jih položite v voziček.",
+     "Pred blagajno preverite preostali znesek v seštevku."
+    ],
+    "why_title": "Zakaj uporabiti Spendry Notes za nakupe",
+    "why": [
+     "Brezplačno, brez kakršne koli registracije.",
+     "Gradniki prikazujejo seznam na domačem in zaklenjenem zaslonu.",
+     "Siri lahko dodaja izdelke na vaš seznam.",
+     "Z aplikacijo Spendry lahko seznam povežete s proračunom za hrano in vidite preostanek."
+    ],
+    "faq": [
+     {
+      "q": "Ali obstaja brezplačna aplikacija za seznam z izračunom cen?",
+      "a": "Spendry Notes je brezplačen in sproti sešteva cene na vašem seznamu, z ločenima seštevkoma za preostanek in že kupljene izdelke."
+     },
+     {
+      "q": "Ali si aplikacija zapomni cene?",
+      "a": "Da. Ko znova vpišete izdelek, se cena iz zadnjega nakupa samodejno izpolni."
+     },
+     {
+      "q": "Ali lahko izdelke dodajam s Siri?",
+      "a": "Da. Siri in aplikacija Bližnjice lahko dodajata stvari na seznam."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in se v trgovino odpravite s seznamom, ki sam računa."
+   },
+   {
+    "key": "shopping-list-with-prices",
+    "slug": "shopping-list-with-prices",
+    "nav": "Nakupovalni seznam s cenami",
+    "screen": "list",
+    "footer": false,
+    "title": "Nakupovalni seznam s cenami | Spendry Notes",
+    "description": "Zapišite nakupovalni seznam s cenami. Spendry Notes sproti sešteva zneske, izračuna popuste in prikazuje preostanek proračuna.",
+    "h1": "Nakupovalni seznam s cenami in sprotnim seštevkom",
+    "lead": "Spendry Notes prepozna cene na vašem nakupovalnem seznamu, sproti posodablja skupni znesek in prikazuje, koliko proračuna vam še ostane.",
+    "points": [
+     {
+      "h": "Izračunani popusti in napitnine",
+      "p": "Ob izdelku dopišite »-20%« ali na koncu »+10% napitnina« in skupni znesek se bo takoj prilagodil."
+     },
+     {
+      "h": "Proračun za seznam",
+      "p": "Opombi določite proračun in spremljajte preostanek, medtem ko seznam raste."
+     },
+     {
+      "h": "Kupljeno in še za kupiti",
+      "p": "Označeni izdelki se premaknejo med kupljeno, zato vedno točno veste, koliko bo stal preostanek."
+     },
+     {
+      "h": "Seznam z določenim dnem",
+      "p": "Zapišite dan v vrstico in ta se bo uvrstila na vaš koledar, z opomnikom le, če ga želite."
+     }
+    ],
+    "steps_title": "Kako voditi nakupovalni seznam s cenami",
+    "steps": [
+     "Začnite nov seznam v aplikaciji Spendry Notes.",
+     "Vpišite izdelke s cenami, količinami ali popusti.",
+     "Nastavite proračun za seznam, če ga imate.",
+     "Označujte kupljene izdelke in spremljajte oba seštevka."
+    ],
+    "why_title": "Zakaj pomaga seznam s cenami",
+    "why": [
+     "Znesek vidite že pred blagajno in ne šele po njej.",
+     "Popusti, količine in napitnine se izračunajo samodejno.",
+     "Seznam ostaja običajna opomba, ki jo lahko poljubno urejate.",
+     "Vse funkcije v Spendry Notes so brezplačne."
+    ],
+    "faq": [
+     {
+      "q": "Kako seštejem nakupovalni seznam v telefonu iPhone?",
+      "a": "Vpišite izdelke s cenami v Spendry Notes. Aplikacija jih sešteva sproti med pisanjem ter ločeno prikazuje seštevek za preostanek in kupljeno."
+     },
+     {
+      "q": "Ali zna izračunati popuste?",
+      "a": "Da. Ob izdelku zapišite popust, na primer »-20%«, in seštevek se takoj prilagodi."
+     },
+     {
+      "q": "Ali lahko za seznam določim proračun?",
+      "a": "Da. Opombi določite proračun in Spendry Notes bo sproti prikazoval preostanek."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in izvedite znesek še pred blagajno."
+   },
+   {
+    "key": "notes-app-with-calculator",
+    "slug": "notes-app-with-calculator",
+    "nav": "Beležka s kalkulatorjem",
+    "screen": "plan",
+    "footer": true,
+    "title": "Beležka s kalkulatorjem: zapiski | Spendry Notes",
+    "description": "Spendry Notes je beležka, ki računa namesto vas: prepozna zneske v vrsticah, jih sešteva ter upošteva količine, popuste in delitve.",
+    "h1": "Beležka, ki računa namesto vas",
+    "lead": "Brez ločenega kalkulatorja. V opombe vpišite zneske in Spendry Notes jih sešteje vrstico za vrstico, vaša opomba pa ostane povsem običajna opomba.",
+    "points": [
+     {
+      "h": "Zneski kjerkoli v vrstici",
+      "p": "»Najemnina 28. v mesecu 800 €« ali »Kava 3 x 2 €«: znesek, količina in dan se samodejno razberejo iz besedila."
+     },
+     {
+      "h": "Prejemki in izdatki",
+      "p": "V isto opombo vpišite prihodke in stroške ter spremljajte, kaj prihaja, kaj odhaja in koliko ostane."
+     },
+     {
+      "h": "Delitve zneskov in odstotki",
+      "p": "»Kosilo 120 / 3 €« prikaže delež vsake osebe, zapisi, kot sta »-20%« ali »+10% napitnina«, pa prilagodijo skupni znesek."
+     },
+     {
+      "h": "Odgovori iz vaših opomb",
+      "p": "Vprašajte, kaj je v načrtu ta teden ali kaj je še na vaših seznamih, in odgovor bo poiskal neposredno v vaših opombah."
+     }
+    ],
+    "steps_title": "Kako beležko uporabljati kot kalkulator",
+    "steps": [
+     "Odprite opombo v aplikaciji Spendry Notes.",
+     "Zapišite vsako vrstico po domače, skupaj z zneskom.",
+     "Spremljajte seštevke pod opombo sproti med pisanjem.",
+     "Kateri koli vrstici dodajte dan, da jo umestite v koledar."
+    ],
+    "why_title": "Zakaj pomagajo opombe, ki računajo",
+    "why": [
+     "Nič več preklapljanja med beležko in kalkulatorjem.",
+     "V opombi ostanejo vaše besede, ne zgolj številke.",
+     "Seštevki se samodejno posodobijo ob vsaki spremembi vrstice.",
+     "Brezplačen prenos in brezplačna uporaba."
+    ],
+    "faq": [
+     {
+      "q": "Ali obstaja beležka za iPhone, ki sešteva številke?",
+      "a": "Spendry Notes prepozna zneske v vrsticah in jih sproti sešteva, vključno s količinami, popusti, napitninami in delitvami."
+     },
+     {
+      "q": "Ali podpira vpis prihodkov in stroškov skupaj?",
+      "a": "Da. Prihodki in stroški v isti opombi imajo ločena seštevka ter prikaz razlike."
+     },
+     {
+      "q": "Ali je Spendry Notes brezplačen?",
+      "a": "Da. Vse funkcije v Spendry Notes so brezplačne."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in pustite, da vaši zapiski računajo sami."
+   },
+   {
+    "key": "split-the-bill",
+    "slug": "split-the-bill",
+    "nav": "Delitev računa",
+    "screen": "list",
+    "footer": false,
+    "title": "Delitev računa v beležki | Spendry Notes",
+    "description": "Zapišite \"kosilo 120 / 3 €\" in Spendry Notes izračuna delež za vsakogar. Tudi napitnine in popuste, neposredno v vaši opombi.",
+    "h1": "Delitev računa kar v opombi",
+    "lead": "Zapišite skupni znesek in število oseb, Spendry Notes pa izračuna delež vsakega, vključno z napitnino.",
+    "points": [
+     {
+      "h": "Ena vrstica, vsak delež",
+      "p": "\"kosilo 120 / 3 €\" je dovolj: Spendry Notes pod vrstico takoj izpiše delež za vsako osebo."
+     },
+     {
+      "h": "Napitnine in popusti",
+      "p": "Dodajte \"+10% napitnina\" ali \"-20% popust\" in zneski se takoj prilagodijo novemu seštevku."
+     },
+     {
+      "h": "Izleti in skupni stroški",
+      "p": "Celoten vikend imejte v eni opombi: vstopnice, nočitve in obroki, vsak s svojim deležem."
+     },
+     {
+      "h": "Povežite z načrti",
+      "p": "Zapišite dan poleg stroška in ta se bo samodejno prikazal v vašem koledarju."
+     }
+    ],
+    "steps_title": "Kako razdeliti račun v Spendry Notes",
+    "steps": [
+     "Zapišite znesek in ga delite s številom oseb, na primer \"kosilo 120 / 3 €\".",
+     "Dodajte napitnino ali popust, če obstaja.",
+     "Preverite delež vsake osebe neposredno pod vrstico.",
+     "Za izlet ali dogodek preprosto dodajajte nove stroške v isto opombo."
+    ],
+    "why_title": "Zakaj deliti stroške v beležki",
+    "why": [
+     "Brez posebnega kalkulatorja ali dodatne aplikacije za deljenje stroškov.",
+     "Opomba z vašimi besedami hrani podatek, kdo je kaj plačal.",
+     "Skupni zneski in deleži se sami posodobijo, ko spremenite vrstico.",
+     "Brezplačno in povsem brez registracije."
+    ],
+    "faq": [
+     {
+      "q": "Kako razdelim račun na telefonu iPhone?",
+      "a": "V Spendry Notes napišite znesek, deljen s številom oseb, na primer \"kosilo 120 / 3 €\", in delež vsakega se prikaže pod vrstico."
+     },
+     {
+      "q": "Lahko vključim tudi napitnino?",
+      "a": "Da. Dodajte \"+10% napitnina\" in deleži se bodo samodejno uskladili z novim skupnim zneskom."
+     },
+     {
+      "q": "Ali je uporaba plačljiva?",
+      "a": "Ne. Spendry Notes in vse funkcije v aplikaciji so popolnoma brezplačne."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in razdelite račun v eni sami vrstici."
+   },
+   {
+    "key": "monthly-budget-planner-notes",
+    "slug": "monthly-budget-planner-notes",
+    "nav": "Mesečni načrt v opombi",
+    "screen": "plan",
+    "footer": false,
+    "title": "Mesečni proračun v beležki | Spendry Notes",
+    "description": "Načrtujte mesec v beležki: plača, najemnina in položnice po dnevih. Spendry Notes izračuna preostanek in doda dneve na vaš koledar.",
+    "h1": "Mesečni proračun v eni sami opombi",
+    "lead": "Zapišite plačo, najemnino in položnice z njihovimi dnevi. Spendry Notes prikaže prihodke, odhodke in ostanek ter vsak dan umesti na vaš koledar.",
+    "points": [
+     {
+      "h": "Prilivi, odlivi in preostanek",
+      "p": "Prihodki in stroški v eni opombi pokažejo končni ostanek za mesec, zato načrt ostaja stvaren."
+     },
+     {
+      "h": "Vsak dan na koledarju",
+      "p": "\"Najemnina 28.\" in \"Elektrika 26.\" se samodejno umestita na ustrezne dni v koledarju."
+     },
+     {
+      "h": "Opomniki samo tam, kjer želite",
+      "p": "Dodajte nevsiljiv opomnik vrsticam, ki ga potrebujejo, na primer za najemnino ali račun."
+     },
+     {
+      "h": "Začnite s predlogo za mesec",
+      "p": "Predloge za mesečni načrt, potovanje, selitev ali dogodek vam omogočajo hiter začetek."
+     }
+    ],
+    "steps_title": "Kako načrtovati mesec v Spendry Notes",
+    "steps": [
+     "Začnite s predlogo Mesečni načrt ali odprite prazno opombo.",
+     "Zapišite prihodke in vsak posamezen strošek z datumom.",
+     "Preverite skupni preostanek in odprite Koledar.",
+     "Dodajte opomnike plačilom, ki jih ne želite zamuditi."
+    ],
+    "why_title": "Zakaj načrtovati mesec v opombi",
+    "why": [
+     "Tako hitro in preprosto je kot pisanje na papir.",
+     "Vsote in koledar se posodabljajo povsem samodejno.",
+     "S Spendry lahko vrstica z enim dotikom postane strošek ali opomnik.",
+     "Vse funkcije aplikacije Spendry Notes so brezplačne."
+    ],
+    "faq": [
+     {
+      "q": "Lahko mesečni proračun vodim v beležki?",
+      "a": "Da. V Spendry Notes zapišite prihodke in stroške z datumi, opomba pa izračuna ostanek ter dogodke doda v koledar."
+     },
+     {
+      "q": "Ali me aplikacija opomni pred zapadlostjo računa?",
+      "a": "Da, če tej vrstici dodate opomnik. Opomniki se nastavijo le tam, kjer to sami določite."
+     },
+     {
+      "q": "Ali deluje skupaj z aplikacijo Spendry?",
+      "a": "Da. Opombo lahko povežete s proračunom v Spendry ali pa vrstico prenesete kot strošek oziroma opomnik."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in načrtujte mesec v eni sami opombi."
+   },
+   {
+    "key": "trip-budget-planner",
+    "slug": "trip-budget-planner",
+    "nav": "Načrtovalec potovanja",
+    "screen": "plan",
+    "footer": false,
+    "title": "Proračun potovanja v beležki | Spendry Notes",
+    "description": "Izberite predlogo za potovanje, vpišite lete, prenočišča in stroške. Spendry Notes vse sešteje in izračuna deleže po osebah.",
+    "h1": "Proračun potovanja načrtujte v opombi",
+    "lead": "Začnite s predlogo za potovanje in zapišite predvidene stroške. Spendry Notes jih sešteje, prikaže delež vsake osebe in datume prenese v vaš koledar.",
+    "points": [
+     {
+      "h": "Pripravljena predloga",
+      "p": "Predloga Proračun potovanja ponuja pripravljeno opombo za letalske karte, prenočišča, hrano in doživetja."
+     },
+     {
+      "h": "Seštevek med načrtovanjem",
+      "p": "Vsak vpisan strošek se takoj prišteje, tako da imate jasen pregled nad celotnim zneskom pred rezervacijo."
+     },
+     {
+      "h": "Delitev stroškov za skupino",
+      "p": "Strošek delite s številom oseb, na primer \"Hotel 600 / 3 €\", in vsak delež se prikaže pod vrstico."
+     },
+     {
+      "h": "Varčujte zanj v Spendry",
+      "p": "Povežite opombo z varčevalnim ciljem v aplikaciji Spendry in spremljajte, kako blizu cilja ste."
+     }
+    ],
+    "steps_title": "Kako načrtovati proračun za potovanje",
+    "steps": [
+     "Ustvarite opombo iz predloge Proračun potovanja.",
+     "Zapišite vsak strošek z zneskom in po želji dodajte dan.",
+     "Skupne stroške razdelite glede na število potnikov.",
+     "Povežite opombo z varčevalnim ciljem v Spendry."
+    ],
+    "why_title": "Zakaj načrtovati potovanje v Spendry Notes",
+    "why": [
+     "Celotno potovanje z vsemi stroški v eni opombi.",
+     "Datumi se samodejno prikažejo na koledarju.",
+     "Skupni stroški se razdelijo brez računanja na pamet.",
+     "Prenos in uporaba sta popolnoma brezplačna."
+    ],
+    "faq": [
+     {
+      "q": "Kako načrtujem proračun potovanja na telefonu iPhone?",
+      "a": "V Spendry Notes izberite predlogo Proračun potovanja, vpišite stroške in opomba jih bo seštela ter razdelila med osebe."
+     },
+     {
+      "q": "Lahko za to potovanje tudi varčujem?",
+      "a": "Da. Opombo preprosto povežite z varčevalnim ciljem v aplikaciji Spendry in spremljajte napredek ob opombi."
+     },
+     {
+      "q": "Je aplikacija brezplačna?",
+      "a": "Da. Vse funkcije v aplikaciji Spendry Notes so brezplačne."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in načrtujte potovanje v eni opombi."
+   },
+   {
+    "key": "moving-checklist-with-costs",
+    "slug": "moving-checklist-with-costs",
+    "nav": "Seznam za selitev",
+    "screen": "list",
+    "footer": false,
+    "title": "Seznam za selitev s stroški | Spendry Notes",
+    "description": "Seznam opravil za selitev s seštevkom: označite opravilo, vpišite ceno in spremljajte stroške. Začnite s predlogo v Spendry Notes.",
+    "h1": "Seznam opravil za selitev, ki sešteva stroške",
+    "lead": "Začnite s predlogo Selitev, označujte opravila sproti in ob vsakem zapišite strošek. Spendry Notes samodejno vodi seštevek in koledar.",
+    "points": [
+     {
+      "h": "Opravila in stroški na enem mestu",
+      "p": "Vsaka vrstica je lahko opravilo s ceno, zato je kontrolni seznam obenem vaš proračun za selitev."
+     },
+     {
+      "h": "Opravljeno in še potrebno",
+      "p": "Označite opravljeno vrstico in seštevki bodo takoj prikazali porabljen denar ter preostale obveznosti."
+     },
+     {
+      "h": "Datumi na vašem koledarju",
+      "p": "\"Kombi v soboto\" ali \"Varščina 1.\" se samodejno umestita na ustrezne dni v koledarju."
+     },
+     {
+      "h": "Opomniki za pomembne roke",
+      "p": "Dodajte nevsiljiv opomnik vrsticam, ki jih nikakor ne smete spregledati."
+     }
+    ],
+    "steps_title": "Kako načrtovati selitev v Spendry Notes",
+    "steps": [
+     "Ustvarite opombo iz predloge Selitev.",
+     "Vnesite opravila z njihovimi stroški in dnevi.",
+     "Označite opravila, ko jih dokončate.",
+     "Pred dnevom selitve preverite skupni znesek."
+    ],
+    "why_title": "Zakaj uporabiti seznam opravil s stroški",
+    "why": [
+     "Brez potrebe po ločenih preglednicah za proračun selitve.",
+     "Takoj vidite porabljen znesek in preostale izdatke.",
+     "Datumi in opomniki nastajajo neposredno iz opombe.",
+     "Vse funkcije aplikacije Spendry Notes so brezplačne."
+    ],
+    "faq": [
+     {
+      "q": "Obstaja aplikacija s seznamom za selitev in stroški?",
+      "a": "Spendry Notes ponuja predlogo Selitev, kjer lahko vsakemu opravilu dodate ceno in datum. Opomba stroške sešteje in dneve doda na koledar."
+     },
+     {
+      "q": "Lahko nastavim opomnike za dan selitve?",
+      "a": "Da. Katerikoli vrstici dodajte opomnik in na ta dan boste prejeli nevsiljivo obvestilo."
+     },
+     {
+      "q": "Je aplikacija brezplačna?",
+      "a": "Da. Vse funkcije aplikacije Spendry Notes so povsem brezplačne."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in se preselite z jasnim pregledom nad stroški."
+   },
+   {
+    "key": "event-budget-planner",
+    "slug": "event-budget-planner",
+    "nav": "Proračun za dogodke",
+    "screen": "plan",
+    "footer": false,
+    "title": "Proračun dogodka: stroški poroke ali zabave | Spendry Notes",
+    "description": "Načrtujte proračun za zabavo ali poroko kar v beležki. Spendry Notes sešteva stroške, deli zneske med ljudi in dodaja datume na vaš koledar.",
+    "h1": "Pripravite proračun dogodka kar v beležki",
+    "lead": "Izberite predlogo za dogodek in vpišite vsak strošek. Spendry Notes jih sešteje, prikaže delež vsakega, ki plača, in shrani datume na vaš koledar.",
+    "points": [
+     {
+      "h": "Pripravljena predloga",
+      "p": "Predloga Proračun dogodka je pripravljena za zabavo, rojstni dan ali poroko."
+     },
+     {
+      "h": "Vsi stroški v enem seštevku",
+      "p": "Lokacija, hrana, glasba in darila se samodejno seštevajo med pisanjem."
+     },
+     {
+      "h": "Deleži za tiste, ki plačajo",
+      "p": "Delite strošek s številom oseb in vsak delež se prikaže neposredno pod vrstico."
+     },
+     {
+      "h": "Datumi in opomniki",
+      "p": "Akonzacije in roki se prenesejo na koledar, po želji pa lahko dodate tudi opomnik."
+     }
+    ],
+    "steps_title": "Kako načrtovati proračun dogodka",
+    "steps": [
+     "Začnite beležko s predlogo Proračun dogodka.",
+     "Vpišite vsak strošek z zneskom in dnem.",
+     "Delite skupne stroške s številom ljudi.",
+     "Dodajte opomnike za akontacije in roke plačil."
+    ],
+    "why_title": "Zakaj načrtovati dogodek v Spendry Notes",
+    "why": [
+     "Celoten proračun v eni beležki s skupnim zneskom.",
+     "Roki na koledarju in opomniki tam, kjer jih potrebujete.",
+     "Skupni stroški se razdelijo samodejno.",
+     "Brezplačen prenos in brezplačna uporaba."
+    ],
+    "faq": [
+     {
+      "q": "Kako načrtujem proračun za zabavo na iPhone?",
+      "a": "V aplikaciji Spendry Notes začnite beležko s predlogo Proračun dogodka, vpišite stroške, beležka pa jih sešteje in izračuna deleže."
+     },
+     {
+      "q": "Ali me lahko opomni na akontacije?",
+      "a": "Da. Vrstici dodajte opomnik in na ta dan boste prejeli obvestilo."
+     },
+     {
+      "q": "Ali je aplikacija brezplačna?",
+      "a": "Da. Vse funkcije v aplikaciji Spendry Notes so brezplačne."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in vodite proračun dogodka v eni beležki."
+   },
+   {
+    "key": "notes-with-reminders",
+    "slug": "notes-with-reminders",
+    "nav": "Zapiski z opomniki",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Zapiski z datumi in opomniki | Spendry Notes",
+    "description": "Napišite »Najemnina 28.« in zapis bo na koledarju. Spendry Notes doda diskreten opomnik katerikoli vrstici, točno takrat, ko to želite.",
+    "h1": "Zapiski, ki razumejo datume",
+    "lead": "V vrstico vpišite dan in Spendry Notes ga samodejno prenese na vaš koledar. Dodajte nevsiljiv opomnik vrsticam, ki ga potrebujejo, ostale pa pustite pri miru.",
+    "points": [
+     {
+      "h": "Datumi v vsakdanjih besedah",
+      "p": "»Jutri«, »naslednji petek«, »čez 3 dni«, »15.« in »vsak mesec« so popolnoma razumljivi."
+     },
+     {
+      "h": "Koledar iz vaših zapiskov",
+      "p": "Vsaka vrstica z datumom se prikaže na svojem dnevu v koledarju, skupaj z zneskom, če ga ima."
+     },
+     {
+      "h": "Nevsiljivi opomniki",
+      "p": "Opomnik se doda le vrsticam, ki jih sami izberete, ob uri, ki jo določite."
+     },
+     {
+      "h": "Prihajajoče na hiter pogled",
+      "p": "Gradniki na domačem zaslonu in zaklenjenem zaslonu pregledno prikazujejo prihajajoče načrte."
+     }
+    ],
+    "steps_title": "Kako zapiskom dodati opomnike",
+    "steps": [
+     "Napišite vrstico z dnem, na primer »Najemnina 28. 650 €«.",
+     "Poiščite jo na ta dan v koledarju.",
+     "Vrstici dodajte opomnik, če ga želite.",
+     "Dodajte gradnik za hiter pregled prihajajočih obveznosti."
+    ],
+    "why_title": "Zakaj pisati datume v zapiske",
+    "why": [
+     "Načrti ostanejo tam, kjer ste jih zapisali, ne v drugi aplikaciji.",
+     "Računi in plačila prikazujejo svoje zneske neposredno na koledarju.",
+     "Opomniki se nikoli ne ustvarijo brez vaše privolitve.",
+     "Vse funkcije v aplikaciji Spendry Notes so brezplačne."
+    ],
+    "faq": [
+     {
+      "q": "Ali ima lahko beležka na iPhone opomnik?",
+      "a": "V aplikaciji Spendry Notes lahko vsaka vrstica z datumom dobi diskreten opomnik, vendar le, ko ga sami dodate."
+     },
+     {
+      "q": "Ali razume datume, kot je »naslednji petek«?",
+      "a": "Da. »Jutri«, »naslednji petek«, »čez 3 dni«, »15.« in »vsak mesec« so popolnoma razumljivi."
+     },
+     {
+      "q": "Ali lahko vidim načrte na zaklenjenem zaslonu?",
+      "a": "Da. Spendry Notes ponuja gradnike za prihajajoče načrte in sezname tudi za zaklenjeni zaslon."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in prepustite datume svojim zapiskom."
+   },
+   {
+    "key": "wishlist-with-prices",
+    "slug": "wishlist-with-prices",
+    "nav": "Seznam želja s cenami",
+    "screen": "list",
+    "footer": false,
+    "title": "Seznam želja s cenami in seštevkom | Spendry Notes",
+    "description": "Vodite seznam želja s cenami v Spendry Notes: poglejte skupni znesek, določite proračun in ga povežite s varčevalnim ciljem v Spendry.",
+    "h1": "Seznam želja, ki pozna svoje cene",
+    "lead": "Vpišite stvari, ki si jih želite, skupaj s cenami. Spendry Notes jih sešteje, pokaže, kaj ustreza vašemu proračunu, in seznam poveže s ciljem v Spendry.",
+    "points": [
+     {
+      "h": "Skupni seštevek vaših želja",
+      "p": "Vsaka cena na seznamu se sešteje, zato takoj veste, koliko bi vse skupaj stalo."
+     },
+     {
+      "h": "Proračun za seznam",
+      "p": "Beležki določite proračun in spremljajte preostanek, ko stvari dodajate ali brišete."
+     },
+     {
+      "h": "Označite kupljeno",
+      "p": "Označeni predmeti se premaknejo v seštevek kupljenega, ostalo pa ostane vidno."
+     },
+     {
+      "h": "Varčujte zanje v Spendry",
+      "p": "Povežite seznam s ciljem varčevanja v Spendry in spremljajte, kako blizu ste."
+     }
+    ],
+    "steps_title": "Kako voditi seznam želja s cenami",
+    "steps": [
+     "Ustvarite nov seznam v Spendry Notes.",
+     "Vpišite vsako željo z njeno ceno.",
+     "Nastavite proračun za seznam, če ga imate.",
+     "Povežite seznam s ciljem varčevanja v Spendry."
+    ],
+    "why_title": "Zakaj pomaga seznam želja s cenami",
+    "why": [
+     "Pred nakupom vidite dejanski skupni znesek.",
+     "Popusti se izračunajo takoj ob vpisu.",
+     "Varčevalni cilj spremeni želje v oprijemljiv načrt.",
+     "Vse funkcije v aplikaciji Spendry Notes so brezplačne."
+    ],
+    "faq": [
+     {
+      "q": "Ali lahko vodim seznam želja s cenami na iPhone?",
+      "a": "Da. V Spendry Notes vpišite vsako željo s ceno, seznam pa sproti prikazuje seštevek in preostanek proračuna."
+     },
+     {
+      "q": "Ali lahko varčujem za stvari s seznama?",
+      "a": "Da. Seznam lahko povežete z varčevalnim ciljem v aplikaciji Spendry."
+     },
+     {
+      "q": "Ali je aplikacija brezplačna?",
+      "a": "Da. Vse funkcije v aplikaciji Spendry Notes so brezplačne."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in ustvarite seznam želja, ki se sešteva."
+   },
+   {
+    "key": "remember-grocery-prices",
+    "slug": "remember-grocery-prices",
+    "nav": "Zapomni si cene hrane",
+    "screen": "list",
+    "footer": false,
+    "title": "Seznam nakupov, ki si zapomni cene | Spendry Notes",
+    "description": "Vnesite izdelek znova in Spendry Notes sam izpolni ceno prejšnjega nakupa. Vaš seznam nakupov za trgovino je pripravljen v hipu.",
+    "h1": "Seznam nakupov, ki si zapomni cene",
+    "lead": "Vpišite izdelek, ki ste ga že kupili, in Spendry Notes sam izpolni ceno zadnjega nakupa. Tedenski seznam se sestavi sam, skupni znesek pa je takoj viden.",
+    "points": [
+     {
+      "h": "Zadnja cena, takoj pri roki",
+      "p": "Napišite »Mleko« in cena zadnjega nakupa se doda sama, vi pa spremenite le tisto, kar se je podražilo ali pocenilo."
+     },
+     {
+      "h": "Skupni znesek še pred odhodom",
+      "p": "Z vnesenimi cenami seznam takoj pokaže, koliko bo stal celoten nakup."
+     },
+     {
+      "h": "Spremembe so takoj opazne",
+      "p": "Ker je zadnja cena že vpisana, vsaka podražitev ali popust takoj izstopa, ko jo posodobite."
+     },
+     {
+      "h": "Upoštevane so tudi količine",
+      "p": "Vpisi, kot sta »3 piva po 2.50 €« ali »1.5 kg jabolk po 2 € na kg«, se izračunajo samodejno."
+     }
+    ],
+    "steps_title": "Kako deluje",
+    "steps": [
+     "Enkrat napišite svoj nakupovalni seznam s cenami.",
+     "Naslednjič začnite vpisovati iste izdelke.",
+     "Cena zadnjega nakupa se samodejno dopolni.",
+     "Popravite le cene, ki so se spremenile, in preverite seštevek."
+    ],
+    "why_title": "Zakaj vam prihrani čas",
+    "why": [
+     "Priprava tedenskega seznama traja le nekaj sekund.",
+     "Seštevek nakupa poznate še pred vstopom v trgovino.",
+     "Spremenjena cena takoj izstopa ob posodobitvi.",
+     "Vse funkcije v aplikaciji Spendry Notes so brezplačne."
+    ],
+    "faq": [
+     {
+      "q": "Ali obstaja seznam nakupov, ki si zapomni cene?",
+      "a": "Da. V Spendry Notes se ob vnosu že kupljenega izdelka cena zadnjega nakupa samodejno izpolni."
+     },
+     {
+      "q": "Ali aplikacija seznam tudi sešteje?",
+      "a": "Da. Seznam sproti prikazuje skupne zneske za preostanek za nakup in že kupljene izdelke."
+     },
+     {
+      "q": "Ali je aplikacija brezplačna?",
+      "a": "Da. Vse funkcije v aplikaciji Spendry Notes so brezplačne."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in prepustite cenam, da si jih zapomni seznam."
+   },
+   {
+    "key": "gift-list-with-budget",
+    "slug": "gift-list-with-budget",
+    "nav": "Seznam daril s proračunom",
+    "screen": "list",
+    "footer": false,
+    "title": "Seznam božičnih daril s proračunom | Spendry Notes",
+    "description": "Načrtujte božična in rojstnodnevna darila s cenami. Spendry Notes sešteva zneske, beleži kupljeno in pazi na vaš proračun.",
+    "h1": "Seznam daril, ki se drži proračuna",
+    "lead": "Zapišite obdarovance in cene daril. Spendry Notes vse sešteje, prikaže preostanek proračuna in datume shrani v vaš koledar.",
+    "points": [
+     {
+      "h": "Pripravljen seznam daril",
+      "p": "Začnite s predlogo Seznam daril in dodajte vrstico za vsako osebo."
+     },
+     {
+      "h": "Vsako darilo v skupnem znesku",
+      "p": "Zapišite \"Šal 25 €\" ali \"Knjiga 2 x 15 €\" in seznam sam izračuna znesek, ločeno za kupljeno in preostanek."
+     },
+     {
+      "h": "Proračun za praznike",
+      "p": "Opombi določite proračun in sproti spremljajte, koliko denarja vam še ostane."
+     },
+     {
+      "h": "Rojstni dnevi na koledarju",
+      "p": "Poleg imena zapišite datum, na primer \"Mamin rojstni dan 2. november\", in prikazal se bo v koledarju, po želji tudi z opomnikom."
+     }
+    ],
+    "steps_title": "Kako ustvariti seznam daril s proračunom",
+    "steps": [
+     "Ustvarite novo opombo iz predloge Seznam daril.",
+     "Zapišite osebo in izbrano darilo s ceno.",
+     "Določite proračun za praznično obdarovanje.",
+     "Ob nakupu darila označite in spremljajte preostanek."
+    ],
+    "why_title": "Zakaj načrtovati darila v Spendry Notes",
+    "why": [
+     "Vsa darila sezone v eni opombi, skupaj z zneskom.",
+     "Rojstni dnevi in roki neposredno v koledarju.",
+     "Prejšnje cene ostanejo shranjene za primerjavo.",
+     "Brezplačen prenos in brezplačna uporaba."
+    ],
+    "faq": [
+     {
+      "q": "Kako ustvarim seznam božičnih daril s proračunom?",
+      "a": "V aplikaciji Spendry Notes izberite predlogo Seznam daril, vpišite darila s cenami in določite proračun. Opomba prikazuje porabo in preostanek."
+     },
+     {
+      "q": "Ali vidim, kaj sem že kupil?",
+      "a": "Da. Ko darilo kupite, ga obkljukajte, zneska za Kupljeno in Preostanek pa se takoj posodobita."
+     },
+     {
+      "q": "Ali je aplikacija brezplačna?",
+      "a": "Da. Vse funkcije v Spendry Notes so brezplačne."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in ohranite letošnja darila v okviru proračuna."
+   },
+   {
+    "key": "black-friday-shopping-list",
+    "slug": "black-friday-shopping-list",
+    "nav": "Seznam za črni petek",
+    "screen": "list",
+    "footer": false,
+    "title": "Nakupovalni seznam za črni petek | Spendry Notes",
+    "description": "Načrtujte nakupe za črni petek. Spendry Notes izračuna popuste, sešteje košarico in prikazuje preostanek vašega proračuna.",
+    "h1": "Seznam za črni petek, ki pazi na proračun",
+    "lead": "Že pred razprodajami zapišite želje s cenami in popusti. Spendry Notes izračuna cene, sešteje zneske in spremlja proračun.",
+    "points": [
+     {
+      "h": "Izračunani popusti",
+      "p": "Zapišite \"Čevlji 80 € -20%\" in vrstica takoj prikaže ceno s popustom."
+     },
+     {
+      "h": "En znesek za celotno košarico",
+      "p": "Vsak nakup se prišteva sproti, z ločenima seštevkoma za kupljeno in preostalo na seznamu."
+     },
+     {
+      "h": "Proračun pred razprodajami",
+      "p": "Določite proračun opombe in že pred nakupi preverite, koliko imate na voljo."
+     },
+     {
+      "h": "Zadnja plačana cena",
+      "p": "Ko znova vpišete izdelek, se prikaže zadnja plačana cena, da lažje ocenite ugodnost ponudbe."
+     }
+    ],
+    "steps_title": "Kako načrtovati nakupe za črni petek",
+    "steps": [
+     "Pred začetkom popustov ustvarite seznam v Spendry Notes.",
+     "Zapišite vsak želeni izdelek z njegovo ceno.",
+     "Ob najdeni ponudbi dopišite popust.",
+     "Določite proračun in obkljukajte nakupe."
+    ],
+    "why_title": "Zakaj načrtovati razprodaje v Spendry Notes",
+    "why": [
+     "Samodejni izračuni popustov in skupnih zneskov.",
+     "Proračun, ki ves čas prikazuje preostanek.",
+     "Gradniki ohranjajo seznam na domačem zaslonu.",
+     "Brezplačen prenos in brezplačna uporaba."
+    ],
+    "faq": [
+     {
+      "q": "Kako ustvarim nakupovalni seznam za črni petek?",
+      "a": "V Spendry Notes ustvarite seznam in vpišite izdelke s cenami ter popusti. Seznam izračuna cene, jih sešteje in prikazuje preostanek proračuna."
+     },
+     {
+      "q": "Ali aplikacija računa odstotne popuste?",
+      "a": "Da. Zapišite ceno in popust, na primer -20%, in vrstica bo izračunala znižano ceno."
+     },
+     {
+      "q": "Ali je aplikacija brezplačna?",
+      "a": "Da. Vse funkcije v Spendry Notes so brezplačne."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in se odpravite na razprodaje s seznamom ter proračunom."
+   },
+   {
+    "key": "daily-expense-notes",
+    "slug": "daily-expense-notes",
+    "nav": "Dnevni stroški v opombah",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Dnevni stroški in beležka izdatkov | Spendry Notes",
+    "description": "Zapisujte dnevne stroške v opombo in spremljajte vsoto. Spendry Notes sešteva dneve ter omogoča prenos vrstice v Spendry.",
+    "h1": "Zapišite dnevne stroške, preverite vsoto",
+    "lead": "Vodite opombo za vsak dan, sproti vpisujte izdatke in vedno imejte pregled nad vsoto. Po želji posamezno vrstico pošljite v Spendry kot strošek.",
+    "points": [
+     {
+      "h": "Današnja opomba",
+      "p": "Dotaknite se Danes in vpišite vsak strošek v svojo vrstico, na primer \"Parkirnina 12 €\" ali \"Kava 4.50 €\". Opomba samodejno sešteje dan."
+     },
+     {
+      "h": "Vsak dan na koledarju",
+      "p": "Opomba vsakega dne se s skupnim zneskom prikaže na koledarju, zato so pretekli izdatki vedno pri roki."
+     },
+     {
+      "h": "Prenos v Spendry",
+      "p": "Z enim dotikom pošljite vrstico v Spendry kot strošek in ohranite proračune posodobljene."
+     },
+     {
+      "h": "Vnos s Siri",
+      "p": "Siri lahko doda vrstico v današnjo opombo, vsak znesek v njej pa se samodejno prišteje."
+     }
+    ],
+    "steps_title": "Kako beležiti dnevne stroške v opombah",
+    "steps": [
+     "V aplikaciji Spendry Notes izberite Danes.",
+     "Zapišite vsak izdatek z ustreznim zneskom.",
+     "Preverite dnevni seštevek v opombi ali na koledarju.",
+     "Pošljite vrstico v Spendry, ko jo želite v proračunu."
+    ],
+    "why_title": "Zakaj beležiti dnevne stroške v Spendry Notes",
+    "why": [
+     "Preprosto in hitro kot pisanje navadnih opomb.",
+     "Skupni znesek za vsak dan neposredno na koledarju.",
+     "Spendry poskrbi za naprednejše vodenje proračuna.",
+     "Brezplačno in popolnoma brez registracije."
+    ],
+    "faq": [
+     {
+      "q": "Kako beležim dnevne stroške v beležki?",
+      "a": "V Spendry Notes vsak izdatek z zneskom vpišite v svojo vrstico. Aplikacija sešteva vrstice, opomba vsakega dne pa se z zneskom pojavi na koledarju."
+     },
+     {
+      "q": "Ali lahko izdatek prenesem v proračun?",
+      "a": "Da. Z enim dotikom lahko vrstico pošljete v Spendry kot strošek."
+     },
+     {
+      "q": "Ali potrebujem bančno prijavo?",
+      "a": "Ne. Stroške vpisujete sami, Spendry Notes pa se nikoli ne povezuje z banko."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in imejte današnje stroške zbrane v eni opombi."
+   },
+   {
+    "key": "renovation-budget-planner",
+    "slug": "renovation-budget-planner",
+    "nav": "Proračun za prenovo",
+    "screen": "plan",
+    "footer": false,
+    "title": "Načrtovanje proračuna prenove | Spendry Notes",
+    "description": "Načrtujte stroške prenove v opombi. Spendry Notes sešteva material in delo, množi količine ter shranjuje dneve plačil v koledar.",
+    "h1": "Proračun prenove stanovanja v eni opombi",
+    "lead": "Zapišite ves material in storitve s cenami. Spendry Notes izračuna količine, sešteje stroške in dneve plačil vnese v vaš koledar.",
+    "points": [
+     {
+      "h": "Material po količini",
+      "p": "Zapišite \"Barva 6 x 35 €\" ali \"30 ploščic po 12 € na kos\" in vsaka vrstica se samodejno izračuna."
+     },
+     {
+      "h": "Delo in dodatki v enem znesku",
+      "p": "Mojstri, prevoz in čiščenje se sproti prištevajo v isti skupni seštevek."
+     },
+     {
+      "h": "Plačila na točen dan",
+      "p": "Zapišite \"Plačilo avansa 15. v mesecu 1000 €\" in znesek se prikaže na koledarju, po želji z opomnikom."
+     },
+     {
+      "h": "Povezava s ciljem",
+      "p": "V povezavi s Spendry opombo povežite z varčevalnim ciljem in preverite, koliko vam po prenovi ostane."
+     }
+    ],
+    "steps_title": "Kako načrtovati proračun prenove",
+    "steps": [
+     "Ustvarite nov seznam v Spendry Notes za svoj projekt.",
+     "Zapišite material in delo s cenami ali količinami.",
+     "Avansom in računom dodajte datume za koledar.",
+     "Označite opravljeno in spremljajte preostanek za plačilo."
+    ],
+    "why_title": "Zakaj načrtovati prenovo v Spendry Notes",
+    "why": [
+     "Celoten projekt v eni opombi s skupnim zneskom.",
+     "Samodejni izračuni količin in cen na enoto.",
+     "Dnevi plačil na koledarju ter opomniki po meri.",
+     "Brezplačen prenos in brezplačna uporaba."
+    ],
+    "faq": [
+     {
+      "q": "Kako ustvarim proračun prenove na iPhone?",
+      "a": "V Spendry Notes ustvarite seznam in vpišite material ter delo s cenami. Seznam vse sešteje ter ločeno prikaže kupljeno in preostanek."
+     },
+     {
+      "q": "Ali me aplikacija lahko opomni na plačila?",
+      "a": "Da. V vrstico napišite datum, dodajte opomnik in na ta dan boste prejeli obvestilo."
+     },
+     {
+      "q": "Ali je aplikacija brezplačna?",
+      "a": "Da. Vse funkcije v Spendry Notes so brezplačne."
+     }
+    ],
+    "cta": "Prenesite Spendry Notes in vodite proračun prenove v eni opombi."
+   }
+  ],
+  "bundle": {
+   "slug": "spendry-and-notes",
+   "nav": "Spendry & Notes",
+   "title": "Spendry & Notes: Paket za proračun in zapiske | Spendry Notes",
+   "description": "Brezplačno pridobite Spendry in Spendry Notes v App Store. Proračuni in računi v eni aplikaciji, beležke, ki računajo, pa v drugi.",
+   "h1": "Spendry & Notes, dve brezplačni aplikaciji, ki delujeta skupaj",
+   "lead": "Spendry vodi vaše proračune, kartice, posojila in račune. Spendry Notes samodejno sešteva vaše sezname in spreminja zapiske v načrte. Zagotovite si obe z enim dotikom z brezplačnim paketom v App Store.",
+   "spendry_h": "Spendry",
+   "spendry_p": "Proračuni, kreditne kartice, obroki, posojila, računi in naročnine na enem mestu. Spendry vas pravočasno opomni pred zapadlostjo ter izračuna datum, ko boste brez dolgov z metodo snežne kepe ali plazu. Brez prijave v banko, brez zbiranja podatkov.",
+   "notes_h": "Spendry Notes",
+   "notes_p": "Aplikacija za zapiske, ki razume denar. Napišite »Mleko 1.49 €« ali »Najemnina 28. v mesecu 800 €«: Spendry Notes sešteva vaše sezname in pretvarja navedene dneve v načrte, vaša opomba pa ostane opomba.",
+   "together_h": "Še boljši skupaj",
+   "together": [
+    "Povežite opombo s proračunom, ciljem ali posojilom v aplikaciji Spendry in preverite, koliko denarja vam bo ostalo.",
+    "Z enim dotikom pošljite vrstico iz opombe v Spendry kot strošek ali opomnik.",
+    "Ena naročnina na Spendry Premium vključuje obe aplikaciji."
+   ],
+   "faq": [
+    {
+     "q": "Kaj je paket Spendry & Notes?",
+     "a": "To je brezplačen paket v trgovini App Store, ki z enim dotikom hkrati namesti Spendry in Spendry Notes."
+    },
+    {
+     "q": "Ali paket kaj stane?",
+     "a": "Ne. Obe aplikaciji sta brezplačni za prenos. Spendry Premium je izbirna naročnina, ki se samodejno podaljšuje, dokler je ne prekličete, ena naročnina pa velja za obe aplikaciji."
+    },
+    {
+     "q": "Katere naprave so podprte?",
+     "a": "Spendry deluje na napravah iPhone, iPad in Mac, Spendry Notes pa na napravi iPhone. Obe aplikaciji na napravi iPhone potrebujeta sistem iOS 17 ali novejši."
+    }
+   ],
+   "cta": "Zagotovite si Spendry in Spendry Notes hkrati z enim samim dotikom."
+  }
+ }
 }

@@ -2383,5 +2383,1001 @@
     }
    ]
   }
- ]
+ ],
+ "notes": {
+  "labels": {
+   "app": "Spendry Notes",
+   "free": "Gratis su App Store per iPhone. Tutte le funzioni di Spendry Notes sono gratuite.",
+   "download": "Scarica Spendry Notes",
+   "more": "Altro da Spendry Notes",
+   "cta": "Scarica Spendry Notes e lascia che le tue liste facciano i conti.",
+   "bundle_nav": "Spendry & Notes",
+   "bundle_button": "Scarica entrambe le app",
+   "spendry_title": "Spendry, l'app di budget con cui si integra",
+   "home_kicker": "Spendry Notes",
+   "home_title": "Note che fanno i conti, insieme al tuo budget",
+   "home_text": "Spendry Notes è la nostra app di note gratuita: liste della spesa che calcolano i totali, piani che vanno sul calendario e note collegate ai tuoi budget di Spendry. Scarica entrambe le app con un tocco grazie al pacchetto gratuito Spendry & Notes.",
+   "home_more": "Scopri cosa fa Spendry Notes",
+   "shots": "Uno sguardo a Spendry Notes",
+   "shot_alts": {
+    "home": "Schermata iniziale di Spendry Notes con programmi di oggi e liste",
+    "list": "Una lista della spesa in Spendry Notes con prezzi e totali",
+    "plan": "Un piano mensile in Spendry Notes con entrate, bollette e totale netto",
+    "calendar": "Il calendario di Spendry Notes con i programmi nei rispettivi giorni",
+    "ask": "Domanda a Spendry Notes su cosa c'è in programma questa settimana",
+    "picker": "Collegamento di una nota a un budget, obiettivo o prestito in Spendry"
+   }
+  },
+  "pages": [
+   {
+    "key": "spendry-notes",
+    "slug": "spendry-notes",
+    "nav": "Spendry Notes",
+    "screen": "home",
+    "footer": true,
+    "title": "Spendry Notes: Note per iPhone che Fa i Conti",
+    "description": "Spendry Notes è l'app note gratuita per iPhone che calcola il totale della spesa, trasforma le date in piani e funziona con Spendry.",
+    "h1": "Spendry Notes, l'app note che capisce di soldi",
+    "lead": "Scrivi come hai sempre fatto. Spendry Notes riconosce importi, giorni e orari nei tuoi testi, fa la somma e crea un'agenda, mentre la nota resta una nota.",
+    "points": [
+     {
+      "h": "Elenchi che fanno la somma",
+      "p": "La lista della spesa mostra il totale in tempo reale di ciò che resta da comprare e di ciò che hai preso. Spunta le voci e i totali si aggiornano."
+     },
+     {
+      "h": "Scrivi proprio come parli",
+      "p": "«5 bottiglie acqua a 2€ cadauno», «2 kg pomodori a 3,50€ al kg» o «Cena 120/3»: quantità, prezzi unitari, sconti, mance e quote a persona si calcolano da soli."
+     },
+     {
+      "h": "I giorni diventano piani",
+      "p": "Scrivi un giorno nel testo e comparirà nel tuo calendario. «Domani», «venerdì prossimo», «tra 3 giorni», «il 15» ed «ogni mese» vengono capiti al volo, con promemoria discreti."
+     },
+     {
+      "h": "Chiedi alle tue note",
+      "p": "Chiedi «Cosa c'è in programma questa settimana?» o «Cosa manca nelle mie liste?» e ricevi risposte basate sulle tue note, elaborate sul tuo iPhone."
+     },
+     {
+      "h": "Collegata a Spendry",
+      "p": "Collega una nota a un budget, obiettivo o prestito in Spendry per verificare la disponibilità, oppure invia una riga a Spendry come spesa o promemoria con un tocco."
+     }
+    ],
+    "steps_title": "Come iniziare con Spendry Notes",
+    "steps": [
+     "Scarica Spendry Notes da App Store. È gratuita.",
+     "Scrivi una lista o un piano come faresti su carta, con prezzi e date.",
+     "Guarda i totali e il calendario aggiornarsi da soli.",
+     "Se usi Spendry, collega la nota a un budget, obiettivo o prestito."
+    ],
+    "why_title": "Perché scegliere Spendry Notes",
+    "why": [
+     "Tutte le funzioni di Spendry Notes sono gratuite.",
+     "Funziona benissimo da sola, e ancora meglio con Spendry.",
+     "I widget mostrano liste e piani in programma, anche su Schermata di blocco.",
+     "iCloud sincronizza le note tra i tuoi dispositivi, ed Eliminati di recente le tiene per 30 giorni."
+    ],
+    "faq": [
+     {
+      "q": "Spendry Notes è gratis?",
+      "a": "Sì. Tutte le funzioni di Spendry Notes sono gratuite. Spendry Premium è un abbonamento opzionale per le funzioni di Spendry, valido per entrambe le app."
+     },
+     {
+      "q": "Serve Spendry per usare Spendry Notes?",
+      "a": "No. Spendry Notes funziona in modo autonomo. Installando Spendry puoi anche collegare le note a budget, obiettivi o prestiti e inviare righe all'altra app."
+     },
+     {
+      "q": "Su quali dispositivi funziona Spendry Notes?",
+      "a": "Spendry Notes è un'app per iPhone e richiede iOS 17 o versioni successive."
+     },
+     {
+      "q": "Posso usare Siri con Spendry Notes?",
+      "a": "Sì. Siri e l'app Comandi rapidi possono aggiungere voci a una lista e dirti cosa c'è in programma."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e lascia fare i conti alle tue note."
+   },
+   {
+    "key": "grocery-list-app",
+    "slug": "grocery-list-app",
+    "nav": "App lista della spesa",
+    "screen": "list",
+    "footer": true,
+    "title": "Lista Spesa con Prezzi e Totali | Spendry Notes",
+    "description": "App lista della spesa gratis per iPhone. Calcola i prezzi mentre scrivi, mostra cosa resta da comprare e ricorda i costi precedenti.",
+    "h1": "Un'app per la lista della spesa che fa i conti per te",
+    "lead": "Scrivi la lista con i prezzi, spunta gli articoli nel carrello e controlla subito quanto hai speso e quanto resta da comprare.",
+    "points": [
+     {
+      "h": "Totali mentre scrivi",
+      "p": "Scrivi «Latte 1,50€» o «Pane 2€ e latte 1,50€» e la lista fa la somma. I totali per Rimanenti e Acquistati cambiano a ogni spunta."
+     },
+     {
+      "h": "Quantità e prezzi unitari",
+      "p": "«1,5 kg mele 2€ al kg» e «3 bottiglie vino a 6€ cadauno» vengono calcolati in automatico, senza dover aprire la calcolatrice."
+     },
+     {
+      "h": "Il prezzo pagato l'ultima volta",
+      "p": "Riscrivi un prodotto e il prezzo dell'ultima volta viene suggerito subito, così completi la lista settimanale in pochi secondi."
+     },
+     {
+      "h": "Un budget per la spesa",
+      "p": "Imposta un budget per la lista e vedi all'istante quanto ti resta a disposizione mano a mano che aggiungi voci."
+     }
+    ],
+    "steps_title": "Come fare la lista della spesa con i prezzi",
+    "steps": [
+     "Crea un elenco in Spendry Notes.",
+     "Scrivi ogni prodotto con il prezzo, o con quantità e prezzo unitario.",
+     "Spunta i prodotti man mano che li metti nel carrello.",
+     "Controlla il totale rimanente prima di andare alla cassa."
+    ],
+    "why_title": "Perché usare Spendry Notes per la spesa",
+    "why": [
+     "Gratis, senza alcuna registrazione richiesta.",
+     "I widget mostrano la lista sulla schermata Home e sulla Schermata di blocco.",
+     "Siri può aggiungere prodotti alla tua lista.",
+     "Con Spendry, colleghi la lista al budget alimentari e controlli subito il margine rimasto."
+    ],
+    "faq": [
+     {
+      "q": "C'è un'app gratuita per la lista spesa che somma i prezzi?",
+      "a": "Spendry Notes è gratis e calcola la somma dei prezzi mentre li scrivi, separando i totali tra ciò che resta da comprare e ciò che hai acquistato."
+     },
+     {
+      "q": "L'app memorizza i prezzi passati?",
+      "a": "Sì. Quando scrivi di nuovo un prodotto, il prezzo pagato la volta precedente viene inserito in automatico."
+     },
+     {
+      "q": "Posso aggiungere voci con Siri?",
+      "a": "Sì. Siri e l'app Comandi rapidi possono aggiungere nuovi elementi a qualsiasi lista."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e porta al supermercato una lista che fa i conti."
+   },
+   {
+    "key": "shopping-list-with-prices",
+    "slug": "shopping-list-with-prices",
+    "nav": "Lista acquisti con prezzi",
+    "screen": "list",
+    "footer": false,
+    "title": "Lista Spesa con Prezzi e Somma | Spendry Notes",
+    "description": "Crea una lista acquisti con prezzi: Spendry Notes calcola la somma progressiva, applica gli sconti e mostra il budget che ti resta.",
+    "h1": "Una lista della spesa con prezzi e totale continuo",
+    "lead": "Spendry Notes legge i prezzi nei tuoi appunti, aggiorna il totale in tempo reale e ti mostra quanto budget ti rimane.",
+    "points": [
+     {
+      "h": "Sconti e mance calcolati subito",
+      "p": "Scrivi «Giacca 100€ sconto 20%» o aggiungi una mancia alla fine: il totale si aggiorna istantaneamente."
+     },
+     {
+      "h": "Un budget per i tuoi acquisti",
+      "p": "Assegna un budget alla nota per vedere quanto ti resta man mano che aggiungi prodotti alla lista."
+     },
+     {
+      "h": "Cose prese e ancora da comprare",
+      "p": "Gli elementi spuntati passano nel totale acquistato, così sai sempre con precisione quanto spenderai per il resto."
+     },
+     {
+      "h": "Una lista sincronizzata con i tuoi impegni",
+      "p": "Inserisci un giorno nel testo e la voce andrà sul calendario, con un promemoria opzionale solo se lo desideri."
+     }
+    ],
+    "steps_title": "Come gestire una lista acquisti con i prezzi",
+    "steps": [
+     "Crea un nuovo elenco in Spendry Notes.",
+     "Scrivi gli articoli con prezzi, quantità o sconti.",
+     "Se vuoi, fissa un budget massimo per la spesa.",
+     "Spunta gli articoli quando li compri e tieni d'occhio entrambi i totali."
+    ],
+    "why_title": "Perché conviene fare la lista con i prezzi",
+    "why": [
+     "Scopri l'importo totale prima di arrivare alla cassa.",
+     "Sconti, quantità e quote vengono calcolati per te in automatico.",
+     "La lista resta una comoda nota di testo modificabile a piacere.",
+     "Tutte le funzioni di Spendry Notes sono completamente gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Come sommare i prezzi di una lista su iPhone?",
+      "a": "Scrivi gli articoli con i rispettivi prezzi in Spendry Notes. L'app fa la somma man mano e separa il totale tra Rimanenti e Acquistati."
+     },
+     {
+      "q": "L'app può calcolare gli sconti in percentuale?",
+      "a": "Sì. Basta scrivere una percentuale come «sconto 20%» accanto a un articolo e il totale si aggiorna da solo."
+     },
+     {
+      "q": "È possibile impostare un limite di spesa?",
+      "a": "Sì. Assegna un budget alla nota e Spendry Notes calcolerà quanto ti rimane spendibile."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e controlla il totale prima della cassa."
+   },
+   {
+    "key": "notes-app-with-calculator",
+    "slug": "notes-app-with-calculator",
+    "nav": "App note con calcolatrice",
+    "screen": "plan",
+    "footer": true,
+    "title": "Note con Calcoli e Somme | Spendry Notes",
+    "description": "Spendry Notes fa i calcoli nei tuoi appunti: riconosce le cifre nel testo e fa le somme, gestendo quantità, sconti e divisioni.",
+    "h1": "Un'app per appunti che fa i calcoli per te",
+    "lead": "Basta passare continuamente alla calcolatrice. Scrivi le cifre nelle note e Spendry Notes le somma riga per riga, mantenendo il testo chiaro e leggibile.",
+    "points": [
+     {
+      "h": "Importi ovunque nel testo",
+      "p": "«Affitto il 28 850€» o «3 caffè 3,60€»: la cifra, la quantità e il giorno vengono letti direttamente dalle parole che digiti."
+     },
+     {
+      "h": "Entrate e uscite sott'occhio",
+      "p": "Inserisci incassi e spese nella stessa nota per vedere al volo quanto entra, quanto esce e qual è la differenza rimasta."
+     },
+     {
+      "h": "Divisioni di gruppo e percentuali",
+      "p": "«Cena 120/3» mostra la quota per ciascuno, mentre «-20%» o «Fattura 500€ +22% IVA» aggiornano l'importo totale."
+     },
+     {
+      "h": "Risposte direttamente dai tuoi appunti",
+      "p": "Chiedi cosa hai programmato in settimana o quanto resta da spendere nelle liste, e otterrai la risposta dalle tue note."
+     }
+    ],
+    "steps_title": "Come fare i calcoli dentro le note",
+    "steps": [
+     "Apri una nota in Spendry Notes.",
+     "Scrivi le righe con parole tue, inserendo i prezzi.",
+     "Leggi i totali aggiornati sotto la nota mentre scrivi.",
+     "Aggiungi una data a una riga per vederla comparire nel calendario."
+    ],
+    "why_title": "I vantaggi delle note che calcolano",
+    "why": [
+     "Non devi più alternare continuamente appunti e calcolatrice.",
+     "La nota conserva il contesto del testo, non solo numeri isolati.",
+     "I totali si ricalcolano da soli se modifichi una riga.",
+     "Completamente gratuita da scaricare e da usare ogni giorno."
+    ],
+    "faq": [
+     {
+      "q": "Esiste un'app note che somma i numeri su iPhone?",
+      "a": "Spendry Notes legge gli importi scritti nelle note e li calcola all'istante, includendo moltiplicazioni, sconti, mance e divisioni tra persone."
+     },
+     {
+      "q": "Può gestire entrate e uscite contemporaneamente?",
+      "a": "Sì. Se inserisci entrate e uscite nella stessa nota, calcola i totali separati e mostra la differenza netta rimanente."
+     },
+     {
+      "q": "Spendry Notes è gratis?",
+      "a": "Sì. Tutte le funzionalità di Spendry Notes sono completamente gratuite."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e lascia fare le somme ai tuoi appunti."
+   },
+   {
+    "key": "split-the-bill",
+    "slug": "split-the-bill",
+    "nav": "Dividere il conto",
+    "screen": "list",
+    "footer": false,
+    "title": "Dividere il conto nelle note | Spendry Notes",
+    "description": "Scrivi \"Cena 120/3\" e Spendry Notes calcola la quota a persona. Gestisce mance e sconti, direttamente nella tua nota.",
+    "h1": "Dividi il conto direttamente in una nota",
+    "lead": "Scrivi il totale e il numero di persone: Spendry Notes calcola la quota a testa, mancia inclusa.",
+    "points": [
+     {
+      "h": "Una riga, tutte le quote",
+      "p": "Basta scrivere \"Cena 120/3\": Spendry Notes mostra la quota di ognuno sotto la riga."
+     },
+     {
+      "h": "Mance e sconti",
+      "p": "Aggiungi \"+10% mancia\" o \"-20%\" e le quote si aggiornano con il nuovo totale."
+     },
+     {
+      "h": "Viaggi e spese condivise",
+      "p": "Raccogli un intero weekend in una nota: biglietti, alloggi e pasti, ciascuno con la sua quota."
+     },
+     {
+      "h": "Tutto insieme ai tuoi impegni",
+      "p": "Scrivi un giorno accanto a un costo e lo vedrai comparire sul tuo calendario."
+     }
+    ],
+    "steps_title": "Come dividere un conto in Spendry Notes",
+    "steps": [
+     "Scrivi l'importo speso e dividilo per il numero di persone, come \"Cena 120/3\".",
+     "Aggiungi una mancia o uno sconto, se presenti.",
+     "Leggi la quota per ciascuna persona subito sotto la riga.",
+     "Continua ad aggiungere spese nella stessa nota per un viaggio o un evento."
+    ],
+    "why_title": "Perché dividere le spese in una nota",
+    "why": [
+     "Nessuna calcolatrice o app separata per dividere i conti.",
+     "La nota ricorda chi ha pagato cosa, con le tue parole.",
+     "Totali e quote si aggiornano appena modifichi una riga.",
+     "Gratis, senza bisogno di registrarsi."
+    ],
+    "faq": [
+     {
+      "q": "Come dividere un conto su iPhone?",
+      "a": "In Spendry Notes scrivi l'importo diviso per le persone, come \"Cena 120/3\", e la quota a testa compare sotto la riga."
+     },
+     {
+      "q": "Posso aggiungere la mancia?",
+      "a": "Sì. Aggiungi \"+10% mancia\" e le quote seguiranno il nuovo totale."
+     },
+     {
+      "q": "L'app è a pagamento?",
+      "a": "No. Spendry Notes e tutte le sue funzioni sono gratuite."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e dividi il conto in una sola riga."
+   },
+   {
+    "key": "monthly-budget-planner-notes",
+    "slug": "monthly-budget-planner-notes",
+    "nav": "Piano mensile in una nota",
+    "screen": "plan",
+    "footer": false,
+    "title": "Budget mensile nelle note | Spendry Notes",
+    "description": "Pianifica il mese: stipendio, affitto e bollette con le date. Spendry Notes calcola il totale netto e inserisce i giorni nel calendario.",
+    "h1": "Pianifica il tuo mese in una sola nota",
+    "lead": "Scrivi stipendio, affitto e bollette con i relativi giorni. Spendry Notes calcola entrate, uscite e saldo rimanente, inserendo le date sul calendario.",
+    "points": [
+     {
+      "h": "Entrate, uscite e saldo rimanente",
+      "p": "Entrate e uscite nella stessa nota mostrano il totale netto del mese, per avere sempre conti chiari."
+     },
+     {
+      "h": "Ogni giorno sul calendario",
+      "p": "\"Affitto il 28\" e \"Bolletta luce il 26\" si posizionano automaticamente sul calendario."
+     },
+     {
+      "h": "Promemoria solo dove servono",
+      "p": "Aggiungi un promemoria discreto solo alle righe importanti, come l'affitto o una bolletta."
+     },
+     {
+      "h": "Inizia con il modello mensile",
+      "p": "I modelli per il mese, un viaggio, un trasloco o un evento ti offrono una base già pronta."
+     }
+    ],
+    "steps_title": "Come pianificare il mese in Spendry Notes",
+    "steps": [
+     "Inizia dal modello mensile o da una nota vuota.",
+     "Scrivi le entrate e ogni spesa con la rispettiva data.",
+     "Controlla il totale netto e il calendario.",
+     "Aggiungi promemoria per le scadenze che non vuoi dimenticare."
+    ],
+    "why_title": "Perché pianificare il mese in una nota",
+    "why": [
+     "È veloce come scrivere su carta.",
+     "I totali e il calendario si aggiornano da soli.",
+     "Con Spendry, una riga diventa una spesa o un promemoria con un tocco.",
+     "Tutte le funzioni di Spendry Notes sono gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Posso creare un budget mensile in un'app di note?",
+      "a": "Sì. In Spendry Notes scrivi entrate e uscite con le date: la nota calcola il totale netto e le inserisce sul calendario."
+     },
+     {
+      "q": "Posso ricevere un avviso prima della scadenza di una bolletta?",
+      "a": "Sì, basta aggiungere un promemoria a quella riga. Riceverai avvisi solo dove li imposti tu."
+     },
+     {
+      "q": "Funziona con Spendry?",
+      "a": "Sì. Puoi collegare la nota a un budget in Spendry oppure inviare una riga come spesa o promemoria."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e organizza il mese in una sola nota."
+   },
+   {
+    "key": "trip-budget-planner",
+    "slug": "trip-budget-planner",
+    "nav": "Budget vacanze e viaggi",
+    "screen": "plan",
+    "footer": false,
+    "title": "Budget vacanze e viaggi | Spendry Notes",
+    "description": "Usa il modello viaggio: scrivi voli, alloggi e spese. Spendry Notes calcola il totale e suddivide i costi a persona.",
+    "h1": "Pianifica il budget di viaggio in una nota",
+    "lead": "Parti dal modello viaggio e scrivi le spese previste. Spendry Notes calcola la somma, divide le quote a persona e segna le date sul tuo calendario.",
+    "points": [
+     {
+      "h": "Un modello pronto da usare",
+      "p": "Il modello viaggio ti offre una nota già pronta da compilare con biglietti, alloggi, pasti e attività."
+     },
+     {
+      "h": "Il totale sempre visibile",
+      "p": "Ogni spesa inserita viene sommata all'istante, così vedi il costo totale prima di prenotare."
+     },
+     {
+      "h": "Quote per gruppi",
+      "p": "Dividi una spesa per il numero di persone, come \"Hotel 600/3\", e la quota apparirà sotto la riga."
+     },
+     {
+      "h": "Risparmia con Spendry",
+      "p": "Collega la nota a un obiettivo di risparmio in Spendry per verificare a che punto sei."
+     }
+    ],
+    "steps_title": "Come gestire il budget di un viaggio",
+    "steps": [
+     "Crea una nota partendo dal modello viaggio.",
+     "Scrivi ogni voce di costo con il prezzo e, se vuoi, la data.",
+     "Dividi le spese comuni per il numero di partecipanti.",
+     "Collega la nota a un obiettivo di risparmio in Spendry."
+    ],
+    "why_title": "Perché pianificare un viaggio con Spendry Notes",
+    "why": [
+     "Tutto il viaggio in una sola nota, con il totale sempre aggiornato.",
+     "Le date compaiono direttamente sul tuo calendario.",
+     "I costi condivisi vengono divisi in automatico.",
+     "Gratis da scaricare e gratis da usare."
+    ],
+    "faq": [
+     {
+      "q": "Come gestire le spese di viaggio su iPhone?",
+      "a": "Crea una nota dal modello viaggio in Spendry Notes: inserisci i costi e l'app calcola il totale e le quote a persona."
+     },
+     {
+      "q": "Posso risparmiare in vista del viaggio?",
+      "a": "Sì. Collega la nota a un obiettivo in Spendry per monitorare i tuoi progressi accanto alla nota."
+     },
+     {
+      "q": "L'app è gratuita?",
+      "a": "Sì. Tutte le funzioni di Spendry Notes sono gratuite."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e pianifica il tuo viaggio in una nota."
+   },
+   {
+    "key": "moving-checklist-with-costs",
+    "slug": "moving-checklist-with-costs",
+    "nav": "Checklist trasloco con spese",
+    "screen": "list",
+    "footer": false,
+    "title": "Checklist trasloco con spese | Spendry Notes",
+    "description": "Una checklist per il trasloco che calcola i costi: spunta le attività e vedi il totale. Parti dal modello in Spendry Notes.",
+    "h1": "Una checklist per il trasloco che somma i costi",
+    "lead": "Parti dal modello trasloco, spunta le attività man mano che procedi e scrivi il costo accanto a ciascuna. Spendry Notes aggiorna il totale e le date.",
+    "points": [
+     {
+      "h": "Attività e costi insieme",
+      "p": "Ogni riga può unire un impegno al relativo costo: la checklist diventa così il tuo piano di spesa."
+     },
+     {
+      "h": "Cosa è fatto e cosa manca",
+      "p": "Spunta le voci completate: i totali mostreranno quanto hai speso e quanto resta ancora da pagare."
+     },
+     {
+      "h": "Date sul tuo calendario",
+      "p": "\"Furgone sabato\" o \"Caparra il 1°\" vengono inseriti direttamente nei giorni giusti del calendario."
+     },
+     {
+      "h": "Promemoria dove servono",
+      "p": "Aggiungi una notifica discreta alle scadenze da non perdere per nessun motivo."
+     }
+    ],
+    "steps_title": "Come organizzare un trasloco in Spendry Notes",
+    "steps": [
+     "Crea una nota a partire dal modello trasloco.",
+     "Aggiungi le cose da fare con prezzi e date.",
+     "Spunta le attività via via che le porti a termine.",
+     "Controlla il totale prima del giorno del trasloco."
+    ],
+    "why_title": "Perché usare una checklist con i costi",
+    "why": [
+     "Nessun foglio di calcolo separato per le spese del trasloco.",
+     "Vedi a colpo d'occhio quanto hai speso e cosa rimane da pagare.",
+     "Date e promemoria partono tutti dalla stessa nota.",
+     "Tutte le funzioni di Spendry Notes sono gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Esiste un'app con checklist e costi per il trasloco?",
+      "a": "Spendry Notes include un modello trasloco in cui ogni voce può avere importo e data. L'app somma i costi e segna i giorni sul calendario."
+     },
+     {
+      "q": "Posso impostare promemoria per il giorno del trasloco?",
+      "a": "Sì. Aggiungi un promemoria a qualsiasi riga per ricevere una notifica discreta quel giorno."
+     },
+     {
+      "q": "L'app è gratuita?",
+      "a": "Sì. Tutte le funzionalità di Spendry Notes sono gratuite."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e affronta il trasloco con i costi sotto controllo."
+   },
+   {
+    "key": "event-budget-planner",
+    "slug": "event-budget-planner",
+    "nav": "Budget per eventi",
+    "screen": "plan",
+    "footer": false,
+    "title": "Budget evento e matrimonio | Spendry Notes",
+    "description": "Organizza il budget per feste o nozze in una nota. Spendry Notes somma le spese, divide le quote e inserisce le date nel calendario.",
+    "h1": "Pianifica il budget di un evento in una nota",
+    "lead": "Parti dal modello per eventi e scrivi ogni spesa. Spendry Notes le somma, mostra la quota per ciascuno e tiene le date sul tuo calendario.",
+    "points": [
+     {
+      "h": "Un modello pronto",
+      "p": "Il modello per eventi ti fa partire subito con l'organizzazione di una festa, un compleanno o un matrimonio."
+     },
+     {
+      "h": "Tutti i costi in un unico totale",
+      "p": "Location, catering, musica e regali vengono sommati mentre scrivi."
+     },
+     {
+      "h": "La quota per chi partecipa",
+      "p": "Dividi una spesa per il numero di persone e ogni quota compare sotto la riga."
+     },
+     {
+      "h": "Date e promemoria",
+      "p": "Acconti e scadenze finiscono sul tuo calendario, con un promemoria se vuoi."
+     }
+    ],
+    "steps_title": "Come pianificare il budget per un evento",
+    "steps": [
+     "Crea una nota dal modello Budget evento.",
+     "Scrivi ogni spesa con importo e data.",
+     "Dividi i costi condivisi per il numero di persone.",
+     "Aggiungi un promemoria per acconti e scadenze."
+    ],
+    "why_title": "Perché gestire un evento con Spendry Notes",
+    "why": [
+     "Tutto il budget in una sola nota, con il totale.",
+     "Scadenze sul calendario e promemoria dove servono.",
+     "Le spese condivise sono divise in automatico.",
+     "Gratis da scaricare e gratis da usare."
+    ],
+    "faq": [
+     {
+      "q": "Come gestisco il budget di una festa su iPhone?",
+      "a": "Crea una nota dal modello Budget evento in Spendry Notes, scrivi ogni costo e l'app calcola il totale e le singole quote."
+     },
+     {
+      "q": "Può ricordarmi il pagamento degli acconti?",
+      "a": "Sì. Aggiungi un promemoria alla riga e riceverai una notifica quel giorno."
+     },
+     {
+      "q": "L'app è gratuita?",
+      "a": "Sì. Tutte le funzioni di Spendry Notes sono gratuite."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e tieni il budget dell'evento in una nota."
+   },
+   {
+    "key": "notes-with-reminders",
+    "slug": "notes-with-reminders",
+    "nav": "Note con promemoria",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Note con date e promemoria | Spendry Notes",
+    "description": "Scrivi \"Affitto il 28\" e finisce sul calendario. Spendry Notes aggiunge un promemoria discreto a qualsiasi riga, solo quando serve a te.",
+    "h1": "Note che riconoscono le date",
+    "lead": "Scrivi un giorno nella riga e Spendry Notes lo inserisce nel calendario. Aggiungi un promemoria discreto alle righe che contano, lasciando tranquille le altre.",
+    "points": [
+     {
+      "h": "Date con parole semplici",
+      "p": "\"Domani\", \"venerdì prossimo\", \"tra 3 giorni\", \"il 15\" e \"ogni mese\" vengono compresi al volo."
+     },
+     {
+      "h": "Un calendario creato dalle note",
+      "p": "Ogni riga con una data compare nel suo giorno sul calendario, con l'importo se ne ha uno."
+     },
+     {
+      "h": "Promemoria discreti",
+      "p": "Il promemoria si attiva solo per le righe che decidi tu, all'orario che preferisci."
+     },
+     {
+      "h": "I tuoi impegni a colpo d'occhio",
+      "p": "I widget su schermata Home e schermata di blocco ti mostrano le cose in programma."
+     }
+    ],
+    "steps_title": "Come aggiungere promemoria alle note",
+    "steps": [
+     "Scrivi una riga con un giorno, come \"Affitto il 28 850€\".",
+     "Ritrovala in quella data sul calendario.",
+     "Aggiungi un promemoria alla riga se ti serve.",
+     "Usa un widget per vedere i programmi in arrivo."
+    ],
+    "why_title": "Perché segnare le date nelle note",
+    "why": [
+     "I programmi restano dove li hai scritti, senza cambiare app.",
+     "Bollette e pagamenti mostrano il loro importo sul calendario.",
+     "Nessun promemoria invadente senza la tua conferma.",
+     "Tutte le funzioni di Spendry Notes sono gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Si può mettere un promemoria in una nota su iPhone?",
+      "a": "In Spendry Notes, ogni riga con una data può avere un promemoria discreto, solo se decidi di aggiungerlo."
+     },
+     {
+      "q": "Riconosce date come \"venerdì prossimo\"?",
+      "a": "Sì. Riconosce \"domani\", \"venerdì prossimo\", \"tra 3 giorni\", \"il 15\" e \"ogni mese\"."
+     },
+     {
+      "q": "Posso vedere i programmi sulla schermata di blocco?",
+      "a": "Sì. Spendry Notes offre widget per le note e i piani in arrivo, anche per la schermata di blocco."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e lascia che le note ricordino le date."
+   },
+   {
+    "key": "wishlist-with-prices",
+    "slug": "wishlist-with-prices",
+    "nav": "Lista desideri con prezzi",
+    "screen": "list",
+    "footer": false,
+    "title": "Lista desideri con prezzi | Spendry Notes",
+    "description": "Crea una lista desideri con prezzi su Spendry Notes: scopri il totale, imposta un budget e collegala a un obiettivo di risparmio in Spendry.",
+    "h1": "Una lista desideri che calcola i costi",
+    "lead": "Scrivi ciò che desideri con i relativi prezzi. Spendry Notes fa la somma, controlla cosa rientra nel budget e collega la lista ai tuoi risparmi in Spendry.",
+    "points": [
+     {
+      "h": "Il totale dei tuoi desideri",
+      "p": "Tutti i prezzi dell'elenco vengono sommati per farti sapere quanto costerebbe tutto insieme."
+     },
+     {
+      "h": "Un budget per la lista",
+      "p": "Assegna un budget alla nota e vedi quanto ti resta mentre aggiungi o togli voci."
+     },
+     {
+      "h": "Spunta le cose comprate",
+      "p": "Gli articoli spuntati si spostano nel totale acquistati, lasciando visibile il resto."
+     },
+     {
+      "h": "Metti da parte con Spendry",
+      "p": "Collega la lista a un obiettivo di risparmio in Spendry per vedere quanto manca al traguardo."
+     }
+    ],
+    "steps_title": "Come gestire una lista desideri con prezzi",
+    "steps": [
+     "Crea un elenco in Spendry Notes.",
+     "Scrivi ogni desiderio con il suo prezzo.",
+     "Imposta un budget per la lista, se ne hai uno.",
+     "Collega la nota a un obiettivo di risparmio in Spendry."
+    ],
+    "why_title": "Perché è utile una lista desideri con prezzi",
+    "why": [
+     "Vedi la spesa reale prima di acquistare.",
+     "Gli sconti vengono calcolati nel momento in cui li scrivi.",
+     "Un obiettivo di risparmio trasforma i desideri in piani concreti.",
+     "Tutte le funzioni di Spendry Notes sono gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Posso creare una lista desideri con prezzi su iPhone?",
+      "a": "Sì. In Spendry Notes, scrivi ogni desiderio con il prezzo e l'elenco mostra il totale e quanto resta del budget."
+     },
+     {
+      "q": "Posso risparmiare per gli oggetti della lista?",
+      "a": "Sì. Puoi collegare la lista a un obiettivo di risparmio nell'app Spendry."
+     },
+     {
+      "q": "L'app è gratuita?",
+      "a": "Sì. Tutte le funzioni di Spendry Notes sono gratuite."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e crea una lista desideri che calcola il totale."
+   },
+   {
+    "key": "remember-grocery-prices",
+    "slug": "remember-grocery-prices",
+    "nav": "Lista spesa con prezzi salvati",
+    "screen": "list",
+    "footer": false,
+    "title": "Lista spesa con memoria prezzi | Spendry Notes",
+    "description": "Riscrivi un articolo e Spendry Notes inserisce il prezzo pagato l'ultima volta. Così la tua lista della spesa è pronta in pochi secondi.",
+    "h1": "Una lista della spesa che ricorda i prezzi",
+    "lead": "Digita un prodotto comprato in passato e Spendry Notes ricorderà il prezzo dell'ultima volta. La spesa settimanale si compila da sola con il totale già pronto.",
+    "points": [
+     {
+      "h": "Il prezzo precedente, pronto all'uso",
+      "p": "Scrivi \"Latte\" e compare subito il costo dell'ultima volta, così modifichi solo quello che cambia."
+     },
+     {
+      "h": "Il totale prima di uscire",
+      "p": "Con i prezzi già inseriti, la lista ti dice in anticipo quanto spenderai."
+     },
+     {
+      "h": "Variazioni subito evidenti",
+      "p": "Dato che il prezzo precedente è già indicato, se un prodotto aumenta o cala te ne accorgi subito aggiornandolo."
+     },
+     {
+      "h": "Quantità incluse nel calcolo",
+      "p": "\"3 caffè 3,60€\" o \"1,5 kg mele 2€ al kg\" vengono calcolati all'istante."
+     }
+    ],
+    "steps_title": "Come funziona",
+    "steps": [
+     "Scrivi la lista della spesa con i prezzi la prima volta.",
+     "Le volte successive, digita gli stessi prodotti.",
+     "Il prezzo pagato l'ultima volta viene inserito in automatico.",
+     "Modifica solo i prezzi variati e controlla il totale."
+    ],
+    "why_title": "Perché ti fa risparmiare tempo",
+    "why": [
+     "La spesa settimanale è pronta in un istante.",
+     "Conosci il totale prima di andare al supermercato.",
+     "Un aumento di prezzo salta subito all'occhio quando lo aggiorni.",
+     "Tutte le funzioni di Spendry Notes sono gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Esiste un'app per la spesa che ricorda i prezzi?",
+      "a": "Sì. In Spendry Notes, quando riscrivi un prodotto, il prezzo pagato l'ultima volta si compila da solo."
+     },
+     {
+      "q": "Fa anche la somma della lista?",
+      "a": "Sì. L'elenco mostra il totale degli articoli acquistati e di quelli ancora da comprare."
+     },
+     {
+      "q": "L'app è gratuita?",
+      "a": "Sì. Tutte le funzioni di Spendry Notes sono gratuite."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e lascia che la lista ricordi i prezzi al posto tuo."
+   },
+   {
+    "key": "gift-list-with-budget",
+    "slug": "gift-list-with-budget",
+    "nav": "Lista regali con budget",
+    "screen": "list",
+    "footer": false,
+    "title": "Lista Regali di Natale con Budget | Spendry Notes",
+    "description": "Organizza i regali di Natale con i prezzi. Spendry Notes somma le spese, segna cosa hai comprato e ti aiuta a non sforare il budget.",
+    "h1": "Una lista regali per non sforare il budget",
+    "lead": "Scrivi per chi è il regalo e quanto costa. Spendry Notes calcola il totale, ti mostra cosa ti resta del budget e segna le date sul calendario.",
+    "points": [
+     {
+      "h": "Una lista già pronta",
+      "p": "Apri il modello Lista regali e inserisci una riga per ogni persona."
+     },
+     {
+      "h": "Ogni regalo nel totale",
+      "p": "Scrivi \"Sciarpa 25€\" o \"2 libri a 15€ l'uno\" e l'elenco calcola la somma, con totali separati per ciò che hai preso e ciò che manca."
+     },
+     {
+      "h": "Un budget per le feste",
+      "p": "Imposta un budget nella nota e controlla quanto ti rimane man mano che inserisci le idee regalo."
+     },
+     {
+      "h": "I compleanni sul calendario",
+      "p": "Indica il giorno accanto al nome, come \"Compleanno mamma 2 novembre\", e apparirà sul calendario, anche con un promemoria se vuoi."
+     }
+    ],
+    "steps_title": "Come creare una lista regali con budget",
+    "steps": [
+     "Crea una nota usando il modello Lista regali.",
+     "Scrivi ogni persona con l'idea regalo e il prezzo.",
+     "Imposta un budget complessivo per la nota.",
+     "Spunta i regali che compri e controlla quanto ti resta."
+    ],
+    "why_title": "Perché organizzare i regali con Spendry Notes",
+    "why": [
+     "Tutte le feste in una sola nota, con il totale chiaro.",
+     "Compleanni e scadenze subito sul calendario.",
+     "Ricorda in automatico i prezzi pagati l'anno scorso.",
+     "Gratis da scaricare e gratis da usare."
+    ],
+    "faq": [
+     {
+      "q": "Come preparo una lista regali di Natale con un budget?",
+      "a": "Usa il modello Lista regali in Spendry Notes, scrivi gli oggetti con i prezzi e indica un budget. La nota calcola quanto hai speso e quanto ti rimane."
+     },
+     {
+      "q": "Posso controllare quali regali ho già preso?",
+      "a": "Sì. Spunta l'elemento appena lo compri: i totali per Acquistati e Rimanenti si aggiornano da soli."
+     },
+     {
+      "q": "L'app è gratuita?",
+      "a": "Sì. Tutte le funzionalità di Spendry Notes sono gratuite."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e tieni sotto controllo le spese per i regali."
+   },
+   {
+    "key": "black-friday-shopping-list",
+    "slug": "black-friday-shopping-list",
+    "nav": "Lista Black Friday",
+    "screen": "list",
+    "footer": false,
+    "title": "Lista Spesa Black Friday con Budget | Spendry Notes",
+    "description": "Pianifica gli sconti del Black Friday in una lista. Spendry Notes calcola le percentuali, fa il totale del carrello e controlla il budget.",
+    "h1": "La lista per il Black Friday che rispetta il budget",
+    "lead": "Scrivi cosa desideri con prezzo e sconto prima che inizino i saldi. Spendry Notes calcola il prezzo finale, fa la somma e tiene d'occhio il tuo budget.",
+    "points": [
+     {
+      "h": "Sconti calcolati subito",
+      "p": "Scrivi \"Scarpe 80€ sconto 20%\" e la riga mostrerà subito il prezzo scontato."
+     },
+     {
+      "h": "Un totale per tutto il carrello",
+      "p": "Tutte le offerte si sommano in tempo reale, con totali separati per ciò che hai preso e ciò che resta da comprare."
+     },
+     {
+      "h": "Un budget prima dei saldi",
+      "p": "Dai un tetto di spesa alla nota per sapere sempre quanto puoi ancora spendere."
+     },
+     {
+      "h": "Il prezzo pagato l'ultima volta",
+      "p": "Digita di nuovo un articolo e ritroverai il prezzo precedente, per capire al volo se è un vero affare."
+     }
+    ],
+    "steps_title": "Come preparare la spesa per il Black Friday",
+    "steps": [
+     "Crea una lista su Spendry Notes prima che partano gli sconti.",
+     "Aggiungi gli articoli che cerchi con il loro prezzo.",
+     "Inserisci lo sconto appena trovi l'offerta giusta.",
+     "Imposta un budget e spunta gli acquisti effettuati."
+    ],
+    "why_title": "Perché seguire i saldi con Spendry Notes",
+    "why": [
+     "Percentuali di sconto e totali calcolati all'istante.",
+     "Un budget che mostra chiaramente quanto ti resta.",
+     "I widget tengono la lista in primo piano sulla schermata Home.",
+     "Gratis da scaricare e gratis da usare."
+    ],
+    "faq": [
+     {
+      "q": "Come si crea una lista per il Black Friday?",
+      "a": "Scrivi gli acquisti su Spendry Notes con prezzo e sconto. L'app calcola le cifre reali, fa la somma e ti mostra quanto ti avanza del budget."
+     },
+     {
+      "q": "Calcola anche gli sconti in percentuale?",
+      "a": "Sì. Scrivi la cifra e la percentuale, per esempio -20%, e leggerai direttamente il prezzo scontato."
+     },
+     {
+      "q": "L'app è gratuita?",
+      "a": "Sì. Tutte le funzioni di Spendry Notes sono gratis."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e affronta i saldi con lista e budget alla mano."
+   },
+   {
+    "key": "daily-expense-notes",
+    "slug": "daily-expense-notes",
+    "nav": "Note spese quotidiane",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Note Spese Giornaliere con Totali | Spendry Notes",
+    "description": "Segna le uscite del giorno in una nota e vedi subito il totale. Spendry Notes calcola la somma e può salvare la riga su Spendry.",
+    "h1": "Annota le spese di ogni giorno, controlla il totale",
+    "lead": "Tieni una nota per la giornata, scrivi quello che spendi al momento e controlla la somma. Se vuoi, sposta una voce su Spendry con un tocco.",
+    "points": [
+     {
+      "h": "La nota di oggi",
+      "p": "Tocca Oggi e scrivi ogni spesa su una riga, come \"Parcheggio 12€\" o \"Caffè 1,50€\". La nota calcola la somma della giornata per te."
+     },
+     {
+      "h": "Ogni giorno sul calendario",
+      "p": "La nota quotidiana si posiziona sulla data corrispondente con il suo totale, per rivedere le uscite dell'altra settimana in un attimo."
+     },
+     {
+      "h": "Inviala a Spendry",
+      "p": "Trasferisci una riga su Spendry come spesa con un tocco per tenere in ordine i tuoi budget."
+     },
+     {
+      "h": "Aggiungi con Siri",
+      "p": "Puoi chiedere a Siri di inserire una voce nella nota di oggi, e l'importo verrà incluso nel totale."
+     }
+    ],
+    "steps_title": "Come segnare le spese quotidiane sulle note",
+    "steps": [
+     "Tocca Oggi su Spendry Notes.",
+     "Scrivi le spese una per riga con il relativo importo.",
+     "Guarda il totale del giorno nella nota o sul calendario.",
+     "Invia la riga a Spendry se vuoi inserirla nel budget."
+    ],
+    "why_title": "Perché annotare le spese con Spendry Notes",
+    "why": [
+     "Facile e immediato come scrivere un promemoria.",
+     "Un totale per ogni giorno, direttamente sul calendario.",
+     "Si collega a Spendry per gestire budget più ampi.",
+     "Gratis, senza bisogno di creare un account."
+    ],
+    "faq": [
+     {
+      "q": "Come tengo traccia delle spese quotidiane con un'app per note?",
+      "a": "Scrivi ogni spesa con il relativo prezzo su Spendry Notes. L'app fa la somma in automatico e la nota appare sul calendario con il totale del giorno."
+     },
+     {
+      "q": "Posso trasferire un'uscita nel mio budget?",
+      "a": "Sì. Puoi mandare qualsiasi riga a Spendry come spesa con un solo tocco."
+     },
+     {
+      "q": "Serve collegare il conto corrente?",
+      "a": "No. Inserisci tu le cifre e Spendry Notes non accede mai ai conti bancari."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e raccogli le spese di oggi in un'unica nota."
+   },
+   {
+    "key": "renovation-budget-planner",
+    "slug": "renovation-budget-planner",
+    "nav": "Budget ristrutturazione",
+    "screen": "plan",
+    "footer": false,
+    "title": "Budget Ristrutturazione in una Nota | Spendry Notes",
+    "description": "Organizza le spese di ristrutturazione in una nota. Spendry Notes calcola materiali, manodopera e segna le scadenze sul calendario.",
+    "h1": "Pianifica le spese di ristrutturazione in una nota",
+    "lead": "Segna materiali e lavori con i relativi costi. Spendry Notes calcola le quantità, fa i totali e inserisce le date dei pagamenti sul calendario.",
+    "points": [
+     {
+      "h": "Materiali per quantità",
+      "p": "Scrivi \"Vernice 6 x 35€\" o \"30 piastrelle a 12€ l'una\" e ogni riga calcolerà la spesa esatta."
+     },
+     {
+      "h": "Manodopera e imprevisti in un solo totale",
+      "p": "Manodopera, trasporto e pulizie rientrano nella stessa somma man mano che li inserisci."
+     },
+     {
+      "h": "I pagamenti nei giorni giusti",
+      "p": "Scrivi \"Acconto il 15 1.000€\" e troverai la voce sul calendario, con tanto di promemoria."
+     },
+     {
+      "h": "Collegamento agli obiettivi",
+      "p": "Usa Spendry per associare la nota a un obiettivo di risparmio e verificare cosa resterà dei fondi."
+     }
+    ],
+    "steps_title": "Come gestire le spese per i lavori di casa",
+    "steps": [
+     "Crea un elenco per i lavori su Spendry Notes.",
+     "Scrivi materiali e interventi con il prezzo, anche specificando quantità e costo unitario.",
+     "Indica una data per acconti e fatture per vederli sul calendario.",
+     "Spunta quello che hai saldato e scopri quanto ti resta da pagare."
+    ],
+    "why_title": "Perché seguire la ristrutturazione con Spendry Notes",
+    "why": [
+     "Tutto il cantiere in una nota sola, con il totale chiaro.",
+     "Quantità e prezzi al pezzo moltiplicati sul momento.",
+     "Scadenze dei pagamenti sul calendario e promemoria dove serve.",
+     "Gratis da scaricare e gratis da usare."
+    ],
+    "faq": [
+     {
+      "q": "Come preparo un budget per i lavori su iPhone?",
+      "a": "Crea una lista su Spendry Notes e scrivi ogni costo o fornitura. L'app fa la somma e divide cosa hai già pagato da cosa resta da saldare."
+     },
+     {
+      "q": "L'app può ricordarmi le scadenze dei pagamenti?",
+      "a": "Sì. Se inserisci la data nella riga e attivi il promemoria, riceverai una notifica quel giorno."
+     },
+     {
+      "q": "L'app è gratuita?",
+      "a": "Sì. Tutte le funzionalità di Spendry Notes sono completamente gratis."
+     }
+    ],
+    "cta": "Scarica Spendry Notes e gestisci il piano dei lavori in un'unica nota."
+   }
+  ],
+  "bundle": {
+   "slug": "spendry-and-notes",
+   "nav": "Spendry & Notes",
+   "title": "Spendry & Notes: App Budget e Note | Spendry Notes",
+   "description": "Scarica gratis Spendry e Spendry Notes su App Store. Budget, carte e bollette in un'app, note che fanno i conti nell'altra.",
+   "h1": "Spendry & Notes, due app gratuite che lavorano insieme",
+   "lead": "Spendry gestisce budget, carte, prestiti e bollette. Spendry Notes calcola le tue liste e trasforma le note in programmi. Scarica entrambe con un tocco dal pacchetto gratuito su App Store.",
+   "spendry_h": "Spendry",
+   "spendry_p": "Budget, carte di credito, rate, prestiti, bollette e abbonamenti in un unico posto. Spendry ti avvisa prima di ogni scadenza e mostra la data in cui sarai senza debiti con il metodo palla di neve o valanga. Nessun accesso bancario, nessun dato raccolto.",
+   "notes_h": "Spendry Notes",
+   "notes_p": "Un blocco note che capisce le spese. Scrivi «Latte 1,50» o «Affitto il 28 800»: Spendry Notes calcola i totali delle liste e trasforma i giorni che scrivi in programmi, mentre la tua nota resta una semplice nota.",
+   "together_h": "Meglio insieme",
+   "together": [
+    "Collega una nota a un budget, obiettivo o prestito in Spendry per vedere quanto rimarrebbe dopo la tua spesa.",
+    "Invia una riga da una nota a Spendry come spesa o promemoria con un solo tocco.",
+    "Un solo abbonamento a Spendry Premium è valido per entrambe le app."
+   ],
+   "faq": [
+    {
+     "q": "Cos'è il pacchetto Spendry & Notes?",
+     "a": "È un pacchetto gratuito su App Store che ti permette di installare insieme Spendry e Spendry Notes con un solo tocco."
+    },
+    {
+     "q": "Il pacchetto ha un costo?",
+     "a": "No. Entrambe le app si scaricano gratuitamente. Spendry Premium è un abbonamento facoltativo che si rinnova in modo automatico se non lo annulli, e un solo abbonamento copre entrambe le app."
+    },
+    {
+     "q": "Quali dispositivi sono supportati?",
+     "a": "Spendry funziona su iPhone, iPad e Mac, mentre Spendry Notes funziona su iPhone. Entrambe richiedono iOS 17 o versioni successive su iPhone."
+    }
+   ],
+   "cta": "Scarica Spendry e Spendry Notes insieme con un solo tocco."
+  }
+ }
 }

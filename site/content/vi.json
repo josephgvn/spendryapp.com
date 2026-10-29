@@ -2383,5 +2383,1001 @@
     }
    ]
   }
- ]
+ ],
+ "notes": {
+  "labels": {
+   "app": "Spendry Notes",
+   "free": "Miễn phí trên App Store cho iPhone. Mọi tính năng của Spendry Notes đều miễn phí.",
+   "download": "Tải Spendry Notes",
+   "more": "Khám phá thêm về Spendry Notes",
+   "cta": "Tải Spendry Notes và để danh sách tự động tính tiền.",
+   "bundle_nav": "Spendry & Notes",
+   "bundle_button": "Nhận cả hai ứng dụng",
+   "spendry_title": "Spendry, ứng dụng quản lý chi tiêu đồng hành",
+   "home_kicker": "Spendry Notes",
+   "home_title": "Ghi chú tự tính tiền, kết nối cùng ngân sách",
+   "home_text": "Spendry Notes là ứng dụng ghi chú miễn phí: danh sách mua sắm tự tính tổng, kế hoạch đưa thẳng vào lịch và ghi chú liên kết trực tiếp với ngân sách Spendry. Tải trọn bộ hai ứng dụng chỉ với một chạm từ gói Spendry & Notes miễn phí.",
+   "home_more": "Xem tính năng của Spendry Notes",
+   "shots": "Bên trong Spendry Notes",
+   "shot_alts": {
+    "home": "Màn hình chính của Spendry Notes với kế hoạch và danh sách hôm nay",
+    "list": "Danh sách đi chợ trong Spendry Notes kèm giá tiền và tổng cộng",
+    "plan": "Kế hoạch tháng trong Spendry Notes gồm thu nhập, hóa đơn và số dư",
+    "calendar": "Lịch Spendry Notes với kế hoạch hiển thị theo ngày",
+    "ask": "Hỏi Spendry Notes về kế hoạch trong tuần này",
+    "picker": "Liên kết ghi chú với ngân sách, mục tiêu hoặc khoản vay trong Spendry"
+   }
+  },
+  "pages": [
+   {
+    "key": "spendry-notes",
+    "slug": "spendry-notes",
+    "nav": "Spendry Notes",
+    "screen": "home",
+    "footer": true,
+    "title": "Ghi chú tính tiền tự động | Spendry Notes",
+    "description": "Spendry Notes là ứng dụng ghi chú miễn phí trên iPhone giúp tự động tính tiền mua sắm, lên lịch kế hoạch và liên kết mượt mà với Spendry.",
+    "h1": "Spendry Notes, ứng dụng ghi chú tự động tính tiền",
+    "lead": "Cứ viết tự nhiên như thói quen của bạn. Spendry Notes nhận diện số tiền, ngày giờ trong từng dòng, tự động tính tổng và tạo kế hoạch mà vẫn giữ nguyên dạng ghi chú quen thuộc.",
+    "points": [
+     {
+      "h": "Danh sách tự động tính tổng",
+      "p": "Danh sách mua sắm hiển thị trực tiếp số tiền còn lại cần chi và số tiền đã mua. Chỉ cần đánh dấu khi chọn hàng, số tổng sẽ tự cập nhật theo."
+     },
+     {
+      "h": "Gõ tự nhiên như cách bạn nói",
+      "p": "\"5 chai nước mỗi cái 10k\", \"2.5 kg thịt bò 250k/kg\" hay \"ăn trưa 120k/3\": số lượng, đơn giá, giảm giá, tiền tip và phần chia cho từng người đều được tự động tính đủ."
+     },
+     {
+      "h": "Ghi ngày tự biến thành kế hoạch",
+      "p": "Chỉ cần ghi kèm ngày trong dòng, việc đó sẽ xuất hiện trên Lịch. Ứng dụng hiểu tốt \"ngày mai\", \"thứ sáu tới\", \"3 ngày nữa\", \"ngày 15\" hay \"hàng tháng\", kèm nhắc nhở nhẹ nhàng khi cần."
+     },
+     {
+      "h": "Hỏi ghi chú của bạn",
+      "p": "Hỏi \"Tuần này có kế hoạch gì?\" hoặc \"Danh sách còn lại bao nhiêu tiền?\", bạn sẽ nhận ngay câu trả lời chính xác từ ghi chú của mình, xử lý trực tiếp ngay trên iPhone."
+     },
+     {
+      "h": "Liên kết với Spendry",
+      "p": "Liên kết ghi chú với một ngân sách, mục tiêu hoặc khoản vay trong Spendry để xem danh sách còn dư bao nhiêu, hoặc gửi dòng ghi chú sang Spendry thành khoản chi tiêu chỉ bằng một chạm."
+     }
+    ],
+    "steps_title": "Cách bắt đầu với Spendry Notes",
+    "steps": [
+     "Tải Spendry Notes miễn phí từ App Store.",
+     "Viết danh sách hoặc kế hoạch như trên giấy, kèm giá tiền và ngày tháng.",
+     "Theo dõi số tiền tổng và lịch tự động cập nhật ngay tức thì.",
+     "Nếu bạn dùng Spendry, hãy liên kết ghi chú với ngân sách, mục tiêu hoặc khoản vay."
+    ],
+    "why_title": "Lý do mọi người chọn Spendry Notes",
+    "why": [
+     "Mọi tính năng của Spendry Notes đều hoàn toàn miễn phí.",
+     "Dùng riêng lẻ đã tiện, kết hợp với Spendry lại càng trọn vẹn hơn.",
+     "Widget hiển thị danh sách và kế hoạch sắp tới ngay cả trên Màn hình khóa.",
+     "iCloud đồng bộ ghi chú trên các thiết bị, mục Đã xóa gần đây lưu trữ trong 30 ngày."
+    ],
+    "faq": [
+     {
+      "q": "Spendry Notes có miễn phí không?",
+      "a": "Có. Mọi tính năng của Spendry Notes đều miễn phí. Spendry Premium là gói đăng ký tùy chọn mở khóa tính năng nâng cao trong Spendry, một gói dùng chung cho cả hai ứng dụng."
+     },
+     {
+      "q": "Tôi có cần cài Spendry để dùng Spendry Notes không?",
+      "a": "Không. Spendry Notes hoạt động độc lập. Khi cài thêm Spendry, bạn có thể liên kết ghi chú với ngân sách, mục tiêu, khoản vay và chuyển dòng ghi chú sang Spendry."
+     },
+     {
+      "q": "Spendry Notes chạy trên thiết bị nào?",
+      "a": "Spendry Notes là ứng dụng dành riêng cho iPhone và yêu cầu iOS 17 trở lên."
+     },
+     {
+      "q": "Tôi có thể dùng Siri với Spendry Notes không?",
+      "a": "Có. Siri và ứng dụng Phím tắt có thể thêm nhanh đồ vào danh sách và thông báo kế hoạch sắp tới."
+     }
+    ],
+    "cta": "Tải Spendry Notes để ghi chú tự làm phép tính cho bạn."
+   },
+   {
+    "key": "grocery-list-app",
+    "slug": "grocery-list-app",
+    "nav": "Ứng dụng đi chợ",
+    "screen": "list",
+    "footer": true,
+    "title": "Ứng dụng đi chợ tính tiền | Spendry Notes",
+    "description": "Ứng dụng đi chợ miễn phí trên iPhone tự tính tiền khi gõ, hiện số tiền còn lại và nhớ giá mua lần trước.",
+    "h1": "Ứng dụng đi chợ tự động tính tiền khi mua sắm",
+    "lead": "Ghi danh sách đồ kèm giá tiền, đánh dấu từng món khi cho vào giỏ và xem ngay tổng tiền đã mua cùng số tiền còn lại.",
+    "points": [
+     {
+      "h": "Tính tổng ngay khi gõ",
+      "p": "Chỉ cần gõ \"sữa tươi 35k\" hay \"bánh mì 2 cái 30k\", danh sách sẽ tự cộng tiền. Tổng số Còn lại và Đã mua sẽ thay đổi theo từng lần đánh dấu."
+     },
+     {
+      "h": "Nhân số lượng với đơn giá",
+      "p": "\"2.5 kg thịt bò 250k/kg\" hay \"5 chai nước mỗi cái 10k\" đều được tính chuẩn xác, không cần dùng máy tính cầm tay."
+     },
+     {
+      "h": "Nhớ giá bạn đã mua lần trước",
+      "p": "Khi gõ lại một món đồ cũ, mức giá bạn từng trả sẽ tự động gợi ý sẵn, giúp việc lên danh sách đi chợ hàng tuần chỉ mất vài giây."
+     },
+     {
+      "h": "Đặt ngân sách cho buổi đi chợ",
+      "p": "Đặt mức ngân sách cho danh sách để biết bạn còn bao nhiêu tiền trong lúc thêm đồ."
+     }
+    ],
+    "steps_title": "Cách tạo danh sách đi chợ có giá tiền",
+    "steps": [
+     "Tạo danh sách mới trong Spendry Notes.",
+     "Ghi từng món kèm giá, hoặc kèm số lượng và đơn giá.",
+     "Đánh dấu các món khi đã bỏ vào giỏ hàng.",
+     "Xem lại tổng số tiền còn lại trước khi tiến hành thanh toán."
+    ],
+    "why_title": "Lý do nên dùng Spendry Notes để đi chợ",
+    "why": [
+     "Miễn phí, không cần đăng ký tài khoản.",
+     "Widget hiển thị danh sách mua sắm ngay trên Màn hình chính và Màn hình khóa.",
+     "Siri hỗ trợ thêm món vào danh sách nhanh chóng.",
+     "Liên kết với ngân sách đi chợ trong Spendry để xem số dư còn lại."
+    ],
+    "faq": [
+     {
+      "q": "Có ứng dụng đi chợ miễn phí nào tự cộng tiền không?",
+      "a": "Spendry Notes hoàn toàn miễn phí và tự động cộng giá tiền trong danh sách ngay khi bạn gõ, tách biệt rõ ràng số tiền Còn lại và Đã mua."
+     },
+     {
+      "q": "Ứng dụng có nhớ giá cũ không?",
+      "a": "Có. Khi bạn gõ lại tên món đồ, giá của lần mua trước sẽ tự động điền vào."
+     },
+     {
+      "q": "Tôi có thể thêm đồ bằng Siri không?",
+      "a": "Có. Siri và ứng dụng Phím tắt có thể thêm đồ vào danh sách của bạn."
+     }
+    ],
+    "cta": "Tải Spendry Notes để mang danh sách tự tính tiền đi chợ."
+   },
+   {
+    "key": "shopping-list-with-prices",
+    "slug": "shopping-list-with-prices",
+    "nav": "Danh sách mua sắm có giá",
+    "screen": "list",
+    "footer": false,
+    "title": "Danh sách mua sắm tính tiền | Spendry Notes",
+    "description": "Tạo danh sách mua sắm có giá tiền, Spendry Notes tự động tính tổng, tính giảm giá và kiểm soát ngân sách của bạn.",
+    "h1": "Danh sách mua sắm có giá tiền và tự tính tổng",
+    "lead": "Spendry Notes nhận diện giá tiền trong danh sách mua sắm, liên tục cập nhật tổng chi tiêu và cho bạn biết ngân sách còn bao nhiêu.",
+    "points": [
+     {
+      "h": "Tự tính giảm giá và tiền tip",
+      "p": "Chỉ cần viết \"áo khoác 500k giảm 20%\" hoặc \"hóa đơn 1000k +10% vat\", số tổng sẽ tự động tính theo."
+     },
+     {
+      "h": "Kiểm soát ngân sách danh sách",
+      "p": "Đặt trước ngân sách cho ghi chú để xem số tiền còn lại mỗi khi thêm món mới."
+     },
+     {
+      "h": "Đã mua và cần mua",
+      "p": "Các món được đánh dấu sẽ chuyển sang tổng Đã mua, giúp bạn luôn nắm rõ phần còn lại tốn bao nhiêu."
+     },
+     {
+      "h": "Danh sách gắn liền với ngày hẹn",
+      "p": "Điền một ngày cụ thể vào dòng ghi chú và việc đó sẽ vào Lịch, kèm lời nhắc nếu bạn muốn."
+     }
+    ],
+    "steps_title": "Cách lập danh sách mua sắm có giá tiền",
+    "steps": [
+     "Mở danh sách mới trong Spendry Notes.",
+     "Ghi tên món đồ kèm giá tiền, số lượng hoặc phần trăm giảm giá.",
+     "Đặt ngân sách dự kiến cho danh sách nếu có.",
+     "Đánh dấu những món đã mua để theo dõi song song hai khoản tổng."
+    ],
+    "why_title": "Lợi ích khi ghi giá vào danh sách",
+    "why": [
+     "Biết rõ tổng tiền trước khi ra quầy thanh toán.",
+     "Tự động tính giảm giá, số lượng và tiền tip mà không cần nhẩm.",
+     "Giữ nguyên dạng ghi chú văn bản thuần túy để bạn thoải mái chỉnh sửa.",
+     "Mọi tính năng trên Spendry Notes đều hoàn toàn miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Làm sao để cộng tổng danh sách mua sắm trên iPhone?",
+      "a": "Hãy ghi các món kèm giá trong Spendry Notes. Ứng dụng tự cộng tổng khi viết và hiển thị rõ ràng số tiền Còn lại cùng số tiền Đã mua."
+     },
+     {
+      "q": "Ứng dụng có tự tính giảm giá không?",
+      "a": "Có. Bạn chỉ cần viết phần trăm giảm giá như \"-20%\" cạnh món đồ, tổng tiền sẽ tự trừ đi."
+     },
+     {
+      "q": "Tôi có thể đặt ngân sách cho danh sách không?",
+      "a": "Có. Chỉ cần đặt mức ngân sách trong ghi chú, Spendry Notes sẽ hiển thị số tiền còn lại."
+     }
+    ],
+    "cta": "Tải Spendry Notes để nắm rõ tổng tiền trước khi trả tiền."
+   },
+   {
+    "key": "notes-app-with-calculator",
+    "slug": "notes-app-with-calculator",
+    "nav": "Ghi chú có máy tính",
+    "screen": "plan",
+    "footer": true,
+    "title": "Ghi chú tự tính toán | Spendry Notes",
+    "description": "Spendry Notes là ứng dụng ghi chú thông minh tự động đọc số tiền, tính toán tổng chi tiêu, số lượng, giảm giá và chia tiền nhóm.",
+    "h1": "Ứng dụng ghi chú tự làm phép tính cho bạn",
+    "lead": "Không cần mở thêm máy tính bỏ túi. Chỉ cần nhập các khoản tiền trong ghi chú, Spendry Notes sẽ tự động tính toán từng dòng mà văn bản vẫn giữ nguyên vẹn.",
+    "points": [
+     {
+      "h": "Nhận diện số tiền ở bất cứ đâu trong dòng",
+      "p": "\"Tiền nhà ngày 28 là 5000k\" hay \"3 ly cà phê 75k\": số tiền, số lượng và ngày tháng đều được trích xuất trực tiếp từ câu chữ."
+     },
+     {
+      "h": "Khoản thu và khoản chi",
+      "p": "Ghi chép thu chi chung trong cùng một ghi chú để theo dõi tiền vào, tiền ra và số dư còn lại."
+     },
+     {
+      "h": "Chia tiền nhóm và phần trăm",
+      "p": "\"ăn trưa 120k/3\" sẽ hiển thị phần tiền mỗi người, còn \"giảm 20%\" hay \"+10% tip\" sẽ thay đổi ngay số tổng."
+     },
+     {
+      "h": "Nhận câu trả lời từ chính ghi chú",
+      "p": "Hỏi xem tuần này có kế hoạch gì hoặc các danh sách còn lại bao nhiêu, câu trả lời sẽ đến từ chính ghi chú của bạn."
+     }
+    ],
+    "steps_title": "Cách dùng ghi chú kiêm máy tính",
+    "steps": [
+     "Mở một ghi chú trong Spendry Notes.",
+     "Viết từng dòng tự nhiên như cách nói chuyện thường ngày, kèm theo số tiền.",
+     "Xem kết quả tính tổng ngay phía dưới ghi chú trong khi viết.",
+     "Thêm ngày vào bất kỳ dòng nào để đưa việc đó vào Lịch."
+    ],
+    "why_title": "Lợi ích của ghi chú tự tính toán",
+    "why": [
+     "Không phải chuyển qua lại giữa ứng dụng ghi chú và máy tính.",
+     "Ghi chú lưu giữ trọn vẹn câu chữ chứ không chỉ có các con số khô khan.",
+     "Số tổng tự động cập nhật lại mỗi khi bạn sửa bất kỳ dòng nào.",
+     "Tải về miễn phí và trải nghiệm hoàn toàn miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Có ứng dụng ghi chú nào tự cộng số trên iPhone không?",
+      "a": "Spendry Notes nhận diện số tiền trong từng dòng và tự cộng khi viết, hỗ trợ cả số lượng, giảm giá, tiền tip và chia hóa đơn."
+     },
+     {
+      "q": "Ứng dụng có ghi nhận cả thu và chi cùng lúc không?",
+      "a": "Có. Thu nhập và chi phí trong cùng một ghi chú sẽ hiển thị thành các khoản tổng riêng biệt và số dư còn lại."
+     },
+     {
+      "q": "Spendry Notes có miễn phí không?",
+      "a": "Có. Mọi tính năng của Spendry Notes đều hoàn toàn miễn phí."
+     }
+    ],
+    "cta": "Tải Spendry Notes để ghi chú tự động làm phép tính."
+   },
+   {
+    "key": "split-the-bill",
+    "slug": "split-the-bill",
+    "nav": "Chia tiền nhóm",
+    "screen": "list",
+    "footer": false,
+    "title": "Chia tiền nhóm ngay trong ghi chú | Spendry Notes",
+    "description": "Nhập \"ăn trưa 120k/3\" là Spendry Notes tính phần mỗi người. Tiền boa hay giảm giá cũng được tự động tính ngay trong ghi chú.",
+    "h1": "Chia tiền nhóm ngay trong ghi chú",
+    "lead": "Nhập tổng số tiền và số người, Spendry Notes sẽ tính ngay phần của mỗi người, kèm theo cả tiền boa nếu có.",
+    "points": [
+     {
+      "h": "Một dòng tính đủ các phần",
+      "p": "Chỉ cần viết \"ăn trưa 120k/3\", Spendry Notes sẽ hiện số tiền mỗi người cần trả ngay dưới dòng đó."
+     },
+     {
+      "h": "Tiền boa và giảm giá",
+      "p": "Thêm \"+10% tip\" hoặc \"giảm 20%\", các phần chia sẽ tự cập nhật theo tổng mới."
+     },
+     {
+      "h": "Chuyến đi và chi phí chung",
+      "p": "Ghi trọn chuyến đi cuối tuần trong một ghi chú: vé xe, phòng nghỉ và ăn uống, mỗi khoản đều có phần chia rõ ràng."
+     },
+     {
+      "h": "Gắn liền với kế hoạch",
+      "p": "Ghi thêm ngày bên cạnh chi phí, khoản tiền sẽ tự động xuất hiện trên lịch của bạn."
+     }
+    ],
+    "steps_title": "Cách chia tiền trong Spendry Notes",
+    "steps": [
+     "Nhập số tiền đã thanh toán và chia cho số người, ví dụ \"ăn trưa 120k/3\".",
+     "Thêm tiền boa hoặc giảm giá nếu có.",
+     "Xem phần tiền mỗi người cần trả ngay dưới dòng ghi chú.",
+     "Tiếp tục thêm các chi phí khác vào cùng ghi chú cho chuyến đi hoặc sự kiện."
+    ],
+    "why_title": "Vì sao nên chia tiền trong ghi chú",
+    "why": [
+     "Không cần mở máy tính hay tải thêm app chia tiền riêng.",
+     "Ghi chú lưu rõ ai trả khoản nào theo đúng cách bạn viết.",
+     "Tổng tiền và phần chia tự cập nhật khi bạn sửa dòng.",
+     "Miễn phí, không cần đăng ký tài khoản."
+    ],
+    "faq": [
+     {
+      "q": "Làm sao để chia tiền nhóm trên iPhone?",
+      "a": "Trong Spendry Notes, bạn chỉ cần nhập số tiền chia cho số người, ví dụ \"ăn trưa 120k/3\", phần của mỗi người sẽ hiện ngay dưới dòng."
+     },
+     {
+      "q": "Tôi có thể thêm tiền boa không?",
+      "a": "Có. Bạn chỉ cần thêm \"+10% tip\", phần chia sẽ tự động tính theo tổng tiền mới."
+     },
+     {
+      "q": "Ứng dụng có tốn phí không?",
+      "a": "Không. Spendry Notes và toàn bộ tính năng đều hoàn toàn miễn phí."
+     }
+    ],
+    "cta": "Tải Spendry Notes và chia tiền nhóm chỉ trong một dòng."
+   },
+   {
+    "key": "monthly-budget-planner-notes",
+    "slug": "monthly-budget-planner-notes",
+    "nav": "Kế hoạch tháng bằng ghi chú",
+    "screen": "plan",
+    "footer": false,
+    "title": "Lập kế hoạch chi tiêu tháng | Spendry Notes",
+    "description": "Lập kế hoạch tháng trong ghi chú: lương, tiền nhà, hóa đơn theo ngày. Spendry Notes tính số dư và đưa từng ngày lên lịch.",
+    "h1": "Lập kế hoạch tháng trong một ghi chú duy nhất",
+    "lead": "Ghi lương, tiền nhà và hóa đơn kèm theo ngày. Spendry Notes sẽ tính tiền thu, tiền chi và khoản còn lại, đồng thời đưa từng ngày vào lịch của bạn.",
+    "points": [
+     {
+      "h": "Thu, chi và khoản còn lại",
+      "p": "Thu nhập và chi tiêu trong cùng một ghi chú giúp tính số tiền thực còn lại cho tháng, giữ kế hoạch luôn chuẩn xác."
+     },
+     {
+      "h": "Mọi ngày đều lên lịch",
+      "p": "\"Tiền nhà ngày 28\" và \"Hóa đơn điện ngày 26\" sẽ xuất hiện đúng ngày trên lịch."
+     },
+     {
+      "h": "Chỉ nhắc nhở khi bạn cần",
+      "p": "Đặt lời nhắc nhẹ nhàng cho các dòng cần chú ý, như tiền nhà hoặc hóa đơn."
+     },
+     {
+      "h": "Bắt đầu từ mẫu kế hoạch tháng",
+      "p": "Các mẫu có sẵn cho tháng, chuyến đi, chuyển nhà hoặc sự kiện giúp bạn bắt tay vào việc ngay."
+     }
+    ],
+    "steps_title": "Cách lập kế hoạch tháng trong Spendry Notes",
+    "steps": [
+     "Bắt đầu từ mẫu Kế hoạch tháng hoặc một ghi chú trống.",
+     "Ghi thu nhập và từng khoản chi tiêu kèm ngày tương ứng.",
+     "Xem tổng tiền còn lại và kiểm tra lịch.",
+     "Thêm nhắc nhở cho những khoản thanh toán bạn không muốn bỏ lỡ."
+    ],
+    "why_title": "Vì sao nên lên kế hoạch tháng trong ghi chú",
+    "why": [
+     "Nhanh như khi bạn viết trên giấy.",
+     "Tổng tiền và lịch tự động cập nhật.",
+     "Kết hợp cùng Spendry, một dòng ghi chú sẽ trở thành khoản chi tiêu hoặc nhắc nhở chỉ bằng một lần chạm.",
+     "Mọi tính năng trên Spendry Notes đều miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Tôi có thể lập ngân sách tháng trong ứng dụng ghi chú không?",
+      "a": "Có. Trong Spendry Notes, hãy viết thu chi kèm ngày, ghi chú sẽ tự tính số dư và đưa từng ngày lên lịch."
+     },
+     {
+      "q": "Ứng dụng có nhắc tôi trước hạn thanh toán hóa đơn không?",
+      "a": "Có, nếu bạn thêm nhắc nhở vào dòng đó. Lời nhắc chỉ xuất hiện ở đúng những dòng bạn chọn."
+     },
+     {
+      "q": "Ứng dụng có dùng chung với Spendry được không?",
+      "a": "Có. Bạn có thể liên kết ghi chú với một ngân sách trong Spendry, hoặc chuyển một dòng sang Spendry thành khoản chi tiêu hay lời nhắc."
+     }
+    ],
+    "cta": "Tải Spendry Notes và lập kế hoạch tháng chỉ trong một ghi chú."
+   },
+   {
+    "key": "trip-budget-planner",
+    "slug": "trip-budget-planner",
+    "nav": "Lập ngân sách chuyến đi",
+    "screen": "plan",
+    "footer": false,
+    "title": "Lập ngân sách du lịch trong ghi chú | Spendry Notes",
+    "description": "Dùng mẫu chuyến đi, ghi vé máy bay, phòng ở và chi phí mỗi ngày, Spendry Notes sẽ tự động cộng tổng và tính phần mỗi người.",
+    "h1": "Lập ngân sách chuyến đi trong ghi chú",
+    "lead": "Bắt đầu với mẫu chuyến đi và nhập các khoản dự chi. Spendry Notes sẽ cộng tổng, tính phần mỗi người và đưa các ngày lên lịch.",
+    "points": [
+     {
+      "h": "Mẫu có sẵn để bắt đầu",
+      "p": "Mẫu chuyến đi chuẩn bị sẵn bố cục để bạn điền vé, khách sạn, ăn uống và vui chơi."
+     },
+     {
+      "h": "Cộng tổng ngay khi bạn viết",
+      "p": "Mọi chi phí bạn nhập đều được cộng dồn, giúp bạn nắm rõ toàn bộ chi phí trước khi đặt chỗ."
+     },
+     {
+      "h": "Chia tiền cho cả nhóm",
+      "p": "Chia chi phí theo số người, ví dụ \"khách sạn 6000k/3\", phần mỗi người sẽ hiện ngay dưới dòng."
+     },
+     {
+      "h": "Tích lũy bằng Spendry",
+      "p": "Liên kết ghi chú với mục tiêu tiết kiệm trong Spendry để xem bạn đã gom đủ tiền đến đâu."
+     }
+    ],
+    "steps_title": "Cách lập ngân sách chuyến đi",
+    "steps": [
+     "Tạo ghi chú mới từ mẫu Ngân sách chuyến đi.",
+     "Ghi từng khoản chi kèm số tiền và ngày nếu muốn.",
+     "Chia các chi phí chung cho số lượng người tham gia.",
+     "Liên kết ghi chú với mục tiêu tiết kiệm trong Spendry."
+    ],
+    "why_title": "Vì sao nên lập ngân sách du lịch trong Spendry Notes",
+    "why": [
+     "Toàn bộ chuyến đi gói gọn trong một ghi chú, kèm tổng tiền.",
+     "Các mốc thời gian tự động xuất hiện trên lịch.",
+     "Chi phí chung được chia sẵn cho từng người.",
+     "Tải và sử dụng hoàn toàn miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Làm sao để lập ngân sách du lịch trên iPhone?",
+      "a": "Bắt đầu từ mẫu Ngân sách chuyến đi trong Spendry Notes, ghi từng chi phí, ứng dụng sẽ cộng tổng và tính phần chia của từng người."
+     },
+     {
+      "q": "Tôi có thể tiết kiệm cho chuyến đi được không?",
+      "a": "Có. Hãy liên kết ghi chú với mục tiêu tiết kiệm trong Spendry để theo dõi tiến độ ngay cạnh ghi chú."
+     },
+     {
+      "q": "Ứng dụng có miễn phí không?",
+      "a": "Có. Mọi tính năng của Spendry Notes đều hoàn toàn miễn phí."
+     }
+    ],
+    "cta": "Tải Spendry Notes và lập kế hoạch chuyến đi trong một ghi chú."
+   },
+   {
+    "key": "moving-checklist-with-costs",
+    "slug": "moving-checklist-with-costs",
+    "nav": "Danh sách chuyển nhà",
+    "screen": "list",
+    "footer": false,
+    "title": "Checklist chuyển nhà kèm chi phí | Spendry Notes",
+    "description": "Checklist chuyển nhà tự tính tiền: đánh dấu việc xong, ghi chi phí và xem tổng cộng. Bắt đầu ngay với mẫu chuyển nhà trong Spendry Notes.",
+    "h1": "Checklist chuyển nhà tự động tính tiền",
+    "lead": "Bắt đầu từ mẫu chuyển nhà, đánh dấu việc hoàn thành và ghi chi phí bên cạnh. Spendry Notes sẽ tự tính tổng tiền và sắp xếp các ngày.",
+    "points": [
+     {
+      "h": "Việc cần làm và chi phí đi liền nhau",
+      "p": "Mỗi dòng vừa là công việc vừa kèm chi phí, để checklist trở thành ngân sách chuyển nhà của bạn."
+     },
+     {
+      "h": "Đã làm và việc còn lại",
+      "p": "Đánh dấu khi làm xong một mục, tổng tiền sẽ hiện rõ bạn đã tiêu bao nhiêu và sắp tới còn tốn bao nhiêu."
+     },
+     {
+      "h": "Hiện ngày lên lịch",
+      "p": "\"Xe tải thứ Bảy\" hoặc \"Đặt cọc ngày 1\" sẽ xuất hiện đúng ngày trên lịch."
+     },
+     {
+      "h": "Nhắc nhở đúng lúc bạn cần",
+      "p": "Thêm nhắc nhở nhẹ nhàng vào các công việc không được phép quên."
+     }
+    ],
+    "steps_title": "Cách lên kế hoạch dọn nhà trong Spendry Notes",
+    "steps": [
+     "Tạo ghi chú từ mẫu Chuyển nhà.",
+     "Thêm các đầu việc kèm chi phí và ngày thực hiện.",
+     "Đánh dấu hoàn thành khi bạn làm xong mỗi việc.",
+     "Kiểm tra tổng chi phí trước ngày chuyển nhà."
+    ],
+    "why_title": "Vì sao nên dùng checklist có tính chi phí",
+    "why": [
+     "Không cần lập bảng tính riêng cho chi phí chuyển nhà.",
+     "Xem nhanh số tiền đã chi và khoản còn lại chỉ trong nháy mắt.",
+     "Ngày tháng và nhắc nhở được lưu ngay từ một ghi chú.",
+     "Tất cả tính năng trong Spendry Notes đều miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Có ứng dụng checklist chuyển nhà nào tính được chi phí không?",
+      "a": "Spendry Notes có sẵn mẫu Chuyển nhà để bạn ghi chi phí và ngày cho từng việc. Ghi chú sẽ tự cộng tiền và đưa ngày lên lịch."
+     },
+     {
+      "q": "Tôi có thể đặt nhắc nhở cho ngày chuyển nhà không?",
+      "a": "Có. Bạn có thể thêm lời nhắc vào dòng bất kỳ để nhận thông báo nhẹ nhàng vào ngày đó."
+     },
+     {
+      "q": "Ứng dụng có miễn phí không?",
+      "a": "Có. Mọi tính năng của Spendry Notes đều hoàn toàn miễn phí."
+     }
+    ],
+    "cta": "Tải Spendry Notes và chuyển nhà thật nhẹ nhàng cùng chi phí rõ ràng."
+   },
+   {
+    "key": "event-budget-planner",
+    "slug": "event-budget-planner",
+    "nav": "Kế hoạch ngân sách sự kiện",
+    "screen": "plan",
+    "footer": false,
+    "title": "Kế hoạch ngân sách sự kiện và tiệc cưới | Spendry Notes",
+    "description": "Lập ngân sách tiệc tùng, sinh nhật hay đám cưới trong ghi chú. Spendry Notes tự cộng tiền, chia tiền và hiển thị ngày lên lịch.",
+    "h1": "Lập ngân sách sự kiện ngay trong ghi chú",
+    "lead": "Bắt đầu từ mẫu sự kiện và ghi từng khoản chi. Spendry Notes sẽ tự cộng tổng, chia phần cho từng người trả và xếp ngày lên lịch của bạn.",
+    "points": [
+     {
+      "h": "Mẫu có sẵn tiện lợi",
+      "p": "Mẫu sự kiện chuẩn bị sẵn mọi thứ cho bữa tiệc, sinh nhật hoặc đám cưới."
+     },
+     {
+      "h": "Mọi chi phí trong một tổng số",
+      "p": "Địa điểm, đồ ăn, âm nhạc và quà tặng đều được cộng tự động khi bạn nhập."
+     },
+     {
+      "h": "Chia tiền cho người cùng trả",
+      "p": "Chỉ cần chia chi phí cho số người, phần tiền mỗi người sẽ hiện ngay dưới dòng."
+     },
+     {
+      "h": "Ngày tháng và nhắc nhở",
+      "p": "Tiền cọc và hạn chót được đưa vào lịch, kèm lời nhắc nếu bạn muốn."
+     }
+    ],
+    "steps_title": "Cách lập ngân sách cho sự kiện",
+    "steps": [
+     "Tạo ghi chú mới từ mẫu sự kiện.",
+     "Ghi từng khoản chi kèm số tiền và ngày thanh toán.",
+     "Chia chi phí chung theo số người cùng trả.",
+     "Thêm nhắc nhở cho các khoản đặt cọc và hạn thanh toán."
+    ],
+    "why_title": "Vì sao nên lập ngân sách sự kiện trong Spendry Notes",
+    "why": [
+     "Toàn bộ ngân sách trong một ghi chú duy nhất, luôn có sẵn tổng tiền.",
+     "Hạn chót hiển thị trên lịch, nhắc nhở đúng khi bạn cần.",
+     "Tự động chia tiền cho các chi phí chung.",
+     "Tải về miễn phí và sử dụng hoàn toàn miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Làm thế nào để lập ngân sách sự kiện trên iPhone?",
+      "a": "Hãy tạo ghi chú từ mẫu sự kiện trong Spendry Notes, ghi từng khoản chi và ứng dụng sẽ tự tính tổng cũng như chia tiền cho mỗi người."
+     },
+     {
+      "q": "Ứng dụng có nhắc tôi về hạn trả tiền cọc không?",
+      "a": "Có. Bạn chỉ cần thêm nhắc nhở vào dòng đó để nhận thông báo vào đúng ngày."
+     },
+     {
+      "q": "Ứng dụng có miễn phí không?",
+      "a": "Có. Mọi tính năng trong Spendry Notes đều hoàn toàn miễn phí."
+     }
+    ],
+    "cta": "Tải Spendry Notes và quản lý trọn vẹn ngân sách sự kiện trong một ghi chú."
+   },
+   {
+    "key": "notes-with-reminders",
+    "slug": "notes-with-reminders",
+    "nav": "Ghi chú có nhắc nhở",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Ghi chú có ngày tháng và nhắc nhở | Spendry Notes",
+    "description": "Chỉ cần gõ \"tiền nhà ngày 28\" là ngày tự vào lịch. Spendry Notes thêm nhắc nhở nhẹ nhàng cho từng dòng khi bạn cần.",
+    "h1": "Ghi chú tự nhận biết ngày tháng",
+    "lead": "Ghi ngày tháng vào một dòng và Spendry Notes sẽ đưa dòng đó lên lịch. Bạn có thể bật nhắc nhở nhẹ nhàng cho những việc cần thiết, các việc khác cứ để yên.",
+    "points": [
+     {
+      "h": "Nhận diện từ ngữ thường ngày",
+      "p": "Ứng dụng hiểu tốt các từ như \"ngày mai\", \"thứ sáu tới\", \"3 ngày nữa\", \"ngày 15\" hay \"hàng tháng\"."
+     },
+     {
+      "h": "Lịch tự động từ ghi chú",
+      "p": "Mỗi dòng có ngày tháng sẽ xuất hiện trên lịch đúng ngày đó, kèm số tiền nếu có."
+     },
+     {
+      "h": "Nhắc nhở nhẹ nhàng",
+      "p": "Lời nhắc chỉ bật trên những dòng bạn chọn và vào đúng thời điểm bạn muốn."
+     },
+     {
+      "h": "Xem nhanh kế hoạch sắp tới",
+      "p": "Các tiện ích trên Màn hình chính và Màn hình khóa giúp bạn xem nhanh kế hoạch tiếp theo."
+     }
+    ],
+    "steps_title": "Cách thêm nhắc nhở vào ghi chú",
+    "steps": [
+     "Viết một dòng có ngày tháng, ví dụ \"tiền nhà ngày 28 5000k\".",
+     "Xem dòng đó hiển thị đúng ngày trên Lịch.",
+     "Thêm nhắc nhở vào dòng nếu bạn muốn được báo trước.",
+     "Đặt tiện ích ra ngoài màn hình để luôn nắm rõ lịch sắp tới."
+    ],
+    "why_title": "Vì sao nên lưu ngày tháng ngay trong ghi chú",
+    "why": [
+     "Kế hoạch nằm ngay nơi bạn viết, không cần đổi sang ứng dụng khác.",
+     "Hóa đơn và các khoản thanh toán hiện rõ số tiền trên lịch.",
+     "Lời nhắc không bao giờ làm phiền nếu bạn không chủ động bật.",
+     "Mọi tính năng trong Spendry Notes đều hoàn toàn miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Ghi chú trên iPhone có đặt nhắc nhở được không?",
+      "a": "Trong Spendry Notes, bất kỳ dòng nào có ngày tháng đều có thể gắn nhắc nhở nhẹ nhàng, chỉ khi bạn muốn thêm."
+     },
+     {
+      "q": "Ứng dụng có hiểu các từ như \"thứ sáu tới\" không?",
+      "a": "Có. Ứng dụng hiểu các cụm từ như \"ngày mai\", \"thứ sáu tới\", \"3 ngày nữa\", \"ngày 15\" và \"hàng tháng\"."
+     },
+     {
+      "q": "Tôi có thể xem kế hoạch ngay trên Màn hình khóa không?",
+      "a": "Có. Spendry Notes có sẵn tiện ích cho kế hoạch sắp tới và danh sách, dùng được ngay cả trên Màn hình khóa."
+     }
+    ],
+    "cta": "Tải Spendry Notes để ghi chú tự theo dõi ngày tháng cho bạn."
+   },
+   {
+    "key": "wishlist-with-prices",
+    "slug": "wishlist-with-prices",
+    "nav": "Danh sách mua sắm có giá",
+    "screen": "list",
+    "footer": false,
+    "title": "Danh sách mong muốn có giá và tổng tiền | Spendry Notes",
+    "description": "Tạo danh sách mong muốn có giá trong Spendry Notes: thấy tổng tiền, đặt hạn mức ngân sách và liên kết với mục tiêu tiết kiệm trong Spendry.",
+    "h1": "Danh sách mong muốn tự tính tiền",
+    "lead": "Ghi lại những món đồ bạn muốn mua kèm giá bán. Spendry Notes sẽ tự cộng tổng, cân đối với ngân sách và liên kết với mục tiêu tiết kiệm trong Spendry.",
+    "points": [
+     {
+      "h": "Tổng giá trị các món bạn muốn",
+      "p": "Mọi mức giá đều được cộng tự động, giúp bạn biết rõ cần bao nhiêu tiền cho tất cả."
+     },
+     {
+      "h": "Đặt hạn mức ngân sách",
+      "p": "Đặt ngân sách cho ghi chú để biết ngay số tiền còn lại mỗi khi thêm hoặc bớt đồ."
+     },
+     {
+      "h": "Đánh dấu món đã mua",
+      "p": "Các món tích chọn sẽ chuyển sang phần Đã mua, số còn lại vẫn hiển thị rõ ràng."
+     },
+     {
+      "h": "Tiết kiệm tiền trong Spendry",
+      "p": "Liên kết danh sách với mục tiêu tiết kiệm trong Spendry để theo dõi tiến độ từng ngày."
+     }
+    ],
+    "steps_title": "Cách lập danh sách mong muốn có giá tiền",
+    "steps": [
+     "Tạo một danh sách mới trong Spendry Notes.",
+     "Ghi từng món đồ kèm mức giá dự kiến.",
+     "Đặt ngân sách cho danh sách nếu bạn có kế hoạch chi tiêu cụ thể.",
+     "Liên kết danh sách với mục tiêu tiết kiệm trong Spendry."
+    ],
+    "why_title": "Lợi ích của danh sách mong muốn có giá",
+    "why": [
+     "Bạn thấy rõ tổng số tiền thực tế trước khi quyết định mua.",
+     "Tiền giảm giá được tính tự động ngay khi bạn nhập.",
+     "Mục tiêu tiết kiệm biến mong muốn thành kế hoạch rõ ràng.",
+     "Mọi tính năng trong Spendry Notes đều hoàn toàn miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Tôi có thể tạo danh sách đồ muốn mua kèm giá trên iPhone không?",
+      "a": "Có. Trong Spendry Notes, bạn chỉ cần nhập món đồ kèm giá, danh sách sẽ tự tính tổng tiền và số tiền còn lại trong ngân sách."
+     },
+     {
+      "q": "Tôi có thể lên kế hoạch tiết kiệm cho các món trong danh sách không?",
+      "a": "Có. Bạn chỉ cần liên kết danh sách với một mục tiêu tiết kiệm trong Spendry."
+     },
+     {
+      "q": "Ứng dụng có miễn phí không?",
+      "a": "Có. Mọi tính năng trong Spendry Notes đều hoàn toàn miễn phí."
+     }
+    ],
+    "cta": "Tải Spendry Notes và tạo danh sách mong muốn tự tính tiền ngay."
+   },
+   {
+    "key": "remember-grocery-prices",
+    "slug": "remember-grocery-prices",
+    "nav": "Nhớ giá đi chợ",
+    "screen": "list",
+    "footer": false,
+    "title": "Danh sách đi chợ nhớ giá tiền | Spendry Notes",
+    "description": "Nhập lại món đồ cũ, Spendry Notes tự điền giá bạn từng mua lần trước. Lập danh sách đi chợ nhanh chỉ trong vài giây.",
+    "h1": "Danh sách đi chợ tự nhớ giá từng mua",
+    "lead": "Gõ tên món đồ bạn từng mua, Spendry Notes sẽ tự điền giá của lần trước. Danh sách đi chợ hàng tuần hoàn thành trong nháy mắt kèm tổng tiền sẵn có.",
+    "points": [
+     {
+      "h": "Tự điền giá của lần mua trước",
+      "p": "Gõ \"sữa chua\" là giá cũ sẽ tự hiện ra, bạn chỉ cần sửa lại khi có thay đổi."
+     },
+     {
+      "h": "Biết trước tổng tiền",
+      "p": "Nhờ có sẵn giá tiền, danh sách sẽ tính ngay bạn cần trả bao nhiêu trước khi ra khỏi nhà."
+     },
+     {
+      "h": "Dễ nhận ra chênh lệch giá",
+      "p": "Vì giá cũ đã có sẵn trên dòng, bạn sẽ nhận ra ngay món nào vừa tăng hay giảm giá."
+     },
+     {
+      "h": "Tự tính theo số lượng",
+      "p": "Những phép tính như \"3 ly cà phê 75k\" hay \"2.5 kg thịt bò 250k/kg\" đều được tính tự động."
+     }
+    ],
+    "steps_title": "Cách thức hoạt động",
+    "steps": [
+     "Viết danh sách đi chợ kèm giá tiền trong lần đầu tiên.",
+     "Ở lần sau, bạn chỉ cần gõ tên các món đồ đó.",
+     "Giá tiền bạn từng trả lần trước sẽ tự động xuất hiện.",
+     "Chỉ cần chỉnh sửa món có đổi giá và kiểm tra tổng tiền."
+    ],
+    "why_title": "Vì sao giúp bạn tiết kiệm thời gian",
+    "why": [
+     "Lập danh sách mua sắm hàng tuần chỉ mất vài giây.",
+     "Biết ngay tổng chi phí trước khi bước vào quầy thu ngân.",
+     "Dễ dàng phát hiện các món hàng bị đổi giá.",
+     "Mọi tính năng trong Spendry Notes đều hoàn toàn miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Có ứng dụng danh sách đi chợ nào nhớ được giá không?",
+      "a": "Có. Trong Spendry Notes, mỗi khi bạn gõ lại một món đồ, mức giá bạn từng trả lần trước sẽ tự động được điền vào."
+     },
+     {
+      "q": "Ứng dụng có tự tính tổng danh sách không?",
+      "a": "Có. Danh sách hiển thị tổng số tiền của những món còn lại cần mua và những món bạn đã mua xong."
+     },
+     {
+      "q": "Ứng dụng có miễn phí không?",
+      "a": "Có. Mọi tính năng trong Spendry Notes đều hoàn toàn miễn phí."
+     }
+    ],
+    "cta": "Tải Spendry Notes để danh sách đi chợ tự ghi nhớ giá tiền cho bạn."
+   },
+   {
+    "key": "gift-list-with-budget",
+    "slug": "gift-list-with-budget",
+    "nav": "Danh sách quà tặng có ngân sách",
+    "screen": "list",
+    "footer": false,
+    "title": "Danh sách quà Tết có ngân sách | Spendry Notes",
+    "description": "Lập danh sách quà Tết và sinh nhật kèm giá tiền. Spendry Notes tự cộng tổng, theo dõi món đã mua và giúp bạn chi tiêu đúng ngân sách.",
+    "h1": "Danh sách quà tặng nằm trọn trong ngân sách",
+    "lead": "Ghi người nhận cùng giá từng món quà. Spendry Notes tự động tính tổng, hiển thị số tiền còn lại và lưu ngày tặng vào lịch của bạn.",
+    "points": [
+     {
+      "h": "Mẫu danh sách có sẵn",
+      "p": "Bắt đầu từ mẫu Danh sách quà tặng và ghi một dòng cho mỗi người."
+     },
+     {
+      "h": "Tự động cộng từng món quà",
+      "p": "Gõ \"Khăn len 250k\" hoặc \"Sách 2 x 150k\", ứng dụng sẽ tự cộng dồn, có riêng tổng tiền đã mua và tiền còn lại."
+     },
+     {
+      "h": "Ngân sách cho cả dịp lễ",
+      "p": "Đặt ngân sách cho ghi chú để biết bạn còn lại bao nhiêu tiền mỗi khi thêm một món quà."
+     },
+     {
+      "h": "Lưu ngày sinh nhật vào lịch",
+      "p": "Viết ngày cạnh tên, ví dụ \"Sinh nhật mẹ 2 tháng 11\", lịch sẽ hiển thị đúng ngày đó kèm nhắc nhở nếu bạn muốn."
+     }
+    ],
+    "steps_title": "Cách tạo danh sách quà tặng kèm ngân sách",
+    "steps": [
+     "Tạo ghi chú mới từ mẫu Danh sách quà tặng.",
+     "Ghi tên từng người và món quà dự kiến, kèm theo giá tiền.",
+     "Đặt ngân sách chung cho dịp lễ vào ghi chú.",
+     "Đánh dấu những món đã mua và xem số tiền còn lại."
+    ],
+    "why_title": "Vì sao nên lên danh sách quà trên Spendry Notes",
+    "why": [
+     "Cả dịp lễ gói gọn trong một ghi chú, có sẵn tổng tiền.",
+     "Hiện ngày sinh nhật và hạn chót trên lịch của bạn.",
+     "Ghi nhớ mức giá bạn từng mua trước đây.",
+     "Tải về miễn phí và sử dụng hoàn toàn miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Làm thế nào để tạo danh sách quà Tết có ngân sách?",
+      "a": "Chọn mẫu Danh sách quà tặng trong Spendry Notes, ghi từng món kèm giá và đặt ngân sách. Ghi chú sẽ hiển thị số tiền đã chi và số còn lại."
+     },
+     {
+      "q": "Tôi có xem được những món đã mua không?",
+      "a": "Có. Khi bạn tích chọn món đã mua, tổng tiền đã mua và số tiền còn lại sẽ tự động thay đổi theo."
+     },
+     {
+      "q": "Ứng dụng có miễn phí không?",
+      "a": "Có. Tất cả tính năng của Spendry Notes đều hoàn toàn miễn phí."
+     }
+    ],
+    "cta": "Tải Spendry Notes để sắm quà năm nay luôn đúng ngân sách."
+   },
+   {
+    "key": "black-friday-shopping-list",
+    "slug": "black-friday-shopping-list",
+    "nav": "Danh sách Black Friday",
+    "screen": "list",
+    "footer": false,
+    "title": "Danh sách mua sắm Black Friday | Spendry Notes",
+    "description": "Lập danh sách săn sale Black Friday. Spendry Notes tự tính tiền giảm giá, cộng tổng giỏ hàng và hiển thị số tiền còn lại trong ngân sách.",
+    "h1": "Danh sách mua sắm Black Friday không lo lố tiền",
+    "lead": "Ghi món đồ bạn muốn mua kèm giá và phần trăm giảm trước đợt sale. Spendry Notes tính giá thực tế, cộng tổng tiền và theo dõi sát ngân sách.",
+    "points": [
+     {
+      "h": "Tự tính mức giảm giá",
+      "p": "Gõ \"Giày thể thao 800k -20%\", dòng ghi chú sẽ hiển thị ngay số tiền sau khi đã trừ giảm giá."
+     },
+     {
+      "h": "Một tổng tiền cho cả giỏ hàng",
+      "p": "Mọi ưu đãi đều được cộng dồn khi bạn viết, có riêng tổng tiền cho món đã mua và món còn trên danh sách."
+     },
+     {
+      "h": "Chốt ngân sách trước mùa sale",
+      "p": "Đặt ngân sách cho ghi chú để biết rõ bạn còn bao nhiêu tiền trước khi quyết định bấm mua."
+     },
+     {
+      "h": "Nhớ giá mua lần trước",
+      "p": "Gõ lại món đồ cũ, ứng dụng sẽ gợi ý giá bạn từng trả trước đây để bạn so sánh xem có thật sự rẻ hơn không."
+     }
+    ],
+    "steps_title": "Cách lập danh sách mua sắm Black Friday",
+    "steps": [
+     "Tạo danh sách trong Spendry Notes trước ngày bắt đầu sale.",
+     "Ghi từng món bạn muốn mua cùng giá bán.",
+     "Nhập mức giảm giá ngay khi tìm thấy khuyến mãi.",
+     "Đặt ngân sách cho danh sách và đánh dấu những món bạn mua."
+    ],
+    "why_title": "Vì sao nên săn sale cùng Spendry Notes",
+    "why": [
+     "Tự động tính giảm giá và tổng tiền cho bạn.",
+     "Ngân sách rõ ràng, luôn hiển thị số tiền còn lại.",
+     "Tiện ích trên Màn hình chính giúp bạn xem nhanh danh sách.",
+     "Tải về miễn phí và sử dụng hoàn toàn miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Làm thế nào để tạo danh sách mua sắm Black Friday?",
+      "a": "Ghi các món bạn cần vào danh sách Spendry Notes kèm giá và mức giảm. Ứng dụng tự tính giá, cộng tổng và hiển thị số tiền còn lại của ngân sách."
+     },
+     {
+      "q": "Ứng dụng có tự tính giảm giá theo phần trăm không?",
+      "a": "Có. Bạn chỉ cần ghi giá và phần trăm giảm, như -20%, ứng dụng sẽ hiển thị ngay mức giá sau khi giảm."
+     },
+     {
+      "q": "Ứng dụng có miễn phí không?",
+      "a": "Có. Mọi tính năng của Spendry Notes đều hoàn toàn miễn phí."
+     }
+    ],
+    "cta": "Tải Spendry Notes để bước vào mùa sale với danh sách và ngân sách rõ ràng."
+   },
+   {
+    "key": "daily-expense-notes",
+    "slug": "daily-expense-notes",
+    "nav": "Ghi chép chi tiêu hàng ngày",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Ghi chép chi tiêu hàng ngày tự cộng | Spendry Notes",
+    "description": "Ghi lại chi tiêu trong ngày vào ghi chú và xem ngay tổng tiền. Spendry Notes tự cộng mỗi ngày và có thể chuyển thành chi phí sang Spendry.",
+    "h1": "Ghi chép chi tiêu mỗi ngày, xem ngay tổng tiền",
+    "lead": "Mở ghi chú trong ngày, ghi lại khoản chi vừa phát sinh và tổng số tiền luôn hiển thị sẵn. Bạn có thể gửi từng dòng sang Spendry làm khoản chi bất kỳ lúc nào.",
+    "points": [
+     {
+      "h": "Ghi chú hôm nay",
+      "p": "Chạm vào Hôm nay và ghi từng khoản chi trên một dòng, ví dụ \"Gửi xe 10k\" hoặc \"Cà phê 35k\". Ghi chú sẽ tự cộng tổng cả ngày."
+     },
+     {
+      "h": "Từng ngày trên lịch",
+      "p": "Ghi chú của mỗi ngày hiển thị ngay trên ngày đó trong lịch kèm tổng tiền, giúp bạn xem lại chi tiêu tuần trước chỉ bằng một chạm."
+     },
+     {
+      "h": "Chuyển sang Spendry",
+      "p": "Chuyển một dòng thành khoản chi sang Spendry chỉ với một chạm để cập nhật ngân sách nhanh chóng."
+     },
+     {
+      "h": "Thêm nhanh bằng Siri",
+      "p": "Siri có thể thêm một dòng vào ghi chú hôm nay, và số tiền bạn đọc ra sẽ được tự động cộng vào tổng."
+     }
+    ],
+    "steps_title": "Cách theo dõi chi tiêu hàng ngày bằng ghi chú",
+    "steps": [
+     "Chạm vào Hôm nay trong Spendry Notes.",
+     "Ghi từng khoản tiền bạn đã chi trên mỗi dòng.",
+     "Xem tổng tiền cả ngày ngay trong ghi chú hoặc trên lịch.",
+     "Chuyển dòng chi tiêu sang Spendry khi muốn đưa vào ngân sách."
+    ],
+    "why_title": "Vì sao nên ghi chép chi tiêu bằng Spendry Notes",
+    "why": [
+     "Nhanh và đơn giản như viết một dòng ghi chú thông thường.",
+     "Có sẵn tổng tiền từng ngày, hiển thị trực quan trên lịch.",
+     "Kết nối với Spendry khi bạn cần quản lý ngân sách nâng cao hơn.",
+     "Miễn phí hoàn toàn, không cần đăng ký tài khoản."
+    ],
+    "faq": [
+     {
+      "q": "Làm cách nào để theo dõi chi tiêu hàng ngày trên ứng dụng ghi chú?",
+      "a": "Ghi mỗi khoản chi trên một dòng kèm số tiền trong Spendry Notes. Ứng dụng sẽ tự cộng các dòng lại, và ghi chú mỗi ngày sẽ xuất hiện trên lịch cùng tổng tiền."
+     },
+     {
+      "q": "Tôi có thể chuyển khoản chi vào ngân sách không?",
+      "a": "Có. Bạn có thể gửi một dòng sang Spendry thành một khoản chi tiêu chỉ với một thao tác chạm."
+     },
+     {
+      "q": "Tôi có cần đăng nhập tài khoản ngân hàng không?",
+      "a": "Không. Bạn tự tay ghi chép chi tiêu của mình, Spendry Notes không bao giờ liên kết với ngân hàng."
+     }
+    ],
+    "cta": "Tải Spendry Notes và gom trọn chi tiêu hôm nay vào một ghi chú gọn gàng."
+   },
+   {
+    "key": "renovation-budget-planner",
+    "slug": "renovation-budget-planner",
+    "nav": "Ngân sách sửa nhà",
+    "screen": "plan",
+    "footer": false,
+    "title": "Bảng dự toán chi phí sửa nhà | Spendry Notes",
+    "description": "Lập dự toán sửa nhà trong một ghi chú. Spendry Notes tính tiền vật tư, nhân công, số lượng và lưu lịch thanh toán cho bạn.",
+    "h1": "Lập dự toán chi phí sửa nhà trong một ghi chú",
+    "lead": "Ghi từng loại vật liệu và công thợ kèm đơn giá. Spendry Notes tự động nhân số lượng, cộng tổng tiền và xếp ngày thanh toán vào lịch của bạn.",
+    "points": [
+     {
+      "h": "Vật liệu theo số lượng",
+      "p": "Gõ \"Sơn 6 thùng mỗi cái 350k\" hoặc \"30 hộp gạch 120k/hộp\", ứng dụng sẽ tự nhân thành tiền cho từng dòng."
+     },
+     {
+      "h": "Công thợ và chi phí phát sinh gom chung một tổng",
+      "p": "Tiền thợ, phí vận chuyển và dọn dẹp đều được cộng chung vào một tổng tiền ngay khi bạn viết."
+     },
+     {
+      "h": "Lịch thanh toán từng đợt",
+      "p": "Gõ \"Đặt cọc ngày 15 10000k\", khoản tiền sẽ hiện đúng ngày đó trên lịch kèm nhắc nhở nếu bạn cần."
+     },
+     {
+      "h": "Liên kết với mục tiêu",
+      "p": "Kết hợp với Spendry để liên kết ghi chú với mục tiêu tiết kiệm, giúp bạn biết sửa nhà xong thì còn lại bao nhiêu."
+     }
+    ],
+    "steps_title": "Cách lập dự toán chi phí sửa nhà",
+    "steps": [
+     "Tạo một danh sách mới trong Spendry Notes cho công trình.",
+     "Ghi từng loại vật tư và phần việc kèm giá tiền, hoặc theo số lượng nhân đơn giá.",
+     "Ghi kèm ngày vào các đợt cọc và thanh toán để hiển thị trên lịch.",
+     "Đánh dấu những khoản đã chi để biết số tiền còn lại cần trả."
+    ],
+    "why_title": "Vì sao nên lập dự toán sửa nhà trên Spendry Notes",
+    "why": [
+     "Toàn bộ dự án gói gọn trong một ghi chú, luôn có sẵn tổng chi phí.",
+     "Tự động tính toán số lượng nhân với đơn giá.",
+     "Ngày thanh toán hiển thị rõ trên lịch kèm nhắc nhở đúng hẹn.",
+     "Tải về miễn phí và sử dụng hoàn toàn miễn phí."
+    ],
+    "faq": [
+     {
+      "q": "Làm thế nào để lập dự toán sửa nhà trên iPhone?",
+      "a": "Tạo danh sách trong Spendry Notes rồi ghi từng vật tư và hạng mục kèm giá. Danh sách sẽ tự cộng tổng, có riêng số tiền đã mua và tiền còn lại."
+     },
+     {
+      "q": "Ứng dụng có thể nhắc tôi về các đợt thanh toán không?",
+      "a": "Có. Bạn chỉ cần ghi ngày vào dòng chi tiêu và bật nhắc nhở, máy sẽ gửi thông báo cho bạn vào đúng ngày đó."
+     },
+     {
+      "q": "Ứng dụng có miễn phí không?",
+      "a": "Có. Mọi tính năng của Spendry Notes đều được dùng hoàn toàn miễn phí."
+     }
+    ],
+    "cta": "Tải Spendry Notes để quản lý toàn bộ chi phí sửa nhà trong một ghi chú."
+   }
+  ],
+  "bundle": {
+   "slug": "spendry-and-notes",
+   "nav": "Gói ứng dụng Spendry & Notes",
+   "title": "Spendry & Notes: Bộ ứng dụng chi tiêu và ghi chú",
+   "description": "Tải miễn phí Spendry và Spendry Notes trên App Store. Quản lý ngân sách, thẻ và hóa đơn trong một ứng dụng, ghi chú tự tính tiền trong ứng dụng còn lại.",
+   "h1": "Spendry & Notes, hai ứng dụng miễn phí đồng hành cùng nhau",
+   "lead": "Spendry quản lý ngân sách, thẻ tín dụng, khoản vay và hóa đơn. Spendry Notes tính tổng danh sách và chuyển ghi chú thành kế hoạch. Tải cả hai chỉ với một chạm từ gói ứng dụng miễn phí trên App Store.",
+   "spendry_h": "Spendry",
+   "spendry_p": "Ngân sách, thẻ tín dụng, trả góp, khoản vay, hóa đơn và dịch vụ định kỳ tại một nơi. Spendry nhắc bạn trước mỗi hạn thanh toán và tính ngày bạn sạch nợ theo phương pháp quả cầu tuyết hoặc thác tuyết. Không cần đăng nhập ngân hàng, không thu thập dữ liệu.",
+   "notes_h": "Spendry Notes",
+   "notes_p": "Ứng dụng ghi chú thông minh hiểu giá tiền. Gõ \"sữa 35k\" hoặc \"tiền nhà ngày 28 5000k\": Spendry Notes tự động tính tổng danh sách và chuyển ngày tháng trong từng dòng thành kế hoạch, trong khi văn bản của bạn vẫn giữ nguyên dạng ghi chú quen thuộc.",
+   "together_h": "Hiệu quả hơn khi kết hợp",
+   "together": [
+    "Liên kết ghi chú với ngân sách, mục tiêu hoặc khoản vay trong Spendry để xem số tiền còn lại sau khi mua sắm.",
+    "Chuyển một dòng từ ghi chú sang Spendry làm khoản chi tiêu hoặc lời nhắc chỉ với một chạm.",
+    "Một gói đăng ký Spendry Premium dùng được cho cả hai ứng dụng."
+   ],
+   "faq": [
+    {
+     "q": "Gói Spendry & Notes là gì?",
+     "a": "Đây là gói ứng dụng miễn phí trên App Store giúp bạn cài đặt cả Spendry và Spendry Notes cùng lúc chỉ với một lần chạm."
+    },
+    {
+     "q": "Gói ứng dụng này có mất phí không?",
+     "a": "Không. Cả hai ứng dụng đều tải về miễn phí. Spendry Premium là gói đăng ký tùy chọn tự động gia hạn trừ khi bạn hủy, và một gói đăng ký áp dụng cho cả hai ứng dụng."
+    },
+    {
+     "q": "Những thiết bị nào được hỗ trợ?",
+     "a": "Spendry hoạt động trên iPhone, iPad và Mac, còn Spendry Notes hoạt động trên iPhone. Cả hai ứng dụng đều yêu cầu iOS 17 trở lên trên iPhone."
+    }
+   ],
+   "cta": "Tải Spendry và Spendry Notes cùng lúc chỉ với một chạm."
+  }
+ }
 }

@@ -31,6 +31,28 @@ and send nothing anywhere. The site is in 47 languages; English is at https://sp
 - [Mint alternative](https://spendryapp.com/mint-alternative/): Mint closed in March 2024. Spendry is an iPhone budget app with budgets, bills, cards, loans and a debt-free date, without a bank login and with no data collected.
 - [Loan tracker](https://spendryapp.com/loan-tracker-app/): Track every loan in Spendry: the remaining balance, the interest and principal in each payment, the payments left and a reminder before each installment.
 
+## Spendry Notes, the companion notes app, and the Spendry & Notes bundle
+Spendry Notes is a free iPhone notes app that understands money: shopping lists add up as you write, the days in your
+lines become plans on a calendar, and notes can be linked to budgets, goals and loans in Spendry. Spendry and Spendry
+Notes are also a free App Store bundle; one Spendry Premium subscription covers both apps.
+- [Spendry Notes](https://spendryapp.com/spendry-notes/): Spendry Notes is a free iPhone notes app that adds up your shopping lists, turns the days in your notes into plans and works with Spendry.
+- [Grocery list app](https://spendryapp.com/grocery-list-app/): A free grocery list app for iPhone that adds up prices as you write, shows what is left to buy and remembers what you paid last time.
+- [Shopping list with prices](https://spendryapp.com/shopping-list-with-prices/): Write a shopping list with prices and Spendry Notes keeps a running total, works out discounts and shows what is left in your budget.
+- [Notes app with calculator](https://spendryapp.com/notes-app-with-calculator/): Spendry Notes is a notes app that does the math: it reads the amounts in your lines and adds them up, with quantities, discounts and splits.
+- [Split the bill](https://spendryapp.com/split-the-bill/): Write "Dinner 120/3" and Spendry Notes shows each person's share. Tips and discounts are worked out too, right in your note.
+- [Monthly plan in a note](https://spendryapp.com/monthly-budget-planner-notes/): Plan the month in a note: salary, rent and bills with their days. Spendry Notes shows the net total and puts every day on your calendar.
+- [Trip budget planner](https://spendryapp.com/trip-budget-planner/): Start from the trip template, write flights, rooms and daily costs, and Spendry Notes adds them up and shows each person's share.
+- [Moving checklist](https://spendryapp.com/moving-checklist-with-costs/): A moving checklist that adds up: tick off each task, write its cost and see the total. Start from the moving template in Spendry Notes.
+- [Event budget planner](https://spendryapp.com/event-budget-planner/): Plan a party, birthday or wedding budget in a note. Spendry Notes adds up every cost, splits shares and puts the dates on your calendar.
+- [Notes with reminders](https://spendryapp.com/notes-with-reminders/): Write "Rent on the 28th" and it lands on your calendar. Spendry Notes adds a quiet reminder to any line, only when you want one.
+- [Wishlist with prices](https://spendryapp.com/wishlist-with-prices/): Keep a wishlist with prices in Spendry Notes: see the total of everything on it, give it a budget and link it to a savings goal in Spendry.
+- [Remember grocery prices](https://spendryapp.com/remember-grocery-prices/): Type an item again and Spendry Notes fills in the price you paid last time, so your grocery list is ready in seconds.
+- [Gift list with a budget](https://spendryapp.com/gift-list-with-budget/): Plan Christmas and birthday gifts in a list with prices. Spendry Notes adds them up, tracks what you bought and keeps you inside your budget.
+- [Black Friday list](https://spendryapp.com/black-friday-shopping-list/): Plan Black Friday deals in a list. Spendry Notes works out each discount, adds up the cart and shows what is left of your budget.
+- [Daily expense notes](https://spendryapp.com/daily-expense-notes/): Write the day's spending in a note and see the total. Spendry Notes adds up each day and can send a line to Spendry as an expense.
+- [Renovation budget](https://spendryapp.com/renovation-budget-planner/): Plan a renovation budget in a note. Spendry Notes adds up materials and labor, works out quantities and keeps payment days on your calendar.
+- [Spendry & Notes](https://spendryapp.com/spendry-and-notes/): Get Spendry and Spendry Notes together for free on the App Store. Budgets, cards and bills in one app, notes that do the math in the other.
+
 ## How long credit card debt takes, balance by balance
 - [How long does it take to pay off credit card debt?](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/): How long it takes to pay off $1,000 to $50,000 of credit card debt: the monthly payment to be debt-free in one or three years, and what minimum payments cost.
 - [$1,000](https://spendryapp.com/how-long-to-pay-off-credit-card-debt/1000/)
@@ -95,6 +117,23 @@ and send nothing anywhere. The site is in 47 languages; English is at https://sp
 - [Ortak bütçe uygulaması](https://spendryapp.com/tr/ortak-butce-uygulamasi/): Spendry'de bütçeleri ve birikim hedeflerini eşinle ya da ailenle paylaş. Herkes kendi iPhone'unu ve Apple Hesabı'nı kullanır, paylaşılanlar iCloud üzerinden eşitlenir.
 - [Gelir gider takip uygulaması](https://spendryapp.com/tr/gelir-gider-takip-uygulamasi/): Gelirini ve giderini Spendry'de takip et: aylık bakiye, kategoriye göre harcamalar, kart ödemeleri, taksitler ve faturalar tek ekranda. Banka şifresi istemez.
 - [Kredi takip uygulaması](https://spendryapp.com/tr/kredi-takip-uygulamasi/): Tüm kredilerini Spendry'de takip et: kalan borç, her taksitteki faiz ve anapara, kalan taksit sayısı ve her taksitten önce hatırlatma.
+- [Spendry Notes](https://spendryapp.com/tr/spendry-notes/): Spendry Notes, alışveriş listelerini toplayan, notlarındaki günleri plana çeviren ve Spendry ile çalışan ücretsiz bir iPhone not uygulaması.
+- [Market listesi uygulaması](https://spendryapp.com/tr/market-listesi-uygulamasi/): Yazdıkça fiyatları toplayan, alınacakları gösteren ve geçen sefer ödediğin fiyatı hatırlayan ücretsiz iPhone market listesi uygulaması.
+- [Fiyatlı alışveriş listesi](https://spendryapp.com/tr/fiyatli-alisveris-listesi/): Alışveriş listeni fiyatlarıyla yaz; Spendry Notes toplamı anlık tutar, indirimleri hesaplar ve bütçende ne kaldığını gösterir.
+- [Hesap yapan not defteri](https://spendryapp.com/tr/hesap-yapan-not-defteri/): Spendry Notes hesap yapan bir not defteri: satırlarındaki tutarları okur ve toplar; adet, indirim ve kişi başı pay da hesaplanır.
+- [Hesap bölme](https://spendryapp.com/tr/hesap-bolme/): "Yemek 1200/4" yaz, Spendry Notes kişi başı payı göstersin. Bahşiş ve indirim de notunun içinde hesaplanır.
+- [Aylık bütçe planı](https://spendryapp.com/tr/aylik-butce-plani/): Ayı tek notta planla: maaş, kira ve faturalar günleriyle. Spendry Notes net toplamı gösterir, her günü takvimine koyar.
+- [Tatil bütçesi planlama](https://spendryapp.com/tr/tatil-butcesi-planlama/): Tatil şablonundan başla; uçak, otel ve günlük masrafları yaz. Spendry Notes toplar ve kişi başı payı gösterir.
+- [Taşınma listesi](https://spendryapp.com/tr/tasinma-listesi-masraflari/): Toplayan bir taşınma listesi: her işi işaretle, masrafını yaz, toplamı gör. Spendry Notes'ta taşınma şablonundan başla.
+- [Etkinlik bütçesi](https://spendryapp.com/tr/etkinlik-butcesi/): Parti, doğum günü ya da düğün bütçesini bir notta planla. Spendry Notes her masrafı toplar, payları böler, tarihleri takvime koyar.
+- [Hatırlatıcılı not uygulaması](https://spendryapp.com/tr/hatirlaticili-not-uygulamasi/): "Ayın 28'inde kira" yaz, takvimine düşsün. Spendry Notes istediğin satıra, yalnızca istediğinde sessiz bir hatırlatma ekler.
+- [Fiyatlı istek listesi](https://spendryapp.com/tr/fiyatli-istek-listesi/): Spendry Notes'ta fiyatlı bir istek listesi tut: hepsinin toplamını gör, listeye bütçe ver ve Spendry'deki bir birikim hedefine bağla.
+- [Fiyatları hatırlayan liste](https://spendryapp.com/tr/fiyatlari-hatirlayan-market-listesi/): Bir ürünü yeniden yazdığında Spendry Notes geçen sefer ödediğin fiyatı getirir; market listen saniyeler içinde hazır olur.
+- [Hediye listesi](https://spendryapp.com/tr/yilbasi-hediye-listesi/): Yılbaşı ve doğum günü hediyelerini fiyatlarıyla listele. Spendry Notes toplar, aldıklarını takip eder ve seni bütçende tutar.
+- [Black Friday listesi](https://spendryapp.com/tr/black-friday-alisveris-listesi/): Black Friday fırsatlarını listele. Spendry Notes her indirimi hesaplar, sepeti toplar ve bütçenden ne kaldığını gösterir.
+- [Günlük harcama notu](https://spendryapp.com/tr/gunluk-harcama-notu/): Günün harcamalarını bir nota yaz, toplamı gör. Spendry Notes her günü toplar, istersen bir satırı Spendry'ye harcama olarak gönderir.
+- [Tadilat bütçesi](https://spendryapp.com/tr/tadilat-butcesi/): Tadilat bütçeni bir notta planla. Spendry Notes malzeme ve işçiliği toplar, adetleri hesaplar ve ödeme günlerini takvimine koyar.
+- [Spendry & Notes](https://spendryapp.com/tr/spendry-ve-notes/): Spendry ve Spendry Notes'u App Store'da birlikte ücretsiz al. Biri bütçe, kart ve faturalar için; diğeri hesap yapan notlar için.
 - [Kredi kartı borcu kaç ayda biter?](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/): Kart borcun kaç ayda biter, ne kadar faiz ödersin? 10.000 TL ile 300.000 TL arası borçlar için asgari ödeme ve sabit ödeme tablosu; 2026 faiz tavanları, KKDF ve BSMV dahil.
 - [10.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/10000-tl/)
 - [20.000 TL](https://spendryapp.com/tr/kredi-karti-borcu-kac-ayda-biter/20000-tl/)
@@ -129,6 +168,8 @@ and send nothing anywhere. The site is in 47 languages; English is at https://sp
 
 ## App
 - [Spendry on the App Store](https://apps.apple.com/app/apple-store/id6754893380?pt=128270734&ct=web-en-llms&mt=8)
+- [Spendry Notes on the App Store](https://apps.apple.com/app/apple-store/id6826541122?pt=128270734&ct=web-en-llms&mt=8)
+- [Spendry & Notes bundle on the App Store](https://apps.apple.com/app-bundle/spendry-notes/id6828348787?pt=128270734&ct=web-en-llms&mt=8)
 - [Privacy policy](https://spendryapp.com/privacy-policy.html)
 - [Terms of service](https://spendryapp.com/terms-of-service.html)
 - Support: support@spendryapp.com

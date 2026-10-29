@@ -2383,5 +2383,1001 @@
     }
    ]
   }
- ]
+ ],
+ "notes": {
+  "labels": {
+   "app": "Spendry Notes",
+   "free": "Ingyenes az App Store-ban iPhone-ra. A Spendry Notes minden funkciója ingyenes.",
+   "download": "Spendry Notes letöltése",
+   "more": "Továbbiak a Spendry Notes-ról",
+   "cta": "Töltsd le a Spendry Notes-t, és hagyd, hogy a listáid összeadódjanak.",
+   "bundle_nav": "Spendry & Notes",
+   "bundle_button": "Mindkét app letöltése",
+   "spendry_title": "Spendry: a költségvetés-tervező app, amellyel együttműködik",
+   "home_kicker": "Spendry Notes",
+   "home_title": "Jegyzetek, amelyek számolnak, a költségvetésed mellett",
+   "home_text": "A Spendry Notes az ingyenes jegyzet appunk: önmagukat összeadó bevásárlólisták, naptárba kerülő tervek és a Spendry költségkereteidhez kapcsolt jegyzetek. Szerezd be mindkét appot egyetlen koppintással az ingyenes Spendry & Notes csomaggal.",
+   "home_more": "Nézd meg, mire képes a Spendry Notes",
+   "shots": "A Spendry Notes belülről",
+   "shot_alts": {
+    "home": "Spendry Notes Főképernyő a mai tervekkel és listákkal",
+    "list": "Bevásárlólista a Spendry Notes-ban árakkal és összegekkel",
+    "plan": "Havi terv a Spendry Notes-ban bevételekkel, számlákkal és nettó egyenleggel",
+    "calendar": "A Spendry Notes naptára a tervekkel a megfelelő napokon",
+    "ask": "Kérdés feltevése a Spendry Notes-nak a heti tervekről",
+    "picker": "Jegyzet összekapcsolása egy Spendry költségkerettel, céllal vagy kölcsönnel"
+   }
+  },
+  "pages": [
+   {
+    "key": "spendry-notes",
+    "slug": "spendry-notes",
+    "nav": "Spendry Notes",
+    "screen": "home",
+    "footer": true,
+    "title": "Spendry Notes: Pénzügyi jegyzet, ami számol",
+    "description": "A Spendry Notes ingyenes iPhone-jegyzet, ami összeadja a bevásárlólistádat, a napokból tervet készít, és együttműködik a Spendryvel.",
+    "h1": "Spendry Notes, a pénzügyi jegyzet, ami számol",
+    "lead": "Írj úgy, ahogy szoktál. A Spendry Notes felismeri az összegeket, napokat és időpontokat a soraidban, összeadja őket, és terveket készít belőlük, miközben a jegyzeted egyszerű jegyzet marad.",
+    "points": [
+     {
+      "h": "Listák, amelyek számolnak",
+      "p": "A bevásárlólisták élőben mutatják a fennmaradó és a már megvett tételek összegét. Pipáld ki a tételeket vásárlás közben, és az összegek azonnal frissülnek."
+     },
+     {
+      "h": "Írd úgy, ahogy mondod",
+      "p": "\"4 üveg sör 450 Ft / db\", \"1.5 kg alma 400 Ft/kg\" vagy \"Ebéd 12000/4\": a mennyiségeket, az egységárakat, a kedvezményeket, a borravalót és az egy főre jutó részt mind kiszámolja helyetted."
+     },
+     {
+      "h": "A napokból tervek lesznek",
+      "p": "Írj be egy napot a sorba, és megjelenik a naptáradban. A \"holnap\", a \"jövő péntek\", a \"3 nap múlva\", a \"15-én\" és a \"minden hónapban\" kifejezéseket mind megérti, és bármelyik sorhoz kérhetsz csendes emlékeztetőt."
+     },
+     {
+      "h": "Kérdezd a jegyzeteid",
+      "p": "Kérdezd meg, hogy \"Mi a terv a héten?\" vagy \"Mi maradt a listáimon?\", és közvetlenül a saját jegyzeteidből kapsz választ, közvetlenül az iPhone-odon."
+     },
+     {
+      "h": "Összekapcsolás a Spendryvel",
+      "p": "Kapcsold össze a jegyzetet egy költségkerettel, céllal vagy kölcsönnel a Spendryben, és lásd, mi marad a listád után, vagy küldj át egy sort kiadásként vagy emlékeztetőként egyetlen érintéssel."
+     }
+    ],
+    "steps_title": "Így kezdd el használni a Spendry Notes alkalmazást",
+    "steps": [
+     "Töltsd le a Spendry Notes appot az App Store-ból. Teljesen ingyenes.",
+     "Írj listát vagy tervet úgy, ahogy papírra vetnéd, árakkal és napokkal.",
+     "Figyeld, ahogy az összegek és a naptárad maguktól kitöltődnek.",
+     "Ha használod a Spendry appot, kapcsold össze a jegyzetet egy költségkerettel, céllal vagy kölcsönnel."
+    ],
+    "why_title": "Miért szeretik a Spendry Notes appot",
+    "why": [
+     "A Spendry Notes minden funkciója ingyenes.",
+     "Önállóan is remekül működik, a Spendryvel együtt pedig még többet tud.",
+     "Widgetek mutatják a listáidat és a közelgő terveidet a Főképernyőn és a Zárolási képernyőn is.",
+     "Az iCloud szinkronizálja a jegyzeteidet az eszközeid között, a Nemrég törölt mappa pedig 30 napig megőrzi őket."
+    ],
+    "faq": [
+     {
+      "q": "Ingyenes a Spendry Notes?",
+      "a": "Igen. A Spendry Notes minden funkciója ingyenes. A Spendry Premium egy választható előfizetés, amely prémium funkciókat nyit meg a Spendryben, és egyetlen előfizetés mindkét appra érvényes."
+     },
+     {
+      "q": "Szükségem van a Spendryre a Spendry Notes használatához?",
+      "a": "Nem. A Spendry Notes önállóan is működik. Ha a Spendry is telepítve van, a jegyzeteket összekapcsolhatod költségkeretekkel, célokkal és kölcsönökkel, és sorokat is átküldhetsz a Spendrybe."
+     },
+     {
+      "q": "Milyen eszközökön fut a Spendry Notes?",
+      "a": "A Spendry Notes egy iPhone-alkalmazás, és iOS 17 vagy újabb rendszer szükséges hozzá."
+     },
+     {
+      "q": "Használhatom a Sirit a Spendry Notes appal?",
+      "a": "Igen. A Siri és a Parancsok képes új tételeket adni a listához, és megmondja, milyen teendők következnek."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és bízd a számolást a jegyzeteidre."
+   },
+   {
+    "key": "grocery-list-app",
+    "slug": "grocery-list-app",
+    "nav": "Bevásárlólista app",
+    "screen": "list",
+    "footer": true,
+    "title": "Bevásárlólista árakkal és összegzéssel | Spendry Notes",
+    "description": "Ingyenes bevásárlólista iPhone-ra: írás közben összeadja az árakat, mutatja a hátralévő összeget, és megjegyzi a korábbi árakat.",
+    "h1": "Bevásárlólista app, ami vásárlás közben számol",
+    "lead": "Írd össze a listádat árakkal, pipáld ki a kosárba tett tételeket, és lásd azonnal a megvett és a még hátramaradt dolgok végösszegét.",
+    "points": [
+     {
+      "h": "Összegzés gépelés közben",
+      "p": "Írd be, hogy \"Tej 450 Ft\" vagy \"2 kenyér 1200 Ft\", és a lista azonnal összeadja. A fennmaradó és a megvett tételek összege minden pipálással változik."
+     },
+     {
+      "h": "Mennyiségek és egységárak",
+      "p": "Az \"1.5 kg alma 400 Ft/kg\" és a \"4 üveg sör 450 Ft / db\" számítását mind elvégzi helyetted, számológép nélkül."
+     },
+     {
+      "h": "A legutóbb fizetett ár",
+      "p": "Írj be egy tételt újra, és a legutóbb fizetett ár automatikusan megjelenik, így a heti lista másodpercek alatt kész."
+     },
+     {
+      "h": "Költségkeret a bevásárláshoz",
+      "p": "Adj meg egy költségkeretet a listához, és lásd, mennyi pénzed marad, miközben sorra adod hozzá a dolgokat."
+     }
+    ],
+    "steps_title": "Így készíts árakat összegző bevásárlólistát",
+    "steps": [
+     "Hozz létre egy listát a Spendry Notes appban.",
+     "Írd be a tételeket az árukkal, vagy mennyiséggel és egységárral.",
+     "Pipáld ki a tételeket, ahogy a kosárba kerülnek.",
+     "Még a pénztár előtt ellenőrizd a végösszeget a lista alján."
+    ],
+    "why_title": "Miért érdemes a Spendry Notes appot használni a bevásárláshoz",
+    "why": [
+     "Ingyenes, regisztráció nélkül használható.",
+     "A widgetek megmutatják a listát a Főképernyőn és a Zárolási képernyőn.",
+     "A Siri segítségével hanggal is hozzáadhatsz tételeket a listához.",
+     "A Spendryvel összekapcsolva a listát a bevásárlási keretedhez kötheted, így azonnal látod, mi marad belőle."
+    ],
+    "faq": [
+     {
+      "q": "Létezik ingyenes bevásárlólista app, ami összeadja az árakat?",
+      "a": "A Spendry Notes ingyenes, és gépelés közben összeadja az árakat a listádon, külön bontva a még megvásárolandó és a már megvett tételeket."
+     },
+     {
+      "q": "Megjegyzi az árakat az app?",
+      "a": "Igen. Ha egy korábbi tételt írsz be újra, a legutóbb fizetett árat automatikusan beilleszti neked."
+     },
+     {
+      "q": "Hozzáadhatok tételeket a Sirivel?",
+      "a": "Igen. A Siri és a Parancsok segítségével könnyedén hozzáadhatsz új dolgokat a listához."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és indulj a boltba egy olyan listával, ami számol helyetted."
+   },
+   {
+    "key": "shopping-list-with-prices",
+    "slug": "shopping-list-with-prices",
+    "nav": "Bevásárlólista árakkal",
+    "screen": "list",
+    "footer": false,
+    "title": "Bevásárlólista árakkal és végösszeggel | Spendry Notes",
+    "description": "Írj bevásárlólistát árakkal: a Spendry Notes folyamatosan számolja a végösszeget, kezeli a kedvezményeket, és mutatja a kereted.",
+    "h1": "Bevásárlólista árakkal és folyamatos végösszeggel",
+    "lead": "A Spendry Notes felismeri az árakat a bevásárlólistádon, folyamatosan frissíti a végösszeget, és mutatja, mennyi maradt a keretedből.",
+    "points": [
+     {
+      "h": "Kedvezmények és borravaló kiszámolva",
+      "p": "Írd be a tétel mellé, hogy \"-20%\", vagy a végére, hogy \"+10% szervizdíj\", és az összeg azonnal alkalmazkodik."
+     },
+     {
+      "h": "Költségkeret a listához",
+      "p": "Rendelj egy keretet a jegyzethez, és lásd a fennmaradó összeget, ahogy bővül a lista."
+     },
+     {
+      "h": "Megvéve és megvásárlásra várva",
+      "p": "A kipipált tételek a megvett összeghez kerülnek, így mindig pontosan tudod, mennyibe kerül majd a többi tétel."
+     },
+     {
+      "h": "Lista, ami számon tartja a napokat",
+      "p": "Írj be egy napot a sorba, és megjelenik a naptáradban, emlékeztetővel kiegészítve, ha szeretnéd."
+     }
+    ],
+    "steps_title": "Hogyan vezess árakat tartalmazó bevásárlólistát",
+    "steps": [
+     "Kezdj egy új listát a Spendry Notes appban.",
+     "Írd fel a tételeket az árakkal, mennyiségekkel vagy a kedvezménnyel.",
+     "Állíts be egy költségkeretet a listához, ha van meghatározott összeged.",
+     "Pipáld ki a megvásárolt tételeket, és kövesd mindkét végösszeget."
+    ],
+    "why_title": "Miért hasznos az árakat mutató lista",
+    "why": [
+     "Már a kassza előtt látod a költségeket, nem csak fizetés után.",
+     "A kedvezményeket, mennyiségeket és a borravalót mind kiszámolja neked.",
+     "A lista egyszerű jegyzet marad, amit bármikor szabadon szerkeszthetsz.",
+     "A Spendry Notes összes funkciója teljesen ingyenes."
+    ],
+    "faq": [
+     {
+      "q": "Hogyan tudok összeadni egy bevásárlólistát iPhone-on?",
+      "a": "Írd be a tételeket az árukkal a Spendry Notes jegyzetbe. Gépelés közben összeadja őket, és külön mutatja a még megveendő és a már megvett tételek összegét."
+     },
+     {
+      "q": "Tudja kezelni a kedvezményeket?",
+      "a": "Igen. Írd be a tétel mellé a kedvezményt, például \"Kabát 25000 Ft -20%\", és a végösszeg automatikusan módosul."
+     },
+     {
+      "q": "Beállíthatok költségkeretet a listához?",
+      "a": "Igen. Adj meg egy költségkeretet a jegyzetben, és a Spendry Notes folyamatosan mutatja, mennyi maradt belőle."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és tudd a pontos összeget még a pénztár előtt."
+   },
+   {
+    "key": "notes-app-with-calculator",
+    "slug": "notes-app-with-calculator",
+    "nav": "Számológépes jegyzet app",
+    "screen": "plan",
+    "footer": true,
+    "title": "Számológépes jegyzet app, ami számol | Spendry Notes",
+    "description": "A Spendry Notes jegyzet app számol helyetted: felismeri a soraidban az összegeket, és kezeli a mennyiségeket, kedvezményeket és elosztást.",
+    "h1": "Egy jegyzet app, ami elvégzi helyetted a számolást",
+    "lead": "Nincs szükség külön számológépre. Írj összegeket a jegyzeteidbe, és a Spendry Notes sorról sorra összeadja őket, miközben a jegyzeted áttekinthető marad.",
+    "points": [
+     {
+      "h": "Összegek bárhol a sorban",
+      "p": "\"Lakbér 28-án 180000\" vagy \"3 kávé 1800 Ft\": az összeget, a darabszámot és a napot is felismeri a leírt szavakból."
+     },
+     {
+      "h": "Pénz be és pénz ki",
+      "p": "Vezesd a bevételeket és a kiadásokat ugyanabban a jegyzetben, és lásd azonnal a befolyó pénzt, a költéseket és a megmaradt összeget."
+     },
+     {
+      "h": "Számla elosztása és százalékok",
+      "p": "Az \"Ebéd 12000/4\" azonnal megmutatja az egy főre jutó részt, a \"-20%\" vagy a \"+10% szervizdíj\" pedig azonnal módosítja a végösszeget."
+     },
+     {
+      "h": "Válaszok közvetlenül a jegyzeteidből",
+      "p": "Kérdezd meg, mi a heti terv, vagy mi maradt a listáidon, és a választ közvetlenül a saját jegyzeteid alapján kapod meg."
+     }
+    ],
+    "steps_title": "Hogyan használd a jegyzeteidet számológépként",
+    "steps": [
+     "Nyiss meg egy jegyzetet a Spendry Notes appban.",
+     "Írj le minden sort természetesen, megadva az összeget is.",
+     "Nézd meg a jegyzet alatt megjelenő összegeket gépelés közben.",
+     "Írj be egy napot bármelyik sorba, hogy felkerüljön a naptáradba."
+    ],
+    "why_title": "Miért kényelmes a számoló jegyzet",
+    "why": [
+     "Nem kell váltogatnod a jegyzet app és a számológép között.",
+     "A jegyzet megőrzi a szavaidat, nem csak puszta számokból áll.",
+     "Az összegek maguktól újraszámolódnak, amikor módosítasz egy sort.",
+     "Teljesen ingyenesen letölthető és használható."
+    ],
+    "faq": [
+     {
+      "q": "Van olyan jegyzet app iPhone-ra, ami összeadja a számokat?",
+      "a": "A Spendry Notes felismeri a soraidban lévő összegeket, és azonnal összeadja őket, beleértve a darabszámokat, kedvezményeket, borravalókat és a számlamegosztást is."
+     },
+     {
+      "q": "Kezeli a bevételeket és a kiadásokat egyszerre?",
+      "a": "Igen. Ha egy jegyzeten belül szerepelnek bevételek és kiadások, külön összesíti őket, és megmutatja a fennmaradó egyenleget."
+     },
+     {
+      "q": "Ingyenes a Spendry Notes?",
+      "a": "Igen. A Spendry Notes minden funkciója teljesen ingyenes."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és hagyd, hogy a jegyzeteid számoljanak helyetted."
+   },
+   {
+    "key": "split-the-bill",
+    "slug": "split-the-bill",
+    "nav": "Számla szétdobása",
+    "screen": "list",
+    "footer": false,
+    "title": "Számla szétdobása egy jegyzetben | Spendry Notes",
+    "description": "Írd be: \"Ebéd 12000/4\", és a Spendry Notes mutatja a fejenkénti összeget. A borravalót és a kedvezményt is kiszámolja a jegyzetben.",
+    "h1": "Számla szétdobása közvetlenül a jegyzetben",
+    "lead": "Írd be a végösszeget és a létszámot, a Spendry Notes pedig azonnal kiszámolja, ki mennyit fizet, borravalóval együtt.",
+    "points": [
+     {
+      "h": "Egyetlen sor, minden részlet",
+      "p": "Elég annyi, hogy \"Ebéd 12000/4\": a Spendry Notes a sor alatt mutatja a fejenként fizetendő összeget."
+     },
+     {
+      "h": "Borravaló és kedvezmények",
+      "p": "Írd hozzá: \"+10% borravaló\" vagy \"-20%\", és a részek azonnal követik az új végösszeget."
+     },
+     {
+      "h": "Utazások és közös költségek",
+      "p": "Vezesd az egész hétvégét egy jegyzetben: jegyek, szállás és étkezések, mindegyik a saját részével."
+     },
+     {
+      "h": "Tartsd együtt a terveiddel",
+      "p": "Írj egy napot a kiadás mellé, és máris megjelenik a naptáradban."
+     }
+    ],
+    "steps_title": "Hogyan dobj szét egy számlát a Spendry Notesban",
+    "steps": [
+     "Írd be az összeget és oszd el a létszámmal, például: \"Ebéd 12000/4\".",
+     "Adj hozzá borravalót vagy kedvezményt, ha van.",
+     "Nézd meg a fejenkénti összeget közvetlenül a sor alatt.",
+     "Írd tovább a költségeket ugyanabba a jegyzetbe az utazás vagy esemény során."
+    ],
+    "why_title": "Miért jobb jegyzetben szétdobni a költségeket",
+    "why": [
+     "Nem kell külön számológép vagy számlamegosztó app.",
+     "A jegyzet a saját szavaiddal őrzi meg, ki mit fizetett.",
+     "Az összegek és a részek azonnal frissülnek, ha átírsz egy sort.",
+     "Ingyenes, regisztráció nélkül."
+    ],
+    "faq": [
+     {
+      "q": "Hogyan tudok számlát szétdobni iPhone-on?",
+      "a": "A Spendry Notesban írd be az összeget elosztva a létszámmal, például: \"Ebéd 12000/4\", és a sor alatt megjelenik a fejenként fizetendő rész."
+     },
+     {
+      "q": "Borravalót is hozzáadhatok?",
+      "a": "Igen. Írd be, hogy \"+10% borravaló\", és a fejenkénti részek az új végösszeghez igazodnak."
+     },
+     {
+      "q": "Kerül ez valamibe?",
+      "a": "Nem. A Spendry Notes és minden funkciója teljesen ingyenes."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és dobd szét a számlát egyetlen sorban."
+   },
+   {
+    "key": "monthly-budget-planner-notes",
+    "slug": "monthly-budget-planner-notes",
+    "nav": "Havi terv egy jegyzetben",
+    "screen": "plan",
+    "footer": false,
+    "title": "Havi költségvetés-tervező jegyzet | Spendry Notes",
+    "description": "Tervezd meg a hónapot egy jegyzetben: fizetés, lakbér és számlák dátummal. A Spendry Notes mutatja az egyenleget és a naptárba teszi a napokat.",
+    "h1": "Tervezd meg a hónapod egyetlen jegyzetben",
+    "lead": "Írd fel a fizetésed, a lakbért és a számlákat a megfelelő napokkal. A Spendry Notes mutatja a bevételeket, a kiadásokat és a fennmaradó összeget, a napokat pedig beírja a naptáradba.",
+    "points": [
+     {
+      "h": "Bevétel, kiadás és ami megmarad",
+      "p": "A bevételek és költségek egy jegyzetben kiadják a havi egyenleget, így a terved mindig reális marad."
+     },
+     {
+      "h": "Minden nap ott a naptárban",
+      "p": "A \"Lakbér 28-án\" és a \"Villanyszámla 26-án\" a megfelelő napra kerülnek a naptárban."
+     },
+     {
+      "h": "Emlékeztetők csak ott, ahol kéred",
+      "p": "Állíts be visszafogott emlékeztetőt azokhoz a sorokhoz, ahol szükséges, mint a lakbér vagy egy számla."
+     },
+     {
+      "h": "Indulj a havi sablonnal",
+      "p": "A hónaphoz, utazáshoz, költözéshez vagy eseményhez készült sablonokkal azonnal nekiláthatsz."
+     }
+    ],
+    "steps_title": "Hogyan tervezz meg egy hónapot a Spendry Notesban",
+    "steps": [
+     "Indulj a havi sablonnal vagy egy üres jegyzettel.",
+     "Írd be a bevételeidet és a kiadásaidat a napjaikkal együtt.",
+     "Ellenőrizd az egyenleget és a naptárat.",
+     "Adj emlékeztetőt azokhoz a kifizetésekhez, amelyekről nem szeretnél lemaradni."
+    ],
+    "why_title": "Miért érdemes jegyzetben tervezni a hónapot",
+    "why": [
+     "Olyan gyors, mint papírra írni.",
+     "Az összegek és a naptár maguktól frissülnek.",
+     "A Spendryvel összekötve egy sor egyetlen érintéssel kiadássá vagy emlékeztetővé alakul.",
+     "A Spendry Notes minden funkciója ingyenes."
+    ],
+    "faq": [
+     {
+      "q": "Készíthetek havi költségvetést egy jegyzetappban?",
+      "a": "Igen. A Spendry Notesban csak írd be a bevételeket és a kiadásokat a napjaikkal, a jegyzet kiszámolja az egyenleget, a napokat pedig beírja a naptárba."
+     },
+     {
+      "q": "Emlékeztet a számla esedékessége előtt?",
+      "a": "Igen, ha adsz emlékeztetőt ahhoz a sorhoz. Emlékeztető csak ott jelenik meg, ahol te szeretnéd."
+     },
+     {
+      "q": "Működik együtt a Spendry appal?",
+      "a": "Igen. Összekapcsolhatod a jegyzetet a Spendry valamelyik költségkeretével, vagy átküldhetsz egy sort a Spendrybe kiadásként vagy emlékeztetőként."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és tervezd meg a hónapod egyetlen jegyzetben."
+   },
+   {
+    "key": "trip-budget-planner",
+    "slug": "trip-budget-planner",
+    "nav": "Utazási költségvetés-tervező",
+    "screen": "plan",
+    "footer": false,
+    "title": "Utazási költségvetés-tervező | Spendry Notes",
+    "description": "Indulj az utazási sablonnal, írd be a repjegyeket és a napi költségeket: a Spendry Notes összeadja őket és kiszámolja a fejenkénti részt.",
+    "h1": "Tervezd meg az utazás költségkeretét egy jegyzetben",
+    "lead": "Indulj az utazási sablonnal, és írd össze a várható költségeket. A Spendry Notes összead mindent, kiszámolja a részeket személyenként, és beírja a dátumokat a naptáradba.",
+    "points": [
+     {
+      "h": "Egy sablon a kezdéshez",
+      "p": "Az utazási sablon kész jegyzetet ad, amelyet csak fel kell töltened jegyekkel, szállással, ételekkel és programokkal."
+     },
+     {
+      "h": "Végösszeg tervezés közben",
+      "p": "Minden beírt költség azonnal hozzáadódik a végösszeghez, így még foglalás előtt látod a teljes utat."
+     },
+     {
+      "h": "Közös költségek felosztása",
+      "p": "Oszd el a kiadást a létszámmal, például: \"Hotel 60000/3\", és a fejenkénti összeg megjelenik a sor alatt."
+     },
+     {
+      "h": "Gyűjts rá a Spendryben",
+      "p": "Kapcsold a jegyzetet egy megtakarítási célhoz a Spendryben, és lásd, milyen közel jársz hozzá."
+     }
+    ],
+    "steps_title": "Hogyan tervezd meg az utazás költségeit",
+    "steps": [
+     "Nyiss egy jegyzetet az utazási sablonból.",
+     "Írd be az egyes költségeket az összeggel és tetszés szerint a nappal.",
+     "Oszd el a közös kiadásokat a résztvevők számával.",
+     "Kapcsold össze a jegyzetet egy megtakarítási céllal a Spendryben."
+    ],
+    "why_title": "Miért a Spendry Notesban tervezd az utazást",
+    "why": [
+     "A teljes utazás egyetlen jegyzetben, a pontos végösszeggel.",
+     "A dátumok megjelennek a naptáradban.",
+     "A közös költségeket magától elosztja a rendszer.",
+     "Ingyen letölthető és ingyen használható."
+    ],
+    "faq": [
+     {
+      "q": "Hogyan készíthetek utazási költségvetést iPhone-on?",
+      "a": "Nyiss egy jegyzetet az utazási sablonból a Spendry Notesban, írd be a kiadásokat, a jegyzet pedig összeadja őket és megmutatja a fejenkénti részt."
+     },
+     {
+      "q": "Gyűjthetek is az utazásra?",
+      "a": "Igen. Kapcsold össze a jegyzetet egy megtakarítási céllal a Spendryben, és a cél ott lesz közvetlenül a jegyzet mellett."
+     },
+     {
+      "q": "Ingyenes az app?",
+      "a": "Igen. A Spendry Notes minden funkciója ingyenes."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és tervezd meg az utat egyetlen jegyzetben."
+   },
+   {
+    "key": "moving-checklist-with-costs",
+    "slug": "moving-checklist-with-costs",
+    "nav": "Költözési ellenőrzőlista",
+    "screen": "list",
+    "footer": false,
+    "title": "Költözési lista költségekkel | Spendry Notes",
+    "description": "Költözési ellenőrzőlista, ami számol: pipáld a feladatokat, írd az árakat és lásd a végösszeget. Indulj a sablonnal a Spendry Notes appban.",
+    "h1": "Költözési lista, ami összeadja a költségeket",
+    "lead": "Indulj a költözési sablonnal, pipáld a feladatokat haladás közben, és írd melléjük az összeget. A Spendry Notes vezeti a végösszeget és a napokat.",
+    "points": [
+     {
+      "h": "Feladatok és költségek együtt",
+      "p": "Minden sor lehet feladat a saját árával, így az ellenőrzőlista egyben a költözés költségkerete is."
+     },
+     {
+      "h": "Elkészült és még hátralévő tételek",
+      "p": "Pipálj ki egy sort, ha kész, az összegek pedig mutatják, mit költöttél el és mi vár még rád."
+     },
+     {
+      "h": "Dátumok a naptáradban",
+      "p": "A \"Kisteherautó szombaton\" vagy a \"Kaució 1-jén\" azonnal a megfelelő napra kerülnek a naptárban."
+     },
+     {
+      "h": "Emlékeztetők a fontos helyeken",
+      "p": "Állíts be visszafogott emlékeztetőt azokhoz a sorokhoz, amelyekről semmiképp sem szabad elfeledkezni."
+     }
+    ],
+    "steps_title": "Hogyan tervezz költözést a Spendry Notesban",
+    "steps": [
+     "Nyiss egy jegyzetet a költözési sablonból.",
+     "Írd be a teendőket a költségeikkel és a dátumokkal.",
+     "Pipáld ki a feladatokat, amint elvégezted őket.",
+     "Nézd meg a végösszeget a költözés napja előtt."
+    ],
+    "why_title": "Miért használj költségeket számoló listát",
+    "why": [
+     "Nem kell külön táblázat a költözési költségvetéshez.",
+     "Egy pillantással látod az elköltött és a még hátralévő pénzt.",
+     "A dátumok és az emlékeztetők ugyanabból a jegyzetből jönnek.",
+     "A Spendry Notes minden funkciója ingyenes."
+    ],
+    "faq": [
+     {
+      "q": "Létezik költségeket is kezelő költözési ellenőrzőlista app?",
+      "a": "A Spendry Notes tartalmaz egy költözési sablont, ahol minden feladathoz rendelhető összeg és nap. A jegyzet összeadja a költségeket, és a napokat beírja a naptáradba."
+     },
+     {
+      "q": "Beállíthatok emlékeztetőt a költözés napjára?",
+      "a": "Igen. Adj hozzá emlékeztetőt bármelyik sorhoz, és az adott napon kapsz egy visszafogott értesítést."
+     },
+     {
+      "q": "Ingyenes?",
+      "a": "Igen. A Spendry Notes minden funkciója ingyenes."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és költözz úgy, hogy látod a költségeket."
+   },
+   {
+    "key": "event-budget-planner",
+    "slug": "event-budget-planner",
+    "nav": "Esemény költségtervező",
+    "screen": "plan",
+    "footer": false,
+    "title": "Esemény költségtervező | Spendry Notes",
+    "description": "Tervezd meg a buli, szülinap vagy esküvő költségeit. A Spendry Notes összeadja a kiadásokat, elosztja a részeket, és naptárba teszi a dátumokat.",
+    "h1": "Tervezd meg az esemény költségkeretét egy jegyzetben",
+    "lead": "Indulj az eseménysablonból, és írj be minden költséget. A Spendry Notes összeadja őket, kiszámolja a fizetendő részeket, és naptárban tartja a dátumokat.",
+    "points": [
+     {
+      "h": "Kész sablon",
+      "p": "Az eseménysablon kész kiindulópont egy bulihoz, szülinaphoz vagy esküvőhöz."
+     },
+     {
+      "h": "Minden költség egy összegben",
+      "p": "A helyszín, az étel, a zene és az ajándékok összeadódnak, ahogy beírod őket."
+     },
+     {
+      "h": "Részösszegek a fizetőknek",
+      "p": "Oszd el a költséget a létszámmal, és mindenki része megjelenik a sor alatt."
+     },
+     {
+      "h": "Dátumok és emlékeztetők",
+      "p": "Az előlegek és a határidők bekerülnek a naptárba, kérésre emlékeztetővel."
+     }
+    ],
+    "steps_title": "Hogyan tervezd meg az esemény költségkeretét",
+    "steps": [
+     "Nyiss egy jegyzetet az eseménysablonból.",
+     "Írd be az egyes költségeket az összeggel és a nappal.",
+     "Oszd el a közös költségeket a létszámmal.",
+     "Állíts be emlékeztetőt az előlegekhez és a határidőkhöz."
+    ],
+    "why_title": "Miért tervezz eseményt a Spendry Notesban",
+    "why": [
+     "A teljes költségkeret egy jegyzetben van, a végösszeggel együtt.",
+     "Határidők a naptáradban, emlékeztetők pontosan ott, ahol kellenek.",
+     "A közös költségeket kiszámolja helyetted.",
+     "Ingyen letölthető és ingyen használható."
+    ],
+    "faq": [
+     {
+      "q": "Hogyan tervezhetek meg egy buliköltségvetést iPhone-on?",
+      "a": "Nyiss egy jegyzetet az eseménysablonból a Spendry Notesban, írd be a költségeket, a jegyzet pedig összeadja őket és kiszámolja a részeket."
+     },
+     {
+      "q": "Tud emlékeztetni az előlegekre?",
+      "a": "Igen. Adj emlékeztetőt a sorhoz, és azon a napon értesítést kapsz."
+     },
+     {
+      "q": "Ingyenes?",
+      "a": "Igen. A Spendry Notes minden funkciója ingyenes."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és vezesd az esemény költségeit egyetlen jegyzetben."
+   },
+   {
+    "key": "notes-with-reminders",
+    "slug": "notes-with-reminders",
+    "nav": "Jegyzetek emlékeztetővel",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Jegyzet app naptárral | Spendry Notes",
+    "description": "Írd be, hogy „Lakbér 28-án”, és bekerül a naptáradba. A Spendry Notes diszkrét emlékeztetőt ad bármelyik sorhoz, amikor kéred.",
+    "h1": "Jegyzetek, amelyek értik a dátumokat",
+    "lead": "Írj be egy napot a sorba, és a Spendry Notes beilleszti a naptáradba. Állíts be diszkrét emlékeztetőt azokhoz a sorokhoz, ahol szükséges, a többit pedig hagyd nyugodtan.",
+    "points": [
+     {
+      "h": "Dátumok egyszerű szavakkal",
+      "p": "A „holnap”, „jövő péntek”, „3 nap múlva”, „15-én” és a „minden hónapban” kifejezést is felismeri."
+     },
+     {
+      "h": "Naptár a jegyzeteidből",
+      "p": "Minden dátummal ellátott sor megjelenik a naptárban a saját napján, az összeggel együtt, ha van."
+     },
+     {
+      "h": "Diszkrét emlékeztetők",
+      "p": "Emlékeztető csak a kiválasztott sorokhoz érkezik, az általad megadott időpontban."
+     },
+     {
+      "h": "Közelgő tervek egy pillantásra",
+      "p": "A Főképernyő és a Zárolási képernyő widgetjei mutatják a közelgő terveket."
+     }
+    ],
+    "steps_title": "Hogyan adj emlékeztetőt a jegyzetekhez",
+    "steps": [
+     "Írj be egy sort dátummal, például: „Lakbér 28-án 180000 Ft”.",
+     "Keresd meg az adott napon a naptárban.",
+     "Adj hozzá emlékeztetőt a sorhoz, ha szeretnél.",
+     "Helyezz ki egy widgetet, hogy lásd a közelgő tételeket."
+    ],
+    "why_title": "Miért tarts dátumokat a jegyzeteidben",
+    "why": [
+     "A tervek ott maradnak, ahová írtad őket, nem egy másik appban.",
+     "A számlák és kifizetések az összegükkel együtt jelennek meg a naptárban.",
+     "Az emlékeztetők soha nem szaporodnak el a jóváhagyásod nélkül.",
+     "A Spendry Notes minden funkciója ingyenes."
+    ],
+    "faq": [
+     {
+      "q": "Lehet emlékeztető egy iPhone-jegyzethez?",
+      "a": "A Spendry Notesban minden dátumot tartalmazó sorhoz kérhetsz diszkrét emlékeztetőt, de csak akkor, ha beállítod."
+     },
+     {
+      "q": "Megérti az olyan dátumokat, mint a „jövő péntek”?",
+      "a": "Igen. A „holnap”, „jövő péntek”, „3 nap múlva”, „15-én” és a „minden hónapban” kifejezést mind felismeri."
+     },
+     {
+      "q": "Láthatom a terveket a Zárolási képernyőn?",
+      "a": "Igen. A Spendry Notes widgeteket kínál a közelgő tervekről és listákról a Zárolási képernyőre is."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és hagyd, hogy a jegyzeteid kezeljék a dátumokat."
+   },
+   {
+    "key": "wishlist-with-prices",
+    "slug": "wishlist-with-prices",
+    "nav": "Kívánságlista árakkal",
+    "screen": "list",
+    "footer": false,
+    "title": "Kívánságlista árakkal | Spendry Notes",
+    "description": "Vezess kívánságlistát árakkal a Spendry Notesban: nézd meg az összeget, adj meg keretet, és kapcsold össze a megtakarítási céloddal.",
+    "h1": "Kívánságlista, amely tudja, mennyibe kerül",
+    "lead": "Írd fel a kívánt dolgokat az árukkal együtt. A Spendry Notes összeadja őket, mutatja, mi fér bele a keretbe, és hozzá tudja kapcsolni a listát egy megtakarítási célhoz a Spendryben.",
+    "points": [
+     {
+      "h": "A vágyaid végösszege",
+      "p": "A listán szereplő minden ár összeadódik, így azonnal látod, mennyibe kerülne minden együtt."
+     },
+     {
+      "h": "Költségkeret a listához",
+      "p": "Adj meg egy keretet a jegyzethez, és nézd meg, mennyi marad, miközben elemeket adsz hozzá vagy törölsz."
+     },
+     {
+      "h": "Pipáld ki, amit megvettél",
+      "p": "A kipipált tételek a megvásárolt összeghez kerülnek, a többi pedig szem előtt marad."
+     },
+     {
+      "h": "Gyűjts rá a Spendryben",
+      "p": "Kapcsold a listát egy megtakarítási célhoz a Spendryben, és kövesd, milyen közel jársz."
+     }
+    ],
+    "steps_title": "Hogyan vezess kívánságlistát árakkal",
+    "steps": [
+     "Indíts egy listát a Spendry Notesban.",
+     "Írd be az egyes kívánságokat az árukkal együtt.",
+     "Állíts be egy keretet a listához, ha van rá szánt összeg.",
+     "Kapcsold össze a listát egy megtakarítási céllal a Spendryben."
+    ],
+    "why_title": "Miért segít a kívánságlista árakkal",
+    "why": [
+     "Vásárlás előtt látod a valós végösszeget.",
+     "A kedvezményeket azonnal kiszámolja beíráskor.",
+     "A megtakarítási cél kézzelfogható tervvé formálja a kívánságokat.",
+     "A Spendry Notes minden funkciója ingyenes."
+    ],
+    "faq": [
+     {
+      "q": "Vezethetek árakkal teli kívánságlistát iPhone-on?",
+      "a": "Igen. A Spendry Notesban írd be a kívánságokat az árukkal, a lista pedig mutatja a végösszeget és a keretedből fennmaradó részt."
+     },
+     {
+      "q": "Gyűjthetek a listámon lévő dolgokra?",
+      "a": "Igen. Csak kapcsold össze a listát egy megtakarítási céllal a Spendryben."
+     },
+     {
+      "q": "Ingyenes?",
+      "a": "Igen. A Spendry Notes minden funkciója ingyenes."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és vezess egy olyan kívánságlistát, ami azonnal számol."
+   },
+   {
+    "key": "remember-grocery-prices",
+    "slug": "remember-grocery-prices",
+    "nav": "Ármegjegyző bevásárlólista",
+    "screen": "list",
+    "footer": false,
+    "title": "Bevásárlólista, ami számol | Spendry Notes",
+    "description": "Írj be egy terméket újra, és a Spendry Notes kitölti az előző árat. A bevásárlólistád másodpercek alatt kész.",
+    "h1": "Bevásárlólista, amely emlékszik a korábbi árakra",
+    "lead": "Írj be egy korábban vett tételt, és a Spendry Notes automatikusan kitölti a legutóbb fizetett árat. A heti lista pillanatok alatt elkészül, a végösszeg pedig adott.",
+    "points": [
+     {
+      "h": "Az előző ár, azonnal",
+      "p": "Írd be, hogy „Tej”, és máris ott van a legutóbb fizetett ár, így csak azt kell átírnod, ami változott."
+     },
+     {
+      "h": "Végösszeg már indulás előtt",
+      "p": "A beírt árakkal a lista pontosan mutatja, mennyibe fog kerülni a teljes bevásárlás."
+     },
+     {
+      "h": "A változások jól láthatók",
+      "p": "Mivel az előző ár már a sorban van, az árváltozás azonnal feltűnik, ahogy frissíted."
+     },
+     {
+      "h": "Mennyiségek kiszámolva",
+      "p": "A „3 db kávé darabja 650 Ft” vagy az „1.5 kg alma 400 Ft/kg” számítását elvégzi helyetted."
+     }
+    ],
+    "steps_title": "Hogyan működik",
+    "steps": [
+     "Írd meg egyszer a bevásárlólistádat az árakkal.",
+     "Legközelebb csak gépeld be ugyanazokat a tételeket.",
+     "A legutóbb fizetett ár magától megjelenik.",
+     "Csak azt az árat írd át, ami megváltozott, és ellenőrizd az összeget."
+    ],
+    "why_title": "Miért spórol időt",
+    "why": [
+     "A heti lista összeállítása másodpercek kérdése.",
+     "A végösszeg már a boltba indulás előtt készen áll.",
+     "A megváltozott ár rögtön szembeötlik a frissítéskor.",
+     "A Spendry Notes minden funkciója ingyenes."
+    ],
+    "faq": [
+     {
+      "q": "Van olyan bevásárlólista app, ami megjegyzi az árakat?",
+      "a": "Igen. A Spendry Notesban, ha újra beírsz egy tételt, automatikusan beilleszti a legutóbb fizetett árat."
+     },
+     {
+      "q": "Össze is adja a listát?",
+      "a": "Igen. A lista külön mutatja a még megveendő és a már megvásárolt tételek összegét."
+     },
+     {
+      "q": "Ingyenes?",
+      "a": "Igen. A Spendry Notes minden funkciója ingyenes."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és bízd a listádra az árak megjegyzését."
+   },
+   {
+    "key": "gift-list-with-budget",
+    "slug": "gift-list-with-budget",
+    "nav": "Ajándéklista kerettel",
+    "screen": "list",
+    "footer": false,
+    "title": "Karácsonyi ajándéklista kerettel | Spendry Notes",
+    "description": "Tervezd meg a karácsonyi és születésnapi ajándékokat árakkal. A Spendry Notes összeadja őket, és mutatja, mennyi maradt a keretedből.",
+    "h1": "Ajándéklista, ami tartja a keretet",
+    "lead": "Írd fel, kinek mit vennél, és mennyibe kerül. A Spendry Notes összeadja az árakat, mutatja a fennmaradó keretet, és beírja a dátumokat a naptárba.",
+    "points": [
+     {
+      "h": "Kész ajándéklista",
+      "p": "Indíts egy jegyzetet az Ajándéklista sablonból, és írj egy sort mindenkihez."
+     },
+     {
+      "h": "Minden ajándék az összegben",
+      "p": "Írd be: „Sál 8000 Ft” vagy „Könyv 2 db 4500 Ft”, a lista azonnal összeadja, külön mutatva a megvett és a megveendő tételeket."
+     },
+     {
+      "h": "Keret az ünnepekre",
+      "p": "Adj meg a jegyzetnek egy keretet, és lásd pontosan, mennyi pénzed maradt még."
+     },
+     {
+      "h": "Születésnapok a naptárban",
+      "p": "Írd a dátumot a név mellé, például „Anya szülinapja november 2.”, és a tétel emlékeztetővel együtt bekerül a naptáradba."
+     }
+    ],
+    "steps_title": "Így készíts ajándéklistát költségkerettel",
+    "steps": [
+     "Nyiss egy jegyzetet az Ajándéklista sablonból.",
+     "Írd fel a személyeket, a tervezett ajándékokat és az árakat.",
+     "Állíts be egy költségkeretet az ünnepi időszakra.",
+     "Pipáld ki, amit megvettél, és kövesd a fennmaradó összeget."
+    ],
+    "why_title": "Miért tervezd az ajándékokat a Spendry Notesban",
+    "why": [
+     "Az egész szezon egyetlen jegyzetben, pontos végösszeggel.",
+     "Születésnapok és határidők a naptáradban.",
+     "Megjegyzi a korábban fizetett árakat.",
+     "Ingyen letölthető és ingyen használható."
+    ],
+    "faq": [
+     {
+      "q": "Hogyan készíthetek karácsonyi ajándéklistát kerettel?",
+      "a": "Nyiss egy jegyzetet a Spendry Notes Ajándéklista sablonjából, írd be az ajándékokat az árukkal, és adj meg egy keretet. A jegyzet mutatja az elköltött összeget és a fennmaradó részt."
+     },
+     {
+      "q": "Látom, amit már megvettem?",
+      "a": "Igen. Ha kipipálsz egy tételt, a megvásárolt és a még hátralévő ajándékok összege azonnal frissül."
+     },
+     {
+      "q": "Ingyenes az alkalmazás?",
+      "a": "Igen. A Spendry Notes minden funkciója teljesen ingyenes."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és tartsd idén keretek között az ajándékokat."
+   },
+   {
+    "key": "black-friday-shopping-list",
+    "slug": "black-friday-shopping-list",
+    "nav": "Black Friday lista",
+    "screen": "list",
+    "footer": false,
+    "title": "Black Friday bevásárlólista kerettel | Spendry Notes",
+    "description": "Tervezd meg a Black Friday akciókat egy listában. A Spendry Notes kiszámolja a kedvezményeket, összegzi a kosarat, és figyeli a keretet.",
+    "h1": "Black Friday lista, ami figyeli a költségkeretet",
+    "lead": "Írd össze a kívánt dolgokat az árukkal és a kedvezménnyel az akciók előtt. A Spendry Notes kiszámolja a végső árakat, összegzi őket, és figyeli a keretedet.",
+    "points": [
+     {
+      "h": "Kiszámolt kedvezmények",
+      "p": "Írd be: „Kabát 25000 Ft -20%”, és a sor rögtön a kedvezményes árat mutatja."
+     },
+     {
+      "h": "Egy végösszeg az egész kosárra",
+      "p": "Minden akció azonnal hozzáadódik az összeghez, külön mutatva a megvett és a megmaradt tételeket."
+     },
+     {
+      "h": "Keret az akciók előtt",
+      "p": "Állíts be egy költségkeretet a jegyzethez, és tudd pontosan, mennyi maradt, mielőtt vásárolnál."
+     },
+     {
+      "h": "A legutóbb fizetett ár",
+      "p": "Kezdj el beírni egy terméket, és a korábban fizetett ár már ott is van, így könnyen összevetheted az akcióval."
+     }
+    ],
+    "steps_title": "Így tervezd meg a Black Friday vásárlást",
+    "steps": [
+     "Készíts egy listát a Spendry Notesban az akciók indulása előtt.",
+     "Írd fel a kiszemelt termékeket az árukkal együtt.",
+     "Add hozzá a kedvezményt, amint megtalálod az ajánlatot.",
+     "Állíts be egy keretet, és pipáld ki, amit megvettél."
+    ],
+    "why_title": "Miért a Spendry Notesban tervezd a vásárlást",
+    "why": [
+     "Kiszámolja a kedvezményeket és az összegeket helyetted.",
+     "Költségkeret, ami mutatja a fennmaradó összeget.",
+     "A widgetekkel a lista mindig ott van a Főképernyőn.",
+     "Ingyen letölthető és ingyen használható."
+    ],
+    "faq": [
+     {
+      "q": "Hogyan készítsek Black Friday bevásárlólistát?",
+      "a": "Írd fel a kívánt dolgokat egy Spendry Notes listába az árukkal és a kedvezménnyel. A lista kiszámolja az árakat, összeadja őket, és mutatja a keretedből maradt összeget."
+     },
+     {
+      "q": "Kiszámolja a százalékos kedvezményeket?",
+      "a": "Igen. Írd be az árat és a kedvezményt, például -20%, és a sor azonnal a levont árat mutatja."
+     },
+     {
+      "q": "Ingyenes az alkalmazás?",
+      "a": "Igen. A Spendry Notes minden funkciója teljesen ingyenes."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és indulj bevásárlólistával és kerettel az akciókba."
+   },
+   {
+    "key": "daily-expense-notes",
+    "slug": "daily-expense-notes",
+    "nav": "Napi kiadásjegyzet",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Napi kiadások jegyzetelése összegzéssel | Spendry Notes",
+    "description": "Vezesd a napi költéseidet egy jegyzetben, és lásd a végösszeget. A Spendry Notes mindennap összeadja a kiadásokat, és átadja a Spendrynek.",
+    "h1": "Írd fel a napi kiadásokat, lásd a végösszeget",
+    "lead": "Nyiss egy jegyzetet a mai napra, írd be a költéseidet menet közben, és az összeg mindig ott lesz. Bármelyik sort egyetlen érintéssel átküldheted a Spendrybe kiadásként.",
+    "points": [
+     {
+      "h": "A mai nap jegyzete",
+      "p": "Koppints a Ma lehetőségre, és írj fel minden kiadást külön sorba, például „Parkolás 1200 Ft” vagy „3 kávé 1800 Ft”. A jegyzet azonnal összeadja a napot."
+     },
+     {
+      "h": "Minden nap a naptárban",
+      "p": "A napi jegyzetek a végösszegükkel együtt megjelennek a naptárban, így az előző heti költések is egy érintéssel elérhetők."
+     },
+     {
+      "h": "Küldd át a Spendrybe",
+      "p": "Vidd át bármelyik sort a Spendrybe kiadásként egy koppintással, és tartsd naprakészen a költségvetésedet."
+     },
+     {
+      "h": "Rögzítsd a Sirivel",
+      "p": "A Siri képes új sort adni a mai jegyzethez, a benne lévő összeget pedig az app beleszámolja az összegzésbe."
+     }
+    ],
+    "steps_title": "Így vezesd a napi kiadásokat jegyzetekben",
+    "steps": [
+     "Koppints a Ma gombra a Spendry Notesban.",
+     "Írd fel a költéseidet az összegekkel együtt.",
+     "Ellenőrizd a napi végösszeget a jegyzetben vagy a naptárban.",
+     "Küldd át a sort a Spendrybe, ha szeretnéd a költségkeretben is látni."
+    ],
+    "why_title": "Miért a Spendry Notesban vezesd a napi kiadásokat",
+    "why": [
+     "Olyan gyors, mint leírni egy sima jegyzetet.",
+     "Minden napnak külön végösszege van a naptárban.",
+     "A Spendry kezeli a kereteket, ha részletesebb elemzésre vágysz.",
+     "Ingyenes, és regisztráció sem szükséges."
+    ],
+    "faq": [
+     {
+      "q": "Hogyan követhetem a napi kiadásokat egy jegyzetappban?",
+      "a": "Írj fel minden költést külön sorba az összeggel a Spendry Notesban. A jegyzet összeadja a tételeket, és mindegyik nap megjelenik a naptáradban a saját végösszegével."
+     },
+     {
+      "q": "Át tudom másolni a kiadást a költségvetésembe?",
+      "a": "Igen. Egyetlen koppintással elküldhetsz bármelyik sort kiadásként a Spendry alkalmazásba."
+     },
+     {
+      "q": "Szükség van banki belépésre?",
+      "a": "Nem. A kiadásaidat te magad írod be, a Spendry Notes soha nem kapcsolódik bankhoz."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és vezesd a mai költéseket egyetlen jegyzetben."
+   },
+   {
+    "key": "renovation-budget-planner",
+    "slug": "renovation-budget-planner",
+    "nav": "Felújítási költségkeret",
+    "screen": "plan",
+    "footer": false,
+    "title": "Lakásfelújítási költségtervező jegyzet | Spendry Notes",
+    "description": "Tervezd meg a felújítás költségvetését egy jegyzetben. A Spendry Notes összeadja az anyagokat és a munkadíjat, a kifizetéseket pedig naptárba teszi.",
+    "h1": "Tervezd meg a felújítás költségkeretét egy jegyzetben",
+    "lead": "Írj fel minden építőanyagot és munkát az árával. A Spendry Notes összeadja a tételeket, kiszámolja a mennyiségeket, és beírja a fizetési határidőket a naptárba.",
+    "points": [
+     {
+      "h": "Anyagok mennyiség szerint",
+      "p": "Írd be: „Festék 3 x 8500 Ft” vagy „1.5 kg alma 400 Ft/kg”, és a sor azonnal kiszámolja a végösszeget."
+     },
+     {
+      "h": "Munkadíj és egyéb költségek egy helyen",
+      "p": "A szakemberek díja, a szállítás és a takarítás automatikusan bekerül a közös végösszegbe, ahogy leírod őket."
+     },
+     {
+      "h": "Kifizetések a megadott napokon",
+      "p": "Írd be: „Előleg 15-én 100000 Ft”, és a tétel bekerül a naptárba az adott napra, kérhetsz hozzá emlékeztetőt is."
+     },
+     {
+      "h": "Kapcsolódás a megtakarítási célhoz",
+      "p": "A Spendry segítségével kapcsold a jegyzetet egy megtakarítási célhoz, és lásd, mennyi pénzed maradna a felújítás után."
+     }
+    ],
+    "steps_title": "Így tervezd meg a felújítás költségkeretét",
+    "steps": [
+     "Készíts egy új listát a felújításnak a Spendry Notesban.",
+     "Írj fel minden anyagot és munkát árakkal, vagy mennyiséggel és egységárral.",
+     "Írd a dátumot az előlegekhez és kifizetésekhez, hogy bekerüljenek a naptárba.",
+     "Pipáld ki a kifizetett tételeket, és figyeld a fennmaradó összeget."
+    ],
+    "why_title": "Miért a Spendry Notesban tervezd a felújítást",
+    "why": [
+     "Az egész felújítás egyetlen jegyzetben, pontos végösszeggel.",
+     "Kiszámolja a darabárakat és a mennyiségeket helyetted.",
+     "Fizetési napok a naptárban, pontos emlékeztetőkkel.",
+     "Ingyen letölthető és ingyen használható."
+    ],
+    "faq": [
+     {
+      "q": "Hogyan készíthetek felújítási költségtervet iPhone-on?",
+      "a": "Nyiss egy listát a Spendry Notesban, és írj fel minden anyagot és munkadíjat az árával. A lista összeadja őket, külön mutatva a kifizetett és a még hátralévő összegeket."
+     },
+     {
+      "q": "Tud figyelmeztetni a kifizetési határidőkre?",
+      "a": "Igen. Írd be a napot a sorba, adj hozzá egy emlékeztetőt, és értesítést kapsz az adott napon."
+     },
+     {
+      "q": "Ingyenes az alkalmazás?",
+      "a": "Igen. A Spendry Notes minden funkciója teljesen ingyenes."
+     }
+    ],
+    "cta": "Töltsd le a Spendry Notes appot, és kezeld a felújítási költségeket egyetlen jegyzetben."
+   }
+  ],
+  "bundle": {
+   "slug": "spendry-and-notes",
+   "nav": "Spendry & Notes",
+   "title": "Spendry & Notes csomag | Spendry Notes",
+   "description": "Töltsd le ingyen a Spendry és Spendry Notes appokat az App Store-ból. Költségvetés és számlák az egyikben, számoló jegyzetek a másikban.",
+   "h1": "Spendry & Notes: két ingyenes app, amelyek összedolgoznak",
+   "lead": "A Spendry rendben tartja a költségkereteidet, a kártyáidat, a hiteleidet és a számláidat. A Spendry Notes összeadja a listáidat, és tervekké alakítja a jegyzeteidet. Szerezd be mindkettőt egy koppintással az ingyenes App Store-csomagban.",
+   "spendry_h": "Spendry",
+   "spendry_p": "Költségkeretek, hitelkártyák, részletek, hitelek, számlák és előfizetések egy helyen. A Spendry emlékeztet a fizetési határidők előtt, és megmutatja a hitelmentesség dátumát a lavina- vagy hógolyó-módszerrel. Nincs banki bejelentkezés, nincs adatgyűjtés.",
+   "notes_h": "Spendry Notes",
+   "notes_p": "Egy jegyzet app, amely érti a pénzt. Írd be: „Tej 450 Ft” vagy „Lakbér 28-án 150000 Ft”: a Spendry Notes összeadja a listáidat, a sorokban lévő napokat pedig tervekké alakítja, miközben a jegyzeted egyszerű jegyzet marad.",
+   "together_h": "Együtt még jobbak",
+   "together": [
+    "Kapcsolj össze egy jegyzetet a Spendry egy költségkeretével, céljával vagy hitelével, és nézd meg, mennyi maradna a listád után.",
+    "Küldj át egy sort a jegyzetből a Spendrybe kiadásként vagy emlékeztetőként egyetlen koppintással.",
+    "Egyetlen Spendry Premium előfizetés érvényes mindkét appra."
+   ],
+   "faq": [
+    {
+     "q": "Mi az a Spendry & Notes csomag?",
+     "a": "Ez egy ingyenes App Store-csomag, amellyel a Spendry és a Spendry Notes egyszerre, egyetlen koppintással telepíthető."
+    },
+    {
+     "q": "Kerül valamibe a csomag?",
+     "a": "Nem. Mindkét app ingyenesen letölthető. A Spendry Premium egy választható előfizetés, amely automatikusan megújul, hacsak le nem mondod, és egy előfizetés mindkét appra érvényes."
+    },
+    {
+     "q": "Milyen eszközök támogatottak?",
+     "a": "A Spendry iPhone-on, iPad-en és Mac-en működik, a Spendry Notes pedig iPhone-on fut. Mindkettőhöz legalább iOS 17 szükséges iPhone-on."
+    }
+   ],
+   "cta": "Szerezd be a Spendry és Spendry Notes appokat egyetlen koppintással."
+  }
+ }
 }

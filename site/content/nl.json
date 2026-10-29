@@ -2383,5 +2383,1001 @@
     }
    ]
   }
- ]
+ ],
+ "notes": {
+  "labels": {
+   "app": "Spendry Notes",
+   "free": "Gratis in de App Store voor iPhone. Alle functies van Spendry Notes zijn gratis.",
+   "download": "Download Spendry Notes",
+   "more": "Meer van Spendry Notes",
+   "cta": "Download Spendry Notes en laat je lijstjes optellen.",
+   "bundle_nav": "Spendry & Notes",
+   "bundle_button": "Download beide apps",
+   "spendry_title": "Spendry, de bijbehorende budget-app",
+   "home_kicker": "Spendry Notes",
+   "home_title": "Notities die meerekenen, naast je budget",
+   "home_text": "Spendry Notes is onze gratis notities-app: boodschappenlijstjes die optellen, plannen die in je agenda komen en notities gekoppeld aan je Spendry-budgetten. Download beide apps met één tik via de gratis Spendry & Notes-bundel.",
+   "home_more": "Ontdek wat Spendry Notes kan",
+   "shots": "In Spendry Notes",
+   "shot_alts": {
+    "home": "Spendry Notes-beginscherm met plannen en lijstjes voor vandaag",
+    "list": "Een boodschappenlijstje in Spendry Notes met prijzen en totalen",
+    "plan": "Een maandplanning in Spendry Notes met inkomsten, rekeningen en een nettototaal",
+    "calendar": "De Spendry Notes-agenda met plannen per dag",
+    "ask": "Aan Spendry Notes vragen wat er deze week gepland staat",
+    "picker": "Een notitie koppelen aan een budget, spaardoel of lening in Spendry"
+   }
+  },
+  "pages": [
+   {
+    "key": "spendry-notes",
+    "slug": "spendry-notes",
+    "nav": "Spendry Notes",
+    "screen": "home",
+    "footer": true,
+    "title": "Spendry Notes: Notities Die Meerekenen | Spendry Notes",
+    "description": "Spendry Notes is een gratis iPhone-notitie-app die je boodschappenlijstjes optelt, dagen plant in je agenda en soepel samenwerkt met Spendry.",
+    "h1": "Spendry Notes, een notitie-app die geld begrijpt",
+    "lead": "Schrijf zoals je altijd doet. Spendry Notes herkent bedragen, dagen en tijden in je regels, rekent alles door en maakt er een planning van, terwijl je notitie gewoon een notitie blijft.",
+    "points": [
+     {
+      "h": "Lijstjes die optellen",
+      "p": "Boodschappenlijstjes tonen direct wat er nog openstaat en wat je al hebt gekocht. Vink artikelen af tijdens het winkelen en de totalen rekenen meteen mee."
+     },
+     {
+      "h": "Typ zoals je praat",
+      "p": "\"5 flessen cola à €1,50\", \"1,5 kg appels €2,00 per kilo\" of \"Eten 120/3\": aantallen, stuks-prijzen, kortingen, fooien en ieders deel worden direct berekend."
+     },
+     {
+      "h": "Dagen worden plannen",
+      "p": "Zet een dag in een regel en hij verschijnt vanzelf op die dag in je agenda. \"Morgen\", \"volgende week vrijdag\", \"over 3 dagen\", \"de 15e\" en \"elke maand\" worden begrepen, en elke regel kan een herinnering krijgen."
+     },
+     {
+      "h": "Vraag je notities",
+      "p": "Vraag \"Wat staat er deze week op de planning?\" of \"Wat staat er nog open op mijn lijstjes?\" en krijg antwoord uit je eigen notities, gewoon op je iPhone berekend."
+     },
+     {
+      "h": "Koppel aan Spendry",
+      "p": "Koppel een notitie aan een budget, spaardoel of lening in Spendry en zie meteen wat er overblijft, of zet een regel met één tik als uitgave of herinnering in Spendry."
+     }
+    ],
+    "steps_title": "Aan de slag met Spendry Notes",
+    "steps": [
+     "Download Spendry Notes in de App Store. Het is gratis.",
+     "Schrijf een lijst of planning zoals je dat op papier doet, met prijzen en dagen.",
+     "Zie hoe de totalen en je agenda automatisch worden bijgewerkt.",
+     "Gebruik je Spendry? Koppel de notitie dan aan een budget, spaardoel of lening."
+    ],
+    "why_title": "Waarom kiezen voor Spendry Notes",
+    "why": [
+     "Alle functies van Spendry Notes zijn gratis.",
+     "Werkt uitstekend op zichzelf, en nog beter samen met Spendry.",
+     "Widgets tonen je lijstjes en planning, ook op het toegangsscherm.",
+     "iCloud houdt je notities bij op je apparaten, en Recent verwijderd bewaart ze 30 dagen."
+    ],
+    "faq": [
+     {
+      "q": "Is Spendry Notes gratis?",
+      "a": "Ja. Alle functies van Spendry Notes zijn gratis. Spendry Premium is een optioneel abonnement voor extra functies in Spendry, en één abonnement geldt voor beide apps."
+     },
+     {
+      "q": "Heb ik Spendry nodig om Spendry Notes te gebruiken?",
+      "a": "Nee. Spendry Notes werkt helemaal zelfstandig. Met Spendry erbij kun je notities ook koppelen aan budgetten, spaardoelen en leningen, en regels doorsturen naar Spendry."
+     },
+     {
+      "q": "Op welke apparaten werkt Spendry Notes?",
+      "a": "Spendry Notes is een iPhone-app en werkt met iOS 17 of nieuwer."
+     },
+     {
+      "q": "Kan ik Siri gebruiken met Spendry Notes?",
+      "a": "Ja. Siri en Opdrachten kunnen dingen aan een lijst toevoegen en vertellen wat er binnenkort gepland staat."
+     }
+    ],
+    "cta": "Download Spendry Notes en laat je notities meerekenen."
+   },
+   {
+    "key": "grocery-list-app",
+    "slug": "grocery-list-app",
+    "nav": "Boodschappenlijst app",
+    "screen": "list",
+    "footer": true,
+    "title": "Boodschappenlijst App Met Prijzen | Spendry Notes",
+    "description": "Een gratis boodschappenlijst-app voor iPhone die prijzen optelt terwijl je typt, toont wat je nog moet halen en eerdere prijzen onthoudt.",
+    "h1": "Een boodschappenlijst-app die meerekent in de winkel",
+    "lead": "Typ je lijstje met prijzen, vink artikelen af zodra ze in je karretje belanden en zie direct wat je hebt uitgegeven en wat er nog openstaat.",
+    "points": [
+     {
+      "h": "Totalen terwijl je typt",
+      "p": "Typ \"3 pakken melk €1,20 per stuk\" of \"4 broodjes €2,50 p/s\" en de lijst telt het op. De bedragen voor Over en Gekocht passen zich bij elke vink aan."
+     },
+     {
+      "h": "Aantallen en kiloprijzen",
+      "p": "\"1,5 kg appels €2,00 per kilo\" en \"5 flessen cola à €1,50\" worden automatisch berekend, zonder dat je een rekenmachine nodig hebt."
+     },
+     {
+      "h": "De prijs van de vorige keer",
+      "p": "Typ een artikel opnieuw en de prijs van je vorige aankoop staat al klaar. Zo is je wekelijkse boodschappenlijst binnen seconden af."
+     },
+     {
+      "h": "Een budget voor de winkel",
+      "p": "Geef je lijst een budget mee en zie precies hoeveel je nog over hebt terwijl je producten toevoegt."
+     }
+    ],
+    "steps_title": "Zo maak je een boodschappenlijst met prijzen",
+    "steps": [
+     "Maak een lijst aan in Spendry Notes.",
+     "Schrijf elk artikel op met een prijs, of met een aantal en een stuksprijs.",
+     "Vink artikelen af zodra ze in je winkelmand liggen.",
+     "Controleer het openstaande bedrag nog voor je bij de kassa staat."
+    ],
+    "why_title": "Waarom Spendry Notes voor boodschappen",
+    "why": [
+     "Gratis, zonder account of registratie.",
+     "Widgets tonen je lijst op het beginscherm en toegangsscherm.",
+     "Siri kan artikelen aan je lijst toevoegen.",
+     "Koppel met Spendry je lijst aan je boodschappenbudget en zie wat er overblijft."
+    ],
+    "faq": [
+     {
+      "q": "Is er een gratis boodschappenlijst-app die prijzen optelt?",
+      "a": "Spendry Notes is gratis en telt de prijzen in je lijst automatisch op, met aparte totalen voor wat je nog moet halen en wat je al hebt gekocht."
+     },
+     {
+      "q": "Onthoudt de app prijzen?",
+      "a": "Ja. Wanneer je een artikel opnieuw intypt, wordt de prijs van de vorige keer automatisch ingevuld."
+     },
+     {
+      "q": "Kan ik artikelen toevoegen met Siri?",
+      "a": "Ja. Siri en Opdrachten kunnen direct artikelen aan een lijst toevoegen."
+     }
+    ],
+    "cta": "Download Spendry Notes en neem een meerekenende lijst mee naar de winkel."
+   },
+   {
+    "key": "shopping-list-with-prices",
+    "slug": "shopping-list-with-prices",
+    "nav": "Lijstje met prijzen",
+    "screen": "list",
+    "footer": false,
+    "title": "Boodschappenlijst Met Prijzen en Totaal | Spendry Notes",
+    "description": "Maak een lijstje met prijzen. Spendry Notes rekent live het totaal uit, verwerkt kortingen en toont precies wat er overblijft van je budget.",
+    "h1": "Een boodschappenlijst met prijzen en een live totaal",
+    "lead": "Spendry Notes herkent de prijzen op je lijst, houdt het totaalbedrag actueel en laat zien hoeveel er nog over is van je budget.",
+    "points": [
+     {
+      "h": "Kortingen en fooien meegerekend",
+      "p": "Zet \"Jas €100 -20% korting\" bij een artikel of reken een fooi mee: het totaal rekent meteen door."
+     },
+     {
+      "h": "Een budget voor je lijst",
+      "p": "Geef de notitie een budget en zie direct wat er overblijft naarmate je lijst groeit."
+     },
+     {
+      "h": "Gekocht en nog te kopen",
+      "p": "Afgevinkte artikelen verhuizen naar het gekochte totaal, zodat je altijd weet wat de rest nog kost."
+     },
+     {
+      "h": "Een lijst met een datum",
+      "p": "Zet een dag bij een regel en deze verschijnt in je agenda, met een herinnering als je dat prettig vindt."
+     }
+    ],
+    "steps_title": "Zo houd je een lijst bij met prijzen",
+    "steps": [
+     "Open een nieuwe lijst in Spendry Notes.",
+     "Noteer de artikelen met hun prijs, aantal of korting.",
+     "Stel eventueel een budget in voor de lijst.",
+     "Vink artikelen af zodra je ze koopt en bekijk beide totalen."
+    ],
+    "why_title": "Waarom een lijst met prijzen helpt",
+    "why": [
+     "Je weet de kosten vóór de kassa, niet pas erna.",
+     "Kortingen, aantallen en fooien worden automatisch berekend.",
+     "De lijst blijft een overzichtelijke notitie die je vrij kunt aanpassen.",
+     "Alle functies van Spendry Notes zijn gratis."
+    ],
+    "faq": [
+     {
+      "q": "Hoe tel ik een lijstje op mijn iPhone bij elkaar op?",
+      "a": "Schrijf artikelen met prijzen in Spendry Notes. De app telt ze direct op en toont aparte totalen voor Over en Gekocht."
+     },
+     {
+      "q": "Kan de app kortingen berekenen?",
+      "a": "Ja. Typ een korting zoals \"-20% korting\" achter een artikel en het totaal past zich meteen aan."
+     },
+     {
+      "q": "Kan ik een budget instellen voor een lijst?",
+      "a": "Ja. Geef de notitie een budget mee en Spendry Notes toont wat er overblijft."
+     }
+    ],
+    "cta": "Download Spendry Notes en weet het totaal al voor de kassa."
+   },
+   {
+    "key": "notes-app-with-calculator",
+    "slug": "notes-app-with-calculator",
+    "nav": "Notities met rekenmachine",
+    "screen": "plan",
+    "footer": true,
+    "title": "Notitie App Met Rekenmachine | Spendry Notes",
+    "description": "Spendry Notes is een notitie-app die meerekent: herkent bedragen in je tekst en telt ze op, inclusief aantallen, kortingen en delingen.",
+    "h1": "Een notitie-app die voor je rekent",
+    "lead": "Geen losse rekenmachine nodig. Schrijf bedragen in je notities en Spendry Notes telt ze regel voor regel op, terwijl je tekst gewoon behouden blijft.",
+    "points": [
+     {
+      "h": "Bedragen overal in een regel",
+      "p": "\"Factuur €1000 +21% btw\" of \"4 broodjes €2,50 p/s\": het bedrag, het aantal en de datum worden direct herkend uit je eigen woorden."
+     },
+     {
+      "h": "Inkomsten en uitgaven",
+      "p": "Zet inkomsten en uitgaven in dezelfde notitie en zie direct wat er binnenkomt, wat eruit gaat en wat er overblijft."
+     },
+     {
+      "h": "Splitsen en percentages",
+      "p": "\"Eten 120/3\" toont ieders aandeel, en \"-20% korting\" of een fooi past meteen het totaalbedrag aan."
+     },
+     {
+      "h": "Antwoorden uit je notities",
+      "p": "Vraag wat er deze week op de planning staat of wat er nog openstaat op je lijstjes, en het antwoord komt uit je eigen notities."
+     }
+    ],
+    "steps_title": "Zo gebruik je een notitie-app als rekenmachine",
+    "steps": [
+     "Open een notitie in Spendry Notes.",
+     "Schrijf elke regel zoals je het zou zeggen, met het bijbehorende bedrag.",
+     "Bekijk tijdens het typen direct de totalen onder de notitie.",
+     "Voeg een dag toe aan een regel om deze in je agenda te zetten."
+    ],
+    "why_title": "Waarom meerekenende notities handig zijn",
+    "why": [
+     "Niet meer schakelen tussen notities en een rekenmachine.",
+     "De notitie bewaart je eigen tekst, niet alleen losse getallen.",
+     "Totalen passen zich vanzelf aan wanneer je een regel wijzigt.",
+     "Gratis te downloaden en gratis te gebruiken."
+    ],
+    "faq": [
+     {
+      "q": "Is er een notitie-app die getallen optelt op iPhone?",
+      "a": "Spendry Notes herkent bedragen in je regels en telt ze automatisch op, inclusief aantallen, kortingen, fooien en delingen."
+     },
+     {
+      "q": "Werkt het met inkomsten en uitgaven tegelijk?",
+      "a": "Ja. Inkomsten en uitgaven in dezelfde notitie leveren aparte totalen op en laten zien wat er overblijft."
+     },
+     {
+      "q": "Is Spendry Notes gratis?",
+      "a": "Ja. Alle functies van Spendry Notes zijn gratis te gebruiken."
+     }
+    ],
+    "cta": "Download Spendry Notes en laat je notities het rekenwerk doen."
+   },
+   {
+    "key": "split-the-bill",
+    "slug": "split-the-bill",
+    "nav": "Rekening delen",
+    "screen": "list",
+    "footer": false,
+    "title": "Rekening Delen in een Notitie | Spendry Notes",
+    "description": "Typ \"Eten 120/3\" en Spendry Notes berekent ieders deel. Ook fooi en korting worden direct in je notitie uitgerekend.",
+    "h1": "De rekening delen direct in een notitie",
+    "lead": "Typ het totaal en het aantal personen, en Spendry Notes laat zien wat iedereen betaalt, inclusief fooi.",
+    "points": [
+     {
+      "h": "Eén regel, ieders deel",
+      "p": "\"Eten 120/3\" is genoeg: Spendry Notes toont ieders deel direct onder de regel."
+     },
+     {
+      "h": "Fooi en korting",
+      "p": "Voeg \"+10% fooi\" of \"-20%\" toe en de bedragen per persoon passen zich direct aan."
+     },
+     {
+      "h": "Reisjes en gedeelde kosten",
+      "p": "Houd een heel weekend bij in één notitie: tickets, hotel en etentjes, elk met een eigen verdeling."
+     },
+     {
+      "h": "Meteen in je planning",
+      "p": "Typ een dag bij een uitgave en deze verschijnt vanzelf in je agenda."
+     }
+    ],
+    "steps_title": "Zo deel je een rekening in Spendry Notes",
+    "steps": [
+     "Typ wat je hebt betaald en deel het door het aantal personen, zoals \"Eten 120/3\".",
+     "Voeg eventueel fooi of korting toe.",
+     "Lees ieders deel af onder de regel.",
+     "Blijf nieuwe uitgaven aan dezelfde notitie toevoegen voor een weekendje weg of uitje."
+    ],
+    "why_title": "Waarom kosten delen in een notitie",
+    "why": [
+     "Geen aparte rekenmachine of wie-betaalt-wat-app nodig.",
+     "De notitie bewaart precies wie wat heeft betaald in je eigen woorden.",
+     "Totalen en bedragen per persoon veranderen mee zodra je een regel aanpast.",
+     "Gratis, zonder account of registratie."
+    ],
+    "faq": [
+     {
+      "q": "Hoe deel ik een rekening op mijn iPhone?",
+      "a": "Typ in Spendry Notes het bedrag gedeeld door het aantal personen, zoals \"Eten 120/3\", en ieders deel verschijnt onder de regel."
+     },
+     {
+      "q": "Kan ik ook fooi meerekenen?",
+      "a": "Ja. Voeg \"+10% fooi\" toe en de verdeling past zich automatisch aan het nieuwe totaal aan."
+     },
+     {
+      "q": "Kost de app geld?",
+      "a": "Nee. Spendry Notes en alle bijbehorende functies zijn gratis."
+     }
+    ],
+    "cta": "Download Spendry Notes en deel de rekening in één regel."
+   },
+   {
+    "key": "monthly-budget-planner-notes",
+    "slug": "monthly-budget-planner-notes",
+    "nav": "Maandplanning in notitie",
+    "screen": "plan",
+    "footer": false,
+    "title": "Maandelijkse Budgetplanner in Notitie | Spendry Notes",
+    "description": "Plan je maand in een notitie: salaris, huur en vaste lasten met datum. Spendry Notes toont het saldo en zet elke dag in je agenda.",
+    "h1": "Plan je maand in één enkele notitie",
+    "lead": "Noteer je salaris, huur en rekeningen met hun data. Spendry Notes toont je inkomsten, uitgaven en wat er overblijft, en zet elke dag in je agenda.",
+    "points": [
+     {
+      "h": "Inkomsten, uitgaven en wat overblijft",
+      "p": "Inkomsten en uitgaven in één notitie tonen het netto eindbedrag van de maand, zodat je overzicht eerlijk blijft."
+     },
+     {
+      "h": "Elke dag in je agenda",
+      "p": "\"Huur de 28e\" en \"Stroomrekening de 26e\" komen automatisch op de juiste dag in de agenda te staan."
+     },
+     {
+      "h": "Herinneringen waar jij dat wilt",
+      "p": "Stel een subtiele herinnering in bij de regels die daarom vragen, zoals de huur of een factuur."
+     },
+     {
+      "h": "Begin met de maandtemplate",
+      "p": "Sjablonen voor de maand, een reis, een verhuizing of een feestje geven je een vliegende start."
+     }
+    ],
+    "steps_title": "Zo plan je een maand in Spendry Notes",
+    "steps": [
+     "Begin met de maandtemplate of een lege notitie.",
+     "Schrijf je inkomsten en uitgaven op met de bijbehorende dag.",
+     "Bekijk het berekende saldo en je agenda.",
+     "Voeg herinneringen toe aan betalingen die je absoluut niet wilt vergeten."
+    ],
+    "why_title": "Waarom je maand plannen in een notitie",
+    "why": [
+     "Net zo snel en simpel als schrijven op papier.",
+     "Totalen en de agenda rekenen en werken vanzelf bij.",
+     "Met Spendry maak je van een regel met één tik een uitgave of herinnering.",
+     "Alle functies van Spendry Notes zijn helemaal gratis."
+    ],
+    "faq": [
+     {
+      "q": "Kan ik een maandbudget bijhouden in een notitie-app?",
+      "a": "Ja. Noteer in Spendry Notes je inkomsten en uitgaven met hun data. De notitie berekent het saldo en zet elke dag in de agenda."
+     },
+     {
+      "q": "Krijg ik een herinnering voor een rekening moet worden betaald?",
+      "a": "Ja, als je een herinnering aan die specifieke regel toevoegt. Je krijgt alleen meldingen waar jij ze instelt."
+     },
+     {
+      "q": "Werkt het samen met Spendry?",
+      "a": "Ja. Koppel de notitie aan een budget in Spendry, of stuur een regel naar Spendry als uitgave of herinnering."
+     }
+    ],
+    "cta": "Download Spendry Notes en plan je maand in één notitie."
+   },
+   {
+    "key": "trip-budget-planner",
+    "slug": "trip-budget-planner",
+    "nav": "Reisbudget planner",
+    "screen": "plan",
+    "footer": false,
+    "title": "Reisbudget Planner voor Vakantie | Spendry Notes",
+    "description": "Kies het reissjabloon, noteer vluchten, verblijf en uitgaven en Spendry Notes telt alles op en berekent ieders deel.",
+    "h1": "Plan je reisbudget in een notitie",
+    "lead": "Begin met de reistemplate en noteer wat je reis kost. Spendry Notes telt alles op, berekent ieders deel en zet de data in je agenda.",
+    "points": [
+     {
+      "h": "Meteen beginnen met een template",
+      "p": "Het reissjabloon geeft je een kant-en-klare notitie voor vliegtickets, verblijf, eten en uitstapjes."
+     },
+     {
+      "h": "Het totaaloverzicht tijdens het plannen",
+      "p": "Elke uitgave die je noteert telt direct mee, zodat je de totale reissom ziet voordat je boekt."
+     },
+     {
+      "h": "Kosten verdelen voor een groep",
+      "p": "Deel een uitgave door het aantal personen, zoals \"Hotel 600/3\", en ieders deel verschijnt onder de regel."
+     },
+     {
+      "h": "Spaar ervoor in Spendry",
+      "p": "Koppel de notitie aan een spaardoel in Spendry en zie meteen hoe ver je al bent."
+     }
+    ],
+    "steps_title": "Zo plan je een reisbudget",
+    "steps": [
+     "Open een nieuwe notitie met de reistemplate.",
+     "Noteer elke uitgave met het bedrag en eventueel de datum.",
+     "Verdeel gezamenlijke kosten eenvoudig over het reisgezelschap.",
+     "Koppel de notitie direct aan een spaardoel in Spendry."
+    ],
+    "why_title": "Waarom je reis plannen in Spendry Notes",
+    "why": [
+     "De hele reis overzichtelijk in één notitie, inclusief eindbedrag.",
+     "Belangrijke reisdata verschijnen automatisch in je agenda.",
+     "Gedeelde kosten worden direct per persoon uitgerekend.",
+     "Gratis te downloaden en gratis te gebruiken."
+    ],
+    "faq": [
+     {
+      "q": "Hoe maak ik een vakantiebudget op mijn iPhone?",
+      "a": "Kies de reistemplate in Spendry Notes en noteer je uitgaven. De notitie telt alles bij elkaar op en berekent ieders deel."
+     },
+     {
+      "q": "Kan ik voor de vakantie sparen?",
+      "a": "Ja. Koppel de notitie aan een spaardoel in Spendry om je voortgang direct naast de notitie te bekijken."
+     },
+     {
+      "q": "Is het gratis?",
+      "a": "Ja. Alle functies van Spendry Notes zijn volledig gratis."
+     }
+    ],
+    "cta": "Download Spendry Notes en plan je reis in één notitie."
+   },
+   {
+    "key": "moving-checklist-with-costs",
+    "slug": "moving-checklist-with-costs",
+    "nav": "Verhuischecklist",
+    "screen": "list",
+    "footer": false,
+    "title": "Verhuischecklist met Kosten | Spendry Notes",
+    "description": "Een verhuischecklist die meerekent: vink taken af, noteer kosten en zie het totaal. Start vanuit de verhuistemplate in Spendry Notes.",
+    "h1": "Een verhuischecklist die alle kosten optelt",
+    "lead": "Begin met het verhuissjabloon, vink taken af terwijl je bezig bent en zet de kosten erbij. Spendry Notes houdt de totalen en data bij.",
+    "points": [
+     {
+      "h": "Taken en kosten op één plek",
+      "p": "Elke regel kan een taak met een bedrag zijn, waardoor je checklist meteen je verhuisbudget is."
+     },
+     {
+      "h": "Gedaan en nog te doen",
+      "p": "Vink een regel af wanneer deze klaar is: de totalen tonen precies wat er al is uitgegeven en wat nog openstaat."
+     },
+     {
+      "h": "Data in je agenda",
+      "p": "\"Verhuisbus zaterdag\" of \"Borg de 1e\" worden direct op de juiste dag in de agenda geplaatst."
+     },
+     {
+      "h": "Herinneringen waar nodig",
+      "p": "Stel een handige herinnering in voor deadlines en afspraken die je niet mag missen."
+     }
+    ],
+    "steps_title": "Zo plan je een verhuizing in Spendry Notes",
+    "steps": [
+     "Open een notitie met het verhuissjabloon.",
+     "Voeg verhuistaken toe met bijbehorende kosten en data.",
+     "Vink taken af zodra je ze hebt afgerond.",
+     "Houd het overzicht op de totale verhuiskosten tot aan de verhuisdag."
+    ],
+    "why_title": "Waarom een checklist met kosten gebruiken",
+    "why": [
+     "Geen ingewikkelde spreadsheets nodig voor je verhuisbudget.",
+     "In één oogopslag inzicht in gemaakte kosten en openstaande uitgaven.",
+     "Data en herinneringen worden beheerd vanuit dezelfde notitie.",
+     "Alle functies van Spendry Notes zijn gratis."
+    ],
+    "faq": [
+     {
+      "q": "Bestaat er een verhuischecklist-app met kosten?",
+      "a": "Spendry Notes heeft een speciale verhuistemplate waarin elke taak een bedrag en datum kan hebben. De app telt alles op en vult je agenda aan."
+     },
+     {
+      "q": "Kan ik herinneringen instellen voor de verhuisdag?",
+      "a": "Ja. Voeg een herinnering toe aan een willekeurige regel en je ontvangt op die dag een subtiele melding."
+     },
+     {
+      "q": "Is het gratis?",
+      "a": "Ja. Alle functies van Spendry Notes zijn gratis."
+     }
+    ],
+    "cta": "Download Spendry Notes en verhuis met grip op alle kosten."
+   },
+   {
+    "key": "event-budget-planner",
+    "slug": "event-budget-planner",
+    "nav": "Budget voor evenement",
+    "screen": "plan",
+    "footer": false,
+    "title": "Budgetplanner voor evenementen | Spendry Notes",
+    "description": "Plan het budget voor een feest of bruiloft in een notitie. Spendry Notes telt kosten op, verdeelt bedragen en zet datums in je agenda.",
+    "h1": "Plan het budget voor je evenement in een notitie",
+    "lead": "Begin met de sjabloon Budget voor evenement en noteer elke uitgave. Spendry Notes telt alles op, berekent ieders deel en zet de datums in je agenda.",
+    "points": [
+     {
+      "h": "Een handige sjabloon",
+      "p": "De sjabloon Budget voor evenement is een vliegende start voor een feest, verjaardag of bruiloft."
+     },
+     {
+      "h": "Alle kosten in één totaal",
+      "p": "Locatie, hapjes, muziek en bedankjes worden opgeteld zodra je ze intypt."
+     },
+     {
+      "h": "Eerlijk delen met iedereen",
+      "p": "Deel een bedrag door het aantal personen en ieders deel staat direct onder de regel."
+     },
+     {
+      "h": "Datums en herinneringen",
+      "p": "Aanbetalingen en deadlines verschijnen in je agenda, met een herinnering als je dat wilt."
+     }
+    ],
+    "steps_title": "Zo plan je het budget voor je evenement",
+    "steps": [
+     "Open een notitie met de sjabloon Budget voor evenement.",
+     "Typ elke uitgave met het bedrag en de datum.",
+     "Verdeel gedeelde kosten door het aantal personen.",
+     "Voeg herinneringen toe aan aanbetalingen en deadlines."
+    ],
+    "why_title": "Waarom je evenement plannen in Spendry Notes",
+    "why": [
+     "Het hele budget in één notitie, inclusief het totaal.",
+     "Deadlines in je agenda, herinneringen waar je ze nodig hebt.",
+     "Gedeelde kosten worden automatisch berekend.",
+     "Gratis te downloaden en gratis te gebruiken."
+    ],
+    "faq": [
+     {
+      "q": "Hoe plan ik een feestbudget op mijn iPhone?",
+      "a": "Kies de sjabloon Budget voor evenement in Spendry Notes, vul de kosten in en de notitie telt alles op en berekent ieders deel."
+     },
+     {
+      "q": "Kan de app mij herinneren aan aanbetalingen?",
+      "a": "Ja. Voeg een herinnering toe aan de regel en je krijgt op die dag een melding."
+     },
+     {
+      "q": "Is de app gratis?",
+      "a": "Ja. Alle functies van Spendry Notes zijn gratis."
+     }
+    ],
+    "cta": "Download Spendry Notes en houd het budget voor je evenement in één notitie."
+   },
+   {
+    "key": "notes-with-reminders",
+    "slug": "notes-with-reminders",
+    "nav": "Notities met herinneringen",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Notitie app met datums en taken | Spendry Notes",
+    "description": "Schrijf \"Huur de 28e\" en het staat in je agenda. Spendry Notes voegt een subtiele herinnering toe aan elke regel, precies wanneer jij wilt.",
+    "h1": "Notities die datums herkennen",
+    "lead": "Schrijf een dag in een regel en Spendry Notes zet hem in je agenda. Voeg een subtiele herinnering toe aan regels die dat nodig hebben, en laat de rest met rust.",
+    "points": [
+     {
+      "h": "Datums in gewone taal",
+      "p": "\"Morgen\", \"volgende week vrijdag\", \"over 3 dagen\", \"de 15e\" en \"elke maand\" worden direct herkend."
+     },
+     {
+      "h": "Een agenda vanuit je notities",
+      "p": "Elke gedateerde regel verschijnt op die dag in de agenda, inclusief het bedrag als je dat hebt ingevuld."
+     },
+     {
+      "h": "Subtiele herinneringen",
+      "p": "Er wordt alleen een herinnering toegevoegd aan regels die je zelf kiest, op het gewenste tijdstip."
+     },
+     {
+      "h": "Binnenkort in één oogopslag",
+      "p": "Widgets op het beginscherm en toegangsscherm tonen je geplande afspraken en taken."
+     }
+    ],
+    "steps_title": "Zo voeg je herinneringen toe aan notities",
+    "steps": [
+     "Schrijf een regel met een dag, zoals \"Huur de 28e €1.800\".",
+     "Bekijk de notitie op die datum in de agenda.",
+     "Voeg optioneel een herinnering toe aan de regel.",
+     "Plaats een widget om te zien wat er binnenkort aankomt."
+    ],
+    "why_title": "Waarom datums in je notities handig zijn",
+    "why": [
+     "Plannen blijven waar je ze hebt opgeschreven, niet in een andere app.",
+     "Facturen en vaste lasten tonen direct hun bedrag in de agenda.",
+     "Herinneringen gaan alleen af als jij daarvoor kiest.",
+     "Alle functies van Spendry Notes zijn gratis."
+    ],
+    "faq": [
+     {
+      "q": "Kan een notitie een herinnering krijgen op de iPhone?",
+      "a": "In Spendry Notes krijgt elke regel met een datum eenvoudig een herinnering, alleen als je die zelf instelt."
+     },
+     {
+      "q": "Herkent de app zinnen als \"volgende week vrijdag\"?",
+      "a": "Ja. Begrippen als \"morgen\", \"volgende week vrijdag\", \"over 3 dagen\", \"de 15e\" en \"elke maand\" worden herkend."
+     },
+     {
+      "q": "Kan ik plannen zien op het toegangsscherm?",
+      "a": "Ja. Spendry Notes heeft handige widgets voor aankomende plannen en lijstjes, ook voor het toegangsscherm."
+     }
+    ],
+    "cta": "Download Spendry Notes en laat je notities de datums onthouden."
+   },
+   {
+    "key": "wishlist-with-prices",
+    "slug": "wishlist-with-prices",
+    "nav": "Verlanglijstje met prijzen",
+    "screen": "list",
+    "footer": false,
+    "title": "Verlanglijstje met prijzen en totaal | Spendry Notes",
+    "description": "Houd een verlanglijstje met prijzen bij in Spendry Notes: zie het totaalbedrag, stel een budget in en koppel het aan een spaardoel in Spendry.",
+    "h1": "Een verlanglijstje dat weet wat het kost",
+    "lead": "Schrijf je wensen op met hun prijs. Spendry Notes telt alles op, laat zien wat er binnen je budget past en koppelt de lijst desgewenst aan een spaardoel in Spendry.",
+    "points": [
+     {
+      "h": "Het totaal van al je wensen",
+      "p": "Elke prijs op de lijst wordt bij elkaar opgeteld, zodat je meteen weet wat alles samen kost."
+     },
+     {
+      "h": "Een vast budget voor de lijst",
+      "p": "Geef de notitie een budget en zie wat je over hebt terwijl je dingen toevoegt of afstreept."
+     },
+     {
+      "h": "Vink gekochte spullen af",
+      "p": "Afgevinkte items verhuizen naar het gekochte totaal, terwijl de rest helder in beeld blijft."
+     },
+     {
+      "h": "Spaar ervoor in Spendry",
+      "p": "Koppel de lijst aan een spaardoel in Spendry en zie meteen hoe dicht je bij je doel bent."
+     }
+    ],
+    "steps_title": "Zo maak je een verlanglijstje met prijzen",
+    "steps": [
+     "Start een lijst in Spendry Notes.",
+     "Noteer elke wens met de bijbehorende prijs.",
+     "Stel een budget in voor de lijst als je dat wilt.",
+     "Koppel de lijst aan een spaardoel in Spendry."
+    ],
+    "why_title": "Waarom een verlanglijst met prijzen handig is",
+    "why": [
+     "Je ziet het echte totaalbedrag voordat je iets koopt.",
+     "Kortingen worden automatisch uitgerekend als je ze intypt.",
+     "Een spaardoel maakt van wensen een concreet plan.",
+     "Alle functies van Spendry Notes zijn gratis."
+    ],
+    "faq": [
+     {
+      "q": "Kan ik een verlanglijstje met prijzen maken op de iPhone?",
+      "a": "Ja. Vul in Spendry Notes je wensen in met de prijs en je lijst toont direct het totaal en wat je over hebt van je budget."
+     },
+     {
+      "q": "Kan ik sparen voor de spullen op mijn lijst?",
+      "a": "Ja. Koppel je lijst eenvoudig aan een spaardoel in Spendry."
+     },
+     {
+      "q": "Is de app gratis?",
+      "a": "Ja. Alle functies van Spendry Notes zijn gratis."
+     }
+    ],
+    "cta": "Download Spendry Notes en maak een verlanglijstje dat meerekent."
+   },
+   {
+    "key": "remember-grocery-prices",
+    "slug": "remember-grocery-prices",
+    "nav": "Prijzen van boodschappen onthouden",
+    "screen": "list",
+    "footer": false,
+    "title": "Boodschappenlijst die prijzen onthoudt | Spendry Notes",
+    "description": "Typ een product opnieuw en Spendry Notes vult de prijs van de vorige keer in. Zo is je boodschappenlijst binnen een paar seconden klaar.",
+    "h1": "Een boodschappenlijst die weet wat je betaalde",
+    "lead": "Typ een artikel dat je eerder hebt gekocht en Spendry Notes vult de vorige prijs automatisch in. Je wekelijkse lijst schrijft zichzelf en het totaal staat direct klaar.",
+    "points": [
+     {
+      "h": "De vorige prijs staat klaar",
+      "p": "Typ \"Melk\" en de prijs van de vorige keer verschijnt direct, zodat je alleen aanpast wat veranderd is."
+     },
+     {
+      "h": "Het totaal al voor vertrek",
+      "p": "Met de prijzen ingevuld zie je vooraf precies wat de hele winkelmand gaat kosten."
+     },
+     {
+      "h": "Prijsstijgingen meteen helder",
+      "p": "Doordat de oude prijs er al staat, valt een prijswijziging meteen op zodra je deze bijwerkt."
+     },
+     {
+      "h": "Aantallen direct meegerekend",
+      "p": "\"3 pakken melk €1,20 per stuk\" en \"1,5 kg appels €2,00 per kilo\" worden netjes voor je uitgerekend."
+     }
+    ],
+    "steps_title": "Zo werkt het",
+    "steps": [
+     "Vul eenmalig je boodschappenlijst in met prijzen.",
+     "Typ de volgende keer weer dezelfde artikelen.",
+     "De prijs die je vorige keer betaalde wordt direct ingevuld.",
+     "Pas alleen gewijzigde prijzen aan en bekijk je totaal."
+    ],
+    "why_title": "Waarom dit tijd bespaart",
+    "why": [
+     "Je wekelijkse lijstje is binnen een paar seconden klaar.",
+     "Het totaalbedrag is bekend vóórdat je naar de winkel gaat.",
+     "Een veranderde prijs valt direct op als je hem bijwerkt.",
+     "Alle functies van Spendry Notes zijn gratis."
+    ],
+    "faq": [
+     {
+      "q": "Bestaat er een boodschappenlijst die prijzen onthoudt?",
+      "a": "Ja. Als je in Spendry Notes een product opnieuw typt, vult de app de prijs van de vorige keer automatisch in."
+     },
+     {
+      "q": "Telt de app de lijst ook direct bij elkaar op?",
+      "a": "Ja. De lijst toont altijd de totalen voor wat je nog moet halen en wat je al gekocht hebt."
+     },
+     {
+      "q": "Is de app gratis?",
+      "a": "Ja. Alle functies van Spendry Notes zijn gratis."
+     }
+    ],
+    "cta": "Download Spendry Notes en laat je boodschappenlijst de prijzen onthouden."
+   },
+   {
+    "key": "gift-list-with-budget",
+    "slug": "gift-list-with-budget",
+    "nav": "Cadeaulijst met budget",
+    "screen": "list",
+    "footer": false,
+    "title": "Cadeaulijst met Budget Maken | Spendry Notes",
+    "description": "Plan cadeaus voor verjaardagen en feestdagen in een lijst met prijzen. Spendry Notes rekent alles uit, houdt gekochte items bij en bewaakt je budget.",
+    "h1": "Een cadeaulijst die binnen je budget blijft",
+    "lead": "Schrijf op voor wie je koopt en wat elk cadeau kost. Spendry Notes telt alles op, toont wat je overhebt van je budget en zet datums in je agenda.",
+    "points": [
+     {
+      "h": "Een kant-en-klare cadeaulijst",
+      "p": "Begin met de cadeaulijst-sjabloon en schrijf een regel voor elke persoon."
+     },
+     {
+      "h": "Elk cadeau in het totaal",
+      "p": "Typ \"Sjaal €25\" of \"Boek 2 x €15\" en de lijst telt alles op, met aparte totalen voor wat je kocht en wat je nog moet halen."
+     },
+     {
+      "h": "Een budget voor de feestdagen",
+      "p": "Geef de notitie een budget en zie meteen hoeveel je overhoudt terwijl je cadeaus toevoegt."
+     },
+     {
+      "h": "Verjaardagen in je agenda",
+      "p": "Zet de datum bij een naam, zoals \"Verjaardag mama 2 november\", en deze verschijnt op die dag in je agenda, desgewenst met een herinnering."
+     }
+    ],
+    "steps_title": "Hoe je een cadeaulijst met budget maakt",
+    "steps": [
+     "Begin een notitie vanuit het sjabloon Cadeaulijst.",
+     "Schrijf elke persoon en het bedachte cadeau op, inclusief de prijs.",
+     "Geef de notitie een budget voor alle cadeaus.",
+     "Vink cadeaus af zodra je ze koopt en bekijk wat er overblijft."
+    ],
+    "why_title": "Waarom cadeaus plannen in Spendry Notes",
+    "why": [
+     "Alle cadeaus in één notitie, met een duidelijk totaal.",
+     "Verjaardagen en deadlines direct in je agenda.",
+     "Eerder betaalde prijzen worden onthouden.",
+     "Gratis te downloaden en gratis te gebruiken."
+    ],
+    "faq": [
+     {
+      "q": "Hoe maak ik een cadeaulijst met een budget?",
+      "a": "Open het sjabloon Cadeaulijst in Spendry Notes, noteer elk cadeau met de prijs en stel een budget in. De notitie toont direct wat je hebt uitgegeven en wat er over is."
+     },
+     {
+      "q": "Kan ik zien wat ik al heb gekocht?",
+      "a": "Ja. Vink een cadeau af zodra je het koopt en de totalen voor wat je kocht en wat er nog over is passen zich automatisch aan."
+     },
+     {
+      "q": "Is het gratis?",
+      "a": "Ja. Alle functies van Spendry Notes zijn gratis."
+     }
+    ],
+    "cta": "Download Spendry Notes en houd de cadeaus dit jaar netjes binnen budget."
+   },
+   {
+    "key": "black-friday-shopping-list",
+    "slug": "black-friday-shopping-list",
+    "nav": "Black Friday-lijst",
+    "screen": "list",
+    "footer": false,
+    "title": "Black Friday Verlanglijst met Budget | Spendry Notes",
+    "description": "Plan Black Friday deals in een handige lijst. Spendry Notes berekent kortingen, telt je mandje op en toont wat er overblijft van je budget.",
+    "h1": "Een Black Friday-lijst die binnen budget blijft",
+    "lead": "Schrijf vooraf op wat je wilt hebben, inclusief prijs en korting. Spendry Notes berekent de echte prijzen, telt alles op en bewaakt je budget.",
+    "points": [
+     {
+      "h": "Kortingen direct uitgerekend",
+      "p": "Typ \"Schoenen €80 -20%\" en de regel toont meteen de prijs na aftrek van de korting."
+     },
+     {
+      "h": "Eén totaal voor al je aankopen",
+      "p": "Elke aanbieding telt mee terwijl je typt, met aparte totalen voor wat je hebt gekocht en wat nog op je lijst staat."
+     },
+     {
+      "h": "Vooraf een budget instellen",
+      "p": "Geef de notitie een budget en zie wat je overhoudt voordat je ook maar iets koopt."
+     },
+     {
+      "h": "Wat betaalde je vorige keer",
+      "p": "Typ hetzelfde artikel nogmaals en de eerdere prijs verschijnt direct, zodat je de aanbieding goed kunt vergelijken."
+     }
+    ],
+    "steps_title": "Hoe je Black Friday inkopen plant",
+    "steps": [
+     "Maak voor de uitverkoop begint een lijst aan in Spendry Notes.",
+     "Schrijf elk gewenst artikel op met de prijs.",
+     "Voeg het kortingspercentage toe zodra de deal bekend is.",
+     "Stel een budget in voor je lijst en vink af wat je koopt."
+    ],
+    "why_title": "Waarom koopjes plannen in Spendry Notes",
+    "why": [
+     "Kortingen en eindbedragen direct voor je uitgerekend.",
+     "Een vast budget dat toont hoeveel je nog over hebt.",
+     "Widgets houden je lijst altijd zichtbaar op je beginscherm.",
+     "Gratis te downloaden en gratis te gebruiken."
+    ],
+    "faq": [
+     {
+      "q": "Hoe maak ik een Black Friday-lijstje?",
+      "a": "Zet elk gewenst artikel in een lijst in Spendry Notes met de prijs en korting. De lijst berekent de bedragen, telt alles op en toont wat er over is van je budget."
+     },
+     {
+      "q": "Rekent de app kortingspercentages uit?",
+      "a": "Ja. Noteer de prijs en de korting, zoals -20%, en de regel toont meteen het bedrag na korting."
+     },
+     {
+      "q": "Is het gratis?",
+      "a": "Ja. Alle functies van Spendry Notes zijn gratis."
+     }
+    ],
+    "cta": "Download Spendry Notes en ga de aanbiedingen in met een lijst en een helder budget."
+   },
+   {
+    "key": "daily-expense-notes",
+    "slug": "daily-expense-notes",
+    "nav": "Dagelijkse uitgaven bijhouden",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Dagelijkse Uitgaven Bijhouden in Notities | Spendry Notes",
+    "description": "Noteer je dagelijkse uitgaven in een notitie en zie direct het totaal. Spendry Notes telt per dag op en stuurt regels eenvoudig naar Spendry.",
+    "h1": "Schrijf dagelijkse uitgaven op, zie direct het totaal",
+    "lead": "Gebruik een notitie voor de dag, schrijf uitgaven op zodra ze gebeuren en zie meteen het totaal. Stuur desgewenst een regel als uitgave door naar Spendry.",
+    "points": [
+     {
+      "h": "De notitie van vandaag",
+      "p": "Tik op Vandaag en zet elke aankoop op een eigen regel, zoals \"Parkeren €12\" of \"Koffie €4,50\". De notitie telt je hele dag bij elkaar op."
+     },
+     {
+      "h": "Elke dag in de agenda",
+      "p": "Elke dagnotitie staat met het berekende totaal in je agenda, waardoor je de uitgaven van vorige week zo terugvindt."
+     },
+     {
+      "h": "Doorsturen naar Spendry",
+      "p": "Stuur een regel met één tik als uitgave naar Spendry en houd je budgetten compleet up-to-date."
+     },
+     {
+      "h": "Toevoegen met Siri",
+      "p": "Siri kan een regel toevoegen aan de notitie van vandaag, en het bedrag daarin wordt automatisch meegerekend."
+     }
+    ],
+    "steps_title": "Hoe je dagelijkse uitgaven bijhoudt in notities",
+    "steps": [
+     "Tik op Vandaag in Spendry Notes.",
+     "Schrijf elke uitgave op met het bijbehorende bedrag.",
+     "Bekijk het dagtotaal in de notitie of direct in de agenda.",
+     "Stuur een regel door naar Spendry zodra je deze in je budget wilt opnemen."
+    ],
+    "why_title": "Waarom dagelijkse kosten noteren in Spendry Notes",
+    "why": [
+     "Net zo snel en simpel als een notitie schrijven.",
+     "Een overzichtelijk totaal voor elke dag in je agenda.",
+     "Spendry bewaakt het budget als je meer overzicht wilt.",
+     "Gratis, zonder registratie of account."
+    ],
+    "faq": [
+     {
+      "q": "Hoe houd ik dagelijkse uitgaven bij in een notitie-app?",
+      "a": "Zet elke uitgave met het bedrag op een eigen regel in Spendry Notes. De notitie telt alles op, en de notitie verschijnt met het dagtotaal in je agenda."
+     },
+     {
+      "q": "Kan ik een uitgave overzetten naar mijn budget?",
+      "a": "Ja. Je stuurt een regel met één tik door naar Spendry als uitgave."
+     },
+     {
+      "q": "Moet ik inloggen bij een bank?",
+      "a": "Nee. Je voert uitgaven zelf in en Spendry Notes maakt nooit verbinding met een bank."
+     }
+    ],
+    "cta": "Download Spendry Notes en houd de uitgaven van vandaag overzichtelijk bij in één notitie."
+   },
+   {
+    "key": "renovation-budget-planner",
+    "slug": "renovation-budget-planner",
+    "nav": "Verbouwbudget plannen",
+    "screen": "plan",
+    "footer": false,
+    "title": "Verbouwbudget Maken in een Notitie | Spendry Notes",
+    "description": "Plan je verbouwing in een overzichtelijke notitie. Spendry Notes telt materialen en werkuren op, berekent aantallen en zet betaaldata in je agenda.",
+    "h1": "Plan een verbouwbudget in één notitie",
+    "lead": "Noteer materialen en klussen met hun prijs. Spendry Notes telt alles op, rekent hoeveelheden uit en zet betaalmomenten netjes in je agenda.",
+    "points": [
+     {
+      "h": "Materialen op basis van aantallen",
+      "p": "Typ \"Verf 6 x €35\" of \"30 tegels à €12 per stuk\" en elke regel wordt automatisch berekend."
+     },
+     {
+      "h": "Arbeid en extra kosten in één totaal",
+      "p": "De aannemer, transportkosten en afvalverwerking tellen direct mee in hetzelfde totaal zodra je ze opschrijft."
+     },
+     {
+      "h": "Betalingen op de juiste datum",
+      "p": "Typ \"Aanbetaling de 15e €1000\" en het bedrag staat op die dag in je agenda, desgewenst inclusief herinnering."
+     },
+     {
+      "h": "Gekoppeld aan een spaardoel",
+      "p": "Koppel de notitie via Spendry aan een spaardoel en zie meteen hoeveel budget er na de verbouwing overblijft."
+     }
+    ],
+    "steps_title": "Hoe je een budget voor een verbouwing plant",
+    "steps": [
+     "Start een nieuwe lijst in Spendry Notes voor het project.",
+     "Noteer materialen en klussen met prijzen, of met een aantal en een stukprijs.",
+     "Zet de datum bij aanbetalingen zodat ze in je agenda verschijnen.",
+     "Vink af wat je al betaald hebt en zie wat er nog openstaat."
+    ],
+    "why_title": "Waarom een verbouwing plannen in Spendry Notes",
+    "why": [
+     "Het hele project in één notitie, met een overzichtelijk eindtotaal.",
+     "Aantallen en eenheidsprijzen automatisch uitgerekend.",
+     "Betaaldata in je agenda, met herinneringen wanneer nodig.",
+     "Gratis te downloaden en gratis te gebruiken."
+    ],
+    "faq": [
+     {
+      "q": "Hoe maak ik een verbouwbudget op de iPhone?",
+      "a": "Maak een lijst aan in Spendry Notes en schrijf materialen en klussen op met hun prijs. De lijst telt alles op en toont aparte totalen voor wat je kocht en wat er nog openstaat."
+     },
+     {
+      "q": "Kan de app me herinneren aan betalingen?",
+      "a": "Ja. Zet de datum in de regel, stel een herinnering in en je krijgt op die dag automatisch een melding."
+     },
+     {
+      "q": "Is het gratis?",
+      "a": "Ja. Alle functies van Spendry Notes zijn gratis."
+     }
+    ],
+    "cta": "Download Spendry Notes en houd het complete verbouwbudget overzichtelijk in één notitie."
+   }
+  ],
+  "bundle": {
+   "slug": "spendry-and-notes",
+   "nav": "Spendry & Notes bundel",
+   "title": "Spendry & Notes: Budget- en Notitie-app | Spendry Notes",
+   "description": "Download Spendry en Spendry Notes gratis in de App Store. Budgetten en vaste lasten in de ene app, notities die rekenen in de andere.",
+   "h1": "Spendry & Notes, twee gratis apps die samenwerken",
+   "lead": "Spendry bewaart je budgetten, kaarten, leningen en vaste lasten. Spendry Notes telt je lijstjes op en maakt plannen van je notities. Download beide met één tik via de gratis App Store-bundel.",
+   "spendry_h": "Spendry",
+   "spendry_p": "Budgetten, creditcards, aflossingen, leningen, rekeningen en abonnementen op één plek. Spendry herinnert je vóór een vervaldatum en toont wanneer je schuldenvrij bent met de sneeuwbal- of lawinemethode. Geen bankkoppeling nodig, geen gegevens verzameld.",
+   "notes_h": "Spendry Notes",
+   "notes_p": "Een notities-app die geld begrijpt. Schrijf \"3 pakken melk €1,20 per stuk\" of \"Huur op de 28e 1.200\": Spendry Notes telt je lijsten op en maakt van dagen in je regels meteen plannen, terwijl je notitie gewoon een notitie blijft.",
+   "together_h": "Samen nog beter",
+   "together": [
+    "Koppel een notitie aan een budget, spaardoel of lening in Spendry en zie direct wat je overhoudt.",
+    "Stuur een regel uit een notitie met één tik naar Spendry als uitgave of herinnering.",
+    "Eén Spendry Premium-abonnement geldt voor beide apps."
+   ],
+   "faq": [
+    {
+     "q": "Wat is de Spendry & Notes-bundel?",
+     "a": "Het is een gratis App Store-bundel waarmee je Spendry en Spendry Notes samen met één tik installeert."
+    },
+    {
+     "q": "Kost de bundel geld?",
+     "a": "Nee. Beide apps zijn gratis te downloaden. Spendry Premium is een optioneel abonnement dat automatisch verlengt tenzij je opzegt, en één abonnement dekt beide apps."
+    },
+    {
+     "q": "Welke apparaten worden ondersteund?",
+     "a": "Spendry werkt op iPhone, iPad en Mac, en Spendry Notes werkt op iPhone. Beide vereisen iOS 17 of nieuwer op iPhone."
+    }
+   ],
+   "cta": "Download Spendry en Spendry Notes samen met één tik."
+  }
+ }
 }

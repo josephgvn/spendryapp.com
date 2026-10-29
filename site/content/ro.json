@@ -2383,5 +2383,1001 @@
     }
    ]
   }
- ]
+ ],
+ "notes": {
+  "labels": {
+   "app": "Spendry Notes",
+   "free": "Gratuit pe App Store pentru iPhone. Toate funcțiile Spendry Notes sunt gratuite.",
+   "download": "Descarcă Spendry Notes",
+   "more": "Mai multe de la Spendry Notes",
+   "cta": "Descarcă Spendry Notes și lasă listele să calculeze.",
+   "bundle_nav": "Spendry & Notes",
+   "bundle_button": "Descarcă ambele aplicații",
+   "spendry_title": "Spendry, aplicația de buget asociată",
+   "home_kicker": "Spendry Notes",
+   "home_title": "Notițe care calculează, alături de bugetul tău",
+   "home_text": "Spendry Notes este aplicația noastră gratuită de notițe: liste de cumpărături care calculează, planuri pe calendar și notițe asociate bugetelor din Spendry. Descarcă ambele aplicații dintr-o atingere cu pachetul gratuit Spendry & Notes.",
+   "home_more": "Vezi ce poate face Spendry Notes",
+   "shots": "În Spendry Notes",
+   "shot_alts": {
+    "home": "Ecranul principal Spendry Notes cu planurile și listele de azi",
+    "list": "O listă de cumpărături în Spendry Notes cu prețuri și totaluri",
+    "plan": "Un plan lunar în Spendry Notes cu venituri, facturi și total net",
+    "calendar": "Calendarul Spendry Notes cu planurile din fiecare zi",
+    "ask": "Întrebi Spendry Notes ce ai planificat săptămâna aceasta",
+    "picker": "Asociezi o notiță cu un buget, obiectiv sau împrumut din Spendry"
+   }
+  },
+  "pages": [
+   {
+    "key": "spendry-notes",
+    "slug": "spendry-notes",
+    "nav": "Spendry Notes",
+    "screen": "home",
+    "footer": true,
+    "title": "Aplicație de notițe cu calcule | Spendry Notes",
+    "description": "Spendry Notes este o aplicație gratuită de notițe pentru iPhone. Calculează liste de cumpărături, adaugă zilele în calendar și se conectează la Spendry.",
+    "h1": "Spendry Notes, o aplicație de notițe care înțelege banii",
+    "lead": "Scrie așa cum faci de obicei. Spendry Notes citește sumele, zilele și orele din text, face calculele și le transformă în planuri, iar notița ta rămâne o notiță.",
+    "points": [
+     {
+      "h": "Liste care calculează automat",
+      "p": "Listele de cumpărături afișează totalul în direct pentru ce a rămas de luat și ce ai cumpărat deja. Bifează produsele în magazin, iar sumele se actualizează pe loc."
+     },
+     {
+      "h": "Scrie exact așa cum vorbești",
+      "p": "„5 sticle de apă la 3 lei bucata”, „1.5 kg mere la 6 lei /kg” sau „Prânz 120/3 lei”: cantitățile, prețurile unitare, reducerile, bacșișul și împărțirea costurilor se calculează automat."
+     },
+     {
+      "h": "Zilele devin planuri",
+      "p": "Scrie o zi într-un rând și aceasta apare la data respectivă în calendar. „Mâine”, „vinerea viitoare”, „peste 3 zile”, „pe 15” și „în fiecare lună” sunt recunoscute, iar fiecare rând poate avea un memento discret."
+     },
+     {
+      "h": "Întreabă-ți notițele",
+      "p": "Întreabă „Ce planuri am săptămâna asta?” sau „Ce a rămas pe liste?” și primești răspunsul direct din notițele tale, procesat pe propriul iPhone."
+     },
+     {
+      "h": "Conectat cu Spendry",
+      "p": "Asociază o notiță cu un buget, un obiectiv sau un împrumut din Spendry pentru a vedea soldul rămas sau trimite un rând în Spendry ca cheltuială sau memento, cu o singură atingere."
+     }
+    ],
+    "steps_title": "Cum începi cu Spendry Notes",
+    "steps": [
+     "Descarcă Spendry Notes din App Store. Este gratuit.",
+     "Scrie o listă sau un plan așa cum ai scrie pe hârtie, cu prețuri și date.",
+     "Privește cum totalurile și calendarul se completează automat.",
+     "Dacă folosești Spendry, asociază notița cu un buget, un obiectiv sau un împrumut."
+    ],
+    "why_title": "De ce aleg oamenii Spendry Notes",
+    "why": [
+     "Toate funcțiile Spendry Notes sunt gratuite.",
+     "Funcționează excelent singură și chiar mai bine împreună cu Spendry.",
+     "Widgeturile afișează listele și planurile viitoare, inclusiv pe Lock Screen.",
+     "iCloud îți păstrează notițele pe toate dispozitivele, iar Șterse recent le ține 30 de zile."
+    ],
+    "faq": [
+     {
+      "q": "Este Spendry Notes gratuită?",
+      "a": "Da. Toate funcțiile Spendry Notes sunt gratuite. Spendry Premium este un abonament opțional pentru funcții suplimentare în Spendry, valabil pentru ambele aplicații."
+     },
+     {
+      "q": "Am nevoie de Spendry ca să folosesc Spendry Notes?",
+      "a": "Nu. Spendry Notes funcționează independent. Cu Spendry instalat poți asocia notițe la bugete, obiective sau împrumuturi și poți trimite rânduri direct în Spendry."
+     },
+     {
+      "q": "Pe ce dispozitive funcționează Spendry Notes?",
+      "a": "Spendry Notes este o aplicație pentru iPhone și necesită iOS 17 sau o versiune mai nouă."
+     },
+     {
+      "q": "Pot folosi Siri cu Spendry Notes?",
+      "a": "Da. Siri și aplicația Scurtături pot adăuga produse pe o listă și îți pot spune ce evenimente urmează."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și lasă notițele să facă calculele."
+   },
+   {
+    "key": "grocery-list-app",
+    "slug": "grocery-list-app",
+    "nav": "Aplicație listă cumpărături",
+    "screen": "list",
+    "footer": true,
+    "title": "Listă de cumpărături cu prețuri | Spendry Notes",
+    "description": "Aplicație gratuită de cumpărături pentru iPhone. Adună prețurile pe măsură ce scrii, afișează totalul rămas și reține costul produselor.",
+    "h1": "O listă de cumpărături care adună sumele la magazin",
+    "lead": "Scrie produsele cu prețuri, bifează-le când le pui în coș și vezi în timp real totalul pentru ce ai cumpărat și ce a mai rămas.",
+    "points": [
+     {
+      "h": "Totaluri pe măsură ce scrii",
+      "p": "Tastează „Lapte 8 lei” sau „Pâine 5 lei” și lista adună valorile. Totalul pentru Rămas și Cumpărat se ajustează la fiecare bifă."
+     },
+     {
+      "h": "Cantități și prețuri pe unitate",
+      "p": "„1.5 kg mere la 6 lei /kg” și „5 sticle de apă la 3 lei bucata” se calculează automat, fără să mai deschizi un calculator separat."
+     },
+     {
+      "h": "Prețul plătit data trecută",
+      "p": "Scrie un produs din nou și prețul plătit anterior este completat automat, așa că lista săptămânală e gata în câteva secunde."
+     },
+     {
+      "h": "Un buget fix pentru cumpărături",
+      "p": "Setează un buget pentru listă și urmărește câți bani mai ai la dispoziție pe măsură ce adaugi articole."
+     }
+    ],
+    "steps_title": "Cum creezi o listă de cumpărături cu prețuri",
+    "steps": [
+     "Creează o listă în Spendry Notes.",
+     "Scrie fiecare produs cu prețul lui, sau cu numărul de bucăți și prețul unitar.",
+     "Bifează produsele pe măsură ce le pui în coș.",
+     "Verifică totalul rămas înainte de a ajunge la casă."
+    ],
+    "why_title": "De ce să folosești Spendry Notes la cumpărături",
+    "why": [
+     "Gratuită, fără cont și fără înregistrare.",
+     "Widgeturile afișează lista pe ecranul principal Home Screen și pe Lock Screen.",
+     "Siri poate adăuga rapid articole pe lista ta.",
+     "Împreună cu Spendry, asociezi lista cu bugetul de alimente și vezi impactul asupra economiilor."
+    ],
+    "faq": [
+     {
+      "q": "Există o aplicație gratuită de cumpărături care adună prețurile?",
+      "a": "Spendry Notes este gratuită și calculează prețurile pe măsură ce le scrii, oferind totaluri separate pentru ce mai ai de luat și ce ai cumpărat deja."
+     },
+     {
+      "q": "Aplicația reține prețurile?",
+      "a": "Da. Când tastezi din nou un articol, prețul pe care l-ai plătit data trecută se completează automat."
+     },
+     {
+      "q": "Pot adăuga produse cu Siri?",
+      "a": "Da. Siri și aplicația Scurtături pot adăuga produse pe oricare dintre listele tale."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și mergi la magazin cu o listă care face calculele."
+   },
+   {
+    "key": "shopping-list-with-prices",
+    "slug": "shopping-list-with-prices",
+    "nav": "Listă de cumpărături cu prețuri",
+    "screen": "list",
+    "footer": false,
+    "title": "Listă de cumpărături cu total | Spendry Notes",
+    "description": "Scrie o listă de cumpărături cu prețuri, iar Spendry Notes calculează totalul, aplică reduceri și îți arată bugetul rămas în timp real.",
+    "h1": "O listă de cumpărături cu prețuri și total în timp real",
+    "lead": "Spendry Notes identifică prețurile din lista ta de cumpărături, actualizează totalul pe loc și îți arată cât a rămas din buget.",
+    "points": [
+     {
+      "h": "Reduceri și bacșiș calculate automat",
+      "p": "Scrie „Geacă 250 lei reducere 20%” lângă un produs sau „+10% bacșiș” la final, iar totalul se ajustează instantaneu."
+     },
+     {
+      "h": "Buget dedicat pentru fiecare listă",
+      "p": "Setează un buget pentru notiță și vezi clar suma rămasă pe măsură ce lista crește."
+     },
+     {
+      "h": "Produse cumpărate și de cumpărat",
+      "p": "Articolele bifate trec la totalul cumpărăturilor făcute, așa că știi mereu exact cât te va costa restul coșului."
+     },
+     {
+      "h": "O listă sincronizată cu o dată",
+      "p": "Scrie o zi într-un rând și aceasta ajunge direct în calendar, cu memento doar dacă vrei."
+     }
+    ],
+    "steps_title": "Cum ții o listă de cumpărături cu prețuri",
+    "steps": [
+     "Deschide o listă nouă în Spendry Notes.",
+     "Scrie produsele alături de prețuri, cantități sau procente de reducere.",
+     "Setează un buget dacă vrei să te încadrezi într-o anumită sumă.",
+     "Bifează produsele achiziționate și urmărește ambele totaluri."
+    ],
+    "why_title": "De ce te ajută o listă cu prețuri",
+    "why": [
+     "Afli costul total înainte să ajungi la casă, nu după ce plătești.",
+     "Reducerile, cantitățile și bacșișul sunt calculate automat.",
+     "Lista rămâne o notiță simplă pe care o poți edita liber.",
+     "Toate funcțiile din Spendry Notes sunt complet gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Cum calculez o listă de cumpărături pe iPhone?",
+      "a": "Scrie produsele și prețurile lor în Spendry Notes. Aplicația le adună pe măsură ce tastezi și arată totaluri separate pentru ce a rămas și ce ai cumpărat."
+     },
+     {
+      "q": "Poate calcula reduceri de preț?",
+      "a": "Da. Scrie o reducere precum „reducere 20%” lângă un articol, iar suma totală se recalculează imediat."
+     },
+     {
+      "q": "Pot seta un buget pentru o listă?",
+      "a": "Da. Adaugă o limită de buget în notiță, iar Spendry Notes îți arată exact ce sumă mai ai la dispoziție."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și află totalul înainte de casa de marcat."
+   },
+   {
+    "key": "notes-app-with-calculator",
+    "slug": "notes-app-with-calculator",
+    "nav": "Notițe cu calculator",
+    "screen": "plan",
+    "footer": true,
+    "title": "Notițe cu calculator integrat | Spendry Notes",
+    "description": "Spendry Notes este aplicația de notițe care face calcule: citește sumele din rânduri, adună valorile și gestionează reduceri sau cantități.",
+    "h1": "O aplicație de notițe care calculează pentru tine",
+    "lead": "Fără să mai schimbi aplicația. Scrie sumele direct în text, iar Spendry Notes le adună rând cu rând, în timp ce notița ta rămâne clară și ușor de citit.",
+    "points": [
+     {
+      "h": "Sume oriunde în text",
+      "p": "„Chirie pe 28 suma 1800 lei” sau „3 cafele 45 lei”: valoarea, cantitatea și data sunt recunoscute din cuvintele tale."
+     },
+     {
+      "h": "Venituri și cheltuieli la un loc",
+      "p": "Notează încasările și plățile în aceeași pagină pentru a vedea ce intră, ce iese și câți bani îți rămân."
+     },
+     {
+      "h": "Împărțirea notei și procente",
+      "p": "„Prânz 120/3 lei” îți arată partea fiecărei persoane, iar „reducere 20%” sau „+10% bacșiș” ajustează totalul."
+     },
+     {
+      "h": "Răspunsuri direct din text",
+      "p": "Întreabă ce evenimente ai programate în această săptămână sau ce a mai rămas pe liste, iar răspunsul vine chiar din notițele tale."
+     }
+    ],
+    "steps_title": "Cum folosești o aplicație de notițe ca pe un calculator",
+    "steps": [
+     "Deschide o notiță nouă în Spendry Notes.",
+     "Scrie fiecare rând așa cum te exprimi natural, adăugând suma corespunzătoare.",
+     "Urmărește totalurile afișate sub notiță pe măsură ce scrii.",
+     "Adaugă o zi în orice rând pentru a programa acțiunea în calendar."
+    ],
+    "why_title": "Avantajele unor notițe care calculează",
+    "why": [
+     "Nu mai sari dintr-o aplicație de notițe într-un calculator.",
+     "Păstrezi contextul și cuvintele tale, nu doar un șir de numere.",
+     "Totalurile se actualizează automat când modifici un rând.",
+     "Complet gratuit de descărcat și folosit."
+    ],
+    "faq": [
+     {
+      "q": "Există o aplicație de notițe pe iPhone care adună numere?",
+      "a": "Spendry Notes citește sumele din text și le adună automat pe măsură ce scrii, recunoscând cantități, procente, bacșișuri și împărțiri."
+     },
+     {
+      "q": "Poate gestiona venituri și cheltuieli împreună?",
+      "a": "Da. Încasările și plățile din aceeași notiță generează totaluri separate și calculează suma rămasă."
+     },
+     {
+      "q": "Este Spendry Notes gratuită?",
+      "a": "Da. Toate funcțiile din Spendry Notes sunt gratuite."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și lasă notițele să facă adunările."
+   },
+   {
+    "key": "split-the-bill",
+    "slug": "split-the-bill",
+    "nav": "Împarte nota",
+    "screen": "list",
+    "footer": false,
+    "title": "Împarte nota de plată într-o notiță | Spendry Notes",
+    "description": "Scrie „Prânz 120/3 lei” și Spendry Notes calculează partea fiecăruia. Bacșișul și reducerile se calculează direct în notiță.",
+    "h1": "Împarte nota direct într-o notiță",
+    "lead": "Scrie totalul și numărul de persoane, iar Spendry Notes îți arată cât plătește fiecare, inclusiv bacșișul.",
+    "points": [
+     {
+      "h": "Un singur rând, fiecare parte",
+      "p": "E de ajuns să scrii „Prânz 120/3 lei”: Spendry Notes arată partea fiecăruia sub rând."
+     },
+     {
+      "h": "Bacșiș și reduceri",
+      "p": "Adaugă „+10% bacșiș” sau „reducere 20%”, iar sumele se ajustează la noul total."
+     },
+     {
+      "h": "Călătorii și cheltuieli comune",
+      "p": "Ține tot weekendul într-o singură notiță: bilete, cazare și mese, fiecare cu partea sa."
+     },
+     {
+      "h": "Păstrează totul în planuri",
+      "p": "Treci o zi lângă o cheltuială și aceasta va apărea în calendarul tău."
+     }
+    ],
+    "steps_title": "Cum împarți o notă în Spendry Notes",
+    "steps": [
+     "Scrie suma plătită și împarte la numărul de oameni, de exemplu „Prânz 120/3 lei”.",
+     "Adaugă bacșișul sau reducerea, dacă există.",
+     "Vezi partea fiecărei persoane direct sub rând.",
+     "Continuă să adaugi cheltuieli în aceeași notiță pentru o excursie sau un eveniment."
+    ],
+    "why_title": "De ce să împarți cheltuielile într-o notiță",
+    "why": [
+     "Fără un calculator separat sau o altă aplicație de împărțit nota.",
+     "Notița ține minte cine și ce a plătit, în propriile tale cuvinte.",
+     "Totalurile și sumele de persoană se actualizează când modifici un rând.",
+     "Gratuit, fără să fie nevoie de cont."
+    ],
+    "faq": [
+     {
+      "q": "Cum împart o notă de plată pe iPhone?",
+      "a": "În Spendry Notes, scrie suma împărțită la numărul de persoane, cum ar fi „Prânz 120/3 lei”, iar partea fiecăruia apare sub rând."
+     },
+     {
+      "q": "Pot adăuga și bacșișul?",
+      "a": "Da. Adaugă „+10% bacșiș”, iar sumele fiecărei persoane se recalculează după noul total."
+     },
+     {
+      "q": "Costă ceva?",
+      "a": "Nu. Spendry Notes și toate funcțiile sale sunt gratuite."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și împarte nota dintr-un singur rând."
+   },
+   {
+    "key": "monthly-budget-planner-notes",
+    "slug": "monthly-budget-planner-notes",
+    "nav": "Plan lunar în notițe",
+    "screen": "plan",
+    "footer": false,
+    "title": "Planificator de buget lunar | Spendry Notes",
+    "description": "Planifică luna într-o notiță: salariu, chirie și facturi cu zilele lor. Spendry Notes arată totalul net și pune zilele în calendar.",
+    "h1": "Planifică-ți luna într-o singură notiță",
+    "lead": "Scrie salariul, chiria și facturile cu zilele lor. Spendry Notes arată veniturile, cheltuielile și ce rămâne, punând fiecare zi în calendar.",
+    "points": [
+     {
+      "h": "Venituri, cheltuieli și ce rămâne",
+      "p": "Veniturile și cheltuielile din notiță îți dau totalul net pe lună, ca să ai mereu un plan realist."
+     },
+     {
+      "h": "Fiecare zi în calendar",
+      "p": "„Chirie pe 28” și „Factură lumină pe 26” ajung direct la data potrivită în calendar."
+     },
+     {
+      "h": "Mementouri doar unde vrei tu",
+      "p": "Adaugă un memento discret la rândurile importante, cum ar fi chiria sau o factură."
+     },
+     {
+      "h": "Începe cu șablonul lunar",
+      "p": "Șabloanele pentru lună, călătorie, mutare sau eveniment îți oferă un punct de plecare gata făcut."
+     }
+    ],
+    "steps_title": "Cum să planifici o lună în Spendry Notes",
+    "steps": [
+     "Începe de la șablonul de plan lunar sau dintr-o notiță nouă.",
+     "Notează veniturile și fiecare cheltuială alături de ziua ei.",
+     "Verifică totalul net și calendarul.",
+     "Pune mementouri pentru plățile pe care nu vrei să le ratezi."
+    ],
+    "why_title": "De ce să planifici luna într-o notiță",
+    "why": [
+     "E la fel de rapid ca scrisul pe hârtie.",
+     "Totalurile și calendarul se actualizează singure.",
+     "Cu Spendry, transformi un rând într-o cheltuială sau un memento printr-o simplă atingere.",
+     "Toate funcțiile Spendry Notes sunt gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Pot face un buget lunar într-o aplicație de notițe?",
+      "a": "Da. În Spendry Notes, scrii veniturile și costurile cu zilele lor, iar notița calculează totalul net și pune fiecare zi în calendar."
+     },
+     {
+      "q": "Mă va avertiza înainte de scadența unei facturi?",
+      "a": "Da, dacă adaugi un memento pe acel rând. Mementourile apar doar acolo unde le setezi tu."
+     },
+     {
+      "q": "Funcționează împreună cu Spendry?",
+      "a": "Da. Asociază notița cu un buget din Spendry sau trimite un rând către Spendry ca o cheltuială ori un memento."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și organizează-ți luna într-o notiță."
+   },
+   {
+    "key": "trip-budget-planner",
+    "slug": "trip-budget-planner",
+    "nav": "Buget de vacanță",
+    "screen": "plan",
+    "footer": false,
+    "title": "Buget de călătorie în notițe | Spendry Notes",
+    "description": "Alege șablonul de călătorie, scrie zborul, cazarea și cheltuielile zilnice. Spendry Notes calculează sumele și partea fiecăruia.",
+    "h1": "Planifică bugetul de vacanță într-o notiță",
+    "lead": "Începe cu șablonul de călătorie și notează costurile vacanței. Spendry Notes le adună, împarte cheltuielile și trece datele în calendar.",
+    "points": [
+     {
+      "h": "Un șablon gata de completat",
+      "p": "Șablonul Buget călătorie îți oferă o notiță pregătită pentru bilete, cazare, mâncare și activități."
+     },
+     {
+      "h": "Totalul pe măsură ce planifici",
+      "p": "Fiecare sumă scrisă se adună automat, ca să știi costul total înainte să rezervi."
+     },
+     {
+      "h": "Împărțire pentru grup",
+      "p": "Împarte o cheltuială la numărul de oameni, cum ar fi „Hotel 600/3 lei”, iar suma de persoană apare dedesubt."
+     },
+     {
+      "h": "Economisește pentru vacanță în Spendry",
+      "p": "Asociază notița cu un obiectiv de economisire din Spendry și vezi cât mai ai până la țintă."
+     }
+    ],
+    "steps_title": "Cum planifici bugetul pentru o călătorie",
+    "steps": [
+     "Creează o notiță nouă pornind de la șablonul Buget călătorie.",
+     "Scrie fiecare cheltuială cu suma ei și, dacă vrei, ziua stabilită.",
+     "Împarte costurile comune la numărul de persoane.",
+     "Asociază notița cu un obiectiv de economii în Spendry."
+    ],
+    "why_title": "De ce să planifici vacanța în Spendry Notes",
+    "why": [
+     "Toată călătoria într-o singură notiță, cu totalul la vedere.",
+     "Datele ajung direct în calendarul tău.",
+     "Cheltuielile comune sunt împărțite automat.",
+     "Gratuit de descărcat și gratuit de folosit."
+    ],
+    "faq": [
+     {
+      "q": "Cum creez un buget de călătorie pe iPhone?",
+      "a": "Deschide șablonul Buget călătorie în Spendry Notes, scrie costurile, iar aplicația le adună și arată partea fiecărei persoane."
+     },
+     {
+      "q": "Pot economisi pentru vacanță?",
+      "a": "Da. Asociază notița cu un obiectiv de economii din Spendry și vezi progresul chiar lângă notiță."
+     },
+     {
+      "q": "Este gratuită?",
+      "a": "Da. Toate funcțiile din Spendry Notes sunt complet gratuite."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și planifică vacanța într-o notiță."
+   },
+   {
+    "key": "moving-checklist-with-costs",
+    "slug": "moving-checklist-with-costs",
+    "nav": "Listă de mutare",
+    "screen": "list",
+    "footer": false,
+    "title": "Listă de mutare cu cheltuieli | Spendry Notes",
+    "description": "O listă de mutare care calculează: bifează sarcinile, scrie costurile și vezi totalul. Începe cu șablonul de mutare în Spendry Notes.",
+    "h1": "O listă de mutare care adună toate costurile",
+    "lead": "Începe cu șablonul Mutare casă, bifează sarcinile pe rând și notează costul fiecăreia. Spendry Notes ține evidența banilor și a zilelor.",
+    "points": [
+     {
+      "h": "Sarcini și cheltuieli la un loc",
+      "p": "Fiecare rând poate fi o sarcină cu prețul ei, astfel lista devine și bugetul tău de mutare."
+     },
+     {
+      "h": "Ce ai rezolvat și ce mai urmează",
+      "p": "Bifează rândurile finalizate, iar totalurile îți arată cât ai cheltuit și ce sume au mai rămas."
+     },
+     {
+      "h": "Date organizate în calendar",
+      "p": "„Furgonetă sâmbătă” sau „Garanție pe 1” ajung direct în zilele stabilite din calendar."
+     },
+     {
+      "h": "Mementouri unde ai nevoie",
+      "p": "Adaugă o notificare discretă la sarcinile pe care nu vrei să le scapi din vedere."
+     }
+    ],
+    "steps_title": "Cum planifici o mutare în Spendry Notes",
+    "steps": [
+     "Deschide o notiță din șablonul Mutare casă.",
+     "Adaugă sarcinile împreună cu costurile și zilele lor.",
+     "Bifează sarcinile pe măsură ce le termini.",
+     "Verifică totalul înainte de ziua mutării."
+    ],
+    "why_title": "De ce să folosești o listă cu prețuri",
+    "why": [
+     "Fără tabele complicate pentru bugetul de mutare.",
+     "Vezi dintr-o privire cât ai dat și cât mai ai de plătit.",
+     "Datele și mementourile pornesc din aceeași notiță.",
+     "Toate funcțiile Spendry Notes sunt gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Există o aplicație cu listă de mutare și prețuri?",
+      "a": "Spendry Notes include șablonul Mutare casă, unde fiecare sarcină poate avea o sumă și o zi. Aplicația adună costurile și pune datele în calendar."
+     },
+     {
+      "q": "Pot seta mementouri pentru ziua mutării?",
+      "a": "Da. Pune un memento pe orice rând și vei primi o notificare discretă în acea zi."
+     },
+     {
+      "q": "Este gratuită?",
+      "a": "Da. Toate funcțiile din Spendry Notes sunt gratuite."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și mută-te cu toate costurile sub control."
+   },
+   {
+    "key": "event-budget-planner",
+    "slug": "event-budget-planner",
+    "nav": "Buget evenimente",
+    "screen": "plan",
+    "footer": false,
+    "title": "Buget eveniment: petreceri și nuntă | Spendry Notes",
+    "description": "Planifică bugetul pentru nuntă sau petrecere într-o notiță. Spendry Notes adună costurile, împarte cheltuielile și pune datele în calendar.",
+    "h1": "Planifică bugetul unui eveniment într-o notiță",
+    "lead": "Pornește de la șablonul Buget eveniment și notează fiecare cost. Spendry Notes le adună, calculează partea fiecăruia și ține datele în calendar.",
+    "points": [
+     {
+      "h": "Un șablon gata de drum",
+      "p": "Șablonul de eveniment este un punct de plecare excelent pentru o petrecere, o aniversare sau o nuntă."
+     },
+     {
+      "h": "Toate costurile într-un singur total",
+      "p": "Locația, mâncarea, muzica și cadourile se adună automat pe măsură ce le scrii."
+     },
+     {
+      "h": "Partea fiecărei persoane",
+      "p": "Împarte un cost la numărul de oameni, iar suma fiecăruia apare direct sub rând."
+     },
+     {
+      "h": "Date și mementouri",
+      "p": "Avansurile și termenele ajung în calendar, cu memento dacă dorești."
+     }
+    ],
+    "steps_title": "Cum să planifici bugetul unui eveniment",
+    "steps": [
+     "Deschide o notiță folosind șablonul Buget eveniment.",
+     "Scrie fiecare cheltuială cu suma și ziua respectivă.",
+     "Împarte costurile comune la numărul de persoane.",
+     "Adaugă mementouri pentru avansuri și termene-limită."
+    ],
+    "why_title": "De ce să planifici un eveniment în Spendry Notes",
+    "why": [
+     "Tot bugetul este într-o singură notiță, cu totalul la vedere.",
+     "Termenele apar în calendar, cu mementouri doar unde ai nevoie.",
+     "Cheltuielile comune sunt împărțite pe loc.",
+     "Gratuit de descărcat și gratuit de folosit."
+    ],
+    "faq": [
+     {
+      "q": "Cum planific bugetul unei petreceri pe iPhone?",
+      "a": "Deschide o notiță din șablonul Buget eveniment în Spendry Notes, scrie costurile, iar notița le adună și arată partea fiecăruia."
+     },
+     {
+      "q": "Mă poate avertiza când trebuie să plătesc avansul?",
+      "a": "Da. Pune un memento pe rândul dorit și primești o notificare în ziua respectivă."
+     },
+     {
+      "q": "Este gratuită?",
+      "a": "Da. Toate funcțiile din Spendry Notes sunt gratuite."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și ține tot bugetul evenimentului într-o notiță."
+   },
+   {
+    "key": "notes-with-reminders",
+    "slug": "notes-with-reminders",
+    "nav": "Notițe cu mementouri",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Aplicație notițe cu calendar | Spendry Notes",
+    "description": "Scrie „Chirie pe 28” și rândul ajunge în calendar. Spendry Notes pune mementouri discrete pe rândurile alese de tine.",
+    "h1": "Notițe care știu când vine scadența",
+    "lead": "Scrie o zi într-un rând și Spendry Notes o pune direct în calendar. Adaugă un memento discret doar la rândurile importante și lasă restul în pace.",
+    "points": [
+     {
+      "h": "Date scrise simplu",
+      "p": "Aplicația înțelege expresii precum „mâine”, „vinerea viitoare”, „peste 3 zile”, „pe 15” sau „în fiecare lună”."
+     },
+     {
+      "h": "Un calendar din notițele tale",
+      "p": "Fiecare rând cu dată apare în ziua potrivită din calendar, alături de sumă, dacă există."
+     },
+     {
+      "h": "Mementouri discrete",
+      "p": "Primești o notificare doar pentru rândurile alese de tine, exact la ora dorită."
+     },
+     {
+      "h": "Planurile tale dintr-o privire",
+      "p": "Widgeturile pentru Ecran de pornire și Ecran de blocare îți arată ce urmează."
+     }
+    ],
+    "steps_title": "Cum să adaugi mementouri în notițe",
+    "steps": [
+     "Scrie un rând cu o zi, de exemplu „Chirie pe 28 suma 1800 lei”.",
+     "Găsește rândul direct în ziua respectivă din calendar.",
+     "Adaugă un memento dacă vrei să primești o notificare.",
+     "Pune un widget pe ecran ca să vezi rapid ce urmează."
+    ],
+    "why_title": "De ce să ții datele direct în notițe",
+    "why": [
+     "Planurile rămân acolo unde le-ai scris, nu într-o altă aplicație.",
+     "Facturile și plățile își arată sumele direct în calendar.",
+     "Mementourile nu se adună niciodată fără acordul tău.",
+     "Toate funcțiile din Spendry Notes sunt gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Pot pune un memento pe o notiță pe iPhone?",
+      "a": "În Spendry Notes, orice rând care conține o dată poate primi un memento discret, doar dacă alegi tu asta."
+     },
+     {
+      "q": "Înțelege date de tipul „vinerea viitoare”?",
+      "a": "Da. Înțelege expresii precum „mâine”, „vinerea viitoare”, „peste 3 zile”, „pe 15” și „în fiecare lună”."
+     },
+     {
+      "q": "Pot vedea planurile direct pe Ecranul de blocare?",
+      "a": "Da. Spendry Notes oferă widgeturi pentru planurile care urmează și pentru liste, inclusiv pe Ecranul de blocare."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și lasă notițele să aibă grijă de date."
+   },
+   {
+    "key": "wishlist-with-prices",
+    "slug": "wishlist-with-prices",
+    "nav": "Listă dorințe cu prețuri",
+    "screen": "list",
+    "footer": false,
+    "title": "Listă de dorințe cu prețuri și total | Spendry Notes",
+    "description": "Fă o listă de dorințe cu prețuri în Spendry Notes: vezi totalul, stabilește un buget și conecteaz-o la un obiectiv de economii în Spendry.",
+    "h1": "O listă de dorințe care știe cât costă totul",
+    "lead": "Scrie lucrurile pe care ți le dorești, împreună cu prețul lor. Spendry Notes calculează totalul, îți arată ce intră în buget și se poate conecta la un obiectiv în Spendry.",
+    "points": [
+     {
+      "h": "Totalul dorințelor tale",
+      "p": "Fiecare preț din listă este adunat automat, ca să știi exact cât ar costa toate la un loc."
+     },
+     {
+      "h": "Un buget pentru listă",
+      "p": "Setează un buget și vezi pe loc cât îți mai rămâne când adaugi sau tai produse."
+     },
+     {
+      "h": "Bifează ce ai cumpărat",
+      "p": "Lucrurile bifate trec la totalul Cumpărat, iar restul rămân clare în listă."
+     },
+     {
+      "h": "Economisește în Spendry",
+      "p": "Asociază lista cu un obiectiv de economisire din Spendry și vezi cât mai ai până acolo."
+     }
+    ],
+    "steps_title": "Cum să ții o listă de dorințe cu prețuri",
+    "steps": [
+     "Începe o listă nouă în Spendry Notes.",
+     "Scrie fiecare dorință alături de prețul ei.",
+     "Setează un buget pentru întreaga listă, dacă ai unul.",
+     "Asociază lista cu un obiectiv de economii în Spendry."
+    ],
+    "why_title": "De ce merită să pui prețuri pe dorințe",
+    "why": [
+     "Vezi costul real înainte de a cumpăra ceva.",
+     "Reducerile se calculează pe loc, direct din text.",
+     "Un obiectiv de economii transformă dorințele într-un plan clar.",
+     "Toate funcțiile din Spendry Notes sunt gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Pot ține o listă de dorințe cu prețuri pe iPhone?",
+      "a": "Da. În Spendry Notes scrii dorințele cu prețul lor, iar lista îți arată totalul și ce a rămas din buget."
+     },
+     {
+      "q": "Pot economisi pentru lucrurile din listă?",
+      "a": "Da. Poți asocia lista direct cu un obiectiv de economii din Spendry."
+     },
+     {
+      "q": "Este gratuită?",
+      "a": "Da. Toate funcțiile din Spendry Notes sunt gratuite."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și fă o listă de dorințe care își calculează totalul."
+   },
+   {
+    "key": "remember-grocery-prices",
+    "slug": "remember-grocery-prices",
+    "nav": "Memorează prețurile alimentelor",
+    "screen": "list",
+    "footer": false,
+    "title": "Listă cumpărături cu prețuri salvate | Spendry Notes",
+    "description": "Scrie din nou un produs, iar Spendry Notes completează prețul plătit data trecută. Lista ta de cumpărături e gata în câteva secunde.",
+    "h1": "Lista de cumpărături care ține minte prețurile",
+    "lead": "Scrie un produs pe care l-ai mai cumpărat, iar Spendry Notes pune prețul de data trecută. Lista săptămânală se scrie aproape singură, iar totalul e gata.",
+    "points": [
+     {
+      "h": "Prețul anterior, completat pe loc",
+      "p": "Scrii „Lapte” și prețul plătit ultima oară apare automat, ca să modifici doar ce s-a scumpit."
+     },
+     {
+      "h": "Știi totalul înainte să pleci",
+      "p": "Cu prețurile deja completate, lista îți arată dinainte cât vei cheltui la magazin."
+     },
+     {
+      "h": "Vezi imediat scumpirile",
+      "p": "Pentru că prețul vechi este deja acolo, observi imediat dacă un produs s-a scumpit când îl actualizezi."
+     },
+     {
+      "h": "Cantități calculate direct",
+      "p": "Formule ca „3 x 8 lei” sau „1.5 kg mere la 6 lei /kg” sunt calculate automat."
+     }
+    ],
+    "steps_title": "Cum funcționează",
+    "steps": [
+     "Scrie o dată produsele din lista de alimente cu prețul lor.",
+     "Data viitoare, doar tastează aceleași produse.",
+     "Prețul plătit data trecută se completează automat.",
+     "Modifică doar prețurile care s-au schimbat și verifică totalul."
+    ],
+    "why_title": "De ce economisești timp",
+    "why": [
+     "Faci lista săptămânală în doar câteva secunde.",
+     "Știi suma totală înainte să intri în magazin.",
+     "Prețurile modificate sar imediat în ochi când le schimbi.",
+     "Toate funcțiile din Spendry Notes sunt gratuite."
+    ],
+    "faq": [
+     {
+      "q": "Există o aplicație de cumpărături care ține minte prețurile?",
+      "a": "Da. În Spendry Notes, când tastezi din nou un produs, prețul plătit data trecută este completat automat."
+     },
+     {
+      "q": "Aplicația adună și produsele din listă?",
+      "a": "Da. Lista arată totalul pentru ce mai ai de luat și pentru ce ai pus deja în coș."
+     },
+     {
+      "q": "Este gratuită?",
+      "a": "Da. Toate funcțiile din Spendry Notes sunt gratuite."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și lasă lista să țină minte prețurile în locul tău."
+   },
+   {
+    "key": "gift-list-with-budget",
+    "slug": "gift-list-with-budget",
+    "nav": "Listă de cadouri cu buget",
+    "screen": "list",
+    "footer": false,
+    "title": "Listă de cadouri de Crăciun cu buget | Spendry Notes",
+    "description": "Planifică darurile de Crăciun și zile de naștere. Spendry Notes calculează sumele, ține evidența cumpărăturilor și te ajută să te încadrezi în buget.",
+    "h1": "O listă de cadouri care îți respectă bugetul",
+    "lead": "Scrie pentru cine cumperi și cât costă fiecare cadou. Spendry Notes le adună, îți arată ce mai ai din buget și pune datele în calendar.",
+    "points": [
+     {
+      "h": "O listă de cadouri gata pregătită",
+      "p": "Pornește de la șablonul Listă de cadouri și scrie câte un rând pentru fiecare persoană."
+     },
+     {
+      "h": "Fiecare cadou în total",
+      "p": "Scrie „Eșarfă 120 lei” sau „2 cărți câte 45 lei” și lista le adună, cu totaluri separate pentru ce ai cumpărat și ce mai ai de luat."
+     },
+     {
+      "h": "Un buget pentru sărbători",
+      "p": "Setează un buget pentru notiță și vezi câți bani mai ai pe măsură ce adaugi cadouri."
+     },
+     {
+      "h": "Zile de naștere în calendar",
+      "p": "Scrie data lângă un nume, cum ar fi „Ziua mamei 2 noiembrie”, iar rândul apare în acea zi în calendar, cu memento opțional."
+     }
+    ],
+    "steps_title": "Cum faci o listă de cadouri cu buget",
+    "steps": [
+     "Începe o notiță din șablonul Listă de cadouri.",
+     "Trece fiecare persoană și cadoul dorit, împreună cu prețul.",
+     "Setează un buget pentru sărbători în notiță.",
+     "Bifează cadourile pe măsură ce le cumperi și vezi ce a mai rămas."
+    ],
+    "why_title": "De ce să planifici cadourile în Spendry Notes",
+    "why": [
+     "Toate sărbătorile într-o singură notiță, cu totalul la vedere.",
+     "Zile de naștere și termene limită direct în calendar.",
+     "Ține minte prețurile pe care le-ai plătit anterior.",
+     "Gratuit de descărcat și gratuit de folosit."
+    ],
+    "faq": [
+     {
+      "q": "Cum fac o listă de cadouri de Crăciun cu buget?",
+      "a": "Alege șablonul Listă de cadouri în Spendry Notes, scrie fiecare cadou cu prețul lui și setează un buget. Notița îți arată cât ai cheltuit și ce a mai rămas."
+     },
+     {
+      "q": "Pot vedea ce am cumpărat deja?",
+      "a": "Da. Bifează un cadou când îl cumperi, iar totalurile pentru Cumpărat și Rămas se actualizează pe loc."
+     },
+     {
+      "q": "Aplicația este gratuită?",
+      "a": "Da. Toate funcțiile din Spendry Notes sunt gratuite."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și ține cadourile de anul acesta în buget."
+   },
+   {
+    "key": "black-friday-shopping-list",
+    "slug": "black-friday-shopping-list",
+    "nav": "Listă Black Friday",
+    "screen": "list",
+    "footer": false,
+    "title": "Listă de cumpărături Black Friday | Spendry Notes",
+    "description": "Planifică reducerile de Black Friday. Spendry Notes calculează reducerile, adună coșul și îți arată cât a mai rămas din buget.",
+    "h1": "O listă de Black Friday care ține de buget",
+    "lead": "Trece tot ce vrei cu preț și reducere înainte de începerea ofertelor. Spendry Notes calculează prețul real, adună sumele și are grijă de bugetul tău.",
+    "points": [
+     {
+      "h": "Reduceri calculate pe loc",
+      "p": "Scrie „Pantofi sport 350 lei reducere 20%” și rândul afișează prețul final redus."
+     },
+     {
+      "h": "Un singur total pentru tot coșul",
+      "p": "Fiecare ofertă se adună pe măsură ce scrii, cu totaluri separate pentru ce ai cumpărat și ce mai ai pe listă."
+     },
+     {
+      "h": "Buget stabilit din timp",
+      "p": "Setează un buget pentru notiță și vezi cât îți mai rămâne înainte să cumperi ceva."
+     },
+     {
+      "h": "Prețul plătit data trecută",
+      "p": "Scrie un produs din nou și ai prețul anterior la îndemână, ca să compari ușor cu oferta actuală."
+     }
+    ],
+    "steps_title": "Cum să planifici cumpărăturile de Black Friday",
+    "steps": [
+     "Fă o listă în Spendry Notes înainte de startul ofertelor.",
+     "Scrie fiecare produs dorit împreună cu prețul său.",
+     "Adaugă reducerea de îndată ce găsești oferta.",
+     "Setează un buget pentru listă și bifează ce cumperi."
+    ],
+    "why_title": "De ce să planifici reducerile în Spendry Notes",
+    "why": [
+     "Reduceri și totaluri calculate automat.",
+     "Un buget clar care îți arată cât a mai rămas.",
+     "Widgeturi care țin lista la vedere pe ecranul principal.",
+     "Gratuit de descărcat și gratuit de folosit."
+    ],
+    "faq": [
+     {
+      "q": "Cum fac o listă de cumpărături pentru Black Friday?",
+      "a": "Notează produsele dorite în Spendry Notes cu preț și reducere. Lista calculează prețurile, le adună și îți arată ce mai ai din buget."
+     },
+     {
+      "q": "Calculează și reducerile procentuale?",
+      "a": "Da. Scrie prețul și procentul, de exemplu -20%, iar rândul afișează prețul redus automat."
+     },
+     {
+      "q": "Aplicația este gratuită?",
+      "a": "Da. Toate funcțiile din Spendry Notes sunt gratuite."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și intră în perioada reducerilor cu listă și buget."
+   },
+   {
+    "key": "daily-expense-notes",
+    "slug": "daily-expense-notes",
+    "nav": "Notițe cheltuieli zilnice",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Notițe cheltuieli zilnice cu total | Spendry Notes",
+    "description": "Scrie cheltuielile zilei într-o notiță și vezi totalul. Spendry Notes adună fiecare zi și poate trimite un rând în Spendry ca cheltuială.",
+    "h1": "Notează cheltuielile zilnice, vezi totalul",
+    "lead": "Deschide o notiță pentru ziua în curs, scrie ce cheltuiești pe măsură ce se întâmplă și ai totalul mereu afișat. Când vrei, trimite un rând în Spendry ca cheltuială.",
+    "points": [
+     {
+      "h": "Notița de azi",
+      "p": "Apasă Azi și notează fiecare cheltuială pe rândul ei, de exemplu „Parcare 15 lei” sau „Cafea 14 lei”. Notița adună sumele zilei pentru tine."
+     },
+     {
+      "h": "Fiecare zi în calendar",
+      "p": "Notița fiecărei zile apare la acea dată în calendarul tău cu tot cu total, așa că cheltuielile de săptămâna trecută sunt la o atingere distanță."
+     },
+     {
+      "h": "Trimite în Spendry",
+      "p": "Trimite un rând în Spendry ca o cheltuială cu o singură apăsare și păstrează bugetele actualizate."
+     },
+     {
+      "h": "Adaugă direct cu Siri",
+      "p": "Siri poate adăuga un rând în notița de azi, iar sumele din text sunt calculate automat."
+     }
+    ],
+    "steps_title": "Cum ții evidența cheltuielilor zilnice în notițe",
+    "steps": [
+     "Apasă pe Azi în Spendry Notes.",
+     "Trece fiecare cheltuială cu suma aferentă.",
+     "Verifică totalul zilei în notiță sau direct pe calendar.",
+     "Trimite un rând în Spendry atunci când vrei să apară în buget."
+    ],
+    "why_title": "De ce să ții cheltuielile zilnice în Spendry Notes",
+    "why": [
+     "La fel de rapid ca scrierea unei simple notițe.",
+     "Totalul fiecărei zile, direct în calendar.",
+     "Spendry preia bugetul atunci când vrei mai mult control.",
+     "Gratuit, fără cont și fără înregistrare."
+    ],
+    "faq": [
+     {
+      "q": "Cum țin evidența cheltuielilor zilnice într-o aplicație de notițe?",
+      "a": "Scrie fiecare cheltuială pe rândul ei cu suma aferentă în Spendry Notes. Notița le adună, iar rândurile apar în calendar la data respectivă cu totalul zilei."
+     },
+     {
+      "q": "Pot transfera o cheltuială în buget?",
+      "a": "Da. Trimite orice rând în Spendry ca cheltuială printr-o simplă atingere."
+     },
+     {
+      "q": "Este nevoie să mă conectez la bancă?",
+      "a": "Nu. Îți scrii cheltuielile singur, iar Spendry Notes nu se conectează niciodată la bănci."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și păstrează cheltuielile de azi într-o singură notiță."
+   },
+   {
+    "key": "renovation-budget-planner",
+    "slug": "renovation-budget-planner",
+    "nav": "Buget renovare",
+    "screen": "plan",
+    "footer": false,
+    "title": "Planificator buget renovare locuință | Spendry Notes",
+    "description": "Planifică bugetul de renovare într-o notiță. Spendry Notes adună materiale și manoperă, calculează cantități și pune plățile în calendar.",
+    "h1": "Planifică bugetul de renovare într-o notiță",
+    "lead": "Notează fiecare material și meșter cu prețul aferent. Spendry Notes calculează sumele, înmulțește cantitățile și trece termenele de plată în calendar.",
+    "points": [
+     {
+      "h": "Materiale calculate după cantitate",
+      "p": "Scrie „Vopsea lavabilă 3 x 120 lei” sau „30 mp gresie la 65 lei /mp” și fiecare rând este calculat pe loc."
+     },
+     {
+      "h": "Manoperă și cheltuieli suplimentare",
+      "p": "Meșterul, transportul și curățenia intră în același total pe măsură ce le adaugi."
+     },
+     {
+      "h": "Plăți organizate pe zile",
+      "p": "Scrie „Avans pe 15 suma 2000 lei” și rândul apare în acea zi în calendar, cu memento opțional."
+     },
+     {
+      "h": "Conectat la un obiectiv",
+      "p": "Cu Spendry, asociază notița cu un obiectiv de economii și vezi ce bani îți mai rămân după renovare."
+     }
+    ],
+    "steps_title": "Cum să planifici bugetul pentru o renovare",
+    "steps": [
+     "Creează o listă în Spendry Notes pentru proiectul tău.",
+     "Scrie fiecare material și etapă de lucru cu prețul său sau cu o cantitate și un preț unitar.",
+     "Adaugă ziua pentru avansuri și plăți ca să apară pe calendar.",
+     "Bifează ce ai plătit deja și vezi ce sumă a mai rămas de achitat."
+    ],
+    "why_title": "De ce să planifici renovarea în Spendry Notes",
+    "why": [
+     "Întregul proiect într-o singură notiță, cu totalul calculat.",
+     "Cantități și prețuri pe unitate calculate automat.",
+     "Zilele de plată pe calendar și mementouri utile la timp.",
+     "Gratuit de descărcat și gratuit de folosit."
+    ],
+    "faq": [
+     {
+      "q": "Cum fac un buget de renovare pe iPhone?",
+      "a": "Fă o listă în Spendry Notes și notează materialele și manopera cu prețurile lor. Lista le adună, cu totaluri separate pentru Cumpărat și Rămas."
+     },
+     {
+      "q": "Aplicația îmi poate trimite mementouri pentru plăți?",
+      "a": "Da. Scrie data în rând, activează un memento și primești o notificare în ziua respectivă."
+     },
+     {
+      "q": "Este gratuită?",
+      "a": "Da. Toate funcțiile din Spendry Notes sunt gratuite."
+     }
+    ],
+    "cta": "Descarcă Spendry Notes și ține bugetul de renovare într-o singură notiță."
+   }
+  ],
+  "bundle": {
+   "slug": "spendry-and-notes",
+   "nav": "Spendry & Notes",
+   "title": "Spendry & Notes | Pachet aplicații",
+   "description": "Descarcă gratuit Spendry și Spendry Notes pe App Store. Bugete și facturi într-o aplicație, notițe care calculează în cealaltă.",
+   "h1": "Spendry & Notes, două aplicații gratuite care colaborează",
+   "lead": "Spendry îți ține bugetele, cardurile, creditele și facturile. Spendry Notes adună listele și transformă notițele în planuri. Descarcă-le dintr-o atingere.",
+   "spendry_h": "Spendry",
+   "spendry_p": "Bugete, carduri de credit, rate, împrumuturi, facturi și abonamente la un loc. Spendry îți amintește înainte de scadență și îți arată data la care scapi de datorii prin metoda bulgărelui sau a avalanșei. Fără conectare la bancă, fără date colectate.",
+   "notes_h": "Spendry Notes",
+   "notes_p": "O aplicație de notițe care înțelege banii. Scrie „Lapte 8 lei” sau „Chirie pe 28 1800 lei”: Spendry Notes adună listele și transformă zilele scrise în planuri, iar notița ta rămâne o notiță.",
+   "together_h": "Mai bune împreună",
+   "together": [
+    "Asociază o notiță cu un buget, obiectiv sau împrumut din Spendry și vezi cât ți-ar rămâne după cumpărături.",
+    "Trimite un rând din notiță în Spendry ca cheltuială sau memento, dintr-o atingere.",
+    "Un singur abonament Spendry Premium acoperă ambele aplicații."
+   ],
+   "faq": [
+    {
+     "q": "Ce este pachetul Spendry & Notes?",
+     "a": "Este un pachet gratuit pe App Store care instalează Spendry și Spendry Notes împreună, dintr-o singură atingere."
+    },
+    {
+     "q": "Costă ceva acest pachet?",
+     "a": "Nu. Ambele aplicații se descarcă gratuit. Spendry Premium este un abonament opțional care se reînnoiește automat dacă nu îl anulezi, iar un singur abonament este valabil pentru ambele aplicații."
+    },
+    {
+     "q": "Ce dispozitive sunt acceptate?",
+     "a": "Spendry funcționează pe iPhone, iPad și Mac, iar Spendry Notes funcționează pe iPhone. Ambele necesită iOS 17 sau o versiune ulterioară pe iPhone."
+    }
+   ],
+   "cta": "Descarcă Spendry și Spendry Notes dintr-o singură atingere."
+  }
+ }
 }

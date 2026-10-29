@@ -1,0 +1,1619 @@
+{
+ "de": {
+  "terms": {
+   "Ask Your Notes": "Notizen fragen",
+   "Link to Spendry": "Mit Spendry verknüpfen",
+   "Recently Deleted": "Zuletzt gelöscht",
+   "Scan Text": "Text scannen",
+   "Coming Up": "Demnächst",
+   "Calendar": "Kalender",
+   "Today": "Heute",
+   "List": "Liste",
+   "Weekly Shopping": "Wocheneinkauf",
+   "Monthly Plan": "Monatsplan",
+   "Trip Budget": "Reisebudget",
+   "Gift List": "Geschenkliste",
+   "Moving House": "Umzug",
+   "Event Budget": "Event-Budget",
+   "Left": "Verbleibend",
+   "Bought": "Gekauft"
+  },
+  "store": {
+   "name": "Spendry Notes: Einkaufsliste",
+   "subtitle": "Notizen, die mitrechnen",
+   "keywords": "notizblock,budget,haushaltsbuch,ausgaben,rechner,checkliste,planer,finanzen,geld,rechnungen,todo"
+  },
+  "examples": [
+   "4 Flaschen Wein à 6,50 €",
+   "3x Pizza je 8,50€",
+   "5 Bier 3,00 € pro Flasche",
+   "1,5 kg Äpfel 2,00 € pro Kilo",
+   "3 Kaffee 12 €",
+   "Hotel 120/3",
+   "Jacke 120 € -20% Rabatt",
+   "Rechnung 100 € +19% MwSt",
+   "Buch 15 € und Stift 3 €"
+  ]
+ },
+ "fr": {
+  "terms": {
+   "Ask Your Notes": "Interroger vos notes",
+   "Link to Spendry": "Lier à Spendry",
+   "Recently Deleted": "Supprimés récemment",
+   "Scan Text": "Scanner du texte",
+   "Coming Up": "À venir",
+   "Calendar": "Calendrier",
+   "Today": "Aujourd'hui",
+   "List": "Liste",
+   "Weekly Shopping": "Courses de la semaine",
+   "Monthly Plan": "Plan mensuel",
+   "Trip Budget": "Budget de voyage",
+   "Gift List": "Liste de cadeaux",
+   "Moving House": "Déménagement",
+   "Event Budget": "Budget d'événement",
+   "Left": "Restant",
+   "Bought": "Acheté"
+  },
+  "store": {
+   "name": "Spendry Notes: Courses",
+   "subtitle": "Vos listes calculent le budget",
+   "keywords": "dépenses,calculatrice,argent,achats,planning,factures,rappels,tâches,prix,checklist,mémo,panier,todo"
+  },
+  "examples": [
+   "3 cafés à 2.50€",
+   "4 tickets 8€ l'unité",
+   "2 pizzas à 12€ chacune",
+   "1.5 kg de tomates à 3€ le kilo",
+   "3 croissants 4.50€",
+   "Addition resto 120/3",
+   "Robe 80€ -20%",
+   "Devis garage 500€ +20% tva",
+   "Sandwich 6€ et boisson 2.50€"
+  ]
+ },
+ "fr-CA": {
+  "terms": {
+   "Ask Your Notes": "Interroger vos notes",
+   "Link to Spendry": "Lier à Spendry",
+   "Recently Deleted": "Supprimés récemment",
+   "Scan Text": "Scanner du texte",
+   "Coming Up": "À venir",
+   "Calendar": "Calendrier",
+   "Today": "Aujourd'hui",
+   "List": "Liste",
+   "Weekly Shopping": "Courses de la semaine",
+   "Monthly Plan": "Plan mensuel",
+   "Trip Budget": "Budget de voyage",
+   "Gift List": "Liste de cadeaux",
+   "Moving House": "Déménagement",
+   "Event Budget": "Budget d'événement",
+   "Left": "Restant",
+   "Bought": "Acheté"
+  },
+  "store": {
+   "name": "Spendry Notes: Épicerie",
+   "subtitle": "Vos listes calculent le budget",
+   "keywords": "achats,dépenses,argent,calculatrice,factures,tâches,rappels,prix,rabais,panier,checklist,todo,mémo"
+  },
+  "examples": [
+   "3 cafés à 2.50€",
+   "4 tickets 8€ l'unité",
+   "2 pizzas à 12€ chacune",
+   "1.5 kg de tomates à 3€ le kilo",
+   "3 croissants 4.50€",
+   "Addition resto 120/3",
+   "Robe 80€ -20%",
+   "Devis garage 500€ +20% tva",
+   "Sandwich 6€ et boisson 2.50€"
+  ]
+ },
+ "es": {
+  "terms": {
+   "Ask Your Notes": "Pregunta a tus notas",
+   "Link to Spendry": "Enlazar con Spendry",
+   "Recently Deleted": "Eliminado recientemente",
+   "Scan Text": "Escanear texto",
+   "Coming Up": "Próximamente",
+   "Calendar": "Calendario",
+   "Today": "Hoy",
+   "List": "Lista",
+   "Weekly Shopping": "Compra semanal",
+   "Monthly Plan": "Plan mensual",
+   "Trip Budget": "Presupuesto del viaje",
+   "Gift List": "Lista de regalos",
+   "Moving House": "Mudanza",
+   "Event Budget": "Presupuesto del evento",
+   "Left": "Restante",
+   "Bought": "Comprado"
+  },
+  "store": {
+   "name": "Spendry Notes: Compras",
+   "subtitle": "Notas que calculan tus gastos",
+   "keywords": "lista,presupuesto,calculadora,dinero,supermercado,recordatorios,cuentas,planificador,libreta,tareas"
+  },
+  "examples": [
+   "4 cervezas a 2.50€",
+   "3 entradas a 15€ c/u",
+   "5 cuadernos a 1.20€ cada uno",
+   "1.5 kg tomates a 2€ el kilo",
+   "3 cafés 4.50€",
+   "Cena 120/3",
+   "Zapatillas 80€ -20% dto",
+   "Taller 200€ +21% IVA",
+   "Pan 1.50€ y leche 1.20€"
+  ]
+ },
+ "es-MX": {
+  "terms": {
+   "Ask Your Notes": "Pregunta a tus notas",
+   "Link to Spendry": "Enlazar con Spendry",
+   "Recently Deleted": "Eliminado recientemente",
+   "Scan Text": "Escanear texto",
+   "Coming Up": "Próximamente",
+   "Calendar": "Calendario",
+   "Today": "Hoy",
+   "List": "Lista",
+   "Weekly Shopping": "Compra semanal",
+   "Monthly Plan": "Plan mensual",
+   "Trip Budget": "Presupuesto del viaje",
+   "Gift List": "Lista de regalos",
+   "Moving House": "Mudanza",
+   "Event Budget": "Presupuesto del evento",
+   "Left": "Restante",
+   "Bought": "Comprado"
+  },
+  "store": {
+   "name": "Spendry Notes: Lista del súper",
+   "subtitle": "Calcula gastos y presupuesto",
+   "keywords": "despensa,compras,mandado,calculadora,dinero,cuentas,pendientes,recordatorios,libreta,ahorro,notas"
+  },
+  "examples": [
+   "4 cervezas a 2.50€",
+   "3 entradas a 15€ c/u",
+   "5 cuadernos a 1.20€ cada uno",
+   "1.5 kg tomates a 2€ el kilo",
+   "3 cafés 4.50€",
+   "Cena 120/3",
+   "Zapatillas 80€ -20% dto",
+   "Taller 200€ +21% IVA",
+   "Pan 1.50€ y leche 1.20€"
+  ]
+ },
+ "it": {
+  "terms": {
+   "Ask Your Notes": "Chiedi alle tue note",
+   "Link to Spendry": "Collega a Spendry",
+   "Recently Deleted": "Eliminati di recente",
+   "Scan Text": "Scansiona testo",
+   "Coming Up": "In programma",
+   "Calendar": "Calendario",
+   "Today": "Oggi",
+   "List": "Elenco",
+   "Weekly Shopping": "Spesa settimanale",
+   "Monthly Plan": "Piano mensile",
+   "Trip Budget": "Budget viaggio",
+   "Gift List": "Lista regali",
+   "Moving House": "Trasloco",
+   "Event Budget": "Budget evento",
+   "Left": "Rimanenti",
+   "Bought": "Acquistati"
+  },
+  "store": {
+   "name": "Spendry Notes: Lista Spesa",
+   "subtitle": "Appunti con calcoli e budget",
+   "keywords": "calcolatrice,promemoria,soldi,conti,checklist,planner,blocco,acquisti,costi,uscite,bollette,memo"
+  },
+  "examples": [
+   "4 pizze a 7€ l'una",
+   "3 bottiglie vino a 6€ cadauno",
+   "5 quaderni 2,50€ al pezzo",
+   "1,5 kg mele 2€ al kg",
+   "3 caffè 3,60€",
+   "Cena 120/3",
+   "Giacca 100€ sconto 20%",
+   "Fattura 500€ +22% IVA",
+   "Pane 2€ e latte 1,50€"
+  ]
+ },
+ "nl": {
+  "terms": {
+   "Ask Your Notes": "Vraag je notities",
+   "Link to Spendry": "Koppel aan Spendry",
+   "Recently Deleted": "Recent verwijderd",
+   "Scan Text": "Scan tekst",
+   "Coming Up": "Binnenkort",
+   "Calendar": "Agenda",
+   "Today": "Vandaag",
+   "List": "Lijst",
+   "Weekly Shopping": "Wekelijkse boodschappen",
+   "Monthly Plan": "Maandplanning",
+   "Trip Budget": "Reisbudget",
+   "Gift List": "Cadeaulijst",
+   "Moving House": "Verhuizen",
+   "Event Budget": "Budget voor evenement",
+   "Left": "Over",
+   "Bought": "Gekocht"
+  },
+  "store": {
+   "name": "Spendry Notes: Boodschappen",
+   "subtitle": "Budget notities die meerekenen",
+   "keywords": "boodschappenlijst,rekenmachine,uitgaven,geld,checklist,taken,kosten,planner,lijstjes,sparen,todo"
+  },
+  "examples": [
+   "5 flessen cola à €1,50",
+   "3 pakken melk €1,20 per stuk",
+   "4 broodjes €2,50 p/s",
+   "1,5 kg appels €2,00 per kilo",
+   "3 koffie €9",
+   "Eten 120/3",
+   "Jas €100 -20% korting",
+   "Factuur €1000 +21% btw",
+   "Pizza €12 en bier €3"
+  ]
+ },
+ "pt-BR": {
+  "terms": {
+   "Ask Your Notes": "Pergunte às Suas Notas",
+   "Link to Spendry": "Vincular ao Spendry",
+   "Recently Deleted": "Apagados Recentemente",
+   "Scan Text": "Escanear Texto",
+   "Coming Up": "Em breve",
+   "Calendar": "Calendário",
+   "Today": "Hoje",
+   "List": "Lista",
+   "Weekly Shopping": "Compras da Semana",
+   "Monthly Plan": "Plano Mensal",
+   "Trip Budget": "Orçamento da Viagem",
+   "Gift List": "Lista de presentes",
+   "Moving House": "Mudança de Casa",
+   "Event Budget": "Orçamento do Evento",
+   "Left": "Restante",
+   "Bought": "Comprado"
+  },
+  "store": {
+   "name": "Spendry Notes: Compras",
+   "subtitle": "Calcula gastos do orçamento",
+   "keywords": "mercado,lista,dinheiro,despesas,bloco,calculadora,planejador,lembretes,contas,finanças,checklist"
+  },
+  "examples": [
+   "4 cervejas a R$ 8 cada",
+   "3 caixas de leite por R$ 5,50 a unidade",
+   "2 ingressos R$ 40 cada um",
+   "1.5 kg de carne a R$ 36 o kg",
+   "3 cafés R$ 18",
+   "churrasco 150/3",
+   "Tênis R$ 300 - 15% de desconto",
+   "Conta do restaurante R$ 200 + 10% taxa",
+   "Almoço R$ 35 e sobremesa R$ 12"
+  ]
+ },
+ "pt-PT": {
+  "terms": {
+   "Ask Your Notes": "Pergunte às Suas Notas",
+   "Link to Spendry": "Vincular ao Spendry",
+   "Recently Deleted": "Apagados Recentemente",
+   "Scan Text": "Escanear Texto",
+   "Coming Up": "Em breve",
+   "Calendar": "Calendário",
+   "Today": "Hoje",
+   "List": "Lista",
+   "Weekly Shopping": "Compras da Semana",
+   "Monthly Plan": "Plano Mensal",
+   "Trip Budget": "Orçamento da Viagem",
+   "Gift List": "Lista de presentes",
+   "Moving House": "Mudança de Casa",
+   "Event Budget": "Orçamento do Evento",
+   "Left": "Restante",
+   "Bought": "Comprado"
+  },
+  "store": {
+   "name": "Spendry Notes: Compras",
+   "subtitle": "Notas que calculam o orçamento",
+   "keywords": "despesas,lista,dinheiro,calculadora,contas,tarefas,supermercado,lembretes,gastos,agenda,bloco,preços"
+  },
+  "examples": [
+   "4 cervejas a R$ 8 cada",
+   "3 caixas de leite por R$ 5,50 a unidade",
+   "2 ingressos R$ 40 cada um",
+   "1.5 kg de carne a R$ 36 o kg",
+   "3 cafés R$ 18",
+   "churrasco 150/3",
+   "Tênis R$ 300 - 15% de desconto",
+   "Conta do restaurante R$ 200 + 10% taxa",
+   "Almoço R$ 35 e sobremesa R$ 12"
+  ]
+ },
+ "ru": {
+  "terms": {
+   "Ask Your Notes": "Спросить заметки",
+   "Link to Spendry": "Связать со Spendry",
+   "Recently Deleted": "Недавно удаленные",
+   "Scan Text": "Сканировать текст",
+   "Coming Up": "Скоро",
+   "Calendar": "Календарь",
+   "Today": "Сегодня",
+   "List": "Список",
+   "Weekly Shopping": "Покупки на неделю",
+   "Monthly Plan": "План на месяц",
+   "Trip Budget": "Бюджет поездки",
+   "Gift List": "Список подарков",
+   "Moving House": "Переезд",
+   "Event Budget": "Бюджет события",
+   "Left": "Остаток",
+   "Bought": "Куплено"
+  },
+  "store": {
+   "name": "Spendry Notes: Список покупок",
+   "subtitle": "Заметки считают бюджет",
+   "keywords": "расходы,деньги,калькулятор,блокнот,чеклист,планер,финансы,траты,напоминания,ежедневник,задачи,учет"
+  },
+  "examples": [
+   "Вода 3 бут. по 50 руб",
+   "Яблоки 4 шт по 30₽",
+   "Билеты 2 шт. по 500р",
+   "Бананы 1.5 кг по 80 руб",
+   "3 кофе 450р",
+   "Обед 1200/3",
+   "Куртка 5000 руб скидка 20%",
+   "Счет 1000 руб +20% ндс",
+   "Сыр 250р и колбаса 350р"
+  ]
+ },
+ "uk": {
+  "terms": {
+   "Ask Your Notes": "Запитайте у нотаток",
+   "Link to Spendry": "Пов'язати зі Spendry",
+   "Recently Deleted": "Недавно видалені",
+   "Scan Text": "Сканувати текст",
+   "Coming Up": "Незабаром",
+   "Calendar": "Календар",
+   "Today": "Сьогодні",
+   "List": "Список",
+   "Weekly Shopping": "Покупки на тиждень",
+   "Monthly Plan": "План на місяць",
+   "Trip Budget": "Бюджет поїздки",
+   "Gift List": "Список подарунків",
+   "Moving House": "Переїзд",
+   "Event Budget": "Бюджет події",
+   "Left": "Залишок",
+   "Bought": "Куплено"
+  },
+  "store": {
+   "name": "Spendry Notes: Список покупок",
+   "subtitle": "Нотатки, що рахують гроші",
+   "keywords": "бюджет,витрати,продукти,калькулятор,планер,шопінг,чекліст,фінанси,нагадування,завдання,ціни,чеки"
+  },
+  "examples": [
+   "вода 5 пляшок по 20 грн",
+   "4 бургери по 150 грн",
+   "зошити 10 шт по 25 грн",
+   "яблука 2.5 кг по 40 грн за кг",
+   "3 кави 180 грн",
+   "таксі 120/3 грн",
+   "куртка 1200 грн -20% знижка",
+   "рахунок 1000 грн +20% пдв",
+   "піца 250 грн і сік 60 грн"
+  ]
+ },
+ "pl": {
+  "terms": {
+   "Ask Your Notes": "Zapytaj notatki",
+   "Link to Spendry": "Połącz ze Spendry",
+   "Recently Deleted": "Ostatnio usunięte",
+   "Scan Text": "Skanuj tekst",
+   "Coming Up": "Nadchodzące",
+   "Calendar": "Kalendarz",
+   "Today": "Dzisiaj",
+   "List": "Lista",
+   "Weekly Shopping": "Zakupy na tydzień",
+   "Monthly Plan": "Plan miesięczny",
+   "Trip Budget": "Budżet wyjazdu",
+   "Gift List": "Lista prezentów",
+   "Moving House": "Przeprowadzka",
+   "Event Budget": "Budżet wydarzenia",
+   "Left": "Zostało",
+   "Bought": "Kupione"
+  },
+  "store": {
+   "name": "Spendry Notes: Lista zakupów",
+   "subtitle": "Notatki, które liczą budżet",
+   "keywords": "wydatki,kalkulator,finanse,planer,pieniądze,rachunki,zadania,przypomnienia,paragon,cena,koszyk,todo"
+  },
+  "examples": [
+   "3 piwa po 8 zł",
+   "4 bilety po 25 PLN",
+   "2 burgery à 30 zł",
+   "2.5 kg jabłek po 4 zł",
+   "3 kawy 45 zł",
+   "pizza 120/3",
+   "kurtka 200 zł -20%",
+   "faktura 1000 zł +23% vat",
+   "chleb 5 zł i masło 7 zł"
+  ]
+ },
+ "cs": {
+  "terms": {
+   "Ask Your Notes": "Zeptejte se poznámek",
+   "Link to Spendry": "Propojit se Spendry",
+   "Recently Deleted": "Nedávno smazané",
+   "Scan Text": "Naskenovat text",
+   "Coming Up": "Nadcházející",
+   "Calendar": "Kalendář",
+   "Today": "Dnes",
+   "List": "Seznam",
+   "Weekly Shopping": "Týdenní nákup",
+   "Monthly Plan": "Měsíční plán",
+   "Trip Budget": "Rozpočet na výlet",
+   "Gift List": "Seznam dárků",
+   "Moving House": "Stěhování",
+   "Event Budget": "Rozpočet na akci",
+   "Left": "Zbývá",
+   "Bought": "Nakoupeno"
+  },
+  "store": {
+   "name": "Spendry Notes: Nákupní seznam",
+   "subtitle": "Poznámky, co počítají peníze",
+   "keywords": "rozpočet,kalkulačka,výdaje,nákupy,úkoly,plánovač,připomínky,finance,útrata,checklist,diář,cena"
+  },
+  "examples": [
+   "3x pivo po 45 Kč",
+   "4 ks máslo za 50 Kč/ks",
+   "5 lahví vína á 120 Kč",
+   "1.5 kg jablek po 30 Kč/kg",
+   "3 kávy 150 Kč",
+   "oběd 120/3 Kč",
+   "bunda 1200 Kč -20%",
+   "faktura 1000 Kč +21% dph",
+   "chleba 40 Kč a mléko 25 Kč"
+  ]
+ },
+ "sk": {
+  "terms": {
+   "Ask Your Notes": "Spýtať sa poznámok",
+   "Link to Spendry": "Prepojiť so Spendry",
+   "Recently Deleted": "Nedávno vymazané",
+   "Scan Text": "Skenovať text",
+   "Coming Up": "Nadchádzajúce",
+   "Calendar": "Kalendár",
+   "Today": "Dnes",
+   "List": "Zoznam",
+   "Weekly Shopping": "Týždenný nákup",
+   "Monthly Plan": "Mesačný plán",
+   "Trip Budget": "Rozpočet na výlet",
+   "Gift List": "Nápady na darčeky",
+   "Moving House": "Sťahovanie",
+   "Event Budget": "Rozpočet akcie",
+   "Left": "Zostáva",
+   "Bought": "Kúpené"
+  },
+  "store": {
+   "name": "Spendry Notes: Nákupný zoznam",
+   "subtitle": "Poznámky, čo počítajú peniaze",
+   "keywords": "kalkulačka,rozpočet,výdavky,pripomienky,plánovač,financie,úlohy,potraviny,zápisník,účty,checklist"
+  },
+  "examples": [
+   "3 ks maslo po 2.50 €",
+   "4 piva za 1.80 € kus",
+   "2x lístok 15 € / ks",
+   "1.5 kg jablka 2 €/kg",
+   "3 kavy 7.50 €",
+   "večera 120 / 3",
+   "Bunda 100 € zľava 20%",
+   "Faktúra 1000 € + 20% DPH",
+   "obed 12 € a káva 3 €"
+  ]
+ },
+ "sl": {
+  "terms": {
+   "Ask Your Notes": "Vprašajte svoje opombe",
+   "Link to Spendry": "Poveži s Spendry",
+   "Recently Deleted": "Nedavno izbrisano",
+   "Scan Text": "Optično preberi besedilo",
+   "Coming Up": "Prihajajoče",
+   "Calendar": "Koledar",
+   "Today": "Danes",
+   "List": "Seznam",
+   "Weekly Shopping": "Tedenski nakupi",
+   "Monthly Plan": "Mesečni načrt",
+   "Trip Budget": "Proračun potovanja",
+   "Gift List": "Seznam daril",
+   "Moving House": "Selitev",
+   "Event Budget": "Proračun dogodka",
+   "Left": "Preostanek",
+   "Bought": "Kupljeno"
+  },
+  "store": {
+   "name": "Spendry Notes: Seznam nakupov",
+   "subtitle": "Zapiski, ki računajo stroške",
+   "keywords": "proračun,denar,kalkulator,opomniki,planer,finance,opravila,nakupovanje,beležka,koledar,trgovina,cene"
+  },
+  "examples": [
+   "3 piva po 2.50 €",
+   "4 sendviči po 3.50 eur",
+   "5 zvezkov 2 € na kos",
+   "1.5 kg jabolk po 2 € na kg",
+   "3 pice 24 €",
+   "kosilo 120 / 3 €",
+   "Jakna 100 € -20% popust",
+   "Račun 500 € +22% DDV",
+   "kruh 2 € in mleko 1.50 €"
+  ]
+ },
+ "hr": {
+  "terms": {
+   "Ask Your Notes": "Pitaj svoje bilješke",
+   "Link to Spendry": "Poveži sa Spendryjem",
+   "Recently Deleted": "Nedavno obrisano",
+   "Scan Text": "Skeniraj tekst",
+   "Coming Up": "Nadolazeće",
+   "Calendar": "Kalendar",
+   "Today": "Danas",
+   "List": "Popis",
+   "Weekly Shopping": "Tjedna kupnja",
+   "Monthly Plan": "Mjesečni plan",
+   "Trip Budget": "Proračun za putovanje",
+   "Gift List": "Popis darova",
+   "Moving House": "Preseljenje",
+   "Event Budget": "Proračun za događaj",
+   "Left": "Preostalo",
+   "Bought": "Kupljeno"
+  },
+  "store": {
+   "name": "Spendry Notes: Popis kupnje",
+   "subtitle": "Bilješke koje računaju budžet",
+   "keywords": "troškovi,kalkulator,financije,planer,novac,kupovina,podsjetnik,računi,cijene,šoping,trgovina"
+  },
+  "examples": [
+   "5 piva po 2.50 eur",
+   "3 kave 1.80 eur po komadu",
+   "4 sendviča po 3.5 €",
+   "2.5 kg jabuka po 1.20 €",
+   "3 kave 6 €",
+   "Ručak 120/3 €",
+   "Jakna 100 € popust 20%",
+   "Račun 100 € + 25% pdv",
+   "Kava 2 € i kolač 4 €"
+  ]
+ },
+ "hu": {
+  "terms": {
+   "Ask Your Notes": "Kérdezd a jegyzeteid",
+   "Link to Spendry": "Összekapcsolás a Spendryvel",
+   "Recently Deleted": "Nemrég törölt",
+   "Scan Text": "Szöveg beolvasása",
+   "Coming Up": "Közelgő",
+   "Calendar": "Naptár",
+   "Today": "Ma",
+   "List": "Lista",
+   "Weekly Shopping": "Heti bevásárlás",
+   "Monthly Plan": "Havi terv",
+   "Trip Budget": "Utazás költségkerete",
+   "Gift List": "Ajándéklista",
+   "Moving House": "Költözés",
+   "Event Budget": "Esemény költségkerete",
+   "Left": "Fennmaradó",
+   "Bought": "Megvéve"
+  },
+  "store": {
+   "name": "Spendry Notes: Bevásárlólista",
+   "subtitle": "Pénzügyi jegyzet, ami számol",
+   "keywords": "költségvetés,bevásárlás,kiadások,számológép,tervező,pénz,teendők,számlák,spórolás,emlékeztető,árak"
+  },
+  "examples": [
+   "3 db kávé darabja 650 Ft",
+   "4 üveg sör 450 Ft / db",
+   "2 mozijegy 2500 Ft fejenként",
+   "1.5 kg alma 400 Ft/kg",
+   "3 kávé 1800 Ft",
+   "Ebéd 12000/4",
+   "Kabát 25000 Ft -20%",
+   "Számla 10000 Ft +27% ÁFA",
+   "mozi 3000 Ft és pattogatott kukorica 1500 Ft"
+  ]
+ },
+ "ro": {
+  "terms": {
+   "Ask Your Notes": "Întreabă-ți notițele",
+   "Link to Spendry": "Asociază cu Spendry",
+   "Recently Deleted": "Șterse recent",
+   "Scan Text": "Scanează textul",
+   "Coming Up": "Urmează",
+   "Calendar": "Calendar",
+   "Today": "Azi",
+   "List": "Listă",
+   "Weekly Shopping": "Cumpărături săptămânale",
+   "Monthly Plan": "Plan lunar",
+   "Trip Budget": "Buget călătorie",
+   "Gift List": "Listă de cadouri",
+   "Moving House": "Mutare casă",
+   "Event Budget": "Buget eveniment",
+   "Left": "Rămas",
+   "Bought": "Cumpărat"
+  },
+  "store": {
+   "name": "Spendry Notes: Cumpărături",
+   "subtitle": "Notițe cu buget și calcule",
+   "keywords": "bani,cheltuieli,lista,calculator,facturi,planificator,agenda,alimente,economii,preturi,todo,memento"
+  },
+  "examples": [
+   "5 sticle de apă la 3 lei bucata",
+   "4 beri 8 lei fiecare",
+   "3 pachete cafea câte 25 lei",
+   "1.5 kg mere la 6 lei /kg",
+   "3 cafele 45 lei",
+   "Prânz 120/3 lei",
+   "Geacă 250 lei reducere 20%",
+   "Factură 1000 lei +19% TVA",
+   "Pâine 5 lei și lapte 8 lei"
+  ]
+ },
+ "el": {
+  "terms": {
+   "Ask Your Notes": "Ρώτησε τις Σημειώσεις",
+   "Link to Spendry": "Σύνδεση με το Spendry",
+   "Recently Deleted": "Πρόσφατα διαγραμμένα",
+   "Scan Text": "Σάρωση κειμένου",
+   "Coming Up": "Προσεχώς",
+   "Calendar": "Ημερολόγιο",
+   "Today": "Σήμερα",
+   "List": "Λίστα",
+   "Weekly Shopping": "Εβδομαδιαία ψώνια",
+   "Monthly Plan": "Μηνιαίο πλάνο",
+   "Trip Budget": "Προϋπολογισμός ταξιδιού",
+   "Gift List": "Λίστα δώρων",
+   "Moving House": "Μετακόμιση",
+   "Event Budget": "Προϋπολογισμός εκδήλωσης",
+   "Left": "Υπόλοιπο",
+   "Bought": "Αγοράστηκαν"
+  },
+  "store": {
+   "name": "Spendry Notes: Λίστα για ψώνια",
+   "subtitle": "Σημειώσεις με υπολογισμούς",
+   "keywords": "εξοδα,σουπερμαρκετ,αγορες,προϋπολογισμος,χρηματα,αριθμομηχανη,λογαριασμοι,υπενθυμισεις,τιμες,πλανο"
+  },
+  "examples": [
+   "4 μπίρες προς 3€",
+   "2 εισιτήρια 15€ το ένα",
+   "1.5 κιλό φράουλες προς 4€ το κιλό",
+   "3 σουβλάκια 9.60€",
+   "Ταξί 120/3",
+   "Μπουφάν 80€ -20% έκπτωση",
+   "Τιμολόγιο 500€ +24% φπα",
+   "Πίτσα 10€ και αναψυκτικά 4€"
+  ]
+ },
+ "sv": {
+  "terms": {
+   "Ask Your Notes": "Fråga dina anteckningar",
+   "Link to Spendry": "Länka till Spendry",
+   "Recently Deleted": "Senast raderade",
+   "Scan Text": "Skanna text",
+   "Coming Up": "Kommande",
+   "Calendar": "Kalender",
+   "Today": "Idag",
+   "List": "Lista",
+   "Weekly Shopping": "Veckohandling",
+   "Monthly Plan": "Månadsplan",
+   "Trip Budget": "Resebudget",
+   "Gift List": "Presentlista",
+   "Moving House": "Flytta",
+   "Event Budget": "Evenemangsbudget",
+   "Left": "Kvar",
+   "Bought": "Köpt"
+  },
+  "store": {
+   "name": "Spendry Notes: Inköpslista",
+   "subtitle": "Anteckningar som räknar pengar",
+   "keywords": "budget,handla,kalkylator,checklista,utgifter,planerare,räkningar,påminnelser,shopping,matlista,pris"
+  },
+  "examples": [
+   "4 öl à 60 kr",
+   "3 paket kaffe 45 kr/st",
+   "2 pizzor 110 kr vardera",
+   "1.5 kg äpplen 30 kr/kg",
+   "3 kaffe 90 kr",
+   "Taxi 120/3 kr",
+   "Jacka 1200 kr -20%",
+   "Faktura 1000 kr +25% moms",
+   "Bok 150 kr och penna 25 kr"
+  ]
+ },
+ "da": {
+  "terms": {
+   "Ask Your Notes": "Spørg dine noter",
+   "Link to Spendry": "Knyt til Spendry",
+   "Recently Deleted": "Slettet for nylig",
+   "Scan Text": "Scan tekst",
+   "Coming Up": "Kommende",
+   "Calendar": "Kalender",
+   "Today": "I dag",
+   "List": "Liste",
+   "Weekly Shopping": "Ugentlige indkøb",
+   "Monthly Plan": "Månedsplan",
+   "Trip Budget": "Rejsebudget",
+   "Gift List": "Gaveliste",
+   "Moving House": "Flytning",
+   "Event Budget": "Begivenhedsbudget",
+   "Left": "Tilbage",
+   "Bought": "Købt"
+  },
+  "store": {
+   "name": "Spendry Notes: Indkøbsliste",
+   "subtitle": "Notater der regner dit budget",
+   "keywords": "indkøb,lommeregner,tjekliste,udgifter,penge,huskeliste,regninger,shopping,ønskeliste,notesblok,todo"
+  },
+  "examples": [
+   "3 flasker vin à 60 kr",
+   "4 kager til 25 kr. stykket",
+   "5 øl pr. stk 20 kr",
+   "2 kg oksekød til 120 kr pr. kg",
+   "3 kaffe 75 kr",
+   "Frokost 120/3",
+   "Jakke 1000 kr -20% rabat",
+   "Faktura 1000 kr +25% moms",
+   "Mælk 15 kr og brød 25 kr"
+  ]
+ },
+ "nb": {
+  "terms": {
+   "Ask Your Notes": "Spør notatene dine",
+   "Link to Spendry": "Koble til Spendry",
+   "Recently Deleted": "Nylig slettet",
+   "Scan Text": "Skann tekst",
+   "Coming Up": "Kommende",
+   "Calendar": "Kalender",
+   "Today": "I dag",
+   "List": "Liste",
+   "Weekly Shopping": "Ukehandel",
+   "Monthly Plan": "Månedsplan",
+   "Trip Budget": "Turbudsjett",
+   "Gift List": "Gaveliste",
+   "Moving House": "Flytting",
+   "Event Budget": "Budsjett for arrangement",
+   "Left": "Igjen",
+   "Bought": "Kjøpt"
+  },
+  "store": {
+   "name": "Spendry Notes: Handleliste",
+   "subtitle": "Notater som regner ut budsjett",
+   "keywords": "kalkulator,utgifter,penger,huskeliste,planlegger,regninger,økonomi,innkjøp,ønskeliste,pris,gjøremål"
+  },
+  "examples": [
+   "4 bokser øl à 30 kr",
+   "3 kaffe til 45 kr per stk",
+   "5 flasker brus, 25 kr stk",
+   "2 kg epler til 35 kr per kg",
+   "3 kaffe 120 kr",
+   "Pizza 120/3",
+   "Jakke 1000 kr -20% rabatt",
+   "Faktura 2000 kr +25% mva",
+   "Kaffe 40 kr og bolle 35 kr"
+  ]
+ },
+ "fi": {
+  "terms": {
+   "Ask Your Notes": "Kysy muistiinpanoiltasi",
+   "Link to Spendry": "Yhdistä Spendryyn",
+   "Recently Deleted": "Äskettäin poistetut",
+   "Scan Text": "Skannaa tekstiä",
+   "Coming Up": "Tulossa",
+   "Calendar": "Kalenteri",
+   "Today": "Tänään",
+   "List": "Lista",
+   "Weekly Shopping": "Viikko-ostokset",
+   "Monthly Plan": "Kuukausisuunnitelma",
+   "Trip Budget": "Matkabudjetti",
+   "Gift List": "Lahjalista",
+   "Moving House": "Muutto",
+   "Event Budget": "Tapahtuman budjetti",
+   "Left": "Jäljellä",
+   "Bought": "Ostettu"
+  },
+  "store": {
+   "name": "Spendry Notes: Ostoslista",
+   "subtitle": "Budjetti ja laskeva muistio",
+   "keywords": "kauppalista,muistiinpanot,laskin,kulut,raha,tehtävät,ostokset,laskut,muistutus,talous,toivelista"
+  },
+  "examples": [
+   "5 maitoa à 1,20 €",
+   "3 kpl leipää 2,50€ /kpl",
+   "4 lippua 15 € per hlö",
+   "2 kg omenoita 3 € /kg",
+   "3 kahvia 9 €",
+   "Mökki 120/3 €",
+   "Takki 100 € -20% ale",
+   "Lasku 1000 € +24% alv",
+   "Lounas 12 € ja kahvi 3 €"
+  ]
+ },
+ "ca": {
+  "terms": {
+   "Ask Your Notes": "Pregunta a les teves notes",
+   "Link to Spendry": "Enllaça amb Spendry",
+   "Recently Deleted": "Eliminats fa poc",
+   "Scan Text": "Escaneja text",
+   "Coming Up": "Propers",
+   "Calendar": "Calendari",
+   "Today": "Avui",
+   "List": "Llista",
+   "Weekly Shopping": "Compra setmanal",
+   "Monthly Plan": "Pla mensual",
+   "Trip Budget": "Pressupost del viatge",
+   "Gift List": "Llista de regals",
+   "Moving House": "Canvi de casa",
+   "Event Budget": "Pressupost de l'esdeveniment",
+   "Left": "Restant",
+   "Bought": "Comprat"
+  },
+  "store": {
+   "name": "Spendry Notes: Llista compra",
+   "subtitle": "Apunts que calculen despeses",
+   "keywords": "pressupost,diners,calculadora,tasques,estalvi,organitzador,rebuts,calendari,preus,plans,diari"
+  },
+  "examples": [
+   "3 ampolles d'oli a 4€ cadascuna",
+   "4 llibretes a 2,50€",
+   "6 cerveses a 1.50€ la unitat",
+   "1.5 kg de formatge a 12€ el kg",
+   "3 cafès 4,50€",
+   "Sopar 120/3",
+   "Jaqueta 80€ -20% dte.",
+   "Factura 500€ +21% iva",
+   "Pa 1,20€ i llet 0,90€"
+  ]
+ },
+ "ja": {
+  "terms": {
+   "Ask Your Notes": "メモに質問",
+   "Link to Spendry": "Spendryと連携",
+   "Recently Deleted": "最近削除した項目",
+   "Scan Text": "テキストをスキャン",
+   "Coming Up": "今後の予定",
+   "Calendar": "カレンダー",
+   "Today": "今日",
+   "List": "リスト",
+   "Weekly Shopping": "今週の買い物",
+   "Monthly Plan": "今月の予定",
+   "Trip Budget": "旅行の予算",
+   "Gift List": "ギフトリスト",
+   "Moving House": "引っ越し",
+   "Event Budget": "イベントの予算",
+   "Left": "残り",
+   "Bought": "購入済み"
+  },
+  "store": {
+   "name": "Spendry Notes: 買い物リスト",
+   "subtitle": "金額を自動計算する予算メモ",
+   "keywords": "家計簿,電卓,チェック,ToDo,支出,出費,お金,予定,リマインダー,欲しいもの,タスク,節約,食費,スケジュール,やること,ノート,値段,固定費,備忘録"
+  },
+  "examples": [
+   "ビール 3本 250円ずつ",
+   "りんご 4個 @120円",
+   "ノート 2冊 単価150円",
+   "豚肉 2kg 1kgあたり980円",
+   "コーヒー 3杯 1200円",
+   "飲み会 12000円/3",
+   "ジャケット 5000円 20%オフ",
+   "本 1000円 +10%税",
+   "ペン 200円 と ノート 300円"
+  ]
+ },
+ "ko": {
+  "terms": {
+   "Ask Your Notes": "메모에 물어보기",
+   "Link to Spendry": "Spendry에 연결",
+   "Recently Deleted": "최근 삭제된 항목",
+   "Scan Text": "텍스트 스캔",
+   "Coming Up": "다가오는 일정",
+   "Calendar": "캘린더",
+   "Today": "오늘",
+   "List": "목록",
+   "Weekly Shopping": "주간 장보기",
+   "Monthly Plan": "월간 계획",
+   "Trip Budget": "여행 예산",
+   "Gift List": "선물 목록",
+   "Moving House": "이사",
+   "Event Budget": "이벤트 예산",
+   "Left": "남은 금액",
+   "Bought": "구매 완료"
+  },
+  "store": {
+   "name": "Spendry Notes: 쇼핑리스트",
+   "subtitle": "알아서 계산해주는 똑똑한 가계부 메모",
+   "keywords": "장보기,체크리스트,메모장,장바구니,계산기,지출관리,예산,할일,플래너,일정관리,위시리스트,알림,용돈기입장,다이어리,돈관리,구매목록,투두,살것"
+  },
+  "examples": [
+   "사과 5개 개당 2000원",
+   "생수 3병 병당 1000원",
+   "마스크 10장 장당 500원",
+   "삼겹살 2kg kg당 25000원",
+   "커피 3잔 15000원",
+   "회식 120000/3",
+   "자켓 80000원 20% 할인",
+   "숙소 100000원 +10% 부가세",
+   "커피 4500원 그리고 케이크 6500원"
+  ]
+ },
+ "zh-Hans": {
+  "terms": {
+   "Ask Your Notes": "询问你的笔记",
+   "Link to Spendry": "关联至 Spendry",
+   "Recently Deleted": "最近删除",
+   "Scan Text": "扫描文本",
+   "Coming Up": "即将到来",
+   "Calendar": "日历",
+   "Today": "今天",
+   "List": "清单",
+   "Weekly Shopping": "每周采购清单",
+   "Monthly Plan": "月度计划",
+   "Trip Budget": "旅行预算",
+   "Gift List": "礼物清单",
+   "Moving House": "搬家",
+   "Event Budget": "活动预算",
+   "Left": "剩余",
+   "Bought": "已购"
+  },
+  "store": {
+   "name": "Spendry Notes: 购物清单",
+   "subtitle": "能自动算账的预算记账便签",
+   "keywords": "备忘录,计算器,记事本,待办事项,买菜,日程,提醒事项,支出,消费,开销,缴费,心愿单,价格,超市,理财,日历,待办,计划,花销,采买"
+  },
+  "examples": [
+   "矿泉水 4瓶 每瓶¥2",
+   "笔记本 5本 单价¥10",
+   "便当 3份 每份¥25",
+   "牛肉 1.5公斤 每公斤¥80",
+   "咖啡 3杯 ¥45",
+   "打车费 120/3",
+   "大衣 ¥1000 -20%",
+   "发票 ¥1000 +18% 税",
+   "汉堡 ¥25 和 可乐 ¥10"
+  ]
+ },
+ "zh-Hant": {
+  "terms": {
+   "Ask Your Notes": "詢問你的筆記",
+   "Link to Spendry": "連結至 Spendry",
+   "Recently Deleted": "最近刪除",
+   "Scan Text": "掃描文字",
+   "Coming Up": "即將到來",
+   "Calendar": "日曆",
+   "Today": "今天",
+   "List": "清單",
+   "Weekly Shopping": "每週採買",
+   "Monthly Plan": "每月計畫",
+   "Trip Budget": "旅行預算",
+   "Gift List": "禮物清單",
+   "Moving House": "搬家",
+   "Event Budget": "活動預算",
+   "Left": "剩餘",
+   "Bought": "已購買"
+  },
+  "store": {
+   "name": "Spendry Notes: 購物清單",
+   "subtitle": "能自動計算花費的預算備忘錄",
+   "keywords": "筆記,記帳,待辦事項,買菜,開銷,採買,理財,帳單,行事曆,記事本,隨手記,支出,提醒事項,存錢,費用,價格,便條"
+  },
+  "examples": [
+   "綠茶 4瓶 每瓶 25元",
+   "便當 3個 單價 90元",
+   "蛋塔 6個 一個 35元",
+   "豬肉 2公斤 每公斤 240元",
+   "拿鐵 3杯 150元",
+   "唱歌 120/3",
+   "外套 1200元 -20%",
+   "晚餐 1000元 +10% 服務費",
+   "午餐 80元 和 飲料 30元"
+  ]
+ },
+ "hi": {
+  "terms": {
+   "Ask Your Notes": "अपने नोट्स से पूछें",
+   "Link to Spendry": "Spendry से लिंक करें",
+   "Recently Deleted": "Recently Deleted",
+   "Scan Text": "टेक्स्ट स्कैन करें",
+   "Coming Up": "आने वाले",
+   "Calendar": "कैलेंडर",
+   "Today": "आज",
+   "List": "सूची",
+   "Weekly Shopping": "साप्ताहिक खरीदारी",
+   "Monthly Plan": "महीने का प्लान",
+   "Trip Budget": "यात्रा बजट",
+   "Gift List": "उपहारों की लिस्ट",
+   "Moving House": "घर बदलना",
+   "Event Budget": "इवेंट बजट",
+   "Left": "बाकी",
+   "Bought": "खरीदा गया"
+  },
+  "store": {
+   "name": "Spendry Notes: राशन लिस्ट",
+   "subtitle": "बजट और खर्च का कैलकुलेटर",
+   "keywords": "shopping,grocery,खरीदारी,हिसाब,notepad,checklist,planner,todo,bills,money,नोटपैड,सामान,memo,डायरी"
+  },
+  "examples": [
+   "5 बोतल पानी प्रति ₹20",
+   "3 पैकेट दूध ₹30 प्रति पैकेट",
+   "4 समोसे दर ₹15",
+   "2.5 किलो सेब ₹120 प्रति किलो",
+   "3 चाय ₹45",
+   "किराया 120/3",
+   "कुर्ता ₹1500 -20% छूट",
+   "होटल बिल ₹2000 +18% जीएसटी",
+   "दाल ₹120 और चावल ₹80"
+  ]
+ },
+ "bn": {
+  "terms": {
+   "Ask Your Notes": "নোট থেকে জানুন",
+   "Link to Spendry": "Spendry-র সাথে লিঙ্ক করুন",
+   "Recently Deleted": "Recently Deleted",
+   "Scan Text": "টেক্সট স্ক্যান করুন",
+   "Coming Up": "আসন্ন",
+   "Calendar": "ক্যালেন্ডার",
+   "Today": "আজ",
+   "List": "তালিকা",
+   "Weekly Shopping": "সাপ্তাহিক বাজার",
+   "Monthly Plan": "মাসিক পরিকল্পনা",
+   "Trip Budget": "ভ্রমণের বাজেট",
+   "Gift List": "উপহারের তালিকা",
+   "Moving House": "বাড়ি বদল",
+   "Event Budget": "অনুষ্ঠানের বাজেট",
+   "Left": "বাকি",
+   "Bought": "কেনা হয়েছে"
+  },
+  "store": {
+   "name": "Spendry Notes: বাজারের তালিকা",
+   "subtitle": "হিসাব বোঝে এমন বাজেট",
+   "keywords": "কেনাকাটা,খরচ,টাকা,ক্যালকুলেটর,প্ল্যানার,রিমাইন্ডার,বিল,চেকলিস্ট,ফর্দ,নোটবুক,ব্যয়,ডায়েরি"
+  },
+  "examples": [
+   "৫ বোতল তেল প্রতি ৬০৳",
+   "৪ টা সাবান ২৫ টাকা করে",
+   "খাতা ৩ পিস দর ৫০ ৳",
+   "২.৫ কেজি আলু ৪০ টাকা প্রতি কেজি",
+   "৩ কাপ চা ৩০ ৳",
+   "লাঞ্চ বিল ১২০/৩",
+   "জ্যাকেট ১২০০ টাকা ২০% ছাড়",
+   "বিল ১০০০ ৳ +১৫% ভ্যাট",
+   "বই ২৫০ টাকা এবং খাতা ৬০ টাকা"
+  ]
+ },
+ "gu": {
+  "terms": {
+   "Ask Your Notes": "તમારી નોંધોને પૂછો",
+   "Link to Spendry": "Spendry સાથે લિંક કરો",
+   "Recently Deleted": "Recently Deleted",
+   "Scan Text": "લખાણ સ્કેન કરો",
+   "Coming Up": "આગામી",
+   "Calendar": "કેલેન્ડર",
+   "Today": "આજે",
+   "List": "યાદી",
+   "Weekly Shopping": "અઠવાડિક ખરીદી",
+   "Monthly Plan": "માસિક આયોજન",
+   "Trip Budget": "ટ્રિપ બજેટ",
+   "Gift List": "ભેટની યાદી",
+   "Moving House": "ઘર બદલવું",
+   "Event Budget": "ઇવેન્ટ બજેટ",
+   "Left": "બાકી",
+   "Bought": "ખરીદેલ"
+  },
+  "store": {
+   "name": "Spendry Notes: ખરીદી લિસ્ટ",
+   "subtitle": "હિસાબ ગણતી બજેટ નોંધ",
+   "keywords": "કરિયાણું,ખર્ચ,કેલ્ક્યુલેટર,પૈસા,પ્લાનર,રિમાઇન્ડર,ચેકલિસ્ટ,ડાયરી,બિલ,મેમો,નાણાં"
+  },
+  "examples": [
+   "પાણીની 5 બોટલ દરેકના ₹20",
+   "3 સાબુ ₹35 દીઠ",
+   "4 નોટબુક ₹50 લેખે",
+   "2.5 કિલો બટાટા ₹30 પ્રતિ કિલો",
+   "3 કોફી ₹150",
+   "નાસ્તો 120/3",
+   "શર્ટ ₹1200 -20% ડિસ્કાઉન્ટ",
+   "બિલ ₹1000 +18% જીએસટી",
+   "દૂધ ₹60 અને બ્રેડ ₹40"
+  ]
+ },
+ "kn": {
+  "terms": {
+   "Ask Your Notes": "ನಿಮ್ಮ ಟಿಪ್ಪಣಿಗಳನ್ನು ಕೇಳಿ",
+   "Link to Spendry": "Spendry ಗೆ ಲಿಂಕ್ ಮಾಡಿ",
+   "Recently Deleted": "Recently Deleted",
+   "Scan Text": "ಪಠ್ಯ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+   "Coming Up": "ಮುಂಬರುವವು",
+   "Calendar": "ಕ್ಯಾಲೆಂಡರ್",
+   "Today": "ಇಂದು",
+   "List": "ಪಟ್ಟಿ",
+   "Weekly Shopping": "ವಾರದ ಶಾಪಿಂಗ್",
+   "Monthly Plan": "ತಿಂಗಳ ಯೋಜನೆ",
+   "Trip Budget": "ಪ್ರವಾಸದ ಬಜೆಟ್",
+   "Gift List": "ಉಡುಗೊರೆಗಳ ಪಟ್ಟಿ",
+   "Moving House": "ಮನೆ ಬದಲಾವಣೆ",
+   "Event Budget": "ಕಾರ್ಯಕ್ರಮದ ಬಜೆಟ್",
+   "Left": "ಉಳಿದಿರುವುದು",
+   "Bought": "ಖರೀದಿಸಲಾಗಿದೆ"
+  },
+  "store": {
+   "name": "Spendry Notes: ಶಾಪಿಂಗ್ ಪಟ್ಟಿ",
+   "subtitle": "ಲೆಕ್ಕ ಹಾಕುವ ಬಜೆಟ್ ಡೈರಿ",
+   "keywords": "ದಿನಸಿ,ಖರ್ಚು,ಹಣ,ಖರೀದಿ,ಕ್ಯಾಲ್ಕುಲೇಟರ್,ದಿನಚರಿ,ಚೆಕ್‌ಲಿಸ್ಟ್,ಯೋಜನೆ,ಉಳಿತಾಯ,ಬಿಲ್,ಅಂಗಡಿ"
+  },
+  "examples": [
+   "5 ಬಾಟಲ್ ನೀರು ತಲಾ ₹20",
+   "4 ಪ್ಲೇಟ್ ದೋಸೆ ಒಂದಕ್ಕೆ ₹50",
+   "2 ಶರ್ಟ್ ಪ್ರತಿ ₹600",
+   "3 ಕೆಜಿ ಈರುಳ್ಳಿ ಕೆಜಿಗೆ ₹35",
+   "3 ಕಾಫಿ ₹60",
+   "ಊಟ 120/3",
+   "ಜಾಕೆಟ್ ₹1200 -20% ರಿಯಾಯಿತಿ",
+   "ಬಿಲ್ ₹1000 +18% ಜಿಎಸ್‌ಟಿ",
+   "ಪುಸ್ತಕ ₹250 ಮತ್ತು ಪೆನ್ ₹50"
+  ]
+ },
+ "ml": {
+  "terms": {
+   "Ask Your Notes": "നോട്ടുകളോട് ചോദിക്കുക",
+   "Link to Spendry": "Spendry-ലേക്ക് ലിങ്ക് ചെയ്യുക",
+   "Recently Deleted": "Recently Deleted",
+   "Scan Text": "ടെക്സ്റ്റ് സ്കാൻ ചെയ്യുക",
+   "Coming Up": "വരാനിരിക്കുന്നവ",
+   "Calendar": "കലണ്ടർ",
+   "Today": "ഇന്ന്",
+   "List": "പട്ടിക",
+   "Weekly Shopping": "ആഴ്ചയിലെ സാധനങ്ങൾ",
+   "Monthly Plan": "പ്രതിമാസ പ്ലാൻ",
+   "Trip Budget": "യാത്രാ ബജറ്റ്",
+   "Gift List": "സമ്മാനങ്ങളുടെ ലിസ്റ്റ്",
+   "Moving House": "താമസം മാറ്റം",
+   "Event Budget": "ഇവന്റ് ബജറ്റ്",
+   "Left": "ബാക്കി",
+   "Bought": "വാങ്ങിയവ"
+  },
+  "store": {
+   "name": "Spendry Notes: ഷോപ്പിംഗ്",
+   "subtitle": "കണക്കുകൂട്ടുന്ന കുറിപ്പുകൾ",
+   "keywords": "ലിസ്റ്റ്,ബജറ്റ്,ചെലവ്,പലചരക്ക്,പണം,ഡയറി,പ്ലാനർ,റിമൈൻഡർ,ബിൽ,വില,തുക"
+  },
+  "examples": [
+   "5 കുപ്പി വെള്ളം ഒന്നിന് ₹20",
+   "3 സോപ്പ് ₹40 വീതം",
+   "4 ബുക്ക് ഒരെണ്ണത്തിന് 50 രൂപ",
+   "2.5 കിലോ ഉള്ളി കിലോയ്ക്ക് ₹30",
+   "3 ചായ 45 രൂപ",
+   "ഊണ് 120/3",
+   "ജാക്കറ്റ് ₹1200 -20% കിഴിവ്",
+   "ബിൽ ₹1000 +18% ജിഎസ്ടി",
+   "പഴം ₹60 പിന്നെ പാൽ ₹40"
+  ]
+ },
+ "mr": {
+  "terms": {
+   "Ask Your Notes": "तुमच्या नोंदींना विचारा",
+   "Link to Spendry": "Spendry शी लिंक करा",
+   "Recently Deleted": "Recently Deleted",
+   "Scan Text": "मजकूर स्कॅन करा",
+   "Coming Up": "लवकरच येणारे",
+   "Calendar": "कॅलेंडर",
+   "Today": "आज",
+   "List": "यादी",
+   "Weekly Shopping": "आठवड्याची खरेदी",
+   "Monthly Plan": "मासिक नियोजन",
+   "Trip Budget": "सफरीचे बजेट",
+   "Gift List": "भेटवस्तूंची यादी",
+   "Moving House": "घर बदलणे",
+   "Event Budget": "कार्यक्रमाचे बजेट",
+   "Left": "शिल्लक",
+   "Bought": "खरेदी झाली"
+  },
+  "store": {
+   "name": "Spendry Notes: खरेदी यादी",
+   "subtitle": "हिशोब ठेवणारे स्मार्ट बजेट",
+   "keywords": "खर्च,पैसे,कॅल्क्युलेटर,नियोजन,रिमाइंडर,सामान,बिल,बचत,जमाखर्च,डायरी,किंमत,भाजीपाला"
+  },
+  "examples": [
+   "5 पाण्याची बाटली प्रत्येकी ₹20",
+   "3 वह्या दर ₹40",
+   "4 चहा प्रत्येकी ₹15",
+   "2.5 किलो सफरचंद दर ₹100 किलोला",
+   "3 कॉफी ₹150",
+   "जेवण 120/3",
+   "शर्ट ₹800 -20% सूट",
+   "हॉटेल बिल ₹1000 +18% जीएसटी",
+   "दूध ₹50 आणि दही ₹30"
+  ]
+ },
+ "or": {
+  "terms": {
+   "Ask Your Notes": "ଆପଣଙ୍କ ନୋଟ୍‌କୁ ପଚାରନ୍ତୁ",
+   "Link to Spendry": "Spendry ସହ ଲିଙ୍କ୍ କରନ୍ତୁ",
+   "Recently Deleted": "Recently Deleted",
+   "Scan Text": "ଟେକ୍ସଟ୍ ସ୍କାନ୍ କରନ୍ତୁ",
+   "Coming Up": "ଆଗାମୀ",
+   "Calendar": "କ୍ୟାଲେଣ୍ଡର",
+   "Today": "ଆଜି",
+   "List": "ତାଲିକା",
+   "Weekly Shopping": "ସାପ୍ତାହିକ ବଜାର",
+   "Monthly Plan": "ମାସିକ ଯୋଜନା",
+   "Trip Budget": "ଯାତ୍ରା ବଜେଟ୍",
+   "Gift List": "ଉପହାର ତାଲିକା",
+   "Moving House": "ଘର ବଦଳାଇବା",
+   "Event Budget": "ଇଭେଣ୍ଟ୍ ବଜେଟ୍",
+   "Left": "ବାକି",
+   "Bought": "କିଣାଗଲା"
+  },
+  "store": {
+   "name": "Spendry Notes: ସଉଦା ତାଲିକା",
+   "subtitle": "ଟଙ୍କା ହିସାବ କରୁଥିବା ବଜେଟ୍",
+   "keywords": "ଖର୍ଚ୍ଚ,କିଣାକିଣି,ବଜାର,କ୍ୟାଲକୁଲେଟର,ପ୍ଲାନର,ପଇସା,ବିଲ୍,ରିମାଇଣ୍ଡର,ଡାଏରୀ,ଖାତା,ମୂଲ୍ୟ,ଲିଷ୍ଟ"
+  },
+  "examples": [
+   "୫ ଟା କଲମ ଗୋଟାକୁ ₹୧୦",
+   "୩ ବୋତଲ ପାଣି ₹୨୦ ଲେଖାଏଁ",
+   "୪ ପ୍ଲେଟ ବିରିୟାନୀ ପ୍ରତି ₹୧୨୦",
+   "୨.୫ କିଲୋ ଆଳୁ ₹୩୦ ପ୍ରତି କିଲୋ",
+   "୩ ଟି ଚା ₹୩୦",
+   "ଭଡ଼ା ୧୨୦/୩",
+   "ଜ୍ୟାକେଟ ₹୧୨୦୦ ୨୦% ଛାଡ଼",
+   "ବିଲ୍ ₹୧୦୦୦ + ୧୮% gst",
+   "ଖାତା ₹୫୦ ଏବଂ ପେନସିଲ ₹୧୦"
+  ]
+ },
+ "pa": {
+  "terms": {
+   "Ask Your Notes": "ਆਪਣੇ ਨੋਟਾਂ ਨੂੰ ਪੁੱਛੋ",
+   "Link to Spendry": "Spendry ਨਾਲ ਲਿੰਕ ਕਰੋ",
+   "Recently Deleted": "Recently Deleted",
+   "Scan Text": "ਲਿਖਤ ਸਕੈਨ ਕਰੋ",
+   "Coming Up": "ਆਉਣ ਵਾਲੇ",
+   "Calendar": "ਕੈਲੰਡਰ",
+   "Today": "ਅੱਜ",
+   "List": "ਸੂਚੀ",
+   "Weekly Shopping": "ਹਫ਼ਤਾਵਾਰੀ ਖ਼ਰੀਦਦਾਰੀ",
+   "Monthly Plan": "ਮਹੀਨਾਵਾਰ ਯੋਜਨਾ",
+   "Trip Budget": "ਸਫ਼ਰ ਦਾ ਬਜਟ",
+   "Gift List": "ਤੋਹਫ਼ਿਆਂ ਦੀ ਸੂਚੀ",
+   "Moving House": "ਘਰ ਬਦਲਣਾ",
+   "Event Budget": "ਪ੍ਰੋਗਰਾਮ ਦਾ ਬਜਟ",
+   "Left": "ਬਾਕੀ",
+   "Bought": "ਖ਼ਰੀਦਿਆ ਗਿਆ"
+  },
+  "store": {
+   "name": "Spendry Notes: ਖਰੀਦਦਾਰੀ ਸੂਚੀ",
+   "subtitle": "ਹਿਸਾਬ ਕਰਨ ਵਾਲਾ ਬਜਟ ਨੋਟਪੈਡ",
+   "keywords": "ਖਰਚਾ,ਪੈਸੇ,ਕੈਲਕੁਲੇਟਰ,ਪਲੈਨਰ,ਬਿੱਲ,ਸੌਦਾ,ਕਰਿਆਨਾ,ਡਾਇਰੀ,ਰਿਮਾਈਂਡਰ,ਚੈੱਕਲਿਸਟ,ਖਾਤਾ,ਬੱਚਤ,ਕੀਮਤ"
+  },
+  "examples": [
+   "ਦੁੱਧ 3 ਬੋਤਲਾਂ ਹਰੇਕ ₹60",
+   "4 ਕੌਫੀ ₹150 ਹਰੇਕ",
+   "ਸਾਬਣ 5 ਪੀਸ ₹40 ਦੇ ਹਿਸਾਬ ਨਾਲ",
+   "ਖੰਡ 3 ਕਿਲੋ ਪ੍ਰਤੀ ਕਿਲੋ ₹45",
+   "3 ਚਾਹ ₹60",
+   "ਦੁਪਹਿਰ ਦਾ ਖਾਣਾ 600/3",
+   "ਕੁਰਤਾ ₹1200 -20% ਛੋਟ",
+   "ਹੋਟਲ ਬਿੱਲ ₹2000 +18% ਜੀਐਸਟੀ",
+   "ਫਲ ₹250 ਅਤੇ ਸਬਜ਼ੀ ₹150"
+  ]
+ },
+ "ta": {
+  "terms": {
+   "Ask Your Notes": "குறிப்புகளிடம் கேளுங்கள்",
+   "Link to Spendry": "Spendry உடன் இணை",
+   "Recently Deleted": "Recently Deleted",
+   "Scan Text": "உரையை ஸ்கேன் செய்க",
+   "Coming Up": "வரவிருப்பவை",
+   "Calendar": "கேலெண்டர்",
+   "Today": "இன்று",
+   "List": "பட்டியல்",
+   "Weekly Shopping": "வாராந்திர ஷாப்பிங்",
+   "Monthly Plan": "மாதத் திட்டம்",
+   "Trip Budget": "பயண பட்ஜெட்",
+   "Gift List": "பரிசுப் பட்டியல்",
+   "Moving House": "வீடு மாறுதல்",
+   "Event Budget": "நிகழ்வு பட்ஜெட்",
+   "Left": "மீதம்",
+   "Bought": "வாங்கியவை"
+  },
+  "store": {
+   "name": "Spendry Notes: மளிகை பட்டியல்",
+   "subtitle": "பட்ஜெட் கணக்கிடும் குறிப்பு",
+   "keywords": "ஷாப்பிங்,வரவுசெலவு,செலவுகள்,பணம்,விலை,திட்டமிடல்,நினைவூட்டல்,சேமிப்பு,கால்குலேட்டர்,நோட்பேட்,பில்"
+  },
+  "examples": [
+   "5 பாட்டில் தண்ணீர் தலா ₹20",
+   "3 பாக்கெட் பால் ₹30 வீதம்",
+   "4 சோப்பு ஒன்றுக்கு ₹25",
+   "2 கிலோ ஆப்பிள் ஒரு கிலோ ₹150",
+   "3 காபி ₹60",
+   "மதிய உணவு ₹120/3",
+   "ஜேக்கெட் ₹1200 -20% தள்ளுபடி",
+   "ரசீது ₹1000 +18% வரி",
+   "டீ ₹15 மற்றும் வடை ₹10"
+  ]
+ },
+ "te": {
+  "terms": {
+   "Ask Your Notes": "మీ నోట్స్‌ని అడగండి",
+   "Link to Spendry": "Spendryకి లింక్ చేయండి",
+   "Recently Deleted": "Recently Deleted",
+   "Scan Text": "టెక్స్ట్ స్కాన్ చేయండి",
+   "Coming Up": "రాబోయేవి",
+   "Calendar": "క్యాలెండర్",
+   "Today": "ఈరోజు",
+   "List": "జాబితా",
+   "Weekly Shopping": "వారంవారీ షాపింగ్",
+   "Monthly Plan": "నెలవారీ ప్రణాళిక",
+   "Trip Budget": "ట్రిప్ బడ్జెట్",
+   "Gift List": "బహుమతుల లిస్ట్",
+   "Moving House": "ఇల్లు మారడం",
+   "Event Budget": "ఈవెంట్ బడ్జెట్",
+   "Left": "మిగిలినవి",
+   "Bought": "కొన్నవి"
+  },
+  "store": {
+   "name": "Spendry Notes: షాపింగ్ లిస్ట్",
+   "subtitle": "లెక్కలు వేసే బడ్జెట్ డైరీ",
+   "keywords": "సరుకులు,ఖర్చులు,క్యాలిక్యులేటర్,డబ్బులు,ప్లానర్,రిమైండర్,బిల్లులు,నోట్‌ప్యాడ్,పొదుపు,ధర,చెక్‌లిస్ట్"
+  },
+  "examples": [
+   "5 పాల ప్యాకెట్లు ఒక్కొక్కటి ₹30",
+   "3 వాటర్ బాటిళ్లు ₹20 చొప్పున",
+   "4 సబ్బులు ఒక్కోటి ₹45",
+   "3 కిలోలు ఉల్లిపాయలు ఒక్కో కేజీకి ₹35",
+   "3 కాఫీలు ₹150",
+   "లంచ్ ఖర్చు 120/3",
+   "జాకెట్ ₹1200 -20% తగ్గింపు",
+   "హోటల్ బిల్ ₹1000 +18% టాక్స్",
+   "పుస్తకం ₹150 మరియు పెన్ను ₹20"
+  ]
+ },
+ "ur": {
+  "terms": {
+   "Ask Your Notes": "اپنے نوٹس سے پوچھیں",
+   "Link to Spendry": "Spendry سے لنک کریں",
+   "Recently Deleted": "Recently Deleted",
+   "Scan Text": "ٹیکسٹ اسکین کریں",
+   "Coming Up": "آنے والے",
+   "Calendar": "کیلنڈر",
+   "Today": "آج",
+   "List": "فہرست",
+   "Weekly Shopping": "ہفتہ وار خریداری",
+   "Monthly Plan": "ماہانہ منصوبہ",
+   "Trip Budget": "سفر کا بجٹ",
+   "Gift List": "تحائف کی فہرست",
+   "Moving House": "گھر کی منتقلی",
+   "Event Budget": "تقریب کا بجٹ",
+   "Left": "باقی",
+   "Bought": "خرید لیا"
+  },
+  "store": {
+   "name": "Spendry Notes: خریداری فہرست",
+   "subtitle": "بجٹ اور حساب کے لیے ڈائری",
+   "keywords": "اخراجات,کیلکولیٹر,کھاتہ,خرچہ,پیسے,سودا,بل,پلانر,قیمت,یاددہانی,بچت,چیکلسٹ,رقم"
+  },
+  "examples": [
+   "5 بوتلیں پانی فی 60 روپے",
+   "3 برگر ہر ایک 450 روپے",
+   "4 چائے فی عدد 50 روپے",
+   "2.5 کلو سیب فی کلو 200 روپے",
+   "3 کافی 900 روپے",
+   "کھانا 120/3 روپے",
+   "جیکٹ 2000 روپے -20% ڈسکاؤنٹ",
+   "بل 1000 روپے +18% ٹیکس",
+   "دودھ 150 روپے اور ڈبل روٹی 100 روپے"
+  ]
+ },
+ "ar": {
+  "terms": {
+   "Ask Your Notes": "اسأل ملاحظاتك",
+   "Link to Spendry": "ربط بـ Spendry",
+   "Recently Deleted": "المحذوفة مؤخراً",
+   "Scan Text": "مسح النص ضوئياً",
+   "Coming Up": "قادم",
+   "Calendar": "التقويم",
+   "Today": "اليوم",
+   "List": "قائمة",
+   "Weekly Shopping": "التسوق الأسبوعي",
+   "Monthly Plan": "خطة الشهر",
+   "Trip Budget": "ميزانية الرحلة",
+   "Gift List": "قائمة الهدايا",
+   "Moving House": "الانتقال لمنزل جديد",
+   "Event Budget": "ميزانية الفعالية",
+   "Left": "المتبقي",
+   "Bought": "تم شراؤها"
+  },
+  "store": {
+   "name": "Spendry Notes: قائمة التسوق",
+   "subtitle": "ملاحظات تحسب ميزانيتك",
+   "keywords": "مقاضي,مصاريف,حاسبة,مشتريات,مهام,فواتير,تذكير,دفتر,مذكرة,تخطيط,نفقات,مال,شراء,اسعار,امنيات"
+  },
+  "examples": [
+   "5 علب حليب الحبة ب 4 ر.س",
+   "3 تذاكر 50 ج.م للواحدة",
+   "2.5 كيلو تفاح الكيلو ب 8 ر.س",
+   "3 قهوة 45 ر.س",
+   "عشاء 120/3 ر.س",
+   "جاكيت 200 ر.س خصم 20%",
+   "فاتورة 1000 ر.س + 15% ضريبة",
+   "كتاب 40 ر.س و قلم 10 ر.س"
+  ]
+ },
+ "he": {
+  "terms": {
+   "Ask Your Notes": "שאל את הפתקים שלך",
+   "Link to Spendry": "קישור ל-Spendry",
+   "Recently Deleted": "נמחקו לאחרונה",
+   "Scan Text": "סריקת טקסט",
+   "Coming Up": "בקרוב",
+   "Calendar": "לוח שנה",
+   "Today": "היום",
+   "List": "רשימה",
+   "Weekly Shopping": "קניות לשבוע",
+   "Monthly Plan": "תוכנית חודשית",
+   "Trip Budget": "תקציב לטיול",
+   "Gift List": "רשימת מתנות",
+   "Moving House": "מעבר דירה",
+   "Event Budget": "תקציב לאירוע",
+   "Left": "נותר",
+   "Bought": "נקנה"
+  },
+  "store": {
+   "name": "Spendry Notes: רשימת קניות",
+   "subtitle": "פתקים שמחשבים תקציב לבד",
+   "keywords": "מחשבון,הוצאות,משימות,תזכורות,כסף,יומן,סופר,מחברת,חשבונות,צ'קליסט,חיסכון,פנקס,תכנון,מחיר,ניהול"
+  },
+  "examples": [
+   "4 בקבוקי יין 50 ₪ לאחד",
+   "3 כרטיסים ב-80 שח ליחידה",
+   "6 בירות כל אחת 15 ש\"ח",
+   "2.5 ק\"ג עגבניות 8 ₪ לקילו",
+   "3 קפה 42 ₪",
+   "ארוחה 150/3",
+   "ג'קט 300 ₪ 20% הנחה",
+   "תיקון מחשב 500 ₪ +18% מע\"מ",
+   "ספר 60 ש\"ח ועט 15 ש\"ח"
+  ]
+ },
+ "th": {
+  "terms": {
+   "Ask Your Notes": "ถามโน้ตของคุณ",
+   "Link to Spendry": "เชื่อมโยงกับ Spendry",
+   "Recently Deleted": "เพิ่งลบล่าสุด",
+   "Scan Text": "สแกนข้อความ",
+   "Coming Up": "เร็วๆ นี้",
+   "Calendar": "ปฏิทิน",
+   "Today": "วันนี้",
+   "List": "รายการ",
+   "Weekly Shopping": "ซื้อของประจำสัปดาห์",
+   "Monthly Plan": "แผนประจำเดือน",
+   "Trip Budget": "งบประมาณการเดินทาง",
+   "Gift List": "รายการของขวัญ",
+   "Moving House": "ย้ายบ้าน",
+   "Event Budget": "งบประมาณจัดงาน",
+   "Left": "คงเหลือ",
+   "Bought": "ซื้อแล้ว"
+  },
+  "store": {
+   "name": "Spendry Notes: รายการซื้อของ",
+   "subtitle": "จดบันทึกพร้อมคำนวณเงิน",
+   "keywords": "โน้ต,บัญชี,รายจ่าย,รายรับ,เครื่องคิดเลข,งบประมาณ,วางแผน,เตือนความจำ,เช็คลิสต์,ช้อปปิ้ง,ราคา,บิล"
+  },
+  "examples": [
+   "น้ำเปล่า 5 ขวด ขวดละ 10 บาท",
+   "สบู่ 3 ก้อน ละ 25 ฿",
+   "ค่าตั๋ว 4 คน คนละ 120 บาท",
+   "หมูสามชั้น 2 โล โลละ 150 บาท",
+   "กาแฟ 3 แก้ว 120 บาท",
+   "ค่าพิซซ่า 120/3",
+   "เสื้อ 1200 บาท ลด 20%",
+   "ค่าอาหาร 1000 บาท + 7% vat",
+   "ข้าวผัด 50 บาท และ น้ำส้ม 30 บาท"
+  ]
+ },
+ "vi": {
+  "terms": {
+   "Ask Your Notes": "Hỏi ghi chú của bạn",
+   "Link to Spendry": "Liên kết với Spendry",
+   "Recently Deleted": "Đã xóa gần đây",
+   "Scan Text": "Quét văn bản",
+   "Coming Up": "Sắp tới",
+   "Calendar": "Lịch",
+   "Today": "Hôm nay",
+   "List": "Danh sách",
+   "Weekly Shopping": "Đi chợ hàng tuần",
+   "Monthly Plan": "Kế hoạch tháng",
+   "Trip Budget": "Ngân sách chuyến đi",
+   "Gift List": "Danh sách quà tặng",
+   "Moving House": "Chuyển nhà",
+   "Event Budget": "Ngân sách sự kiện",
+   "Left": "Còn lại",
+   "Bought": "Đã mua"
+  },
+  "store": {
+   "name": "Spendry Notes: Đi chợ",
+   "subtitle": "Ghi chú tự động tính tiền",
+   "keywords": "chi tiêu,mua sắm,quản lý,sổ tay,nhắc nhở,hóa đơn,kế hoạch,danh sách,tiết kiệm,checklist,lịch"
+  },
+  "examples": [
+   "5 chai nước mỗi cái 10k",
+   "3 vé xem phim 120k/vé",
+   "2.5 kg thịt bò 250k/kg",
+   "3 ly cà phê 75k",
+   "ăn trưa 120k/3",
+   "áo khoác 500k giảm 20%",
+   "hóa đơn 1000k +10% vat",
+   "trà sữa 30k và bánh ngọt 25k"
+  ]
+ },
+ "id": {
+  "terms": {
+   "Ask Your Notes": "Tanya Catatan Anda",
+   "Link to Spendry": "Tautkan ke Spendry",
+   "Recently Deleted": "Baru Dihapus",
+   "Scan Text": "Pindai Teks",
+   "Coming Up": "Mendatang",
+   "Calendar": "Kalender",
+   "Today": "Hari Ini",
+   "List": "Daftar",
+   "Weekly Shopping": "Belanja Mingguan",
+   "Monthly Plan": "Rencana Bulanan",
+   "Trip Budget": "Anggaran Perjalanan",
+   "Gift List": "Daftar Hadiah",
+   "Moving House": "Pindah Rumah",
+   "Event Budget": "Anggaran Acara",
+   "Left": "Sisa",
+   "Bought": "Sudah dibeli"
+  },
+  "store": {
+   "name": "Spendry Notes: Daftar Belanja",
+   "subtitle": "Catatan kalkulator anggaran",
+   "keywords": "pengeluaran,uang,keuangan,checklist,pengingat,tagihan,jadwal,harga,biaya,planner,memo,todo"
+  },
+  "examples": [
+   "3 botol susu Rp 15.000 per botol",
+   "apel 4 buah satunya Rp 8.000",
+   "kopi 2 cup masing-masing Rp 25.000",
+   "2 kg telur Rp 28.000 per kg",
+   "3 porsi mie ayam Rp 45.000",
+   "Patungan makan 120000/3",
+   "Jaket Rp 200.000 diskon 20%",
+   "Tagihan Rp 100.000 + 11% PPN",
+   "Nasi goreng Rp 25.000 dan es teh Rp 5.000"
+  ]
+ },
+ "ms": {
+  "terms": {
+   "Ask Your Notes": "Tanya Nota Anda",
+   "Link to Spendry": "Pautkan ke Spendry",
+   "Recently Deleted": "Baru Dipadamkan",
+   "Scan Text": "Imbas Teks",
+   "Coming Up": "Akan Datang",
+   "Calendar": "Kalendar",
+   "Today": "Hari Ini",
+   "List": "Senarai",
+   "Weekly Shopping": "Beli-belah Mingguan",
+   "Monthly Plan": "Rancangan Bulanan",
+   "Trip Budget": "Belanjawan Perjalanan",
+   "Gift List": "Senarai Hadiah",
+   "Moving House": "Pindah Rumah",
+   "Event Budget": "Belanjawan Acara",
+   "Left": "Baki",
+   "Bought": "Dibeli"
+  },
+  "store": {
+   "name": "Spendry Notes: Senarai Barang",
+   "subtitle": "Nota kira bajet perbelanjaan",
+   "keywords": "kalkulator,duit,wang,belanjawan,kewangan,peringatan,jadual,beli,bil,harga,resit,perancang,pasar,todo"
+  },
+  "examples": [
+   "3 botol air mineral RM2 sebotol",
+   "5 pek biskut RM4 satu",
+   "4 tiket wayang seunit RM15",
+   "2.5 kg ayam RM9.50 sekilo",
+   "3 kopi RM15",
+   "makan malam 120/3",
+   "Baju kurung RM150 diskaun 20%",
+   "Bil hotel RM200 + 6% SST",
+   "nasi lemak RM4 dan teh ais RM3"
+  ]
+ }
+}

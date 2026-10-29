@@ -2383,5 +2383,1001 @@
     }
    ]
   }
- ]
+ ],
+ "notes": {
+  "labels": {
+   "app": "Spendry Notes",
+   "free": "Gratis di App Store untuk iPhone. Semua fitur Spendry Notes gratis.",
+   "download": "Unduh Spendry Notes",
+   "more": "Lainnya dari Spendry Notes",
+   "cta": "Unduh Spendry Notes dan biarkan daftar Anda menjumlah otomatis.",
+   "bundle_nav": "Spendry & Notes",
+   "bundle_button": "Dapatkan Kedua Aplikasi",
+   "spendry_title": "Spendry, aplikasi anggaran pasangannya",
+   "home_kicker": "Spendry Notes",
+   "home_title": "Catatan berkalkulator, terhubung ke anggaran Anda",
+   "home_text": "Spendry Notes adalah aplikasi catatan gratis kami: daftar belanja yang menjumlah otomatis, rencana di kalender, dan catatan yang terhubung ke anggaran Spendry Anda. Dapatkan kedua aplikasi sekaligus dengan bundel gratis Spendry & Notes.",
+   "home_more": "Lihat fitur Spendry Notes",
+   "shots": "Mengenal Spendry Notes",
+   "shot_alts": {
+    "home": "Layar Utama Spendry Notes dengan rencana hari ini dan daftar",
+    "list": "Daftar belanja di Spendry Notes dengan harga dan total",
+    "plan": "Rencana bulanan di Spendry Notes dengan pemasukan, tagihan, dan total bersih",
+    "calendar": "Kalender Spendry Notes dengan rencana pada tanggalnya",
+    "ask": "Menanyakan rencana minggu ini ke Spendry Notes",
+    "picker": "Menautkan catatan ke anggaran, target, atau pinjaman di Spendry"
+   }
+  },
+  "pages": [
+   {
+    "key": "spendry-notes",
+    "slug": "spendry-notes",
+    "nav": "Spendry Notes",
+    "screen": "home",
+    "footer": true,
+    "title": "Aplikasi Catatan Keuangan iPhone | Spendry Notes",
+    "description": "Spendry Notes adalah aplikasi catatan gratis di iPhone yang menghitung daftar belanja, mengubah tanggal jadi rencana, dan terhubung ke Spendry.",
+    "h1": "Spendry Notes, aplikasi catatan yang paham uang",
+    "lead": "Tulis seperti biasa. Spendry Notes membaca nominal, hari, dan waktu di setiap baris, menjumlahkannya, dan menyusunnya jadi rencana tanpa mengubah bentuk catatan Anda.",
+    "points": [
+     {
+      "h": "Daftar yang menghitung otomatis",
+      "p": "Daftar belanja menampilkan total sisa belanjaan dan barang yang sudah dibeli secara langsung. Centang item saat berbelanja dan totalnya langsung menyesuaikan."
+     },
+     {
+      "h": "Tulis sealami cara bicara Anda",
+      "p": "\"3 botol susu Rp 15.000 per botol\", \"2 kg telur Rp 28.000 per kg\", atau \"Patungan makan 120000/3\": jumlah barang, harga satuan, diskon, tip, dan bagian per orang dihitung otomatis."
+     },
+     {
+      "h": "Hari menjadi rencana",
+      "p": "Tulis hari di catatan dan jadwalnya otomatis muncul di kalender Anda. Kata seperti \"besok\", \"Jumat depan\", \"3 hari lagi\", \"tanggal 15\", dan \"tiap bulan\" langsung dikenali, lengkap dengan pengingat hening."
+     },
+     {
+      "h": "Tanya Catatan Anda",
+      "p": "Tanyakan \"Apa rencana minggu ini?\" atau \"Berapa sisa daftar belanja saya?\" dan dapatkan jawaban langsung dari catatan Anda, diproses langsung di iPhone."
+     },
+     {
+      "h": "Tautkan ke Spendry",
+      "p": "Tautkan catatan ke anggaran, target tabungan, atau pinjaman di Spendry untuk melihat sisa dana, atau kirim baris catatan sebagai pengeluaran hanya dengan sekali ketuk."
+     }
+    ],
+    "steps_title": "Cara mulai memakai Spendry Notes",
+    "steps": [
+     "Unduh Spendry Notes dari App Store secara gratis.",
+     "Tulis daftar belanja atau rencana seperti di kertas, lengkap dengan harga dan hari.",
+     "Lihat total pengeluaran dan kalender Anda terisi otomatis.",
+     "Jika Anda memakai Spendry, tautkan catatan ke anggaran, target, atau pinjaman."
+    ],
+    "why_title": "Alasan memilih Spendry Notes",
+    "why": [
+     "Semua fitur Spendry Notes dapat digunakan gratis.",
+     "Berfungsi mandiri, dan makin optimal jika dipadukan dengan Spendry.",
+     "Widget menampilkan daftar belanja dan agenda mendatang, termasuk di Layar Terkunci.",
+     "iCloud menyelaraskan catatan di perangkat Anda, dan Baru Dihapus menyimpannya selama 30 hari."
+    ],
+    "faq": [
+     {
+      "q": "Apakah Spendry Notes gratis?",
+      "a": "Ya. Semua fitur Spendry Notes gratis. Spendry Premium adalah langganan opsional untuk fitur premium di Spendry, dan satu langganan berlaku untuk kedua aplikasi."
+     },
+     {
+      "q": "Apakah saya harus memasang Spendry untuk menggunakan Spendry Notes?",
+      "a": "Tidak. Spendry Notes bisa digunakan tersendiri. Dengan memasang Spendry, Anda juga bisa menautkan catatan ke anggaran, target, pinjaman, dan mengirim data transaksi."
+     },
+     {
+      "q": "Spendry Notes bisa digunakan di perangkat apa saja?",
+      "a": "Spendry Notes adalah aplikasi iPhone dan memerlukan iOS 17 atau versi yang lebih baru."
+     },
+     {
+      "q": "Bisakah saya menggunakan Siri dengan Spendry Notes?",
+      "a": "Ya. Siri dan aplikasi Pintasan bisa menambahkan item ke daftar serta memberi tahu agenda mendatang."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan biarkan catatan Anda menghitung sendiri."
+   },
+   {
+    "key": "grocery-list-app",
+    "slug": "grocery-list-app",
+    "nav": "Aplikasi daftar belanja",
+    "screen": "list",
+    "footer": true,
+    "title": "Aplikasi Daftar Belanja dan Harga | Spendry Notes",
+    "description": "Aplikasi daftar belanja gratis di iPhone yang menjumlahkan harga saat ditulis, menampilkan sisa belanjaan, dan mengingat harga sebelumnya.",
+    "h1": "Aplikasi daftar belanja yang menghitung otomatis",
+    "lead": "Tulis daftar belanja beserta harganya, centang barang yang masuk keranjang, lalu pantau total belanjaan yang sudah dibeli dan yang masih tersisa.",
+    "points": [
+     {
+      "h": "Total langsung saat mengetik",
+      "p": "Ketik \"Susu 15.000\" atau \"Roti 2 buah 20.000\" dan catatan langsung menjumlahkannya. Total sisa dan barang yang sudah dibeli berganti tiap kali dicentang."
+     },
+     {
+      "h": "Jumlah dan harga satuan",
+      "p": "\"2 kg telur Rp 28.000 per kg\" dan \"3 botol susu Rp 15.000 per botol\" langsung dihitung otomatis tanpa kalkulator terpisah."
+     },
+     {
+      "h": "Ingat harga belanja sebelumnya",
+      "p": "Ketik nama barang yang pernah dibeli dan harga terakhir langsung terisi, membuat daftar belanja mingguan selesai dalam hitungan detik."
+     },
+     {
+      "h": "Batas anggaran belanja",
+      "p": "Tentukan anggaran untuk daftar belanja Anda dan pantau sisa saldo yang tersedia saat menambahkan barang."
+     }
+    ],
+    "steps_title": "Cara membuat daftar belanja dengan harga",
+    "steps": [
+     "Buat daftar baru di Spendry Notes.",
+     "Tulis tiap barang beserta harganya, atau masukkan jumlah dan harga satuan.",
+     "Centang barang yang sudah masuk ke keranjang belanja.",
+     "Pantau sisa belanjaan pada total sebelum Anda tiba di kasir."
+    ],
+    "why_title": "Keunggulan Spendry Notes untuk belanja",
+    "why": [
+     "Gratis tanpa perlu mendaftar akun.",
+     "Widget menampilkan daftar belanja di Layar Utama dan Layar Terkunci.",
+     "Siri dapat membantu memasukkan barang ke daftar belanja Anda.",
+     "Tautkan daftar belanja ke pos anggaran di Spendry untuk memantau sisa uang bulanan."
+    ],
+    "faq": [
+     {
+      "q": "Apakah ada aplikasi daftar belanja gratis yang bisa menghitung harga?",
+      "a": "Spendry Notes gratis dan langsung menjumlahkan harga di daftar Anda saat ditulis, lengkap dengan total terpisah untuk barang yang belum dan sudah dibeli."
+     },
+     {
+      "q": "Apakah aplikasi ini mengingat harga barang?",
+      "a": "Ya. Saat Anda mengetik kembali barang yang pernah dibeli, harga sebelumnya akan terisi secara otomatis."
+     },
+     {
+      "q": "Bisakah saya menambahkan belanjaan lewat Siri?",
+      "a": "Ya. Siri dan aplikasi Pintasan bisa menambahkan barang ke dalam daftar belanja."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan bawa daftar belanja yang menghitung otomatis."
+   },
+   {
+    "key": "shopping-list-with-prices",
+    "slug": "shopping-list-with-prices",
+    "nav": "Catatan belanja dengan harga",
+    "screen": "list",
+    "footer": false,
+    "title": "Daftar Belanja dengan Total Harga | Spendry Notes",
+    "description": "Buat daftar belanja dengan harga di Spendry Notes. Menghitung total belanja otomatis, kalkulasi diskon, dan memantau sisa anggaran Anda.",
+    "h1": "Daftar belanja dengan harga dan hitungan langsung",
+    "lead": "Spendry Notes membaca harga di daftar belanja Anda, memperbarui total secara langsung, dan menampilkan sisa anggaran yang belum terpakai.",
+    "points": [
+     {
+      "h": "Hitung diskon dan biaya tambahan",
+      "p": "Tulis \"diskon 20%\" di samping barang atau \"+11% PPN\" di baris akhir, maka total harga langsung diperbarui."
+     },
+     {
+      "h": "Anggaran belanja jelas",
+      "p": "Beri batas anggaran pada catatan dan pantau sisa uang yang belum dibelanjakan seiring bertambahnya isi daftar."
+     },
+     {
+      "h": "Sudah dibeli dan belum dibeli",
+      "p": "Barang yang dicentang otomatis berpindah ke kelompok sudah dibeli, sehingga Anda selalu tahu sisa biaya yang harus dibayar."
+     },
+     {
+      "h": "Daftar belanja dengan tanggal",
+      "p": "Tulis hari di baris catatan dan jadwal belanja akan masuk ke kalender, lengkap dengan opsi pengingat."
+     }
+    ],
+    "steps_title": "Cara mencatat daftar belanja dengan harga",
+    "steps": [
+     "Buka daftar baru di Spendry Notes.",
+     "Tulis barang belanjaan beserta harga, jumlah, atau potongan diskon.",
+     "Tentukan batas anggaran catatan belanja jika diperlukan.",
+     "Centang barang yang telah dibeli dan perhatikan kedua total hitungannya."
+    ],
+    "why_title": "Manfaat mencatat belanja beserta harga",
+    "why": [
+     "Anda tahu total belanjaan sebelum sampai di kasir, bukan sesudahnya.",
+     "Diskon, jumlah belanjaan, dan persen pajak langsung dihitung otomatis.",
+     "Format catatan tetap sederhana dan fleksibel untuk diubah kapan saja.",
+     "Semua fitur Spendry Notes bisa dinikmati secara gratis."
+    ],
+    "faq": [
+     {
+      "q": "Bagaimana cara menjumlahkan daftar belanja di iPhone?",
+      "a": "Tulis nama barang dan harganya di Spendry Notes. Aplikasi akan menghitung totalnya langsung saat Anda mengetik, memisahkan barang yang sudah dan belum dibeli."
+     },
+     {
+      "q": "Apakah aplikasi bisa menghitung diskon?",
+      "a": "Ya. Cukup ketik diskon seperti \"diskon 20%\" di samping barang dan totalnya akan otomatis terpotong."
+     },
+     {
+      "q": "Bisakah saya menetapkan batas anggaran di catatan?",
+      "a": "Ya. Masukkan nominal anggaran di catatan dan Spendry Notes akan menampilkan sisa uang yang tersedia."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan ketahui total belanja Anda sebelum ke kasir."
+   },
+   {
+    "key": "notes-app-with-calculator",
+    "slug": "notes-app-with-calculator",
+    "nav": "Catatan dengan kalkulator",
+    "screen": "plan",
+    "footer": true,
+    "title": "Aplikasi Catatan Kalkulator Anggaran | Spendry Notes",
+    "description": "Spendry Notes adalah aplikasi catatan yang bisa berhitung: membaca nominal angka, menjumlahkan total, diskon, dan hitungan patungan.",
+    "h1": "Aplikasi catatan yang menghitung angka untuk Anda",
+    "lead": "Tanpa perlu buka kalkulator terpisah. Tulis nominal uang di catatan Anda dan Spendry Notes akan menjumlahkannya baris demi baris, sementara catatan Anda tetap rapi.",
+    "points": [
+     {
+      "h": "Tulis nominal di mana saja",
+      "p": "\"Sewa rumah tanggal 28 Rp 1.800.000\" atau \"kopi 2 cup masing-masing Rp 25.000\": nominal, jumlah, dan tanggal terbaca langsung dari tulisan Anda."
+     },
+     {
+      "h": "Pemasukan dan pengeluaran",
+      "p": "Catat pemasukan dan pengeluaran dalam satu lembar catatan untuk melihat total uang masuk, uang keluar, dan sisa saldo."
+     },
+     {
+      "h": "Hitung patungan dan persentase",
+      "p": "\"Patungan makan 120000/3\" menampilkan bagian per orang, serta format \"diskon 20%\" atau \"+10% tip\" langsung mengubah total."
+     },
+     {
+      "h": "Tanya isi catatan Anda",
+      "p": "Tanyakan jadwal yang direncanakan minggu ini atau sisa daftar belanja, dan jawabannya dirangkum langsung dari catatan Anda."
+     }
+    ],
+    "steps_title": "Cara menggunakan catatan berkalkulator",
+    "steps": [
+     "Buka lembar baru di Spendry Notes.",
+     "Tulis tiap baris senatural mungkin, sertakan nominal angkanya.",
+     "Lihat hasil penjumlahan otomatis di bawah catatan saat Anda mengetik.",
+     "Tambahkan hari atau tanggal pada baris untuk memasukkannya ke kalender."
+    ],
+    "why_title": "Keuntungan memakai catatan kalkulator",
+    "why": [
+     "Tidak perlu repot beralih antara aplikasi catatan dan kalkulator.",
+     "Catatan tetap berupa teks yang mudah dibaca, bukan sekadar angka.",
+     "Total hitungan otomatis berubah saat baris teks diubah.",
+     "Dapat diunduh gratis dan bebas digunakan tanpa biaya."
+    ],
+    "faq": [
+     {
+      "q": "Apakah ada aplikasi catatan yang menjumlahkan angka di iPhone?",
+      "a": "Spendry Notes membaca angka di baris tulisan Anda dan menghitungnya otomatis, mencakup perkalian jumlah, diskon, tip, dan pembagian patungan."
+     },
+     {
+      "q": "Bisakah mencatat pemasukan dan pengeluaran sekaligus?",
+      "a": "Ya. Pemasukan dan pengeluaran dalam satu catatan akan menampilkan total terpisah beserta sisa saldo akhirnya."
+     },
+     {
+      "q": "Apakah Spendry Notes gratis digunakan?",
+      "a": "Ya. Seluruh fitur yang ada di Spendry Notes bisa digunakan secara gratis."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan biarkan catatan Anda menjumlahkan sendiri."
+   },
+   {
+    "key": "split-the-bill",
+    "slug": "split-the-bill",
+    "nav": "Hitung patungan",
+    "screen": "list",
+    "footer": false,
+    "title": "Aplikasi Hitung Patungan di Catatan | Spendry Notes",
+    "description": "Tulis \"Makan malam 120000/3\" dan Spendry Notes langsung membagi rata. Tip dan diskon ikut dihitung otomatis, rapi di catatan Anda.",
+    "h1": "Hitung patungan langsung di catatan",
+    "lead": "Cukup tulis total dan jumlah orangnya. Spendry Notes langsung menghitung bagian tiap orang, lengkap dengan tip.",
+    "points": [
+     {
+      "h": "Satu baris, bagian tiap orang beres",
+      "p": "Cukup tulis \"Patungan makan 120000/3\": Spendry Notes langsung menampilkan bagian tiap orang tepat di bawahnya."
+     },
+     {
+      "h": "Tip dan diskon",
+      "p": "Tambahkan \"+10% tip\" atau \"-20%\", lalu pembagiannya otomatis mengikuti total baru."
+     },
+     {
+      "h": "Liburan dan biaya bersama",
+      "p": "Catat seluruh akhir pekan dalam satu catatan: tiket, kamar, hingga makan, masing-masing dengan rincian pembagiannya."
+     },
+     {
+      "h": "Satukan dengan rencana Anda",
+      "p": "Tulis hari di samping pengeluaran dan tanggalnya akan muncul di kalender Anda."
+     }
+    ],
+    "steps_title": "Cara hitung patungan di Spendry Notes",
+    "steps": [
+     "Tulis nominal biaya lalu bagi dengan jumlah orang, misalnya \"Patungan makan 120000/3\".",
+     "Tambahkan tip atau diskon jika ada.",
+     "Lihat bagian tiap orang di bawah baris tersebut.",
+     "Terus tambahkan biaya ke catatan yang sama untuk perjalanan atau acara."
+    ],
+    "why_title": "Keuntungan menghitung patungan di catatan",
+    "why": [
+     "Tanpa repot membuka kalkulator atau aplikasi pembagi tagihan terpisah.",
+     "Catatan mengingat siapa yang membayar apa dengan kata-kata Anda sendiri.",
+     "Total dan bagian tiap orang otomatis berubah saat Anda mengedit baris.",
+     "Gratis, tanpa perlu mendaftar akun."
+    ],
+    "faq": [
+     {
+      "q": "Bagaimana cara membagi tagihan di iPhone?",
+      "a": "Di Spendry Notes, tulis jumlahnya dibagi dengan jumlah orang, misalnya \"Patungan makan 120000/3\", dan bagian tiap orang akan muncul tepat di bawahnya."
+     },
+     {
+      "q": "Apakah bisa memasukkan tip?",
+      "a": "Bisa. Tambahkan \"+10% tip\" dan pembagiannya akan otomatis mengikuti total baru."
+     },
+     {
+      "q": "Apakah aplikasi ini berbayar?",
+      "a": "Tidak. Spendry Notes dan seluruh fiturnya gratis."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan hitung patungan cukup dalam satu baris."
+   },
+   {
+    "key": "monthly-budget-planner-notes",
+    "slug": "monthly-budget-planner-notes",
+    "nav": "Rencana bulanan di catatan",
+    "screen": "plan",
+    "footer": false,
+    "title": "Catatan Rencana Anggaran Bulanan | Spendry Notes",
+    "description": "Rencanakan sebulan di catatan: gaji, sewa, tagihan serta tanggalnya. Spendry Notes menghitung sisa bersih dan menampilkannya di kalender.",
+    "h1": "Rencanakan bulan Anda dalam satu catatan",
+    "lead": "Tulis gaji, sewa, dan tagihan beserta tanggalnya. Spendry Notes menampilkan pemasukan, pengeluaran, dan sisanya, lalu memasukkan tiap tanggal ke kalender Anda.",
+    "points": [
+     {
+      "h": "Pemasukan, pengeluaran, dan sisanya",
+      "p": "Pemasukan dan biaya dalam satu catatan memberikan total bersih bulanan, sehingga rencana keuangan tetap nyata."
+     },
+     {
+      "h": "Setiap hari ada di kalender",
+      "p": "\"Sewa rumah tgl 28\" dan \"Tagihan listrik tgl 26\" langsung masuk ke tanggal yang sesuai di kalender."
+     },
+     {
+      "h": "Pengingat hanya pada baris yang Anda mau",
+      "p": "Tambahkan pengingat hening pada baris yang dibutuhkan, seperti sewa atau tagihan."
+     },
+     {
+      "h": "Mulai dari templat bulanan",
+      "p": "Templat untuk sebulan, liburan, pindahan, atau acara memberi Anda awal yang praktis."
+     }
+    ],
+    "steps_title": "Cara merencanakan sebulan di Spendry Notes",
+    "steps": [
+     "Mulai dari templat bulanan atau catatan kosong.",
+     "Tulis pemasukan Anda dan tiap biaya beserta harinya.",
+     "Periksa total bersih dan kalender Anda.",
+     "Tambahkan pengingat pada pembayaran yang tidak boleh terlewat."
+    ],
+    "why_title": "Keuntungan membuat rencana bulanan di catatan",
+    "why": [
+     "Sama cepatnya seperti menulis di atas kertas.",
+     "Total dan kalender selalu sinkron dengan sendirinya.",
+     "Bersama Spendry, satu baris bisa diubah jadi transaksi atau pengingat dalam satu ketukan.",
+     "Semua fitur Spendry Notes gratis."
+    ],
+    "faq": [
+     {
+      "q": "Bisakah saya membuat anggaran bulanan di aplikasi catatan?",
+      "a": "Bisa. Di Spendry Notes, tulis pemasukan dan biaya beserta tanggalnya, lalu catatan akan menampilkan total bersih serta memasukkan tiap hari ke kalender."
+     },
+     {
+      "q": "Apakah aplikasi akan mengingatkan sebelum tagihan jatuh tempo?",
+      "a": "Ya, jika Anda menambahkan pengingat pada baris tersebut. Pengingat hanya dipasang pada baris yang Anda tentukan."
+     },
+     {
+      "q": "Apakah bisa terhubung dengan Spendry?",
+      "a": "Ya. Tautkan catatan ke anggaran di Spendry, atau kirimkan baris catatan ke Spendry sebagai pengeluaran atau pengingat."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan susun rencana bulanan dalam satu catatan."
+   },
+   {
+    "key": "trip-budget-planner",
+    "slug": "trip-budget-planner",
+    "nav": "Anggaran perjalanan",
+    "screen": "plan",
+    "footer": false,
+    "title": "Rencana Anggaran Perjalanan Liburan | Spendry Notes",
+    "description": "Gunakan templat liburan, catat tiket, hotel, dan biaya harian. Spendry Notes menjumlahkannya dan membagi rata untuk tiap orang.",
+    "h1": "Rencanakan anggaran perjalanan di catatan",
+    "lead": "Mulai dari templat liburan dan tulis perkiraan biaya perjalanan Anda. Spendry Notes menjumlahkannya, membagi rata tiap orang, dan memasukkan jadwal ke kalender.",
+    "points": [
+     {
+      "h": "Templat siap pakai",
+      "p": "Templat Anggaran Perjalanan memberi Anda catatan siap isi untuk tiket, hotel, makan, dan kegiatan."
+     },
+     {
+      "h": "Total langsung terlihat saat merencana",
+      "p": "Setiap biaya yang Anda tulis otomatis dijumlahkan, sehingga Anda tahu perkiraan biaya sebelum memesan."
+     },
+     {
+      "h": "Bagi rata untuk rombongan",
+      "p": "Bagi biaya dengan jumlah orang, seperti \"Hotel 600000/3\", dan nominal per orang akan muncul di bawahnya."
+     },
+     {
+      "h": "Menabung untuk liburan di Spendry",
+      "p": "Tautkan catatan ke target tabungan di Spendry dan pantau seberapa dekat Anda dengan tujuan."
+     }
+    ],
+    "steps_title": "Cara membuat anggaran perjalanan",
+    "steps": [
+     "Buka catatan baru dari templat Anggaran Perjalanan.",
+     "Tulis tiap biaya beserta nominalnya dan harinya jika mau.",
+     "Bagi rata biaya bersama dengan jumlah orang.",
+     "Tautkan catatan ke target tabungan di Spendry."
+    ],
+    "why_title": "Keuntungan merencanakan liburan di Spendry Notes",
+    "why": [
+     "Seluruh rencana perjalanan dalam satu catatan, lengkap dengan totalnya.",
+     "Tanggal langsung muncul di kalender Anda.",
+     "Biaya bersama langsung dibagi rata secara otomatis.",
+     "Gratis diunduh dan gratis digunakan."
+    ],
+    "faq": [
+     {
+      "q": "Bagaimana cara membuat anggaran perjalanan di iPhone?",
+      "a": "Buka catatan dari templat Anggaran Perjalanan di Spendry Notes, tulis setiap biaya, dan catatan akan menjumlahkannya serta menampilkan bagian tiap orang."
+     },
+     {
+      "q": "Bisakah saya menabung untuk perjalanan ini?",
+      "a": "Bisa. Tautkan catatan ke target tabungan di Spendry untuk melihat progres tabungan tepat di samping catatan Anda."
+     },
+     {
+      "q": "Apakah aplikasi ini gratis?",
+      "a": "Ya. Seluruh fitur Spendry Notes gratis."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan kelola anggaran perjalanan di satu catatan."
+   },
+   {
+    "key": "moving-checklist-with-costs",
+    "slug": "moving-checklist-with-costs",
+    "nav": "Checklist pindah rumah",
+    "screen": "list",
+    "footer": false,
+    "title": "Checklist Pindah Rumah dan Biaya | Spendry Notes",
+    "description": "Checklist pindahan yang menghitung otomatis: centang tugas, tulis biayanya, dan pantau totalnya. Mulai dari templat Spendry Notes.",
+    "h1": "Checklist pindahan yang menghitung biaya",
+    "lead": "Mulai dari templat pindahan, centang tugas yang beres, dan catat biayanya. Spendry Notes otomatis menghitung total biaya dan mengingat jadwalnya.",
+    "points": [
+     {
+      "h": "Tugas dan biaya jadi satu",
+      "p": "Tiap baris bisa berupa tugas beserta biayanya, sehingga checklist ini sekaligus menjadi anggaran pindahan Anda."
+     },
+     {
+      "h": "Sudah beres dan yang belum",
+      "p": "Centang baris saat selesai, lalu total biaya akan memperlihatkan dana yang sudah terpakai dan sisanya."
+     },
+     {
+      "h": "Tanggal tercatat di kalender",
+      "p": "\"Truk pindahan hari Sabtu\" atau \"Uang jaminan tgl 1\" langsung masuk ke tanggal yang pas di kalender."
+     },
+     {
+      "h": "Pengingat sesuai kebutuhan",
+      "p": "Pasang pengingat hening pada tugas-tugas penting agar tidak ada yang terlewat."
+     }
+    ],
+    "steps_title": "Cara merencanakan pindahan di Spendry Notes",
+    "steps": [
+     "Buka catatan baru dari templat Pindah Rumah.",
+     "Tulis tugas-tugas beserta biaya dan tanggal pelaksanaannya.",
+     "Centang tugas yang sudah selesai.",
+     "Cek total pengeluaran sebelum hari pindahan."
+    ],
+    "why_title": "Keuntungan memakai checklist dengan rincian biaya",
+    "why": [
+     "Tanpa perlu tabel spreadsheet terpisah untuk menghitung anggaran.",
+     "Bisa langsung melihat biaya yang sudah keluar dan sisanya sekilas.",
+     "Jadwal dan pengingat berasal dari catatan yang sama.",
+     "Semua fitur Spendry Notes gratis."
+    ],
+    "faq": [
+     {
+      "q": "Apakah ada aplikasi checklist pindah rumah dengan rincian biaya?",
+      "a": "Spendry Notes menyediakan templat Pindah Rumah di mana setiap tugas bisa diberi biaya dan tanggal. Catatan akan menjumlahkan biayanya dan menampilkan jadwalnya di kalender."
+     },
+     {
+      "q": "Bisakah saya memasang pengingat untuk hari pindahan?",
+      "a": "Bisa. Pasang pengingat pada baris mana pun dan Anda akan mendapatkan notifikasi hening pada hari tersebut."
+     },
+     {
+      "q": "Apakah aplikasi ini gratis?",
+      "a": "Ya. Seluruh fitur Spendry Notes gratis."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan pindah rumah dengan biaya yang terpantau."
+   },
+   {
+    "key": "event-budget-planner",
+    "slug": "event-budget-planner",
+    "nav": "Anggaran acara",
+    "screen": "plan",
+    "footer": false,
+    "title": "Anggaran Acara dan Pesta | Spendry Notes",
+    "description": "Rencanakan biaya pesta, ulang tahun, atau pernikahan di catatan. Spendry Notes menghitung total biaya, patungan, dan jadwal di kalender.",
+    "h1": "Rencanakan anggaran acara di catatan",
+    "lead": "Mulai dari template Anggaran Acara dan catat biayanya. Spendry Notes menghitung totalnya, membagi porsi patungan, dan memasukkan jadwal ke kalender Anda.",
+    "points": [
+     {
+      "h": "Template siap pakai",
+      "p": "Template Anggaran Acara siap digunakan untuk pesta, ulang tahun, atau pernikahan."
+     },
+     {
+      "h": "Semua biaya dalam satu total",
+      "p": "Lokasi, konsumsi, musik, dan suvenir langsung dijumlahkan saat Anda menulisnya."
+     },
+     {
+      "h": "Porsi untuk setiap pembayar",
+      "p": "Bagi biaya dengan jumlah orang dan porsi masing-masing langsung muncul di bawah baris."
+     },
+     {
+      "h": "Tanggal dan pengingat",
+      "p": "Uang muka dan tenggat waktu otomatis masuk ke kalender, lengkap dengan pengingat jika perlu."
+     }
+    ],
+    "steps_title": "Cara menyusun anggaran acara",
+    "steps": [
+     "Buka catatan baru dari template Anggaran Acara.",
+     "Tulis setiap biaya beserta nominal dan harinya.",
+     "Bagi biaya bersama dengan jumlah orang yang patungan.",
+     "Tambahkan pengingat untuk uang muka dan tenggat waktu."
+    ],
+    "why_title": "Keunggulan mencatat anggaran acara di Spendry Notes",
+    "why": [
+     "Seluruh anggaran ada di satu catatan, lengkap dengan totalnya.",
+     "Tenggat waktu tampil di kalender, pengingat siap saat dibutuhkan.",
+     "Biaya patungan otomatis dihitung.",
+     "Gratis diunduh dan gratis digunakan."
+    ],
+    "faq": [
+     {
+      "q": "Bagaimana cara menyusun anggaran pesta di iPhone?",
+      "a": "Buka catatan dari template Anggaran Acara di Spendry Notes, tulis setiap pengeluaran, dan catatan langsung menjumlahkan serta membagi biayanya."
+     },
+     {
+      "q": "Bisakah aplikasi mengingatkan jadwal pembayaran uang muka?",
+      "a": "Bisa. Tambahkan pengingat pada baris tersebut dan Anda akan menerima pemberitahuan di hari yang ditentukan."
+     },
+     {
+      "q": "Apakah aplikasi ini gratis?",
+      "a": "Ya. Semua fitur Spendry Notes dapat digunakan secara gratis."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan kelola anggaran acara di satu catatan."
+   },
+   {
+    "key": "notes-with-reminders",
+    "slug": "notes-with-reminders",
+    "nav": "Catatan dengan pengingat",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Aplikasi Catatan dan Pengingat | Spendry Notes",
+    "description": "Tulis \"Sewa tgl 28\" dan jadwal langsung muncul di kalender. Spendry Notes menambahkan pengingat hanya pada baris yang Anda perlukan.",
+    "h1": "Catatan yang mengenali tanggal",
+    "lead": "Tulis hari di baris catatan dan Spendry Notes akan memasukkannya ke kalender. Beri pengingat pada hal yang penting, tanpa gangguan untuk catatan lainnya.",
+    "points": [
+     {
+      "h": "Tanggal dalam bahasa sehari-hari",
+      "p": "\"Besok\", \"Jumat depan\", \"3 hari lagi\", \"tgl 15\", dan \"setiap bulan\" langsung dikenali."
+     },
+     {
+      "h": "Kalender otomatis dari catatan",
+      "p": "Setiap baris yang memuat tanggal akan muncul di kalender pada harinya, lengkap dengan nominal uangnya."
+     },
+     {
+      "h": "Pengingat yang tenang",
+      "p": "Pengingat hanya muncul pada baris yang Anda pilih, tepat pada waktu yang Anda inginkan."
+     },
+     {
+      "h": "Agenda mendatang sekilas pandang",
+      "p": "Widget di Layar Utama dan Layar Terkunci memudahkan Anda memantau rencana Mendatang."
+     }
+    ],
+    "steps_title": "Cara memberi pengingat di catatan",
+    "steps": [
+     "Tulis baris berisi hari, misalnya \"Sewa rumah tgl 28 Rp 1.800.000\".",
+     "Lihat catatan tersebut pada tanggal yang sesuai di kalender.",
+     "Pasang pengingat pada baris tersebut jika diperlukan.",
+     "Gunakan widget untuk memantau agenda mendatang."
+    ],
+    "why_title": "Mengapa mencatat jadwal di catatan praktis",
+    "why": [
+     "Rencana tetap berada di tempat Anda menuliskannya, tanpa perlu berpindah aplikasi.",
+     "Tagihan dan pembayaran menampilkan nominalnya langsung di kalender.",
+     "Pengingat hanya aktif jika Anda sendiri yang mengaturnya.",
+     "Semua fitur Spendry Notes gratis digunakan."
+    ],
+    "faq": [
+     {
+      "q": "Bisakah membuat pengingat di catatan iPhone?",
+      "a": "Di Spendry Notes, setiap baris dengan tanggal bisa diberi pengingat, hanya jika Anda menambahkannya."
+     },
+     {
+      "q": "Apakah aplikasi mengenali kata seperti \"Jumat depan\"?",
+      "a": "Ya. Kata seperti \"Besok\", \"Jumat depan\", \"3 hari lagi\", \"tgl 15\", dan \"setiap bulan\" dapat dipahami."
+     },
+     {
+      "q": "Bisakah saya melihat jadwal di Layar Terkunci?",
+      "a": "Bisa. Spendry Notes menyediakan widget jadwal dan daftar belanja untuk Layar Terkunci."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan biarkan catatan mengelola tanggal Anda."
+   },
+   {
+    "key": "wishlist-with-prices",
+    "slug": "wishlist-with-prices",
+    "nav": "Wishlist dengan harga",
+    "screen": "list",
+    "footer": false,
+    "title": "Wishlist Belanja dengan Total Biaya | Spendry Notes",
+    "description": "Buat wishlist belanja dengan harga di Spendry Notes: hitung totalnya, atur anggaran belanja, dan tautkan ke target menabung di Spendry.",
+    "h1": "Wishlist yang menghitung total biaya",
+    "lead": "Tulis barang impian Anda beserta harganya. Spendry Notes menjumlahkannya, menunjukkan sisa anggaran, dan dapat ditautkan ke target menabung di Spendry.",
+    "points": [
+     {
+      "h": "Total barang impian",
+      "p": "Setiap harga di daftar otomatis dijumlahkan, sehingga Anda tahu jumlah biaya yang dibutuhkan."
+     },
+     {
+      "h": "Batas anggaran belanja",
+      "p": "Tentukan anggaran pada catatan dan pantau sisa dana saat Anda menambah atau menghapus barang."
+     },
+     {
+      "h": "Tandai barang yang sudah dibeli",
+      "p": "Barang yang dicentang masuk ke total Sudah dibeli dan barang lainnya tetap terlihat rapi."
+     },
+     {
+      "h": "Kumpulkan dana di Spendry",
+      "p": "Tautkan daftar ke target menabung di Spendry untuk melihat seberapa dekat tujuan Anda."
+     }
+    ],
+    "steps_title": "Cara membuat wishlist dengan harga",
+    "steps": [
+     "Buat catatan daftar baru di Spendry Notes.",
+     "Tulis setiap barang impian beserta harganya.",
+     "Tentukan batas anggaran jika ada.",
+     "Tautkan catatan ke target menabung di Spendry."
+    ],
+    "why_title": "Manfaat wishlist dengan harga",
+    "why": [
+     "Anda mengetahui total belanja yang sebenarnya sebelum membeli.",
+     "Potongan harga langsung dihitung begitu Anda menulis diskonnya.",
+     "Target menabung mengubah rencana belanja menjadi kenyataan.",
+     "Semua fitur Spendry Notes dapat digunakan gratis."
+    ],
+    "faq": [
+     {
+      "q": "Bisakah saya membuat wishlist dengan harga di iPhone?",
+      "a": "Bisa. Di Spendry Notes, tulis setiap keinginan beserta harganya, lalu daftar akan menampilkan total dan sisa anggaran Anda."
+     },
+     {
+      "q": "Bisakah saya menabung untuk barang-barang di daftar belanja?",
+      "a": "Bisa. Cukup tautkan catatan daftar tersebut ke target menabung di Spendry."
+     },
+     {
+      "q": "Apakah aplikasi ini gratis?",
+      "a": "Ya. Semua fitur Spendry Notes gratis digunakan."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan buat wishlist yang menghitung biayanya."
+   },
+   {
+    "key": "remember-grocery-prices",
+    "slug": "remember-grocery-prices",
+    "nav": "Pengingat harga belanja",
+    "screen": "list",
+    "footer": false,
+    "title": "Daftar Belanja Pengingat Harga | Spendry Notes",
+    "description": "Ketik barang belanjaan dan Spendry Notes mengisi harga terakhir secara otomatis, membuat daftar belanja bulanan selesai dalam sekejap.",
+    "h1": "Daftar belanja yang mengingat harga lama",
+    "lead": "Ketik barang yang pernah Anda beli dan Spendry Notes akan menampilkan harga terakhirnya. Catatan belanja mingguan siap dalam hitungan detik beserta total biayanya.",
+    "points": [
+     {
+      "h": "Harga terakhir langsung tersedia",
+      "p": "Tulis \"Susu\" dan harga terakhir otomatis tertera, jadi Anda hanya perlu memperbarui jika ada perubahan harga."
+     },
+     {
+      "h": "Total biaya sebelum berangkat",
+      "p": "Dengan harga yang sudah terisi, Anda bisa langsung mengetahui perkiraan biaya belanja pasar atau supermarket."
+     },
+     {
+      "h": "Perubahan harga mudah dipantau",
+      "p": "Karena harga sebelumnya sudah tercatat, kenaikan atau penurunan harga barang langsung terlihat saat Anda mengetiknya."
+     },
+     {
+      "h": "Hitungan jumlah barang otomatis",
+      "p": "Perhitungan seperti \"apel 4 buah satunya Rp 8.000\" atau \"2 kg telur Rp 28.000 per kg\" langsung dihitung otomatis."
+     }
+    ],
+    "steps_title": "Cara kerja pengingat harga",
+    "steps": [
+     "Tulis daftar belanja Anda beserta harganya satu kali.",
+     "Saat belanja lagi nanti, ketik nama barang yang sama.",
+     "Harga yang Anda bayar sebelumnya otomatis terisi.",
+     "Ubah hanya pada harga yang berubah dan periksa totalnya."
+    ],
+    "why_title": "Mengapa cara ini hemat waktu",
+    "why": [
+     "Membuat daftar belanja mingguan hanya butuh waktu beberapa detik.",
+     "Total biaya belanja sudah diketahui sebelum Anda pergi ke toko.",
+     "Perubahan harga langsung terlihat saat Anda memperbaruinya.",
+     "Semua fitur Spendry Notes gratis."
+    ],
+    "faq": [
+     {
+      "q": "Apakah ada aplikasi daftar belanja yang mengingat harga?",
+      "a": "Ada. Di Spendry Notes, saat Anda mengetik barang yang pernah dibeli, harga terakhir otomatis terisi untuk Anda."
+     },
+     {
+      "q": "Apakah aplikasi ini juga menghitung total belanja?",
+      "a": "Ya. Catatan belanja menampilkan total Sisa barang dan barang yang Sudah dibeli."
+     },
+     {
+      "q": "Apakah aplikasi ini gratis?",
+      "a": "Ya. Seluruh fitur Spendry Notes dapat digunakan secara gratis."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan biarkan catatan mengingat harga belanja Anda."
+   },
+   {
+    "key": "gift-list-with-budget",
+    "slug": "gift-list-with-budget",
+    "nav": "Daftar hadiah dan anggaran",
+    "screen": "list",
+    "footer": false,
+    "title": "Daftar Hadiah dan Anggaran | Spendry Notes",
+    "description": "Catat daftar kado Lebaran atau ulang tahun beserta harga. Spendry Notes menghitung total, mencatat belanjaan, dan menjaga anggaran Anda.",
+    "h1": "Daftar hadiah yang menjaga anggaran Anda",
+    "lead": "Tulis nama penerima dan harga setiap kado. Spendry Notes menjumlahkannya, menampilkan sisa anggaran, dan menyimpan tanggalnya di kalender.",
+    "points": [
+     {
+      "h": "Daftar hadiah siap pakai",
+      "p": "Mulai dari template Daftar Hadiah lalu tulis satu baris untuk setiap orang."
+     },
+     {
+      "h": "Semua kado masuk ke total",
+      "p": "Tulis \"Syal Rp 75.000\" atau \"Buku 2 buah satunya Rp 45.000\" dan daftar langsung menjumlahkannya, lengkap dengan total terpisah untuk yang sudah dibeli dan sisa belanja."
+     },
+     {
+      "h": "Anggaran untuk hari raya",
+      "p": "Pasang anggaran pada catatan dan pantau sisa uang Anda setiap kali menambah kado baru."
+     },
+     {
+      "h": "Hari ulang tahun di kalender",
+      "p": "Tulis tanggal di samping nama, seperti \"Ulang tahun Ibu 2 November\", maka jadwal langsung muncul di kalender Anda, lengkap dengan pengingat jika diinginkan."
+     }
+    ],
+    "steps_title": "Cara membuat daftar hadiah dengan anggaran",
+    "steps": [
+     "Mulai catatan baru dari template Daftar Hadiah.",
+     "Tulis nama setiap orang dan kado yang disiapkan, lengkap dengan harganya.",
+     "Tentukan batas anggaran pada catatan belanja tersebut.",
+     "Centang hadiah yang sudah dibeli dan pantau sisa anggarannya."
+    ],
+    "why_title": "Kenapa merencanakan hadiah di Spendry Notes",
+    "why": [
+     "Semua rencana hari raya dalam satu catatan, lengkap dengan totalnya.",
+     "Hari ulang tahun dan tenggat waktu tercatat di kalender Anda.",
+     "Harga barang yang pernah Anda beli otomatis tersimpan.",
+     "Gratis diunduh dan gratis digunakan."
+    ],
+    "faq": [
+     {
+      "q": "Bagaimana cara membuat daftar hadiah dengan anggaran?",
+      "a": "Buka catatan dari template Daftar Hadiah di Spendry Notes, tulis setiap kado beserta harganya, lalu pasang batas anggaran. Catatan akan menampilkan uang yang sudah dipakai dan sisanya."
+     },
+     {
+      "q": "Bisakah saya melihat barang yang sudah dibeli?",
+      "a": "Bisa. Cukup centang kado saat Anda membelinya, maka total belanjaan dan sisa anggaran akan langsung diperbarui otomatis."
+     },
+     {
+      "q": "Apakah aplikasi ini gratis?",
+      "a": "Ya. Semua fitur Spendry Notes gratis digunakan."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan kelola belanja hadiah Anda tetap sesuai anggaran."
+   },
+   {
+    "key": "black-friday-shopping-list",
+    "slug": "black-friday-shopping-list",
+    "nav": "Daftar belanja Black Friday",
+    "screen": "list",
+    "footer": false,
+    "title": "Daftar Belanja Black Friday | Spendry Notes",
+    "description": "Rencanakan belanja diskon Black Friday dalam catatan. Spendry Notes menghitung diskon, menjumlahkan keranjang belanja, dan memantau anggaran Anda.",
+    "h1": "Daftar belanja Black Friday sesuai anggaran",
+    "lead": "Tulis barang incaran beserta harga dan diskonnya sebelum promo dimulai. Spendry Notes menghitung harga pas, menjumlahkannya, dan mengawasi anggaran Anda.",
+    "points": [
+     {
+      "h": "Diskon langsung dihitung",
+      "p": "Tulis \"Jaket Rp 200.000 diskon 20%\" dan harga akhir setelah promo langsung terlihat."
+     },
+     {
+      "h": "Satu total untuk seluruh keranjang",
+      "p": "Setiap barang promo langsung dijumlahkan saat Anda mengetik, dengan total terpisah untuk barang yang sudah dibeli dan yang masih dalam daftar."
+     },
+     {
+      "h": "Tetapkan anggaran sebelum belanja",
+      "p": "Beri batas anggaran pada catatan dan pantau sisa uang yang Anda miliki sebelum mulai membeli barang."
+     },
+     {
+      "h": "Harga pembelian sebelumnya",
+      "p": "Ketik nama barang yang pernah dibeli dan harga lama akan otomatis muncul, sehingga Anda bisa langsung membandingkannya dengan harga promo."
+     }
+    ],
+    "steps_title": "Cara merencanakan belanja Black Friday",
+    "steps": [
+     "Buat daftar belanja di Spendry Notes sebelum promo dimulai.",
+     "Tulis setiap barang yang Anda inginkan beserta harganya.",
+     "Tambahkan nominal diskon begitu Anda menemukan barang promo.",
+     "Beri batas anggaran pada daftar dan centang barang yang sudah dibeli."
+    ],
+    "why_title": "Kenapa menyusun promo di Spendry Notes",
+    "why": [
+     "Perhitungan diskon dan total belanja selesai otomatis.",
+     "Anggaran belanja yang langsung menampilkan sisa dana.",
+     "Widget praktis untuk memantau daftar langsung dari Layar Utama.",
+     "Gratis diunduh dan gratis digunakan."
+    ],
+    "faq": [
+     {
+      "q": "Bagaimana cara membuat daftar belanja Black Friday?",
+      "a": "Tulis setiap barang incaran di Spendry Notes beserta harga dan diskonnya. Aplikasi akan menghitung harganya, menjumlahkan totalnya, dan menunjukkan sisa anggaran Anda."
+     },
+     {
+      "q": "Apakah aplikasi ini bisa menghitung persentase diskon?",
+      "a": "Bisa. Tulis harga dan persentasenya, misalnya diskon 20%, maka harga akhir setelah potongan akan langsung muncul di baris tersebut."
+     },
+     {
+      "q": "Apakah aplikasi ini gratis?",
+      "a": "Ya. Semua fitur Spendry Notes gratis digunakan."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan nikmati promo belanja dengan daftar serta anggaran yang rapi."
+   },
+   {
+    "key": "daily-expense-notes",
+    "slug": "daily-expense-notes",
+    "nav": "Catatan pengeluaran harian",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Catatan Pengeluaran Harian | Spendry Notes",
+    "description": "Tulis catatan uang belanja harian dan lihat totalnya. Spendry Notes menjumlahkan pengeluaran harian dan bisa mengirimkannya ke Spendry.",
+    "h1": "Catat pengeluaran harian, lihat totalnya",
+    "lead": "Gunakan catatan untuk pengeluaran harian, tulis transaksi saat belanja dan total biaya selalu tampil. Kapan saja, kirim baris transaksi ke Spendry sebagai pengeluaran.",
+    "points": [
+     {
+      "h": "Catatan hari ini",
+      "p": "Ketuk Hari Ini dan tulis setiap pengeluaran di barisnya sendiri, seperti \"Parkir Rp 5.000\" atau \"Kopi Rp 25.000\". Catatan akan menjumlahkannya untuk Anda."
+     },
+     {
+      "h": "Setiap hari di kalender",
+      "p": "Catatan harian Anda muncul di tanggal kalender lengkap dengan totalnya, sehingga pengeluaran minggu lalu bisa dilihat hanya dengan sekali ketuk."
+     },
+     {
+      "h": "Kirim ke Spendry",
+      "p": "Kirim baris transaksi ke Spendry sebagai pengeluaran hanya dengan sekali ketuk agar anggaran Anda selalu mutakhir."
+     },
+     {
+      "h": "Tambah transaksi lewat Siri",
+      "p": "Siri bisa menambahkan satu baris ke catatan hari ini, dan nominal uang di dalamnya langsung ikut terhitung."
+     }
+    ],
+    "steps_title": "Cara mencatat pengeluaran harian di catatan",
+    "steps": [
+     "Ketuk Hari Ini di Spendry Notes.",
+     "Tulis setiap pengeluaran beserta nominal uangnya.",
+     "Periksa total harian langsung di catatan atau lewat kalender.",
+     "Kirim baris transaksi ke Spendry jika Anda ingin memasukkannya ke anggaran."
+    ],
+    "why_title": "Kenapa mencatat pengeluaran di Spendry Notes",
+    "why": [
+     "Sepraktis dan secepat menulis memo biasa.",
+     "Total pengeluaran harian tersusun rapi di kalender.",
+     "Spendry mengelola anggaran saat Anda membutuhkan fitur keuangan lengkap.",
+     "Gratis digunakan, tanpa perlu daftar akun apa pun."
+    ],
+    "faq": [
+     {
+      "q": "Bagaimana cara mencatat pengeluaran harian di aplikasi catatan?",
+      "a": "Tulis setiap pengeluaran di barisnya sendiri beserta nominalnya di Spendry Notes. Aplikasi akan menjumlahkan angka tersebut, dan catatan harian langsung muncul di kalender beserta totalnya."
+     },
+     {
+      "q": "Bisakah saya memindahkan pengeluaran ke anggaran?",
+      "a": "Bisa. Anda bisa mengirim satu baris transaksi ke Spendry sebagai catatan pengeluaran dengan sekali ketuk."
+     },
+     {
+      "q": "Apakah saya harus menghubungkan rekening bank?",
+      "a": "Tidak. Anda menulis pengeluaran sendiri, dan Spendry Notes tidak pernah terhubung ke rekening bank."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan catat pengeluaran harian Anda dalam satu memo."
+   },
+   {
+    "key": "renovation-budget-planner",
+    "slug": "renovation-budget-planner",
+    "nav": "Anggaran renovasi rumah",
+    "screen": "plan",
+    "footer": false,
+    "title": "Rencana Anggaran Renovasi Rumah | Spendry Notes",
+    "description": "Susun anggaran renovasi dalam satu catatan. Spendry Notes menghitung biaya bahan, ongkos tukang, volume barang, dan jadwal pembayaran di kalender.",
+    "h1": "Rencanakan anggaran renovasi dalam catatan",
+    "lead": "Tulis setiap kebutuhan bahan dan ongkos tukang beserta harganya. Spendry Notes menjumlahkan biayanya, menghitung jumlah barang, dan memasang jadwal bayar di kalender.",
+    "points": [
+     {
+      "h": "Material berdasarkan jumlah",
+      "p": "Tulis \"Cat 6 kaleng satunya Rp 120.000\" atau \"30 dus keramik Rp 85.000 per dus\", maka total tiap baris langsung dihitung untuk Anda."
+     },
+     {
+      "h": "Ongkos tukang dan biaya lain jadi satu",
+      "p": "Biaya tukang, ongkos kirim bahan, dan jasa pembersihan langsung masuk ke dalam total yang sama saat Anda mengetiknya."
+     },
+     {
+      "h": "Jadwal pembayaran tepat waktu",
+      "p": "Tulis \"DP tukang tanggal 15 Rp 1.000.000\", maka catatan akan tampil pada hari itu di kalender, lengkap dengan pengingat jika Anda mau."
+     },
+     {
+      "h": "Tautkan ke target tabungan",
+      "p": "Bersama Spendry, sambungkan catatan dengan target tabungan untuk melihat sisa dana simpanan Anda setelah renovasi."
+     }
+    ],
+    "steps_title": "Cara merencanakan anggaran renovasi",
+    "steps": [
+     "Buat daftar proyek baru di Spendry Notes.",
+     "Tulis setiap material dan pengerjaan beserta harga satuan atau jumlah barangnya.",
+     "Tambahkan tanggal pada uang muka dan termin pembayaran agar muncul di kalender.",
+     "Centang barang yang sudah dibeli dan pantau sisa biaya yang perlu dilunasi."
+    ],
+    "why_title": "Kenapa menyusun renovasi di Spendry Notes",
+    "why": [
+     "Seluruh rincian proyek dalam satu catatan, lengkap dengan total biayanya.",
+     "Jumlah barang dan harga satuan langsung dihitung otomatis.",
+     "Jadwal pembayaran tersusun di kalender, dengan pengingat saat diperlukan.",
+     "Gratis diunduh dan gratis digunakan."
+    ],
+    "faq": [
+     {
+      "q": "Bagaimana cara membuat rencana renovasi di iPhone?",
+      "a": "Buka daftar baru di Spendry Notes lalu tulis kebutuhan bahan dan pengerjaan beserta harganya. Aplikasi ini menjumlahkannya, lengkap dengan total terpisah untuk yang sudah dibeli dan sisa tagihan."
+     },
+     {
+      "q": "Bisakah aplikasi mengingatkan jadwal pembayaran?",
+      "a": "Bisa. Tulis tanggal pada baris transaksi, pasang pengingat, dan Anda akan menerima pemberitahuan pada hari tersebut."
+     },
+     {
+      "q": "Apakah aplikasi ini gratis?",
+      "a": "Ya. Semua fitur Spendry Notes gratis digunakan."
+     }
+    ],
+    "cta": "Unduh Spendry Notes dan simpan semua anggaran renovasi dalam satu catatan."
+   }
+  ],
+  "bundle": {
+   "slug": "spendry-and-notes",
+   "nav": "Bundel Spendry & Notes",
+   "title": "Spendry & Notes: Aplikasi Catatan dan Anggaran",
+   "description": "Dapatkan Spendry dan Spendry Notes gratis di App Store. Kelola anggaran dan tagihan di satu aplikasi, hitung belanja di aplikasi lainnya.",
+   "h1": "Spendry & Notes, dua aplikasi gratis yang saling melengkapi",
+   "lead": "Spendry mengelola anggaran, kartu, pinjaman, dan tagihan Anda. Spendry Notes menjumlahkan daftar Anda dan mengubah catatan menjadi rencana. Dapatkan keduanya sekaligus melalui bundel gratis di App Store.",
+   "spendry_h": "Spendry",
+   "spendry_p": "Anggaran, kartu kredit, cicilan, pinjaman, tagihan, dan langganan di satu tempat. Spendry mengingatkan Anda sebelum jatuh tempo dan menampilkan perkiraan tanggal bebas utang dengan metode snowball atau avalanche. Tanpa login bank, tanpa pengumpulan data.",
+   "notes_h": "Spendry Notes",
+   "notes_p": "Aplikasi catatan yang memahami uang. Tulis \"3 botol susu Rp 15.000 per botol\" atau \"Sewa tanggal 28 Rp 2.500.000\": Spendry Notes menjumlahkan daftar Anda dan mengubah tanggal pada baris menjadi rencana, sementara catatan Anda tetap berupa catatan biasa.",
+   "together_h": "Lebih baik jika digunakan bersama",
+   "together": [
+    "Tautkan catatan ke anggaran, target, atau pinjaman di Spendry dan lihat sisa dana Anda.",
+    "Kirim satu baris dari catatan ke Spendry sebagai pengeluaran atau pengingat dalam sekali ketuk.",
+    "Satu langganan Spendry Premium berlaku untuk kedua aplikasi."
+   ],
+   "faq": [
+    {
+     "q": "Apa itu bundel Spendry & Notes?",
+     "a": "Ini adalah bundel gratis di App Store untuk memasang Spendry dan Spendry Notes sekaligus dalam sekali ketuk."
+    },
+    {
+     "q": "Apakah bundel ini berbayar?",
+     "a": "Tidak. Kedua aplikasi gratis diunduh. Spendry Premium adalah langganan opsional yang diperpanjang otomatis kecuali dibatalkan, dan satu langganan berlaku untuk kedua aplikasi."
+    },
+    {
+     "q": "Perangkat apa saja yang didukung?",
+     "a": "Spendry dapat digunakan di iPhone, iPad, dan Mac, sedangkan Spendry Notes dapat digunakan di iPhone. Keduanya membutuhkan iOS 17 atau versi lebih baru di iPhone."
+    }
+   ],
+   "cta": "Dapatkan Spendry dan Spendry Notes sekaligus dalam sekali ketuk."
+  }
+ }
 }

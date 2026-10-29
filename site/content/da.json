@@ -2383,5 +2383,1001 @@
     }
    ]
   }
- ]
+ ],
+ "notes": {
+  "labels": {
+   "app": "Spendry Notes",
+   "free": "Gratis i App Store til iPhone. Alle funktioner i Spendry Notes er gratis.",
+   "download": "Hent Spendry Notes",
+   "more": "Mere fra Spendry Notes",
+   "cta": "Hent Spendry Notes, og lad dine lister regne sig selv ud.",
+   "bundle_nav": "Spendry & Notes",
+   "bundle_button": "Få begge apps",
+   "spendry_title": "Spendry: budget-appen den fungerer sammen med",
+   "home_kicker": "Spendry Notes",
+   "home_title": "Notater der regner for dig, tæt på dit budget",
+   "home_text": "Spendry Notes er vores gratis note-app: indkøbslister der tæller sammen, planer der lander i din kalender, og noter knyttet til dine Spendry-budgetter. Få begge apps med et enkelt tryk i den gratis Spendry & Notes-pakke.",
+   "home_more": "Se hvad Spendry Notes kan",
+   "shots": "Et kig i Spendry Notes",
+   "shot_alts": {
+    "home": "Hjemmeskærmen i Spendry Notes med dagens planer og lister",
+    "list": "En indkøbsliste i Spendry Notes med priser og samlet beløb",
+    "plan": "En månedsplan i Spendry Notes med indkomst, regninger og et restbeløb",
+    "calendar": "Kalenderen i Spendry Notes med planer på de enkelte dage",
+    "ask": "Stil Spendry Notes spørgsmål om hvad der er planlagt i denne uge",
+    "picker": "Knyt en note til et budget, et opsparingsmål eller et lån i Spendry"
+   }
+  },
+  "pages": [
+   {
+    "key": "spendry-notes",
+    "slug": "spendry-notes",
+    "nav": "Spendry Notes",
+    "screen": "home",
+    "footer": true,
+    "title": "Spendry Notes: Notater der forstår penge",
+    "description": "Spendry Notes er en gratis notat-app til iPhone, der lægger dine indkøbslister sammen, laver dage om til planer og virker med Spendry.",
+    "h1": "Spendry Notes, en notat-app der forstår penge",
+    "lead": "Skriv præcis som du plejer. Spendry Notes aflæser beløb, dage og tidspunkter i dine linjer, lægger dem sammen og laver dem til planer, mens dit notat forbliver et notat.",
+    "points": [
+     {
+      "h": "Lister der regner sammen",
+      "p": "Indkøbslister viser en løbende sum for det du mangler, og det du allerede har købt. Sæt hak ved varerne undervejs, og totalerne følger med."
+     },
+     {
+      "h": "Skriv det som du siger det",
+      "p": "«5 flasker vand à 12 kr», «2 kg tomater til 25 kr pr. kg» eller «Frokost 120/3»: mængder, stykpriser, rabatter, drikkepenge og hver persons andel udregnes for dig."
+     },
+     {
+      "h": "Dage bliver til planer",
+      "p": "Skriv en dag i en linje, og den dukker op på den dato i din kalender. «I morgen», «næste fredag», «om 3 dage», «d. 15.» og «hver måned» forstås automatisk, og du kan tilføje en stille påmindelse."
+     },
+     {
+      "h": "Spørg dine noter",
+      "p": "Spørg «Hvad er planlagt i denne uge?» eller «Hvad mangler på mine lister?», og få svaret direkte fra dine egne notater på din iPhone."
+     },
+     {
+      "h": "Knyttet til Spendry",
+      "p": "Knyt et notat til et budget, et mål eller et lån i Spendry, og se hvad listen efterlader. Du kan også sende en linje til Spendry som en udgift eller påmindelse med et enkelt tryk."
+     }
+    ],
+    "steps_title": "Sådan kommer du i gang med Spendry Notes",
+    "steps": [
+     "Hent Spendry Notes i App Store. Den er gratis.",
+     "Skriv en liste eller en plan, som du ville gøre på papir, med priser og datoer.",
+     "Se totalerne og din kalender blive udfyldt helt af sig selv.",
+     "Bruger du Spendry, kan du knytte notatet til et budget, et mål eller et lån."
+    ],
+    "why_title": "Derfor bruger mange Spendry Notes",
+    "why": [
+     "Alle funktioner i Spendry Notes er gratis.",
+     "Den fungerer perfekt alene, og endnu bedre sammen med Spendry.",
+     "Widgets viser dine lister og planer, også direkte på din Låseskærm.",
+     "iCloud holder dine noter opdateret på dine enheder, og Slettet for nylig gemmer dem i 30 dage."
+    ],
+    "faq": [
+     {
+      "q": "Er Spendry Notes gratis?",
+      "a": "Ja. Alle funktioner i Spendry Notes er gratis. Spendry Premium er et valgfrit abonnement, der låser op for Premium-funktioner i Spendry, og ét abonnement dækker begge apps."
+     },
+     {
+      "q": "Skal jeg bruge Spendry for at have glæde af Spendry Notes?",
+      "a": "Nej. Spendry Notes fungerer helt for sig selv. Har du Spendry installeret, kan du også knytte notater til budgetter, mål og lån samt sende linjer direkte til Spendry."
+     },
+     {
+      "q": "Hvilke enheder virker Spendry Notes på?",
+      "a": "Spendry Notes er en iPhone-app og kræver iOS 17 eller nyere."
+     },
+     {
+      "q": "Kan jeg bruge Siri med Spendry Notes?",
+      "a": "Ja. Siri og Genveje kan føje ting til en liste og fortælle dig, hvad der venter forude."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og lad dine notater klare regnestykket."
+   },
+   {
+    "key": "grocery-list-app",
+    "slug": "grocery-list-app",
+    "nav": "Indkøbsliste app",
+    "screen": "list",
+    "footer": true,
+    "title": "Indkøbsliste app med priser og total | Spendry Notes",
+    "description": "Gratis indkøbsliste-app til iPhone, der lægger priser sammen mens du skriver, viser hvad du mangler, og husker tidligere priser.",
+    "h1": "En indkøbsliste-app der regner mens du handler",
+    "lead": "Skriv din liste med priser, sæt hak ved varerne når de ryger i vognen, og få det fulde overblik over hvad du har købt, og hvad der mangler.",
+    "points": [
+     {
+      "h": "Totaler mens du skriver",
+      "p": "Skriv «Mælk 15 kr» eller «Brød 2 for 45 kr», og listen lægger det hele sammen. Totalerne for hvad der mangler, og hvad du har købt, opdateres for hvert hak."
+     },
+     {
+      "h": "Mængder og stykpriser",
+      "p": "«2 kg oksekød til 120 kr pr. kg» og «5 øl pr. stk 20 kr» regnes ud med det samme, helt uden brug af lommeregner."
+     },
+     {
+      "h": "Prisen du gav sidst",
+      "p": "Når du skriver en vare igen, foreslås den pris du gav sidst automatisk. Så tager den ugentlige indkøbstur kun få sekunder at planlægge."
+     },
+     {
+      "h": "Et budget til indkøbsturen",
+      "p": "Giv listen et budget, og se præcis hvor meget der er tilbage, efterhånden som du tilføjer varer."
+     }
+    ],
+    "steps_title": "Sådan laver du en indkøbsliste med priser",
+    "steps": [
+     "Opret en liste i Spendry Notes.",
+     "Skriv hver vare med dens pris, eller med antal og en stykpris.",
+     "Sæt hak ved varerne, når du lægger dem i kurven.",
+     "Tjek restbeløbet i din samlede total, inden du når frem til kassen."
+    ],
+    "why_title": "Derfor skal du bruge Spendry Notes til indkøb",
+    "why": [
+     "Gratis at bruge, helt uden oprettelse.",
+     "Widgets viser din liste på din Hjemmeskærm og Låseskærm.",
+     "Siri kan nemt føje nye varer til din liste.",
+     "Med Spendry kan du knytte listen til dit madbudget og se, hvad der er til rest."
+    ],
+    "faq": [
+     {
+      "q": "Findes der en gratis indkøbsliste-app, der lægger priser sammen?",
+      "a": "Spendry Notes er gratis og lægger automatisk priserne på din liste sammen, med opdelte totaler for det du mangler, og det du har lagt i kurven."
+     },
+     {
+      "q": "Husker appen tidligere priser?",
+      "a": "Ja. Når du skriver en vare igen, udfyldes prisen fra sidste gang automatisk for dig."
+     },
+     {
+      "q": "Kan jeg tilføje varer med Siri?",
+      "a": "Ja. Både Siri og Genveje kan uden problemer tilføje punkter til en liste."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og tag en indkøbsseddel med i butikken der regner for dig."
+   },
+   {
+    "key": "shopping-list-with-prices",
+    "slug": "shopping-list-with-prices",
+    "nav": "Indkøbsseddel med priser",
+    "screen": "list",
+    "footer": false,
+    "title": "Indkøbsseddel med priser og løbende total | Spendry Notes",
+    "description": "Lav en indkøbsseddel med priser. Spendry Notes holder styr på totalen, udregner rabatter og viser hvad der er tilbage i budgettet.",
+    "h1": "En indkøbsseddel med priser og løbende total",
+    "lead": "Spendry Notes aflæser priserne på din indkøbsseddel, opdaterer det samlede beløb undervejs og viser, hvor meget der er tilbage af budgettet.",
+    "points": [
+     {
+      "h": "Rabatter og drikkepenge udregnet",
+      "p": "Skriv «-20%» ved en vare eller «+10% drikkepenge» til sidst, og totalen retter sig automatisk til."
+     },
+     {
+      "h": "Et budget for listen",
+      "p": "Sæt et budget for notatet, og se hvad du har tilbage at gøre med, mens listen vokser."
+     },
+     {
+      "h": "Købt og mangler",
+      "p": "Afkrydsede varer flyttes automatisk over i totalen for købt, så du hele tiden ved, hvad resten koster."
+     },
+     {
+      "h": "En liste der husker datoen",
+      "p": "Skriv en dag i en linje, og den placeres i din kalender. Tilføj en påmindelse, hvis du har brug for det."
+     }
+    ],
+    "steps_title": "Sådan styrer du en indkøbsseddel med priser",
+    "steps": [
+     "Opret en ny liste i Spendry Notes.",
+     "Skriv varerne med deres priser, mængder eller rabatter.",
+     "Angiv et budget for listen, hvis du har sat et loft.",
+     "Sæt hak ved varerne, når du køber dem, og hold øje med begge totaler."
+    ],
+    "why_title": "Hvorfor en liste med priser gør en forskel",
+    "why": [
+     "Du kender den samlede pris før kassen, ikke bagefter.",
+     "Rabatter, mængder og drikkepenge regnes ud automatisk.",
+     "Notatet forbliver en helt enkel tekst, du frit kan redigere i.",
+     "Alle funktioner i Spendry Notes er ganske gratis."
+    ],
+    "faq": [
+     {
+      "q": "Hvordan lægger jeg en indkøbsliste sammen på iPhone?",
+      "a": "Skriv varerne og deres priser i Spendry Notes. Appen lægger beløbene sammen undervejs og viser særskilte totaler for det købte og det udestående."
+     },
+     {
+      "q": "Kan appen udregne rabatter?",
+      "a": "Ja. Skriv en rabat som «-20% rabat» ud for en vare, så tilpasser det samlede beløb sig med det samme."
+     },
+     {
+      "q": "Kan jeg sætte et fast budget for en liste?",
+      "a": "Ja. Angiv et budget i notatet, og Spendry Notes viser løbende, hvad der er tilbage."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og kend det samlede beløb før du betaler."
+   },
+   {
+    "key": "notes-app-with-calculator",
+    "slug": "notes-app-with-calculator",
+    "nav": "Notat app med lommeregner",
+    "screen": "plan",
+    "footer": true,
+    "title": "Notat app med lommeregner: Noter der regner | Spendry Notes",
+    "description": "Spendry Notes er en notat-app der regner for dig: den aflæser beløb i dine linjer og lægger sammen med mængder, rabatter og split.",
+    "h1": "En notat-app der klarer regnestykket for dig",
+    "lead": "Slip for at åbne en separat lommeregner. Skriv beløb direkte i dine noter, og Spendry Notes lægger dem sammen linje for linje, mens teksten forbliver et helt almindeligt notat.",
+    "points": [
+     {
+      "h": "Beløb overalt i teksten",
+      "p": "«Husleje d. 28. 6500 kr» eller «3 kaffe 75 kr»: beløb, mængder og datoer trækkes direkte ud af de ord, du skriver."
+     },
+     {
+      "h": "Penge ind og penge ud",
+      "p": "Notér indtægter og udgifter i samme notat, og få et hurtigt overblik over hvad der kommer ind, hvad der går ud, og hvad der bliver til rest."
+     },
+     {
+      "h": "Opdel regningen og procenter",
+      "p": "«Frokost 120/3» udregner automatisk hver persons andel, mens «-20%» eller «+10% drikkepenge» opdaterer den samlede pris."
+     },
+     {
+      "h": "Få svar fra dine egne noter",
+      "p": "Spørg hvad der er planlagt for ugen, eller hvad der mangler på dine lister, og få svaret direkte udregnet fra dine notater."
+     }
+    ],
+    "steps_title": "Sådan bruger du en notat-app som lommeregner",
+    "steps": [
+     "Åbn et notat i Spendry Notes.",
+     "Skriv hver linje som du naturligt ville sige det, med tilhørende beløb.",
+     "Aflæs totalerne direkte under notatet, mens du taster.",
+     "Tilføj en dato til en linje for at få den vist i din kalender."
+    ],
+    "why_title": "Fordelene ved notater der selv regner",
+    "why": [
+     "Du slipper for at skifte frem og tilbage mellem notater og lommeregner.",
+     "Notatet gemmer dine egne ord, ikke blot en række tal.",
+     "Totalerne ændrer sig automatisk, så snart du retter i en linje.",
+     "Helt gratis at hente og gratis at bruge i hverdagen."
+    ],
+    "faq": [
+     {
+      "q": "Findes der en notat-app, der lægger tal sammen på iPhone?",
+      "a": "Spendry Notes registrerer beløbene i dine linjer og summerer dem automatisk, inklusive antal, rabatter, drikkepenge og delte udgifter."
+     },
+     {
+      "q": "Kan den håndtere både indtægter og udgifter sammen?",
+      "a": "Ja. Fører du indtægter og udgifter i det samme notat, får du opdelte oversigter samt det resterende beløb."
+     },
+     {
+      "q": "Er Spendry Notes gratis?",
+      "a": "Ja. Samtlige funktioner i Spendry Notes er gratis at benytte."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og lad dine noter lægge det hele sammen."
+   },
+   {
+    "key": "split-the-bill",
+    "slug": "split-the-bill",
+    "nav": "Del regningen",
+    "screen": "list",
+    "footer": false,
+    "title": "Del regningen i en note | Spendry Notes",
+    "description": "Skriv \"Frokost 120/3\", så viser Spendry Notes hver persons andel. Drikkepenge og rabatter regnes også ud direkte i din note.",
+    "h1": "Del regningen direkte i en note",
+    "lead": "Skriv det samlede beløb og antallet af personer, så viser Spendry Notes hvad hver person skal betale, inklusive drikkepenge.",
+    "points": [
+     {
+      "h": "Én linje, alles andel",
+      "p": "\"Frokost 120/3\" er nok: Spendry Notes viser hver persons andel lige under linjen."
+     },
+     {
+      "h": "Drikkepenge og rabatter",
+      "p": "Tilføj \"+10% drikkepenge\" eller \"-20%\", så tilpasser andelene sig det nye totalbeløb."
+     },
+     {
+      "h": "Ture og fælles udgifter",
+      "p": "Saml en hel weekend i én note: billetter, værelser og måltider, hver med sin andel."
+     },
+     {
+      "h": "Hav det samlet med dine planer",
+      "p": "Skriv en ugedag eller dato ud for en udgift, så vises den i din kalender."
+     }
+    ],
+    "steps_title": "Sådan deler du en regning i Spendry Notes",
+    "steps": [
+     "Skriv hvad du har betalt, og del med antallet af personer, f.eks. \"Frokost 120/3\".",
+     "Tilføj drikkepenge eller rabat, hvis der er det.",
+     "Aflæs hver persons andel under linjen.",
+     "Bliv ved med at tilføje udgifter til den samme note til en tur eller begivenhed."
+    ],
+    "why_title": "Hvorfor dele udgifter i en note",
+    "why": [
+     "Ingen separat lommeregner eller app til at dele regninger.",
+     "Noten husker hvem der betalte hvad, med dine egne ord.",
+     "Totaler og andele opdateres, når du retter en linje.",
+     "Gratis, uden oprettelse af konto."
+    ],
+    "faq": [
+     {
+      "q": "Hvordan deler jeg en regning på iPhone?",
+      "a": "I Spendry Notes skriver du beløbet divideret med antallet af personer, f.eks. \"Frokost 120/3\", og hver persons andel vises under linjen."
+     },
+     {
+      "q": "Kan jeg medregne drikkepenge?",
+      "a": "Ja. Tilføj \"+10% drikkepenge\", så følger andelene det nye totalbeløb automatisk."
+     },
+     {
+      "q": "Koster det noget?",
+      "a": "Nej. Spendry Notes og alle funktioner er helt gratis."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og del regningen på én linje."
+   },
+   {
+    "key": "monthly-budget-planner-notes",
+    "slug": "monthly-budget-planner-notes",
+    "nav": "Månedsplan i en note",
+    "screen": "plan",
+    "footer": false,
+    "title": "Månedsbudget i en note | Spendry Notes",
+    "description": "Læg budget for måneden i en note: løn, husleje og faste regninger med datoer. Spendry Notes viser overskuddet og lægger dagene i din kalender.",
+    "h1": "Planlæg din måned i en enkelt note",
+    "lead": "Skriv din løn, husleje og regninger med datoer. Spendry Notes viser hvad der kommer ind, hvad der går ud, og hvad der er tilbage, og lægger hver dag i din kalender.",
+    "points": [
+     {
+      "h": "Ind, ud og hvad der er tilbage",
+      "p": "Indtægter og faste udgifter i én note giver dig månedens facit, så overblikket holder."
+     },
+     {
+      "h": "Hver dag i kalenderen",
+      "p": "\"Husleje den 28.\" og \"Elregning den 26.\" lander automatisk på de rigtige dage i kalenderen."
+     },
+     {
+      "h": "Påmindelser lige dér, hvor du ønsker det",
+      "p": "Føj en diskret påmindelse til de linjer, der kræver det, som husleje eller en regning."
+     },
+     {
+      "h": "Begynd med månedsskabelonen",
+      "p": "Skabeloner til måneden, en rejse, en flytning eller en fest giver dig en flyvende start."
+     }
+    ],
+    "steps_title": "Sådan planlægger du en måned i Spendry Notes",
+    "steps": [
+     "Start ud fra månedsskabelonen eller en tom note.",
+     "Skriv dine indtægter og hver enkelt udgift med dens dag.",
+     "Tjek det samlede overskud og din kalender.",
+     "Føj påmindelser til de betalinger, du ikke vil overse."
+    ],
+    "why_title": "Hvorfor lægge månedsplanen i en note",
+    "why": [
+     "Det er lige så hurtigt som at skrive på papir.",
+     "Totalerne og kalenderen opdaterer sig selv undervejs.",
+     "Med Spendry bliver en linje til en udgift eller en påmindelse med et enkelt tryk.",
+     "Alle funktioner i Spendry Notes er gratis."
+    ],
+    "faq": [
+     {
+      "q": "Kan jeg lave et månedsbudget i en note-app?",
+      "a": "Ja. I Spendry Notes skriver du indtægter og udgifter med datoer, hvorefter noten viser det samlede resultat og placerer hver dag i kalenderen."
+     },
+     {
+      "q": "Giver den mig besked, før en regning skal betales?",
+      "a": "Ja, hvis du tilføjer en påmindelse til linjen. Påmindelser tilføjes kun dér, hvor du selv vælger det."
+     },
+     {
+      "q": "Virker den sammen med Spendry?",
+      "a": "Ja. Knyt noten til et budget i Spendry, eller send en linje til Spendry som en udgift eller påmindelse."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og planlæg måneden i én note."
+   },
+   {
+    "key": "trip-budget-planner",
+    "slug": "trip-budget-planner",
+    "nav": "Rejsebudget",
+    "screen": "plan",
+    "footer": false,
+    "title": "Rejsebudget i en note | Spendry Notes",
+    "description": "Start med rejseskabelonen, skriv fly, overnatning og daglige udgifter, så regner Spendry Notes det hele sammen og viser hver persons andel.",
+    "h1": "Læg et rejsebudget i en note",
+    "lead": "Begynd med rejseskabelonen, og skriv hvad turen vil koste. Spendry Notes lægger tallene sammen, viser hver persons andel og sætter datoerne i din kalender.",
+    "points": [
+     {
+      "h": "En skabelon til at starte på",
+      "p": "Rejseskabelonen giver dig en fiks note, du kan udfylde med flybilletter, hotel, mad og oplevelser."
+     },
+     {
+      "h": "Totalen mens du planlægger",
+      "p": "Hver udgift du skriver, bliver lagt sammen, så du kender hele rejsens pris inden du bestiller."
+     },
+     {
+      "h": "Andele til en gruppe",
+      "p": "Del en udgift med antallet af personer, som f.eks. \"Hotel 6000/3\", og hver andel ses under linjen."
+     },
+     {
+      "h": "Spar op til turen i Spendry",
+      "p": "Knyt noten til et opsparingsmål i Spendry, og hold øje med, hvor tæt du er på målet."
+     }
+    ],
+    "steps_title": "Sådan lægger du et rejsebudget",
+    "steps": [
+     "Opret en note ud fra rejseskabelonen.",
+     "Skriv hver udgift med beløb og gerne dato.",
+     "Del fælles udgifter med antallet af personer.",
+     "Knyt noten til et opsparingsmål i Spendry."
+    ],
+    "why_title": "Hvorfor planlægge en rejse i Spendry Notes",
+    "why": [
+     "Hele rejsen samlet i én note, komplet med totalbeløb.",
+     "Datoer placeres direkte i din kalender.",
+     "Fælles udgifter deles automatisk for jer.",
+     "Helt gratis at hente og gratis at bruge."
+    ],
+    "faq": [
+     {
+      "q": "Hvordan laver jeg et rejsebudget på iPhone?",
+      "a": "Start en note fra rejseskabelonen i Spendry Notes, skriv hver udgift, og noten lægger det sammen og viser hver persons andel."
+     },
+     {
+      "q": "Kan jeg spare op til rejsen?",
+      "a": "Ja. Forbind noten med et opsparingsmål i Spendry, og se dit mål direkte ved siden af noten."
+     },
+     {
+      "q": "Er appen gratis?",
+      "a": "Ja. Alle funktioner i Spendry Notes er gratis."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og planlæg rejsen i én note."
+   },
+   {
+    "key": "moving-checklist-with-costs",
+    "slug": "moving-checklist-with-costs",
+    "nav": "Tjekliste til flytning",
+    "screen": "list",
+    "footer": false,
+    "title": "Tjekliste til flytning med priser | Spendry Notes",
+    "description": "En huskeliste til flytning der regner ud: kryds opgaver af, skriv prisen og se totalen. Brug flytteskabelonen i Spendry Notes.",
+    "h1": "En flyttetjekliste der regner udgifterne ud",
+    "lead": "Tag udgangspunkt i flytteskabelonen, kryds gøremål af undervejs, og skriv prisen ud for hver opgave. Spendry Notes holder styr på totalen og datoerne.",
+    "points": [
+     {
+      "h": "Opgaver og priser samlet",
+      "p": "Hver linje kan være en opgave med en pris, så tjeklisten samtidig fungerer som dit flyttebudget."
+     },
+     {
+      "h": "Klaret og udestående",
+      "p": "Sæt hak ved en linje når den er klaret, så viser tallene hvad der er betalt, og hvad der mangler."
+     },
+     {
+      "h": "Datoer i din kalender",
+      "p": "\"Flyttebil på lørdag\" eller \"Depositum den 1.\" havner på de rigtige dage i kalenderen."
+     },
+     {
+      "h": "Påmindelser hvor du behøver dem",
+      "p": "Føj en diskret påmindelse til de vigtige punkter, der bare ikke må overses."
+     }
+    ],
+    "steps_title": "Sådan planlægger du en flytning i Spendry Notes",
+    "steps": [
+     "Opret en note ud fra flytteskabelonen.",
+     "Skriv opgaverne ind med priser og datoer.",
+     "Kryds opgaver af, efterhånden som du ordner dem.",
+     "Hold øje med det samlede beløb frem mod flyttedagen."
+    ],
+    "why_title": "Hvorfor bruge en tjekliste med priser",
+    "why": [
+     "Slip for et separat regneark til dit flyttebudget.",
+     "Se hvad der er brugt, og hvad der resterer, med et hurtigt blik.",
+     "Få datoer og påmindelser samlet ud fra den samme note.",
+     "Alle funktioner i Spendry Notes er gratis."
+    ],
+    "faq": [
+     {
+      "q": "Findes der en app til flyttetjekliste med priser?",
+      "a": "Spendry Notes har en flytteskabelon, hvor hver opgave kan have en pris og en dato. Noten lægger udgifterne sammen og viser dagene i din kalender."
+     },
+     {
+      "q": "Kan jeg sætte påmindelser op til flyttedagen?",
+      "a": "Ja. Føj en påmindelse til enhver linje, så modtager du en diskret besked på dagen."
+     },
+     {
+      "q": "Er appen gratis?",
+      "a": "Ja. Alle funktioner i Spendry Notes er gratis."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og flyt med fuldt overblik over udgifterne."
+   },
+   {
+    "key": "event-budget-planner",
+    "slug": "event-budget-planner",
+    "nav": "Budget til fest og bryllup",
+    "screen": "plan",
+    "footer": false,
+    "title": "Lav budget til fest og bryllup | Spendry Notes",
+    "description": "Planlæg fest, fødselsdag eller bryllup i en note. Spendry Notes lægger udgifter sammen, deler regningen og viser datoerne i din kalender.",
+    "h1": "Lav budget til festen i en note",
+    "lead": "Start med skabelonen Begivenhedsbudget, og skriv alle udgifter ind. Spendry Notes lægger dem sammen, viser hver persons andel og holder styr på datoerne i din kalender.",
+    "points": [
+     {
+      "h": "En klar skabelon",
+      "p": "Skabelonen Begivenhedsbudget er en nem start til en fest, en fødselsdag eller et bryllup."
+     },
+     {
+      "h": "Alle udgifter i ét samlet tal",
+      "p": "Lokale, mad, musik og gaver lægges sammen, så snart du skriver dem."
+     },
+     {
+      "h": "Andele til dem, der betaler",
+      "p": "Del en udgift med antallet af personer, så vises hver andel lige under linjen."
+     },
+     {
+      "h": "Datoer og påmindelser",
+      "p": "Depositum og tidsfrister lander i din kalender, med en påmindelse hvis du vil have det."
+     }
+    ],
+    "steps_title": "Sådan lægger du et budget for festen",
+    "steps": [
+     "Opret en note ud fra skabelonen Begivenhedsbudget.",
+     "Skriv hver udgift med beløb og dato.",
+     "Del fælles udgifter med antallet af personer.",
+     "Tilføj påmindelser til depositum og tidsfrister."
+    ],
+    "why_title": "Hvorfor planlægge festen i Spendry Notes",
+    "why": [
+     "Hele budgettet i én note, med samlet pris.",
+     "Tidsfrister i din kalender, påmindelser hvor du ønsker det.",
+     "Fælles udgifter deles for dig.",
+     "Gratis at hente og gratis at bruge."
+    ],
+    "faq": [
+     {
+      "q": "Hvordan laver jeg et festbudget på iPhone?",
+      "a": "Start en note fra skabelonen Begivenhedsbudget i Spendry Notes, skriv udgifterne, og noten lægger dem sammen og deler beløbet."
+     },
+     {
+      "q": "Kan appen minde mig om depositum?",
+      "a": "Ja. Føj en påmindelse til linjen, så får du en notifikation på dagen."
+     },
+     {
+      "q": "Er appen gratis?",
+      "a": "Ja. Alle funktioner i Spendry Notes er gratis."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og saml festens budget i én note."
+   },
+   {
+    "key": "notes-with-reminders",
+    "slug": "notes-with-reminders",
+    "nav": "Noter med påmindelser",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Noter med dato og påmindelser | Spendry Notes",
+    "description": "Skriv »Husleje d. 1.« og se det i din kalender. Spendry Notes giver rolige påmindelser på linjer, præcis når du beder om det.",
+    "h1": "Noter der forstår dine datoer",
+    "lead": "Skriv en dato på en linje, så sætter Spendry Notes den i din kalender. Føj en rolig påmindelse til de linjer, der behøver det, og lad resten være.",
+    "points": [
+     {
+      "h": "Datoer med helt almindelige ord",
+      "p": "»I morgen«, »på fredag«, »om 3 dage«, »den 15.« og »hver måned« bliver alle forstået."
+     },
+     {
+      "h": "En kalender ud fra dine noter",
+      "p": "Hver linje med en dato vises på dagen i kalenderen, sammen med beløbet hvis der står et."
+     },
+     {
+      "h": "Rolige påmindelser",
+      "p": "Du får kun en påmindelse på de linjer, du selv vælger, på det tidspunkt du ønsker."
+     },
+     {
+      "h": "Overblik over det næste",
+      "p": "Widgets på hjemmeskærmen og låseskærmen viser dine kommende planer."
+     }
+    ],
+    "steps_title": "Sådan føjer du påmindelser til noter",
+    "steps": [
+     "Skriv en linje med en dato, for eksempel »Husleje d. 1. 6500 kr«.",
+     "Find den på den dag i kalenderen.",
+     "Slå en påmindelse til på linjen, hvis du vil have besked.",
+     "Brug en widget for at se, hvad der venter forude."
+    ],
+    "why_title": "Hvorfor gemme datoer i dine noter",
+    "why": [
+     "Planerne bliver i noten, i stedet for i en anden app.",
+     "Regninger og faste betalinger viser beløb i kalenderen.",
+     "Ingen automatiske påmindelser uden dit samtykke.",
+     "Alle funktioner i Spendry Notes er gratis."
+    ],
+    "faq": [
+     {
+      "q": "Kan en note have en påmindelse på iPhone?",
+      "a": "I Spendry Notes kan enhver linje med en dato få en rolig påmindelse, men kun når du selv vælger det."
+     },
+     {
+      "q": "Forstår appen udtryk som »på fredag«?",
+      "a": "Ja. Både »i morgen«, »på fredag«, »om 3 dage«, »den 15.« og »hver måned« fungerer."
+     },
+     {
+      "q": "Kan jeg se mine planer på låseskærmen?",
+      "a": "Ja. Spendry Notes har widgets til kommende planer og lister, også på låseskærmen."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og lad dine noter holde styr på datoerne."
+   },
+   {
+    "key": "wishlist-with-prices",
+    "slug": "wishlist-with-prices",
+    "nav": "Ønskeliste med priser",
+    "screen": "list",
+    "footer": false,
+    "title": "Ønskeliste med priser og total | Spendry Notes",
+    "description": "Lav en ønskeliste med priser i Spendry Notes. Se den samlede pris, sæt et budget, og knyt listen til et opsparingsmål i Spendry.",
+    "h1": "En ønskeliste der kender prisen",
+    "lead": "Skriv dine ønsker med pris på hver linje. Spendry Notes regner det hele sammen, viser om budgettet holder, og kan knytte listen til en opsparing i Spendry.",
+    "points": [
+     {
+      "h": "Den samlede pris på dine ønsker",
+      "p": "Alle priser på listen lægges sammen, så du ved, hvad det hele koster i alt."
+     },
+     {
+      "h": "Et budget for listen",
+      "p": "Giv noten et budget, og se hvad du har tilbage, mens du tilføjer eller fjerner ting."
+     },
+     {
+      "h": "Kryds af hvad du har købt",
+      "p": "Afkrydsede ønsker flyttes til det købte beløb, mens resten stadig står fremme."
+     },
+     {
+      "h": "Spar op til det i Spendry",
+      "p": "Knyt listen til et opsparingsmål i Spendry, og se hvor tæt på målet du er."
+     }
+    ],
+    "steps_title": "Sådan laver du en ønskeliste med priser",
+    "steps": [
+     "Opret en liste i Spendry Notes.",
+     "Skriv hvert ønske med dets pris.",
+     "Sæt et budget på listen, hvis du har et maksbeløb.",
+     "Knyt listen til et opsparingsmål i Spendry."
+    ],
+    "why_title": "Derfor hjælper en ønskeliste med priser",
+    "why": [
+     "Du ser den samlede pris, før du køber ind.",
+     "Rabatter trækkes fra med det samme, når du skriver dem.",
+     "Et opsparingsmål gør drømme til en plan.",
+     "Alle funktioner i Spendry Notes er gratis."
+    ],
+    "faq": [
+     {
+      "q": "Kan jeg lave en ønskeliste med priser på iPhone?",
+      "a": "Ja. I Spendry Notes skriver du dine ønsker med pris, og listen viser det samlede beløb samt hvad der er tilbage af budgettet."
+     },
+     {
+      "q": "Kan jeg spare op til tingene på min liste?",
+      "a": "Ja. Knyt listen direkte til et opsparingsmål i Spendry."
+     },
+     {
+      "q": "Er appen gratis?",
+      "a": "Ja. Alle funktioner i Spendry Notes er gratis."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og lav en ønskeliste der regner det hele ud."
+   },
+   {
+    "key": "remember-grocery-prices",
+    "slug": "remember-grocery-prices",
+    "nav": "Husk priser på indkøb",
+    "screen": "list",
+    "footer": false,
+    "title": "Indkøbsliste der husker priser | Spendry Notes",
+    "description": "Skriv en vare igen, så udfylder Spendry Notes den pris, du betalte sidst. Din indkøbsliste er klar på få sekunder.",
+    "h1": "En indkøbsliste der husker hvad du gav",
+    "lead": "Skriv en vare, du har købt før, og Spendry Notes udfylder prisen fra sidst. Ugens indkøbsliste skriver næsten sig selv, og beløbet er klar på forhånd.",
+    "points": [
+     {
+      "h": "Prisen fra sidst står der med det samme",
+      "p": "Skriv »Mælk 15 kr«, så huskes prisen til næste gang. Du retter kun det, der ændrer sig."
+     },
+     {
+      "h": "Samlet beløb før du tager afsted",
+      "p": "Når priserne allerede er udfyldt, kan du se hvad hele turen i supermarkedet vil koste."
+     },
+     {
+      "h": "Nemt at spotte prisændringer",
+      "p": "Da den gamle pris allerede står på linjen, kan du straks se, når en vare er steget eller faldet."
+     },
+     {
+      "h": "Mængder regnes helt automatisk",
+      "p": "»5 øl pr. stk 20 kr« og »2 kg oksekød til 120 kr pr. kg« regnes automatisk ud."
+     }
+    ],
+    "steps_title": "Sådan fungerer det",
+    "steps": [
+     "Skriv din indkøbsliste med priser én gang.",
+     "Næste gang skriver du blot de samme varer.",
+     "Prisen fra dit forrige køb sættes automatisk ind.",
+     "Ret kun de priser der har ændret sig, og tjek totalen."
+    ],
+    "why_title": "Hvorfor det sparer tid",
+    "why": [
+     "Ugens indkøbsliste tager få sekunder at lave.",
+     "Du kender den samlede pris før butikken.",
+     "Nye priser er nemme at opdage, når du opdaterer listen.",
+     "Alle funktioner i Spendry Notes er gratis."
+    ],
+    "faq": [
+     {
+      "q": "Findes der en indkøbsliste-app der husker priser?",
+      "a": "Ja. I Spendry Notes udfyldes den pris, du gav sidst, automatisk når du taster varen igen."
+     },
+     {
+      "q": "Lægger den også varerne sammen?",
+      "a": "Ja. Listen viser altid en samlet pris for det, der mangler, og det du har lagt i kurven."
+     },
+     {
+      "q": "Er appen gratis?",
+      "a": "Ja. Alle funktioner i Spendry Notes er gratis."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og lad din indkøbsliste huske priserne."
+   },
+   {
+    "key": "gift-list-with-budget",
+    "slug": "gift-list-with-budget",
+    "nav": "Gaveliste med budget",
+    "screen": "list",
+    "footer": false,
+    "title": "Julegaveliste med budget | Spendry Notes",
+    "description": "Planlæg julegaver og fødselsdagsgaver i en liste med priser. Spendry Notes lægger sammen, holder styr på køb og sikrer, at du holder budgettet.",
+    "h1": "En gaveliste der overholder dit budget",
+    "lead": "Skriv hvem du køber til, og hvad hver gave koster. Spendry Notes lægger det sammen, viser hvad der er tilbage af budgettet, og holder datoerne i din kalender.",
+    "points": [
+     {
+      "h": "En klar gaveliste",
+      "p": "Start ud fra skabelonen Gaveliste, og skriv en linje for hver person."
+     },
+     {
+      "h": "Hver gave tæller med",
+      "p": "Skriv \"Tørklæde 250 kr\" eller \"Bog 2 x 150 kr\", og listen lægger det sammen med separate beløb for det købte og det, der er tilbage."
+     },
+     {
+      "h": "Et budget til højtiden",
+      "p": "Giv noten et budget, og se præcis, hvor meget du har tilbage, efterhånden som du tilføjer gaver."
+     },
+     {
+      "h": "Fødselsdage i din kalender",
+      "p": "Skriv datoen ud for et navn, for eksempel \"Mors fødselsdag 2. november\", og den vises på dagen i din kalender med en påmindelse, hvis du ønsker det."
+     }
+    ],
+    "steps_title": "Sådan laver du en gaveliste med et budget",
+    "steps": [
+     "Opret en note ud fra skabelonen Gaveliste.",
+     "Skriv hver person og den gave, du har i tankerne, med dens pris.",
+     "Giv noten et budget til højtiden.",
+     "Kryds gaver af, efterhånden som du køber dem, og hold øje med restbeløbet."
+    ],
+    "why_title": "Hvorfor planlægge gaver i Spendry Notes",
+    "why": [
+     "Hele højtiden samlet i én note med en samlet total.",
+     "Fødselsdage og tidsfrister direkte i din kalender.",
+     "Appen husker de priser, du tidligere har betalt.",
+     "Gratis at hente og gratis at bruge."
+    ],
+    "faq": [
+     {
+      "q": "Hvordan laver jeg en julegaveliste med budget?",
+      "a": "Opret en note ud fra skabelonen Gaveliste i Spendry Notes, skriv hver gave med pris, og giv noten et budget. Noten viser automatisk, hvad du har brugt, og hvad der er tilbage."
+     },
+     {
+      "q": "Kan jeg se, hvad jeg allerede har købt?",
+      "a": "Ja. Sæt flueben ved en gave, når du køber den, og totalerne for Købt og Tilbage opdateres med det samme."
+     },
+     {
+      "q": "Er den gratis?",
+      "a": "Ja. Alle funktioner i Spendry Notes er gratis."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og hold styr på årets gaver inden for budgettet."
+   },
+   {
+    "key": "black-friday-shopping-list",
+    "slug": "black-friday-shopping-list",
+    "nav": "Black Friday-liste",
+    "screen": "list",
+    "footer": false,
+    "title": "Black Friday-indkøbsliste med budget | Spendry Notes",
+    "description": "Planlæg Black Friday-tilbud i en liste. Spendry Notes udregner rabatter, lægger kurven sammen og viser, hvad der er tilbage af budgettet.",
+    "h1": "En Black Friday-liste der holder budgettet",
+    "lead": "Skriv hvad du leder efter, med pris og rabat, inden udsalget starter. Spendry Notes udregner de reelle priser, lægger dem sammen og holder øje med dit budget.",
+    "points": [
+     {
+      "h": "Rabatter udregnes automatisk",
+      "p": "Skriv \"Sko 800 kr -20% rabat\", og linjen viser prisen efter rabatten."
+     },
+     {
+      "h": "Én samlet pris for hele kurven",
+      "p": "Hvert tilbud lægges sammen, mens du skriver, med separate totaler for det, du har købt, og det, der stadig mangler."
+     },
+     {
+      "h": "Et budget klar før udsalget",
+      "p": "Sæt et budget på noten, og se, hvor meget du har tilbage, før du køber noget."
+     },
+     {
+      "h": "Prisen du betalte sidst",
+      "p": "Skriv en vare igen, og den pris, du betalte sidst, vises automatisk, så du let kan sammenligne med tilbuddet."
+     }
+    ],
+    "steps_title": "Sådan planlægger du dine Black Friday-indkøb",
+    "steps": [
+     "Lav en liste i Spendry Notes, før udsalget starter.",
+     "Skriv hver ting, du ønsker dig, sammen med prisen.",
+     "Tilføj rabatten, så snart du finder tilbuddet.",
+     "Giv listen et budget, og kryds af, hvad du køber."
+    ],
+    "why_title": "Hvorfor planlægge udsalget i Spendry Notes",
+    "why": [
+     "Rabatter og totaler udregnes for dig.",
+     "Et budget der altid viser, hvad der er tilbage.",
+     "Widgets holder listen synlig på din Hjemmeskærm.",
+     "Gratis at hente og gratis at bruge."
+    ],
+    "faq": [
+     {
+      "q": "Hvordan laver jeg en Black Friday-indkøbsliste?",
+      "a": "Skriv hver ting på en liste i Spendry Notes med pris og rabat. Listen udregner priserne, lægger alt sammen og viser, hvad der er tilbage af dit budget."
+     },
+     {
+      "q": "Kan appen udregne procentvise rabatter?",
+      "a": "Ja. Skriv prisen og rabatten, for eksempel -20% rabat, så viser linjen straks den endelige pris efter rabat."
+     },
+     {
+      "q": "Er den gratis?",
+      "a": "Ja. Alle funktioner i Spendry Notes er gratis."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og gå til udsalget med en klar liste og et budget."
+   },
+   {
+    "key": "daily-expense-notes",
+    "slug": "daily-expense-notes",
+    "nav": "Daglige udgiftsnoter",
+    "screen": "calendar",
+    "footer": false,
+    "title": "Daglige udgiftsnoter med samlet pris | Spendry Notes",
+    "description": "Noter dagens udgifter, og se det samlede beløb. Spendry Notes lægger dagen sammen og kan sende en linje direkte til Spendry som en udgift.",
+    "h1": "Skriv dagens udgifter ned, se det samlede beløb",
+    "lead": "Hav en note til dagen, skriv udgifterne løbende, og hav altid den samlede pris klar. Når du vil, sender du en linje over i Spendry som en udgift.",
+    "points": [
+     {
+      "h": "Dagens note",
+      "p": "Tryk på I dag, og skriv hvert køb på sin egen linje, som \"Parkering 40 kr\" eller \"Kaffe 35 kr\". Noten udregner automatisk dagens total."
+     },
+     {
+      "h": "Hver dag i kalenderen",
+      "p": "Hver dags note vises på datoen i din kalender med det samlede beløb, så sidste uges forbrug kun er et tryk væk."
+     },
+     {
+      "h": "Send til Spendry",
+      "p": "Send en linje til Spendry som en udgift med et enkelt tryk, og hold dine budgetter helt opdaterede."
+     },
+     {
+      "h": "Tilføj med Siri",
+      "p": "Siri kan føje en linje til dagens note, og beløbet tælles med med det samme."
+     }
+    ],
+    "steps_title": "Sådan holder du styr på daglige udgifter i noter",
+    "steps": [
+     "Tryk på I dag i Spendry Notes.",
+     "Skriv hver udgift med tilhørende beløb.",
+     "Se dagens samlede sum i noten eller i kalenderen.",
+     "Send en linje over til Spendry, når den skal med i budgettet."
+    ],
+    "why_title": "Hvorfor føre daglige udgifter i Spendry Notes",
+    "why": [
+     "Lige så hurtigt som at skrive en almindelig note.",
+     "En samlet sum for hver eneste dag i din kalender.",
+     "Spendry styrer det store budget, når du har brug for mere.",
+     "Helt gratis og uden oprettelse af konto."
+    ],
+    "faq": [
+     {
+      "q": "Hvordan holder jeg styr på daglige udgifter i en note-app?",
+      "a": "Skriv hver udgift på sin egen linje med beløb i Spendry Notes. Noten lægger det sammen for dig, og hver dags note vises i din kalender med den samlede sum."
+     },
+     {
+      "q": "Kan jeg flytte en udgift til mit budget?",
+      "a": "Ja. Du kan overføre en linje til Spendry som en udgift med et enkelt tryk."
+     },
+     {
+      "q": "Kræver det et banklogin?",
+      "a": "Nej. Du skriver selv dine udgifter ind, og Spendry Notes opretter aldrig forbindelse til en bank."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og saml dagens udgifter i én overskuelig note."
+   },
+   {
+    "key": "renovation-budget-planner",
+    "slug": "renovation-budget-planner",
+    "nav": "Renoveringsbudget",
+    "screen": "plan",
+    "footer": false,
+    "title": "Budget til renovering i en note | Spendry Notes",
+    "description": "Planlæg renoveringsbudgettet i en note. Spendry Notes lægger materialer og arbejde sammen, regner mængder ud og viser betalingsdage i kalenderen.",
+    "h1": "Læg et renoveringsbudget i én samlet note",
+    "lead": "Skriv hvert materiale og hver opgave med pris. Spendry Notes lægger det sammen, udregner mængder og placerer betalingsdatoerne direkte i din kalender.",
+    "points": [
+     {
+      "h": "Materialer efter mængde",
+      "p": "Skriv \"Maling 6 x 350 kr\" eller \"30 fliser til 120 kr pr. stk\", og hver linje regnes automatisk ud."
+     },
+     {
+      "h": "Håndværkere og ekstraudgifter i én total",
+      "p": "Håndværker, levering og rengøring tæller med i det samme samlede beløb, så snart du skriver dem."
+     },
+     {
+      "h": "Betalinger på de rigtige dage",
+      "p": "Skriv \"Depositum den 15. 10000 kr\", og det vises på dagen i din kalender med en påmindelse, hvis du vil have det."
+     },
+     {
+      "h": "Knyttet til en opsparing",
+      "p": "Knyt noten til et opsparingsmål i Spendry, og se, hvad der er tilbage efter renoveringen."
+     }
+    ],
+    "steps_title": "Sådan lægger du et renoveringsbudget",
+    "steps": [
+     "Opret en liste i Spendry Notes til projektet.",
+     "Skriv hvert materiale og arbejde med pris, eller med antal og enhedspris.",
+     "Tilføj datoen på depositummer og regninger, så de ses i kalenderen.",
+     "Kryds af, hvad du har betalt, og se restbeløbet med det samme."
+    ],
+    "why_title": "Hvorfor planlægge renoveringen i Spendry Notes",
+    "why": [
+     "Hele projektet overskueligt i én note med samlet pris.",
+     "Antal og enhedspriser udregnes automatisk for dig.",
+     "Betalingsdage i din kalender med påmindelser efter behov.",
+     "Gratis at hente og gratis at bruge."
+    ],
+    "faq": [
+     {
+      "q": "Hvordan laver jeg et renoveringsbudget på iPhone?",
+      "a": "Lav en liste i Spendry Notes, og skriv hvert materiale og hver opgave med pris. Listen lægger det sammen med separate beløb for det, du har købt, og det, der resterer."
+     },
+     {
+      "q": "Kan appen minde mig om betalinger?",
+      "a": "Ja. Skriv datoen i linjen og slå påmindelse til, så får du en notifikation på selve dagen."
+     },
+     {
+      "q": "Er den gratis?",
+      "a": "Ja. Alle funktioner i Spendry Notes er gratis."
+     }
+    ],
+    "cta": "Hent Spendry Notes, og saml hele renoveringsbudgettet i én enkel note."
+   }
+  ],
+  "bundle": {
+   "slug": "spendry-and-notes",
+   "nav": "Spendry & Notes pakke",
+   "title": "Spendry & Notes: Budget-app og note-app | Spendry Notes",
+   "description": "Få Spendry og Spendry Notes gratis i App Store. Budget, kort og regninger i den ene app, og noter der tæller sammen i den anden.",
+   "h1": "Spendry & Notes: to gratis apps, der arbejder sammen",
+   "lead": "Spendry holder styr på dine budgetter, kort, lån og faste udgifter. Spendry Notes lægger dine lister sammen og gør dine noter til planer. Hent begge med et enkelt tryk i den gratis pakke i App Store.",
+   "spendry_h": "Spendry",
+   "spendry_p": "Budgetter, kreditkort, afdrag, lån, regninger og faste abonnementer samlet ét sted. Spendry giver dig besked i god tid inden forfald og viser den dato, du er gældfri, med snebold- eller lavinemetoden. Intet banklogin, ingen dataindsamling.",
+   "notes_h": "Spendry Notes",
+   "notes_p": "En note-app der forstår tal og penge. Skriv »Mælk 15 kr« eller »Husleje den 28. på 8500 kr«: Spendry Notes lægger dine lister sammen og gør datoer i dine linjer til konkrete planer, mens dit notat forbliver et helt almindeligt notat.",
+   "together_h": "Endnu bedre sammen",
+   "together": [
+    "Knyt en note til et budget, et mål eller et lån i Spendry, og se hvad din liste efterlader.",
+    "Send en linje fra en note over i Spendry som en udgift eller en påmindelse med et enkelt tryk.",
+    "Ét Spendry Premium-abonnement dækker begge apps."
+   ],
+   "faq": [
+    {
+     "q": "Hvad er Spendry & Notes-pakken?",
+     "a": "Det er en gratis pakke i App Store, som installerer både Spendry og Spendry Notes med et enkelt tryk."
+    },
+    {
+     "q": "Koster pakken noget?",
+     "a": "Nej. Begge apps er gratis at hente. Spendry Premium er et valgfrit abonnement, der fornyes automatisk, medmindre du opsiger det, og ét abonnement gælder til begge apps."
+    },
+    {
+     "q": "Hvilke enheder understøttes?",
+     "a": "Spendry virker på iPhone, iPad og Mac, og Spendry Notes virker på iPhone. Begge kræver iOS 17 eller nyere på iPhone."
+    }
+   ],
+   "cta": "Få Spendry og Spendry Notes samlet med et enkelt tryk."
+  }
+ }
 }

@@ -24,6 +24,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "site")
 BASE_URL = "https://spendryapp.com"
 APP_ID = "6754893380"
+# Spendry Notes, the companion notes app, and the free App Store bundle of both (Spendry & Notes, 30 Oct 2026).
+NOTES_ID = "6826541122"
+BUNDLE_ID = "6828348787"
 PROVIDER = "128270734"
 SUPPORT_EMAIL = "support@spendryapp.com"
 YEAR = datetime.date.today().year
@@ -100,6 +103,14 @@ def store_url(lang, place):
     return f"https://apps.apple.com/app/apple-store/id{APP_ID}?pt={PROVIDER}&ct=web-{lang.lower()}-{place}&mt=8"
 
 
+def notes_store_url(lang, place):
+    return f"https://apps.apple.com/app/apple-store/id{NOTES_ID}?pt={PROVIDER}&ct=web-{lang.lower()}-{place}&mt=8"
+
+
+def bundle_url(lang, place):
+    return f"https://apps.apple.com/app-bundle/spendry-notes/id{BUNDLE_ID}?pt={PROVIDER}&ct=web-{lang.lower()}-{place}&mt=8"
+
+
 def merge(base, over):
     """Deep merge: translated values replace English ones, anything missing stays English."""
     out = copy.deepcopy(base)
@@ -126,6 +137,8 @@ def load_content():
                     del value["landing"]
             if "apps" not in own:
                 out[lang].pop("apps", None)
+            if "notes" not in own:
+                out[lang].pop("notes", None)
     return out
 
 
@@ -354,6 +367,16 @@ def store_button(c, lang, place, cls="btn-store"):
             f'<span>{e(c["cta"]["download"])}</span></a>')
 
 
+def notes_button(c, lang, place, cls="btn-store"):
+    return (f'<a class="{cls}" href="{notes_store_url(lang, place)}" data-magnetic rel="noopener">{APPLE}'
+            f'<span>{e(c["notes"]["labels"]["download"])}</span></a>')
+
+
+def bundle_button(c, lang, place, cls="btn-store"):
+    return (f'<a class="{cls}" href="{bundle_url(lang, place)}" data-magnetic rel="noopener">{APPLE}'
+            f'<span>{e(c["notes"]["labels"]["bundle_button"])}</span></a>')
+
+
 # ---------------------------------------------------------------- page frame
 def page(lang, c, path, title, description, body, jsonld, languages, body_class="", not_found=False, preload="", og_title=None,
          paths=None, og_type="website"):
@@ -454,7 +477,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, body_class=
 <div class="foot-top">
 <div class="foot-brand"><a class="brand" href="{home}"><img src="/assets/brand/ribbon-128.webp" alt="" width="30" height="26"><span>Spendry</span></a><p>{e(c['footer']['tagline'])}</p>{store_button(c, lang, 'footer', 'btn-store btn-store-sm')}</div>
 <div class="foot-cols">
-<div><h4>Spendry</h4><ul><li><a href="{home}#features">{e(nav['features'])}</a></li>{app_links(lang, c, 6)}<li><a href="{home}#privacy">{e(nav['privacy'])}</a></li><li><a href="mailto:{SUPPORT_EMAIL}">{e(c['footer']['support'])}</a></li></ul></div>
+<div><h4>Spendry</h4><ul><li><a href="{home}#features">{e(nav['features'])}</a></li>{app_links(lang, c, 6)}{notes_footer_links(lang, c)}<li><a href="{home}#privacy">{e(nav['privacy'])}</a></li><li><a href="mailto:{SUPPORT_EMAIL}">{e(c['footer']['support'])}</a></li></ul></div>
 <div><h4>{e(c['footer']['tools'])}</h4><ul>{tool_links(lang, c)}</ul></div>
 <div><h4>{e(c['guide_labels']['nav'])}</h4><ul>{guide_links(lang, c)}</ul></div>
 <div><h4>{e(c['footer']['legal'])}</h4><ul><li><a href="/privacy-policy.html">{e(c['footer']['privacy_policy'])}</a></li><li><a href="/terms-of-service.html">{e(c['footer']['terms'])}</a></li></ul></div>
@@ -870,7 +893,7 @@ def home_page(lang, c, languages):
         stage_html(lang, c, t), marquee_html(lang, c), statement_html(lang, c), showcase_html(lang, c, t),
         features_html(lang, c), reminders_html(lang, c, t), widgets_html(lang, c),
         automations_html(lang, c, t), privacy_html(lang, c), stats_html(lang, c), faq_html(lang, c),
-        tools_html(lang, c), guides_html(lang, c), final_html(lang, c),
+        tools_html(lang, c), guides_html(lang, c), notes_home_html(lang, c), final_html(lang, c),
     ])
     url = f"{BASE_URL}/{prefix(lang)}"
     d = img_dir(lang)
@@ -1823,6 +1846,7 @@ def app_page(lang, c, languages, a, paths):
     steps = "".join(f"<li data-rise>{e(s)}</li>" for s in a["steps"])
     why = '<ul class="ticks">' + "".join(f"<li>{e(x)}</li>" for x in a["why"]) + "</ul>"
     others = "".join(f'<li><a href="{home}{x["slug"]}/">{e(x["nav"])}</a></li>' for x in c["apps"] if x["key"] != a["key"])
+    others += notes_footer_links(lang, c)
     guides = [by_key[k] for k in a.get("guides", []) if k in by_key]
     body = f"""
 <section class="tool-hero guide-hero" data-theme="dark">
@@ -1851,6 +1875,194 @@ def app_page(lang, c, languages, a, paths):
     ld = [app_ld(lang, c, url), faq_ld(a["faq"]),
           crumbs_ld([("Spendry", f"{BASE_URL}/{prefix(lang)}"), (a["nav"], url)])]
     return page(lang, c, path, short_title(a["title"]), a["description"], body, ld, languages, "page-tool page-guide page-app",
+                paths=paths, og_type="website")
+
+
+# ---------------------------------------------------------------- Spendry Notes and the Spendry & Notes bundle
+# Spendry Notes (iPhone, free) has a page of its own, pages for what people look for a notes app for (grocery lists with
+# prices, notes that calculate, splitting a bill, trip and event budgets...) and a page for the free App Store bundle of
+# both apps. The pictures are the app's own screens in the page's language (assets/img/notes/<lang>/), from the store set.
+NOTES_SHOTS = ("home", "list", "plan", "calendar", "ask", "picker")
+NOTES_IMG = {"es-MX": "es", "fr-CA": "fr", "pt-PT": "pt-BR"}
+
+
+def notes_img_dir(lang):
+    d = NOTES_IMG.get(lang, lang)
+    return d if os.path.isdir(os.path.join(ROOT, "assets", "img", "notes", d)) else "en"
+
+
+def notes_screen(lang, name, alt, sizes="(max-width: 900px) 230px, 300px", fetch_high=False, cls="shot"):
+    d = notes_img_dir(lang)
+    loading = 'fetchpriority="high"' if fetch_high else 'loading="lazy" decoding="async"'
+    return (f'<img class="{cls}" src="/assets/img/notes/{d}/{name}.webp" srcset="/assets/img/notes/{d}/{name}-m.webp 603w, '
+            f'/assets/img/notes/{d}/{name}.webp 1206w" sizes="{sizes}" width="1206" height="2622" alt="{e(alt)}" {loading}>')
+
+
+def notes_ld(lang, c, url, description):
+    d = notes_img_dir(lang)
+    return {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Spendry Notes",
+        "operatingSystem": "iOS 17.0 or later",
+        "applicationCategory": "ProductivityApplication",
+        "description": description,
+        "url": url,
+        "downloadUrl": f"https://apps.apple.com/app/id{NOTES_ID}",
+        "installUrl": f"https://apps.apple.com/app/id{NOTES_ID}",
+        "image": f"{BASE_URL}/assets/brand/notes-icon-512.png",
+        "screenshot": [f"{BASE_URL}/assets/img/notes/{d}/{n}.webp" for n in NOTES_SHOTS],
+        "inLanguage": lang,
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "publisher": organization_ld(),
+    }
+
+
+def notes_page_paths(languages, key):
+    return {x: n["slug"] + "/" for x in languages for n in CONTENT[x].get("notes", {}).get("pages", []) if n["key"] == key}
+
+
+def bundle_paths(languages):
+    return {x: CONTENT[x]["notes"]["bundle"]["slug"] + "/" for x in languages if "notes" in CONTENT[x]}
+
+
+def notes_footer_links(lang, c):
+    """The Notes page and the bundle, for the footer and the lists of Spendry pages."""
+    N = c.get("notes")
+    if not N:
+        return ""
+    home = home_url(lang)
+    hub = N["pages"][0]
+    return (f'<li><a href="{home}{hub["slug"]}/">{e(hub["nav"])}</a></li>'
+            f'<li><a href="{home}{N["bundle"]["slug"]}/">{e(N["bundle"]["nav"])}</a></li>')
+
+
+def notes_links(lang, c, skip=None):
+    N = c["notes"]
+    home = home_url(lang)
+    items = "".join(f'<li><a href="{home}{n["slug"]}/">{e(n["nav"])}</a></li>' for n in N["pages"] if n["key"] != skip)
+    return items + f'<li><a href="{home}{N["bundle"]["slug"]}/">{e(N["bundle"]["nav"])}</a></li>'
+
+
+def notes_cta_html(lang, c, text, shot, place):
+    L = c["notes"]["labels"]
+    return f"""
+<section class="tool-cta" data-theme="light"><div class="wrap"><div class="cta-card cta-notes" data-rise>
+<div class="cta-shot">{notes_screen(lang, shot, L['shot_alts'][shot], "(max-width: 700px) 50vw, 260px")}</div>
+<div class="cta-copy"><img src="/assets/brand/notes-icon-96.webp" alt="" width="56" height="56"><p>{e(text)}</p>
+<div class="notes-buttons">{notes_button(c, lang, place)}{bundle_button(c, lang, place + '-bundle', 'btn-store btn-bundle')}</div></div>
+</div></div></section>"""
+
+
+def notes_home_html(lang, c):
+    """Home: Spendry Notes and the bundle, before the closing call to action."""
+    if "notes" not in c:
+        return ""
+    N = c["notes"]
+    L = N["labels"]
+    home = home_url(lang)
+    return f"""
+<section class="tool-cta notes-home" data-theme="light" id="notes"><div class="wrap"><div class="cta-card cta-notes" data-rise>
+<div class="cta-shot">{notes_screen(lang, 'list', L['shot_alts']['list'], "(max-width: 700px) 50vw, 260px")}</div>
+<div class="cta-copy"><img src="/assets/brand/notes-icon-96.webp" alt="" width="56" height="56" loading="lazy">
+<span class="kicker">{e(L['home_kicker'])}</span><h2 class="title title-sm">{e(L['home_title'])}</h2><p class="notes-text">{e(L['home_text'])}</p>
+<div class="notes-buttons">{notes_button(c, lang, 'home-notes')}{bundle_button(c, lang, 'home-bundle', 'btn-store btn-bundle')}</div>
+<a class="notes-more" href="{home}{N['pages'][0]['slug']}/">{e(L['home_more'])}{icon('arrow')}</a></div>
+</div></div></section>"""
+
+
+def notes_page(lang, c, languages, n, paths):
+    N = c["notes"]
+    L = N["labels"]
+    home = home_url(lang)
+    hub = N["pages"][0]
+    path = n["slug"] + "/"
+    url = f"{BASE_URL}/{prefix(lang)}{path}"
+    points = "".join(f'<h2 data-rise>{e(p["h"])}</h2><p>{e(p["p"])}</p>' for p in n["points"])
+    steps = "".join(f"<li data-rise>{e(s)}</li>" for s in n["steps"])
+    why = '<ul class="ticks">' + "".join(f"<li>{e(x)}</li>" for x in n["why"]) + "</ul>"
+    is_hub = n["key"] == hub["key"]
+    gallery = ""
+    if is_hub:
+        gallery = (f'<h2 data-rise>{e(L["shots"])}</h2><div class="notes-shots">' +
+                   "".join(f'<figure>{notes_screen(lang, x, L["shot_alts"][x], "(max-width: 700px) 44vw, 220px")}</figure>'
+                           for x in NOTES_SHOTS) + "</div>")
+    crumb = (f'<a href="{home}">Spendry</a>{icon("arrow")}<span>{e(n["nav"])}</span>' if is_hub else
+             f'<a href="{home}">Spendry</a>{icon("arrow")}<a href="{home}{hub["slug"]}/">{e(hub["nav"])}</a>{icon("arrow")}<span>{e(n["nav"])}</span>')
+    body = f"""
+<section class="tool-hero guide-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap guide-top"><div class="guide-copy"><nav class="crumbs" aria-label="breadcrumb">{crumb}</nav>
+<h1 class="title title-lg" data-split>{e(n['h1'])}</h1><p class="sub" data-rise="now">{e(n['lead'])}</p>
+<div class="app-cta" data-rise="now">{notes_button(c, lang, 'notes-' + n['key'])}<p>{e(L['free'])}</p></div></div>
+<div class="guide-phone" data-rise="now">{notes_screen(lang, n['screen'], L['shot_alts'][n['screen']], fetch_high=True)}</div></div>
+</section>
+<section class="guide-body" data-theme="light"><div class="wrap">
+<article class="prose guide app-page">
+{points}
+{gallery}
+<h2 data-rise>{e(n['steps_title'])}</h2>
+<ol class="steps">{steps}</ol>
+<h2 data-rise>{e(n['why_title'])}</h2>
+{why}
+<h2 data-rise>{e(c['guide_labels']['faq'])}</h2>
+<div class="qas">{qa_list(n['faq'])}</div>
+<h2>{e(L['more'])}</h2>
+<ul class="amounts app-links">{notes_links(lang, c, skip=n['key'])}</ul>
+<h2>{e(L['spendry_title'])}</h2>
+<ul class="amounts app-links"><li><a href="{home}">Spendry</a></li>{app_links(lang, c, 6)}</ul>
+</article></div></section>
+{notes_cta_html(lang, c, n.get('cta', L['cta']), "plan" if n['screen'] != "plan" else "list", 'notes-' + n['key'])}"""
+    crumbs = [("Spendry", f"{BASE_URL}/{prefix(lang)}")]
+    if not is_hub:
+        crumbs.append((hub["nav"], f"{BASE_URL}/{prefix(lang)}{hub['slug']}/"))
+    crumbs.append((n["nav"], url))
+    ld = [notes_ld(lang, c, url, n["description"]), faq_ld(n["faq"]), crumbs_ld(crumbs)]
+    return page(lang, c, path, short_title(n["title"]), n["description"], body, ld, languages, "page-tool page-guide page-app",
+                paths=paths, og_type="website")
+
+
+def bundle_page(lang, c, languages, paths):
+    N = c["notes"]
+    B = N["bundle"]
+    L = N["labels"]
+    home = home_url(lang)
+    hub = N["pages"][0]
+    path = B["slug"] + "/"
+    url = f"{BASE_URL}/{prefix(lang)}{path}"
+    together = '<ul class="ticks">' + "".join(f"<li>{e(x)}</li>" for x in B["together"]) + "</ul>"
+    body = f"""
+<section class="tool-hero guide-hero" data-theme="dark">
+<div class="aurora-css" aria-hidden="true"></div>
+<div class="wrap guide-top bundle-top"><div class="guide-copy"><nav class="crumbs" aria-label="breadcrumb"><a href="{home}">Spendry</a>{icon('arrow')}<span>{e(B['nav'])}</span></nav>
+<h1 class="title title-lg" data-split>{e(B['h1'])}</h1><p class="sub" data-rise="now">{e(B['lead'])}</p>
+<div class="app-cta" data-rise="now">{bundle_button(c, lang, 'bundle-top')}<p>{e(L['free'])}</p></div></div>
+<div class="bundle-phones" data-rise="now"><div class="guide-phone">{screen(lang, "01", "Spendry", "(max-width: 900px) 180px, 240px", fetch_high=True)}</div>
+<div class="guide-phone">{notes_screen(lang, 'list', L['shot_alts']['list'], "(max-width: 900px) 180px, 240px")}</div></div></div>
+</section>
+<section class="guide-body" data-theme="light"><div class="wrap">
+<article class="prose guide app-page">
+<h2 data-rise>{e(B['spendry_h'])}</h2><p>{e(B['spendry_p'])}</p>
+<p><a class="link-arrow" href="{home}">Spendry{icon('arrow')}</a></p>
+<h2 data-rise>{e(B['notes_h'])}</h2><p>{e(B['notes_p'])}</p>
+<p><a class="link-arrow" href="{home}{hub['slug']}/">{e(hub['nav'])}{icon('arrow')}</a></p>
+<h2 data-rise>{e(B['together_h'])}</h2>
+{together}
+<h2 data-rise>{e(c['guide_labels']['faq'])}</h2>
+<div class="qas">{qa_list(B['faq'])}</div>
+<h2>{e(L['more'])}</h2>
+<ul class="amounts app-links">{"".join(f'<li><a href="{home}{x["slug"]}/">{e(x["nav"])}</a></li>' for x in N["pages"])}</ul>
+<h2>{e(L['spendry_title'])}</h2>
+<ul class="amounts app-links"><li><a href="{home}">Spendry</a></li>{app_links(lang, c, 6)}</ul>
+</article></div></section>
+<section class="tool-cta" data-theme="light"><div class="wrap"><div class="cta-card cta-notes" data-rise>
+<div class="cta-shot">{notes_screen(lang, 'plan', L['shot_alts']['plan'], "(max-width: 700px) 50vw, 260px")}</div>
+<div class="cta-copy"><div class="bundle-icons"><img src="/assets/brand/icon-96.webp" alt="" width="56" height="56"><img src="/assets/brand/notes-icon-96.webp" alt="" width="56" height="56"></div><p>{e(B['cta'])}</p>
+<div class="notes-buttons">{bundle_button(c, lang, 'bundle-end')}</div></div>
+</div></div></section>"""
+    ld = [app_ld(lang, c, f"{BASE_URL}/{prefix(lang)}"), notes_ld(lang, c, f"{BASE_URL}/{prefix(lang)}{hub['slug']}/", hub["description"]),
+          faq_ld(B["faq"]), crumbs_ld([("Spendry", f"{BASE_URL}/{prefix(lang)}"), (B["nav"], url)])]
+    return page(lang, c, path, short_title(B["title"]), B["description"], body, ld, languages, "page-tool page-guide page-app",
                 paths=paths, og_type="website")
 
 
@@ -1975,6 +2187,13 @@ def llms_txt(content):
         return "\n".join(f"- [{g['h1']}]({BASE_URL}/{prefix(lang)}{slug}/{g['slug']}/): {g['description']}" for g in c["guides"])
     def apps(lang, c):
         return "\n".join(f"- [{a['nav']}]({BASE_URL}/{prefix(lang)}{a['slug']}/): {a['description']}" for a in c.get("apps", []))
+    def notes(lang, c):
+        if "notes" not in c:
+            return ""
+        N = c["notes"]
+        rows = [f"- [{n['nav']}]({BASE_URL}/{prefix(lang)}{n['slug']}/): {n['description']}" for n in N["pages"]]
+        rows.append(f"- [{N['bundle']['nav']}]({BASE_URL}/{prefix(lang)}{N['bundle']['slug']}/): {N['bundle']['description']}")
+        return "\n".join(rows)
     def loans(lang, c):
         return "\n".join(f"- [{F['hub']['h1']}]({BASE_URL}/{prefix(lang)}{F['slug']}/): {F['hub']['description']}"
                          for F in c["loan_amounts"]["families"])
@@ -1998,6 +2217,12 @@ and send nothing anywhere. The site is in 47 languages; English is at {BASE_URL}
 ## What the app does
 {apps('en', en)}
 
+## Spendry Notes, the companion notes app, and the Spendry & Notes bundle
+Spendry Notes is a free iPhone notes app that understands money: shopping lists add up as you write, the days in your
+lines become plans on a calendar, and notes can be linked to budgets, goals and loans in Spendry. Spendry and Spendry
+Notes are also a free App Store bundle; one Spendry Premium subscription covers both apps.
+{notes('en', en)}
+
 ## How long credit card debt takes, balance by balance
 {balances('en', en)}
 
@@ -2011,12 +2236,15 @@ and send nothing anywhere. The site is in 47 languages; English is at {BASE_URL}
 ## Türkçe (Turkish)
 {tools('tr', tr)}
 {apps('tr', tr)}
+{notes('tr', tr)}
 {balances('tr', tr)}
 {loans('tr', tr)}
 {guides('tr', tr)}
 
 ## App
 - [Spendry on the App Store]({store_url('en', 'llms')})
+- [Spendry Notes on the App Store]({notes_store_url('en', 'llms')})
+- [Spendry & Notes bundle on the App Store]({bundle_url('en', 'llms')})
 - [Privacy policy]({BASE_URL}/privacy-policy.html)
 - [Terms of service]({BASE_URL}/terms-of-service.html)
 - Support: support@spendryapp.com
@@ -2110,6 +2338,10 @@ def main():
         out("guides", guides_index_page(lang, c, languages, P["guides"]))
         for a in c.get("apps", []):
             write(f"{prefix(lang)}{a['slug']}/index.html", app_page(lang, c, languages, a, app_page_paths(languages, a["key"])))
+        if "notes" in c:
+            for n in c["notes"]["pages"]:
+                write(f"{prefix(lang)}{n['slug']}/index.html", notes_page(lang, c, languages, n, notes_page_paths(languages, n["key"])))
+            write(f"{prefix(lang)}{c['notes']['bundle']['slug']}/index.html", bundle_page(lang, c, languages, bundle_paths(languages)))
         if lang in SAVE_LANGS:
             write(f"{prefix(lang)}{c['save_amounts']['slug']}/index.html", save_hub_page(lang, c, languages))
             for amount in c["save_amounts"]["amounts"]:
@@ -2142,6 +2374,14 @@ def main():
             ap = app_page_paths(languages, a["key"])
             alts = "".join(f'<xhtml:link rel="alternate" hreflang="{x}" href="{BASE_URL}/{prefix(x)}{ap[x]}"/>' for x in ap)
             urls.append(f"<url><loc>{BASE_URL}/{prefix(lang)}{a['slug']}/</loc><lastmod>{BUILD_DATE}</lastmod>{alts}</url>")
+        if "notes" in content[lang]:
+            pages = [(n["slug"], notes_page_paths(languages, n["key"])) for n in content[lang]["notes"]["pages"]]
+            pages.append((content[lang]["notes"]["bundle"]["slug"], bundle_paths(languages)))
+            for slug, ap in pages:
+                alts = "".join(f'<xhtml:link rel="alternate" hreflang="{x}" href="{BASE_URL}/{prefix(x)}{ap[x]}"/>' for x in ap)
+                if "en" in ap:
+                    alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{BASE_URL}/{ap["en"]}"/>'
+                urls.append(f"<url><loc>{BASE_URL}/{prefix(lang)}{slug}/</loc><lastmod>{BUILD_DATE}</lastmod>{alts}</url>")
         if lang in LOAN_LANGS:
             for F in content[lang]["loan_amounts"]["families"]:
                 urls += [f"<url><loc>{BASE_URL}/{prefix(lang)}{x}</loc><lastmod>{BUILD_DATE}</lastmod></url>"
