@@ -46,8 +46,6 @@
 !function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e=e||self).window=e.window||{})}(this,function(e){"use strict";function m(e){return Math.round(1e5*e)/1e5||0}function n(e){return e.closed=Math.abs(e[0]-e[e.length-2])<.001&&Math.abs(e[1]-e[e.length-1])<.001}var w=/[achlmqstvz]|(-?\d*\.?\d*(?:e[\-+]?\d+)?)[0-9]/gi,P=/[\+\-]?\d*\.?\d+e[\+\-]?\d+/gi,Y=Math.PI/180,k=Math.sin,B=Math.cos,F=Math.abs,J=Math.sqrt;function arcToSegment(e,t,n,s,a,r,i,o,h){if(e!==o||t!==h){n=F(n),s=F(s);var u=a%360*Y,f=B(u),c=k(u),l=Math.PI,g=2*l,m=(e-o)/2,x=(t-h)/2,d=f*m+c*x,y=-c*m+f*x,p=d*d,M=y*y,v=p/(n*n)+M/(s*s);1<v&&(n=J(v)*n,s=J(v)*s);var C=n*n,E=s*s,b=(C*E-C*M-E*p)/(C*M+E*p);b<0&&(b=0);var w=(r===i?-1:1)*J(b),P=n*y/s*w,S=-s*d/n*w,N=f*P-c*S+(e+o)/2,D=c*P+f*S+(t+h)/2,T=(d-P)/n,V=(y-S)/s,_=(-d-P)/n,q=(-y-S)/s,A=T*T+V*V,R=(V<0?-1:1)*Math.acos(T/J(A)),G=(T*q-V*_<0?-1:1)*Math.acos((T*_+V*q)/J(A*(_*_+q*q)));isNaN(G)&&(G=l),!i&&0<G?G-=g:i&&G<0&&(G+=g),R%=g,G%=g;var L,O=Math.ceil(F(G)/(g/4)),j=[],z=G/O,I=4/3*k(z/2)/(1+B(z/2)),H=f*n,Q=c*n,Z=c*-s,U=f*s;for(L=0;L<O;L++)d=B(a=R+L*z),y=k(a),T=B(a+=z),V=k(a),j.push(d-I*y,y+I*d,T+I*V,V-I*T,T,V);for(L=0;L<j.length;L+=2)d=j[L],y=j[L+1],j[L]=d*H+y*Z+N,j[L+1]=d*Q+y*U+D;return j[L-2]=o,j[L-1]=h,j}}function stringToRawPath(e){function fb(e,t,n,s){c=(n-e)/3,l=(s-t)/3,h.push(e+c,t+l,n-c,s-l,n,s)}var t,s,a,r,i,o,h,u,f,c,l,g,m,x,d,y=(e+"").replace(P,function(e){var t=+e;return t<1e-4&&-1e-4<t?0:t}).match(w)||[],p=[],M=0,v=0,C=y.length,E=0,b="ERROR: malformed path: "+e;if(!e||!isNaN(y[0])||isNaN(y[1]))return console.log(b),p;for(t=0;t<C;t++)if(m=i,isNaN(y[t])?o=(i=y[t].toUpperCase())!==y[t]:t--,a=+y[t+1],r=+y[t+2],o&&(a+=M,r+=v),t||(u=a,f=r),"M"===i)h&&(h.length<8?--p.length:E+=h.length,n(h)),M=u=a,v=f=r,h=[a,r],p.push(h),t+=2,i="L";else if("C"===i)o||(M=v=0),(h=h||[0,0]).push(a,r,M+1*y[t+3],v+1*y[t+4],M+=1*y[t+5],v+=1*y[t+6]),t+=6;else if("S"===i)c=M,l=v,"C"!==m&&"S"!==m||(c+=M-h[h.length-4],l+=v-h[h.length-3]),o||(M=v=0),h.push(c,l,a,r,M+=1*y[t+3],v+=1*y[t+4]),t+=4;else if("Q"===i)c=M+2/3*(a-M),l=v+2/3*(r-v),o||(M=v=0),M+=1*y[t+3],v+=1*y[t+4],h.push(c,l,M+2/3*(a-M),v+2/3*(r-v),M,v),t+=4;else if("T"===i)c=M-h[h.length-4],l=v-h[h.length-3],h.push(M+c,v+l,a+2/3*(M+1.5*c-a),r+2/3*(v+1.5*l-r),M=a,v=r),t+=2;else if("H"===i)fb(M,v,M=a,v),t+=1;else if("V"===i)fb(M,v,M,v=a+(o?v-M:0)),t+=1;else if("L"===i||"Z"===i)"Z"===i&&(a=u,r=f,h.closed=!0),("L"===i||.5<F(M-a)||.5<F(v-r))&&(fb(M,v,a,r),"L"===i&&(t+=2)),M=a,v=r;else if("A"===i){if(x=y[t+4],d=y[t+5],c=y[t+6],l=y[t+7],s=7,1<x.length&&(x.length<3?(l=c,c=d,s--):(l=d,c=x.substr(2),s-=2),d=x.charAt(1),x=x.charAt(0)),g=arcToSegment(M,v,+y[t+1],+y[t+2],+y[t+3],+x,+d,(o?M:0)+1*c,(o?v:0)+1*l),t+=s,g)for(s=0;s<g.length;s++)h.push(g[s]);M=h[h.length-2],v=h[h.length-1]}else console.log(b);return(t=h.length)<6?(p.pop(),t=0):n(h),p.totalPoints=E+t,p}function q(){return M||"undefined"!=typeof window&&(M=window.gsap)&&M.registerPlugin&&M}function r(){(M=q())?(M.registerEase("_CE",i.create),s=1):console.warn("Please gsap.registerPlugin(CustomEase)")}function t(e){return~~(1e3*e+(e<0?-.5:.5))/1e3}function y(e,t,n,s,a,r,i,o,h,u,f){var c,l=(e+n)/2,g=(t+s)/2,m=(n+a)/2,x=(s+r)/2,d=(a+i)/2,p=(r+o)/2,M=(l+m)/2,v=(g+x)/2,C=(m+d)/2,E=(x+p)/2,b=(M+C)/2,w=(v+E)/2,P=i-e,S=o-t,N=Math.abs((n-i)*S-(s-o)*P),D=Math.abs((a-i)*S-(r-o)*P);return u||(u=[{x:e,y:t},{x:i,y:o}],f=1),u.splice(f||u.length-1,0,{x:b,y:w}),h*(P*P+S*S)<(N+D)*(N+D)&&(c=u.length,y(e,t,l,g,M,v,b,w,h,u,f),y(b,w,C,E,d,p,i,o,h,u,f+1+(u.length-c))),u}var M,s,a,p=/[-+=.]*\d+[.e\-+]*\d*[e\-+]*\d*/gi,v=/[cLlsSaAhHvVtTqQ]/g,i=((a=CustomEase.prototype).setData=function setData(e,t){t=t||{};var n,s,a,r,i,o,h,u,f,c=(e=e||"0,0,1,1").match(p),l=1,g=[],m=[],x=t.precision||1,d=x<=1;if(this.data=e,(v.test(e)||~e.indexOf("M")&&e.indexOf("C")<0)&&(c=stringToRawPath(e)[0]),4===(n=c.length))c.unshift(0,0),c.push(1,1),n=8;else if((n-2)%6)throw"Invalid CustomEase";for(0==+c[0]&&1==+c[n-2]||function _normalize(e,t,n){n||0===n||(n=Math.max(+e[e.length-1],+e[1]));var s,a=-1*e[0],r=-n,i=e.length,o=1/(+e[i-2]+a),h=-t||(Math.abs(e[i-1]-e[1])<.01*(e[i-2]-e[0])?function _findMinimum(e){var t,n=e.length,s=1e20;for(t=1;t<n;t+=6)+e[t]<s&&(s=+e[t]);return s}(e)+r:+e[i-1]+r);for(h=h?1/h:-o,s=0;s<i;s+=2)e[s]=(+e[s]+a)*o,e[s+1]=(+e[s+1]+r)*h}(c,t.height,t.originY),this.segment=c,r=2;r<n;r+=6)s={x:+c[r-2],y:+c[r-1]},a={x:+c[r+4],y:+c[r+5]},g.push(s,a),y(s.x,s.y,+c[r],+c[r+1],+c[r+2],+c[r+3],a.x,a.y,1/(2e5*x),g,g.length-1);for(n=g.length,r=0;r<n;r++)h=g[r],u=g[r-1]||h,(h.x>u.x||u.y!==h.y&&u.x===h.x||h===u)&&h.x<=1?(u.cx=h.x-u.x,u.cy=h.y-u.y,u.n=h,u.nx=h.x,d&&1<r&&2<Math.abs(u.cy/u.cx-g[r-2].cy/g[r-2].cx)&&(d=0),u.cx<l&&(u.cx?l=u.cx:(u.cx=.001,r===n-1&&(u.x-=.001,l=Math.min(l,.001),d=0)))):(g.splice(r--,1),n--);if(i=1/(n=1/l+1|0),h=g[o=0],d){for(r=0;r<n;r++)f=r*i,h.nx<f&&(h=g[++o]),s=h.y+(f-h.x)/h.cx*h.cy,m[r]={x:f,cx:i,y:s,cy:0,nx:9},r&&(m[r-1].cy=s-m[r-1].y);o=g[g.length-1],m[n-1].cy=o.y-s,m[n-1].cx=o.x-m[m.length-1].x}else{for(r=0;r<n;r++)h.nx<r*i&&(h=g[++o]),m[r]=h;o<g.length-1&&(m[r-1]=g[g.length-2])}return this.ease=function(e){var t=m[e*n|0]||m[n-1];return t.nx<e&&(t=t.n),t.y+(e-t.x)/t.cx*t.cy},(this.ease.custom=this).id&&M&&M.registerEase(this.id,this.ease),this},a.getSVGData=function getSVGData(e){return CustomEase.getSVGData(this,e)},CustomEase.create=function create(e,t,n){return new CustomEase(e,t,n).ease},CustomEase.register=function register(e){M=e,r()},CustomEase.get=function get(e){return M.parseEase(e)},CustomEase.getSVGData=function getSVGData(e,n){var s,a,r,i,o,h,u,f,c,l,g=(n=n||{}).width||100,x=n.height||100,d=n.x||0,y=(n.y||0)+x,p=M.utils.toArray(n.path)[0];if(n.invert&&(x=-x,y=0),"string"==typeof e&&(e=M.parseEase(e)),e.custom&&(e=e.custom),e instanceof CustomEase)s=function rawPathToString(e){!function _isNumber(e){return"number"==typeof e}(e[0])||(e=[e]);var t,n,s,a,r="",i=e.length;for(n=0;n<i;n++){for(a=e[n],r+="M"+m(a[0])+","+m(a[1])+" C",t=a.length,s=2;s<t;s++)r+=m(a[s++])+","+m(a[s++])+" "+m(a[s++])+","+m(a[s++])+" "+m(a[s++])+","+m(a[s])+" ";a.closed&&(r+="z")}return r}(function transformRawPath(e,t,n,s,a,r,i){for(var o,h,u,f,c,l=e.length;-1<--l;)for(h=(o=e[l]).length,u=0;u<h;u+=2)f=o[u],c=o[u+1],o[u]=f*t+c*s+r,o[u+1]=f*n+c*a+i;return e._dirty=1,e}([e.segment.slice(0)],g,0,0,-x,d,y));else{for(s=[d,y],i=1/(u=Math.max(5,200*(n.precision||1))),f=5/(u+=2),c=t(d+i*g),a=((l=t(y+e(i)*-x))-y)/(c-d),r=2;r<u;r++)o=t(d+r*i*g),h=t(y+e(r*i)*-x),(Math.abs((h-l)/(o-c)-a)>f||r===u-1)&&(s.push(c,l),a=(h-l)/(o-c)),c=o,l=h;s="M"+s.join(",")}return p&&p.setAttribute("d",s),s},CustomEase);function CustomEase(e,t,n){s||r(),this.id=e,this.setData(t,n)}i.version="3.15.0",i.headless=!0,q()&&M.registerPlugin(i),e.CustomEase=i,e.default=i;if (typeof(window)==="undefined"||window!==e){Object.defineProperty(e,"__esModule",{value:!0})} else {delete e.default}});
 
 ;
-(function(){var e=`1.3.26`;function t(e,t,n){return Math.max(e,Math.min(t,n))}function n(e,t,n){return(1-n)*e+n*t}function r(e,t,r,i){return n(e,t,1-Math.exp(-r*i))}function i(e,t){return(e%t+t)%t}var a=class{isRunning=!1;value=0;from=0;to=0;currentTime=0;lerp;duration;easing;onUpdate;advance(e){if(!this.isRunning)return;let n=!1;if(this.duration&&this.easing){this.currentTime+=e;let r=t(0,this.currentTime/this.duration,1);n=r>=1;let i=n?1:this.easing(r);this.value=this.from+(this.to-this.from)*i}else this.lerp?(this.value=r(this.value,this.to,this.lerp*60,e),Math.round(this.value)===Math.round(this.to)&&(this.value=this.to,n=!0)):(this.value=this.to,n=!0);n&&this.stop(),this.onUpdate?.(this.value,n)}stop(){this.isRunning=!1}fromTo(e,t,{lerp:n,duration:r,easing:i,onStart:a,onUpdate:o}){this.from=this.value=e,this.to=t,this.lerp=n,this.duration=r,this.easing=i,this.currentTime=0,this.isRunning=!0,a?.(),this.onUpdate=o}};function o(e,t){let n;return function(...r){clearTimeout(n),n=setTimeout(()=>{n=void 0,e.apply(this,r)},t)}}var s=class{width=0;height=0;scrollHeight=0;scrollWidth=0;debouncedResize;wrapperResizeObserver;contentResizeObserver;constructor(e,t,{autoResize:n=!0,debounce:r=250}={}){this.wrapper=e,this.content=t,n&&(this.debouncedResize=o(this.resize,r),this.wrapper instanceof Window?window.addEventListener(`resize`,this.debouncedResize):(this.wrapperResizeObserver=new ResizeObserver(this.debouncedResize),this.wrapperResizeObserver.observe(this.wrapper)),this.contentResizeObserver=new ResizeObserver(this.debouncedResize),this.contentResizeObserver.observe(this.content)),this.resize()}destroy(){this.wrapperResizeObserver?.disconnect(),this.contentResizeObserver?.disconnect(),this.wrapper===window&&this.debouncedResize&&window.removeEventListener(`resize`,this.debouncedResize)}resize=()=>{this.onWrapperResize(),this.onContentResize()};onWrapperResize=()=>{this.wrapper instanceof Window?(this.width=window.innerWidth,this.height=window.innerHeight):(this.width=this.wrapper.clientWidth,this.height=this.wrapper.clientHeight)};onContentResize=()=>{this.wrapper instanceof Window?(this.scrollHeight=this.content.scrollHeight,this.scrollWidth=this.content.scrollWidth):(this.scrollHeight=this.wrapper.scrollHeight,this.scrollWidth=this.wrapper.scrollWidth)};get limit(){return{x:this.scrollWidth-this.width,y:this.scrollHeight-this.height}}},c=class{events={};emit(e,...t){let n=this.events[e]||[];for(let e=0,r=n.length;e<r;e++)n[e]?.(...t)}on(e,t){return this.events[e]?this.events[e].push(t):this.events[e]=[t],()=>{this.events[e]=this.events[e]?.filter(e=>t!==e)}}off(e,t){this.events[e]=this.events[e]?.filter(e=>t!==e)}destroy(){this.events={}}};let l={passive:!1};function u(e,t){return e===1?16.666666666666668:e===2?t:1}var d=class{touchStart={x:0,y:0};lastDelta={x:0,y:0};window={width:0,height:0};emitter=new c;constructor(e,t={wheelMultiplier:1,touchMultiplier:1}){this.element=e,this.options=t,window.addEventListener(`resize`,this.onWindowResize),this.onWindowResize(),this.element.addEventListener(`wheel`,this.onWheel,l),this.element.addEventListener(`touchstart`,this.onTouchStart,l),this.element.addEventListener(`touchmove`,this.onTouchMove,l),this.element.addEventListener(`touchend`,this.onTouchEnd,l)}on(e,t){return this.emitter.on(e,t)}destroy(){this.emitter.destroy(),window.removeEventListener(`resize`,this.onWindowResize),this.element.removeEventListener(`wheel`,this.onWheel,l),this.element.removeEventListener(`touchstart`,this.onTouchStart,l),this.element.removeEventListener(`touchmove`,this.onTouchMove,l),this.element.removeEventListener(`touchend`,this.onTouchEnd,l)}onTouchStart=e=>{let{clientX:t,clientY:n}=e.targetTouches?e.targetTouches[0]:e;this.touchStart.x=t,this.touchStart.y=n,this.lastDelta={x:0,y:0},this.emitter.emit(`scroll`,{deltaX:0,deltaY:0,event:e})};onTouchMove=e=>{let{clientX:t,clientY:n}=e.targetTouches?e.targetTouches[0]:e,r=-(t-this.touchStart.x)*this.options.touchMultiplier,i=-(n-this.touchStart.y)*this.options.touchMultiplier;this.touchStart.x=t,this.touchStart.y=n,this.lastDelta={x:r,y:i},this.emitter.emit(`scroll`,{deltaX:r,deltaY:i,event:e})};onTouchEnd=e=>{this.emitter.emit(`scroll`,{deltaX:this.lastDelta.x,deltaY:this.lastDelta.y,event:e})};onWheel=e=>{let{deltaX:t,deltaY:n,deltaMode:r}=e,i=u(r,this.window.width),a=u(r,this.window.height);t*=i,n*=a,t*=this.options.wheelMultiplier,n*=this.options.wheelMultiplier,this.emitter.emit(`scroll`,{deltaX:t,deltaY:n,event:e})};onWindowResize=()=>{this.window={width:window.innerWidth,height:window.innerHeight}}};let f=e=>Math.min(1,1.001-2**(-10*e));var p=class{_isScrolling=!1;_isStopped=!1;_isLocked=!1;_preventNextNativeScrollEvent=!1;_resetVelocityTimeout=null;_rafId=null;_isDraggingSelection=!1;reducedMotionMediaQuery=window.matchMedia(`(prefers-reduced-motion: reduce)`);isTouching;isIos;time=0;userData={};lastVelocity=0;velocity=0;direction=0;options;targetScroll;animatedScroll;animate=new a;emitter=new c;dimensions;virtualScroll;constructor({wrapper:t=window,content:n=document.documentElement,eventsTarget:r=t,smoothWheel:i=!0,syncTouch:a=!1,syncTouchLerp:o=.075,touchInertiaExponent:c=1.7,duration:l,easing:u,lerp:p=.1,infinite:m=!1,orientation:h=`vertical`,gestureOrientation:g=h===`horizontal`?`both`:`vertical`,touchMultiplier:_=1,wheelMultiplier:v=1,autoResize:y=!0,prevent:b,virtualScroll:x,overscroll:S=!0,autoRaf:C=!1,anchors:w=!1,autoToggle:T=!1,allowNestedScroll:E=!1,__experimental__naiveDimensions:D=!1,naiveDimensions:O=D,stopInertiaOnNavigate:k=!1,respectReducedMotion:A=!0}={}){window.lenisVersion=e,window.lenis||(window.lenis={}),window.lenis.version=e,h===`horizontal`&&(window.lenis.horizontal=!0),a===!0&&(window.lenis.touch=!0),this.isIos=/(iPad|iPhone|iPod)/g.test(navigator.userAgent),(!t||t===document.documentElement)&&(t=window),typeof l==`number`&&typeof u!=`function`?u=f:typeof u==`function`&&typeof l!=`number`&&(l=1),this.options={wrapper:t,content:n,eventsTarget:r,smoothWheel:i,syncTouch:a,syncTouchLerp:o,touchInertiaExponent:c,duration:l,easing:u,lerp:p,infinite:m,gestureOrientation:g,orientation:h,touchMultiplier:_,wheelMultiplier:v,autoResize:y,prevent:b,virtualScroll:x,overscroll:S,autoRaf:C,anchors:w,autoToggle:T,allowNestedScroll:E,naiveDimensions:O,stopInertiaOnNavigate:k,respectReducedMotion:A},this.dimensions=new s(t,n,{autoResize:y}),this.updateClassName(),this.targetScroll=this.animatedScroll=this.actualScroll,this.options.wrapper.addEventListener(`scroll`,this.onNativeScroll),this.options.wrapper.addEventListener(`scrollend`,this.onScrollEnd,{capture:!0}),(this.options.anchors||this.options.stopInertiaOnNavigate)&&this.options.wrapper.addEventListener(`click`,this.onClick),this.options.wrapper.addEventListener(`pointerdown`,this.onPointerDown),this.virtualScroll=new d(r,{touchMultiplier:_,wheelMultiplier:v}),this.virtualScroll.on(`scroll`,this.onVirtualScroll),this.options.autoToggle&&(this.checkOverflow(),this.rootElement.addEventListener(`transitionend`,this.onTransitionEnd)),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}destroy(){this.emitter.destroy(),this.options.wrapper.removeEventListener(`scroll`,this.onNativeScroll),this.options.wrapper.removeEventListener(`scrollend`,this.onScrollEnd,{capture:!0}),this.options.wrapper.removeEventListener(`pointerdown`,this.onPointerDown),(this.options.anchors||this.options.stopInertiaOnNavigate)&&this.options.wrapper.removeEventListener(`click`,this.onClick),this.virtualScroll.destroy(),this.dimensions.destroy(),this.cleanUpClassName(),this._rafId&&cancelAnimationFrame(this._rafId)}on(e,t){return this.emitter.on(e,t)}off(e,t){return this.emitter.off(e,t)}onScrollEnd=e=>{e instanceof CustomEvent||(this.isScrolling===`smooth`||this.isScrolling===!1)&&e.stopPropagation()};dispatchScrollendEvent=()=>{this.options.wrapper.dispatchEvent(new CustomEvent(`scrollend`,{bubbles:this.options.wrapper===window,detail:{lenisScrollEnd:!0}}))};get overflow(){let e=this.isHorizontal?`overflow-x`:`overflow-y`;return getComputedStyle(this.rootElement)[e]}checkOverflow(){[`hidden`,`clip`].includes(this.overflow)?this.internalStop():this.internalStart()}onTransitionEnd=e=>{e.propertyName?.includes(`overflow`)&&e.target===this.rootElement&&this.checkOverflow()};setScroll(e){this.isHorizontal?this.options.wrapper.scrollTo({left:e,behavior:`instant`}):this.options.wrapper.scrollTo({top:e,behavior:`instant`})}onClick=e=>{let t=e.composedPath().filter(e=>e instanceof HTMLAnchorElement&&e.href).map(e=>new URL(e.href)),n=new URL(window.location.href);if(this.options.anchors){let e=t.find(e=>n.host===e.host&&n.pathname===e.pathname&&e.hash);if(e){let t=typeof this.options.anchors==`object`&&this.options.anchors?this.options.anchors:void 0,n=decodeURIComponent(e.hash);this.scrollTo(n,t);return}}if(this.options.stopInertiaOnNavigate&&t.some(e=>n.host===e.host&&n.pathname!==e.pathname)){this.reset();return}};onPointerDown=e=>{e.button===1&&this.reset()};isTouchOnSelectionHandle(e){let t=window.getSelection();if(!t||t.isCollapsed||t.rangeCount===0)return!1;let n=e.targetTouches[0]??e.changedTouches[0];if(!n)return!1;let r=t.getRangeAt(0).getClientRects();if(r.length===0)return!1;let i=r[0],a=r[r.length-1],o=Math.hypot(n.clientX-i.left,n.clientY-i.top)<=40,s=Math.hypot(n.clientX-a.right,n.clientY-a.bottom)<=40;return o||s}onVirtualScroll=e=>{if(typeof this.options.virtualScroll==`function`&&this.options.virtualScroll(e)===!1)return;let{deltaX:t,deltaY:n,event:r}=e;if(this.emitter.emit(`virtual-scroll`,{deltaX:t,deltaY:n,event:r}),r.ctrlKey||r.lenisStopPropagation)return;let i=r.type.includes(`touch`),a=r.type.includes(`wheel`);if(i&&this.isIos&&(r.type===`touchstart`&&(this._isDraggingSelection=this.isTouchOnSelectionHandle(r)),this._isDraggingSelection)){r.type===`touchend`&&(this._isDraggingSelection=!1);return}this.isTouching=r.type===`touchstart`||r.type===`touchmove`;let o=t===0&&n===0;if(this.options.syncTouch&&i&&r.type===`touchstart`&&o&&!this.isStopped&&!this.isLocked){this.reset();return}let s=this.options.gestureOrientation===`vertical`&&n===0||this.options.gestureOrientation===`horizontal`&&t===0;if(o||s)return;let c=r.composedPath();c=c.slice(0,c.indexOf(this.rootElement));let l=this.options.prevent,u=Math.abs(t)>=Math.abs(n)?`horizontal`:`vertical`;if(c.find(e=>e instanceof HTMLElement&&(typeof l==`function`&&l?.(e)||e.hasAttribute?.(`data-lenis-prevent`)||u===`vertical`&&e.hasAttribute?.(`data-lenis-prevent-vertical`)||u===`horizontal`&&e.hasAttribute?.(`data-lenis-prevent-horizontal`)||i&&e.hasAttribute?.(`data-lenis-prevent-touch`)||a&&e.hasAttribute?.(`data-lenis-prevent-wheel`)||this.options.allowNestedScroll&&this.hasNestedScroll(e,{deltaX:t,deltaY:n}))))return;if(this.isStopped||this.isLocked){r.cancelable&&r.preventDefault();return}if(!(this.options.syncTouch&&i||this.options.smoothWheel&&a)){this.isScrolling=`native`,this.animate.stop(),r.lenisStopPropagation=!0;return}let d=n;this.options.gestureOrientation===`both`?d=Math.abs(n)>Math.abs(t)?n:t:this.options.gestureOrientation===`horizontal`&&(d=t),(!this.options.overscroll||this.options.infinite||this.options.wrapper!==window&&this.limit>0&&(this.animatedScroll>0&&this.animatedScroll<this.limit||this.animatedScroll===0&&n>0||this.animatedScroll===this.limit&&n<0))&&(r.lenisStopPropagation=!0),r.cancelable&&r.preventDefault();let f=i&&this.options.syncTouch,p=i&&r.type===`touchend`;p&&(d=Math.sign(d)*Math.abs(this.velocity)**this.options.touchInertiaExponent),this.scrollTo(this.targetScroll+d,{programmatic:!1,...f?{lerp:p?this.options.syncTouchLerp:1}:{lerp:this.options.lerp,duration:this.options.duration,easing:this.options.easing}})};resize(){this.dimensions.resize(),this.animatedScroll=this.targetScroll=this.actualScroll,this.emit()}emit(){this.emitter.emit(`scroll`,this)}onNativeScroll=()=>{if(this._resetVelocityTimeout!==null&&(clearTimeout(this._resetVelocityTimeout),this._resetVelocityTimeout=null),this._preventNextNativeScrollEvent){this._preventNextNativeScrollEvent=!1;return}if(this.isScrolling===!1||this.isScrolling===`native`){let e=this.animatedScroll;this.animatedScroll=this.targetScroll=this.actualScroll,this.lastVelocity=this.velocity,this.velocity=this.animatedScroll-e,this.direction=Math.sign(this.animatedScroll-e),this.isStopped||(this.isScrolling=`native`),this.emit(),this.velocity!==0&&(this._resetVelocityTimeout=setTimeout(()=>{this.lastVelocity=this.velocity,this.velocity=0,this.isScrolling=!1,this.emit()},400))}};reset(){this.isLocked=!1,this.isScrolling=!1,this.animatedScroll=this.targetScroll=this.actualScroll,this.lastVelocity=this.velocity=0,this.animate.stop()}start(){if(this.isStopped){if(this.options.autoToggle){this.rootElement.style.removeProperty(`overflow`);return}this.internalStart()}}internalStart(){this.isStopped&&(this.reset(),this.isStopped=!1,this.emit())}stop(){if(!this.isStopped){if(this.options.autoToggle){this.rootElement.style.setProperty(`overflow`,`clip`);return}this.internalStop()}}internalStop(){this.isStopped||(this.reset(),this.isStopped=!0,this.emit())}raf=e=>{let t=e-(this.time||e);this.time=e,this.animate.advance(t*.001),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))};scrollTo(e,{offset:n=0,immediate:r=!1,lock:i=!1,programmatic:a=!0,lerp:o=a?this.options.lerp:void 0,duration:s=a?this.options.duration:void 0,easing:c=a?this.options.easing:void 0,onStart:l,onComplete:u,force:d=!1,userData:p}={}){if(this.prefersReducedMotion&&(a?r=!0:(o=1,s=void 0,c=void 0)),(this.isStopped||this.isLocked)&&!d)return;let m=e,h=n;if(typeof m==`string`&&[`top`,`left`,`start`,`#`].includes(m))m=0;else if(typeof m==`string`&&[`bottom`,`right`,`end`].includes(m))m=this.limit;else{let e=null;if(typeof m==`string`?(e=m.startsWith(`#`)?document.getElementById(m.slice(1)):document.querySelector(m),e||(m===`#top`?m=0:console.warn(`Lenis: Target not found`,m))):m instanceof HTMLElement&&m?.nodeType&&(e=m),e){if(this.options.wrapper!==window){let e=this.rootElement.getBoundingClientRect();h-=this.isHorizontal?e.left:e.top}let t=e.getBoundingClientRect(),n=getComputedStyle(e),r=this.isHorizontal?Number.parseFloat(n.scrollMarginLeft):Number.parseFloat(n.scrollMarginTop),i=getComputedStyle(this.rootElement),a=this.isHorizontal?Number.parseFloat(i.scrollPaddingLeft):Number.parseFloat(i.scrollPaddingTop);m=(this.isHorizontal?t.left:t.top)+this.animatedScroll-(Number.isNaN(r)?0:r)-(Number.isNaN(a)?0:a)}}if(typeof m==`number`){if(m+=h,this.options.infinite){if(a){this.targetScroll=this.animatedScroll=this.scroll;let e=m-this.animatedScroll;e>this.limit/2?m-=this.limit:e<-this.limit/2&&(m+=this.limit)}}else m=t(0,m,this.limit);if(m===this.targetScroll){l?.(this),u?.(this);return}if(this.userData=p??{},r){this.animatedScroll=this.targetScroll=m,this.setScroll(this.scroll),this.reset(),this.preventNextNativeScrollEvent(),this.emit(),u?.(this),this.userData={},requestAnimationFrame(()=>{this.dispatchScrollendEvent()});return}a||(this.targetScroll=m),typeof s==`number`&&typeof c!=`function`?c=f:typeof c==`function`&&typeof s!=`number`&&(s=1),this.animate.fromTo(this.animatedScroll,m,{duration:s,easing:c,lerp:o,onStart:()=>{i&&(this.isLocked=!0),this.isScrolling=`smooth`,l?.(this)},onUpdate:(e,t)=>{this.isScrolling=`smooth`,this.lastVelocity=this.velocity,this.velocity=e-this.animatedScroll,this.direction=Math.sign(this.velocity),this.animatedScroll=e,this.setScroll(this.scroll),a&&(this.targetScroll=e),t||this.emit(),t&&(this.reset(),this.emit(),u?.(this),this.userData={},requestAnimationFrame(()=>{this.dispatchScrollendEvent()}),this.preventNextNativeScrollEvent())}})}}preventNextNativeScrollEvent(){this._preventNextNativeScrollEvent=!0,requestAnimationFrame(()=>{this._preventNextNativeScrollEvent=!1})}hasNestedScroll(e,{deltaX:t,deltaY:n}){let r=Date.now();e._lenis||={};let i=e._lenis,a,o,s,c,l,u,d,f,p,m;if(r-(i.time??0)>2e3){i.time=Date.now();let t=window.getComputedStyle(e);if(i.computedStyle=t,a=[`auto`,`overlay`,`scroll`].includes(t.overflowX),o=[`auto`,`overlay`,`scroll`].includes(t.overflowY),l=[`auto`].includes(t.overscrollBehaviorX),u=[`auto`].includes(t.overscrollBehaviorY),i.hasOverflowX=a,i.hasOverflowY=o,!(a||o))return!1;d=e.scrollWidth,f=e.scrollHeight,p=e.clientWidth,m=e.clientHeight,s=d>p,c=f>m,i.isScrollableX=s,i.isScrollableY=c,i.scrollWidth=d,i.scrollHeight=f,i.clientWidth=p,i.clientHeight=m,i.hasOverscrollBehaviorX=l,i.hasOverscrollBehaviorY=u}else s=i.isScrollableX,c=i.isScrollableY,a=i.hasOverflowX,o=i.hasOverflowY,d=i.scrollWidth,f=i.scrollHeight,p=i.clientWidth,m=i.clientHeight,l=i.hasOverscrollBehaviorX,u=i.hasOverscrollBehaviorY;if(!(a&&s||o&&c))return!1;let h=Math.abs(t)>=Math.abs(n)?`horizontal`:`vertical`,g,_,v,y,b,x;if(h===`horizontal`)g=Math.round(e.scrollLeft),_=d-p,v=t,y=a,b=s,x=l;else if(h===`vertical`)g=Math.round(e.scrollTop),_=f-m,v=n,y=o,b=c,x=u;else return!1;return!x&&(g>=_||g<=0)?!0:(v>0?g<_:g>0)&&y&&b}get rootElement(){return this.options.wrapper===window?document.documentElement:this.options.wrapper}get limit(){return this.options.naiveDimensions?this.isHorizontal?this.rootElement.scrollWidth-this.rootElement.clientWidth:this.rootElement.scrollHeight-this.rootElement.clientHeight:this.dimensions.limit[this.isHorizontal?`x`:`y`]}get isHorizontal(){return this.options.orientation===`horizontal`}get actualScroll(){let e=this.options.wrapper;return this.isHorizontal?e.scrollX??e.scrollLeft:e.scrollY??e.scrollTop}get scroll(){return this.options.infinite?i(this.animatedScroll,this.limit):this.animatedScroll}get progress(){return this.limit===0?1:this.scroll/this.limit}get isScrolling(){return this._isScrolling}set isScrolling(e){this._isScrolling!==e&&(this._isScrolling=e,this.updateClassName())}get isStopped(){return this._isStopped}set isStopped(e){this._isStopped!==e&&(this._isStopped=e,this.updateClassName())}get isLocked(){return this._isLocked}set isLocked(e){this._isLocked!==e&&(this._isLocked=e,this.updateClassName())}get isSmooth(){return this.isScrolling===`smooth`}get prefersReducedMotion(){return this.options.respectReducedMotion&&this.reducedMotionMediaQuery.matches}get className(){let e=`lenis`;return this.options.autoToggle&&(e+=` lenis-autoToggle`),this.isStopped&&(e+=` lenis-stopped`),this.isLocked&&(e+=` lenis-locked`),this.isScrolling&&(e+=` lenis-scrolling`),this.isScrolling===`smooth`&&(e+=` lenis-smooth`),e}updateClassName(){this.cleanUpClassName(),this.className.split(` `).forEach(e=>{this.rootElement.classList.add(e)})}cleanUpClassName(){for(let e of Array.from(this.rootElement.classList))(e===`lenis`||e.startsWith(`lenis-`))&&this.rootElement.classList.remove(e)}};globalThis.Lenis=p,globalThis.Lenis.prototype=p.prototype})();
-//# sourceMappingURL=lenis.min.js.map;
 /* spendryapp.com motion. Everything here is an extra: without it (no script, reduced motion, an old browser)
    every section shows in its final state and the numbers are still filled in.
    Rules kept throughout: pictures are never scaled past their own pixels and never put in 3D, so they stay sharp;
@@ -76,8 +74,7 @@
     img.removeAttribute("data-src");
   };
   qa("img[data-src]:not([data-near])").forEach(swapIn);
-  // The wall of screens loads when the reader is getting close: before the story is pinned it sits so near the top
-  // that the browser's own lazy loading would fetch it with the first screen.
+  // Pictures marked data-near load when the reader is getting close.
   const nearImgs = qa("img[data-src][data-near]");
   if (nearImgs.length) {
     if (window.IntersectionObserver) {
@@ -120,11 +117,9 @@
       if (yes) {
         langPanel.hidden = false;
         requestAnimationFrame(() => langPanel.classList.add("open"));
-        if (window.__lenis) window.__lenis.stop();
         setTimeout(() => (q("[aria-current]", langPanel) || q("a", langPanel)).focus({ preventScroll: true }), 250);
       } else {
         langPanel.classList.remove("open");
-        if (window.__lenis) window.__lenis.start();
         setTimeout(() => { if (!langPanel.classList.contains("open")) langPanel.hidden = true; }, 450);
         langBtn.focus({ preventScroll: true });
       }
@@ -330,38 +325,14 @@
     }
   }
 
-  // ---------------------------------------------------------------- the money row: one amount, many currencies
-  // Filled in only when it comes near the screen: laying out twenty scripts' digits is the costliest text on the page.
-  const moneyRow = q("[data-money]");
-  const moneyText = () => {
-    const rates = { USD: 1, EUR: .92, JPY: 150, GBP: .79, TRY: 41, BRL: 5.4, INR: 84, KRW: 1380, CAD: 1.37, SAR: 3.75, CNY: 7.2, PLN: 4, SEK: 10.5, MXN: 18, IDR: 16000, THB: 35, ILS: 3.7, VND: 25000, UAH: 41.5, CHF: .88 };
-    const list = [[locale, currency], ["en-US", "USD"], ["de-DE", "EUR"], ["ja-JP", "JPY"], ["en-GB", "GBP"], ["tr-TR", "TRY"], ["pt-BR", "BRL"],
-      ["hi-IN", "INR"], ["ko-KR", "KRW"], ["fr-CA", "CAD"], ["ar-SA", "SAR"], ["zh-CN", "CNY"], ["pl-PL", "PLN"], ["sv-SE", "SEK"], ["es-MX", "MXN"],
-      ["id-ID", "IDR"], ["th-TH", "THB"], ["he-IL", "ILS"], ["de-CH", "CHF"], ["uk-UA", "UAH"]];
-    const seen = new Set();
-    return list.filter(([, c]) => !seen.has(c) && seen.add(c)).map(([l, c]) => {
-      const v = 3612.29 * (rates[c] || 1);
-      try { return new Intl.NumberFormat(l, { style: "currency", currency: c, maximumFractionDigits: v > 9999 ? 0 : 2 }).format(v); } catch (err) { return `${c} ${Math.round(v)}`; }
-    });
-  };
-  if (moneyRow) {
-    const html = moneyText().map((s) => `<span>${s}</span><i></i>`).join("");
-    moneyRow.innerHTML = html + html;
+  // ---------------------------------------------------------------- the header: a soft shadow once the page has moved
+  const nav = q("[data-nav]");
+  if (nav) {
+    const shade = () => nav.classList.toggle("scrolled", scrollY > 8);
+    addEventListener("scroll", shade, { passive: true });
+    shade();
   }
 
-  // ---------------------------------------------------------------- back to top, and the download dock on phones
-  const toTop = q(".to-top"), dock = q(".dock"), stageEl = q(".stage"), finalSec = q(".final");
-  const updateTop = () => {
-    const after = stageEl ? stageEl.offsetTop + stageEl.offsetHeight - innerHeight * .5 : innerHeight;
-    if (dock) dock.classList.toggle("show", scrollY > after && scrollY < (finalSec ? finalSec.offsetTop - innerHeight * .9 : Infinity));
-    if (toTop) toTop.classList.toggle("show", scrollY > after + innerHeight * .5);
-  };
-  addEventListener("scroll", updateTop, { passive: true });
-  if (toTop) toTop.addEventListener("click", (ev) => { ev.preventDefault(); if (window.__lenis) window.__lenis.scrollTo(0, { duration: 1.6 }); else scrollTo({ top: 0, behavior: motion ? "smooth" : "auto" }); });
-
-  if (!motion || !G) {
-    qa("[data-count]").forEach((el) => { el.textContent = plainN.format(Number(el.dataset.count)); });
-  }
   if (!G || !ST) { root.classList.add("ready"); return; }
   G.registerPlugin(ST);
   if (window.SplitText) G.registerPlugin(window.SplitText);
@@ -395,29 +366,6 @@
   };
   const AHEAD = "0px 0px 35% 0px";       // get ready a little before it shows
   const AT = (pct) => `0px 0px -${pct}% 0px`; // play when its top passes this far up the screen
-
-  // ---------------------------------------------------------------- nav: hides going down, comes back going up; dark or light
-  const nav = q("[data-nav]");
-  let lastY = scrollY;
-  const setNav = (theme) => nav.classList.toggle("light", theme === "light");
-  const themed = qa("[data-theme]");
-  let bands = [];
-  const measureThemes = () => {
-    bands = themed.map((sec) => { const r = sec.getBoundingClientRect(); return { a: r.top + scrollY, b: r.bottom + scrollY, t: sec.dataset.theme }; });
-  };
-  const navTheme = () => {
-    const y = scrollY + 36;
-    for (const band of bands) if (y >= band.a && y < band.b) { setNav(band.t); return; }
-  };
-  addEventListener("scroll", () => {
-    const y = scrollY;
-    const langOpen = langBtn && langBtn.getAttribute("aria-expanded") === "true";
-    if (!langOpen) nav.classList.toggle("away", y > 160 && y > lastY + 2);
-    if (y < lastY - 2 || y < 160) nav.classList.remove("away");
-    lastY = y;
-    navTheme();
-  }, { passive: true });
-  if (d.body.classList.contains("page-tool") || d.body.classList.contains("page-nf")) setNav("dark");
 
   // ---------------------------------------------------------------- shared reveals: titles line by line, the rest rises
   let riseK = 0, riseFrame = 0;
@@ -459,215 +407,13 @@
     titles.forEach((el) => first.observe(el));
   }
 
-  // ---------------------------------------------------------------- hero and story
-  const stage = q(".stage");
-  if (stage) {
-    const pin = q(".stage-pin", stage);
-    const phones = q(".phones", stage), pc = q(".pw-c", stage), pl = q(".pw-l", stage), pr = q(".pw-r", stage);
-    const floats = qa(".fw", stage), floatPar = qa(".fp", stage), floatImg = qa(".float", stage);
-    const copy = q(".hero-copy", stage), caps = qa(".cap", stage);
-    const scr = qa(".scr", stage), lifts = qa(".lift", stage), slots = qa(".slot", stage);
-    G.set(pl, { xPercent: -60, yPercent: 5, scale: .84, force3D: false });
-    G.set(pr, { xPercent: 60, yPercent: 5, scale: .84, force3D: false });
-    G.set(floats[0], { xPercent: -96, yPercent: 70, rotation: -6 });
-    G.set(floats[1], { xPercent: 30, yPercent: -150, rotation: 5 });
-    G.set(lifts, { autoAlpha: 0 });
-    G.set(scr.slice(1), { xPercent: 100 * dir });
-    stage.classList.add("set");
-    // The headline, the words and the middle phone came in with CSS; the two cards settle beside the phone.
-    const since = performance.now() / 1000;
-    G.fromTo(floatImg, { y: 46, opacity: 0 }, { y: 0, opacity: 1, duration: 1.2, ease, stagger: .15, delay: Math.max(.2, .85 - since) });
-    G.to(floatImg, { yPercent: -5, duration: 3.2, ease: "sine.inOut", yoyo: true, repeat: -1, stagger: 1.1, delay: 2 });
-    if (fine) {
-      const fx = floatPar.map((f) => G.quickTo(f, "x", { duration: 1.4, ease: "power3.out" }));
-      const fy = floatPar.map((f) => G.quickTo(f, "y", { duration: 1.4, ease: "power3.out" }));
-      stage.addEventListener("pointermove", (ev) => {
-        if (scrollY > innerHeight * .3) return;
-        const x = ev.clientX / innerWidth - .5, y = ev.clientY / innerHeight - .5;
-        fx.forEach((f, i) => f(x * (i ? -26 : 32))); fy.forEach((f, i) => f(y * (i ? -20 : 26)));
-      });
-    }
-
-    // Now and then one of the app's own notifications drops in over the phone.
-    const N = window.__spendryNotes;
-    let toast = null;
-    if (N && N.notes.length) {
-      toast = d.createElement("div");
-      toast.className = "toast";
-      toast.setAttribute("aria-hidden", "true");
-      phones.appendChild(toast);
-      const order = [2, 3, 1, 4];
-      let k = 0;
-      const show = () => {
-        if (scrollY > innerHeight * .15 || d.hidden) return;
-        toast.innerHTML = "";
-        const cardEl = N.make(N.notes[order[k++ % order.length]]);
-        toast.appendChild(cardEl);
-        G.timeline()
-          .fromTo(cardEl, { y: -40, scale: .9, opacity: 0 }, { y: 0, scale: 1, opacity: 1, duration: .8, ease: "back.out(1.3)" })
-          .to(cardEl, { y: -20, opacity: 0, duration: .5, ease: "power2.in" }, "+=3.4");
-      };
-      G.delayedCall(3.2, function loop() { show(); G.delayedCall(7.5, loop); });
-    }
-
-    later(() => {
-      const mm = G.matchMedia();
-      mm.add({ wide: "(min-width: 900px)", narrow: "(max-width: 899px)" }, (ctx) => {
-        const { wide } = ctx.conditions;
-        const tl = G.timeline({
-          defaults: { ease: "power2.inOut" },
-          scrollTrigger: { trigger: stage, pin, start: "top top", end: () => `+=${Math.round(innerHeight * (wide ? 3.2 : 3))}`, scrub: .8, invalidateOnRefresh: true, anticipatePin: 1 },
-        });
-        if (toast) tl.to(toast, { opacity: 0, y: -30, duration: .4 }, 0);
-        tl.to(copy, { y: -80, opacity: 0, duration: 1, ease: "power2.in" }, 0)
-          .to(pl, { xPercent: -140, opacity: 0, duration: 1.2, ease: "power2.in", force3D: false }, 0)
-          .to(pr, { xPercent: 140, opacity: 0, duration: 1.2, ease: "power2.in", force3D: false }, 0)
-          .to(floats[0], { x: "-=240", y: "+=160", opacity: 0, duration: 1, ease: "power2.in" }, 0)
-          .to(floats[1], { x: "+=240", y: "-=160", opacity: 0, duration: 1, ease: "power2.in" }, 0);
-        if (!wide) {
-          tl.to(phones, { y: () => innerHeight * .35 - (phones.offsetTop + phones.offsetHeight / 2), duration: 1.3 }, .1)
-            .to(pc, { scale: () => Math.min(.8, (innerHeight * .56) / (pc.offsetHeight || 1)), duration: 1.3, force3D: false }, .1);
-        }
-        const capIn = (i, at) => tl.fromTo(caps[i], { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8, ease: "power3.out", immediateRender: false }, at);
-        const capOut = (i, at) => tl.to(caps[i], { opacity: 0, y: -40, duration: .6, ease: "power2.in" }, at);
-        // The step's main card comes forward out of the phone, towards the words, and goes back.
-        const pop = (i, at) => {
-          tl.set(lifts[i], { autoAlpha: 1 }, at)
-            .fromTo(slots[i], { opacity: 0 }, { opacity: 1, duration: .4, immediateRender: false }, at + .15)
-            .to(slots[i], { opacity: 0, duration: .4 }, at + 1.75)
-            .fromTo(lifts[i], { scale: 1, xPercent: 0, yPercent: 0, boxShadow: "0 0 0 0 rgba(0,0,0,0)" },
-              { scale: wide ? 1.22 : 1.1, xPercent: wide ? -26 * dir : 0, yPercent: wide ? -4 : -8,
-                boxShadow: "0 50px 80px -30px rgba(0,0,0,.8)", duration: .9, ease: "power3.out", immediateRender: false, force3D: false }, at)
-            .to(lifts[i], { scale: 1, xPercent: 0, yPercent: 0, boxShadow: "0 0 0 0 rgba(0,0,0,0)", duration: .7, force3D: false }, at + 1.5)
-            .set(lifts[i], { autoAlpha: 0 }, at + 2.25);
-        };
-        // Moving to the next step: the screens slide inside the phone, like swiping between tabs.
-        const push = (a, b, at) => {
-          tl.to(scr[a], { xPercent: -100 * dir, duration: 1, ease: "power3.inOut" }, at)
-            .fromTo(scr[b], { xPercent: 100 * dir }, { xPercent: 0, duration: 1, ease: "power3.inOut", immediateRender: false }, at);
-        };
-        capIn(0, 1);
-        pop(0, 1.7);
-        capOut(0, 4.1); push(0, 1, 4.1); capIn(1, 4.7);
-        pop(1, 5.3);
-        capOut(1, 7.7); push(1, 2, 7.7); capIn(2, 8.3);
-        pop(2, 8.9);
-        tl.to({}, { duration: .6 }, 11.1);
-        return () => { G.set(caps, { clearProps: "all" }); };
-      });
-    });
+  // ---------------------------------------------------------------- the wall of widgets: the tiles come in together
+  const wallEl = q(".wall");
+  if (wallEl) {
+    const tiles = qa(".w", wallEl).filter((w) => getComputedStyle(w).display !== "none");
+    when([wallEl], AHEAD, () => G.set(tiles, { y: 40, opacity: 0 }));
+    when([wallEl], AT(15), () => G.to(tiles, { y: 0, opacity: 1, duration: 1, ease, stagger: .05 }));
   }
-
-  // ---------------------------------------------------------------- the money row drifts slowly, a little faster while scrolling
-  const tracks = qa(".mq-track");
-  if (tracks.length) {
-    const pos = tracks.map(() => 0);
-    let vel = 0, visible = false, lastS = scrollY;
-    const io = new IntersectionObserver((entries) => { visible = entries[entries.length - 1].isIntersecting; });
-    io.observe(q(".marquee"));
-    // Plain style writes: GSAP would read each row's transform first, and reading anything inside a row that is
-    // still left out of layout makes the browser lay it out (with all its fonts) on the spot.
-    const setters = tracks.map((t) => (v) => { t.style.transform = `translate3d(${v.toFixed(3)}%,0,0)`; });
-    G.ticker.add((time, dt) => {
-      const y = scrollY;
-      if (!visible) { lastS = y; return; }
-      vel = Math.max(Math.abs(y - lastS) / Math.max(dt, 1) * 1000, vel * .9);
-      lastS = y;
-      tracks.forEach((t, i) => {
-        const way = (i ? -1 : 1) * dir;
-        const speed = (.0005 + Math.min(vel / 1500000, .0015)) * dt;
-        pos[i] = (pos[i] - speed * way) % 50;
-        if (pos[i] > 0) pos[i] -= 50;
-        setters[i](pos[i]);
-      });
-    });
-  }
-
-  // ---------------------------------------------------------------- statement: words light up with the scroll
-  const words = q(".words");
-  if (words) later(() => {
-    const ws = qa(".w", words);
-    let lit = -1;
-    ST.create({
-      trigger: words, start: "top 82%", end: "bottom 50%", scrub: true,
-      onUpdate: (s) => {
-        const n = Math.round(s.progress * ws.length);
-        if (n === lit) return;
-        lit = n;
-        ws.forEach((w, i) => w.classList.toggle("on", i < n));
-      },
-    });
-  });
-
-  // ---------------------------------------------------------------- the wall of screens and the wall of widgets: from one to all
-  const zoomOut = (section, pinSel, wallSel, focusSel, copySel, othersSel, opts) => {
-    const wall = q(wallSel);
-    if (!wall) return;
-    const focus = q(focusSel, wall), box = wall.parentElement, copyW = q(copySel);
-    const others = qa(othersSel, wall).filter((w) => !w.contains(focus) && w !== focus && getComputedStyle(w).display !== "none");
-    let dx = 0, dy = 0, s0 = 2, sf = 1, y0 = 0;
-    // Centred by GSAP itself (xPercent and yPercent), so measuring never loses the centring.
-    const measure = () => {
-      G.set(wall, { x: 0, y: 0, scale: 1, xPercent: -50, yPercent: -50, force3D: false });
-      const a = wall.getBoundingClientRect(), b = focus.getBoundingClientRect(), c = box.getBoundingClientRect(), head = copyW.getBoundingClientRect();
-      const fx = b.left + b.width / 2, fy = b.top + b.height * opts.focusY;
-      dx = (a.left + a.width / 2) - fx;
-      dy = (a.top + a.height / 2) - fy;
-      sf = Math.min(1, (c.height - opts.margin) / a.height, (innerWidth - 32) / a.width);
-      const room = c.bottom - head.bottom - 30;
-      const img = q("img", focus) || focus;
-      const sharp = ((img.naturalWidth || opts.natural) * 1.15) / (b.width * Math.max(1, devicePixelRatio || 1));
-      s0 = Math.max(1.05, Math.min(sharp, opts.max, (innerWidth * opts.wide) / b.width, (room * .9) / (b.height * opts.tall)));
-      y0 = (head.bottom + room / 2) - (c.top + c.height / 2);
-    };
-    measure();
-    const tl = G.timeline({
-      scrollTrigger: { trigger: section, pin: pinSel, start: "top top", end: () => `+=${Math.round(innerHeight * opts.length)}`, scrub: .8,
-        invalidateOnRefresh: true, onRefreshInit: measure },
-    });
-    tl.fromTo(wall, { scale: () => s0, x: () => dx * s0, y: () => dy * s0 + y0 }, { scale: () => sf, x: 0, y: 0, duration: 1, ease: "power2.inOut", force3D: false }, 0)
-      .to(copyW, { opacity: 0, y: -50, duration: .22, ease: "power2.in" }, .12)
-      .fromTo(others, { opacity: 0, scale: .8 }, { opacity: 1, scale: 1, duration: .5, stagger: { each: .03, from: "random" }, ease: "power2.out", force3D: false }, .22)
-      .to({}, { duration: .2 });
-  };
-  const walls = G.matchMedia();
-  // The two walls are pinned scenes further down: they are built when the reader comes near them (or after the page
-  // has been quiet for a while), so opening the page doesn't pay for them.
-  const scenes = [];
-  const scene = (sel, build) => { const el = q(sel); if (el) scenes.push({ el, build }); };
-  scene(".showcase", () => walls.add("(min-width: 761px)", () => {
-    zoomOut(".showcase", ".sc-pin", ".sc-wall", ".scp-focus .scp-screen", ".sc-copy", ".scp",
-      { focusY: .24, margin: 70, natural: 1206, max: 3, wide: .62, tall: .5, length: 1.7 });
-  }));
-  scene(".wid", () => walls.add("(min-width: 761px)", () => {
-    zoomOut(".wid", ".wid-pin", ".wall", ".wp", ".wid-copy", ".w",
-      { focusY: .5, margin: 70, natural: 1092, max: 2.3, wide: .86, tall: 1, length: 1.6 });
-  }));
-  // Builds every scene down to this one, in page order, then measures once.
-  const buildTo = (target) => {
-    if (!scenes.includes(target)) return;
-    let sc;
-    do { sc = scenes.shift(); sc.build(); } while (sc !== target);
-    ST.sort();
-    ST.refresh();
-  };
-  const buildAll = () => { if (scenes.length) buildTo(scenes[scenes.length - 1]); };
-  // Going to a part of the page through a link: every pin above it has to exist first, or the place moves on the way.
-  d.addEventListener("click", (ev) => {
-    const a = ev.target.closest ? ev.target.closest('a[href*="#"]') : null;
-    if (!a || a.hasAttribute("data-story")) return;
-    const url = new URL(a.href, location.href);
-    if (url.pathname === location.pathname && url.hash.length > 1 && url.hash !== "#main") buildAll();
-  }, true);
-  walls.add("(max-width: 760px)", () => {
-    [[".sc-wall", ".scp"], [".wall", ".w"]].forEach(([wallSel, itemSel]) => {
-      const wall = q(wallSel);
-      if (!wall) return;
-      const items = qa(itemSel, wall).filter((w) => getComputedStyle(w).display !== "none");
-      when([wall], AHEAD, () => G.set(items, { y: 40, opacity: 0 }));
-      when([wall], AT(15), () => G.to(items, { y: 0, opacity: 1, duration: 1, ease, stagger: .06 }));
-    });
-  });
 
   // ---------------------------------------------------------------- lab: numbers and the line draw when it comes into view
   if (lab) when([lab], AT(22), () => labIntro && labIntro());
@@ -692,141 +438,20 @@
     });
   });
 
-  // ---------------------------------------------------------------- numbers count up
-  const st = q(".st");
-  if (st) {
-    const els = qa("[data-count]", st);
-    els.forEach((el) => { const end = Number(el.dataset.count); el.textContent = plainN.format(end > 0 ? 0 : 1024); });
-    when([st], AT(15), () => els.forEach((el) => {
-      const end = Number(el.dataset.count), c = { v: end > 0 ? 0 : 1024 };
-      G.to(c, { v: end, duration: 1.8, ease: "power3.out", onUpdate: () => { el.textContent = plainN.format(Math.round(c.v)); } });
-    }));
-  }
-
-  // ---------------------------------------------------------------- finale and footer
+  // ---------------------------------------------------------------- finale
   const finalIcon = q(".final-icon");
   if (finalIcon) {
     when([q(".final")], AHEAD, () => G.set(finalIcon, { scale: .8, opacity: 0 }));
     when([q(".final")], AT(30), () => G.fromTo(finalIcon, { scale: .8, opacity: 0 }, { scale: 1, opacity: 1, duration: 1.2, ease }));
   }
-  const mark = q(".foot-mark");
-  if (mark) later(() => G.from(mark, { yPercent: 50, opacity: 0, ease: "none", scrollTrigger: { trigger: ".foot", start: "top 85%", end: "bottom bottom", scrub: true } }));
 
-  // "See how it works" goes to the first step of the story, not past it.
-  let lenis = null;
-  qa("[data-story]").forEach((a) => a.addEventListener("click", (ev) => {
-    const s = stage && ST.getAll().find((t) => t.pin && t.trigger === stage);
-    if (!s) return;
-    ev.preventDefault();
-    const y = s.start + (s.end - s.start) * .18;
-    if (lenis) lenis.scrollTo(y, { duration: 2 }); else scrollTo({ top: y, behavior: "smooth" });
-  }));
-
-  // ---------------------------------------------------------------- smooth scrolling (first of the idle jobs)
-  jobs.unshift(() => {
-    if (!fine && d.body.classList.contains("page-home") && ST.normalizeScroll) ST.normalizeScroll(true);
-    if (!window.Lenis) return;
-    lenis = new window.Lenis({ lerp: .09, smoothWheel: true, wheelMultiplier: 1, touchMultiplier: 1.4, syncTouch: false });
-    window.__lenis = lenis;
-    lenis.on("scroll", ST.update);
-    // Pins change the page's height; Lenis keeps its own idea of how far it can scroll, so it is told every time.
-    ST.addEventListener("refresh", () => lenis.resize());
-    G.ticker.add((time) => lenis.raf(time * 1000));
-    G.ticker.lagSmoothing(0);
-    qa('a[href^="#"], a[href*="/#"]').forEach((a) => a.addEventListener("click", (ev) => {
-      if (a.hasAttribute("data-story")) return;
-      const url = new URL(a.href, location.href);
-      if (url.pathname !== location.pathname || !url.hash) return;
-      const target = url.hash === "#main" ? 0 : q(url.hash);
-      if (target === null) return;
-      ev.preventDefault();
-      // to the section's own top edge: the sections are full bleed and leave room for the nav themselves
-      lenis.scrollTo(target === 0 ? 0 : target.getBoundingClientRect().top + scrollY, { duration: 1.6 });
-    }));
-  });
-
-  // Arriving at /#widgets and the like: pinned sections add height above, so go there again once they are set up.
-  const goHash = () => {
-    if (!location.hash || location.hash.length < 2) return;
-    let t = null;
-    try { t = q(location.hash); } catch (err) { return; }
-    if (!t) return;
-    if (lenis) lenis.scrollTo(t, { immediate: true, force: true }); else t.scrollIntoView();
-  };
-  // Triggers are made top to bottom, then measured once: every pinned section's extra height is counted for the
-  // ones below it. The nav's colour bands are measured after them.
-  const settle = () => { ST.sort(); ST.refresh(); measureThemes(); navTheme(); };
-  ST.addEventListener("refresh", () => { measureThemes(); navTheme(); });
+  // Jobs that can wait run while the page is idle; then the scroll triggers are measured once.
   const idle = window.requestIdleCallback ? (fn) => requestIdleCallback(fn, { timeout: 400 }) : (fn) => setTimeout(() => fn({ timeRemaining: () => 10, didTimeout: false }), 30);
   const work = (deadline) => {
     do { const job = jobs.shift(); if (job) job(); } while (jobs.length && deadline.timeRemaining() > 12);
     if (jobs.length) { idle(work); return; }
-    idle(() => {
-      if (location.hash.length > 1) while (scenes.length) scenes.shift().build();   // a deep link needs every pin above it (measured just below)
-      settle();
-      watchRows();
-      // Page-speed tests count every long task in the first seconds, so the warm-up waits for the reader: the first
-      // scroll (it then works in the pauses) or six seconds.
-      const startWarm = () => { if (startWarm.done) return; startWarm.done = true; warmFonts(); };
-      setTimeout(startWarm, 6000);
-      addEventListener("scroll", startWarm, { once: true, passive: true });
-      scenes.forEach((sc) => when([sc.el], "150% 0px 150% 0px", () => buildTo(sc)));
-      setTimeout(() => { const more = () => { if (!scenes.length) return; buildTo(scenes[0]); idle(more); }; idle(more); }, 8000);
-      if (d.readyState === "complete") goHash(); else addEventListener("load", goHash, { once: true });
-    });
+    idle(() => { ST.sort(); ST.refresh(); });
   };
-  // Names of the languages and amounts in many scripts: each script needs its own system font, and loading one can
-  // take a tenth of a second or more (a whole row at once took 200 to 260 ms on a fast Mac). The rows stay out of
-  // layout (CSS) until the page has settled; then they are refilled two names at a time while the reader is still,
-  // each pair laid out in its own moment. A row the reader reaches first is filled frame by frame, a few names each.
-  const many = qa(".mq, .langs");
-  let lastScroll = 0;
-  addEventListener("scroll", () => { lastScroll = performance.now(); }, { passive: true });
-  const queue = [];
-  const hold = (row) => {
-    const box = row.classList.contains("mq") ? q(".mq-track", row) : row;
-    const kids = [...box.children];
-    kids.forEach((k) => k.remove());
-    const job = { row, box, kids };
-    queue.push(job);
-    row.classList.add("near");
-    return job;
-  };
-  const fill = (job) => {
-    if (job.fast) return;
-    job.fast = true;
-    const tick = () => {
-      const t0 = performance.now();
-      while (job.kids.length && performance.now() - t0 < 6) { job.box.appendChild(job.kids.shift()); void job.box.offsetWidth; }
-      if (job.kids.length) requestAnimationFrame(tick);
-      else if (queue.includes(job)) queue.splice(queue.indexOf(job), 1);
-    };
-    requestAnimationFrame(tick);
-  };
-  // Coming close: a row still waiting or being refilled is filled frame by frame.
-  const nearRows = (sec) => many.filter((r) => sec.contains(r)).forEach((row) => {
-    const job = queue.find((j) => j.row === row) || (!row.classList.contains("near") && hold(row));
-    if (job) fill(job);
-  });
-  const watchRows = () => when(many.map((el) => el.closest("section, footer") || el), "120% 0px 120% 0px", nearRows);
-  const warmFonts = () => {
-    many.filter((row) => !row.classList.contains("near")).forEach(hold);
-    const step = (deadline) => {
-      if (!queue.length) return;
-      if (performance.now() - lastScroll < 500) { setTimeout(() => idle(step), 500); return; }
-      if (deadline.timeRemaining() > 12) {
-        const job = queue.find((j) => !j.fast);
-        if (!job) return;
-        for (let k = 0; k < 2 && job.kids.length; k++) job.box.appendChild(job.kids.shift());
-        void job.box.offsetWidth;
-        if (!job.kids.length) queue.splice(queue.indexOf(job), 1);
-      }
-      idle(step);
-    };
-    idle(step);
-  };
-  measureThemes();
-  navTheme();
   root.classList.add("ready");
   requestAnimationFrame(() => setTimeout(() => idle(work), 0));
 })();
