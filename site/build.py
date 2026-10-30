@@ -220,6 +220,17 @@ def icon_sprite():
 
 
 # ---------------------------------------------------------------- pictures
+LAYOUT_CACHE = {}
+
+
+def layout(lang):
+    if lang not in LAYOUT_CACHE:
+        path = os.path.join(ROOT, "assets", "img", lang, "layout.json")
+        LAYOUT_CACHE[lang] = json.load(open(path)) if os.path.exists(path) else json.load(
+            open(os.path.join(ROOT, "assets", "img", "en", "layout.json")))
+    return LAYOUT_CACHE[lang]
+
+
 def img_dir(lang):
     return lang if os.path.isdir(os.path.join(ROOT, "assets", "img", lang)) else "en"
 
@@ -235,6 +246,22 @@ def screen(lang, n, alt, sizes="(max-width: 700px) 60vw, 360px", cls="shot", eag
     return (f'<img class="{cls}" {pre}src="/assets/img/{d}/screen-{n}.webp" {pre}srcset="/assets/img/{d}/screen-{n}-m.webp 603w, '
             f'/assets/img/{d}/screen-{n}.webp 1206w" sizes="{sizes}" width="1206" height="2622" alt="{e(alt)}" '
             f'{dec}{near} {"" if later else loading}>')
+
+
+def card_style(lang, n):
+    """Where the screen's main card sits, as percentages of the screen, so the cut-out lies exactly on top."""
+    L = layout(lang)
+    x0, y0, x1, y1 = L[n]
+    W, H = L["size"]
+    return (f"left:{x0 / W * 100:.3f}%;top:{y0 / H * 100:.3f}%;width:{(x1 - x0) / W * 100:.3f}%;"
+            f"height:{(y1 - y0) / H * 100:.3f}%")
+
+
+def card(lang, n, cls="lift", later=False):
+    d = img_dir(lang)
+    pre = "data-" if later else ""
+    return (f'<img class="{cls}" {pre}src="/assets/img/{d}/card-{n}.webp" alt="" style="{card_style(lang, n)}" '
+            f'decoding="async" {LAZY_ATTR if not later else ""}>')
 
 
 def widget(lang, name, cls):
@@ -290,6 +317,22 @@ def reminder_data(lang, c):
 
 
 # ---------------------------------------------------------------- text helpers
+def words(lang, text):
+    """The statement, one span per word (per character in scripts without spaces) so it can light up in turn.
+    *Highlighted* words carry the class hl."""
+    out = []
+    for i, part in enumerate(re.split(r"\*(.+?)\*", text)):
+        if not part:
+            continue
+        if lang in ("ja", "zh-Hans", "zh-Hant"):
+            chunks = re.findall(r".[。、，．！？」』）]*", part)
+        else:
+            chunks = re.findall(r"\S+|\s+", part)
+        joined = "".join(" " if ch.isspace() else f'<span class="w">{e(ch)}</span>' for ch in chunks)
+        out.append(f'<span class="hl">{joined}</span>' if i % 2 == 1 else joined)
+    return "".join(out)
+
+
 COMPLEX = {"ar", "he", "ur", "hi", "bn", "gu", "kn", "ml", "mr", "or", "pa", "ta", "te", "th"}
 
 
@@ -556,46 +599,76 @@ def tool_ld(lang, name, description, url, crumbs):
 
 # ---------------------------------------------------------------- home page sections
 STORY = [("01", "tab_home"), ("06", "debts_title"), ("07", "tab_reminders")]
+# The wall of screens: five columns of two phones each; the middle column's first phone is where the camera starts.
+WALL = [[("08", "investments"), ("10", "appearance")], [("05", "goals"), ("02", "add_expense")],
+        [("04", "budgets"), ("01", "tab_home")], [("03", "statistics_title"), ("07", "tab_reminders")],
+        [("09", "assistant_title"), ("06", "debts_title")]]
 WIDGETS = [("budget", "s", "wb"), ("health", "s", "wh"), ("balance", "m", "wbal"), ("overview", "l", "wo"),
            ("payments", "m", "wp"), ("goal", "s", "wg"), ("debt", "s", "wd"), ("cashflow", "m", "wc"),
            ("networth", "s", "wn"), ("spending", "s", "ws")]
 
 
-def hero_html(lang, c, t):
-    """The first screen: the words on the left, the app on the right, nothing moving over either."""
+def stage_html(lang, c, t):
+    """The first screen and the story after it, in one pinned scene: the words on the left, the phone on the right.
+    Scrolling swaps the words for three steps while the phone's screens slide and each step's card grows out of it.
+    The words and the phones keep to their own columns at every size, so nothing ever lies over the text."""
     h = c["hero"]
+    screens, lifts = [], []
+    for i, (n, term) in enumerate(STORY):
+        screens.append(f'<div class="scr scr-{i}">'
+                       f'{screen(lang, n, "Spendry: " + t[term], "(max-width: 700px) 64vw, 340px", eager=i == 0, fetch_high=i == 0, later=i > 0)}</div>')
+        lifts.append(f'<span class="slot" style="{card_style(lang, n)}"></span>' + card(lang, n, f"lift lift-{i}", later=True))
+    caps = "".join(
+        f'<div class="cap cap-{i}"><p class="cap-k"><span class="cap-n">{i + 1}/{len(STORY)}</span>{e(t[term])}</p>'
+        f'<h2 class="cap-t">{e(s["title"])}</h2><p class="cap-p">{e(s["text"])}</p></div>'
+        for i, ((n, term), s) in enumerate(zip(STORY, c["story"])))
     facts = " · ".join(e(x) for x in h["chips"])
-    side = "(max-width: 900px) 34vw, 230px"
+    side = "(max-width: 700px) 40vw, 280px"
     return f"""
-<section class="hero" id="top" data-theme="dark">
-<div class="hero-bg" aria-hidden="true"></div>
-<div class="wrap hero-grid">
-<div class="hero-copy">
-<p class="kicker" data-rise="now">{e(h['eyebrow'])}</p>
-<h1 class="hero-title" data-rise="now">{e(h['title_1'])} <span>{e(h['title_2'])}</span></h1>
-<p class="lead" data-rise="now">{e(h['lead'])}</p>
-<div class="hero-cta" data-rise="now">{store_button(c, lang, 'hero')}<a class="btn-ghost" href="#how">{e(h['secondary'])}{icon('down')}</a></div>
-<p class="facts" data-rise="now">{facts}</p>
+<section class="stage" id="top" data-theme="dark">
+<div class="stage-pin">
+<div class="stage-bg" aria-hidden="true"></div>
+<div class="hero-col"><div class="hero-copy">
+<p class="kicker" data-hero>{e(h['eyebrow'])}</p>
+<h1 class="hero-title"><span class="ln"><span class="ln-in">{e(h['title_1'])}</span></span><span class="ln ln-2"><span class="ln-in">{e(h['title_2'])}</span></span></h1>
+<p class="lead" data-hero>{e(h['lead'])}</p>
+<div class="hero-cta" data-hero>{store_button(c, lang, 'hero')}<a class="btn-ghost" href="#story-end" data-story>{e(h['secondary'])}{icon('down')}</a></div>
+<p class="facts" data-hero>{facts}</p>
+</div></div>
+<div class="phones">
+<div class="pw pw-l" aria-hidden="true"><div class="phone ph-l">{screen(lang, "06", "", side, later=True)}<noscript>{screen(lang, "06", "", side)}</noscript></div></div>
+<div class="pw pw-r" aria-hidden="true"><div class="phone ph-r">{screen(lang, "07", "", side, later=True)}<noscript>{screen(lang, "07", "", side)}</noscript></div></div>
+<div class="pw pw-c"><div class="phone ph-c"><div class="screens">{''.join(screens)}</div><div class="toast" aria-hidden="true"></div></div><div class="lifts" aria-hidden="true">{''.join(lifts)}</div></div>
 </div>
-<div class="hero-shots">
-<div class="hs hs-l" aria-hidden="true">{screen(lang, "06", "", side, eager=True)}</div>
-<div class="hs hs-r" aria-hidden="true">{screen(lang, "07", "", side, eager=True)}</div>
-<div class="hs hs-c">{screen(lang, "01", "Spendry: " + t["tab_home"], "(max-width: 900px) 52vw, 290px", fetch_high=True)}</div>
+<div class="caps">{caps}</div>
 </div>
-</div>
+</section>
+<div id="story-end"></div>"""
+
+
+def statement_html(lang, c):
+    return f"""
+<section class="statement" data-theme="light">
+<div class="wrap"><p class="words">{words(lang, c['statement'])}</p></div>
 </section>"""
 
 
-def story_html(lang, c, t):
-    """Three screens and what each one does for the reader."""
-    steps = "".join(
-        f'<li data-rise><div class="story-shot">{screen(lang, n, "Spendry: " + t[term], "(max-width: 760px) 86vw, 380px")}</div>'
-        f'<div class="story-copy"><p class="story-k">{e(t[term])}</p><h3>{e(s["title"])}</h3><p>{e(s["text"])}</p></div></li>'
-        for (n, term), s in zip(STORY, c["story"]))
+def showcase_html(lang, c, t):
+    """Every screen of the app on one wall. Scrolling starts close on one phone and pulls back to all of them."""
+    cols = []
+    for k, col in enumerate(WALL):
+        phones = "".join(
+            f'<figure class="scp{" scp-focus" if (k, j) == (2, 0) else ""}"><div class="scp-screen">'
+            f'{screen(lang, n, "Spendry: " + t[term], "(max-width: 760px) 34vw, 640px", later="near")}'
+            f'<noscript>{screen(lang, n, "", "(max-width: 760px) 34vw, 640px")}</noscript></div>'
+            f'<figcaption>{e(t[term])}</figcaption></figure>' for j, (n, term) in enumerate(col))
+        cols.append(f'<div class="sc-col sc-col-{k}">{phones}</div>')
     return f"""
-<section class="story" id="how" data-theme="light">
-<div class="wrap">{head(c, 'orbit')}
-<ol class="story-list">{steps}</ol>
+<section class="showcase" id="features" data-theme="dark">
+<div class="sc-pin">
+<div class="sc-bg" aria-hidden="true"></div>
+<div class="wrap sc-copy">{head(c, 'orbit', 'head-dark')}</div>
+<div class="sc-box"><div class="sc-wall">{''.join(cols)}</div></div>
 </div>
 </section>"""
 
@@ -604,7 +677,7 @@ def features_html(lang, c):
     F = c["features"]
     items = "".join(f'<li data-rise><h3>{e(x["title"])}</h3><p>{e(x["text"])}</p></li>' for x in F["items"])
     return f"""
-<section class="features" id="features" data-theme="light">
+<section class="features" data-theme="light">
 <div class="wrap"><h2 class="title title-sm" data-split>{e(F['title'])}</h2><ul class="fl">{items}</ul></div>
 </section>"""
 
@@ -788,15 +861,15 @@ def qr_svg(lang):
 def home_page(lang, c, languages):
     t = TERMS.get(lang, TERMS["en"])
     body = "".join([
-        hero_html(lang, c, t), story_html(lang, c, t), features_html(lang, c), reminders_html(lang, c, t),
-        widgets_html(lang, c), automations_html(lang, c, t), privacy_html(lang, c), faq_html(lang, c),
+        stage_html(lang, c, t), statement_html(lang, c), showcase_html(lang, c, t), features_html(lang, c),
+        reminders_html(lang, c, t), widgets_html(lang, c), automations_html(lang, c, t), privacy_html(lang, c), faq_html(lang, c),
         tools_html(lang, c), guides_html(lang, c), notes_home_html(lang, c), final_html(lang, c),
     ])
     url = f"{BASE_URL}/{prefix(lang)}"
     d = img_dir(lang)
     preload = (f'<link rel="preload" as="image" href="/assets/img/{d}/screen-01.webp" '
                f'imagesrcset="/assets/img/{d}/screen-01-m.webp 603w, /assets/img/{d}/screen-01.webp 1206w" '
-               f'imagesizes="(max-width: 700px) 70vw, 420px" fetchpriority="high">\n')
+               f'imagesizes="(max-width: 700px) 64vw, 340px" fetchpriority="high">\n')
     return page(lang, c, "", c["meta"]["title"], c["meta"]["description"], body,
                 [organization_ld() | {"@context": "https://schema.org"}, website_ld(lang, c), app_ld(lang, c, url),
                  faq_ld(c["faq"]["items"])], languages, "page-home", preload=preload, og_title=c["meta"].get("og_title"))

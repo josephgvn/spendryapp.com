@@ -407,13 +407,198 @@
     titles.forEach((el) => first.observe(el));
   }
 
-  // ---------------------------------------------------------------- the wall of widgets: the tiles come in together
-  const wallEl = q(".wall");
-  if (wallEl) {
-    const tiles = qa(".w", wallEl).filter((w) => getComputedStyle(w).display !== "none");
-    when([wallEl], AHEAD, () => G.set(tiles, { y: 40, opacity: 0 }));
-    when([wallEl], AT(15), () => G.to(tiles, { y: 0, opacity: 1, duration: 1, ease, stagger: .05 }));
+  // ---------------------------------------------------------------- hero and story
+  /* One pinned scene. The words of the first screen leave before anything moves into their place; the side phones
+     slide in behind the middle one (never across the words); each step's words come in only once the phone has
+     settled, and each step's card grows out of the phone toward the words only as far as the room between them. */
+  const stage = q(".stage");
+  if (stage) {
+    const pin = q(".stage-pin", stage);
+    const phonesEl = q(".phones", stage), pc = q(".pw-c", stage), pl = q(".pw-l", stage), pr = q(".pw-r", stage);
+    const copy = q(".hero-copy", stage), capsBox = q(".caps", stage), caps = qa(".cap", stage);
+    const scr = qa(".scr", stage), lifts = qa(".lift", stage), slots = qa(".slot", stage), toast = q(".toast", stage);
+    G.set(pl, { xPercent: -56, yPercent: 4, scale: .84, force3D: false });
+    G.set(pr, { xPercent: 56, yPercent: 4, scale: .84, force3D: false });
+    G.set(lifts, { autoAlpha: 0 });
+    G.set(scr.slice(1), { xPercent: 100 * dir });
+    stage.classList.add("set");
+
+    // Now and then one of the app's own notifications slides down inside the phone's screen, the way iOS shows one.
+    const N = window.__spendryNotes;
+    if (N && N.notes.length && toast) {
+      const order = [2, 3, 1, 4];
+      let k = 0;
+      const show = () => {
+        if (scrollY > innerHeight * .1 || d.hidden) return;
+        toast.innerHTML = "";
+        const cardEl = N.make(N.notes[order[k++ % order.length]]);
+        toast.appendChild(cardEl);
+        const away = () => -(toast.offsetTop + cardEl.offsetHeight + 30);
+        G.set(toast, { visibility: "visible" });
+        G.timeline({ onComplete: () => G.set(toast, { visibility: "hidden" }) })
+          .fromTo(cardEl, { y: away }, { y: 0, duration: .75, ease: "back.out(1.1)" })
+          .to(cardEl, { y: away, duration: .45, ease: "power3.in" }, "+=3.6");
+      };
+      G.delayedCall(2.6, function loop() { show(); G.delayedCall(7.5, loop); });
+    }
+
+    later(() => {
+      const mm = G.matchMedia();
+      mm.add({ wide: "(min-width: 900px)", narrow: "(max-width: 899px)" }, (ctx) => {
+        const { wide } = ctx.conditions;
+        const tl = G.timeline({
+          defaults: { ease: "power2.inOut" },
+          scrollTrigger: { trigger: stage, pin, start: "top top", end: () => `+=${Math.round(innerHeight * (wide ? 3.2 : 3))}`, scrub: .8, invalidateOnRefresh: true, anticipatePin: 1 },
+        });
+        // A notification on screen goes back up as soon as the page moves (its height is not known ahead: the width is a safe bound).
+        if (toast) tl.to(toast, { y: () => -(toast.offsetTop + toast.offsetWidth * .6), duration: .3, ease: "power2.in" }, 0);
+        tl.to(copy, { y: -60, opacity: 0, duration: wide ? .7 : .4, ease: "power1.in" }, 0)
+          .to([pl, pr], { xPercent: 0, yPercent: 2, scale: .72, opacity: 0, duration: 1, force3D: false }, 0);
+        let capsAt = 1;
+        if (!wide) {
+          // The phone comes up under the header and shrinks to fit above the steps' words, after the words above have gone.
+          const fit = () => {
+            const top = (nav ? nav.offsetHeight : 56) + 12;
+            const below = capsBox.getBoundingClientRect().top - pin.getBoundingClientRect().top - 16;
+            return { y: top - (phonesEl.offsetTop + pc.offsetTop), k: clamp((below - top) / (pc.offsetHeight || 1), .3, .92) };
+          };
+          tl.to(pc, { y: () => fit().y, scale: () => fit().k, transformOrigin: "50% 0%", duration: .9, force3D: false }, .4);
+          capsAt = 1.35;
+        }
+        const capIn = (i, at) => tl.fromTo(caps[i], { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8, ease: "power3.out", immediateRender: false }, at);
+        const capOut = (i, at) => tl.to(caps[i], { opacity: 0, y: -40, duration: .6, ease: "power2.in" }, at);
+        // How far a card may move toward the words: never past the gap between the phone and their column.
+        const grow = wide ? 1.2 : 1.06;
+        const reach = (i) => {
+          if (!wide) return 0;
+          const r = slots[i].getBoundingClientRect(), c = capsBox.getBoundingClientRect(), spill = (grow - 1) * r.width / 2;
+          const room = rtl ? (c.left - 28) - (r.right + spill) : (r.left - spill) - (c.right + 28);
+          return -dir * clamp(room, 0, r.width * .26);
+        };
+        const pop = (i, at) => {
+          tl.set(lifts[i], { autoAlpha: 1 }, at)
+            .fromTo(slots[i], { opacity: 0 }, { opacity: 1, duration: .4, immediateRender: false }, at + .15)
+            .to(slots[i], { opacity: 0, duration: .4 }, at + 1.75)
+            .fromTo(lifts[i], { scale: 1, x: 0, yPercent: 0, boxShadow: "0 0 0 0 rgba(0,0,0,0)" },
+              { scale: grow, x: () => reach(i), yPercent: wide ? -4 : 0, boxShadow: "0 50px 80px -30px rgba(0,0,0,.8)", duration: .9, ease: "power3.out", immediateRender: false, force3D: false }, at)
+            .to(lifts[i], { scale: 1, x: 0, yPercent: 0, boxShadow: "0 0 0 0 rgba(0,0,0,0)", duration: .7, force3D: false }, at + 1.5)
+            .set(lifts[i], { autoAlpha: 0 }, at + 2.25);
+        };
+        // Moving to the next step: the screens slide inside the phone, like swiping between tabs.
+        const push = (a, b, at) => {
+          tl.to(scr[a], { xPercent: -100 * dir, duration: 1, ease: "power3.inOut" }, at)
+            .fromTo(scr[b], { xPercent: 100 * dir }, { xPercent: 0, duration: 1, ease: "power3.inOut", immediateRender: false }, at);
+        };
+        capIn(0, capsAt);
+        pop(0, capsAt + .7);
+        capOut(0, 4.1); push(0, 1, 4.1); capIn(1, 4.7);
+        pop(1, 5.3);
+        capOut(1, 7.7); push(1, 2, 7.7); capIn(2, 8.3);
+        pop(2, 8.9);
+        tl.to({}, { duration: .6 }, 11.1);
+        return () => { G.set(caps, { clearProps: "all" }); };
+      });
+    });
   }
+
+  // ---------------------------------------------------------------- statement: words light up with the scroll
+  const wordsEl = q(".words");
+  if (wordsEl) later(() => {
+    const ws = qa(".w", wordsEl);
+    let lit = -1;
+    ST.create({
+      trigger: wordsEl, start: "top 82%", end: "bottom 50%", scrub: true,
+      onUpdate: (st) => {
+        const n = Math.round(st.progress * ws.length);
+        if (n === lit) return;
+        lit = n;
+        ws.forEach((w, i) => w.classList.toggle("on", i < n));
+      },
+    });
+  });
+
+  // ---------------------------------------------------------------- the wall of screens and the wall of widgets: from one to all
+  const zoomOut = (section, pinSel, wallSel, focusSel, copySel, othersSel, opts) => {
+    const wall = q(wallSel);
+    if (!wall) return;
+    const focus = q(focusSel, wall), box = wall.parentElement, copyW = q(copySel);
+    const others = qa(othersSel, wall).filter((w) => !w.contains(focus) && w !== focus && getComputedStyle(w).display !== "none");
+    let dx = 0, dy = 0, s0 = 2, sf = 1, y0 = 0, yf = 0;
+    // Centred by GSAP itself (xPercent and yPercent), so measuring never loses the centring. The close-up starts
+    // below the title and is never enlarged past the picture's own pixels; the whole wall ends up in the room below
+    // the header.
+    const measure = () => {
+      G.set(wall, { x: 0, y: 0, scale: 1, xPercent: -50, yPercent: -50, force3D: false });
+      const a = wall.getBoundingClientRect(), b = focus.getBoundingClientRect(), c = box.getBoundingClientRect(), head = copyW.getBoundingClientRect();
+      const fx = b.left + b.width / 2, fy = b.top + b.height * opts.focusY;
+      dx = (a.left + a.width / 2) - fx;
+      dy = (a.top + a.height / 2) - fy;
+      const top = nav ? nav.offsetHeight : 0;
+      sf = Math.min(1, (c.height - top - opts.margin) / a.height, (innerWidth - 32) / a.width);
+      yf = top / 2;
+      const room = c.bottom - head.bottom - 30;
+      const img = q("img", focus) || focus;
+      const sharp = ((img.naturalWidth || opts.natural) * 1.15) / (b.width * Math.max(1, devicePixelRatio || 1));
+      s0 = Math.max(1.05, Math.min(sharp, opts.max, (innerWidth * opts.wide) / b.width, (room * .9) / (b.height * opts.tall)));
+      y0 = (head.bottom + room / 2) - (c.top + c.height / 2);
+    };
+    measure();
+    const tl = G.timeline({
+      scrollTrigger: { trigger: section, pin: pinSel, start: "top top", end: () => `+=${Math.round(innerHeight * opts.length)}`, scrub: .8,
+        invalidateOnRefresh: true, onRefreshInit: measure },
+    });
+    // The title is gone before the others arrive, so nothing ever shows through the words.
+    tl.fromTo(wall, { scale: () => s0, x: () => dx * s0, y: () => dy * s0 + y0 }, { scale: () => sf, x: 0, y: () => yf, duration: 1, ease: "power2.inOut", force3D: false }, 0)
+      .to(copyW, { opacity: 0, y: -40, duration: .15, ease: "power1.in" }, .02)
+      .fromTo(others, { opacity: 0, scale: .8 }, { opacity: 1, scale: 1, duration: .5, stagger: { each: .03, from: "random" }, ease: "power2.out", force3D: false }, .2)
+      .to({}, { duration: .2 });
+  };
+  const walls = G.matchMedia();
+  // The two walls are pinned scenes further down: they are built when the reader comes near them (or after the page
+  // has been quiet for a while), so opening the page doesn't pay for them.
+  const scenes = [];
+  const scene = (sel, build) => { const el = q(sel); if (el) scenes.push({ el, build }); };
+  scene(".showcase", () => walls.add("(min-width: 761px)", () => {
+    zoomOut(".showcase", ".sc-pin", ".sc-wall", ".scp-focus .scp-screen", ".sc-copy", ".scp",
+      { focusY: .24, margin: 70, natural: 1206, max: 3, wide: .62, tall: .5, length: 1.7 });
+  }));
+  scene(".wid", () => walls.add("(min-width: 761px)", () => {
+    zoomOut(".wid", ".wid-pin", ".wall", ".wp", ".wid-copy", ".w",
+      { focusY: .5, margin: 70, natural: 1092, max: 2.3, wide: .86, tall: 1, length: 1.6 });
+  }));
+  // Builds every scene down to this one, in page order, then measures once.
+  const buildTo = (target) => {
+    if (!scenes.includes(target)) return;
+    let sc;
+    do { sc = scenes.shift(); sc.build(); } while (sc !== target);
+    ST.sort();
+    ST.refresh();
+  };
+  const buildAll = () => { if (scenes.length) buildTo(scenes[scenes.length - 1]); };
+  // Going to a part of the page through a link: every pin above it has to exist first, or the place moves on the way.
+  d.addEventListener("click", (ev) => {
+    const a = ev.target.closest ? ev.target.closest('a[href*="#"]') : null;
+    if (!a || a.hasAttribute("data-story")) return;
+    const url = new URL(a.href, location.href);
+    if (url.pathname === location.pathname && url.hash.length > 1) buildAll();
+  }, true);
+  walls.add("(max-width: 760px)", () => {
+    [[".sc-wall", ".scp"], [".wall", ".w"]].forEach(([wallSel, itemSel]) => {
+      const wall = q(wallSel);
+      if (!wall) return;
+      const items = qa(itemSel, wall).filter((w) => getComputedStyle(w).display !== "none");
+      when([wall], AHEAD, () => G.set(items, { y: 40, opacity: 0 }));
+      when([wall], AT(15), () => G.to(items, { y: 0, opacity: 1, duration: 1, ease, stagger: .06 }));
+    });
+  });
+
+  // "See how it works" goes to the first step of the story, not past it.
+  qa("[data-story]").forEach((a) => a.addEventListener("click", (ev) => {
+    const s = stage && ST.getAll().find((t) => t.pin && t.trigger === stage);
+    if (!s) return;
+    ev.preventDefault();
+    scrollTo({ top: s.start + (s.end - s.start) * .18, behavior: "smooth" });
+  }));
 
   // ---------------------------------------------------------------- lab: numbers and the line draw when it comes into view
   if (lab) when([lab], AT(22), () => labIntro && labIntro());
@@ -445,12 +630,27 @@
     when([q(".final")], AT(30), () => G.fromTo(finalIcon, { scale: .8, opacity: 0 }, { scale: 1, opacity: 1, duration: 1.2, ease }));
   }
 
-  // Jobs that can wait run while the page is idle; then the scroll triggers are measured once.
+  // Arriving at /#widgets and the like: pinned sections add height above, so go there again once they are set up.
+  const goHash = () => {
+    if (!location.hash || location.hash.length < 2) return;
+    let t = null;
+    try { t = q(location.hash); } catch (err) { return; }
+    if (t) t.scrollIntoView();
+  };
+  // Jobs that can wait run while the page is idle. Triggers are made top to bottom, then measured once: every pinned
+  // section's extra height is counted for the ones below it.
   const idle = window.requestIdleCallback ? (fn) => requestIdleCallback(fn, { timeout: 400 }) : (fn) => setTimeout(() => fn({ timeRemaining: () => 10, didTimeout: false }), 30);
   const work = (deadline) => {
     do { const job = jobs.shift(); if (job) job(); } while (jobs.length && deadline.timeRemaining() > 12);
     if (jobs.length) { idle(work); return; }
-    idle(() => { ST.sort(); ST.refresh(); });
+    idle(() => {
+      if (location.hash.length > 1) while (scenes.length) scenes.shift().build();   // a deep link needs every pin above it
+      ST.sort();
+      ST.refresh();
+      scenes.forEach((sc) => when([sc.el], "150% 0px 150% 0px", () => buildTo(sc)));
+      setTimeout(() => { const more = () => { if (!scenes.length) return; buildTo(scenes[0]); idle(more); }; idle(more); }, 8000);
+      if (d.readyState === "complete") goHash(); else addEventListener("load", goHash, { once: true });
+    });
   };
   root.classList.add("ready");
   requestAnimationFrame(() => setTimeout(() => idle(work), 0));
