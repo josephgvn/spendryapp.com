@@ -820,3 +820,19 @@ tbody tr:nth-child(2n) { background: #fafbff; }
   .guide-top.bundle-top { grid-template-columns: minmax(0, 1fr) 470px; }
   .bundle-phones .guide-phone { width: 228px; }
 }
+
+/* The film at the top of Home: its still until the film plays over it, the sound button at its corner. */
+.film { background: var(--night); padding: 84px 0 clamp(28px, 4vw, 56px); }
+.film-frame { position: relative; margin-inline: auto; width: min(var(--wrap), calc((100svh - 150px) * 16 / 9)); aspect-ratio: 16 / 9;
+  border-radius: clamp(18px, 2.2vw, 28px); overflow: hidden; background: #fff; box-shadow: 0 30px 80px rgba(0, 0, 0, .35); }
+.film-still, .film-v { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.film-sound { position: absolute; inset-inline-end: 14px; bottom: 14px; z-index: 2; width: 44px; height: 44px; border-radius: 50%;
+  display: grid; place-items: center; color: #fff; background: rgba(6, 9, 24, .55); border: 1px solid rgba(255, 255, 255, .2); cursor: pointer; }
+.film-sound .ic { width: 22px; height: 22px; }
+.film-sound .on, .film-sound[aria-pressed="true"] .off { display: none; }
+.film-sound[aria-pressed="true"] .on { display: block; }
+.film-sound:focus-visible { outline: 2px solid var(--blue-soft); outline-offset: 3px; }
+@media (max-width: 699px) {
+  .film { padding-top: 76px; }
+  .film-frame { width: min(calc(100% - 32px), calc((100svh - 110px) * 9 / 16)); aspect-ratio: 9 / 16; }
+}

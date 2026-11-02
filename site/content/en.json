@@ -23,6 +23,11 @@
   "requirements": "Requires iOS 17 or later",
   "trial": "Premium starts with a free week"
  },
+ "film": {
+  "label": "Spendry in 50 seconds",
+  "sound_on": "Turn the sound on",
+  "sound_off": "Turn the sound off"
+ },
  "hero": {
   "eyebrow": "Budget and debt payoff for iPhone",
   "title_1": "Every card, loan and bill.",

@@ -23,6 +23,11 @@
   "requirements": "iOS 17 ve üzeri",
   "trial": "Premium bir haftalık ücretsiz denemeyle başlar"
  },
+ "film": {
+  "label": "50 saniyede Spendry",
+  "sound_on": "Sesi aç",
+  "sound_off": "Sesi kapat"
+ },
  "hero": {
   "eyebrow": "Gelir gider, kredi kartı ve borç takibi",
   "title_1": "Kartın, taksitin, borcun.",

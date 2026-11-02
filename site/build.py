@@ -194,6 +194,8 @@ ICONS = {
     "globe": '<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.8 3.8 6 3.8 9.5s-1.2 6.7-3.8 9.5c-2.6-2.8-3.8-6-3.8-9.5S9.4 5.3 12 2.5Z"/>',
     "arrow": '<path d="M4 12h15M13.5 6l6 6-6 6"/>',
     "down": '<path d="M12 4v15M6 13.5l6 6 6-6"/>',
+    "sound-off": '<path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M16 9.5l5 5M21 9.5l-5 5"/>',
+    "sound-on": '<path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11"/>',
     "up": '<path d="M12 20V5M6 10.5l6-6 6 6"/>',
     "plus": '<path d="M12 5v14M5 12h14"/>',
     "close": '<path d="M6 6l12 12M18 6 6 18"/>',
@@ -608,7 +610,7 @@ WIDGETS = [("budget", "s", "wb"), ("health", "s", "wh"), ("balance", "m", "wbal"
            ("networth", "s", "wn"), ("spending", "s", "ws")]
 
 
-def stage_html(lang, c, t):
+def stage_html(lang, c, t, main=True):
     """The first screen and the story after it, in one pinned scene: the words on the left, the phone on the right.
     Scrolling swaps the words for three steps while the phone's screens slide and each step's card grows out of it.
     The words and the phones keep to their own columns at every size, so nothing ever lies over the text."""
@@ -616,7 +618,7 @@ def stage_html(lang, c, t):
     screens, lifts = [], []
     for i, (n, term) in enumerate(STORY):
         screens.append(f'<div class="scr scr-{i}">'
-                       f'{screen(lang, n, "Spendry: " + t[term], "(max-width: 700px) 64vw, 340px", eager=i == 0, fetch_high=i == 0, later=i > 0)}</div>')
+                       f'{screen(lang, n, "Spendry: " + t[term], "(max-width: 700px) 64vw, 340px", eager=i == 0, fetch_high=main and i == 0, later=i > 0)}</div>')
         lifts.append(f'<span class="slot" style="{card_style(lang, n)}"></span>' + card(lang, n, f"lift lift-{i}", later=True))
     caps = "".join(
         f'<div class="cap cap-{i}"><p class="cap-k"><span class="cap-n">{i + 1}/{len(STORY)}</span>{e(t[term])}</p>'
@@ -644,6 +646,52 @@ def stage_html(lang, c, t):
 </div>
 </section>
 <div id="story-end"></div>"""
+
+
+# ---------------------------------------------------------------- the film
+# The 50-second film (made in the app's repository, Tools/StorePreview: FILM=film and film-vertical) opens Home:
+# wide on a computer or tablet, tall on a phone. A language shows it once its own films and stills are in
+# assets/video (film-<lang>-wide.mp4 / .webp, film-<lang>-tall.mp4 / .webp).
+FILM_TALL = "(max-width: 699px)"
+# The still is the film at this second (its words in full; the first frames are a white page), and the film
+# starts there the first time, so nothing jumps when it begins; it loops from the start.
+FILM_STILL = 2
+FILM_UPLOADED = "2026-11-02"
+
+
+def film_files(lang):
+    names = {k: f"film-{lang}-{k}" for k in ("wide", "tall")}
+    there = all(os.path.exists(os.path.join(ROOT, "assets", "video", f"{n}.{x}")) for n in names.values() for x in ("mp4", "webp"))
+    return names if there else None
+
+
+def film_html(lang, c):
+    """Muted and looping, as on a product page. Its still is the page's main picture and shows until the film
+    plays over it; the reader can turn the sound on (the film starts again with it), and it stops while out of
+    view. Readers who ask for less motion get the still and the player's own controls."""
+    files, f = film_files(lang), c.get("film")
+    if not files or not f:
+        return ""
+    w, t = (f"/assets/video/{files[k]}" for k in ("wide", "tall"))
+    v = version(f"assets/video/{files['wide']}.mp4", f"assets/video/{files['tall']}.mp4")
+    return f"""
+<section class="film" data-theme="dark" aria-label="{e(f['label'])}">
+<div class="film-frame">
+<picture><source media="{FILM_TALL}" srcset="{t}.webp?v={v}"><img class="film-still" src="{w}.webp?v={v}" width="1920" height="1080" alt="" fetchpriority="high"></picture>
+<video class="film-v" muted loop playsinline preload="none" data-wide="{w}.mp4?v={v}" data-tall="{t}.mp4?v={v}" aria-label="{e(f['label'])}"></video>
+<button class="film-sound" type="button" aria-pressed="false" aria-label="{e(f['sound_on'])}" data-on="{e(f['sound_on'])}" data-off="{e(f['sound_off'])}">{icon('sound-off', 'ic off')}{icon('sound-on', 'ic on')}</button>
+</div>
+<script>(function(s){{var v=s.querySelector(".film-v"),b=s.querySelector(".film-sound"),m=function(q){{return matchMedia(q).matches}};v.src=m("{FILM_TALL}")?v.dataset.tall:v.dataset.wide;if(m("(prefers-reduced-motion: reduce)")){{v.controls=true;v.preload="metadata";b.hidden=true;return}}v.src+="#t={FILM_STILL}";v.preload="auto";var play=function(){{var p=v.play();if(p&&p.catch)p.catch(function(){{}})}};v.addEventListener("playing",function(){{s.classList.add("playing")}});if("IntersectionObserver" in window)new IntersectionObserver(function(l){{l.forEach(function(x){{if(x.isIntersecting)play();else v.pause()}})}},{{threshold:.2}}).observe(v);else play();b.addEventListener("click",function(){{var on=v.muted;v.muted=!on;if(on&&!b.dataset.heard){{b.dataset.heard=1;v.currentTime=0}}play();b.setAttribute("aria-pressed",String(on));b.setAttribute("aria-label",on?b.dataset.off:b.dataset.on)}})}})(document.currentScript.parentNode)</script>
+</section>"""
+
+
+def film_ld(lang, c):
+    files, f = film_files(lang), c.get("film")
+    if not files or not f:
+        return None
+    return {"@context": "https://schema.org", "@type": "VideoObject", "name": f["label"], "description": c["meta"]["description"],
+            "thumbnailUrl": f"{BASE_URL}/assets/video/{files['wide']}.webp", "contentUrl": f"{BASE_URL}/assets/video/{files['wide']}.mp4",
+            "uploadDate": FILM_UPLOADED, "duration": "PT50S", "inLanguage": lang}
 
 
 def statement_html(lang, c):
@@ -860,8 +908,9 @@ def qr_svg(lang):
 
 def home_page(lang, c, languages):
     t = TERMS.get(lang, TERMS["en"])
+    film = film_html(lang, c)
     body = "".join([
-        stage_html(lang, c, t), statement_html(lang, c), showcase_html(lang, c, t), features_html(lang, c),
+        film, stage_html(lang, c, t, main=not film), statement_html(lang, c), showcase_html(lang, c, t), features_html(lang, c),
         reminders_html(lang, c, t), widgets_html(lang, c), automations_html(lang, c, t), privacy_html(lang, c), faq_html(lang, c),
         tools_html(lang, c), guides_html(lang, c), notes_home_html(lang, c), final_html(lang, c),
     ])
@@ -870,9 +919,16 @@ def home_page(lang, c, languages):
     preload = (f'<link rel="preload" as="image" href="/assets/img/{d}/screen-01.webp" '
                f'imagesrcset="/assets/img/{d}/screen-01-m.webp 603w, /assets/img/{d}/screen-01.webp 1206w" '
                f'imagesizes="(max-width: 700px) 64vw, 340px" fetchpriority="high">\n')
+    files = film_files(lang) if film else None
+    if files:
+        v = version(f"assets/video/{files['wide']}.mp4", f"assets/video/{files['tall']}.mp4")
+        preload = (f'<link rel="preload" as="image" href="/assets/video/{files["tall"]}.webp?v={v}" media="{FILM_TALL}" fetchpriority="high">\n'
+                   f'<link rel="preload" as="image" href="/assets/video/{files["wide"]}.webp?v={v}" media="(min-width: 700px)" fetchpriority="high">\n')
+    ld = [organization_ld() | {"@context": "https://schema.org"}, website_ld(lang, c), app_ld(lang, c, url), faq_ld(c["faq"]["items"])]
+    if film:
+        ld.append(film_ld(lang, c))
     return page(lang, c, "", c["meta"]["title"], c["meta"]["description"], body,
-                [organization_ld() | {"@context": "https://schema.org"}, website_ld(lang, c), app_ld(lang, c, url),
-                 faq_ld(c["faq"]["items"])], languages, "page-home", preload=preload, og_title=c["meta"].get("og_title"))
+                ld, languages, "page-home", preload=preload, og_title=c["meta"].get("og_title"))
 
 
 # ---------------------------------------------------------------- tool pages
