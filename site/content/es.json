@@ -23,6 +23,11 @@
   "requirements": "Requiere iOS 17 o posterior",
   "trial": "Premium incluye una semana gratis"
  },
+ "film": {
+  "label": "Spendry en 50 segundos",
+  "sound_on": "Activar el sonido",
+  "sound_off": "Desactivar el sonido"
+ },
  "hero": {
   "eyebrow": "Presupuestos y deudas en iPhone",
   "title_1": "Tarjetas, préstamos y pagos.",
