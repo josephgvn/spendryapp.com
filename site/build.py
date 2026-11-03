@@ -656,7 +656,9 @@ FILM_TALL = "(max-width: 699px)"
 # The still is the film at this second (its words in full; the first frames are a white page), and the film
 # starts there the first time, so nothing jumps when it begins; it loops from the start.
 FILM_STILL = 2
-FILM_UPLOADED = "2026-11-02"
+# When each language's film went up: the VideoObject's uploadDate, a time with its zone (Google flagged the bare
+# date on 3 Nov 2026). A language that gets its film needs its line here.
+FILM_UPLOADED = {"en": "2026-11-02T20:21:51+03:00", "tr": "2026-11-02T20:21:51+03:00", "es": "2026-11-03T07:10:58+03:00"}
 
 
 def film_files(lang):
@@ -691,7 +693,7 @@ def film_ld(lang, c):
         return None
     return {"@context": "https://schema.org", "@type": "VideoObject", "name": f["label"], "description": c["meta"]["description"],
             "thumbnailUrl": f"{BASE_URL}/assets/video/{files['wide']}.webp", "contentUrl": f"{BASE_URL}/assets/video/{files['wide']}.mp4",
-            "uploadDate": FILM_UPLOADED, "duration": "PT50S", "inLanguage": lang}
+            "uploadDate": FILM_UPLOADED[lang], "duration": "PT50S", "inLanguage": lang}
 
 
 def statement_html(lang, c):
