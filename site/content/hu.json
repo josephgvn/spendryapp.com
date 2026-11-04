@@ -23,6 +23,11 @@
   "requirements": "iOS 17 vagy újabb szükséges",
   "trial": "A Prémium egy ingyenes héttel indul"
  },
+ "film": {
+  "label": "A Spendry 50 másodpercben",
+  "sound_on": "Hang bekapcsolása",
+  "sound_off": "Hang kikapcsolása"
+ },
  "hero": {
   "eyebrow": "Költségvetés és törlesztés iPhone-ra",
   "title_1": "Kártyák, hitelek, számlák.",

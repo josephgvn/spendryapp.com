@@ -23,6 +23,11 @@
   "requirements": "Kræver iOS 17 eller nyere",
   "trial": "Premium starter med en gratis uge"
  },
+ "film": {
+  "label": "Spendry på 50 sekunder",
+  "sound_on": "Slå lyden til",
+  "sound_off": "Slå lyden fra"
+ },
  "hero": {
   "eyebrow": "Budget og gældsafvikling til iPhone",
   "title_1": "Kort, lån og regninger.",

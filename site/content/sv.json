@@ -23,6 +23,11 @@
   "requirements": "Kräver iOS 17 eller senare",
   "trial": "Premium börjar med en gratis vecka"
  },
+ "film": {
+  "label": "Spendry på 50 sekunder",
+  "sound_on": "Slå på ljudet",
+  "sound_off": "Stäng av ljudet"
+ },
  "hero": {
   "eyebrow": "Budget och skuldfrihet för iPhone",
   "title_1": "Kort, lån och räkningar.",

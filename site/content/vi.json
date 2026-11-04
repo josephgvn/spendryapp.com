@@ -23,6 +23,11 @@
   "requirements": "Yêu cầu iOS 17 trở lên",
   "trial": "Bản Premium bắt đầu với một tuần miễn phí"
  },
+ "film": {
+  "label": "Spendry trong 50 giây",
+  "sound_on": "Bật âm thanh",
+  "sound_off": "Tắt âm thanh"
+ },
  "hero": {
   "eyebrow": "Ngân sách và trả nợ cho iPhone",
   "title_1": "Mọi thẻ, khoản vay, hóa đơn.",

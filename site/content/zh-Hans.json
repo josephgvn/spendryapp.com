@@ -23,6 +23,11 @@
   "requirements": "需要 iOS 17 或更高版本",
   "trial": "高级版先享一周免费试用"
  },
+ "film": {
+  "label": "50 秒了解 Spendry",
+  "sound_on": "打开声音",
+  "sound_off": "关闭声音"
+ },
  "hero": {
   "eyebrow": "iPhone 预算与债务还清工具",
   "title_1": "所有卡片、贷款与账单",

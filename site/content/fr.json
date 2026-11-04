@@ -23,6 +23,11 @@
   "requirements": "Nécessite iOS 17 ou version ultérieure",
   "trial": "Version Premium avec une semaine d'essai gratuit"
  },
+ "film": {
+  "label": "Spendry en 50 secondes",
+  "sound_on": "Activer le son",
+  "sound_off": "Couper le son"
+ },
  "hero": {
   "eyebrow": "Budget et dettes sur iPhone",
   "title_1": "Cartes, prêts et factures.",

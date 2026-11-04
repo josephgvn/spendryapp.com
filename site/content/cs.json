@@ -23,6 +23,11 @@
   "requirements": "Vyžaduje iOS 17 nebo novější",
   "trial": "Předplatné začíná týdnem zdarma"
  },
+ "film": {
+  "label": "Spendry za 50 sekund",
+  "sound_on": "Zapnout zvuk",
+  "sound_off": "Vypnout zvuk"
+ },
  "hero": {
   "eyebrow": "Rozpočty a splácení dluhů pro iPhone",
   "title_1": "Karty, půjčky i účty.",

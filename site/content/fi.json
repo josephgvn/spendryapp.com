@@ -23,6 +23,11 @@
   "requirements": "Vaatii iOS 17:n tai uudemman",
   "trial": "Premium alkaa ilmaisella viikolla"
  },
+ "film": {
+  "label": "Spendry 50 sekunnissa",
+  "sound_on": "Äänet päälle",
+  "sound_off": "Äänet pois päältä"
+ },
  "hero": {
   "eyebrow": "Budjetointi ja velkojen maksu iPhonelle",
   "title_1": "Kaikki kortit ja laskut.",

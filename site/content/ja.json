@@ -23,6 +23,11 @@
   "requirements": "iOS 17以降が必要",
   "trial": "プレミアムは1週間の無料体験から"
  },
+ "film": {
+  "label": "50秒でわかるSpendry",
+  "sound_on": "音声をオンにする",
+  "sound_off": "音声をオフにする"
+ },
  "hero": {
   "eyebrow": "iPhoneのための予算と借入返済アプリ",
   "title_1": "カードやローンを、",

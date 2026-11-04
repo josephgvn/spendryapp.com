@@ -23,6 +23,11 @@
   "requirements": "Wymaga systemu iOS 17 lub nowszego",
   "trial": "Wersja Premium z darmowym tygodniem na start"
  },
+ "film": {
+  "label": "Spendry w 50 sekund",
+  "sound_on": "Włącz dźwięk",
+  "sound_off": "Wyłącz dźwięk"
+ },
  "hero": {
   "eyebrow": "Budżet i spłata długów na iPhone",
   "title_1": "Karty, kredyty i rachunki.",

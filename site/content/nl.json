@@ -23,6 +23,11 @@
   "requirements": "Vereist iOS 17 of nieuwer",
   "trial": "Probeer Premium een week gratis"
  },
+ "film": {
+  "label": "Spendry in 50 seconden",
+  "sound_on": "Geluid aanzetten",
+  "sound_off": "Geluid uitzetten"
+ },
  "hero": {
   "eyebrow": "Budget en schulden aflossen voor iPhone",
   "title_1": "Elke kaart, lening en rekening.",

@@ -23,6 +23,11 @@
   "requirements": "Memerlukan iOS 17 atau lebih baru",
   "trial": "Premium dimulai dengan uji coba gratis 1 minggu"
  },
+ "film": {
+  "label": "Spendry dalam 50 detik",
+  "sound_on": "Nyalakan suara",
+  "sound_off": "Matikan suara"
+ },
  "hero": {
   "eyebrow": "Anggaran dan pelunasan utang untuk iPhone",
   "title_1": "Semua kartu dan tagihan.",

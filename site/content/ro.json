@@ -23,6 +23,11 @@
   "requirements": "Necesită iOS 17 sau o versiune ulterioară",
   "trial": "Abonamentul Premium începe cu o săptămână gratuită"
  },
+ "film": {
+  "label": "Spendry în 50 de secunde",
+  "sound_on": "Pornește sunetul",
+  "sound_off": "Oprește sunetul"
+ },
  "hero": {
   "eyebrow": "Buget și achitare datorii pentru iPhone",
   "title_1": "Carduri, credite, facturi.",

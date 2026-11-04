@@ -23,6 +23,11 @@
   "requirements": "需要 iOS 17 或以上版本",
   "trial": "Premium 提供首週免費試用"
  },
+ "film": {
+  "label": "50 秒認識 Spendry",
+  "sound_on": "開啟聲音",
+  "sound_off": "關閉聲音"
+ },
  "hero": {
   "eyebrow": "專為 iPhone 設計的預算與債務還清工具",
   "title_1": "卡片、貸款與帳單",

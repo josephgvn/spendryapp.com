@@ -23,6 +23,11 @@
   "requirements": "Requer o iOS 17 ou posterior",
   "trial": "O Premium inclui uma semana grátis"
  },
+ "film": {
+  "label": "O Spendry em 50 segundos",
+  "sound_on": "Ligar o som",
+  "sound_off": "Desligar o som"
+ },
  "hero": {
   "eyebrow": "Orçamento e dívidas no iPhone",
   "title_1": "Cartões, contas e créditos.",

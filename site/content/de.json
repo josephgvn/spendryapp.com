@@ -23,6 +23,11 @@
   "requirements": "Erfordert iOS 17 oder neuer",
   "trial": "Premium beginnt mit einer Probewoche"
  },
+ "film": {
+  "label": "Spendry in 50 Sekunden",
+  "sound_on": "Ton einschalten",
+  "sound_off": "Ton ausschalten"
+ },
  "hero": {
   "eyebrow": "Budgets und Schuldenabbau für iPhone",
   "title_1": "Karten, Kredite, Rechnungen.",

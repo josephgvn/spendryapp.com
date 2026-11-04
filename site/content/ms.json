@@ -23,6 +23,11 @@
   "requirements": "Memerlukan iOS 17 atau lebih baharu",
   "trial": "Premium bermula dengan seminggu percuma"
  },
+ "film": {
+  "label": "Spendry dalam 50 saat",
+  "sound_on": "Hidupkan bunyi",
+  "sound_off": "Matikan bunyi"
+ },
  "hero": {
   "eyebrow": "Bajet dan bayar hutang untuk iPhone",
   "title_1": "Semua kad, pinjaman, bil.",
