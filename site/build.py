@@ -660,6 +660,7 @@ FILM_STILL = 2
 # date on 3 Nov 2026). A language that gets its film needs its line here.
 FILM_UPLOADED = {"en": "2026-11-02T20:21:51+03:00", "tr": "2026-11-02T20:21:51+03:00", "es": "2026-11-03T07:10:58+03:00"}
 FILM_UPLOADED.update(dict.fromkeys("es-MX id ja ru th".split(), "2026-11-04T03:40:59+03:00"))
+FILM_UPLOADED.update(dict.fromkeys("ar cs de fr fr-CA he hi it ko ms pl pt-BR uk vi zh-Hans zh-Hant".split(), "2026-11-04T12:51:00+03:00"))
 
 
 def film_files(lang):
