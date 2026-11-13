@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daycamp Support</title>
+<style>
+  :root { color-scheme: dark light; --bg: #000; --ink: #F6F6F6; --ink2: rgba(246,246,246,.66); --rule: rgba(246,246,246,.14); --signal: #F2551D; }
+  @media (prefers-color-scheme: light) { :root { --bg: #FFF; --ink: #111; --ink2: rgba(17,17,17,.62); --rule: rgba(17,17,17,.12); --signal: #C8410F; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  main { max-width: 660px; margin: 0 auto; padding: 56px 20px 96px; }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--ink2); font-weight: 600; font-size: 15px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--signal); }
+  h1 { font: 800 44px/1.05 -apple-system, BlinkMacSystemFont, sans-serif; font-stretch: expanded; letter-spacing: -0.5px; margin: 20px 0 8px; }
+  h2 { font-size: 20px; margin: 36px 0 6px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  .muted { color: var(--ink2); font-size: 15px; }
+  a { color: var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><span class="dot"></span>Daycamp</div>
+  <h1>Support</h1>
+  <p>Write to <a href="mailto:support@spendryapp.com">support@spendryapp.com</a>. Replies usually come within two working days.</p>
+
+  <h2>Where is my data?</h2>
+  <p>Only on your iPhone, in Daycamp's own storage. Nothing is uploaded and there is no account. Settings &rsaquo; Data exports a copy of everything (JSON) or your journal (Markdown) whenever you want one.</p>
+
+  <h2>How do I move to a new iPhone?</h2>
+  <p>Your Daycamp data moves with your iPhone backup: restore the new iPhone from an iCloud or computer backup, or use Quick Start. Exported files are a copy to keep; they cannot be imported back yet.</p>
+
+  <h2>A habit does not fill in from Apple Health</h2>
+  <p>On the Hero tab, open Everything else &rsaquo; Apple Integrations and connect Apple Health. If it is connected, open Settings on your iPhone, then Privacy &amp; Security &rsaquo; Health &rsaquo; Daycamp, and allow the categories the habit uses.</p>
+
+  <h2>A place automation does not run</h2>
+  <p>Logging and timing at a place need location access Always: Settings &rsaquo; Privacy &amp; Security &rsaquo; Location Services &rsaquo; Daycamp &rsaquo; Always. With While Using, Daycamp can still remind you when you arrive.</p>
+
+  <h2>How do I change the size of a glass of water?</h2>
+  <p>On Today, tap the arrow next to the water button and choose Glass Size, or open Water and change A glass is. The size you set is what one tap adds, in widgets and with Siri too.</p>
+
+  <h2>Restore or manage a purchase</h2>
+  <p>In Daycamp, open the Hero tab, then Settings &rsaquo; Restore Purchases. To change or cancel a subscription, use Manage Subscription there, or open Settings on your iPhone, tap your name, then Subscriptions.</p>
+
+  <h2>How do I delete everything?</h2>
+  <p>Settings &rsaquo; Start Fresh removes your habits, journal, tasks and progress and keeps your settings. Erase Everything removes all of it. Deleting the app also deletes its data from your iPhone.</p>
+
+  <p class="muted" style="margin-top: 40px;"><a href="/daycamp-privacy-policy">Privacy Policy</a></p>
+</main>
+</body>
+</html>
